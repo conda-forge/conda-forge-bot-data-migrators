@@ -18217,6 +18217,10 @@
           },
           {
             "source": "cmake",
+            "target": "miniz"
+          },
+          {
+            "source": "cmake",
             "target": "minizip"
           },
           {
@@ -52764,6 +52768,10 @@
             "target": "qt-webengine"
           },
           {
+            "source": "miniz",
+            "target": "mujoco"
+          },
+          {
             "source": "ml_dtypes",
             "target": "gymnasium"
           },
@@ -55770,6 +55778,10 @@
           {
             "source": "ninja",
             "target": "mimalloc"
+          },
+          {
+            "source": "ninja",
+            "target": "miniz"
           },
           {
             "source": "ninja",
@@ -103461,7 +103473,15 @@
           },
           {
             "source": "zstd",
+            "target": "allennlp"
+          },
+          {
+            "source": "zstd",
             "target": "arrow-cpp"
+          },
+          {
+            "source": "zstd",
+            "target": "ast-serialize"
           },
           {
             "source": "zstd",
@@ -103517,6 +103537,10 @@
           },
           {
             "source": "zstd",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "zstd",
             "target": "cds-crtools"
           },
           {
@@ -103542,6 +103566,18 @@
           {
             "source": "zstd",
             "target": "cmdstan"
+          },
+          {
+            "source": "zstd",
+            "target": "conda"
+          },
+          {
+            "source": "zstd",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "zstd",
+            "target": "conda-standalone"
           },
           {
             "source": "zstd",
@@ -103585,7 +103621,23 @@
           },
           {
             "source": "zstd",
+            "target": "cwinpy"
+          },
+          {
+            "source": "zstd",
+            "target": "cwltool"
+          },
+          {
+            "source": "zstd",
+            "target": "dask-sql"
+          },
+          {
+            "source": "zstd",
             "target": "deno"
+          },
+          {
+            "source": "zstd",
+            "target": "dftd3-python"
           },
           {
             "source": "zstd",
@@ -103621,11 +103673,27 @@
           },
           {
             "source": "zstd",
+            "target": "fabio"
+          },
+          {
+            "source": "zstd",
             "target": "faiss-split"
           },
           {
             "source": "zstd",
             "target": "fastar"
+          },
+          {
+            "source": "zstd",
+            "target": "fenics-basix"
+          },
+          {
+            "source": "zstd",
+            "target": "fenics-dolfinx"
+          },
+          {
+            "source": "zstd",
+            "target": "fiona"
           },
           {
             "source": "zstd",
@@ -103701,6 +103769,10 @@
           },
           {
             "source": "zstd",
+            "target": "gymnasium"
+          },
+          {
+            "source": "zstd",
             "target": "hdf5"
           },
           {
@@ -103725,11 +103797,19 @@
           },
           {
             "source": "zstd",
+            "target": "hypothesis"
+          },
+          {
+            "source": "zstd",
             "target": "ilastik-carving-tools"
           },
           {
             "source": "zstd",
             "target": "imagecodecs"
+          },
+          {
+            "source": "zstd",
+            "target": "indexed_gzip"
           },
           {
             "source": "zstd",
@@ -103742,6 +103822,14 @@
           {
             "source": "zstd",
             "target": "kahip"
+          },
+          {
+            "source": "zstd",
+            "target": "kaolin"
+          },
+          {
+            "source": "zstd",
+            "target": "kealib"
           },
           {
             "source": "zstd",
@@ -103761,6 +103849,10 @@
           },
           {
             "source": "zstd",
+            "target": "laspy"
+          },
+          {
+            "source": "zstd",
             "target": "laura"
           },
           {
@@ -103774,6 +103866,10 @@
           {
             "source": "zstd",
             "target": "libarchive"
+          },
+          {
+            "source": "zstd",
+            "target": "libcst"
           },
           {
             "source": "zstd",
@@ -103845,6 +103941,10 @@
           },
           {
             "source": "zstd",
+            "target": "litellm"
+          },
+          {
+            "source": "zstd",
             "target": "lld"
           },
           {
@@ -103869,7 +103969,15 @@
           },
           {
             "source": "zstd",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "zstd",
             "target": "mctc-lib"
+          },
+          {
+            "source": "zstd",
+            "target": "mcxtrace-suite"
           },
           {
             "source": "zstd",
@@ -103882,6 +103990,10 @@
           {
             "source": "zstd",
             "target": "micromamba"
+          },
+          {
+            "source": "zstd",
+            "target": "minijinja"
           },
           {
             "source": "zstd",
@@ -103937,6 +104049,10 @@
           },
           {
             "source": "zstd",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "zstd",
             "target": "nccl"
           },
           {
@@ -103965,7 +104081,19 @@
           },
           {
             "source": "zstd",
+            "target": "netcdf4"
+          },
+          {
+            "source": "zstd",
+            "target": "nh3"
+          },
+          {
+            "source": "zstd",
             "target": "nim"
+          },
+          {
+            "source": "zstd",
+            "target": "nitime"
           },
           {
             "source": "zstd",
@@ -104089,6 +104217,10 @@
           },
           {
             "source": "zstd",
+            "target": "pillow"
+          },
+          {
+            "source": "zstd",
             "target": "pinocchio"
           },
           {
@@ -104117,6 +104249,10 @@
           },
           {
             "source": "zstd",
+            "target": "py-rattler"
+          },
+          {
+            "source": "zstd",
             "target": "pyarrow"
           },
           {
@@ -104137,7 +104273,31 @@
           },
           {
             "source": "zstd",
+            "target": "pygmo"
+          },
+          {
+            "source": "zstd",
+            "target": "pyinterp"
+          },
+          {
+            "source": "zstd",
             "target": "pykdtree"
+          },
+          {
+            "source": "zstd",
+            "target": "pykrige"
+          },
+          {
+            "source": "zstd",
+            "target": "pynacl"
+          },
+          {
+            "source": "zstd",
+            "target": "pyrage"
+          },
+          {
+            "source": "zstd",
+            "target": "pyshtools"
           },
           {
             "source": "zstd",
@@ -104161,7 +104321,15 @@
           },
           {
             "source": "zstd",
+            "target": "pyzmq"
+          },
+          {
+            "source": "zstd",
             "target": "qt-main"
+          },
+          {
+            "source": "zstd",
+            "target": "quarto"
           },
           {
             "source": "zstd",
@@ -104249,6 +104417,14 @@
           },
           {
             "source": "zstd",
+            "target": "rasterio"
+          },
+          {
+            "source": "zstd",
+            "target": "ray-packages"
+          },
+          {
+            "source": "zstd",
             "target": "rerun-sdk"
           },
           {
@@ -104265,6 +104441,10 @@
           },
           {
             "source": "zstd",
+            "target": "rpy2"
+          },
+          {
+            "source": "zstd",
             "target": "rsync"
           },
           {
@@ -104273,11 +104453,23 @@
           },
           {
             "source": "zstd",
+            "target": "sagelib"
+          },
+          {
+            "source": "zstd",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "zstd",
             "target": "scikit-learn"
           },
           {
             "source": "zstd",
             "target": "scipy"
+          },
+          {
+            "source": "zstd",
+            "target": "shap"
           },
           {
             "source": "zstd",
@@ -104373,11 +104565,27 @@
           },
           {
             "source": "zstd",
+            "target": "tensorflow"
+          },
+          {
+            "source": "zstd",
+            "target": "thinc"
+          },
+          {
+            "source": "zstd",
             "target": "tiledb"
           },
           {
             "source": "zstd",
+            "target": "tokenizers"
+          },
+          {
+            "source": "zstd",
             "target": "tomopy"
+          },
+          {
+            "source": "zstd",
+            "target": "torchdata"
           },
           {
             "source": "zstd",
@@ -104417,11 +104625,31 @@
           },
           {
             "source": "zstd",
+            "target": "watchfiles"
+          },
+          {
+            "source": "zstd",
+            "target": "web3"
+          },
+          {
+            "source": "zstd",
+            "target": "websockets"
+          },
+          {
+            "source": "zstd",
             "target": "winpthreads"
           },
           {
             "source": "zstd",
+            "target": "xcape"
+          },
+          {
+            "source": "zstd",
             "target": "xeus-cling"
+          },
+          {
+            "source": "zstd",
+            "target": "xeus-octave"
           },
           {
             "source": "zstd",
@@ -104430,6 +104658,10 @@
           {
             "source": "zstd",
             "target": "xtb"
+          },
+          {
+            "source": "zstd",
+            "target": "xtb-python"
           },
           {
             "source": "zstd",
@@ -110848,6 +111080,12 @@
             "id": "minio-server",
             "payload": {
               "__lazy_json__": "node_attrs/minio-server.json"
+            }
+          },
+          {
+            "id": "miniz",
+            "payload": {
+              "__lazy_json__": "node_attrs/miniz.json"
             }
           },
           {
