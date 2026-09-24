@@ -21452,6 +21452,10 @@
             "target": "qt-webengine"
           },
           {
+            "source": "miniz",
+            "target": "mujoco"
+          },
+          {
             "source": "minuit2",
             "target": "cosmosis"
           },
@@ -55613,10 +55617,6 @@
           },
           {
             "source": "zstandard",
-            "target": "fps-terminals"
-          },
-          {
-            "source": "zstandard",
             "target": "funcparserlib"
           },
           {
@@ -55626,10 +55626,6 @@
           {
             "source": "zstandard",
             "target": "httpstan"
-          },
-          {
-            "source": "zstandard",
-            "target": "llama-cpp-python"
           },
           {
             "source": "zstandard",
@@ -63254,6 +63250,12 @@
             "id": "minio-server",
             "payload": {
               "__lazy_json__": "node_attrs/minio-server.json"
+            }
+          },
+          {
+            "id": "miniz",
+            "payload": {
+              "__lazy_json__": "node_attrs/miniz.json"
             }
           },
           {
@@ -73635,7 +73637,6 @@
         "pmw",
         "pocl",
         "poco",
-        "podman",
         "poetry",
         "polars",
         "polars-io-tools",
@@ -74686,6 +74687,7 @@
         "metis",
         "mimalloc",
         "minio-server",
+        "miniz",
         "minuit2",
         "moltenvk",
         "mpdecimal",
