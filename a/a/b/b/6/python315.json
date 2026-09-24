@@ -1568,6 +1568,12 @@
             }
           },
           {
+            "id": "py-rust-stemmers",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-rust-stemmers.json"
+            }
+          },
+          {
             "id": "pyabel",
             "payload": {
               "__lazy_json__": "node_attrs/pyabel.json"
@@ -2192,6 +2198,12 @@
             }
           },
           {
+            "id": "selectolax",
+            "payload": {
+              "__lazy_json__": "node_attrs/selectolax.json"
+            }
+          },
+          {
             "id": "seml",
             "payload": {
               "__lazy_json__": "node_attrs/seml.json"
@@ -2435,6 +2447,12 @@
             "id": "timemory",
             "payload": {
               "__lazy_json__": "node_attrs/timemory.json"
+            }
+          },
+          {
+            "id": "tkwant",
+            "payload": {
+              "__lazy_json__": "node_attrs/tkwant.json"
             }
           },
           {
@@ -15678,6 +15696,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -31882,6 +31904,10 @@
           },
           {
             "source": "numpy",
+            "target": "eon"
+          },
+          {
+            "source": "numpy",
             "target": "eqcorrscan"
           },
           {
@@ -44833,6 +44859,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "py-rust-stemmers",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "py-sr25519-bindings",
             "target": "conda-forge-pinning"
           },
@@ -51367,6 +51397,10 @@
           {
             "source": "pytorch-cpu",
             "target": "endstate_correction"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "eon"
           },
           {
             "source": "pytorch-cpu",
@@ -63338,6 +63372,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -73464,6 +73502,12 @@
             }
           },
           {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
             "id": "ephem",
             "payload": {
               "__lazy_json__": "node_attrs/ephem.json"
@@ -80487,6 +80531,12 @@
             "id": "py-rattler",
             "payload": {
               "__lazy_json__": "node_attrs/py-rattler.json"
+            }
+          },
+          {
+            "id": "py-rust-stemmers",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-rust-stemmers.json"
             }
           },
           {
