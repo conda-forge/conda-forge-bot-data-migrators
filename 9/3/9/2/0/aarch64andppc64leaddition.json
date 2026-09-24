@@ -31257,7 +31257,7 @@
           },
           {
             "source": "gn",
-            "target": "skia-pathops"
+            "target": "skia"
           },
           {
             "source": "gnupg",
@@ -56437,7 +56437,7 @@
           },
           {
             "source": "ninja",
-            "target": "skia-pathops"
+            "target": "skia"
           },
           {
             "source": "ninja",
@@ -59070,6 +59070,10 @@
           {
             "source": "nushell",
             "target": "pixi"
+          },
+          {
+            "source": "nushell",
+            "target": "skia"
           },
           {
             "source": "nvidia-cutlass-dsl",
@@ -65994,6 +65998,10 @@
           {
             "source": "pkg-config",
             "target": "singular"
+          },
+          {
+            "source": "pkg-config",
+            "target": "skia"
           },
           {
             "source": "pkg-config",
@@ -73993,7 +74001,7 @@
           },
           {
             "source": "python",
-            "target": "skia-pathops"
+            "target": "skia"
           },
           {
             "source": "python",
@@ -117859,12 +117867,6 @@
             }
           },
           {
-            "id": "skia-pathops",
-            "payload": {
-              "__lazy_json__": "node_attrs/skia-pathops.json"
-            }
-          },
-          {
             "id": "slang",
             "payload": {
               "__lazy_json__": "node_attrs/slang.json"
@@ -119866,6 +119868,12 @@
             "id": "reflink",
             "payload": {
               "__lazy_json__": "node_attrs/reflink.json"
+            }
+          },
+          {
+            "id": "skia",
+            "payload": {
+              "__lazy_json__": "node_attrs/skia.json"
             }
           }
         ]
