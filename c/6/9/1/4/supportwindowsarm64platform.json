@@ -1017,6 +1017,10 @@
           },
           {
             "source": "libuv",
+            "target": "libwebsockets"
+          },
+          {
+            "source": "libuv",
             "target": "r-fs"
           },
           {
@@ -1042,6 +1046,10 @@
           {
             "source": "libwebp",
             "target": "qt-main"
+          },
+          {
+            "source": "libwebsockets",
+            "target": "ttyd"
           },
           {
             "source": "libxcb",
@@ -1378,6 +1386,10 @@
           {
             "source": "openssl",
             "target": "libssh2"
+          },
+          {
+            "source": "openssl",
+            "target": "libwebsockets"
           },
           {
             "source": "openssl",
@@ -3402,6 +3414,12 @@
             "id": "libwebp-base",
             "payload": {
               "__lazy_json__": "node_attrs/libwebp-base.json"
+            }
+          },
+          {
+            "id": "libwebsockets",
+            "payload": {
+              "__lazy_json__": "node_attrs/libwebsockets.json"
             }
           },
           {
