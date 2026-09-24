@@ -878,12 +878,6 @@
             }
           },
           {
-            "id": "igl",
-            "payload": {
-              "__lazy_json__": "node_attrs/igl.json"
-            }
-          },
-          {
             "id": "imate",
             "payload": {
               "__lazy_json__": "node_attrs/imate.json"
@@ -1067,6 +1061,12 @@
             "id": "linearmodels",
             "payload": {
               "__lazy_json__": "node_attrs/linearmodels.json"
+            }
+          },
+          {
+            "id": "liteparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/liteparse.json"
             }
           },
           {
@@ -15693,10 +15693,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "eon",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "ephem",
             "target": "aipy"
           },
@@ -23151,6 +23147,10 @@
           {
             "source": "litellm",
             "target": "headroom-ai"
+          },
+          {
+            "source": "liteparse",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "livekit-blingfire",
@@ -31891,10 +31891,6 @@
           {
             "source": "numpy",
             "target": "eodie"
-          },
-          {
-            "source": "numpy",
-            "target": "eon"
           },
           {
             "source": "numpy",
@@ -51390,10 +51386,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "eon"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -63366,10 +63358,6 @@
           },
           {
             "source": "tbb",
-            "target": "eon"
-          },
-          {
-            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -73496,12 +73484,6 @@
             }
           },
           {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
-            }
-          },
-          {
             "id": "ephem",
             "payload": {
               "__lazy_json__": "node_attrs/ephem.json"
@@ -77069,6 +77051,12 @@
             "id": "litellm",
             "payload": {
               "__lazy_json__": "node_attrs/litellm.json"
+            }
+          },
+          {
+            "id": "liteparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/liteparse.json"
             }
           },
           {
