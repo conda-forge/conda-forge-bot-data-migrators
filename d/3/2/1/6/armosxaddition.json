@@ -18713,6 +18713,10 @@
           },
           {
             "source": "libuv",
+            "target": "libwebsockets"
+          },
+          {
+            "source": "libuv",
             "target": "luv"
           },
           {
@@ -18890,6 +18894,10 @@
           {
             "source": "libwebp",
             "target": "torchvision"
+          },
+          {
+            "source": "libwebsockets",
+            "target": "ttyd"
           },
           {
             "source": "libxc",
@@ -28442,6 +28450,10 @@
           {
             "source": "openssl",
             "target": "libusockets"
+          },
+          {
+            "source": "openssl",
+            "target": "libwebsockets"
           },
           {
             "source": "openssl",
@@ -62610,6 +62622,12 @@
             "id": "libwebp-base",
             "payload": {
               "__lazy_json__": "node_attrs/libwebp-base.json"
+            }
+          },
+          {
+            "id": "libwebsockets",
+            "payload": {
+              "__lazy_json__": "node_attrs/libwebsockets.json"
             }
           },
           {
