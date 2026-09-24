@@ -296,12 +296,6 @@
             }
           },
           {
-            "id": "chemcat",
-            "payload": {
-              "__lazy_json__": "node_attrs/chemcat.json"
-            }
-          },
-          {
             "id": "cherrypy",
             "payload": {
               "__lazy_json__": "node_attrs/cherrypy.json"
@@ -470,12 +464,6 @@
             }
           },
           {
-            "id": "dcmstack",
-            "payload": {
-              "__lazy_json__": "node_attrs/dcmstack.json"
-            }
-          },
-          {
             "id": "dealii",
             "payload": {
               "__lazy_json__": "node_attrs/dealii.json"
@@ -569,12 +557,6 @@
             "id": "eatpy",
             "payload": {
               "__lazy_json__": "node_attrs/eatpy.json"
-            }
-          },
-          {
-            "id": "ecell4_base",
-            "payload": {
-              "__lazy_json__": "node_attrs/ecell4_base.json"
             }
           },
           {
@@ -866,12 +848,6 @@
             }
           },
           {
-            "id": "implicit",
-            "payload": {
-              "__lazy_json__": "node_attrs/implicit.json"
-            }
-          },
-          {
             "id": "imreg_dft",
             "payload": {
               "__lazy_json__": "node_attrs/imreg_dft.json"
@@ -995,12 +971,6 @@
             "id": "libefp",
             "payload": {
               "__lazy_json__": "node_attrs/libefp.json"
-            }
-          },
-          {
-            "id": "libmetgem",
-            "payload": {
-              "__lazy_json__": "node_attrs/libmetgem.json"
             }
           },
           {
@@ -15618,10 +15588,6 @@
           },
           {
             "source": "eodie",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -31823,10 +31789,6 @@
           {
             "source": "numpy",
             "target": "eodie"
-          },
-          {
-            "source": "numpy",
-            "target": "eon"
           },
           {
             "source": "numpy",
@@ -51318,10 +51280,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "eon"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -63286,10 +63244,6 @@
           },
           {
             "source": "tbb",
-            "target": "eon"
-          },
-          {
-            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -73413,12 +73367,6 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
-            }
-          },
-          {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
