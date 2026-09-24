@@ -18061,10 +18061,6 @@
           },
           {
             "source": "cmake",
-            "target": "libwebsockets"
-          },
-          {
-            "source": "cmake",
             "target": "libxc"
           },
           {
@@ -48349,7 +48345,7 @@
           },
           {
             "source": "libuv",
-            "target": "libwebsockets"
+            "target": "gz-launch"
           },
           {
             "source": "libuv",
@@ -48518,14 +48514,6 @@
           {
             "source": "libwebp",
             "target": "torchvision"
-          },
-          {
-            "source": "libwebsockets",
-            "target": "gz-launch"
-          },
-          {
-            "source": "libwebsockets",
-            "target": "ttyd"
           },
           {
             "source": "libxc",
@@ -55673,10 +55661,6 @@
           },
           {
             "source": "ninja",
-            "target": "libwebsockets"
-          },
-          {
-            "source": "ninja",
             "target": "libxc"
           },
           {
@@ -60861,6 +60845,10 @@
           },
           {
             "source": "openssl",
+            "target": "gz-launch"
+          },
+          {
+            "source": "openssl",
             "target": "hdf5"
           },
           {
@@ -60962,10 +60950,6 @@
           {
             "source": "openssl",
             "target": "libssh2"
-          },
-          {
-            "source": "openssl",
-            "target": "libwebsockets"
           },
           {
             "source": "openssl",
@@ -64850,10 +64834,6 @@
           {
             "source": "pkg-config",
             "target": "libvips"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libwebsockets"
           },
           {
             "source": "pkg-config",
@@ -110548,12 +110528,6 @@
             "id": "libwebp-base",
             "payload": {
               "__lazy_json__": "node_attrs/libwebp-base.json"
-            }
-          },
-          {
-            "id": "libwebsockets",
-            "payload": {
-              "__lazy_json__": "node_attrs/libwebsockets.json"
             }
           },
           {
