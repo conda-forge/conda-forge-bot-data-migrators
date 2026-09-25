@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "r-validate",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-validate.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -8930,6 +8937,10 @@
           {
             "source": "bash",
             "target": "r-v8"
+          },
+          {
+            "source": "bash",
+            "target": "r-validate"
           },
           {
             "source": "bash",
@@ -21142,6 +21153,10 @@
           {
             "source": "coreutils",
             "target": "r-hdf5r"
+          },
+          {
+            "source": "coreutils",
+            "target": "r-validate"
           },
           {
             "source": "coreutils",
@@ -47258,6 +47273,10 @@
           {
             "source": "libtool",
             "target": "r-v8"
+          },
+          {
+            "source": "libtool",
+            "target": "r-validate"
           },
           {
             "source": "libtool",
@@ -79389,6 +79408,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-validate"
+          },
+          {
+            "source": "r-base",
             "target": "r-vctrs"
           },
           {
@@ -86681,6 +86704,10 @@
           },
           {
             "source": "r-yaml",
+            "target": "r-validate"
+          },
+          {
+            "source": "r-yaml",
             "target": "xgboost"
           },
           {
@@ -90614,6 +90641,10 @@
           {
             "source": "sed",
             "target": "r-textshaping"
+          },
+          {
+            "source": "sed",
+            "target": "r-validate"
           },
           {
             "source": "sed",
@@ -101830,6 +101861,10 @@
           {
             "source": "zip",
             "target": "r-tkrplot"
+          },
+          {
+            "source": "zip",
+            "target": "r-validate"
           },
           {
             "source": "zip",
@@ -117867,6 +117902,12 @@
             }
           },
           {
+            "id": "r-validate",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-validate.json"
+            }
+          },
+          {
             "id": "r-vctrs",
             "payload": {
               "__lazy_json__": "node_attrs/r-vctrs.json"
@@ -121830,6 +121871,7 @@
         "r-ucminf",
         "r-urca",
         "r-uwot",
+        "r-validate",
         "r-vegan",
         "r-vgam",
         "r-vroom",
