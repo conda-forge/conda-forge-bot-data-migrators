@@ -57,6 +57,10 @@
           {
             "source": "onnx",
             "target": "mlprodict"
+          },
+          {
+            "source": "portalocker",
+            "target": "msal_extensions"
           }
         ],
         "multigraph": false,
@@ -107,12 +111,6 @@
             "id": "amp-atomistics",
             "payload": {
               "__lazy_json__": "node_attrs/amp-atomistics.json"
-            }
-          },
-          {
-            "id": "analisi",
-            "payload": {
-              "__lazy_json__": "node_attrs/analisi.json"
             }
           },
           {
@@ -1082,12 +1080,6 @@
             }
           },
           {
-            "id": "pick",
-            "payload": {
-              "__lazy_json__": "node_attrs/pick.json"
-            }
-          },
-          {
             "id": "piqp",
             "payload": {
               "__lazy_json__": "node_attrs/piqp.json"
@@ -1097,6 +1089,12 @@
             "id": "point_cloud_utils",
             "payload": {
               "__lazy_json__": "node_attrs/point_cloud_utils.json"
+            }
+          },
+          {
+            "id": "portalocker",
+            "payload": {
+              "__lazy_json__": "node_attrs/portalocker.json"
             }
           },
           {
@@ -14940,6 +14938,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -31137,6 +31139,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -50628,6 +50634,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -62592,6 +62602,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72715,6 +72729,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
