@@ -1022,6 +1022,12 @@
             }
           },
           {
+            "id": "ndcctools",
+            "payload": {
+              "__lazy_json__": "node_attrs/ndcctools.json"
+            }
+          },
+          {
             "id": "neo4j-python-driver-rust-ext",
             "payload": {
               "__lazy_json__": "node_attrs/neo4j-python-driver-rust-ext.json"
@@ -2808,10 +2814,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "ipywe"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "itkwidgets"
           },
           {
@@ -3249,10 +3251,6 @@
           {
             "source": "astroid",
             "target": "ijava"
-          },
-          {
-            "source": "astroid",
-            "target": "ipywe"
           },
           {
             "source": "astroid",
@@ -4909,10 +4907,6 @@
           {
             "source": "backports.zstd",
             "target": "ipypublish"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "ipywe"
           },
           {
             "source": "backports.zstd",
@@ -8653,10 +8647,6 @@
           {
             "source": "brotli",
             "target": "ipypublish"
-          },
-          {
-            "source": "brotli",
-            "target": "ipywe"
           },
           {
             "source": "brotli",
@@ -13984,10 +13974,6 @@
           },
           {
             "source": "debugpy",
-            "target": "ipywe"
-          },
-          {
-            "source": "debugpy",
             "target": "itkwidgets"
           },
           {
@@ -15240,6 +15226,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -17933,10 +17923,6 @@
           {
             "source": "greenlet",
             "target": "ipypublish"
-          },
-          {
-            "source": "greenlet",
-            "target": "ipywe"
           },
           {
             "source": "greenlet",
@@ -20687,10 +20673,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "ipywe",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "ira",
             "target": "conda-forge-pinning"
           },
@@ -21929,10 +21911,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "ijava"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "ipywe"
           },
           {
             "source": "lazy-object-proxy",
@@ -27884,10 +27862,6 @@
           },
           {
             "source": "mypy",
-            "target": "ipywe"
-          },
-          {
-            "source": "mypy",
             "target": "itkwidgets"
           },
           {
@@ -31440,6 +31414,10 @@
           },
           {
             "source": "numpy",
+            "target": "eon"
+          },
+          {
+            "source": "numpy",
             "target": "eqcorrscan"
           },
           {
@@ -32461,10 +32439,6 @@
           {
             "source": "numpy",
             "target": "ipyopt"
-          },
-          {
-            "source": "numpy",
-            "target": "ipywe"
           },
           {
             "source": "numpy",
@@ -40788,10 +40762,6 @@
           },
           {
             "source": "pillow",
-            "target": "ipywe"
-          },
-          {
-            "source": "pillow",
             "target": "isce2"
           },
           {
@@ -43097,10 +43067,6 @@
           {
             "source": "psutil",
             "target": "invert4geom"
-          },
-          {
-            "source": "psutil",
-            "target": "ipywe"
           },
           {
             "source": "psutil",
@@ -45748,10 +45714,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "ipywe"
-          },
-          {
-            "source": "pydantic-core",
             "target": "itkwidgets"
           },
           {
@@ -47549,10 +47511,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "ijava"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "ipywe"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -50616,10 +50574,6 @@
           },
           {
             "source": "pytokens",
-            "target": "ipywe"
-          },
-          {
-            "source": "pytokens",
             "target": "itkwidgets"
           },
           {
@@ -50925,6 +50879,10 @@
           {
             "source": "pytorch-cpu",
             "target": "endstate_correction"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "eon"
           },
           {
             "source": "pytorch-cpu",
@@ -51940,10 +51898,6 @@
           },
           {
             "source": "pywin32",
-            "target": "ipywe"
-          },
-          {
-            "source": "pywin32",
             "target": "itkwidgets"
           },
           {
@@ -52436,10 +52390,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "ipywe"
-          },
-          {
-            "source": "pywinpty",
             "target": "itkwidgets"
           },
           {
@@ -52825,10 +52775,6 @@
           {
             "source": "pyzmq",
             "target": "ipypublish"
-          },
-          {
-            "source": "pyzmq",
-            "target": "ipywe"
           },
           {
             "source": "pyzmq",
@@ -54668,10 +54614,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "ipywe"
-          },
-          {
-            "source": "rpds-py",
             "target": "itkwidgets"
           },
           {
@@ -55245,10 +55187,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "ipypublish"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "ipywe"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -58033,10 +57971,6 @@
           {
             "source": "scipy",
             "target": "invert4geom"
-          },
-          {
-            "source": "scipy",
-            "target": "ipywe"
           },
           {
             "source": "scipy",
@@ -62892,6 +62826,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -64688,10 +64626,6 @@
           },
           {
             "source": "tornado",
-            "target": "ipywe"
-          },
-          {
-            "source": "tornado",
             "target": "itkwidgets"
           },
           {
@@ -65789,10 +65723,6 @@
           {
             "source": "ujson",
             "target": "ijava"
-          },
-          {
-            "source": "ujson",
-            "target": "ipywe"
           },
           {
             "source": "ujson",
@@ -73018,6 +72948,12 @@
             }
           },
           {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
             "id": "ephem",
             "payload": {
               "__lazy_json__": "node_attrs/ephem.json"
@@ -75517,12 +75453,6 @@
             "id": "ipypublish",
             "payload": {
               "__lazy_json__": "node_attrs/ipypublish.json"
-            }
-          },
-          {
-            "id": "ipywe",
-            "payload": {
-              "__lazy_json__": "node_attrs/ipywe.json"
             }
           },
           {
