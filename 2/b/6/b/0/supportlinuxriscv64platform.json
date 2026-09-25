@@ -1613,10 +1613,6 @@
           },
           {
             "source": "nodejs",
-            "target": "pnpm"
-          },
-          {
-            "source": "nodejs",
             "target": "pnpm-licenses"
           },
           {
@@ -1834,14 +1830,6 @@
           {
             "source": "pnpm-licenses",
             "target": "playwright"
-          },
-          {
-            "source": "pnpm",
-            "target": "playwright"
-          },
-          {
-            "source": "pnpm",
-            "target": "pnpm-licenses"
           },
           {
             "source": "popt",
@@ -4436,12 +4424,6 @@
             "id": "playwright",
             "payload": {
               "__lazy_json__": "node_attrs/playwright.json"
-            }
-          },
-          {
-            "id": "pnpm",
-            "payload": {
-              "__lazy_json__": "node_attrs/pnpm.json"
             }
           },
           {
