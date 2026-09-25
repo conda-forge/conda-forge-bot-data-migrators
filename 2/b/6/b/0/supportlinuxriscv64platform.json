@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "openexr",
+            "payload": {
+              "__lazy_json__": "node_attrs/openexr.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -3338,6 +3345,10 @@
           {
             "source": "zstd",
             "target": "nodejs"
+          },
+          {
+            "source": "zstd",
+            "target": "openexr"
           },
           {
             "source": "zstd",
