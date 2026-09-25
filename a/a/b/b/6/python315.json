@@ -278,12 +278,6 @@
             }
           },
           {
-            "id": "compas_cgal",
-            "payload": {
-              "__lazy_json__": "node_attrs/compas_cgal.json"
-            }
-          },
-          {
             "id": "compas_libigl",
             "payload": {
               "__lazy_json__": "node_attrs/compas_libigl.json"
@@ -1202,12 +1196,6 @@
             }
           },
           {
-            "id": "pychemia",
-            "payload": {
-              "__lazy_json__": "node_attrs/pychemia.json"
-            }
-          },
-          {
             "id": "pyclesperanto",
             "payload": {
               "__lazy_json__": "node_attrs/pyclesperanto.json"
@@ -1367,6 +1355,12 @@
             "id": "pyqstem",
             "payload": {
               "__lazy_json__": "node_attrs/pyqstem.json"
+            }
+          },
+          {
+            "id": "pyqt",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyqt.json"
             }
           },
           {
@@ -17151,6 +17145,10 @@
           {
             "source": "gnuradio",
             "target": "gnuradio-satellites"
+          },
+          {
+            "source": "gnureadline",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "go2",
@@ -74137,6 +74135,12 @@
             "id": "gnuradio-satellites",
             "payload": {
               "__lazy_json__": "node_attrs/gnuradio-satellites.json"
+            }
+          },
+          {
+            "id": "gnureadline",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnureadline.json"
             }
           },
           {
