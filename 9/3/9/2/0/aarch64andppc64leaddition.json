@@ -4113,6 +4113,10 @@
           },
           {
             "source": "bash",
+            "target": "datavzrd"
+          },
+          {
+            "source": "bash",
             "target": "datefudge"
           },
           {
@@ -6697,11 +6701,15 @@
           },
           {
             "source": "bash",
+            "target": "playwright"
+          },
+          {
+            "source": "bash",
             "target": "plumed"
           },
           {
             "source": "bash",
-            "target": "pnpm"
+            "target": "pnpm-licenses"
           },
           {
             "source": "bash",
@@ -26569,6 +26577,10 @@
           },
           {
             "source": "file",
+            "target": "datavzrd"
+          },
+          {
+            "source": "file",
             "target": "keyutils"
           },
           {
@@ -26597,7 +26609,11 @@
           },
           {
             "source": "file",
-            "target": "pnpm"
+            "target": "playwright"
+          },
+          {
+            "source": "file",
+            "target": "pnpm-licenses"
           },
           {
             "source": "findutils",
@@ -42189,6 +42205,10 @@
           },
           {
             "source": "libtool",
+            "target": "datavzrd"
+          },
+          {
+            "source": "libtool",
             "target": "datefudge"
           },
           {
@@ -44769,11 +44789,15 @@
           },
           {
             "source": "libtool",
+            "target": "playwright"
+          },
+          {
+            "source": "libtool",
             "target": "plumed"
           },
           {
             "source": "libtool",
-            "target": "pnpm"
+            "target": "pnpm-licenses"
           },
           {
             "source": "libtool",
@@ -57077,10 +57101,6 @@
           },
           {
             "source": "nodejs",
-            "target": "pnpm"
-          },
-          {
-            "source": "nodejs",
             "target": "pnpm-licenses"
           },
           {
@@ -66878,18 +66898,6 @@
           {
             "source": "pnpm-licenses",
             "target": "playwright"
-          },
-          {
-            "source": "pnpm",
-            "target": "datavzrd"
-          },
-          {
-            "source": "pnpm",
-            "target": "playwright"
-          },
-          {
-            "source": "pnpm",
-            "target": "pnpm-licenses"
           },
           {
             "source": "pocl",
@@ -89593,6 +89601,10 @@
           },
           {
             "source": "sed",
+            "target": "datavzrd"
+          },
+          {
+            "source": "sed",
             "target": "dcap"
           },
           {
@@ -89865,7 +89877,11 @@
           },
           {
             "source": "sed",
-            "target": "pnpm"
+            "target": "playwright"
+          },
+          {
+            "source": "sed",
+            "target": "pnpm-licenses"
           },
           {
             "source": "sed",
@@ -112924,12 +112940,6 @@
             "id": "pmw",
             "payload": {
               "__lazy_json__": "node_attrs/pmw.json"
-            }
-          },
-          {
-            "id": "pnpm",
-            "payload": {
-              "__lazy_json__": "node_attrs/pnpm.json"
             }
           },
           {
