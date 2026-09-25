@@ -9261,10 +9261,6 @@
           },
           {
             "source": "bash",
-            "target": "soapysdr-module-uhd"
-          },
-          {
-            "source": "bash",
             "target": "socat"
           },
           {
@@ -47333,10 +47329,6 @@
           },
           {
             "source": "libtool",
-            "target": "soapysdr-module-uhd"
-          },
-          {
-            "source": "libtool",
             "target": "socat"
           },
           {
@@ -56450,6 +56442,10 @@
           {
             "source": "ninja",
             "target": "soapysdr-module-rtlsdr"
+          },
+          {
+            "source": "ninja",
+            "target": "soapysdr-module-uhd"
           },
           {
             "source": "ninja",
