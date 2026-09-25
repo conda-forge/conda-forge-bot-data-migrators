@@ -5916,14 +5916,6 @@
             "target": "xeus-cling"
           },
           {
-            "source": "cuda-cccl",
-            "target": "cuda-cudart"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "isce3"
-          },
-          {
             "source": "cunit",
             "target": "dcap"
           },
@@ -15554,10 +15546,6 @@
           {
             "source": "libctl",
             "target": "pymeep"
-          },
-          {
-            "source": "libcufft",
-            "target": "isce3"
           },
           {
             "source": "libcxx",
@@ -58181,18 +58169,6 @@
             }
           },
           {
-            "id": "cuda-cccl",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-cccl.json"
-            }
-          },
-          {
-            "id": "cuda-cudart",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-cudart.json"
-            }
-          },
-          {
             "id": "cunit",
             "payload": {
               "__lazy_json__": "node_attrs/cunit.json"
@@ -61676,12 +61652,6 @@
             "id": "libctl",
             "payload": {
               "__lazy_json__": "node_attrs/libctl.json"
-            }
-          },
-          {
-            "id": "libcufft",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcufft.json"
             }
           },
           {
@@ -74588,7 +74558,6 @@
         "cppad",
         "cryptopp",
         "cspice",
-        "cuda-cccl",
         "cunit",
         "cxxopts",
         "dart-sdk",
@@ -74656,7 +74625,6 @@
         "libconfig",
         "libcrc32c",
         "libctl",
-        "libcufft",
         "libcxx",
         "libdaemon",
         "libdate",
