@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "waf",
+            "payload": {
+              "__lazy_json__": "node_attrs/waf.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1637,6 +1644,10 @@
           },
           {
             "source": "python",
+            "target": "pyinstaller"
+          },
+          {
+            "source": "python",
             "target": "pynacl"
           },
           {
@@ -1701,6 +1712,10 @@
           },
           {
             "source": "python",
+            "target": "waf"
+          },
+          {
+            "source": "python",
             "target": "wrapt"
           },
           {
@@ -1708,8 +1723,16 @@
             "target": "zstandard"
           },
           {
+            "source": "pywin32-ctypes",
+            "target": "pyinstaller"
+          },
+          {
             "source": "pywin32",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "pywin32",
+            "target": "pyinstaller"
           },
           {
             "source": "qhull",
@@ -2352,6 +2375,10 @@
             "target": "qt-webengine"
           },
           {
+            "source": "waf",
+            "target": "pyinstaller"
+          },
+          {
             "source": "winpthreads",
             "target": "binutils"
           },
@@ -2690,6 +2717,10 @@
           {
             "source": "zlib",
             "target": "pillow"
+          },
+          {
+            "source": "zlib",
+            "target": "pyinstaller"
           },
           {
             "source": "zlib",
@@ -3703,6 +3734,12 @@
             }
           },
           {
+            "id": "pyinstaller",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyinstaller.json"
+            }
+          },
+          {
             "id": "pynacl",
             "payload": {
               "__lazy_json__": "node_attrs/pynacl.json"
@@ -4195,6 +4232,12 @@
             }
           },
           {
+            "id": "waf",
+            "payload": {
+              "__lazy_json__": "node_attrs/waf.json"
+            }
+          },
+          {
             "id": "winpthreads",
             "payload": {
               "__lazy_json__": "node_attrs/winpthreads.json"
@@ -4392,6 +4435,7 @@
         "conda-deny",
         "conda-forge-ci-setup",
         "conda-mirror",
+        "conda-standalone",
         "crush",
         "dasel",
         "diffnav",
@@ -4428,6 +4472,7 @@
         "pixi-inject",
         "pixi-pack",
         "py-rattler",
+        "pyinstaller",
         "python",
         "rattler-build",
         "rattler-index",
