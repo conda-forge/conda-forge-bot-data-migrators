@@ -470,12 +470,6 @@
             }
           },
           {
-            "id": "imate",
-            "payload": {
-              "__lazy_json__": "node_attrs/imate.json"
-            }
-          },
-          {
             "id": "jaxlib",
             "payload": {
               "__lazy_json__": "node_attrs/jaxlib.json"
@@ -581,6 +575,12 @@
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
+            }
+          },
+          {
+            "id": "marimo",
+            "payload": {
+              "__lazy_json__": "node_attrs/marimo.json"
             }
           },
           {
@@ -19737,10 +19737,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "imate",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "imexam",
             "target": "conda-forge-pinning"
           },
@@ -23595,10 +23591,6 @@
           {
             "source": "matplotlib",
             "target": "imagededup"
-          },
-          {
-            "source": "matplotlib",
-            "target": "imate"
           },
           {
             "source": "matplotlib",
@@ -31619,10 +31611,6 @@
           {
             "source": "numpy",
             "target": "imas-core"
-          },
-          {
-            "source": "numpy",
-            "target": "imate"
           },
           {
             "source": "numpy",
@@ -57234,10 +57222,6 @@
           },
           {
             "source": "scipy",
-            "target": "imate"
-          },
-          {
-            "source": "scipy",
             "target": "imexam"
           },
           {
@@ -74567,12 +74551,6 @@
             "id": "imas-core",
             "payload": {
               "__lazy_json__": "node_attrs/imas-core.json"
-            }
-          },
-          {
-            "id": "imate",
-            "payload": {
-              "__lazy_json__": "node_attrs/imate.json"
             }
           },
           {
