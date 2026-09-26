@@ -101,6 +101,14 @@
           },
           {
             "source": "_openmp_mutex",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel_repack"
+          },
+          {
+            "source": "_openmp_mutex",
             "target": "isce3"
           },
           {
@@ -2230,6 +2238,10 @@
           {
             "source": "automake",
             "target": "inetutils"
+          },
+          {
+            "source": "automake",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "automake",
@@ -4898,6 +4910,14 @@
           {
             "source": "bash",
             "target": "inetutils"
+          },
+          {
+            "source": "bash",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "bash",
+            "target": "intel_repack"
           },
           {
             "source": "bash",
@@ -10685,6 +10705,10 @@
           },
           {
             "source": "binutils",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "binutils",
             "target": "jags"
           },
           {
@@ -15152,6 +15176,10 @@
             "target": "openvino"
           },
           {
+            "source": "ccache",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "cccl",
             "target": "xgboost"
           },
@@ -15330,6 +15358,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "cctools-and-ld64",
@@ -17594,6 +17626,14 @@
           {
             "source": "cmake",
             "target": "integratorxx"
+          },
+          {
+            "source": "cmake",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "cmake",
+            "target": "intel_repack"
           },
           {
             "source": "cmake",
@@ -20165,6 +20205,10 @@
           },
           {
             "source": "compiler-rt",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "compiler-rt",
             "target": "jags"
           },
           {
@@ -21654,6 +21698,14 @@
           {
             "source": "ctng-compilers",
             "target": "indexed_gzip"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel_repack"
           },
           {
             "source": "ctng-compilers",
@@ -23162,6 +23214,10 @@
           {
             "source": "curl",
             "target": "hurl"
+          },
+          {
+            "source": "curl",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "curl",
@@ -28157,6 +28213,10 @@
           },
           {
             "source": "gendef",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gendef",
             "target": "jags"
           },
           {
@@ -29105,6 +29165,10 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "jags"
           },
           {
@@ -29674,6 +29738,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gfortran_osx-64",
@@ -32562,10 +32630,6 @@
           {
             "source": "grep",
             "target": "ocaml-menhir"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch-cpu"
           },
           {
             "source": "grep",
@@ -35552,6 +35616,14 @@
             "target": "openorbitaloptimizer"
           },
           {
+            "source": "intel-compiler-repack",
+            "target": "intel_repack"
+          },
+          {
+            "source": "intel_repack",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "ipopt",
             "target": "casadi"
           },
@@ -35794,6 +35866,14 @@
           {
             "source": "keyutils",
             "target": "krb5"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel_repack"
           },
           {
             "source": "khronos-opencl-icd-loader",
@@ -37409,6 +37489,10 @@
           },
           {
             "source": "level-zero",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "level-zero",
             "target": "openvino"
           },
           {
@@ -37888,10 +37972,6 @@
             "target": "libcuobjclient"
           },
           {
-            "source": "libcufile",
-            "target": "pytorch-cpu"
-          },
-          {
             "source": "libcuobjclient",
             "target": "cuda-libraries"
           },
@@ -38358,6 +38438,10 @@
           {
             "source": "libcxx",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "libcxx",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libcxx",
@@ -39710,6 +39794,10 @@
           {
             "source": "libhwloc",
             "target": "gromacs"
+          },
+          {
+            "source": "libhwloc",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libhwloc",
@@ -43238,6 +43326,14 @@
           {
             "source": "libtool",
             "target": "inetutils"
+          },
+          {
+            "source": "libtool",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "libtool",
+            "target": "intel_repack"
           },
           {
             "source": "libtool",
@@ -49821,6 +49917,10 @@
           },
           {
             "source": "libxml2",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "libxml2",
             "target": "jags"
           },
           {
@@ -50906,6 +51006,10 @@
           {
             "source": "llvmdev",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "llvmdev",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "llvmdev",
@@ -53441,6 +53545,10 @@
           },
           {
             "source": "mpich",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "mpich",
             "target": "kahip"
           },
           {
@@ -55638,6 +55746,10 @@
           {
             "source": "ninja",
             "target": "integratorxx"
+          },
+          {
+            "source": "ninja",
+            "target": "intel_repack"
           },
           {
             "source": "ninja",
@@ -59505,6 +59617,14 @@
           },
           {
             "source": "ocl-icd",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "intel_repack"
+          },
+          {
+            "source": "ocl-icd",
             "target": "lightgbm"
           },
           {
@@ -59589,10 +59709,6 @@
           },
           {
             "source": "onednn",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "onednn",
             "target": "tensorflow"
           },
           {
@@ -59674,6 +59790,10 @@
           {
             "source": "opencensus-context",
             "target": "ray-packages"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "opencl-headers",
@@ -60318,6 +60438,14 @@
           {
             "source": "openmpi",
             "target": "netcdf4"
+          },
+          {
+            "source": "openmp",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "openmp",
+            "target": "intel_repack"
           },
           {
             "source": "openmpi",
@@ -64762,6 +64890,10 @@
           {
             "source": "pkg-config",
             "target": "indexed_gzip"
+          },
+          {
+            "source": "pkg-config",
+            "target": "intel_repack"
           },
           {
             "source": "pkg-config",
@@ -69709,6 +69841,10 @@
           },
           {
             "source": "pyopencl",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "pyopencl",
             "target": "pocl"
           },
           {
@@ -72334,6 +72470,10 @@
           {
             "source": "python",
             "target": "inpoly"
+          },
+          {
+            "source": "python",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "python",
@@ -88169,10 +88309,6 @@
           },
           {
             "source": "rsync",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "rsync",
             "target": "r-base"
           },
           {
@@ -91089,6 +91225,10 @@
           },
           {
             "source": "shellcheck",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "shellcheck",
             "target": "jags"
           },
           {
@@ -92485,6 +92625,14 @@
           },
           {
             "source": "tbb",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "tbb",
+            "target": "intel_repack"
+          },
+          {
+            "source": "tbb",
             "target": "mold"
           },
           {
@@ -93868,10 +94016,6 @@
             "target": "pyg-lib"
           },
           {
-            "source": "triton",
-            "target": "pytorch-cpu"
-          },
-          {
             "source": "tskit",
             "target": "msprime"
           },
@@ -94066,6 +94210,10 @@
           {
             "source": "ucrt",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "ucrt",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "ucrt",
@@ -95736,6 +95884,10 @@
             "target": "ilastik-carving-tools"
           },
           {
+            "source": "vc",
+            "target": "intel-compiler-repack"
+          },
+          {
             "source": "vdt",
             "target": "cms-combine"
           },
@@ -97102,6 +97254,10 @@
           {
             "source": "winpthreads",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "winpthreads",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "winpthreads",
@@ -102533,6 +102689,10 @@
           },
           {
             "source": "zlib",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "zlib",
             "target": "irrlicht"
           },
           {
@@ -104638,6 +104798,10 @@
           {
             "source": "zstd",
             "target": "indexed_gzip"
+          },
+          {
+            "source": "zstd",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "zstd",
@@ -109624,6 +109788,18 @@
             "id": "integratorxx",
             "payload": {
               "__lazy_json__": "node_attrs/integratorxx.json"
+            }
+          },
+          {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
+            "id": "intel_repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel_repack.json"
             }
           },
           {
