@@ -53,26 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "hpx",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpx.json"
-            }
-          },
-          {
-            "id": "libnvshmem",
-            "payload": {
-              "__lazy_json__": "node_attrs/libnvshmem.json"
-            }
-          },
-          {
-            "id": "tblis",
-            "payload": {
-              "__lazy_json__": "node_attrs/tblis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -532,7 +513,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
