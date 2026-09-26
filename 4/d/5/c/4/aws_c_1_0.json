@@ -55,15 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aws-c-cal",
+            "id": "aws-c-io",
             "payload": {
-              "__lazy_json__": "node_attrs/aws-c-cal.json"
-            }
-          },
-          {
-            "id": "aws-c-compression",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-compression.json"
+              "__lazy_json__": "node_attrs/aws-c-io.json"
             }
           },
           {
@@ -549,7 +543,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
