@@ -74,12 +74,6 @@
             }
           },
           {
-            "id": "afni",
-            "payload": {
-              "__lazy_json__": "node_attrs/afni.json"
-            }
-          },
-          {
             "id": "agg-regrid",
             "payload": {
               "__lazy_json__": "node_attrs/agg-regrid.json"
@@ -248,12 +242,6 @@
             }
           },
           {
-            "id": "compas_libigl",
-            "payload": {
-              "__lazy_json__": "node_attrs/compas_libigl.json"
-            }
-          },
-          {
             "id": "compas_view2",
             "payload": {
               "__lazy_json__": "node_attrs/compas_view2.json"
@@ -269,12 +257,6 @@
             "id": "connectorx",
             "payload": {
               "__lazy_json__": "node_attrs/connectorx.json"
-            }
-          },
-          {
-            "id": "cornac",
-            "payload": {
-              "__lazy_json__": "node_attrs/cornac.json"
             }
           },
           {
@@ -590,12 +572,6 @@
             }
           },
           {
-            "id": "kliff",
-            "payload": {
-              "__lazy_json__": "node_attrs/kliff.json"
-            }
-          },
-          {
             "id": "lammps",
             "payload": {
               "__lazy_json__": "node_attrs/lammps.json"
@@ -665,12 +641,6 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
-            }
-          },
-          {
-            "id": "lightfm",
-            "payload": {
-              "__lazy_json__": "node_attrs/lightfm.json"
             }
           },
           {
@@ -1196,6 +1166,12 @@
             }
           },
           {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
+            }
+          },
+          {
             "id": "pyutilsnrw",
             "payload": {
               "__lazy_json__": "node_attrs/pyutilsnrw.json"
@@ -1415,12 +1391,6 @@
             "id": "sourmash_plugin_branchwater",
             "payload": {
               "__lazy_json__": "node_attrs/sourmash_plugin_branchwater.json"
-            }
-          },
-          {
-            "id": "splipy",
-            "payload": {
-              "__lazy_json__": "node_attrs/splipy.json"
             }
           },
           {
@@ -64885,10 +64855,6 @@
           {
             "source": "triton",
             "target": "pyg-lib"
-          },
-          {
-            "source": "triton",
-            "target": "pytorch-cpu"
           },
           {
             "source": "triton",
