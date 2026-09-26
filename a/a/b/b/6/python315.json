@@ -458,12 +458,6 @@
             }
           },
           {
-            "id": "fastjet",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastjet.json"
-            }
-          },
-          {
             "id": "fenics",
             "payload": {
               "__lazy_json__": "node_attrs/fenics.json"
@@ -515,12 +509,6 @@
             "id": "functime",
             "payload": {
               "__lazy_json__": "node_attrs/functime.json"
-            }
-          },
-          {
-            "id": "gala",
-            "payload": {
-              "__lazy_json__": "node_attrs/gala.json"
             }
           },
           {
@@ -896,12 +884,6 @@
             }
           },
           {
-            "id": "ouxinfo",
-            "payload": {
-              "__lazy_json__": "node_attrs/ouxinfo.json"
-            }
-          },
-          {
             "id": "oxdna-analysis-tools",
             "payload": {
               "__lazy_json__": "node_attrs/oxdna-analysis-tools.json"
@@ -1046,12 +1028,6 @@
             }
           },
           {
-            "id": "pydl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pydl.json"
-            }
-          },
-          {
             "id": "pyembree",
             "payload": {
               "__lazy_json__": "node_attrs/pyembree.json"
@@ -1121,12 +1097,6 @@
             "id": "pymodes",
             "payload": {
               "__lazy_json__": "node_attrs/pymodes.json"
-            }
-          },
-          {
-            "id": "pynormaliz",
-            "payload": {
-              "__lazy_json__": "node_attrs/pynormaliz.json"
             }
           },
           {
@@ -14724,10 +14694,6 @@
           },
           {
             "source": "eodie",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30925,10 +30891,6 @@
           {
             "source": "numpy",
             "target": "eodie"
-          },
-          {
-            "source": "numpy",
-            "target": "eon"
           },
           {
             "source": "numpy",
@@ -50420,10 +50382,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "eon"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -62392,10 +62350,6 @@
           },
           {
             "source": "tbb",
-            "target": "eon"
-          },
-          {
-            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72519,12 +72473,6 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
-            }
-          },
-          {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
