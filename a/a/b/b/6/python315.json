@@ -134,12 +134,6 @@
             }
           },
           {
-            "id": "batman",
-            "payload": {
-              "__lazy_json__": "node_attrs/batman.json"
-            }
-          },
-          {
             "id": "batman-package",
             "payload": {
               "__lazy_json__": "node_attrs/batman-package.json"
@@ -422,12 +416,6 @@
             }
           },
           {
-            "id": "euklid",
-            "payload": {
-              "__lazy_json__": "node_attrs/euklid.json"
-            }
-          },
-          {
             "id": "fa2",
             "payload": {
               "__lazy_json__": "node_attrs/fa2.json"
@@ -497,12 +485,6 @@
             "id": "galpy",
             "payload": {
               "__lazy_json__": "node_attrs/galpy.json"
-            }
-          },
-          {
-            "id": "glmnet",
-            "payload": {
-              "__lazy_json__": "node_attrs/glmnet.json"
             }
           },
           {
@@ -734,12 +716,6 @@
             }
           },
           {
-            "id": "naturalneighbor",
-            "payload": {
-              "__lazy_json__": "node_attrs/naturalneighbor.json"
-            }
-          },
-          {
             "id": "ncvis",
             "payload": {
               "__lazy_json__": "node_attrs/ncvis.json"
@@ -899,6 +875,12 @@
             "id": "point_cloud_utils",
             "payload": {
               "__lazy_json__": "node_attrs/point_cloud_utils.json"
+            }
+          },
+          {
+            "id": "polycap",
+            "payload": {
+              "__lazy_json__": "node_attrs/polycap.json"
             }
           },
           {
@@ -1298,6 +1280,12 @@
             }
           },
           {
+            "id": "scikit-beam",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-beam.json"
+            }
+          },
+          {
             "id": "scikit-cycling",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-cycling.json"
@@ -1355,12 +1343,6 @@
             "id": "skater",
             "payload": {
               "__lazy_json__": "node_attrs/skater.json"
-            }
-          },
-          {
-            "id": "sklearn-contrib-lightning",
-            "payload": {
-              "__lazy_json__": "node_attrs/sklearn-contrib-lightning.json"
             }
           },
           {
@@ -1427,12 +1409,6 @@
             "id": "tblite-python",
             "payload": {
               "__lazy_json__": "node_attrs/tblite-python.json"
-            }
-          },
-          {
-            "id": "tdscha",
-            "payload": {
-              "__lazy_json__": "node_attrs/tdscha.json"
             }
           },
           {
@@ -14664,10 +14640,6 @@
           },
           {
             "source": "eodie",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30865,10 +30837,6 @@
           {
             "source": "numpy",
             "target": "eodie"
-          },
-          {
-            "source": "numpy",
-            "target": "eon"
           },
           {
             "source": "numpy",
@@ -50360,10 +50328,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "eon"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -62332,10 +62296,6 @@
           },
           {
             "source": "tbb",
-            "target": "eon"
-          },
-          {
-            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72455,12 +72415,6 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
-            }
-          },
-          {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
