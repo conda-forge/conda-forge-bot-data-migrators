@@ -98,12 +98,6 @@
             }
           },
           {
-            "id": "anuga",
-            "payload": {
-              "__lazy_json__": "node_attrs/anuga.json"
-            }
-          },
-          {
             "id": "asap3",
             "payload": {
               "__lazy_json__": "node_attrs/asap3.json"
@@ -1364,12 +1358,6 @@
             }
           },
           {
-            "id": "tsase",
-            "payload": {
-              "__lazy_json__": "node_attrs/tsase.json"
-            }
-          },
-          {
             "id": "tsdownsample",
             "payload": {
               "__lazy_json__": "node_attrs/tsdownsample.json"
@@ -1385,12 +1373,6 @@
             "id": "tt-sketch",
             "payload": {
               "__lazy_json__": "node_attrs/tt-sketch.json"
-            }
-          },
-          {
-            "id": "txrm2tiff",
-            "payload": {
-              "__lazy_json__": "node_attrs/txrm2tiff.json"
             }
           },
           {
@@ -14532,10 +14514,6 @@
           },
           {
             "source": "eodie",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30733,10 +30711,6 @@
           {
             "source": "numpy",
             "target": "eodie"
-          },
-          {
-            "source": "numpy",
-            "target": "eon"
           },
           {
             "source": "numpy",
@@ -50228,10 +50202,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "eon"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -62200,10 +62170,6 @@
           },
           {
             "source": "tbb",
-            "target": "eon"
-          },
-          {
-            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72323,12 +72289,6 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
-            }
-          },
-          {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
