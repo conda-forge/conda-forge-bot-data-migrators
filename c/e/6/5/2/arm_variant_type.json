@@ -117,35 +117,11 @@
           },
           {
             "source": "nccl",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "nccl",
-            "target": "flash-attn"
-          },
-          {
-            "source": "nccl",
-            "target": "kaolin"
-          },
-          {
-            "source": "nccl",
             "target": "libcublasmp"
           },
           {
             "source": "nccl",
             "target": "lightgbm"
-          },
-          {
-            "source": "nccl",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "nccl",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "nccl",
-            "target": "pytorch_scatter"
           }
         ],
         "multigraph": false,
@@ -1192,10 +1168,6 @@
           },
           {
             "source": "nccl",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "nccl",
             "target": "tensorflow"
           },
           {
@@ -1977,10 +1949,6 @@
           {
             "source": "triton",
             "target": "pyg-lib"
-          },
-          {
-            "source": "triton",
-            "target": "pytorch-cpu"
           },
           {
             "source": "triton",
