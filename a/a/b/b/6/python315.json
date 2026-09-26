@@ -464,6 +464,12 @@
             }
           },
           {
+            "id": "imate",
+            "payload": {
+              "__lazy_json__": "node_attrs/imate.json"
+            }
+          },
+          {
             "id": "jaxlib",
             "payload": {
               "__lazy_json__": "node_attrs/jaxlib.json"
@@ -560,6 +566,12 @@
             }
           },
           {
+            "id": "loro",
+            "payload": {
+              "__lazy_json__": "node_attrs/loro.json"
+            }
+          },
+          {
             "id": "machine-learning-py",
             "payload": {
               "__lazy_json__": "node_attrs/machine-learning-py.json"
@@ -569,12 +581,6 @@
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
-            }
-          },
-          {
-            "id": "marimo",
-            "payload": {
-              "__lazy_json__": "node_attrs/marimo.json"
             }
           },
           {
@@ -1313,12 +1319,6 @@
             "id": "vigra",
             "payload": {
               "__lazy_json__": "node_attrs/vigra.json"
-            }
-          },
-          {
-            "id": "wdmtoolbox",
-            "payload": {
-              "__lazy_json__": "node_attrs/wdmtoolbox.json"
             }
           },
           {
@@ -19713,6 +19713,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "imate",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "imexam",
             "target": "conda-forge-pinning"
           },
@@ -23567,6 +23571,10 @@
           {
             "source": "matplotlib",
             "target": "imagededup"
+          },
+          {
+            "source": "matplotlib",
+            "target": "imate"
           },
           {
             "source": "matplotlib",
@@ -31587,6 +31595,10 @@
           {
             "source": "numpy",
             "target": "imas-core"
+          },
+          {
+            "source": "numpy",
+            "target": "imate"
           },
           {
             "source": "numpy",
@@ -57198,6 +57210,10 @@
           },
           {
             "source": "scipy",
+            "target": "imate"
+          },
+          {
+            "source": "scipy",
             "target": "imexam"
           },
           {
@@ -74527,6 +74543,12 @@
             "id": "imas-core",
             "payload": {
               "__lazy_json__": "node_attrs/imas-core.json"
+            }
+          },
+          {
+            "id": "imate",
+            "payload": {
+              "__lazy_json__": "node_attrs/imate.json"
             }
           },
           {
