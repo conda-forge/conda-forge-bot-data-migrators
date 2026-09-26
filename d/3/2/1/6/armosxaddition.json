@@ -44,7 +44,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cuda-profiler-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-profiler-api.json"
+            }
+          },
+          {
+            "id": "nvtx-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvtx-c.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -94,6 +107,14 @@
           {
             "source": "_openmp_mutex",
             "target": "elpa"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel_repack"
           },
           {
             "source": "_openmp_mutex",
@@ -1289,6 +1310,10 @@
           },
           {
             "source": "binutils",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "binutils",
             "target": "cvxopt"
           },
           {
@@ -1334,6 +1359,10 @@
           {
             "source": "binutils",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "binutils",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "binutils",
@@ -1462,6 +1491,10 @@
           {
             "source": "binutils",
             "target": "pytensor-suite"
+          },
+          {
+            "source": "binutils",
+            "target": "pytorch-cpu"
           },
           {
             "source": "binutils",
@@ -1878,6 +1911,10 @@
           {
             "source": "blas",
             "target": "libefp"
+          },
+          {
+            "source": "blas",
+            "target": "libmagma"
           },
           {
             "source": "blas",
@@ -4249,6 +4286,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "cvxopt"
           },
           {
@@ -4266,6 +4307,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "cctools-and-ld64",
@@ -4306,6 +4351,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "pylabdd"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cctools-and-ld64",
@@ -5093,6 +5142,10 @@
           },
           {
             "source": "compiler-rt",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "compiler-rt",
             "target": "cvxopt"
           },
           {
@@ -5138,6 +5191,10 @@
           {
             "source": "compiler-rt",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "compiler-rt",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "compiler-rt",
@@ -5258,6 +5315,10 @@
           {
             "source": "compiler-rt",
             "target": "pytensor-suite"
+          },
+          {
+            "source": "compiler-rt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "compiler-rt",
@@ -5661,6 +5722,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "cvxopt"
           },
           {
@@ -5717,6 +5782,14 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel_repack"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "isce2"
           },
           {
@@ -5734,6 +5807,10 @@
           {
             "source": "ctng-compilers",
             "target": "libclc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "libmagma"
           },
           {
             "source": "ctng-compilers",
@@ -5841,6 +5918,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "r-base"
           },
           {
@@ -5914,6 +5995,70 @@
           {
             "source": "ctng-compilers",
             "target": "xeus-cling"
+          },
+          {
+            "source": "cuda-cccl",
+            "target": "cuda-cudart"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cuda-profiler-api"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libmagma"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-cupti",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvcc-impl",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvml-dev",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cudnn"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvtx",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "libmagma"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cudnn",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cunit",
@@ -9153,6 +9298,10 @@
           },
           {
             "source": "gendef",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gendef",
             "target": "cvxopt"
           },
           {
@@ -9170,6 +9319,10 @@
           {
             "source": "gendef",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "gendef",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gendef",
@@ -9206,6 +9359,10 @@
           {
             "source": "gendef",
             "target": "pylabdd"
+          },
+          {
+            "source": "gendef",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gendef",
@@ -9529,6 +9686,10 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "cvxopt"
           },
           {
@@ -9542,6 +9703,10 @@
           {
             "source": "gfortran_impl_osx-64",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -9578,6 +9743,10 @@
           {
             "source": "gfortran_impl_osx-64",
             "target": "pylabdd"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -9633,6 +9802,10 @@
           },
           {
             "source": "gfortran_osx-64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gfortran_osx-64",
             "target": "cvxopt"
           },
           {
@@ -9646,6 +9819,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "gfortran_impl_osx-64"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gfortran_osx-64",
@@ -9682,6 +9859,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "pylabdd"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gfortran_osx-64",
@@ -13548,6 +13729,14 @@
             "target": "gauxc"
           },
           {
+            "source": "intel-compiler-repack",
+            "target": "intel_repack"
+          },
+          {
+            "source": "intel_repack",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "ipopt",
             "target": "casadi"
           },
@@ -13802,6 +13991,14 @@
           {
             "source": "khronos-opencl-icd-loader",
             "target": "gromacs"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel_repack"
           },
           {
             "source": "khronos-opencl-icd-loader",
@@ -14546,6 +14743,10 @@
           {
             "source": "lapack",
             "target": "libefp"
+          },
+          {
+            "source": "lapack",
+            "target": "libmagma"
           },
           {
             "source": "lapack",
@@ -15337,6 +15538,10 @@
           },
           {
             "source": "level-zero",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "level-zero",
             "target": "openvino"
           },
           {
@@ -15544,6 +15749,46 @@
             "target": "pymeep"
           },
           {
+            "source": "libcublas",
+            "target": "cudnn"
+          },
+          {
+            "source": "libcublas",
+            "target": "libcusolver"
+          },
+          {
+            "source": "libcublas",
+            "target": "libmagma"
+          },
+          {
+            "source": "libcublas",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcufft",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcurand",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcusolver",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libcusolver"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libmagma"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libcxx",
             "target": "binutils"
           },
@@ -15585,6 +15830,10 @@
           },
           {
             "source": "libcxx",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "libcxx",
             "target": "cvxopt"
           },
           {
@@ -15610,6 +15859,10 @@
           {
             "source": "libcxx",
             "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "libcxx",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libcxx",
@@ -15666,6 +15919,10 @@
           {
             "source": "libcxx",
             "target": "pyside2"
+          },
+          {
+            "source": "libcxx",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcxx",
@@ -16182,6 +16439,10 @@
           {
             "source": "libhwloc",
             "target": "hpx"
+          },
+          {
+            "source": "libhwloc",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libhwloc",
@@ -17080,6 +17341,10 @@
             "target": "sdl2_mixer"
           },
           {
+            "source": "libmagma",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libmatio-cpp",
             "target": "bipedal-locomotion-framework"
           },
@@ -17278,6 +17543,14 @@
           {
             "source": "libntlm",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "libcusolver"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "libcusparse"
           },
           {
             "source": "libobjcryst",
@@ -19021,6 +19294,10 @@
           },
           {
             "source": "libxml2",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "libxml2",
             "target": "cvxopt"
           },
           {
@@ -19130,6 +19407,10 @@
           {
             "source": "libxml2",
             "target": "imagemagick"
+          },
+          {
+            "source": "libxml2",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libxml2",
@@ -19354,6 +19635,10 @@
           {
             "source": "libxml2",
             "target": "pytensor-suite"
+          },
+          {
+            "source": "libxml2",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libxml2",
@@ -19717,6 +20002,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "llvmdev",
             "target": "cvxopt"
           },
           {
@@ -19766,6 +20055,10 @@
           {
             "source": "llvmdev",
             "target": "heyoka"
+          },
+          {
+            "source": "llvmdev",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "llvmdev",
@@ -19910,6 +20203,10 @@
           {
             "source": "llvmdev",
             "target": "pytensor-suite"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pytorch-cpu"
           },
           {
             "source": "llvmdev",
@@ -21945,6 +22242,10 @@
           },
           {
             "source": "mpich",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "mpich",
             "target": "kahip"
           },
           {
@@ -22502,6 +22803,10 @@
           {
             "source": "nauty",
             "target": "pynauty"
+          },
+          {
+            "source": "nccl",
+            "target": "pytorch-cpu"
           },
           {
             "source": "nceplibs-bufr",
@@ -26652,6 +26957,10 @@
             "target": "cpcm-x"
           },
           {
+            "source": "nvtx-c",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "obake",
             "target": "audi"
           },
@@ -26702,6 +27011,14 @@
           {
             "source": "occt",
             "target": "smesh"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "intel_repack"
           },
           {
             "source": "ocl-icd",
@@ -26812,10 +27129,6 @@
             "target": "tango-test"
           },
           {
-            "source": "onednn",
-            "target": "pytorch-cpu"
-          },
-          {
             "source": "oniguruma",
             "target": "jq"
           },
@@ -26902,6 +27215,10 @@
           {
             "source": "opencensus-context",
             "target": "ray-packages"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "opencl-headers",
@@ -27265,6 +27582,10 @@
           },
           {
             "source": "openmp",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "openmp",
             "target": "cvxopt"
           },
           {
@@ -27564,6 +27885,14 @@
             "target": "neuron"
           },
           {
+            "source": "openmp",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "openmp",
+            "target": "intel_repack"
+          },
+          {
             "source": "openmpi",
             "target": "numcosmo"
           },
@@ -27594,6 +27923,10 @@
           {
             "source": "openmpi",
             "target": "pymdi"
+          },
+          {
+            "source": "openmpi",
+            "target": "pytorch-cpu"
           },
           {
             "source": "openmpi",
@@ -30938,10 +31271,6 @@
           {
             "source": "pkg-config",
             "target": "pyshtools"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pytorch-cpu"
           },
           {
             "source": "pkg-config",
@@ -50197,6 +50526,14 @@
           },
           {
             "source": "tbb",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "tbb",
+            "target": "intel_repack"
+          },
+          {
+            "source": "tbb",
             "target": "itk"
           },
           {
@@ -50897,6 +51234,10 @@
           },
           {
             "source": "ucrt",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ucrt",
             "target": "cvxopt"
           },
           {
@@ -50914,6 +51255,10 @@
           {
             "source": "ucrt",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "ucrt",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "ucrt",
@@ -50953,6 +51298,10 @@
           },
           {
             "source": "ucrt",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "ucrt",
             "target": "scikit-sparse"
           },
           {
@@ -50970,6 +51319,10 @@
           {
             "source": "ucrt",
             "target": "test-drive"
+          },
+          {
+            "source": "ucrt",
+            "target": "vc"
           },
           {
             "source": "ucrt",
@@ -51240,8 +51593,20 @@
             "target": "vale-ls"
           },
           {
+            "source": "vc",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "vc",
+            "target": "libmagma"
+          },
+          {
             "source": "vcpkg-tool",
             "target": "vcpkg"
+          },
+          {
+            "source": "vc",
+            "target": "pytorch-cpu"
           },
           {
             "source": "vdt",
@@ -51557,6 +51922,10 @@
           },
           {
             "source": "winpthreads",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "winpthreads",
             "target": "cvxopt"
           },
           {
@@ -51574,6 +51943,10 @@
           {
             "source": "winpthreads",
             "target": "gfortran_osx-64"
+          },
+          {
+            "source": "winpthreads",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "winpthreads",
@@ -51610,6 +51983,10 @@
           {
             "source": "winpthreads",
             "target": "pylabdd"
+          },
+          {
+            "source": "winpthreads",
+            "target": "pytorch-cpu"
           },
           {
             "source": "winpthreads",
@@ -54061,6 +54438,14 @@
           },
           {
             "source": "zlib",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "zlib",
+            "target": "cudnn"
+          },
+          {
+            "source": "zlib",
             "target": "curl"
           },
           {
@@ -54466,6 +54851,10 @@
           {
             "source": "zlib",
             "target": "indexed_gzip"
+          },
+          {
+            "source": "zlib",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "zlib",
@@ -55749,6 +56138,10 @@
           },
           {
             "source": "zstd",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "zstd",
             "target": "curl"
           },
           {
@@ -55834,6 +56227,10 @@
           {
             "source": "zstd",
             "target": "imagecodecs"
+          },
+          {
+            "source": "zstd",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "zstd",
@@ -56078,6 +56475,10 @@
           {
             "source": "zstd",
             "target": "python-zstd"
+          },
+          {
+            "source": "zstd",
+            "target": "pytorch-cpu"
           },
           {
             "source": "zstd",
@@ -58174,6 +58575,60 @@
             "id": "ctng-compilers",
             "payload": {
               "__lazy_json__": "node_attrs/ctng-compilers.json"
+            }
+          },
+          {
+            "id": "cuda-cccl",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-cccl.json"
+            }
+          },
+          {
+            "id": "cuda-cudart",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-cudart.json"
+            }
+          },
+          {
+            "id": "cuda-cupti",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-cupti.json"
+            }
+          },
+          {
+            "id": "cuda-nvcc-impl",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvcc-impl.json"
+            }
+          },
+          {
+            "id": "cuda-nvml-dev",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvml-dev.json"
+            }
+          },
+          {
+            "id": "cuda-nvrtc",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvrtc.json"
+            }
+          },
+          {
+            "id": "cuda-nvtx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvtx.json"
+            }
+          },
+          {
+            "id": "cuda-profiler-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-profiler-api.json"
+            }
+          },
+          {
+            "id": "cudnn",
+            "payload": {
+              "__lazy_json__": "node_attrs/cudnn.json"
             }
           },
           {
@@ -61015,6 +61470,18 @@
             }
           },
           {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
+            "id": "intel_repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel_repack.json"
+            }
+          },
+          {
             "id": "ipopt",
             "payload": {
               "__lazy_json__": "node_attrs/ipopt.json"
@@ -61663,6 +62130,36 @@
             }
           },
           {
+            "id": "libcublas",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcublas.json"
+            }
+          },
+          {
+            "id": "libcufft",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcufft.json"
+            }
+          },
+          {
+            "id": "libcurand",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcurand.json"
+            }
+          },
+          {
+            "id": "libcusolver",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcusolver.json"
+            }
+          },
+          {
+            "id": "libcusparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcusparse.json"
+            }
+          },
+          {
             "id": "libcxx",
             "payload": {
               "__lazy_json__": "node_attrs/libcxx.json"
@@ -62095,6 +62592,12 @@
             }
           },
           {
+            "id": "libmagma",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmagma.json"
+            }
+          },
+          {
             "id": "libmatio",
             "payload": {
               "__lazy_json__": "node_attrs/libmatio.json"
@@ -62188,6 +62691,12 @@
             "id": "libntlm",
             "payload": {
               "__lazy_json__": "node_attrs/libntlm.json"
+            }
+          },
+          {
+            "id": "libnvjitlink",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvjitlink.json"
             }
           },
           {
@@ -63637,6 +64146,12 @@
             }
           },
           {
+            "id": "nccl",
+            "payload": {
+              "__lazy_json__": "node_attrs/nccl.json"
+            }
+          },
+          {
             "id": "nccmp",
             "payload": {
               "__lazy_json__": "node_attrs/nccmp.json"
@@ -64006,6 +64521,12 @@
             "id": "nvim",
             "payload": {
               "__lazy_json__": "node_attrs/nvim.json"
+            }
+          },
+          {
+            "id": "nvtx-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvtx-c.json"
             }
           },
           {
@@ -71473,6 +71994,12 @@
             }
           },
           {
+            "id": "vc",
+            "payload": {
+              "__lazy_json__": "node_attrs/vc.json"
+            }
+          },
+          {
             "id": "vcpkg",
             "payload": {
               "__lazy_json__": "node_attrs/vcpkg.json"
@@ -74566,6 +75093,11 @@
         "cppad",
         "cryptopp",
         "cspice",
+        "cuda-cccl",
+        "cuda-cupti",
+        "cuda-nvml-dev",
+        "cuda-nvrtc",
+        "cuda-nvtx",
         "cunit",
         "cxxopts",
         "dart-sdk",
@@ -74633,6 +75165,8 @@
         "libconfig",
         "libcrc32c",
         "libctl",
+        "libcufft",
+        "libcurand",
         "libcxx",
         "libdaemon",
         "libdate",
@@ -74655,6 +75189,7 @@
         "libignition-cmake0",
         "libjpeg-turbo",
         "libntlm",
+        "libnvjitlink",
         "libogg",
         "libopus",
         "libosxunwind",
@@ -74702,11 +75237,13 @@
         "nanoflann",
         "nasm",
         "nauty",
+        "nccl",
         "ninja",
         "nitro",
         "nlohmann_json",
         "nspr",
         "nsync",
+        "nvtx-c",
         "ocamlbuild",
         "octomap",
         "oniguruma",
