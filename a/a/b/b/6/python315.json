@@ -290,6 +290,12 @@
             }
           },
           {
+            "id": "cppcheck",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppcheck.json"
+            }
+          },
+          {
             "id": "creme",
             "payload": {
               "__lazy_json__": "node_attrs/creme.json"
@@ -500,12 +506,6 @@
             }
           },
           {
-            "id": "fftlog",
-            "payload": {
-              "__lazy_json__": "node_attrs/fftlog.json"
-            }
-          },
-          {
             "id": "ffx",
             "payload": {
               "__lazy_json__": "node_attrs/ffx.json"
@@ -587,12 +587,6 @@
             "id": "grib2io-interp",
             "payload": {
               "__lazy_json__": "node_attrs/grib2io-interp.json"
-            }
-          },
-          {
-            "id": "gwframe",
-            "payload": {
-              "__lazy_json__": "node_attrs/gwframe.json"
             }
           },
           {
@@ -698,12 +692,6 @@
             }
           },
           {
-            "id": "lenstool",
-            "payload": {
-              "__lazy_json__": "node_attrs/lenstool.json"
-            }
-          },
-          {
             "id": "libadjoint",
             "payload": {
               "__lazy_json__": "node_attrs/libadjoint.json"
@@ -761,12 +749,6 @@
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
-            }
-          },
-          {
-            "id": "marching_cubes",
-            "payload": {
-              "__lazy_json__": "node_attrs/marching_cubes.json"
             }
           },
           {
@@ -1733,6 +1715,12 @@
             "id": "wdmtoolbox",
             "payload": {
               "__lazy_json__": "node_attrs/wdmtoolbox.json"
+            }
+          },
+          {
+            "id": "win10toast",
+            "payload": {
+              "__lazy_json__": "node_attrs/win10toast.json"
             }
           },
           {
@@ -15320,6 +15308,10 @@
           },
           {
             "source": "fastar",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "fastar",
             "target": "hklpy"
           },
           {
@@ -19195,6 +19187,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "headroom-ai",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "healpix-geo",
             "target": "conda-forge-pinning"
           },
@@ -19741,6 +19737,10 @@
           {
             "source": "httptools",
             "target": "fps-terminals"
+          },
+          {
+            "source": "httptools",
+            "target": "headroom-ai"
           },
           {
             "source": "httptools",
@@ -22285,6 +22285,10 @@
           {
             "source": "litellm",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "litellm",
+            "target": "headroom-ai"
           },
           {
             "source": "liteparse",
@@ -42652,6 +42656,10 @@
           },
           {
             "source": "psutil",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "psutil",
             "target": "hide_code"
           },
           {
@@ -45309,6 +45317,10 @@
           {
             "source": "pydantic-core",
             "target": "grouper"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "headroom-ai"
           },
           {
             "source": "pydantic-core",
@@ -63552,6 +63564,10 @@
           },
           {
             "source": "tiktoken",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "tiktoken",
             "target": "litellm"
           },
           {
@@ -65972,6 +65988,10 @@
           },
           {
             "source": "uvloop",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "uvloop",
             "target": "hklpy"
           },
           {
@@ -66656,6 +66676,10 @@
           },
           {
             "source": "watchfiles",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "watchfiles",
             "target": "hklpy"
           },
           {
@@ -66809,6 +66833,10 @@
           {
             "source": "websockets",
             "target": "gravelamps"
+          },
+          {
+            "source": "websockets",
+            "target": "headroom-ai"
           },
           {
             "source": "websockets",
@@ -74447,6 +74475,12 @@
             "id": "hdmedians",
             "payload": {
               "__lazy_json__": "node_attrs/hdmedians.json"
+            }
+          },
+          {
+            "id": "headroom-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/headroom-ai.json"
             }
           },
           {
