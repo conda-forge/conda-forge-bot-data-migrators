@@ -1,0 +1,573 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libhwloc 2.15\n  kind: version\n  migration_number: 1\nlibhwloc:\n- 2.15.0\nmigrator_ts: 1790367786.589459\n",
+    "libhwloc2150"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for libhwloc 2.15",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "hpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpx.json"
+            }
+          },
+          {
+            "id": "libnvshmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvshmem.json"
+            }
+          },
+          {
+            "id": "mpich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mpich.json"
+            }
+          },
+          {
+            "id": "mvapich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
+            "id": "openpmix",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmix.json"
+            }
+          },
+          {
+            "id": "pocl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pocl.json"
+            }
+          },
+          {
+            "id": "tbb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tbb.json"
+            }
+          },
+          {
+            "id": "tblis",
+            "payload": {
+              "__lazy_json__": "node_attrs/tblis.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "flux-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flux-core",
+            "target": "flux-sched"
+          },
+          {
+            "source": "flux-sched",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gromacs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hpx",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "libplanc"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "pastix"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "petsc"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "spral"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "tt-metalium"
+          },
+          {
+            "source": "libnvshmem",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libplanc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mpich",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mpich",
+            "target": "flux-core"
+          },
+          {
+            "source": "mpich",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "mpich",
+            "target": "libplanc"
+          },
+          {
+            "source": "mpich",
+            "target": "petsc"
+          },
+          {
+            "source": "mvapich",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mvapich",
+            "target": "petsc"
+          },
+          {
+            "source": "openmpi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openmpi",
+            "target": "flux-core"
+          },
+          {
+            "source": "openmpi",
+            "target": "gromacs"
+          },
+          {
+            "source": "openmpi",
+            "target": "libplanc"
+          },
+          {
+            "source": "openmpi",
+            "target": "petsc"
+          },
+          {
+            "source": "openpmix",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openpmix",
+            "target": "openmpi"
+          },
+          {
+            "source": "openpmix",
+            "target": "prrte"
+          },
+          {
+            "source": "openpmix",
+            "target": "psmpi"
+          },
+          {
+            "source": "pastix",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "petsc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pocl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "prrte",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "prrte",
+            "target": "psmpi"
+          },
+          {
+            "source": "psmpi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spral",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tbb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tbb",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "tbb",
+            "target": "libplanc"
+          },
+          {
+            "source": "tbb",
+            "target": "pastix"
+          },
+          {
+            "source": "tbb",
+            "target": "petsc"
+          },
+          {
+            "source": "tbb",
+            "target": "spral"
+          },
+          {
+            "source": "tbb",
+            "target": "tt-metalium"
+          },
+          {
+            "source": "tblis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tt-metalium",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "flux-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/flux-core.json"
+            }
+          },
+          {
+            "id": "flux-sched",
+            "payload": {
+              "__lazy_json__": "node_attrs/flux-sched.json"
+            }
+          },
+          {
+            "id": "gromacs",
+            "payload": {
+              "__lazy_json__": "node_attrs/gromacs.json"
+            }
+          },
+          {
+            "id": "hpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpx.json"
+            }
+          },
+          {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
+            "id": "libnvshmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvshmem.json"
+            }
+          },
+          {
+            "id": "libplanc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libplanc.json"
+            }
+          },
+          {
+            "id": "mpich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mpich.json"
+            }
+          },
+          {
+            "id": "mvapich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
+            "id": "openmpi",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmpi.json"
+            }
+          },
+          {
+            "id": "openpmix",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmix.json"
+            }
+          },
+          {
+            "id": "pastix",
+            "payload": {
+              "__lazy_json__": "node_attrs/pastix.json"
+            }
+          },
+          {
+            "id": "petsc",
+            "payload": {
+              "__lazy_json__": "node_attrs/petsc.json"
+            }
+          },
+          {
+            "id": "pocl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pocl.json"
+            }
+          },
+          {
+            "id": "prrte",
+            "payload": {
+              "__lazy_json__": "node_attrs/prrte.json"
+            }
+          },
+          {
+            "id": "psmpi",
+            "payload": {
+              "__lazy_json__": "node_attrs/psmpi.json"
+            }
+          },
+          {
+            "id": "spral",
+            "payload": {
+              "__lazy_json__": "node_attrs/spral.json"
+            }
+          },
+          {
+            "id": "tbb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tbb.json"
+            }
+          },
+          {
+            "id": "tblis",
+            "payload": {
+              "__lazy_json__": "node_attrs/tblis.json"
+            }
+          },
+          {
+            "id": "tt-metalium",
+            "payload": {
+              "__lazy_json__": "node_attrs/tt-metalium.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "libhwloc"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CombineV1ConditionsMigrator",
+        "kwargs": {},
+        "name": "combinev1conditionsmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "libhwloc2150"
+}
