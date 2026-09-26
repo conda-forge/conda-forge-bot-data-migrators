@@ -67,30 +67,6 @@
             }
           },
           {
-            "id": "mpich",
-            "payload": {
-              "__lazy_json__": "node_attrs/mpich.json"
-            }
-          },
-          {
-            "id": "mvapich",
-            "payload": {
-              "__lazy_json__": "node_attrs/mvapich.json"
-            }
-          },
-          {
-            "id": "pocl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pocl.json"
-            }
-          },
-          {
-            "id": "tbb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tbb.json"
-            }
-          },
-          {
             "id": "tblis",
             "payload": {
               "__lazy_json__": "node_attrs/tblis.json"
@@ -556,7 +532,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
