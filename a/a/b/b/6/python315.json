@@ -15378,6 +15378,10 @@
           },
           {
             "source": "fastar",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "fastar",
             "target": "hklpy"
           },
           {
@@ -19253,6 +19257,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "headroom-ai",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "healpix-geo",
             "target": "conda-forge-pinning"
           },
@@ -19799,6 +19807,10 @@
           {
             "source": "httptools",
             "target": "fps-terminals"
+          },
+          {
+            "source": "httptools",
+            "target": "headroom-ai"
           },
           {
             "source": "httptools",
@@ -22343,6 +22355,10 @@
           {
             "source": "litellm",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "litellm",
+            "target": "headroom-ai"
           },
           {
             "source": "liteparse",
@@ -42710,6 +42726,10 @@
           },
           {
             "source": "psutil",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "psutil",
             "target": "hide_code"
           },
           {
@@ -45367,6 +45387,10 @@
           {
             "source": "pydantic-core",
             "target": "grouper"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "headroom-ai"
           },
           {
             "source": "pydantic-core",
@@ -63606,6 +63630,10 @@
           },
           {
             "source": "tiktoken",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "tiktoken",
             "target": "litellm"
           },
           {
@@ -66026,6 +66054,10 @@
           },
           {
             "source": "uvloop",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "uvloop",
             "target": "hklpy"
           },
           {
@@ -66710,6 +66742,10 @@
           },
           {
             "source": "watchfiles",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "watchfiles",
             "target": "hklpy"
           },
           {
@@ -66863,6 +66899,10 @@
           {
             "source": "websockets",
             "target": "gravelamps"
+          },
+          {
+            "source": "websockets",
+            "target": "headroom-ai"
           },
           {
             "source": "websockets",
@@ -74501,6 +74541,12 @@
             "id": "hdmedians",
             "payload": {
               "__lazy_json__": "node_attrs/hdmedians.json"
+            }
+          },
+          {
+            "id": "headroom-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/headroom-ai.json"
             }
           },
           {
