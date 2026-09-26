@@ -44,20 +44,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cuda-profiler-api",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-profiler-api.json"
-            }
-          },
-          {
-            "id": "nvtx-c",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvtx-c.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -23211,10 +23198,6 @@
           {
             "source": "ngmix",
             "target": "shredx"
-          },
-          {
-            "source": "ngspice",
-            "target": "pyspice"
           },
           {
             "source": "nh3",
@@ -51898,7 +51881,7 @@
           },
           {
             "source": "winflexbison",
-            "target": "ngspice"
+            "target": "pyspice"
           },
           {
             "source": "winpthreads",
@@ -64287,12 +64270,6 @@
             "id": "ngmix",
             "payload": {
               "__lazy_json__": "node_attrs/ngmix.json"
-            }
-          },
-          {
-            "id": "ngspice",
-            "payload": {
-              "__lazy_json__": "node_attrs/ngspice.json"
             }
           },
           {
