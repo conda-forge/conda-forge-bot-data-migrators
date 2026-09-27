@@ -1035,12 +1035,6 @@
             }
           },
           {
-            "id": "uhd",
-            "payload": {
-              "__lazy_json__": "node_attrs/uhd.json"
-            }
-          },
-          {
             "id": "vegafusion",
             "payload": {
               "__lazy_json__": "node_attrs/vegafusion.json"
@@ -16330,10 +16324,6 @@
           {
             "source": "gnuradio",
             "target": "gnuradio-satellites"
-          },
-          {
-            "source": "gnureadline",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "go2",
@@ -73320,12 +73310,6 @@
             "id": "gnuradio-satellites",
             "payload": {
               "__lazy_json__": "node_attrs/gnuradio-satellites.json"
-            }
-          },
-          {
-            "id": "gnureadline",
-            "payload": {
-              "__lazy_json__": "node_attrs/gnureadline.json"
             }
           },
           {
