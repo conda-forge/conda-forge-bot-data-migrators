@@ -16320,6 +16320,10 @@
             "target": "gnuradio-satellites"
           },
           {
+            "source": "gnureadline",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "go2",
             "target": "conda-forge-pinning"
           },
@@ -73304,6 +73308,12 @@
             "id": "gnuradio-satellites",
             "payload": {
               "__lazy_json__": "node_attrs/gnuradio-satellites.json"
+            }
+          },
+          {
+            "id": "gnureadline",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnureadline.json"
             }
           },
           {
