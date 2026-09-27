@@ -53,12 +53,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "onnx",
-            "target": "mlprodict"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -71,12 +66,6 @@
             "id": "aedat",
             "payload": {
               "__lazy_json__": "node_attrs/aedat.json"
-            }
-          },
-          {
-            "id": "alm",
-            "payload": {
-              "__lazy_json__": "node_attrs/alm.json"
             }
           },
           {
@@ -542,12 +531,6 @@
             }
           },
           {
-            "id": "mlprodict",
-            "payload": {
-              "__lazy_json__": "node_attrs/mlprodict.json"
-            }
-          },
-          {
             "id": "molmod",
             "payload": {
               "__lazy_json__": "node_attrs/molmod.json"
@@ -983,12 +966,6 @@
             "id": "sissopp",
             "payload": {
               "__lazy_json__": "node_attrs/sissopp.json"
-            }
-          },
-          {
-            "id": "sktools",
-            "payload": {
-              "__lazy_json__": "node_attrs/sktools.json"
             }
           },
           {
