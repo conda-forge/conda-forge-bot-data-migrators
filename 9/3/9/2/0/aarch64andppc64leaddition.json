@@ -7213,6 +7213,10 @@
           },
           {
             "source": "bash",
+            "target": "r-brms"
+          },
+          {
+            "source": "bash",
             "target": "r-bwstest"
           },
           {
@@ -8465,10 +8469,6 @@
           },
           {
             "source": "bash",
-            "target": "r-rlang"
-          },
-          {
-            "source": "bash",
             "target": "r-rmariadb"
           },
           {
@@ -9258,10 +9258,6 @@
           {
             "source": "bash",
             "target": "siscone"
-          },
-          {
-            "source": "bash",
-            "target": "sixs"
           },
           {
             "source": "bash",
@@ -19334,10 +19330,6 @@
           {
             "source": "cmake",
             "target": "siscone"
-          },
-          {
-            "source": "cmake",
-            "target": "sixs"
           },
           {
             "source": "cmake",
@@ -45625,6 +45617,10 @@
           },
           {
             "source": "libtool",
+            "target": "r-brms"
+          },
+          {
+            "source": "libtool",
             "target": "r-bwstest"
           },
           {
@@ -46877,10 +46873,6 @@
           },
           {
             "source": "libtool",
-            "target": "r-rlang"
-          },
-          {
-            "source": "libtool",
             "target": "r-rmariadb"
           },
           {
@@ -47670,10 +47662,6 @@
           {
             "source": "libtool",
             "target": "siscone"
-          },
-          {
-            "source": "libtool",
-            "target": "sixs"
           },
           {
             "source": "libtool",
@@ -79045,10 +79033,6 @@
           },
           {
             "source": "r-base",
-            "target": "r-rlang"
-          },
-          {
-            "source": "r-base",
             "target": "r-rmariadb"
           },
           {
@@ -84774,386 +84758,6 @@
           {
             "source": "r-rhpcblasctl",
             "target": "r-harmony"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-adegenet"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-arrow"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-bayesfactor"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-bench"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-bigrquery"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-brms"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-bwstest"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-cachem"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-caret"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-clock"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-clusterr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-cplm"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-dplr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-dplyr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ellipsis"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-factominer"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-forecast"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-gap"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-gbm"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-gdtools"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-geepack"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ggforce"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ggiraph"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ggraph"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ggrepel"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-gridtext"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-gstat"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-harmony"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-haven"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-hdrcde"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-hmisc"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-htmltools"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-httpuv"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-igraph"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-isoband"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-languageserver"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-later"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-lazyeval"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-lobstr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-log4r"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-mapdeck"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-marginaleffects"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-mess"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-mice"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-mixtools"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-mlr3learners"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-nmf"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-odbc"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-phylobase"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-poppr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-precrec"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-prodlim"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-profvis"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-pryr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-purrr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-qgam"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rcppplanc"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-readr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-remacor"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-reshape2"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-reticulate"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rgl"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rmariadb"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rms"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-robcompositions"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-robusthd"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-roxygen2"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rsqlite"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rstan"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-rstanarm"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-ruv"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-sass"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-scattermore"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-sctransform"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-seurat"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-seuratobject"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-slider"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-sparsevctrs"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-svglite"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-systemfonts"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-testthat"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-textshaping"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-tibble"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-tidygraph"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-tidyr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-transformr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-tweedie"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-tweenr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-vctrs"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-vdiffr"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-vim"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-vroom"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-xml2"
-          },
-          {
-            "source": "r-rlang",
-            "target": "r-yardstick"
-          },
-          {
-            "source": "r-rlang",
-            "target": "rpy2"
           },
           {
             "source": "r-rmpfr",
@@ -117319,12 +116923,6 @@
             }
           },
           {
-            "id": "r-rlang",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-rlang.json"
-            }
-          },
-          {
             "id": "r-rmariadb",
             "payload": {
               "__lazy_json__": "node_attrs/r-rmariadb.json"
@@ -118846,12 +118444,6 @@
             "id": "siscone",
             "payload": {
               "__lazy_json__": "node_attrs/siscone.json"
-            }
-          },
-          {
-            "id": "sixs",
-            "payload": {
-              "__lazy_json__": "node_attrs/sixs.json"
             }
           },
           {
