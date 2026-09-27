@@ -23204,10 +23204,6 @@
             "target": "shredx"
           },
           {
-            "source": "ngspice",
-            "target": "pyspice"
-          },
-          {
             "source": "nh3",
             "target": "arosics"
           },
@@ -51889,7 +51885,7 @@
           },
           {
             "source": "winflexbison",
-            "target": "ngspice"
+            "target": "pyspice"
           },
           {
             "source": "winpthreads",
@@ -64278,12 +64274,6 @@
             "id": "ngmix",
             "payload": {
               "__lazy_json__": "node_attrs/ngmix.json"
-            }
-          },
-          {
-            "id": "ngspice",
-            "payload": {
-              "__lazy_json__": "node_attrs/ngspice.json"
             }
           },
           {
