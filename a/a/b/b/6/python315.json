@@ -1643,10 +1643,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "deepchecks"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "dgpsi"
           },
           {
@@ -3460,10 +3456,6 @@
           {
             "source": "backports.zstd",
             "target": "ddsp"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "deepchecks"
           },
           {
             "source": "backports.zstd",
@@ -7200,10 +7192,6 @@
           {
             "source": "brotli",
             "target": "ddsp"
-          },
-          {
-            "source": "brotli",
-            "target": "deepchecks"
           },
           {
             "source": "brotli",
@@ -12807,10 +12795,6 @@
           },
           {
             "source": "debugpy",
-            "target": "deepchecks"
-          },
-          {
-            "source": "debugpy",
             "target": "dgpsi"
           },
           {
@@ -13167,10 +13151,6 @@
           },
           {
             "source": "dedupe",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "deepchecks",
             "target": "conda-forge-pinning"
           },
           {
@@ -14131,6 +14111,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -16760,10 +16744,6 @@
           {
             "source": "greenlet",
             "target": "datatable"
-          },
-          {
-            "source": "greenlet",
-            "target": "deepchecks"
           },
           {
             "source": "greenlet",
@@ -22927,10 +22907,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "deepchecks"
-          },
-          {
-            "source": "matplotlib",
             "target": "deepsearch-glm"
           },
           {
@@ -27927,10 +27903,6 @@
           },
           {
             "source": "numba-cuda",
-            "target": "cccl-python"
-          },
-          {
-            "source": "numba-cuda",
             "target": "conda-forge-pinning"
           },
           {
@@ -27992,10 +27964,6 @@
           {
             "source": "numba",
             "target": "cad-to-openmc"
-          },
-          {
-            "source": "numba",
-            "target": "cccl-python"
           },
           {
             "source": "numba",
@@ -29975,10 +29943,6 @@
           },
           {
             "source": "numpy",
-            "target": "deepchecks"
-          },
-          {
-            "source": "numpy",
             "target": "deepface"
           },
           {
@@ -30332,6 +30296,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -37519,10 +37487,6 @@
           },
           {
             "source": "pandas",
-            "target": "deepchecks"
-          },
-          {
-            "source": "pandas",
             "target": "deepface"
           },
           {
@@ -41684,10 +41648,6 @@
           {
             "source": "psutil",
             "target": "ddsp"
-          },
-          {
-            "source": "psutil",
-            "target": "deepchecks"
           },
           {
             "source": "psutil",
@@ -46387,10 +46347,6 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "deepchecks"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "dgpsi"
           },
           {
@@ -49815,6 +49771,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -50711,10 +50671,6 @@
           },
           {
             "source": "pywin32",
-            "target": "deepchecks"
-          },
-          {
-            "source": "pywin32",
             "target": "dejaq"
           },
           {
@@ -51271,10 +51227,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "deepchecks"
-          },
-          {
-            "source": "pywinpty",
             "target": "dgpsi"
           },
           {
@@ -51636,10 +51588,6 @@
           {
             "source": "pyzmq",
             "target": "datatable"
-          },
-          {
-            "source": "pyzmq",
-            "target": "deepchecks"
           },
           {
             "source": "pyzmq",
@@ -53439,10 +53387,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "deepchecks"
-          },
-          {
-            "source": "rpds-py",
             "target": "deepsearch-glm"
           },
           {
@@ -54995,10 +54939,6 @@
           },
           {
             "source": "scikit-learn",
-            "target": "deepchecks"
-          },
-          {
-            "source": "scikit-learn",
             "target": "deeptime"
           },
           {
@@ -56324,10 +56264,6 @@
           {
             "source": "scipy",
             "target": "dedalus"
-          },
-          {
-            "source": "scipy",
-            "target": "deepchecks"
           },
           {
             "source": "scipy",
@@ -61047,10 +60983,6 @@
           },
           {
             "source": "statsmodels",
-            "target": "deepchecks"
-          },
-          {
-            "source": "statsmodels",
             "target": "depi"
           },
           {
@@ -61768,6 +61700,10 @@
           {
             "source": "tbb",
             "target": "einsums"
+          },
+          {
+            "source": "tbb",
+            "target": "eon"
           },
           {
             "source": "tbb",
@@ -63436,10 +63372,6 @@
           {
             "source": "tornado",
             "target": "datatable"
-          },
-          {
-            "source": "tornado",
-            "target": "deepchecks"
           },
           {
             "source": "tornado",
@@ -70965,12 +70897,6 @@
             }
           },
           {
-            "id": "deepchecks",
-            "payload": {
-              "__lazy_json__": "node_attrs/deepchecks.json"
-            }
-          },
-          {
             "id": "deepface",
             "payload": {
               "__lazy_json__": "node_attrs/deepface.json"
@@ -71886,6 +71812,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
