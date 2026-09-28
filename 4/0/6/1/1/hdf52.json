@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "tomviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/tomviz.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -532,6 +539,10 @@
           {
             "source": "h5py",
             "target": "tomoatt"
+          },
+          {
+            "source": "h5py",
+            "target": "tomviz"
           },
           {
             "source": "h5py",
@@ -1214,6 +1225,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "tomviz",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "trexio",
             "target": "conda-forge-pinning"
           },
@@ -1304,6 +1319,10 @@
           {
             "source": "vtk",
             "target": "remage"
+          },
+          {
+            "source": "vtk",
+            "target": "tomviz"
           },
           {
             "source": "xios",
@@ -2154,6 +2173,12 @@
             "id": "tomoatt",
             "payload": {
               "__lazy_json__": "node_attrs/tomoatt.json"
+            }
+          },
+          {
+            "id": "tomviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/tomviz.json"
             }
           },
           {
