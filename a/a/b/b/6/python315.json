@@ -75,6 +75,12 @@
             }
           },
           {
+            "id": "apache-tvm-ffi",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-tvm-ffi.json"
+            }
+          },
+          {
             "id": "astra-toolbox",
             "payload": {
               "__lazy_json__": "node_attrs/astra-toolbox.json"
@@ -1050,6 +1056,12 @@
             "id": "yt",
             "payload": {
               "__lazy_json__": "node_attrs/yt.json"
+            }
+          },
+          {
+            "id": "xstar-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/xstar-tools.json"
             }
           }
         ]
@@ -2768,6 +2780,10 @@
           {
             "source": "astropy",
             "target": "toasty"
+          },
+          {
+            "source": "astropy",
+            "target": "xstar-tools"
           },
           {
             "source": "astropy",
@@ -14123,6 +14139,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30319,6 +30339,10 @@
           },
           {
             "source": "numpy",
+            "target": "eon"
+          },
+          {
+            "source": "numpy",
             "target": "eqcorrscan"
           },
           {
@@ -35688,6 +35712,10 @@
           {
             "source": "numpy",
             "target": "xrt"
+          },
+          {
+            "source": "numpy",
+            "target": "xstar-tools"
           },
           {
             "source": "numpy",
@@ -49807,6 +49835,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -61767,6 +61799,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -67110,6 +67146,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "xstar-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "xsum",
             "target": "conda-forge-pinning"
           },
@@ -71884,6 +71924,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
@@ -86602,6 +86648,12 @@
             "id": "numgrid",
             "payload": {
               "__lazy_json__": "node_attrs/numgrid.json"
+            }
+          },
+          {
+            "id": "xstar-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/xstar-tools.json"
             }
           }
         ]
