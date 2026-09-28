@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "bdsim-g4",
+            "payload": {
+              "__lazy_json__": "node_attrs/bdsim-g4.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -123,6 +130,10 @@
           },
           {
             "source": "ambit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "bdsim-g4",
             "target": "conda-forge-pinning"
           },
           {
@@ -372,6 +383,10 @@
           {
             "source": "gdal",
             "target": "pygnome"
+          },
+          {
+            "source": "geant4",
+            "target": "bdsim-g4"
           },
           {
             "source": "geant4",
@@ -1330,6 +1345,12 @@
             "id": "ambit",
             "payload": {
               "__lazy_json__": "node_attrs/ambit.json"
+            }
+          },
+          {
+            "id": "bdsim-g4",
+            "payload": {
+              "__lazy_json__": "node_attrs/bdsim-g4.json"
             }
           },
           {
