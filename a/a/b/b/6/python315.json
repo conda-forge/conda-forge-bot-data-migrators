@@ -14132,6 +14132,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "eon",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "ephem",
             "target": "aipy"
           },
@@ -16306,6 +16310,10 @@
           {
             "source": "gnuradio",
             "target": "gnuradio-satellites"
+          },
+          {
+            "source": "gnureadline",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "go2",
@@ -30318,6 +30326,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -49809,6 +49821,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -61757,6 +61773,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -71877,6 +71897,12 @@
             }
           },
           {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
             "id": "ephem",
             "payload": {
               "__lazy_json__": "node_attrs/ephem.json"
@@ -73248,6 +73274,12 @@
             "id": "gnuradio-satellites",
             "payload": {
               "__lazy_json__": "node_attrs/gnuradio-satellites.json"
+            }
+          },
+          {
+            "id": "gnureadline",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnureadline.json"
             }
           },
           {
