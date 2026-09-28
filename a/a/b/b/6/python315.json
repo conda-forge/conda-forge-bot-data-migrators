@@ -123,12 +123,6 @@
             }
           },
           {
-            "id": "bpython",
-            "payload": {
-              "__lazy_json__": "node_attrs/bpython.json"
-            }
-          },
-          {
             "id": "capytaine",
             "payload": {
               "__lazy_json__": "node_attrs/capytaine.json"
@@ -1062,6 +1056,12 @@
             "id": "yt",
             "payload": {
               "__lazy_json__": "node_attrs/yt.json"
+            }
+          },
+          {
+            "id": "numgrid",
+            "payload": {
+              "__lazy_json__": "node_attrs/numgrid.json"
             }
           }
         ]
@@ -28728,6 +28728,10 @@
           {
             "source": "numexpr",
             "target": "zipline-reloaded"
+          },
+          {
+            "source": "numgrid",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "numina",
@@ -86600,6 +86604,12 @@
             "id": "patinae",
             "payload": {
               "__lazy_json__": "node_attrs/patinae.json"
+            }
+          },
+          {
+            "id": "numgrid",
+            "payload": {
+              "__lazy_json__": "node_attrs/numgrid.json"
             }
           }
         ]
