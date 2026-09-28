@@ -16104,6 +16104,10 @@
             "target": "nghttp2"
           },
           {
+            "source": "libev",
+            "target": "scylla-driver"
+          },
+          {
             "source": "libexif",
             "target": "libvips"
           },
@@ -20546,6 +20550,10 @@
           {
             "source": "lz4-c",
             "target": "rsync"
+          },
+          {
+            "source": "lz4-c",
+            "target": "scylla-driver"
           },
           {
             "source": "lz4-c",
