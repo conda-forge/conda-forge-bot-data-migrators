@@ -9261,6 +9261,10 @@
           },
           {
             "source": "bash",
+            "target": "sixs"
+          },
+          {
+            "source": "bash",
             "target": "slang"
           },
           {
@@ -19330,6 +19334,10 @@
           {
             "source": "cmake",
             "target": "siscone"
+          },
+          {
+            "source": "cmake",
+            "target": "sixs"
           },
           {
             "source": "cmake",
@@ -47662,6 +47670,10 @@
           {
             "source": "libtool",
             "target": "siscone"
+          },
+          {
+            "source": "libtool",
+            "target": "sixs"
           },
           {
             "source": "libtool",
@@ -118444,6 +118456,12 @@
             "id": "siscone",
             "payload": {
               "__lazy_json__": "node_attrs/siscone.json"
+            }
+          },
+          {
+            "id": "sixs",
+            "payload": {
+              "__lazy_json__": "node_attrs/sixs.json"
             }
           },
           {
