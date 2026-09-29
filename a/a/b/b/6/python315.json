@@ -381,6 +381,12 @@
             }
           },
           {
+            "id": "intbitset",
+            "payload": {
+              "__lazy_json__": "node_attrs/intbitset.json"
+            }
+          },
+          {
             "id": "jaxlib",
             "payload": {
               "__lazy_json__": "node_attrs/jaxlib.json"
@@ -19396,6 +19402,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "imate",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "imexam",
             "target": "conda-forge-pinning"
           },
@@ -23253,6 +23263,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "imate"
+          },
+          {
+            "source": "matplotlib",
             "target": "imexam"
           },
           {
@@ -24850,38 +24864,6 @@
           {
             "source": "menpo3d",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "menuinst",
-            "target": "diffpy.pdfgui"
-          },
-          {
-            "source": "menuinst",
-            "target": "gnuradio"
-          },
-          {
-            "source": "menuinst",
-            "target": "networkit"
-          },
-          {
-            "source": "menuinst",
-            "target": "openqcm"
-          },
-          {
-            "source": "menuinst",
-            "target": "yaqc-qtpy"
           },
           {
             "source": "mercurial",
@@ -31270,6 +31252,10 @@
           {
             "source": "numpy",
             "target": "imas-core"
+          },
+          {
+            "source": "numpy",
+            "target": "imate"
           },
           {
             "source": "numpy",
@@ -56961,6 +56947,10 @@
           },
           {
             "source": "scipy",
+            "target": "imate"
+          },
+          {
+            "source": "scipy",
             "target": "imexam"
           },
           {
@@ -74273,6 +74263,12 @@
             }
           },
           {
+            "id": "imate",
+            "payload": {
+              "__lazy_json__": "node_attrs/imate.json"
+            }
+          },
+          {
             "id": "imexam",
             "payload": {
               "__lazy_json__": "node_attrs/imexam.json"
@@ -76052,12 +76048,6 @@
             "id": "menpo3d",
             "payload": {
               "__lazy_json__": "node_attrs/menpo3d.json"
-            }
-          },
-          {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
