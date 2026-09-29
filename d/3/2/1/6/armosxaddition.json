@@ -21588,22 +21588,6 @@
             "target": "ray-packages"
           },
           {
-            "source": "menuinst",
-            "target": "almosthere"
-          },
-          {
-            "source": "menuinst",
-            "target": "bgen"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-ci-setup"
-          },
-          {
             "source": "meos",
             "target": "pymeos-cffi"
           },
@@ -35858,10 +35842,6 @@
           {
             "source": "python",
             "target": "memray"
-          },
-          {
-            "source": "python",
-            "target": "menuinst"
           },
           {
             "source": "python",
@@ -63648,12 +63628,6 @@
             "id": "memray",
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
-            }
-          },
-          {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
