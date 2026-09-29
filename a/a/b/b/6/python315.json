@@ -549,6 +549,12 @@
             }
           },
           {
+            "id": "numcodecs",
+            "payload": {
+              "__lazy_json__": "node_attrs/numcodecs.json"
+            }
+          },
+          {
             "id": "numina",
             "payload": {
               "__lazy_json__": "node_attrs/numina.json"
@@ -5022,10 +5028,6 @@
           {
             "source": "backports.zstd",
             "target": "zipline-reloaded"
-          },
-          {
-            "source": "baml-py",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "based58",
@@ -14125,6 +14127,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30318,6 +30324,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -49869,6 +49879,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -61837,6 +61851,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -68687,12 +68705,6 @@
             }
           },
           {
-            "id": "baml-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/baml-py.json"
-            }
-          },
-          {
             "id": "based58",
             "payload": {
               "__lazy_json__": "node_attrs/based58.json"
@@ -71954,6 +71966,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
