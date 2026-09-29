@@ -1472,14 +1472,6 @@
             "target": "lief"
           },
           {
-            "source": "menuinst",
-            "target": "conda"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-ci-setup"
-          },
-          {
             "source": "mpc",
             "target": "ncurses"
           },
@@ -1990,10 +1982,6 @@
           {
             "source": "python",
             "target": "mamba"
-          },
-          {
-            "source": "python",
-            "target": "menuinst"
           },
           {
             "source": "python",
@@ -4190,12 +4178,6 @@
             "id": "mbedtls",
             "payload": {
               "__lazy_json__": "node_attrs/mbedtls.json"
-            }
-          },
-          {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
