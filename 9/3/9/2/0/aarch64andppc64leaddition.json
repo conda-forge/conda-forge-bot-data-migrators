@@ -53248,18 +53248,6 @@
             "target": "ray-packages"
           },
           {
-            "source": "menuinst",
-            "target": "conda"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-standalone"
-          },
-          {
             "source": "mesalib",
             "target": "gymnasium"
           },
@@ -73438,10 +73426,6 @@
           {
             "source": "python",
             "target": "memray"
-          },
-          {
-            "source": "python",
-            "target": "menuinst"
           },
           {
             "source": "python",
@@ -112384,12 +112368,6 @@
             "id": "memray",
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
-            }
-          },
-          {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
