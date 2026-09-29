@@ -378,12 +378,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/xraylib.json"
             }
-          },
-          {
-            "id": "pygtide",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygtide.json"
-            }
           }
         ]
       }
@@ -1774,10 +1768,6 @@
           },
           {
             "source": "numpy",
-            "target": "pygtide"
-          },
-          {
-            "source": "numpy",
             "target": "pyhams"
           },
           {
@@ -1967,10 +1957,6 @@
           {
             "source": "pygotm",
             "target": "pygetm"
-          },
-          {
-            "source": "pygtide",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "pyhams",
@@ -3159,12 +3145,6 @@
             "id": "yggdrasil",
             "payload": {
               "__lazy_json__": "node_attrs/yggdrasil.json"
-            }
-          },
-          {
-            "id": "pygtide",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygtide.json"
             }
           }
         ]
