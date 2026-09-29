@@ -1184,14 +1184,6 @@
             "target": "lief"
           },
           {
-            "source": "menuinst",
-            "target": "conda"
-          },
-          {
-            "source": "menuinst",
-            "target": "conda-forge-ci-setup"
-          },
-          {
             "source": "minizip",
             "target": "qt-webengine"
           },
@@ -1598,10 +1590,6 @@
           {
             "source": "python",
             "target": "matplotlib"
-          },
-          {
-            "source": "python",
-            "target": "menuinst"
           },
           {
             "source": "python",
@@ -3508,12 +3496,6 @@
             "id": "mbedtls",
             "payload": {
               "__lazy_json__": "node_attrs/mbedtls.json"
-            }
-          },
-          {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
