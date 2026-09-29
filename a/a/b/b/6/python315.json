@@ -14124,6 +14124,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "eon",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "ephem",
             "target": "aipy"
           },
@@ -14590,10 +14594,6 @@
           {
             "source": "fastar",
             "target": "fps-terminals"
-          },
-          {
-            "source": "fastar",
-            "target": "headroom-ai"
           },
           {
             "source": "fastar",
@@ -19022,10 +19022,6 @@
           {
             "source": "httptools",
             "target": "fps-terminals"
-          },
-          {
-            "source": "httptools",
-            "target": "headroom-ai"
           },
           {
             "source": "httptools",
@@ -30318,6 +30314,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -49877,6 +49877,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -61857,6 +61861,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -65337,10 +65345,6 @@
           },
           {
             "source": "uvloop",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "uvloop",
             "target": "hklpy"
           },
           {
@@ -66025,10 +66029,6 @@
           },
           {
             "source": "watchfiles",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "watchfiles",
             "target": "hklpy"
           },
           {
@@ -66182,10 +66182,6 @@
           {
             "source": "websockets",
             "target": "gravelamps"
-          },
-          {
-            "source": "websockets",
-            "target": "headroom-ai"
           },
           {
             "source": "websockets",
@@ -71968,6 +71964,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
