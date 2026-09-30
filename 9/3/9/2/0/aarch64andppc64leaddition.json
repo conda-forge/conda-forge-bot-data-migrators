@@ -1249,6 +1249,10 @@
           },
           {
             "source": "autoconf",
+            "target": "libmemcached"
+          },
+          {
+            "source": "autoconf",
             "target": "libomm"
           },
           {
@@ -2398,6 +2402,10 @@
           {
             "source": "automake",
             "target": "libmathdx"
+          },
+          {
+            "source": "automake",
+            "target": "libmemcached"
           },
           {
             "source": "automake",
@@ -5449,6 +5457,10 @@
           },
           {
             "source": "bash",
+            "target": "libmemcached"
+          },
+          {
+            "source": "bash",
             "target": "libmicrohttpd"
           },
           {
@@ -6282,10 +6294,6 @@
           {
             "source": "bash",
             "target": "openldap"
-          },
-          {
-            "source": "bash",
-            "target": "openlibm"
           },
           {
             "source": "bash",
@@ -16374,10 +16382,6 @@
           {
             "source": "check",
             "target": "pulseaudio"
-          },
-          {
-            "source": "cherrypy",
-            "target": "allennlp"
           },
           {
             "source": "chrpath",
@@ -31125,6 +31129,10 @@
           },
           {
             "source": "glib",
+            "target": "libmemcached"
+          },
+          {
+            "source": "glib",
             "target": "librsvg"
           },
           {
@@ -40720,6 +40728,10 @@
             "target": "mediainfo"
           },
           {
+            "source": "libmemcached",
+            "target": "pylibmc"
+          },
+          {
             "source": "libmicrohttpd",
             "target": "oidc-agent"
           },
@@ -44081,6 +44093,10 @@
           },
           {
             "source": "libtool",
+            "target": "libmemcached"
+          },
+          {
+            "source": "libtool",
             "target": "libmicrohttpd"
           },
           {
@@ -44910,10 +44926,6 @@
           {
             "source": "libtool",
             "target": "openldap"
-          },
-          {
-            "source": "libtool",
-            "target": "openlibm"
           },
           {
             "source": "libtool",
@@ -60248,10 +60260,6 @@
             "target": "postgresql"
           },
           {
-            "source": "openlibm",
-            "target": "julia"
-          },
-          {
             "source": "openmm",
             "target": "psi4"
           },
@@ -65426,6 +65434,10 @@
           {
             "source": "pkg-config",
             "target": "libmediainfo"
+          },
+          {
+            "source": "pkg-config",
+            "target": "libmemcached"
           },
           {
             "source": "pkg-config",
@@ -71589,10 +71601,6 @@
           },
           {
             "source": "python",
-            "target": "cherrypy"
-          },
-          {
-            "source": "python",
             "target": "ciso"
           },
           {
@@ -74322,6 +74330,10 @@
           {
             "source": "python",
             "target": "pylance"
+          },
+          {
+            "source": "python",
+            "target": "pylibmc"
           },
           {
             "source": "python",
@@ -92041,7 +92053,7 @@
           },
           {
             "source": "simplejson",
-            "target": "cherrypy"
+            "target": "allennlp"
           },
           {
             "source": "simplejson",
@@ -103821,6 +103833,10 @@
           },
           {
             "source": "zlib",
+            "target": "pylibmc"
+          },
+          {
+            "source": "zlib",
             "target": "pypy2.7"
           },
           {
@@ -107130,12 +107146,6 @@
             "id": "check",
             "payload": {
               "__lazy_json__": "node_attrs/check.json"
-            }
-          },
-          {
-            "id": "cherrypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cherrypy.json"
             }
           },
           {
@@ -111339,6 +111349,12 @@
             }
           },
           {
+            "id": "libmemcached",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmemcached.json"
+            }
+          },
+          {
             "id": "libmicrohttpd",
             "payload": {
               "__lazy_json__": "node_attrs/libmicrohttpd.json"
@@ -113355,12 +113371,6 @@
             }
           },
           {
-            "id": "openlibm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openlibm.json"
-            }
-          },
-          {
             "id": "openlineage-sql",
             "payload": {
               "__lazy_json__": "node_attrs/openlineage-sql.json"
@@ -114804,6 +114814,12 @@
             "id": "pylance",
             "payload": {
               "__lazy_json__": "node_attrs/pylance.json"
+            }
+          },
+          {
+            "id": "pylibmc",
+            "payload": {
+              "__lazy_json__": "node_attrs/pylibmc.json"
             }
           },
           {
