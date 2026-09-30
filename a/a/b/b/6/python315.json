@@ -135,12 +135,6 @@
             }
           },
           {
-            "id": "cherrypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cherrypy.json"
-            }
-          },
-          {
             "id": "cis_interface",
             "payload": {
               "__lazy_json__": "node_attrs/cis_interface.json"
@@ -681,12 +675,6 @@
             }
           },
           {
-            "id": "pycuda",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycuda.json"
-            }
-          },
-          {
             "id": "pydensecrf",
             "payload": {
               "__lazy_json__": "node_attrs/pydensecrf.json"
@@ -948,6 +936,12 @@
             "id": "tach",
             "payload": {
               "__lazy_json__": "node_attrs/tach.json"
+            }
+          },
+          {
+            "id": "tangelo",
+            "payload": {
+              "__lazy_json__": "node_attrs/tangelo.json"
             }
           },
           {
@@ -9527,10 +9521,6 @@
           },
           {
             "source": "cffi",
-            "target": "cherrypy"
-          },
-          {
-            "source": "cffi",
             "target": "chi2comb-py"
           },
           {
@@ -10403,6 +10393,10 @@
           },
           {
             "source": "cffi",
+            "target": "tangelo"
+          },
+          {
+            "source": "cffi",
             "target": "tango"
           },
           {
@@ -10632,26 +10626,6 @@
           {
             "source": "cherab",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cherrypy",
-            "target": "allennlp"
-          },
-          {
-            "source": "cherrypy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cherrypy",
-            "target": "cylc"
-          },
-          {
-            "source": "cherrypy",
-            "target": "tangelo"
-          },
-          {
-            "source": "cherrypy",
-            "target": "tvb-framework"
           },
           {
             "source": "chfem",
@@ -50715,10 +50689,6 @@
           },
           {
             "source": "pywin32",
-            "target": "cherrypy"
-          },
-          {
-            "source": "pywin32",
             "target": "colcon-notification"
           },
           {
@@ -51175,6 +51145,10 @@
           },
           {
             "source": "pywin32",
+            "target": "tangelo"
+          },
+          {
+            "source": "pywin32",
             "target": "tango"
           },
           {
@@ -51188,6 +51162,10 @@
           {
             "source": "pywin32",
             "target": "tmtk"
+          },
+          {
+            "source": "pywin32",
+            "target": "tvb-framework"
           },
           {
             "source": "pywin32",
@@ -59811,6 +59789,10 @@
           },
           {
             "source": "simplejson",
+            "target": "allennlp"
+          },
+          {
+            "source": "simplejson",
             "target": "allensdk"
           },
           {
@@ -59827,15 +59809,15 @@
           },
           {
             "source": "simplejson",
-            "target": "cherrypy"
-          },
-          {
-            "source": "simplejson",
             "target": "ckan"
           },
           {
             "source": "simplejson",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "simplejson",
+            "target": "cylc"
           },
           {
             "source": "simplejson",
@@ -59880,6 +59862,10 @@
           {
             "source": "simplejson",
             "target": "superset"
+          },
+          {
+            "source": "simplejson",
+            "target": "tangelo"
           },
           {
             "source": "simplejson",
@@ -69654,12 +69640,6 @@
             "id": "cherab-nagdis",
             "payload": {
               "__lazy_json__": "node_attrs/cherab-nagdis.json"
-            }
-          },
-          {
-            "id": "cherrypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cherrypy.json"
             }
           },
           {
