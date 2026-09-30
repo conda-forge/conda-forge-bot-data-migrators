@@ -16496,6 +16496,10 @@
           },
           {
             "source": "libiconv",
+            "target": "biome"
+          },
+          {
+            "source": "libiconv",
             "target": "bison"
           },
           {
@@ -57423,6 +57427,12 @@
             "id": "biom-format",
             "payload": {
               "__lazy_json__": "node_attrs/biom-format.json"
+            }
+          },
+          {
+            "id": "biome",
+            "payload": {
+              "__lazy_json__": "node_attrs/biome.json"
             }
           },
           {
