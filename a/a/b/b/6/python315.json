@@ -651,6 +651,12 @@
             }
           },
           {
+            "id": "pyaudi",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyaudi.json"
+            }
+          },
+          {
             "id": "pycalphad",
             "payload": {
               "__lazy_json__": "node_attrs/pycalphad.json"
@@ -3425,6 +3431,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "dask-sql"
+          },
+          {
+            "source": "backports.zstd",
             "target": "datalad"
           },
           {
@@ -3581,6 +3591,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "backports.zstd",
             "target": "fastar"
           },
           {
@@ -3618,6 +3632,10 @@
           {
             "source": "backports.zstd",
             "target": "flux-core"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fps-terminals"
           },
           {
             "source": "backports.zstd",
@@ -3893,11 +3911,19 @@
           },
           {
             "source": "backports.zstd",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "backports.zstd",
             "target": "llama-cpp-server-py-core"
           },
           {
             "source": "backports.zstd",
             "target": "lsds"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "marvin"
           },
           {
             "source": "backports.zstd",
@@ -7157,6 +7183,10 @@
           },
           {
             "source": "brotli",
+            "target": "dask-sql"
+          },
+          {
+            "source": "brotli",
             "target": "datalad"
           },
           {
@@ -7317,6 +7347,10 @@
           },
           {
             "source": "brotli",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "brotli",
             "target": "fatiando"
           },
           {
@@ -7350,6 +7384,10 @@
           {
             "source": "brotli",
             "target": "flux-core"
+          },
+          {
+            "source": "brotli",
+            "target": "fps-terminals"
           },
           {
             "source": "brotli",
@@ -7625,11 +7663,19 @@
           },
           {
             "source": "brotli",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "brotli",
             "target": "llama-cpp-server-py-core"
           },
           {
             "source": "brotli",
             "target": "lsds"
+          },
+          {
+            "source": "brotli",
+            "target": "marvin"
           },
           {
             "source": "brotli",
@@ -16997,6 +17043,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "aim"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "allennlp"
           },
           {
@@ -17021,6 +17071,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "atom-ml"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "autogluon.vision"
           },
           {
@@ -17034,6 +17088,14 @@
           {
             "source": "grpc-cpp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "csxtools"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "dask-sql"
           },
           {
             "source": "grpc-cpp",
@@ -17054,6 +17116,14 @@
           {
             "source": "grpc-cpp",
             "target": "endstate_correction"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "fps-terminals"
           },
           {
             "source": "grpc-cpp",
@@ -17081,7 +17151,27 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "hklpy"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "jaxlib"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "marvin"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "nomad-camels"
           },
           {
             "source": "grpc-cpp",
@@ -17101,6 +17191,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "pyserini"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "pytango"
           },
           {
@@ -17114,6 +17208,10 @@
           {
             "source": "grpc-cpp",
             "target": "qsimcirq"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "radical.orbit"
           },
           {
             "source": "grpc-cpp",
@@ -40861,6 +40959,10 @@
           },
           {
             "source": "protobuf",
+            "target": "aim"
+          },
+          {
+            "source": "protobuf",
             "target": "allennlp"
           },
           {
@@ -40945,6 +41047,10 @@
           },
           {
             "source": "protobuf",
+            "target": "dask-sql"
+          },
+          {
+            "source": "protobuf",
             "target": "ddsp"
           },
           {
@@ -40958,6 +41064,14 @@
           {
             "source": "protobuf",
             "target": "endstate_correction"
+          },
+          {
+            "source": "protobuf",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "protobuf",
+            "target": "fps-terminals"
           },
           {
             "source": "protobuf",
@@ -41017,11 +41131,19 @@
           },
           {
             "source": "protobuf",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "protobuf",
             "target": "locan"
           },
           {
             "source": "protobuf",
             "target": "lsds"
+          },
+          {
+            "source": "protobuf",
+            "target": "marvin"
           },
           {
             "source": "protobuf",
@@ -41034,6 +41156,10 @@
           {
             "source": "protobuf",
             "target": "mysqlx-connector-python"
+          },
+          {
+            "source": "protobuf",
+            "target": "nb_conda_store_kernels"
           },
           {
             "source": "protobuf",
@@ -41101,6 +41227,10 @@
           },
           {
             "source": "protobuf",
+            "target": "pyserini"
+          },
+          {
+            "source": "protobuf",
             "target": "pytango"
           },
           {
@@ -41110,6 +41240,10 @@
           {
             "source": "protobuf",
             "target": "qsimcirq"
+          },
+          {
+            "source": "protobuf",
+            "target": "radical.orbit"
           },
           {
             "source": "protobuf",
@@ -66365,6 +66499,10 @@
           },
           {
             "source": "wrapt",
+            "target": "aim"
+          },
+          {
+            "source": "wrapt",
             "target": "alphacsc"
           },
           {
@@ -66406,6 +66544,10 @@
           {
             "source": "wrapt",
             "target": "atom-ml"
+          },
+          {
+            "source": "wrapt",
+            "target": "autogluon.vision"
           },
           {
             "source": "wrapt",
@@ -66473,6 +66615,10 @@
           },
           {
             "source": "wrapt",
+            "target": "dask-sql"
+          },
+          {
+            "source": "wrapt",
             "target": "datalad"
           },
           {
@@ -66517,7 +66663,15 @@
           },
           {
             "source": "wrapt",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "wrapt",
             "target": "finesse"
+          },
+          {
+            "source": "wrapt",
+            "target": "fps-terminals"
           },
           {
             "source": "wrapt",
@@ -66553,6 +66707,14 @@
           },
           {
             "source": "wrapt",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "wrapt",
+            "target": "marvin"
+          },
+          {
+            "source": "wrapt",
             "target": "mattersim"
           },
           {
@@ -66578,6 +66740,10 @@
           {
             "source": "wrapt",
             "target": "natcap.invest"
+          },
+          {
+            "source": "wrapt",
+            "target": "nb_conda_store_kernels"
           },
           {
             "source": "wrapt",
@@ -66661,11 +66827,19 @@
           },
           {
             "source": "wrapt",
+            "target": "pyserini"
+          },
+          {
+            "source": "wrapt",
             "target": "pytango"
           },
           {
             "source": "wrapt",
             "target": "python-certifi-win32"
+          },
+          {
+            "source": "wrapt",
+            "target": "radical.orbit"
           },
           {
             "source": "wrapt",
