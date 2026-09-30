@@ -5433,10 +5433,6 @@
           },
           {
             "source": "bash",
-            "target": "libm2k"
-          },
-          {
-            "source": "bash",
             "target": "libmad"
           },
           {
@@ -44073,10 +44069,6 @@
           },
           {
             "source": "libtool",
-            "target": "libm2k"
-          },
-          {
-            "source": "libtool",
             "target": "libmad"
           },
           {
@@ -56154,6 +56146,10 @@
           {
             "source": "ninja",
             "target": "liblie-group-controllers"
+          },
+          {
+            "source": "ninja",
+            "target": "libm2k"
           },
           {
             "source": "ninja",
