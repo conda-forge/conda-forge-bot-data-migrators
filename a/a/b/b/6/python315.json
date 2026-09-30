@@ -14120,6 +14120,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "eon",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "ephem",
             "target": "aipy"
           },
@@ -30345,6 +30349,10 @@
           },
           {
             "source": "numpy",
+            "target": "eon"
+          },
+          {
+            "source": "numpy",
             "target": "eqcorrscan"
           },
           {
@@ -43244,10 +43252,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pulp",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pulsar-client",
             "target": "chromadb"
           },
@@ -49934,6 +49938,10 @@
           {
             "source": "pytorch-cpu",
             "target": "endstate_correction"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "eon"
           },
           {
             "source": "pytorch-cpu",
@@ -61945,6 +61953,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72081,6 +72093,12 @@
             }
           },
           {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
             "id": "ephem",
             "payload": {
               "__lazy_json__": "node_attrs/ephem.json"
@@ -78996,12 +79014,6 @@
             "id": "public-wrappers",
             "payload": {
               "__lazy_json__": "node_attrs/public-wrappers.json"
-            }
-          },
-          {
-            "id": "pulp",
-            "payload": {
-              "__lazy_json__": "node_attrs/pulp.json"
             }
           },
           {
