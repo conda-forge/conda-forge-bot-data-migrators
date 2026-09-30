@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "gpaw",
+            "payload": {
+              "__lazy_json__": "node_attrs/gpaw.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -16489,10 +16496,6 @@
           },
           {
             "source": "libiconv",
-            "target": "biome"
-          },
-          {
-            "source": "libiconv",
             "target": "bison"
           },
           {
@@ -22258,6 +22261,10 @@
           {
             "source": "mpich",
             "target": "libpnetcdf"
+          },
+          {
+            "source": "mpich",
+            "target": "libvdwxc"
           },
           {
             "source": "mpich",
@@ -57416,12 +57423,6 @@
             "id": "biom-format",
             "payload": {
               "__lazy_json__": "node_attrs/biom-format.json"
-            }
-          },
-          {
-            "id": "biome",
-            "payload": {
-              "__lazy_json__": "node_attrs/biome.json"
             }
           },
           {
