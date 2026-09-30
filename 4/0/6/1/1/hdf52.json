@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "paraview",
+            "payload": {
+              "__lazy_json__": "node_attrs/paraview.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -180,6 +187,10 @@
           {
             "source": "cgns",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cgns",
+            "target": "paraview"
           },
           {
             "source": "coda",
@@ -1006,6 +1017,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "paraview",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "paraview",
+            "target": "tomviz"
+          },
+          {
             "source": "petsc",
             "target": "code-aster"
           },
@@ -1296,6 +1315,10 @@
           {
             "source": "vtk",
             "target": "ogs"
+          },
+          {
+            "source": "vtk",
+            "target": "paraview"
           },
           {
             "source": "vtk",
@@ -1948,6 +1971,12 @@
             "id": "paraprobe",
             "payload": {
               "__lazy_json__": "node_attrs/paraprobe.json"
+            }
+          },
+          {
+            "id": "paraview",
+            "payload": {
+              "__lazy_json__": "node_attrs/paraview.json"
             }
           },
           {
