@@ -7087,6 +7087,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyinstrument",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyinterp",
             "target": "conda-forge-pinning"
           },
@@ -12793,6 +12797,12 @@
             "id": "pyhdf",
             "payload": {
               "__lazy_json__": "node_attrs/pyhdf.json"
+            }
+          },
+          {
+            "id": "pyinstrument",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyinstrument.json"
             }
           },
           {
