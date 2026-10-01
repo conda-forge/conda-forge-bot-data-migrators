@@ -3445,6 +3445,10 @@
           },
           {
             "source": "brotli",
+            "target": "pyrtools"
+          },
+          {
+            "source": "brotli",
             "target": "pyshtools"
           },
           {
@@ -21365,6 +21369,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pyrtools"
+          },
+          {
+            "source": "matplotlib",
             "target": "pyscal"
           },
           {
@@ -26238,6 +26246,10 @@
           {
             "source": "numpy",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "numpy",
+            "target": "pyrtools"
           },
           {
             "source": "numpy",
@@ -37110,6 +37122,10 @@
           {
             "source": "python",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "python",
+            "target": "pyrtools"
           },
           {
             "source": "python",
@@ -49022,6 +49038,10 @@
           {
             "source": "scipy",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "scipy",
+            "target": "pyrtools"
           },
           {
             "source": "scipy",
@@ -67050,6 +67070,12 @@
             "id": "pyrte_rrtmgp",
             "payload": {
               "__lazy_json__": "node_attrs/pyrte_rrtmgp.json"
+            }
+          },
+          {
+            "id": "pyrtools",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyrtools.json"
             }
           },
           {
