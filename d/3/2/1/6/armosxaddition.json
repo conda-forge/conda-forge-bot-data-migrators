@@ -3441,10 +3441,6 @@
           },
           {
             "source": "brotli",
-            "target": "pyrtools"
-          },
-          {
-            "source": "brotli",
             "target": "pyshtools"
           },
           {
@@ -14017,15 +14013,19 @@
           },
           {
             "source": "khronos-opencl-icd-loader",
-            "target": "pyopencl"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
             "target": "pyvkfft"
           },
           {
             "source": "khronos-opencl-icd-loader",
             "target": "qgis"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "redlionfish"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "silx"
           },
           {
             "source": "kim-api",
@@ -21357,10 +21357,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "pyrtools"
-          },
-          {
-            "source": "matplotlib",
             "target": "pyscal"
           },
           {
@@ -26189,10 +26185,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyopencl"
-          },
-          {
-            "source": "numpy",
             "target": "pypeit"
           },
           {
@@ -26234,10 +26226,6 @@
           {
             "source": "numpy",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "numpy",
-            "target": "pyrtools"
           },
           {
             "source": "numpy",
@@ -27029,7 +27017,15 @@
           },
           {
             "source": "ocl-icd",
-            "target": "pyopencl"
+            "target": "pyvkfft"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "redlionfish"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "silx"
           },
           {
             "source": "ocl_icd_wrapper_apple",
@@ -33256,18 +33252,6 @@
             "target": "sealsmodel"
           },
           {
-            "source": "pyopencl",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "pyopencl",
-            "target": "redlionfish"
-          },
-          {
-            "source": "pyopencl",
-            "target": "silx"
-          },
-          {
             "source": "pyproj",
             "target": "aria-tools"
           },
@@ -37021,10 +37005,6 @@
           },
           {
             "source": "python",
-            "target": "pyopencl"
-          },
-          {
-            "source": "python",
             "target": "pyorc"
           },
           {
@@ -37114,10 +37094,6 @@
           {
             "source": "python",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "python",
-            "target": "pyrtools"
           },
           {
             "source": "python",
@@ -49029,10 +49005,6 @@
           },
           {
             "source": "scipy",
-            "target": "pyrtools"
-          },
-          {
-            "source": "scipy",
             "target": "pyscal"
           },
           {
@@ -49665,11 +49637,19 @@
           },
           {
             "source": "siphash24",
-            "target": "pyopencl"
+            "target": "pyvkfft"
+          },
+          {
+            "source": "siphash24",
+            "target": "redlionfish"
           },
           {
             "source": "siphash24",
             "target": "sasview"
+          },
+          {
+            "source": "siphash24",
+            "target": "silx"
           },
           {
             "source": "sip",
@@ -66785,12 +66765,6 @@
             }
           },
           {
-            "id": "pyopencl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyopencl.json"
-            }
-          },
-          {
             "id": "pyorc",
             "payload": {
               "__lazy_json__": "node_attrs/pyorc.json"
@@ -66926,12 +66900,6 @@
             "id": "pyrte_rrtmgp",
             "payload": {
               "__lazy_json__": "node_attrs/pyrte_rrtmgp.json"
-            }
-          },
-          {
-            "id": "pyrtools",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyrtools.json"
             }
           },
           {
