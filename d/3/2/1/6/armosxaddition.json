@@ -51580,6 +51580,10 @@
             "target": "unidist-packages"
           },
           {
+            "source": "vale",
+            "target": "vale-ls"
+          },
+          {
             "source": "vc",
             "target": "intel-compiler-repack"
           },
@@ -72065,6 +72069,12 @@
             }
           },
           {
+            "id": "vale",
+            "payload": {
+              "__lazy_json__": "node_attrs/vale.json"
+            }
+          },
+          {
             "id": "vale-ls",
             "payload": {
               "__lazy_json__": "node_attrs/vale-ls.json"
@@ -75401,6 +75411,7 @@
         "urdfdom_headers",
         "uriparser",
         "utfcpp",
+        "vale",
         "vdt",
         "vector-classes",
         "visit_struct",
