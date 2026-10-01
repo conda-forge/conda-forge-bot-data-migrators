@@ -1101,6 +1101,12 @@
             }
           },
           {
+            "id": "pyvkfft",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyvkfft.json"
+            }
+          },
+          {
             "id": "quadrants",
             "payload": {
               "__lazy_json__": "node_attrs/quadrants.json"
@@ -1140,6 +1146,12 @@
             "id": "reasonable",
             "payload": {
               "__lazy_json__": "node_attrs/reasonable.json"
+            }
+          },
+          {
+            "id": "redlionfish",
+            "payload": {
+              "__lazy_json__": "node_attrs/redlionfish.json"
             }
           },
           {
@@ -4773,10 +4785,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pyretis"
-          },
-          {
-            "source": "backports.zstd",
             "target": "pyringgw"
           },
           {
@@ -4786,10 +4794,6 @@
           {
             "source": "backports.zstd",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pyrtools"
           },
           {
             "source": "backports.zstd",
@@ -8533,10 +8537,6 @@
           },
           {
             "source": "brotli",
-            "target": "pyretis"
-          },
-          {
-            "source": "brotli",
             "target": "pyringgw"
           },
           {
@@ -8546,10 +8546,6 @@
           {
             "source": "brotli",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "brotli",
-            "target": "pyrtools"
           },
           {
             "source": "brotli",
@@ -24421,10 +24417,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "pyretis"
-          },
-          {
-            "source": "matplotlib",
             "target": "pyribs"
           },
           {
@@ -24434,10 +24426,6 @@
           {
             "source": "matplotlib",
             "target": "pyrosm"
-          },
-          {
-            "source": "matplotlib",
-            "target": "pyrtools"
           },
           {
             "source": "matplotlib",
@@ -25186,10 +25174,6 @@
           {
             "source": "mdtraj",
             "target": "pyemma"
-          },
-          {
-            "source": "mdtraj",
-            "target": "pyretis"
           },
           {
             "source": "mdtraj",
@@ -26469,10 +26453,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "msgpack-python",
             "target": "python-box"
           },
           {
@@ -27594,10 +27574,6 @@
           {
             "source": "ndindex",
             "target": "nomad-camels"
-          },
-          {
-            "source": "ndindex",
-            "target": "python-blosc2"
           },
           {
             "source": "ndindex",
@@ -28993,6 +28969,10 @@
           },
           {
             "source": "numexpr",
+            "target": "csxtools"
+          },
+          {
+            "source": "numexpr",
             "target": "dedalus"
           },
           {
@@ -29014,6 +28994,10 @@
           {
             "source": "numexpr",
             "target": "glum"
+          },
+          {
+            "source": "numexpr",
+            "target": "hklpy"
           },
           {
             "source": "numexpr",
@@ -29042,10 +29026,6 @@
           {
             "source": "numexpr",
             "target": "pytalises"
-          },
-          {
-            "source": "numexpr",
-            "target": "python-blosc2"
           },
           {
             "source": "numexpr",
@@ -34105,10 +34085,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyopencl"
-          },
-          {
-            "source": "numpy",
             "target": "pyopengl-accelerate"
           },
           {
@@ -34197,10 +34173,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyretis"
-          },
-          {
-            "source": "numpy",
             "target": "pyribs"
           },
           {
@@ -34226,10 +34198,6 @@
           {
             "source": "numpy",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "numpy",
-            "target": "pyrtools"
           },
           {
             "source": "numpy",
@@ -34378,10 +34346,6 @@
           {
             "source": "numpy",
             "target": "python-blosc"
-          },
-          {
-            "source": "numpy",
-            "target": "python-blosc2"
           },
           {
             "source": "numpy",
@@ -38662,10 +38626,6 @@
           {
             "source": "pandas",
             "target": "pyresample"
-          },
-          {
-            "source": "pandas",
-            "target": "pyretis"
           },
           {
             "source": "pandas",
@@ -43017,10 +42977,6 @@
           },
           {
             "source": "psutil",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "psutil",
             "target": "pyvkfft"
           },
           {
@@ -45289,10 +45245,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "pydantic-core",
             "target": "python-infomap"
           },
           {
@@ -46088,28 +46040,8 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyinotify",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pyinstaller",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyinstrument",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyinstrument",
-            "target": "csxtools"
-          },
-          {
-            "source": "pyinstrument",
-            "target": "hklpy"
-          },
-          {
-            "source": "pyinstrument",
-            "target": "nomad-camels"
           },
           {
             "source": "pyinterp",
@@ -47468,34 +47400,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyopencl",
-            "target": "bempp-cl"
-          },
-          {
-            "source": "pyopencl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyopencl",
-            "target": "morphometrics"
-          },
-          {
-            "source": "pyopencl",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "pyopencl",
-            "target": "redlionfish"
-          },
-          {
-            "source": "pyopencl",
-            "target": "silx"
-          },
-          {
-            "source": "pyopencl",
-            "target": "xrt"
-          },
-          {
             "source": "pyopengl-accelerate",
             "target": "conda-forge-pinning"
           },
@@ -48168,10 +48072,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyretis",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pyrfa",
             "target": "conda-forge-pinning"
           },
@@ -48241,10 +48141,6 @@
           },
           {
             "source": "pyrte_rrtmgp",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyrtools",
             "target": "conda-forge-pinning"
           },
           {
@@ -48689,10 +48585,6 @@
           },
           {
             "source": "pytables",
-            "target": "pyretis"
-          },
-          {
-            "source": "pytables",
             "target": "pywr"
           },
           {
@@ -48842,22 +48734,6 @@
           {
             "source": "python-bidi",
             "target": "sasview"
-          },
-          {
-            "source": "python-blosc2",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-blosc2",
-            "target": "csxtools"
-          },
-          {
-            "source": "python-blosc2",
-            "target": "hklpy"
-          },
-          {
-            "source": "python-blosc2",
-            "target": "nomad-camels"
           },
           {
             "source": "python-blosc",
@@ -49861,10 +49737,6 @@
           },
           {
             "source": "pytinyrenderer",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pytmatrix",
             "target": "conda-forge-pinning"
           },
           {
@@ -58525,10 +58397,6 @@
           },
           {
             "source": "scipy",
-            "target": "pyretis"
-          },
-          {
-            "source": "scipy",
             "target": "pyribs"
           },
           {
@@ -58550,10 +58418,6 @@
           {
             "source": "scipy",
             "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "scipy",
-            "target": "pyrtools"
           },
           {
             "source": "scipy",
@@ -58658,10 +58522,6 @@
           {
             "source": "scipy",
             "target": "pytim"
-          },
-          {
-            "source": "scipy",
-            "target": "pytmatrix"
           },
           {
             "source": "scipy",
@@ -60401,6 +60261,10 @@
           },
           {
             "source": "siphash24",
+            "target": "bempp-cl"
+          },
+          {
+            "source": "siphash24",
             "target": "compyle"
           },
           {
@@ -60409,15 +60273,31 @@
           },
           {
             "source": "siphash24",
+            "target": "morphometrics"
+          },
+          {
+            "source": "siphash24",
             "target": "pycuda"
           },
           {
             "source": "siphash24",
-            "target": "pyopencl"
+            "target": "pyvkfft"
+          },
+          {
+            "source": "siphash24",
+            "target": "redlionfish"
           },
           {
             "source": "siphash24",
             "target": "sasview"
+          },
+          {
+            "source": "siphash24",
+            "target": "silx"
+          },
+          {
+            "source": "siphash24",
+            "target": "xrt"
           },
           {
             "source": "sip",
@@ -80535,21 +80415,9 @@
             }
           },
           {
-            "id": "pyinotify",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyinotify.json"
-            }
-          },
-          {
             "id": "pyinstaller",
             "payload": {
               "__lazy_json__": "node_attrs/pyinstaller.json"
-            }
-          },
-          {
-            "id": "pyinstrument",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyinstrument.json"
             }
           },
           {
@@ -81219,12 +81087,6 @@
             }
           },
           {
-            "id": "pyopencl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyopencl.json"
-            }
-          },
-          {
             "id": "pyopengl-accelerate",
             "payload": {
               "__lazy_json__": "node_attrs/pyopengl-accelerate.json"
@@ -81459,12 +81321,6 @@
             }
           },
           {
-            "id": "pyretis",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyretis.json"
-            }
-          },
-          {
             "id": "pyrfa",
             "payload": {
               "__lazy_json__": "node_attrs/pyrfa.json"
@@ -81552,12 +81408,6 @@
             "id": "pyrte_rrtmgp",
             "payload": {
               "__lazy_json__": "node_attrs/pyrte_rrtmgp.json"
-            }
-          },
-          {
-            "id": "pyrtools",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyrtools.json"
             }
           },
           {
@@ -81918,12 +81768,6 @@
             "id": "python-blosc",
             "payload": {
               "__lazy_json__": "node_attrs/python-blosc.json"
-            }
-          },
-          {
-            "id": "python-blosc2",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-blosc2.json"
             }
           },
           {
@@ -82368,12 +82212,6 @@
             "id": "pytinyrenderer",
             "payload": {
               "__lazy_json__": "node_attrs/pytinyrenderer.json"
-            }
-          },
-          {
-            "id": "pytmatrix",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytmatrix.json"
             }
           },
           {
