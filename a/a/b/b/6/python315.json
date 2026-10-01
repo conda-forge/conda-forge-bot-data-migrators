@@ -53,7 +53,72 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "wcwidth",
+            "target": "cis_interface"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dummydata"
+          },
+          {
+            "source": "wcwidth",
+            "target": "easytest"
+          },
+          {
+            "source": "wcwidth",
+            "target": "eatpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "humap"
+          },
+          {
+            "source": "wcwidth",
+            "target": "magentropy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mof"
+          },
+          {
+            "source": "wcwidth",
+            "target": "msdnet"
+          },
+          {
+            "source": "wcwidth",
+            "target": "paicos"
+          },
+          {
+            "source": "wcwidth",
+            "target": "photochem"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pymodes"
+          },
+          {
+            "source": "wcwidth",
+            "target": "salt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sampledb"
+          },
+          {
+            "source": "wcwidth",
+            "target": "shenfun"
+          },
+          {
+            "source": "wcwidth",
+            "target": "shredx"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tvb-framework"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -99,12 +164,6 @@
             }
           },
           {
-            "id": "anypytools",
-            "payload": {
-              "__lazy_json__": "node_attrs/anypytools.json"
-            }
-          },
-          {
             "id": "astra-toolbox",
             "payload": {
               "__lazy_json__": "node_attrs/astra-toolbox.json"
@@ -147,21 +206,9 @@
             }
           },
           {
-            "id": "biom-format",
-            "payload": {
-              "__lazy_json__": "node_attrs/biom-format.json"
-            }
-          },
-          {
             "id": "bmf",
             "payload": {
               "__lazy_json__": "node_attrs/bmf.json"
-            }
-          },
-          {
-            "id": "capytaine",
-            "payload": {
-              "__lazy_json__": "node_attrs/capytaine.json"
             }
           },
           {
@@ -174,12 +221,6 @@
             "id": "cis_interface",
             "payload": {
               "__lazy_json__": "node_attrs/cis_interface.json"
-            }
-          },
-          {
-            "id": "ckan",
-            "payload": {
-              "__lazy_json__": "node_attrs/ckan.json"
             }
           },
           {
@@ -216,12 +257,6 @@
             "id": "cosmic_profiles",
             "payload": {
               "__lazy_json__": "node_attrs/cosmic_profiles.json"
-            }
-          },
-          {
-            "id": "cosmosis",
-            "payload": {
-              "__lazy_json__": "node_attrs/cosmosis.json"
             }
           },
           {
@@ -291,12 +326,6 @@
             }
           },
           {
-            "id": "delta-kernel-rust-sharing-wrapper",
-            "payload": {
-              "__lazy_json__": "node_attrs/delta-kernel-rust-sharing-wrapper.json"
-            }
-          },
-          {
             "id": "dlib",
             "payload": {
               "__lazy_json__": "node_attrs/dlib.json"
@@ -324,12 +353,6 @@
             "id": "dummydata",
             "payload": {
               "__lazy_json__": "node_attrs/dummydata.json"
-            }
-          },
-          {
-            "id": "dustmaps",
-            "payload": {
-              "__lazy_json__": "node_attrs/dustmaps.json"
             }
           },
           {
@@ -363,18 +386,6 @@
             }
           },
           {
-            "id": "ensmallen_graph",
-            "payload": {
-              "__lazy_json__": "node_attrs/ensmallen_graph.json"
-            }
-          },
-          {
-            "id": "eo-dataflow-ui",
-            "payload": {
-              "__lazy_json__": "node_attrs/eo-dataflow-ui.json"
-            }
-          },
-          {
             "id": "esys-escript",
             "payload": {
               "__lazy_json__": "node_attrs/esys-escript.json"
@@ -387,12 +398,6 @@
             }
           },
           {
-            "id": "fenics-basix",
-            "payload": {
-              "__lazy_json__": "node_attrs/fenics-basix.json"
-            }
-          },
-          {
             "id": "finufft-split",
             "payload": {
               "__lazy_json__": "node_attrs/finufft-split.json"
@@ -402,12 +407,6 @@
             "id": "flacarray",
             "payload": {
               "__lazy_json__": "node_attrs/flacarray.json"
-            }
-          },
-          {
-            "id": "fludashboard",
-            "payload": {
-              "__lazy_json__": "node_attrs/fludashboard.json"
             }
           },
           {
@@ -441,12 +440,6 @@
             }
           },
           {
-            "id": "holodeck-gw",
-            "payload": {
-              "__lazy_json__": "node_attrs/holodeck-gw.json"
-            }
-          },
-          {
             "id": "holopy",
             "payload": {
               "__lazy_json__": "node_attrs/holopy.json"
@@ -468,12 +461,6 @@
             "id": "jaxlib",
             "payload": {
               "__lazy_json__": "node_attrs/jaxlib.json"
-            }
-          },
-          {
-            "id": "jsonschema-rs",
-            "payload": {
-              "__lazy_json__": "node_attrs/jsonschema-rs.json"
             }
           },
           {
@@ -516,12 +503,6 @@
             "id": "libefp",
             "payload": {
               "__lazy_json__": "node_attrs/libefp.json"
-            }
-          },
-          {
-            "id": "libertem",
-            "payload": {
-              "__lazy_json__": "node_attrs/libertem.json"
             }
           },
           {
@@ -663,12 +644,6 @@
             }
           },
           {
-            "id": "omnipkg",
-            "payload": {
-              "__lazy_json__": "node_attrs/omnipkg.json"
-            }
-          },
-          {
             "id": "opcua",
             "payload": {
               "__lazy_json__": "node_attrs/opcua.json"
@@ -678,12 +653,6 @@
             "id": "opencamlib",
             "payload": {
               "__lazy_json__": "node_attrs/opencamlib.json"
-            }
-          },
-          {
-            "id": "opendal",
-            "payload": {
-              "__lazy_json__": "node_attrs/opendal.json"
             }
           },
           {
@@ -717,21 +686,9 @@
             }
           },
           {
-            "id": "oxigraph",
-            "payload": {
-              "__lazy_json__": "node_attrs/oxigraph.json"
-            }
-          },
-          {
             "id": "paicos",
             "payload": {
               "__lazy_json__": "node_attrs/paicos.json"
-            }
-          },
-          {
-            "id": "parcel",
-            "payload": {
-              "__lazy_json__": "node_attrs/parcel.json"
             }
           },
           {
@@ -756,12 +713,6 @@
             "id": "physics-tenpy",
             "payload": {
               "__lazy_json__": "node_attrs/physics-tenpy.json"
-            }
-          },
-          {
-            "id": "pninexus",
-            "payload": {
-              "__lazy_json__": "node_attrs/pninexus.json"
             }
           },
           {
@@ -792,12 +743,6 @@
             "id": "proliantutils",
             "payload": {
               "__lazy_json__": "node_attrs/proliantutils.json"
-            }
-          },
-          {
-            "id": "py-rattler",
-            "payload": {
-              "__lazy_json__": "node_attrs/py-rattler.json"
             }
           },
           {
@@ -843,12 +788,6 @@
             }
           },
           {
-            "id": "pygalmesh",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygalmesh.json"
-            }
-          },
-          {
             "id": "pygedm",
             "payload": {
               "__lazy_json__": "node_attrs/pygedm.json"
@@ -858,12 +797,6 @@
             "id": "pygeobase",
             "payload": {
               "__lazy_json__": "node_attrs/pygeobase.json"
-            }
-          },
-          {
-            "id": "pygmo",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygmo.json"
             }
           },
           {
@@ -915,12 +848,6 @@
             }
           },
           {
-            "id": "pynput",
-            "payload": {
-              "__lazy_json__": "node_attrs/pynput.json"
-            }
-          },
-          {
             "id": "pyobjcryst",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjcryst.json"
@@ -939,27 +866,9 @@
             }
           },
           {
-            "id": "pyproject-fmt",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyproject-fmt.json"
-            }
-          },
-          {
             "id": "pyqstem",
             "payload": {
               "__lazy_json__": "node_attrs/pyqstem.json"
-            }
-          },
-          {
-            "id": "pyqstrat",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyqstrat.json"
-            }
-          },
-          {
-            "id": "pyrage",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyrage.json"
             }
           },
           {
@@ -999,12 +908,6 @@
             }
           },
           {
-            "id": "python-geotiepoints",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-geotiepoints.json"
-            }
-          },
-          {
             "id": "pythonfmu3",
             "payload": {
               "__lazy_json__": "node_attrs/pythonfmu3.json"
@@ -1035,18 +938,6 @@
             }
           },
           {
-            "id": "quadrants",
-            "payload": {
-              "__lazy_json__": "node_attrs/quadrants.json"
-            }
-          },
-          {
-            "id": "radis",
-            "payload": {
-              "__lazy_json__": "node_attrs/radis.json"
-            }
-          },
-          {
             "id": "rateslib",
             "payload": {
               "__lazy_json__": "node_attrs/rateslib.json"
@@ -1068,12 +959,6 @@
             "id": "readdy",
             "payload": {
               "__lazy_json__": "node_attrs/readdy.json"
-            }
-          },
-          {
-            "id": "reasonable",
-            "payload": {
-              "__lazy_json__": "node_attrs/reasonable.json"
             }
           },
           {
@@ -1101,6 +986,12 @@
             }
           },
           {
+            "id": "scikit-bio",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-bio.json"
+            }
+          },
+          {
             "id": "scikit-cycling",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-cycling.json"
@@ -1122,30 +1013,6 @@
             "id": "scikit-learn-extra",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-learn-extra.json"
-            }
-          },
-          {
-            "id": "scipp",
-            "payload": {
-              "__lazy_json__": "node_attrs/scipp.json"
-            }
-          },
-          {
-            "id": "seapy",
-            "payload": {
-              "__lazy_json__": "node_attrs/seapy.json"
-            }
-          },
-          {
-            "id": "seml",
-            "payload": {
-              "__lazy_json__": "node_attrs/seml.json"
-            }
-          },
-          {
-            "id": "sfepy",
-            "payload": {
-              "__lazy_json__": "node_attrs/sfepy.json"
             }
           },
           {
@@ -1185,12 +1052,6 @@
             }
           },
           {
-            "id": "tach",
-            "payload": {
-              "__lazy_json__": "node_attrs/tach.json"
-            }
-          },
-          {
             "id": "tangelo",
             "payload": {
               "__lazy_json__": "node_attrs/tangelo.json"
@@ -1227,12 +1088,6 @@
             }
           },
           {
-            "id": "timemory",
-            "payload": {
-              "__lazy_json__": "node_attrs/timemory.json"
-            }
-          },
-          {
             "id": "tkwant",
             "payload": {
               "__lazy_json__": "node_attrs/tkwant.json"
@@ -1263,12 +1118,6 @@
             }
           },
           {
-            "id": "typst-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/typst-py.json"
-            }
-          },
-          {
             "id": "ultranest",
             "payload": {
               "__lazy_json__": "node_attrs/ultranest.json"
@@ -1293,9 +1142,9 @@
             }
           },
           {
-            "id": "xeus-python-static",
+            "id": "wcwidth",
             "payload": {
-              "__lazy_json__": "node_attrs/xeus-python-static.json"
+              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           },
           {
@@ -1308,12 +1157,6 @@
             "id": "xorjson",
             "payload": {
               "__lazy_json__": "node_attrs/xorjson.json"
-            }
-          },
-          {
-            "id": "yt",
-            "payload": {
-              "__lazy_json__": "node_attrs/yt.json"
             }
           }
         ]
@@ -5255,6 +5098,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "wcwidth"
+          },
+          {
+            "source": "backports.zstd",
             "target": "web3"
           },
           {
@@ -9008,6 +8855,10 @@
           {
             "source": "brotli",
             "target": "wavespectra"
+          },
+          {
+            "source": "brotli",
+            "target": "wcwidth"
           },
           {
             "source": "brotli",
@@ -43359,6 +43210,10 @@
           },
           {
             "source": "psutil",
+            "target": "wcwidth"
+          },
+          {
+            "source": "psutil",
             "target": "westpa"
           },
           {
@@ -65431,6 +65286,10 @@
           },
           {
             "source": "ujson",
+            "target": "wcwidth"
+          },
+          {
+            "source": "ujson",
             "target": "wisdem"
           },
           {
@@ -66472,6 +66331,1306 @@
           {
             "source": "wavespectra",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wcwidth",
+            "target": "aiida-crystal17"
+          },
+          {
+            "source": "wcwidth",
+            "target": "aim"
+          },
+          {
+            "source": "wcwidth",
+            "target": "allennlp"
+          },
+          {
+            "source": "wcwidth",
+            "target": "allennlp-models"
+          },
+          {
+            "source": "wcwidth",
+            "target": "alphacsc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "altair-transform"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ambertools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "analisi"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ansys-mapdl-reader"
+          },
+          {
+            "source": "wcwidth",
+            "target": "anypytools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "wcwidth",
+            "target": "apache-beam"
+          },
+          {
+            "source": "wcwidth",
+            "target": "aria-tools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "arxiv-miner"
+          },
+          {
+            "source": "wcwidth",
+            "target": "asapdiscovery"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ase2sprkkr"
+          },
+          {
+            "source": "wcwidth",
+            "target": "astromodels"
+          },
+          {
+            "source": "wcwidth",
+            "target": "atom-ml"
+          },
+          {
+            "source": "wcwidth",
+            "target": "atomman"
+          },
+          {
+            "source": "wcwidth",
+            "target": "auto_gptq"
+          },
+          {
+            "source": "wcwidth",
+            "target": "autogluon.vision"
+          },
+          {
+            "source": "wcwidth",
+            "target": "av2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "aws-shell"
+          },
+          {
+            "source": "wcwidth",
+            "target": "awscli2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "axelrod"
+          },
+          {
+            "source": "wcwidth",
+            "target": "bblean"
+          },
+          {
+            "source": "wcwidth",
+            "target": "beakerx"
+          },
+          {
+            "source": "wcwidth",
+            "target": "bempp-cl"
+          },
+          {
+            "source": "wcwidth",
+            "target": "biogeme"
+          },
+          {
+            "source": "wcwidth",
+            "target": "biomechanical-analysis-framework"
+          },
+          {
+            "source": "wcwidth",
+            "target": "bpython"
+          },
+          {
+            "source": "wcwidth",
+            "target": "btrack"
+          },
+          {
+            "source": "wcwidth",
+            "target": "buildpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "byexample"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cad-to-openmc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "caiman"
+          },
+          {
+            "source": "wcwidth",
+            "target": "capytaine"
+          },
+          {
+            "source": "wcwidth",
+            "target": "catboost"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cellpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "chalice"
+          },
+          {
+            "source": "wcwidth",
+            "target": "checkov"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cherab-imas"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cherab-lhd"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cherab-nagdis"
+          },
+          {
+            "source": "wcwidth",
+            "target": "chromadb"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ckan"
+          },
+          {
+            "source": "wcwidth",
+            "target": "coconut"
+          },
+          {
+            "source": "wcwidth",
+            "target": "commitizen"
+          },
+          {
+            "source": "wcwidth",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "wcwidth",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wcwidth",
+            "target": "conda_deps"
+          },
+          {
+            "source": "wcwidth",
+            "target": "coq-jupyter"
+          },
+          {
+            "source": "wcwidth",
+            "target": "correctionlib"
+          },
+          {
+            "source": "wcwidth",
+            "target": "csxtools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "curl-cffi"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cwltool"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cyclonedds-py"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cylc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dask-sql"
+          },
+          {
+            "source": "wcwidth",
+            "target": "deepface"
+          },
+          {
+            "source": "wcwidth",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "deepsearch-glm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "delta-kernel-rust-sharing-wrapper"
+          },
+          {
+            "source": "wcwidth",
+            "target": "depi"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dfba"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dgpsi"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dipy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "docling-parse"
+          },
+          {
+            "source": "wcwidth",
+            "target": "doconce"
+          },
+          {
+            "source": "wcwidth",
+            "target": "duckcli"
+          },
+          {
+            "source": "wcwidth",
+            "target": "eelbrain"
+          },
+          {
+            "source": "wcwidth",
+            "target": "egal"
+          },
+          {
+            "source": "wcwidth",
+            "target": "egglog"
+          },
+          {
+            "source": "wcwidth",
+            "target": "endstate_correction"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ensmallen_graph"
+          },
+          {
+            "source": "wcwidth",
+            "target": "eo-dataflow-ui"
+          },
+          {
+            "source": "wcwidth",
+            "target": "esptool"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fast-simplification"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fatiando"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fenics-basix"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fenics-dolfinx"
+          },
+          {
+            "source": "wcwidth",
+            "target": "finesse"
+          },
+          {
+            "source": "wcwidth",
+            "target": "flower"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fludashboard"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fluidimage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fluidsim"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fluidtop"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fortran_kernel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fps-terminals"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fqe"
+          },
+          {
+            "source": "wcwidth",
+            "target": "freeze-core"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gbs"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gemseo"
+          },
+          {
+            "source": "wcwidth",
+            "target": "geowombat"
+          },
+          {
+            "source": "wcwidth",
+            "target": "giotto-tda"
+          },
+          {
+            "source": "wcwidth",
+            "target": "glue-qt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "glueviz"
+          },
+          {
+            "source": "wcwidth",
+            "target": "graiax-silkcoder"
+          },
+          {
+            "source": "wcwidth",
+            "target": "graphbrain"
+          },
+          {
+            "source": "wcwidth",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "wcwidth",
+            "target": "grouper"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gsplat"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gwframe"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gymnasium"
+          },
+          {
+            "source": "wcwidth",
+            "target": "gyptis"
+          },
+          {
+            "source": "wcwidth",
+            "target": "h2mm-c"
+          },
+          {
+            "source": "wcwidth",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "wcwidth",
+            "target": "hide_code"
+          },
+          {
+            "source": "wcwidth",
+            "target": "hklpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "holodeck-gw"
+          },
+          {
+            "source": "wcwidth",
+            "target": "hpc05"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ijava"
+          },
+          {
+            "source": "wcwidth",
+            "target": "input4mips-validation"
+          },
+          {
+            "source": "wcwidth",
+            "target": "insightface"
+          },
+          {
+            "source": "wcwidth",
+            "target": "invert4geom"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ipywe"
+          },
+          {
+            "source": "wcwidth",
+            "target": "itkwidgets"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jscatter"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jsonschema-rs"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyter-hdfscm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyter_cms"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyter_dashboards"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyter_paperboy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyterhub-systemdspawner"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jupyterhub-yarnspawner"
+          },
+          {
+            "source": "wcwidth",
+            "target": "kaolin"
+          },
+          {
+            "source": "wcwidth",
+            "target": "kraken-ocr"
+          },
+          {
+            "source": "wcwidth",
+            "target": "landlab"
+          },
+          {
+            "source": "wcwidth",
+            "target": "larrayenv"
+          },
+          {
+            "source": "wcwidth",
+            "target": "laspy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ldcpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "libertem"
+          },
+          {
+            "source": "wcwidth",
+            "target": "libertem-live"
+          },
+          {
+            "source": "wcwidth",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "marvin"
+          },
+          {
+            "source": "wcwidth",
+            "target": "matlab_kernel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mdal-python"
+          },
+          {
+            "source": "wcwidth",
+            "target": "memray"
+          },
+          {
+            "source": "wcwidth",
+            "target": "metadata-crawler"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mhkit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mir-flare"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mmgpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mod3d"
+          },
+          {
+            "source": "wcwidth",
+            "target": "molecule-docker"
+          },
+          {
+            "source": "wcwidth",
+            "target": "molsimplify"
+          },
+          {
+            "source": "wcwidth",
+            "target": "morphometrics"
+          },
+          {
+            "source": "wcwidth",
+            "target": "mosdef_cassandra"
+          },
+          {
+            "source": "wcwidth",
+            "target": "multineat"
+          },
+          {
+            "source": "wcwidth",
+            "target": "muscat-split"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nannos"
+          },
+          {
+            "source": "wcwidth",
+            "target": "napari-nd-annotator"
+          },
+          {
+            "source": "wcwidth",
+            "target": "napari-tiler"
+          },
+          {
+            "source": "wcwidth",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nb_anacondacloud"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nb_cron"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nbproject"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nctoolkit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ndcctools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nerfacc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nest-simulator"
+          },
+          {
+            "source": "wcwidth",
+            "target": "netcdf4"
+          },
+          {
+            "source": "wcwidth",
+            "target": "networkit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "wcwidth",
+            "target": "numba"
+          },
+          {
+            "source": "wcwidth",
+            "target": "numcosmo"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nutpie"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nvidia-dali-python"
+          },
+          {
+            "source": "wcwidth",
+            "target": "omnipkg"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ondamonitor"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openconnect-sso"
+          },
+          {
+            "source": "wcwidth",
+            "target": "opencv"
+          },
+          {
+            "source": "wcwidth",
+            "target": "opendal"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openllm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openllm-playground"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openmc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openmeeg"
+          },
+          {
+            "source": "wcwidth",
+            "target": "openpnm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "orange3"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ormdantic"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ostaphep"
+          },
+          {
+            "source": "wcwidth",
+            "target": "outlines-core"
+          },
+          {
+            "source": "wcwidth",
+            "target": "oxigraph"
+          },
+          {
+            "source": "wcwidth",
+            "target": "paintera"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pandas-plink"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pandasgui"
+          },
+          {
+            "source": "wcwidth",
+            "target": "paraprobe"
+          },
+          {
+            "source": "wcwidth",
+            "target": "parcel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "patinae"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pdata"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pixell"
+          },
+          {
+            "source": "wcwidth",
+            "target": "placo"
+          },
+          {
+            "source": "wcwidth",
+            "target": "plaid"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pnab"
+          },
+          {
+            "source": "wcwidth",
+            "target": "porespy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "potentials"
+          },
+          {
+            "source": "wcwidth",
+            "target": "primp"
+          },
+          {
+            "source": "wcwidth",
+            "target": "psi4"
+          },
+          {
+            "source": "wcwidth",
+            "target": "psyplot-gui"
+          },
+          {
+            "source": "wcwidth",
+            "target": "puma"
+          },
+          {
+            "source": "wcwidth",
+            "target": "py-rattler"
+          },
+          {
+            "source": "wcwidth",
+            "target": "py_entitymatching"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyacvd"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyaedt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyb2d3"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pycgtool"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pycifrw"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pycolmap"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pycontrails"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pycrdt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pydocket"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyflyby"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pygalmesh"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pygmo"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pygmsh"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pygoss-meta"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyiceberg"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyjelly"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyjion"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyjs_code_runner"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pykrige"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pymeshfix"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pymks"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pynput"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyodesys"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyomo.extras"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyout"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pypeit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyproject-fmt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyqstrat"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyrage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyserini"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyshtools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pytest-codspeed"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pytetwild"
+          },
+          {
+            "source": "wcwidth",
+            "target": "python-ace"
+          },
+          {
+            "source": "wcwidth",
+            "target": "python-blosc2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pywim"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pywr"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyzmq"
+          },
+          {
+            "source": "wcwidth",
+            "target": "qcodes"
+          },
+          {
+            "source": "wcwidth",
+            "target": "qiskit-aer"
+          },
+          {
+            "source": "wcwidth",
+            "target": "quadrants"
+          },
+          {
+            "source": "wcwidth",
+            "target": "quantlab"
+          },
+          {
+            "source": "wcwidth",
+            "target": "radical.orbit"
+          },
+          {
+            "source": "wcwidth",
+            "target": "radis"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rasterio"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ray-packages"
+          },
+          {
+            "source": "wcwidth",
+            "target": "reaktoro"
+          },
+          {
+            "source": "wcwidth",
+            "target": "reasonable"
+          },
+          {
+            "source": "wcwidth",
+            "target": "remage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rerun-sdk"
+          },
+          {
+            "source": "wcwidth",
+            "target": "roboticstoolbox-python"
+          },
+          {
+            "source": "wcwidth",
+            "target": "robyn"
+          },
+          {
+            "source": "wcwidth",
+            "target": "root"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rpy2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rtoml"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rudof"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sagelib"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sasview"
+          },
+          {
+            "source": "wcwidth",
+            "target": "scalene"
+          },
+          {
+            "source": "wcwidth",
+            "target": "schema-salad"
+          },
+          {
+            "source": "wcwidth",
+            "target": "scipp"
+          },
+          {
+            "source": "wcwidth",
+            "target": "seapy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sed-plume"
+          },
+          {
+            "source": "wcwidth",
+            "target": "seml"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sfepy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "shap"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sherlockml-dataclean"
+          },
+          {
+            "source": "wcwidth",
+            "target": "silx"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sleepecg"
+          },
+          {
+            "source": "wcwidth",
+            "target": "spacy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "spacy-transformers"
+          },
+          {
+            "source": "wcwidth",
+            "target": "spam"
+          },
+          {
+            "source": "wcwidth",
+            "target": "sphinx-nbexamples"
+          },
+          {
+            "source": "wcwidth",
+            "target": "spyder-screencast"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ssh-ipykernel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ssh_ipykernel_interrupt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ssm-simulators"
+          },
+          {
+            "source": "wcwidth",
+            "target": "stackvana-core"
+          },
+          {
+            "source": "wcwidth",
+            "target": "stata_kernel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "steem"
+          },
+          {
+            "source": "wcwidth",
+            "target": "stellarmesh"
+          },
+          {
+            "source": "wcwidth",
+            "target": "structuralgt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "superset"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tach"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tango"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tardis-sn"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tensorflow"
+          },
+          {
+            "source": "wcwidth",
+            "target": "thinc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "wcwidth",
+            "target": "timemory"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tinygrad"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tmtk"
+          },
+          {
+            "source": "wcwidth",
+            "target": "torchani"
+          },
+          {
+            "source": "wcwidth",
+            "target": "torchaudio"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tprof"
+          },
+          {
+            "source": "wcwidth",
+            "target": "trackastra"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tvb-library"
+          },
+          {
+            "source": "wcwidth",
+            "target": "typst-py"
+          },
+          {
+            "source": "wcwidth",
+            "target": "tyssue"
+          },
+          {
+            "source": "wcwidth",
+            "target": "vaex-core"
+          },
+          {
+            "source": "wcwidth",
+            "target": "vectorbt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "vega"
+          },
+          {
+            "source": "wcwidth",
+            "target": "vllm"
+          },
+          {
+            "source": "wcwidth",
+            "target": "vpython"
+          },
+          {
+            "source": "wcwidth",
+            "target": "watchfiles"
+          },
+          {
+            "source": "wcwidth",
+            "target": "westpa"
+          },
+          {
+            "source": "wcwidth",
+            "target": "wisdem"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xeus-python"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xeus-python-static"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xeus-robot"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xeus-robot-static"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xgrammar"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xonsh"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xraylarch"
+          },
+          {
+            "source": "wcwidth",
+            "target": "yaqc-qtpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "yggdrasil"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ylearn"
+          },
+          {
+            "source": "wcwidth",
+            "target": "yt"
           },
           {
             "source": "wdmtoolbox",
@@ -86440,6 +87599,12 @@
             "id": "wavespectra",
             "payload": {
               "__lazy_json__": "node_attrs/wavespectra.json"
+            }
+          },
+          {
+            "id": "wcwidth",
+            "payload": {
+              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           },
           {
