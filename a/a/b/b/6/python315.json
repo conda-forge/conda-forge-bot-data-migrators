@@ -159,12 +159,6 @@
             }
           },
           {
-            "id": "bitshuffle",
-            "payload": {
-              "__lazy_json__": "node_attrs/bitshuffle.json"
-            }
-          },
-          {
             "id": "bmf",
             "payload": {
               "__lazy_json__": "node_attrs/bmf.json"
@@ -321,12 +315,6 @@
             }
           },
           {
-            "id": "dmri-dicelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/dmri-dicelib.json"
-            }
-          },
-          {
             "id": "dockq",
             "payload": {
               "__lazy_json__": "node_attrs/dockq.json"
@@ -438,12 +426,6 @@
             "id": "fmipp",
             "payload": {
               "__lazy_json__": "node_attrs/fmipp.json"
-            }
-          },
-          {
-            "id": "foam_ct_phantom",
-            "payload": {
-              "__lazy_json__": "node_attrs/foam_ct_phantom.json"
             }
           },
           {
@@ -732,12 +714,6 @@
             "id": "openimageio",
             "payload": {
               "__lazy_json__": "node_attrs/openimageio.json"
-            }
-          },
-          {
-            "id": "openpnm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openpnm.json"
             }
           },
           {
@@ -1218,12 +1194,6 @@
             "id": "smqtk-dataprovider",
             "payload": {
               "__lazy_json__": "node_attrs/smqtk-dataprovider.json"
-            }
-          },
-          {
-            "id": "soxs",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxs.json"
             }
           },
           {
@@ -26445,6 +26415,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "python-blosc2"
+          },
+          {
+            "source": "msgpack-python",
             "target": "python-box"
           },
           {
@@ -27566,6 +27540,10 @@
           {
             "source": "ndindex",
             "target": "nomad-camels"
+          },
+          {
+            "source": "ndindex",
+            "target": "python-blosc2"
           },
           {
             "source": "ndindex",
@@ -28961,10 +28939,6 @@
           },
           {
             "source": "numexpr",
-            "target": "csxtools"
-          },
-          {
-            "source": "numexpr",
             "target": "dedalus"
           },
           {
@@ -28986,10 +28960,6 @@
           {
             "source": "numexpr",
             "target": "glum"
-          },
-          {
-            "source": "numexpr",
-            "target": "hklpy"
           },
           {
             "source": "numexpr",
@@ -29018,6 +28988,10 @@
           {
             "source": "numexpr",
             "target": "pytalises"
+          },
+          {
+            "source": "numexpr",
+            "target": "python-blosc2"
           },
           {
             "source": "numexpr",
@@ -34342,6 +34316,10 @@
           {
             "source": "numpy",
             "target": "python-blosc"
+          },
+          {
+            "source": "numpy",
+            "target": "python-blosc2"
           },
           {
             "source": "numpy",
@@ -42977,6 +42955,10 @@
           },
           {
             "source": "psutil",
+            "target": "python-blosc2"
+          },
+          {
+            "source": "psutil",
             "target": "pyvkfft"
           },
           {
@@ -45242,6 +45224,10 @@
           {
             "source": "pydantic-core",
             "target": "pyshtools"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "python-blosc2"
           },
           {
             "source": "pydantic-core",
@@ -48762,6 +48748,22 @@
           {
             "source": "python-bidi",
             "target": "sasview"
+          },
+          {
+            "source": "python-blosc2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-blosc2",
+            "target": "csxtools"
+          },
+          {
+            "source": "python-blosc2",
+            "target": "hklpy"
+          },
+          {
+            "source": "python-blosc2",
+            "target": "nomad-camels"
           },
           {
             "source": "python-blosc",
@@ -81826,6 +81828,12 @@
             "id": "python-blosc",
             "payload": {
               "__lazy_json__": "node_attrs/python-blosc.json"
+            }
+          },
+          {
+            "id": "python-blosc2",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-blosc2.json"
             }
           },
           {
