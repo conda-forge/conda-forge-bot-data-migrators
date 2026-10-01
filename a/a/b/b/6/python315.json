@@ -49752,6 +49752,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pytmatrix",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pytng",
             "target": "conda-forge-pinning"
           },
@@ -58538,6 +58542,10 @@
           {
             "source": "scipy",
             "target": "pytim"
+          },
+          {
+            "source": "scipy",
+            "target": "pytmatrix"
           },
           {
             "source": "scipy",
@@ -82240,6 +82248,12 @@
             "id": "pytinyrenderer",
             "payload": {
               "__lazy_json__": "node_attrs/pytinyrenderer.json"
+            }
+          },
+          {
+            "id": "pytmatrix",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytmatrix.json"
             }
           },
           {
