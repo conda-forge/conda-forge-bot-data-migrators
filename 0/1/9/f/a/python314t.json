@@ -4232,10 +4232,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "msgpack-python",
             "target": "python-box"
           },
           {
@@ -4365,10 +4361,6 @@
           {
             "source": "ndindex",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "ndindex",
-            "target": "python-blosc2"
           },
           {
             "source": "ndsplines",
@@ -4517,10 +4509,6 @@
           {
             "source": "numexpr",
             "target": "pytables"
-          },
-          {
-            "source": "numexpr",
-            "target": "python-blosc2"
           },
           {
             "source": "numpy_quaddtype",
@@ -5328,10 +5316,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyopencl"
-          },
-          {
-            "source": "numpy",
             "target": "pyopengl-accelerate"
           },
           {
@@ -5357,10 +5341,6 @@
           {
             "source": "numpy",
             "target": "pytables"
-          },
-          {
-            "source": "numpy",
-            "target": "python-blosc2"
           },
           {
             "source": "numpy",
@@ -6700,10 +6680,6 @@
           },
           {
             "source": "psutil",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "psutil",
             "target": "pyzmq"
           },
           {
@@ -7008,10 +6984,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "python-blosc2"
-          },
-          {
-            "source": "pydantic-core",
             "target": "ray-packages"
           },
           {
@@ -7112,10 +7084,6 @@
           },
           {
             "source": "pyhdf",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyinstrument",
             "target": "conda-forge-pinning"
           },
           {
@@ -7475,14 +7443,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyopencl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyopencl",
-            "target": "silx"
-          },
-          {
             "source": "pyopengl-accelerate",
             "target": "conda-forge-pinning"
           },
@@ -7604,10 +7564,6 @@
           },
           {
             "source": "python-bidi",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-blosc2",
             "target": "conda-forge-pinning"
           },
           {
@@ -8892,7 +8848,7 @@
           },
           {
             "source": "siphash24",
-            "target": "pyopencl"
+            "target": "silx"
           },
           {
             "source": "sip",
@@ -10161,10 +10117,6 @@
           {
             "source": "wcwidth",
             "target": "pytest-codspeed"
-          },
-          {
-            "source": "wcwidth",
-            "target": "python-blosc2"
           },
           {
             "source": "wcwidth",
@@ -12844,12 +12796,6 @@
             }
           },
           {
-            "id": "pyinstrument",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyinstrument.json"
-            }
-          },
-          {
             "id": "pyinterp",
             "payload": {
               "__lazy_json__": "node_attrs/pyinterp.json"
@@ -13060,12 +13006,6 @@
             }
           },
           {
-            "id": "pyopencl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyopencl.json"
-            }
-          },
-          {
             "id": "pyopengl-accelerate",
             "payload": {
               "__lazy_json__": "node_attrs/pyopengl-accelerate.json"
@@ -13183,12 +13123,6 @@
             "id": "python-bidi",
             "payload": {
               "__lazy_json__": "node_attrs/python-bidi.json"
-            }
-          },
-          {
-            "id": "python-blosc2",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-blosc2.json"
             }
           },
           {
