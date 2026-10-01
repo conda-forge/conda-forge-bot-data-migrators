@@ -1985,6 +1985,10 @@
           },
           {
             "source": "blas",
+            "target": "openmeeg"
+          },
+          {
+            "source": "blas",
             "target": "opentrustregion"
           },
           {
@@ -14829,6 +14833,10 @@
           },
           {
             "source": "lapack",
+            "target": "openmeeg"
+          },
+          {
+            "source": "lapack",
             "target": "opentrustregion"
           },
           {
@@ -17370,6 +17378,10 @@
           {
             "source": "libmatio",
             "target": "libvips"
+          },
+          {
+            "source": "libmatio",
+            "target": "openmeeg"
           },
           {
             "source": "libmatio",
@@ -25722,6 +25734,10 @@
           {
             "source": "numpy",
             "target": "openmc"
+          },
+          {
+            "source": "numpy",
+            "target": "openmeeg"
           },
           {
             "source": "numpy",
@@ -36166,6 +36182,10 @@
           {
             "source": "python",
             "target": "openmc"
+          },
+          {
+            "source": "python",
+            "target": "openmeeg"
           },
           {
             "source": "python",
@@ -64748,6 +64768,12 @@
             "id": "openmc",
             "payload": {
               "__lazy_json__": "node_attrs/openmc.json"
+            }
+          },
+          {
+            "id": "openmeeg",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmeeg.json"
             }
           },
           {
