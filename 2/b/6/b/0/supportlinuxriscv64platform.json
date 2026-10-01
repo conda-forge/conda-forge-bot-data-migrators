@@ -2073,6 +2073,10 @@
           },
           {
             "source": "python",
+            "target": "wcwidth"
+          },
+          {
+            "source": "python",
             "target": "wrapt"
           },
           {
@@ -4934,6 +4938,12 @@
             "id": "wayland",
             "payload": {
               "__lazy_json__": "node_attrs/wayland.json"
+            }
+          },
+          {
+            "id": "wcwidth",
+            "payload": {
+              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           },
           {
