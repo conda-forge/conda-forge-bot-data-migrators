@@ -4767,6 +4767,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pyretis"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pyringgw"
           },
           {
@@ -8516,6 +8520,10 @@
           {
             "source": "brotli",
             "target": "pyreadline3"
+          },
+          {
+            "source": "brotli",
+            "target": "pyretis"
           },
           {
             "source": "brotli",
@@ -24399,6 +24407,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pyretis"
+          },
+          {
+            "source": "matplotlib",
             "target": "pyribs"
           },
           {
@@ -25156,6 +25168,10 @@
           {
             "source": "mdtraj",
             "target": "pyemma"
+          },
+          {
+            "source": "mdtraj",
+            "target": "pyretis"
           },
           {
             "source": "mdtraj",
@@ -34155,6 +34171,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyretis"
+          },
+          {
+            "source": "numpy",
             "target": "pyribs"
           },
           {
@@ -38608,6 +38628,10 @@
           {
             "source": "pandas",
             "target": "pyresample"
+          },
+          {
+            "source": "pandas",
+            "target": "pyretis"
           },
           {
             "source": "pandas",
@@ -46022,6 +46046,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyinotify",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyinstaller",
             "target": "conda-forge-pinning"
           },
@@ -48054,6 +48082,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyretis",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyrfa",
             "target": "conda-forge-pinning"
           },
@@ -48564,6 +48596,10 @@
           {
             "source": "pytables",
             "target": "pyne"
+          },
+          {
+            "source": "pytables",
+            "target": "pyretis"
           },
           {
             "source": "pytables",
@@ -58376,6 +58412,10 @@
           {
             "source": "scipy",
             "target": "pyratbay"
+          },
+          {
+            "source": "scipy",
+            "target": "pyretis"
           },
           {
             "source": "scipy",
@@ -80397,6 +80437,12 @@
             }
           },
           {
+            "id": "pyinotify",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyinotify.json"
+            }
+          },
+          {
             "id": "pyinstaller",
             "payload": {
               "__lazy_json__": "node_attrs/pyinstaller.json"
@@ -81300,6 +81346,12 @@
             "id": "pyresttest",
             "payload": {
               "__lazy_json__": "node_attrs/pyresttest.json"
+            }
+          },
+          {
+            "id": "pyretis",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyretis.json"
             }
           },
           {
