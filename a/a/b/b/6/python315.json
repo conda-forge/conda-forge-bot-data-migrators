@@ -4570,6 +4570,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pyrtools"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pyseobnr"
           },
           {
@@ -8331,6 +8335,10 @@
           {
             "source": "brotli",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "brotli",
+            "target": "pyrtools"
           },
           {
             "source": "brotli",
@@ -24222,6 +24230,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pyrtools"
+          },
+          {
+            "source": "matplotlib",
             "target": "pyscal"
           },
           {
@@ -34007,6 +34019,10 @@
           {
             "source": "numpy",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "numpy",
+            "target": "pyrtools"
           },
           {
             "source": "numpy",
@@ -48017,6 +48033,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyrtools",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyrxp",
             "target": "conda-forge-pinning"
           },
@@ -58319,6 +58339,10 @@
           {
             "source": "scipy",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "scipy",
+            "target": "pyrtools"
           },
           {
             "source": "scipy",
@@ -82649,6 +82673,12 @@
             "id": "pyrte_rrtmgp",
             "payload": {
               "__lazy_json__": "node_attrs/pyrte_rrtmgp.json"
+            }
+          },
+          {
+            "id": "pyrtools",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyrtools.json"
             }
           },
           {
