@@ -267,12 +267,6 @@
             }
           },
           {
-            "id": "dscribe",
-            "payload": {
-              "__lazy_json__": "node_attrs/dscribe.json"
-            }
-          },
-          {
             "id": "dssp",
             "payload": {
               "__lazy_json__": "node_attrs/dssp.json"
@@ -831,12 +825,6 @@
             }
           },
           {
-            "id": "pystem",
-            "payload": {
-              "__lazy_json__": "node_attrs/pystem.json"
-            }
-          },
-          {
             "id": "pysynphot",
             "payload": {
               "__lazy_json__": "node_attrs/pysynphot.json"
@@ -1038,18 +1026,6 @@
             "id": "tsdownsample",
             "payload": {
               "__lazy_json__": "node_attrs/tsdownsample.json"
-            }
-          },
-          {
-            "id": "tslearn",
-            "payload": {
-              "__lazy_json__": "node_attrs/tslearn.json"
-            }
-          },
-          {
-            "id": "tvb-library",
-            "payload": {
-              "__lazy_json__": "node_attrs/tvb-library.json"
             }
           },
           {
@@ -14189,6 +14165,10 @@
           },
           {
             "source": "eodie",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "eon",
             "target": "conda-forge-pinning"
           },
           {
@@ -30410,6 +30390,10 @@
           {
             "source": "numpy",
             "target": "eodie"
+          },
+          {
+            "source": "numpy",
+            "target": "eon"
           },
           {
             "source": "numpy",
@@ -50001,6 +49985,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "fairscale"
           },
           {
@@ -62009,6 +61997,10 @@
           },
           {
             "source": "tbb",
+            "target": "eon"
+          },
+          {
+            "source": "tbb",
             "target": "faiss-split"
           },
           {
@@ -72146,6 +72138,12 @@
             "id": "eodie",
             "payload": {
               "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
             }
           },
           {
