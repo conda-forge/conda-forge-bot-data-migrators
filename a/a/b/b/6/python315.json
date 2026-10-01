@@ -46048,6 +46048,22 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyinstrument",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyinstrument",
+            "target": "csxtools"
+          },
+          {
+            "source": "pyinstrument",
+            "target": "hklpy"
+          },
+          {
+            "source": "pyinstrument",
+            "target": "nomad-camels"
+          },
+          {
             "source": "pyinterp",
             "target": "conda-forge-pinning"
           },
@@ -80448,6 +80464,12 @@
             "id": "pyinstaller",
             "payload": {
               "__lazy_json__": "node_attrs/pyinstaller.json"
+            }
+          },
+          {
+            "id": "pyinstrument",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyinstrument.json"
             }
           },
           {
