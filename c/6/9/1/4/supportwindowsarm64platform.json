@@ -1709,6 +1709,10 @@
           },
           {
             "source": "python",
+            "target": "wcwidth"
+          },
+          {
+            "source": "python",
             "target": "wrapt"
           },
           {
@@ -4222,6 +4226,12 @@
             "id": "waf",
             "payload": {
               "__lazy_json__": "node_attrs/waf.json"
+            }
+          },
+          {
+            "id": "wcwidth",
+            "payload": {
+              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           },
           {
