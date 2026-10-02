@@ -191,6 +191,10 @@
           },
           {
             "source": "pyobjc-core",
+            "target": "pyobjc-framework-metal"
+          },
+          {
+            "source": "pyobjc-core",
             "target": "pyobjc-framework-security"
           },
           {
@@ -207,11 +211,19 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "pyobjc-framework-metal"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "pyobjc-framework-security"
           },
           {
             "source": "pyobjc-framework-cocoa",
             "target": "pyobjc-framework-webkit"
+          },
+          {
+            "source": "pyobjc-framework-metal",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pyobjc-framework-security",
@@ -284,6 +296,10 @@
           {
             "source": "python",
             "target": "pyobjc-framework-cocoa"
+          },
+          {
+            "source": "python",
+            "target": "pyobjc-framework-metal"
           },
           {
             "source": "python",
@@ -444,6 +460,12 @@
             "id": "pyobjc-framework-cocoa",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-cocoa.json"
+            }
+          },
+          {
+            "id": "pyobjc-framework-metal",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyobjc-framework-metal.json"
             }
           },
           {
