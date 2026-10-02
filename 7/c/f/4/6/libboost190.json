@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "redis-server",
+            "payload": {
+              "__lazy_json__": "node_attrs/redis-server.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -2346,6 +2353,10 @@
             "target": "votca"
           },
           {
+            "source": "redis-server",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "reprimand",
             "target": "conda-forge-pinning"
           },
@@ -4314,6 +4325,12 @@
             "id": "rdkit",
             "payload": {
               "__lazy_json__": "node_attrs/rdkit.json"
+            }
+          },
+          {
+            "id": "redis-server",
+            "payload": {
+              "__lazy_json__": "node_attrs/redis-server.json"
             }
           },
           {
