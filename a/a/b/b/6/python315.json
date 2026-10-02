@@ -776,12 +776,6 @@
             }
           },
           {
-            "id": "pylabdd",
-            "payload": {
-              "__lazy_json__": "node_attrs/pylabdd.json"
-            }
-          },
-          {
             "id": "pymeep",
             "payload": {
               "__lazy_json__": "node_attrs/pymeep.json"
@@ -890,12 +884,6 @@
             }
           },
           {
-            "id": "pyvkfft",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyvkfft.json"
-            }
-          },
-          {
             "id": "rateslib",
             "payload": {
               "__lazy_json__": "node_attrs/rateslib.json"
@@ -911,12 +899,6 @@
             "id": "rdkit",
             "payload": {
               "__lazy_json__": "node_attrs/rdkit.json"
-            }
-          },
-          {
-            "id": "redlionfish",
-            "payload": {
-              "__lazy_json__": "node_attrs/redlionfish.json"
             }
           },
           {
@@ -33812,6 +33794,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyopencl"
+          },
+          {
+            "source": "numpy",
             "target": "pyopengl-accelerate"
           },
           {
@@ -47195,6 +47181,34 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyopencl",
+            "target": "bempp-cl"
+          },
+          {
+            "source": "pyopencl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyopencl",
+            "target": "morphometrics"
+          },
+          {
+            "source": "pyopencl",
+            "target": "pyvkfft"
+          },
+          {
+            "source": "pyopencl",
+            "target": "redlionfish"
+          },
+          {
+            "source": "pyopencl",
+            "target": "silx"
+          },
+          {
+            "source": "pyopencl",
+            "target": "xrt"
+          },
+          {
             "source": "pyopengl-accelerate",
             "target": "conda-forge-pinning"
           },
@@ -60092,10 +60106,6 @@
           },
           {
             "source": "siphash24",
-            "target": "bempp-cl"
-          },
-          {
-            "source": "siphash24",
             "target": "compyle"
           },
           {
@@ -60104,31 +60114,15 @@
           },
           {
             "source": "siphash24",
-            "target": "morphometrics"
-          },
-          {
-            "source": "siphash24",
             "target": "pycuda"
           },
           {
             "source": "siphash24",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "siphash24",
-            "target": "redlionfish"
+            "target": "pyopencl"
           },
           {
             "source": "siphash24",
             "target": "sasview"
-          },
-          {
-            "source": "siphash24",
-            "target": "silx"
-          },
-          {
-            "source": "siphash24",
-            "target": "xrt"
           },
           {
             "source": "sip",
@@ -82239,6 +82233,12 @@
             "id": "pyopcode",
             "payload": {
               "__lazy_json__": "node_attrs/pyopcode.json"
+            }
+          },
+          {
+            "id": "pyopencl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyopencl.json"
             }
           },
           {
