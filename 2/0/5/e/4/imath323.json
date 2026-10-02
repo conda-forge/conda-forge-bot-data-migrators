@@ -71,12 +71,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/openimageio.json"
             }
-          },
-          {
-            "id": "vigra",
-            "payload": {
-              "__lazy_json__": "node_attrs/vigra.json"
-            }
           }
         ]
       }
@@ -332,7 +326,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
