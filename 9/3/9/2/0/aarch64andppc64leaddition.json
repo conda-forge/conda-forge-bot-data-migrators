@@ -6901,6 +6901,10 @@
           },
           {
             "source": "bash",
+            "target": "pyopencl"
+          },
+          {
+            "source": "bash",
             "target": "pyqt"
           },
           {
@@ -6950,10 +6954,6 @@
           {
             "source": "bash",
             "target": "pyvips"
-          },
-          {
-            "source": "bash",
-            "target": "pyvkfft"
           },
           {
             "source": "bash",
@@ -18909,6 +18909,10 @@
           },
           {
             "source": "cmake",
+            "target": "pyopencl"
+          },
+          {
+            "source": "cmake",
             "target": "pyre"
           },
           {
@@ -18962,10 +18966,6 @@
           {
             "source": "cmake",
             "target": "pytorch-cpu"
-          },
-          {
-            "source": "cmake",
-            "target": "pyvkfft"
           },
           {
             "source": "cmake",
@@ -36045,11 +36045,7 @@
           },
           {
             "source": "khronos-opencl-icd-loader",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
-            "target": "silx"
+            "target": "pyopencl"
           },
           {
             "source": "kim-api",
@@ -45485,6 +45481,10 @@
           },
           {
             "source": "libtool",
+            "target": "pyopencl"
+          },
+          {
+            "source": "libtool",
             "target": "pyqt"
           },
           {
@@ -45534,10 +45534,6 @@
           {
             "source": "libtool",
             "target": "pyvips"
-          },
-          {
-            "source": "libtool",
-            "target": "pyvkfft"
           },
           {
             "source": "libtool",
@@ -58665,10 +58661,6 @@
           },
           {
             "source": "numpy",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "numpy",
             "target": "isce3"
           },
           {
@@ -59073,10 +59065,6 @@
           },
           {
             "source": "numpy",
-            "target": "pocl"
-          },
-          {
-            "source": "numpy",
             "target": "pot"
           },
           {
@@ -59234,6 +59222,10 @@
           {
             "source": "numpy",
             "target": "pyogrio"
+          },
+          {
+            "source": "numpy",
+            "target": "pyopencl"
           },
           {
             "source": "numpy",
@@ -59793,15 +59785,11 @@
           },
           {
             "source": "ocl-icd",
-            "target": "pyvkfft"
+            "target": "pyopencl"
           },
           {
             "source": "ocl-icd",
             "target": "qgis"
-          },
-          {
-            "source": "ocl-icd",
-            "target": "silx"
           },
           {
             "source": "octave",
@@ -67589,19 +67577,11 @@
           },
           {
             "source": "pocl",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "pocl",
             "target": "openmm"
           },
           {
             "source": "pocl",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "pocl",
-            "target": "silx"
+            "target": "pyopencl"
           },
           {
             "source": "poppler",
@@ -70242,6 +70222,22 @@
           {
             "source": "pyogrio",
             "target": "pyrosm"
+          },
+          {
+            "source": "pyopencl",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "pyopencl",
+            "target": "pocl"
+          },
+          {
+            "source": "pyopencl",
+            "target": "pyvkfft"
+          },
+          {
+            "source": "pyopencl",
+            "target": "silx"
           },
           {
             "source": "pyproj",
@@ -74594,6 +74590,10 @@
           {
             "source": "python",
             "target": "pyomo"
+          },
+          {
+            "source": "python",
+            "target": "pyopencl"
           },
           {
             "source": "python",
@@ -92209,23 +92209,11 @@
           },
           {
             "source": "siphash24",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "siphash24",
-            "target": "pocl"
-          },
-          {
-            "source": "siphash24",
             "target": "pycuda"
           },
           {
             "source": "siphash24",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "siphash24",
-            "target": "silx"
+            "target": "pyopencl"
           },
           {
             "source": "sip",
@@ -115640,6 +115628,12 @@
             "id": "pyomo",
             "payload": {
               "__lazy_json__": "node_attrs/pyomo.json"
+            }
+          },
+          {
+            "id": "pyopencl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyopencl.json"
             }
           },
           {
