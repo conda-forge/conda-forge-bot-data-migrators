@@ -53,7 +53,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "freeimage",
+            "payload": {
+              "__lazy_json__": "node_attrs/freeimage.json"
+            }
+          },
+          {
+            "id": "opencv",
+            "payload": {
+              "__lazy_json__": "node_attrs/opencv.json"
+            }
+          },
+          {
+            "id": "openimageio",
+            "payload": {
+              "__lazy_json__": "node_attrs/openimageio.json"
+            }
+          },
+          {
+            "id": "vigra",
+            "payload": {
+              "__lazy_json__": "node_attrs/vigra.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
