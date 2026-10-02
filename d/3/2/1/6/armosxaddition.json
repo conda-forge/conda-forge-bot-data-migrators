@@ -14009,19 +14009,15 @@
           },
           {
             "source": "khronos-opencl-icd-loader",
+            "target": "pyopencl"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
             "target": "pyvkfft"
           },
           {
             "source": "khronos-opencl-icd-loader",
             "target": "qgis"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
-            "target": "redlionfish"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
-            "target": "silx"
           },
           {
             "source": "kim-api",
@@ -26185,6 +26181,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyopencl"
+          },
+          {
+            "source": "numpy",
             "target": "pypeit"
           },
           {
@@ -27021,15 +27021,7 @@
           },
           {
             "source": "ocl-icd",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "ocl-icd",
-            "target": "redlionfish"
-          },
-          {
-            "source": "ocl-icd",
-            "target": "silx"
+            "target": "pyopencl"
           },
           {
             "source": "ocl_icd_wrapper_apple",
@@ -33256,6 +33248,18 @@
             "target": "sealsmodel"
           },
           {
+            "source": "pyopencl",
+            "target": "pyvkfft"
+          },
+          {
+            "source": "pyopencl",
+            "target": "redlionfish"
+          },
+          {
+            "source": "pyopencl",
+            "target": "silx"
+          },
+          {
             "source": "pyproj",
             "target": "aria-tools"
           },
@@ -37006,6 +37010,10 @@
           {
             "source": "python",
             "target": "pyomo"
+          },
+          {
+            "source": "python",
+            "target": "pyopencl"
           },
           {
             "source": "python",
@@ -49645,19 +49653,11 @@
           },
           {
             "source": "siphash24",
-            "target": "pyvkfft"
-          },
-          {
-            "source": "siphash24",
-            "target": "redlionfish"
+            "target": "pyopencl"
           },
           {
             "source": "siphash24",
             "target": "sasview"
-          },
-          {
-            "source": "siphash24",
-            "target": "silx"
           },
           {
             "source": "sip",
@@ -66894,6 +66894,12 @@
             "id": "pyomo",
             "payload": {
               "__lazy_json__": "node_attrs/pyomo.json"
+            }
+          },
+          {
+            "id": "pyopencl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyopencl.json"
             }
           },
           {
