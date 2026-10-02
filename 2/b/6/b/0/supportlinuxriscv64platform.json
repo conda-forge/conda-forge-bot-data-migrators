@@ -768,6 +768,10 @@
             "target": "krb5"
           },
           {
+            "source": "khronos-opencl-icd-loader",
+            "target": "clhpp"
+          },
+          {
             "source": "krb5",
             "target": "curl"
           },
@@ -1634,6 +1638,10 @@
           {
             "source": "openblas",
             "target": "blas"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "khronos-opencl-icd-loader"
           },
           {
             "source": "opencl-headers",
@@ -3780,6 +3788,12 @@
             "id": "keyutils",
             "payload": {
               "__lazy_json__": "node_attrs/keyutils.json"
+            }
+          },
+          {
+            "id": "khronos-opencl-icd-loader",
+            "payload": {
+              "__lazy_json__": "node_attrs/khronos-opencl-icd-loader.json"
             }
           },
           {
