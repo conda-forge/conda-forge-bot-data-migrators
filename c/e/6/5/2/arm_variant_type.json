@@ -80,6 +80,30 @@
             "target": "pytorch_scatter"
           },
           {
+            "source": "cusparselt",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "cusparselt",
+            "target": "flash-attn"
+          },
+          {
+            "source": "cusparselt",
+            "target": "kaolin"
+          },
+          {
+            "source": "cusparselt",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "cusparselt",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch_scatter"
+          },
+          {
             "source": "libmagma",
             "target": "causal-conv1d"
           },
@@ -172,6 +196,12 @@
             "id": "cudnn",
             "payload": {
               "__lazy_json__": "node_attrs/cudnn.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -601,6 +631,14 @@
           {
             "source": "cuquantum",
             "target": "qsimcirq"
+          },
+          {
+            "source": "cusparselt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -2181,6 +2219,12 @@
             "id": "cuquantum",
             "payload": {
               "__lazy_json__": "node_attrs/cuquantum.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
