@@ -7288,10 +7288,6 @@
           },
           {
             "source": "pyobjc-core",
-            "target": "pyobjc-framework-metal"
-          },
-          {
-            "source": "pyobjc-core",
             "target": "pyobjc-framework-quartz"
           },
           {
@@ -7356,10 +7352,6 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "pyobjc-framework-metal"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "pyobjc-framework-quartz"
           },
           {
@@ -7421,10 +7413,6 @@
           {
             "source": "pyobjc-framework-fsevents",
             "target": "pyobjc-framework-coreservices"
-          },
-          {
-            "source": "pyobjc-framework-metal",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "pyobjc-framework-quartz",
@@ -13007,12 +12995,6 @@
             "id": "pyobjc-framework-fsevents",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-fsevents.json"
-            }
-          },
-          {
-            "id": "pyobjc-framework-metal",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyobjc-framework-metal.json"
             }
           },
           {
