@@ -46,7 +46,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          }
+        ]
       }
     },
     "feedstock_name": "google-cloud-cpp-core",
@@ -101,7 +108,7 @@
         ]
       }
     },
-    "new_pin_version": "3.10.0",
+    "new_pin_version": "3.11.0",
     "package_name": "libgoogle_cloud",
     "pin_impact": 1,
     "pin_spec": "x.x",
