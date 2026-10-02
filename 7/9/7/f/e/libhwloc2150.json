@@ -53,26 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "pastix",
-            "payload": {
-              "__lazy_json__": "node_attrs/pastix.json"
-            }
-          },
-          {
-            "id": "spral",
-            "payload": {
-              "__lazy_json__": "node_attrs/spral.json"
-            }
-          },
-          {
-            "id": "tt-metalium",
-            "payload": {
-              "__lazy_json__": "node_attrs/tt-metalium.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -528,7 +509,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
