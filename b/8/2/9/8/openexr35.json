@@ -55,18 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "freeimage",
-            "payload": {
-              "__lazy_json__": "node_attrs/freeimage.json"
-            }
-          },
-          {
-            "id": "libjxl-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/libjxl-split.json"
-            }
-          },
-          {
             "id": "vigra",
             "payload": {
               "__lazy_json__": "node_attrs/vigra.json"
@@ -366,7 +354,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
