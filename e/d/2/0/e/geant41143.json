@@ -61,21 +61,9 @@
             }
           },
           {
-            "id": "dd4hep",
-            "payload": {
-              "__lazy_json__": "node_attrs/dd4hep.json"
-            }
-          },
-          {
             "id": "gaudi",
             "payload": {
               "__lazy_json__": "node_attrs/gaudi.json"
-            }
-          },
-          {
-            "id": "geomodel",
-            "payload": {
-              "__lazy_json__": "node_attrs/geomodel.json"
             }
           },
           {
@@ -359,7 +347,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
