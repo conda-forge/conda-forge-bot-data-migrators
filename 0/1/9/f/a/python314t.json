@@ -5328,6 +5328,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyopencl"
+          },
+          {
+            "source": "numpy",
             "target": "pyopengl-accelerate"
           },
           {
@@ -7471,6 +7475,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyopencl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyopencl",
+            "target": "silx"
+          },
+          {
             "source": "pyopengl-accelerate",
             "target": "conda-forge-pinning"
           },
@@ -8880,7 +8892,7 @@
           },
           {
             "source": "siphash24",
-            "target": "silx"
+            "target": "pyopencl"
           },
           {
             "source": "sip",
@@ -13049,6 +13061,12 @@
             "id": "pyomo",
             "payload": {
               "__lazy_json__": "node_attrs/pyomo.json"
+            }
+          },
+          {
+            "id": "pyopencl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyopencl.json"
             }
           },
           {
