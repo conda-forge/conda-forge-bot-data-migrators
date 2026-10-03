@@ -524,12 +524,6 @@
             }
           },
           {
-            "id": "molmod",
-            "payload": {
-              "__lazy_json__": "node_attrs/molmod.json"
-            }
-          },
-          {
             "id": "msdnet",
             "payload": {
               "__lazy_json__": "node_attrs/msdnet.json"
@@ -776,12 +770,6 @@
             }
           },
           {
-            "id": "rbeast",
-            "payload": {
-              "__lazy_json__": "node_attrs/rbeast.json"
-            }
-          },
-          {
             "id": "rdkit",
             "payload": {
               "__lazy_json__": "node_attrs/rdkit.json"
@@ -827,12 +815,6 @@
             "id": "sissopp",
             "payload": {
               "__lazy_json__": "node_attrs/sissopp.json"
-            }
-          },
-          {
-            "id": "soxr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxr-python.json"
             }
           },
           {
@@ -34802,10 +34784,6 @@
           },
           {
             "source": "numpy",
-            "target": "soxr-python"
-          },
-          {
-            "source": "numpy",
             "target": "soxs"
           },
           {
@@ -60337,38 +60315,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "soxr-python",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "soxr-python",
-            "target": "ddsp"
-          },
-          {
-            "source": "soxr-python",
-            "target": "kalpy"
-          },
-          {
-            "source": "soxr-python",
-            "target": "new-fave"
-          },
-          {
-            "source": "soxr-python",
-            "target": "spleeter"
-          },
-          {
-            "source": "soxr-python",
-            "target": "tinygrad"
-          },
-          {
-            "source": "soxr-python",
-            "target": "torchaudio"
-          },
-          {
-            "source": "soxr-python",
-            "target": "tts"
-          },
-          {
             "source": "soxs",
             "target": "conda-forge-pinning"
           },
@@ -85339,12 +85285,6 @@
             "id": "sovapy",
             "payload": {
               "__lazy_json__": "node_attrs/sovapy.json"
-            }
-          },
-          {
-            "id": "soxr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxr-python.json"
             }
           },
           {
