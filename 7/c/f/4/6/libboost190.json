@@ -566,10 +566,6 @@
             "target": "gazebo"
           },
           {
-            "source": "dartsim",
-            "target": "libignition-physics"
-          },
-          {
             "source": "dcgp-python",
             "target": "conda-forge-pinning"
           },
@@ -1586,10 +1582,6 @@
             "target": "diffpy.srreal"
           },
           {
-            "source": "libignition-physics",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "libint",
             "target": "conda-forge-pinning"
           },
@@ -2495,6 +2487,10 @@
           },
           {
             "source": "standardese",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "stir",
             "target": "conda-forge-pinning"
           },
           {
@@ -3667,12 +3663,6 @@
             }
           },
           {
-            "id": "libignition-physics",
-            "payload": {
-              "__lazy_json__": "node_attrs/libignition-physics.json"
-            }
-          },
-          {
             "id": "libint",
             "payload": {
               "__lazy_json__": "node_attrs/libint.json"
@@ -4498,6 +4488,12 @@
             "id": "standardese",
             "payload": {
               "__lazy_json__": "node_attrs/standardese.json"
+            }
+          },
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
             }
           },
           {
