@@ -825,10 +825,6 @@
           },
           {
             "source": "assimp",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "assimp",
             "target": "ogre"
           },
           {
@@ -12409,10 +12405,6 @@
           },
           {
             "source": "boost",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "boost",
             "target": "libint"
           },
           {
@@ -17953,10 +17945,6 @@
           },
           {
             "source": "cmake",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "cmake",
             "target": "libignition-plugin"
           },
           {
@@ -19626,10 +19614,6 @@
           {
             "source": "cmake",
             "target": "urdfdom_headers"
-          },
-          {
-            "source": "cmake",
-            "target": "uriparser"
           },
           {
             "source": "cmake",
@@ -24060,10 +24044,6 @@
             "target": "gz-physics"
           },
           {
-            "source": "dartsim",
-            "target": "libignition-physics"
-          },
-          {
             "source": "datefudge",
             "target": "gnutls"
           },
@@ -25490,10 +25470,6 @@
           {
             "source": "eigen",
             "target": "libignition-math4"
-          },
-          {
-            "source": "eigen",
-            "target": "libignition-physics"
           },
           {
             "source": "eigen",
@@ -40257,10 +40233,6 @@
           },
           {
             "source": "libignition-cmake0",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "libignition-cmake0",
             "target": "libignition-plugin"
           },
           {
@@ -40276,10 +40248,6 @@
             "target": "libignition-fuel-tools"
           },
           {
-            "source": "libignition-common",
-            "target": "libignition-physics"
-          },
-          {
             "source": "libignition-math4",
             "target": "libignition-common"
           },
@@ -40292,20 +40260,12 @@
             "target": "libignition-msgs1"
           },
           {
-            "source": "libignition-math4",
-            "target": "libignition-physics"
-          },
-          {
             "source": "libignition-msgs1",
             "target": "libignition-fuel-tools"
           },
           {
             "source": "libignition-msgs1",
             "target": "libignition-transport4"
-          },
-          {
-            "source": "libignition-plugin",
-            "target": "libignition-physics"
           },
           {
             "source": "libignition-tools",
@@ -40326,10 +40286,6 @@
           {
             "source": "libignition-utils",
             "target": "libignition-common"
-          },
-          {
-            "source": "libignition-utils",
-            "target": "libignition-physics"
           },
           {
             "source": "libignition-utils",
@@ -41022,10 +40978,6 @@
           {
             "source": "libode",
             "target": "gz-physics"
-          },
-          {
-            "source": "libode",
-            "target": "libignition-physics"
           },
           {
             "source": "libode",
@@ -56101,15 +56053,15 @@
           },
           {
             "source": "ninja",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "ninja",
             "target": "libignition-plugin"
           },
           {
             "source": "ninja",
             "target": "libint"
+          },
+          {
+            "source": "ninja",
+            "target": "libkml"
           },
           {
             "source": "ninja",
@@ -57222,10 +57174,6 @@
           {
             "source": "ninja",
             "target": "urdfdom"
-          },
-          {
-            "source": "ninja",
-            "target": "uriparser"
           },
           {
             "source": "ninja",
@@ -65338,10 +65286,6 @@
           {
             "source": "pkg-config",
             "target": "libignition-msgs1"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libignition-physics"
           },
           {
             "source": "pkg-config",
@@ -95604,14 +95548,6 @@
             "target": "pinocchio"
           },
           {
-            "source": "uriparser",
-            "target": "collada-dom"
-          },
-          {
-            "source": "uriparser",
-            "target": "libkml"
-          },
-          {
             "source": "utfcpp",
             "target": "vtk"
           },
@@ -111931,12 +111867,6 @@
             }
           },
           {
-            "id": "libignition-physics",
-            "payload": {
-              "__lazy_json__": "node_attrs/libignition-physics.json"
-            }
-          },
-          {
             "id": "libignition-plugin",
             "payload": {
               "__lazy_json__": "node_attrs/libignition-plugin.json"
@@ -120880,12 +120810,6 @@
             "id": "urdfdom_headers",
             "payload": {
               "__lazy_json__": "node_attrs/urdfdom_headers.json"
-            }
-          },
-          {
-            "id": "uriparser",
-            "payload": {
-              "__lazy_json__": "node_attrs/uriparser.json"
             }
           },
           {
