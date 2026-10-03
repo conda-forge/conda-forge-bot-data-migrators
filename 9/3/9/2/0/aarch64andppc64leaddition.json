@@ -6297,6 +6297,10 @@
           },
           {
             "source": "bash",
+            "target": "openlibm"
+          },
+          {
+            "source": "bash",
             "target": "openmeeg"
           },
           {
@@ -9310,10 +9314,6 @@
           {
             "source": "bash",
             "target": "soxr"
-          },
-          {
-            "source": "bash",
-            "target": "soxr-python"
           },
           {
             "source": "bash",
@@ -19386,10 +19386,6 @@
           {
             "source": "cmake",
             "target": "soxr"
-          },
-          {
-            "source": "cmake",
-            "target": "soxr-python"
           },
           {
             "source": "cmake",
@@ -44909,6 +44905,10 @@
           },
           {
             "source": "libtool",
+            "target": "openlibm"
+          },
+          {
+            "source": "libtool",
             "target": "openmeeg"
           },
           {
@@ -47922,10 +47922,6 @@
           {
             "source": "libtool",
             "target": "soxr"
-          },
-          {
-            "source": "libtool",
-            "target": "soxr-python"
           },
           {
             "source": "libtool",
@@ -59493,10 +59489,6 @@
           },
           {
             "source": "numpy",
-            "target": "soxr-python"
-          },
-          {
-            "source": "numpy",
             "target": "spacy"
           },
           {
@@ -60234,6 +60226,10 @@
           {
             "source": "openldap",
             "target": "postgresql"
+          },
+          {
+            "source": "openlibm",
+            "target": "julia"
           },
           {
             "source": "openmm",
@@ -75278,10 +75274,6 @@
           {
             "source": "python",
             "target": "soxr"
-          },
-          {
-            "source": "python",
-            "target": "soxr-python"
           },
           {
             "source": "python",
@@ -92394,10 +92386,6 @@
           {
             "source": "soxr",
             "target": "pulseaudio"
-          },
-          {
-            "source": "soxr",
-            "target": "soxr-python"
           },
           {
             "source": "soxr",
@@ -114085,6 +114073,12 @@
             }
           },
           {
+            "id": "openlibm",
+            "payload": {
+              "__lazy_json__": "node_attrs/openlibm.json"
+            }
+          },
+          {
             "id": "openlineage-sql",
             "payload": {
               "__lazy_json__": "node_attrs/openlineage-sql.json"
@@ -120034,12 +120028,6 @@
             "id": "soxr",
             "payload": {
               "__lazy_json__": "node_attrs/soxr.json"
-            }
-          },
-          {
-            "id": "soxr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxr-python.json"
             }
           },
           {
