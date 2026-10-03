@@ -56,7 +56,27 @@
         "links": [
           {
             "source": "wcwidth",
+            "target": "anuga"
+          },
+          {
+            "source": "wcwidth",
+            "target": "anypytools"
+          },
+          {
+            "source": "wcwidth",
+            "target": "capytaine"
+          },
+          {
+            "source": "wcwidth",
             "target": "cis_interface"
+          },
+          {
+            "source": "wcwidth",
+            "target": "ckan"
+          },
+          {
+            "source": "wcwidth",
+            "target": "delta-kernel-rust-sharing-wrapper"
           },
           {
             "source": "wcwidth",
@@ -72,7 +92,35 @@
           },
           {
             "source": "wcwidth",
+            "target": "ensmallen_graph"
+          },
+          {
+            "source": "wcwidth",
+            "target": "eo-dataflow-ui"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fenics-basix"
+          },
+          {
+            "source": "wcwidth",
+            "target": "fludashboard"
+          },
+          {
+            "source": "wcwidth",
+            "target": "holodeck-gw"
+          },
+          {
+            "source": "wcwidth",
             "target": "humap"
+          },
+          {
+            "source": "wcwidth",
+            "target": "jsonschema-rs"
+          },
+          {
+            "source": "wcwidth",
+            "target": "libertem"
           },
           {
             "source": "wcwidth",
@@ -88,7 +136,31 @@
           },
           {
             "source": "wcwidth",
+            "target": "omnipkg"
+          },
+          {
+            "source": "wcwidth",
+            "target": "opendal"
+          },
+          {
+            "source": "wcwidth",
+            "target": "oxigraph"
+          },
+          {
+            "source": "wcwidth",
             "target": "paicos"
+          },
+          {
+            "source": "wcwidth",
+            "target": "parcel"
+          },
+          {
+            "source": "wcwidth",
+            "target": "py-rattler"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pygmo"
           },
           {
             "source": "wcwidth",
@@ -96,7 +168,47 @@
           },
           {
             "source": "wcwidth",
+            "target": "pynput"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyproject-fmt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyqstrat"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyrage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "python-blosc2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "quadrants"
+          },
+          {
+            "source": "wcwidth",
+            "target": "radis"
+          },
+          {
+            "source": "wcwidth",
+            "target": "reasonable"
+          },
+          {
+            "source": "wcwidth",
             "target": "salt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "seapy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "seml"
           },
           {
             "source": "wcwidth",
@@ -104,7 +216,27 @@
           },
           {
             "source": "wcwidth",
+            "target": "tach"
+          },
+          {
+            "source": "wcwidth",
+            "target": "timemory"
+          },
+          {
+            "source": "wcwidth",
             "target": "tvb-framework"
+          },
+          {
+            "source": "wcwidth",
+            "target": "typst-py"
+          },
+          {
+            "source": "wcwidth",
+            "target": "xeus-python-static"
+          },
+          {
+            "source": "wcwidth",
+            "target": "yt"
           }
         ],
         "multigraph": false,
@@ -146,6 +278,18 @@
             }
           },
           {
+            "id": "anuga",
+            "payload": {
+              "__lazy_json__": "node_attrs/anuga.json"
+            }
+          },
+          {
+            "id": "anypytools",
+            "payload": {
+              "__lazy_json__": "node_attrs/anypytools.json"
+            }
+          },
+          {
             "id": "astra-toolbox",
             "payload": {
               "__lazy_json__": "node_attrs/astra-toolbox.json"
@@ -176,12 +320,6 @@
             }
           },
           {
-            "id": "bed-reader",
-            "payload": {
-              "__lazy_json__": "node_attrs/bed-reader.json"
-            }
-          },
-          {
             "id": "bhmm",
             "payload": {
               "__lazy_json__": "node_attrs/bhmm.json"
@@ -194,9 +332,21 @@
             }
           },
           {
+            "id": "capytaine",
+            "payload": {
+              "__lazy_json__": "node_attrs/capytaine.json"
+            }
+          },
+          {
             "id": "cis_interface",
             "payload": {
               "__lazy_json__": "node_attrs/cis_interface.json"
+            }
+          },
+          {
+            "id": "ckan",
+            "payload": {
+              "__lazy_json__": "node_attrs/ckan.json"
             }
           },
           {
@@ -272,6 +422,12 @@
             }
           },
           {
+            "id": "delta-kernel-rust-sharing-wrapper",
+            "payload": {
+              "__lazy_json__": "node_attrs/delta-kernel-rust-sharing-wrapper.json"
+            }
+          },
+          {
             "id": "dlib",
             "payload": {
               "__lazy_json__": "node_attrs/dlib.json"
@@ -332,6 +488,18 @@
             }
           },
           {
+            "id": "ensmallen_graph",
+            "payload": {
+              "__lazy_json__": "node_attrs/ensmallen_graph.json"
+            }
+          },
+          {
+            "id": "eo-dataflow-ui",
+            "payload": {
+              "__lazy_json__": "node_attrs/eo-dataflow-ui.json"
+            }
+          },
+          {
             "id": "fabio",
             "payload": {
               "__lazy_json__": "node_attrs/fabio.json"
@@ -344,9 +512,21 @@
             }
           },
           {
+            "id": "fenics-basix",
+            "payload": {
+              "__lazy_json__": "node_attrs/fenics-basix.json"
+            }
+          },
+          {
             "id": "finufft-split",
             "payload": {
               "__lazy_json__": "node_attrs/finufft-split.json"
+            }
+          },
+          {
+            "id": "fludashboard",
+            "payload": {
+              "__lazy_json__": "node_attrs/fludashboard.json"
             }
           },
           {
@@ -374,15 +554,15 @@
             }
           },
           {
-            "id": "holopy",
+            "id": "holodeck-gw",
             "payload": {
-              "__lazy_json__": "node_attrs/holopy.json"
+              "__lazy_json__": "node_attrs/holodeck-gw.json"
             }
           },
           {
-            "id": "hoomd-dlext",
+            "id": "holopy",
             "payload": {
-              "__lazy_json__": "node_attrs/hoomd-dlext.json"
+              "__lazy_json__": "node_attrs/holopy.json"
             }
           },
           {
@@ -395,6 +575,12 @@
             "id": "jaxlib",
             "payload": {
               "__lazy_json__": "node_attrs/jaxlib.json"
+            }
+          },
+          {
+            "id": "jsonschema-rs",
+            "payload": {
+              "__lazy_json__": "node_attrs/jsonschema-rs.json"
             }
           },
           {
@@ -434,15 +620,15 @@
             }
           },
           {
-            "id": "libplanc",
+            "id": "libertem",
             "payload": {
-              "__lazy_json__": "node_attrs/libplanc.json"
+              "__lazy_json__": "node_attrs/libertem.json"
             }
           },
           {
-            "id": "lief",
+            "id": "libplanc",
             "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
+              "__lazy_json__": "node_attrs/libplanc.json"
             }
           },
           {
@@ -536,6 +722,12 @@
             }
           },
           {
+            "id": "omnipkg",
+            "payload": {
+              "__lazy_json__": "node_attrs/omnipkg.json"
+            }
+          },
+          {
             "id": "opcua",
             "payload": {
               "__lazy_json__": "node_attrs/opcua.json"
@@ -545,6 +737,12 @@
             "id": "opencamlib",
             "payload": {
               "__lazy_json__": "node_attrs/opencamlib.json"
+            }
+          },
+          {
+            "id": "opendal",
+            "payload": {
+              "__lazy_json__": "node_attrs/opendal.json"
             }
           },
           {
@@ -572,9 +770,21 @@
             }
           },
           {
+            "id": "oxigraph",
+            "payload": {
+              "__lazy_json__": "node_attrs/oxigraph.json"
+            }
+          },
+          {
             "id": "paicos",
             "payload": {
               "__lazy_json__": "node_attrs/paicos.json"
+            }
+          },
+          {
+            "id": "parcel",
+            "payload": {
+              "__lazy_json__": "node_attrs/parcel.json"
             }
           },
           {
@@ -599,6 +809,12 @@
             "id": "proliantutils",
             "payload": {
               "__lazy_json__": "node_attrs/proliantutils.json"
+            }
+          },
+          {
+            "id": "py-rattler",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-rattler.json"
             }
           },
           {
@@ -644,6 +860,12 @@
             }
           },
           {
+            "id": "pygmo",
+            "payload": {
+              "__lazy_json__": "node_attrs/pygmo.json"
+            }
+          },
+          {
             "id": "pygypsy",
             "payload": {
               "__lazy_json__": "node_attrs/pygypsy.json"
@@ -680,6 +902,12 @@
             }
           },
           {
+            "id": "pynput",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynput.json"
+            }
+          },
+          {
             "id": "pyobjcryst",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjcryst.json"
@@ -692,9 +920,27 @@
             }
           },
           {
+            "id": "pyproject-fmt",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyproject-fmt.json"
+            }
+          },
+          {
             "id": "pyqstem",
             "payload": {
               "__lazy_json__": "node_attrs/pyqstem.json"
+            }
+          },
+          {
+            "id": "pyqstrat",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyqstrat.json"
+            }
+          },
+          {
+            "id": "pyrage",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyrage.json"
             }
           },
           {
@@ -716,15 +962,27 @@
             }
           },
           {
+            "id": "python-blosc2",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-blosc2.json"
+            }
+          },
+          {
             "id": "pythonfmu3",
             "payload": {
               "__lazy_json__": "node_attrs/pythonfmu3.json"
             }
           },
           {
-            "id": "pytiff",
+            "id": "quadrants",
             "payload": {
-              "__lazy_json__": "node_attrs/pytiff.json"
+              "__lazy_json__": "node_attrs/quadrants.json"
+            }
+          },
+          {
+            "id": "radis",
+            "payload": {
+              "__lazy_json__": "node_attrs/radis.json"
             }
           },
           {
@@ -737,6 +995,12 @@
             "id": "rdkit",
             "payload": {
               "__lazy_json__": "node_attrs/rdkit.json"
+            }
+          },
+          {
+            "id": "reasonable",
+            "payload": {
+              "__lazy_json__": "node_attrs/reasonable.json"
             }
           },
           {
@@ -770,6 +1034,18 @@
             }
           },
           {
+            "id": "seapy",
+            "payload": {
+              "__lazy_json__": "node_attrs/seapy.json"
+            }
+          },
+          {
+            "id": "seml",
+            "payload": {
+              "__lazy_json__": "node_attrs/seml.json"
+            }
+          },
+          {
             "id": "shredx",
             "payload": {
               "__lazy_json__": "node_attrs/shredx.json"
@@ -785,6 +1061,12 @@
             "id": "stock-pandas",
             "payload": {
               "__lazy_json__": "node_attrs/stock-pandas.json"
+            }
+          },
+          {
+            "id": "tach",
+            "payload": {
+              "__lazy_json__": "node_attrs/tach.json"
             }
           },
           {
@@ -812,15 +1094,15 @@
             }
           },
           {
-            "id": "tkwant",
+            "id": "timemory",
             "payload": {
-              "__lazy_json__": "node_attrs/tkwant.json"
+              "__lazy_json__": "node_attrs/timemory.json"
             }
           },
           {
-            "id": "tracy",
+            "id": "tkwant",
             "payload": {
-              "__lazy_json__": "node_attrs/tracy.json"
+              "__lazy_json__": "node_attrs/tkwant.json"
             }
           },
           {
@@ -833,6 +1115,12 @@
             "id": "tvb-framework",
             "payload": {
               "__lazy_json__": "node_attrs/tvb-framework.json"
+            }
+          },
+          {
+            "id": "typst-py",
+            "payload": {
+              "__lazy_json__": "node_attrs/typst-py.json"
             }
           },
           {
@@ -854,9 +1142,21 @@
             }
           },
           {
+            "id": "xeus-python-static",
+            "payload": {
+              "__lazy_json__": "node_attrs/xeus-python-static.json"
+            }
+          },
+          {
             "id": "xorjson",
             "payload": {
               "__lazy_json__": "node_attrs/xorjson.json"
+            }
+          },
+          {
+            "id": "yt",
+            "payload": {
+              "__lazy_json__": "node_attrs/yt.json"
             }
           }
         ]
