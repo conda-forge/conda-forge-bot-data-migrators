@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -666,6 +673,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "libitk",
+            "target": "stir"
+          },
+          {
             "source": "libmatio",
             "target": "conda-forge-pinning"
           },
@@ -1203,6 +1214,10 @@
           },
           {
             "source": "spiceql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "stir",
             "target": "conda-forge-pinning"
           },
           {
@@ -2156,6 +2171,12 @@
             "id": "spiceql",
             "payload": {
               "__lazy_json__": "node_attrs/spiceql.json"
+            }
+          },
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
             }
           },
           {
