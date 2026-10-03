@@ -55,9 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "thepeg",
+            "id": "herwig",
             "payload": {
-              "__lazy_json__": "node_attrs/thepeg.json"
+              "__lazy_json__": "node_attrs/herwig.json"
             }
           }
         ]
@@ -295,6 +295,10 @@
           {
             "source": "cgal-cpp",
             "target": "gudhi"
+          },
+          {
+            "source": "cgal-cpp",
+            "target": "herwig"
           },
           {
             "source": "cgal-cpp",
@@ -962,6 +966,10 @@
           },
           {
             "source": "helios",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "herwig",
             "target": "conda-forge-pinning"
           },
           {
@@ -2515,6 +2523,10 @@
           {
             "source": "thepeg",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "thepeg",
+            "target": "herwig"
           },
           {
             "source": "thrift-cpp",
@@ -4691,6 +4703,12 @@
             "id": "ilastik-carving-tools",
             "payload": {
               "__lazy_json__": "node_attrs/ilastik-carving-tools.json"
+            }
+          },
+          {
+            "id": "herwig",
+            "payload": {
+              "__lazy_json__": "node_attrs/herwig.json"
             }
           }
         ]
