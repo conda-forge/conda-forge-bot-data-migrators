@@ -541,7 +541,7 @@
           },
           {
             "source": "assimp",
-            "target": "libignition-physics"
+            "target": "libignition-gazebo"
           },
           {
             "source": "assimp",
@@ -2717,7 +2717,7 @@
           },
           {
             "source": "boost",
-            "target": "libignition-physics"
+            "target": "libignition-gazebo"
           },
           {
             "source": "boost",
@@ -6537,7 +6537,7 @@
           },
           {
             "source": "dartsim",
-            "target": "libignition-physics"
+            "target": "libignition-gazebo"
           },
           {
             "source": "dav1d",
@@ -7097,11 +7097,11 @@
           },
           {
             "source": "eigen",
-            "target": "libignition-math4"
+            "target": "libignition-gazebo"
           },
           {
             "source": "eigen",
-            "target": "libignition-physics"
+            "target": "libignition-math4"
           },
           {
             "source": "eigen",
@@ -16749,10 +16749,6 @@
           },
           {
             "source": "libignition-cmake0",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "libignition-cmake0",
             "target": "libignition-plugin"
           },
           {
@@ -16782,10 +16778,6 @@
           {
             "source": "libignition-common",
             "target": "libignition-launch"
-          },
-          {
-            "source": "libignition-common",
-            "target": "libignition-physics"
           },
           {
             "source": "libignition-common",
@@ -16837,10 +16829,6 @@
           },
           {
             "source": "libignition-math4",
-            "target": "libignition-physics"
-          },
-          {
-            "source": "libignition-math4",
             "target": "libignition-rendering4"
           },
           {
@@ -16872,10 +16860,6 @@
             "target": "libignition-transport4"
           },
           {
-            "source": "libignition-physics",
-            "target": "libignition-gazebo"
-          },
-          {
             "source": "libignition-plugin",
             "target": "libignition-gazebo"
           },
@@ -16886,10 +16870,6 @@
           {
             "source": "libignition-plugin",
             "target": "libignition-launch"
-          },
-          {
-            "source": "libignition-plugin",
-            "target": "libignition-physics"
           },
           {
             "source": "libignition-plugin",
@@ -16965,11 +16945,11 @@
           },
           {
             "source": "libignition-utils",
-            "target": "libignition-gui"
+            "target": "libignition-gazebo"
           },
           {
             "source": "libignition-utils",
-            "target": "libignition-physics"
+            "target": "libignition-gui"
           },
           {
             "source": "libignition-utils",
@@ -17573,7 +17553,7 @@
           },
           {
             "source": "libode",
-            "target": "libignition-physics"
+            "target": "libignition-gazebo"
           },
           {
             "source": "libode",
@@ -51416,14 +51396,6 @@
             "target": "pinocchio"
           },
           {
-            "source": "uriparser",
-            "target": "collada-dom"
-          },
-          {
-            "source": "uriparser",
-            "target": "libkml"
-          },
-          {
             "source": "utfcpp",
             "target": "vtk"
           },
@@ -62573,12 +62545,6 @@
             }
           },
           {
-            "id": "libignition-physics",
-            "payload": {
-              "__lazy_json__": "node_attrs/libignition-physics.json"
-            }
-          },
-          {
             "id": "libignition-plugin",
             "payload": {
               "__lazy_json__": "node_attrs/libignition-plugin.json"
@@ -72011,12 +71977,6 @@
             }
           },
           {
-            "id": "uriparser",
-            "payload": {
-              "__lazy_json__": "node_attrs/uriparser.json"
-            }
-          },
-          {
             "id": "urlquote",
             "payload": {
               "__lazy_json__": "node_attrs/urlquote.json"
@@ -75388,7 +75348,6 @@
         "ucrt",
         "unzip",
         "urdfdom_headers",
-        "uriparser",
         "utfcpp",
         "vale",
         "vdt",
