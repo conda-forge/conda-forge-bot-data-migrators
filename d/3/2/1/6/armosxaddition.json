@@ -26633,10 +26633,6 @@
           },
           {
             "source": "numpy",
-            "target": "soxr-python"
-          },
-          {
-            "source": "numpy",
             "target": "spacy"
           },
           {
@@ -27486,6 +27482,18 @@
           {
             "source": "openldap",
             "target": "postgresql"
+          },
+          {
+            "source": "openlibm",
+            "target": "julia"
+          },
+          {
+            "source": "openlibm",
+            "target": "magics-metview-batch"
+          },
+          {
+            "source": "openlibm",
+            "target": "metview-batch"
           },
           {
             "source": "openmotif",
@@ -37846,10 +37854,6 @@
           {
             "source": "python",
             "target": "sortmerna"
-          },
-          {
-            "source": "python",
-            "target": "soxr-python"
           },
           {
             "source": "python",
@@ -49794,10 +49798,6 @@
           {
             "source": "soqt",
             "target": "pivy"
-          },
-          {
-            "source": "soxr",
-            "target": "soxr-python"
           },
           {
             "source": "soxr",
@@ -64853,6 +64853,12 @@
             }
           },
           {
+            "id": "openlibm",
+            "payload": {
+              "__lazy_json__": "node_attrs/openlibm.json"
+            }
+          },
+          {
             "id": "openlineage-sql",
             "payload": {
               "__lazy_json__": "node_attrs/openlineage-sql.json"
@@ -71045,12 +71051,6 @@
             }
           },
           {
-            "id": "soxr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxr-python.json"
-            }
-          },
-          {
             "id": "spacy",
             "payload": {
               "__lazy_json__": "node_attrs/spacy.json"
@@ -75329,6 +75329,7 @@
         "opencl-headers",
         "openfst",
         "openh264",
+        "openlibm",
         "openssl",
         "optional-lite",
         "p7zip",
