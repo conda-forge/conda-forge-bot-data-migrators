@@ -52,7 +52,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -226,6 +233,10 @@
           },
           {
             "source": "scirooplot",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "stir",
             "target": "conda-forge-pinning"
           },
           {
@@ -419,6 +430,12 @@
             "id": "scirooplot",
             "payload": {
               "__lazy_json__": "node_attrs/scirooplot.json"
+            }
+          },
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
             }
           },
           {
