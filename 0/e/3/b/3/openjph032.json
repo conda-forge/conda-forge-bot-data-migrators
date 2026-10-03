@@ -53,32 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "hdf5plugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/hdf5plugin.json"
-            }
-          },
-          {
-            "id": "imagecodecs",
-            "payload": {
-              "__lazy_json__": "node_attrs/imagecodecs.json"
-            }
-          },
-          {
-            "id": "openexr",
-            "payload": {
-              "__lazy_json__": "node_attrs/openexr.json"
-            }
-          },
-          {
-            "id": "openexr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/openexr-python.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -292,7 +267,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
