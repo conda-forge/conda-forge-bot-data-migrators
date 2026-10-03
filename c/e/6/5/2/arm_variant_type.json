@@ -1065,6 +1065,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "libparallelproj",
+            "target": "stir"
+          },
+          {
             "source": "librealsense",
             "target": "conda-forge-pinning"
           },
@@ -1826,6 +1830,10 @@
           },
           {
             "source": "sphericart",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "stir",
             "target": "conda-forge-pinning"
           },
           {
@@ -2933,6 +2941,12 @@
             "id": "sphericart",
             "payload": {
               "__lazy_json__": "node_attrs/sphericart.json"
+            }
+          },
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
             }
           },
           {
