@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "herwig",
+            "payload": {
+              "__lazy_json__": "node_attrs/herwig.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -276,6 +283,10 @@
           {
             "source": "gstlal",
             "target": "gstlal-ugly"
+          },
+          {
+            "source": "herwig",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "hkl",
@@ -792,6 +803,10 @@
           {
             "source": "thepeg",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "thepeg",
+            "target": "herwig"
           },
           {
             "source": "theseus",
@@ -1426,6 +1441,12 @@
             "id": "uwham",
             "payload": {
               "__lazy_json__": "node_attrs/uwham.json"
+            }
+          },
+          {
+            "id": "herwig",
+            "payload": {
+              "__lazy_json__": "node_attrs/herwig.json"
             }
           }
         ]
