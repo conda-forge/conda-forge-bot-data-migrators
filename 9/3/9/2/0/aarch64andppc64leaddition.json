@@ -19617,6 +19617,10 @@
           },
           {
             "source": "cmake",
+            "target": "uriparser"
+          },
+          {
+            "source": "cmake",
             "target": "uv"
           },
           {
@@ -56061,10 +56065,6 @@
           },
           {
             "source": "ninja",
-            "target": "libkml"
-          },
-          {
-            "source": "ninja",
             "target": "liblie-group-controllers"
           },
           {
@@ -57174,6 +57174,10 @@
           {
             "source": "ninja",
             "target": "urdfdom"
+          },
+          {
+            "source": "ninja",
+            "target": "uriparser"
           },
           {
             "source": "ninja",
@@ -95548,6 +95552,14 @@
             "target": "pinocchio"
           },
           {
+            "source": "uriparser",
+            "target": "collada-dom"
+          },
+          {
+            "source": "uriparser",
+            "target": "libkml"
+          },
+          {
             "source": "utfcpp",
             "target": "vtk"
           },
@@ -120810,6 +120822,12 @@
             "id": "urdfdom_headers",
             "payload": {
               "__lazy_json__": "node_attrs/urdfdom_headers.json"
+            }
+          },
+          {
+            "id": "uriparser",
+            "payload": {
+              "__lazy_json__": "node_attrs/uriparser.json"
             }
           },
           {
