@@ -16264,10 +16264,6 @@
             "target": "symengine"
           },
           {
-            "source": "libfyaml",
-            "target": "numcosmo"
-          },
-          {
             "source": "libgcrypt",
             "target": "gnupg"
           },
@@ -51396,6 +51392,14 @@
             "target": "pinocchio"
           },
           {
+            "source": "uriparser",
+            "target": "collada-dom"
+          },
+          {
+            "source": "uriparser",
+            "target": "libkml"
+          },
+          {
             "source": "utfcpp",
             "target": "vtk"
           },
@@ -62371,12 +62375,6 @@
             }
           },
           {
-            "id": "libfyaml",
-            "payload": {
-              "__lazy_json__": "node_attrs/libfyaml.json"
-            }
-          },
-          {
             "id": "libgcrypt",
             "payload": {
               "__lazy_json__": "node_attrs/libgcrypt.json"
@@ -71977,6 +71975,12 @@
             }
           },
           {
+            "id": "uriparser",
+            "payload": {
+              "__lazy_json__": "node_attrs/uriparser.json"
+            }
+          },
+          {
             "id": "urlquote",
             "payload": {
               "__lazy_json__": "node_attrs/urlquote.json"
@@ -75217,7 +75221,6 @@
         "libexif",
         "libfabric",
         "libffi",
-        "libfyaml",
         "libgdsii",
         "libgpuarray",
         "libgumbo",
@@ -75348,6 +75351,7 @@
         "ucrt",
         "unzip",
         "urdfdom_headers",
+        "uriparser",
         "utfcpp",
         "vale",
         "vdt",
