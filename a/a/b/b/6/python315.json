@@ -56,14 +56,6 @@
         "links": [
           {
             "source": "wcwidth",
-            "target": "anuga"
-          },
-          {
-            "source": "wcwidth",
-            "target": "anypytools"
-          },
-          {
-            "source": "wcwidth",
             "target": "capytaine"
           },
           {
@@ -176,10 +168,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "pyqstrat"
-          },
-          {
-            "source": "wcwidth",
             "target": "pyrage"
           },
           {
@@ -197,10 +185,6 @@
           {
             "source": "wcwidth",
             "target": "salt"
-          },
-          {
-            "source": "wcwidth",
-            "target": "seapy"
           },
           {
             "source": "wcwidth",
@@ -271,18 +255,6 @@
             "id": "antspyx",
             "payload": {
               "__lazy_json__": "node_attrs/antspyx.json"
-            }
-          },
-          {
-            "id": "anuga",
-            "payload": {
-              "__lazy_json__": "node_attrs/anuga.json"
-            }
-          },
-          {
-            "id": "anypytools",
-            "payload": {
-              "__lazy_json__": "node_attrs/anypytools.json"
             }
           },
           {
@@ -910,12 +882,6 @@
             }
           },
           {
-            "id": "pyqstrat",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyqstrat.json"
-            }
-          },
-          {
             "id": "pyrage",
             "payload": {
               "__lazy_json__": "node_attrs/pyrage.json"
@@ -1003,12 +969,6 @@
             "id": "scikit-learn-extra",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-learn-extra.json"
-            }
-          },
-          {
-            "id": "seapy",
-            "payload": {
-              "__lazy_json__": "node_attrs/seapy.json"
             }
           },
           {
@@ -6758,6 +6718,10 @@
           },
           {
             "source": "boost",
+            "target": "stir"
+          },
+          {
+            "source": "boost",
             "target": "svmtk"
           },
           {
@@ -9311,10 +9275,6 @@
           {
             "source": "catalogue",
             "target": "neuralcoref"
-          },
-          {
-            "source": "catalogue",
-            "target": "sense2vec"
           },
           {
             "source": "catalogue",
@@ -24566,6 +24526,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "stir"
+          },
+          {
+            "source": "matplotlib",
             "target": "structuralgt"
           },
           {
@@ -26287,10 +26251,6 @@
           {
             "source": "msgpack-python",
             "target": "screeninfo"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "sense2vec"
           },
           {
             "source": "msgpack-python",
@@ -34790,10 +34750,6 @@
           },
           {
             "source": "numpy",
-            "target": "sense2vec"
-          },
-          {
-            "source": "numpy",
             "target": "sensormapgeo"
           },
           {
@@ -35163,6 +35119,10 @@
           {
             "source": "numpy",
             "target": "stim-split"
+          },
+          {
+            "source": "numpy",
+            "target": "stir"
           },
           {
             "source": "numpy",
@@ -53581,6 +53541,10 @@
             "target": "scirooplot"
           },
           {
+            "source": "root",
+            "target": "stir"
+          },
+          {
             "source": "roounfold",
             "target": "conda-forge-pinning"
           },
@@ -54615,10 +54579,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "schema-salad"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "sense2vec"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -59373,10 +59333,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "sense2vec",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "sensormapgeo",
             "target": "conda-forge-pinning"
           },
@@ -60650,10 +60606,6 @@
           },
           {
             "source": "spacy",
-            "target": "sense2vec"
-          },
-          {
-            "source": "spacy",
             "target": "spacy-model-de"
           },
           {
@@ -61551,6 +61503,10 @@
           {
             "source": "stim-split",
             "target": "pygsti"
+          },
+          {
+            "source": "stir",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "stitchm",
@@ -62679,6 +62635,10 @@
           {
             "source": "tbb",
             "target": "stellarmesh"
+          },
+          {
+            "source": "tbb",
+            "target": "stir"
           },
           {
             "source": "tbb",
@@ -65131,10 +65091,6 @@
           {
             "source": "ujson",
             "target": "sanic"
-          },
-          {
-            "source": "ujson",
-            "target": "sense2vec"
           },
           {
             "source": "ujson",
@@ -84970,12 +84926,6 @@
             }
           },
           {
-            "id": "sense2vec",
-            "payload": {
-              "__lazy_json__": "node_attrs/sense2vec.json"
-            }
-          },
-          {
             "id": "sensormapgeo",
             "payload": {
               "__lazy_json__": "node_attrs/sensormapgeo.json"
@@ -85933,6 +85883,12 @@
             "id": "stim-split",
             "payload": {
               "__lazy_json__": "node_attrs/stim-split.json"
+            }
+          },
+          {
+            "id": "stir",
+            "payload": {
+              "__lazy_json__": "node_attrs/stir.json"
             }
           },
           {
