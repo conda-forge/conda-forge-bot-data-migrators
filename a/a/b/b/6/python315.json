@@ -60,10 +60,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "ckan"
-          },
-          {
-            "source": "wcwidth",
             "target": "delta-kernel-rust-sharing-wrapper"
           },
           {
@@ -189,10 +185,6 @@
           {
             "source": "wcwidth",
             "target": "typst-py"
-          },
-          {
-            "source": "wcwidth",
-            "target": "yt"
           }
         ],
         "multigraph": false,
@@ -276,12 +268,6 @@
             }
           },
           {
-            "id": "ckan",
-            "payload": {
-              "__lazy_json__": "node_attrs/ckan.json"
-            }
-          },
-          {
             "id": "clawpack",
             "payload": {
               "__lazy_json__": "node_attrs/clawpack.json"
@@ -333,12 +319,6 @@
             "id": "dealii",
             "payload": {
               "__lazy_json__": "node_attrs/dealii.json"
-            }
-          },
-          {
-            "id": "deepgraph",
-            "payload": {
-              "__lazy_json__": "node_attrs/deepgraph.json"
             }
           },
           {
@@ -402,12 +382,6 @@
             }
           },
           {
-            "id": "fenics",
-            "payload": {
-              "__lazy_json__": "node_attrs/fenics.json"
-            }
-          },
-          {
             "id": "fenics-basix",
             "payload": {
               "__lazy_json__": "node_attrs/fenics-basix.json"
@@ -453,12 +427,6 @@
             "id": "humap",
             "payload": {
               "__lazy_json__": "node_attrs/humap.json"
-            }
-          },
-          {
-            "id": "jaxlib",
-            "payload": {
-              "__lazy_json__": "node_attrs/jaxlib.json"
             }
           },
           {
@@ -642,12 +610,6 @@
             }
           },
           {
-            "id": "pyamrex",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyamrex.json"
-            }
-          },
-          {
             "id": "pyaudi",
             "payload": {
               "__lazy_json__": "node_attrs/pyaudi.json"
@@ -675,12 +637,6 @@
             "id": "pygedm",
             "payload": {
               "__lazy_json__": "node_attrs/pygedm.json"
-            }
-          },
-          {
-            "id": "pygeobase",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygeobase.json"
             }
           },
           {
@@ -759,12 +715,6 @@
             "id": "pyranha",
             "payload": {
               "__lazy_json__": "node_attrs/pyranha.json"
-            }
-          },
-          {
-            "id": "pyspnego",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyspnego.json"
             }
           },
           {
@@ -900,33 +850,21 @@
             }
           },
           {
+            "id": "usearch-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/usearch-python.json"
+            }
+          },
+          {
             "id": "veros",
             "payload": {
               "__lazy_json__": "node_attrs/veros.json"
             }
           },
           {
-            "id": "vigra",
-            "payload": {
-              "__lazy_json__": "node_attrs/vigra.json"
-            }
-          },
-          {
             "id": "wcwidth",
             "payload": {
               "__lazy_json__": "node_attrs/wcwidth.json"
-            }
-          },
-          {
-            "id": "xorjson",
-            "payload": {
-              "__lazy_json__": "node_attrs/xorjson.json"
-            }
-          },
-          {
-            "id": "yt",
-            "payload": {
-              "__lazy_json__": "node_attrs/yt.json"
             }
           }
         ]
