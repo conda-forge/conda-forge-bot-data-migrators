@@ -53,124 +53,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "wcwidth",
-            "target": "capytaine"
-          },
-          {
-            "source": "wcwidth",
-            "target": "eatpy"
-          },
-          {
-            "source": "wcwidth",
-            "target": "eo-dataflow-ui"
-          },
-          {
-            "source": "wcwidth",
-            "target": "fenics-basix"
-          },
-          {
-            "source": "wcwidth",
-            "target": "fludashboard"
-          },
-          {
-            "source": "wcwidth",
-            "target": "holodeck-gw"
-          },
-          {
-            "source": "wcwidth",
-            "target": "humap"
-          },
-          {
-            "source": "wcwidth",
-            "target": "jsonschema-rs"
-          },
-          {
-            "source": "wcwidth",
-            "target": "libertem"
-          },
-          {
-            "source": "wcwidth",
-            "target": "magentropy"
-          },
-          {
-            "source": "wcwidth",
-            "target": "mof"
-          },
-          {
-            "source": "wcwidth",
-            "target": "msdnet"
-          },
-          {
-            "source": "wcwidth",
-            "target": "omnipkg"
-          },
-          {
-            "source": "wcwidth",
-            "target": "opendal"
-          },
-          {
-            "source": "wcwidth",
-            "target": "oxigraph"
-          },
-          {
-            "source": "wcwidth",
-            "target": "paicos"
-          },
-          {
-            "source": "wcwidth",
-            "target": "py-rattler"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pymodes"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pynput"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pyproject-fmt"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pyrage"
-          },
-          {
-            "source": "wcwidth",
-            "target": "radis"
-          },
-          {
-            "source": "wcwidth",
-            "target": "salt"
-          },
-          {
-            "source": "wcwidth",
-            "target": "seml"
-          },
-          {
-            "source": "wcwidth",
-            "target": "shredx"
-          },
-          {
-            "source": "wcwidth",
-            "target": "tach"
-          },
-          {
-            "source": "wcwidth",
-            "target": "timemory"
-          },
-          {
-            "source": "wcwidth",
-            "target": "tvb-framework"
-          },
-          {
-            "source": "wcwidth",
-            "target": "typst-py"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -231,6 +114,12 @@
             "id": "bhmm",
             "payload": {
               "__lazy_json__": "node_attrs/bhmm.json"
+            }
+          },
+          {
+            "id": "blake3",
+            "payload": {
+              "__lazy_json__": "node_attrs/blake3.json"
             }
           },
           {
@@ -474,12 +363,6 @@
             }
           },
           {
-            "id": "opcua",
-            "payload": {
-              "__lazy_json__": "node_attrs/opcua.json"
-            }
-          },
-          {
             "id": "opencamlib",
             "payload": {
               "__lazy_json__": "node_attrs/opencamlib.json"
@@ -525,12 +408,6 @@
             "id": "patchworkpp",
             "payload": {
               "__lazy_json__": "node_attrs/patchworkpp.json"
-            }
-          },
-          {
-            "id": "pennylane",
-            "payload": {
-              "__lazy_json__": "node_attrs/pennylane.json"
             }
           },
           {
@@ -612,12 +489,6 @@
             }
           },
           {
-            "id": "pynput",
-            "payload": {
-              "__lazy_json__": "node_attrs/pynput.json"
-            }
-          },
-          {
             "id": "pyobjcryst",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjcryst.json"
@@ -654,12 +525,6 @@
             }
           },
           {
-            "id": "pysynphot",
-            "payload": {
-              "__lazy_json__": "node_attrs/pysynphot.json"
-            }
-          },
-          {
             "id": "pythonfmu3",
             "payload": {
               "__lazy_json__": "node_attrs/pythonfmu3.json"
@@ -669,12 +534,6 @@
             "id": "radis",
             "payload": {
               "__lazy_json__": "node_attrs/radis.json"
-            }
-          },
-          {
-            "id": "rateslib",
-            "payload": {
-              "__lazy_json__": "node_attrs/rateslib.json"
             }
           },
           {
@@ -771,12 +630,6 @@
             "id": "veros",
             "payload": {
               "__lazy_json__": "node_attrs/veros.json"
-            }
-          },
-          {
-            "id": "wcwidth",
-            "payload": {
-              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           }
         ]
