@@ -541,7 +541,7 @@
           },
           {
             "source": "assimp",
-            "target": "libignition-gazebo"
+            "target": "libignition-physics"
           },
           {
             "source": "assimp",
@@ -2717,7 +2717,7 @@
           },
           {
             "source": "boost",
-            "target": "libignition-gazebo"
+            "target": "libignition-physics"
           },
           {
             "source": "boost",
@@ -6541,7 +6541,7 @@
           },
           {
             "source": "dartsim",
-            "target": "libignition-gazebo"
+            "target": "libignition-physics"
           },
           {
             "source": "dav1d",
@@ -7101,11 +7101,11 @@
           },
           {
             "source": "eigen",
-            "target": "libignition-gazebo"
+            "target": "libignition-math4"
           },
           {
             "source": "eigen",
-            "target": "libignition-math4"
+            "target": "libignition-physics"
           },
           {
             "source": "eigen",
@@ -16749,6 +16749,10 @@
           },
           {
             "source": "libignition-cmake0",
+            "target": "libignition-physics"
+          },
+          {
+            "source": "libignition-cmake0",
             "target": "libignition-plugin"
           },
           {
@@ -16778,6 +16782,10 @@
           {
             "source": "libignition-common",
             "target": "libignition-launch"
+          },
+          {
+            "source": "libignition-common",
+            "target": "libignition-physics"
           },
           {
             "source": "libignition-common",
@@ -16829,6 +16837,10 @@
           },
           {
             "source": "libignition-math4",
+            "target": "libignition-physics"
+          },
+          {
+            "source": "libignition-math4",
             "target": "libignition-rendering4"
           },
           {
@@ -16860,6 +16872,10 @@
             "target": "libignition-transport4"
           },
           {
+            "source": "libignition-physics",
+            "target": "libignition-gazebo"
+          },
+          {
             "source": "libignition-plugin",
             "target": "libignition-gazebo"
           },
@@ -16870,6 +16886,10 @@
           {
             "source": "libignition-plugin",
             "target": "libignition-launch"
+          },
+          {
+            "source": "libignition-plugin",
+            "target": "libignition-physics"
           },
           {
             "source": "libignition-plugin",
@@ -16945,11 +16965,11 @@
           },
           {
             "source": "libignition-utils",
-            "target": "libignition-gazebo"
+            "target": "libignition-gui"
           },
           {
             "source": "libignition-utils",
-            "target": "libignition-gui"
+            "target": "libignition-physics"
           },
           {
             "source": "libignition-utils",
@@ -17553,7 +17573,7 @@
           },
           {
             "source": "libode",
-            "target": "libignition-gazebo"
+            "target": "libignition-physics"
           },
           {
             "source": "libode",
@@ -62558,6 +62578,12 @@
             "id": "libignition-msgs1",
             "payload": {
               "__lazy_json__": "node_attrs/libignition-msgs1.json"
+            }
+          },
+          {
+            "id": "libignition-physics",
+            "payload": {
+              "__lazy_json__": "node_attrs/libignition-physics.json"
             }
           },
           {
