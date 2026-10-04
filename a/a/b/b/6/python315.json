@@ -260,12 +260,6 @@
             }
           },
           {
-            "id": "based58",
-            "payload": {
-              "__lazy_json__": "node_attrs/based58.json"
-            }
-          },
-          {
             "id": "basemap",
             "payload": {
               "__lazy_json__": "node_attrs/basemap.json"
@@ -335,12 +329,6 @@
             "id": "compas_view2",
             "payload": {
               "__lazy_json__": "node_attrs/compas_view2.json"
-            }
-          },
-          {
-            "id": "concurrentloghandler",
-            "payload": {
-              "__lazy_json__": "node_attrs/concurrentloghandler.json"
             }
           },
           {
@@ -473,12 +461,6 @@
             "id": "fenics-basix",
             "payload": {
               "__lazy_json__": "node_attrs/fenics-basix.json"
-            }
-          },
-          {
-            "id": "finufft-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/finufft-split.json"
             }
           },
           {
@@ -920,12 +902,6 @@
             }
           },
           {
-            "id": "rdkit",
-            "payload": {
-              "__lazy_json__": "node_attrs/rdkit.json"
-            }
-          },
-          {
             "id": "reasonable",
             "payload": {
               "__lazy_json__": "node_attrs/reasonable.json"
@@ -977,6 +953,12 @@
             "id": "sissopp",
             "payload": {
               "__lazy_json__": "node_attrs/sissopp.json"
+            }
+          },
+          {
+            "id": "spiceql",
+            "payload": {
+              "__lazy_json__": "node_attrs/spiceql.json"
             }
           },
           {
@@ -4290,6 +4272,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "porespy"
+          },
+          {
+            "source": "backports.zstd",
             "target": "potentials"
           },
           {
@@ -5359,6 +5345,10 @@
           {
             "source": "bcrypt",
             "target": "phasorpy"
+          },
+          {
+            "source": "bcrypt",
+            "target": "porespy"
           },
           {
             "source": "bcrypt",
@@ -8054,6 +8044,10 @@
           },
           {
             "source": "brotli",
+            "target": "porespy"
+          },
+          {
+            "source": "brotli",
             "target": "potentials"
           },
           {
@@ -10138,6 +10132,10 @@
           },
           {
             "source": "cffi",
+            "target": "porespy"
+          },
+          {
+            "source": "cffi",
             "target": "psi4"
           },
           {
@@ -11179,6 +11177,10 @@
           {
             "source": "connected-components-3d",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "connected-components-3d",
+            "target": "porespy"
           },
           {
             "source": "connectorx",
@@ -36609,10 +36611,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "openpnm",
-            "target": "porespy"
-          },
-          {
             "source": "openpyxl",
             "target": "apache-airflow-backport-providers-cncf-kubernetes"
           },
@@ -46682,6 +46680,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "porespy"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "puma"
           },
           {
@@ -49406,6 +49408,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "porespy"
+          },
+          {
+            "source": "python-xxhash",
             "target": "puma"
           },
           {
@@ -50531,10 +50537,6 @@
           {
             "source": "pywavelets",
             "target": "imagededup"
-          },
-          {
-            "source": "pywavelets",
-            "target": "porespy"
           },
           {
             "source": "pywavelets",
@@ -65907,6 +65909,10 @@
           {
             "source": "vtk",
             "target": "plaid"
+          },
+          {
+            "source": "vtk",
+            "target": "porespy"
           },
           {
             "source": "vtk",
