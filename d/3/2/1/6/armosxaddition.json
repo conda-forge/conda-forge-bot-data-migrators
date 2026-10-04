@@ -5408,6 +5408,10 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "connected-components-3d",
+            "target": "porespy"
+          },
+          {
             "source": "console_bridge",
             "target": "dartsim"
           },
@@ -24617,6 +24621,10 @@
           },
           {
             "source": "numpy",
+            "target": "connected-components-3d"
+          },
+          {
+            "source": "numpy",
             "target": "connectorx"
           },
           {
@@ -28438,10 +28446,6 @@
           {
             "source": "openpmix",
             "target": "openmpi"
-          },
-          {
-            "source": "openpnm",
-            "target": "porespy"
           },
           {
             "source": "openpyxl",
@@ -33057,6 +33061,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "porespy"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "puma"
           },
           {
@@ -34246,6 +34254,10 @@
           {
             "source": "python",
             "target": "configspace"
+          },
+          {
+            "source": "python",
+            "target": "connected-components-3d"
           },
           {
             "source": "python",
@@ -38586,10 +38598,6 @@
           {
             "source": "pytorch_scatter",
             "target": "pytorch_sparse"
-          },
-          {
-            "source": "pywavelets",
-            "target": "porespy"
           },
           {
             "source": "pywavelets",
@@ -51669,6 +51677,10 @@
           },
           {
             "source": "vtk",
+            "target": "porespy"
+          },
+          {
+            "source": "vtk",
             "target": "puma"
           },
           {
@@ -58358,6 +58370,12 @@
             "id": "configspace",
             "payload": {
               "__lazy_json__": "node_attrs/configspace.json"
+            }
+          },
+          {
+            "id": "connected-components-3d",
+            "payload": {
+              "__lazy_json__": "node_attrs/connected-components-3d.json"
             }
           },
           {
