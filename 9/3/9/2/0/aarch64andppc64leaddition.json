@@ -16033,10 +16033,6 @@
           },
           {
             "source": "cffi",
-            "target": "opcua"
-          },
-          {
-            "source": "cffi",
             "target": "opencv"
           },
           {
@@ -51849,10 +51845,6 @@
           },
           {
             "source": "lxml",
-            "target": "opcua"
-          },
-          {
-            "source": "lxml",
             "target": "openmm"
           },
           {
@@ -74002,10 +73994,6 @@
           {
             "source": "python",
             "target": "onnxruntime"
-          },
-          {
-            "source": "python",
-            "target": "opcua"
           },
           {
             "source": "python",
@@ -113980,12 +113968,6 @@
             "id": "onnxruntime",
             "payload": {
               "__lazy_json__": "node_attrs/onnxruntime.json"
-            }
-          },
-          {
-            "id": "opcua",
-            "payload": {
-              "__lazy_json__": "node_attrs/opcua.json"
             }
           },
           {
