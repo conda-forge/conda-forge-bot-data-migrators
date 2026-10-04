@@ -76,10 +76,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "easytest"
-          },
-          {
-            "source": "wcwidth",
             "target": "eatpy"
           },
           {
@@ -149,10 +145,6 @@
           {
             "source": "wcwidth",
             "target": "py-rattler"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pygmo"
           },
           {
             "source": "wcwidth",
@@ -413,12 +405,6 @@
             "id": "easybuild-easyblocks",
             "payload": {
               "__lazy_json__": "node_attrs/easybuild-easyblocks.json"
-            }
-          },
-          {
-            "id": "easytest",
-            "payload": {
-              "__lazy_json__": "node_attrs/easytest.json"
             }
           },
           {
@@ -686,12 +672,6 @@
             }
           },
           {
-            "id": "otsubsetinverse",
-            "payload": {
-              "__lazy_json__": "node_attrs/otsubsetinverse.json"
-            }
-          },
-          {
             "id": "oxigraph",
             "payload": {
               "__lazy_json__": "node_attrs/oxigraph.json"
@@ -779,12 +759,6 @@
             "id": "pygeobase",
             "payload": {
               "__lazy_json__": "node_attrs/pygeobase.json"
-            }
-          },
-          {
-            "id": "pygmo",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygmo.json"
             }
           },
           {
@@ -953,12 +927,6 @@
             "id": "sissopp",
             "payload": {
               "__lazy_json__": "node_attrs/sissopp.json"
-            }
-          },
-          {
-            "id": "spiceql",
-            "payload": {
-              "__lazy_json__": "node_attrs/spiceql.json"
             }
           },
           {
@@ -9253,6 +9221,10 @@
           {
             "source": "catalogue",
             "target": "neuralcoref"
+          },
+          {
+            "source": "catalogue",
+            "target": "sense2vec"
           },
           {
             "source": "catalogue",
@@ -26240,6 +26212,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "sense2vec"
+          },
+          {
+            "source": "msgpack-python",
             "target": "sktime"
           },
           {
@@ -34733,6 +34709,10 @@
           {
             "source": "numpy",
             "target": "seml"
+          },
+          {
+            "source": "numpy",
+            "target": "sense2vec"
           },
           {
             "source": "numpy",
@@ -54568,6 +54548,10 @@
           },
           {
             "source": "ruamel.yaml.clib",
+            "target": "sense2vec"
+          },
+          {
+            "source": "ruamel.yaml.clib",
             "target": "sherlockml-dataclean"
           },
           {
@@ -59319,6 +59303,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "sense2vec",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "sensormapgeo",
             "target": "conda-forge-pinning"
           },
@@ -60589,6 +60577,10 @@
           {
             "source": "spacy",
             "target": "pyserini"
+          },
+          {
+            "source": "spacy",
+            "target": "sense2vec"
           },
           {
             "source": "spacy",
@@ -65077,6 +65069,10 @@
           {
             "source": "ujson",
             "target": "sanic"
+          },
+          {
+            "source": "ujson",
+            "target": "sense2vec"
           },
           {
             "source": "ujson",
@@ -84913,6 +84909,12 @@
             "id": "semsimian",
             "payload": {
               "__lazy_json__": "node_attrs/semsimian.json"
+            }
+          },
+          {
+            "id": "sense2vec",
+            "payload": {
+              "__lazy_json__": "node_attrs/sense2vec.json"
             }
           },
           {
