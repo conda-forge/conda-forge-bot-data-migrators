@@ -111,6 +111,12 @@
             }
           },
           {
+            "id": "tsinfer",
+            "payload": {
+              "__lazy_json__": "node_attrs/tsinfer.json"
+            }
+          },
+          {
             "id": "wofpy",
             "payload": {
               "__lazy_json__": "node_attrs/wofpy.json"
@@ -3621,6 +3627,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "radarx"
+          },
+          {
+            "source": "backports.zstd",
             "target": "radical.orbit"
           },
           {
@@ -4454,6 +4464,10 @@
           {
             "source": "bcrypt",
             "target": "pyuvdata"
+          },
+          {
+            "source": "bcrypt",
+            "target": "radarx"
           },
           {
             "source": "bcrypt",
@@ -7401,6 +7415,10 @@
           },
           {
             "source": "brotli",
+            "target": "radarx"
+          },
+          {
+            "source": "brotli",
             "target": "radical.orbit"
           },
           {
@@ -8206,6 +8224,10 @@
           {
             "source": "cartopy",
             "target": "python-mint"
+          },
+          {
+            "source": "cartopy",
+            "target": "radarx"
           },
           {
             "source": "cartopy",
@@ -9377,6 +9399,10 @@
           },
           {
             "source": "cffi",
+            "target": "radarx"
+          },
+          {
+            "source": "cffi",
             "target": "radical.orbit"
           },
           {
@@ -10474,6 +10500,10 @@
           {
             "source": "contourpy",
             "target": "qcodes"
+          },
+          {
+            "source": "contourpy",
+            "target": "radarx"
           },
           {
             "source": "contourpy",
@@ -11594,6 +11624,10 @@
           {
             "source": "cytoolz",
             "target": "qcodes"
+          },
+          {
+            "source": "cytoolz",
+            "target": "radarx"
           },
           {
             "source": "cytoolz",
@@ -17289,6 +17323,10 @@
           },
           {
             "source": "h5py",
+            "target": "radarx"
+          },
+          {
+            "source": "h5py",
             "target": "radis"
           },
           {
@@ -21489,6 +21527,10 @@
           },
           {
             "source": "lz4",
+            "target": "radarx"
+          },
+          {
+            "source": "lz4",
             "target": "raider"
           },
           {
@@ -23286,6 +23328,10 @@
           {
             "source": "matplotlib",
             "target": "quippy"
+          },
+          {
+            "source": "matplotlib",
+            "target": "radarx"
           },
           {
             "source": "matplotlib",
@@ -25245,6 +25291,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "radarx"
+          },
+          {
+            "source": "msgpack-python",
             "target": "radical.analytics"
           },
           {
@@ -26706,6 +26756,10 @@
           {
             "source": "netcdf4",
             "target": "python-mint"
+          },
+          {
+            "source": "netcdf4",
+            "target": "radarx"
           },
           {
             "source": "netcdf4",
@@ -33389,6 +33443,10 @@
           },
           {
             "source": "numpy",
+            "target": "radarx"
+          },
+          {
+            "source": "numpy",
             "target": "radical.analytics"
           },
           {
@@ -37537,6 +37595,10 @@
           },
           {
             "source": "pandas",
+            "target": "radarx"
+          },
+          {
+            "source": "pandas",
             "target": "radical.analytics"
           },
           {
@@ -39242,6 +39304,10 @@
           {
             "source": "pillow",
             "target": "quantiphyse"
+          },
+          {
+            "source": "pillow",
+            "target": "radarx"
           },
           {
             "source": "pillow",
@@ -41829,6 +41895,10 @@
           },
           {
             "source": "psutil",
+            "target": "radarx"
+          },
+          {
+            "source": "psutil",
             "target": "radical.analytics"
           },
           {
@@ -42934,6 +43004,10 @@
           {
             "source": "pyarrow",
             "target": "qcodes"
+          },
+          {
+            "source": "pyarrow",
+            "target": "radarx"
           },
           {
             "source": "pyarrow",
@@ -46577,6 +46651,10 @@
           },
           {
             "source": "pyproj",
+            "target": "radarx"
+          },
+          {
+            "source": "pyproj",
             "target": "raider"
           },
           {
@@ -48076,30 +48154,6 @@
             "target": "sbank"
           },
           {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "hangar"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "tsinfer"
-          },
-          {
             "source": "python-lzf",
             "target": "conda-forge-pinning"
           },
@@ -48514,6 +48568,10 @@
           {
             "source": "python-xxhash",
             "target": "pyuvdata"
+          },
+          {
+            "source": "python-xxhash",
+            "target": "radarx"
           },
           {
             "source": "python-xxhash",
@@ -51494,6 +51552,10 @@
           {
             "source": "qutip",
             "target": "piqs"
+          },
+          {
+            "source": "radarx",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "radical.analytics",
@@ -57501,6 +57563,10 @@
           },
           {
             "source": "scipy",
+            "target": "radarx"
+          },
+          {
+            "source": "scipy",
             "target": "radis"
           },
           {
@@ -63114,6 +63180,10 @@
           {
             "source": "tornado",
             "target": "quantlab"
+          },
+          {
+            "source": "tornado",
+            "target": "radarx"
           },
           {
             "source": "tornado",
@@ -82167,12 +82237,6 @@
             }
           },
           {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
-            }
-          },
-          {
             "id": "python-lzf",
             "payload": {
               "__lazy_json__": "node_attrs/python-lzf.json"
@@ -82872,6 +82936,12 @@
             "id": "qutip",
             "payload": {
               "__lazy_json__": "node_attrs/qutip.json"
+            }
+          },
+          {
+            "id": "radarx",
+            "payload": {
+              "__lazy_json__": "node_attrs/radarx.json"
             }
           },
           {
