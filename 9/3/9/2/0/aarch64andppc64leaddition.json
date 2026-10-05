@@ -23577,6 +23577,10 @@
           },
           {
             "source": "curl",
+            "target": "rasterio"
+          },
+          {
+            "source": "curl",
             "target": "ray-packages"
           },
           {
@@ -96166,10 +96170,6 @@
           {
             "source": "uv",
             "target": "pillow"
-          },
-          {
-            "source": "uv",
-            "target": "prophet"
           },
           {
             "source": "uv",
