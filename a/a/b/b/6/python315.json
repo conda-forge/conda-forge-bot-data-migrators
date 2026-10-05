@@ -81,12 +81,6 @@
             }
           },
           {
-            "id": "mysqlclient",
-            "payload": {
-              "__lazy_json__": "node_attrs/mysqlclient.json"
-            }
-          },
-          {
             "id": "onnx",
             "payload": {
               "__lazy_json__": "node_attrs/onnx.json"
@@ -41857,10 +41851,6 @@
           },
           {
             "source": "psutil",
-            "target": "rasterio"
-          },
-          {
-            "source": "psutil",
             "target": "ray-packages"
           },
           {
@@ -66314,10 +66304,6 @@
           {
             "source": "wcwidth",
             "target": "radis"
-          },
-          {
-            "source": "wcwidth",
-            "target": "rasterio"
           },
           {
             "source": "wcwidth",
