@@ -85,6 +85,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/windmapper.json"
             }
+          },
+          {
+            "id": "nanovector",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanovector.json"
+            }
           }
         ]
       }
@@ -26200,6 +26206,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nanovector",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nansat",
             "target": "conda-forge-pinning"
           },
@@ -31290,6 +31300,10 @@
           {
             "source": "numpy",
             "target": "nanoeigenpy"
+          },
+          {
+            "source": "numpy",
+            "target": "nanovector"
           },
           {
             "source": "numpy",
@@ -87162,6 +87176,12 @@
             "id": "pygtide",
             "payload": {
               "__lazy_json__": "node_attrs/pygtide.json"
+            }
+          },
+          {
+            "id": "nanovector",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanovector.json"
             }
           }
         ]
