@@ -63,9 +63,9 @@
             }
           },
           {
-            "id": "nanogemm",
+            "id": "openvdb",
             "payload": {
-              "__lazy_json__": "node_attrs/nanogemm.json"
+              "__lazy_json__": "node_attrs/openvdb.json"
             }
           }
         ]
@@ -5444,6 +5444,10 @@
           {
             "source": "boost",
             "target": "opencamlib"
+          },
+          {
+            "source": "boost",
+            "target": "openvdb"
           },
           {
             "source": "boost",
@@ -31655,6 +31659,10 @@
           },
           {
             "source": "numpy",
+            "target": "openvdb"
+          },
+          {
+            "source": "numpy",
             "target": "openvino"
           },
           {
@@ -35824,6 +35832,10 @@
           {
             "source": "openusd",
             "target": "usd-exchange"
+          },
+          {
+            "source": "openvdb",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "openvino-tokenizers",
@@ -61311,6 +61323,10 @@
           },
           {
             "source": "tbb",
+            "target": "openvdb"
+          },
+          {
+            "source": "tbb",
             "target": "openvino"
           },
           {
@@ -78148,6 +78164,12 @@
             "id": "openusd",
             "payload": {
               "__lazy_json__": "node_attrs/openusd.json"
+            }
+          },
+          {
+            "id": "openvdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvdb.json"
             }
           },
           {
