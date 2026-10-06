@@ -56,7 +56,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "datafusion",
+            "payload": {
+              "__lazy_json__": "node_attrs/datafusion.json"
+            }
+          },
+          {
+            "id": "llguidance",
+            "payload": {
+              "__lazy_json__": "node_attrs/llguidance.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -4017,6 +4030,10 @@
           {
             "source": "maturin",
             "target": "rs1090"
+          },
+          {
+            "source": "maturin",
+            "target": "rsloop"
           },
           {
             "source": "maturin",
@@ -8232,6 +8249,10 @@
           },
           {
             "source": "rs1090",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rsloop",
             "target": "conda-forge-pinning"
           },
           {
@@ -13581,6 +13602,12 @@
             "id": "rs1090",
             "payload": {
               "__lazy_json__": "node_attrs/rs1090.json"
+            }
+          },
+          {
+            "id": "rsloop",
+            "payload": {
+              "__lazy_json__": "node_attrs/rsloop.json"
             }
           },
           {
