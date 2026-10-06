@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ffmpeg",
+            "payload": {
+              "__lazy_json__": "node_attrs/ffmpeg.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -201,6 +208,12 @@
             "id": "doggo",
             "payload": {
               "__lazy_json__": "node_attrs/doggo.json"
+            }
+          },
+          {
+            "id": "ffmpeg",
+            "payload": {
+              "__lazy_json__": "node_attrs/ffmpeg.json"
             }
           },
           {
@@ -574,6 +587,7 @@
         "dasel",
         "diffnav",
         "doggo",
+        "ffmpeg",
         "flyctl",
         "gastown",
         "gh",
@@ -654,6 +668,7 @@
         "dasel",
         "diffnav",
         "doggo",
+        "ffmpeg",
         "flyctl",
         "gastown",
         "gh",
