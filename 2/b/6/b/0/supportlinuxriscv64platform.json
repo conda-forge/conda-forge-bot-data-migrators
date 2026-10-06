@@ -256,10 +256,6 @@
             "target": "pulseaudio"
           },
           {
-            "source": "clhpp",
-            "target": "openvino"
-          },
-          {
             "source": "cli11",
             "target": "mamba"
           },
@@ -766,10 +762,6 @@
           {
             "source": "keyutils",
             "target": "krb5"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
-            "target": "clhpp"
           },
           {
             "source": "krb5",
@@ -1622,10 +1614,6 @@
           {
             "source": "numpy",
             "target": "rapidfuzz"
-          },
-          {
-            "source": "ocl-icd",
-            "target": "clhpp"
           },
           {
             "source": "ocl-icd",
@@ -3482,12 +3470,6 @@
             "id": "chktex",
             "payload": {
               "__lazy_json__": "node_attrs/chktex.json"
-            }
-          },
-          {
-            "id": "clhpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/clhpp.json"
             }
           },
           {
