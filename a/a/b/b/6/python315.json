@@ -61,6 +61,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/fabio.json"
             }
+          },
+          {
+            "id": "nanogemm",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanogemm.json"
+            }
           }
         ]
       }
@@ -26176,6 +26182,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nanogemm",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nanovector",
             "target": "conda-forge-pinning"
           },
@@ -31270,6 +31280,10 @@
           {
             "source": "numpy",
             "target": "nanoeigenpy"
+          },
+          {
+            "source": "numpy",
+            "target": "nanogemm"
           },
           {
             "source": "numpy",
@@ -87152,6 +87166,12 @@
             "id": "nanovector",
             "payload": {
               "__lazy_json__": "node_attrs/nanovector.json"
+            }
+          },
+          {
+            "id": "nanogemm",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanogemm.json"
             }
           }
         ]
