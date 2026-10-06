@@ -57,21 +57,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "dcgp-python",
+            "id": "rasterio",
             "payload": {
-              "__lazy_json__": "node_attrs/dcgp-python.json"
-            }
-          },
-          {
-            "id": "ldas-tools-frameapi-swig",
-            "payload": {
-              "__lazy_json__": "node_attrs/ldas-tools-frameapi-swig.json"
-            }
-          },
-          {
-            "id": "onnx",
-            "payload": {
-              "__lazy_json__": "node_attrs/onnx.json"
+              "__lazy_json__": "node_attrs/rasterio.json"
             }
           },
           {
@@ -13305,15 +13293,7 @@
           },
           {
             "source": "esutil",
-            "target": "mof"
-          },
-          {
-            "source": "esutil",
             "target": "redmapper"
-          },
-          {
-            "source": "esutil",
-            "target": "shredx"
           },
           {
             "source": "esutil",
@@ -14137,10 +14117,6 @@
           },
           {
             "source": "fitsio",
-            "target": "mof"
-          },
-          {
-            "source": "fitsio",
             "target": "namaster"
           },
           {
@@ -14154,10 +14130,6 @@
           {
             "source": "fitsio",
             "target": "redmapper"
-          },
-          {
-            "source": "fitsio",
-            "target": "shredx"
           },
           {
             "source": "fitsio",
@@ -14449,19 +14421,11 @@
           },
           {
             "source": "galsim",
-            "target": "mof"
-          },
-          {
-            "source": "galsim",
             "target": "ngmix"
           },
           {
             "source": "galsim",
             "target": "piff"
-          },
-          {
-            "source": "galsim",
-            "target": "shredx"
           },
           {
             "source": "galsim",
@@ -24001,10 +23965,6 @@
           },
           {
             "source": "meds",
-            "target": "mof"
-          },
-          {
-            "source": "meds",
             "target": "ngmix"
           },
           {
@@ -24442,10 +24402,6 @@
           {
             "source": "moderngl",
             "target": "rtxpy"
-          },
-          {
-            "source": "mof",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "moka-py",
@@ -26877,14 +26833,6 @@
           },
           {
             "source": "ngmix",
-            "target": "mof"
-          },
-          {
-            "source": "ngmix",
-            "target": "shredx"
-          },
-          {
-            "source": "ngmix",
             "target": "stackvana-core"
           },
           {
@@ -27277,10 +27225,6 @@
           },
           {
             "source": "numba",
-            "target": "mof"
-          },
-          {
-            "source": "numba",
             "target": "morphometrics"
           },
           {
@@ -27470,10 +27414,6 @@
           {
             "source": "numba",
             "target": "shenfun"
-          },
-          {
-            "source": "numba",
-            "target": "shredx"
           },
           {
             "source": "numba",
@@ -31213,10 +31153,6 @@
           },
           {
             "source": "numpy",
-            "target": "mof"
-          },
-          {
-            "source": "numpy",
             "target": "molearn"
           },
           {
@@ -32369,10 +32305,6 @@
           },
           {
             "source": "numpy",
-            "target": "pydensecrf"
-          },
-          {
-            "source": "numpy",
             "target": "pydpc"
           },
           {
@@ -32742,10 +32674,6 @@
           {
             "source": "numpy",
             "target": "pymem3dg"
-          },
-          {
-            "source": "numpy",
-            "target": "pymesh2"
           },
           {
             "source": "numpy",
@@ -33882,10 +33810,6 @@
           {
             "source": "numpy",
             "target": "sherlockml-dataclean"
-          },
-          {
-            "source": "numpy",
-            "target": "shredx"
           },
           {
             "source": "numpy",
@@ -35082,18 +35006,6 @@
           {
             "source": "odil",
             "target": "dicomifier"
-          },
-          {
-            "source": "odm2api",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "odm2api",
-            "target": "wofpy"
-          },
-          {
-            "source": "odm2api",
-            "target": "yodatools"
           },
           {
             "source": "odrpack",
@@ -37153,10 +37065,6 @@
           },
           {
             "source": "pandas",
-            "target": "odm2api"
-          },
-          {
-            "source": "pandas",
             "target": "openfast"
           },
           {
@@ -37970,6 +37878,10 @@
           {
             "source": "pandas",
             "target": "wntr"
+          },
+          {
+            "source": "pandas",
+            "target": "wofpy"
           },
           {
             "source": "pandas",
@@ -40580,10 +40492,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "psfex",
-            "target": "shredx"
-          },
-          {
             "source": "psfgen",
             "target": "conda-forge-pinning"
           },
@@ -42349,10 +42257,6 @@
           },
           {
             "source": "psycopg2",
-            "target": "odm2api"
-          },
-          {
-            "source": "psycopg2",
             "target": "pandas-plink"
           },
           {
@@ -42378,6 +42282,14 @@
           {
             "source": "psycopg2",
             "target": "tvb-framework"
+          },
+          {
+            "source": "psycopg2",
+            "target": "wofpy"
+          },
+          {
+            "source": "psycopg2",
+            "target": "yodatools"
           },
           {
             "source": "psyplot-gui",
@@ -44304,10 +44216,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pydensecrf",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pydivert",
             "target": "conda-forge-pinning"
           },
@@ -45232,10 +45140,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pymesh2",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pymeshfix",
             "target": "conda-forge-pinning"
           },
@@ -46105,10 +46009,6 @@
           },
           {
             "source": "pyodbc",
-            "target": "odm2api"
-          },
-          {
-            "source": "pyodbc",
             "target": "pandas-plink"
           },
           {
@@ -46122,6 +46022,10 @@
           {
             "source": "pyodbc",
             "target": "wofpy"
+          },
+          {
+            "source": "pyodbc",
+            "target": "yodatools"
           },
           {
             "source": "pyodeint",
@@ -56585,10 +56489,6 @@
           },
           {
             "source": "scipy",
-            "target": "mof"
-          },
-          {
-            "source": "scipy",
             "target": "molsimplify"
           },
           {
@@ -57262,10 +57162,6 @@
           {
             "source": "scipy",
             "target": "pymem3dg"
-          },
-          {
-            "source": "scipy",
-            "target": "pymesh2"
           },
           {
             "source": "scipy",
@@ -58529,15 +58425,7 @@
           },
           {
             "source": "sep",
-            "target": "mof"
-          },
-          {
-            "source": "sep",
             "target": "pyemir"
-          },
-          {
-            "source": "sep",
-            "target": "shredx"
           },
           {
             "source": "setproctitle",
@@ -58841,10 +58729,6 @@
           },
           {
             "source": "shapely",
-            "target": "odm2api"
-          },
-          {
-            "source": "shapely",
             "target": "oq-engine"
           },
           {
@@ -58969,7 +58853,15 @@
           },
           {
             "source": "shapely",
+            "target": "wofpy"
+          },
+          {
+            "source": "shapely",
             "target": "word-image"
+          },
+          {
+            "source": "shapely",
+            "target": "yodatools"
           },
           {
             "source": "shap",
@@ -59009,10 +58901,6 @@
           },
           {
             "source": "shortcutter",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shredx",
             "target": "conda-forge-pinning"
           },
           {
@@ -60113,10 +60001,6 @@
           },
           {
             "source": "sqlalchemy",
-            "target": "odm2api"
-          },
-          {
-            "source": "sqlalchemy",
             "target": "oso"
           },
           {
@@ -60182,6 +60066,10 @@
           {
             "source": "sqlalchemy",
             "target": "xraylarch"
+          },
+          {
+            "source": "sqlalchemy",
+            "target": "yodatools"
           },
           {
             "source": "sqlalchemy",
@@ -76945,12 +76833,6 @@
             }
           },
           {
-            "id": "mof",
-            "payload": {
-              "__lazy_json__": "node_attrs/mof.json"
-            }
-          },
-          {
             "id": "moka-py",
             "payload": {
               "__lazy_json__": "node_attrs/moka-py.json"
@@ -77896,12 +77778,6 @@
             "id": "odil",
             "payload": {
               "__lazy_json__": "node_attrs/odil.json"
-            }
-          },
-          {
-            "id": "odm2api",
-            "payload": {
-              "__lazy_json__": "node_attrs/odm2api.json"
             }
           },
           {
@@ -80107,12 +79983,6 @@
             }
           },
           {
-            "id": "pydensecrf",
-            "payload": {
-              "__lazy_json__": "node_attrs/pydensecrf.json"
-            }
-          },
-          {
             "id": "pydivert",
             "payload": {
               "__lazy_json__": "node_attrs/pydivert.json"
@@ -80944,12 +80814,6 @@
             "id": "pymeos-cffi",
             "payload": {
               "__lazy_json__": "node_attrs/pymeos-cffi.json"
-            }
-          },
-          {
-            "id": "pymesh2",
-            "payload": {
-              "__lazy_json__": "node_attrs/pymesh2.json"
             }
           },
           {
@@ -84172,12 +84036,6 @@
             "id": "shortcutter",
             "payload": {
               "__lazy_json__": "node_attrs/shortcutter.json"
-            }
-          },
-          {
-            "id": "shredx",
-            "payload": {
-              "__lazy_json__": "node_attrs/shredx.json"
             }
           },
           {
