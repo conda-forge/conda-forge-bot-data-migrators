@@ -3889,10 +3889,6 @@
           },
           {
             "source": "bash",
-            "target": "clhpp"
-          },
-          {
-            "source": "bash",
             "target": "cling"
           },
           {
@@ -16428,18 +16424,6 @@
             "target": "remage"
           },
           {
-            "source": "clhpp",
-            "target": "clpeak"
-          },
-          {
-            "source": "clhpp",
-            "target": "openvino"
-          },
-          {
-            "source": "clhpp",
-            "target": "pocl"
-          },
-          {
             "source": "cli11",
             "target": "dinrail"
           },
@@ -16830,10 +16814,6 @@
           {
             "source": "cmake",
             "target": "clhep"
-          },
-          {
-            "source": "cmake",
-            "target": "clhpp"
           },
           {
             "source": "cmake",
@@ -35821,10 +35801,6 @@
           },
           {
             "source": "khronos-opencl-icd-loader",
-            "target": "clhpp"
-          },
-          {
-            "source": "khronos-opencl-icd-loader",
             "target": "intel-compiler-repack"
           },
           {
@@ -42266,10 +42242,6 @@
           {
             "source": "libtool",
             "target": "clhep"
-          },
-          {
-            "source": "libtool",
-            "target": "clhpp"
           },
           {
             "source": "libtool",
@@ -59538,10 +59510,6 @@
           {
             "source": "ocl-icd-system",
             "target": "pyvkfft"
-          },
-          {
-            "source": "ocl-icd",
-            "target": "clhpp"
           },
           {
             "source": "ocl-icd",
@@ -107646,12 +107614,6 @@
             "id": "clhep",
             "payload": {
               "__lazy_json__": "node_attrs/clhep.json"
-            }
-          },
-          {
-            "id": "clhpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/clhpp.json"
             }
           },
           {
