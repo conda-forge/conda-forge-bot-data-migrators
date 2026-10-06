@@ -61,12 +61,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/neo4j-python-driver-rust-ext.json"
             }
-          },
-          {
-            "id": "openvdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvdb.json"
-            }
           }
         ]
       }
@@ -5444,10 +5438,6 @@
           {
             "source": "boost",
             "target": "opencamlib"
-          },
-          {
-            "source": "boost",
-            "target": "openvdb"
           },
           {
             "source": "boost",
@@ -31659,10 +31649,6 @@
           },
           {
             "source": "numpy",
-            "target": "openvdb"
-          },
-          {
-            "source": "numpy",
             "target": "openvino"
           },
           {
@@ -35832,10 +35818,6 @@
           {
             "source": "openusd",
             "target": "usd-exchange"
-          },
-          {
-            "source": "openvdb",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "openvino-tokenizers",
@@ -53214,10 +53196,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "rsloop",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "rt1",
             "target": "conda-forge-pinning"
           },
@@ -61320,10 +61298,6 @@
           {
             "source": "tbb",
             "target": "openusd"
-          },
-          {
-            "source": "tbb",
-            "target": "openvdb"
           },
           {
             "source": "tbb",
@@ -78167,12 +78141,6 @@
             }
           },
           {
-            "id": "openvdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvdb.json"
-            }
-          },
-          {
             "id": "openvino",
             "payload": {
               "__lazy_json__": "node_attrs/openvino.json"
@@ -83342,12 +83310,6 @@
             "id": "rsgislib",
             "payload": {
               "__lazy_json__": "node_attrs/rsgislib.json"
-            }
-          },
-          {
-            "id": "rsloop",
-            "payload": {
-              "__lazy_json__": "node_attrs/rsloop.json"
             }
           },
           {
