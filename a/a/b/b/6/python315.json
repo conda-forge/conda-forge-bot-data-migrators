@@ -55,7 +55,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "tsinfer",
+            "payload": {
+              "__lazy_json__": "node_attrs/tsinfer.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -47873,30 +47880,6 @@
             "target": "sbank"
           },
           {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "hangar"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "tsinfer"
-          },
-          {
             "source": "python-lzf",
             "target": "conda-forge-pinning"
           },
@@ -81883,12 +81866,6 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
