@@ -4850,10 +4850,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "bitsandbytes",
-            "target": "openllm"
-          },
-          {
             "source": "bitshuffle",
             "target": "conda-forge-pinning"
           },
@@ -10978,10 +10974,6 @@
             "target": "nvmath"
           },
           {
-            "source": "cuda-python",
-            "target": "openllm"
-          },
-          {
             "source": "cuda_histogram",
             "target": "conda-forge-pinning"
           },
@@ -12788,6 +12780,10 @@
           {
             "source": "dulwich",
             "target": "opening-hours-py"
+          },
+          {
+            "source": "dulwich",
+            "target": "openllm-playground"
           },
           {
             "source": "dulwich",
@@ -18187,7 +18183,7 @@
           },
           {
             "source": "httptools",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "httptools",
@@ -18956,6 +18952,10 @@
           {
             "source": "jiter",
             "target": "marvin"
+          },
+          {
+            "source": "jiter",
+            "target": "openllm-playground"
           },
           {
             "source": "jiter",
@@ -31543,7 +31543,7 @@
           },
           {
             "source": "numpy",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "numpy",
@@ -35394,14 +35394,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "openllm",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "openllm",
-            "target": "openllm-playground"
-          },
-          {
             "source": "openmc",
             "target": "conda-forge-pinning"
           },
@@ -35964,10 +35956,6 @@
           {
             "source": "orjson",
             "target": "nomad-camels"
-          },
-          {
-            "source": "orjson",
-            "target": "openllm"
           },
           {
             "source": "orjson",
@@ -40183,10 +40171,6 @@
           },
           {
             "source": "protobuf",
-            "target": "openllm"
-          },
-          {
-            "source": "protobuf",
             "target": "or-tools"
           },
           {
@@ -41328,10 +41312,6 @@
           {
             "source": "psutil",
             "target": "opendal"
-          },
-          {
-            "source": "psutil",
-            "target": "openllm"
           },
           {
             "source": "psutil",
@@ -43852,10 +43832,6 @@
           {
             "source": "pydantic-core",
             "target": "opencosmo"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "openllm"
           },
           {
             "source": "pydantic-core",
@@ -49095,10 +49071,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "openllm"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "openmm-torch"
           },
           {
@@ -50951,10 +50923,6 @@
           },
           {
             "source": "pyzmq",
-            "target": "openllm"
-          },
-          {
-            "source": "pyzmq",
             "target": "openllm-playground"
           },
           {
@@ -52028,10 +51996,6 @@
           {
             "source": "regex",
             "target": "mmcv-recipe"
-          },
-          {
-            "source": "regex",
-            "target": "openllm"
           },
           {
             "source": "regex",
@@ -53696,10 +53660,6 @@
           {
             "source": "safetensors",
             "target": "mamba-ssm"
-          },
-          {
-            "source": "safetensors",
-            "target": "openllm"
           },
           {
             "source": "safetensors",
@@ -56587,10 +56547,6 @@
           },
           {
             "source": "scipy",
-            "target": "openllm"
-          },
-          {
-            "source": "scipy",
             "target": "openmc"
           },
           {
@@ -58264,10 +58220,6 @@
           {
             "source": "sentencepiece",
             "target": "neuralcoref"
-          },
-          {
-            "source": "sentencepiece",
-            "target": "openllm"
           },
           {
             "source": "sentencepiece",
@@ -62107,10 +62059,6 @@
           },
           {
             "source": "tokenizers",
-            "target": "openllm"
-          },
-          {
-            "source": "tokenizers",
             "target": "outlines-core"
           },
           {
@@ -62804,10 +62752,6 @@
           {
             "source": "tornado",
             "target": "nutpie"
-          },
-          {
-            "source": "tornado",
-            "target": "openllm"
           },
           {
             "source": "tornado",
@@ -64403,7 +64347,7 @@
           },
           {
             "source": "uvloop",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "uvloop",
@@ -65087,7 +65031,7 @@
           },
           {
             "source": "watchfiles",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "watchfiles",
@@ -65823,10 +65767,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "openllm"
-          },
-          {
-            "source": "wcwidth",
             "target": "openllm-playground"
           },
           {
@@ -66551,7 +66491,7 @@
           },
           {
             "source": "websockets",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "websockets",
@@ -66975,7 +66915,7 @@
           },
           {
             "source": "wrapt",
-            "target": "openllm"
+            "target": "openllm-playground"
           },
           {
             "source": "wrapt",
@@ -77798,12 +77738,6 @@
             "id": "openlineage-sql",
             "payload": {
               "__lazy_json__": "node_attrs/openlineage-sql.json"
-            }
-          },
-          {
-            "id": "openllm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openllm.json"
             }
           },
           {
