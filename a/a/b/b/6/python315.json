@@ -75,6 +75,12 @@
             }
           },
           {
+            "id": "flux-sched",
+            "payload": {
+              "__lazy_json__": "node_attrs/flux-sched.json"
+            }
+          },
+          {
             "id": "geohexviz",
             "payload": {
               "__lazy_json__": "node_attrs/geohexviz.json"
@@ -2722,10 +2728,6 @@
           {
             "source": "backports.zstd",
             "target": "fludashboard"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "flux-core"
           },
           {
             "source": "backports.zstd",
@@ -6493,10 +6495,6 @@
           },
           {
             "source": "brotli",
-            "target": "flux-core"
-          },
-          {
-            "source": "brotli",
             "target": "fps-terminals"
           },
           {
@@ -8866,10 +8864,6 @@
           {
             "source": "cffi",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "cffi",
-            "target": "flux-core"
           },
           {
             "source": "cffi",
@@ -14250,14 +14244,6 @@
           {
             "source": "fluidtop",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "flux-core",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "flux-core",
-            "target": "flux-sched"
           },
           {
             "source": "flux-sched",
@@ -52613,10 +52599,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "flux-core"
-          },
-          {
-            "source": "rpds-py",
             "target": "flux-sched"
           },
           {
@@ -73040,12 +73022,6 @@
             "id": "fluidtop",
             "payload": {
               "__lazy_json__": "node_attrs/fluidtop.json"
-            }
-          },
-          {
-            "id": "flux-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/flux-core.json"
             }
           },
           {
