@@ -4029,10 +4029,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "wofpy"
-          },
-          {
-            "source": "backports.zstd",
             "target": "wordllama"
           },
           {
@@ -7814,10 +7810,6 @@
           {
             "source": "brotli",
             "target": "wntr"
-          },
-          {
-            "source": "brotli",
-            "target": "wofpy"
           },
           {
             "source": "brotli",
@@ -21242,10 +21234,6 @@
           {
             "source": "lxml",
             "target": "votca"
-          },
-          {
-            "source": "lxml",
-            "target": "wofpy"
           },
           {
             "source": "lxml",
@@ -34849,10 +34837,6 @@
           },
           {
             "source": "numpy",
-            "target": "yodatools"
-          },
-          {
-            "source": "numpy",
             "target": "yt"
           },
           {
@@ -35738,10 +35722,6 @@
           {
             "source": "openpyxl",
             "target": "yggdrasil"
-          },
-          {
-            "source": "openpyxl",
-            "target": "yodatools"
           },
           {
             "source": "openqcm",
@@ -37897,10 +37877,6 @@
           },
           {
             "source": "pandas",
-            "target": "wofpy"
-          },
-          {
-            "source": "pandas",
             "target": "wrf-python"
           },
           {
@@ -37926,10 +37902,6 @@
           {
             "source": "pandas",
             "target": "ylearn"
-          },
-          {
-            "source": "pandas",
-            "target": "yodatools"
           },
           {
             "source": "pandas",
@@ -42300,14 +42272,6 @@
             "target": "tvb-framework"
           },
           {
-            "source": "psycopg2",
-            "target": "wofpy"
-          },
-          {
-            "source": "psycopg2",
-            "target": "yodatools"
-          },
-          {
             "source": "psyplot-gui",
             "target": "conda-forge-pinning"
           },
@@ -46034,14 +45998,6 @@
           {
             "source": "pyodbc",
             "target": "pytsql"
-          },
-          {
-            "source": "pyodbc",
-            "target": "wofpy"
-          },
-          {
-            "source": "pyodbc",
-            "target": "yodatools"
           },
           {
             "source": "pyodeint",
@@ -58869,15 +58825,7 @@
           },
           {
             "source": "shapely",
-            "target": "wofpy"
-          },
-          {
-            "source": "shapely",
             "target": "word-image"
-          },
-          {
-            "source": "shapely",
-            "target": "yodatools"
           },
           {
             "source": "shap",
@@ -60077,15 +60025,7 @@
           },
           {
             "source": "sqlalchemy",
-            "target": "wofpy"
-          },
-          {
-            "source": "sqlalchemy",
             "target": "xraylarch"
-          },
-          {
-            "source": "sqlalchemy",
-            "target": "yodatools"
           },
           {
             "source": "sqlalchemy",
@@ -64584,10 +64524,6 @@
             "target": "monitor-server-api"
           },
           {
-            "source": "uwsgi",
-            "target": "wofpy"
-          },
-          {
             "source": "uwsift",
             "target": "conda-forge-pinning"
           },
@@ -66844,10 +66780,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "wofpy",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "word-image",
             "target": "conda-forge-pinning"
           },
@@ -67404,10 +67336,6 @@
             "target": "xraylarch"
           },
           {
-            "source": "wxpython",
-            "target": "yodatools"
-          },
-          {
             "source": "xaitk-jatic",
             "target": "conda-forge-pinning"
           },
@@ -67902,10 +67830,6 @@
           {
             "source": "yoda",
             "target": "rivet"
-          },
-          {
-            "source": "yodatools",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "youtokentome",
@@ -86633,12 +86557,6 @@
             }
           },
           {
-            "id": "wofpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/wofpy.json"
-            }
-          },
-          {
             "id": "word-image",
             "payload": {
               "__lazy_json__": "node_attrs/word-image.json"
@@ -86978,12 +86896,6 @@
             "id": "yoda",
             "payload": {
               "__lazy_json__": "node_attrs/yoda.json"
-            }
-          },
-          {
-            "id": "yodatools",
-            "payload": {
-              "__lazy_json__": "node_attrs/yodatools.json"
             }
           },
           {
