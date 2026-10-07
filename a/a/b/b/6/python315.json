@@ -57,15 +57,75 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "cw-eval",
+            "payload": {
+              "__lazy_json__": "node_attrs/cw-eval.json"
+            }
+          },
+          {
+            "id": "eo-learn-geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/eo-learn-geometry.json"
+            }
+          },
+          {
+            "id": "eodie",
+            "payload": {
+              "__lazy_json__": "node_attrs/eodie.json"
+            }
+          },
+          {
+            "id": "geohexviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/geohexviz.json"
+            }
+          },
+          {
+            "id": "gridmarthe",
+            "payload": {
+              "__lazy_json__": "node_attrs/gridmarthe.json"
+            }
+          },
+          {
+            "id": "nctoolkit",
+            "payload": {
+              "__lazy_json__": "node_attrs/nctoolkit.json"
+            }
+          },
+          {
+            "id": "nrel.routee.compass",
+            "payload": {
+              "__lazy_json__": "node_attrs/nrel.routee.compass.json"
+            }
+          },
+          {
+            "id": "pandarm",
+            "payload": {
+              "__lazy_json__": "node_attrs/pandarm.json"
+            }
+          },
+          {
             "id": "pygmo_plugins_nonfree",
             "payload": {
               "__lazy_json__": "node_attrs/pygmo_plugins_nonfree.json"
             }
           },
           {
+            "id": "pylandstats",
+            "payload": {
+              "__lazy_json__": "node_attrs/pylandstats.json"
+            }
+          },
+          {
             "id": "pyqt",
             "payload": {
               "__lazy_json__": "node_attrs/pyqt.json"
+            }
+          },
+          {
+            "id": "wntr",
+            "payload": {
+              "__lazy_json__": "node_attrs/wntr.json"
             }
           }
         ]
@@ -44000,6 +44060,10 @@
           {
             "source": "pydantic-core",
             "target": "transformer-engine"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "tvb-framework"
           },
           {
             "source": "pydantic-core",
