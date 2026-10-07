@@ -98,6 +98,14 @@
         },
         "links": [
           {
+            "source": "flux-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flux-core",
+            "target": "flux-sched"
+          },
+          {
             "source": "flux-sched",
             "target": "conda-forge-pinning"
           },
@@ -147,7 +155,7 @@
           },
           {
             "source": "mpich",
-            "target": "flux-sched"
+            "target": "flux-core"
           },
           {
             "source": "mpich",
@@ -171,7 +179,7 @@
           },
           {
             "source": "openmpi",
-            "target": "flux-sched"
+            "target": "flux-core"
           },
           {
             "source": "openmpi",
@@ -272,6 +280,12 @@
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "flux-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/flux-core.json"
             }
           },
           {
