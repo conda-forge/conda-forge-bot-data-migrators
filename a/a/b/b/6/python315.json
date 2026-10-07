@@ -57,6 +57,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "bitstruct",
+            "payload": {
+              "__lazy_json__": "node_attrs/bitstruct.json"
+            }
+          },
+          {
             "id": "openvdb",
             "payload": {
               "__lazy_json__": "node_attrs/openvdb.json"
@@ -1658,10 +1664,6 @@
           {
             "source": "astropy",
             "target": "pyregion"
-          },
-          {
-            "source": "astropy",
-            "target": "pyringgw"
           },
           {
             "source": "astropy",
@@ -3458,10 +3460,6 @@
           {
             "source": "backports.zstd",
             "target": "pyretis"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pyringgw"
           },
           {
             "source": "backports.zstd",
@@ -7249,10 +7247,6 @@
           },
           {
             "source": "brotli",
-            "target": "pyringgw"
-          },
-          {
-            "source": "brotli",
             "target": "pyrosm"
           },
           {
@@ -9253,10 +9247,6 @@
           },
           {
             "source": "cffi",
-            "target": "pyringgw"
-          },
-          {
-            "source": "cffi",
             "target": "pyroscope-io"
           },
           {
@@ -10421,10 +10411,6 @@
           },
           {
             "source": "contourpy",
-            "target": "pyringgw"
-          },
-          {
-            "source": "contourpy",
             "target": "pyrte_rrtmgp"
           },
           {
@@ -10626,10 +10612,6 @@
           {
             "source": "cpnest",
             "target": "lalinference"
-          },
-          {
-            "source": "cpnest",
-            "target": "pyringgw"
           },
           {
             "source": "cppbktree",
@@ -17185,10 +17167,6 @@
           },
           {
             "source": "h5py",
-            "target": "pyringgw"
-          },
-          {
-            "source": "h5py",
             "target": "pyrost"
           },
           {
@@ -18061,10 +18039,6 @@
           },
           {
             "source": "htgettoken",
-            "target": "pyringgw"
-          },
-          {
-            "source": "htgettoken",
             "target": "rapid-pe"
           },
           {
@@ -18418,10 +18392,6 @@
           {
             "source": "igwn-segments",
             "target": "pygwb"
-          },
-          {
-            "source": "igwn-segments",
-            "target": "pyringgw"
           },
           {
             "source": "igwn-segments",
@@ -19257,10 +19227,6 @@
           },
           {
             "source": "lalapps",
-            "target": "pyringgw"
-          },
-          {
-            "source": "lalapps",
             "target": "rapid-pe"
           },
           {
@@ -19310,10 +19276,6 @@
           {
             "source": "lalburst",
             "target": "pygwb"
-          },
-          {
-            "source": "lalburst",
-            "target": "pyringgw"
           },
           {
             "source": "lalburst",
@@ -19374,10 +19336,6 @@
           {
             "source": "lalframe",
             "target": "pygwb"
-          },
-          {
-            "source": "lalframe",
-            "target": "pyringgw"
           },
           {
             "source": "lalframe",
@@ -19457,10 +19415,6 @@
           },
           {
             "source": "lalinference",
-            "target": "pyringgw"
-          },
-          {
-            "source": "lalinference",
             "target": "rapid-pe"
           },
           {
@@ -19506,10 +19460,6 @@
           {
             "source": "lalinspiral",
             "target": "pygwb"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "pyringgw"
           },
           {
             "source": "lalinspiral",
@@ -19613,10 +19563,6 @@
           },
           {
             "source": "lalmetaio",
-            "target": "pyringgw"
-          },
-          {
-            "source": "lalmetaio",
             "target": "rapid-pe"
           },
           {
@@ -19645,10 +19591,6 @@
           },
           {
             "source": "lalpulsar",
-            "target": "pyringgw"
-          },
-          {
-            "source": "lalpulsar",
             "target": "rapid-pe"
           },
           {
@@ -19658,10 +19600,6 @@
           {
             "source": "lal",
             "target": "pygwb"
-          },
-          {
-            "source": "lal",
-            "target": "pyringgw"
           },
           {
             "source": "lal",
@@ -19746,10 +19684,6 @@
           {
             "source": "lalsimulation",
             "target": "pygwb"
-          },
-          {
-            "source": "lalsimulation",
-            "target": "pyringgw"
           },
           {
             "source": "lalsimulation",
@@ -23130,10 +23064,6 @@
           {
             "source": "matplotlib",
             "target": "pyribs"
-          },
-          {
-            "source": "matplotlib",
-            "target": "pyringgw"
           },
           {
             "source": "matplotlib",
@@ -32905,10 +32835,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyringgw"
-          },
-          {
-            "source": "numpy",
             "target": "pyrmsd"
           },
           {
@@ -37365,10 +37291,6 @@
           },
           {
             "source": "pandas",
-            "target": "pyringgw"
-          },
-          {
-            "source": "pandas",
             "target": "pyrosm"
           },
           {
@@ -39106,10 +39028,6 @@
           {
             "source": "pillow",
             "target": "pyresample"
-          },
-          {
-            "source": "pillow",
-            "target": "pyringgw"
           },
           {
             "source": "pillow",
@@ -46880,10 +46798,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyringgw",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pyrmsd",
             "target": "conda-forge-pinning"
           },
@@ -47801,10 +47715,6 @@
           },
           {
             "source": "python-gssapi",
-            "target": "pyringgw"
-          },
-          {
-            "source": "python-gssapi",
             "target": "rapid-pe"
           },
           {
@@ -47974,10 +47884,6 @@
           {
             "source": "python-ligo-lw",
             "target": "pycbc"
-          },
-          {
-            "source": "python-ligo-lw",
-            "target": "pyringgw"
           },
           {
             "source": "python-ligo-lw",
@@ -52118,10 +52024,6 @@
           {
             "source": "regex",
             "target": "pygwb"
-          },
-          {
-            "source": "regex",
-            "target": "pyringgw"
           },
           {
             "source": "regex",
@@ -57217,10 +57119,6 @@
           },
           {
             "source": "scipy",
-            "target": "pyringgw"
-          },
-          {
-            "source": "scipy",
             "target": "pyroomacoustics"
           },
           {
@@ -60349,10 +60247,6 @@
           },
           {
             "source": "statsmodels",
-            "target": "pyringgw"
-          },
-          {
-            "source": "statsmodels",
             "target": "pywim"
           },
           {
@@ -62982,10 +62876,6 @@
           {
             "source": "tornado",
             "target": "pyresample"
-          },
-          {
-            "source": "tornado",
-            "target": "pyringgw"
           },
           {
             "source": "tornado",
@@ -81406,12 +81296,6 @@
             "id": "pyright",
             "payload": {
               "__lazy_json__": "node_attrs/pyright.json"
-            }
-          },
-          {
-            "id": "pyringgw",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyringgw.json"
             }
           },
           {
