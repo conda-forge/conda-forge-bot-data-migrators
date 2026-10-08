@@ -1,0 +1,415 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for azure_core_cpp 1.16.4 and latest storage packages\n  kind: version\n  migration_number: 1\n  exclude_pinned_pkgs: false\nazure_core_cpp:\n- 1.16.4\nazure_storage_common_cpp:\n- 12.15.0\nazure_storage_blobs_cpp:\n- 12.19.0\nazure_storage_files_datalake_cpp:\n- 12.17.0\nazure_storage_files_shares_cpp:\n- 12.19.0\nazure_storage_queues_cpp:\n- 12.8.0\nmigrator_ts: 1791308733\n",
+    "azure_core_cpp1164"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for azure_core_cpp 1.16.4 and latest storage packages",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "azure-identity-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-common-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
+            }
+          }
+        ]
+      }
+    },
+    "exclude_pinned_pkgs": false,
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "arcticdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "khiops-driver-azure"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "khiops-driver-azure"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-blobs-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-files-shares-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-queues-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-files-shares-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "azure-storage-files-shares-cpp",
+            "target": "khiops-driver-azure"
+          },
+          {
+            "source": "azure-storage-queues-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "khiops-driver-azure",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tiledb",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "azure-identity-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-blobs-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-blobs-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-common-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-files-datalake-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-files-shares-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-files-shares-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-queues-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-queues-cpp.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "khiops-driver-azure",
+            "payload": {
+              "__lazy_json__": "node_attrs/khiops-driver-azure.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "azure-core-cpp",
+        "azure-storage-blobs-cpp",
+        "azure-storage-common-cpp",
+        "azure-storage-files-datalake-cpp",
+        "azure-storage-files-shares-cpp",
+        "azure-storage-queues-cpp"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CombineV1ConditionsMigrator",
+        "kwargs": {},
+        "name": "combinev1conditionsmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "azure_core_cpp1164"
+}
