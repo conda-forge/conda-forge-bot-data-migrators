@@ -63,15 +63,15 @@
             }
           },
           {
-            "id": "coda",
-            "payload": {
-              "__lazy_json__": "node_attrs/coda.json"
-            }
-          },
-          {
             "id": "fabio",
             "payload": {
               "__lazy_json__": "node_attrs/fabio.json"
+            }
+          },
+          {
+            "id": "harp",
+            "payload": {
+              "__lazy_json__": "node_attrs/harp.json"
             }
           }
         ]
@@ -8589,10 +8589,6 @@
           },
           {
             "source": "cffi",
-            "target": "coda"
-          },
-          {
-            "source": "cffi",
             "target": "coincurve"
           },
           {
@@ -9501,6 +9497,10 @@
           },
           {
             "source": "cffi",
+            "target": "visan"
+          },
+          {
+            "source": "cffi",
             "target": "vllm"
           },
           {
@@ -9934,18 +9934,6 @@
           {
             "source": "cocotb",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coda",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coda",
-            "target": "harp"
-          },
-          {
-            "source": "coda",
-            "target": "visan"
           },
           {
             "source": "code-aster",
@@ -28470,10 +28458,6 @@
           {
             "source": "numpy",
             "target": "coal"
-          },
-          {
-            "source": "numpy",
-            "target": "coda"
           },
           {
             "source": "numpy",
@@ -69892,12 +69876,6 @@
             "id": "cocotb",
             "payload": {
               "__lazy_json__": "node_attrs/cocotb.json"
-            }
-          },
-          {
-            "id": "coda",
-            "payload": {
-              "__lazy_json__": "node_attrs/coda.json"
             }
           },
           {
