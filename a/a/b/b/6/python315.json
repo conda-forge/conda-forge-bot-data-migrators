@@ -2049,10 +2049,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "azure-storage-common",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "azure-storage",
             "target": "conda-forge-pinning"
           },
@@ -2235,10 +2231,6 @@
           {
             "source": "backports.zstd",
             "target": "azure-storage"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "azure-storage-common"
           },
           {
             "source": "backports.zstd",
@@ -5986,10 +5978,6 @@
           },
           {
             "source": "brotli",
-            "target": "azure-storage-common"
-          },
-          {
-            "source": "brotli",
             "target": "based58"
           },
           {
@@ -8491,10 +8479,6 @@
           {
             "source": "cffi",
             "target": "autogluon.vision"
-          },
-          {
-            "source": "cffi",
-            "target": "azure-storage-common"
           },
           {
             "source": "cffi",
@@ -68699,12 +68683,6 @@
             "id": "azure-storage",
             "payload": {
               "__lazy_json__": "node_attrs/azure-storage.json"
-            }
-          },
-          {
-            "id": "azure-storage-common",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-common.json"
             }
           },
           {
