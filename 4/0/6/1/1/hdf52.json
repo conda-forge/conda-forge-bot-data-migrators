@@ -186,18 +186,6 @@
             "target": "paraview"
           },
           {
-            "source": "coda",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coda",
-            "target": "harp"
-          },
-          {
-            "source": "coda",
-            "target": "qdoas"
-          },
-          {
             "source": "code-aster",
             "target": "conda-forge-pinning"
           },
@@ -1450,12 +1438,6 @@
             "id": "cgns",
             "payload": {
               "__lazy_json__": "node_attrs/cgns.json"
-            }
-          },
-          {
-            "id": "coda",
-            "payload": {
-              "__lazy_json__": "node_attrs/coda.json"
             }
           },
           {
