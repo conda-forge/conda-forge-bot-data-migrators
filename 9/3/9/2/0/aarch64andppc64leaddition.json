@@ -22669,10 +22669,6 @@
           },
           {
             "source": "cuda-nvml-dev",
-            "target": "cuquantum"
-          },
-          {
-            "source": "cuda-nvml-dev",
             "target": "jaxlib"
           },
           {
@@ -37881,6 +37877,10 @@
           },
           {
             "source": "libcusolvermp",
+            "target": "cuquantum"
+          },
+          {
+            "source": "libcusolvermp",
             "target": "nvmath"
           },
           {
@@ -37942,6 +37942,10 @@
           {
             "source": "libcusparse",
             "target": "cupy"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cuquantum"
           },
           {
             "source": "libcusparse",
