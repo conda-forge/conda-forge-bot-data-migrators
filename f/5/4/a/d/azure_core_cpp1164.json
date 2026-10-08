@@ -53,20 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "azure-identity-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
-            }
-          },
-          {
-            "id": "azure-storage-common-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude_pinned_pkgs": false,
@@ -404,7 +391,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
