@@ -55,14 +55,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "flux-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/flux-core.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -35753,10 +35746,6 @@
           },
           {
             "source": "orjson",
-            "target": "cellpy"
-          },
-          {
-            "source": "orjson",
             "target": "checkov"
           },
           {
@@ -35778,10 +35767,6 @@
           {
             "source": "orjson",
             "target": "doebase"
-          },
-          {
-            "source": "orjson",
-            "target": "geohexviz"
           },
           {
             "source": "orjson",
