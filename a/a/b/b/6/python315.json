@@ -57,9 +57,27 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "casacore",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacore.json"
+            }
+          },
+          {
+            "id": "coda",
+            "payload": {
+              "__lazy_json__": "node_attrs/coda.json"
+            }
+          },
+          {
             "id": "fabio",
             "payload": {
               "__lazy_json__": "node_attrs/fabio.json"
+            }
+          },
+          {
+            "id": "openpmd-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmd-api.json"
             }
           }
         ]
