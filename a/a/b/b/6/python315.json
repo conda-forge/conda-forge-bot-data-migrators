@@ -57,18 +57,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "adios2",
-            "payload": {
-              "__lazy_json__": "node_attrs/adios2.json"
-            }
-          },
-          {
-            "id": "coda",
-            "payload": {
-              "__lazy_json__": "node_attrs/coda.json"
-            }
-          },
-          {
             "id": "fabio",
             "payload": {
               "__lazy_json__": "node_attrs/fabio.json"
@@ -26922,6 +26910,10 @@
           {
             "source": "numba",
             "target": "econml"
+          },
+          {
+            "source": "numba",
+            "target": "edrixs"
           },
           {
             "source": "numba",
