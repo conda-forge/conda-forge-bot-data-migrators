@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "scinumtools3",
+            "payload": {
+              "__lazy_json__": "node_attrs/scinumtools3.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -1190,6 +1197,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "scinumtools3",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "sfincs",
             "target": "conda-forge-pinning"
           },
@@ -2140,6 +2151,12 @@
             "id": "scilab",
             "payload": {
               "__lazy_json__": "node_attrs/scilab.json"
+            }
+          },
+          {
+            "id": "scinumtools3",
+            "payload": {
+              "__lazy_json__": "node_attrs/scinumtools3.json"
             }
           },
           {
