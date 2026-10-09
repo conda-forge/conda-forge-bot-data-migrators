@@ -55,7 +55,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "hyperion",
+            "payload": {
+              "__lazy_json__": "node_attrs/hyperion.json"
+            }
+          },
+          {
+            "id": "yt_astro_analysis",
+            "payload": {
+              "__lazy_json__": "node_attrs/yt_astro_analysis.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
