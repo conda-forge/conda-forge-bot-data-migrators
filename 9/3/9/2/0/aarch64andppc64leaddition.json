@@ -13021,10 +13021,6 @@
           },
           {
             "source": "brotli",
-            "target": "genomekit"
-          },
-          {
-            "source": "brotli",
             "target": "glum"
           },
           {
@@ -31693,10 +31689,6 @@
           },
           {
             "source": "google-crc32c",
-            "target": "genomekit"
-          },
-          {
-            "source": "google-crc32c",
             "target": "nutpie"
           },
           {
@@ -32482,10 +32474,6 @@
           {
             "source": "grpc-cpp",
             "target": "cpp-opentelemetry-sdk"
-          },
-          {
-            "source": "grpc-cpp",
-            "target": "genomekit"
           },
           {
             "source": "grpc-cpp",
@@ -57997,10 +57985,6 @@
           },
           {
             "source": "numpy",
-            "target": "genomekit"
-          },
-          {
-            "source": "numpy",
             "target": "gensim"
           },
           {
@@ -62617,6 +62601,10 @@
           },
           {
             "source": "patch",
+            "target": "allennlp"
+          },
+          {
+            "source": "patch",
             "target": "ambertools"
           },
           {
@@ -62682,10 +62670,6 @@
           {
             "source": "patch",
             "target": "python"
-          },
-          {
-            "source": "patch",
-            "target": "python-lmdb"
           },
           {
             "source": "patch",
@@ -67313,10 +67297,6 @@
           },
           {
             "source": "protobuf",
-            "target": "genomekit"
-          },
-          {
-            "source": "protobuf",
             "target": "gnss-sdr"
           },
           {
@@ -70512,10 +70492,6 @@
             "target": "pycbc"
           },
           {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
             "source": "python-rapidjson",
             "target": "pyrosm"
           },
@@ -71926,10 +71902,6 @@
           {
             "source": "python",
             "target": "gemmi"
-          },
-          {
-            "source": "python",
-            "target": "genomekit"
           },
           {
             "source": "python",
@@ -74174,10 +74146,6 @@
           {
             "source": "python",
             "target": "python-ligo-lw"
-          },
-          {
-            "source": "python",
-            "target": "python-lmdb"
           },
           {
             "source": "python",
@@ -95109,10 +95077,6 @@
           },
           {
             "source": "uv",
-            "target": "genomekit"
-          },
-          {
-            "source": "uv",
             "target": "glum"
           },
           {
@@ -102797,10 +102761,6 @@
           },
           {
             "source": "zlib",
-            "target": "genomekit"
-          },
-          {
-            "source": "zlib",
             "target": "geotiff"
           },
           {
@@ -108979,12 +108939,6 @@
             }
           },
           {
-            "id": "genomekit",
-            "payload": {
-              "__lazy_json__": "node_attrs/genomekit.json"
-            }
-          },
-          {
             "id": "genshi",
             "payload": {
               "__lazy_json__": "node_attrs/genshi.json"
@@ -115126,12 +115080,6 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
