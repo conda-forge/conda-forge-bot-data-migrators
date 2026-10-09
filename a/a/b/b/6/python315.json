@@ -67,6 +67,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/statmorph.json"
             }
+          },
+          {
+            "id": "dearpygui",
+            "payload": {
+              "__lazy_json__": "node_attrs/dearpygui.json"
+            }
           }
         ]
       }
@@ -11703,6 +11709,10 @@
           },
           {
             "source": "dealii",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dearpygui",
             "target": "conda-forge-pinning"
           },
           {
@@ -86698,6 +86708,12 @@
             "id": "nanogemm",
             "payload": {
               "__lazy_json__": "node_attrs/nanogemm.json"
+            }
+          },
+          {
+            "id": "dearpygui",
+            "payload": {
+              "__lazy_json__": "node_attrs/dearpygui.json"
             }
           }
         ]
