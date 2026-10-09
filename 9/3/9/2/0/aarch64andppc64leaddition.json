@@ -9085,6 +9085,10 @@
           },
           {
             "source": "bash",
+            "target": "ruff"
+          },
+          {
+            "source": "bash",
             "target": "runc"
           },
           {
@@ -14173,6 +14177,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "ruff"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "sage"
           },
           {
@@ -14786,6 +14794,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "rpy2"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "ruff"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -47150,6 +47162,10 @@
           {
             "source": "libtool",
             "target": "ruby"
+          },
+          {
+            "source": "libtool",
+            "target": "ruff"
           },
           {
             "source": "libtool",
@@ -118398,6 +118414,12 @@
             "id": "ruby",
             "payload": {
               "__lazy_json__": "node_attrs/ruby.json"
+            }
+          },
+          {
+            "id": "ruff",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruff.json"
             }
           },
           {
