@@ -55,7 +55,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "imexam",
+            "payload": {
+              "__lazy_json__": "node_attrs/imexam.json"
+            }
+          },
+          {
+            "id": "statmorph",
+            "payload": {
+              "__lazy_json__": "node_attrs/statmorph.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -5783,10 +5796,6 @@
           {
             "source": "bottleneck",
             "target": "orange3"
-          },
-          {
-            "source": "bottleneck",
-            "target": "photutils"
           },
           {
             "source": "bottleneck",
@@ -22658,10 +22667,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "photutils"
-          },
-          {
-            "source": "matplotlib",
             "target": "piff"
           },
           {
@@ -38750,10 +38755,6 @@
           },
           {
             "source": "pillow",
-            "target": "photutils"
-          },
-          {
-            "source": "pillow",
             "target": "pikepdf"
           },
           {
@@ -51374,10 +51375,6 @@
           },
           {
             "source": "rasterio",
-            "target": "photutils"
-          },
-          {
-            "source": "rasterio",
             "target": "polymer"
           },
           {
@@ -51947,10 +51944,6 @@
           {
             "source": "regions",
             "target": "mocpy"
-          },
-          {
-            "source": "regions",
-            "target": "photutils"
           },
           {
             "source": "regions",
@@ -58391,10 +58384,6 @@
           {
             "source": "shapely",
             "target": "pandas-plink"
-          },
-          {
-            "source": "shapely",
-            "target": "photutils"
           },
           {
             "source": "shapely",
