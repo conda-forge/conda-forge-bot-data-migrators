@@ -884,6 +884,10 @@
             "target": "krb5"
           },
           {
+            "source": "libedit",
+            "target": "python"
+          },
+          {
             "source": "libevent",
             "target": "openmpi"
           },
@@ -2430,10 +2434,6 @@
           {
             "source": "rdma-core",
             "target": "ucx-split"
-          },
-          {
-            "source": "readline",
-            "target": "python"
           },
           {
             "source": "readline",
