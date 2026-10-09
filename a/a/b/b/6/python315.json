@@ -57,9 +57,21 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "tsinfer",
+            "id": "casacore",
             "payload": {
-              "__lazy_json__": "node_attrs/tsinfer.json"
+              "__lazy_json__": "node_attrs/casacore.json"
+            }
+          },
+          {
+            "id": "harp",
+            "payload": {
+              "__lazy_json__": "node_attrs/harp.json"
+            }
+          },
+          {
+            "id": "openpmd-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmd-api.json"
             }
           }
         ]
@@ -2646,6 +2658,10 @@
           {
             "source": "backports.zstd",
             "target": "gemseo"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "genomekit"
           },
           {
             "source": "backports.zstd",
@@ -6389,6 +6405,10 @@
           },
           {
             "source": "brotli",
+            "target": "genomekit"
+          },
+          {
+            "source": "brotli",
             "target": "gensim"
           },
           {
@@ -8734,6 +8754,10 @@
           {
             "source": "cffi",
             "target": "gbs"
+          },
+          {
+            "source": "cffi",
+            "target": "genomekit"
           },
           {
             "source": "cffi",
@@ -14532,6 +14556,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "genomekit",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "genshi",
             "target": "checkov"
           },
@@ -15349,6 +15377,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "genomekit"
+          },
+          {
+            "source": "google-crc32c",
             "target": "gensim"
           },
           {
@@ -16038,6 +16070,10 @@
           {
             "source": "grpc-cpp",
             "target": "fqe"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "genomekit"
           },
           {
             "source": "grpc-cpp",
@@ -29597,6 +29633,10 @@
           },
           {
             "source": "numpy",
+            "target": "genomekit"
+          },
+          {
+            "source": "numpy",
             "target": "gensim"
           },
           {
@@ -39825,6 +39865,10 @@
           },
           {
             "source": "protobuf",
+            "target": "genomekit"
+          },
+          {
+            "source": "protobuf",
             "target": "gensim"
           },
           {
@@ -47626,6 +47670,30 @@
           {
             "source": "python-ligo-lw",
             "target": "sbank"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "allennlp"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "hangar"
+          },
+          {
+            "source": "python-lmdb",
+            "target": "tsinfer"
           },
           {
             "source": "python-lzf",
@@ -72939,6 +73007,12 @@
             }
           },
           {
+            "id": "genomekit",
+            "payload": {
+              "__lazy_json__": "node_attrs/genomekit.json"
+            }
+          },
+          {
             "id": "genshi",
             "payload": {
               "__lazy_json__": "node_attrs/genshi.json"
@@ -81450,6 +81524,12 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
+            }
+          },
+          {
+            "id": "python-lmdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
