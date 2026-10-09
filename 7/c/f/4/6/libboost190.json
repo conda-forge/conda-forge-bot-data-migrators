@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pet-rd-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/pet-rd-tools.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -2055,6 +2062,10 @@
           },
           {
             "source": "pcraster",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pet-rd-tools",
             "target": "conda-forge-pinning"
           },
           {
@@ -4726,6 +4737,12 @@
             "id": "herwig",
             "payload": {
               "__lazy_json__": "node_attrs/herwig.json"
+            }
+          },
+          {
+            "id": "pet-rd-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/pet-rd-tools.json"
             }
           }
         ]
