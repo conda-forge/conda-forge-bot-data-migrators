@@ -27708,6 +27708,10 @@
             "target": "metview"
           },
           {
+            "source": "gdbm",
+            "target": "zsh"
+          },
+          {
             "source": "gdk-pixbuf",
             "target": "emacs"
           },
@@ -37334,6 +37338,10 @@
           {
             "source": "libcap",
             "target": "systemd"
+          },
+          {
+            "source": "libcap",
+            "target": "zsh"
           },
           {
             "source": "libcbor",
@@ -62640,6 +62648,10 @@
             "target": "wxwidgets"
           },
           {
+            "source": "pcre2",
+            "target": "zsh"
+          },
+          {
             "source": "pcre",
             "target": "collada-dom"
           },
@@ -62682,10 +62694,6 @@
           {
             "source": "pcre",
             "target": "vectorscan"
-          },
-          {
-            "source": "pcre",
-            "target": "zsh"
           },
           {
             "source": "pennylane",
@@ -92478,10 +92486,6 @@
           {
             "source": "texinfo",
             "target": "udunits2"
-          },
-          {
-            "source": "texinfo",
-            "target": "zsh"
           },
           {
             "source": "texlive-core",
