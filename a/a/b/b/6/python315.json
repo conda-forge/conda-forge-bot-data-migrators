@@ -55,7 +55,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "zlib-state",
+            "payload": {
+              "__lazy_json__": "node_attrs/zlib-state.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -67497,6 +67504,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "zlib-state",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "zmesh",
             "target": "conda-forge-pinning"
           },
@@ -86615,6 +86626,12 @@
             "id": "dearpygui",
             "payload": {
               "__lazy_json__": "node_attrs/dearpygui.json"
+            }
+          },
+          {
+            "id": "zlib-state",
+            "payload": {
+              "__lazy_json__": "node_attrs/zlib-state.json"
             }
           }
         ]
