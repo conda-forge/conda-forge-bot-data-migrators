@@ -3645,6 +3645,10 @@
           },
           {
             "source": "bash",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "bash",
             "target": "attr"
           },
           {
@@ -3809,6 +3813,10 @@
           },
           {
             "source": "bash",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "bash",
             "target": "cctools-and-ld64"
           },
           {
@@ -3922,6 +3930,10 @@
           {
             "source": "bash",
             "target": "coinmp"
+          },
+          {
+            "source": "bash",
+            "target": "conda"
           },
           {
             "source": "bash",
@@ -4117,7 +4129,19 @@
           },
           {
             "source": "bash",
+            "target": "cwinpy"
+          },
+          {
+            "source": "bash",
+            "target": "cwltool"
+          },
+          {
+            "source": "bash",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "bash",
+            "target": "dask-sql"
           },
           {
             "source": "bash",
@@ -4142,6 +4166,10 @@
           {
             "source": "bash",
             "target": "deno-dom"
+          },
+          {
+            "source": "bash",
+            "target": "dftd3-python"
           },
           {
             "source": "bash",
@@ -4277,6 +4305,10 @@
           },
           {
             "source": "bash",
+            "target": "fabio"
+          },
+          {
+            "source": "bash",
             "target": "fairlogger"
           },
           {
@@ -4338,6 +4370,10 @@
           {
             "source": "bash",
             "target": "findutils"
+          },
+          {
+            "source": "bash",
+            "target": "fiona"
           },
           {
             "source": "bash",
@@ -4737,6 +4773,10 @@
           },
           {
             "source": "bash",
+            "target": "gymnasium"
+          },
+          {
+            "source": "bash",
             "target": "gz-math"
           },
           {
@@ -4849,6 +4889,10 @@
           },
           {
             "source": "bash",
+            "target": "hypothesis"
+          },
+          {
+            "source": "bash",
             "target": "hypre"
           },
           {
@@ -4890,6 +4934,10 @@
           {
             "source": "bash",
             "target": "iml"
+          },
+          {
+            "source": "bash",
+            "target": "indexed_gzip"
           },
           {
             "source": "bash",
@@ -4973,6 +5021,10 @@
           },
           {
             "source": "bash",
+            "target": "kaolin"
+          },
+          {
+            "source": "bash",
             "target": "kealib"
           },
           {
@@ -5050,6 +5102,10 @@
           {
             "source": "bash",
             "target": "lapack"
+          },
+          {
+            "source": "bash",
+            "target": "laspy"
           },
           {
             "source": "bash",
@@ -5190,6 +5246,10 @@
           {
             "source": "bash",
             "target": "libconfig"
+          },
+          {
+            "source": "bash",
+            "target": "libcst"
           },
           {
             "source": "bash",
@@ -5733,6 +5793,10 @@
           },
           {
             "source": "bash",
+            "target": "litellm"
+          },
+          {
+            "source": "bash",
             "target": "llvm-spirv"
           },
           {
@@ -5877,7 +5941,19 @@
           },
           {
             "source": "bash",
+            "target": "mini-racer"
+          },
+          {
+            "source": "bash",
+            "target": "minijinja"
+          },
+          {
+            "source": "bash",
             "target": "minizip"
+          },
+          {
+            "source": "bash",
+            "target": "mitmproxy-rs"
           },
           {
             "source": "bash",
@@ -6005,6 +6081,10 @@
           },
           {
             "source": "bash",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "bash",
             "target": "nauty"
           },
           {
@@ -6053,6 +6133,10 @@
           },
           {
             "source": "bash",
+            "target": "netcdf4"
+          },
+          {
+            "source": "bash",
             "target": "netpbm"
           },
           {
@@ -6065,11 +6149,19 @@
           },
           {
             "source": "bash",
+            "target": "nh3"
+          },
+          {
+            "source": "bash",
             "target": "nim"
           },
           {
             "source": "bash",
             "target": "ninja"
+          },
+          {
+            "source": "bash",
+            "target": "nitime"
           },
           {
             "source": "bash",
@@ -6785,6 +6877,10 @@
           },
           {
             "source": "bash",
+            "target": "py-rattler"
+          },
+          {
+            "source": "bash",
             "target": "py3c"
           },
           {
@@ -6861,6 +6957,10 @@
           },
           {
             "source": "bash",
+            "target": "pykrige"
+          },
+          {
+            "source": "bash",
             "target": "pymdi"
           },
           {
@@ -6869,11 +6969,19 @@
           },
           {
             "source": "bash",
+            "target": "pynacl"
+          },
+          {
+            "source": "bash",
             "target": "pyopencl"
           },
           {
             "source": "bash",
             "target": "pyqt"
+          },
+          {
+            "source": "bash",
+            "target": "pyrage"
           },
           {
             "source": "bash",
@@ -6998,6 +7106,10 @@
           {
             "source": "bash",
             "target": "qtkeychain"
+          },
+          {
+            "source": "bash",
+            "target": "quarto"
           },
           {
             "source": "bash",
@@ -9009,6 +9121,10 @@
           },
           {
             "source": "bash",
+            "target": "rasterio"
+          },
+          {
+            "source": "bash",
             "target": "rattler-build"
           },
           {
@@ -9093,10 +9209,6 @@
           },
           {
             "source": "bash",
-            "target": "rust"
-          },
-          {
-            "source": "bash",
             "target": "rw"
           },
           {
@@ -9122,6 +9234,10 @@
           {
             "source": "bash",
             "target": "scenepic"
+          },
+          {
+            "source": "bash",
+            "target": "scikit-allel"
           },
           {
             "source": "bash",
@@ -9457,6 +9573,10 @@
           },
           {
             "source": "bash",
+            "target": "thinc"
+          },
+          {
+            "source": "bash",
             "target": "tidy-html5"
           },
           {
@@ -9493,11 +9613,19 @@
           },
           {
             "source": "bash",
+            "target": "tokenizers"
+          },
+          {
+            "source": "bash",
             "target": "tokyocabinet"
           },
           {
             "source": "bash",
             "target": "tomopy"
+          },
+          {
+            "source": "bash",
+            "target": "torchdata"
           },
           {
             "source": "bash",
@@ -9633,6 +9761,22 @@
           },
           {
             "source": "bash",
+            "target": "watchfiles"
+          },
+          {
+            "source": "bash",
+            "target": "wcwidth"
+          },
+          {
+            "source": "bash",
+            "target": "web3"
+          },
+          {
+            "source": "bash",
+            "target": "websockets"
+          },
+          {
+            "source": "bash",
             "target": "wget"
           },
           {
@@ -9666,6 +9810,10 @@
           {
             "source": "bash",
             "target": "xapian-core"
+          },
+          {
+            "source": "bash",
+            "target": "xcape"
           },
           {
             "source": "bash",
@@ -9922,6 +10070,10 @@
           {
             "source": "bash",
             "target": "xtb"
+          },
+          {
+            "source": "bash",
+            "target": "xtb-python"
           },
           {
             "source": "bash",
@@ -21645,7 +21797,15 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "mini-racer"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "minijinja"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "mitmproxy-rs"
           },
           {
             "source": "ctng-compilers",
@@ -21965,6 +22125,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "r-gifski"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "r-glmmtmb"
           },
           {
@@ -22029,6 +22193,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "remage"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "rerun-sdk"
           },
           {
@@ -22042,10 +22210,6 @@
           {
             "source": "ctng-compilers",
             "target": "rpy2"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "rust"
           },
           {
             "source": "ctng-compilers",
@@ -41733,6 +41897,10 @@
           },
           {
             "source": "libtool",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "libtool",
             "target": "attr"
           },
           {
@@ -41901,6 +42069,10 @@
           },
           {
             "source": "libtool",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "libtool",
             "target": "cctools-and-ld64"
           },
           {
@@ -42014,6 +42186,10 @@
           {
             "source": "libtool",
             "target": "coinmp"
+          },
+          {
+            "source": "libtool",
+            "target": "conda"
           },
           {
             "source": "libtool",
@@ -42209,7 +42385,19 @@
           },
           {
             "source": "libtool",
+            "target": "cwinpy"
+          },
+          {
+            "source": "libtool",
+            "target": "cwltool"
+          },
+          {
+            "source": "libtool",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "libtool",
+            "target": "dask-sql"
           },
           {
             "source": "libtool",
@@ -42234,6 +42422,10 @@
           {
             "source": "libtool",
             "target": "deno-dom"
+          },
+          {
+            "source": "libtool",
+            "target": "dftd3-python"
           },
           {
             "source": "libtool",
@@ -42369,6 +42561,10 @@
           },
           {
             "source": "libtool",
+            "target": "fabio"
+          },
+          {
+            "source": "libtool",
             "target": "fairlogger"
           },
           {
@@ -42430,6 +42626,10 @@
           {
             "source": "libtool",
             "target": "findutils"
+          },
+          {
+            "source": "libtool",
+            "target": "fiona"
           },
           {
             "source": "libtool",
@@ -42829,6 +43029,10 @@
           },
           {
             "source": "libtool",
+            "target": "gymnasium"
+          },
+          {
+            "source": "libtool",
             "target": "gz-math"
           },
           {
@@ -42941,6 +43145,10 @@
           },
           {
             "source": "libtool",
+            "target": "hypothesis"
+          },
+          {
+            "source": "libtool",
             "target": "hypre"
           },
           {
@@ -42982,6 +43190,10 @@
           {
             "source": "libtool",
             "target": "iml"
+          },
+          {
+            "source": "libtool",
+            "target": "indexed_gzip"
           },
           {
             "source": "libtool",
@@ -43065,6 +43277,10 @@
           },
           {
             "source": "libtool",
+            "target": "kaolin"
+          },
+          {
+            "source": "libtool",
             "target": "kealib"
           },
           {
@@ -43142,6 +43358,10 @@
           {
             "source": "libtool",
             "target": "lapack"
+          },
+          {
+            "source": "libtool",
+            "target": "laspy"
           },
           {
             "source": "libtool",
@@ -43282,6 +43502,10 @@
           {
             "source": "libtool",
             "target": "libconfig"
+          },
+          {
+            "source": "libtool",
+            "target": "libcst"
           },
           {
             "source": "libtool",
@@ -43821,6 +44045,10 @@
           },
           {
             "source": "libtool",
+            "target": "litellm"
+          },
+          {
+            "source": "libtool",
             "target": "llvm-spirv"
           },
           {
@@ -43965,7 +44193,19 @@
           },
           {
             "source": "libtool",
+            "target": "mini-racer"
+          },
+          {
+            "source": "libtool",
+            "target": "minijinja"
+          },
+          {
+            "source": "libtool",
             "target": "minizip"
+          },
+          {
+            "source": "libtool",
+            "target": "mitmproxy-rs"
           },
           {
             "source": "libtool",
@@ -44093,6 +44333,10 @@
           },
           {
             "source": "libtool",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "libtool",
             "target": "nauty"
           },
           {
@@ -44141,6 +44385,10 @@
           },
           {
             "source": "libtool",
+            "target": "netcdf4"
+          },
+          {
+            "source": "libtool",
             "target": "netpbm"
           },
           {
@@ -44153,11 +44401,19 @@
           },
           {
             "source": "libtool",
+            "target": "nh3"
+          },
+          {
+            "source": "libtool",
             "target": "nim"
           },
           {
             "source": "libtool",
             "target": "ninja"
+          },
+          {
+            "source": "libtool",
+            "target": "nitime"
           },
           {
             "source": "libtool",
@@ -44873,6 +45129,10 @@
           },
           {
             "source": "libtool",
+            "target": "py-rattler"
+          },
+          {
+            "source": "libtool",
             "target": "py3c"
           },
           {
@@ -44949,6 +45209,10 @@
           },
           {
             "source": "libtool",
+            "target": "pykrige"
+          },
+          {
+            "source": "libtool",
             "target": "pymdi"
           },
           {
@@ -44957,11 +45221,19 @@
           },
           {
             "source": "libtool",
+            "target": "pynacl"
+          },
+          {
+            "source": "libtool",
             "target": "pyopencl"
           },
           {
             "source": "libtool",
             "target": "pyqt"
+          },
+          {
+            "source": "libtool",
+            "target": "pyrage"
           },
           {
             "source": "libtool",
@@ -45086,6 +45358,10 @@
           {
             "source": "libtool",
             "target": "qtkeychain"
+          },
+          {
+            "source": "libtool",
+            "target": "quarto"
           },
           {
             "source": "libtool",
@@ -47097,6 +47373,10 @@
           },
           {
             "source": "libtool",
+            "target": "rasterio"
+          },
+          {
+            "source": "libtool",
             "target": "rattler-build"
           },
           {
@@ -47181,10 +47461,6 @@
           },
           {
             "source": "libtool",
-            "target": "rust"
-          },
-          {
-            "source": "libtool",
             "target": "rw"
           },
           {
@@ -47210,6 +47486,10 @@
           {
             "source": "libtool",
             "target": "scenepic"
+          },
+          {
+            "source": "libtool",
+            "target": "scikit-allel"
           },
           {
             "source": "libtool",
@@ -47545,6 +47825,10 @@
           },
           {
             "source": "libtool",
+            "target": "thinc"
+          },
+          {
+            "source": "libtool",
             "target": "tidy-html5"
           },
           {
@@ -47581,11 +47865,19 @@
           },
           {
             "source": "libtool",
+            "target": "tokenizers"
+          },
+          {
+            "source": "libtool",
             "target": "tokyocabinet"
           },
           {
             "source": "libtool",
             "target": "tomopy"
+          },
+          {
+            "source": "libtool",
+            "target": "torchdata"
           },
           {
             "source": "libtool",
@@ -47721,6 +48013,22 @@
           },
           {
             "source": "libtool",
+            "target": "watchfiles"
+          },
+          {
+            "source": "libtool",
+            "target": "wcwidth"
+          },
+          {
+            "source": "libtool",
+            "target": "web3"
+          },
+          {
+            "source": "libtool",
+            "target": "websockets"
+          },
+          {
+            "source": "libtool",
             "target": "wget"
           },
           {
@@ -47754,6 +48062,10 @@
           {
             "source": "libtool",
             "target": "xapian-core"
+          },
+          {
+            "source": "libtool",
+            "target": "xcape"
           },
           {
             "source": "libtool",
@@ -48010,6 +48322,10 @@
           {
             "source": "libtool",
             "target": "xtb"
+          },
+          {
+            "source": "libtool",
+            "target": "xtb-python"
           },
           {
             "source": "libtool",
@@ -88744,330 +89060,6 @@
             "target": "buildah"
           },
           {
-            "source": "rust",
-            "target": "allennlp"
-          },
-          {
-            "source": "rust",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "rust",
-            "target": "autorift"
-          },
-          {
-            "source": "rust",
-            "target": "bioimage-cpp"
-          },
-          {
-            "source": "rust",
-            "target": "catboost"
-          },
-          {
-            "source": "rust",
-            "target": "cctbx-base"
-          },
-          {
-            "source": "rust",
-            "target": "conda"
-          },
-          {
-            "source": "rust",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "rust",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "rust",
-            "target": "cwinpy"
-          },
-          {
-            "source": "rust",
-            "target": "cwltool"
-          },
-          {
-            "source": "rust",
-            "target": "dask-sql"
-          },
-          {
-            "source": "rust",
-            "target": "dftd3-python"
-          },
-          {
-            "source": "rust",
-            "target": "easyocr"
-          },
-          {
-            "source": "rust",
-            "target": "fabio"
-          },
-          {
-            "source": "rust",
-            "target": "fenics-basix"
-          },
-          {
-            "source": "rust",
-            "target": "fenics-dolfinx"
-          },
-          {
-            "source": "rust",
-            "target": "fiona"
-          },
-          {
-            "source": "rust",
-            "target": "gymnasium"
-          },
-          {
-            "source": "rust",
-            "target": "htcondor"
-          },
-          {
-            "source": "rust",
-            "target": "hypothesis"
-          },
-          {
-            "source": "rust",
-            "target": "indexed_gzip"
-          },
-          {
-            "source": "rust",
-            "target": "kaolin"
-          },
-          {
-            "source": "rust",
-            "target": "kealib"
-          },
-          {
-            "source": "rust",
-            "target": "laspy"
-          },
-          {
-            "source": "rust",
-            "target": "libcst"
-          },
-          {
-            "source": "rust",
-            "target": "litellm"
-          },
-          {
-            "source": "rust",
-            "target": "mcstas-suite"
-          },
-          {
-            "source": "rust",
-            "target": "mcxtrace-suite"
-          },
-          {
-            "source": "rust",
-            "target": "mini-racer"
-          },
-          {
-            "source": "rust",
-            "target": "minijinja"
-          },
-          {
-            "source": "rust",
-            "target": "mitmproxy-rs"
-          },
-          {
-            "source": "rust",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "rust",
-            "target": "natcap.invest"
-          },
-          {
-            "source": "rust",
-            "target": "netcdf4"
-          },
-          {
-            "source": "rust",
-            "target": "nh3"
-          },
-          {
-            "source": "rust",
-            "target": "nitime"
-          },
-          {
-            "source": "rust",
-            "target": "numba"
-          },
-          {
-            "source": "rust",
-            "target": "nutpie"
-          },
-          {
-            "source": "rust",
-            "target": "opencv"
-          },
-          {
-            "source": "rust",
-            "target": "openmeeg"
-          },
-          {
-            "source": "rust",
-            "target": "oso"
-          },
-          {
-            "source": "rust",
-            "target": "pillow"
-          },
-          {
-            "source": "rust",
-            "target": "py-rattler"
-          },
-          {
-            "source": "rust",
-            "target": "pyarrow"
-          },
-          {
-            "source": "rust",
-            "target": "pygmo"
-          },
-          {
-            "source": "rust",
-            "target": "pyinterp"
-          },
-          {
-            "source": "rust",
-            "target": "pykrige"
-          },
-          {
-            "source": "rust",
-            "target": "pynacl"
-          },
-          {
-            "source": "rust",
-            "target": "pyrage"
-          },
-          {
-            "source": "rust",
-            "target": "pyshtools"
-          },
-          {
-            "source": "rust",
-            "target": "pywinpty"
-          },
-          {
-            "source": "rust",
-            "target": "pyzmq"
-          },
-          {
-            "source": "rust",
-            "target": "quarto"
-          },
-          {
-            "source": "rust",
-            "target": "r-gifski"
-          },
-          {
-            "source": "rust",
-            "target": "rasterio"
-          },
-          {
-            "source": "rust",
-            "target": "ray-packages"
-          },
-          {
-            "source": "rust",
-            "target": "remage"
-          },
-          {
-            "source": "rust",
-            "target": "rerun-sdk"
-          },
-          {
-            "source": "rust",
-            "target": "root"
-          },
-          {
-            "source": "rust",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "rust",
-            "target": "rpy2"
-          },
-          {
-            "source": "rust",
-            "target": "sage"
-          },
-          {
-            "source": "rust",
-            "target": "sagelib"
-          },
-          {
-            "source": "rust",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "rust",
-            "target": "shap"
-          },
-          {
-            "source": "rust",
-            "target": "stardist"
-          },
-          {
-            "source": "rust",
-            "target": "tensorflow"
-          },
-          {
-            "source": "rust",
-            "target": "thinc"
-          },
-          {
-            "source": "rust",
-            "target": "tokenizers"
-          },
-          {
-            "source": "rust",
-            "target": "tomopy"
-          },
-          {
-            "source": "rust",
-            "target": "torchdata"
-          },
-          {
-            "source": "rust",
-            "target": "watchfiles"
-          },
-          {
-            "source": "rust",
-            "target": "wcwidth"
-          },
-          {
-            "source": "rust",
-            "target": "web3"
-          },
-          {
-            "source": "rust",
-            "target": "websockets"
-          },
-          {
-            "source": "rust",
-            "target": "xcape"
-          },
-          {
-            "source": "rust",
-            "target": "xeus-octave"
-          },
-          {
-            "source": "rust",
-            "target": "xtb-python"
-          },
-          {
-            "source": "rust",
-            "target": "yt"
-          },
-          {
-            "source": "rust",
-            "target": "z5py"
-          },
-          {
             "source": "rw",
             "target": "sage"
           },
@@ -102121,6 +102113,10 @@
           },
           {
             "source": "zlib",
+            "target": "allennlp"
+          },
+          {
+            "source": "zlib",
             "target": "ambertools"
           },
           {
@@ -102134,6 +102130,10 @@
           {
             "source": "zlib",
             "target": "assimp"
+          },
+          {
+            "source": "zlib",
+            "target": "ast-serialize"
           },
           {
             "source": "zlib",
@@ -102229,6 +102229,10 @@
           },
           {
             "source": "zlib",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "zlib",
             "target": "cctools-and-ld64"
           },
           {
@@ -102293,6 +102297,18 @@
           },
           {
             "source": "zlib",
+            "target": "conda"
+          },
+          {
+            "source": "zlib",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "zlib",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "zlib",
             "target": "connectorx"
           },
           {
@@ -102345,6 +102361,18 @@
           },
           {
             "source": "zlib",
+            "target": "cwinpy"
+          },
+          {
+            "source": "zlib",
+            "target": "cwltool"
+          },
+          {
+            "source": "zlib",
+            "target": "dask-sql"
+          },
+          {
+            "source": "zlib",
             "target": "davix"
           },
           {
@@ -102362,6 +102390,10 @@
           {
             "source": "zlib",
             "target": "deno"
+          },
+          {
+            "source": "zlib",
+            "target": "dftd3-python"
           },
           {
             "source": "zlib",
@@ -102409,7 +102441,19 @@
           },
           {
             "source": "zlib",
+            "target": "fabio"
+          },
+          {
+            "source": "zlib",
             "target": "faiss-split"
+          },
+          {
+            "source": "zlib",
+            "target": "fenics-basix"
+          },
+          {
+            "source": "zlib",
+            "target": "fenics-dolfinx"
           },
           {
             "source": "zlib",
@@ -102418,6 +102462,10 @@
           {
             "source": "zlib",
             "target": "file"
+          },
+          {
+            "source": "zlib",
+            "target": "fiona"
           },
           {
             "source": "zlib",
@@ -102657,6 +102705,10 @@
           },
           {
             "source": "zlib",
+            "target": "gymnasium"
+          },
+          {
+            "source": "zlib",
             "target": "harfbuzz"
           },
           {
@@ -102709,6 +102761,10 @@
           },
           {
             "source": "zlib",
+            "target": "hypothesis"
+          },
+          {
+            "source": "zlib",
             "target": "ilastik-carving-tools"
           },
           {
@@ -102753,6 +102809,10 @@
           },
           {
             "source": "zlib",
+            "target": "kaolin"
+          },
+          {
+            "source": "zlib",
             "target": "kealib"
           },
           {
@@ -102778,6 +102838,10 @@
           {
             "source": "zlib",
             "target": "lammps"
+          },
+          {
+            "source": "zlib",
+            "target": "laspy"
           },
           {
             "source": "zlib",
@@ -102810,6 +102874,10 @@
           {
             "source": "zlib",
             "target": "libass"
+          },
+          {
+            "source": "zlib",
+            "target": "libcst"
           },
           {
             "source": "zlib",
@@ -102977,6 +103045,10 @@
           },
           {
             "source": "zlib",
+            "target": "litellm"
+          },
+          {
+            "source": "zlib",
             "target": "lld"
           },
           {
@@ -103029,7 +103101,15 @@
           },
           {
             "source": "zlib",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "zlib",
             "target": "mctc-lib"
+          },
+          {
+            "source": "zlib",
+            "target": "mcxtrace-suite"
           },
           {
             "source": "zlib",
@@ -103057,7 +103137,19 @@
           },
           {
             "source": "zlib",
+            "target": "mini-racer"
+          },
+          {
+            "source": "zlib",
+            "target": "minijinja"
+          },
+          {
+            "source": "zlib",
             "target": "minizip"
+          },
+          {
+            "source": "zlib",
+            "target": "mitmproxy-rs"
           },
           {
             "source": "zlib",
@@ -103125,6 +103217,10 @@
           },
           {
             "source": "zlib",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "zlib",
             "target": "nccl"
           },
           {
@@ -103177,7 +103273,15 @@
           },
           {
             "source": "zlib",
+            "target": "nh3"
+          },
+          {
+            "source": "zlib",
             "target": "nim"
+          },
+          {
+            "source": "zlib",
+            "target": "nitime"
           },
           {
             "source": "zlib",
@@ -103294,6 +103398,10 @@
           {
             "source": "zlib",
             "target": "openjpeg"
+          },
+          {
+            "source": "zlib",
+            "target": "openmeeg"
           },
           {
             "source": "zlib",
@@ -103457,6 +103565,10 @@
           },
           {
             "source": "zlib",
+            "target": "py-rattler"
+          },
+          {
+            "source": "zlib",
             "target": "pyarrow"
           },
           {
@@ -103481,6 +103593,10 @@
           },
           {
             "source": "zlib",
+            "target": "pygmo"
+          },
+          {
+            "source": "zlib",
             "target": "pygobject"
           },
           {
@@ -103501,7 +103617,15 @@
           },
           {
             "source": "zlib",
+            "target": "pyinterp"
+          },
+          {
+            "source": "zlib",
             "target": "pykdtree"
+          },
+          {
+            "source": "zlib",
+            "target": "pykrige"
           },
           {
             "source": "zlib",
@@ -103509,7 +103633,19 @@
           },
           {
             "source": "zlib",
+            "target": "pynacl"
+          },
+          {
+            "source": "zlib",
             "target": "pypy2.7"
+          },
+          {
+            "source": "zlib",
+            "target": "pyrage"
+          },
+          {
+            "source": "zlib",
+            "target": "pyshtools"
           },
           {
             "source": "zlib",
@@ -103545,6 +103681,10 @@
           },
           {
             "source": "zlib",
+            "target": "pyzmq"
+          },
+          {
+            "source": "zlib",
             "target": "qpdf"
           },
           {
@@ -103570,6 +103710,10 @@
           {
             "source": "zlib",
             "target": "qtkeychain"
+          },
+          {
+            "source": "zlib",
+            "target": "quarto"
           },
           {
             "source": "zlib",
@@ -103606,6 +103750,10 @@
           {
             "source": "zlib",
             "target": "r-ggiraph"
+          },
+          {
+            "source": "zlib",
+            "target": "r-gifski"
           },
           {
             "source": "zlib",
@@ -103749,6 +103897,18 @@
           },
           {
             "source": "zlib",
+            "target": "rasterio"
+          },
+          {
+            "source": "zlib",
+            "target": "ray-packages"
+          },
+          {
+            "source": "zlib",
+            "target": "remage"
+          },
+          {
+            "source": "zlib",
             "target": "rerun-sdk"
           },
           {
@@ -103781,15 +103941,15 @@
           },
           {
             "source": "zlib",
-            "target": "rust"
-          },
-          {
-            "source": "zlib",
             "target": "sage"
           },
           {
             "source": "zlib",
             "target": "sagelib"
+          },
+          {
+            "source": "zlib",
+            "target": "scikit-allel"
           },
           {
             "source": "zlib",
@@ -103814,6 +103974,10 @@
           {
             "source": "zlib",
             "target": "sdl_image"
+          },
+          {
+            "source": "zlib",
+            "target": "shap"
           },
           {
             "source": "zlib",
@@ -103945,6 +104109,10 @@
           },
           {
             "source": "zlib",
+            "target": "thinc"
+          },
+          {
+            "source": "zlib",
             "target": "thrift-cpp"
           },
           {
@@ -103957,11 +104125,19 @@
           },
           {
             "source": "zlib",
+            "target": "tokenizers"
+          },
+          {
+            "source": "zlib",
             "target": "tokyocabinet"
           },
           {
             "source": "zlib",
             "target": "tomopy"
+          },
+          {
+            "source": "zlib",
+            "target": "torchdata"
           },
           {
             "source": "zlib",
@@ -104033,6 +104209,22 @@
           },
           {
             "source": "zlib",
+            "target": "watchfiles"
+          },
+          {
+            "source": "zlib",
+            "target": "wcwidth"
+          },
+          {
+            "source": "zlib",
+            "target": "web3"
+          },
+          {
+            "source": "zlib",
+            "target": "websockets"
+          },
+          {
+            "source": "zlib",
             "target": "wget"
           },
           {
@@ -104057,7 +104249,15 @@
           },
           {
             "source": "zlib",
+            "target": "xcape"
+          },
+          {
+            "source": "zlib",
             "target": "xeus-cling"
+          },
+          {
+            "source": "zlib",
+            "target": "xeus-octave"
           },
           {
             "source": "zlib",
@@ -104074,6 +104274,10 @@
           {
             "source": "zlib",
             "target": "xtb"
+          },
+          {
+            "source": "zlib",
+            "target": "xtb-python"
           },
           {
             "source": "zlib",
@@ -118430,12 +118634,6 @@
             "id": "runc",
             "payload": {
               "__lazy_json__": "node_attrs/runc.json"
-            }
-          },
-          {
-            "id": "rust",
-            "payload": {
-              "__lazy_json__": "node_attrs/rust.json"
             }
           },
           {
