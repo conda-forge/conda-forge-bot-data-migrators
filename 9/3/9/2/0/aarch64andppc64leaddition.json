@@ -6565,10 +6565,6 @@
           },
           {
             "source": "bash",
-            "target": "perl-inc-latest"
-          },
-          {
-            "source": "bash",
             "target": "perl-io-gzip"
           },
           {
@@ -6585,15 +6581,7 @@
           },
           {
             "source": "bash",
-            "target": "perl-module-build"
-          },
-          {
-            "source": "bash",
             "target": "perl-module-implementation"
-          },
-          {
-            "source": "bash",
-            "target": "perl-module-runtime"
           },
           {
             "source": "bash",
@@ -44813,10 +44801,6 @@
           },
           {
             "source": "libtool",
-            "target": "perl-inc-latest"
-          },
-          {
-            "source": "libtool",
             "target": "perl-io-gzip"
           },
           {
@@ -44833,15 +44817,7 @@
           },
           {
             "source": "libtool",
-            "target": "perl-module-build"
-          },
-          {
-            "source": "libtool",
             "target": "perl-module-implementation"
-          },
-          {
-            "source": "libtool",
-            "target": "perl-module-runtime"
           },
           {
             "source": "libtool",
@@ -49213,10 +49189,6 @@
           },
           {
             "source": "libxcrypt",
-            "target": "perl-inc-latest"
-          },
-          {
-            "source": "libxcrypt",
             "target": "perl-io-gzip"
           },
           {
@@ -49233,15 +49205,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "perl-module-build"
-          },
-          {
-            "source": "libxcrypt",
             "target": "perl-module-implementation"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "perl-module-runtime"
           },
           {
             "source": "libxcrypt",
@@ -63044,16 +63008,8 @@
             "target": "perl-moose"
           },
           {
-            "source": "perl-inc-latest",
-            "target": "perl-module-build"
-          },
-          {
             "source": "perl-mime-base64",
             "target": "perl-net-ssleay"
-          },
-          {
-            "source": "perl-module-build",
-            "target": "perl-module-runtime"
           },
           {
             "source": "perl-module-implementation",
@@ -63073,26 +63029,6 @@
           },
           {
             "source": "perl-module-runtime-conflicts",
-            "target": "perl-moose"
-          },
-          {
-            "source": "perl-module-runtime",
-            "target": "perl-class-load-xs"
-          },
-          {
-            "source": "perl-module-runtime",
-            "target": "perl-dist-checkconflicts"
-          },
-          {
-            "source": "perl-module-runtime",
-            "target": "perl-module-implementation"
-          },
-          {
-            "source": "perl-module-runtime",
-            "target": "perl-module-runtime-conflicts"
-          },
-          {
-            "source": "perl-module-runtime",
             "target": "perl-moose"
           },
           {
@@ -113629,12 +113565,6 @@
             }
           },
           {
-            "id": "perl-inc-latest",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-inc-latest.json"
-            }
-          },
-          {
             "id": "perl-io-gzip",
             "payload": {
               "__lazy_json__": "node_attrs/perl-io-gzip.json"
@@ -113659,21 +113589,9 @@
             }
           },
           {
-            "id": "perl-module-build",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-module-build.json"
-            }
-          },
-          {
             "id": "perl-module-implementation",
             "payload": {
               "__lazy_json__": "node_attrs/perl-module-implementation.json"
-            }
-          },
-          {
-            "id": "perl-module-runtime",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-module-runtime.json"
             }
           },
           {
