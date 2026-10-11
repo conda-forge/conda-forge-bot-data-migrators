@@ -22577,6 +22577,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "kokkos"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "libastra"
           },
           {
@@ -37610,6 +37614,10 @@
           {
             "source": "libcublas",
             "target": "kaolin"
+          },
+          {
+            "source": "libcublas",
+            "target": "kokkos"
           },
           {
             "source": "libcublas",
@@ -90178,6 +90186,10 @@
           {
             "source": "sed",
             "target": "kealib"
+          },
+          {
+            "source": "sed",
+            "target": "kokkos"
           },
           {
             "source": "sed",
