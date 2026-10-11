@@ -6489,15 +6489,7 @@
           },
           {
             "source": "bash",
-            "target": "perl-b-hooks-endofscope"
-          },
-          {
-            "source": "bash",
             "target": "perl-capture-tiny"
-          },
-          {
-            "source": "bash",
-            "target": "perl-class-load"
           },
           {
             "source": "bash",
@@ -6686,10 +6678,6 @@
           {
             "source": "bash",
             "target": "perl-termreadkey"
-          },
-          {
-            "source": "bash",
-            "target": "perl-test-cleannamespaces"
           },
           {
             "source": "bash",
@@ -44753,15 +44741,7 @@
           },
           {
             "source": "libtool",
-            "target": "perl-b-hooks-endofscope"
-          },
-          {
-            "source": "libtool",
             "target": "perl-capture-tiny"
-          },
-          {
-            "source": "libtool",
-            "target": "perl-class-load"
           },
           {
             "source": "libtool",
@@ -44950,10 +44930,6 @@
           {
             "source": "libtool",
             "target": "perl-termreadkey"
-          },
-          {
-            "source": "libtool",
-            "target": "perl-test-cleannamespaces"
           },
           {
             "source": "libtool",
@@ -49169,15 +49145,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "perl-b-hooks-endofscope"
-          },
-          {
-            "source": "libxcrypt",
             "target": "perl-capture-tiny"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "perl-class-load"
           },
           {
             "source": "libxcrypt",
@@ -49366,10 +49334,6 @@
           {
             "source": "libxcrypt",
             "target": "perl-termreadkey"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "perl-test-cleannamespaces"
           },
           {
             "source": "libxcrypt",
@@ -63036,10 +63000,6 @@
             "target": "perl-clone"
           },
           {
-            "source": "perl-b-hooks-endofscope",
-            "target": "perl-namespace-clean"
-          },
-          {
             "source": "perl-capture-tiny",
             "target": "lcov"
           },
@@ -63052,14 +63012,6 @@
             "target": "perl-moose"
           },
           {
-            "source": "perl-class-load",
-            "target": "perl-class-load-xs"
-          },
-          {
-            "source": "perl-class-load",
-            "target": "perl-moose"
-          },
-          {
             "source": "perl-cpan-meta-check",
             "target": "perl-moose"
           },
@@ -63069,7 +63021,7 @@
           },
           {
             "source": "perl-data-optlist",
-            "target": "perl-class-load"
+            "target": "perl-class-load-xs"
           },
           {
             "source": "perl-data-optlist",
@@ -63112,10 +63064,6 @@
             "target": "perl-moose"
           },
           {
-            "source": "perl-file-pushd",
-            "target": "perl-test-cleannamespaces"
-          },
-          {
             "source": "perl-inc-latest",
             "target": "perl-module-build"
           },
@@ -63129,11 +63077,15 @@
           },
           {
             "source": "perl-module-implementation",
-            "target": "perl-b-hooks-endofscope"
+            "target": "perl-class-load-xs"
           },
           {
             "source": "perl-module-implementation",
-            "target": "perl-class-load"
+            "target": "perl-moose"
+          },
+          {
+            "source": "perl-module-implementation",
+            "target": "perl-namespace-clean"
           },
           {
             "source": "perl-module-implementation",
@@ -63145,7 +63097,7 @@
           },
           {
             "source": "perl-module-runtime",
-            "target": "perl-class-load"
+            "target": "perl-class-load-xs"
           },
           {
             "source": "perl-module-runtime",
@@ -63164,20 +63116,12 @@
             "target": "perl-moose"
           },
           {
-            "source": "perl-module-runtime",
-            "target": "perl-test-cleannamespaces"
-          },
-          {
             "source": "perl-mro-compat",
             "target": "perl-devel-overloadinfo"
           },
           {
             "source": "perl-mro-compat",
             "target": "perl-moose"
-          },
-          {
-            "source": "perl-namespace-clean",
-            "target": "perl-test-cleannamespaces"
           },
           {
             "source": "perl-package-deprecationmanager",
@@ -63193,7 +63137,7 @@
           },
           {
             "source": "perl-package-stash",
-            "target": "perl-class-load"
+            "target": "perl-class-load-xs"
           },
           {
             "source": "perl-package-stash",
@@ -63210,10 +63154,6 @@
           {
             "source": "perl-package-stash",
             "target": "perl-package-deprecationmanager"
-          },
-          {
-            "source": "perl-package-stash",
-            "target": "perl-test-cleannamespaces"
           },
           {
             "source": "perl-params-util",
@@ -63261,31 +63201,23 @@
           },
           {
             "source": "perl-sub-exporter-progressive",
-            "target": "perl-b-hooks-endofscope"
+            "target": "perl-devel-globaldestruction"
           },
           {
             "source": "perl-sub-exporter-progressive",
-            "target": "perl-devel-globaldestruction"
+            "target": "perl-namespace-clean"
           },
           {
             "source": "perl-sub-exporter",
             "target": "perl-moose"
           },
           {
-            "source": "perl-sub-exporter",
-            "target": "perl-test-cleannamespaces"
-          },
-          {
             "source": "perl-sub-identify",
-            "target": "perl-test-cleannamespaces"
+            "target": "perl-moose"
           },
           {
             "source": "perl-sub-name",
             "target": "perl-package-deprecationmanager"
-          },
-          {
-            "source": "perl-test-cleannamespaces",
-            "target": "perl-moose"
           },
           {
             "source": "perl-test-fatal",
@@ -63325,15 +63257,11 @@
           },
           {
             "source": "perl-test-warnings",
-            "target": "perl-test-cleannamespaces"
-          },
-          {
-            "source": "perl-test-warnings",
             "target": "perl-yaml-libyaml"
           },
           {
             "source": "perl-try-tiny",
-            "target": "perl-class-load"
+            "target": "perl-class-load-xs"
           },
           {
             "source": "perl-try-tiny",
@@ -63349,7 +63277,7 @@
           },
           {
             "source": "perl-variable-magic",
-            "target": "perl-b-hooks-endofscope"
+            "target": "perl-namespace-clean"
           },
           {
             "source": "perl-xml-parser",
@@ -113607,21 +113535,9 @@
             }
           },
           {
-            "id": "perl-b-hooks-endofscope",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-b-hooks-endofscope.json"
-            }
-          },
-          {
             "id": "perl-capture-tiny",
             "payload": {
               "__lazy_json__": "node_attrs/perl-capture-tiny.json"
-            }
-          },
-          {
-            "id": "perl-class-load",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-class-load.json"
             }
           },
           {
@@ -113904,12 +113820,6 @@
             "id": "perl-termreadkey",
             "payload": {
               "__lazy_json__": "node_attrs/perl-termreadkey.json"
-            }
-          },
-          {
-            "id": "perl-test-cleannamespaces",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-test-cleannamespaces.json"
             }
           },
           {
