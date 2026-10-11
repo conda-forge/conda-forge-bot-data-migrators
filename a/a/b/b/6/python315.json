@@ -55,7 +55,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pymeep",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymeep.json"
+            }
+          },
+          {
+            "id": "pyobjc-framework-phase",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyobjc-framework-phase.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -45130,6 +45143,10 @@
           },
           {
             "source": "pyobjc-core",
+            "target": "pyobjc-framework-phase"
+          },
+          {
+            "source": "pyobjc-core",
             "target": "pyobjc-framework-quartz"
           },
           {
@@ -45159,6 +45176,10 @@
           {
             "source": "pyobjc-framework-avfoundation",
             "target": "cv2-enumerate-cameras"
+          },
+          {
+            "source": "pyobjc-framework-avfoundation",
+            "target": "pyobjc-framework-phase"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -45614,6 +45635,10 @@
           },
           {
             "source": "pyobjc-framework-metal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyobjc-framework-phase",
             "target": "conda-forge-pinning"
           },
           {
@@ -86625,6 +86650,12 @@
             "id": "zlib-state",
             "payload": {
               "__lazy_json__": "node_attrs/zlib-state.json"
+            }
+          },
+          {
+            "id": "pyobjc-framework-phase",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyobjc-framework-phase.json"
             }
           }
         ]
