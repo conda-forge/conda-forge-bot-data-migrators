@@ -55,14 +55,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "libvalkey-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvalkey-py.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -4705,10 +4698,6 @@
           },
           {
             "source": "bitarray",
-            "target": "esptool"
-          },
-          {
-            "source": "bitarray",
             "target": "fairseq"
           },
           {
@@ -4722,14 +4711,6 @@
           {
             "source": "bitarray",
             "target": "pandas-plink"
-          },
-          {
-            "source": "bitarray",
-            "target": "sourmash_plugin_branchwater"
-          },
-          {
-            "source": "bitarray",
-            "target": "sourmash_plugin_directsketch"
           },
           {
             "source": "bitarray",
