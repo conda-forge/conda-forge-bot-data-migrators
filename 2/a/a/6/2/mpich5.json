@@ -411,10 +411,6 @@
           },
           {
             "source": "fftw",
-            "target": "pymeep"
-          },
-          {
-            "source": "fftw",
             "target": "spfft"
           },
           {
@@ -524,10 +520,6 @@
           {
             "source": "h5py",
             "target": "proteus"
-          },
-          {
-            "source": "h5py",
-            "target": "pymeep"
           },
           {
             "source": "h5utils",
@@ -672,10 +664,6 @@
           {
             "source": "hdf5",
             "target": "puffin"
-          },
-          {
-            "source": "hdf5",
-            "target": "pymeep"
           },
           {
             "source": "hdf5",
@@ -978,10 +966,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "mpb",
-            "target": "pymeep"
-          },
-          {
             "source": "mpi4jax",
             "target": "conda-forge-pinning"
           },
@@ -1060,10 +1044,6 @@
           {
             "source": "mpi4py",
             "target": "pyamrex"
-          },
-          {
-            "source": "mpi4py",
-            "target": "pymeep"
           },
           {
             "source": "mpi4py",
@@ -1391,10 +1371,6 @@
           },
           {
             "source": "pymdi",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pymeep",
             "target": "conda-forge-pinning"
           },
           {
@@ -2376,12 +2352,6 @@
             "id": "pymdi",
             "payload": {
               "__lazy_json__": "node_attrs/pymdi.json"
-            }
-          },
-          {
-            "id": "pymeep",
-            "payload": {
-              "__lazy_json__": "node_attrs/pymeep.json"
             }
           },
           {
