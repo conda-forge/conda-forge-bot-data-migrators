@@ -55,7 +55,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "atom",
+            "payload": {
+              "__lazy_json__": "node_attrs/atom.json"
+            }
+          },
+          {
+            "id": "pcmsolver-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcmsolver-split.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
