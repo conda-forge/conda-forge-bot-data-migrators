@@ -6505,10 +6505,6 @@
           },
           {
             "source": "bash",
-            "target": "perl-cpan-meta-check"
-          },
-          {
-            "source": "bash",
             "target": "perl-data-dumper"
           },
           {
@@ -44757,10 +44753,6 @@
           },
           {
             "source": "libtool",
-            "target": "perl-cpan-meta-check"
-          },
-          {
-            "source": "libtool",
             "target": "perl-data-dumper"
           },
           {
@@ -49158,10 +49150,6 @@
           {
             "source": "libxcrypt",
             "target": "perl-compress-raw-zlib"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "perl-cpan-meta-check"
           },
           {
             "source": "libxcrypt",
@@ -63010,14 +62998,6 @@
           {
             "source": "perl-class-load-xs",
             "target": "perl-moose"
-          },
-          {
-            "source": "perl-cpan-meta-check",
-            "target": "perl-moose"
-          },
-          {
-            "source": "perl-cpan-meta-check",
-            "target": "perl-package-stash"
           },
           {
             "source": "perl-data-optlist",
@@ -113556,12 +113536,6 @@
             "id": "perl-compress-raw-zlib",
             "payload": {
               "__lazy_json__": "node_attrs/perl-compress-raw-zlib.json"
-            }
-          },
-          {
-            "id": "perl-cpan-meta-check",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-cpan-meta-check.json"
             }
           },
           {
