@@ -55,7 +55,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pymeep",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymeep.json"
+            }
+          },
+          {
+            "id": "vbmicrolensing",
+            "payload": {
+              "__lazy_json__": "node_attrs/vbmicrolensing.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -17006,6 +17019,10 @@
           },
           {
             "source": "h5py",
+            "target": "pymeep"
+          },
+          {
+            "source": "h5py",
             "target": "pymvpa2"
           },
           {
@@ -22842,6 +22859,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pymeep"
+          },
+          {
+            "source": "matplotlib",
             "target": "pymem3dg"
           },
           {
@@ -24395,6 +24416,10 @@
           {
             "source": "mpi4py",
             "target": "pymatnest"
+          },
+          {
+            "source": "mpi4py",
+            "target": "pymeep"
           },
           {
             "source": "mpi4py",
@@ -32415,6 +32440,10 @@
           {
             "source": "numpy",
             "target": "pymde"
+          },
+          {
+            "source": "numpy",
+            "target": "pymeep"
           },
           {
             "source": "numpy",
@@ -44781,6 +44810,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pymeep",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pymef",
             "target": "alphacsc"
           },
@@ -56726,6 +56759,10 @@
           },
           {
             "source": "scipy",
+            "target": "pymeep"
+          },
+          {
+            "source": "scipy",
             "target": "pymem3dg"
           },
           {
@@ -60979,6 +61016,10 @@
           {
             "source": "tbb",
             "target": "pykep"
+          },
+          {
+            "source": "tbb",
+            "target": "pymeep"
           },
           {
             "source": "tbb",
@@ -80249,6 +80290,12 @@
             "id": "pymediainfo",
             "payload": {
               "__lazy_json__": "node_attrs/pymediainfo.json"
+            }
+          },
+          {
+            "id": "pymeep",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymeep.json"
             }
           },
           {
