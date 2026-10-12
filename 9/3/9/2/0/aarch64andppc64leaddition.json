@@ -18537,7 +18537,7 @@
           },
           {
             "source": "cmake",
-            "target": "nvtx"
+            "target": "nvtx-c"
           },
           {
             "source": "cmake",
@@ -56113,7 +56113,7 @@
           },
           {
             "source": "ninja",
-            "target": "nvtx"
+            "target": "nvtx-c"
           },
           {
             "source": "ninja",
@@ -59298,6 +59298,22 @@
           {
             "source": "nvmath",
             "target": "cuquantum"
+          },
+          {
+            "source": "nvtx-c",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "nvtx-c",
+            "target": "nvtx"
+          },
+          {
+            "source": "nvtx-c",
+            "target": "pyg-lib"
+          },
+          {
+            "source": "nvtx-c",
+            "target": "pytorch-cpu"
           },
           {
             "source": "obstore",
@@ -112792,6 +112808,12 @@
             "id": "nvtx",
             "payload": {
               "__lazy_json__": "node_attrs/nvtx.json"
+            }
+          },
+          {
+            "id": "nvtx-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvtx-c.json"
             }
           },
           {
