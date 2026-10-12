@@ -7057,6 +7057,10 @@
           },
           {
             "source": "bash",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "bash",
             "target": "qt-scxml"
           },
           {
@@ -19018,6 +19022,10 @@
           {
             "source": "cmake",
             "target": "qt-positioning"
+          },
+          {
+            "source": "cmake",
+            "target": "qt-quick3d"
           },
           {
             "source": "cmake",
@@ -39453,6 +39461,10 @@
           },
           {
             "source": "libglvnd",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "libglvnd",
             "target": "qt-wayland"
           },
           {
@@ -45269,6 +45281,10 @@
           },
           {
             "source": "libtool",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "libtool",
             "target": "qt-scxml"
           },
           {
@@ -49297,10 +49313,6 @@
           },
           {
             "source": "libxcrypt",
-            "target": "pyside2"
-          },
-          {
-            "source": "libxcrypt",
             "target": "qt-3d"
           },
           {
@@ -49326,6 +49338,10 @@
           {
             "source": "libxcrypt",
             "target": "qt-networkauth"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "qt-quick3d"
           },
           {
             "source": "libxcrypt",
@@ -56470,6 +56486,10 @@
           {
             "source": "ninja",
             "target": "qt-positioning"
+          },
+          {
+            "source": "ninja",
+            "target": "qt-quick3d"
           },
           {
             "source": "ninja",
@@ -77157,6 +77177,10 @@
           },
           {
             "source": "qt-main",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "qt-main",
             "target": "qt-scxml"
           },
           {
@@ -77222,6 +77246,14 @@
           {
             "source": "qt-positioning",
             "target": "qgis"
+          },
+          {
+            "source": "qt-quick3d",
+            "target": "pyside2"
+          },
+          {
+            "source": "qt-quick3d",
+            "target": "qt-graphs"
           },
           {
             "source": "qt-scxml",
@@ -95385,6 +95417,10 @@
           },
           {
             "source": "vulkan-headers",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "vulkan-headers",
             "target": "qt-wayland"
           },
           {
@@ -95426,6 +95462,10 @@
           {
             "source": "vulkan-loader",
             "target": "qt-multimedia"
+          },
+          {
+            "source": "vulkan-loader",
+            "target": "qt-quick3d"
           },
           {
             "source": "vulkan-loader",
@@ -103465,11 +103505,11 @@
           },
           {
             "source": "zlib",
-            "target": "qt-graphs"
+            "target": "qt-main"
           },
           {
             "source": "zlib",
-            "target": "qt-main"
+            "target": "qt-quick3d"
           },
           {
             "source": "zlib",
@@ -114980,6 +115020,12 @@
             "id": "qt-positioning",
             "payload": {
               "__lazy_json__": "node_attrs/qt-positioning.json"
+            }
+          },
+          {
+            "id": "qt-quick3d",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-quick3d.json"
             }
           },
           {
