@@ -1586,6 +1586,10 @@
           },
           {
             "source": "astropy",
+            "target": "pint-pulsar"
+          },
+          {
+            "source": "astropy",
             "target": "pixell"
           },
           {
@@ -10134,10 +10138,6 @@
           },
           {
             "source": "contourpy",
-            "target": "enterprise_outliers"
-          },
-          {
-            "source": "contourpy",
             "target": "fluidimage"
           },
           {
@@ -10227,6 +10227,10 @@
           {
             "source": "contourpy",
             "target": "pdspy"
+          },
+          {
+            "source": "contourpy",
+            "target": "pint-pulsar"
           },
           {
             "source": "contourpy",
@@ -22610,6 +22614,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pint-pulsar"
+          },
+          {
+            "source": "matplotlib",
             "target": "pixell"
           },
           {
@@ -31666,6 +31674,10 @@
           },
           {
             "source": "numpy",
+            "target": "pint-pulsar"
+          },
+          {
+            "source": "numpy",
             "target": "piqp"
           },
           {
@@ -36374,10 +36386,6 @@
           },
           {
             "source": "pandas",
-            "target": "enterprise_outliers"
-          },
-          {
-            "source": "pandas",
             "target": "eo-learn-geometry"
           },
           {
@@ -36859,6 +36867,10 @@
           {
             "source": "pandas",
             "target": "piconnect"
+          },
+          {
+            "source": "pandas",
+            "target": "pint-pulsar"
           },
           {
             "source": "pandas",
@@ -38282,10 +38294,6 @@
           },
           {
             "source": "pillow",
-            "target": "enterprise_outliers"
-          },
-          {
-            "source": "pillow",
             "target": "eo-learn-geometry"
           },
           {
@@ -38679,6 +38687,10 @@
           {
             "source": "pillow",
             "target": "pillow-heif"
+          },
+          {
+            "source": "pillow",
+            "target": "pint-pulsar"
           },
           {
             "source": "pillow",
@@ -39239,6 +39251,14 @@
           {
             "source": "pinocchio",
             "target": "tsid"
+          },
+          {
+            "source": "pint-pulsar",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pint-pulsar",
+            "target": "enterprise_outliers"
           },
           {
             "source": "piqp",
@@ -56386,6 +56406,10 @@
           },
           {
             "source": "scipy",
+            "target": "pint-pulsar"
+          },
+          {
+            "source": "scipy",
             "target": "piqp"
           },
           {
@@ -62194,10 +62218,6 @@
           },
           {
             "source": "tornado",
-            "target": "enterprise_outliers"
-          },
-          {
-            "source": "tornado",
             "target": "fatiando"
           },
           {
@@ -62459,6 +62479,10 @@
           {
             "source": "tornado",
             "target": "pdspy"
+          },
+          {
+            "source": "tornado",
+            "target": "pint-pulsar"
           },
           {
             "source": "tornado",
@@ -78261,6 +78285,12 @@
             "id": "pinocchio",
             "payload": {
               "__lazy_json__": "node_attrs/pinocchio.json"
+            }
+          },
+          {
+            "id": "pint-pulsar",
+            "payload": {
+              "__lazy_json__": "node_attrs/pint-pulsar.json"
             }
           },
           {
