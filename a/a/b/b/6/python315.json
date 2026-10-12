@@ -67,12 +67,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/pycgtool.json"
             }
-          },
-          {
-            "id": "westpa",
-            "payload": {
-              "__lazy_json__": "node_attrs/westpa.json"
-            }
           }
         ]
       }
@@ -5582,6 +5576,10 @@
           {
             "source": "boost",
             "target": "sagelib"
+          },
+          {
+            "source": "boost",
+            "target": "scikit-geometry"
           },
           {
             "source": "boost",
@@ -23158,6 +23156,10 @@
           {
             "source": "matplotlib",
             "target": "scikit-digital-health"
+          },
+          {
+            "source": "matplotlib",
+            "target": "scikit-geometry"
           },
           {
             "source": "matplotlib",
@@ -53664,6 +53666,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "scikit-geometry",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "scikit-gstat",
             "target": "conda-forge-pinning"
           },
@@ -83112,6 +83118,12 @@
             "id": "scikit-garden",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-garden.json"
+            }
+          },
+          {
+            "id": "scikit-geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-geometry.json"
             }
           },
           {
