@@ -32311,6 +32311,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyhacrf-datamade"
+          },
+          {
+            "source": "numpy",
             "target": "pyhams"
           },
           {
@@ -44438,6 +44442,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyhacrf-datamade",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyhacrf-datamade",
+            "target": "dedupe"
+          },
+          {
             "source": "pyhams",
             "target": "conda-forge-pinning"
           },
@@ -44655,7 +44667,7 @@
           },
           {
             "source": "pylbfgs",
-            "target": "dedupe"
+            "target": "pyhacrf-datamade"
           },
           {
             "source": "pylbl",
@@ -79932,6 +79944,12 @@
             "id": "pygypsy",
             "payload": {
               "__lazy_json__": "node_attrs/pygypsy.json"
+            }
+          },
+          {
+            "id": "pyhacrf-datamade",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyhacrf-datamade.json"
             }
           },
           {
