@@ -828,10 +828,6 @@
             "target": "mypy"
           },
           {
-            "source": "ast-serialize",
-            "target": "sqlglot-mypy"
-          },
-          {
             "source": "astroid",
             "target": "pygame-ce"
           },
@@ -70452,10 +70448,6 @@
             "target": "mypy"
           },
           {
-            "source": "python-librt",
-            "target": "sqlglot-mypy"
-          },
-          {
             "source": "python-ligo-lw",
             "target": "bayeswave"
           },
@@ -74662,10 +74654,6 @@
           {
             "source": "python",
             "target": "sqlean.py"
-          },
-          {
-            "source": "python",
-            "target": "sqlglot-mypy"
           },
           {
             "source": "python",
@@ -118972,12 +118960,6 @@
             "id": "sqlean.py",
             "payload": {
               "__lazy_json__": "node_attrs/sqlean.py.json"
-            }
-          },
-          {
-            "id": "sqlglot-mypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/sqlglot-mypy.json"
             }
           },
           {
