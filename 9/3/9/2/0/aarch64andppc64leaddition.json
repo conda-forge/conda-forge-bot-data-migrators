@@ -7057,10 +7057,6 @@
           },
           {
             "source": "bash",
-            "target": "qt-quick3d"
-          },
-          {
-            "source": "bash",
             "target": "qt-scxml"
           },
           {
@@ -8006,10 +8002,6 @@
           {
             "source": "bash",
             "target": "r-mclust"
-          },
-          {
-            "source": "bash",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "bash",
@@ -11998,10 +11990,6 @@
           {
             "source": "blas",
             "target": "r-mclust"
-          },
-          {
-            "source": "blas",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "blas",
@@ -18541,7 +18529,7 @@
           },
           {
             "source": "cmake",
-            "target": "nvtx-c"
+            "target": "nvtx"
           },
           {
             "source": "cmake",
@@ -19030,10 +19018,6 @@
           {
             "source": "cmake",
             "target": "qt-positioning"
-          },
-          {
-            "source": "cmake",
-            "target": "qt-quick3d"
           },
           {
             "source": "cmake",
@@ -36549,10 +36533,6 @@
           },
           {
             "source": "lapack",
-            "target": "r-mcmcprecision"
-          },
-          {
-            "source": "lapack",
             "target": "r-mess"
           },
           {
@@ -39470,10 +39450,6 @@
           {
             "source": "libglvnd",
             "target": "qt-networkauth"
-          },
-          {
-            "source": "libglvnd",
-            "target": "qt-quick3d"
           },
           {
             "source": "libglvnd",
@@ -45293,10 +45269,6 @@
           },
           {
             "source": "libtool",
-            "target": "qt-quick3d"
-          },
-          {
-            "source": "libtool",
             "target": "qt-scxml"
           },
           {
@@ -46242,10 +46214,6 @@
           {
             "source": "libtool",
             "target": "r-mclust"
-          },
-          {
-            "source": "libtool",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "libtool",
@@ -49329,6 +49297,10 @@
           },
           {
             "source": "libxcrypt",
+            "target": "pyside2"
+          },
+          {
+            "source": "libxcrypt",
             "target": "qt-3d"
           },
           {
@@ -49354,10 +49326,6 @@
           {
             "source": "libxcrypt",
             "target": "qt-networkauth"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "qt-quick3d"
           },
           {
             "source": "libxcrypt",
@@ -56129,7 +56097,7 @@
           },
           {
             "source": "ninja",
-            "target": "nvtx-c"
+            "target": "nvtx"
           },
           {
             "source": "ninja",
@@ -56502,10 +56470,6 @@
           {
             "source": "ninja",
             "target": "qt-positioning"
-          },
-          {
-            "source": "ninja",
-            "target": "qt-quick3d"
           },
           {
             "source": "ninja",
@@ -59318,22 +59282,6 @@
           {
             "source": "nvmath",
             "target": "cuquantum"
-          },
-          {
-            "source": "nvtx-c",
-            "target": "libnvimgcodec"
-          },
-          {
-            "source": "nvtx-c",
-            "target": "nvtx"
-          },
-          {
-            "source": "nvtx-c",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "nvtx-c",
-            "target": "pytorch-cpu"
           },
           {
             "source": "obstore",
@@ -77209,10 +77157,6 @@
           },
           {
             "source": "qt-main",
-            "target": "qt-quick3d"
-          },
-          {
-            "source": "qt-main",
             "target": "qt-scxml"
           },
           {
@@ -77278,14 +77222,6 @@
           {
             "source": "qt-positioning",
             "target": "qgis"
-          },
-          {
-            "source": "qt-quick3d",
-            "target": "pyside2"
-          },
-          {
-            "source": "qt-quick3d",
-            "target": "qt-graphs"
           },
           {
             "source": "qt-scxml",
@@ -78458,10 +78394,6 @@
           {
             "source": "r-base",
             "target": "r-mclust"
-          },
-          {
-            "source": "r-base",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "r-base",
@@ -82957,10 +82889,6 @@
           },
           {
             "source": "r-matrix",
-            "target": "r-mcmcprecision"
-          },
-          {
-            "source": "r-matrix",
             "target": "r-mess"
           },
           {
@@ -83861,10 +83789,6 @@
           },
           {
             "source": "r-rcpparmadillo",
-            "target": "r-mcmcprecision"
-          },
-          {
-            "source": "r-rcpparmadillo",
             "target": "r-mess"
           },
           {
@@ -83946,10 +83870,6 @@
           {
             "source": "r-rcppeigen",
             "target": "r-marginaleffects"
-          },
-          {
-            "source": "r-rcppeigen",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "r-rcppeigen",
@@ -84270,10 +84190,6 @@
           {
             "source": "r-rcpp",
             "target": "r-marginaleffects"
-          },
-          {
-            "source": "r-rcpp",
-            "target": "r-mcmcprecision"
           },
           {
             "source": "r-rcpp",
@@ -95469,10 +95385,6 @@
           },
           {
             "source": "vulkan-headers",
-            "target": "qt-quick3d"
-          },
-          {
-            "source": "vulkan-headers",
             "target": "qt-wayland"
           },
           {
@@ -95514,10 +95426,6 @@
           {
             "source": "vulkan-loader",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "vulkan-loader",
-            "target": "qt-quick3d"
           },
           {
             "source": "vulkan-loader",
@@ -103557,11 +103465,11 @@
           },
           {
             "source": "zlib",
-            "target": "qt-main"
+            "target": "qt-graphs"
           },
           {
             "source": "zlib",
-            "target": "qt-quick3d"
+            "target": "qt-main"
           },
           {
             "source": "zlib",
@@ -112843,12 +112751,6 @@
             }
           },
           {
-            "id": "nvtx-c",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvtx-c.json"
-            }
-          },
-          {
             "id": "obstore",
             "payload": {
               "__lazy_json__": "node_attrs/obstore.json"
@@ -115081,12 +114983,6 @@
             }
           },
           {
-            "id": "qt-quick3d",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-quick3d.json"
-            }
-          },
-          {
             "id": "qt-scxml",
             "payload": {
               "__lazy_json__": "node_attrs/qt-scxml.json"
@@ -116542,12 +116438,6 @@
             "id": "r-mclust",
             "payload": {
               "__lazy_json__": "node_attrs/r-mclust.json"
-            }
-          },
-          {
-            "id": "r-mcmcprecision",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-mcmcprecision.json"
             }
           },
           {
