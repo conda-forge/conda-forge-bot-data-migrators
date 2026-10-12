@@ -26637,10 +26637,6 @@
           },
           {
             "source": "nlopt",
-            "target": "dartsim"
-          },
-          {
-            "source": "nlopt",
             "target": "gbs"
           },
           {
@@ -46588,6 +46584,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyromark",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyroomacoustics",
             "target": "conda-forge-pinning"
           },
@@ -60474,10 +60474,6 @@
           {
             "source": "tbb",
             "target": "damask"
-          },
-          {
-            "source": "tbb",
-            "target": "dartsim"
           },
           {
             "source": "tbb",
@@ -80938,6 +80934,12 @@
             "id": "pyrobuf",
             "payload": {
               "__lazy_json__": "node_attrs/pyrobuf.json"
+            }
+          },
+          {
+            "id": "pyromark",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyromark.json"
             }
           },
           {
