@@ -56,7 +56,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "mkl-service",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl-service.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -4116,6 +4123,10 @@
           },
           {
             "source": "minorminer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mkl-service",
             "target": "conda-forge-pinning"
           },
           {
@@ -9036,6 +9047,10 @@
           },
           {
             "source": "tbb",
+            "target": "mkl-service"
+          },
+          {
+            "source": "tbb",
             "target": "mlx"
           },
           {
@@ -12111,6 +12126,12 @@
             "id": "minorminer",
             "payload": {
               "__lazy_json__": "node_attrs/minorminer.json"
+            }
+          },
+          {
+            "id": "mkl-service",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl-service.json"
             }
           },
           {
