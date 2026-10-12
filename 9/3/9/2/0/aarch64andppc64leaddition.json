@@ -8009,6 +8009,10 @@
           },
           {
             "source": "bash",
+            "target": "r-mcmcprecision"
+          },
+          {
+            "source": "bash",
             "target": "r-memuse"
           },
           {
@@ -11994,6 +11998,10 @@
           {
             "source": "blas",
             "target": "r-mclust"
+          },
+          {
+            "source": "blas",
+            "target": "r-mcmcprecision"
           },
           {
             "source": "blas",
@@ -36533,6 +36541,10 @@
           },
           {
             "source": "lapack",
+            "target": "r-mcmcprecision"
+          },
+          {
+            "source": "lapack",
             "target": "r-mess"
           },
           {
@@ -46218,6 +46230,10 @@
           {
             "source": "libtool",
             "target": "r-mclust"
+          },
+          {
+            "source": "libtool",
+            "target": "r-mcmcprecision"
           },
           {
             "source": "libtool",
@@ -78409,6 +78425,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-mcmcprecision"
+          },
+          {
+            "source": "r-base",
             "target": "r-memuse"
           },
           {
@@ -82901,6 +82921,10 @@
           },
           {
             "source": "r-matrix",
+            "target": "r-mcmcprecision"
+          },
+          {
+            "source": "r-matrix",
             "target": "r-mess"
           },
           {
@@ -83801,6 +83825,10 @@
           },
           {
             "source": "r-rcpparmadillo",
+            "target": "r-mcmcprecision"
+          },
+          {
+            "source": "r-rcpparmadillo",
             "target": "r-mess"
           },
           {
@@ -83882,6 +83910,10 @@
           {
             "source": "r-rcppeigen",
             "target": "r-marginaleffects"
+          },
+          {
+            "source": "r-rcppeigen",
+            "target": "r-mcmcprecision"
           },
           {
             "source": "r-rcppeigen",
@@ -84202,6 +84234,10 @@
           {
             "source": "r-rcpp",
             "target": "r-marginaleffects"
+          },
+          {
+            "source": "r-rcpp",
+            "target": "r-mcmcprecision"
           },
           {
             "source": "r-rcpp",
@@ -116464,6 +116500,12 @@
             "id": "r-mclust",
             "payload": {
               "__lazy_json__": "node_attrs/r-mclust.json"
+            }
+          },
+          {
+            "id": "r-mcmcprecision",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-mcmcprecision.json"
             }
           },
           {
