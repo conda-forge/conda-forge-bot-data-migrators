@@ -3968,6 +3968,10 @@
           },
           {
             "source": "maturin",
+            "target": "pyromark"
+          },
+          {
+            "source": "maturin",
             "target": "python-bidi"
           },
           {
@@ -7564,6 +7568,10 @@
           },
           {
             "source": "pyroaring",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyromark",
             "target": "conda-forge-pinning"
           },
           {
@@ -13149,6 +13157,12 @@
             "id": "pyroaring",
             "payload": {
               "__lazy_json__": "node_attrs/pyroaring.json"
+            }
+          },
+          {
+            "id": "pyromark",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyromark.json"
             }
           },
           {
