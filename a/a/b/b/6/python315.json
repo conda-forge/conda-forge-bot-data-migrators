@@ -1586,10 +1586,6 @@
           },
           {
             "source": "astropy",
-            "target": "pint-pulsar"
-          },
-          {
-            "source": "astropy",
             "target": "pixell"
           },
           {
@@ -5563,10 +5559,6 @@
           {
             "source": "boost",
             "target": "sagelib"
-          },
-          {
-            "source": "boost",
-            "target": "scikit-geometry"
           },
           {
             "source": "boost",
@@ -10142,6 +10134,10 @@
           },
           {
             "source": "contourpy",
+            "target": "enterprise_outliers"
+          },
+          {
+            "source": "contourpy",
             "target": "fluidimage"
           },
           {
@@ -10231,10 +10227,6 @@
           {
             "source": "contourpy",
             "target": "pdspy"
-          },
-          {
-            "source": "contourpy",
-            "target": "pint-pulsar"
           },
           {
             "source": "contourpy",
@@ -22618,10 +22610,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "pint-pulsar"
-          },
-          {
-            "source": "matplotlib",
             "target": "pixell"
           },
           {
@@ -23143,10 +23131,6 @@
           {
             "source": "matplotlib",
             "target": "scikit-digital-health"
-          },
-          {
-            "source": "matplotlib",
-            "target": "scikit-geometry"
           },
           {
             "source": "matplotlib",
@@ -31682,10 +31666,6 @@
           },
           {
             "source": "numpy",
-            "target": "pint-pulsar"
-          },
-          {
-            "source": "numpy",
             "target": "piqp"
           },
           {
@@ -32283,10 +32263,6 @@
           {
             "source": "numpy",
             "target": "pygypsy"
-          },
-          {
-            "source": "numpy",
-            "target": "pyhacrf-datamade"
           },
           {
             "source": "numpy",
@@ -36398,6 +36374,10 @@
           },
           {
             "source": "pandas",
+            "target": "enterprise_outliers"
+          },
+          {
+            "source": "pandas",
             "target": "eo-learn-geometry"
           },
           {
@@ -36879,10 +36859,6 @@
           {
             "source": "pandas",
             "target": "piconnect"
-          },
-          {
-            "source": "pandas",
-            "target": "pint-pulsar"
           },
           {
             "source": "pandas",
@@ -38306,6 +38282,10 @@
           },
           {
             "source": "pillow",
+            "target": "enterprise_outliers"
+          },
+          {
+            "source": "pillow",
             "target": "eo-learn-geometry"
           },
           {
@@ -38699,10 +38679,6 @@
           {
             "source": "pillow",
             "target": "pillow-heif"
-          },
-          {
-            "source": "pillow",
-            "target": "pint-pulsar"
           },
           {
             "source": "pillow",
@@ -39263,14 +39239,6 @@
           {
             "source": "pinocchio",
             "target": "tsid"
-          },
-          {
-            "source": "pint-pulsar",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pint-pulsar",
-            "target": "enterprise_outliers"
           },
           {
             "source": "piqp",
@@ -44417,14 +44385,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyhacrf-datamade",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyhacrf-datamade",
-            "target": "dedupe"
-          },
-          {
             "source": "pyhams",
             "target": "conda-forge-pinning"
           },
@@ -44642,7 +44602,7 @@
           },
           {
             "source": "pylbfgs",
-            "target": "pyhacrf-datamade"
+            "target": "dedupe"
           },
           {
             "source": "pylbl",
@@ -46598,10 +46558,6 @@
           },
           {
             "source": "pyrobuf",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyromark",
             "target": "conda-forge-pinning"
           },
           {
@@ -53657,10 +53613,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "scikit-geometry",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "scikit-gstat",
             "target": "conda-forge-pinning"
           },
@@ -56431,10 +56383,6 @@
           {
             "source": "scipy",
             "target": "piff"
-          },
-          {
-            "source": "scipy",
-            "target": "pint-pulsar"
           },
           {
             "source": "scipy",
@@ -62246,6 +62194,10 @@
           },
           {
             "source": "tornado",
+            "target": "enterprise_outliers"
+          },
+          {
+            "source": "tornado",
             "target": "fatiando"
           },
           {
@@ -62507,10 +62459,6 @@
           {
             "source": "tornado",
             "target": "pdspy"
-          },
-          {
-            "source": "tornado",
-            "target": "pint-pulsar"
           },
           {
             "source": "tornado",
@@ -78316,12 +78264,6 @@
             }
           },
           {
-            "id": "pint-pulsar",
-            "payload": {
-              "__lazy_json__": "node_attrs/pint-pulsar.json"
-            }
-          },
-          {
             "id": "piqp",
             "payload": {
               "__lazy_json__": "node_attrs/piqp.json"
@@ -79930,12 +79872,6 @@
             }
           },
           {
-            "id": "pyhacrf-datamade",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyhacrf-datamade.json"
-            }
-          },
-          {
             "id": "pyhams",
             "payload": {
               "__lazy_json__": "node_attrs/pyhams.json"
@@ -80965,12 +80901,6 @@
             "id": "pyrobuf",
             "payload": {
               "__lazy_json__": "node_attrs/pyrobuf.json"
-            }
-          },
-          {
-            "id": "pyromark",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyromark.json"
             }
           },
           {
@@ -83113,12 +83043,6 @@
             "id": "scikit-garden",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-garden.json"
-            }
-          },
-          {
-            "id": "scikit-geometry",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikit-geometry.json"
             }
           },
           {
