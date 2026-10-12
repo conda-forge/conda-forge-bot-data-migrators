@@ -55,7 +55,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "solarutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/solarutils.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -59013,6 +59020,10 @@
             "target": "sofa-softrobotsinverse"
           },
           {
+            "source": "solarutils",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "solders",
             "target": "conda-forge-pinning"
           },
@@ -86643,6 +86654,12 @@
             "id": "pyobjc-framework-phase",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-phase.json"
+            }
+          },
+          {
+            "id": "solarutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/solarutils.json"
             }
           }
         ]
