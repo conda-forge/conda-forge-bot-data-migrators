@@ -57,6 +57,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "pendulum",
+            "payload": {
+              "__lazy_json__": "node_attrs/pendulum.json"
+            }
+          },
+          {
             "id": "pyqt",
             "payload": {
               "__lazy_json__": "node_attrs/pyqt.json"
@@ -24357,10 +24363,6 @@
           },
           {
             "source": "mpi4py",
-            "target": "mpifft4py"
-          },
-          {
-            "source": "mpi4py",
             "target": "mumps4py"
           },
           {
@@ -24494,10 +24496,6 @@
           {
             "source": "mpi4py",
             "target": "yggdrasil"
-          },
-          {
-            "source": "mpifft4py",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "mplcairo",
@@ -30954,10 +30952,6 @@
           {
             "source": "numpy",
             "target": "mpi4py-fft"
-          },
-          {
-            "source": "numpy",
-            "target": "mpifft4py"
           },
           {
             "source": "numpy",
@@ -44053,10 +44047,6 @@
           },
           {
             "source": "pyfftw",
-            "target": "mpifft4py"
-          },
-          {
-            "source": "pyfftw",
             "target": "pixell"
           },
           {
@@ -56121,10 +56111,6 @@
           },
           {
             "source": "scipy",
-            "target": "mpifft4py"
-          },
-          {
-            "source": "scipy",
             "target": "ms_deisotope"
           },
           {
@@ -61662,10 +61648,6 @@
           {
             "source": "time-machine",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "time-machine",
-            "target": "pendulum"
           },
           {
             "source": "timelib",
@@ -76446,12 +76428,6 @@
             "id": "mpi4py-fft",
             "payload": {
               "__lazy_json__": "node_attrs/mpi4py-fft.json"
-            }
-          },
-          {
-            "id": "mpifft4py",
-            "payload": {
-              "__lazy_json__": "node_attrs/mpifft4py.json"
             }
           },
           {
