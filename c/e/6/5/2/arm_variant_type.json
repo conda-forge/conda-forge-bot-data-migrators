@@ -624,6 +624,10 @@
           },
           {
             "source": "cupy",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "cupy",
             "target": "holoscan"
           },
           {
@@ -757,6 +761,10 @@
           {
             "source": "faiss-split",
             "target": "tsnecuda"
+          },
+          {
+            "source": "fastemriwaveforms",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "fcos",
@@ -1405,6 +1413,10 @@
           {
             "source": "openmpi",
             "target": "deepmd-kit"
+          },
+          {
+            "source": "openmpi",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "openmpi",
@@ -2339,6 +2351,12 @@
             "id": "faiss-split",
             "payload": {
               "__lazy_json__": "node_attrs/faiss-split.json"
+            }
+          },
+          {
+            "id": "fastemriwaveforms",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastemriwaveforms.json"
             }
           },
           {
