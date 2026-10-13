@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "yac",
+            "payload": {
+              "__lazy_json__": "node_attrs/yac.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -1074,6 +1081,10 @@
             "target": "triqs"
           },
           {
+            "source": "mpi4py",
+            "target": "yac"
+          },
+          {
             "source": "mpifx",
             "target": "conda-forge-pinning"
           },
@@ -1690,8 +1701,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "yac",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "yaxt",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "yaxt",
+            "target": "yac"
           },
           {
             "source": "zoltan",
@@ -2544,6 +2563,12 @@
             "id": "zoltan",
             "payload": {
               "__lazy_json__": "node_attrs/zoltan.json"
+            }
+          },
+          {
+            "id": "yac",
+            "payload": {
+              "__lazy_json__": "node_attrs/yac.json"
             }
           }
         ]
