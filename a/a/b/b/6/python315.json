@@ -55,7 +55,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "yac",
+            "payload": {
+              "__lazy_json__": "node_attrs/yac.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -24482,6 +24489,10 @@
           },
           {
             "source": "mpi4py",
+            "target": "yac"
+          },
+          {
+            "source": "mpi4py",
             "target": "yggdrasil"
           },
           {
@@ -34563,6 +34574,10 @@
           {
             "source": "numpy",
             "target": "xypattern"
+          },
+          {
+            "source": "numpy",
+            "target": "yac"
           },
           {
             "source": "numpy",
@@ -67329,6 +67344,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "yac",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "yaff",
             "target": "conda-forge-pinning"
           },
@@ -86645,6 +86664,12 @@
             "id": "solarutils",
             "payload": {
               "__lazy_json__": "node_attrs/solarutils.json"
+            }
+          },
+          {
+            "id": "yac",
+            "payload": {
+              "__lazy_json__": "node_attrs/yac.json"
             }
           }
         ]
