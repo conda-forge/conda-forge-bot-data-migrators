@@ -2595,6 +2595,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "backports.zstd",
             "target": "fatiando"
           },
           {
@@ -6316,6 +6320,10 @@
           {
             "source": "brotli",
             "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "brotli",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "brotli",
@@ -10831,6 +10839,10 @@
           },
           {
             "source": "cupy",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "cupy",
             "target": "holoscan"
           },
           {
@@ -13655,6 +13667,10 @@
           },
           {
             "source": "fastdtw",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fastemriwaveforms",
             "target": "conda-forge-pinning"
           },
           {
@@ -16644,6 +16660,10 @@
           {
             "source": "h5py",
             "target": "fabmos"
+          },
+          {
+            "source": "h5py",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "h5py",
@@ -24363,6 +24383,10 @@
           },
           {
             "source": "mpi4py",
+            "target": "mpifft4py"
+          },
+          {
+            "source": "mpi4py",
             "target": "mumps4py"
           },
           {
@@ -24496,6 +24520,10 @@
           {
             "source": "mpi4py",
             "target": "yggdrasil"
+          },
+          {
+            "source": "mpifft4py",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "mplcairo",
@@ -26900,6 +26928,10 @@
           {
             "source": "numba",
             "target": "endstate_correction"
+          },
+          {
+            "source": "numba",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "numba",
@@ -29315,6 +29347,10 @@
           },
           {
             "source": "numpy",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "numpy",
             "target": "faster-coco-eval"
           },
           {
@@ -30952,6 +30988,10 @@
           {
             "source": "numpy",
             "target": "mpi4py-fft"
+          },
+          {
+            "source": "numpy",
+            "target": "mpifft4py"
           },
           {
             "source": "numpy",
@@ -40627,6 +40667,10 @@
           },
           {
             "source": "psutil",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "psutil",
             "target": "fasttreeshap"
           },
           {
@@ -43399,6 +43443,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "pydantic-core",
             "target": "fatiando"
           },
           {
@@ -44044,6 +44092,10 @@
           {
             "source": "pyfftw",
             "target": "gstlal"
+          },
+          {
+            "source": "pyfftw",
+            "target": "mpifft4py"
           },
           {
             "source": "pyfftw",
@@ -52319,6 +52371,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "rpds-py",
             "target": "fatiando"
           },
           {
@@ -55379,6 +55435,10 @@
           },
           {
             "source": "scipy",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "scipy",
             "target": "fastshermanmorrison-pulsar"
           },
           {
@@ -56108,6 +56168,10 @@
           {
             "source": "scipy",
             "target": "mpi4jax"
+          },
+          {
+            "source": "scipy",
+            "target": "mpifft4py"
           },
           {
             "source": "scipy",
@@ -60548,6 +60612,10 @@
           {
             "source": "tbb",
             "target": "faiss-split"
+          },
+          {
+            "source": "tbb",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "tbb",
@@ -65091,6 +65159,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "wcwidth",
             "target": "fatiando"
           },
           {
@@ -66528,6 +66600,10 @@
           {
             "source": "wrapt",
             "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "wrapt",
+            "target": "fastemriwaveforms"
           },
           {
             "source": "wrapt",
@@ -72321,6 +72397,12 @@
             }
           },
           {
+            "id": "fastemriwaveforms",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastemriwaveforms.json"
+            }
+          },
+          {
             "id": "faster-coco-eval",
             "payload": {
               "__lazy_json__": "node_attrs/faster-coco-eval.json"
@@ -76428,6 +76510,12 @@
             "id": "mpi4py-fft",
             "payload": {
               "__lazy_json__": "node_attrs/mpi4py-fft.json"
+            }
+          },
+          {
+            "id": "mpifft4py",
+            "payload": {
+              "__lazy_json__": "node_attrs/mpifft4py.json"
             }
           },
           {
