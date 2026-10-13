@@ -259,12 +259,6 @@
             }
           },
           {
-            "id": "kokkos",
-            "payload": {
-              "__lazy_json__": "node_attrs/kokkos.json"
-            }
-          },
-          {
             "id": "libastra",
             "payload": {
               "__lazy_json__": "node_attrs/libastra.json"
@@ -975,6 +969,10 @@
           {
             "source": "libhwloc",
             "target": "gromacs"
+          },
+          {
+            "source": "libhwloc",
+            "target": "kokkos"
           },
           {
             "source": "libhwloc",
