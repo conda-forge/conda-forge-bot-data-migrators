@@ -5622,6 +5622,12 @@
             }
           },
           {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
+            }
+          },
+          {
             "id": "puma",
             "payload": {
               "__lazy_json__": "node_attrs/puma.json"
@@ -12743,6 +12749,7 @@
         "psy-view",
         "psycopg2",
         "ptufile",
+        "pulp",
         "puma",
         "py-lz4framed",
         "py-plumed",
