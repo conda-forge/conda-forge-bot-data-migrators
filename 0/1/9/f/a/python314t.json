@@ -3944,6 +3944,10 @@
           },
           {
             "source": "maturin",
+            "target": "pulp"
+          },
+          {
+            "source": "maturin",
             "target": "py-bip39-bindings"
           },
           {
@@ -5237,6 +5241,10 @@
           {
             "source": "numpy",
             "target": "ptufile"
+          },
+          {
+            "source": "numpy",
+            "target": "pulp"
           },
           {
             "source": "numpy",
@@ -6815,6 +6823,10 @@
             "target": "phasorpy"
           },
           {
+            "source": "pulp",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "py-bip39-bindings",
             "target": "conda-forge-pinning"
           },
@@ -7013,6 +7025,10 @@
           {
             "source": "pydantic-core",
             "target": "mne-lsl"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "pulp"
           },
           {
             "source": "pydantic-core",
@@ -12665,6 +12681,12 @@
             "id": "ptufile",
             "payload": {
               "__lazy_json__": "node_attrs/ptufile.json"
+            }
+          },
+          {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
             }
           },
           {
