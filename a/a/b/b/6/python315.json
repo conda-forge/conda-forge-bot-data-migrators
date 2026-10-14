@@ -31924,6 +31924,10 @@
           },
           {
             "source": "numpy",
+            "target": "pulp"
+          },
+          {
+            "source": "numpy",
             "target": "puma"
           },
           {
@@ -42059,6 +42063,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pulp",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pulsar-client",
             "target": "chromadb"
           },
@@ -43713,6 +43721,10 @@
           {
             "source": "pydantic-core",
             "target": "psi4"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "pulp"
           },
           {
             "source": "pydantic-core",
@@ -78943,6 +78955,12 @@
             "id": "public-wrappers",
             "payload": {
               "__lazy_json__": "node_attrs/public-wrappers.json"
+            }
+          },
+          {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
             }
           },
           {
