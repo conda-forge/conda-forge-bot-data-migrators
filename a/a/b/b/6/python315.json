@@ -58,6 +58,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/smqtk-classifier.json"
             }
+          },
+          {
+            "id": "polars-pairing",
+            "payload": {
+              "__lazy_json__": "node_attrs/polars-pairing.json"
+            }
           }
         ]
       }
@@ -39414,6 +39420,10 @@
           },
           {
             "source": "polars-ds",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "polars-pairing",
             "target": "conda-forge-pinning"
           },
           {
@@ -86767,6 +86777,12 @@
             "id": "yac",
             "payload": {
               "__lazy_json__": "node_attrs/yac.json"
+            }
+          },
+          {
+            "id": "polars-pairing",
+            "payload": {
+              "__lazy_json__": "node_attrs/polars-pairing.json"
             }
           }
         ]
