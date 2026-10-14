@@ -15281,6 +15281,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "google-cloud-sdk",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "google-compute-engine",
             "target": "conda-forge-pinning"
           },
@@ -73421,6 +73425,12 @@
             "id": "goofit-split",
             "payload": {
               "__lazy_json__": "node_attrs/goofit-split.json"
+            }
+          },
+          {
+            "id": "google-cloud-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-sdk.json"
             }
           },
           {
