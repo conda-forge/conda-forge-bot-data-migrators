@@ -14845,6 +14845,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "pulp"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "py-rattler"
           },
           {
@@ -19918,6 +19922,10 @@
           {
             "source": "coin-or-cbc",
             "target": "or-tools"
+          },
+          {
+            "source": "coin-or-cbc",
+            "target": "pulp"
           },
           {
             "source": "coin-or-cbc",
@@ -58841,6 +58849,10 @@
           },
           {
             "source": "numpy",
+            "target": "pulp"
+          },
+          {
+            "source": "numpy",
             "target": "py-rattler"
           },
           {
@@ -73882,6 +73894,10 @@
           {
             "source": "python",
             "target": "psycopg2"
+          },
+          {
+            "source": "python",
+            "target": "pulp"
           },
           {
             "source": "python",
@@ -114418,6 +114434,12 @@
             "id": "pugixml",
             "payload": {
               "__lazy_json__": "node_attrs/pugixml.json"
+            }
+          },
+          {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
             }
           },
           {
