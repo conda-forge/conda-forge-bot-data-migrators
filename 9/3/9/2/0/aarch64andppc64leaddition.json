@@ -18189,6 +18189,10 @@
           },
           {
             "source": "cmake",
+            "target": "libultrahdr"
+          },
+          {
+            "source": "cmake",
             "target": "libunicycle-footstep-planner"
           },
           {
@@ -40165,6 +40169,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "libultrahdr"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "libvips"
           },
           {
@@ -48480,6 +48488,10 @@
             "target": "emacs"
           },
           {
+            "source": "libultrahdr",
+            "target": "openimageio"
+          },
+          {
             "source": "libunicycle-footstep-planner",
             "target": "bipedal-locomotion-framework"
           },
@@ -55982,6 +55994,10 @@
           {
             "source": "ninja",
             "target": "libtommath"
+          },
+          {
+            "source": "ninja",
+            "target": "libultrahdr"
           },
           {
             "source": "ninja",
@@ -111792,6 +111808,12 @@
             "id": "libtree-sitter",
             "payload": {
               "__lazy_json__": "node_attrs/libtree-sitter.json"
+            }
+          },
+          {
+            "id": "libultrahdr",
+            "payload": {
+              "__lazy_json__": "node_attrs/libultrahdr.json"
             }
           },
           {
