@@ -221,6 +221,10 @@
           },
           {
             "source": "abseil-cpp",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "abseil-cpp",
             "target": "openvino"
           },
           {
@@ -3026,6 +3030,10 @@
           {
             "source": "automake",
             "target": "tensorflow"
+          },
+          {
+            "source": "automake",
+            "target": "tensorrt"
           },
           {
             "source": "automake",
@@ -9526,6 +9534,10 @@
           {
             "source": "bash",
             "target": "tensorflow"
+          },
+          {
+            "source": "bash",
+            "target": "tensorrt"
           },
           {
             "source": "bash",
@@ -22665,6 +22677,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "pennylane-lightning-gpu"
           },
           {
@@ -22701,6 +22717,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "tensorrt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "triton"
           },
           {
@@ -22722,6 +22742,10 @@
           {
             "source": "cuda-culibos",
             "target": "libnvimgcodec"
+          },
+          {
+            "source": "cuda-cuobjdump",
+            "target": "tensorrt"
           },
           {
             "source": "cuda-cuobjdump",
@@ -22790,6 +22814,10 @@
           {
             "source": "cuda-nvcc-impl",
             "target": "tensorflow"
+          },
+          {
+            "source": "cuda-nvcc-impl",
+            "target": "tensorrt"
           },
           {
             "source": "cuda-nvcc-impl",
@@ -22938,6 +22966,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "tensorflow"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "tensorrt"
           },
           {
             "source": "cuda-nvrtc",
@@ -41305,6 +41337,10 @@
           },
           {
             "source": "libprotobuf",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "libprotobuf",
             "target": "opencv"
           },
           {
@@ -47858,6 +47894,10 @@
           {
             "source": "libtool",
             "target": "tensorflow"
+          },
+          {
+            "source": "libtool",
+            "target": "tensorrt"
           },
           {
             "source": "libtool",
@@ -74997,6 +75037,10 @@
           },
           {
             "source": "python",
+            "target": "tensorrt"
+          },
+          {
+            "source": "python",
             "target": "tensorstore"
           },
           {
@@ -87189,6 +87233,10 @@
           },
           {
             "source": "re2",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "re2",
             "target": "or-tools"
           },
           {
@@ -89174,6 +89222,10 @@
           {
             "source": "s2n",
             "target": "awscrt"
+          },
+          {
+            "source": "safeint",
+            "target": "onnxruntime"
           },
           {
             "source": "safetensors",
@@ -92353,6 +92405,10 @@
           },
           {
             "source": "tar",
+            "target": "tensorrt"
+          },
+          {
+            "source": "tar",
             "target": "tiledb"
           },
           {
@@ -92482,6 +92538,10 @@
           {
             "source": "tensorflow",
             "target": "horovod"
+          },
+          {
+            "source": "tensorrt",
+            "target": "onnxruntime"
           },
           {
             "source": "tensorstore",
@@ -105949,6 +106009,10 @@
           },
           {
             "source": "zstd",
+            "target": "tensorrt"
+          },
+          {
+            "source": "zstd",
             "target": "thinc"
           },
           {
@@ -118803,6 +118867,12 @@
             }
           },
           {
+            "id": "safeint",
+            "payload": {
+              "__lazy_json__": "node_attrs/safeint.json"
+            }
+          },
+          {
             "id": "safetensors",
             "payload": {
               "__lazy_json__": "node_attrs/safetensors.json"
@@ -119670,6 +119740,12 @@
             "id": "tensorflow",
             "payload": {
               "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          },
+          {
+            "id": "tensorrt",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorrt.json"
             }
           },
           {
@@ -122615,6 +122691,7 @@
         "jom",
         "knem-headers",
         "pandoc",
+        "safeint",
         "sse2neon",
         "ucrt",
         "utfcpp"
