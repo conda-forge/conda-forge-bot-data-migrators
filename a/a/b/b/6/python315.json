@@ -52,14 +52,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "mkl_umath",
-            "payload": {
-              "__lazy_json__": "node_attrs/mkl_umath.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -10443,6 +10436,10 @@
           {
             "source": "coremltools",
             "target": "kraken-ocr"
+          },
+          {
+            "source": "coremltools",
+            "target": "onnxruntime"
           },
           {
             "source": "cornac",
