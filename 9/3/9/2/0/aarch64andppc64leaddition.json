@@ -44,7 +44,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "r-moire",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-moire.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -8086,6 +8093,10 @@
           {
             "source": "bash",
             "target": "r-modelmetrics"
+          },
+          {
+            "source": "bash",
+            "target": "r-moire"
           },
           {
             "source": "bash",
@@ -46421,6 +46432,10 @@
           },
           {
             "source": "libtool",
+            "target": "r-moire"
+          },
+          {
+            "source": "libtool",
             "target": "r-multicool"
           },
           {
@@ -78749,6 +78764,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-base",
             "target": "r-multicool"
           },
           {
@@ -80169,6 +80188,10 @@
           },
           {
             "source": "r-cli",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-cli",
             "target": "r-nmf"
           },
           {
@@ -80462,6 +80485,10 @@
           {
             "source": "r-colorspace",
             "target": "r-mice"
+          },
+          {
+            "source": "r-colorspace",
+            "target": "r-moire"
           },
           {
             "source": "r-colorspace",
@@ -80909,6 +80936,10 @@
           },
           {
             "source": "r-dplyr",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-dplyr",
             "target": "r-phylobase"
           },
           {
@@ -81158,6 +81189,10 @@
           {
             "source": "r-farver",
             "target": "r-mixtools"
+          },
+          {
+            "source": "r-farver",
+            "target": "r-moire"
           },
           {
             "source": "r-farver",
@@ -81582,6 +81617,10 @@
           {
             "source": "r-glue",
             "target": "r-mixtools"
+          },
+          {
+            "source": "r-glue",
+            "target": "r-moire"
           },
           {
             "source": "r-glue",
@@ -82130,6 +82169,10 @@
           {
             "source": "r-isoband",
             "target": "r-mice"
+          },
+          {
+            "source": "r-isoband",
+            "target": "r-moire"
           },
           {
             "source": "r-isoband",
@@ -83941,6 +83984,10 @@
           },
           {
             "source": "r-purrr",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-purrr",
             "target": "r-profvis"
           },
           {
@@ -84229,6 +84276,10 @@
           },
           {
             "source": "r-rcppparallel",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-rcppparallel",
             "target": "r-paralleldist"
           },
           {
@@ -84506,6 +84557,10 @@
           {
             "source": "r-rcpp",
             "target": "r-modelmetrics"
+          },
+          {
+            "source": "r-rcpp",
+            "target": "r-moire"
           },
           {
             "source": "r-rcpp",
@@ -85097,6 +85152,10 @@
           },
           {
             "source": "r-rlang",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-rlang",
             "target": "r-nmf"
           },
           {
@@ -85502,6 +85561,10 @@
           {
             "source": "r-s7",
             "target": "r-mice"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-moire"
           },
           {
             "source": "r-s7",
@@ -86389,6 +86452,10 @@
           },
           {
             "source": "r-tidyr",
+            "target": "r-moire"
+          },
+          {
+            "source": "r-tidyr",
             "target": "r-phylobase"
           },
           {
@@ -86650,6 +86717,10 @@
           {
             "source": "r-vctrs",
             "target": "r-mice"
+          },
+          {
+            "source": "r-vctrs",
+            "target": "r-moire"
           },
           {
             "source": "r-vctrs",
@@ -121165,6 +121236,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/skia.json"
             }
+          },
+          {
+            "id": "r-moire",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-moire.json"
+            }
           }
         ]
       }
@@ -122179,6 +122256,7 @@
         "r-mixomics",
         "r-mixtools",
         "r-mnormt",
+        "r-moire",
         "r-multicool",
         "r-mvnfast",
         "r-mvoutlier",
