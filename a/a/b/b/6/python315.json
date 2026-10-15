@@ -34027,10 +34027,6 @@
           },
           {
             "source": "numpy",
-            "target": "tensordict"
-          },
-          {
-            "source": "numpy",
             "target": "tensorflow"
           },
           {
@@ -35811,6 +35807,10 @@
           },
           {
             "source": "orjson",
+            "target": "pytorchrl"
+          },
+          {
+            "source": "orjson",
             "target": "reasonable"
           },
           {
@@ -35824,10 +35824,6 @@
           {
             "source": "orjson",
             "target": "smt"
-          },
-          {
-            "source": "orjson",
-            "target": "tensordict"
           },
           {
             "source": "orjson",
@@ -49043,10 +49039,6 @@
           },
           {
             "source": "pytorch-cpu",
-            "target": "tensordict"
-          },
-          {
-            "source": "pytorch-cpu",
             "target": "theseus-ai"
           },
           {
@@ -61432,14 +61424,6 @@
           {
             "source": "tensorboard-data-server",
             "target": "torchani"
-          },
-          {
-            "source": "tensordict",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tensordict",
-            "target": "pytorchrl"
           },
           {
             "source": "tensorflow",
@@ -84784,12 +84768,6 @@
             "id": "tensorboard-data-server",
             "payload": {
               "__lazy_json__": "node_attrs/tensorboard-data-server.json"
-            }
-          },
-          {
-            "id": "tensordict",
-            "payload": {
-              "__lazy_json__": "node_attrs/tensordict.json"
             }
           },
           {
