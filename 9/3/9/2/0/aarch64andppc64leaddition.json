@@ -7081,10 +7081,6 @@
           },
           {
             "source": "bash",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "bash",
             "target": "qt-webengine"
           },
           {
@@ -13078,10 +13074,6 @@
           {
             "source": "brotli",
             "target": "conda-standalone"
-          },
-          {
-            "source": "brotli",
-            "target": "connectorx"
           },
           {
             "source": "brotli",
@@ -19097,10 +19089,6 @@
           },
           {
             "source": "cmake",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "cmake",
             "target": "qt-webengine"
           },
           {
@@ -24833,10 +24821,6 @@
           },
           {
             "source": "dulwich",
-            "target": "connectorx"
-          },
-          {
-            "source": "dulwich",
             "target": "cwinpy"
           },
           {
@@ -27321,15 +27305,15 @@
           },
           {
             "source": "fontconfig",
+            "target": "pyside2"
+          },
+          {
+            "source": "fontconfig",
             "target": "python"
           },
           {
             "source": "fontconfig",
             "target": "qt-main"
-          },
-          {
-            "source": "fontconfig",
-            "target": "qt-wayland"
           },
           {
             "source": "fontconfig",
@@ -27645,15 +27629,15 @@
           },
           {
             "source": "freetype",
+            "target": "pyside2"
+          },
+          {
+            "source": "freetype",
             "target": "pyvips"
           },
           {
             "source": "freetype",
             "target": "qt-main"
-          },
-          {
-            "source": "freetype",
-            "target": "qt-wayland"
           },
           {
             "source": "freetype",
@@ -31009,6 +30993,10 @@
           },
           {
             "source": "glib",
+            "target": "pyside2"
+          },
+          {
+            "source": "glib",
             "target": "python-gfal2"
           },
           {
@@ -31018,10 +31006,6 @@
           {
             "source": "glib",
             "target": "qt-main"
-          },
-          {
-            "source": "glib",
-            "target": "qt-wayland"
           },
           {
             "source": "glib",
@@ -39597,10 +39581,6 @@
           },
           {
             "source": "libglvnd",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "libglvnd",
             "target": "qt-webengine"
           },
           {
@@ -45441,10 +45421,6 @@
           },
           {
             "source": "libtool",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "libtool",
             "target": "qt-webengine"
           },
           {
@@ -49477,6 +49453,10 @@
           },
           {
             "source": "libxcrypt",
+            "target": "pyside2"
+          },
+          {
+            "source": "libxcrypt",
             "target": "qt-3d"
           },
           {
@@ -49514,10 +49494,6 @@
           {
             "source": "libxcrypt",
             "target": "qt-sensors"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "qt-wayland"
           },
           {
             "source": "libxcrypt",
@@ -49625,11 +49601,11 @@
           },
           {
             "source": "libxkbcommon",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "libxkbcommon",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "libxkbcommon",
@@ -56682,10 +56658,6 @@
           {
             "source": "ninja",
             "target": "qt-sensors"
-          },
-          {
-            "source": "ninja",
-            "target": "qt-wayland"
           },
           {
             "source": "ninja",
@@ -77473,10 +77445,6 @@
           },
           {
             "source": "qt-main",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "qt-main",
             "target": "qt-webengine"
           },
           {
@@ -77545,10 +77513,6 @@
           },
           {
             "source": "qt-sensors",
-            "target": "pyside2"
-          },
-          {
-            "source": "qt-wayland",
             "target": "pyside2"
           },
           {
@@ -94969,10 +94933,6 @@
           },
           {
             "source": "uv",
-            "target": "connectorx"
-          },
-          {
-            "source": "uv",
             "target": "cwinpy"
           },
           {
@@ -95801,10 +95761,6 @@
           },
           {
             "source": "vulkan-headers",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "vulkan-headers",
             "target": "qt-webengine"
           },
           {
@@ -95846,10 +95802,6 @@
           {
             "source": "vulkan-loader",
             "target": "qt-quick3d"
-          },
-          {
-            "source": "vulkan-loader",
-            "target": "qt-wayland"
           },
           {
             "source": "vulkan-loader",
@@ -96493,11 +96445,11 @@
           },
           {
             "source": "wayland",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "wayland",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "wayland",
@@ -98149,10 +98101,6 @@
           },
           {
             "source": "xattr",
-            "target": "connectorx"
-          },
-          {
-            "source": "xattr",
             "target": "cwinpy"
           },
           {
@@ -99069,6 +99017,10 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "python"
           },
           {
@@ -99086,10 +99038,6 @@
           {
             "source": "xorg-libx11",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libx11",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libx11",
@@ -99353,6 +99301,10 @@
           },
           {
             "source": "xorg-libxcomposite",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxcomposite",
             "target": "qgis"
           },
           {
@@ -99366,10 +99318,6 @@
           {
             "source": "xorg-libxcomposite",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxcomposite",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxcomposite",
@@ -99645,6 +99593,10 @@
           },
           {
             "source": "xorg-libxext",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxext",
             "target": "qgis"
           },
           {
@@ -99658,10 +99610,6 @@
           {
             "source": "xorg-libxext",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxext",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxext",
@@ -100185,15 +100133,15 @@
           },
           {
             "source": "xorg-libxrandr",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxrandr",
             "target": "qt-main"
           },
           {
             "source": "xorg-libxrandr",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxrandr",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxrandr",
@@ -103925,10 +103873,6 @@
           },
           {
             "source": "zlib",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "zlib",
             "target": "qt-webengine"
           },
           {
@@ -104590,10 +104534,6 @@
           {
             "source": "zstandard",
             "target": "conda-standalone"
-          },
-          {
-            "source": "zstandard",
-            "target": "connectorx"
           },
           {
             "source": "zstandard",
@@ -115480,12 +115420,6 @@
             "id": "qt-sensors",
             "payload": {
               "__lazy_json__": "node_attrs/qt-sensors.json"
-            }
-          },
-          {
-            "id": "qt-wayland",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-wayland.json"
             }
           },
           {
