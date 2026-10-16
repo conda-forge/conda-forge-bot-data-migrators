@@ -60,6 +60,12 @@
             }
           },
           {
+            "id": "pollen-bmi088-imu-library",
+            "payload": {
+              "__lazy_json__": "node_attrs/pollen-bmi088-imu-library.json"
+            }
+          },
+          {
             "id": "yarp",
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
@@ -61481,10 +61487,6 @@
           {
             "source": "tibs",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tibs",
-            "target": "esptool"
           },
           {
             "source": "tibs",
