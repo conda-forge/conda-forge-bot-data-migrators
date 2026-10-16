@@ -57,7 +57,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "batoid",
+            "payload": {
+              "__lazy_json__": "node_attrs/batoid.json"
+            }
+          },
+          {
+            "id": "gammapy",
+            "payload": {
+              "__lazy_json__": "node_attrs/gammapy.json"
+            }
+          },
+          {
+            "id": "qpoint",
+            "payload": {
+              "__lazy_json__": "node_attrs/qpoint.json"
+            }
+          },
+          {
+            "id": "spherical-geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherical-geometry.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
