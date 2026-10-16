@@ -6287,10 +6287,6 @@
           },
           {
             "source": "bash",
-            "target": "ocamlbuild"
-          },
-          {
-            "source": "bash",
             "target": "occt"
           },
           {
@@ -26823,10 +26819,6 @@
           },
           {
             "source": "file",
-            "target": "ocamlbuild"
-          },
-          {
-            "source": "file",
             "target": "pnpm"
           },
           {
@@ -32556,6 +32548,10 @@
           {
             "source": "grep",
             "target": "ocaml"
+          },
+          {
+            "source": "grep",
+            "target": "ocaml-findlib"
           },
           {
             "source": "grep",
@@ -44567,10 +44563,6 @@
           },
           {
             "source": "libtool",
-            "target": "ocamlbuild"
-          },
-          {
-            "source": "libtool",
             "target": "occt"
           },
           {
@@ -52183,10 +52175,6 @@
           },
           {
             "source": "m4",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "m4",
             "target": "ppl"
           },
           {
@@ -59430,10 +59418,6 @@
             "target": "ocaml-menhir"
           },
           {
-            "source": "ocamlbuild",
-            "target": "ocaml-findlib"
-          },
-          {
             "source": "ocaml",
             "target": "ocaml-dune"
           },
@@ -59444,10 +59428,6 @@
           {
             "source": "ocaml",
             "target": "ocaml-menhir"
-          },
-          {
-            "source": "ocaml",
-            "target": "ocamlbuild"
           },
           {
             "source": "occt",
@@ -90387,6 +90367,10 @@
           },
           {
             "source": "sed",
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "sed",
             "target": "ocaml-menhir"
           },
           {
@@ -113136,12 +113120,6 @@
             "id": "ocaml-menhir",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-menhir.json"
-            }
-          },
-          {
-            "id": "ocamlbuild",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocamlbuild.json"
             }
           },
           {
