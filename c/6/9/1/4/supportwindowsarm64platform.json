@@ -42,28 +42,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "gendef",
-            "target": "dbus"
-          },
-          {
-            "source": "gendef",
-            "target": "fontconfig"
-          },
-          {
-            "source": "gendef",
-            "target": "libgpg-error"
-          },
-          {
-            "source": "gendef",
-            "target": "sed"
-          },
-          {
-            "source": "gendef",
-            "target": "soxr"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -106,12 +85,6 @@
             "id": "fontconfig",
             "payload": {
               "__lazy_json__": "node_attrs/fontconfig.json"
-            }
-          },
-          {
-            "id": "gendef",
-            "payload": {
-              "__lazy_json__": "node_attrs/gendef.json"
             }
           },
           {
@@ -199,12 +172,6 @@
             }
           },
           {
-            "id": "libtool",
-            "payload": {
-              "__lazy_json__": "node_attrs/libtool.json"
-            }
-          },
-          {
             "id": "liburing",
             "payload": {
               "__lazy_json__": "node_attrs/liburing.json"
@@ -214,12 +181,6 @@
             "id": "libvpx",
             "payload": {
               "__lazy_json__": "node_attrs/libvpx.json"
-            }
-          },
-          {
-            "id": "libxcrypt",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxcrypt.json"
             }
           },
           {
@@ -244,12 +205,6 @@
             "id": "ocl-icd",
             "payload": {
               "__lazy_json__": "node_attrs/ocl-icd.json"
-            }
-          },
-          {
-            "id": "patch",
-            "payload": {
-              "__lazy_json__": "node_attrs/patch.json"
             }
           },
           {
@@ -280,12 +235,6 @@
             "id": "seccomp-split",
             "payload": {
               "__lazy_json__": "node_attrs/seccomp-split.json"
-            }
-          },
-          {
-            "id": "sed",
-            "payload": {
-              "__lazy_json__": "node_attrs/sed.json"
             }
           },
           {
@@ -1169,11 +1118,11 @@
           },
           {
             "source": "fontconfig",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "fontconfig",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "fontconfig",
@@ -1237,11 +1186,11 @@
           },
           {
             "source": "freetype",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "freetype",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "freetype",
@@ -1381,11 +1330,11 @@
           },
           {
             "source": "glib",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "glib",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "glib",
@@ -1989,10 +1938,6 @@
           },
           {
             "source": "libglvnd",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "libglvnd",
             "target": "qt-webengine"
           },
           {
@@ -2553,11 +2498,11 @@
           },
           {
             "source": "libxkbcommon",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "libxkbcommon",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "libxkbcommon",
@@ -3689,10 +3634,6 @@
           },
           {
             "source": "qt-main",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "qt-main",
             "target": "qt-webengine"
           },
           {
@@ -3721,10 +3662,6 @@
           },
           {
             "source": "qt-sensors",
-            "target": "pyside2"
-          },
-          {
-            "source": "qt-wayland",
             "target": "pyside2"
           },
           {
@@ -4457,10 +4394,6 @@
           },
           {
             "source": "vulkan-headers",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "vulkan-headers",
             "target": "qt-webengine"
           },
           {
@@ -4501,10 +4434,6 @@
           },
           {
             "source": "vulkan-loader",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "vulkan-loader",
             "target": "qt-webengine"
           },
           {
@@ -4517,11 +4446,11 @@
           },
           {
             "source": "wayland",
-            "target": "qt-main"
+            "target": "pyside2"
           },
           {
             "source": "wayland",
-            "target": "qt-wayland"
+            "target": "qt-main"
           },
           {
             "source": "winpthreads",
@@ -4701,6 +4630,10 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "python"
           },
           {
@@ -4710,10 +4643,6 @@
           {
             "source": "xorg-libx11",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libx11",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libx11",
@@ -4785,15 +4714,15 @@
           },
           {
             "source": "xorg-libxcomposite",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxcomposite",
             "target": "qt-main"
           },
           {
             "source": "xorg-libxcomposite",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxcomposite",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxcursor",
@@ -4829,15 +4758,15 @@
           },
           {
             "source": "xorg-libxext",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxext",
             "target": "qt-main"
           },
           {
             "source": "xorg-libxext",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxext",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxext",
@@ -4889,15 +4818,15 @@
           },
           {
             "source": "xorg-libxrandr",
+            "target": "pyside2"
+          },
+          {
+            "source": "xorg-libxrandr",
             "target": "qt-main"
           },
           {
             "source": "xorg-libxrandr",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "xorg-libxrandr",
-            "target": "qt-wayland"
           },
           {
             "source": "xorg-libxrender",
@@ -5446,10 +5375,6 @@
           {
             "source": "zlib",
             "target": "qt-quick3d"
-          },
-          {
-            "source": "zlib",
-            "target": "qt-wayland"
           },
           {
             "source": "zlib",
@@ -7198,12 +7123,6 @@
             "id": "qt-sensors",
             "payload": {
               "__lazy_json__": "node_attrs/qt-sensors.json"
-            }
-          },
-          {
-            "id": "qt-wayland",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-wayland.json"
             }
           },
           {
