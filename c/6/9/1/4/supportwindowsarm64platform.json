@@ -44,20 +44,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "conda-deny",
-            "payload": {
-              "__lazy_json__": "node_attrs/conda-deny.json"
-            }
-          },
-          {
-            "id": "xbyak",
-            "payload": {
-              "__lazy_json__": "node_attrs/xbyak.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -194,6 +181,10 @@
           },
           {
             "source": "binutils",
+            "target": "soxr"
+          },
+          {
+            "source": "binutils",
             "target": "tbb"
           },
           {
@@ -322,6 +313,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "soxr"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "tbb"
           },
           {
@@ -410,6 +405,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "soxr"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "tbb"
           },
           {
@@ -459,6 +458,10 @@
           {
             "source": "compiler-rt",
             "target": "r-base"
+          },
+          {
+            "source": "compiler-rt",
+            "target": "soxr"
           },
           {
             "source": "compiler-rt",
@@ -1014,6 +1017,10 @@
           },
           {
             "source": "gendef",
+            "target": "soxr"
+          },
+          {
+            "source": "gendef",
             "target": "tbb"
           },
           {
@@ -1166,6 +1173,10 @@
           },
           {
             "source": "gmp",
+            "target": "soxr"
+          },
+          {
+            "source": "gmp",
             "target": "tbb"
           },
           {
@@ -1315,6 +1326,10 @@
           {
             "source": "isl",
             "target": "r-base"
+          },
+          {
+            "source": "isl",
+            "target": "soxr"
           },
           {
             "source": "isl",
@@ -1555,6 +1570,10 @@
           {
             "source": "libcxx",
             "target": "r-base"
+          },
+          {
+            "source": "libcxx",
+            "target": "soxr"
           },
           {
             "source": "libcxx",
@@ -1815,6 +1834,10 @@
           {
             "source": "libiconv",
             "target": "rsync"
+          },
+          {
+            "source": "libiconv",
+            "target": "soxr"
           },
           {
             "source": "libiconv",
@@ -2366,6 +2389,10 @@
           },
           {
             "source": "libxml2",
+            "target": "soxr"
+          },
+          {
+            "source": "libxml2",
             "target": "tbb"
           },
           {
@@ -2439,6 +2466,10 @@
           {
             "source": "llvmdev",
             "target": "r-base"
+          },
+          {
+            "source": "llvmdev",
+            "target": "soxr"
           },
           {
             "source": "llvmdev",
@@ -2534,6 +2565,10 @@
           },
           {
             "source": "mpc",
+            "target": "soxr"
+          },
+          {
+            "source": "mpc",
             "target": "tbb"
           },
           {
@@ -2575,6 +2610,10 @@
           {
             "source": "mpfr",
             "target": "r-base"
+          },
+          {
+            "source": "mpfr",
+            "target": "soxr"
           },
           {
             "source": "mpfr",
@@ -4090,6 +4129,10 @@
           },
           {
             "source": "ucrt",
+            "target": "soxr"
+          },
+          {
+            "source": "ucrt",
             "target": "tbb"
           },
           {
@@ -4247,6 +4290,10 @@
           {
             "source": "winpthreads",
             "target": "r-base"
+          },
+          {
+            "source": "winpthreads",
+            "target": "soxr"
           },
           {
             "source": "winpthreads",
@@ -5170,6 +5217,10 @@
           },
           {
             "source": "zlib",
+            "target": "soxr"
+          },
+          {
+            "source": "zlib",
             "target": "tbb"
           },
           {
@@ -5295,6 +5346,10 @@
           {
             "source": "zstd",
             "target": "rsync"
+          },
+          {
+            "source": "zstd",
+            "target": "soxr"
           },
           {
             "source": "zstd",
