@@ -27026,10 +27026,6 @@
             "target": "ocaml-num"
           },
           {
-            "source": "ocamlbuild",
-            "target": "ocaml-findlib"
-          },
-          {
             "source": "ocaml",
             "target": "ocaml-findlib"
           },
@@ -64809,12 +64805,6 @@
             }
           },
           {
-            "id": "ocamlbuild",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocamlbuild.json"
-            }
-          },
-          {
             "id": "occt",
             "payload": {
               "__lazy_json__": "node_attrs/occt.json"
@@ -75487,7 +75477,6 @@
         "nlohmann_json",
         "nspr",
         "nsync",
-        "ocamlbuild",
         "octomap",
         "oniguruma",
         "openblas",
