@@ -53,14 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "qt-wayland",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-wayland.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -398,14 +391,6 @@
           },
           {
             "source": "qt-sensors",
-            "target": "pyside2"
-          },
-          {
-            "source": "qt-wayland",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "qt-wayland",
             "target": "pyside2"
           },
           {
@@ -769,12 +754,6 @@
             "id": "qt-sensors",
             "payload": {
               "__lazy_json__": "node_attrs/qt-sensors.json"
-            }
-          },
-          {
-            "id": "qt-wayland",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-wayland.json"
             }
           },
           {
