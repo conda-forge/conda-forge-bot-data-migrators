@@ -54,18 +54,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aestream",
-            "payload": {
-              "__lazy_json__": "node_attrs/aestream.json"
-            }
-          },
-          {
-            "id": "bgslibrary",
-            "payload": {
-              "__lazy_json__": "node_attrs/bgslibrary.json"
-            }
-          },
-          {
             "id": "multineat",
             "payload": {
               "__lazy_json__": "node_attrs/multineat.json"
@@ -75,12 +63,6 @@
             "id": "pycontour",
             "payload": {
               "__lazy_json__": "node_attrs/pycontour.json"
-            }
-          },
-          {
-            "id": "pysteps",
-            "payload": {
-              "__lazy_json__": "node_attrs/pysteps.json"
             }
           },
           {
@@ -1580,19 +1562,11 @@
           },
           {
             "source": "astropy",
-            "target": "megaradrp"
-          },
-          {
-            "source": "astropy",
             "target": "mocpy"
           },
           {
             "source": "astropy",
             "target": "nomad-camels"
-          },
-          {
-            "source": "astropy",
-            "target": "numina"
           },
           {
             "source": "astropy",
@@ -1645,10 +1619,6 @@
           {
             "source": "astropy",
             "target": "pydl"
-          },
-          {
-            "source": "astropy",
-            "target": "pyemir"
           },
           {
             "source": "astropy",
@@ -22388,10 +22358,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "megaradrp"
-          },
-          {
-            "source": "matplotlib",
             "target": "memprof"
           },
           {
@@ -22529,10 +22495,6 @@
           {
             "source": "matplotlib",
             "target": "numcosmo"
-          },
-          {
-            "source": "matplotlib",
-            "target": "numina"
           },
           {
             "source": "matplotlib",
@@ -22809,10 +22771,6 @@
           {
             "source": "matplotlib",
             "target": "pydpc"
-          },
-          {
-            "source": "matplotlib",
-            "target": "pyemir"
           },
           {
             "source": "matplotlib",
@@ -23765,10 +23723,6 @@
           {
             "source": "meds",
             "target": "ngmix"
-          },
-          {
-            "source": "megaradrp",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "meinheld",
@@ -27587,18 +27541,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "numina",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "numina",
-            "target": "megaradrp"
-          },
-          {
-            "source": "numina",
-            "target": "pyemir"
-          },
-          {
             "source": "numpoly",
             "target": "conda-forge-pinning"
           },
@@ -30780,10 +30722,6 @@
           },
           {
             "source": "numpy",
-            "target": "megaradrp"
-          },
-          {
-            "source": "numpy",
             "target": "meld"
           },
           {
@@ -31245,10 +31183,6 @@
           {
             "source": "numpy",
             "target": "numexpr"
-          },
-          {
-            "source": "numpy",
-            "target": "numina"
           },
           {
             "source": "numpy",
@@ -32121,10 +32055,6 @@
           {
             "source": "numpy",
             "target": "pyemd"
-          },
-          {
-            "source": "numpy",
-            "target": "pyemir"
           },
           {
             "source": "numpy",
@@ -38036,10 +37966,6 @@
           },
           {
             "source": "photutils",
-            "target": "pyemir"
-          },
-          {
-            "source": "photutils",
             "target": "stackvana-core"
           },
           {
@@ -38588,10 +38514,6 @@
           },
           {
             "source": "pillow",
-            "target": "megaradrp"
-          },
-          {
-            "source": "pillow",
             "target": "menpo3d"
           },
           {
@@ -38673,10 +38595,6 @@
           {
             "source": "pillow",
             "target": "nomad-camels"
-          },
-          {
-            "source": "pillow",
-            "target": "numina"
           },
           {
             "source": "pillow",
@@ -38805,10 +38723,6 @@
           {
             "source": "pillow",
             "target": "pycontrails"
-          },
-          {
-            "source": "pillow",
-            "target": "pyemir"
           },
           {
             "source": "pillow",
@@ -43984,10 +43898,6 @@
           },
           {
             "source": "pyemd",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyemir",
             "target": "conda-forge-pinning"
           },
           {
@@ -51956,10 +51866,6 @@
           },
           {
             "source": "reproject",
-            "target": "pyemir"
-          },
-          {
-            "source": "reproject",
             "target": "rapid-pe"
           },
           {
@@ -52489,10 +52395,6 @@
           {
             "source": "rpds-py",
             "target": "litellm"
-          },
-          {
-            "source": "rpds-py",
-            "target": "megaradrp"
           },
           {
             "source": "rpds-py",
@@ -54193,10 +54095,6 @@
           {
             "source": "scikit-learn",
             "target": "pycontrails"
-          },
-          {
-            "source": "scikit-learn",
-            "target": "pyemir"
           },
           {
             "source": "scikit-learn",
@@ -56048,10 +55946,6 @@
           },
           {
             "source": "scipy",
-            "target": "megaradrp"
-          },
-          {
-            "source": "scipy",
             "target": "meld"
           },
           {
@@ -56273,10 +56167,6 @@
           {
             "source": "scipy",
             "target": "numcosmo"
-          },
-          {
-            "source": "scipy",
-            "target": "numina"
           },
           {
             "source": "scipy",
@@ -56657,10 +56547,6 @@
           {
             "source": "scipy",
             "target": "pyearth"
-          },
-          {
-            "source": "scipy",
-            "target": "pyemir"
           },
           {
             "source": "scipy",
@@ -58033,10 +57919,6 @@
           {
             "source": "sep",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sep",
-            "target": "pyemir"
           },
           {
             "source": "setproctitle",
@@ -76024,12 +75906,6 @@
             }
           },
           {
-            "id": "megaradrp",
-            "payload": {
-              "__lazy_json__": "node_attrs/megaradrp.json"
-            }
-          },
-          {
             "id": "meinheld",
             "payload": {
               "__lazy_json__": "node_attrs/meinheld.json"
@@ -77119,12 +76995,6 @@
             "id": "numexpr",
             "payload": {
               "__lazy_json__": "node_attrs/numexpr.json"
-            }
-          },
-          {
-            "id": "numina",
-            "payload": {
-              "__lazy_json__": "node_attrs/numina.json"
             }
           },
           {
@@ -79549,12 +79419,6 @@
             "id": "pyemd",
             "payload": {
               "__lazy_json__": "node_attrs/pyemd.json"
-            }
-          },
-          {
-            "id": "pyemir",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyemir.json"
             }
           },
           {
