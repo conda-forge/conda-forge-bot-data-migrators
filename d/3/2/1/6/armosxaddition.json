@@ -4879,19 +4879,11 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "ocaml-num"
+            "target": "ocaml"
           },
           {
             "source": "clang-compiler-activation",
             "target": "r-base"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "scilab"
           },
           {
             "source": "clarabel",
@@ -20043,15 +20035,7 @@
           },
           {
             "source": "lld",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "lld",
-            "target": "ocaml-num"
-          },
-          {
-            "source": "lld",
-            "target": "scilab"
+            "target": "ocaml"
           },
           {
             "source": "llvm-spirv",
@@ -20247,11 +20231,7 @@
           },
           {
             "source": "llvmdev",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml-num"
+            "target": "ocaml"
           },
           {
             "source": "llvmdev",
@@ -27048,6 +27028,18 @@
           {
             "source": "ocamlbuild",
             "target": "ocaml-findlib"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-num"
+          },
+          {
+            "source": "ocaml",
+            "target": "scilab"
           },
           {
             "source": "occt",
@@ -56687,11 +56679,7 @@
           },
           {
             "source": "zstd",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "zstd",
-            "target": "ocaml-num"
+            "target": "ocaml"
           },
           {
             "source": "zstd",
@@ -64800,6 +64788,12 @@
             "id": "obstore",
             "payload": {
               "__lazy_json__": "node_attrs/obstore.json"
+            }
+          },
+          {
+            "id": "ocaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml.json"
             }
           },
           {
