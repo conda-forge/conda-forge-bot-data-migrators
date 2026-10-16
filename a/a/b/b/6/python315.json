@@ -55,9 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "mshr",
+            "id": "pyfes",
             "payload": {
-              "__lazy_json__": "node_attrs/mshr.json"
+              "__lazy_json__": "node_attrs/pyfes.json"
             }
           }
         ]
@@ -1889,6 +1889,10 @@
           {
             "source": "autodiff",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "autodiff",
+            "target": "gems3k"
           },
           {
             "source": "autodiff",
