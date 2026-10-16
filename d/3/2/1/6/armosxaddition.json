@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ocaml-findlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-findlib.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -4879,11 +4886,19 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "ocaml"
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "ocaml-num"
           },
           {
             "source": "clang-compiler-activation",
             "target": "r-base"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "scilab"
           },
           {
             "source": "clarabel",
@@ -20035,7 +20050,15 @@
           },
           {
             "source": "lld",
-            "target": "ocaml"
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "lld",
+            "target": "ocaml-num"
+          },
+          {
+            "source": "lld",
+            "target": "scilab"
           },
           {
             "source": "llvm-spirv",
@@ -20231,7 +20254,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "ocaml"
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ocaml-num"
           },
           {
             "source": "llvmdev",
@@ -27024,18 +27051,6 @@
           {
             "source": "ocaml-findlib",
             "target": "ocaml-num"
-          },
-          {
-            "source": "ocaml",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "ocaml",
-            "target": "ocaml-num"
-          },
-          {
-            "source": "ocaml",
-            "target": "scilab"
           },
           {
             "source": "occt",
@@ -56675,7 +56690,11 @@
           },
           {
             "source": "zstd",
-            "target": "ocaml"
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "zstd",
+            "target": "ocaml-num"
           },
           {
             "source": "zstd",
@@ -64784,12 +64803,6 @@
             "id": "obstore",
             "payload": {
               "__lazy_json__": "node_attrs/obstore.json"
-            }
-          },
-          {
-            "id": "ocaml",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml.json"
             }
           },
           {
