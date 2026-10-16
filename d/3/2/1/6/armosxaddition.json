@@ -35,6 +35,7 @@
               "linux-sysroot",
               "m2w64-sysroot",
               "microarch-level",
+              "ocaml",
               "openmp",
               "osx-sysroot",
               "symlink-exe-substitute",
@@ -79,6 +80,7 @@
               "linux-sysroot",
               "m2w64-sysroot",
               "microarch-level",
+              "ocaml",
               "openmp",
               "osx-sysroot",
               "symlink-exe-substitute",
@@ -1378,14 +1380,6 @@
           {
             "source": "binutils",
             "target": "nim"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-num"
           },
           {
             "source": "binutils",
@@ -4885,6 +4879,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "ocaml"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "r-base"
           },
           {
@@ -5434,18 +5432,6 @@
           {
             "source": "compilers",
             "target": "nuitka"
-          },
-          {
-            "source": "compilers",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "compilers",
-            "target": "ocaml-num"
-          },
-          {
-            "source": "compilers",
-            "target": "scilab"
           },
           {
             "source": "conda-bash-completion",
@@ -15925,6 +15911,10 @@
           },
           {
             "source": "libcxx",
+            "target": "lld"
+          },
+          {
+            "source": "libcxx",
             "target": "llvmdev"
           },
           {
@@ -19613,6 +19603,10 @@
           },
           {
             "source": "libxml2",
+            "target": "lld"
+          },
+          {
+            "source": "libxml2",
             "target": "llvmdev"
           },
           {
@@ -20040,6 +20034,10 @@
             "target": "llama-cpp-python"
           },
           {
+            "source": "lld",
+            "target": "ocaml"
+          },
+          {
             "source": "llvm-spirv",
             "target": "libclc"
           },
@@ -20193,6 +20191,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "lld"
+          },
+          {
+            "source": "llvmdev",
             "target": "llvm-spirv"
           },
           {
@@ -20226,6 +20228,10 @@
           {
             "source": "llvmdev",
             "target": "nim"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ocaml"
           },
           {
             "source": "llvmdev",
@@ -27022,6 +27028,18 @@
           {
             "source": "ocamlbuild",
             "target": "ocaml-findlib"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-num"
+          },
+          {
+            "source": "ocaml",
+            "target": "scilab"
           },
           {
             "source": "occt",
@@ -55409,6 +55427,10 @@
           },
           {
             "source": "zlib",
+            "target": "lld"
+          },
+          {
+            "source": "zlib",
             "target": "llvm-spirv"
           },
           {
@@ -56589,6 +56611,10 @@
           },
           {
             "source": "zstd",
+            "target": "lld"
+          },
+          {
+            "source": "zstd",
             "target": "llvmdev"
           },
           {
@@ -56653,11 +56679,7 @@
           },
           {
             "source": "zstd",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "zstd",
-            "target": "ocaml-num"
+            "target": "ocaml"
           },
           {
             "source": "zstd",
@@ -63515,6 +63537,12 @@
             }
           },
           {
+            "id": "lld",
+            "payload": {
+              "__lazy_json__": "node_attrs/lld.json"
+            }
+          },
+          {
             "id": "llist",
             "payload": {
               "__lazy_json__": "node_attrs/llist.json"
@@ -64760,6 +64788,12 @@
             "id": "obstore",
             "payload": {
               "__lazy_json__": "node_attrs/obstore.json"
+            }
+          },
+          {
+            "id": "ocaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml.json"
             }
           },
           {
