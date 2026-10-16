@@ -140,6 +140,10 @@
             "target": "r-base"
           },
           {
+            "source": "binutils",
+            "target": "soxr"
+          },
+          {
             "source": "blas",
             "target": "gsl"
           },
@@ -240,6 +244,10 @@
             "target": "r-base"
           },
           {
+            "source": "cctools-and-ld64",
+            "target": "soxr"
+          },
+          {
             "source": "cffi",
             "target": "argon2-cffi-bindings"
           },
@@ -270,6 +278,10 @@
           {
             "source": "compiler-rt",
             "target": "r-base"
+          },
+          {
+            "source": "compiler-rt",
+            "target": "soxr"
           },
           {
             "source": "conda",
@@ -636,6 +648,10 @@
             "target": "r-base"
           },
           {
+            "source": "gmp",
+            "target": "soxr"
+          },
+          {
             "source": "gobject-introspection",
             "target": "harfbuzz"
           },
@@ -742,6 +758,10 @@
           {
             "source": "isl",
             "target": "r-base"
+          },
+          {
+            "source": "isl",
+            "target": "soxr"
           },
           {
             "source": "jack",
@@ -854,6 +874,10 @@
           {
             "source": "libcxx",
             "target": "r-base"
+          },
+          {
+            "source": "libcxx",
+            "target": "soxr"
           },
           {
             "source": "libdeflate",
@@ -1010,6 +1034,10 @@
           {
             "source": "libiconv",
             "target": "rsync"
+          },
+          {
+            "source": "libiconv",
+            "target": "soxr"
           },
           {
             "source": "libjpeg-turbo",
@@ -1401,6 +1429,10 @@
           },
           {
             "source": "libxml2",
+            "target": "soxr"
+          },
+          {
+            "source": "libxml2",
             "target": "tbb"
           },
           {
@@ -1430,6 +1462,10 @@
           {
             "source": "llvmdev",
             "target": "r-base"
+          },
+          {
+            "source": "llvmdev",
+            "target": "soxr"
           },
           {
             "source": "lz4-c",
@@ -1480,6 +1516,10 @@
             "target": "r-base"
           },
           {
+            "source": "mpc",
+            "target": "soxr"
+          },
+          {
             "source": "mpdecimal",
             "target": "python"
           },
@@ -1494,6 +1534,10 @@
           {
             "source": "mpfr",
             "target": "r-base"
+          },
+          {
+            "source": "mpfr",
+            "target": "soxr"
           },
           {
             "source": "mpg123",
@@ -1666,6 +1710,10 @@
           {
             "source": "openmp",
             "target": "r-base"
+          },
+          {
+            "source": "openmp",
+            "target": "soxr"
           },
           {
             "source": "openpmix",
@@ -2640,6 +2688,10 @@
             "target": "r-base"
           },
           {
+            "source": "winpthreads",
+            "target": "soxr"
+          },
+          {
             "source": "wrapt",
             "target": "conda-forge-ci-setup"
           },
@@ -3253,6 +3305,10 @@
           },
           {
             "source": "zlib",
+            "target": "soxr"
+          },
+          {
+            "source": "zlib",
             "target": "sqlite"
           },
           {
@@ -3342,6 +3398,10 @@
           {
             "source": "zstd",
             "target": "rsync"
+          },
+          {
+            "source": "zstd",
+            "target": "soxr"
           },
           {
             "source": "zstd",
@@ -5299,7 +5359,6 @@
         "rocm-core",
         "sed",
         "simdjson",
-        "soxr",
         "spirv-tools",
         "svt-av1",
         "tapi",
