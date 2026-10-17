@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "qe",
+            "payload": {
+              "__lazy_json__": "node_attrs/qe.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -264,6 +271,10 @@
             "target": "gpaw"
           },
           {
+            "source": "elpa",
+            "target": "qe"
+          },
+          {
             "source": "elsi",
             "target": "conda-forge-pinning"
           },
@@ -414,6 +425,10 @@
           {
             "source": "fftw",
             "target": "pymeep"
+          },
+          {
+            "source": "fftw",
+            "target": "qe"
           },
           {
             "source": "fftw",
@@ -678,6 +693,10 @@
           {
             "source": "hdf5",
             "target": "pymeep"
+          },
+          {
+            "source": "hdf5",
+            "target": "qe"
           },
           {
             "source": "hdf5",
@@ -1404,6 +1423,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "qe",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "qpad",
             "target": "conda-forge-pinning"
           },
@@ -1486,6 +1509,10 @@
           {
             "source": "scalapack",
             "target": "petsc"
+          },
+          {
+            "source": "scalapack",
+            "target": "qe"
           },
           {
             "source": "scalapack",
@@ -2396,6 +2423,12 @@
             "id": "pymeep",
             "payload": {
               "__lazy_json__": "node_attrs/pymeep.json"
+            }
+          },
+          {
+            "id": "qe",
+            "payload": {
+              "__lazy_json__": "node_attrs/qe.json"
             }
           },
           {
