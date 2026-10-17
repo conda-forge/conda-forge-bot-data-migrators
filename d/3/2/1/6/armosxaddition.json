@@ -22439,6 +22439,10 @@
           },
           {
             "source": "mpich",
+            "target": "qe"
+          },
+          {
+            "source": "mpich",
             "target": "scalapack"
           },
           {
@@ -55916,6 +55920,10 @@
           {
             "source": "zlib",
             "target": "pytorch-cpu"
+          },
+          {
+            "source": "zlib",
+            "target": "qe"
           },
           {
             "source": "zlib",
