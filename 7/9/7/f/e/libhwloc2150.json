@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "libnvshmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvshmem.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
