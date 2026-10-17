@@ -61,12 +61,6 @@
             }
           },
           {
-            "id": "cmac",
-            "payload": {
-              "__lazy_json__": "node_attrs/cmac.json"
-            }
-          },
-          {
             "id": "dspsr",
             "payload": {
               "__lazy_json__": "node_attrs/dspsr.json"
@@ -91,12 +85,6 @@
             }
           },
           {
-            "id": "jellyfish",
-            "payload": {
-              "__lazy_json__": "node_attrs/jellyfish.json"
-            }
-          },
-          {
             "id": "ldcpy",
             "payload": {
               "__lazy_json__": "node_attrs/ldcpy.json"
@@ -106,12 +94,6 @@
             "id": "macro-kit",
             "payload": {
               "__lazy_json__": "node_attrs/macro-kit.json"
-            }
-          },
-          {
-            "id": "ormsgpack",
-            "payload": {
-              "__lazy_json__": "node_attrs/ormsgpack.json"
             }
           },
           {
@@ -139,12 +121,6 @@
             }
           },
           {
-            "id": "pyrad_arm",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyrad_arm.json"
-            }
-          },
-          {
             "id": "reproject",
             "payload": {
               "__lazy_json__": "node_attrs/reproject.json"
@@ -166,12 +142,6 @@
             "id": "turbodbc",
             "payload": {
               "__lazy_json__": "node_attrs/turbodbc.json"
-            }
-          },
-          {
-            "id": "uxsim",
-            "payload": {
-              "__lazy_json__": "node_attrs/uxsim.json"
             }
           },
           {
@@ -43784,6 +43754,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "rpaframework"
+          },
+          {
+            "source": "pydantic-core",
             "target": "sage"
           },
           {
@@ -52665,10 +52639,6 @@
           {
             "source": "rpds-py",
             "target": "rosco"
-          },
-          {
-            "source": "rpds-py",
-            "target": "rpaframework"
           },
           {
             "source": "rpds-py",
