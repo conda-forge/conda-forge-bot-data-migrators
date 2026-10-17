@@ -6275,6 +6275,10 @@
           },
           {
             "source": "bash",
+            "target": "ocaml"
+          },
+          {
+            "source": "bash",
             "target": "ocaml-cppo"
           },
           {
@@ -6284,10 +6288,6 @@
           {
             "source": "bash",
             "target": "ocaml-findlib"
-          },
-          {
-            "source": "bash",
-            "target": "ocaml-menhir"
           },
           {
             "source": "bash",
@@ -11007,23 +11007,7 @@
           },
           {
             "source": "binutils",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "binutils",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "binutils",
@@ -14043,23 +14027,7 @@
           },
           {
             "source": "capstone",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "capstone",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "capstone",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "capstone",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "capstone",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "cargo-auditable",
@@ -15623,23 +15591,7 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "cctools-and-ld64",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "cctools-and-ld64",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "cctools-and-ld64",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "cctools-and-ld64",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "cctools-and-ld64",
@@ -18635,23 +18587,7 @@
           },
           {
             "source": "cmake",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "cmake",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "cmake",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "cmake",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "cmake",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "cmake",
@@ -20479,23 +20415,7 @@
           },
           {
             "source": "compiler-rt",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "compiler-rt",
@@ -22011,23 +21931,7 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "ctng-compilers",
@@ -26911,15 +26815,15 @@
           },
           {
             "source": "file",
+            "target": "ocaml"
+          },
+          {
+            "source": "file",
             "target": "ocaml-cppo"
           },
           {
             "source": "file",
             "target": "ocaml-dune"
-          },
-          {
-            "source": "file",
-            "target": "ocaml-findlib"
           },
           {
             "source": "file",
@@ -26943,23 +26847,7 @@
           },
           {
             "source": "findutils",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "findutils",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "findutils",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "findutils",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "findutils",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "fiona",
@@ -27903,23 +27791,11 @@
           },
           {
             "source": "gawk",
+            "target": "ocaml"
+          },
+          {
+            "source": "gawk",
             "target": "ocaml-cppo"
-          },
-          {
-            "source": "gawk",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "gawk",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "gawk",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "gawk",
-            "target": "ocamlbuild"
           },
           {
             "source": "gawk",
@@ -28467,23 +28343,7 @@
           },
           {
             "source": "gendef",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "gendef",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "gendef",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "gendef",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "gendef",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "gendef",
@@ -29431,23 +29291,7 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -30015,23 +29859,7 @@
           },
           {
             "source": "gfortran_osx-64",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "gfortran_osx-64",
@@ -30607,23 +30435,7 @@
           },
           {
             "source": "git",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "git",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "git",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "git",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "git",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "git",
@@ -31103,23 +30915,7 @@
           },
           {
             "source": "glib",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "glib",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "glib",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "glib",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "glib",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "glib",
@@ -32771,23 +32567,15 @@
           },
           {
             "source": "grep",
+            "target": "ocaml"
+          },
+          {
+            "source": "grep",
             "target": "ocaml-cppo"
           },
           {
             "source": "grep",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "grep",
             "target": "ocaml-findlib"
-          },
-          {
-            "source": "grep",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "grep",
-            "target": "ocamlbuild"
           },
           {
             "source": "grep",
@@ -38695,23 +38483,7 @@
           },
           {
             "source": "libcxx",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "libcxx",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "libcxx",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "libcxx",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "libcxx",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "libcxx",
@@ -41727,23 +41499,7 @@
           },
           {
             "source": "libslirp",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "libslirp",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "libslirp",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "libslirp",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "libslirp",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "libslirp",
@@ -44819,7 +44575,7 @@
           },
           {
             "source": "libtool",
-            "target": "ocaml-cppo"
+            "target": "ocaml"
           },
           {
             "source": "libtool",
@@ -44828,10 +44584,6 @@
           {
             "source": "libtool",
             "target": "ocaml-findlib"
-          },
-          {
-            "source": "libtool",
-            "target": "ocaml-menhir"
           },
           {
             "source": "libtool",
@@ -50383,23 +50135,7 @@
           },
           {
             "source": "libxml2",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "libxml2",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "libxml2",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "libxml2",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "libxml2",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "libxml2",
@@ -51407,23 +51143,7 @@
           },
           {
             "source": "llvmdev",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "llvmdev",
@@ -56511,23 +56231,7 @@
           },
           {
             "source": "ninja",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "ninja",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "ninja",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "ninja",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "ninja",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "ninja",
@@ -59750,6 +59454,26 @@
             "target": "ocaml-cppo"
           },
           {
+            "source": "ocaml",
+            "target": "ocaml-cppo"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-dune"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-findlib"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-menhir"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocamlbuild"
+          },
+          {
             "source": "occt",
             "target": "freecad"
           },
@@ -60859,23 +60583,7 @@
           },
           {
             "source": "openmp",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "openmp",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "openmp",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "openmp",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "openmp",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "openmp",
@@ -65743,23 +65451,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "pkg-config",
@@ -73839,6 +73531,10 @@
           },
           {
             "source": "python",
+            "target": "ocaml"
+          },
+          {
+            "source": "python",
             "target": "ocaml-cppo"
           },
           {
@@ -73847,15 +73543,7 @@
           },
           {
             "source": "python",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "python",
             "target": "ocaml-menhir"
-          },
-          {
-            "source": "python",
-            "target": "ocamlbuild"
           },
           {
             "source": "python",
@@ -90723,11 +90411,7 @@
           },
           {
             "source": "sed",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "sed",
-            "target": "ocaml-dune"
+            "target": "ocaml"
           },
           {
             "source": "sed",
@@ -90736,10 +90420,6 @@
           {
             "source": "sed",
             "target": "ocaml-menhir"
-          },
-          {
-            "source": "sed",
-            "target": "ocamlbuild"
           },
           {
             "source": "sed",
@@ -91463,23 +91143,7 @@
           },
           {
             "source": "shellcheck",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "shellcheck",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "shellcheck",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "shellcheck",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "shellcheck",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "shellcheck",
@@ -92675,23 +92339,7 @@
           },
           {
             "source": "tar",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "tar",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "tar",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "tar",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "tar",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "tar",
@@ -94447,23 +94095,7 @@
           },
           {
             "source": "ucrt",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "ucrt",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "ucrt",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "ucrt",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "ucrt",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "ucrt",
@@ -97787,23 +97419,7 @@
           },
           {
             "source": "winpthreads",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "winpthreads",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "winpthreads",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "winpthreads",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "winpthreads",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "winpthreads",
@@ -103871,23 +103487,7 @@
           },
           {
             "source": "zlib",
-            "target": "ocaml-cppo"
-          },
-          {
-            "source": "zlib",
-            "target": "ocaml-dune"
-          },
-          {
-            "source": "zlib",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "zlib",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "zlib",
-            "target": "ocamlbuild"
+            "target": "ocaml"
           },
           {
             "source": "zlib",
@@ -105887,23 +105487,11 @@
           },
           {
             "source": "zstd",
-            "target": "ocaml-cppo"
+            "target": "ocaml"
           },
           {
             "source": "zstd",
             "target": "ocaml-dune"
-          },
-          {
-            "source": "zstd",
-            "target": "ocaml-findlib"
-          },
-          {
-            "source": "zstd",
-            "target": "ocaml-menhir"
-          },
-          {
-            "source": "zstd",
-            "target": "ocamlbuild"
           },
           {
             "source": "zstd",
@@ -113556,6 +113144,12 @@
             "id": "obstore",
             "payload": {
               "__lazy_json__": "node_attrs/obstore.json"
+            }
+          },
+          {
+            "id": "ocaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml.json"
             }
           },
           {
