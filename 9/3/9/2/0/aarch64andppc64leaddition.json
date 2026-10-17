@@ -6343,6 +6343,10 @@
           },
           {
             "source": "bash",
+            "target": "opam"
+          },
+          {
+            "source": "bash",
             "target": "openblas"
           },
           {
@@ -11027,6 +11031,10 @@
           },
           {
             "source": "binutils",
+            "target": "opam"
+          },
+          {
+            "source": "binutils",
             "target": "openblas"
           },
           {
@@ -13638,6 +13646,10 @@
             "target": "buildah"
           },
           {
+            "source": "bubblewrap",
+            "target": "opam"
+          },
+          {
             "source": "buf",
             "target": "dart-sass"
           },
@@ -13792,6 +13804,10 @@
           {
             "source": "bzip2",
             "target": "octave"
+          },
+          {
+            "source": "bzip2",
+            "target": "opam"
           },
           {
             "source": "bzip2",
@@ -20791,6 +20807,10 @@
           },
           {
             "source": "compilers",
+            "target": "opam"
+          },
+          {
+            "source": "compilers",
             "target": "pythia8"
           },
           {
@@ -23320,6 +23340,10 @@
           {
             "source": "curl",
             "target": "oidc-agent"
+          },
+          {
+            "source": "curl",
+            "target": "opam"
           },
           {
             "source": "curl",
@@ -26843,6 +26867,10 @@
           },
           {
             "source": "file",
+            "target": "opam"
+          },
+          {
+            "source": "file",
             "target": "pnpm"
           },
           {
@@ -26856,6 +26884,10 @@
           {
             "source": "findutils",
             "target": "ocaml"
+          },
+          {
+            "source": "findutils",
+            "target": "opam"
           },
           {
             "source": "fiona",
@@ -27804,6 +27836,10 @@
           {
             "source": "gawk",
             "target": "ocaml-cppo"
+          },
+          {
+            "source": "gawk",
+            "target": "opam"
           },
           {
             "source": "gawk",
@@ -30447,6 +30483,10 @@
           },
           {
             "source": "git",
+            "target": "opam"
+          },
+          {
+            "source": "git",
             "target": "openal-soft"
           },
           {
@@ -32584,6 +32624,10 @@
           {
             "source": "grep",
             "target": "ocaml-findlib"
+          },
+          {
+            "source": "grep",
+            "target": "opam"
           },
           {
             "source": "grep",
@@ -44644,6 +44688,10 @@
           {
             "source": "libtool",
             "target": "oniguruma"
+          },
+          {
+            "source": "libtool",
+            "target": "opam"
           },
           {
             "source": "libtool",
@@ -59466,12 +59514,24 @@
             "target": "z5py"
           },
           {
+            "source": "ocaml-cppo",
+            "target": "opam"
+          },
+          {
             "source": "ocaml-dune",
             "target": "ocaml-cppo"
           },
           {
             "source": "ocaml-dune",
             "target": "ocaml-menhir"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "opam"
+          },
+          {
+            "source": "ocaml-menhir",
+            "target": "opam"
           },
           {
             "source": "ocamlbuild",
@@ -59496,6 +59556,10 @@
           {
             "source": "ocaml",
             "target": "ocamlbuild"
+          },
+          {
+            "source": "ocaml",
+            "target": "opam"
           },
           {
             "source": "occt",
@@ -73604,6 +73668,10 @@
           {
             "source": "python",
             "target": "onnxruntime"
+          },
+          {
+            "source": "python",
+            "target": "opam"
           },
           {
             "source": "python",
@@ -88439,6 +88507,10 @@
           },
           {
             "source": "rsync",
+            "target": "opam"
+          },
+          {
+            "source": "rsync",
             "target": "pymupdf"
           },
           {
@@ -90456,6 +90528,10 @@
           {
             "source": "sed",
             "target": "oidc-agent"
+          },
+          {
+            "source": "sed",
+            "target": "opam"
           },
           {
             "source": "sed",
@@ -94808,6 +94884,10 @@
           {
             "source": "unzip",
             "target": "mpdecimal"
+          },
+          {
+            "source": "unzip",
+            "target": "opam"
           },
           {
             "source": "unzip",
@@ -105543,6 +105623,10 @@
           },
           {
             "source": "zstd",
+            "target": "opam"
+          },
+          {
+            "source": "zstd",
             "target": "opencv"
           },
           {
@@ -113314,6 +113398,12 @@
             "id": "onnxruntime",
             "payload": {
               "__lazy_json__": "node_attrs/onnxruntime.json"
+            }
+          },
+          {
+            "id": "opam",
+            "payload": {
+              "__lazy_json__": "node_attrs/opam.json"
             }
           },
           {
