@@ -55,12 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "apache-sedona",
-            "payload": {
-              "__lazy_json__": "node_attrs/apache-sedona.json"
-            }
-          },
-          {
             "id": "bodo",
             "payload": {
               "__lazy_json__": "node_attrs/bodo.json"
@@ -1081,10 +1075,6 @@
           {
             "source": "arrow-adbc-split",
             "target": "nomad-camels"
-          },
-          {
-            "source": "arrow_odbc",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "arxiv-miner",
@@ -8481,10 +8471,6 @@
           {
             "source": "cffi",
             "target": "arm_pyart"
-          },
-          {
-            "source": "cffi",
-            "target": "arrow_odbc"
           },
           {
             "source": "cffi",
@@ -42296,10 +42282,6 @@
           },
           {
             "source": "pyarrow",
-            "target": "arrow_odbc"
-          },
-          {
-            "source": "pyarrow",
             "target": "asapdiscovery"
           },
           {
@@ -68301,12 +68283,6 @@
             "id": "arrow-adbc-split",
             "payload": {
               "__lazy_json__": "node_attrs/arrow-adbc-split.json"
-            }
-          },
-          {
-            "id": "arrow_odbc",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow_odbc.json"
             }
           },
           {
