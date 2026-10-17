@@ -5907,6 +5907,10 @@
           },
           {
             "source": "bash",
+            "target": "mcpl"
+          },
+          {
+            "source": "bash",
             "target": "mcstas-suite"
           },
           {
@@ -18332,6 +18336,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "mcpl"
           },
           {
             "source": "cmake",
@@ -44207,6 +44215,10 @@
           },
           {
             "source": "libtool",
+            "target": "mcpl"
+          },
+          {
+            "source": "libtool",
             "target": "mcstas-suite"
           },
           {
@@ -52898,6 +52910,14 @@
             "target": "r-nanonext"
           },
           {
+            "source": "mcpl",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "mcpl",
+            "target": "mcxtrace-suite"
+          },
+          {
             "source": "mctc-lib",
             "target": "cpcm-x"
           },
@@ -58560,6 +58580,10 @@
           {
             "source": "numpy",
             "target": "matplotlib"
+          },
+          {
+            "source": "numpy",
+            "target": "mcpl"
           },
           {
             "source": "numpy",
@@ -73180,6 +73204,10 @@
           {
             "source": "python",
             "target": "matrixswitch"
+          },
+          {
+            "source": "python",
+            "target": "mcpl"
           },
           {
             "source": "python",
@@ -103247,6 +103275,10 @@
           },
           {
             "source": "zlib",
+            "target": "mcpl"
+          },
+          {
+            "source": "zlib",
             "target": "mcstas-suite"
           },
           {
@@ -112316,6 +112348,12 @@
             "id": "mbedtls",
             "payload": {
               "__lazy_json__": "node_attrs/mbedtls.json"
+            }
+          },
+          {
+            "id": "mcpl",
+            "payload": {
+              "__lazy_json__": "node_attrs/mcpl.json"
             }
           },
           {
