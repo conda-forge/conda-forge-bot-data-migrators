@@ -535,10 +535,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "make"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "mypy"
           },
           {
@@ -7940,6 +7936,7 @@
         "libxcrypt",
         "lz4-c",
         "lzo",
+        "make",
         "mbedtls",
         "moltenvk",
         "mpdecimal",
