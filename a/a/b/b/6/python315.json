@@ -51,13 +51,238 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "openvino",
+            "target": "insightface"
+          },
+          {
+            "source": "openvino",
+            "target": "ldcpy"
+          },
+          {
+            "source": "triton",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "triton",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "triton",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "triton",
+            "target": "chgnet"
+          },
+          {
+            "source": "triton",
+            "target": "deepspeed"
+          },
+          {
+            "source": "triton",
+            "target": "diffq"
+          },
+          {
+            "source": "triton",
+            "target": "eon"
+          },
+          {
+            "source": "triton",
+            "target": "fairseq"
+          },
+          {
+            "source": "triton",
+            "target": "flash-attn"
+          },
+          {
+            "source": "triton",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "triton",
+            "target": "gsplat"
+          },
+          {
+            "source": "triton",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "triton",
+            "target": "insightface"
+          },
+          {
+            "source": "triton",
+            "target": "natten"
+          },
+          {
+            "source": "triton",
+            "target": "nerfacc"
+          },
+          {
+            "source": "triton",
+            "target": "nnpops"
+          },
+          {
+            "source": "triton",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "triton",
+            "target": "openvino"
+          },
+          {
+            "source": "triton",
+            "target": "pydrobert-kaldi"
+          },
+          {
+            "source": "triton",
+            "target": "pyribs"
+          },
+          {
+            "source": "triton",
+            "target": "pysurvival"
+          },
+          {
+            "source": "triton",
+            "target": "python-metatensor-torch"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch-pretrained-bert"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "triton",
+            "target": "pytorchrl"
+          },
+          {
+            "source": "triton",
+            "target": "pyvinecopulib"
+          },
+          {
+            "source": "triton",
+            "target": "runai-model-streamer"
+          },
+          {
+            "source": "triton",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "triton",
+            "target": "sevenn"
+          },
+          {
+            "source": "triton",
+            "target": "sinabs-exodus"
+          },
+          {
+            "source": "triton",
+            "target": "sphericart"
+          },
+          {
+            "source": "triton",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "triton",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "triton",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "triton",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "triton",
+            "target": "torchao"
+          },
+          {
+            "source": "triton",
+            "target": "torchopt"
+          },
+          {
+            "source": "triton",
+            "target": "torchsort"
+          },
+          {
+            "source": "triton",
+            "target": "torchsparse"
+          },
+          {
+            "source": "triton",
+            "target": "torchvision-extra-decoders"
+          },
+          {
+            "source": "triton",
+            "target": "transformer-engine"
+          },
+          {
+            "source": "triton",
+            "target": "tt-metalium"
+          },
+          {
+            "source": "triton",
+            "target": "ylearn"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "bitsandbytes",
+            "payload": {
+              "__lazy_json__": "node_attrs/bitsandbytes.json"
+            }
+          },
           {
             "id": "bodo",
             "payload": {
               "__lazy_json__": "node_attrs/bodo.json"
+            }
+          },
+          {
+            "id": "carterbox-torch-radon",
+            "payload": {
+              "__lazy_json__": "node_attrs/carterbox-torch-radon.json"
+            }
+          },
+          {
+            "id": "causal-conv1d",
+            "payload": {
+              "__lazy_json__": "node_attrs/causal-conv1d.json"
+            }
+          },
+          {
+            "id": "chgnet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chgnet.json"
+            }
+          },
+          {
+            "id": "deepspeed",
+            "payload": {
+              "__lazy_json__": "node_attrs/deepspeed.json"
+            }
+          },
+          {
+            "id": "diffq",
+            "payload": {
+              "__lazy_json__": "node_attrs/diffq.json"
             }
           },
           {
@@ -73,9 +298,51 @@
             }
           },
           {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
+            "id": "fairseq",
+            "payload": {
+              "__lazy_json__": "node_attrs/fairseq.json"
+            }
+          },
+          {
+            "id": "flash-attn",
+            "payload": {
+              "__lazy_json__": "node_attrs/flash-attn.json"
+            }
+          },
+          {
+            "id": "fvdb-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/fvdb-core.json"
+            }
+          },
+          {
+            "id": "gsplat",
+            "payload": {
+              "__lazy_json__": "node_attrs/gsplat.json"
+            }
+          },
+          {
             "id": "hidefix",
             "payload": {
               "__lazy_json__": "node_attrs/hidefix.json"
+            }
+          },
+          {
+            "id": "inplace-abn",
+            "payload": {
+              "__lazy_json__": "node_attrs/inplace-abn.json"
+            }
+          },
+          {
+            "id": "insightface",
+            "payload": {
+              "__lazy_json__": "node_attrs/insightface.json"
             }
           },
           {
@@ -97,9 +364,39 @@
             }
           },
           {
+            "id": "nerfacc",
+            "payload": {
+              "__lazy_json__": "node_attrs/nerfacc.json"
+            }
+          },
+          {
+            "id": "nnpops",
+            "payload": {
+              "__lazy_json__": "node_attrs/nnpops.json"
+            }
+          },
+          {
+            "id": "nvidia-tao-pytorch",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-tao-pytorch.json"
+            }
+          },
+          {
+            "id": "openvino",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino.json"
+            }
+          },
+          {
             "id": "polymer",
             "payload": {
               "__lazy_json__": "node_attrs/polymer.json"
+            }
+          },
+          {
+            "id": "pydrobert-kaldi",
+            "payload": {
+              "__lazy_json__": "node_attrs/pydrobert-kaldi.json"
             }
           },
           {
@@ -121,9 +418,93 @@
             }
           },
           {
+            "id": "pyribs",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyribs.json"
+            }
+          },
+          {
+            "id": "pysurvival",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysurvival.json"
+            }
+          },
+          {
+            "id": "python-metatensor-torch",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-metatensor-torch.json"
+            }
+          },
+          {
+            "id": "pytorch-pretrained-bert",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-pretrained-bert.json"
+            }
+          },
+          {
+            "id": "pytorch_cluster",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch_cluster.json"
+            }
+          },
+          {
+            "id": "pytorch_scatter",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch_scatter.json"
+            }
+          },
+          {
+            "id": "pytorch_spline_conv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch_spline_conv.json"
+            }
+          },
+          {
+            "id": "pytorchrl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorchrl.json"
+            }
+          },
+          {
+            "id": "pyvinecopulib",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyvinecopulib.json"
+            }
+          },
+          {
             "id": "reproject",
             "payload": {
               "__lazy_json__": "node_attrs/reproject.json"
+            }
+          },
+          {
+            "id": "runai-model-streamer",
+            "payload": {
+              "__lazy_json__": "node_attrs/runai-model-streamer.json"
+            }
+          },
+          {
+            "id": "scikit-allel",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-allel.json"
+            }
+          },
+          {
+            "id": "sevenn",
+            "payload": {
+              "__lazy_json__": "node_attrs/sevenn.json"
+            }
+          },
+          {
+            "id": "sinabs-exodus",
+            "payload": {
+              "__lazy_json__": "node_attrs/sinabs-exodus.json"
+            }
+          },
+          {
+            "id": "sphericart",
+            "payload": {
+              "__lazy_json__": "node_attrs/sphericart.json"
             }
           },
           {
@@ -133,9 +514,81 @@
             }
           },
           {
+            "id": "theseus-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/theseus-ai.json"
+            }
+          },
+          {
             "id": "tiledb-py",
             "payload": {
               "__lazy_json__": "node_attrs/tiledb-py.json"
+            }
+          },
+          {
+            "id": "tiny-cuda-nn",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiny-cuda-nn.json"
+            }
+          },
+          {
+            "id": "torch-harmonics",
+            "payload": {
+              "__lazy_json__": "node_attrs/torch-harmonics.json"
+            }
+          },
+          {
+            "id": "torch_memory_saver",
+            "payload": {
+              "__lazy_json__": "node_attrs/torch_memory_saver.json"
+            }
+          },
+          {
+            "id": "torchao",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchao.json"
+            }
+          },
+          {
+            "id": "torchopt",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchopt.json"
+            }
+          },
+          {
+            "id": "torchsort",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchsort.json"
+            }
+          },
+          {
+            "id": "torchsparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchsparse.json"
+            }
+          },
+          {
+            "id": "torchvision-extra-decoders",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchvision-extra-decoders.json"
+            }
+          },
+          {
+            "id": "transformer-engine",
+            "payload": {
+              "__lazy_json__": "node_attrs/transformer-engine.json"
+            }
+          },
+          {
+            "id": "triton",
+            "payload": {
+              "__lazy_json__": "node_attrs/triton.json"
+            }
+          },
+          {
+            "id": "tt-metalium",
+            "payload": {
+              "__lazy_json__": "node_attrs/tt-metalium.json"
             }
           },
           {
@@ -148,6 +601,18 @@
             "id": "xlntpyarrow",
             "payload": {
               "__lazy_json__": "node_attrs/xlntpyarrow.json"
+            }
+          },
+          {
+            "id": "ylearn",
+            "payload": {
+              "__lazy_json__": "node_attrs/ylearn.json"
+            }
+          },
+          {
+            "id": "natten",
+            "payload": {
+              "__lazy_json__": "node_attrs/natten.json"
             }
           }
         ]
