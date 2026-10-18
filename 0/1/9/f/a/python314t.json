@@ -63,6 +63,24 @@
             "payload": {
               "__lazy_json__": "node_attrs/mlx.json"
             }
+          },
+          {
+            "id": "pemja",
+            "payload": {
+              "__lazy_json__": "node_attrs/pemja.json"
+            }
+          },
+          {
+            "id": "snowflake-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/snowflake-connector-python.json"
+            }
+          },
+          {
+            "id": "thrift",
+            "payload": {
+              "__lazy_json__": "node_attrs/thrift.json"
+            }
           }
         ]
       }
@@ -173,6 +191,18 @@
           },
           {
             "source": "anycrc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "apache-beam",
+            "target": "apache-flink"
+          },
+          {
+            "source": "apache-beam",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "apache-flink",
             "target": "conda-forge-pinning"
           },
           {
@@ -390,6 +420,14 @@
           {
             "source": "backports.zstd",
             "target": "antio"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "apache-beam"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "apache-flink"
           },
           {
             "source": "backports.zstd",
@@ -630,6 +668,10 @@
           {
             "source": "backports.zstd",
             "target": "silx"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "snowflake-connector-python"
           },
           {
             "source": "backports.zstd",
@@ -914,6 +956,14 @@
           {
             "source": "brotli",
             "target": "anuga"
+          },
+          {
+            "source": "brotli",
+            "target": "apache-beam"
+          },
+          {
+            "source": "brotli",
+            "target": "apache-flink"
           },
           {
             "source": "brotli",
@@ -1289,6 +1339,10 @@
           },
           {
             "source": "brotli",
+            "target": "snowflake-connector-python"
+          },
+          {
+            "source": "brotli",
             "target": "soxr-python"
           },
           {
@@ -1457,6 +1511,10 @@
           },
           {
             "source": "cffi",
+            "target": "apache-beam"
+          },
+          {
+            "source": "cffi",
             "target": "argon2-cffi-bindings"
           },
           {
@@ -1530,6 +1588,10 @@
           {
             "source": "cffi",
             "target": "opening-hours-py"
+          },
+          {
+            "source": "cffi",
+            "target": "oracledb"
           },
           {
             "source": "cffi",
@@ -1614,6 +1676,10 @@
           {
             "source": "cffi",
             "target": "silx"
+          },
+          {
+            "source": "cffi",
+            "target": "snowflake-connector-python"
           },
           {
             "source": "cffi",
@@ -1901,6 +1967,10 @@
           },
           {
             "source": "contourpy",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "contourpy",
             "target": "vtk"
           },
           {
@@ -2150,6 +2220,10 @@
           {
             "source": "cytoolz",
             "target": "trollimage"
+          },
+          {
+            "source": "cytoolz",
+            "target": "unidist-packages"
           },
           {
             "source": "danish",
@@ -2402,6 +2476,14 @@
           {
             "source": "fastar",
             "target": "ray-packages"
+          },
+          {
+            "source": "fastavro",
+            "target": "apache-beam"
+          },
+          {
+            "source": "fastavro",
+            "target": "apache-flink"
           },
           {
             "source": "fastavro",
@@ -2698,6 +2780,10 @@
           {
             "source": "grimp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "apache-beam"
           },
           {
             "source": "grpc-cpp",
@@ -3772,6 +3858,10 @@
             "target": "trollimage"
           },
           {
+            "source": "lz4",
+            "target": "unidist-packages"
+          },
+          {
             "source": "madoka",
             "target": "conda-forge-pinning"
           },
@@ -4232,6 +4322,10 @@
             "target": "netcdf4"
           },
           {
+            "source": "mpi4py",
+            "target": "unidist-packages"
+          },
+          {
             "source": "ms_entropy",
             "target": "conda-forge-pinning"
           },
@@ -4294,6 +4388,10 @@
           {
             "source": "msgpack-python",
             "target": "trollimage"
+          },
+          {
+            "source": "msgpack-python",
+            "target": "unidist-packages"
           },
           {
             "source": "msgpack-python",
@@ -4590,6 +4688,14 @@
           {
             "source": "numpy",
             "target": "anuga"
+          },
+          {
+            "source": "numpy",
+            "target": "apache-beam"
+          },
+          {
+            "source": "numpy",
+            "target": "apache-flink"
           },
           {
             "source": "numpy",
@@ -5633,6 +5739,10 @@
           },
           {
             "source": "numpy",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "numpy",
             "target": "upolygon"
           },
           {
@@ -5844,6 +5954,10 @@
             "target": "tensorflow"
           },
           {
+            "source": "oracledb",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "orange3-associate",
             "target": "conda-forge-pinning"
           },
@@ -5906,6 +6020,10 @@
           {
             "source": "pandas",
             "target": "anuga"
+          },
+          {
+            "source": "pandas",
+            "target": "apache-flink"
           },
           {
             "source": "pandas",
@@ -6077,6 +6195,10 @@
           },
           {
             "source": "pandas",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "pandas",
             "target": "wisdem"
           },
           {
@@ -6093,6 +6215,14 @@
           },
           {
             "source": "patiencediff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pemja",
+            "target": "apache-flink"
+          },
+          {
+            "source": "pemja",
             "target": "conda-forge-pinning"
           },
           {
@@ -6158,6 +6288,10 @@
           {
             "source": "pillow",
             "target": "anuga"
+          },
+          {
+            "source": "pillow",
+            "target": "apache-beam"
           },
           {
             "source": "pillow",
@@ -6417,6 +6551,10 @@
           },
           {
             "source": "pillow",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "pillow",
             "target": "vtk"
           },
           {
@@ -6484,6 +6622,10 @@
             "target": "gdal"
           },
           {
+            "source": "postgresql",
+            "target": "psycopg2"
+          },
+          {
             "source": "pot",
             "target": "conda-forge-pinning"
           },
@@ -6510,6 +6652,14 @@
           {
             "source": "primp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "protobuf",
+            "target": "apache-beam"
+          },
+          {
+            "source": "protobuf",
+            "target": "apache-flink"
           },
           {
             "source": "protobuf",
@@ -6825,6 +6975,10 @@
           },
           {
             "source": "psutil",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "psutil",
             "target": "uuid-utils"
           },
           {
@@ -6846,6 +7000,10 @@
           {
             "source": "psutil",
             "target": "yt"
+          },
+          {
+            "source": "psycopg2",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "ptufile",
@@ -6886,6 +7044,14 @@
           {
             "source": "pyafv",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyarrow",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pyarrow",
+            "target": "apache-flink"
           },
           {
             "source": "pyarrow",
@@ -6946,6 +7112,10 @@
           {
             "source": "pyarrow",
             "target": "trollimage"
+          },
+          {
+            "source": "pyarrow",
+            "target": "unidist-packages"
           },
           {
             "source": "pyarrow",
@@ -7078,6 +7248,10 @@
           {
             "source": "pydantic-core",
             "target": "silx"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "unidist-packages"
           },
           {
             "source": "pydantic-core",
@@ -7222,6 +7396,10 @@
           {
             "source": "pymetis",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pymongo",
+            "target": "apache-beam"
           },
           {
             "source": "pymongoarrow",
@@ -8112,6 +8290,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "ray-packages",
+            "target": "unidist-packages"
+          },
+          {
             "source": "raysect",
             "target": "conda-forge-pinning"
           },
@@ -8290,6 +8472,10 @@
           {
             "source": "rsloop",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ruamel.yaml.clib",
+            "target": "apache-flink"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -8972,6 +9158,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "snowflake-connector-python",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "soxr-python",
             "target": "conda-forge-pinning"
           },
@@ -9217,6 +9407,10 @@
           },
           {
             "source": "textual-speedups",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "thrift",
             "target": "conda-forge-pinning"
           },
           {
@@ -9494,6 +9688,10 @@
           {
             "source": "tornado",
             "target": "trollimage"
+          },
+          {
+            "source": "tornado",
+            "target": "unidist-packages"
           },
           {
             "source": "tornado",
@@ -9982,6 +10180,10 @@
           {
             "source": "unicorn-fy",
             "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "unidist-packages",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "upolygon",
@@ -10517,6 +10719,10 @@
           },
           {
             "source": "zstandard",
+            "target": "apache-beam"
+          },
+          {
+            "source": "zstandard",
             "target": "clickhouse-connect"
           },
           {
@@ -10606,6 +10812,18 @@
             "id": "anycrc",
             "payload": {
               "__lazy_json__": "node_attrs/anycrc.json"
+            }
+          },
+          {
+            "id": "apache-beam",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-beam.json"
+            }
+          },
+          {
+            "id": "apache-flink",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-flink.json"
             }
           },
           {
@@ -12481,6 +12699,12 @@
             }
           },
           {
+            "id": "oracledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/oracledb.json"
+            }
+          },
+          {
             "id": "orange3",
             "payload": {
               "__lazy_json__": "node_attrs/orange3.json"
@@ -12538,6 +12762,12 @@
             "id": "patiencediff",
             "payload": {
               "__lazy_json__": "node_attrs/patiencediff.json"
+            }
+          },
+          {
+            "id": "pemja",
+            "payload": {
+              "__lazy_json__": "node_attrs/pemja.json"
             }
           },
           {
@@ -12712,6 +12942,12 @@
             "id": "psutil",
             "payload": {
               "__lazy_json__": "node_attrs/psutil.json"
+            }
+          },
+          {
+            "id": "psycopg2",
+            "payload": {
+              "__lazy_json__": "node_attrs/psycopg2.json"
             }
           },
           {
@@ -13873,6 +14109,12 @@
             }
           },
           {
+            "id": "snowflake-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/snowflake-connector-python.json"
+            }
+          },
+          {
             "id": "soxr-python",
             "payload": {
               "__lazy_json__": "node_attrs/soxr-python.json"
@@ -14002,6 +14244,12 @@
             "id": "textual-speedups",
             "payload": {
               "__lazy_json__": "node_attrs/textual-speedups.json"
+            }
+          },
+          {
+            "id": "thrift",
+            "payload": {
+              "__lazy_json__": "node_attrs/thrift.json"
             }
           },
           {
@@ -14176,6 +14424,12 @@
             "id": "unicorn-fy",
             "payload": {
               "__lazy_json__": "node_attrs/unicorn-fy.json"
+            }
+          },
+          {
+            "id": "unidist-packages",
+            "payload": {
+              "__lazy_json__": "node_attrs/unidist-packages.json"
             }
           },
           {
