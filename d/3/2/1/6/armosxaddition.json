@@ -1183,11 +1183,15 @@
           },
           {
             "source": "bcrypt",
-            "target": "htgettoken"
+            "target": "gstlal"
           },
           {
             "source": "bcrypt",
             "target": "napari-nd-annotator"
+          },
+          {
+            "source": "bcrypt",
+            "target": "pycbc"
           },
           {
             "source": "bcrypt",
@@ -3188,10 +3192,6 @@
           {
             "source": "brotli",
             "target": "hazelbean"
-          },
-          {
-            "source": "brotli",
-            "target": "htgettoken"
           },
           {
             "source": "brotli",
@@ -13446,14 +13446,6 @@
             "target": "gstlal"
           },
           {
-            "source": "htgettoken",
-            "target": "gstlal"
-          },
-          {
-            "source": "htgettoken",
-            "target": "pycbc"
-          },
-          {
             "source": "httpstan",
             "target": "pystan"
           },
@@ -13951,11 +13943,15 @@
           },
           {
             "source": "jq",
-            "target": "htgettoken"
+            "target": "gstlal"
           },
           {
             "source": "jq",
             "target": "oidc-agent"
+          },
+          {
+            "source": "jq",
+            "target": "pycbc"
           },
           {
             "source": "jq",
@@ -32847,11 +32843,15 @@
           },
           {
             "source": "pynacl",
-            "target": "htgettoken"
+            "target": "gstlal"
           },
           {
             "source": "pynacl",
             "target": "napari-nd-annotator"
+          },
+          {
+            "source": "pynacl",
+            "target": "pycbc"
           },
           {
             "source": "pynacl",
@@ -33412,10 +33412,6 @@
           {
             "source": "python-gssapi",
             "target": "gstlal"
-          },
-          {
-            "source": "python-gssapi",
-            "target": "htgettoken"
           },
           {
             "source": "python-gssapi",
@@ -35184,10 +35180,6 @@
           {
             "source": "python",
             "target": "htcondor"
-          },
-          {
-            "source": "python",
-            "target": "htgettoken"
           },
           {
             "source": "python",
@@ -61302,12 +61294,6 @@
             "id": "htcondor",
             "payload": {
               "__lazy_json__": "node_attrs/htcondor.json"
-            }
-          },
-          {
-            "id": "htgettoken",
-            "payload": {
-              "__lazy_json__": "node_attrs/htgettoken.json"
             }
           },
           {
