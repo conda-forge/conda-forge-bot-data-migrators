@@ -470,10 +470,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "htgettoken"
-          },
-          {
-            "source": "backports.zstd",
             "target": "hypothesis"
           },
           {
@@ -738,7 +734,11 @@
           },
           {
             "source": "bcrypt",
-            "target": "htgettoken"
+            "target": "lalinference"
+          },
+          {
+            "source": "bcrypt",
+            "target": "lalsimulation"
           },
           {
             "source": "bcrypt",
@@ -1059,10 +1059,6 @@
           {
             "source": "brotli",
             "target": "hf-xet"
-          },
-          {
-            "source": "brotli",
-            "target": "htgettoken"
           },
           {
             "source": "brotli",
@@ -1535,10 +1531,6 @@
           {
             "source": "cffi",
             "target": "gevent"
-          },
-          {
-            "source": "cffi",
-            "target": "htgettoken"
           },
           {
             "source": "cffi",
@@ -2979,18 +2971,6 @@
           {
             "source": "hpfrec",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "htgettoken",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "htgettoken",
-            "target": "lalinference"
-          },
-          {
-            "source": "htgettoken",
-            "target": "lalsimulation"
           },
           {
             "source": "httptools",
@@ -7398,7 +7378,11 @@
           },
           {
             "source": "pynacl",
-            "target": "htgettoken"
+            "target": "lalinference"
+          },
+          {
+            "source": "pynacl",
+            "target": "lalsimulation"
           },
           {
             "source": "pynacl",
@@ -7851,10 +7835,6 @@
           {
             "source": "python-gssapi",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-gssapi",
-            "target": "htgettoken"
           },
           {
             "source": "python-gssapi",
@@ -11927,12 +11907,6 @@
             "id": "hpfrec",
             "payload": {
               "__lazy_json__": "node_attrs/hpfrec.json"
-            }
-          },
-          {
-            "id": "htgettoken",
-            "payload": {
-              "__lazy_json__": "node_attrs/htgettoken.json"
             }
           },
           {
