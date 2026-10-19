@@ -67,12 +67,6 @@
             }
           },
           {
-            "id": "evodag",
-            "payload": {
-              "__lazy_json__": "node_attrs/evodag.json"
-            }
-          },
-          {
             "id": "fpylll",
             "payload": {
               "__lazy_json__": "node_attrs/fpylll.json"
@@ -91,9 +85,9 @@
             }
           },
           {
-            "id": "scinumtools3",
+            "id": "pcodec",
             "payload": {
-              "__lazy_json__": "node_attrs/scinumtools3.json"
+              "__lazy_json__": "node_attrs/pcodec.json"
             }
           }
         ]
@@ -37661,6 +37655,10 @@
           {
             "source": "pcmsolver-split",
             "target": "psi4"
+          },
+          {
+            "source": "pcodec",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pcodedmp",
@@ -86369,6 +86367,12 @@
             "id": "polars-pairing",
             "payload": {
               "__lazy_json__": "node_attrs/polars-pairing.json"
+            }
+          },
+          {
+            "id": "pcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcodec.json"
             }
           }
         ]
