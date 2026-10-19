@@ -51,9 +51,77 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "fastar",
+            "target": "dask-sql"
+          },
+          {
+            "source": "fastar",
+            "target": "fastapi-azure-auth"
+          },
+          {
+            "source": "fastar",
+            "target": "fps-terminals"
+          },
+          {
+            "source": "fastar",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "fastar",
+            "target": "marvin"
+          },
+          {
+            "source": "fastar",
+            "target": "radical.orbit"
+          }
+        ],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "dask-sql",
+            "payload": {
+              "__lazy_json__": "node_attrs/dask-sql.json"
+            }
+          },
+          {
+            "id": "fastapi-azure-auth",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastapi-azure-auth.json"
+            }
+          },
+          {
+            "id": "fastar",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastar.json"
+            }
+          },
+          {
+            "id": "fps-terminals",
+            "payload": {
+              "__lazy_json__": "node_attrs/fps-terminals.json"
+            }
+          },
+          {
+            "id": "llama-cpp-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/llama-cpp-python.json"
+            }
+          },
+          {
+            "id": "marvin",
+            "payload": {
+              "__lazy_json__": "node_attrs/marvin.json"
+            }
+          },
+          {
+            "id": "radical.orbit",
+            "payload": {
+              "__lazy_json__": "node_attrs/radical.orbit.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -47054,10 +47122,6 @@
           {
             "source": "pytest-codspeed",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pytest-codspeed",
-            "target": "fastar"
           },
           {
             "source": "pytetwild",
