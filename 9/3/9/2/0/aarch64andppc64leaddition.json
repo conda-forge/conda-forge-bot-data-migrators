@@ -10335,15 +10335,15 @@
           },
           {
             "source": "bcrypt",
+            "target": "gstlal"
+          },
+          {
+            "source": "bcrypt",
             "target": "gymnasium"
           },
           {
             "source": "bcrypt",
             "target": "htcondor"
-          },
-          {
-            "source": "bcrypt",
-            "target": "htgettoken"
           },
           {
             "source": "bcrypt",
@@ -10436,6 +10436,10 @@
           {
             "source": "bcrypt",
             "target": "pyarrow"
+          },
+          {
+            "source": "bcrypt",
+            "target": "pycbc"
           },
           {
             "source": "bcrypt",
@@ -13200,10 +13204,6 @@
           {
             "source": "brotli",
             "target": "htcondor"
-          },
-          {
-            "source": "brotli",
-            "target": "htgettoken"
           },
           {
             "source": "brotli",
@@ -34498,14 +34498,6 @@
             "target": "gstlal"
           },
           {
-            "source": "htgettoken",
-            "target": "gstlal"
-          },
-          {
-            "source": "htgettoken",
-            "target": "pycbc"
-          },
-          {
             "source": "httptools",
             "target": "allennlp"
           },
@@ -35747,7 +35739,7 @@
           },
           {
             "source": "jq",
-            "target": "htgettoken"
+            "target": "gstlal"
           },
           {
             "source": "jq",
@@ -35764,6 +35756,10 @@
           {
             "source": "jq",
             "target": "oidc-agent"
+          },
+          {
+            "source": "jq",
+            "target": "pycbc"
           },
           {
             "source": "json-c",
@@ -69411,15 +69407,15 @@
           },
           {
             "source": "pynacl",
+            "target": "gstlal"
+          },
+          {
+            "source": "pynacl",
             "target": "gymnasium"
           },
           {
             "source": "pynacl",
             "target": "htcondor"
-          },
-          {
-            "source": "pynacl",
-            "target": "htgettoken"
           },
           {
             "source": "pynacl",
@@ -69512,6 +69508,10 @@
           {
             "source": "pynacl",
             "target": "pyarrow"
+          },
+          {
+            "source": "pynacl",
+            "target": "pycbc"
           },
           {
             "source": "pynacl",
@@ -70452,10 +70452,6 @@
           {
             "source": "python-gssapi",
             "target": "gstlal"
-          },
-          {
-            "source": "python-gssapi",
-            "target": "htgettoken"
           },
           {
             "source": "python-gssapi",
@@ -72584,10 +72580,6 @@
           {
             "source": "python",
             "target": "htcondor"
-          },
-          {
-            "source": "python",
-            "target": "htgettoken"
           },
           {
             "source": "python",
@@ -110166,12 +110158,6 @@
             "id": "htcondor",
             "payload": {
               "__lazy_json__": "node_attrs/htcondor.json"
-            }
-          },
-          {
-            "id": "htgettoken",
-            "payload": {
-              "__lazy_json__": "node_attrs/htgettoken.json"
             }
           },
           {
