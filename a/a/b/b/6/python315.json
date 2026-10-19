@@ -67,21 +67,21 @@
             }
           },
           {
-            "id": "fpylll",
+            "id": "rrdtool-bindings",
             "payload": {
-              "__lazy_json__": "node_attrs/fpylll.json"
-            }
-          },
-          {
-            "id": "pcodec",
-            "payload": {
-              "__lazy_json__": "node_attrs/pcodec.json"
+              "__lazy_json__": "node_attrs/rrdtool-bindings.json"
             }
           },
           {
             "id": "pycuampcor",
             "payload": {
               "__lazy_json__": "node_attrs/pycuampcor.json"
+            }
+          },
+          {
+            "id": "pyfixest",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyfixest.json"
             }
           }
         ]
@@ -20912,6 +20912,10 @@
           },
           {
             "source": "lxml",
+            "target": "pyfixest"
+          },
+          {
+            "source": "lxml",
             "target": "pygwb"
           },
           {
@@ -22745,6 +22749,10 @@
           {
             "source": "matplotlib",
             "target": "pyfai"
+          },
+          {
+            "source": "matplotlib",
+            "target": "pyfixest"
           },
           {
             "source": "matplotlib",
@@ -25309,6 +25317,10 @@
           {
             "source": "multimark",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "multimark",
+            "target": "pyfixest"
           },
           {
             "source": "multineat",
@@ -32060,6 +32072,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyfixest"
+          },
+          {
+            "source": "numpy",
             "target": "pyfizi"
           },
           {
@@ -36892,6 +36908,10 @@
           },
           {
             "source": "pandas",
+            "target": "pyfixest"
+          },
+          {
+            "source": "pandas",
             "target": "pyfizi"
           },
           {
@@ -41176,6 +41196,10 @@
           },
           {
             "source": "psutil",
+            "target": "pyfixest"
+          },
+          {
+            "source": "psutil",
             "target": "pyflyby"
           },
           {
@@ -43956,6 +43980,10 @@
           },
           {
             "source": "pyfitparquet",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyfixest",
             "target": "conda-forge-pinning"
           },
           {
@@ -52619,6 +52647,10 @@
             "target": "sage"
           },
           {
+            "source": "rrdtool-bindings",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "rs1090",
             "target": "conda-forge-pinning"
           },
@@ -56464,6 +56496,10 @@
           },
           {
             "source": "scipy",
+            "target": "pyfixest"
+          },
+          {
+            "source": "scipy",
             "target": "pyfizi"
           },
           {
@@ -59733,6 +59769,10 @@
           {
             "source": "statsmodels",
             "target": "pyearth"
+          },
+          {
+            "source": "statsmodels",
+            "target": "pyfixest"
           },
           {
             "source": "statsmodels",
@@ -65412,6 +65452,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "pyfixest"
+          },
+          {
+            "source": "wcwidth",
             "target": "pyflyby"
           },
           {
@@ -65996,6 +66040,10 @@
           },
           {
             "source": "websockets",
+            "target": "pyfixest"
+          },
+          {
+            "source": "websockets",
             "target": "pyserini"
           },
           {
@@ -66453,6 +66501,10 @@
           {
             "source": "wrapt",
             "target": "pydocket"
+          },
+          {
+            "source": "wrapt",
+            "target": "pyfixest"
           },
           {
             "source": "wrapt",
@@ -86380,6 +86432,12 @@
             }
           },
           {
+            "id": "rrdtool-bindings",
+            "payload": {
+              "__lazy_json__": "node_attrs/rrdtool-bindings.json"
+            }
+          },
+          {
             "id": "pcodec",
             "payload": {
               "__lazy_json__": "node_attrs/pcodec.json"
@@ -86389,6 +86447,12 @@
             "id": "pycuampcor",
             "payload": {
               "__lazy_json__": "node_attrs/pycuampcor.json"
+            }
+          },
+          {
+            "id": "pyfixest",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyfixest.json"
             }
           }
         ]
