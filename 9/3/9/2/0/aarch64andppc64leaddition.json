@@ -5455,10 +5455,6 @@
           },
           {
             "source": "bash",
-            "target": "libiio"
-          },
-          {
-            "source": "bash",
             "target": "libjpeg-turbo"
           },
           {
@@ -43819,10 +43815,6 @@
           },
           {
             "source": "libtool",
-            "target": "libiio"
-          },
-          {
-            "source": "libtool",
             "target": "libjpeg-turbo"
           },
           {
@@ -55892,6 +55884,10 @@
           {
             "source": "ninja",
             "target": "libignition-plugin"
+          },
+          {
+            "source": "ninja",
+            "target": "libiio"
           },
           {
             "source": "ninja",
