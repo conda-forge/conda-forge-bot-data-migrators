@@ -53,14 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "snowflake-snowpark-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/snowflake-snowpark-python.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -42025,10 +42018,6 @@
           {
             "source": "py-triangle",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "py-ubjson",
-            "target": "autobahn"
           },
           {
             "source": "py-ubjson",
