@@ -1470,6 +1470,10 @@
           },
           {
             "source": "openmpi",
+            "target": "pycuampcor"
+          },
+          {
+            "source": "openmpi",
             "target": "sinabs-exodus"
           },
           {
@@ -1555,6 +1559,10 @@
           {
             "source": "pycolmap",
             "target": "pixsfm"
+          },
+          {
+            "source": "pycuampcor",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pycuda",
@@ -3185,6 +3193,12 @@
             "id": "natten",
             "payload": {
               "__lazy_json__": "node_attrs/natten.json"
+            }
+          },
+          {
+            "id": "pycuampcor",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycuampcor.json"
             }
           }
         ]
