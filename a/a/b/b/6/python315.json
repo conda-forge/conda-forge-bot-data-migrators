@@ -73,21 +73,15 @@
             }
           },
           {
-            "id": "pplpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/pplpy.json"
-            }
-          },
-          {
-            "id": "primecountpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/primecountpy.json"
-            }
-          },
-          {
             "id": "pcodec",
             "payload": {
               "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          },
+          {
+            "id": "pycuampcor",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycuampcor.json"
             }
           }
         ]
@@ -17006,6 +17000,10 @@
           },
           {
             "source": "h5py",
+            "target": "pycuampcor"
+          },
+          {
+            "source": "h5py",
             "target": "pyemma"
           },
           {
@@ -31462,6 +31460,10 @@
           },
           {
             "source": "numpy",
+            "target": "pcodec"
+          },
+          {
+            "source": "numpy",
             "target": "pcraster"
           },
           {
@@ -31963,6 +31965,10 @@
           {
             "source": "numpy",
             "target": "pycraf"
+          },
+          {
+            "source": "numpy",
+            "target": "pycuampcor"
           },
           {
             "source": "numpy",
@@ -43034,6 +43040,10 @@
           },
           {
             "source": "pyctest",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pycuampcor",
             "target": "conda-forge-pinning"
           },
           {
@@ -86373,6 +86383,12 @@
             "id": "pcodec",
             "payload": {
               "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          },
+          {
+            "id": "pycuampcor",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycuampcor.json"
             }
           }
         ]
