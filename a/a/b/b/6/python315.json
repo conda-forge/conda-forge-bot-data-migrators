@@ -59,6 +59,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/evodag.json"
             }
+          },
+          {
+            "id": "scinumtools3",
+            "payload": {
+              "__lazy_json__": "node_attrs/scinumtools3.json"
+            }
           }
         ]
       }
@@ -3528,6 +3534,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "backports.zstd",
             "target": "rivet"
           },
           {
@@ -3881,10 +3891,6 @@
           {
             "source": "backports.zstd",
             "target": "vaex-core"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "vectorbt"
           },
           {
             "source": "backports.zstd",
@@ -7252,6 +7258,10 @@
           },
           {
             "source": "brotli",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "brotli",
             "target": "rivet"
           },
           {
@@ -7605,10 +7615,6 @@
           {
             "source": "brotli",
             "target": "vaex-core"
-          },
-          {
-            "source": "brotli",
-            "target": "vectorbt"
           },
           {
             "source": "brotli",
@@ -23380,10 +23386,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "vectorbt"
-          },
-          {
-            "source": "matplotlib",
             "target": "veloxchem"
           },
           {
@@ -24313,6 +24315,10 @@
           {
             "source": "mpi4py",
             "target": "mpifft4py"
+          },
+          {
+            "source": "mpi4py",
+            "target": "mumps4py"
           },
           {
             "source": "mpi4py",
@@ -25413,6 +25419,10 @@
           {
             "source": "multiprocess",
             "target": "unidock"
+          },
+          {
+            "source": "mumps4py",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "mupdf",
@@ -27064,6 +27074,10 @@
           },
           {
             "source": "numba",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "numba",
             "target": "rocket-fft"
           },
           {
@@ -27185,10 +27199,6 @@
           {
             "source": "numba",
             "target": "uwsift"
-          },
-          {
-            "source": "numba",
-            "target": "vectorbt"
           },
           {
             "source": "numba",
@@ -30920,6 +30930,10 @@
           },
           {
             "source": "numpy",
+            "target": "mumps4py"
+          },
+          {
+            "source": "numpy",
             "target": "muq"
           },
           {
@@ -34252,10 +34266,6 @@
           },
           {
             "source": "numpy",
-            "target": "vectorbt"
-          },
-          {
-            "source": "numpy",
             "target": "vega"
           },
           {
@@ -37456,10 +37466,6 @@
           },
           {
             "source": "pandas",
-            "target": "vectorbt"
-          },
-          {
-            "source": "pandas",
             "target": "vega"
           },
           {
@@ -38776,6 +38782,10 @@
           },
           {
             "source": "pillow",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "pillow",
             "target": "roboticstoolbox-python"
           },
           {
@@ -38997,10 +39007,6 @@
           {
             "source": "pillow",
             "target": "vaex-core"
-          },
-          {
-            "source": "pillow",
-            "target": "vectorbt"
           },
           {
             "source": "pillow",
@@ -41360,6 +41366,10 @@
           },
           {
             "source": "psutil",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "psutil",
             "target": "roboticstoolbox-python"
           },
           {
@@ -41641,10 +41651,6 @@
           {
             "source": "psutil",
             "target": "vaex-core"
-          },
-          {
-            "source": "psutil",
-            "target": "vectorbt"
           },
           {
             "source": "psutil",
@@ -51620,6 +51626,10 @@
           },
           {
             "source": "regex",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "regex",
             "target": "saga-python"
           },
           {
@@ -51673,10 +51683,6 @@
           {
             "source": "regex",
             "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "regex",
-            "target": "vectorbt"
           },
           {
             "source": "regex",
@@ -54257,10 +54263,6 @@
           {
             "source": "scikit-learn",
             "target": "umap-learn"
-          },
-          {
-            "source": "scikit-learn",
-            "target": "vectorbt"
           },
           {
             "source": "scikit-learn",
@@ -57485,10 +57487,6 @@
           {
             "source": "scipy",
             "target": "vape4d"
-          },
-          {
-            "source": "scipy",
-            "target": "vectorbt"
           },
           {
             "source": "scipy",
@@ -63923,14 +63921,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "vectorbt",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "vectorbt",
-            "target": "riskfolio-lib"
-          },
-          {
             "source": "veerer",
             "target": "conda-forge-pinning"
           },
@@ -65556,6 +65546,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "wcwidth",
             "target": "roboticstoolbox-python"
           },
           {
@@ -65757,10 +65751,6 @@
           {
             "source": "wcwidth",
             "target": "vaex-core"
-          },
-          {
-            "source": "wcwidth",
-            "target": "vectorbt"
           },
           {
             "source": "wcwidth",
@@ -66504,6 +66494,10 @@
           },
           {
             "source": "wrapt",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "wrapt",
             "target": "rpaframework"
           },
           {
@@ -66581,10 +66575,6 @@
           {
             "source": "wrapt",
             "target": "tvb-library"
-          },
-          {
-            "source": "wrapt",
-            "target": "vectorbt"
           },
           {
             "source": "wrapt",
@@ -76334,6 +76324,12 @@
             }
           },
           {
+            "id": "mumps4py",
+            "payload": {
+              "__lazy_json__": "node_attrs/mumps4py.json"
+            }
+          },
+          {
             "id": "mupdf",
             "payload": {
               "__lazy_json__": "node_attrs/mupdf.json"
@@ -85433,12 +85429,6 @@
             "id": "vcpkg",
             "payload": {
               "__lazy_json__": "node_attrs/vcpkg.json"
-            }
-          },
-          {
-            "id": "vectorbt",
-            "payload": {
-              "__lazy_json__": "node_attrs/vectorbt.json"
             }
           },
           {
