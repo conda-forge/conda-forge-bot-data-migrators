@@ -220,6 +220,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "grpcurl",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "hub",
             "target": "conda-forge-pinning"
           },
@@ -848,6 +852,12 @@
             "id": "gosu",
             "payload": {
               "__lazy_json__": "node_attrs/gosu.json"
+            }
+          },
+          {
+            "id": "grpcurl",
+            "payload": {
+              "__lazy_json__": "node_attrs/grpcurl.json"
             }
           },
           {
