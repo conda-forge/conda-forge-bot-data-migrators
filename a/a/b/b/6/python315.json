@@ -51,32 +51,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "fastar",
-            "target": "dask-sql"
-          },
-          {
-            "source": "fastar",
-            "target": "fastapi-azure-auth"
-          },
-          {
-            "source": "fastar",
-            "target": "fps-terminals"
-          },
-          {
-            "source": "fastar",
-            "target": "llama-cpp-python"
-          },
-          {
-            "source": "fastar",
-            "target": "marvin"
-          },
-          {
-            "source": "fastar",
-            "target": "radical.orbit"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -92,39 +67,9 @@
             }
           },
           {
-            "id": "fastar",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastar.json"
-            }
-          },
-          {
-            "id": "fps-terminals",
-            "payload": {
-              "__lazy_json__": "node_attrs/fps-terminals.json"
-            }
-          },
-          {
-            "id": "llama-cpp-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/llama-cpp-python.json"
-            }
-          },
-          {
-            "id": "marvin",
-            "payload": {
-              "__lazy_json__": "node_attrs/marvin.json"
-            }
-          },
-          {
             "id": "pyclipper",
             "payload": {
               "__lazy_json__": "node_attrs/pyclipper.json"
-            }
-          },
-          {
-            "id": "radical.orbit",
-            "payload": {
-              "__lazy_json__": "node_attrs/radical.orbit.json"
             }
           }
         ]
