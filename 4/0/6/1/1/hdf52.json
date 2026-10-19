@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pycuampcor",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycuampcor.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -518,6 +525,10 @@
           {
             "source": "h5py",
             "target": "psi4"
+          },
+          {
+            "source": "h5py",
+            "target": "pycuampcor"
           },
           {
             "source": "h5py",
@@ -1097,6 +1108,10 @@
           },
           {
             "source": "pycgns",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pycuampcor",
             "target": "conda-forge-pinning"
           },
           {
@@ -2278,6 +2293,12 @@
             "id": "yambo",
             "payload": {
               "__lazy_json__": "node_attrs/yambo.json"
+            }
+          },
+          {
+            "id": "pycuampcor",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycuampcor.json"
             }
           }
         ]
