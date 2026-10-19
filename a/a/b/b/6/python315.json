@@ -55,9 +55,39 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "bruco",
+            "payload": {
+              "__lazy_json__": "node_attrs/bruco.json"
+            }
+          },
+          {
+            "id": "cypari2",
+            "payload": {
+              "__lazy_json__": "node_attrs/cypari2.json"
+            }
+          },
+          {
             "id": "evodag",
             "payload": {
               "__lazy_json__": "node_attrs/evodag.json"
+            }
+          },
+          {
+            "id": "fpylll",
+            "payload": {
+              "__lazy_json__": "node_attrs/fpylll.json"
+            }
+          },
+          {
+            "id": "pplpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/pplpy.json"
+            }
+          },
+          {
+            "id": "primecountpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/primecountpy.json"
             }
           },
           {
@@ -2734,10 +2764,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "htgettoken"
-          },
-          {
-            "source": "backports.zstd",
             "target": "ifcopenshell"
           },
           {
@@ -4114,11 +4140,19 @@
           },
           {
             "source": "bcrypt",
+            "target": "bayeswave"
+          },
+          {
+            "source": "bcrypt",
             "target": "bed-reader"
           },
           {
             "source": "bcrypt",
             "target": "bioimage-cpp"
+          },
+          {
+            "source": "bcrypt",
+            "target": "bruco"
           },
           {
             "source": "bcrypt",
@@ -4170,7 +4204,15 @@
           },
           {
             "source": "bcrypt",
+            "target": "cwinpy"
+          },
+          {
+            "source": "bcrypt",
             "target": "ddsp"
+          },
+          {
+            "source": "bcrypt",
+            "target": "dqsegdb"
           },
           {
             "source": "bcrypt",
@@ -4202,11 +4244,23 @@
           },
           {
             "source": "bcrypt",
-            "target": "hpc05"
+            "target": "gravelamps"
           },
           {
             "source": "bcrypt",
-            "target": "htgettoken"
+            "target": "gstlal"
+          },
+          {
+            "source": "bcrypt",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "bcrypt",
+            "target": "gwtc_analysis"
+          },
+          {
+            "source": "bcrypt",
+            "target": "hpc05"
           },
           {
             "source": "bcrypt",
@@ -4222,7 +4276,19 @@
           },
           {
             "source": "bcrypt",
+            "target": "lalinference"
+          },
+          {
+            "source": "bcrypt",
+            "target": "lalsimulation"
+          },
+          {
+            "source": "bcrypt",
             "target": "ldcpy"
+          },
+          {
+            "source": "bcrypt",
+            "target": "ligo-raven"
           },
           {
             "source": "bcrypt",
@@ -4290,7 +4356,15 @@
           },
           {
             "source": "bcrypt",
+            "target": "pycbc"
+          },
+          {
+            "source": "bcrypt",
             "target": "pyepr"
+          },
+          {
+            "source": "bcrypt",
+            "target": "pygwb"
           },
           {
             "source": "bcrypt",
@@ -4318,11 +4392,19 @@
           },
           {
             "source": "bcrypt",
+            "target": "rapid-pe"
+          },
+          {
+            "source": "bcrypt",
             "target": "ray-packages"
           },
           {
             "source": "bcrypt",
             "target": "rfi-file-monitor"
+          },
+          {
+            "source": "bcrypt",
+            "target": "rift"
           },
           {
             "source": "bcrypt",
@@ -6447,10 +6529,6 @@
           {
             "source": "brotli",
             "target": "hklpy"
-          },
-          {
-            "source": "brotli",
-            "target": "htgettoken"
           },
           {
             "source": "brotli",
@@ -8751,10 +8829,6 @@
           {
             "source": "cffi",
             "target": "hpc05"
-          },
-          {
-            "source": "cffi",
-            "target": "htgettoken"
           },
           {
             "source": "cffi",
@@ -17799,74 +17873,6 @@
           {
             "source": "htcondor",
             "target": "stackvana-core"
-          },
-          {
-            "source": "htgettoken",
-            "target": "bayeswave"
-          },
-          {
-            "source": "htgettoken",
-            "target": "bruco"
-          },
-          {
-            "source": "htgettoken",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "htgettoken",
-            "target": "cwinpy"
-          },
-          {
-            "source": "htgettoken",
-            "target": "dqsegdb"
-          },
-          {
-            "source": "htgettoken",
-            "target": "gravelamps"
-          },
-          {
-            "source": "htgettoken",
-            "target": "gstlal"
-          },
-          {
-            "source": "htgettoken",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "htgettoken",
-            "target": "gwtc_analysis"
-          },
-          {
-            "source": "htgettoken",
-            "target": "lalinference"
-          },
-          {
-            "source": "htgettoken",
-            "target": "lalsimulation"
-          },
-          {
-            "source": "htgettoken",
-            "target": "ligo-raven"
-          },
-          {
-            "source": "htgettoken",
-            "target": "pycbc"
-          },
-          {
-            "source": "htgettoken",
-            "target": "pygwb"
-          },
-          {
-            "source": "htgettoken",
-            "target": "rapid-pe"
-          },
-          {
-            "source": "htgettoken",
-            "target": "rift"
-          },
-          {
-            "source": "htgettoken",
-            "target": "seismon"
           },
           {
             "source": "html5-parser",
@@ -47322,10 +47328,6 @@
           },
           {
             "source": "python-gssapi",
-            "target": "htgettoken"
-          },
-          {
-            "source": "python-gssapi",
             "target": "lalinference"
           },
           {
@@ -49731,6 +49733,10 @@
           {
             "source": "pywin32",
             "target": "requests-negotiate-sspi"
+          },
+          {
+            "source": "pywin32",
+            "target": "riskfolio-lib"
           },
           {
             "source": "pywin32",
@@ -52459,6 +52465,10 @@
           {
             "source": "rpds-py",
             "target": "remage"
+          },
+          {
+            "source": "rpds-py",
+            "target": "riskfolio-lib"
           },
           {
             "source": "rpds-py",
@@ -73801,12 +73811,6 @@
             "id": "htcondor",
             "payload": {
               "__lazy_json__": "node_attrs/htcondor.json"
-            }
-          },
-          {
-            "id": "htgettoken",
-            "payload": {
-              "__lazy_json__": "node_attrs/htgettoken.json"
             }
           },
           {
