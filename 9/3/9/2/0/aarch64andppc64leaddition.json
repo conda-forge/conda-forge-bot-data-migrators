@@ -9363,10 +9363,6 @@
           },
           {
             "source": "bash",
-            "target": "soapysdr-module-plutosdr"
-          },
-          {
-            "source": "bash",
             "target": "socat"
           },
           {
@@ -47675,10 +47671,6 @@
           },
           {
             "source": "libtool",
-            "target": "soapysdr-module-plutosdr"
-          },
-          {
-            "source": "libtool",
             "target": "socat"
           },
           {
@@ -56796,6 +56788,10 @@
           {
             "source": "ninja",
             "target": "smesh"
+          },
+          {
+            "source": "ninja",
+            "target": "soapysdr-module-plutosdr"
           },
           {
             "source": "ninja",
