@@ -59307,6 +59307,10 @@
           },
           {
             "source": "numpy",
+            "target": "tsdownsample"
+          },
+          {
+            "source": "numpy",
             "target": "tskit"
           },
           {
@@ -75168,6 +75172,10 @@
           {
             "source": "python",
             "target": "triton"
+          },
+          {
+            "source": "python",
+            "target": "tsdownsample"
           },
           {
             "source": "python",
@@ -120057,6 +120065,12 @@
             }
           },
           {
+            "id": "tsdownsample",
+            "payload": {
+              "__lazy_json__": "node_attrs/tsdownsample.json"
+            }
+          },
+          {
             "id": "tskit",
             "payload": {
               "__lazy_json__": "node_attrs/tskit.json"
@@ -122609,6 +122623,7 @@
         "treelite",
         "trexio",
         "trzsz",
+        "tsdownsample",
         "tskit",
         "tsl_robin_map",
         "tssh",
