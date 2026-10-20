@@ -6611,10 +6611,6 @@
           },
           {
             "source": "bash",
-            "target": "perl-mojolicious"
-          },
-          {
-            "source": "bash",
             "target": "perl-moose"
           },
           {
@@ -44959,10 +44955,6 @@
           },
           {
             "source": "libtool",
-            "target": "perl-mojolicious"
-          },
-          {
-            "source": "libtool",
             "target": "perl-moose"
           },
           {
@@ -49360,10 +49352,6 @@
           {
             "source": "libxcrypt",
             "target": "perl-module-runtime-conflicts"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "perl-mojolicious"
           },
           {
             "source": "libxcrypt",
@@ -114120,12 +114108,6 @@
             "id": "perl-module-runtime-conflicts",
             "payload": {
               "__lazy_json__": "node_attrs/perl-module-runtime-conflicts.json"
-            }
-          },
-          {
-            "id": "perl-mojolicious",
-            "payload": {
-              "__lazy_json__": "node_attrs/perl-mojolicious.json"
             }
           },
           {
