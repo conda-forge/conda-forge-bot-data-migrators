@@ -2612,10 +2612,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "flower"
-          },
-          {
-            "source": "backports.zstd",
             "target": "fludashboard"
           },
           {
@@ -4580,10 +4576,6 @@
           },
           {
             "source": "billiard",
-            "target": "flower"
-          },
-          {
-            "source": "billiard",
             "target": "nb_conda_store_kernels"
           },
           {
@@ -6381,10 +6373,6 @@
           {
             "source": "brotli",
             "target": "fiona"
-          },
-          {
-            "source": "brotli",
-            "target": "flower"
           },
           {
             "source": "brotli",
@@ -14024,14 +14012,6 @@
           },
           {
             "source": "floret",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "flower",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "flower",
             "target": "conda-forge-pinning"
           },
           {
@@ -62092,10 +62072,6 @@
           },
           {
             "source": "tornado",
-            "target": "flower"
-          },
-          {
-            "source": "tornado",
             "target": "fluidimage"
           },
           {
@@ -64941,10 +64917,6 @@
           {
             "source": "wcwidth",
             "target": "finesse"
-          },
-          {
-            "source": "wcwidth",
-            "target": "flower"
           },
           {
             "source": "wcwidth",
@@ -72503,12 +72475,6 @@
             "id": "floret",
             "payload": {
               "__lazy_json__": "node_attrs/floret.json"
-            }
-          },
-          {
-            "id": "flower",
-            "payload": {
-              "__lazy_json__": "node_attrs/flower.json"
             }
           },
           {
