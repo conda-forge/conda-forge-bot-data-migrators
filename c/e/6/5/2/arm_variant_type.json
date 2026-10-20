@@ -182,6 +182,12 @@
             }
           },
           {
+            "id": "astra-toolbox",
+            "payload": {
+              "__lazy_json__": "node_attrs/astra-toolbox.json"
+            }
+          },
+          {
             "id": "catboost",
             "payload": {
               "__lazy_json__": "node_attrs/catboost.json"
@@ -257,12 +263,6 @@
             "id": "kaolin",
             "payload": {
               "__lazy_json__": "node_attrs/kaolin.json"
-            }
-          },
-          {
-            "id": "libastra",
-            "payload": {
-              "__lazy_json__": "node_attrs/libastra.json"
             }
           },
           {
@@ -907,14 +907,6 @@
           {
             "source": "lammps",
             "target": "deepmd-kit"
-          },
-          {
-            "source": "libastra",
-            "target": "astra-toolbox"
-          },
-          {
-            "source": "libastra",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "libcublasmp",
@@ -2539,12 +2531,6 @@
             "id": "lammps",
             "payload": {
               "__lazy_json__": "node_attrs/lammps.json"
-            }
-          },
-          {
-            "id": "libastra",
-            "payload": {
-              "__lazy_json__": "node_attrs/libastra.json"
             }
           },
           {
