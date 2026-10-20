@@ -617,6 +617,10 @@
             "target": "transformer-engine"
           },
           {
+            "source": "cupdlpx",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "cupy",
             "target": "conda-forge-pinning"
           },
@@ -3185,6 +3189,12 @@
             "id": "pycuampcor",
             "payload": {
               "__lazy_json__": "node_attrs/pycuampcor.json"
+            }
+          },
+          {
+            "id": "cupdlpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cupdlpx.json"
             }
           }
         ]
