@@ -65,6 +65,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/graphed.json"
             }
+          },
+          {
+            "id": "cupdlpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cupdlpx.json"
+            }
           }
         ]
       }
@@ -10766,6 +10772,10 @@
           },
           {
             "source": "cuda-gdb",
+            "target": "cupdlpx"
+          },
+          {
+            "source": "cuda-gdb",
             "target": "drjit-cpp"
           },
           {
@@ -10818,6 +10828,10 @@
           },
           {
             "source": "cuik-molmaker",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cupdlpx",
             "target": "conda-forge-pinning"
           },
           {
@@ -28547,6 +28561,10 @@
           {
             "source": "numpy",
             "target": "cuik-molmaker"
+          },
+          {
+            "source": "numpy",
+            "target": "cupdlpx"
           },
           {
             "source": "numpy",
@@ -54951,6 +54969,10 @@
           {
             "source": "scipy",
             "target": "cuik-molmaker"
+          },
+          {
+            "source": "scipy",
+            "target": "cupdlpx"
           },
           {
             "source": "scipy",
@@ -86457,6 +86479,12 @@
             "id": "geant4-python-application",
             "payload": {
               "__lazy_json__": "node_attrs/geant4-python-application.json"
+            }
+          },
+          {
+            "id": "cupdlpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cupdlpx.json"
             }
           }
         ]
