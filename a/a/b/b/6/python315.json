@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "tsinfer",
+            "payload": {
+              "__lazy_json__": "node_attrs/tsinfer.json"
+            }
+          },
+          {
             "id": "graphed",
             "payload": {
               "__lazy_json__": "node_attrs/graphed.json"
@@ -2463,6 +2469,10 @@
           {
             "source": "backports.zstd",
             "target": "dials"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "discretize"
           },
           {
             "source": "backports.zstd",
@@ -6235,6 +6245,10 @@
           {
             "source": "brotli",
             "target": "dials"
+          },
+          {
+            "source": "brotli",
+            "target": "discretize"
           },
           {
             "source": "brotli",
@@ -40482,6 +40496,10 @@
           },
           {
             "source": "psutil",
+            "target": "discretize"
+          },
+          {
+            "source": "psutil",
             "target": "dmri-dicelib"
           },
           {
@@ -47595,30 +47613,6 @@
           {
             "source": "python-ligo-lw",
             "target": "sbank"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "hangar"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "tsinfer"
           },
           {
             "source": "python-lzf",
@@ -63254,6 +63248,10 @@
           },
           {
             "source": "ujson",
+            "target": "discretize"
+          },
+          {
+            "source": "ujson",
             "target": "doconce"
           },
           {
@@ -64907,6 +64905,10 @@
           {
             "source": "wcwidth",
             "target": "dipy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "discretize"
           },
           {
             "source": "wcwidth",
@@ -81385,12 +81387,6 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
