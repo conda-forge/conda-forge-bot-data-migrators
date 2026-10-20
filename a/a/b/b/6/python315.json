@@ -67,6 +67,12 @@
             }
           },
           {
+            "id": "typeline",
+            "payload": {
+              "__lazy_json__": "node_attrs/typeline.json"
+            }
+          },
+          {
             "id": "cupdlpx",
             "payload": {
               "__lazy_json__": "node_attrs/cupdlpx.json"
@@ -25245,6 +25251,10 @@
           {
             "source": "msgspec",
             "target": "tsinfer"
+          },
+          {
+            "source": "msgspec",
+            "target": "typeline"
           },
           {
             "source": "msgspec",
@@ -63091,6 +63101,10 @@
             "target": "stim-split"
           },
           {
+            "source": "typeline",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "typst-py",
             "target": "conda-forge-pinning"
           },
@@ -86467,6 +86481,12 @@
             "id": "graphed",
             "payload": {
               "__lazy_json__": "node_attrs/graphed.json"
+            }
+          },
+          {
+            "id": "typeline",
+            "payload": {
+              "__lazy_json__": "node_attrs/typeline.json"
             }
           },
           {
