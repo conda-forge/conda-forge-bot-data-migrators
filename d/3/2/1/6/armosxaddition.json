@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cern-sso-cli",
-            "payload": {
-              "__lazy_json__": "node_attrs/cern-sso-cli.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -15770,23 +15763,11 @@
           },
           {
             "source": "libcxx",
-            "target": "arosics"
-          },
-          {
-            "source": "libcxx",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "libcxx",
             "target": "binutils"
           },
           {
             "source": "libcxx",
             "target": "cadet"
-          },
-          {
-            "source": "libcxx",
-            "target": "caiman"
           },
           {
             "source": "libcxx",
@@ -15806,15 +15787,7 @@
           },
           {
             "source": "libcxx",
-            "target": "cling"
-          },
-          {
-            "source": "libcxx",
             "target": "compiler-rt"
-          },
-          {
-            "source": "libcxx",
-            "target": "compilers"
           },
           {
             "source": "libcxx",
@@ -15838,27 +15811,7 @@
           },
           {
             "source": "libcxx",
-            "target": "dials"
-          },
-          {
-            "source": "libcxx",
-            "target": "easyocr"
-          },
-          {
-            "source": "libcxx",
             "target": "finesse"
-          },
-          {
-            "source": "libcxx",
-            "target": "fluidfft"
-          },
-          {
-            "source": "libcxx",
-            "target": "fluidimage"
-          },
-          {
-            "source": "libcxx",
-            "target": "fluidsim"
           },
           {
             "source": "libcxx",
@@ -15866,15 +15819,7 @@
           },
           {
             "source": "libcxx",
-            "target": "geoarray"
-          },
-          {
-            "source": "libcxx",
             "target": "geoarrow-c"
-          },
-          {
-            "source": "libcxx",
-            "target": "geowombat"
           },
           {
             "source": "libcxx",
@@ -15894,27 +15839,7 @@
           },
           {
             "source": "libcxx",
-            "target": "heyoka"
-          },
-          {
-            "source": "libcxx",
-            "target": "isce2"
-          },
-          {
-            "source": "libcxx",
             "target": "julia"
-          },
-          {
-            "source": "libcxx",
-            "target": "ldc"
-          },
-          {
-            "source": "libcxx",
-            "target": "lfortran"
-          },
-          {
-            "source": "libcxx",
-            "target": "libclc"
           },
           {
             "source": "libcxx",
@@ -15926,35 +15851,15 @@
           },
           {
             "source": "libcxx",
-            "target": "libtvm"
-          },
-          {
-            "source": "libcxx",
             "target": "lld"
           },
           {
             "source": "libcxx",
-            "target": "llvm-spirv"
-          },
-          {
-            "source": "libcxx",
-            "target": "llvmlite"
-          },
-          {
-            "source": "libcxx",
-            "target": "mesalib"
+            "target": "llvmdev"
           },
           {
             "source": "libcxx",
             "target": "mlir"
-          },
-          {
-            "source": "libcxx",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "libcxx",
-            "target": "napari-nd-annotator"
           },
           {
             "source": "libcxx",
@@ -15966,27 +15871,11 @@
           },
           {
             "source": "libcxx",
-            "target": "nifty"
-          },
-          {
-            "source": "libcxx",
             "target": "nim"
           },
           {
             "source": "libcxx",
-            "target": "ocaml"
-          },
-          {
-            "source": "libcxx",
             "target": "octave"
-          },
-          {
-            "source": "libcxx",
-            "target": "openmp"
-          },
-          {
-            "source": "libcxx",
-            "target": "openpnm"
           },
           {
             "source": "libcxx",
@@ -16002,27 +15891,7 @@
           },
           {
             "source": "libcxx",
-            "target": "pocl"
-          },
-          {
-            "source": "libcxx",
-            "target": "porespy"
-          },
-          {
-            "source": "libcxx",
-            "target": "puma"
-          },
-          {
-            "source": "libcxx",
-            "target": "pyarrow"
-          },
-          {
-            "source": "libcxx",
             "target": "pybammsolvers"
-          },
-          {
-            "source": "libcxx",
-            "target": "pycontrails"
           },
           {
             "source": "libcxx",
@@ -16030,15 +15899,7 @@
           },
           {
             "source": "libcxx",
-            "target": "pypeit"
-          },
-          {
-            "source": "libcxx",
             "target": "pyside2"
-          },
-          {
-            "source": "libcxx",
-            "target": "pytensor-suite"
           },
           {
             "source": "libcxx",
@@ -16047,14 +15908,6 @@
           {
             "source": "libcxx",
             "target": "root"
-          },
-          {
-            "source": "libcxx",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "libcxx",
-            "target": "sage"
           },
           {
             "source": "libcxx",
@@ -16070,27 +15923,11 @@
           },
           {
             "source": "libcxx",
-            "target": "scipy"
-          },
-          {
-            "source": "libcxx",
-            "target": "spam"
-          },
-          {
-            "source": "libcxx",
             "target": "sqsgenerator"
           },
           {
             "source": "libcxx",
-            "target": "stardist"
-          },
-          {
-            "source": "libcxx",
             "target": "sundials"
-          },
-          {
-            "source": "libcxx",
-            "target": "symengine"
           },
           {
             "source": "libcxx",
@@ -16102,19 +15939,7 @@
           },
           {
             "source": "libcxx",
-            "target": "tomopy"
-          },
-          {
-            "source": "libcxx",
-            "target": "triqs"
-          },
-          {
-            "source": "libcxx",
             "target": "uproc"
-          },
-          {
-            "source": "libcxx",
-            "target": "uwsift"
           },
           {
             "source": "libcxx",
@@ -16123,10 +15948,6 @@
           {
             "source": "libcxx",
             "target": "winpthreads"
-          },
-          {
-            "source": "libcxx",
-            "target": "xeus-cling"
           },
           {
             "source": "libdaemon",
@@ -19482,10 +19303,6 @@
           },
           {
             "source": "libxml2",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "libxml2",
             "target": "cdo"
           },
           {
@@ -19630,10 +19447,6 @@
           },
           {
             "source": "libxml2",
-            "target": "heyoka"
-          },
-          {
-            "source": "libxml2",
             "target": "hurl"
           },
           {
@@ -19710,10 +19523,6 @@
           },
           {
             "source": "libxml2",
-            "target": "libtvm"
-          },
-          {
-            "source": "libxml2",
             "target": "libvips"
           },
           {
@@ -19738,11 +19547,7 @@
           },
           {
             "source": "libxml2",
-            "target": "llvm-spirv"
-          },
-          {
-            "source": "libxml2",
-            "target": "llvmlite"
+            "target": "llvmdev"
           },
           {
             "source": "libxml2",
@@ -19751,10 +19556,6 @@
           {
             "source": "libxml2",
             "target": "mesalib"
-          },
-          {
-            "source": "libxml2",
-            "target": "mlir"
           },
           {
             "source": "libxml2",
@@ -19786,10 +19587,6 @@
           },
           {
             "source": "libxml2",
-            "target": "ocaml"
-          },
-          {
-            "source": "libxml2",
             "target": "octave"
           },
           {
@@ -19803,10 +19600,6 @@
           {
             "source": "libxml2",
             "target": "openimageio"
-          },
-          {
-            "source": "libxml2",
-            "target": "openmp"
           },
           {
             "source": "libxml2",
@@ -19963,10 +19756,6 @@
           {
             "source": "libxml2",
             "target": "sundials"
-          },
-          {
-            "source": "libxml2",
-            "target": "symengine"
           },
           {
             "source": "libxml2",
@@ -20195,6 +19984,330 @@
           {
             "source": "llvm-spirv",
             "target": "mesalib"
+          },
+          {
+            "source": "llvmdev",
+            "target": "arosics"
+          },
+          {
+            "source": "llvmdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "binutils"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cadet"
+          },
+          {
+            "source": "llvmdev",
+            "target": "caiman"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cctools-and-ld64"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "llvmdev",
+            "target": "clang-compiler-activation"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cling"
+          },
+          {
+            "source": "llvmdev",
+            "target": "compiler-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "compilers"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cppyy-cling"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ctng-compilers"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cvxopt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "dials"
+          },
+          {
+            "source": "llvmdev",
+            "target": "easyocr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "finesse"
+          },
+          {
+            "source": "llvmdev",
+            "target": "fluidfft"
+          },
+          {
+            "source": "llvmdev",
+            "target": "fluidimage"
+          },
+          {
+            "source": "llvmdev",
+            "target": "fluidsim"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gdma"
+          },
+          {
+            "source": "llvmdev",
+            "target": "geoarray"
+          },
+          {
+            "source": "llvmdev",
+            "target": "geowombat"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gfortran_impl_osx-64"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gfortran_osx-64"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ghc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "heyoka"
+          },
+          {
+            "source": "llvmdev",
+            "target": "isce2"
+          },
+          {
+            "source": "llvmdev",
+            "target": "julia"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ldc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lfortran"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libclc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libtdlpack"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libtvm"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lld"
+          },
+          {
+            "source": "llvmdev",
+            "target": "llvm-spirv"
+          },
+          {
+            "source": "llvmdev",
+            "target": "llvmlite"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mesalib"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mlir"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mpas_tools"
+          },
+          {
+            "source": "llvmdev",
+            "target": "napari-nd-annotator"
+          },
+          {
+            "source": "llvmdev",
+            "target": "nceplibs-bufr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "nifty"
+          },
+          {
+            "source": "llvmdev",
+            "target": "nim"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ocaml"
+          },
+          {
+            "source": "llvmdev",
+            "target": "octave"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openmp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openpnm"
+          },
+          {
+            "source": "llvmdev",
+            "target": "opentrustregion"
+          },
+          {
+            "source": "llvmdev",
+            "target": "petsc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "photospline"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pocl"
+          },
+          {
+            "source": "llvmdev",
+            "target": "porespy"
+          },
+          {
+            "source": "llvmdev",
+            "target": "puma"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pyarrow"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pycontrails"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pylabdd"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pypeit"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pyside2"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pytensor-suite"
+          },
+          {
+            "source": "llvmdev",
+            "target": "root"
+          },
+          {
+            "source": "llvmdev",
+            "target": "rosettasciio"
+          },
+          {
+            "source": "llvmdev",
+            "target": "sage"
+          },
+          {
+            "source": "llvmdev",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "llvmdev",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "llvmdev",
+            "target": "scilab"
+          },
+          {
+            "source": "llvmdev",
+            "target": "scipy"
+          },
+          {
+            "source": "llvmdev",
+            "target": "spam"
+          },
+          {
+            "source": "llvmdev",
+            "target": "stardist"
+          },
+          {
+            "source": "llvmdev",
+            "target": "sundials"
+          },
+          {
+            "source": "llvmdev",
+            "target": "symengine"
+          },
+          {
+            "source": "llvmdev",
+            "target": "test-drive"
+          },
+          {
+            "source": "llvmdev",
+            "target": "tomopy"
+          },
+          {
+            "source": "llvmdev",
+            "target": "triqs"
+          },
+          {
+            "source": "llvmdev",
+            "target": "uproc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "uwsift"
+          },
+          {
+            "source": "llvmdev",
+            "target": "winpthreads"
+          },
+          {
+            "source": "llvmdev",
+            "target": "xeus-cling"
           },
           {
             "source": "llvmlite",
@@ -21711,6 +21824,10 @@
           {
             "source": "moab",
             "target": "double-down"
+          },
+          {
+            "source": "moab",
+            "target": "openmc"
           },
           {
             "source": "moltenvk",
@@ -33518,10 +33635,6 @@
           },
           {
             "source": "python",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "python",
             "target": "assimulo"
           },
           {
@@ -33682,10 +33795,6 @@
           },
           {
             "source": "python",
-            "target": "binutils"
-          },
-          {
-            "source": "python",
             "target": "biom-format"
           },
           {
@@ -33786,10 +33895,6 @@
           },
           {
             "source": "python",
-            "target": "cadet"
-          },
-          {
-            "source": "python",
             "target": "caiman"
           },
           {
@@ -33854,10 +33959,6 @@
           },
           {
             "source": "python",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "python",
             "target": "cdshealpix"
           },
           {
@@ -33867,10 +33968,6 @@
           {
             "source": "python",
             "target": "cell_tree2d"
-          },
-          {
-            "source": "python",
-            "target": "ceres-solver"
           },
           {
             "source": "python",
@@ -33914,10 +34011,6 @@
           },
           {
             "source": "python",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "python",
             "target": "clarabel"
           },
           {
@@ -33951,10 +34044,6 @@
           {
             "source": "python",
             "target": "climlab-sbm-convection"
-          },
-          {
-            "source": "python",
-            "target": "cling"
           },
           {
             "source": "python",
@@ -34003,14 +34092,6 @@
           {
             "source": "python",
             "target": "compas_view2"
-          },
-          {
-            "source": "python",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "python",
-            "target": "compilers"
           },
           {
             "source": "python",
@@ -34075,10 +34156,6 @@
           {
             "source": "python",
             "target": "cpnest"
-          },
-          {
-            "source": "python",
-            "target": "cppad-mixed"
           },
           {
             "source": "python",
@@ -34147,14 +34224,6 @@
           {
             "source": "python",
             "target": "ct3"
-          },
-          {
-            "source": "python",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "python",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "python",
@@ -34790,18 +34859,6 @@
           },
           {
             "source": "python",
-            "target": "gfortran_impl_osx-64"
-          },
-          {
-            "source": "python",
-            "target": "gfortran_osx-64"
-          },
-          {
-            "source": "python",
-            "target": "ghc"
-          },
-          {
-            "source": "python",
             "target": "gilknocker"
           },
           {
@@ -35066,10 +35123,6 @@
           },
           {
             "source": "python",
-            "target": "heyoka"
-          },
-          {
-            "source": "python",
             "target": "heyoka.py"
           },
           {
@@ -35250,10 +35303,6 @@
           },
           {
             "source": "python",
-            "target": "julia"
-          },
-          {
-            "source": "python",
             "target": "kahip"
           },
           {
@@ -35354,19 +35403,11 @@
           },
           {
             "source": "python",
-            "target": "ldc"
-          },
-          {
-            "source": "python",
             "target": "lenstool"
           },
           {
             "source": "python",
             "target": "levenshtein"
-          },
-          {
-            "source": "python",
-            "target": "lfortran"
           },
           {
             "source": "python",
@@ -35379,10 +35420,6 @@
           {
             "source": "python",
             "target": "libad9361-iio"
-          },
-          {
-            "source": "python",
-            "target": "libclc"
           },
           {
             "source": "python",
@@ -35458,14 +35495,6 @@
           },
           {
             "source": "python",
-            "target": "libtdlpack"
-          },
-          {
-            "source": "python",
-            "target": "libtvm"
-          },
-          {
-            "source": "python",
             "target": "libxc"
           },
           {
@@ -35510,15 +35539,11 @@
           },
           {
             "source": "python",
-            "target": "lld"
-          },
-          {
-            "source": "python",
             "target": "llist"
           },
           {
             "source": "python",
-            "target": "llvm-spirv"
+            "target": "llvmdev"
           },
           {
             "source": "python",
@@ -35666,10 +35691,6 @@
           },
           {
             "source": "python",
-            "target": "mesalib"
-          },
-          {
-            "source": "python",
             "target": "meshpy"
           },
           {
@@ -35707,10 +35728,6 @@
           {
             "source": "python",
             "target": "ml_dtypes"
-          },
-          {
-            "source": "python",
-            "target": "mlir"
           },
           {
             "source": "python",
@@ -35866,10 +35883,6 @@
           },
           {
             "source": "python",
-            "target": "nim"
-          },
-          {
-            "source": "python",
             "target": "nitime"
           },
           {
@@ -35946,14 +35959,6 @@
           },
           {
             "source": "python",
-            "target": "ocaml"
-          },
-          {
-            "source": "python",
-            "target": "octave"
-          },
-          {
-            "source": "python",
             "target": "odrpack"
           },
           {
@@ -36003,10 +36008,6 @@
           {
             "source": "python",
             "target": "openmm"
-          },
-          {
-            "source": "python",
-            "target": "openmp"
           },
           {
             "source": "python",
@@ -36170,10 +36171,6 @@
           },
           {
             "source": "python",
-            "target": "petsc"
-          },
-          {
-            "source": "python",
             "target": "pgure-svt"
           },
           {
@@ -36243,10 +36240,6 @@
           {
             "source": "python",
             "target": "pmw"
-          },
-          {
-            "source": "python",
-            "target": "pocl"
           },
           {
             "source": "python",
@@ -37546,10 +37539,6 @@
           },
           {
             "source": "python",
-            "target": "scilab"
-          },
-          {
-            "source": "python",
             "target": "scipy"
           },
           {
@@ -37786,10 +37775,6 @@
           },
           {
             "source": "python",
-            "target": "sundials"
-          },
-          {
-            "source": "python",
             "target": "sunode"
           },
           {
@@ -37807,10 +37792,6 @@
           {
             "source": "python",
             "target": "symbolic"
-          },
-          {
-            "source": "python",
-            "target": "symengine"
           },
           {
             "source": "python",
@@ -37883,10 +37864,6 @@
           {
             "source": "python",
             "target": "tesserocr"
-          },
-          {
-            "source": "python",
-            "target": "test-drive"
           },
           {
             "source": "python",
@@ -38066,10 +38043,6 @@
           },
           {
             "source": "python",
-            "target": "uproc"
-          },
-          {
-            "source": "python",
             "target": "urlquote"
           },
           {
@@ -38198,10 +38171,6 @@
           },
           {
             "source": "python",
-            "target": "winpthreads"
-          },
-          {
-            "source": "python",
             "target": "wordcloud"
           },
           {
@@ -38227,10 +38196,6 @@
           {
             "source": "python",
             "target": "xcfun"
-          },
-          {
-            "source": "python",
-            "target": "xeus-cling"
           },
           {
             "source": "python",
@@ -55186,10 +55151,6 @@
           },
           {
             "source": "zlib",
-            "target": "libtvm"
-          },
-          {
-            "source": "zlib",
             "target": "libuwebsockets"
           },
           {
@@ -55223,6 +55184,10 @@
           {
             "source": "zlib",
             "target": "llvm-spirv"
+          },
+          {
+            "source": "zlib",
+            "target": "llvmdev"
           },
           {
             "source": "zlib",
@@ -55406,10 +55371,6 @@
           },
           {
             "source": "zlib",
-            "target": "ocaml"
-          },
-          {
-            "source": "zlib",
             "target": "octave"
           },
           {
@@ -55467,10 +55428,6 @@
           {
             "source": "zlib",
             "target": "openmotif"
-          },
-          {
-            "source": "zlib",
-            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -56222,10 +56179,6 @@
           },
           {
             "source": "zstd",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "zstd",
             "target": "ceres-solver"
           },
           {
@@ -56239,10 +56192,6 @@
           {
             "source": "zstd",
             "target": "cmake"
-          },
-          {
-            "source": "zstd",
-            "target": "compiler-rt"
           },
           {
             "source": "zstd",
@@ -56422,15 +56371,11 @@
           },
           {
             "source": "zstd",
-            "target": "libtvm"
-          },
-          {
-            "source": "zstd",
             "target": "lld"
           },
           {
             "source": "zstd",
-            "target": "llvm-spirv"
+            "target": "llvmdev"
           },
           {
             "source": "zstd",
@@ -56451,10 +56396,6 @@
           {
             "source": "zstd",
             "target": "minizip"
-          },
-          {
-            "source": "zstd",
-            "target": "mlir"
           },
           {
             "source": "zstd",
@@ -56511,10 +56452,6 @@
           {
             "source": "zstd",
             "target": "openexr"
-          },
-          {
-            "source": "zstd",
-            "target": "openmp"
           },
           {
             "source": "zstd",
@@ -63351,6 +63288,12 @@
             "id": "llvm-spirv",
             "payload": {
               "__lazy_json__": "node_attrs/llvm-spirv.json"
+            }
+          },
+          {
+            "id": "llvmdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmdev.json"
             }
           },
           {
