@@ -16799,6 +16799,10 @@
           },
           {
             "source": "cmake",
+            "target": "bpf-linker"
+          },
+          {
+            "source": "cmake",
             "target": "brotli"
           },
           {
@@ -16864,6 +16868,10 @@
           {
             "source": "cmake",
             "target": "cccl-python"
+          },
+          {
+            "source": "cmake",
+            "target": "cctools-and-ld64"
           },
           {
             "source": "cmake",
@@ -18276,10 +18284,6 @@
           {
             "source": "cmake",
             "target": "llvm-spirv"
-          },
-          {
-            "source": "cmake",
-            "target": "llvmdev"
           },
           {
             "source": "cmake",
@@ -49647,11 +49651,19 @@
           },
           {
             "source": "libxml2",
+            "target": "bpf-linker"
+          },
+          {
+            "source": "libxml2",
             "target": "cantera"
           },
           {
             "source": "libxml2",
             "target": "catboost"
+          },
+          {
+            "source": "libxml2",
+            "target": "cctools-and-ld64"
           },
           {
             "source": "libxml2",
@@ -49851,6 +49863,14 @@
           },
           {
             "source": "libxml2",
+            "target": "heyoka"
+          },
+          {
+            "source": "libxml2",
+            "target": "horovod"
+          },
+          {
+            "source": "libxml2",
             "target": "htcondor"
           },
           {
@@ -50011,7 +50031,11 @@
           },
           {
             "source": "libxml2",
-            "target": "llvmdev"
+            "target": "llvm-spirv"
+          },
+          {
+            "source": "libxml2",
+            "target": "llvmlite"
           },
           {
             "source": "libxml2",
@@ -50164,6 +50188,10 @@
           {
             "source": "libxml2",
             "target": "openimageio"
+          },
+          {
+            "source": "libxml2",
+            "target": "openmp"
           },
           {
             "source": "libxml2",
@@ -50443,6 +50471,10 @@
           },
           {
             "source": "libxml2",
+            "target": "symengine"
+          },
+          {
+            "source": "libxml2",
             "target": "tabmat"
           },
           {
@@ -50716,786 +50748,6 @@
           {
             "source": "llvm-spirv",
             "target": "mesalib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "abacus"
-          },
-          {
-            "source": "llvmdev",
-            "target": "adcc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "autorift"
-          },
-          {
-            "source": "llvmdev",
-            "target": "batoid"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bayeswave"
-          },
-          {
-            "source": "llvmdev",
-            "target": "binutils"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bioimage-cpp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bpf-linker"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cantera"
-          },
-          {
-            "source": "llvmdev",
-            "target": "catboost"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "llvmdev",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cling"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cmdstan"
-          },
-          {
-            "source": "llvmdev",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "llvmdev",
-            "target": "connectorx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cppe"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cuda-nvcc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cutde"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cvxopt"
-          },
-          {
-            "source": "llvmdev",
-            "target": "deno"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dftd4"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dgl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dmlc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "easyocr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "elsi"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ensmallen"
-          },
-          {
-            "source": "llvmdev",
-            "target": "faiss-split"
-          },
-          {
-            "source": "llvmdev",
-            "target": "flann"
-          },
-          {
-            "source": "llvmdev",
-            "target": "fluidsynth"
-          },
-          {
-            "source": "llvmdev",
-            "target": "galsim"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gauxc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gcp-correction"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gfortran_impl_osx-64"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gfortran_osx-64"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ghc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gklib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "glum"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gmsh"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gnucobol"
-          },
-          {
-            "source": "llvmdev",
-            "target": "graph-tool"
-          },
-          {
-            "source": "llvmdev",
-            "target": "graphicsmagick"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gromacs"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gstools-cython"
-          },
-          {
-            "source": "llvmdev",
-            "target": "hdf5"
-          },
-          {
-            "source": "llvmdev",
-            "target": "healpix_cxx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "heyoka"
-          },
-          {
-            "source": "llvmdev",
-            "target": "horovod"
-          },
-          {
-            "source": "llvmdev",
-            "target": "htcondor"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "jags"
-          },
-          {
-            "source": "llvmdev",
-            "target": "julia"
-          },
-          {
-            "source": "llvmdev",
-            "target": "kahip"
-          },
-          {
-            "source": "llvmdev",
-            "target": "kokkos"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lalinference"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lalsimulation"
-          },
-          {
-            "source": "llvmdev",
-            "target": "laura"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ldc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libcxx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libmagma"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libnvpl-tensor"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libomm"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libplanc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libraw"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libtdlpack"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libtensorlight"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lightgbm"
-          },
-          {
-            "source": "llvmdev",
-            "target": "linux-perf"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lld"
-          },
-          {
-            "source": "llvmdev",
-            "target": "llvm-spirv"
-          },
-          {
-            "source": "llvmdev",
-            "target": "llvmlite"
-          },
-          {
-            "source": "llvmdev",
-            "target": "matrixswitch"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mctc-lib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mesalib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "metplus"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mrchem"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mrcpp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "multicharge"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mumps"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mupdf"
-          },
-          {
-            "source": "llvmdev",
-            "target": "muspinsim"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mvapich"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nccl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ncdu"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nceplibs-bufr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nceplibs-ip"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ncl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nco"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ncurses"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nim"
-          },
-          {
-            "source": "llvmdev",
-            "target": "normaliz"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ntpoly"
-          },
-          {
-            "source": "llvmdev",
-            "target": "numba"
-          },
-          {
-            "source": "llvmdev",
-            "target": "numsa"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nutpie"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nvimgcodec"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nvmath"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml"
-          },
-          {
-            "source": "llvmdev",
-            "target": "oclgrind"
-          },
-          {
-            "source": "llvmdev",
-            "target": "octave"
-          },
-          {
-            "source": "llvmdev",
-            "target": "odrpack"
-          },
-          {
-            "source": "llvmdev",
-            "target": "opencv"
-          },
-          {
-            "source": "llvmdev",
-            "target": "openmp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "opensees"
-          },
-          {
-            "source": "llvmdev",
-            "target": "oso"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pennylane"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pennylane-lightning-gpu"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pennylane-lightning-kokkos"
-          },
-          {
-            "source": "llvmdev",
-            "target": "petsc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pexsi"
-          },
-          {
-            "source": "llvmdev",
-            "target": "phonopy"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pinocchio"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pocl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "poppler"
-          },
-          {
-            "source": "llvmdev",
-            "target": "postgresql"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pp-sketchlib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "primecount"
-          },
-          {
-            "source": "llvmdev",
-            "target": "proxsuite"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pyarrow"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pycbc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pyddx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pykdtree"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pyside2"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pywinpty"
-          },
-          {
-            "source": "llvmdev",
-            "target": "quippy"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-base"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-clusterr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-conquer"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-data.table"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-delaporte"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-glmmtmb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-mgcv"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-modelmetrics"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-mvnfast"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-poppr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-rcpparmadillo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-rcppml"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-rcppplanc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-rfast"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-rhpcblasctl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-robusthd"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-sitmo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-tmb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "root"
-          },
-          {
-            "source": "llvmdev",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "llvmdev",
-            "target": "sage"
-          },
-          {
-            "source": "llvmdev",
-            "target": "scikit-learn"
-          },
-          {
-            "source": "llvmdev",
-            "target": "scipy"
-          },
-          {
-            "source": "llvmdev",
-            "target": "silx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "simple-dftd3"
-          },
-          {
-            "source": "llvmdev",
-            "target": "simsimd"
-          },
-          {
-            "source": "llvmdev",
-            "target": "sleef"
-          },
-          {
-            "source": "llvmdev",
-            "target": "soxr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "spral"
-          },
-          {
-            "source": "llvmdev",
-            "target": "stardist"
-          },
-          {
-            "source": "llvmdev",
-            "target": "sundials"
-          },
-          {
-            "source": "llvmdev",
-            "target": "superlu_dist"
-          },
-          {
-            "source": "llvmdev",
-            "target": "symengine"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tabmat"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_abaqus_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_constitutive_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_error_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_micromorphic_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_solver_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_stress_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tardigrade_vector_tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tblite"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tomopy"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tree-sitter-cli"
-          },
-          {
-            "source": "llvmdev",
-            "target": "treelite"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ucx-split"
-          },
-          {
-            "source": "llvmdev",
-            "target": "vampyr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "vc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "veloxchem"
-          },
-          {
-            "source": "llvmdev",
-            "target": "viskores"
-          },
-          {
-            "source": "llvmdev",
-            "target": "winpthreads"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xeus-cling"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xgboost"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xtb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "yambo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "yt"
-          },
-          {
-            "source": "llvmdev",
-            "target": "zfpy"
           },
           {
             "source": "llvmlite",
@@ -54883,7 +54135,15 @@
           },
           {
             "source": "ninja",
+            "target": "abacus"
+          },
+          {
+            "source": "ninja",
             "target": "abseil-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "adcc"
           },
           {
             "source": "ninja",
@@ -55027,7 +54287,15 @@
           },
           {
             "source": "ninja",
+            "target": "batoid"
+          },
+          {
+            "source": "ninja",
             "target": "bayes-filters-lib"
+          },
+          {
+            "source": "ninja",
+            "target": "bayeswave"
           },
           {
             "source": "ninja",
@@ -55040,6 +54308,10 @@
           {
             "source": "ninja",
             "target": "binaryen"
+          },
+          {
+            "source": "ninja",
+            "target": "binutils"
           },
           {
             "source": "ninja",
@@ -55056,6 +54328,10 @@
           {
             "source": "ninja",
             "target": "blasfeo"
+          },
+          {
+            "source": "ninja",
+            "target": "bpf-linker"
           },
           {
             "source": "ninja",
@@ -55083,6 +54359,10 @@
           },
           {
             "source": "ninja",
+            "target": "cantera"
+          },
+          {
+            "source": "ninja",
             "target": "cartographer"
           },
           {
@@ -55092,6 +54372,10 @@
           {
             "source": "ninja",
             "target": "cascade"
+          },
+          {
+            "source": "ninja",
+            "target": "catboost"
           },
           {
             "source": "ninja",
@@ -55115,6 +54399,14 @@
           },
           {
             "source": "ninja",
+            "target": "cctools-and-ld64"
+          },
+          {
+            "source": "ninja",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "ninja",
             "target": "ceres-solver"
           },
           {
@@ -55124,6 +54416,10 @@
           {
             "source": "ninja",
             "target": "cgal-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "clang-compiler-activation"
           },
           {
             "source": "ninja",
@@ -55147,6 +54443,10 @@
           },
           {
             "source": "ninja",
+            "target": "cmdstan"
+          },
+          {
+            "source": "ninja",
             "target": "coal"
           },
           {
@@ -55164,6 +54464,10 @@
           {
             "source": "ninja",
             "target": "compiler-rt"
+          },
+          {
+            "source": "ninja",
+            "target": "connectorx"
           },
           {
             "source": "ninja",
@@ -55203,7 +54507,15 @@
           },
           {
             "source": "ninja",
+            "target": "cppyy-cling"
+          },
+          {
+            "source": "ninja",
             "target": "cspice"
+          },
+          {
+            "source": "ninja",
+            "target": "ctng-compilers"
           },
           {
             "source": "ninja",
@@ -55216,6 +54528,10 @@
           {
             "source": "ninja",
             "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
+            "target": "cutde"
           },
           {
             "source": "ninja",
@@ -55275,6 +54591,10 @@
           },
           {
             "source": "ninja",
+            "target": "dgl"
+          },
+          {
+            "source": "ninja",
             "target": "digital_rf"
           },
           {
@@ -55323,6 +54643,10 @@
           },
           {
             "source": "ninja",
+            "target": "ensmallen"
+          },
+          {
+            "source": "ninja",
             "target": "epoxy"
           },
           {
@@ -55367,6 +54691,10 @@
           },
           {
             "source": "ninja",
+            "target": "flann"
+          },
+          {
+            "source": "ninja",
             "target": "flash-attn"
           },
           {
@@ -55396,6 +54724,10 @@
           {
             "source": "ninja",
             "target": "fvdb-core"
+          },
+          {
+            "source": "ninja",
+            "target": "galsim"
           },
           {
             "source": "ninja",
@@ -55431,6 +54763,22 @@
           },
           {
             "source": "ninja",
+            "target": "gfortran_impl_osx-64"
+          },
+          {
+            "source": "ninja",
+            "target": "gfortran_osx-64"
+          },
+          {
+            "source": "ninja",
+            "target": "ghc"
+          },
+          {
+            "source": "ninja",
+            "target": "gklib"
+          },
+          {
+            "source": "ninja",
             "target": "gl2ps"
           },
           {
@@ -55459,11 +54807,23 @@
           },
           {
             "source": "ninja",
+            "target": "glum"
+          },
+          {
+            "source": "ninja",
+            "target": "gmsh"
+          },
+          {
+            "source": "ninja",
             "target": "gn"
           },
           {
             "source": "ninja",
             "target": "gnss-sdr"
+          },
+          {
+            "source": "ninja",
+            "target": "gnucobol"
           },
           {
             "source": "ninja",
@@ -55491,6 +54851,18 @@
           },
           {
             "source": "ninja",
+            "target": "graph-tool"
+          },
+          {
+            "source": "ninja",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "ninja",
+            "target": "gromacs"
+          },
+          {
+            "source": "ninja",
             "target": "grpc-cpp"
           },
           {
@@ -55508,6 +54880,10 @@
           {
             "source": "ninja",
             "target": "gst-python"
+          },
+          {
+            "source": "ninja",
+            "target": "gstools-cython"
           },
           {
             "source": "ninja",
@@ -55599,6 +54975,10 @@
           },
           {
             "source": "ninja",
+            "target": "healpix_cxx"
+          },
+          {
+            "source": "ninja",
             "target": "heyoka"
           },
           {
@@ -55607,7 +54987,15 @@
           },
           {
             "source": "ninja",
+            "target": "horovod"
+          },
+          {
+            "source": "ninja",
             "target": "howardhinnant_date"
+          },
+          {
+            "source": "ninja",
+            "target": "htcondor"
           },
           {
             "source": "ninja",
@@ -55655,6 +55043,10 @@
           },
           {
             "source": "ninja",
+            "target": "jags"
+          },
+          {
+            "source": "ninja",
             "target": "jonquil"
           },
           {
@@ -55675,6 +55067,10 @@
           },
           {
             "source": "ninja",
+            "target": "kahip"
+          },
+          {
+            "source": "ninja",
             "target": "khiops-binaries"
           },
           {
@@ -55684,6 +55080,18 @@
           {
             "source": "ninja",
             "target": "kokkos"
+          },
+          {
+            "source": "ninja",
+            "target": "lalinference"
+          },
+          {
+            "source": "ninja",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "ninja",
+            "target": "lalsimulation"
           },
           {
             "source": "ninja",
@@ -55911,6 +55319,10 @@
           },
           {
             "source": "ninja",
+            "target": "libomm"
+          },
+          {
+            "source": "ninja",
             "target": "libosqp"
           },
           {
@@ -55927,6 +55339,10 @@
           },
           {
             "source": "ninja",
+            "target": "libplanc"
+          },
+          {
+            "source": "ninja",
             "target": "libprotobuf"
           },
           {
@@ -55936,6 +55352,10 @@
           {
             "source": "ninja",
             "target": "libraqm"
+          },
+          {
+            "source": "ninja",
+            "target": "libraw"
           },
           {
             "source": "ninja",
@@ -55976,6 +55396,10 @@
           {
             "source": "ninja",
             "target": "libsoup"
+          },
+          {
+            "source": "ninja",
+            "target": "libtdlpack"
           },
           {
             "source": "ninja",
@@ -56051,7 +55475,15 @@
           },
           {
             "source": "ninja",
+            "target": "lightgbm"
+          },
+          {
+            "source": "ninja",
             "target": "limesuite"
+          },
+          {
+            "source": "ninja",
+            "target": "linux-perf"
           },
           {
             "source": "ninja",
@@ -56063,7 +55495,11 @@
           },
           {
             "source": "ninja",
-            "target": "llvmdev"
+            "target": "llvm-spirv"
+          },
+          {
+            "source": "ninja",
+            "target": "llvmlite"
           },
           {
             "source": "ninja",
@@ -56099,6 +55535,10 @@
           },
           {
             "source": "ninja",
+            "target": "matrixswitch"
+          },
+          {
+            "source": "ninja",
             "target": "mctc-lib"
           },
           {
@@ -56108,6 +55548,10 @@
           {
             "source": "ninja",
             "target": "mesalib"
+          },
+          {
+            "source": "ninja",
+            "target": "metplus"
           },
           {
             "source": "ninja",
@@ -56155,11 +55599,23 @@
           },
           {
             "source": "ninja",
+            "target": "mumps"
+          },
+          {
+            "source": "ninja",
             "target": "muparser"
           },
           {
             "source": "ninja",
             "target": "mupdf"
+          },
+          {
+            "source": "ninja",
+            "target": "muspinsim"
+          },
+          {
+            "source": "ninja",
+            "target": "mvapich"
           },
           {
             "source": "ninja",
@@ -56179,6 +55635,10 @@
           },
           {
             "source": "ninja",
+            "target": "nccl"
+          },
+          {
+            "source": "ninja",
             "target": "ncdu"
           },
           {
@@ -56187,7 +55647,27 @@
           },
           {
             "source": "ninja",
+            "target": "nceplibs-ip"
+          },
+          {
+            "source": "ninja",
+            "target": "ncl"
+          },
+          {
+            "source": "ninja",
+            "target": "nco"
+          },
+          {
+            "source": "ninja",
+            "target": "ncurses"
+          },
+          {
+            "source": "ninja",
             "target": "nexus"
+          },
+          {
+            "source": "ninja",
+            "target": "nim"
           },
           {
             "source": "ninja",
@@ -56203,7 +55683,15 @@
           },
           {
             "source": "ninja",
+            "target": "normaliz"
+          },
+          {
+            "source": "ninja",
             "target": "ntpoly"
+          },
+          {
+            "source": "ninja",
+            "target": "numba"
           },
           {
             "source": "ninja",
@@ -56223,6 +55711,10 @@
           },
           {
             "source": "ninja",
+            "target": "nutpie"
+          },
+          {
+            "source": "ninja",
             "target": "nvidia-apex"
           },
           {
@@ -56235,6 +55727,10 @@
           },
           {
             "source": "ninja",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "ninja",
             "target": "nvtx-c"
           },
           {
@@ -56244,6 +55740,10 @@
           {
             "source": "ninja",
             "target": "occt"
+          },
+          {
+            "source": "ninja",
+            "target": "oclgrind"
           },
           {
             "source": "ninja",
@@ -56367,6 +55867,10 @@
           },
           {
             "source": "ninja",
+            "target": "oso"
+          },
+          {
+            "source": "ninja",
             "target": "osqp"
           },
           {
@@ -56423,6 +55927,10 @@
           },
           {
             "source": "ninja",
+            "target": "phonopy"
+          },
+          {
+            "source": "ninja",
             "target": "pinocchio"
           },
           {
@@ -56455,7 +55963,19 @@
           },
           {
             "source": "ninja",
+            "target": "postgresql"
+          },
+          {
+            "source": "ninja",
+            "target": "pp-sketchlib"
+          },
+          {
+            "source": "ninja",
             "target": "pplpy"
+          },
+          {
+            "source": "ninja",
+            "target": "primecount"
           },
           {
             "source": "ninja",
@@ -56495,6 +56015,14 @@
           },
           {
             "source": "ninja",
+            "target": "pycbc"
+          },
+          {
+            "source": "ninja",
+            "target": "pyddx"
+          },
+          {
+            "source": "ninja",
             "target": "pyfai"
           },
           {
@@ -56508,6 +56036,10 @@
           {
             "source": "ninja",
             "target": "pygobject"
+          },
+          {
+            "source": "ninja",
+            "target": "pykdtree"
           },
           {
             "source": "ninja",
@@ -56556,6 +56088,10 @@
           {
             "source": "ninja",
             "target": "pywavelets"
+          },
+          {
+            "source": "ninja",
+            "target": "pywinpty"
           },
           {
             "source": "ninja",
@@ -56632,6 +56168,82 @@
           {
             "source": "ninja",
             "target": "qt6-serialport"
+          },
+          {
+            "source": "ninja",
+            "target": "quippy"
+          },
+          {
+            "source": "ninja",
+            "target": "r-base"
+          },
+          {
+            "source": "ninja",
+            "target": "r-clusterr"
+          },
+          {
+            "source": "ninja",
+            "target": "r-conquer"
+          },
+          {
+            "source": "ninja",
+            "target": "r-data.table"
+          },
+          {
+            "source": "ninja",
+            "target": "r-delaporte"
+          },
+          {
+            "source": "ninja",
+            "target": "r-glmmtmb"
+          },
+          {
+            "source": "ninja",
+            "target": "r-mgcv"
+          },
+          {
+            "source": "ninja",
+            "target": "r-modelmetrics"
+          },
+          {
+            "source": "ninja",
+            "target": "r-mvnfast"
+          },
+          {
+            "source": "ninja",
+            "target": "r-poppr"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcpparmadillo"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcppml"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcppplanc"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rfast"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "ninja",
+            "target": "r-robusthd"
+          },
+          {
+            "source": "ninja",
+            "target": "r-sitmo"
+          },
+          {
+            "source": "ninja",
+            "target": "r-tmb"
           },
           {
             "source": "ninja",
@@ -56775,6 +56387,10 @@
           },
           {
             "source": "ninja",
+            "target": "simsimd"
+          },
+          {
+            "source": "ninja",
             "target": "siphash24"
           },
           {
@@ -56815,6 +56431,10 @@
           },
           {
             "source": "ninja",
+            "target": "soxr"
+          },
+          {
+            "source": "ninja",
             "target": "spglib"
           },
           {
@@ -56847,11 +56467,23 @@
           },
           {
             "source": "ninja",
+            "target": "superlu_dist"
+          },
+          {
+            "source": "ninja",
             "target": "swig"
           },
           {
             "source": "ninja",
+            "target": "symengine"
+          },
+          {
+            "source": "ninja",
             "target": "systemd"
+          },
+          {
+            "source": "ninja",
+            "target": "tabmat"
           },
           {
             "source": "ninja",
@@ -56872,6 +56504,34 @@
           {
             "source": "ninja",
             "target": "tapi"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_abaqus_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_constitutive_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_error_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_micromorphic_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_solver_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_stress_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_vector_tools"
           },
           {
             "source": "ninja",
@@ -56911,6 +56571,10 @@
           },
           {
             "source": "ninja",
+            "target": "tree-sitter-cli"
+          },
+          {
+            "source": "ninja",
             "target": "treelite"
           },
           {
@@ -56935,6 +56599,10 @@
           },
           {
             "source": "ninja",
+            "target": "ucx-split"
+          },
+          {
+            "source": "ninja",
             "target": "uhd"
           },
           {
@@ -56952,6 +56620,10 @@
           {
             "source": "ninja",
             "target": "vampyr"
+          },
+          {
+            "source": "ninja",
+            "target": "vc"
           },
           {
             "source": "ninja",
@@ -57003,7 +56675,15 @@
           },
           {
             "source": "ninja",
+            "target": "winpthreads"
+          },
+          {
+            "source": "ninja",
             "target": "xcfun"
+          },
+          {
+            "source": "ninja",
+            "target": "xeus-cling"
           },
           {
             "source": "ninja",
@@ -57043,6 +56723,10 @@
           },
           {
             "source": "ninja",
+            "target": "yambo"
+          },
+          {
+            "source": "ninja",
             "target": "yaml-cpp"
           },
           {
@@ -57052,6 +56736,10 @@
           {
             "source": "ninja",
             "target": "ycm-cmake-modules"
+          },
+          {
+            "source": "ninja",
+            "target": "yt"
           },
           {
             "source": "ninja",
@@ -57068,6 +56756,10 @@
           {
             "source": "ninja",
             "target": "zeromq"
+          },
+          {
+            "source": "ninja",
+            "target": "zfpy"
           },
           {
             "source": "ninja",
@@ -71343,6 +71035,10 @@
           },
           {
             "source": "python",
+            "target": "bpf-linker"
+          },
+          {
+            "source": "python",
             "target": "brian2"
           },
           {
@@ -71440,6 +71136,10 @@
           {
             "source": "python",
             "target": "cctbx-base"
+          },
+          {
+            "source": "python",
+            "target": "cctools-and-ld64"
           },
           {
             "source": "python",
@@ -72499,6 +72199,10 @@
           },
           {
             "source": "python",
+            "target": "heyoka"
+          },
+          {
+            "source": "python",
             "target": "heyoka.py"
           },
           {
@@ -73163,11 +72867,15 @@
           },
           {
             "source": "python",
+            "target": "lld"
+          },
+          {
+            "source": "python",
             "target": "llist"
           },
           {
             "source": "python",
-            "target": "llvmdev"
+            "target": "llvm-spirv"
           },
           {
             "source": "python",
@@ -75004,6 +74712,10 @@
           {
             "source": "python",
             "target": "swig"
+          },
+          {
+            "source": "python",
+            "target": "symengine"
           },
           {
             "source": "python",
@@ -102423,6 +102135,10 @@
           },
           {
             "source": "zlib",
+            "target": "bpf-linker"
+          },
+          {
+            "source": "zlib",
             "target": "brial"
           },
           {
@@ -103003,6 +102719,10 @@
           },
           {
             "source": "zlib",
+            "target": "horovod"
+          },
+          {
+            "source": "zlib",
             "target": "htcondor"
           },
           {
@@ -103300,10 +103020,6 @@
           {
             "source": "zlib",
             "target": "llvm-spirv"
-          },
-          {
-            "source": "zlib",
-            "target": "llvmdev"
           },
           {
             "source": "zlib",
@@ -103652,6 +103368,10 @@
           {
             "source": "zlib",
             "target": "openmotif"
+          },
+          {
+            "source": "zlib",
+            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -104983,6 +104703,10 @@
           },
           {
             "source": "zstd",
+            "target": "bpf-linker"
+          },
+          {
+            "source": "zstd",
             "target": "btrfs-progs"
           },
           {
@@ -105004,6 +104728,10 @@
           {
             "source": "zstd",
             "target": "cctbx-base"
+          },
+          {
+            "source": "zstd",
+            "target": "cctools-and-ld64"
           },
           {
             "source": "zstd",
@@ -105032,6 +104760,10 @@
           {
             "source": "zstd",
             "target": "cmdstan"
+          },
+          {
+            "source": "zstd",
+            "target": "compiler-rt"
           },
           {
             "source": "zstd",
@@ -105259,6 +104991,10 @@
           },
           {
             "source": "zstd",
+            "target": "horovod"
+          },
+          {
+            "source": "zstd",
             "target": "htcondor"
           },
           {
@@ -105415,7 +105151,7 @@
           },
           {
             "source": "zstd",
-            "target": "llvmdev"
+            "target": "llvm-spirv"
           },
           {
             "source": "zstd",
@@ -105636,6 +105372,10 @@
           {
             "source": "zstd",
             "target": "openmeeg"
+          },
+          {
+            "source": "zstd",
+            "target": "openmp"
           },
           {
             "source": "zstd",
@@ -112186,12 +111926,6 @@
             "id": "llvm-spirv",
             "payload": {
               "__lazy_json__": "node_attrs/llvm-spirv.json"
-            }
-          },
-          {
-            "id": "llvmdev",
-            "payload": {
-              "__lazy_json__": "node_attrs/llvmdev.json"
             }
           },
           {
