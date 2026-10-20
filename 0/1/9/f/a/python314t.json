@@ -438,6 +438,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "discretize"
+          },
+          {
+            "source": "backports.zstd",
             "target": "dulwich"
           },
           {
@@ -995,6 +999,10 @@
           {
             "source": "brotli",
             "target": "dftd3-python"
+          },
+          {
+            "source": "brotli",
+            "target": "discretize"
           },
           {
             "source": "brotli",
@@ -6706,6 +6714,10 @@
           },
           {
             "source": "psutil",
+            "target": "discretize"
+          },
+          {
+            "source": "psutil",
             "target": "egglog"
           },
           {
@@ -7855,10 +7867,6 @@
           {
             "source": "python-librt",
             "target": "mypy"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "python-marisa-trie",
@@ -9750,6 +9758,10 @@
           },
           {
             "source": "ujson",
+            "target": "discretize"
+          },
+          {
+            "source": "ujson",
             "target": "ewah-bool-utils"
           },
           {
@@ -10251,6 +10263,10 @@
           {
             "source": "wcwidth",
             "target": "dipy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "discretize"
           },
           {
             "source": "wcwidth",
@@ -13517,12 +13533,6 @@
             "id": "python-librt",
             "payload": {
               "__lazy_json__": "node_attrs/python-librt.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
