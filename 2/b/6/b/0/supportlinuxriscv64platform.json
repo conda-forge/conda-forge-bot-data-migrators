@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -2044,6 +2051,10 @@
           {
             "source": "python",
             "target": "mypy"
+          },
+          {
+            "source": "python",
+            "target": "nh3"
           },
           {
             "source": "python",
@@ -4315,6 +4326,12 @@
             }
           },
           {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
+            }
+          },
+          {
             "id": "ninja",
             "payload": {
               "__lazy_json__": "node_attrs/ninja.json"
@@ -5278,6 +5295,7 @@
         "sed",
         "su-exec",
         "tini",
+        "twine",
         "vhs"
       ]
     },
