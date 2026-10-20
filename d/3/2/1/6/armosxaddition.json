@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "apache-flink",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-flink.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -16128,10 +16135,6 @@
           {
             "source": "libfabric",
             "target": "openmpi"
-          },
-          {
-            "source": "libfabric",
-            "target": "plumed"
           },
           {
             "source": "libffi",
