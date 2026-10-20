@@ -2447,6 +2447,10 @@
           },
           {
             "source": "boost",
+            "target": "astra-toolbox"
+          },
+          {
+            "source": "boost",
             "target": "audi"
           },
           {
@@ -2664,10 +2668,6 @@
           {
             "source": "boost",
             "target": "ldas-tools-framecpp"
-          },
-          {
-            "source": "boost",
-            "target": "libastra"
           },
           {
             "source": "boost",
@@ -15664,10 +15664,6 @@
           {
             "source": "libassuan",
             "target": "gpgme"
-          },
-          {
-            "source": "libastra",
-            "target": "astra-toolbox"
           },
           {
             "source": "libatomic_ops",
@@ -62104,12 +62100,6 @@
             "id": "libassuan",
             "payload": {
               "__lazy_json__": "node_attrs/libassuan.json"
-            }
-          },
-          {
-            "id": "libastra",
-            "payload": {
-              "__lazy_json__": "node_attrs/libastra.json"
             }
           },
           {
