@@ -2315,10 +2315,6 @@
           },
           {
             "source": "libxml2",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "libxml2",
             "target": "clang-compiler-activation"
           },
           {
@@ -2363,15 +2359,11 @@
           },
           {
             "source": "libxml2",
-            "target": "mlir"
+            "target": "llvmdev"
           },
           {
             "source": "libxml2",
             "target": "ncurses"
-          },
-          {
-            "source": "libxml2",
-            "target": "openmp"
           },
           {
             "source": "libxml2",
@@ -2424,6 +2416,70 @@
           {
             "source": "lief",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "llvmdev",
+            "target": "binutils"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cctools-and-ld64"
+          },
+          {
+            "source": "llvmdev",
+            "target": "clang-compiler-activation"
+          },
+          {
+            "source": "llvmdev",
+            "target": "compiler-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ctng-compilers"
+          },
+          {
+            "source": "llvmdev",
+            "target": "flang"
+          },
+          {
+            "source": "llvmdev",
+            "target": "flang-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libhwloc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mlir"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ncurses"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openmp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pyside2"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-base"
+          },
+          {
+            "source": "llvmdev",
+            "target": "soxr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "tbb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "winpthreads"
           },
           {
             "source": "lz4-c",
@@ -3075,10 +3131,6 @@
           },
           {
             "source": "python",
-            "target": "binutils"
-          },
-          {
-            "source": "python",
             "target": "brotli"
           },
           {
@@ -3087,19 +3139,7 @@
           },
           {
             "source": "python",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "python",
             "target": "cffi"
-          },
-          {
-            "source": "python",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "python",
-            "target": "compiler-rt"
           },
           {
             "source": "python",
@@ -3115,10 +3155,6 @@
           },
           {
             "source": "python",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "python",
             "target": "cyrus-sasl"
           },
           {
@@ -3128,14 +3164,6 @@
           {
             "source": "python",
             "target": "dulwich"
-          },
-          {
-            "source": "python",
-            "target": "flang"
-          },
-          {
-            "source": "python",
-            "target": "flang-rt"
           },
           {
             "source": "python",
@@ -3163,10 +3191,6 @@
           },
           {
             "source": "python",
-            "target": "libhwloc"
-          },
-          {
-            "source": "python",
             "target": "libplacebo"
           },
           {
@@ -3187,15 +3211,15 @@
           },
           {
             "source": "python",
+            "target": "llvmdev"
+          },
+          {
+            "source": "python",
             "target": "mamba"
           },
           {
             "source": "python",
             "target": "matplotlib"
-          },
-          {
-            "source": "python",
-            "target": "mlir"
           },
           {
             "source": "python",
@@ -3207,15 +3231,7 @@
           },
           {
             "source": "python",
-            "target": "ncurses"
-          },
-          {
-            "source": "python",
             "target": "numpy"
-          },
-          {
-            "source": "python",
-            "target": "openmp"
           },
           {
             "source": "python",
@@ -3295,10 +3311,6 @@
           },
           {
             "source": "python",
-            "target": "r-base"
-          },
-          {
-            "source": "python",
             "target": "rapidfuzz"
           },
           {
@@ -3316,10 +3328,6 @@
           {
             "source": "python",
             "target": "seccomp-split"
-          },
-          {
-            "source": "python",
-            "target": "soxr"
           },
           {
             "source": "python",
@@ -3348,10 +3356,6 @@
           {
             "source": "python",
             "target": "wcwidth"
-          },
-          {
-            "source": "python",
-            "target": "winpthreads"
           },
           {
             "source": "python",
@@ -5111,6 +5115,10 @@
           },
           {
             "source": "zlib",
+            "target": "llvmdev"
+          },
+          {
+            "source": "zlib",
             "target": "matplotlib"
           },
           {
@@ -5144,10 +5152,6 @@
           {
             "source": "zlib",
             "target": "openjpeg"
-          },
-          {
-            "source": "zlib",
-            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -5275,19 +5279,11 @@
           },
           {
             "source": "zstd",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "zstd",
             "target": "clang-compiler-activation"
           },
           {
             "source": "zstd",
             "target": "cmake"
-          },
-          {
-            "source": "zstd",
-            "target": "compiler-rt"
           },
           {
             "source": "zstd",
@@ -5319,6 +5315,10 @@
           },
           {
             "source": "zstd",
+            "target": "llvmdev"
+          },
+          {
+            "source": "zstd",
             "target": "mamba"
           },
           {
@@ -5340,10 +5340,6 @@
           {
             "source": "zstd",
             "target": "openexr"
-          },
-          {
-            "source": "zstd",
-            "target": "openmp"
           },
           {
             "source": "zstd",
@@ -6468,6 +6464,12 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
+            "id": "llvmdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmdev.json"
             }
           },
           {
