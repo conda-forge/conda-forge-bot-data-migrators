@@ -127,27 +127,7 @@
           },
           {
             "source": "backtrace",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "backtrace",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "backtrace",
-            "target": "ncurses"
-          },
-          {
-            "source": "backtrace",
-            "target": "openmp"
-          },
-          {
-            "source": "backtrace",
-            "target": "r-base"
-          },
-          {
-            "source": "backtrace",
-            "target": "soxr"
+            "target": "llvmdev"
           },
           {
             "source": "binutils",
@@ -1407,10 +1387,6 @@
           },
           {
             "source": "libxml2",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "libxml2",
             "target": "compiler-rt"
           },
           {
@@ -1435,15 +1411,15 @@
           },
           {
             "source": "libxml2",
+            "target": "llvmdev"
+          },
+          {
+            "source": "libxml2",
             "target": "lxml"
           },
           {
             "source": "libxml2",
             "target": "ncurses"
-          },
-          {
-            "source": "libxml2",
-            "target": "openmp"
           },
           {
             "source": "libxml2",
@@ -1468,6 +1444,30 @@
           {
             "source": "lief",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cctools-and-ld64"
+          },
+          {
+            "source": "llvmdev",
+            "target": "compiler-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ncurses"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openmp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-base"
+          },
+          {
+            "source": "llvmdev",
+            "target": "soxr"
           },
           {
             "source": "lz4-c",
@@ -1979,15 +1979,7 @@
           },
           {
             "source": "python",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "python",
             "target": "cffi"
-          },
-          {
-            "source": "python",
-            "target": "compiler-rt"
           },
           {
             "source": "python",
@@ -2035,6 +2027,10 @@
           },
           {
             "source": "python",
+            "target": "llvmdev"
+          },
+          {
+            "source": "python",
             "target": "lxml"
           },
           {
@@ -2051,15 +2047,7 @@
           },
           {
             "source": "python",
-            "target": "ncurses"
-          },
-          {
-            "source": "python",
             "target": "numpy"
-          },
-          {
-            "source": "python",
-            "target": "openmp"
           },
           {
             "source": "python",
@@ -2103,10 +2091,6 @@
           },
           {
             "source": "python",
-            "target": "r-base"
-          },
-          {
-            "source": "python",
             "target": "rapidfuzz"
           },
           {
@@ -2124,10 +2108,6 @@
           {
             "source": "python",
             "target": "seccomp-split"
-          },
-          {
-            "source": "python",
-            "target": "soxr"
           },
           {
             "source": "python",
@@ -3251,6 +3231,10 @@
           },
           {
             "source": "zlib",
+            "target": "llvmdev"
+          },
+          {
+            "source": "zlib",
             "target": "lxml"
           },
           {
@@ -3276,10 +3260,6 @@
           {
             "source": "zlib",
             "target": "openjpeg"
-          },
-          {
-            "source": "zlib",
-            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -3367,15 +3347,7 @@
           },
           {
             "source": "zstd",
-            "target": "cctools-and-ld64"
-          },
-          {
-            "source": "zstd",
             "target": "cmake"
-          },
-          {
-            "source": "zstd",
-            "target": "compiler-rt"
           },
           {
             "source": "zstd",
@@ -3392,6 +3364,10 @@
           {
             "source": "zstd",
             "target": "libtiff"
+          },
+          {
+            "source": "zstd",
+            "target": "llvmdev"
           },
           {
             "source": "zstd",
@@ -3412,10 +3388,6 @@
           {
             "source": "zstd",
             "target": "openexr"
-          },
-          {
-            "source": "zstd",
-            "target": "openmp"
           },
           {
             "source": "zstd",
@@ -4226,6 +4198,12 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
+            "id": "llvmdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmdev.json"
             }
           },
           {
