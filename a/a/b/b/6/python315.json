@@ -65,6 +65,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/jax-finufft.json"
             }
+          },
+          {
+            "id": "pyrosm",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyrosm.json"
+            }
           }
         ]
       }
@@ -11083,10 +11089,6 @@
           {
             "source": "cykhash",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cykhash",
-            "target": "pyrosm"
           },
           {
             "source": "cyl1tf",
