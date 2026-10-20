@@ -55,12 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "gdstk",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdstk.json"
-            }
-          },
-          {
             "id": "graphed",
             "payload": {
               "__lazy_json__": "node_attrs/graphed.json"
@@ -70,12 +64,6 @@
             "id": "typeline",
             "payload": {
               "__lazy_json__": "node_attrs/typeline.json"
-            }
-          },
-          {
-            "id": "cupdlpx",
-            "payload": {
-              "__lazy_json__": "node_attrs/cupdlpx.json"
             }
           }
         ]
@@ -3866,6 +3854,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "typeline"
+          },
+          {
+            "source": "backports.zstd",
             "target": "typst-py"
           },
           {
@@ -7639,6 +7631,10 @@
           {
             "source": "brotli",
             "target": "tvb-framework"
+          },
+          {
+            "source": "brotli",
+            "target": "typeline"
           },
           {
             "source": "brotli",
@@ -27246,6 +27242,10 @@
           },
           {
             "source": "numcodecs",
+            "target": "cf-python"
+          },
+          {
+            "source": "numcodecs",
             "target": "cfdm"
           },
           {
@@ -27371,6 +27371,10 @@
           {
             "source": "numcodecs",
             "target": "tsinfer"
+          },
+          {
+            "source": "numcodecs",
+            "target": "umfive"
           },
           {
             "source": "numcodecs",
@@ -41679,6 +41683,10 @@
           {
             "source": "psutil",
             "target": "tvm-py"
+          },
+          {
+            "source": "psutil",
+            "target": "typeline"
           },
           {
             "source": "psutil",
@@ -63566,6 +63574,10 @@
           },
           {
             "source": "ujson",
+            "target": "typeline"
+          },
+          {
+            "source": "ujson",
             "target": "typst-py"
           },
           {
@@ -65835,6 +65847,10 @@
           {
             "source": "wcwidth",
             "target": "tvb-library"
+          },
+          {
+            "source": "wcwidth",
+            "target": "typeline"
           },
           {
             "source": "wcwidth",
