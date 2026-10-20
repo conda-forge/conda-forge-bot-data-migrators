@@ -12315,6 +12315,10 @@
           },
           {
             "source": "boost",
+            "target": "astra-toolbox"
+          },
+          {
+            "source": "boost",
             "target": "bgenix"
           },
           {
@@ -12480,10 +12484,6 @@
           {
             "source": "boost",
             "target": "ldas-tools-utilities"
-          },
-          {
-            "source": "boost",
-            "target": "libastra"
           },
           {
             "source": "boost",
@@ -17883,10 +17883,6 @@
           },
           {
             "source": "cmake",
-            "target": "libastra"
-          },
-          {
-            "source": "cmake",
             "target": "libavif"
           },
           {
@@ -22608,10 +22604,6 @@
           {
             "source": "cuda-cudart",
             "target": "kokkos"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "libastra"
           },
           {
             "source": "cuda-cudart",
@@ -37542,10 +37534,6 @@
             "target": "gpgme"
           },
           {
-            "source": "libastra",
-            "target": "astra-toolbox"
-          },
-          {
             "source": "libatomic_ops",
             "target": "ecl"
           },
@@ -37844,10 +37832,6 @@
           {
             "source": "libcufft",
             "target": "jaxlib"
-          },
-          {
-            "source": "libcufft",
-            "target": "libastra"
           },
           {
             "source": "libcufftmp",
@@ -55748,10 +55732,6 @@
           {
             "source": "ninja",
             "target": "libarchive"
-          },
-          {
-            "source": "ninja",
-            "target": "libastra"
           },
           {
             "source": "ninja",
@@ -110928,12 +110908,6 @@
             "id": "libassuan",
             "payload": {
               "__lazy_json__": "node_attrs/libassuan.json"
-            }
-          },
-          {
-            "id": "libastra",
-            "payload": {
-              "__lazy_json__": "node_attrs/libastra.json"
             }
           },
           {
