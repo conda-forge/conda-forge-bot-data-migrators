@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "awscli",
+            "payload": {
+              "__lazy_json__": "node_attrs/awscli.json"
+            }
+          },
+          {
             "id": "nh3",
             "payload": {
               "__lazy_json__": "node_attrs/nh3.json"
@@ -163,6 +169,10 @@
           {
             "source": "blas",
             "target": "r-base"
+          },
+          {
+            "source": "brotli",
+            "target": "awscli"
           },
           {
             "source": "brotli",
@@ -1982,6 +1992,10 @@
           },
           {
             "source": "python",
+            "target": "awscli"
+          },
+          {
+            "source": "python",
             "target": "brotli"
           },
           {
@@ -3118,6 +3132,10 @@
           },
           {
             "source": "yaml",
+            "target": "awscli"
+          },
+          {
+            "source": "yaml",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -3471,6 +3489,12 @@
             "id": "attr",
             "payload": {
               "__lazy_json__": "node_attrs/attr.json"
+            }
+          },
+          {
+            "id": "awscli",
+            "payload": {
+              "__lazy_json__": "node_attrs/awscli.json"
             }
           },
           {
@@ -5263,6 +5287,7 @@
       "__set__": true,
       "elements": [
         "anaconda-client",
+        "awscli",
         "brotli-python",
         "cargo-auditable",
         "cargo-bundle-licenses",
