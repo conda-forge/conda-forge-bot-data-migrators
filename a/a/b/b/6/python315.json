@@ -61,15 +61,9 @@
             }
           },
           {
-            "id": "rrdtool-bindings",
+            "id": "geant4-python-application",
             "payload": {
-              "__lazy_json__": "node_attrs/rrdtool-bindings.json"
-            }
-          },
-          {
-            "id": "pyfixest",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyfixest.json"
+              "__lazy_json__": "node_attrs/geant4-python-application.json"
             }
           }
         ]
@@ -1976,6 +1970,10 @@
           },
           {
             "source": "awkward-cpp",
+            "target": "geant4-python-application"
+          },
+          {
+            "source": "awkward-cpp",
             "target": "hklpy"
           },
           {
@@ -2637,6 +2635,10 @@
           {
             "source": "backports.zstd",
             "target": "gbs"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "geant4-python-application"
           },
           {
             "source": "backports.zstd",
@@ -6405,6 +6407,10 @@
           {
             "source": "brotli",
             "target": "gbs"
+          },
+          {
+            "source": "brotli",
+            "target": "geant4-python-application"
           },
           {
             "source": "brotli",
@@ -14480,6 +14486,10 @@
           },
           {
             "source": "gdstk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "geant4-python-application",
             "target": "conda-forge-pinning"
           },
           {
@@ -29512,6 +29522,10 @@
           },
           {
             "source": "numpy",
+            "target": "geant4-python-application"
+          },
+          {
+            "source": "numpy",
             "target": "gemmi"
           },
           {
@@ -42261,6 +42275,10 @@
           {
             "source": "pyarrow",
             "target": "fluidimage"
+          },
+          {
+            "source": "pyarrow",
+            "target": "geant4-python-application"
           },
           {
             "source": "pyarrow",
@@ -86441,6 +86459,12 @@
             "id": "pyfixest",
             "payload": {
               "__lazy_json__": "node_attrs/pyfixest.json"
+            }
+          },
+          {
+            "id": "geant4-python-application",
+            "payload": {
+              "__lazy_json__": "node_attrs/geant4-python-application.json"
             }
           }
         ]
