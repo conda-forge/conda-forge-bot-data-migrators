@@ -73,33 +73,9 @@
             }
           },
           {
-            "id": "fairseq",
-            "payload": {
-              "__lazy_json__": "node_attrs/fairseq.json"
-            }
-          },
-          {
-            "id": "fast-plaid",
-            "payload": {
-              "__lazy_json__": "node_attrs/fast-plaid.json"
-            }
-          },
-          {
             "id": "flash-attn",
             "payload": {
               "__lazy_json__": "node_attrs/flash-attn.json"
-            }
-          },
-          {
-            "id": "fvdb-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/fvdb-core.json"
-            }
-          },
-          {
-            "id": "horovod",
-            "payload": {
-              "__lazy_json__": "node_attrs/horovod.json"
             }
           },
           {
@@ -109,45 +85,15 @@
             }
           },
           {
-            "id": "libholoscan",
-            "payload": {
-              "__lazy_json__": "node_attrs/libholoscan.json"
-            }
-          },
-          {
-            "id": "momentum",
-            "payload": {
-              "__lazy_json__": "node_attrs/momentum.json"
-            }
-          },
-          {
-            "id": "nvidia-tao-pytorch",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-tao-pytorch.json"
-            }
-          },
-          {
             "id": "pyg-lib",
             "payload": {
               "__lazy_json__": "node_attrs/pyg-lib.json"
             }
           },
           {
-            "id": "pytorch_spline_conv",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch_spline_conv.json"
-            }
-          },
-          {
             "id": "pytorchrl",
             "payload": {
               "__lazy_json__": "node_attrs/pytorchrl.json"
-            }
-          },
-          {
-            "id": "sevenn",
-            "payload": {
-              "__lazy_json__": "node_attrs/sevenn.json"
             }
           },
           {
@@ -214,12 +160,6 @@
             "id": "tt-metalium",
             "payload": {
               "__lazy_json__": "node_attrs/tt-metalium.json"
-            }
-          },
-          {
-            "id": "natten",
-            "payload": {
-              "__lazy_json__": "node_attrs/natten.json"
             }
           }
         ]
@@ -1102,7 +1042,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
