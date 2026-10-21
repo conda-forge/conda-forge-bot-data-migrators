@@ -53,32 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "auto_gptq",
-            "payload": {
-              "__lazy_json__": "node_attrs/auto_gptq.json"
-            }
-          },
-          {
-            "id": "pytorchrl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorchrl.json"
-            }
-          },
-          {
-            "id": "tiny-cuda-nn",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiny-cuda-nn.json"
-            }
-          },
-          {
-            "id": "torchsort",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchsort.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
