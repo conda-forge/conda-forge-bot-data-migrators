@@ -6391,6 +6391,10 @@
           },
           {
             "source": "bash",
+            "target": "openmp"
+          },
+          {
+            "source": "bash",
             "target": "openmpi"
           },
           {
@@ -11028,6 +11032,10 @@
           {
             "source": "binutils",
             "target": "opencv"
+          },
+          {
+            "source": "binutils",
+            "target": "openmp"
           },
           {
             "source": "binutils",
@@ -16951,10 +16959,6 @@
           },
           {
             "source": "cmake",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "cmake",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -20022,746 +20026,6 @@
             "target": "openscenegraph"
           },
           {
-            "source": "compiler-rt",
-            "target": "abacus"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "adcc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "autorift"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "batoid"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "bayeswave"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "binutils"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "bioimage-cpp"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cantera"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "catboost"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cling"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cmdstan"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "connectorx"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cppe"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cuda-nvcc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cutde"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "cvxopt"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "deno"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "dftd4"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "dgl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "dmlc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "easyocr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "elsi"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ensmallen"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "faiss-split"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "flann"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "fluidsynth"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "galsim"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gauxc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gcp-correction"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gfortran_impl_osx-64"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gfortran_osx-64"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ghc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gklib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "glum"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gmsh"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gnucobol"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "graph-tool"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "graphicsmagick"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gromacs"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "gstools-cython"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "hdf5"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "healpix_cxx"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "htcondor"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "jags"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "julia"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "kahip"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "kokkos"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "lalinference"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "lalsimulation"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "laura"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ldc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libcxx"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libmagma"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libnvpl-tensor"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libomm"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libplanc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libraw"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libtdlpack"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libtensorlight"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "lightgbm"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "linux-perf"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "matrixswitch"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mctc-lib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mesalib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "metplus"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mrchem"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mrcpp"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "multicharge"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mumps"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mupdf"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "muspinsim"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "mvapich"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nccl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ncdu"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nceplibs-bufr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nceplibs-ip"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ncl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nco"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ncurses"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nim"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "normaliz"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ntpoly"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "numba"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "numsa"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nutpie"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nvimgcodec"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nvmath"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ocaml"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "oclgrind"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "octave"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "odrpack"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "opencv"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "opensees"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "oso"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pennylane"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pennylane-lightning-gpu"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pennylane-lightning-kokkos"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "petsc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pexsi"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "phonopy"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pinocchio"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pocl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "poppler"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "postgresql"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pp-sketchlib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "primecount"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "proxsuite"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pyarrow"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pycbc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pyddx"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pykdtree"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pyside2"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pywinpty"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "quippy"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-base"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-clusterr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-conquer"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-data.table"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-delaporte"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-glmmtmb"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-mgcv"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-modelmetrics"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-mvnfast"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-poppr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-rcpparmadillo"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-rcppml"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-rcppplanc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-rfast"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-rhpcblasctl"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-robusthd"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-sitmo"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-tmb"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "root"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "sage"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "scikit-learn"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "scipy"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "silx"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "simple-dftd3"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "simsimd"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "sleef"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "soxr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "spral"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "stardist"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "sundials"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "superlu_dist"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tabmat"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_abaqus_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_constitutive_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_error_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_micromorphic_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_solver_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_stress_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tardigrade_vector_tools"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tblite"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tomopy"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tree-sitter-cli"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "treelite"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ucx-split"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "vampyr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "vc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "veloxchem"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "viskores"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "winpthreads"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "xeus-cling"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "xgboost"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "xtb"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "yambo"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "yt"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "zfpy"
-          },
-          {
             "source": "compilers",
             "target": "cppyy-cling"
           },
@@ -21964,6 +21228,10 @@
           {
             "source": "ctng-compilers",
             "target": "openmeeg"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "openmp"
           },
           {
             "source": "ctng-compilers",
@@ -44699,6 +43967,10 @@
           },
           {
             "source": "libtool",
+            "target": "openmp"
+          },
+          {
+            "source": "libtool",
             "target": "openmpi"
           },
           {
@@ -49679,10 +48951,6 @@
           },
           {
             "source": "libxml2",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "libxml2",
             "target": "connectorx"
           },
           {
@@ -50164,6 +49432,10 @@
           {
             "source": "libxml2",
             "target": "openimageio"
+          },
+          {
+            "source": "libxml2",
+            "target": "openmp"
           },
           {
             "source": "libxml2",
@@ -50784,10 +50056,6 @@
           {
             "source": "llvmdev",
             "target": "cmdstan"
-          },
-          {
-            "source": "llvmdev",
-            "target": "compiler-rt"
           },
           {
             "source": "llvmdev",
@@ -54883,7 +54151,15 @@
           },
           {
             "source": "ninja",
+            "target": "abacus"
+          },
+          {
+            "source": "ninja",
             "target": "abseil-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "adcc"
           },
           {
             "source": "ninja",
@@ -55027,7 +54303,15 @@
           },
           {
             "source": "ninja",
+            "target": "batoid"
+          },
+          {
+            "source": "ninja",
             "target": "bayes-filters-lib"
+          },
+          {
+            "source": "ninja",
+            "target": "bayeswave"
           },
           {
             "source": "ninja",
@@ -55040,6 +54324,10 @@
           {
             "source": "ninja",
             "target": "binaryen"
+          },
+          {
+            "source": "ninja",
+            "target": "binutils"
           },
           {
             "source": "ninja",
@@ -55083,6 +54371,10 @@
           },
           {
             "source": "ninja",
+            "target": "cantera"
+          },
+          {
+            "source": "ninja",
             "target": "cartographer"
           },
           {
@@ -55092,6 +54384,10 @@
           {
             "source": "ninja",
             "target": "cascade"
+          },
+          {
+            "source": "ninja",
+            "target": "catboost"
           },
           {
             "source": "ninja",
@@ -55115,6 +54411,10 @@
           },
           {
             "source": "ninja",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "ninja",
             "target": "ceres-solver"
           },
           {
@@ -55124,6 +54424,10 @@
           {
             "source": "ninja",
             "target": "cgal-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "clang-compiler-activation"
           },
           {
             "source": "ninja",
@@ -55147,6 +54451,10 @@
           },
           {
             "source": "ninja",
+            "target": "cmdstan"
+          },
+          {
+            "source": "ninja",
             "target": "coal"
           },
           {
@@ -55163,7 +54471,7 @@
           },
           {
             "source": "ninja",
-            "target": "compiler-rt"
+            "target": "connectorx"
           },
           {
             "source": "ninja",
@@ -55203,7 +54511,15 @@
           },
           {
             "source": "ninja",
+            "target": "cppyy-cling"
+          },
+          {
+            "source": "ninja",
             "target": "cspice"
+          },
+          {
+            "source": "ninja",
+            "target": "ctng-compilers"
           },
           {
             "source": "ninja",
@@ -55216,6 +54532,10 @@
           {
             "source": "ninja",
             "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
+            "target": "cutde"
           },
           {
             "source": "ninja",
@@ -55275,6 +54595,10 @@
           },
           {
             "source": "ninja",
+            "target": "dgl"
+          },
+          {
+            "source": "ninja",
             "target": "digital_rf"
           },
           {
@@ -55323,6 +54647,10 @@
           },
           {
             "source": "ninja",
+            "target": "ensmallen"
+          },
+          {
+            "source": "ninja",
             "target": "epoxy"
           },
           {
@@ -55367,6 +54695,10 @@
           },
           {
             "source": "ninja",
+            "target": "flann"
+          },
+          {
+            "source": "ninja",
             "target": "flash-attn"
           },
           {
@@ -55396,6 +54728,10 @@
           {
             "source": "ninja",
             "target": "fvdb-core"
+          },
+          {
+            "source": "ninja",
+            "target": "galsim"
           },
           {
             "source": "ninja",
@@ -55431,6 +54767,22 @@
           },
           {
             "source": "ninja",
+            "target": "gfortran_impl_osx-64"
+          },
+          {
+            "source": "ninja",
+            "target": "gfortran_osx-64"
+          },
+          {
+            "source": "ninja",
+            "target": "ghc"
+          },
+          {
+            "source": "ninja",
+            "target": "gklib"
+          },
+          {
+            "source": "ninja",
             "target": "gl2ps"
           },
           {
@@ -55459,11 +54811,23 @@
           },
           {
             "source": "ninja",
+            "target": "glum"
+          },
+          {
+            "source": "ninja",
+            "target": "gmsh"
+          },
+          {
+            "source": "ninja",
             "target": "gn"
           },
           {
             "source": "ninja",
             "target": "gnss-sdr"
+          },
+          {
+            "source": "ninja",
+            "target": "gnucobol"
           },
           {
             "source": "ninja",
@@ -55491,6 +54855,18 @@
           },
           {
             "source": "ninja",
+            "target": "graph-tool"
+          },
+          {
+            "source": "ninja",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "ninja",
+            "target": "gromacs"
+          },
+          {
+            "source": "ninja",
             "target": "grpc-cpp"
           },
           {
@@ -55508,6 +54884,10 @@
           {
             "source": "ninja",
             "target": "gst-python"
+          },
+          {
+            "source": "ninja",
+            "target": "gstools-cython"
           },
           {
             "source": "ninja",
@@ -55599,6 +54979,10 @@
           },
           {
             "source": "ninja",
+            "target": "healpix_cxx"
+          },
+          {
+            "source": "ninja",
             "target": "heyoka"
           },
           {
@@ -55608,6 +54992,10 @@
           {
             "source": "ninja",
             "target": "howardhinnant_date"
+          },
+          {
+            "source": "ninja",
+            "target": "htcondor"
           },
           {
             "source": "ninja",
@@ -55655,6 +55043,10 @@
           },
           {
             "source": "ninja",
+            "target": "jags"
+          },
+          {
+            "source": "ninja",
             "target": "jonquil"
           },
           {
@@ -55675,6 +55067,10 @@
           },
           {
             "source": "ninja",
+            "target": "kahip"
+          },
+          {
+            "source": "ninja",
             "target": "khiops-binaries"
           },
           {
@@ -55684,6 +55080,18 @@
           {
             "source": "ninja",
             "target": "kokkos"
+          },
+          {
+            "source": "ninja",
+            "target": "lalinference"
+          },
+          {
+            "source": "ninja",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "ninja",
+            "target": "lalsimulation"
           },
           {
             "source": "ninja",
@@ -55911,6 +55319,10 @@
           },
           {
             "source": "ninja",
+            "target": "libomm"
+          },
+          {
+            "source": "ninja",
             "target": "libosqp"
           },
           {
@@ -55927,6 +55339,10 @@
           },
           {
             "source": "ninja",
+            "target": "libplanc"
+          },
+          {
+            "source": "ninja",
             "target": "libprotobuf"
           },
           {
@@ -55936,6 +55352,10 @@
           {
             "source": "ninja",
             "target": "libraqm"
+          },
+          {
+            "source": "ninja",
+            "target": "libraw"
           },
           {
             "source": "ninja",
@@ -55976,6 +55396,10 @@
           {
             "source": "ninja",
             "target": "libsoup"
+          },
+          {
+            "source": "ninja",
+            "target": "libtdlpack"
           },
           {
             "source": "ninja",
@@ -56051,7 +55475,15 @@
           },
           {
             "source": "ninja",
+            "target": "lightgbm"
+          },
+          {
+            "source": "ninja",
             "target": "limesuite"
+          },
+          {
+            "source": "ninja",
+            "target": "linux-perf"
           },
           {
             "source": "ninja",
@@ -56099,6 +55531,10 @@
           },
           {
             "source": "ninja",
+            "target": "matrixswitch"
+          },
+          {
+            "source": "ninja",
             "target": "mctc-lib"
           },
           {
@@ -56108,6 +55544,10 @@
           {
             "source": "ninja",
             "target": "mesalib"
+          },
+          {
+            "source": "ninja",
+            "target": "metplus"
           },
           {
             "source": "ninja",
@@ -56155,11 +55595,23 @@
           },
           {
             "source": "ninja",
+            "target": "mumps"
+          },
+          {
+            "source": "ninja",
             "target": "muparser"
           },
           {
             "source": "ninja",
             "target": "mupdf"
+          },
+          {
+            "source": "ninja",
+            "target": "muspinsim"
+          },
+          {
+            "source": "ninja",
+            "target": "mvapich"
           },
           {
             "source": "ninja",
@@ -56179,6 +55631,10 @@
           },
           {
             "source": "ninja",
+            "target": "nccl"
+          },
+          {
+            "source": "ninja",
             "target": "ncdu"
           },
           {
@@ -56187,7 +55643,27 @@
           },
           {
             "source": "ninja",
+            "target": "nceplibs-ip"
+          },
+          {
+            "source": "ninja",
+            "target": "ncl"
+          },
+          {
+            "source": "ninja",
+            "target": "nco"
+          },
+          {
+            "source": "ninja",
+            "target": "ncurses"
+          },
+          {
+            "source": "ninja",
             "target": "nexus"
+          },
+          {
+            "source": "ninja",
+            "target": "nim"
           },
           {
             "source": "ninja",
@@ -56203,7 +55679,15 @@
           },
           {
             "source": "ninja",
+            "target": "normaliz"
+          },
+          {
+            "source": "ninja",
             "target": "ntpoly"
+          },
+          {
+            "source": "ninja",
+            "target": "numba"
           },
           {
             "source": "ninja",
@@ -56223,6 +55707,10 @@
           },
           {
             "source": "ninja",
+            "target": "nutpie"
+          },
+          {
+            "source": "ninja",
             "target": "nvidia-apex"
           },
           {
@@ -56235,6 +55723,10 @@
           },
           {
             "source": "ninja",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "ninja",
             "target": "nvtx-c"
           },
           {
@@ -56244,6 +55736,10 @@
           {
             "source": "ninja",
             "target": "occt"
+          },
+          {
+            "source": "ninja",
+            "target": "oclgrind"
           },
           {
             "source": "ninja",
@@ -56367,6 +55863,10 @@
           },
           {
             "source": "ninja",
+            "target": "oso"
+          },
+          {
+            "source": "ninja",
             "target": "osqp"
           },
           {
@@ -56423,6 +55923,10 @@
           },
           {
             "source": "ninja",
+            "target": "phonopy"
+          },
+          {
+            "source": "ninja",
             "target": "pinocchio"
           },
           {
@@ -56455,7 +55959,19 @@
           },
           {
             "source": "ninja",
+            "target": "postgresql"
+          },
+          {
+            "source": "ninja",
+            "target": "pp-sketchlib"
+          },
+          {
+            "source": "ninja",
             "target": "pplpy"
+          },
+          {
+            "source": "ninja",
+            "target": "primecount"
           },
           {
             "source": "ninja",
@@ -56495,6 +56011,14 @@
           },
           {
             "source": "ninja",
+            "target": "pycbc"
+          },
+          {
+            "source": "ninja",
+            "target": "pyddx"
+          },
+          {
+            "source": "ninja",
             "target": "pyfai"
           },
           {
@@ -56508,6 +56032,10 @@
           {
             "source": "ninja",
             "target": "pygobject"
+          },
+          {
+            "source": "ninja",
+            "target": "pykdtree"
           },
           {
             "source": "ninja",
@@ -56556,6 +56084,10 @@
           {
             "source": "ninja",
             "target": "pywavelets"
+          },
+          {
+            "source": "ninja",
+            "target": "pywinpty"
           },
           {
             "source": "ninja",
@@ -56632,6 +56164,82 @@
           {
             "source": "ninja",
             "target": "qt6-serialport"
+          },
+          {
+            "source": "ninja",
+            "target": "quippy"
+          },
+          {
+            "source": "ninja",
+            "target": "r-base"
+          },
+          {
+            "source": "ninja",
+            "target": "r-clusterr"
+          },
+          {
+            "source": "ninja",
+            "target": "r-conquer"
+          },
+          {
+            "source": "ninja",
+            "target": "r-data.table"
+          },
+          {
+            "source": "ninja",
+            "target": "r-delaporte"
+          },
+          {
+            "source": "ninja",
+            "target": "r-glmmtmb"
+          },
+          {
+            "source": "ninja",
+            "target": "r-mgcv"
+          },
+          {
+            "source": "ninja",
+            "target": "r-modelmetrics"
+          },
+          {
+            "source": "ninja",
+            "target": "r-mvnfast"
+          },
+          {
+            "source": "ninja",
+            "target": "r-poppr"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcpparmadillo"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcppml"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rcppplanc"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rfast"
+          },
+          {
+            "source": "ninja",
+            "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "ninja",
+            "target": "r-robusthd"
+          },
+          {
+            "source": "ninja",
+            "target": "r-sitmo"
+          },
+          {
+            "source": "ninja",
+            "target": "r-tmb"
           },
           {
             "source": "ninja",
@@ -56775,6 +56383,10 @@
           },
           {
             "source": "ninja",
+            "target": "simsimd"
+          },
+          {
+            "source": "ninja",
             "target": "siphash24"
           },
           {
@@ -56815,6 +56427,10 @@
           },
           {
             "source": "ninja",
+            "target": "soxr"
+          },
+          {
+            "source": "ninja",
             "target": "spglib"
           },
           {
@@ -56847,11 +56463,19 @@
           },
           {
             "source": "ninja",
+            "target": "superlu_dist"
+          },
+          {
+            "source": "ninja",
             "target": "swig"
           },
           {
             "source": "ninja",
             "target": "systemd"
+          },
+          {
+            "source": "ninja",
+            "target": "tabmat"
           },
           {
             "source": "ninja",
@@ -56872,6 +56496,34 @@
           {
             "source": "ninja",
             "target": "tapi"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_abaqus_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_constitutive_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_error_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_micromorphic_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_solver_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_stress_tools"
+          },
+          {
+            "source": "ninja",
+            "target": "tardigrade_vector_tools"
           },
           {
             "source": "ninja",
@@ -56911,6 +56563,10 @@
           },
           {
             "source": "ninja",
+            "target": "tree-sitter-cli"
+          },
+          {
+            "source": "ninja",
             "target": "treelite"
           },
           {
@@ -56935,6 +56591,10 @@
           },
           {
             "source": "ninja",
+            "target": "ucx-split"
+          },
+          {
+            "source": "ninja",
             "target": "uhd"
           },
           {
@@ -56952,6 +56612,10 @@
           {
             "source": "ninja",
             "target": "vampyr"
+          },
+          {
+            "source": "ninja",
+            "target": "vc"
           },
           {
             "source": "ninja",
@@ -57003,7 +56667,15 @@
           },
           {
             "source": "ninja",
+            "target": "winpthreads"
+          },
+          {
+            "source": "ninja",
             "target": "xcfun"
+          },
+          {
+            "source": "ninja",
+            "target": "xeus-cling"
           },
           {
             "source": "ninja",
@@ -57043,6 +56715,10 @@
           },
           {
             "source": "ninja",
+            "target": "yambo"
+          },
+          {
+            "source": "ninja",
             "target": "yaml-cpp"
           },
           {
@@ -57052,6 +56728,10 @@
           {
             "source": "ninja",
             "target": "ycm-cmake-modules"
+          },
+          {
+            "source": "ninja",
+            "target": "yt"
           },
           {
             "source": "ninja",
@@ -57068,6 +56748,10 @@
           {
             "source": "ninja",
             "target": "zeromq"
+          },
+          {
+            "source": "ninja",
+            "target": "zfpy"
           },
           {
             "source": "ninja",
@@ -71520,10 +71204,6 @@
           {
             "source": "python",
             "target": "commitizen"
-          },
-          {
-            "source": "python",
-            "target": "compiler-rt"
           },
           {
             "source": "python",
@@ -102539,10 +102219,6 @@
           },
           {
             "source": "zlib",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "zlib",
             "target": "conda"
           },
           {
@@ -103652,6 +103328,10 @@
           {
             "source": "zlib",
             "target": "openmotif"
+          },
+          {
+            "source": "zlib",
+            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -105639,6 +105319,10 @@
           },
           {
             "source": "zstd",
+            "target": "openmp"
+          },
+          {
+            "source": "zstd",
             "target": "opensees"
           },
           {
@@ -107500,12 +107184,6 @@
             "id": "commitizen",
             "payload": {
               "__lazy_json__": "node_attrs/commitizen.json"
-            }
-          },
-          {
-            "id": "compiler-rt",
-            "payload": {
-              "__lazy_json__": "node_attrs/compiler-rt.json"
             }
           },
           {
