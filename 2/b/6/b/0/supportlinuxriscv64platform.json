@@ -278,18 +278,6 @@
             "target": "micromamba"
           },
           {
-            "source": "compiler-rt",
-            "target": "ncurses"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-base"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "soxr"
-          },
-          {
             "source": "conda",
             "target": "conda-forge-ci-setup"
           },
@@ -1391,10 +1379,6 @@
           },
           {
             "source": "libxml2",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "libxml2",
             "target": "ffmpeg"
           },
           {
@@ -1452,10 +1436,6 @@
           {
             "source": "llvmdev",
             "target": "cctools-and-ld64"
-          },
-          {
-            "source": "llvmdev",
-            "target": "compiler-rt"
           },
           {
             "source": "llvmdev",
@@ -3155,10 +3135,6 @@
           },
           {
             "source": "zlib",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "zlib",
             "target": "curl"
           },
           {
@@ -3566,12 +3542,6 @@
             "id": "cmake",
             "payload": {
               "__lazy_json__": "node_attrs/cmake.json"
-            }
-          },
-          {
-            "id": "compiler-rt",
-            "payload": {
-              "__lazy_json__": "node_attrs/compiler-rt.json"
             }
           },
           {
