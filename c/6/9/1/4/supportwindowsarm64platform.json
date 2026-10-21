@@ -434,54 +434,6 @@
             "target": "micromamba"
           },
           {
-            "source": "compiler-rt",
-            "target": "binutils"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "flang"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "flang-rt"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "libhwloc"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "ncurses"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "pyside2"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "r-base"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "soxr"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "tbb"
-          },
-          {
-            "source": "compiler-rt",
-            "target": "winpthreads"
-          },
-          {
             "source": "conda",
             "target": "conda-forge-ci-setup"
           },
@@ -2331,10 +2283,6 @@
           },
           {
             "source": "libxml2",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "libxml2",
             "target": "ctng-compilers"
           },
           {
@@ -2440,10 +2388,6 @@
           {
             "source": "llvmdev",
             "target": "clang-compiler-activation"
-          },
-          {
-            "source": "llvmdev",
-            "target": "compiler-rt"
           },
           {
             "source": "llvmdev",
@@ -5035,10 +4979,6 @@
           },
           {
             "source": "zlib",
-            "target": "compiler-rt"
-          },
-          {
-            "source": "zlib",
             "target": "ctng-compilers"
           },
           {
@@ -5578,12 +5518,6 @@
             "id": "cmake",
             "payload": {
               "__lazy_json__": "node_attrs/cmake.json"
-            }
-          },
-          {
-            "id": "compiler-rt",
-            "payload": {
-              "__lazy_json__": "node_attrs/compiler-rt.json"
             }
           },
           {
