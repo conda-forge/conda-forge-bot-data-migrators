@@ -7881,6 +7881,10 @@
             "target": "mypy"
           },
           {
+            "source": "python-lmdb",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "python-marisa-trie",
             "target": "conda-forge-pinning"
           },
@@ -13553,6 +13557,12 @@
             "id": "python-librt",
             "payload": {
               "__lazy_json__": "node_attrs/python-librt.json"
+            }
+          },
+          {
+            "id": "python-lmdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
