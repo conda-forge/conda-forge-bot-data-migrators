@@ -27330,6 +27330,18 @@
             "target": "postgresql"
           },
           {
+            "source": "openlibm",
+            "target": "julia"
+          },
+          {
+            "source": "openlibm",
+            "target": "magics-metview-batch"
+          },
+          {
+            "source": "openlibm",
+            "target": "metview-batch"
+          },
+          {
             "source": "openmotif",
             "target": "isce2"
           },
@@ -33274,6 +33286,10 @@
             "target": "sbank"
           },
           {
+            "source": "python-lmdb",
+            "target": "allennlp"
+          },
+          {
             "source": "python-mumps",
             "target": "kwant"
           },
@@ -36912,6 +36928,10 @@
           {
             "source": "python",
             "target": "python-ligo-lw"
+          },
+          {
+            "source": "python",
+            "target": "python-lmdb"
           },
           {
             "source": "python",
@@ -64549,6 +64569,12 @@
             }
           },
           {
+            "id": "openlibm",
+            "payload": {
+              "__lazy_json__": "node_attrs/openlibm.json"
+            }
+          },
+          {
             "id": "openlineage-sql",
             "payload": {
               "__lazy_json__": "node_attrs/openlineage-sql.json"
@@ -66940,6 +66966,12 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
+            }
+          },
+          {
+            "id": "python-lmdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
@@ -74987,6 +75019,7 @@
         "opencl-headers",
         "openfst",
         "openh264",
+        "openlibm",
         "openssl",
         "optional-lite",
         "p7zip",
