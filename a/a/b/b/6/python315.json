@@ -61,6 +61,12 @@
             }
           },
           {
+            "id": "rignore",
+            "payload": {
+              "__lazy_json__": "node_attrs/rignore.json"
+            }
+          },
+          {
             "id": "scikit_sundae",
             "payload": {
               "__lazy_json__": "node_attrs/scikit_sundae.json"
@@ -3543,6 +3549,10 @@
           {
             "source": "backports.zstd",
             "target": "rift"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "rignore"
           },
           {
             "source": "backports.zstd",
@@ -7331,6 +7341,10 @@
           {
             "source": "brotli",
             "target": "rift"
+          },
+          {
+            "source": "brotli",
+            "target": "rignore"
           },
           {
             "source": "brotli",
@@ -41442,6 +41456,10 @@
           },
           {
             "source": "psutil",
+            "target": "rignore"
+          },
+          {
+            "source": "psutil",
             "target": "riskfolio-lib"
           },
           {
@@ -51902,6 +51920,10 @@
           },
           {
             "source": "rift",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rignore",
             "target": "conda-forge-pinning"
           },
           {
@@ -63502,6 +63524,10 @@
           },
           {
             "source": "ujson",
+            "target": "rignore"
+          },
+          {
+            "source": "ujson",
             "target": "roboticstoolbox-python"
           },
           {
@@ -65687,6 +65713,10 @@
           {
             "source": "wcwidth",
             "target": "remage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "rignore"
           },
           {
             "source": "wcwidth",
@@ -82453,6 +82483,12 @@
             "id": "rift",
             "payload": {
               "__lazy_json__": "node_attrs/rift.json"
+            }
+          },
+          {
+            "id": "rignore",
+            "payload": {
+              "__lazy_json__": "node_attrs/rignore.json"
             }
           },
           {
