@@ -61,24 +61,6 @@
             }
           },
           {
-            "id": "carterbox-torch-radon",
-            "payload": {
-              "__lazy_json__": "node_attrs/carterbox-torch-radon.json"
-            }
-          },
-          {
-            "id": "cp2k",
-            "payload": {
-              "__lazy_json__": "node_attrs/cp2k.json"
-            }
-          },
-          {
-            "id": "flash-attn",
-            "payload": {
-              "__lazy_json__": "node_attrs/flash-attn.json"
-            }
-          },
-          {
             "id": "inplace-abn",
             "payload": {
               "__lazy_json__": "node_attrs/inplace-abn.json"
@@ -94,12 +76,6 @@
             "id": "pytorchrl",
             "payload": {
               "__lazy_json__": "node_attrs/pytorchrl.json"
-            }
-          },
-          {
-            "id": "sinabs-exodus",
-            "payload": {
-              "__lazy_json__": "node_attrs/sinabs-exodus.json"
             }
           },
           {
@@ -121,12 +97,6 @@
             }
           },
           {
-            "id": "torchopt",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchopt.json"
-            }
-          },
-          {
             "id": "torchsort",
             "payload": {
               "__lazy_json__": "node_attrs/torchsort.json"
@@ -139,21 +109,9 @@
             }
           },
           {
-            "id": "torchtext",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchtext.json"
-            }
-          },
-          {
             "id": "torchvision-extra-decoders",
             "payload": {
               "__lazy_json__": "node_attrs/torchvision-extra-decoders.json"
-            }
-          },
-          {
-            "id": "transformer-engine",
-            "payload": {
-              "__lazy_json__": "node_attrs/transformer-engine.json"
             }
           },
           {
@@ -1042,7 +1000,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
