@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "mkl_random",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_random.json"
+            }
+          },
+          {
             "id": "pystan",
             "payload": {
               "__lazy_json__": "node_attrs/pystan.json"
@@ -2738,6 +2744,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "backports.zstd",
             "target": "helpme"
           },
           {
@@ -2891,10 +2901,6 @@
           {
             "source": "backports.zstd",
             "target": "ligo_hires_gps_time"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "litellm"
           },
           {
             "source": "backports.zstd",
@@ -6522,6 +6528,10 @@
           },
           {
             "source": "brotli",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "brotli",
             "target": "helpme"
           },
           {
@@ -6675,10 +6685,6 @@
           {
             "source": "brotli",
             "target": "ligo_hires_gps_time"
-          },
-          {
-            "source": "brotli",
-            "target": "litellm"
           },
           {
             "source": "brotli",
@@ -13818,11 +13824,15 @@
           },
           {
             "source": "fastuuid",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "fastuuid",
             "target": "conda-forge-pinning"
           },
           {
             "source": "fastuuid",
-            "target": "litellm"
+            "target": "headroom-ai"
           },
           {
             "source": "fastwsgi",
@@ -18746,7 +18756,7 @@
           },
           {
             "source": "jiter",
-            "target": "litellm"
+            "target": "headroom-ai"
           },
           {
             "source": "jiter",
@@ -20459,18 +20469,6 @@
           {
             "source": "lipyphilic",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "litellm",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "litellm",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "litellm",
-            "target": "headroom-ai"
           },
           {
             "source": "liteparse",
@@ -23902,10 +23900,6 @@
           },
           {
             "source": "mkl-service",
-            "target": "mkl_random"
-          },
-          {
-            "source": "mkl-service",
             "target": "pytensor-suite"
           },
           {
@@ -26623,10 +26617,6 @@
           {
             "source": "nlopt",
             "target": "dadi"
-          },
-          {
-            "source": "nlopt",
-            "target": "gbs"
           },
           {
             "source": "nlopt",
@@ -43486,10 +43476,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "litellm"
-          },
-          {
-            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -52330,6 +52316,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "headroom-ai"
+          },
+          {
+            "source": "rpds-py",
             "target": "hide_code"
           },
           {
@@ -52395,10 +52385,6 @@
           {
             "source": "rpds-py",
             "target": "libertem"
-          },
-          {
-            "source": "rpds-py",
-            "target": "litellm"
           },
           {
             "source": "rpds-py",
@@ -61514,6 +61500,10 @@
           },
           {
             "source": "tiktoken",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "tiktoken",
             "target": "atom-ml"
           },
           {
@@ -61523,10 +61513,6 @@
           {
             "source": "tiktoken",
             "target": "headroom-ai"
-          },
-          {
-            "source": "tiktoken",
-            "target": "litellm"
           },
           {
             "source": "tiktoken",
@@ -61658,6 +61644,10 @@
           },
           {
             "source": "tokenizers",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "tokenizers",
             "target": "auto_gptq"
           },
           {
@@ -61674,7 +61664,7 @@
           },
           {
             "source": "tokenizers",
-            "target": "litellm"
+            "target": "headroom-ai"
           },
           {
             "source": "tokenizers",
@@ -75415,12 +75405,6 @@
             "id": "lipyphilic",
             "payload": {
               "__lazy_json__": "node_attrs/lipyphilic.json"
-            }
-          },
-          {
-            "id": "litellm",
-            "payload": {
-              "__lazy_json__": "node_attrs/litellm.json"
             }
           },
           {
