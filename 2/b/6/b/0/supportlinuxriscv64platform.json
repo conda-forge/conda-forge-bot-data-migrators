@@ -159,6 +159,10 @@
           },
           {
             "source": "brotli",
+            "target": "awscli"
+          },
+          {
+            "source": "brotli",
             "target": "conda"
           },
           {
@@ -1975,6 +1979,10 @@
           },
           {
             "source": "python",
+            "target": "awscli"
+          },
+          {
+            "source": "python",
             "target": "brotli"
           },
           {
@@ -2044,6 +2052,10 @@
           {
             "source": "python",
             "target": "mypy"
+          },
+          {
+            "source": "python",
+            "target": "nh3"
           },
           {
             "source": "python",
@@ -3107,6 +3119,10 @@
           },
           {
             "source": "yaml",
+            "target": "awscli"
+          },
+          {
+            "source": "yaml",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -3460,6 +3476,12 @@
             "id": "attr",
             "payload": {
               "__lazy_json__": "node_attrs/attr.json"
+            }
+          },
+          {
+            "id": "awscli",
+            "payload": {
+              "__lazy_json__": "node_attrs/awscli.json"
             }
           },
           {
@@ -4312,6 +4334,12 @@
             "id": "nghttp2",
             "payload": {
               "__lazy_json__": "node_attrs/nghttp2.json"
+            }
+          },
+          {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
@@ -5246,6 +5274,7 @@
       "__set__": true,
       "elements": [
         "anaconda-client",
+        "awscli",
         "brotli-python",
         "cargo-auditable",
         "cargo-bundle-licenses",
@@ -5278,6 +5307,7 @@
         "sed",
         "su-exec",
         "tini",
+        "twine",
         "vhs"
       ]
     },
