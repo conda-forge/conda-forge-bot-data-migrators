@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "timezonefinder",
+            "payload": {
+              "__lazy_json__": "node_attrs/timezonefinder.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -16402,10 +16409,6 @@
           {
             "source": "h3-py",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "h3-py",
-            "target": "timezonefinder"
           },
           {
             "source": "h3ronpy",
