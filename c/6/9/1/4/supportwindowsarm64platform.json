@@ -207,10 +207,6 @@
           },
           {
             "source": "brotli",
-            "target": "awscli"
-          },
-          {
-            "source": "brotli",
             "target": "conda"
           },
           {
@@ -395,10 +391,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "nh3"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "pynacl"
           },
           {
@@ -548,10 +540,6 @@
           {
             "source": "ctng-compilers",
             "target": "ncurses"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "nh3"
           },
           {
             "source": "ctng-compilers",
@@ -3143,10 +3131,6 @@
           },
           {
             "source": "python",
-            "target": "awscli"
-          },
-          {
-            "source": "python",
             "target": "brotli"
           },
           {
@@ -3244,10 +3228,6 @@
           {
             "source": "python",
             "target": "mypy"
-          },
-          {
-            "source": "python",
-            "target": "nh3"
           },
           {
             "source": "python",
@@ -3927,10 +3907,6 @@
           },
           {
             "source": "rsync",
-            "target": "nh3"
-          },
-          {
-            "source": "rsync",
             "target": "pynacl"
           },
           {
@@ -3980,10 +3956,6 @@
           {
             "source": "sed",
             "target": "mypy"
-          },
-          {
-            "source": "sed",
-            "target": "nh3"
           },
           {
             "source": "sed",
@@ -4991,10 +4963,6 @@
           },
           {
             "source": "yaml",
-            "target": "awscli"
-          },
-          {
-            "source": "yaml",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -5476,12 +5444,6 @@
             "id": "attr",
             "payload": {
               "__lazy_json__": "node_attrs/attr.json"
-            }
-          },
-          {
-            "id": "awscli",
-            "payload": {
-              "__lazy_json__": "node_attrs/awscli.json"
             }
           },
           {
@@ -6640,12 +6602,6 @@
             "id": "ncurses",
             "payload": {
               "__lazy_json__": "node_attrs/ncurses.json"
-            }
-          },
-          {
-            "id": "nh3",
-            "payload": {
-              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
@@ -7828,7 +7784,6 @@
         "addlicense",
         "age",
         "aws-vault",
-        "awscli",
         "backports.zstd",
         "beads",
         "brotli",
@@ -7902,7 +7857,6 @@
         "trzsz",
         "tssh",
         "tsshd",
-        "twine",
         "vhs",
         "wishlist",
         "witr",
