@@ -3847,6 +3847,10 @@
           },
           {
             "source": "bash",
+            "target": "cgns"
+          },
+          {
+            "source": "bash",
             "target": "cgsi-gsoap"
           },
           {
@@ -16402,6 +16406,10 @@
             "target": "pygplates"
           },
           {
+            "source": "cgns",
+            "target": "vtk"
+          },
+          {
             "source": "cgsi-gsoap",
             "target": "srm-ifce"
           },
@@ -16852,6 +16860,10 @@
           {
             "source": "cmake",
             "target": "cgal-cpp"
+          },
+          {
+            "source": "cmake",
+            "target": "cgns"
           },
           {
             "source": "cmake",
@@ -25090,6 +25102,10 @@
             "target": "xorg-libxft"
           },
           {
+            "source": "exprtk",
+            "target": "vtk"
+          },
+          {
             "source": "extra-cmake-modules",
             "target": "fcitx-qt5"
           },
@@ -25420,6 +25436,10 @@
           {
             "source": "fast_float",
             "target": "libplacebo"
+          },
+          {
+            "source": "fast_float",
+            "target": "vtk"
           },
           {
             "source": "fastar",
@@ -33247,6 +33267,10 @@
           },
           {
             "source": "hdf5",
+            "target": "cgns"
+          },
+          {
+            "source": "hdf5",
             "target": "coda"
           },
           {
@@ -38818,6 +38842,10 @@
             "target": "mupdf"
           },
           {
+            "source": "libharu",
+            "target": "vtk"
+          },
+          {
             "source": "libheif",
             "target": "gdal"
           },
@@ -41324,6 +41352,10 @@
           {
             "source": "libtool",
             "target": "cgal-cpp"
+          },
+          {
+            "source": "libtool",
+            "target": "cgns"
           },
           {
             "source": "libtool",
@@ -101867,6 +101899,10 @@
           },
           {
             "source": "zlib",
+            "target": "cgns"
+          },
+          {
+            "source": "zlib",
             "target": "clang-compiler-activation"
           },
           {
@@ -106615,6 +106651,12 @@
             }
           },
           {
+            "id": "cgns",
+            "payload": {
+              "__lazy_json__": "node_attrs/cgns.json"
+            }
+          },
+          {
             "id": "cgsi-gsoap",
             "payload": {
               "__lazy_json__": "node_attrs/cgsi-gsoap.json"
@@ -107938,6 +107980,12 @@
             "id": "expat",
             "payload": {
               "__lazy_json__": "node_attrs/expat.json"
+            }
+          },
+          {
+            "id": "exprtk",
+            "payload": {
+              "__lazy_json__": "node_attrs/exprtk.json"
             }
           },
           {
@@ -122086,6 +122134,7 @@
         "cuda-culibos",
         "dart-sdk",
         "dcw-gmt",
+        "exprtk",
         "go",
         "go-dep",
         "gshhg-gmt",
