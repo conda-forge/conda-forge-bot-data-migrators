@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -690,6 +697,26 @@
             "target": "openldap"
           },
           {
+            "source": "cython",
+            "target": "msgpack-python"
+          },
+          {
+            "source": "cython",
+            "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "pyzmq"
+          },
+          {
+            "source": "cython",
+            "target": "ruamel.yaml.clib"
+          },
+          {
+            "source": "cython",
+            "target": "seccomp-split"
+          },
+          {
             "source": "dav1d",
             "target": "ffmpeg"
           },
@@ -1224,10 +1251,6 @@
           {
             "source": "icu",
             "target": "cairo"
-          },
-          {
-            "source": "icu",
-            "target": "duckdb-split"
           },
           {
             "source": "icu",
@@ -3116,6 +3139,10 @@
           {
             "source": "python",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "python",
+            "target": "cython"
           },
           {
             "source": "python",
@@ -5680,6 +5707,12 @@
             "id": "cyrus-sasl",
             "payload": {
               "__lazy_json__": "node_attrs/cyrus-sasl.json"
+            }
+          },
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
             }
           },
           {
