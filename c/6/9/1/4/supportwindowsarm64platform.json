@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cython",
-            "payload": {
-              "__lazy_json__": "node_attrs/cython.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -378,10 +371,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "contourpy"
           },
           {
@@ -403,6 +392,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "libhwloc"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "markupsafe"
           },
           {
             "source": "clang-compiler-activation",
@@ -490,10 +483,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "contourpy"
           },
           {
@@ -519,6 +508,10 @@
           {
             "source": "ctng-compilers",
             "target": "libhwloc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "markupsafe"
           },
           {
             "source": "ctng-compilers",
@@ -2529,6 +2522,14 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "markupsafe",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "markupsafe",
+            "target": "libplacebo"
+          },
+          {
             "source": "mbedtls",
             "target": "lief"
           },
@@ -3234,10 +3235,6 @@
           },
           {
             "source": "python",
-            "target": "libplacebo"
-          },
-          {
-            "source": "python",
             "target": "libraqm"
           },
           {
@@ -3259,6 +3256,10 @@
           {
             "source": "python",
             "target": "mamba"
+          },
+          {
+            "source": "python",
+            "target": "markupsafe"
           },
           {
             "source": "python",
@@ -3954,10 +3955,6 @@
           },
           {
             "source": "rsync",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "rsync",
             "target": "contourpy"
           },
           {
@@ -3971,6 +3968,10 @@
           {
             "source": "rsync",
             "target": "greenlet"
+          },
+          {
+            "source": "rsync",
+            "target": "markupsafe"
           },
           {
             "source": "rsync",
@@ -4018,10 +4019,6 @@
           },
           {
             "source": "sed",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "sed",
             "target": "contourpy"
           },
           {
@@ -4035,6 +4032,10 @@
           {
             "source": "sed",
             "target": "greenlet"
+          },
+          {
+            "source": "sed",
+            "target": "markupsafe"
           },
           {
             "source": "sed",
@@ -6595,6 +6596,12 @@
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
+            }
+          },
+          {
+            "id": "markupsafe",
+            "payload": {
+              "__lazy_json__": "node_attrs/markupsafe.json"
             }
           },
           {
