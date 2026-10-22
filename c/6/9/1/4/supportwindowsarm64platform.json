@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "frozendict",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozendict.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1008,6 +1015,14 @@
           {
             "source": "fribidi",
             "target": "pango"
+          },
+          {
+            "source": "frozendict",
+            "target": "conda"
+          },
+          {
+            "source": "frozendict",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "gdk-pixbuf",
@@ -3224,6 +3239,10 @@
           {
             "source": "python",
             "target": "dulwich"
+          },
+          {
+            "source": "python",
+            "target": "frozendict"
           },
           {
             "source": "python",
@@ -5964,6 +5983,12 @@
             "id": "fribidi",
             "payload": {
               "__lazy_json__": "node_attrs/fribidi.json"
+            }
+          },
+          {
+            "id": "frozendict",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozendict.json"
             }
           },
           {
