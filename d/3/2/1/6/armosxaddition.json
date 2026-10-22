@@ -3223,6 +3223,10 @@
           },
           {
             "source": "brotli",
+            "target": "fonttools"
+          },
+          {
+            "source": "brotli",
             "target": "funcparserlib"
           },
           {
@@ -3312,10 +3316,6 @@
           {
             "source": "brotli",
             "target": "llama-cpp-python"
-          },
-          {
-            "source": "brotli",
-            "target": "matplotlib"
           },
           {
             "source": "brotli",
@@ -6715,6 +6715,10 @@
           },
           {
             "source": "cython",
+            "target": "fonttools"
+          },
+          {
+            "source": "cython",
             "target": "fpylll"
           },
           {
@@ -10020,6 +10024,10 @@
           {
             "source": "fontconfig",
             "target": "xorg-libxft"
+          },
+          {
+            "source": "fonttools",
+            "target": "matplotlib"
           },
           {
             "source": "fplll",
@@ -36711,6 +36719,10 @@
           },
           {
             "source": "python",
+            "target": "fonttools"
+          },
+          {
+            "source": "python",
             "target": "forcebalance"
           },
           {
@@ -53755,7 +53767,7 @@
           },
           {
             "source": "unicodedata2",
-            "target": "matplotlib"
+            "target": "fonttools"
           },
           {
             "source": "unixodbc",
@@ -61992,6 +62004,12 @@
             "id": "fontconfig",
             "payload": {
               "__lazy_json__": "node_attrs/fontconfig.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
             }
           },
           {
