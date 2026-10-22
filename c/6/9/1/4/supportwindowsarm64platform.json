@@ -230,11 +230,11 @@
           },
           {
             "source": "brotli",
-            "target": "libjxl-split"
+            "target": "fonttools"
           },
           {
             "source": "brotli",
-            "target": "matplotlib"
+            "target": "libjxl-split"
           },
           {
             "source": "brotli",
@@ -726,6 +726,10 @@
           },
           {
             "source": "cython",
+            "target": "fonttools"
+          },
+          {
+            "source": "cython",
             "target": "msgpack-python"
           },
           {
@@ -935,6 +939,10 @@
           {
             "source": "fontconfig",
             "target": "r-base"
+          },
+          {
+            "source": "fonttools",
+            "target": "matplotlib"
           },
           {
             "source": "freetype",
@@ -3242,6 +3250,10 @@
           },
           {
             "source": "python",
+            "target": "fonttools"
+          },
+          {
+            "source": "python",
             "target": "frozendict"
           },
           {
@@ -4294,7 +4306,7 @@
           },
           {
             "source": "unicodedata2",
-            "target": "matplotlib"
+            "target": "fonttools"
           },
           {
             "source": "util-linux",
@@ -5971,6 +5983,12 @@
             "id": "fontconfig",
             "payload": {
               "__lazy_json__": "node_attrs/fontconfig.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
             }
           },
           {
