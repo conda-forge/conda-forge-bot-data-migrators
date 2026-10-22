@@ -358,6 +358,10 @@
           },
           {
             "source": "cython",
+            "target": "multidict"
+          },
+          {
+            "source": "cython",
             "target": "numpy"
           },
           {
@@ -1617,6 +1621,10 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "multidict",
+            "target": "aiohttp"
+          },
+          {
             "source": "mypy",
             "target": "chardet"
           },
@@ -2115,6 +2123,10 @@
           {
             "source": "python",
             "target": "msgpack-python"
+          },
+          {
+            "source": "python",
+            "target": "multidict"
           },
           {
             "source": "python",
@@ -4405,6 +4417,12 @@
             "id": "msgpack-python",
             "payload": {
               "__lazy_json__": "node_attrs/msgpack-python.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
             }
           },
           {
