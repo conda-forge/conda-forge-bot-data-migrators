@@ -59,6 +59,18 @@
             "payload": {
               "__lazy_json__": "node_attrs/fonttools.json"
             }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
+            }
+          },
+          {
+            "id": "lcm",
+            "payload": {
+              "__lazy_json__": "node_attrs/lcm.json"
+            }
           }
         ]
       }
@@ -13156,6 +13168,10 @@
           },
           {
             "source": "cython",
+            "target": "frozenlist"
+          },
+          {
+            "source": "cython",
             "target": "fuzzysearch"
           },
           {
@@ -18467,6 +18483,14 @@
             "target": "zipline-reloaded"
           },
           {
+            "source": "frozenlist",
+            "target": "aiohttp"
+          },
+          {
+            "source": "frozenlist",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "funcparserlib",
             "target": "conda-forge-pinning"
           },
@@ -18777,6 +18801,10 @@
           {
             "source": "gemmi",
             "target": "loos"
+          },
+          {
+            "source": "gemmi",
+            "target": "mdanalysis"
           },
           {
             "source": "gemmi",
@@ -24148,6 +24176,10 @@
           },
           {
             "source": "lbmpy",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lcm",
             "target": "conda-forge-pinning"
           },
           {
@@ -80464,6 +80496,12 @@
             }
           },
           {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
+            }
+          },
+          {
             "id": "funcparserlib",
             "payload": {
               "__lazy_json__": "node_attrs/funcparserlib.json"
@@ -94273,6 +94311,12 @@
             "id": "kerneless",
             "payload": {
               "__lazy_json__": "node_attrs/kerneless.json"
+            }
+          },
+          {
+            "id": "lcm",
+            "payload": {
+              "__lazy_json__": "node_attrs/lcm.json"
             }
           }
         ]
