@@ -2466,6 +2466,10 @@
           },
           {
             "source": "cython",
+            "target": "frozenlist"
+          },
+          {
+            "source": "cython",
             "target": "gammapy"
           },
           {
@@ -3706,6 +3710,14 @@
           },
           {
             "source": "freeze-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "frozenlist",
+            "target": "aiohttp"
+          },
+          {
+            "source": "frozenlist",
             "target": "conda-forge-pinning"
           },
           {
@@ -13227,6 +13239,12 @@
             "id": "freeze-core",
             "payload": {
               "__lazy_json__": "node_attrs/freeze-core.json"
+            }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
             }
           },
           {
