@@ -362,6 +362,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "aiohttp"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "binutils"
           },
           {
@@ -459,6 +463,10 @@
           {
             "source": "croaring",
             "target": "duckdb-split"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "aiohttp"
           },
           {
             "source": "ctng-compilers",
@@ -698,11 +706,19 @@
           },
           {
             "source": "cython",
+            "target": "aiohttp"
+          },
+          {
+            "source": "cython",
             "target": "msgpack-python"
           },
           {
             "source": "cython",
             "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "pyyaml"
           },
           {
             "source": "cython",
@@ -2501,6 +2517,14 @@
             "target": "lief"
           },
           {
+            "source": "menuinst",
+            "target": "conda"
+          },
+          {
+            "source": "menuinst",
+            "target": "conda-forge-ci-setup"
+          },
+          {
             "source": "minizip",
             "target": "qt-webengine"
           },
@@ -2978,6 +3002,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "aiohttp"
+          },
+          {
+            "source": "pkg-config",
             "target": "contourpy"
           },
           {
@@ -3098,6 +3126,10 @@
           },
           {
             "source": "python",
+            "target": "aiohttp"
+          },
+          {
+            "source": "python",
             "target": "argon2-cffi-bindings"
           },
           {
@@ -3210,6 +3242,10 @@
           },
           {
             "source": "python",
+            "target": "menuinst"
+          },
+          {
+            "source": "python",
             "target": "msgpack-python"
           },
           {
@@ -3294,6 +3330,10 @@
           },
           {
             "source": "python",
+            "target": "pyyaml"
+          },
+          {
+            "source": "python",
             "target": "pyzmq"
           },
           {
@@ -3371,6 +3411,14 @@
           {
             "source": "pywin32",
             "target": "pyinstaller"
+          },
+          {
+            "source": "pyyaml",
+            "target": "awscli"
+          },
+          {
+            "source": "pyyaml",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "qhull",
@@ -3874,6 +3922,10 @@
           },
           {
             "source": "rsync",
+            "target": "aiohttp"
+          },
+          {
+            "source": "rsync",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -3927,6 +3979,10 @@
           {
             "source": "seccomp-split",
             "target": "systemd"
+          },
+          {
+            "source": "sed",
+            "target": "aiohttp"
           },
           {
             "source": "sed",
@@ -4962,11 +5018,7 @@
           },
           {
             "source": "yaml",
-            "target": "awscli"
-          },
-          {
-            "source": "yaml",
-            "target": "conda-forge-ci-setup"
+            "target": "pyyaml"
           },
           {
             "source": "zeromq",
@@ -5401,6 +5453,12 @@
             "id": "abseil-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/abseil-cpp.json"
+            }
+          },
+          {
+            "id": "aiohttp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aiohttp.json"
             }
           },
           {
@@ -6514,6 +6572,12 @@
             }
           },
           {
+            "id": "menuinst",
+            "payload": {
+              "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -6901,6 +6965,12 @@
             "id": "pywinpty",
             "payload": {
               "__lazy_json__": "node_attrs/pywinpty.json"
+            }
+          },
+          {
+            "id": "pyyaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyyaml.json"
             }
           },
           {
