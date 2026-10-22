@@ -51,6 +51,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/nsis.json"
             }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
           }
         ]
       }
@@ -739,6 +745,10 @@
           {
             "source": "cython",
             "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "propcache"
           },
           {
             "source": "cython",
@@ -3081,6 +3091,14 @@
             "target": "qt-main"
           },
           {
+            "source": "propcache",
+            "target": "aiohttp"
+          },
+          {
+            "source": "propcache",
+            "target": "yarl"
+          },
+          {
             "source": "psutil",
             "target": "conda-forge-ci-setup"
           },
@@ -3347,6 +3365,10 @@
           {
             "source": "python",
             "target": "postgresql"
+          },
+          {
+            "source": "python",
+            "target": "propcache"
           },
           {
             "source": "python",
@@ -6989,6 +7011,12 @@
             "id": "postgresql",
             "payload": {
               "__lazy_json__": "node_attrs/postgresql.json"
+            }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
             }
           },
           {
