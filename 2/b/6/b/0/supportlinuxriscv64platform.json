@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cython",
-            "payload": {
-              "__lazy_json__": "node_attrs/cython.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -273,6 +266,10 @@
             "target": "zstandard"
           },
           {
+            "source": "chardet",
+            "target": "conda-forge-ci-setup"
+          },
+          {
             "source": "check",
             "target": "pulseaudio"
           },
@@ -339,6 +336,10 @@
           {
             "source": "cython",
             "target": "aiohttp"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
           },
           {
             "source": "cython",
@@ -1602,6 +1603,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "mamba"
           },
           {
@@ -2023,6 +2028,10 @@
           {
             "source": "python",
             "target": "cffi"
+          },
+          {
+            "source": "python",
+            "target": "chardet"
           },
           {
             "source": "python",
@@ -3595,6 +3604,12 @@
             "id": "cffi",
             "payload": {
               "__lazy_json__": "node_attrs/cffi.json"
+            }
+          },
+          {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
             }
           },
           {
