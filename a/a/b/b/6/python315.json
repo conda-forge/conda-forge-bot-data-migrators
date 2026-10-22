@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
+            }
+          },
+          {
             "id": "frozendict",
             "payload": {
               "__lazy_json__": "node_attrs/frozendict.json"
@@ -6700,10 +6706,6 @@
           },
           {
             "source": "brotli",
-            "target": "cffsubr"
-          },
-          {
-            "source": "brotli",
             "target": "chalice"
           },
           {
@@ -6773,10 +6775,6 @@
           {
             "source": "brotli",
             "target": "csxtools"
-          },
-          {
-            "source": "brotli",
-            "target": "cu2qu"
           },
           {
             "source": "brotli",
@@ -6956,10 +6954,6 @@
           },
           {
             "source": "brotli",
-            "target": "ezdxf"
-          },
-          {
-            "source": "brotli",
             "target": "fabba"
           },
           {
@@ -7005,6 +6999,10 @@
           {
             "source": "brotli",
             "target": "flux-core"
+          },
+          {
+            "source": "brotli",
+            "target": "fonttools"
           },
           {
             "source": "brotli",
@@ -7305,10 +7303,6 @@
           {
             "source": "brotli",
             "target": "marvin"
-          },
-          {
-            "source": "brotli",
-            "target": "matplotlib"
           },
           {
             "source": "brotli",
@@ -13144,6 +13138,10 @@
           },
           {
             "source": "cython",
+            "target": "fonttools"
+          },
+          {
+            "source": "cython",
             "target": "fpylll"
           },
           {
@@ -18309,6 +18307,42 @@
           {
             "source": "focal-stats",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fonttools",
+            "target": "cffsubr"
+          },
+          {
+            "source": "fonttools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fonttools",
+            "target": "cu2qu"
+          },
+          {
+            "source": "fonttools",
+            "target": "ezdxf"
+          },
+          {
+            "source": "fonttools",
+            "target": "geoschem-gcpy"
+          },
+          {
+            "source": "fonttools",
+            "target": "matplotlib"
+          },
+          {
+            "source": "fonttools",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "fonttools",
+            "target": "rpaframework"
+          },
+          {
+            "source": "fonttools",
+            "target": "sasview"
           },
           {
             "source": "force-delete-win",
@@ -71284,39 +71318,11 @@
           },
           {
             "source": "unicodedata2",
-            "target": "cffsubr"
-          },
-          {
-            "source": "unicodedata2",
             "target": "conda-forge-pinning"
           },
           {
             "source": "unicodedata2",
-            "target": "cu2qu"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "ezdxf"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "geoschem-gcpy"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "matplotlib"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "nomad-camels"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "rpaframework"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "sasview"
+            "target": "fonttools"
           },
           {
             "source": "unicorn-binance-local-depth-cache",
@@ -80309,6 +80315,12 @@
             "id": "focal-stats",
             "payload": {
               "__lazy_json__": "node_attrs/focal-stats.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
             }
           },
           {
