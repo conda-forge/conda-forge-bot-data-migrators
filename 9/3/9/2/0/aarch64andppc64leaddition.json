@@ -6615,10 +6615,6 @@
           },
           {
             "source": "bash",
-            "target": "openlibm"
-          },
-          {
-            "source": "bash",
             "target": "openmeeg"
           },
           {
@@ -16322,6 +16318,42 @@
             "target": "srm-ifce"
           },
           {
+            "source": "chardet",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "chardet",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "chardet",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "chardet",
+            "target": "mcxtrace-suite"
+          },
+          {
+            "source": "chardet",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "chardet",
+            "target": "orange3"
+          },
+          {
+            "source": "chardet",
+            "target": "provstore-api"
+          },
+          {
+            "source": "chardet",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "chardet",
+            "target": "spyder"
+          },
+          {
             "source": "charls",
             "target": "imagecodecs"
           },
@@ -19467,6 +19499,10 @@
           },
           {
             "source": "cmake",
+            "target": "tinyobjloader"
+          },
+          {
+            "source": "cmake",
             "target": "tinyxml"
           },
           {
@@ -22519,6 +22555,10 @@
           },
           {
             "source": "cython",
+            "target": "chardet"
+          },
+          {
+            "source": "cython",
             "target": "ciso"
           },
           {
@@ -22927,10 +22967,6 @@
           },
           {
             "source": "cython",
-            "target": "provstore-api"
-          },
-          {
-            "source": "cython",
             "target": "py-plumed"
           },
           {
@@ -23076,10 +23112,6 @@
           {
             "source": "cython",
             "target": "pytng"
-          },
-          {
-            "source": "cython",
-            "target": "pytorch-cpu"
           },
           {
             "source": "cython",
@@ -43327,10 +43359,6 @@
           },
           {
             "source": "libtool",
-            "target": "openlibm"
-          },
-          {
-            "source": "libtool",
             "target": "openmeeg"
           },
           {
@@ -52187,6 +52215,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "conda"
           },
           {
@@ -52359,10 +52391,6 @@
           },
           {
             "source": "mypy",
-            "target": "provstore-api"
-          },
-          {
-            "source": "mypy",
             "target": "py-rattler"
           },
           {
@@ -52396,10 +52424,6 @@
           {
             "source": "mypy",
             "target": "pytokens"
-          },
-          {
-            "source": "mypy",
-            "target": "pytorch-cpu"
           },
           {
             "source": "mypy",
@@ -55388,6 +55412,10 @@
           {
             "source": "ninja",
             "target": "thrift-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "tinyobjloader"
           },
           {
             "source": "ninja",
@@ -58520,10 +58548,6 @@
           {
             "source": "openldap",
             "target": "postgresql"
-          },
-          {
-            "source": "openlibm",
-            "target": "julia"
           },
           {
             "source": "openmm",
@@ -68639,6 +68663,10 @@
           },
           {
             "source": "python",
+            "target": "chardet"
+          },
+          {
+            "source": "python",
             "target": "ciso"
           },
           {
@@ -72300,6 +72328,10 @@
           {
             "source": "python",
             "target": "timezonefinder"
+          },
+          {
+            "source": "python",
+            "target": "tinyobjloader"
           },
           {
             "source": "python",
@@ -89894,6 +89926,10 @@
             "target": "bipedal-locomotion-framework"
           },
           {
+            "source": "tinyobjloader",
+            "target": "mujoco"
+          },
+          {
             "source": "tinyxml2",
             "target": "casadi"
           },
@@ -92316,10 +92352,6 @@
           {
             "source": "uv",
             "target": "pillow"
-          },
-          {
-            "source": "uv",
-            "target": "provstore-api"
           },
           {
             "source": "uv",
@@ -103461,6 +103493,12 @@
             }
           },
           {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
+            }
+          },
+          {
             "id": "charls",
             "payload": {
               "__lazy_json__": "node_attrs/charls.json"
@@ -109698,12 +109736,6 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
-            }
-          },
-          {
-            "id": "openlibm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
@@ -116142,6 +116174,12 @@
             "id": "tiny-process-library",
             "payload": {
               "__lazy_json__": "node_attrs/tiny-process-library.json"
+            }
+          },
+          {
+            "id": "tinyobjloader",
+            "payload": {
+              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
