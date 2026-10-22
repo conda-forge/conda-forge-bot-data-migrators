@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -328,6 +335,30 @@
           {
             "source": "curl",
             "target": "r-base"
+          },
+          {
+            "source": "cython",
+            "target": "lxml"
+          },
+          {
+            "source": "cython",
+            "target": "msgpack-python"
+          },
+          {
+            "source": "cython",
+            "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "pyzmq"
+          },
+          {
+            "source": "cython",
+            "target": "ruamel.yaml.clib"
+          },
+          {
+            "source": "cython",
+            "target": "seccomp-split"
           },
           {
             "source": "dav1d",
@@ -1979,6 +2010,10 @@
           },
           {
             "source": "python",
+            "target": "cython"
+          },
+          {
+            "source": "python",
             "target": "debugpy"
           },
           {
@@ -3584,6 +3619,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
             }
           },
           {
