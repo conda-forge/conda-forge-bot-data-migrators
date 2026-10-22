@@ -51,9 +51,20 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "cython",
+            "target": "pystan"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
+            }
+          },
           {
             "id": "pystan",
             "payload": {
@@ -1276,7 +1287,7 @@
           },
           {
             "source": "astroid",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "astroid",
@@ -3720,7 +3731,7 @@
           },
           {
             "source": "backports.zstd",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "backports.zstd",
@@ -4448,7 +4459,7 @@
           },
           {
             "source": "bcrypt",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "bcrypt",
@@ -7512,7 +7523,7 @@
           },
           {
             "source": "brotli",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "brotli",
@@ -9380,7 +9391,7 @@
           },
           {
             "source": "cffi",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "cffi",
@@ -11255,8 +11266,980 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cython",
+            "target": "adios-python"
+          },
+          {
+            "source": "cython",
+            "target": "affinegap"
+          },
+          {
+            "source": "cython",
+            "target": "agg-regrid"
+          },
+          {
+            "source": "cython",
+            "target": "agox"
+          },
+          {
+            "source": "cython",
+            "target": "aim"
+          },
+          {
+            "source": "cython",
+            "target": "aimrocks"
+          },
+          {
+            "source": "cython",
+            "target": "aiochclient"
+          },
+          {
+            "source": "cython",
+            "target": "aiofastnet"
+          },
+          {
+            "source": "cython",
+            "target": "aiokafka"
+          },
+          {
+            "source": "cython",
+            "target": "alphacsc"
+          },
+          {
+            "source": "cython",
+            "target": "anaflow"
+          },
+          {
+            "source": "cython",
+            "target": "ansys-mapdl-reader"
+          },
+          {
+            "source": "cython",
+            "target": "anuga"
+          },
+          {
+            "source": "cython",
+            "target": "anycrc"
+          },
+          {
+            "source": "cython",
+            "target": "apache-beam"
+          },
+          {
+            "source": "cython",
+            "target": "apache-flink"
+          },
+          {
+            "source": "cython",
+            "target": "apache-tvm-ffi"
+          },
+          {
+            "source": "cython",
+            "target": "apav"
+          },
+          {
+            "source": "cython",
+            "target": "arch-py"
+          },
+          {
+            "source": "cython",
+            "target": "aria-tools"
+          },
+          {
+            "source": "cython",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "cython",
+            "target": "arrow-adbc-split"
+          },
+          {
+            "source": "cython",
+            "target": "ase2sprkkr"
+          },
+          {
+            "source": "cython",
+            "target": "assimulo"
+          },
+          {
+            "source": "cython",
+            "target": "astra-toolbox"
+          },
+          {
+            "source": "cython",
+            "target": "astropy"
+          },
+          {
+            "source": "cython",
+            "target": "astroscrappy"
+          },
+          {
+            "source": "cython",
+            "target": "asyncpg"
+          },
+          {
+            "source": "cython",
+            "target": "atomman"
+          },
+          {
+            "source": "cython",
+            "target": "autode"
+          },
+          {
+            "source": "cython",
+            "target": "av"
+          },
+          {
+            "source": "cython",
+            "target": "awex"
+          },
+          {
+            "source": "cython",
+            "target": "backpack"
+          },
+          {
+            "source": "cython",
+            "target": "basemap"
+          },
+          {
+            "source": "cython",
+            "target": "basswood-av"
+          },
+          {
+            "source": "cython",
+            "target": "bayesbay"
+          },
+          {
+            "source": "cython",
+            "target": "bayesianbandits"
+          },
+          {
+            "source": "cython",
+            "target": "bayesopt"
+          },
+          {
+            "source": "cython",
+            "target": "bbhash"
+          },
+          {
+            "source": "cython",
+            "target": "bcolz-zipline"
+          },
+          {
+            "source": "cython",
+            "target": "bed-reader"
+          },
+          {
+            "source": "cython",
+            "target": "bhmm"
+          },
+          {
+            "source": "cython",
+            "target": "bilby.cython"
+          },
+          {
+            "source": "cython",
+            "target": "bintrees"
+          },
+          {
+            "source": "cython",
+            "target": "biobox"
+          },
+          {
             "source": "cythonbiogeme",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cython",
+            "target": "biom-format"
+          },
+          {
+            "source": "cython",
+            "target": "biotraj"
+          },
+          {
+            "source": "cython",
+            "target": "bitshuffle"
+          },
+          {
+            "source": "cython",
+            "target": "bodo"
+          },
+          {
+            "source": "cython",
+            "target": "boltztrap2"
+          },
+          {
+            "source": "cython",
+            "target": "bonsu"
+          },
+          {
+            "source": "cython",
+            "target": "brain-isotopic-distribution"
+          },
+          {
+            "source": "cython",
+            "target": "breezy"
+          },
+          {
+            "source": "cython",
+            "target": "brian2"
+          },
+          {
+            "source": "cython",
+            "target": "brisc"
+          },
+          {
+            "source": "cython",
+            "target": "bt"
+          },
+          {
+            "source": "cython",
+            "target": "bw2speedups"
+          },
+          {
+            "source": "cython",
+            "target": "cached_interpolate"
+          },
+          {
+            "source": "cython",
+            "target": "caiman"
+          },
+          {
+            "source": "cython",
+            "target": "cantera"
+          },
+          {
+            "source": "cython",
+            "target": "capstone"
+          },
+          {
+            "source": "cython",
+            "target": "cartopy"
+          },
+          {
+            "source": "cython",
+            "target": "cassandra-driver"
+          },
+          {
+            "source": "cython",
+            "target": "catboost"
+          },
+          {
+            "source": "cython",
+            "target": "causalml"
+          },
+          {
+            "source": "cython",
+            "target": "cccl-python"
+          },
+          {
+            "source": "cython",
+            "target": "cchardet"
+          },
+          {
+            "source": "cython",
+            "target": "cchecksum"
+          },
+          {
+            "source": "cython",
+            "target": "celer"
+          },
+          {
+            "source": "cython",
+            "target": "celiagg"
+          },
+          {
+            "source": "cython",
+            "target": "cell_tree2d"
+          },
+          {
+            "source": "cython",
+            "target": "cesium"
+          },
+          {
+            "source": "cython",
+            "target": "cexprtk"
+          },
+          {
+            "source": "cython",
+            "target": "cherab"
+          },
+          {
+            "source": "cython",
+            "target": "cherab-imas"
+          },
+          {
+            "source": "cython",
+            "target": "cherab-lhd"
+          },
+          {
+            "source": "cython",
+            "target": "cherab-nagdis"
+          },
+          {
+            "source": "cython",
+            "target": "chgnet"
+          },
+          {
+            "source": "cython",
+            "target": "ciso"
+          },
+          {
+            "source": "cython",
+            "target": "clease"
+          },
+          {
+            "source": "cython",
+            "target": "clickhouse-connect"
+          },
+          {
+            "source": "cython",
+            "target": "clickhouse-driver"
+          },
+          {
+            "source": "cython",
+            "target": "cmac"
+          },
+          {
+            "source": "cython",
+            "target": "color-operations"
+          },
+          {
+            "source": "cython",
+            "target": "compyle"
+          },
+          {
+            "source": "cython",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cython",
+            "target": "configspace"
+          },
+          {
+            "source": "cython",
+            "target": "connected-components-3d"
+          },
+          {
+            "source": "cython",
+            "target": "coolprop"
+          },
+          {
+            "source": "cython",
+            "target": "copulae"
+          },
+          {
+            "source": "cython",
+            "target": "cornac"
+          },
+          {
+            "source": "cython",
+            "target": "cosmic_profiles"
+          },
+          {
+            "source": "cython",
+            "target": "cosmosis-build-standard-library"
+          },
+          {
+            "source": "cython",
+            "target": "cpnest"
+          },
+          {
+            "source": "cython",
+            "target": "cppbktree"
+          },
+          {
+            "source": "cython",
+            "target": "cpprb"
+          },
+          {
+            "source": "cython",
+            "target": "creme"
+          },
+          {
+            "source": "cython",
+            "target": "crick"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-core"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cython",
+            "target": "cupy"
+          },
+          {
+            "source": "cython",
+            "target": "cuquantum"
+          },
+          {
+            "source": "cython",
+            "target": "curated-tokenizers"
+          },
+          {
+            "source": "cython",
+            "target": "cwcwidth"
+          },
+          {
+            "source": "cython",
+            "target": "cwinpy"
+          },
+          {
+            "source": "cython",
+            "target": "cyarray"
+          },
+          {
+            "source": "cython",
+            "target": "cyavro"
+          },
+          {
+            "source": "cython",
+            "target": "cybuffer"
+          },
+          {
+            "source": "cython",
+            "target": "cyclus"
+          },
+          {
+            "source": "cython",
+            "target": "cyclus-build-deps"
+          },
+          {
+            "source": "cython",
+            "target": "cyflann"
+          },
+          {
+            "source": "cython",
+            "target": "cygrid"
+          },
+          {
+            "source": "cython",
+            "target": "cyipopt"
+          },
+          {
+            "source": "cython",
+            "target": "cykhash"
+          },
+          {
+            "source": "cython",
+            "target": "cyl1tf"
+          },
+          {
+            "source": "cython",
+            "target": "cylp"
+          },
+          {
+            "source": "cython",
+            "target": "cymem"
+          },
+          {
+            "source": "cython",
+            "target": "cymysql"
+          },
+          {
+            "source": "cython",
+            "target": "cypari2"
+          },
+          {
+            "source": "cython",
+            "target": "cyrk"
+          },
+          {
+            "source": "cython",
+            "target": "cysgp4"
+          },
+          {
+            "source": "cython",
+            "target": "cysignals"
+          },
+          {
+            "source": "cython",
+            "target": "cython-blis"
+          },
+          {
+            "source": "cython",
+            "target": "cython-fortran-file"
+          },
+          {
+            "source": "cython",
+            "target": "cythonbiogeme"
+          },
+          {
+            "source": "cython",
+            "target": "cythongsl"
+          },
+          {
+            "source": "cython",
+            "target": "cytoolz"
+          },
+          {
+            "source": "cython",
+            "target": "cyvlfeat"
+          },
+          {
+            "source": "cython",
+            "target": "dadi"
+          },
+          {
+            "source": "cython",
+            "target": "daqp"
+          },
+          {
+            "source": "cython",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "cython",
+            "target": "datrie"
+          },
+          {
+            "source": "cython",
+            "target": "dbus-fast"
+          },
+          {
+            "source": "cython",
+            "target": "dclab"
+          },
+          {
+            "source": "cython",
+            "target": "ddtrace"
+          },
+          {
+            "source": "cython",
+            "target": "dedalus"
+          },
+          {
+            "source": "cython",
+            "target": "dedupe"
+          },
+          {
+            "source": "cython",
+            "target": "dedupe-hcluster"
+          },
+          {
+            "source": "cython",
+            "target": "deepgraph"
+          },
+          {
+            "source": "cython",
+            "target": "deeptime"
+          },
+          {
+            "source": "cython",
+            "target": "deodr"
+          },
+          {
+            "source": "cython",
+            "target": "dependency_injector"
+          },
+          {
+            "source": "cython",
+            "target": "depi"
+          },
+          {
+            "source": "cython",
+            "target": "dftbephy"
+          },
+          {
+            "source": "cython",
+            "target": "dgl"
+          },
+          {
+            "source": "cython",
+            "target": "diffq"
+          },
+          {
+            "source": "cython",
+            "target": "dimod"
+          },
+          {
+            "source": "cython",
+            "target": "dipy"
+          },
+          {
+            "source": "cython",
+            "target": "discretize"
+          },
+          {
+            "source": "cython",
+            "target": "distopia"
+          },
+          {
+            "source": "cython",
+            "target": "dlltracer"
+          },
+          {
+            "source": "cython",
+            "target": "dmri-amico"
+          },
+          {
+            "source": "cython",
+            "target": "dmri-dicelib"
+          },
+          {
+            "source": "cython",
+            "target": "dnest4"
+          },
+          {
+            "source": "cython",
+            "target": "dockq"
+          },
+          {
+            "source": "cython",
+            "target": "doublemetaphone"
+          },
+          {
+            "source": "cython",
+            "target": "dpctl"
+          },
+          {
+            "source": "cython",
+            "target": "dracopy"
+          },
+          {
+            "source": "cython",
+            "target": "dtaidistance"
+          },
+          {
+            "source": "cython",
+            "target": "dtw-python"
+          },
+          {
+            "source": "cython",
+            "target": "dwave-preprocessing"
+          },
+          {
+            "source": "cython",
+            "target": "dwave-samplers"
+          },
+          {
+            "source": "cython",
+            "target": "easychem"
+          },
+          {
+            "source": "cython",
+            "target": "eatpy"
+          },
+          {
+            "source": "cython",
+            "target": "econml"
+          },
+          {
+            "source": "cython",
+            "target": "editdistance"
+          },
+          {
+            "source": "cython",
+            "target": "edlib"
+          },
+          {
+            "source": "cython",
+            "target": "edt"
+          },
+          {
+            "source": "cython",
+            "target": "eelbrain"
+          },
+          {
+            "source": "cython",
+            "target": "eigency"
+          },
+          {
+            "source": "cython",
+            "target": "elektronn"
+          },
+          {
+            "source": "cython",
+            "target": "enterprise_outliers"
+          },
+          {
+            "source": "cython",
+            "target": "epicsmacrolib"
+          },
+          {
+            "source": "cython",
+            "target": "esi-core"
+          },
+          {
+            "source": "cython",
+            "target": "ete4"
+          },
+          {
+            "source": "cython",
+            "target": "eudist"
+          },
+          {
+            "source": "cython",
+            "target": "eventio"
+          },
+          {
+            "source": "cython",
+            "target": "evodag"
+          },
+          {
+            "source": "cython",
+            "target": "evomsa"
+          },
+          {
+            "source": "cython",
+            "target": "extinction"
+          },
+          {
+            "source": "cython",
+            "target": "ezdxf"
+          },
+          {
+            "source": "cython",
+            "target": "fa2"
+          },
+          {
+            "source": "cython",
+            "target": "fa2_modified"
+          },
+          {
+            "source": "cython",
+            "target": "fabba"
+          },
+          {
+            "source": "cython",
+            "target": "fabio"
+          },
+          {
+            "source": "cython",
+            "target": "fairseq"
+          },
+          {
+            "source": "cython",
+            "target": "falcon"
+          },
+          {
+            "source": "cython",
+            "target": "fastavro"
+          },
+          {
+            "source": "cython",
+            "target": "fastbencode"
+          },
+          {
+            "source": "cython",
+            "target": "fastbpe"
+          },
+          {
+            "source": "cython",
+            "target": "fastcan"
+          },
+          {
+            "source": "cython",
+            "target": "fastcdc"
+          },
+          {
+            "source": "cython",
+            "target": "fastdtw"
+          },
+          {
+            "source": "cython",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "cython",
+            "target": "faster-coco-eval"
+          },
+          {
+            "source": "cython",
+            "target": "fastparquet"
+          },
+          {
+            "source": "cython",
+            "target": "fastremap"
+          },
+          {
+            "source": "cython",
+            "target": "fastrlock"
+          },
+          {
+            "source": "cython",
+            "target": "fastshermanmorrison-pulsar"
+          },
+          {
+            "source": "cython",
+            "target": "faust-cchardet"
+          },
+          {
+            "source": "cython",
+            "target": "fbdfile"
+          },
+          {
+            "source": "cython",
+            "target": "fdasrsf"
+          },
+          {
+            "source": "cython",
+            "target": "ffpyplayer"
+          },
+          {
+            "source": "cython",
+            "target": "fill-voids"
+          },
+          {
+            "source": "cython",
+            "target": "finesse"
+          },
+          {
+            "source": "cython",
+            "target": "finitediff"
+          },
+          {
+            "source": "cython",
+            "target": "fiona"
+          },
+          {
+            "source": "cython",
+            "target": "fisher"
+          },
+          {
+            "source": "cython",
+            "target": "fisx"
+          },
+          {
+            "source": "cython",
+            "target": "flacarray"
+          },
+          {
+            "source": "cython",
+            "target": "flt"
+          },
+          {
+            "source": "cython",
+            "target": "fluidfft-fftw"
+          },
+          {
+            "source": "cython",
+            "target": "fluidfft-fftwmpi"
+          },
+          {
+            "source": "cython",
+            "target": "fluidfft-mpi_with_fftw"
+          },
+          {
+            "source": "cython",
+            "target": "focal-stats"
+          },
+          {
+            "source": "cython",
+            "target": "fpylll"
+          },
+          {
+            "source": "cython",
+            "target": "fqe"
+          },
+          {
+            "source": "cython",
+            "target": "freesas"
+          },
+          {
+            "source": "cython",
+            "target": "freesasa"
+          },
+          {
+            "source": "cython",
+            "target": "fretbursts"
+          },
+          {
+            "source": "cython",
+            "target": "fuzzysearch"
+          },
+          {
+            "source": "cython",
+            "target": "gala"
+          },
+          {
+            "source": "cython",
+            "target": "galario"
+          },
+          {
+            "source": "cython",
+            "target": "gammapy"
+          },
+          {
+            "source": "cython",
+            "target": "gdecomp"
+          },
+          {
+            "source": "cython",
+            "target": "gensim"
+          },
+          {
+            "source": "cython",
+            "target": "geoana"
+          },
+          {
+            "source": "cython",
+            "target": "geoarrow-c"
+          },
+          {
+            "source": "cython",
+            "target": "geomad"
+          },
+          {
+            "source": "cython",
+            "target": "geomalgo"
+          },
+          {
+            "source": "cython",
+            "target": "geometry_utils"
+          },
+          {
+            "source": "cython",
+            "target": "geomodels"
+          },
+          {
+            "source": "cython",
+            "target": "geowombat"
+          },
+          {
+            "source": "cython",
+            "target": "gevent"
+          },
+          {
+            "source": "cython",
+            "target": "gimli.units"
+          },
+          {
+            "source": "cython",
+            "target": "glum"
+          },
+          {
+            "source": "cython",
+            "target": "gptools"
+          },
+          {
+            "source": "cython",
+            "target": "gpy"
+          },
+          {
+            "source": "cython",
+            "target": "grakel"
+          },
+          {
+            "source": "cython",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "cython",
+            "target": "grib2io"
+          },
+          {
+            "source": "cython",
+            "target": "gridfill"
+          },
+          {
+            "source": "cython",
+            "target": "grpc-cpp"
           },
           {
             "source": "cythongsl",
@@ -11273,6 +12256,2166 @@
           {
             "source": "cythongsl",
             "target": "slda"
+          },
+          {
+            "source": "cython",
+            "target": "gstools-cython"
+          },
+          {
+            "source": "cython",
+            "target": "guiqwt"
+          },
+          {
+            "source": "cython",
+            "target": "h2mm-c"
+          },
+          {
+            "source": "cython",
+            "target": "h3-py"
+          },
+          {
+            "source": "cython",
+            "target": "h5py"
+          },
+          {
+            "source": "cython",
+            "target": "halotools"
+          },
+          {
+            "source": "cython",
+            "target": "hammer"
+          },
+          {
+            "source": "cython",
+            "target": "hangar"
+          },
+          {
+            "source": "cython",
+            "target": "hazelbean"
+          },
+          {
+            "source": "cython",
+            "target": "hdbscan"
+          },
+          {
+            "source": "cython",
+            "target": "hddm-wfpt"
+          },
+          {
+            "source": "cython",
+            "target": "hdmedians"
+          },
+          {
+            "source": "cython",
+            "target": "healpy"
+          },
+          {
+            "source": "cython",
+            "target": "hidapi"
+          },
+          {
+            "source": "cython",
+            "target": "holodeck-gw"
+          },
+          {
+            "source": "cython",
+            "target": "horton"
+          },
+          {
+            "source": "cython",
+            "target": "hpfrec"
+          },
+          {
+            "source": "cython",
+            "target": "http-router"
+          },
+          {
+            "source": "cython",
+            "target": "httptools"
+          },
+          {
+            "source": "cython",
+            "target": "hunter"
+          },
+          {
+            "source": "cython",
+            "target": "hydride"
+          },
+          {
+            "source": "cython",
+            "target": "ilamb"
+          },
+          {
+            "source": "cython",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "cython",
+            "target": "imagecodecs-lite"
+          },
+          {
+            "source": "cython",
+            "target": "imagededup"
+          },
+          {
+            "source": "cython",
+            "target": "imas-core"
+          },
+          {
+            "source": "cython",
+            "target": "imate"
+          },
+          {
+            "source": "cython",
+            "target": "imexam"
+          },
+          {
+            "source": "cython",
+            "target": "implicit"
+          },
+          {
+            "source": "cython",
+            "target": "indexed_bzip2"
+          },
+          {
+            "source": "cython",
+            "target": "indexed_gzip"
+          },
+          {
+            "source": "cython",
+            "target": "indexed_zstd"
+          },
+          {
+            "source": "cython",
+            "target": "inpoly"
+          },
+          {
+            "source": "cython",
+            "target": "insightface"
+          },
+          {
+            "source": "cython",
+            "target": "isce2"
+          },
+          {
+            "source": "cython",
+            "target": "iterative_solver"
+          },
+          {
+            "source": "cython",
+            "target": "javabridge"
+          },
+          {
+            "source": "cython",
+            "target": "jenkspy"
+          },
+          {
+            "source": "cython",
+            "target": "jq.py"
+          },
+          {
+            "source": "cython",
+            "target": "jsbsim"
+          },
+          {
+            "source": "cython",
+            "target": "jscatter"
+          },
+          {
+            "source": "cython",
+            "target": "jxlpy"
+          },
+          {
+            "source": "cython",
+            "target": "kaolin"
+          },
+          {
+            "source": "cython",
+            "target": "kapteyn"
+          },
+          {
+            "source": "cython",
+            "target": "kdepy"
+          },
+          {
+            "source": "cython",
+            "target": "kernprof"
+          },
+          {
+            "source": "cython",
+            "target": "kivy"
+          },
+          {
+            "source": "cython",
+            "target": "kwant"
+          },
+          {
+            "source": "cython",
+            "target": "lammps"
+          },
+          {
+            "source": "cython",
+            "target": "landlab"
+          },
+          {
+            "source": "cython",
+            "target": "lap"
+          },
+          {
+            "source": "cython",
+            "target": "lark-cython"
+          },
+          {
+            "source": "cython",
+            "target": "lbmpy"
+          },
+          {
+            "source": "cython",
+            "target": "lda"
+          },
+          {
+            "source": "cython",
+            "target": "ldcpy"
+          },
+          {
+            "source": "cython",
+            "target": "leg2cheb"
+          },
+          {
+            "source": "cython",
+            "target": "lensfunpy"
+          },
+          {
+            "source": "cython",
+            "target": "lfpy"
+          },
+          {
+            "source": "cython",
+            "target": "lhapdf"
+          },
+          {
+            "source": "cython",
+            "target": "libertem-dectris"
+          },
+          {
+            "source": "cython",
+            "target": "libmetgem"
+          },
+          {
+            "source": "cython",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "cython",
+            "target": "libode"
+          },
+          {
+            "source": "cython",
+            "target": "libsharp"
+          },
+          {
+            "source": "cython",
+            "target": "libsmu"
+          },
+          {
+            "source": "cython",
+            "target": "libstempo"
+          },
+          {
+            "source": "cython",
+            "target": "lightfm"
+          },
+          {
+            "source": "cython",
+            "target": "limix-legacy"
+          },
+          {
+            "source": "cython",
+            "target": "line_profiler"
+          },
+          {
+            "source": "cython",
+            "target": "linearmodels"
+          },
+          {
+            "source": "cython",
+            "target": "lintegrate"
+          },
+          {
+            "source": "cython",
+            "target": "lipyds"
+          },
+          {
+            "source": "cython",
+            "target": "locan"
+          },
+          {
+            "source": "cython",
+            "target": "lrcalc"
+          },
+          {
+            "source": "cython",
+            "target": "lsds"
+          },
+          {
+            "source": "cython",
+            "target": "lupa"
+          },
+          {
+            "source": "cython",
+            "target": "lxml"
+          },
+          {
+            "source": "cython",
+            "target": "macro-kit"
+          },
+          {
+            "source": "cython",
+            "target": "mamonca"
+          },
+          {
+            "source": "cython",
+            "target": "manimpango"
+          },
+          {
+            "source": "cython",
+            "target": "matrixprofile"
+          },
+          {
+            "source": "cython",
+            "target": "mattersim"
+          },
+          {
+            "source": "cython",
+            "target": "maxvolpy"
+          },
+          {
+            "source": "cython",
+            "target": "mdaencore"
+          },
+          {
+            "source": "cython",
+            "target": "mdal-python"
+          },
+          {
+            "source": "cython",
+            "target": "mdanalysis"
+          },
+          {
+            "source": "cython",
+            "target": "mdanse"
+          },
+          {
+            "source": "cython",
+            "target": "mdfreader"
+          },
+          {
+            "source": "cython",
+            "target": "mdsrv"
+          },
+          {
+            "source": "cython",
+            "target": "mdtraj"
+          },
+          {
+            "source": "cython",
+            "target": "memory-allocator"
+          },
+          {
+            "source": "cython",
+            "target": "memprof"
+          },
+          {
+            "source": "cython",
+            "target": "memray"
+          },
+          {
+            "source": "cython",
+            "target": "menpo3d"
+          },
+          {
+            "source": "cython",
+            "target": "microed-tools"
+          },
+          {
+            "source": "cython",
+            "target": "minorminer"
+          },
+          {
+            "source": "cython",
+            "target": "mkl-service"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_random"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_umath"
+          },
+          {
+            "source": "cython",
+            "target": "mlinsights"
+          },
+          {
+            "source": "cython",
+            "target": "mlpack"
+          },
+          {
+            "source": "cython",
+            "target": "mlprodict"
+          },
+          {
+            "source": "cython",
+            "target": "mo_pack"
+          },
+          {
+            "source": "cython",
+            "target": "modelx-cython"
+          },
+          {
+            "source": "cython",
+            "target": "molbloom"
+          },
+          {
+            "source": "cython",
+            "target": "molmod"
+          },
+          {
+            "source": "cython",
+            "target": "morphometrics"
+          },
+          {
+            "source": "cython",
+            "target": "mpi4py"
+          },
+          {
+            "source": "cython",
+            "target": "mpi4py-fft"
+          },
+          {
+            "source": "cython",
+            "target": "mpifft4py"
+          },
+          {
+            "source": "cython",
+            "target": "ms_deisotope"
+          },
+          {
+            "source": "cython",
+            "target": "ms_entropy"
+          },
+          {
+            "source": "cython",
+            "target": "ms_peak_picker"
+          },
+          {
+            "source": "cython",
+            "target": "msglc"
+          },
+          {
+            "source": "cython",
+            "target": "msgpack-python"
+          },
+          {
+            "source": "cython",
+            "target": "msmbuilder"
+          },
+          {
+            "source": "cython",
+            "target": "msmtools"
+          },
+          {
+            "source": "cython",
+            "target": "muarch"
+          },
+          {
+            "source": "cython",
+            "target": "mumps4py"
+          },
+          {
+            "source": "cython",
+            "target": "murmurhash"
+          },
+          {
+            "source": "cython",
+            "target": "muscat-split"
+          },
+          {
+            "source": "cython",
+            "target": "muspinsim"
+          },
+          {
+            "source": "cython",
+            "target": "n2p2"
+          },
+          {
+            "source": "cython",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "cython",
+            "target": "napari-nd-annotator"
+          },
+          {
+            "source": "cython",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "cython",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cython",
+            "target": "ncvis"
+          },
+          {
+            "source": "cython",
+            "target": "ndindex"
+          },
+          {
+            "source": "cython",
+            "target": "ndsplines"
+          },
+          {
+            "source": "cython",
+            "target": "nest-simulator"
+          },
+          {
+            "source": "cython",
+            "target": "netcdf4"
+          },
+          {
+            "source": "cython",
+            "target": "networkit"
+          },
+          {
+            "source": "cython",
+            "target": "networkx-metis"
+          },
+          {
+            "source": "cython",
+            "target": "neuron"
+          },
+          {
+            "source": "cython",
+            "target": "nipy"
+          },
+          {
+            "source": "cython",
+            "target": "nnvm"
+          },
+          {
+            "source": "cython",
+            "target": "numcodecs"
+          },
+          {
+            "source": "cython",
+            "target": "numpoly"
+          },
+          {
+            "source": "cython",
+            "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "nvmath"
+          },
+          {
+            "source": "cython",
+            "target": "nvtx"
+          },
+          {
+            "source": "cython",
+            "target": "oasis-deconv"
+          },
+          {
+            "source": "cython",
+            "target": "openmm"
+          },
+          {
+            "source": "cython",
+            "target": "openpyxl"
+          },
+          {
+            "source": "cython",
+            "target": "openstep-plist"
+          },
+          {
+            "source": "cython",
+            "target": "opentsne"
+          },
+          {
+            "source": "cython",
+            "target": "opentype-sanitizer"
+          },
+          {
+            "source": "cython",
+            "target": "opty"
+          },
+          {
+            "source": "cython",
+            "target": "oracledb"
+          },
+          {
+            "source": "cython",
+            "target": "orange3"
+          },
+          {
+            "source": "cython",
+            "target": "orange3-associate"
+          },
+          {
+            "source": "cython",
+            "target": "orange3-network"
+          },
+          {
+            "source": "cython",
+            "target": "orderedset"
+          },
+          {
+            "source": "cython",
+            "target": "owlready2"
+          },
+          {
+            "source": "cython",
+            "target": "oxdna-analysis-tools"
+          },
+          {
+            "source": "cython",
+            "target": "p4p"
+          },
+          {
+            "source": "cython",
+            "target": "paicos"
+          },
+          {
+            "source": "cython",
+            "target": "palpy"
+          },
+          {
+            "source": "cython",
+            "target": "pamtra"
+          },
+          {
+            "source": "cython",
+            "target": "pandana"
+          },
+          {
+            "source": "cython",
+            "target": "pandarm"
+          },
+          {
+            "source": "cython",
+            "target": "pandas"
+          },
+          {
+            "source": "cython",
+            "target": "paraprobe"
+          },
+          {
+            "source": "cython",
+            "target": "pari_jupyter"
+          },
+          {
+            "source": "cython",
+            "target": "partsegcore-compiled-backend"
+          },
+          {
+            "source": "cython",
+            "target": "pdata"
+          },
+          {
+            "source": "cython",
+            "target": "pdftopng"
+          },
+          {
+            "source": "cython",
+            "target": "pdspy"
+          },
+          {
+            "source": "cython",
+            "target": "peewee"
+          },
+          {
+            "source": "cython",
+            "target": "pentapy"
+          },
+          {
+            "source": "cython",
+            "target": "pept"
+          },
+          {
+            "source": "cython",
+            "target": "perfmetrics"
+          },
+          {
+            "source": "cython",
+            "target": "pesq"
+          },
+          {
+            "source": "cython",
+            "target": "pgure-svt"
+          },
+          {
+            "source": "cython",
+            "target": "phasepy"
+          },
+          {
+            "source": "cython",
+            "target": "phasorpy"
+          },
+          {
+            "source": "cython",
+            "target": "photochem"
+          },
+          {
+            "source": "cython",
+            "target": "photutils"
+          },
+          {
+            "source": "cython",
+            "target": "physics-tenpy"
+          },
+          {
+            "source": "cython",
+            "target": "picows"
+          },
+          {
+            "source": "cython",
+            "target": "piqs"
+          },
+          {
+            "source": "cython",
+            "target": "pixell"
+          },
+          {
+            "source": "cython",
+            "target": "plotpy"
+          },
+          {
+            "source": "cython",
+            "target": "plyvel"
+          },
+          {
+            "source": "cython",
+            "target": "pmdarima"
+          },
+          {
+            "source": "cython",
+            "target": "pngpack-py"
+          },
+          {
+            "source": "cython",
+            "target": "polyagamma"
+          },
+          {
+            "source": "cython",
+            "target": "polymer"
+          },
+          {
+            "source": "cython",
+            "target": "polyxios"
+          },
+          {
+            "source": "cython",
+            "target": "pot"
+          },
+          {
+            "source": "cython",
+            "target": "pplpy"
+          },
+          {
+            "source": "cython",
+            "target": "preshed"
+          },
+          {
+            "source": "cython",
+            "target": "primecountpy"
+          },
+          {
+            "source": "cython",
+            "target": "professor"
+          },
+          {
+            "source": "cython",
+            "target": "proteus"
+          },
+          {
+            "source": "cython",
+            "target": "ptufile"
+          },
+          {
+            "source": "cython",
+            "target": "puma"
+          },
+          {
+            "source": "cython",
+            "target": "purepng"
+          },
+          {
+            "source": "cython",
+            "target": "py-bgzip"
+          },
+          {
+            "source": "cython",
+            "target": "py-plumed"
+          },
+          {
+            "source": "cython",
+            "target": "py_entitymatching"
+          },
+          {
+            "source": "cython",
+            "target": "py_gd"
+          },
+          {
+            "source": "cython",
+            "target": "py_stringmatching"
+          },
+          {
+            "source": "cython",
+            "target": "py_stringsimjoin"
+          },
+          {
+            "source": "cython",
+            "target": "pyabel"
+          },
+          {
+            "source": "cython",
+            "target": "pyafv"
+          },
+          {
+            "source": "cython",
+            "target": "pyarrow"
+          },
+          {
+            "source": "cython",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "cython",
+            "target": "pybmoore"
+          },
+          {
+            "source": "cython",
+            "target": "pycalphad"
+          },
+          {
+            "source": "cython",
+            "target": "pycapnp"
+          },
+          {
+            "source": "cython",
+            "target": "pycbc"
+          },
+          {
+            "source": "cython",
+            "target": "pycbf"
+          },
+          {
+            "source": "cython",
+            "target": "pycgns"
+          },
+          {
+            "source": "cython",
+            "target": "pychemia"
+          },
+          {
+            "source": "cython",
+            "target": "pyclipper"
+          },
+          {
+            "source": "cython",
+            "target": "pycoalescence"
+          },
+          {
+            "source": "cython",
+            "target": "pycocotools"
+          },
+          {
+            "source": "cython",
+            "target": "pycontrails"
+          },
+          {
+            "source": "cython",
+            "target": "pycraf"
+          },
+          {
+            "source": "cython",
+            "target": "pycspade"
+          },
+          {
+            "source": "cython",
+            "target": "pycvodes"
+          },
+          {
+            "source": "cython",
+            "target": "pydeb"
+          },
+          {
+            "source": "cython",
+            "target": "pydpc"
+          },
+          {
+            "source": "cython",
+            "target": "pyduktape2"
+          },
+          {
+            "source": "cython",
+            "target": "pyearth"
+          },
+          {
+            "source": "cython",
+            "target": "pyedflib"
+          },
+          {
+            "source": "cython",
+            "target": "pyembree"
+          },
+          {
+            "source": "cython",
+            "target": "pyemd"
+          },
+          {
+            "source": "cython",
+            "target": "pyemma"
+          },
+          {
+            "source": "cython",
+            "target": "pyepr"
+          },
+          {
+            "source": "cython",
+            "target": "pyfai"
+          },
+          {
+            "source": "cython",
+            "target": "pyfftw"
+          },
+          {
+            "source": "cython",
+            "target": "pyfit-sne"
+          },
+          {
+            "source": "cython",
+            "target": "pyflct"
+          },
+          {
+            "source": "cython",
+            "target": "pyfqmr"
+          },
+          {
+            "source": "cython",
+            "target": "pyfuse3"
+          },
+          {
+            "source": "cython",
+            "target": "pyg4ometry"
+          },
+          {
+            "source": "cython",
+            "target": "pygame"
+          },
+          {
+            "source": "cython",
+            "target": "pygame-ce"
+          },
+          {
+            "source": "cython",
+            "target": "pygcgopt"
+          },
+          {
+            "source": "cython",
+            "target": "pygeodesic"
+          },
+          {
+            "source": "cython",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "cython",
+            "target": "pygetm"
+          },
+          {
+            "source": "cython",
+            "target": "pygnome"
+          },
+          {
+            "source": "cython",
+            "target": "pygotm"
+          },
+          {
+            "source": "cython",
+            "target": "pygrib"
+          },
+          {
+            "source": "cython",
+            "target": "pygslodeiv2"
+          },
+          {
+            "source": "cython",
+            "target": "pygsti"
+          },
+          {
+            "source": "cython",
+            "target": "pygypsy"
+          },
+          {
+            "source": "cython",
+            "target": "pyhacrf-datamade"
+          },
+          {
+            "source": "cython",
+            "target": "pyhams"
+          },
+          {
+            "source": "cython",
+            "target": "pyhmc"
+          },
+          {
+            "source": "cython",
+            "target": "pyiceberg"
+          },
+          {
+            "source": "cython",
+            "target": "pyjnius"
+          },
+          {
+            "source": "cython",
+            "target": "pyjpegls"
+          },
+          {
+            "source": "cython",
+            "target": "pyjq"
+          },
+          {
+            "source": "cython",
+            "target": "pykdtree"
+          },
+          {
+            "source": "cython",
+            "target": "pykrb5"
+          },
+          {
+            "source": "cython",
+            "target": "pykrige"
+          },
+          {
+            "source": "cython",
+            "target": "pylablib"
+          },
+          {
+            "source": "cython",
+            "target": "pylandstats"
+          },
+          {
+            "source": "cython",
+            "target": "pylbfgs"
+          },
+          {
+            "source": "cython",
+            "target": "pylibjpeg-libjpeg"
+          },
+          {
+            "source": "cython",
+            "target": "pylibjpeg-openjpeg"
+          },
+          {
+            "source": "cython",
+            "target": "pymartini"
+          },
+          {
+            "source": "cython",
+            "target": "pymatgen"
+          },
+          {
+            "source": "cython",
+            "target": "pymatgen-core"
+          },
+          {
+            "source": "cython",
+            "target": "pymaxflow"
+          },
+          {
+            "source": "cython",
+            "target": "pymca"
+          },
+          {
+            "source": "cython",
+            "target": "pymcubes"
+          },
+          {
+            "source": "cython",
+            "target": "pymde"
+          },
+          {
+            "source": "cython",
+            "target": "pymodes"
+          },
+          {
+            "source": "cython",
+            "target": "pymongoarrow"
+          },
+          {
+            "source": "cython",
+            "target": "pymoo"
+          },
+          {
+            "source": "cython",
+            "target": "pymssql"
+          },
+          {
+            "source": "cython",
+            "target": "pymt"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_cem"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_child"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_ecsimplesnow"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_gipl"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_hydrotrend"
+          },
+          {
+            "source": "cython",
+            "target": "pymt_sedflux"
+          },
+          {
+            "source": "cython",
+            "target": "pymumps"
+          },
+          {
+            "source": "cython",
+            "target": "pyne"
+          },
+          {
+            "source": "cython",
+            "target": "pynfft"
+          },
+          {
+            "source": "cython",
+            "target": "pynini"
+          },
+          {
+            "source": "cython",
+            "target": "pyoctomap"
+          },
+          {
+            "source": "cython",
+            "target": "pyodeint"
+          },
+          {
+            "source": "cython",
+            "target": "pyodesys"
+          },
+          {
+            "source": "cython",
+            "target": "pyodps"
+          },
+          {
+            "source": "cython",
+            "target": "pyogrio"
+          },
+          {
+            "source": "cython",
+            "target": "pyomo"
+          },
+          {
+            "source": "cython",
+            "target": "pyopengl-accelerate"
+          },
+          {
+            "source": "cython",
+            "target": "pypeit"
+          },
+          {
+            "source": "cython",
+            "target": "pypmc"
+          },
+          {
+            "source": "cython",
+            "target": "pypolyagamma"
+          },
+          {
+            "source": "cython",
+            "target": "pyprecice"
+          },
+          {
+            "source": "cython",
+            "target": "pyprism"
+          },
+          {
+            "source": "cython",
+            "target": "pyproj"
+          },
+          {
+            "source": "cython",
+            "target": "pyqg"
+          },
+          {
+            "source": "cython",
+            "target": "pyqstem"
+          },
+          {
+            "source": "cython",
+            "target": "pyqstrat"
+          },
+          {
+            "source": "cython",
+            "target": "pyre2"
+          },
+          {
+            "source": "cython",
+            "target": "pyreadr"
+          },
+          {
+            "source": "cython",
+            "target": "pyreadstat"
+          },
+          {
+            "source": "cython",
+            "target": "pyregion"
+          },
+          {
+            "source": "cython",
+            "target": "pyresample"
+          },
+          {
+            "source": "cython",
+            "target": "pyretis"
+          },
+          {
+            "source": "cython",
+            "target": "pyroaring"
+          },
+          {
+            "source": "cython",
+            "target": "pyrobuf"
+          },
+          {
+            "source": "cython",
+            "target": "pyroomacoustics"
+          },
+          {
+            "source": "cython",
+            "target": "pyrosm"
+          },
+          {
+            "source": "cython",
+            "target": "pyrost"
+          },
+          {
+            "source": "cython",
+            "target": "pyscipopt"
+          },
+          {
+            "source": "cython",
+            "target": "pyseobnr"
+          },
+          {
+            "source": "cython",
+            "target": "pyserini"
+          },
+          {
+            "source": "cython",
+            "target": "pysheds"
+          },
+          {
+            "source": "cython",
+            "target": "pysimdjson"
+          },
+          {
+            "source": "cython",
+            "target": "pysjef"
+          },
+          {
+            "source": "cython",
+            "target": "pyspatialstats"
+          },
+          {
+            "source": "cython",
+            "target": "pyspike"
+          },
+          {
+            "source": "cython",
+            "target": "pystemmer"
+          },
+          {
+            "source": "cython",
+            "target": "pystencils"
+          },
+          {
+            "source": "cython",
+            "target": "pysteps"
+          },
+          {
+            "source": "cython",
+            "target": "pytables"
+          },
+          {
+            "source": "cython",
+            "target": "pytensor-suite"
+          },
+          {
+            "source": "cython",
+            "target": "python-blosc2"
+          },
+          {
+            "source": "cython",
+            "target": "python-box"
+          },
+          {
+            "source": "cython",
+            "target": "python-cityhash"
+          },
+          {
+            "source": "cython",
+            "target": "python-constraint2"
+          },
+          {
+            "source": "cython",
+            "target": "python-crfsuite"
+          },
+          {
+            "source": "cython",
+            "target": "python-embree"
+          },
+          {
+            "source": "cython",
+            "target": "python-flint"
+          },
+          {
+            "source": "cython",
+            "target": "python-geotiepoints"
+          },
+          {
+            "source": "cython",
+            "target": "python-gssapi"
+          },
+          {
+            "source": "cython",
+            "target": "python-libdiscid"
+          },
+          {
+            "source": "cython",
+            "target": "python-marisa-trie"
+          },
+          {
+            "source": "cython",
+            "target": "python-mint"
+          },
+          {
+            "source": "cython",
+            "target": "python-mumps"
+          },
+          {
+            "source": "cython",
+            "target": "python-pcl"
+          },
+          {
+            "source": "cython",
+            "target": "python-pkcs11"
+          },
+          {
+            "source": "cython",
+            "target": "python-planarity"
+          },
+          {
+            "source": "cython",
+            "target": "python-primesieve"
+          },
+          {
+            "source": "cython",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "cython",
+            "target": "python-stratify"
+          },
+          {
+            "source": "cython",
+            "target": "python-suitesparse-graphblas"
+          },
+          {
+            "source": "cython",
+            "target": "python-symengine"
+          },
+          {
+            "source": "cython",
+            "target": "pytiff"
+          },
+          {
+            "source": "cython",
+            "target": "pytim"
+          },
+          {
+            "source": "cython",
+            "target": "pytng"
+          },
+          {
+            "source": "cython",
+            "target": "pyuoi"
+          },
+          {
+            "source": "cython",
+            "target": "pyuvdata"
+          },
+          {
+            "source": "cython",
+            "target": "pywavelets"
+          },
+          {
+            "source": "cython",
+            "target": "pyworld"
+          },
+          {
+            "source": "cython",
+            "target": "pywr"
+          },
+          {
+            "source": "cython",
+            "target": "pyxdameraulevenshtein"
+          },
+          {
+            "source": "cython",
+            "target": "pyxsim"
+          },
+          {
+            "source": "cython",
+            "target": "pyzmq"
+          },
+          {
+            "source": "cython",
+            "target": "qpython"
+          },
+          {
+            "source": "cython",
+            "target": "quadprog"
+          },
+          {
+            "source": "cython",
+            "target": "quantile-forest"
+          },
+          {
+            "source": "cython",
+            "target": "quantiphyse"
+          },
+          {
+            "source": "cython",
+            "target": "quantized-mesh-encoder"
+          },
+          {
+            "source": "cython",
+            "target": "qutip"
+          },
+          {
+            "source": "cython",
+            "target": "radis"
+          },
+          {
+            "source": "cython",
+            "target": "raider"
+          },
+          {
+            "source": "cython",
+            "target": "randomgen"
+          },
+          {
+            "source": "cython",
+            "target": "rapidgzip"
+          },
+          {
+            "source": "cython",
+            "target": "rasterio"
+          },
+          {
+            "source": "cython",
+            "target": "rawpy"
+          },
+          {
+            "source": "cython",
+            "target": "ray-packages"
+          },
+          {
+            "source": "cython",
+            "target": "raynest"
+          },
+          {
+            "source": "cython",
+            "target": "raysect"
+          },
+          {
+            "source": "cython",
+            "target": "rectangle-packer"
+          },
+          {
+            "source": "cython",
+            "target": "reedsolo"
+          },
+          {
+            "source": "cython",
+            "target": "regions"
+          },
+          {
+            "source": "cython",
+            "target": "regreg"
+          },
+          {
+            "source": "cython",
+            "target": "reproject"
+          },
+          {
+            "source": "cython",
+            "target": "rio-color"
+          },
+          {
+            "source": "cython",
+            "target": "ripser"
+          },
+          {
+            "source": "cython",
+            "target": "river-py"
+          },
+          {
+            "source": "cython",
+            "target": "rivet"
+          },
+          {
+            "source": "cython",
+            "target": "rnatools"
+          },
+          {
+            "source": "cython",
+            "target": "rosettasciio"
+          },
+          {
+            "source": "cython",
+            "target": "rsatoolbox"
+          },
+          {
+            "source": "cython",
+            "target": "ruamel.yaml.clib"
+          },
+          {
+            "source": "cython",
+            "target": "ruamel_yaml"
+          },
+          {
+            "source": "cython",
+            "target": "runstats"
+          },
+          {
+            "source": "cython",
+            "target": "ruptures"
+          },
+          {
+            "source": "cython",
+            "target": "s_gd2"
+          },
+          {
+            "source": "cython",
+            "target": "sage"
+          },
+          {
+            "source": "cython",
+            "target": "sagelib"
+          },
+          {
+            "source": "cython",
+            "target": "sasl"
+          },
+          {
+            "source": "cython",
+            "target": "sbank"
+          },
+          {
+            "source": "cython",
+            "target": "scalene"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-beam"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-bio"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-cycling"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-garden"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-learn"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-learn-extra"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-learn-intelex"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-misc"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-multiflow"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-network"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-plots"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-surprise"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-survival"
+          },
+          {
+            "source": "cython",
+            "target": "scikit_sundae"
+          },
+          {
+            "source": "cython",
+            "target": "scikits.odes"
+          },
+          {
+            "source": "cython",
+            "target": "scikits_odes_sundials"
+          },
+          {
+            "source": "cython",
+            "target": "scipy"
+          },
+          {
+            "source": "cython",
+            "target": "scipydepr"
+          },
+          {
+            "source": "cython",
+            "target": "screeninfo"
+          },
+          {
+            "source": "cython",
+            "target": "scylla-driver"
+          },
+          {
+            "source": "cython",
+            "target": "sdeconv"
+          },
+          {
+            "source": "cython",
+            "target": "seabreeze"
+          },
+          {
+            "source": "cython",
+            "target": "sealsmodel"
+          },
+          {
+            "source": "cython",
+            "target": "seccomp-split"
+          },
+          {
+            "source": "cython",
+            "target": "sed-plume"
+          },
+          {
+            "source": "cython",
+            "target": "seekr2_openmm_plugin"
+          },
+          {
+            "source": "cython",
+            "target": "selectolax"
+          },
+          {
+            "source": "cython",
+            "target": "sense2vec"
+          },
+          {
+            "source": "cython",
+            "target": "sep"
+          },
+          {
+            "source": "cython",
+            "target": "sfepy"
+          },
+          {
+            "source": "cython",
+            "target": "sha256"
+          },
+          {
+            "source": "cython",
+            "target": "shapely"
+          },
+          {
+            "source": "cython",
+            "target": "shenfun"
+          },
+          {
+            "source": "cython",
+            "target": "silx"
+          },
+          {
+            "source": "cython",
+            "target": "simhash-py"
+          },
+          {
+            "source": "cython",
+            "target": "simplejpeg"
+          },
+          {
+            "source": "cython",
+            "target": "simplification"
+          },
+          {
+            "source": "cython",
+            "target": "siphash24"
+          },
+          {
+            "source": "cython",
+            "target": "sisl"
+          },
+          {
+            "source": "cython",
+            "target": "sklearn-contrib-lightning"
+          },
+          {
+            "source": "cython",
+            "target": "sklearn-contrib-py-earth"
+          },
+          {
+            "source": "cython",
+            "target": "sklearn-quantile"
+          },
+          {
+            "source": "cython",
+            "target": "skranger"
+          },
+          {
+            "source": "cython",
+            "target": "slda"
+          },
+          {
+            "source": "cython",
+            "target": "slixmpp"
+          },
+          {
+            "source": "cython",
+            "target": "smt"
+          },
+          {
+            "source": "cython",
+            "target": "sncosmo"
+          },
+          {
+            "source": "cython",
+            "target": "snowflake-connector-python"
+          },
+          {
+            "source": "cython",
+            "target": "soxs"
+          },
+          {
+            "source": "cython",
+            "target": "spacy"
+          },
+          {
+            "source": "cython",
+            "target": "spacy-pkuseg"
+          },
+          {
+            "source": "cython",
+            "target": "spacy-transformers"
+          },
+          {
+            "source": "cython",
+            "target": "sparse_dot_topn"
+          },
+          {
+            "source": "cython",
+            "target": "sparsearray"
+          },
+          {
+            "source": "cython",
+            "target": "spavro"
+          },
+          {
+            "source": "cython",
+            "target": "speedups"
+          },
+          {
+            "source": "cython",
+            "target": "spiceypy"
+          },
+          {
+            "source": "cython",
+            "target": "splinecalib"
+          },
+          {
+            "source": "cython",
+            "target": "splipy"
+          },
+          {
+            "source": "cython",
+            "target": "sqlalchemy"
+          },
+          {
+            "source": "cython",
+            "target": "ssh-python"
+          },
+          {
+            "source": "cython",
+            "target": "ssm-simulators"
+          },
+          {
+            "source": "cython",
+            "target": "sspilib"
+          },
+          {
+            "source": "cython",
+            "target": "statsmodels"
+          },
+          {
+            "source": "cython",
+            "target": "stock-pandas"
+          },
+          {
+            "source": "cython",
+            "target": "stream-inflate"
+          },
+          {
+            "source": "cython",
+            "target": "structuralgt"
+          },
+          {
+            "source": "cython",
+            "target": "surfa"
+          },
+          {
+            "source": "cython",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "cython",
+            "target": "svmbir"
+          },
+          {
+            "source": "cython",
+            "target": "ta-lib"
+          },
+          {
+            "source": "cython",
+            "target": "tabmat"
+          },
+          {
+            "source": "cython",
+            "target": "tardigrade_constitutive_tools"
+          },
+          {
+            "source": "cython",
+            "target": "tardigrade_error_tools"
+          },
+          {
+            "source": "cython",
+            "target": "tdlpackio"
+          },
+          {
+            "source": "cython",
+            "target": "tensorflow"
+          },
+          {
+            "source": "cython",
+            "target": "tesserocr"
+          },
+          {
+            "source": "cython",
+            "target": "testmsm"
+          },
+          {
+            "source": "cython",
+            "target": "textadapter"
+          },
+          {
+            "source": "cython",
+            "target": "textnets"
+          },
+          {
+            "source": "cython",
+            "target": "thermotools"
+          },
+          {
+            "source": "cython",
+            "target": "thinc"
+          },
+          {
+            "source": "cython",
+            "target": "thriftpy2"
+          },
+          {
+            "source": "cython",
+            "target": "tidalpy"
+          },
+          {
+            "source": "cython",
+            "target": "timelib"
+          },
+          {
+            "source": "cython",
+            "target": "timemory"
+          },
+          {
+            "source": "cython",
+            "target": "tkwant"
+          },
+          {
+            "source": "cython",
+            "target": "toad"
+          },
+          {
+            "source": "cython",
+            "target": "toasty"
+          },
+          {
+            "source": "cython",
+            "target": "tree_sitter_languages"
+          },
+          {
+            "source": "cython",
+            "target": "trollimage"
+          },
+          {
+            "source": "cython",
+            "target": "tslearn"
+          },
+          {
+            "source": "cython",
+            "target": "tsne"
+          },
+          {
+            "source": "cython",
+            "target": "tt-sketch"
+          },
+          {
+            "source": "cython",
+            "target": "tts"
+          },
+          {
+            "source": "cython",
+            "target": "tvb-gdist"
+          },
+          {
+            "source": "cython",
+            "target": "tvm-py"
+          },
+          {
+            "source": "cython",
+            "target": "twisted-iocpsupport"
+          },
+          {
+            "source": "cython",
+            "target": "typedunits"
+          },
+          {
+            "source": "cython",
+            "target": "uavro"
+          },
+          {
+            "source": "cython",
+            "target": "uda"
+          },
+          {
+            "source": "cython",
+            "target": "uharfbuzz"
+          },
+          {
+            "source": "cython",
+            "target": "ultranest"
+          },
+          {
+            "source": "cython",
+            "target": "unicorn-binance-local-depth-cache"
+          },
+          {
+            "source": "cython",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "cython",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "cython",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "cython",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "cython",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "cython",
+            "target": "upolygon"
+          },
+          {
+            "source": "cython",
+            "target": "uvloop"
+          },
+          {
+            "source": "cython",
+            "target": "vapoursynth"
+          },
+          {
+            "source": "cython",
+            "target": "veerer"
+          },
+          {
+            "source": "cython",
+            "target": "veros"
+          },
+          {
+            "source": "cython",
+            "target": "versioned-hdf5"
+          },
+          {
+            "source": "cython",
+            "target": "vispy"
+          },
+          {
+            "source": "cython",
+            "target": "vitables"
+          },
+          {
+            "source": "cython",
+            "target": "vpython"
+          },
+          {
+            "source": "cython",
+            "target": "westpa"
+          },
+          {
+            "source": "cython",
+            "target": "winloop"
+          },
+          {
+            "source": "cython",
+            "target": "wisdem"
+          },
+          {
+            "source": "cython",
+            "target": "wordcloud"
+          },
+          {
+            "source": "cython",
+            "target": "wordllama"
+          },
+          {
+            "source": "cython",
+            "target": "wsaccel"
+          },
+          {
+            "source": "cython",
+            "target": "wxpython"
+          },
+          {
+            "source": "cython",
+            "target": "xpra"
+          },
+          {
+            "source": "cython",
+            "target": "xraylib"
+          },
+          {
+            "source": "cython",
+            "target": "xtcocotools"
+          },
+          {
+            "source": "cython",
+            "target": "xypattern"
+          },
+          {
+            "source": "cython",
+            "target": "yac"
+          },
+          {
+            "source": "cython",
+            "target": "yaff"
+          },
+          {
+            "source": "cython",
+            "target": "ylearn"
+          },
+          {
+            "source": "cython",
+            "target": "yoda"
+          },
+          {
+            "source": "cython",
+            "target": "youtokentome"
+          },
+          {
+            "source": "cython",
+            "target": "yt"
+          },
+          {
+            "source": "cython",
+            "target": "yt_astro_analysis"
+          },
+          {
+            "source": "cython",
+            "target": "zeroconf"
+          },
+          {
+            "source": "cython",
+            "target": "zfpy"
+          },
+          {
+            "source": "cython",
+            "target": "zipline-reloaded"
+          },
+          {
+            "source": "cython",
+            "target": "zmesh"
           },
           {
             "source": "cytoolz",
@@ -12056,7 +15199,7 @@
           },
           {
             "source": "debugpy",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "debugpy",
@@ -15900,7 +19043,7 @@
           },
           {
             "source": "greenlet",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "greenlet",
@@ -18712,7 +21855,7 @@
           },
           {
             "source": "jellyfish",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "jellyfish",
@@ -41588,7 +44731,7 @@
           },
           {
             "source": "psutil",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "psutil",
@@ -45584,7 +48727,7 @@
           },
           {
             "source": "pyobjc-framework-coreservices",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pyobjc-framework-coretext",
@@ -46381,6 +49524,10 @@
           {
             "source": "pyqt",
             "target": "sleepecg"
+          },
+          {
+            "source": "pyqt",
+            "target": "spyder"
           },
           {
             "source": "pyqt",
@@ -47468,7 +50615,7 @@
           },
           {
             "source": "python-gssapi",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "python-gssapi",
@@ -48184,7 +51331,7 @@
           },
           {
             "source": "python.app",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pythonfmu3",
@@ -48468,7 +51615,7 @@
           },
           {
             "source": "pytokens",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pytokens",
@@ -49360,7 +52507,7 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pywin32-ctypes",
@@ -49896,7 +53043,7 @@
           },
           {
             "source": "pywin32",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pywin32",
@@ -50764,7 +53911,7 @@
           },
           {
             "source": "pyzmq",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "pyzmq",
@@ -52628,7 +55775,7 @@
           },
           {
             "source": "rpds-py",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "rpds-py",
@@ -59363,6 +62510,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "spyder",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spyder",
+            "target": "spyder-screencast"
+          },
+          {
             "source": "sqlalchemy",
             "target": "aiida-crystal17"
           },
@@ -62580,7 +65735,7 @@
           },
           {
             "source": "tornado",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "tornado",
@@ -63576,7 +66731,7 @@
           },
           {
             "source": "ujson",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "ujson",
@@ -64576,7 +67731,7 @@
           },
           {
             "source": "watchdog",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "watchfiles",
@@ -65820,7 +68975,7 @@
           },
           {
             "source": "wcwidth",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "wcwidth",
@@ -66716,7 +69871,7 @@
           },
           {
             "source": "wrapt",
-            "target": "spyder-screencast"
+            "target": "spyder"
           },
           {
             "source": "wrapt",
@@ -70669,6 +73824,12 @@
             "id": "cysignals",
             "payload": {
               "__lazy_json__": "node_attrs/cysignals.json"
+            }
+          },
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
             }
           },
           {
@@ -84043,6 +87204,12 @@
             "id": "spt3g",
             "payload": {
               "__lazy_json__": "node_attrs/spt3g.json"
+            }
+          },
+          {
+            "id": "spyder",
+            "payload": {
+              "__lazy_json__": "node_attrs/spyder.json"
             }
           },
           {
