@@ -723,6 +723,10 @@
           },
           {
             "source": "cython",
+            "target": "multidict"
+          },
+          {
+            "source": "cython",
             "target": "numpy"
           },
           {
@@ -2678,6 +2682,10 @@
             "target": "snappy"
           },
           {
+            "source": "multidict",
+            "target": "aiohttp"
+          },
+          {
             "source": "mypy",
             "target": "chardet"
           },
@@ -3272,6 +3280,10 @@
           {
             "source": "python",
             "target": "msgpack-python"
+          },
+          {
+            "source": "python",
+            "target": "multidict"
           },
           {
             "source": "python",
@@ -6698,6 +6710,12 @@
             "id": "msinttypes",
             "payload": {
               "__lazy_json__": "node_attrs/msinttypes.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
             }
           },
           {
