@@ -15077,6 +15077,10 @@
           },
           {
             "source": "cython",
+            "target": "yarl"
+          },
+          {
+            "source": "cython",
             "target": "ylearn"
           },
           {
@@ -30613,10 +30617,6 @@
           },
           {
             "source": "multidict",
-            "target": "aiida-crystal17"
-          },
-          {
-            "source": "multidict",
             "target": "aiohttp"
           },
           {
@@ -30633,10 +30633,6 @@
           },
           {
             "source": "multidict",
-            "target": "checkov"
-          },
-          {
-            "source": "multidict",
             "target": "cmac"
           },
           {
@@ -30649,23 +30645,11 @@
           },
           {
             "source": "multidict",
-            "target": "dandi"
-          },
-          {
-            "source": "multidict",
-            "target": "datalad"
-          },
-          {
-            "source": "multidict",
             "target": "ecco_v4_py"
           },
           {
             "source": "multidict",
             "target": "graphormer-pretrained"
-          },
-          {
-            "source": "multidict",
-            "target": "gravelamps"
           },
           {
             "source": "multidict",
@@ -30678,10 +30662,6 @@
           {
             "source": "multidict",
             "target": "metadata-crawler"
-          },
-          {
-            "source": "multidict",
-            "target": "nb_conda_store_kernels"
           },
           {
             "source": "multidict",
@@ -30721,15 +30701,7 @@
           },
           {
             "source": "multidict",
-            "target": "spyder"
-          },
-          {
-            "source": "multidict",
             "target": "stackvana-core"
-          },
-          {
-            "source": "multidict",
-            "target": "superset"
           },
           {
             "source": "multidict",
@@ -30738,6 +30710,10 @@
           {
             "source": "multidict",
             "target": "torchdata"
+          },
+          {
+            "source": "multidict",
+            "target": "yarl"
           },
           {
             "source": "multimark",
@@ -52538,6 +52514,10 @@
           {
             "source": "pytest-codspeed",
             "target": "multidict"
+          },
+          {
+            "source": "pytest-codspeed",
+            "target": "yarl"
           },
           {
             "source": "pytetwild",
@@ -74492,6 +74472,58 @@
             "target": "natasha"
           },
           {
+            "source": "yarl",
+            "target": "aiida-crystal17"
+          },
+          {
+            "source": "yarl",
+            "target": "aiohttp"
+          },
+          {
+            "source": "yarl",
+            "target": "checkov"
+          },
+          {
+            "source": "yarl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "yarl",
+            "target": "csxtools"
+          },
+          {
+            "source": "yarl",
+            "target": "dandi"
+          },
+          {
+            "source": "yarl",
+            "target": "datalad"
+          },
+          {
+            "source": "yarl",
+            "target": "gravelamps"
+          },
+          {
+            "source": "yarl",
+            "target": "hklpy"
+          },
+          {
+            "source": "yarl",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "yarl",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "yarl",
+            "target": "spyder"
+          },
+          {
+            "source": "yarl",
+            "target": "superset"
+          },
+          {
             "source": "yarp",
             "target": "biomechanical-analysis-framework"
           },
@@ -93502,6 +93534,12 @@
             "id": "yargy",
             "payload": {
               "__lazy_json__": "node_attrs/yargy.json"
+            }
+          },
+          {
+            "id": "yarl",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarl.json"
             }
           },
           {
