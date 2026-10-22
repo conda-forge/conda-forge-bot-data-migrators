@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "backports.zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/backports.zstd.json"
+            }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -124,6 +137,22 @@
           {
             "source": "attr",
             "target": "libacl"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "awscli"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "conda"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "dulwich"
           },
           {
             "source": "backtrace",
@@ -340,6 +369,10 @@
           {
             "source": "cython",
             "target": "chardet"
+          },
+          {
+            "source": "cython",
+            "target": "frozenlist"
           },
           {
             "source": "cython",
@@ -616,6 +649,10 @@
           {
             "source": "frozendict",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "frozenlist",
+            "target": "aiohttp"
           },
           {
             "source": "gdk-pixbuf",
@@ -2067,6 +2104,10 @@
           },
           {
             "source": "python",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "python",
             "target": "brotli"
           },
           {
@@ -2100,6 +2141,10 @@
           {
             "source": "python",
             "target": "frozendict"
+          },
+          {
+            "source": "python",
+            "target": "frozenlist"
           },
           {
             "source": "python",
@@ -3479,6 +3524,10 @@
           },
           {
             "source": "zstd",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "zstd",
             "target": "binutils"
           },
           {
@@ -3608,6 +3657,12 @@
             "id": "awscli",
             "payload": {
               "__lazy_json__": "node_attrs/awscli.json"
+            }
+          },
+          {
+            "id": "backports.zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/backports.zstd.json"
             }
           },
           {
@@ -3848,6 +3903,12 @@
             "id": "frozendict",
             "payload": {
               "__lazy_json__": "node_attrs/frozendict.json"
+            }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
             }
           },
           {
