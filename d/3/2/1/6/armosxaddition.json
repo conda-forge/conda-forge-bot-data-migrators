@@ -7119,6 +7119,10 @@
           },
           {
             "source": "cython",
+            "target": "propcache"
+          },
+          {
+            "source": "cython",
             "target": "ptufile"
           },
           {
@@ -33558,6 +33562,14 @@
             "target": "cpp-opentelemetry-sdk"
           },
           {
+            "source": "propcache",
+            "target": "aiohttp"
+          },
+          {
+            "source": "propcache",
+            "target": "yarl"
+          },
+          {
             "source": "prophet",
             "target": "sktime"
           },
@@ -38292,6 +38304,10 @@
           {
             "source": "python",
             "target": "primecountpy"
+          },
+          {
+            "source": "python",
+            "target": "propcache"
           },
           {
             "source": "python",
@@ -68056,6 +68072,12 @@
             "id": "prometheus-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/prometheus-cpp.json"
+            }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
             }
           },
           {
