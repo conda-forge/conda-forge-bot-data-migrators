@@ -89643,6 +89643,10 @@
           },
           {
             "source": "scons",
+            "target": "nsis"
+          },
+          {
+            "source": "scons",
             "target": "openvino"
           },
           {
@@ -102279,6 +102283,10 @@
           },
           {
             "source": "zlib",
+            "target": "nsis"
+          },
+          {
+            "source": "zlib",
             "target": "nss"
           },
           {
@@ -111820,6 +111828,12 @@
             "id": "nsight-compute",
             "payload": {
               "__lazy_json__": "node_attrs/nsight-compute.json"
+            }
+          },
+          {
+            "id": "nsis",
+            "payload": {
+              "__lazy_json__": "node_attrs/nsis.json"
             }
           },
           {
