@@ -3114,6 +3114,10 @@
           },
           {
             "source": "cython",
+            "target": "yarl"
+          },
+          {
+            "source": "cython",
             "target": "yt"
           },
           {
@@ -4039,6 +4043,10 @@
           {
             "source": "hypothesis",
             "target": "torchaudio"
+          },
+          {
+            "source": "hypothesis",
+            "target": "yarl"
           },
           {
             "source": "ibm_db",
@@ -5527,6 +5535,10 @@
           {
             "source": "multidict",
             "target": "rasterio"
+          },
+          {
+            "source": "multidict",
+            "target": "yarl"
           },
           {
             "source": "multiprocess",
@@ -8957,6 +8969,10 @@
             "target": "multidict"
           },
           {
+            "source": "pytest-codspeed",
+            "target": "yarl"
+          },
+          {
             "source": "python-bidi",
             "target": "conda-forge-pinning"
           },
@@ -12115,6 +12131,14 @@
           {
             "source": "xtensor-python",
             "target": "evalhyd-python"
+          },
+          {
+            "source": "yarl",
+            "target": "aiohttp"
+          },
+          {
+            "source": "yarl",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "yggdrasil-python-rapidjson",
@@ -16061,6 +16085,12 @@
             "id": "xtensor-python",
             "payload": {
               "__lazy_json__": "node_attrs/xtensor-python.json"
+            }
+          },
+          {
+            "id": "yarl",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarl.json"
             }
           },
           {
