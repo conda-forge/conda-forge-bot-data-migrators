@@ -357,6 +357,10 @@
             "target": "zstandard"
           },
           {
+            "source": "chardet",
+            "target": "conda-forge-ci-setup"
+          },
+          {
             "source": "check",
             "target": "pulseaudio"
           },
@@ -367,6 +371,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "binutils"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "chardet"
           },
           {
             "source": "clang-compiler-activation",
@@ -471,6 +479,10 @@
           {
             "source": "ctng-compilers",
             "target": "binutils"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "chardet"
           },
           {
             "source": "ctng-compilers",
@@ -707,6 +719,10 @@
           {
             "source": "cython",
             "target": "aiohttp"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
           },
           {
             "source": "cython",
@@ -2662,6 +2678,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "mamba"
           },
           {
@@ -3155,6 +3175,10 @@
           {
             "source": "python",
             "target": "cffi"
+          },
+          {
+            "source": "python",
+            "target": "chardet"
           },
           {
             "source": "python",
@@ -3926,6 +3950,10 @@
           },
           {
             "source": "rsync",
+            "target": "chardet"
+          },
+          {
+            "source": "rsync",
             "target": "conda-forge-ci-setup"
           },
           {
@@ -3983,6 +4011,10 @@
           {
             "source": "sed",
             "target": "aiohttp"
+          },
+          {
+            "source": "sed",
+            "target": "chardet"
           },
           {
             "source": "sed",
@@ -5573,6 +5605,12 @@
             "id": "cffi",
             "payload": {
               "__lazy_json__": "node_attrs/cffi.json"
+            }
+          },
+          {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
             }
           },
           {
