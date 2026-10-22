@@ -59,6 +59,18 @@
             "payload": {
               "__lazy_json__": "node_attrs/fonttools.json"
             }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
+          },
+          {
+            "id": "kerneless",
+            "payload": {
+              "__lazy_json__": "node_attrs/kerneless.json"
+            }
           }
         ]
       }
@@ -14052,6 +14064,10 @@
           },
           {
             "source": "cython",
+            "target": "propcache"
+          },
+          {
+            "source": "cython",
             "target": "proteus"
           },
           {
@@ -23144,6 +23160,10 @@
           },
           {
             "source": "kepderiv",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "kerneless",
             "target": "conda-forge-pinning"
           },
           {
@@ -45405,6 +45425,18 @@
           {
             "source": "prompt",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "propcache",
+            "target": "aiohttp"
+          },
+          {
+            "source": "propcache",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "propcache",
+            "target": "yarl"
           },
           {
             "source": "prophet",
@@ -86222,6 +86254,12 @@
             }
           },
           {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
+          },
+          {
             "id": "prophet",
             "payload": {
               "__lazy_json__": "node_attrs/prophet.json"
@@ -94241,6 +94279,12 @@
             "id": "cupdlpx",
             "payload": {
               "__lazy_json__": "node_attrs/cupdlpx.json"
+            }
+          },
+          {
+            "id": "kerneless",
+            "payload": {
+              "__lazy_json__": "node_attrs/kerneless.json"
             }
           }
         ]
