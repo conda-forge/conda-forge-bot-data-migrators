@@ -7691,6 +7691,10 @@
           },
           {
             "source": "cython",
+            "target": "yarl"
+          },
+          {
+            "source": "cython",
             "target": "yoda"
           },
           {
@@ -24527,7 +24531,7 @@
           },
           {
             "source": "multidict",
-            "target": "spyder"
+            "target": "yarl"
           },
           {
             "source": "multiprocess",
@@ -40176,6 +40180,10 @@
           {
             "source": "python",
             "target": "yappi"
+          },
+          {
+            "source": "python",
+            "target": "yarl"
           },
           {
             "source": "python",
@@ -56132,6 +56140,14 @@
           {
             "source": "yaml",
             "target": "universal-ctags"
+          },
+          {
+            "source": "yarl",
+            "target": "aiohttp"
+          },
+          {
+            "source": "yarl",
+            "target": "spyder"
           },
           {
             "source": "yarp",
@@ -74800,6 +74816,12 @@
             "id": "yappi",
             "payload": {
               "__lazy_json__": "node_attrs/yappi.json"
+            }
+          },
+          {
+            "id": "yarl",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarl.json"
             }
           },
           {
