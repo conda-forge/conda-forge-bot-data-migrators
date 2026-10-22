@@ -2650,6 +2650,10 @@
           },
           {
             "source": "cython",
+            "target": "multidict"
+          },
+          {
+            "source": "cython",
             "target": "murmurhash"
           },
           {
@@ -5501,6 +5505,30 @@
             "target": "gymnasium"
           },
           {
+            "source": "multidict",
+            "target": "aiohttp"
+          },
+          {
+            "source": "multidict",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "multidict",
+            "target": "picows"
+          },
+          {
+            "source": "multidict",
+            "target": "pyarrow"
+          },
+          {
+            "source": "multidict",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "multidict",
+            "target": "rasterio"
+          },
+          {
             "source": "multiprocess",
             "target": "conda-forge-pinning"
           },
@@ -7898,6 +7926,10 @@
           },
           {
             "source": "psutil",
+            "target": "multidict"
+          },
+          {
+            "source": "psutil",
             "target": "mypy"
           },
           {
@@ -8919,6 +8951,10 @@
           {
             "source": "pytest-codspeed",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pytest-codspeed",
+            "target": "multidict"
           },
           {
             "source": "python-bidi",
@@ -13889,6 +13925,12 @@
             "id": "mujoco",
             "payload": {
               "__lazy_json__": "node_attrs/mujoco.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
             }
           },
           {
