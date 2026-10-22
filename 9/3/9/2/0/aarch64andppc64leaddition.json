@@ -13067,6 +13067,10 @@
           },
           {
             "source": "brotli",
+            "target": "fonttools"
+          },
+          {
+            "source": "brotli",
             "target": "geckodriver"
           },
           {
@@ -13148,10 +13152,6 @@
           {
             "source": "brotli",
             "target": "libsoup"
-          },
-          {
-            "source": "brotli",
-            "target": "matplotlib"
           },
           {
             "source": "brotli",
@@ -20811,10 +20811,6 @@
           },
           {
             "source": "coverage",
-            "target": "matplotlib"
-          },
-          {
-            "source": "coverage",
             "target": "mcstas-suite"
           },
           {
@@ -24240,6 +24236,10 @@
           {
             "source": "cython",
             "target": "fisx"
+          },
+          {
+            "source": "cython",
+            "target": "fonttools"
           },
           {
             "source": "cython",
@@ -28240,6 +28240,10 @@
           {
             "source": "fontconfig",
             "target": "xorg-libxft"
+          },
+          {
+            "source": "fonttools",
+            "target": "matplotlib"
           },
           {
             "source": "fox",
@@ -71591,6 +71595,10 @@
           },
           {
             "source": "python",
+            "target": "fonttools"
+          },
+          {
+            "source": "python",
             "target": "forte2"
           },
           {
@@ -94063,7 +94071,7 @@
           },
           {
             "source": "unicodedata2",
-            "target": "matplotlib"
+            "target": "fonttools"
           },
           {
             "source": "unixodbc",
@@ -107576,6 +107584,12 @@
             "id": "fontconfig",
             "payload": {
               "__lazy_json__": "node_attrs/fontconfig.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
             }
           },
           {
