@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -356,6 +363,10 @@
           {
             "source": "cython",
             "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "propcache"
           },
           {
             "source": "cython",
@@ -1962,6 +1973,14 @@
             "target": "rsync"
           },
           {
+            "source": "propcache",
+            "target": "aiohttp"
+          },
+          {
+            "source": "propcache",
+            "target": "yarl"
+          },
+          {
             "source": "psutil",
             "target": "conda-forge-ci-setup"
           },
@@ -2160,6 +2179,10 @@
           {
             "source": "python",
             "target": "pillow"
+          },
+          {
+            "source": "python",
+            "target": "propcache"
           },
           {
             "source": "python",
@@ -4666,6 +4689,12 @@
             "id": "popt",
             "payload": {
               "__lazy_json__": "node_attrs/popt.json"
+            }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
             }
           },
           {
