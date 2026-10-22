@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "nsis",
+            "payload": {
+              "__lazy_json__": "node_attrs/nsis.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -5279,6 +5286,10 @@
           },
           {
             "source": "zlib",
+            "target": "nsis"
+          },
+          {
+            "source": "zlib",
             "target": "nss"
           },
           {
@@ -6810,6 +6821,12 @@
             "id": "nsight-compute",
             "payload": {
               "__lazy_json__": "node_attrs/nsight-compute.json"
+            }
+          },
+          {
+            "id": "nsis",
+            "payload": {
+              "__lazy_json__": "node_attrs/nsis.json"
             }
           },
           {
