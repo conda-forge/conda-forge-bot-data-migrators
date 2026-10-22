@@ -105,6 +105,30 @@
             "target": "pytorch_scatter"
           },
           {
+            "source": "libhwloc",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "libhwloc",
+            "target": "flash-attn"
+          },
+          {
+            "source": "libhwloc",
+            "target": "kaolin"
+          },
+          {
+            "source": "libhwloc",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "libhwloc",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "libhwloc",
+            "target": "pytorch_scatter"
+          },
+          {
             "source": "libmagma",
             "target": "causal-conv1d"
           },
@@ -170,6 +194,30 @@
           },
           {
             "source": "nccl",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "ucx-split",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "ucx-split",
+            "target": "flash-attn"
+          },
+          {
+            "source": "ucx-split",
+            "target": "kaolin"
+          },
+          {
+            "source": "ucx-split",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "ucx-split",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "ucx-split",
             "target": "pytorch_scatter"
           }
         ],
@@ -925,6 +973,22 @@
             "target": "nvmath"
           },
           {
+            "source": "libcudss",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libcudss",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "libcudss",
+            "target": "nvmath"
+          },
+          {
+            "source": "libcudss",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libcuest",
             "target": "conda-forge-pinning"
           },
@@ -1218,6 +1282,10 @@
           },
           {
             "source": "nccl",
+            "target": "libcudss"
+          },
+          {
+            "source": "nccl",
             "target": "libcusolvermp"
           },
           {
@@ -1435,6 +1503,10 @@
           {
             "source": "openmpi",
             "target": "lammps"
+          },
+          {
+            "source": "openmpi",
+            "target": "libcudss"
           },
           {
             "source": "openmpi",
@@ -2541,6 +2613,12 @@
             "id": "libcublasmp",
             "payload": {
               "__lazy_json__": "node_attrs/libcublasmp.json"
+            }
+          },
+          {
+            "id": "libcudss",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcudss.json"
             }
           },
           {
