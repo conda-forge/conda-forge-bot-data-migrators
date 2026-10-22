@@ -283,6 +283,10 @@
           },
           {
             "source": "abseil-cpp",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "abseil-cpp",
             "target": "uhd"
           },
           {
@@ -304,6 +308,78 @@
           {
             "source": "adios2",
             "target": "openpmd-api"
+          },
+          {
+            "source": "aiohttp",
+            "target": "allennlp"
+          },
+          {
+            "source": "aiohttp",
+            "target": "allennlp-models"
+          },
+          {
+            "source": "aiohttp",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "aiohttp",
+            "target": "hazelbean"
+          },
+          {
+            "source": "aiohttp",
+            "target": "httpstan"
+          },
+          {
+            "source": "aiohttp",
+            "target": "napari-nd-annotator"
+          },
+          {
+            "source": "aiohttp",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "aiohttp",
+            "target": "pycontrails"
+          },
+          {
+            "source": "aiohttp",
+            "target": "pystan"
+          },
+          {
+            "source": "aiohttp",
+            "target": "raider"
+          },
+          {
+            "source": "aiohttp",
+            "target": "ray-packages"
+          },
+          {
+            "source": "aiohttp",
+            "target": "sasview"
+          },
+          {
+            "source": "aiohttp",
+            "target": "sleepecg"
+          },
+          {
+            "source": "aiohttp",
+            "target": "spyder"
+          },
+          {
+            "source": "aiohttp",
+            "target": "tango"
+          },
+          {
+            "source": "aiohttp",
+            "target": "vpython"
+          },
+          {
+            "source": "aiohttp",
+            "target": "vtk"
+          },
+          {
+            "source": "aiohttp",
+            "target": "web3"
           },
           {
             "source": "airspy",
@@ -3235,10 +3311,6 @@
           },
           {
             "source": "brotli",
-            "target": "litellm"
-          },
-          {
-            "source": "brotli",
             "target": "llama-cpp-python"
           },
           {
@@ -6051,6 +6123,10 @@
           },
           {
             "source": "curl",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "curl",
             "target": "vcpkg-tool"
           },
           {
@@ -6175,15 +6251,7 @@
           },
           {
             "source": "cython",
-            "target": "allennlp"
-          },
-          {
-            "source": "cython",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "cython",
-            "target": "almosthere"
+            "target": "aiohttp"
           },
           {
             "source": "cython",
@@ -6252,10 +6320,6 @@
           {
             "source": "cython",
             "target": "basemap"
-          },
-          {
-            "source": "cython",
-            "target": "bgen"
           },
           {
             "source": "cython",
@@ -6359,10 +6423,6 @@
           },
           {
             "source": "cython",
-            "target": "coremltools"
-          },
-          {
-            "source": "cython",
             "target": "cosmosis-build-standard-library"
           },
           {
@@ -6380,10 +6440,6 @@
           {
             "source": "cython",
             "target": "cwinpy"
-          },
-          {
-            "source": "cython",
-            "target": "cwltool"
           },
           {
             "source": "cython",
@@ -6427,10 +6483,6 @@
           },
           {
             "source": "cython",
-            "target": "dask-sql"
-          },
-          {
-            "source": "cython",
             "target": "datrie"
           },
           {
@@ -6447,15 +6499,7 @@
           },
           {
             "source": "cython",
-            "target": "detectron2"
-          },
-          {
-            "source": "cython",
             "target": "dgl"
-          },
-          {
-            "source": "cython",
-            "target": "dgpsi"
           },
           {
             "source": "cython",
@@ -6532,10 +6576,6 @@
           {
             "source": "cython",
             "target": "esi-core"
-          },
-          {
-            "source": "cython",
-            "target": "esptool"
           },
           {
             "source": "cython",
@@ -6623,10 +6663,6 @@
           },
           {
             "source": "cython",
-            "target": "geocat-f2py"
-          },
-          {
-            "source": "cython",
             "target": "geowombat"
           },
           {
@@ -6643,31 +6679,11 @@
           },
           {
             "source": "cython",
-            "target": "grouper"
-          },
-          {
-            "source": "cython",
             "target": "grpc-cpp"
           },
           {
             "source": "cython",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "cython",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "cython",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "cython",
             "target": "gstools-cython"
-          },
-          {
-            "source": "cython",
-            "target": "gymnasium"
           },
           {
             "source": "cython",
@@ -6704,10 +6720,6 @@
           {
             "source": "cython",
             "target": "horton"
-          },
-          {
-            "source": "cython",
-            "target": "httpstan"
           },
           {
             "source": "cython",
@@ -6751,10 +6763,6 @@
           },
           {
             "source": "cython",
-            "target": "kealib"
-          },
-          {
-            "source": "cython",
             "target": "kwant"
           },
           {
@@ -6768,10 +6776,6 @@
           {
             "source": "cython",
             "target": "lap"
-          },
-          {
-            "source": "cython",
-            "target": "laspy"
           },
           {
             "source": "cython",
@@ -6803,10 +6807,6 @@
           },
           {
             "source": "cython",
-            "target": "litellm"
-          },
-          {
-            "source": "cython",
             "target": "lrcalc"
           },
           {
@@ -6820,10 +6820,6 @@
           {
             "source": "cython",
             "target": "manimpango"
-          },
-          {
-            "source": "cython",
-            "target": "mcstas-suite"
           },
           {
             "source": "cython",
@@ -6912,10 +6908,6 @@
           {
             "source": "cython",
             "target": "nnvm"
-          },
-          {
-            "source": "cython",
-            "target": "norse"
           },
           {
             "source": "cython",
@@ -7012,10 +7004,6 @@
           {
             "source": "cython",
             "target": "pixell"
-          },
-          {
-            "source": "cython",
-            "target": "pixy"
           },
           {
             "source": "cython",
@@ -7263,15 +7251,7 @@
           },
           {
             "source": "cython",
-            "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "cython",
             "target": "pyscipopt"
-          },
-          {
-            "source": "cython",
-            "target": "pyshtools"
           },
           {
             "source": "cython",
@@ -7280,10 +7260,6 @@
           {
             "source": "cython",
             "target": "pysjef"
-          },
-          {
-            "source": "cython",
-            "target": "pystan"
           },
           {
             "source": "cython",
@@ -7355,6 +7331,10 @@
           },
           {
             "source": "cython",
+            "target": "pyyaml"
+          },
+          {
+            "source": "cython",
             "target": "pyzmq"
           },
           {
@@ -7399,10 +7379,6 @@
           },
           {
             "source": "cython",
-            "target": "remage"
-          },
-          {
-            "source": "cython",
             "target": "reproject"
           },
           {
@@ -7416,10 +7392,6 @@
           {
             "source": "cython",
             "target": "rosettasciio"
-          },
-          {
-            "source": "cython",
-            "target": "rte_rrtmgp"
           },
           {
             "source": "cython",
@@ -7539,10 +7511,6 @@
           },
           {
             "source": "cython",
-            "target": "sktime"
-          },
-          {
-            "source": "cython",
             "target": "sncosmo"
           },
           {
@@ -7564,10 +7532,6 @@
           {
             "source": "cython",
             "target": "splipy"
-          },
-          {
-            "source": "cython",
-            "target": "spyder"
           },
           {
             "source": "cython",
@@ -7615,10 +7579,6 @@
           },
           {
             "source": "cython",
-            "target": "tokenizers"
-          },
-          {
-            "source": "cython",
             "target": "tomopy"
           },
           {
@@ -7663,10 +7623,6 @@
           },
           {
             "source": "cython",
-            "target": "vega"
-          },
-          {
-            "source": "cython",
             "target": "vispy"
           },
           {
@@ -7679,23 +7635,11 @@
           },
           {
             "source": "cython",
-            "target": "web3"
-          },
-          {
-            "source": "cython",
             "target": "wordcloud"
           },
           {
             "source": "cython",
             "target": "wxpython"
-          },
-          {
-            "source": "cython",
-            "target": "xcanvas"
-          },
-          {
-            "source": "cython",
-            "target": "xgrammar"
           },
           {
             "source": "cython",
@@ -9252,10 +9196,6 @@
           {
             "source": "fastjet-cxx",
             "target": "pythia8"
-          },
-          {
-            "source": "fastuuid",
-            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -12967,6 +12907,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "uhd"
           },
           {
@@ -15220,10 +15164,6 @@
           {
             "source": "jemalloc",
             "target": "tmux"
-          },
-          {
-            "source": "jiter",
-            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -19751,6 +19691,10 @@
           },
           {
             "source": "libprotobuf",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "libprotobuf",
             "target": "uhd"
           },
           {
@@ -23084,6 +23028,22 @@
           {
             "source": "memray",
             "target": "ray-packages"
+          },
+          {
+            "source": "menuinst",
+            "target": "almosthere"
+          },
+          {
+            "source": "menuinst",
+            "target": "bgen"
+          },
+          {
+            "source": "menuinst",
+            "target": "conda"
+          },
+          {
+            "source": "menuinst",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "meos",
@@ -32515,6 +32475,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "aiohttp"
+          },
+          {
+            "source": "pkg-config",
             "target": "bytewax"
           },
           {
@@ -34023,10 +33987,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "litellm"
-          },
-          {
-            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -35052,6 +35012,10 @@
           {
             "source": "python",
             "target": "aiocsv"
+          },
+          {
+            "source": "python",
+            "target": "aiohttp"
           },
           {
             "source": "python",
@@ -37051,10 +37015,6 @@
           },
           {
             "source": "python",
-            "target": "litellm"
-          },
-          {
-            "source": "python",
             "target": "llama-cpp-python"
           },
           {
@@ -37200,6 +37160,10 @@
           {
             "source": "python",
             "target": "memray"
+          },
+          {
+            "source": "python",
+            "target": "menuinst"
           },
           {
             "source": "python",
@@ -38764,6 +38728,10 @@
           {
             "source": "python",
             "target": "pyxattr"
+          },
+          {
+            "source": "python",
+            "target": "pyyaml"
           },
           {
             "source": "python",
@@ -40455,6 +40423,550 @@
           },
           {
             "source": "pywinpty",
+            "target": "yt"
+          },
+          {
+            "source": "pyyaml",
+            "target": "ale"
+          },
+          {
+            "source": "pyyaml",
+            "target": "allennlp"
+          },
+          {
+            "source": "pyyaml",
+            "target": "allennlp-models"
+          },
+          {
+            "source": "pyyaml",
+            "target": "almosthere"
+          },
+          {
+            "source": "pyyaml",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pyyaml",
+            "target": "arcjetcv"
+          },
+          {
+            "source": "pyyaml",
+            "target": "aria-tools"
+          },
+          {
+            "source": "pyyaml",
+            "target": "arosics"
+          },
+          {
+            "source": "pyyaml",
+            "target": "astropy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "asv"
+          },
+          {
+            "source": "pyyaml",
+            "target": "awscli"
+          },
+          {
+            "source": "pyyaml",
+            "target": "batoid"
+          },
+          {
+            "source": "pyyaml",
+            "target": "bgen"
+          },
+          {
+            "source": "pyyaml",
+            "target": "caiman"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "pyyaml",
+            "target": "commitizen"
+          },
+          {
+            "source": "pyyaml",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "pyyaml",
+            "target": "coremltools"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cosmosis"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cwltool"
+          },
+          {
+            "source": "pyyaml",
+            "target": "danish"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dask-sql"
+          },
+          {
+            "source": "pyyaml",
+            "target": "datavzrd"
+          },
+          {
+            "source": "pyyaml",
+            "target": "detectron2"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dgl"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dgpsi"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dials"
+          },
+          {
+            "source": "pyyaml",
+            "target": "easyocr"
+          },
+          {
+            "source": "pyyaml",
+            "target": "eatpy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "esptool"
+          },
+          {
+            "source": "pyyaml",
+            "target": "fairseq"
+          },
+          {
+            "source": "pyyaml",
+            "target": "fastframes"
+          },
+          {
+            "source": "pyyaml",
+            "target": "fluidimage"
+          },
+          {
+            "source": "pyyaml",
+            "target": "fps-terminals"
+          },
+          {
+            "source": "pyyaml",
+            "target": "freecad"
+          },
+          {
+            "source": "pyyaml",
+            "target": "geocat-f2py"
+          },
+          {
+            "source": "pyyaml",
+            "target": "geohexviz"
+          },
+          {
+            "source": "pyyaml",
+            "target": "geowombat"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gnuradio"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gnuradio-satellites"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gpaw"
+          },
+          {
+            "source": "pyyaml",
+            "target": "grouper"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "pyyaml",
+            "target": "gymnasium"
+          },
+          {
+            "source": "pyyaml",
+            "target": "hazelbean"
+          },
+          {
+            "source": "pyyaml",
+            "target": "igwn-ligolw"
+          },
+          {
+            "source": "pyyaml",
+            "target": "isce3"
+          },
+          {
+            "source": "pyyaml",
+            "target": "kealib"
+          },
+          {
+            "source": "pyyaml",
+            "target": "kliff"
+          },
+          {
+            "source": "pyyaml",
+            "target": "landlab"
+          },
+          {
+            "source": "pyyaml",
+            "target": "laspy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "libcst"
+          },
+          {
+            "source": "pyyaml",
+            "target": "llama-cpp-python"
+          },
+          {
+            "source": "pyyaml",
+            "target": "marimo"
+          },
+          {
+            "source": "pyyaml",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "pyyaml",
+            "target": "meds"
+          },
+          {
+            "source": "pyyaml",
+            "target": "metplus"
+          },
+          {
+            "source": "pyyaml",
+            "target": "mpas_tools"
+          },
+          {
+            "source": "pyyaml",
+            "target": "msgspec"
+          },
+          {
+            "source": "pyyaml",
+            "target": "mujoco"
+          },
+          {
+            "source": "pyyaml",
+            "target": "napari-nd-annotator"
+          },
+          {
+            "source": "pyyaml",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "pyyaml",
+            "target": "norse"
+          },
+          {
+            "source": "pyyaml",
+            "target": "orange3"
+          },
+          {
+            "source": "pyyaml",
+            "target": "orange3-network"
+          },
+          {
+            "source": "pyyaml",
+            "target": "phonopy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "photochem"
+          },
+          {
+            "source": "pyyaml",
+            "target": "photutils"
+          },
+          {
+            "source": "pyyaml",
+            "target": "physics-tenpy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "piff"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pixell"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pixy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "polymer"
+          },
+          {
+            "source": "pyyaml",
+            "target": "porespy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "psi4"
+          },
+          {
+            "source": "pyyaml",
+            "target": "psyplot"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pycbc"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyccl"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyemma"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyfabm"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pygame-ce"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pygetm"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pymt"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pypeit"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pypolymlp"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyqstrat"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyre"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyresample"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyscal3"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyshtools"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyspice"
+          },
+          {
+            "source": "pyyaml",
+            "target": "python-ligo-lw"
+          },
+          {
+            "source": "pyyaml",
+            "target": "python-stratify"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyuvdata"
+          },
+          {
+            "source": "pyyaml",
+            "target": "qgis"
+          },
+          {
+            "source": "pyyaml",
+            "target": "raider"
+          },
+          {
+            "source": "pyyaml",
+            "target": "ray-packages"
+          },
+          {
+            "source": "pyyaml",
+            "target": "remage"
+          },
+          {
+            "source": "pyyaml",
+            "target": "reproject"
+          },
+          {
+            "source": "pyyaml",
+            "target": "rosettasciio"
+          },
+          {
+            "source": "pyyaml",
+            "target": "rte_rrtmgp"
+          },
+          {
+            "source": "pyyaml",
+            "target": "rvlib"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sage"
+          },
+          {
+            "source": "pyyaml",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "pyyaml",
+            "target": "scikit-digital-health"
+          },
+          {
+            "source": "pyyaml",
+            "target": "scylla-driver"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sfepy"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sktime"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sleepecg"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sncosmo"
+          },
+          {
+            "source": "pyyaml",
+            "target": "snowflake-snowpark-python"
+          },
+          {
+            "source": "pyyaml",
+            "target": "sortmerna"
+          },
+          {
+            "source": "pyyaml",
+            "target": "spam"
+          },
+          {
+            "source": "pyyaml",
+            "target": "spyder"
+          },
+          {
+            "source": "pyyaml",
+            "target": "ssm-simulators"
+          },
+          {
+            "source": "pyyaml",
+            "target": "tango"
+          },
+          {
+            "source": "pyyaml",
+            "target": "tensorflow"
+          },
+          {
+            "source": "pyyaml",
+            "target": "tokenizers"
+          },
+          {
+            "source": "pyyaml",
+            "target": "treecorr"
+          },
+          {
+            "source": "pyyaml",
+            "target": "trollimage"
+          },
+          {
+            "source": "pyyaml",
+            "target": "uhd"
+          },
+          {
+            "source": "pyyaml",
+            "target": "ultranest"
+          },
+          {
+            "source": "pyyaml",
+            "target": "unidist-packages"
+          },
+          {
+            "source": "pyyaml",
+            "target": "uwsift"
+          },
+          {
+            "source": "pyyaml",
+            "target": "vega"
+          },
+          {
+            "source": "pyyaml",
+            "target": "vpython"
+          },
+          {
+            "source": "pyyaml",
+            "target": "wandb"
+          },
+          {
+            "source": "pyyaml",
+            "target": "watchdog"
+          },
+          {
+            "source": "pyyaml",
+            "target": "xcanvas"
+          },
+          {
+            "source": "pyyaml",
+            "target": "xgrammar"
+          },
+          {
+            "source": "pyyaml",
             "target": "yt"
           },
           {
@@ -48243,6 +48755,10 @@
           },
           {
             "source": "rapidjson",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "rapidjson",
             "target": "vowpalwabbit"
           },
           {
@@ -48732,10 +49248,6 @@
           {
             "source": "rpds-py",
             "target": "laspy"
-          },
-          {
-            "source": "rpds-py",
-            "target": "litellm"
           },
           {
             "source": "rpds-py",
@@ -52059,10 +52571,6 @@
           },
           {
             "source": "tiktoken",
-            "target": "litellm"
-          },
-          {
-            "source": "tiktoken",
             "target": "xgrammar"
           },
           {
@@ -52188,10 +52696,6 @@
           {
             "source": "tokenizers",
             "target": "allennlp"
-          },
-          {
-            "source": "tokenizers",
-            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -55163,211 +55667,7 @@
           },
           {
             "source": "yaml",
-            "target": "ale"
-          },
-          {
-            "source": "yaml",
-            "target": "allennlp"
-          },
-          {
-            "source": "yaml",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "yaml",
-            "target": "almosthere"
-          },
-          {
-            "source": "yaml",
-            "target": "apache-beam"
-          },
-          {
-            "source": "yaml",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "yaml",
-            "target": "aria-tools"
-          },
-          {
-            "source": "yaml",
-            "target": "arosics"
-          },
-          {
-            "source": "yaml",
-            "target": "astropy"
-          },
-          {
-            "source": "yaml",
-            "target": "asv"
-          },
-          {
-            "source": "yaml",
-            "target": "awscli"
-          },
-          {
-            "source": "yaml",
-            "target": "batoid"
-          },
-          {
-            "source": "yaml",
-            "target": "bgen"
-          },
-          {
-            "source": "yaml",
-            "target": "caiman"
-          },
-          {
-            "source": "yaml",
-            "target": "cctbx-base"
-          },
-          {
-            "source": "yaml",
-            "target": "commitizen"
-          },
-          {
-            "source": "yaml",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "yaml",
-            "target": "coremltools"
-          },
-          {
-            "source": "yaml",
-            "target": "cosmosis"
-          },
-          {
-            "source": "yaml",
-            "target": "cwltool"
-          },
-          {
-            "source": "yaml",
-            "target": "danish"
-          },
-          {
-            "source": "yaml",
-            "target": "dask-sql"
-          },
-          {
-            "source": "yaml",
-            "target": "detectron2"
-          },
-          {
-            "source": "yaml",
-            "target": "dgl"
-          },
-          {
-            "source": "yaml",
-            "target": "dgpsi"
-          },
-          {
-            "source": "yaml",
-            "target": "dials"
-          },
-          {
-            "source": "yaml",
-            "target": "easyocr"
-          },
-          {
-            "source": "yaml",
-            "target": "eatpy"
-          },
-          {
-            "source": "yaml",
-            "target": "esptool"
-          },
-          {
-            "source": "yaml",
-            "target": "fairseq"
-          },
-          {
-            "source": "yaml",
-            "target": "fastframes"
-          },
-          {
-            "source": "yaml",
-            "target": "fluidimage"
-          },
-          {
-            "source": "yaml",
-            "target": "fps-terminals"
-          },
-          {
-            "source": "yaml",
-            "target": "freecad"
-          },
-          {
-            "source": "yaml",
-            "target": "geocat-f2py"
-          },
-          {
-            "source": "yaml",
-            "target": "geohexviz"
-          },
-          {
-            "source": "yaml",
-            "target": "geowombat"
-          },
-          {
-            "source": "yaml",
-            "target": "gnuradio"
-          },
-          {
-            "source": "yaml",
-            "target": "gnuradio-satellites"
-          },
-          {
-            "source": "yaml",
-            "target": "gpaw"
-          },
-          {
-            "source": "yaml",
-            "target": "grouper"
-          },
-          {
-            "source": "yaml",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "yaml",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "yaml",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "yaml",
-            "target": "gymnasium"
-          },
-          {
-            "source": "yaml",
             "target": "gz-fuel-tools"
-          },
-          {
-            "source": "yaml",
-            "target": "hazelbean"
-          },
-          {
-            "source": "yaml",
-            "target": "igwn-ligolw"
-          },
-          {
-            "source": "yaml",
-            "target": "kealib"
-          },
-          {
-            "source": "yaml",
-            "target": "kliff"
-          },
-          {
-            "source": "yaml",
-            "target": "landlab"
-          },
-          {
-            "source": "yaml",
-            "target": "laspy"
           },
           {
             "source": "yaml",
@@ -55379,179 +55679,11 @@
           },
           {
             "source": "yaml",
-            "target": "litellm"
-          },
-          {
-            "source": "yaml",
-            "target": "llama-cpp-python"
-          },
-          {
-            "source": "yaml",
-            "target": "marimo"
-          },
-          {
-            "source": "yaml",
-            "target": "mcstas-suite"
-          },
-          {
-            "source": "yaml",
-            "target": "meds"
-          },
-          {
-            "source": "yaml",
-            "target": "metplus"
-          },
-          {
-            "source": "yaml",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "yaml",
-            "target": "msgspec"
-          },
-          {
-            "source": "yaml",
-            "target": "mujoco"
-          },
-          {
-            "source": "yaml",
-            "target": "napari-nd-annotator"
-          },
-          {
-            "source": "yaml",
-            "target": "natcap.invest"
-          },
-          {
-            "source": "yaml",
-            "target": "norse"
-          },
-          {
-            "source": "yaml",
-            "target": "orange3"
-          },
-          {
-            "source": "yaml",
             "target": "petsc"
           },
           {
             "source": "yaml",
-            "target": "phonopy"
-          },
-          {
-            "source": "yaml",
-            "target": "photochem"
-          },
-          {
-            "source": "yaml",
-            "target": "photutils"
-          },
-          {
-            "source": "yaml",
-            "target": "physics-tenpy"
-          },
-          {
-            "source": "yaml",
-            "target": "piff"
-          },
-          {
-            "source": "yaml",
-            "target": "pixell"
-          },
-          {
-            "source": "yaml",
-            "target": "pixy"
-          },
-          {
-            "source": "yaml",
-            "target": "polymer"
-          },
-          {
-            "source": "yaml",
-            "target": "porespy"
-          },
-          {
-            "source": "yaml",
-            "target": "psyplot"
-          },
-          {
-            "source": "yaml",
-            "target": "pycbc"
-          },
-          {
-            "source": "yaml",
-            "target": "pyccl"
-          },
-          {
-            "source": "yaml",
-            "target": "pycontrails"
-          },
-          {
-            "source": "yaml",
-            "target": "pyemma"
-          },
-          {
-            "source": "yaml",
-            "target": "pyfabm"
-          },
-          {
-            "source": "yaml",
-            "target": "pygetm"
-          },
-          {
-            "source": "yaml",
-            "target": "pymt"
-          },
-          {
-            "source": "yaml",
-            "target": "pypeit"
-          },
-          {
-            "source": "yaml",
-            "target": "pypolymlp"
-          },
-          {
-            "source": "yaml",
-            "target": "pyqstrat"
-          },
-          {
-            "source": "yaml",
-            "target": "pyre"
-          },
-          {
-            "source": "yaml",
-            "target": "pyresample"
-          },
-          {
-            "source": "yaml",
-            "target": "pyrte_rrtmgp"
-          },
-          {
-            "source": "yaml",
-            "target": "pyscal3"
-          },
-          {
-            "source": "yaml",
-            "target": "pyshtools"
-          },
-          {
-            "source": "yaml",
-            "target": "pyspice"
-          },
-          {
-            "source": "yaml",
-            "target": "python-ligo-lw"
-          },
-          {
-            "source": "yaml",
-            "target": "python-stratify"
-          },
-          {
-            "source": "yaml",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "yaml",
-            "target": "pyuvdata"
+            "target": "pyyaml"
           },
           {
             "source": "yaml",
@@ -55559,87 +55691,7 @@
           },
           {
             "source": "yaml",
-            "target": "raider"
-          },
-          {
-            "source": "yaml",
-            "target": "ray-packages"
-          },
-          {
-            "source": "yaml",
-            "target": "remage"
-          },
-          {
-            "source": "yaml",
-            "target": "reproject"
-          },
-          {
-            "source": "yaml",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "yaml",
-            "target": "rte_rrtmgp"
-          },
-          {
-            "source": "yaml",
             "target": "ruby"
-          },
-          {
-            "source": "yaml",
-            "target": "rvlib"
-          },
-          {
-            "source": "yaml",
-            "target": "sage"
-          },
-          {
-            "source": "yaml",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "yaml",
-            "target": "scikit-digital-health"
-          },
-          {
-            "source": "yaml",
-            "target": "scylla-driver"
-          },
-          {
-            "source": "yaml",
-            "target": "sfepy"
-          },
-          {
-            "source": "yaml",
-            "target": "sktime"
-          },
-          {
-            "source": "yaml",
-            "target": "sleepecg"
-          },
-          {
-            "source": "yaml",
-            "target": "sncosmo"
-          },
-          {
-            "source": "yaml",
-            "target": "snowflake-snowpark-python"
-          },
-          {
-            "source": "yaml",
-            "target": "sortmerna"
-          },
-          {
-            "source": "yaml",
-            "target": "spam"
-          },
-          {
-            "source": "yaml",
-            "target": "spyder"
-          },
-          {
-            "source": "yaml",
-            "target": "ssm-simulators"
           },
           {
             "source": "yaml",
@@ -55647,71 +55699,7 @@
           },
           {
             "source": "yaml",
-            "target": "tango"
-          },
-          {
-            "source": "yaml",
-            "target": "tensorflow"
-          },
-          {
-            "source": "yaml",
-            "target": "tokenizers"
-          },
-          {
-            "source": "yaml",
-            "target": "treecorr"
-          },
-          {
-            "source": "yaml",
-            "target": "trollimage"
-          },
-          {
-            "source": "yaml",
-            "target": "uhd"
-          },
-          {
-            "source": "yaml",
-            "target": "ultranest"
-          },
-          {
-            "source": "yaml",
-            "target": "unidist-packages"
-          },
-          {
-            "source": "yaml",
             "target": "universal-ctags"
-          },
-          {
-            "source": "yaml",
-            "target": "uwsift"
-          },
-          {
-            "source": "yaml",
-            "target": "vega"
-          },
-          {
-            "source": "yaml",
-            "target": "vpython"
-          },
-          {
-            "source": "yaml",
-            "target": "wandb"
-          },
-          {
-            "source": "yaml",
-            "target": "watchdog"
-          },
-          {
-            "source": "yaml",
-            "target": "xcanvas"
-          },
-          {
-            "source": "yaml",
-            "target": "xgrammar"
-          },
-          {
-            "source": "yaml",
-            "target": "yt"
           },
           {
             "source": "yarp",
@@ -57511,6 +57499,10 @@
           },
           {
             "source": "zlib",
+            "target": "tritonclient-split"
+          },
+          {
+            "source": "zlib",
             "target": "ttyd"
           },
           {
@@ -58324,6 +58316,12 @@
             "id": "aiocsv",
             "payload": {
               "__lazy_json__": "node_attrs/aiocsv.json"
+            }
+          },
+          {
+            "id": "aiohttp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aiohttp.json"
             }
           },
           {
@@ -64831,12 +64829,6 @@
             }
           },
           {
-            "id": "litellm",
-            "payload": {
-              "__lazy_json__": "node_attrs/litellm.json"
-            }
-          },
-          {
             "id": "livox-sdk2",
             "payload": {
               "__lazy_json__": "node_attrs/livox-sdk2.json"
@@ -65242,6 +65234,12 @@
             "id": "memray",
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
+            }
+          },
+          {
+            "id": "menuinst",
+            "payload": {
+              "__lazy_json__": "node_attrs/menuinst.json"
             }
           },
           {
@@ -68962,6 +68960,12 @@
             "id": "pyxattr",
             "payload": {
               "__lazy_json__": "node_attrs/pyxattr.json"
+            }
+          },
+          {
+            "id": "pyyaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyyaml.json"
             }
           },
           {
@@ -73264,6 +73268,12 @@
             "id": "triqs_tprf",
             "payload": {
               "__lazy_json__": "node_attrs/triqs_tprf.json"
+            }
+          },
+          {
+            "id": "tritonclient-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/tritonclient-split.json"
             }
           },
           {
