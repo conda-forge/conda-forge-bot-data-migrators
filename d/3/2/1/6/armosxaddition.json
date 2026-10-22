@@ -3227,6 +3227,10 @@
           },
           {
             "source": "brotli",
+            "target": "litellm"
+          },
+          {
+            "source": "brotli",
             "target": "llama-cpp-python"
           },
           {
@@ -7680,6 +7684,10 @@
           {
             "source": "fastjet-cxx",
             "target": "pythia8"
+          },
+          {
+            "source": "fastuuid",
+            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -13624,6 +13632,10 @@
           {
             "source": "jemalloc",
             "target": "tmux"
+          },
+          {
+            "source": "jiter",
+            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -32391,6 +32403,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "litellm"
+          },
+          {
+            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -35380,6 +35396,10 @@
           {
             "source": "python",
             "target": "lintegrate"
+          },
+          {
+            "source": "python",
+            "target": "litellm"
           },
           {
             "source": "python",
@@ -47043,6 +47063,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "litellm"
+          },
+          {
+            "source": "rpds-py",
             "target": "mcstas-suite"
           },
           {
@@ -50347,6 +50371,10 @@
           },
           {
             "source": "tiktoken",
+            "target": "litellm"
+          },
+          {
+            "source": "tiktoken",
             "target": "xgrammar"
           },
           {
@@ -50472,6 +50500,10 @@
           {
             "source": "tokenizers",
             "target": "allennlp"
+          },
+          {
+            "source": "tokenizers",
+            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -53644,6 +53676,10 @@
           {
             "source": "yaml",
             "target": "libignition-fuel-tools"
+          },
+          {
+            "source": "yaml",
+            "target": "litellm"
           },
           {
             "source": "yaml",
@@ -63076,6 +63112,12 @@
             "id": "lintegrate",
             "payload": {
               "__lazy_json__": "node_attrs/lintegrate.json"
+            }
+          },
+          {
+            "id": "litellm",
+            "payload": {
+              "__lazy_json__": "node_attrs/litellm.json"
             }
           },
           {
