@@ -746,6 +746,10 @@
             "target": "seccomp-split"
           },
           {
+            "source": "cython",
+            "target": "yarl"
+          },
+          {
             "source": "dav1d",
             "target": "ffmpeg"
           },
@@ -2686,6 +2690,10 @@
             "target": "aiohttp"
           },
           {
+            "source": "multidict",
+            "target": "yarl"
+          },
+          {
             "source": "mypy",
             "target": "chardet"
           },
@@ -3432,6 +3440,10 @@
           {
             "source": "python",
             "target": "xattr"
+          },
+          {
+            "source": "python",
+            "target": "yarl"
           },
           {
             "source": "python",
@@ -5064,6 +5076,10 @@
           {
             "source": "yaml",
             "target": "pyyaml"
+          },
+          {
+            "source": "yarl",
+            "target": "aiohttp"
           },
           {
             "source": "zeromq",
@@ -7826,6 +7842,12 @@
             "id": "yaml-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/yaml-cpp.json"
+            }
+          },
+          {
+            "id": "yarl",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarl.json"
             }
           },
           {
