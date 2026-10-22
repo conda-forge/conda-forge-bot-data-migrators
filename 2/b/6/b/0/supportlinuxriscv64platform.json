@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "markupsafe",
+            "payload": {
+              "__lazy_json__": "node_attrs/markupsafe.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1530,6 +1537,14 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "markupsafe",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "markupsafe",
+            "target": "libplacebo"
+          },
+          {
             "source": "mbedtls",
             "target": "lief"
           },
@@ -2071,10 +2086,6 @@
           },
           {
             "source": "python",
-            "target": "libplacebo"
-          },
-          {
-            "source": "python",
             "target": "libxcb"
           },
           {
@@ -2092,6 +2103,10 @@
           {
             "source": "python",
             "target": "mamba"
+          },
+          {
+            "source": "python",
+            "target": "markupsafe"
           },
           {
             "source": "python",
@@ -4324,6 +4339,12 @@
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
+            }
+          },
+          {
+            "id": "markupsafe",
+            "payload": {
+              "__lazy_json__": "node_attrs/markupsafe.json"
             }
           },
           {
