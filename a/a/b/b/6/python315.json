@@ -10193,6 +10193,102 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "chardet",
+            "target": "aiida-crystal17"
+          },
+          {
+            "source": "chardet",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "chardet",
+            "target": "asammdf"
+          },
+          {
+            "source": "chardet",
+            "target": "beangulp"
+          },
+          {
+            "source": "chardet",
+            "target": "checkov"
+          },
+          {
+            "source": "chardet",
+            "target": "clevercsv"
+          },
+          {
+            "source": "chardet",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "chardet",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "chardet",
+            "target": "cvise"
+          },
+          {
+            "source": "chardet",
+            "target": "cwltool"
+          },
+          {
+            "source": "chardet",
+            "target": "datalad"
+          },
+          {
+            "source": "chardet",
+            "target": "doebase"
+          },
+          {
+            "source": "chardet",
+            "target": "html5-parser"
+          },
+          {
+            "source": "chardet",
+            "target": "lm_eval"
+          },
+          {
+            "source": "chardet",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "chardet",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "chardet",
+            "target": "networkit"
+          },
+          {
+            "source": "chardet",
+            "target": "orange3"
+          },
+          {
+            "source": "chardet",
+            "target": "provstore-api"
+          },
+          {
+            "source": "chardet",
+            "target": "pyjelly"
+          },
+          {
+            "source": "chardet",
+            "target": "reasonable"
+          },
+          {
+            "source": "chardet",
+            "target": "schema-salad"
+          },
+          {
+            "source": "chardet",
+            "target": "spyder"
+          },
+          {
+            "source": "chardet",
+            "target": "trackastra"
+          },
+          {
             "source": "charliecloud",
             "target": "conda-forge-pinning"
           },
@@ -11422,10 +11518,6 @@
           },
           {
             "source": "cuda-gdb",
-            "target": "inplace-abn"
-          },
-          {
-            "source": "cuda-gdb",
             "target": "votca"
           },
           {
@@ -12163,6 +12255,10 @@
           {
             "source": "cython",
             "target": "cexprtk"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
           },
           {
             "source": "cython",
@@ -18267,10 +18363,6 @@
           {
             "source": "gdma",
             "target": "psi4"
-          },
-          {
-            "source": "gdstk",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "geant4-python-application",
@@ -29330,6 +29422,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "conda-forge-pinning"
           },
           {
@@ -33331,10 +33427,6 @@
           {
             "source": "numpy",
             "target": "gdecomp"
-          },
-          {
-            "source": "numpy",
-            "target": "gdstk"
           },
           {
             "source": "numpy",
@@ -75102,6 +75194,12 @@
             }
           },
           {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
+            }
+          },
+          {
             "id": "charliecloud",
             "payload": {
               "__lazy_json__": "node_attrs/charliecloud.json"
@@ -78507,12 +78605,6 @@
             "id": "gdma",
             "payload": {
               "__lazy_json__": "node_attrs/gdma.json"
-            }
-          },
-          {
-            "id": "gdstk",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdstk.json"
             }
           },
           {
