@@ -338,6 +338,10 @@
           },
           {
             "source": "cython",
+            "target": "aiohttp"
+          },
+          {
+            "source": "cython",
             "target": "lxml"
           },
           {
@@ -347,6 +351,10 @@
           {
             "source": "cython",
             "target": "numpy"
+          },
+          {
+            "source": "cython",
+            "target": "pyyaml"
           },
           {
             "source": "cython",
@@ -1525,6 +1533,14 @@
             "target": "lief"
           },
           {
+            "source": "menuinst",
+            "target": "conda"
+          },
+          {
+            "source": "menuinst",
+            "target": "conda-forge-ci-setup"
+          },
+          {
             "source": "mpc",
             "target": "ncurses"
           },
@@ -1886,6 +1902,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "aiohttp"
+          },
+          {
+            "source": "pkg-config",
             "target": "gobject-introspection"
           },
           {
@@ -1978,6 +1998,10 @@
           },
           {
             "source": "python",
+            "target": "aiohttp"
+          },
+          {
+            "source": "python",
             "target": "argon2-cffi-bindings"
           },
           {
@@ -2062,6 +2086,10 @@
           },
           {
             "source": "python",
+            "target": "menuinst"
+          },
+          {
+            "source": "python",
             "target": "msgpack-python"
           },
           {
@@ -2114,6 +2142,10 @@
           },
           {
             "source": "python",
+            "target": "pyyaml"
+          },
+          {
+            "source": "python",
             "target": "pyzmq"
           },
           {
@@ -2163,6 +2195,14 @@
           {
             "source": "python",
             "target": "zstandard"
+          },
+          {
+            "source": "pyyaml",
+            "target": "awscli"
+          },
+          {
+            "source": "pyyaml",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "r-backports",
@@ -3134,11 +3174,7 @@
           },
           {
             "source": "yaml",
-            "target": "awscli"
-          },
-          {
-            "source": "yaml",
-            "target": "conda-forge-ci-setup"
+            "target": "pyyaml"
           },
           {
             "source": "zeromq",
@@ -3451,6 +3487,12 @@
             "id": "abseil-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/abseil-cpp.json"
+            }
+          },
+          {
+            "id": "aiohttp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aiohttp.json"
             }
           },
           {
@@ -4276,6 +4318,12 @@
             }
           },
           {
+            "id": "menuinst",
+            "payload": {
+              "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -4603,6 +4651,12 @@
             "id": "pytokens",
             "payload": {
               "__lazy_json__": "node_attrs/pytokens.json"
+            }
+          },
+          {
+            "id": "pyyaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyyaml.json"
             }
           },
           {
