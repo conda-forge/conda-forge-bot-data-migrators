@@ -2694,6 +2694,10 @@
           },
           {
             "source": "cython",
+            "target": "propcache"
+          },
+          {
+            "source": "cython",
             "target": "ptufile"
           },
           {
@@ -7927,6 +7931,18 @@
           {
             "source": "primp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "propcache",
+            "target": "aiohttp"
+          },
+          {
+            "source": "propcache",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "propcache",
+            "target": "yarl"
           },
           {
             "source": "protobuf",
@@ -14381,6 +14397,12 @@
             "id": "primp",
             "payload": {
               "__lazy_json__": "node_attrs/primp.json"
+            }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
             }
           },
           {
