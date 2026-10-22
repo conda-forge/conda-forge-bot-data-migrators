@@ -51,24 +51,13 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "cuda-python",
-            "target": "cuda-core"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
             "id": "cuda-core",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-core.json"
-            }
-          },
-          {
-            "id": "cuda-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           }
         ]
