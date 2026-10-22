@@ -5322,6 +5322,42 @@
             "target": "cosmosis-build-standard-library"
           },
           {
+            "source": "coverage",
+            "target": "caiman"
+          },
+          {
+            "source": "coverage",
+            "target": "dedalus"
+          },
+          {
+            "source": "coverage",
+            "target": "pixell"
+          },
+          {
+            "source": "coverage",
+            "target": "pycalphad"
+          },
+          {
+            "source": "coverage",
+            "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "coverage",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "coverage",
+            "target": "pytorch_sparse"
+          },
+          {
+            "source": "coverage",
+            "target": "qgis"
+          },
+          {
+            "source": "coverage",
+            "target": "sealsmodel"
+          },
+          {
             "source": "cpcm-x",
             "target": "xtb"
           },
@@ -36067,6 +36103,10 @@
           },
           {
             "source": "python",
+            "target": "coverage"
+          },
+          {
+            "source": "python",
             "target": "cpnest"
           },
           {
@@ -60446,6 +60486,12 @@
             "id": "cosmosis-build-standard-library",
             "payload": {
               "__lazy_json__": "node_attrs/cosmosis-build-standard-library.json"
+            }
+          },
+          {
+            "id": "coverage",
+            "payload": {
+              "__lazy_json__": "node_attrs/coverage.json"
             }
           },
           {
