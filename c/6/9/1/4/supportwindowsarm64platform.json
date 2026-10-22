@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cutensor",
+            "payload": {
+              "__lazy_json__": "node_attrs/cutensor.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -92,6 +99,14 @@
           {
             "source": "_openmp_mutex",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel_repack"
           },
           {
             "source": "abseil-cpp",
@@ -183,6 +198,10 @@
           },
           {
             "source": "binutils",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "binutils",
             "target": "libhwloc"
           },
           {
@@ -212,6 +231,10 @@
           {
             "source": "blas",
             "target": "gsl"
+          },
+          {
+            "source": "blas",
+            "target": "llama.cpp"
           },
           {
             "source": "blas",
@@ -323,6 +346,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "libhwloc"
           },
           {
@@ -408,6 +435,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "greenlet"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "clang-compiler-activation",
@@ -531,6 +562,14 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel_repack"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "libhwloc"
           },
           {
@@ -619,11 +658,23 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cupy"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "libcublas"
           },
           {
             "source": "cuda-cudart",
             "target": "libnvjpeg"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "llama.cpp"
           },
           {
             "source": "cuda-cudart",
@@ -647,11 +698,19 @@
           },
           {
             "source": "cuda-nvcc-impl",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-nvcc-impl",
             "target": "cuda-tileiras"
           },
           {
             "source": "cuda-nvcc-impl",
             "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvcc-impl",
+            "target": "llama.cpp"
           },
           {
             "source": "cuda-nvdisasm",
@@ -683,7 +742,23 @@
           },
           {
             "source": "cuda-nvrtc",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cudnn"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
             "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvtx",
+            "target": "cupy"
           },
           {
             "source": "cuda-opencl",
@@ -696,6 +771,14 @@
           {
             "source": "cuda-profiler-api",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "cupy"
           },
           {
             "source": "cuda-sanitizer-api",
@@ -719,6 +802,10 @@
           },
           {
             "source": "curl",
+            "target": "llama.cpp"
+          },
+          {
+            "source": "curl",
             "target": "mamba"
           },
           {
@@ -728,6 +815,10 @@
           {
             "source": "curl",
             "target": "r-base"
+          },
+          {
+            "source": "cutensor",
+            "target": "cupy"
           },
           {
             "source": "cyrus-sasl",
@@ -740,6 +831,14 @@
           {
             "source": "cython",
             "target": "chardet"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cython",
+            "target": "cupy"
           },
           {
             "source": "cython",
@@ -1079,6 +1178,10 @@
           },
           {
             "source": "gendef",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gendef",
             "target": "libhwloc"
           },
           {
@@ -1220,6 +1323,10 @@
           {
             "source": "gmp",
             "target": "gmpy2"
+          },
+          {
+            "source": "gmp",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gmp",
@@ -1366,12 +1473,20 @@
             "target": "openexr"
           },
           {
+            "source": "intel-compiler-repack",
+            "target": "intel_repack"
+          },
+          {
             "source": "intel-gmmlib",
             "target": "intel-media-driver"
           },
           {
             "source": "intel-media-driver",
             "target": "libvpl"
+          },
+          {
+            "source": "intel_repack",
+            "target": "llama.cpp"
           },
           {
             "source": "isl",
@@ -1384,6 +1499,10 @@
           {
             "source": "isl",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "isl",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "isl",
@@ -1428,6 +1547,14 @@
           {
             "source": "khronos-opencl-icd-loader",
             "target": "cuda-opencl"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel_repack"
           },
           {
             "source": "khronos-opencl-icd-loader",
@@ -1487,6 +1614,10 @@
           },
           {
             "source": "lapack",
+            "target": "llama.cpp"
+          },
+          {
+            "source": "lapack",
             "target": "numpy"
           },
           {
@@ -1508,6 +1639,10 @@
           {
             "source": "lerc",
             "target": "libtiff"
+          },
+          {
+            "source": "level-zero",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "level-zero",
@@ -1555,9 +1690,25 @@
           },
           {
             "source": "libcublas",
+            "target": "cudnn"
+          },
+          {
+            "source": "libcublas",
+            "target": "cupy"
+          },
+          {
+            "source": "libcublas",
+            "target": "cutensor"
+          },
+          {
+            "source": "libcublas",
             "target": "libcusolver"
           },
           {
+            "source": "libcublas",
+            "target": "llama.cpp"
+          },
+          {
             "source": "libcudla",
             "target": "cuda-libraries"
           },
@@ -1572,6 +1723,10 @@
           {
             "source": "libcufft",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libcufft",
+            "target": "cupy"
           },
           {
             "source": "libcups",
@@ -1590,6 +1745,10 @@
             "target": "cuda-libraries-dev"
           },
           {
+            "source": "libcurand",
+            "target": "cupy"
+          },
+          {
             "source": "libcusolver",
             "target": "cuda-libraries"
           },
@@ -1598,12 +1757,20 @@
             "target": "cuda-libraries-dev"
           },
           {
+            "source": "libcusolver",
+            "target": "cupy"
+          },
+          {
             "source": "libcusparse",
             "target": "cuda-libraries"
           },
           {
             "source": "libcusparse",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cupy"
           },
           {
             "source": "libcusparse",
@@ -1624,6 +1791,10 @@
           {
             "source": "libcxx",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "libcxx",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libcxx",
@@ -1815,6 +1986,10 @@
           },
           {
             "source": "libhwloc",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "libhwloc",
             "target": "mpich"
           },
           {
@@ -1860,6 +2035,10 @@
           {
             "source": "libiconv",
             "target": "glib"
+          },
+          {
+            "source": "libiconv",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libiconv",
@@ -1990,12 +2169,20 @@
             "target": "cuda-libraries-dev"
           },
           {
+            "source": "libnvfatbin",
+            "target": "cuda-python"
+          },
+          {
             "source": "libnvjitlink",
             "target": "cuda-libraries"
           },
           {
             "source": "libnvjitlink",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "cuda-python"
           },
           {
             "source": "libnvjitlink",
@@ -2407,6 +2594,10 @@
           },
           {
             "source": "libxml2",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "libxml2",
             "target": "libarchive"
           },
           {
@@ -2508,6 +2699,10 @@
           {
             "source": "llvmdev",
             "target": "flang-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "llvmdev",
@@ -2635,6 +2830,10 @@
           },
           {
             "source": "mpc",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "mpc",
             "target": "libhwloc"
           },
           {
@@ -2676,6 +2875,10 @@
           {
             "source": "mpfr",
             "target": "gmpy2"
+          },
+          {
+            "source": "mpfr",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "mpfr",
@@ -2759,6 +2962,14 @@
           },
           {
             "source": "nccl",
+            "target": "cupy"
+          },
+          {
+            "source": "nccl",
+            "target": "cutensor"
+          },
+          {
+            "source": "nccl",
             "target": "ucc"
           },
           {
@@ -2835,6 +3046,10 @@
           },
           {
             "source": "numpy",
+            "target": "cupy"
+          },
+          {
+            "source": "numpy",
             "target": "matplotlib"
           },
           {
@@ -2847,11 +3062,23 @@
           },
           {
             "source": "ocl-icd",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "intel_repack"
+          },
+          {
+            "source": "ocl-icd",
             "target": "openvino"
           },
           {
             "source": "openblas",
             "target": "blas"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "opencl-headers",
@@ -2919,7 +3146,19 @@
           },
           {
             "source": "openmp",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "openmp",
+            "target": "intel_repack"
+          },
+          {
+            "source": "openmp",
             "target": "libhwloc"
+          },
+          {
+            "source": "openmp",
+            "target": "llama.cpp"
           },
           {
             "source": "openmp",
@@ -3272,6 +3511,14 @@
           {
             "source": "python",
             "target": "contourpy"
+          },
+          {
+            "source": "python",
+            "target": "cuda-python"
+          },
+          {
+            "source": "python",
+            "target": "cupy"
           },
           {
             "source": "python",
@@ -4178,6 +4425,10 @@
             "target": "libplacebo"
           },
           {
+            "source": "shaderc",
+            "target": "llama.cpp"
+          },
+          {
             "source": "sigtool",
             "target": "cctools-and-ld64"
           },
@@ -4271,6 +4522,14 @@
           },
           {
             "source": "tbb",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "tbb",
+            "target": "intel_repack"
+          },
+          {
+            "source": "tbb",
             "target": "openvino"
           },
           {
@@ -4316,6 +4575,10 @@
           {
             "source": "ucrt",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "ucrt",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "ucrt",
@@ -4379,6 +4642,10 @@
           },
           {
             "source": "vc",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "vc",
             "target": "postgresql"
           },
           {
@@ -4388,6 +4655,10 @@
           {
             "source": "vulkan-headers",
             "target": "libplacebo"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "llama.cpp"
           },
           {
             "source": "vulkan-headers",
@@ -4432,6 +4703,10 @@
           {
             "source": "vulkan-loader",
             "target": "libplacebo"
+          },
+          {
+            "source": "vulkan-loader",
+            "target": "llama.cpp"
           },
           {
             "source": "vulkan-loader",
@@ -4492,6 +4767,10 @@
           {
             "source": "winpthreads",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "winpthreads",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "winpthreads",
@@ -5267,6 +5546,10 @@
           },
           {
             "source": "zlib",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "zlib",
             "target": "libarchive"
           },
           {
@@ -5508,6 +5791,10 @@
           {
             "source": "zstd",
             "target": "flang-rt"
+          },
+          {
+            "source": "zstd",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "zstd",
@@ -5889,6 +6176,12 @@
             }
           },
           {
+            "id": "cuda-nvtx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvtx.json"
+            }
+          },
+          {
             "id": "cuda-opencl",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-opencl.json"
@@ -5898,6 +6191,12 @@
             "id": "cuda-profiler-api",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-profiler-api.json"
+            }
+          },
+          {
+            "id": "cuda-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -5925,9 +6224,27 @@
             }
           },
           {
+            "id": "cudnn",
+            "payload": {
+              "__lazy_json__": "node_attrs/cudnn.json"
+            }
+          },
+          {
+            "id": "cupy",
+            "payload": {
+              "__lazy_json__": "node_attrs/cupy.json"
+            }
+          },
+          {
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cutensor",
+            "payload": {
+              "__lazy_json__": "node_attrs/cutensor.json"
             }
           },
           {
@@ -6207,6 +6524,12 @@
             }
           },
           {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
             "id": "intel-gmmlib",
             "payload": {
               "__lazy_json__": "node_attrs/intel-gmmlib.json"
@@ -6216,6 +6539,12 @@
             "id": "intel-media-driver",
             "payload": {
               "__lazy_json__": "node_attrs/intel-media-driver.json"
+            }
+          },
+          {
+            "id": "intel_repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel_repack.json"
             }
           },
           {
@@ -6714,6 +7043,12 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
+            "id": "llama.cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/llama.cpp.json"
             }
           },
           {
@@ -8100,6 +8435,10 @@
         "conda-standalone",
         "crush",
         "cuda",
+        "cuda-python",
+        "cudnn",
+        "cupy",
+        "cutlass",
         "dasel",
         "diffnav",
         "doggo",
@@ -8119,6 +8458,7 @@
         "kitops",
         "ksops",
         "lefthook",
+        "llama.cpp",
         "make",
         "mamba",
         "matplotlib",
@@ -8130,6 +8470,7 @@
         "nomad",
         "nsis",
         "ntfy",
+        "nvmath-python",
         "octo-sts",
         "pixi",
         "pixi-diff",
@@ -8138,6 +8479,7 @@
         "py-rattler",
         "pyinstaller",
         "python",
+        "pytorch",
         "rattler-build",
         "rattler-index",
         "s3-proxy",
@@ -8150,6 +8492,7 @@
         "sqlite-scanner",
         "subfinder",
         "tea",
+        "tensorrt-tools",
         "termdbms",
         "tflint",
         "tomli",
@@ -8179,6 +8522,7 @@
         "cuda-nvdisasm",
         "cuda-nvml-dev",
         "cuda-nvrtc",
+        "cuda-nvtx",
         "cuda-sanitizer-api",
         "dav1d",
         "double-conversion",
