@@ -1765,6 +1765,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "chardet",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "chardet",
+            "target": "orange3"
+          },
+          {
             "source": "ckzg",
             "target": "conda-forge-pinning"
           },
@@ -2335,6 +2343,10 @@
           {
             "source": "cython",
             "target": "celiagg"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
           },
           {
             "source": "cython",
@@ -3563,10 +3575,6 @@
           {
             "source": "gdal",
             "target": "rasterio"
-          },
-          {
-            "source": "gdstk",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "gemmi",
@@ -5366,6 +5374,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "conda-forge-pinning"
           },
           {
@@ -5939,10 +5951,6 @@
           {
             "source": "numpy",
             "target": "gdal"
-          },
-          {
-            "source": "numpy",
-            "target": "gdstk"
           },
           {
             "source": "numpy",
@@ -12420,6 +12428,12 @@
             }
           },
           {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
+            }
+          },
+          {
             "id": "ckzg",
             "payload": {
               "__lazy_json__": "node_attrs/ckzg.json"
@@ -13035,12 +13049,6 @@
             "id": "gdal",
             "payload": {
               "__lazy_json__": "node_attrs/gdal.json"
-            }
-          },
-          {
-            "id": "gdstk",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdstk.json"
             }
           },
           {
