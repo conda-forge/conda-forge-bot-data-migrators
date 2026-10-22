@@ -67,12 +67,6 @@
             }
           },
           {
-            "id": "menuinst",
-            "payload": {
-              "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
             "id": "pyyaml",
             "payload": {
               "__lazy_json__": "node_attrs/pyyaml.json"
@@ -13449,6 +13443,10 @@
           {
             "source": "cython",
             "target": "muarch"
+          },
+          {
+            "source": "cython",
+            "target": "multidict"
           },
           {
             "source": "cython",
@@ -30631,6 +30629,134 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "multidict",
+            "target": "aiida-crystal17"
+          },
+          {
+            "source": "multidict",
+            "target": "aiohttp"
+          },
+          {
+            "source": "multidict",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "multidict",
+            "target": "aria-tools"
+          },
+          {
+            "source": "multidict",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "multidict",
+            "target": "checkov"
+          },
+          {
+            "source": "multidict",
+            "target": "cmac"
+          },
+          {
+            "source": "multidict",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "multidict",
+            "target": "csxtools"
+          },
+          {
+            "source": "multidict",
+            "target": "dandi"
+          },
+          {
+            "source": "multidict",
+            "target": "datalad"
+          },
+          {
+            "source": "multidict",
+            "target": "ecco_v4_py"
+          },
+          {
+            "source": "multidict",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "multidict",
+            "target": "gravelamps"
+          },
+          {
+            "source": "multidict",
+            "target": "hklpy"
+          },
+          {
+            "source": "multidict",
+            "target": "invert4geom"
+          },
+          {
+            "source": "multidict",
+            "target": "metadata-crawler"
+          },
+          {
+            "source": "multidict",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "multidict",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "multidict",
+            "target": "pandas-plink"
+          },
+          {
+            "source": "multidict",
+            "target": "picows"
+          },
+          {
+            "source": "multidict",
+            "target": "pyarrow"
+          },
+          {
+            "source": "multidict",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "multidict",
+            "target": "pycontrails"
+          },
+          {
+            "source": "multidict",
+            "target": "raider"
+          },
+          {
+            "source": "multidict",
+            "target": "rasterio"
+          },
+          {
+            "source": "multidict",
+            "target": "sanic"
+          },
+          {
+            "source": "multidict",
+            "target": "spyder"
+          },
+          {
+            "source": "multidict",
+            "target": "stackvana-core"
+          },
+          {
+            "source": "multidict",
+            "target": "superset"
+          },
+          {
+            "source": "multidict",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "multidict",
+            "target": "torchdata"
+          },
+          {
             "source": "multimark",
             "target": "conda-forge-pinning"
           },
@@ -46228,6 +46354,10 @@
           },
           {
             "source": "psutil",
+            "target": "multidict"
+          },
+          {
+            "source": "psutil",
             "target": "multineat"
           },
           {
@@ -52421,6 +52551,10 @@
           {
             "source": "pytest-codspeed",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pytest-codspeed",
+            "target": "multidict"
           },
           {
             "source": "pytetwild",
@@ -83569,6 +83703,12 @@
             "id": "multicore-tsne",
             "payload": {
               "__lazy_json__": "node_attrs/multicore-tsne.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
             }
           },
           {
