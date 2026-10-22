@@ -23335,6 +23335,10 @@
           },
           {
             "source": "cython",
+            "target": "yarl"
+          },
+          {
+            "source": "cython",
             "target": "yoda"
           },
           {
@@ -33984,6 +33988,10 @@
           {
             "source": "hypothesis",
             "target": "xtb-python"
+          },
+          {
+            "source": "hypothesis",
+            "target": "yarl"
           },
           {
             "source": "hypothesis",
@@ -52827,11 +52835,11 @@
           },
           {
             "source": "multidict",
-            "target": "spyder"
+            "target": "torchdata"
           },
           {
             "source": "multidict",
-            "target": "torchdata"
+            "target": "yarl"
           },
           {
             "source": "multidict",
@@ -68918,6 +68926,10 @@
             "target": "multidict"
           },
           {
+            "source": "pytest-codspeed",
+            "target": "yarl"
+          },
+          {
             "source": "pythia8",
             "target": "root"
           },
@@ -73520,6 +73532,10 @@
           {
             "source": "python",
             "target": "yappi"
+          },
+          {
+            "source": "python",
+            "target": "yarl"
           },
           {
             "source": "python",
@@ -99282,6 +99298,14 @@
             "target": "universal-ctags"
           },
           {
+            "source": "yarl",
+            "target": "aiohttp"
+          },
+          {
+            "source": "yarl",
+            "target": "spyder"
+          },
+          {
             "source": "yarp",
             "target": "bipedal-locomotion-framework"
           },
@@ -118252,6 +118276,12 @@
             "id": "yappi",
             "payload": {
               "__lazy_json__": "node_attrs/yappi.json"
+            }
+          },
+          {
+            "id": "yarl",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarl.json"
             }
           },
           {
