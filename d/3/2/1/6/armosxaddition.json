@@ -57439,6 +57439,10 @@
           },
           {
             "source": "zlib",
+            "target": "nsis"
+          },
+          {
+            "source": "zlib",
             "target": "nss"
           },
           {
@@ -66534,6 +66538,12 @@
             "id": "npth",
             "payload": {
               "__lazy_json__": "node_attrs/npth.json"
+            }
+          },
+          {
+            "id": "nsis",
+            "payload": {
+              "__lazy_json__": "node_attrs/nsis.json"
             }
           },
           {
