@@ -4898,6 +4898,38 @@
             "target": "srm-ifce"
           },
           {
+            "source": "chardet",
+            "target": "almosthere"
+          },
+          {
+            "source": "chardet",
+            "target": "bgen"
+          },
+          {
+            "source": "chardet",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "chardet",
+            "target": "datalad"
+          },
+          {
+            "source": "chardet",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "chardet",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "chardet",
+            "target": "orange3"
+          },
+          {
+            "source": "chardet",
+            "target": "spyder"
+          },
+          {
             "source": "charls",
             "target": "imagecodecs"
           },
@@ -6384,6 +6416,10 @@
           {
             "source": "cython",
             "target": "cexprtk"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
           },
           {
             "source": "cython",
@@ -24179,6 +24215,10 @@
           },
           {
             "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
             "target": "cwltool"
           },
           {
@@ -26488,10 +26528,6 @@
           {
             "source": "numpy",
             "target": "gdal"
-          },
-          {
-            "source": "numpy",
-            "target": "gdstk"
           },
           {
             "source": "numpy",
@@ -28916,18 +28952,6 @@
           {
             "source": "openldap",
             "target": "postgresql"
-          },
-          {
-            "source": "openlibm",
-            "target": "julia"
-          },
-          {
-            "source": "openlibm",
-            "target": "magics-metview-batch"
-          },
-          {
-            "source": "openlibm",
-            "target": "metview-batch"
           },
           {
             "source": "openmotif",
@@ -35467,6 +35491,10 @@
           },
           {
             "source": "python",
+            "target": "chardet"
+          },
+          {
+            "source": "python",
             "target": "cheetah3"
           },
           {
@@ -36292,10 +36320,6 @@
           {
             "source": "python",
             "target": "gdma"
-          },
-          {
-            "source": "python",
-            "target": "gdstk"
           },
           {
             "source": "python",
@@ -39391,6 +39415,10 @@
           },
           {
             "source": "python",
+            "target": "tinyobjloader"
+          },
+          {
+            "source": "python",
             "target": "tl2cgen"
           },
           {
@@ -41188,10 +41216,6 @@
           {
             "source": "qhull",
             "target": "fresnel"
-          },
-          {
-            "source": "qhull",
-            "target": "gdstk"
           },
           {
             "source": "qhull",
@@ -52590,6 +52614,10 @@
             "target": "kwant"
           },
           {
+            "source": "tinyobjloader",
+            "target": "mujoco"
+          },
+          {
             "source": "tinyxml2",
             "target": "casadi"
           },
@@ -56255,10 +56283,6 @@
           },
           {
             "source": "zlib",
-            "target": "gdstk"
-          },
-          {
-            "source": "zlib",
             "target": "geant4"
           },
           {
@@ -59549,6 +59573,12 @@
             }
           },
           {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
+            }
+          },
+          {
             "id": "charls",
             "payload": {
               "__lazy_json__": "node_attrs/charls.json"
@@ -61712,12 +61742,6 @@
             "id": "gds-root-extensions",
             "payload": {
               "__lazy_json__": "node_attrs/gds-root-extensions.json"
-            }
-          },
-          {
-            "id": "gdstk",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdstk.json"
             }
           },
           {
@@ -66338,12 +66362,6 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
-            }
-          },
-          {
-            "id": "openlibm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
@@ -73085,6 +73103,12 @@
             }
           },
           {
+            "id": "tinyobjloader",
+            "payload": {
+              "__lazy_json__": "node_attrs/tinyobjloader.json"
+            }
+          },
+          {
             "id": "tinyxml",
             "payload": {
               "__lazy_json__": "node_attrs/tinyxml.json"
@@ -76810,7 +76834,6 @@
         "opencl-headers",
         "openfst",
         "openh264",
-        "openlibm",
         "openssl",
         "optional-lite",
         "p7zip",
