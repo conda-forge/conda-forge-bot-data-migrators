@@ -20938,30 +20938,6 @@
             "target": "tktable"
           },
           {
-            "source": "libtool",
-            "target": "gct"
-          },
-          {
-            "source": "libtool",
-            "target": "lftp"
-          },
-          {
-            "source": "libtool",
-            "target": "libxmlsec1"
-          },
-          {
-            "source": "libtool",
-            "target": "nest-simulator"
-          },
-          {
-            "source": "libtool",
-            "target": "subversion"
-          },
-          {
-            "source": "libtool",
-            "target": "unibilium"
-          },
-          {
             "source": "libtree-sitter",
             "target": "emacs"
           },
@@ -65763,12 +65739,6 @@
             }
           },
           {
-            "id": "libtool",
-            "payload": {
-              "__lazy_json__": "node_attrs/libtool.json"
-            }
-          },
-          {
             "id": "libtree-sitter",
             "payload": {
               "__lazy_json__": "node_attrs/libtree-sitter.json"
@@ -77972,7 +77942,6 @@
         "libta-lib",
         "libtasn1",
         "libtommath",
-        "libtool",
         "libtree-sitter",
         "libunistring",
         "libunwind",
@@ -78077,6 +78046,7 @@
         "typst",
         "tzcode",
         "ucrt",
+        "unibilium",
         "unzip",
         "urdfdom_headers",
         "uriparser",
