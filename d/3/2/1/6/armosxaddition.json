@@ -103,6 +103,14 @@
           },
           {
             "source": "_openmp_mutex",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "_openmp_mutex",
+            "target": "intel_repack"
+          },
+          {
+            "source": "_openmp_mutex",
             "target": "simsimd"
           },
           {
@@ -724,6 +732,10 @@
           {
             "source": "astropy",
             "target": "mocpy"
+          },
+          {
+            "source": "astropy",
+            "target": "numcosmo"
           },
           {
             "source": "astropy",
@@ -1447,10 +1459,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "numcosmo"
-          },
-          {
-            "source": "backports.zstd",
             "target": "nutpie"
           },
           {
@@ -1972,6 +1980,10 @@
           {
             "source": "binutils",
             "target": "ghc"
+          },
+          {
+            "source": "binutils",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "binutils",
@@ -3907,10 +3919,6 @@
           },
           {
             "source": "brotli",
-            "target": "numcosmo"
-          },
-          {
-            "source": "brotli",
             "target": "nutpie"
           },
           {
@@ -4860,6 +4868,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "ghc"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "cctools-and-ld64",
@@ -6216,6 +6228,14 @@
           {
             "source": "ctng-compilers",
             "target": "ghc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "intel_repack"
           },
           {
             "source": "ctng-compilers",
@@ -11287,6 +11307,10 @@
           },
           {
             "source": "gendef",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gendef",
             "target": "julia"
           },
           {
@@ -11663,6 +11687,10 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "julia"
           },
           {
@@ -11776,6 +11804,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "ghc"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "gfortran_osx-64",
@@ -15670,6 +15702,18 @@
             "target": "gauxc"
           },
           {
+            "source": "intel-compiler-repack",
+            "target": "intel_repack"
+          },
+          {
+            "source": "intel_repack",
+            "target": "pykep"
+          },
+          {
+            "source": "intel_repack",
+            "target": "pytensor-suite"
+          },
+          {
             "source": "ipopt",
             "target": "casadi"
           },
@@ -15924,6 +15968,14 @@
           {
             "source": "khronos-opencl-icd-loader",
             "target": "gromacs"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "khronos-opencl-icd-loader",
+            "target": "intel_repack"
           },
           {
             "source": "khronos-opencl-icd-loader",
@@ -17423,6 +17475,10 @@
           },
           {
             "source": "level-zero",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "level-zero",
             "target": "openvino"
           },
           {
@@ -17760,6 +17816,10 @@
           {
             "source": "libcxx",
             "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "libcxx",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libcxx",
@@ -18488,6 +18548,10 @@
           {
             "source": "libhwloc",
             "target": "hpx"
+          },
+          {
+            "source": "libhwloc",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "libhwloc",
@@ -21479,6 +21543,10 @@
           },
           {
             "source": "libxml2",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "libxml2",
             "target": "isce2"
           },
           {
@@ -22108,6 +22176,10 @@
           {
             "source": "llvmdev",
             "target": "heyoka"
+          },
+          {
+            "source": "llvmdev",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "llvmdev",
@@ -29407,6 +29479,14 @@
           },
           {
             "source": "ocl-icd",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "intel_repack"
+          },
+          {
+            "source": "ocl-icd",
             "target": "ocl-icd-system"
           },
           {
@@ -29616,6 +29696,10 @@
           {
             "source": "opencensus-context",
             "target": "ray-packages"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "opencl-headers",
@@ -30284,6 +30368,14 @@
           {
             "source": "openmpi",
             "target": "neuron"
+          },
+          {
+            "source": "openmp",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "openmp",
+            "target": "intel_repack"
           },
           {
             "source": "openmpi",
@@ -34972,6 +35064,10 @@
           {
             "source": "pydantic-core",
             "target": "natcap.invest"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "numcosmo"
           },
           {
             "source": "pydantic-core",
@@ -41680,6 +41776,10 @@
           {
             "source": "pyyaml",
             "target": "norse"
+          },
+          {
+            "source": "pyyaml",
+            "target": "numcosmo"
           },
           {
             "source": "pyyaml",
@@ -53375,6 +53475,14 @@
           },
           {
             "source": "tbb",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "tbb",
+            "target": "intel_repack"
+          },
+          {
+            "source": "tbb",
             "target": "itk"
           },
           {
@@ -54095,6 +54203,10 @@
           },
           {
             "source": "ucrt",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "ucrt",
             "target": "julia"
           },
           {
@@ -54440,6 +54552,10 @@
           {
             "source": "vale",
             "target": "vale-ls"
+          },
+          {
+            "source": "vc",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "vcpkg-tool",
@@ -54916,6 +55032,10 @@
           {
             "source": "winpthreads",
             "target": "ghc"
+          },
+          {
+            "source": "winpthreads",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "winpthreads",
@@ -57475,6 +57595,10 @@
           },
           {
             "source": "zlib",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "zlib",
             "target": "irrlicht"
           },
           {
@@ -58856,6 +58980,10 @@
           {
             "source": "zstd",
             "target": "imagecodecs"
+          },
+          {
+            "source": "zstd",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "zstd",
@@ -64060,6 +64188,18 @@
             "id": "integratorxx",
             "payload": {
               "__lazy_json__": "node_attrs/integratorxx.json"
+            }
+          },
+          {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
+            "id": "intel_repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel_repack.json"
             }
           },
           {
