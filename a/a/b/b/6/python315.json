@@ -4285,6 +4285,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "spikeinterface"
+          },
+          {
+            "source": "backports.zstd",
             "target": "spleeter"
           },
           {
@@ -8070,6 +8074,10 @@
           {
             "source": "brotli",
             "target": "sphinx-nbexamples"
+          },
+          {
+            "source": "brotli",
+            "target": "spikeinterface"
           },
           {
             "source": "brotli",
@@ -19713,6 +19721,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "spikeinterface"
+          },
+          {
+            "source": "google-crc32c",
             "target": "spotiflow"
           },
           {
@@ -30901,6 +30913,10 @@
           },
           {
             "source": "msgspec",
+            "target": "spikeinterface"
+          },
+          {
+            "source": "msgspec",
             "target": "spotiflow"
           },
           {
@@ -33126,6 +33142,10 @@
           {
             "source": "numcodecs",
             "target": "scikit-allel"
+          },
+          {
+            "source": "numcodecs",
+            "target": "spikeinterface"
           },
           {
             "source": "numcodecs",
@@ -39506,6 +39526,10 @@
           {
             "source": "numpy",
             "target": "spiceypy"
+          },
+          {
+            "source": "numpy",
+            "target": "spikeinterface"
           },
           {
             "source": "numpy",
@@ -49521,6 +49545,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "spikeinterface"
+          },
+          {
+            "source": "pydantic-core",
             "target": "ssh-ipykernel"
           },
           {
@@ -57646,6 +57674,10 @@
           {
             "source": "pyyaml",
             "target": "spglib"
+          },
+          {
+            "source": "pyyaml",
+            "target": "spikeinterface"
           },
           {
             "source": "pyyaml",
@@ -66866,6 +66898,10 @@
           {
             "source": "spiceypy",
             "target": "stackvana-core"
+          },
+          {
+            "source": "spikeinterface",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "spinsfast",
@@ -78766,6 +78802,10 @@
           {
             "source": "tbb",
             "target": "spiceypy"
+          },
+          {
+            "source": "tbb",
+            "target": "spikeinterface"
           },
           {
             "source": "tbb",
@@ -103286,6 +103326,12 @@
             "id": "spiceypy",
             "payload": {
               "__lazy_json__": "node_attrs/spiceypy.json"
+            }
+          },
+          {
+            "id": "spikeinterface",
+            "payload": {
+              "__lazy_json__": "node_attrs/spikeinterface.json"
             }
           },
           {
