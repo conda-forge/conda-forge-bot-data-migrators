@@ -23939,6 +23939,10 @@
           },
           {
             "source": "cuda-nvrtc",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "cuda-nvrtc",
             "target": "pyg-lib"
           },
           {
@@ -38623,6 +38627,10 @@
           },
           {
             "source": "libcublas",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "libcublas",
             "target": "pennylane-lightning-gpu"
           },
           {
@@ -38716,6 +38724,10 @@
           {
             "source": "libcufft",
             "target": "nvmath"
+          },
+          {
+            "source": "libcufft",
+            "target": "onnxruntime"
           },
           {
             "source": "libcufft",
@@ -38848,6 +38860,10 @@
           {
             "source": "libcurand",
             "target": "nvmolkit"
+          },
+          {
+            "source": "libcurand",
+            "target": "onnxruntime"
           },
           {
             "source": "libcurand",
@@ -39044,6 +39060,10 @@
           {
             "source": "libcusparse",
             "target": "nvmath"
+          },
+          {
+            "source": "libcusparse",
+            "target": "onnxruntime"
           },
           {
             "source": "libcusparse",
@@ -60796,6 +60816,10 @@
           {
             "source": "nushell",
             "target": "comrak"
+          },
+          {
+            "source": "nushell",
+            "target": "onnxruntime"
           },
           {
             "source": "nushell",
