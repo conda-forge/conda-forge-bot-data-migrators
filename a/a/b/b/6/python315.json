@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "casacore",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacore.json"
+            }
+          },
+          {
             "id": "cuda-core",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-core.json"
@@ -64,6 +70,12 @@
             "id": "minorminer",
             "payload": {
               "__lazy_json__": "node_attrs/minorminer.json"
+            }
+          },
+          {
+            "id": "openpmd-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmd-api.json"
             }
           }
         ]
