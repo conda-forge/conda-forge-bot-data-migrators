@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "apache-tvm-ffi",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-tvm-ffi.json"
+            }
+          },
+          {
             "id": "casacore",
             "payload": {
               "__lazy_json__": "node_attrs/casacore.json"
@@ -179,22 +185,6 @@
           {
             "source": "adios-python",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "adios2",
-            "target": "casacore"
-          },
-          {
-            "source": "adios2",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "adios2",
-            "target": "fenics-dolfinx"
-          },
-          {
-            "source": "adios2",
-            "target": "openpmd-api"
           },
           {
             "source": "advect",
@@ -29938,11 +29928,11 @@
           },
           {
             "source": "mpi4py",
-            "target": "adios2"
+            "target": "bodo"
           },
           {
             "source": "mpi4py",
-            "target": "bodo"
+            "target": "casacore"
           },
           {
             "source": "mpi4py",
@@ -33403,10 +33393,6 @@
           {
             "source": "numpy",
             "target": "adios-python"
-          },
-          {
-            "source": "numpy",
-            "target": "adios2"
           },
           {
             "source": "numpy",
@@ -75098,10 +75084,6 @@
           },
           {
             "source": "zfpy",
-            "target": "adios2"
-          },
-          {
-            "source": "zfpy",
             "target": "conda-forge-pinning"
           },
           {
@@ -75469,12 +75451,6 @@
             "id": "adios-python",
             "payload": {
               "__lazy_json__": "node_attrs/adios-python.json"
-            }
-          },
-          {
-            "id": "adios2",
-            "payload": {
-              "__lazy_json__": "node_attrs/adios2.json"
             }
           },
           {
