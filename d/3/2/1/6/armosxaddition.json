@@ -1923,10 +1923,6 @@
           },
           {
             "source": "binutils",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "binutils",
             "target": "cvxopt"
           },
           {
@@ -4843,10 +4839,6 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "cctools-and-ld64",
             "target": "cvxopt"
           },
           {
@@ -6163,10 +6155,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "cvxopt"
           },
           {
@@ -6432,30 +6420,6 @@
           {
             "source": "ctng-compilers",
             "target": "xeus-cling"
-          },
-          {
-            "source": "cuda-cccl",
-            "target": "cuda-cudart"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "tensorrt"
-          },
-          {
-            "source": "cuda-nvcc-impl",
-            "target": "tensorrt"
-          },
-          {
-            "source": "cuda-nvrtc",
-            "target": "tensorrt"
           },
           {
             "source": "cunit",
@@ -11299,10 +11263,6 @@
           },
           {
             "source": "gendef",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "gendef",
             "target": "cvxopt"
           },
           {
@@ -11683,10 +11643,6 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
             "target": "cvxopt"
           },
           {
@@ -11800,10 +11756,6 @@
           {
             "source": "gfortran_osx-64",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "gfortran_osx-64",
@@ -17747,10 +17699,6 @@
           },
           {
             "source": "libcxx",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "libcxx",
             "target": "cvxopt"
           },
           {
@@ -21411,10 +21359,6 @@
           },
           {
             "source": "libxml2",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "libxml2",
             "target": "cvxopt"
           },
           {
@@ -22104,10 +22048,6 @@
           {
             "source": "llvmdev",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "llvmdev",
@@ -30039,10 +29979,6 @@
           },
           {
             "source": "openmp",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "openmp",
             "target": "cvxopt"
           },
           {
@@ -35950,10 +35886,6 @@
             "target": "sbank"
           },
           {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
             "source": "python-mumps",
             "target": "kwant"
           },
@@ -39632,10 +39564,6 @@
           {
             "source": "python",
             "target": "python-ligo-lw"
-          },
-          {
-            "source": "python",
-            "target": "python-lmdb"
           },
           {
             "source": "python",
@@ -53566,10 +53494,6 @@
             "target": "dgl"
           },
           {
-            "source": "tensorrt",
-            "target": "onnxruntime"
-          },
-          {
             "source": "tensorstore",
             "target": "gymnasium"
           },
@@ -54136,10 +54060,6 @@
           {
             "source": "ucrt",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "ucrt",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "ucrt",
@@ -54964,10 +54884,6 @@
           {
             "source": "winpthreads",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "winpthreads",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "winpthreads",
@@ -57139,10 +57055,6 @@
           },
           {
             "source": "zlib",
-            "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "zlib",
             "target": "curl"
           },
           {
@@ -58840,10 +58752,6 @@
           {
             "source": "zstd",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "zstd",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "zstd",
@@ -61282,30 +61190,6 @@
             "id": "ctng-compilers",
             "payload": {
               "__lazy_json__": "node_attrs/ctng-compilers.json"
-            }
-          },
-          {
-            "id": "cuda-cccl",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-cccl.json"
-            }
-          },
-          {
-            "id": "cuda-cudart",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-cudart.json"
-            }
-          },
-          {
-            "id": "cuda-nvcc-impl",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-nvcc-impl.json"
-            }
-          },
-          {
-            "id": "cuda-nvrtc",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-nvrtc.json"
             }
           },
           {
@@ -69853,12 +69737,6 @@
             }
           },
           {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
-            }
-          },
-          {
             "id": "python-lzo",
             "payload": {
               "__lazy_json__": "node_attrs/python-lzo.json"
@@ -74077,12 +73955,6 @@
             }
           },
           {
-            "id": "tensorrt",
-            "payload": {
-              "__lazy_json__": "node_attrs/tensorrt.json"
-            }
-          },
-          {
             "id": "tensorstore",
             "payload": {
               "__lazy_json__": "node_attrs/tensorstore.json"
@@ -77784,8 +77656,6 @@
         "cppad",
         "cryptopp",
         "cspice",
-        "cuda-cccl",
-        "cuda-nvrtc",
         "cunit",
         "cxxopts",
         "dart-sdk",
