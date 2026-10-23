@@ -15286,6 +15286,10 @@
             "target": "scipoptsuite"
           },
           {
+            "source": "howardhinnant_date",
+            "target": "mamba"
+          },
+          {
             "source": "hpgeom",
             "target": "lsst-sphgeom"
           },
@@ -63795,6 +63799,12 @@
             }
           },
           {
+            "id": "howardhinnant_date",
+            "payload": {
+              "__lazy_json__": "node_attrs/howardhinnant_date.json"
+            }
+          },
+          {
             "id": "hpgeom",
             "payload": {
               "__lazy_json__": "node_attrs/hpgeom.json"
@@ -77708,6 +77718,7 @@
         "hepmc2",
         "hicolor-icon-theme",
         "highs",
+        "howardhinnant_date",
         "icu",
         "igwn-cmake-macros",
         "ijar",
