@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "sedonadb",
+            "payload": {
+              "__lazy_json__": "node_attrs/sedonadb.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -13894,10 +13901,6 @@
           {
             "source": "cython",
             "target": "pandana"
-          },
-          {
-            "source": "cython",
-            "target": "pandarm"
           },
           {
             "source": "cython",
