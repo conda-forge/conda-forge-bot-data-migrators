@@ -2378,6 +2378,10 @@
             "target": "tktable"
           },
           {
+            "source": "libtool",
+            "target": "pulseaudio"
+          },
+          {
             "source": "liburing",
             "target": "postgresql"
           },
@@ -6927,6 +6931,12 @@
             }
           },
           {
+            "id": "libtool",
+            "payload": {
+              "__lazy_json__": "node_attrs/libtool.json"
+            }
+          },
+          {
             "id": "liburing",
             "payload": {
               "__lazy_json__": "node_attrs/liburing.json"
@@ -8554,6 +8564,7 @@
         "libsodium",
         "libtasn1",
         "libtommath",
+        "libtool",
         "liburing",
         "libuuid",
         "libuv",
