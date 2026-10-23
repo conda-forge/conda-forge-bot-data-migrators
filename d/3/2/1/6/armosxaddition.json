@@ -298,18 +298,6 @@
             "target": "yarp"
           },
           {
-            "source": "adios2",
-            "target": "casacore"
-          },
-          {
-            "source": "adios2",
-            "target": "fenics-dolfinx"
-          },
-          {
-            "source": "adios2",
-            "target": "openpmd-api"
-          },
-          {
             "source": "aiohttp",
             "target": "allennlp"
           },
@@ -4279,10 +4267,6 @@
           },
           {
             "source": "bzip2",
-            "target": "adios2"
-          },
-          {
-            "source": "bzip2",
             "target": "ambertools"
           },
           {
@@ -4516,10 +4500,6 @@
           {
             "source": "c-ares",
             "target": "pycares"
-          },
-          {
-            "source": "c-blosc2",
-            "target": "adios2"
           },
           {
             "source": "c-blosc2",
@@ -6492,10 +6472,6 @@
           {
             "source": "curl-cffi",
             "target": "bt"
-          },
-          {
-            "source": "curl",
-            "target": "adios2"
           },
           {
             "source": "curl",
@@ -14875,10 +14851,6 @@
           },
           {
             "source": "hdf5",
-            "target": "adios2"
-          },
-          {
-            "source": "hdf5",
             "target": "adjfind"
           },
           {
@@ -18227,10 +18199,6 @@
           },
           {
             "source": "libffi",
-            "target": "adios2"
-          },
-          {
-            "source": "libffi",
             "target": "cffi"
           },
           {
@@ -19851,10 +19819,6 @@
           },
           {
             "source": "libpng",
-            "target": "adios2"
-          },
-          {
-            "source": "libpng",
             "target": "brial"
           },
           {
@@ -20592,10 +20556,6 @@
           {
             "source": "libsndfile",
             "target": "xtensor-io"
-          },
-          {
-            "source": "libsodium",
-            "target": "adios2"
           },
           {
             "source": "libsodium",
@@ -24595,10 +24555,6 @@
           },
           {
             "source": "mpi4py",
-            "target": "adios2"
-          },
-          {
-            "source": "mpi4py",
             "target": "clawpack"
           },
           {
@@ -24676,10 +24632,6 @@
           {
             "source": "mpich",
             "target": "abinit"
-          },
-          {
-            "source": "mpich",
-            "target": "adios2"
           },
           {
             "source": "mpich",
@@ -26836,10 +26788,6 @@
           {
             "source": "numpy",
             "target": "adcc"
-          },
-          {
-            "source": "numpy",
-            "target": "adios2"
           },
           {
             "source": "numpy",
@@ -30223,10 +30171,6 @@
           },
           {
             "source": "openmpi",
-            "target": "adios2"
-          },
-          {
-            "source": "openmpi",
             "target": "arpack"
           },
           {
@@ -31048,10 +30992,6 @@
           {
             "source": "openssh",
             "target": "openmc"
-          },
-          {
-            "source": "openssl",
-            "target": "adios2"
           },
           {
             "source": "openssl",
@@ -36084,10 +36024,6 @@
           {
             "source": "python",
             "target": "adcc"
-          },
-          {
-            "source": "python",
-            "target": "adios2"
           },
           {
             "source": "python",
@@ -53011,10 +52947,6 @@
           },
           {
             "source": "sqlite",
-            "target": "adios2"
-          },
-          {
-            "source": "sqlite",
             "target": "apsw"
           },
           {
@@ -56931,10 +56863,6 @@
           },
           {
             "source": "zeromq",
-            "target": "adios2"
-          },
-          {
-            "source": "zeromq",
             "target": "cpptango"
           },
           {
@@ -56983,10 +56911,6 @@
           },
           {
             "source": "zfpy",
-            "target": "adios2"
-          },
-          {
-            "source": "zfpy",
             "target": "imagecodecs"
           },
           {
@@ -57024,10 +56948,6 @@
           {
             "source": "zlib",
             "target": "abinit"
-          },
-          {
-            "source": "zlib",
-            "target": "adios2"
           },
           {
             "source": "zlib",
@@ -59430,12 +59350,6 @@
             "id": "adcc",
             "payload": {
               "__lazy_json__": "node_attrs/adcc.json"
-            }
-          },
-          {
-            "id": "adios2",
-            "payload": {
-              "__lazy_json__": "node_attrs/adios2.json"
             }
           },
           {
