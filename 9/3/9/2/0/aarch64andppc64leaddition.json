@@ -28855,10 +28855,6 @@
           },
           {
             "source": "fontconfig",
-            "target": "spyder"
-          },
-          {
-            "source": "fontconfig",
             "target": "tectonic"
           },
           {
@@ -57932,6 +57928,10 @@
           {
             "source": "ninja",
             "target": "pytorch-cpu"
+          },
+          {
+            "source": "ninja",
+            "target": "pytorch_scatter"
           },
           {
             "source": "ninja",
