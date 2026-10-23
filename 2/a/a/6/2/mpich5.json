@@ -112,18 +112,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "adios2",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "adios2",
-            "target": "fenics-dolfinx"
-          },
-          {
-            "source": "adios2",
-            "target": "openpmd-api"
-          },
-          {
             "source": "adios",
             "target": "conda-forge-pinning"
           },
@@ -546,10 +534,6 @@
           {
             "source": "hdf5",
             "target": "abinit"
-          },
-          {
-            "source": "hdf5",
-            "target": "adios2"
           },
           {
             "source": "hdf5",
@@ -998,10 +982,6 @@
           {
             "source": "mpi4jax",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "mpi4py",
-            "target": "adios2"
           },
           {
             "source": "mpi4py",
@@ -1768,12 +1748,6 @@
             "id": "adios",
             "payload": {
               "__lazy_json__": "node_attrs/adios.json"
-            }
-          },
-          {
-            "id": "adios2",
-            "payload": {
-              "__lazy_json__": "node_attrs/adios2.json"
             }
           },
           {
