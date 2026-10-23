@@ -100,10 +100,6 @@
         },
         "links": [
           {
-            "source": "adios2",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "cabal",
             "target": "conda-forge-pinning"
           },
@@ -237,10 +233,6 @@
           },
           {
             "source": "python",
-            "target": "adios2"
-          },
-          {
-            "source": "python",
             "target": "cffi"
           },
           {
@@ -350,12 +342,6 @@
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "adios2",
-            "payload": {
-              "__lazy_json__": "node_attrs/adios2.json"
-            }
-          },
           {
             "id": "cabal",
             "payload": {
