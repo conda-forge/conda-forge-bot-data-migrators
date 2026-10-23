@@ -1342,6 +1342,10 @@
             "target": "tktable"
           },
           {
+            "source": "libtool",
+            "target": "pulseaudio"
+          },
+          {
             "source": "libunwind",
             "target": "sdl"
           },
@@ -4471,6 +4475,12 @@
             }
           },
           {
+            "id": "libtool",
+            "payload": {
+              "__lazy_json__": "node_attrs/libtool.json"
+            }
+          },
+          {
             "id": "libunwind",
             "payload": {
               "__lazy_json__": "node_attrs/libunwind.json"
@@ -5789,6 +5799,7 @@
         "libsodium",
         "libtasn1",
         "libtommath",
+        "libtool",
         "libunwind",
         "liburing",
         "libuuid",
