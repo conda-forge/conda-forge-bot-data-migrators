@@ -10171,10 +10171,6 @@
           },
           {
             "source": "bash",
-            "target": "soapysdr"
-          },
-          {
-            "source": "bash",
             "target": "socat"
           },
           {
@@ -48491,10 +48487,6 @@
           },
           {
             "source": "libtool",
-            "target": "soapysdr"
-          },
-          {
-            "source": "libtool",
             "target": "socat"
           },
           {
@@ -58100,6 +58092,10 @@
           {
             "source": "ninja",
             "target": "smesh"
+          },
+          {
+            "source": "ninja",
+            "target": "soapysdr"
           },
           {
             "source": "ninja",
