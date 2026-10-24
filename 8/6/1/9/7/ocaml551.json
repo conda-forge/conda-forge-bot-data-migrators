@@ -56,27 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ocaml-dune",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-dune.json"
-            }
-          },
-          {
-            "id": "ocaml-findlib",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-findlib.json"
-            }
-          },
-          {
             "id": "ocamlbuild",
             "payload": {
               "__lazy_json__": "node_attrs/ocamlbuild.json"
-            }
-          },
-          {
-            "id": "ocaml-cmdliner",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-cmdliner.json"
             }
           }
         ]
@@ -468,7 +450,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
