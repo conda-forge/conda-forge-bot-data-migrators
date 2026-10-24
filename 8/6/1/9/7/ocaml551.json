@@ -55,21 +55,21 @@
         "links": [
           {
             "source": "ocamlbuild",
-            "target": "ocaml-cppo"
+            "target": "opam"
           }
         ],
         "multigraph": false,
         "nodes": [
           {
-            "id": "ocaml-cppo",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-cppo.json"
-            }
-          },
-          {
             "id": "ocamlbuild",
             "payload": {
               "__lazy_json__": "node_attrs/ocamlbuild.json"
+            }
+          },
+          {
+            "id": "opam",
+            "payload": {
+              "__lazy_json__": "node_attrs/opam.json"
             }
           }
         ]
