@@ -56,9 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ocaml-cppo",
+            "id": "ocamlbuild",
             "payload": {
-              "__lazy_json__": "node_attrs/ocaml-cppo.json"
+              "__lazy_json__": "node_attrs/ocamlbuild.json"
             }
           }
         ]
@@ -223,6 +223,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "ocamlbuild",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocamlbuild",
+            "target": "ocaml-cppo"
+          },
+          {
             "source": "opam",
             "target": "conda-forge-pinning"
           }
@@ -257,6 +265,12 @@
             "id": "ocaml-menhir",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-menhir.json"
+            }
+          },
+          {
+            "id": "ocamlbuild",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocamlbuild.json"
             }
           },
           {
