@@ -53,7 +53,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "exchangelib",
+            "payload": {
+              "__lazy_json__": "node_attrs/exchangelib.json"
+            }
+          },
+          {
+            "id": "px-proxy",
+            "payload": {
+              "__lazy_json__": "node_attrs/px-proxy.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
