@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for ocaml 5.5.1\n  kind: version\n  migration_number: 2\n  override_cbc_keys:\n    - ocaml_compiler_stub\nocaml_compiler_version:\n  - 5.5.1\nmigrator_ts: 1792710000.0\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for ocaml 5.5.1\n  include_build: true\n  kind: version\n  migration_number: 2\n  override_cbc_keys:\n    - ocaml_compiler_stub\nocaml_compiler_version:\n  - 5.5.1\nmigrator_ts: 1792710000.0\n",
     "ocaml551"
   ],
   "class": "MigrationYaml",
@@ -54,7 +54,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ocaml-dune",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-dune.json"
+            }
+          },
+          {
+            "id": "ocaml-findlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-findlib.json"
+            }
+          },
+          {
+            "id": "ocamlbuild",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocamlbuild.json"
+            }
+          },
+          {
+            "id": "ocaml-cmdliner",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-cmdliner.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -98,7 +123,136 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "ocaml-cmdliner",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-compiler-libs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-cppo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-cppo",
+            "target": "opam"
+          },
+          {
+            "source": "ocaml-csexp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-compiler-libs"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-cppo"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-csexp"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-gen"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-menhir"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-ppx-derivers"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-re"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-seq"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-sexplib0"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-stdlib-shims"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-yojson"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "opam"
+          },
+          {
+            "source": "ocaml-findlib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-gen",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-menhir",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-menhir",
+            "target": "opam"
+          },
+          {
+            "source": "ocaml-ppx-derivers",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-re",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-seq",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-seq",
+            "target": "ocaml-gen"
+          },
+          {
+            "source": "ocaml-sexplib0",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-stdlib-shims",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-yojson",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocamlbuild",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocamlbuild",
+            "target": "ocaml-cppo"
+          },
+          {
+            "source": "opam",
+            "target": "conda-forge-pinning"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -106,11 +260,108 @@
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
+          },
+          {
+            "id": "ocaml-cppo",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-cppo.json"
+            }
+          },
+          {
+            "id": "ocaml-dune",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-dune.json"
+            }
+          },
+          {
+            "id": "ocaml-findlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-findlib.json"
+            }
+          },
+          {
+            "id": "ocaml-menhir",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-menhir.json"
+            }
+          },
+          {
+            "id": "ocamlbuild",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocamlbuild.json"
+            }
+          },
+          {
+            "id": "opam",
+            "payload": {
+              "__lazy_json__": "node_attrs/opam.json"
+            }
+          },
+          {
+            "id": "ocaml-cmdliner",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-cmdliner.json"
+            }
+          },
+          {
+            "id": "ocaml-yojson",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-yojson.json"
+            }
+          },
+          {
+            "id": "ocaml-ppx-derivers",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ppx-derivers.json"
+            }
+          },
+          {
+            "id": "ocaml-stdlib-shims",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-stdlib-shims.json"
+            }
+          },
+          {
+            "id": "ocaml-re",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-re.json"
+            }
+          },
+          {
+            "id": "ocaml-gen",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-gen.json"
+            }
+          },
+          {
+            "id": "ocaml-csexp",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-csexp.json"
+            }
+          },
+          {
+            "id": "ocaml-seq",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-seq.json"
+            }
+          },
+          {
+            "id": "ocaml-compiler-libs",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-compiler-libs.json"
+            }
+          },
+          {
+            "id": "ocaml-sexplib0",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-sexplib0.json"
+            }
           }
         ]
       }
     },
     "ignored_deps_per_node": null,
+    "include_build": true,
     "kind": "version",
     "longterm": false,
     "migration_number": 2,
@@ -217,7 +468,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
