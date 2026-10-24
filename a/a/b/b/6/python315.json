@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "amdsmi-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/amdsmi-split.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -990,6 +997,10 @@
           {
             "source": "ambit",
             "target": "forte"
+          },
+          {
+            "source": "amdsmi-split",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "amp-atomistics",
@@ -68077,6 +68088,10 @@
           },
           {
             "source": "tbb",
+            "target": "amdsmi-split"
+          },
+          {
+            "source": "tbb",
             "target": "amp-atomistics"
           },
           {
@@ -105972,6 +105987,12 @@
             "id": "lcm",
             "payload": {
               "__lazy_json__": "node_attrs/lcm.json"
+            }
+          },
+          {
+            "id": "amdsmi-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/amdsmi-split.json"
             }
           }
         ]
