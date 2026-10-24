@@ -52,9 +52,20 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "ocamlbuild",
+            "target": "ocaml-cppo"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "ocaml-cppo",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-cppo.json"
+            }
+          },
           {
             "id": "ocamlbuild",
             "payload": {
