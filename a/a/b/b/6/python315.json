@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "klayout",
+            "payload": {
+              "__lazy_json__": "node_attrs/klayout.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -23214,6 +23221,10 @@
           {
             "source": "kiwisolver",
             "target": "vispy"
+          },
+          {
+            "source": "klayout",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "kliff",
@@ -72581,6 +72592,10 @@
           },
           {
             "source": "tbb",
+            "target": "klayout"
+          },
+          {
+            "source": "tbb",
             "target": "kliff"
           },
           {
@@ -105982,6 +105997,12 @@
             "id": "amdsmi-split",
             "payload": {
               "__lazy_json__": "node_attrs/amdsmi-split.json"
+            }
+          },
+          {
+            "id": "klayout",
+            "payload": {
+              "__lazy_json__": "node_attrs/klayout.json"
             }
           }
         ]
