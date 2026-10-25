@@ -52,27 +52,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "ocamlbuild",
-            "target": "opam"
-          }
-        ],
+        "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "ocamlbuild",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocamlbuild.json"
-            }
-          },
-          {
-            "id": "opam",
-            "payload": {
-              "__lazy_json__": "node_attrs/opam.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -234,14 +216,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "ocamlbuild",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "ocamlbuild",
-            "target": "ocaml-cppo"
-          },
-          {
             "source": "opam",
             "target": "conda-forge-pinning"
           }
@@ -276,12 +250,6 @@
             "id": "ocaml-menhir",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-menhir.json"
-            }
-          },
-          {
-            "id": "ocamlbuild",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocamlbuild.json"
             }
           },
           {
