@@ -59,18 +59,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/khiops-driver-s3.json"
             }
-          },
-          {
-            "id": "nvidia-dali-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
-            }
-          },
-          {
-            "id": "tiledb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiledb.json"
-            }
           }
         ]
       }
@@ -301,7 +289,7 @@
         "name": "combinev1conditionsmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
