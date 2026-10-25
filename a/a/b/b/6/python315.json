@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "liteparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/liteparse.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -106113,13 +106120,6 @@
         "class": "PyPIOrgMigrator",
         "kwargs": {},
         "name": "pypiorgmigrator"
-      },
-      {
-        "__mini_migrator__": true,
-        "args": [],
-        "class": "CombineV1ConditionsMigrator",
-        "kwargs": {},
-        "name": "combinev1conditionsmigrator"
       }
     ],
     "pr_limit": 5,
