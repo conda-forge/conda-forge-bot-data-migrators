@@ -604,20 +604,12 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "r-aws",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "r-base",
             "target": "conda-forge-pinning"
           },
           {
             "source": "r-base",
             "target": "ostaphep"
-          },
-          {
-            "source": "r-base",
-            "target": "r-aws"
           },
           {
             "source": "r-base",
@@ -666,10 +658,6 @@
           {
             "source": "r-gsl",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "r-gsl",
-            "target": "r-aws"
           },
           {
             "source": "r-mashr",
@@ -1274,12 +1262,6 @@
             "id": "qgis",
             "payload": {
               "__lazy_json__": "node_attrs/qgis.json"
-            }
-          },
-          {
-            "id": "r-aws",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-aws.json"
             }
           },
           {
