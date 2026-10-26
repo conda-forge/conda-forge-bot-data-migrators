@@ -43,9 +43,135 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "hypothesis",
+            "target": "eigenpy"
+          }
+        ],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ampl-asl",
+            "payload": {
+              "__lazy_json__": "node_attrs/ampl-asl.json"
+            }
+          },
+          {
+            "id": "backward-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/backward-cpp.json"
+            }
+          },
+          {
+            "id": "bcrypt",
+            "payload": {
+              "__lazy_json__": "node_attrs/bcrypt.json"
+            }
+          },
+          {
+            "id": "console_bridge",
+            "payload": {
+              "__lazy_json__": "node_attrs/console_bridge.json"
+            }
+          },
+          {
+            "id": "eigenpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/eigenpy.json"
+            }
+          },
+          {
+            "id": "fatrop",
+            "payload": {
+              "__lazy_json__": "node_attrs/fatrop.json"
+            }
+          },
+          {
+            "id": "hypothesis",
+            "payload": {
+              "__lazy_json__": "node_attrs/hypothesis.json"
+            }
+          },
+          {
+            "id": "knem-headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/knem-headers.json"
+            }
+          },
+          {
+            "id": "libconfig",
+            "payload": {
+              "__lazy_json__": "node_attrs/libconfig.json"
+            }
+          },
+          {
+            "id": "libfuse",
+            "payload": {
+              "__lazy_json__": "node_attrs/libfuse.json"
+            }
+          },
+          {
+            "id": "lm-sensors",
+            "payload": {
+              "__lazy_json__": "node_attrs/lm-sensors.json"
+            }
+          },
+          {
+            "id": "mold",
+            "payload": {
+              "__lazy_json__": "node_attrs/mold.json"
+            }
+          },
+          {
+            "id": "python-xxhash",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-xxhash.json"
+            }
+          },
+          {
+            "id": "qhull",
+            "payload": {
+              "__lazy_json__": "node_attrs/qhull.json"
+            }
+          },
+          {
+            "id": "ruby",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruby.json"
+            }
+          },
+          {
+            "id": "sccache",
+            "payload": {
+              "__lazy_json__": "node_attrs/sccache.json"
+            }
+          },
+          {
+            "id": "simde",
+            "payload": {
+              "__lazy_json__": "node_attrs/simde.json"
+            }
+          },
+          {
+            "id": "spral",
+            "payload": {
+              "__lazy_json__": "node_attrs/spral.json"
+            }
+          },
+          {
+            "id": "urdfdom_headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/urdfdom_headers.json"
+            }
+          },
+          {
+            "id": "xpmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/xpmem.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -114,8 +240,16 @@
             "target": "pulseaudio"
           },
           {
+            "source": "ampl-asl",
+            "target": "ipopt"
+          },
+          {
             "source": "aom",
             "target": "ffmpeg"
+          },
+          {
+            "source": "assimp",
+            "target": "coal"
           },
           {
             "source": "ast-serialize",
@@ -142,8 +276,20 @@
             "target": "dulwich"
           },
           {
+            "source": "backports.zstd",
+            "target": "scipy"
+          },
+          {
             "source": "backtrace",
             "target": "llvmdev"
+          },
+          {
+            "source": "backward-cpp",
+            "target": "gz-tools2"
+          },
+          {
+            "source": "binutils",
+            "target": "mvapich"
           },
           {
             "source": "binutils",
@@ -159,11 +305,35 @@
           },
           {
             "source": "binutils",
+            "target": "scipy"
+          },
+          {
+            "source": "binutils",
             "target": "soxr"
           },
           {
             "source": "blas",
+            "target": "casadi"
+          },
+          {
+            "source": "blasfeo",
+            "target": "casadi"
+          },
+          {
+            "source": "blasfeo",
+            "target": "fatrop"
+          },
+          {
+            "source": "blas",
             "target": "gsl"
+          },
+          {
+            "source": "blas",
+            "target": "ipopt"
+          },
+          {
+            "source": "blas",
+            "target": "mumps"
           },
           {
             "source": "blas",
@@ -172,6 +342,30 @@
           {
             "source": "blas",
             "target": "r-base"
+          },
+          {
+            "source": "blas",
+            "target": "scalapack"
+          },
+          {
+            "source": "blas",
+            "target": "scipy"
+          },
+          {
+            "source": "blas",
+            "target": "spral"
+          },
+          {
+            "source": "boost",
+            "target": "coal"
+          },
+          {
+            "source": "boost",
+            "target": "eigenpy"
+          },
+          {
+            "source": "boost",
+            "target": "pinocchio"
           },
           {
             "source": "brotli",
@@ -198,8 +392,16 @@
             "target": "nodejs"
           },
           {
+            "source": "brotli",
+            "target": "scipy"
+          },
+          {
             "source": "bwidget",
             "target": "r-base"
+          },
+          {
+            "source": "bzip2",
+            "target": "boost"
           },
           {
             "source": "bzip2",
@@ -230,6 +432,10 @@
             "target": "r-base"
           },
           {
+            "source": "bzip2",
+            "target": "scotch"
+          },
+          {
             "source": "c-ares",
             "target": "nghttp2"
           },
@@ -258,12 +464,24 @@
             "target": "r-base"
           },
           {
+            "source": "casadi",
+            "target": "pinocchio"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "mvapich"
+          },
+          {
             "source": "cctools-and-ld64",
             "target": "ncurses"
           },
           {
             "source": "cctools-and-ld64",
             "target": "r-base"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "scipy"
           },
           {
             "source": "cctools-and-ld64",
@@ -291,6 +509,10 @@
           },
           {
             "source": "cli11",
+            "target": "gz-utils"
+          },
+          {
+            "source": "cli11",
             "target": "mamba"
           },
           {
@@ -298,8 +520,24 @@
             "target": "micromamba"
           },
           {
+            "source": "coal",
+            "target": "pinocchio"
+          },
+          {
+            "source": "coal",
+            "target": "roboplan"
+          },
+          {
             "source": "conda",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "console_bridge",
+            "target": "pinocchio"
+          },
+          {
+            "source": "console_bridge",
+            "target": "urdfdom"
           },
           {
             "source": "cpp-expected",
@@ -308,6 +546,10 @@
           {
             "source": "cpp-expected",
             "target": "micromamba"
+          },
+          {
+            "source": "cpp-expected",
+            "target": "roboplan"
           },
           {
             "source": "cuda-cccl",
@@ -344,6 +586,10 @@
           {
             "source": "curl",
             "target": "micromamba"
+          },
+          {
+            "source": "curl",
+            "target": "mvapich"
           },
           {
             "source": "curl",
@@ -395,6 +641,10 @@
           },
           {
             "source": "cython",
+            "target": "scipy"
+          },
+          {
+            "source": "cython",
             "target": "seccomp-split"
           },
           {
@@ -419,7 +669,55 @@
           },
           {
             "source": "eigen",
+            "target": "casadi"
+          },
+          {
+            "source": "eigen",
+            "target": "coal"
+          },
+          {
+            "source": "eigen",
+            "target": "eigenpy"
+          },
+          {
+            "source": "eigen",
+            "target": "gz-math"
+          },
+          {
+            "source": "eigen",
             "target": "jack"
+          },
+          {
+            "source": "eigen",
+            "target": "pinocchio"
+          },
+          {
+            "source": "eigen",
+            "target": "proxsuite"
+          },
+          {
+            "source": "eigenpy",
+            "target": "coal"
+          },
+          {
+            "source": "eigenpy",
+            "target": "pinocchio"
+          },
+          {
+            "source": "eigen",
+            "target": "roboplan"
+          },
+          {
+            "source": "eigen",
+            "target": "toppra"
+          },
+          {
+            "source": "elfutils",
+            "target": "backward-cpp"
+          },
+          {
+            "source": "elfutils",
+            "target": "gz-tools2"
           },
           {
             "source": "elfutils",
@@ -500,6 +798,10 @@
           {
             "source": "fast_float",
             "target": "libplacebo"
+          },
+          {
+            "source": "fatrop",
+            "target": "casadi"
           },
           {
             "source": "ffmpeg",
@@ -723,11 +1025,23 @@
           },
           {
             "source": "gmp",
+            "target": "mvapich"
+          },
+          {
+            "source": "gmp",
             "target": "ncurses"
           },
           {
             "source": "gmp",
             "target": "r-base"
+          },
+          {
+            "source": "gmp",
+            "target": "ruby"
+          },
+          {
+            "source": "gmp",
+            "target": "scipy"
           },
           {
             "source": "gmp",
@@ -771,7 +1085,47 @@
           },
           {
             "source": "gtest",
+            "target": "toppra"
+          },
+          {
+            "source": "gtest",
             "target": "zlib-ng"
+          },
+          {
+            "source": "gz-cmake",
+            "target": "gz-math"
+          },
+          {
+            "source": "gz-cmake",
+            "target": "gz-tools2"
+          },
+          {
+            "source": "gz-cmake",
+            "target": "gz-utils"
+          },
+          {
+            "source": "gz-cmake",
+            "target": "libsdformat"
+          },
+          {
+            "source": "gz-math",
+            "target": "libsdformat"
+          },
+          {
+            "source": "gz-math",
+            "target": "pinocchio"
+          },
+          {
+            "source": "gz-tools2",
+            "target": "libsdformat"
+          },
+          {
+            "source": "gz-utils",
+            "target": "gz-math"
+          },
+          {
+            "source": "gz-utils",
+            "target": "libsdformat"
           },
           {
             "source": "harfbuzz",
@@ -788,6 +1142,14 @@
           {
             "source": "harfbuzz",
             "target": "pango"
+          },
+          {
+            "source": "hypothesis",
+            "target": "scipy"
+          },
+          {
+            "source": "icu",
+            "target": "boost"
           },
           {
             "source": "icu",
@@ -834,12 +1196,24 @@
             "target": "libvpl"
           },
           {
+            "source": "ipopt",
+            "target": "casadi"
+          },
+          {
+            "source": "isl",
+            "target": "mvapich"
+          },
+          {
             "source": "isl",
             "target": "ncurses"
           },
           {
             "source": "isl",
             "target": "r-base"
+          },
+          {
+            "source": "isl",
+            "target": "scipy"
           },
           {
             "source": "isl",
@@ -855,6 +1229,10 @@
           },
           {
             "source": "json-c",
+            "target": "mvapich"
+          },
+          {
+            "source": "json-c",
             "target": "ttyd"
           },
           {
@@ -864,6 +1242,10 @@
           {
             "source": "keyutils",
             "target": "krb5"
+          },
+          {
+            "source": "knem-headers",
+            "target": "mvapich"
           },
           {
             "source": "krb5",
@@ -891,7 +1273,19 @@
           },
           {
             "source": "lapack",
+            "target": "casadi"
+          },
+          {
+            "source": "lapack",
             "target": "gsl"
+          },
+          {
+            "source": "lapack",
+            "target": "ipopt"
+          },
+          {
+            "source": "lapack",
+            "target": "mumps"
           },
           {
             "source": "lapack",
@@ -900,6 +1294,18 @@
           {
             "source": "lapack",
             "target": "r-base"
+          },
+          {
+            "source": "lapack",
+            "target": "scalapack"
+          },
+          {
+            "source": "lapack",
+            "target": "scipy"
+          },
+          {
+            "source": "lapack",
+            "target": "spral"
           },
           {
             "source": "lcms2",
@@ -950,12 +1356,24 @@
             "target": "systemd"
           },
           {
+            "source": "libconfig",
+            "target": "shs-libcxi"
+          },
+          {
+            "source": "libcxx",
+            "target": "mvapich"
+          },
+          {
             "source": "libcxx",
             "target": "ncurses"
           },
           {
             "source": "libcxx",
             "target": "r-base"
+          },
+          {
+            "source": "libcxx",
+            "target": "scipy"
           },
           {
             "source": "libcxx",
@@ -1039,11 +1457,23 @@
           },
           {
             "source": "libffi",
+            "target": "ruby"
+          },
+          {
+            "source": "libffi",
             "target": "wayland"
           },
           {
             "source": "libflac",
             "target": "libsndfile"
+          },
+          {
+            "source": "libfuse",
+            "target": "mvapich"
+          },
+          {
+            "source": "libfuse",
+            "target": "shs-libcxi"
           },
           {
             "source": "libgcrypt",
@@ -1067,11 +1497,19 @@
           },
           {
             "source": "libhwloc",
+            "target": "mvapich"
+          },
+          {
+            "source": "libhwloc",
             "target": "openmpi"
           },
           {
             "source": "libhwloc",
             "target": "openpmix"
+          },
+          {
+            "source": "libhwloc",
+            "target": "spral"
           },
           {
             "source": "libhwloc",
@@ -1103,7 +1541,19 @@
           },
           {
             "source": "libiconv",
+            "target": "libfuse"
+          },
+          {
+            "source": "libiconv",
             "target": "libxml2"
+          },
+          {
+            "source": "libiconv",
+            "target": "lm-sensors"
+          },
+          {
+            "source": "libiconv",
+            "target": "mvapich"
           },
           {
             "source": "libiconv",
@@ -1124,6 +1574,10 @@
           {
             "source": "libiconv",
             "target": "rsync"
+          },
+          {
+            "source": "libiconv",
+            "target": "scipy"
           },
           {
             "source": "libiconv",
@@ -1171,11 +1625,19 @@
           },
           {
             "source": "libnl",
+            "target": "mvapich"
+          },
+          {
+            "source": "libnl",
             "target": "openmpi"
           },
           {
             "source": "libnl",
             "target": "rdma-core"
+          },
+          {
+            "source": "libnl",
+            "target": "shs-libcxi"
           },
           {
             "source": "libogg",
@@ -1200,6 +1662,10 @@
           {
             "source": "libopus",
             "target": "libsndfile"
+          },
+          {
+            "source": "libosqp",
+            "target": "casadi"
           },
           {
             "source": "libpciaccess",
@@ -1262,8 +1728,16 @@
             "target": "micromamba"
           },
           {
+            "source": "libqdldl",
+            "target": "libosqp"
+          },
+          {
             "source": "librsvg",
             "target": "ffmpeg"
+          },
+          {
+            "source": "libsdformat",
+            "target": "pinocchio"
           },
           {
             "source": "libsndfile",
@@ -1407,6 +1881,10 @@
           },
           {
             "source": "libuv",
+            "target": "shs-libcxi"
+          },
+          {
+            "source": "libuv",
             "target": "ttyd"
           },
           {
@@ -1495,6 +1973,10 @@
           },
           {
             "source": "libxcrypt",
+            "target": "ruby"
+          },
+          {
+            "source": "libxcrypt",
             "target": "util-linux"
           },
           {
@@ -1535,6 +2017,10 @@
           },
           {
             "source": "libxml2",
+            "target": "mvapich"
+          },
+          {
+            "source": "libxml2",
             "target": "ncurses"
           },
           {
@@ -1544,6 +2030,10 @@
           {
             "source": "libxml2",
             "target": "r-xml2"
+          },
+          {
+            "source": "libxml2",
+            "target": "scipy"
           },
           {
             "source": "libxml2",
@@ -1567,6 +2057,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "mvapich"
+          },
+          {
+            "source": "llvmdev",
             "target": "ncurses"
           },
           {
@@ -1579,7 +2073,15 @@
           },
           {
             "source": "llvmdev",
+            "target": "scipy"
+          },
+          {
+            "source": "llvmdev",
             "target": "soxr"
+          },
+          {
+            "source": "lm-sensors",
+            "target": "shs-libcxi"
           },
           {
             "source": "lz4-c",
@@ -1638,12 +2140,32 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "mimalloc",
+            "target": "mold"
+          },
+          {
+            "source": "mpc",
+            "target": "mvapich"
+          },
+          {
             "source": "mpc",
             "target": "ncurses"
           },
           {
             "source": "mpc",
             "target": "r-base"
+          },
+          {
+            "source": "mpc",
+            "target": "scipy"
           },
           {
             "source": "mpc",
@@ -1659,11 +2181,19 @@
           },
           {
             "source": "mpfr",
+            "target": "mvapich"
+          },
+          {
+            "source": "mpfr",
             "target": "ncurses"
           },
           {
             "source": "mpfr",
             "target": "r-base"
+          },
+          {
+            "source": "mpfr",
+            "target": "scipy"
           },
           {
             "source": "mpfr",
@@ -1680,6 +2210,22 @@
           {
             "source": "mpich",
             "target": "fftw"
+          },
+          {
+            "source": "mpich",
+            "target": "mumps"
+          },
+          {
+            "source": "mpich",
+            "target": "parmetis"
+          },
+          {
+            "source": "mpich",
+            "target": "scalapack"
+          },
+          {
+            "source": "mpich",
+            "target": "scotch"
           },
           {
             "source": "msgpack-c",
@@ -1704,6 +2250,18 @@
           {
             "source": "multidict",
             "target": "yarl"
+          },
+          {
+            "source": "mumps",
+            "target": "casadi"
+          },
+          {
+            "source": "mumps",
+            "target": "ipopt"
+          },
+          {
+            "source": "mvapich",
+            "target": "scalapack"
           },
           {
             "source": "mypy",
@@ -1743,6 +2301,10 @@
           },
           {
             "source": "ncurses",
+            "target": "ruby"
+          },
+          {
+            "source": "ncurses",
             "target": "sqlite"
           },
           {
@@ -1768,6 +2330,10 @@
           {
             "source": "ninja",
             "target": "numpy"
+          },
+          {
+            "source": "ninja",
+            "target": "scipy"
           },
           {
             "source": "nlohmann_json",
@@ -1798,16 +2364,64 @@
             "target": "pnpm-licenses"
           },
           {
+            "source": "numactl",
+            "target": "shs-libcxi"
+          },
+          {
+            "source": "numpy",
+            "target": "boost"
+          },
+          {
+            "source": "numpy",
+            "target": "casadi"
+          },
+          {
+            "source": "numpy",
+            "target": "coal"
+          },
+          {
+            "source": "numpy",
+            "target": "eigenpy"
+          },
+          {
             "source": "numpy",
             "target": "openvino"
+          },
+          {
+            "source": "numpy",
+            "target": "pinocchio"
+          },
+          {
+            "source": "numpy",
+            "target": "proxsuite"
           },
           {
             "source": "numpy",
             "target": "rapidfuzz"
           },
           {
+            "source": "numpy",
+            "target": "roboplan"
+          },
+          {
+            "source": "numpy",
+            "target": "scipy"
+          },
+          {
+            "source": "numpy",
+            "target": "toppra"
+          },
+          {
             "source": "ocl-icd",
             "target": "openvino"
+          },
+          {
+            "source": "octomap",
+            "target": "coal"
+          },
+          {
+            "source": "octomap",
+            "target": "roboplan"
           },
           {
             "source": "oniguruma",
@@ -1846,12 +2460,36 @@
             "target": "fftw"
           },
           {
+            "source": "openmpi",
+            "target": "mumps"
+          },
+          {
+            "source": "openmpi",
+            "target": "parmetis"
+          },
+          {
+            "source": "openmpi",
+            "target": "scalapack"
+          },
+          {
+            "source": "openmpi",
+            "target": "scotch"
+          },
+          {
+            "source": "openmp",
+            "target": "mvapich"
+          },
+          {
             "source": "openmp",
             "target": "ncurses"
           },
           {
             "source": "openmp",
             "target": "r-base"
+          },
+          {
+            "source": "openmp",
+            "target": "scipy"
           },
           {
             "source": "openmp",
@@ -1907,6 +2545,10 @@
           },
           {
             "source": "openssl",
+            "target": "mold"
+          },
+          {
+            "source": "openssl",
             "target": "nghttp2"
           },
           {
@@ -1939,6 +2581,14 @@
           },
           {
             "source": "openssl",
+            "target": "ruby"
+          },
+          {
+            "source": "openssl",
+            "target": "sccache"
+          },
+          {
+            "source": "openssl",
             "target": "sigtool"
           },
           {
@@ -1964,6 +2614,10 @@
           {
             "source": "pango",
             "target": "r-base"
+          },
+          {
+            "source": "parmetis",
+            "target": "mumps"
           },
           {
             "source": "patch",
@@ -2006,6 +2660,10 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "pinocchio",
+            "target": "roboplan"
+          },
+          {
             "source": "pixman",
             "target": "cairo"
           },
@@ -2016,6 +2674,10 @@
           {
             "source": "pkg-config",
             "target": "gobject-introspection"
+          },
+          {
+            "source": "pkg-config",
+            "target": "scipy"
           },
           {
             "source": "pnpm-licenses",
@@ -2040,6 +2702,14 @@
           {
             "source": "propcache",
             "target": "yarl"
+          },
+          {
+            "source": "proxsuite",
+            "target": "casadi"
+          },
+          {
+            "source": "proxsuite",
+            "target": "roboplan"
           },
           {
             "source": "psutil",
@@ -2151,7 +2821,19 @@
           },
           {
             "source": "python",
+            "target": "bcrypt"
+          },
+          {
+            "source": "python",
+            "target": "boost"
+          },
+          {
+            "source": "python",
             "target": "brotli"
+          },
+          {
+            "source": "python",
+            "target": "casadi"
           },
           {
             "source": "python",
@@ -2160,6 +2842,10 @@
           {
             "source": "python",
             "target": "chardet"
+          },
+          {
+            "source": "python",
+            "target": "coal"
           },
           {
             "source": "python",
@@ -2183,6 +2869,10 @@
           },
           {
             "source": "python",
+            "target": "eigenpy"
+          },
+          {
+            "source": "python",
             "target": "frozendict"
           },
           {
@@ -2203,7 +2893,19 @@
           },
           {
             "source": "python",
+            "target": "gz-math"
+          },
+          {
+            "source": "python",
+            "target": "hypothesis"
+          },
+          {
+            "source": "python",
             "target": "lazy-object-proxy"
+          },
+          {
+            "source": "python",
+            "target": "libsdformat"
           },
           {
             "source": "python",
@@ -2267,7 +2969,15 @@
           },
           {
             "source": "python",
+            "target": "pinocchio"
+          },
+          {
+            "source": "python",
             "target": "propcache"
+          },
+          {
+            "source": "python",
+            "target": "proxsuite"
           },
           {
             "source": "python",
@@ -2295,6 +3005,10 @@
           },
           {
             "source": "python",
+            "target": "python-xxhash"
+          },
+          {
+            "source": "python",
             "target": "pytokens"
           },
           {
@@ -2311,6 +3025,10 @@
           },
           {
             "source": "python",
+            "target": "roboplan"
+          },
+          {
+            "source": "python",
             "target": "rpds-py"
           },
           {
@@ -2323,11 +3041,19 @@
           },
           {
             "source": "python",
+            "target": "scipy"
+          },
+          {
+            "source": "python",
             "target": "seccomp-split"
           },
           {
             "source": "python",
             "target": "tbb"
+          },
+          {
+            "source": "python",
+            "target": "toppra"
           },
           {
             "source": "python",
@@ -2364,6 +3090,18 @@
           {
             "source": "pyyaml",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "qhull",
+            "target": "coal"
+          },
+          {
+            "source": "qhull",
+            "target": "pinocchio"
+          },
+          {
+            "source": "qhull",
+            "target": "roboplan"
           },
           {
             "source": "r-backports",
@@ -2711,6 +3449,10 @@
           },
           {
             "source": "rdma-core",
+            "target": "mvapich"
+          },
+          {
+            "source": "rdma-core",
             "target": "ucc"
           },
           {
@@ -2720,6 +3462,10 @@
           {
             "source": "readline",
             "target": "r-base"
+          },
+          {
+            "source": "readline",
+            "target": "ruby"
           },
           {
             "source": "readline",
@@ -2770,6 +3516,26 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "ruby",
+            "target": "gz-tools2"
+          },
+          {
+            "source": "scalapack",
+            "target": "mumps"
+          },
+          {
+            "source": "scipy",
+            "target": "eigenpy"
+          },
+          {
+            "source": "scipy",
+            "target": "proxsuite"
+          },
+          {
+            "source": "scotch",
+            "target": "mumps"
+          },
+          {
             "source": "seccomp-split",
             "target": "systemd"
           },
@@ -2782,8 +3548,16 @@
             "target": "libplacebo"
           },
           {
+            "source": "shs-libcxi",
+            "target": "mvapich"
+          },
+          {
             "source": "sigtool",
             "target": "cctools-and-ld64"
+          },
+          {
+            "source": "simde",
+            "target": "proxsuite"
           },
           {
             "source": "simdjson",
@@ -2800,6 +3574,10 @@
           {
             "source": "soxr",
             "target": "pulseaudio"
+          },
+          {
+            "source": "spdlog",
+            "target": "gz-utils"
           },
           {
             "source": "spdlog",
@@ -2820,6 +3598,10 @@
           {
             "source": "spirv-tools",
             "target": "shaderc"
+          },
+          {
+            "source": "spral",
+            "target": "ipopt"
           },
           {
             "source": "sqlite",
@@ -2850,8 +3632,16 @@
             "target": "sdl"
           },
           {
+            "source": "systemd",
+            "target": "shs-libcxi"
+          },
+          {
             "source": "tapi",
             "target": "cctools-and-ld64"
+          },
+          {
+            "source": "tbb",
+            "target": "mold"
           },
           {
             "source": "tbb",
@@ -2866,8 +3656,28 @@
             "target": "check"
           },
           {
+            "source": "tinyxml2",
+            "target": "casadi"
+          },
+          {
+            "source": "tinyxml2",
+            "target": "libsdformat"
+          },
+          {
+            "source": "tinyxml2",
+            "target": "roboplan"
+          },
+          {
+            "source": "tinyxml2",
+            "target": "urdfdom"
+          },
+          {
             "source": "tktable",
             "target": "r-base"
+          },
+          {
+            "source": "toppra",
+            "target": "roboplan"
           },
           {
             "source": "ttyd",
@@ -2888,6 +3698,18 @@
           {
             "source": "ucx-split",
             "target": "ucc"
+          },
+          {
+            "source": "urdfdom_headers",
+            "target": "urdfdom"
+          },
+          {
+            "source": "urdfdom",
+            "target": "libsdformat"
+          },
+          {
+            "source": "urdfdom",
+            "target": "pinocchio"
           },
           {
             "source": "util-linux",
@@ -2927,11 +3749,19 @@
           },
           {
             "source": "winpthreads",
+            "target": "mvapich"
+          },
+          {
+            "source": "winpthreads",
             "target": "ncurses"
           },
           {
             "source": "winpthreads",
             "target": "r-base"
+          },
+          {
+            "source": "winpthreads",
+            "target": "scipy"
           },
           {
             "source": "winpthreads",
@@ -3370,12 +4200,24 @@
             "target": "libxkbcommon"
           },
           {
+            "source": "xpmem",
+            "target": "mvapich"
+          },
+          {
             "source": "xxhash",
             "target": "libplacebo"
           },
           {
             "source": "xxhash",
+            "target": "python-xxhash"
+          },
+          {
+            "source": "xxhash",
             "target": "rsync"
+          },
+          {
+            "source": "xz",
+            "target": "boost"
           },
           {
             "source": "xz",
@@ -3427,6 +4269,10 @@
           },
           {
             "source": "xz",
+            "target": "scotch"
+          },
+          {
+            "source": "xz",
             "target": "systemd"
           },
           {
@@ -3438,8 +4284,20 @@
             "target": "micromamba"
           },
           {
+            "source": "yaml-cpp",
+            "target": "roboplan"
+          },
+          {
             "source": "yaml",
             "target": "pyyaml"
+          },
+          {
+            "source": "yaml",
+            "target": "ruby"
+          },
+          {
+            "source": "yaml",
+            "target": "shs-libcxi"
           },
           {
             "source": "yarl",
@@ -3455,7 +4313,15 @@
           },
           {
             "source": "zlib",
+            "target": "assimp"
+          },
+          {
+            "source": "zlib",
             "target": "backtrace"
+          },
+          {
+            "source": "zlib",
+            "target": "boost"
           },
           {
             "source": "zlib",
@@ -3575,6 +4441,14 @@
           },
           {
             "source": "zlib",
+            "target": "mold"
+          },
+          {
+            "source": "zlib",
+            "target": "mvapich"
+          },
+          {
+            "source": "zlib",
             "target": "ncurses"
           },
           {
@@ -3635,7 +4509,23 @@
           },
           {
             "source": "zlib",
+            "target": "ruby"
+          },
+          {
+            "source": "zlib",
+            "target": "scipy"
+          },
+          {
+            "source": "zlib",
+            "target": "scotch"
+          },
+          {
+            "source": "zlib",
             "target": "soxr"
+          },
+          {
+            "source": "zlib",
+            "target": "spral"
           },
           {
             "source": "zlib",
@@ -3679,6 +4569,10 @@
           },
           {
             "source": "zstd",
+            "target": "boost"
+          },
+          {
+            "source": "zstd",
             "target": "cmake"
           },
           {
@@ -3711,6 +4605,14 @@
           },
           {
             "source": "zstd",
+            "target": "mold"
+          },
+          {
+            "source": "zstd",
+            "target": "mvapich"
+          },
+          {
+            "source": "zstd",
             "target": "ncurses"
           },
           {
@@ -3732,6 +4634,10 @@
           {
             "source": "zstd",
             "target": "rsync"
+          },
+          {
+            "source": "zstd",
+            "target": "scipy"
           },
           {
             "source": "zstd",
@@ -3771,6 +4677,12 @@
             }
           },
           {
+            "id": "ampl-asl",
+            "payload": {
+              "__lazy_json__": "node_attrs/ampl-asl.json"
+            }
+          },
+          {
             "id": "aom",
             "payload": {
               "__lazy_json__": "node_attrs/aom.json"
@@ -3780,6 +4692,12 @@
             "id": "argon2-cffi-bindings",
             "payload": {
               "__lazy_json__": "node_attrs/argon2-cffi-bindings.json"
+            }
+          },
+          {
+            "id": "assimp",
+            "payload": {
+              "__lazy_json__": "node_attrs/assimp.json"
             }
           },
           {
@@ -3819,6 +4737,18 @@
             }
           },
           {
+            "id": "backward-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/backward-cpp.json"
+            }
+          },
+          {
+            "id": "bcrypt",
+            "payload": {
+              "__lazy_json__": "node_attrs/bcrypt.json"
+            }
+          },
+          {
             "id": "binutils",
             "payload": {
               "__lazy_json__": "node_attrs/binutils.json"
@@ -3828,6 +4758,18 @@
             "id": "blas",
             "payload": {
               "__lazy_json__": "node_attrs/blas.json"
+            }
+          },
+          {
+            "id": "blasfeo",
+            "payload": {
+              "__lazy_json__": "node_attrs/blasfeo.json"
+            }
+          },
+          {
+            "id": "boost",
+            "payload": {
+              "__lazy_json__": "node_attrs/boost.json"
             }
           },
           {
@@ -3858,6 +4800,12 @@
             "id": "cairo",
             "payload": {
               "__lazy_json__": "node_attrs/cairo.json"
+            }
+          },
+          {
+            "id": "casadi",
+            "payload": {
+              "__lazy_json__": "node_attrs/casadi.json"
             }
           },
           {
@@ -3903,6 +4851,12 @@
             }
           },
           {
+            "id": "coal",
+            "payload": {
+              "__lazy_json__": "node_attrs/coal.json"
+            }
+          },
+          {
             "id": "conda",
             "payload": {
               "__lazy_json__": "node_attrs/conda.json"
@@ -3912,6 +4866,12 @@
             "id": "conda-forge-ci-setup",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-ci-setup.json"
+            }
+          },
+          {
+            "id": "console_bridge",
+            "payload": {
+              "__lazy_json__": "node_attrs/console_bridge.json"
             }
           },
           {
@@ -3987,6 +4947,12 @@
             }
           },
           {
+            "id": "eigenpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/eigenpy.json"
+            }
+          },
+          {
             "id": "elfutils",
             "payload": {
               "__lazy_json__": "node_attrs/elfutils.json"
@@ -4002,6 +4968,12 @@
             "id": "fast_float",
             "payload": {
               "__lazy_json__": "node_attrs/fast_float.json"
+            }
+          },
+          {
+            "id": "fatrop",
+            "payload": {
+              "__lazy_json__": "node_attrs/fatrop.json"
             }
           },
           {
@@ -4137,9 +5109,39 @@
             }
           },
           {
+            "id": "gz-cmake",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-cmake.json"
+            }
+          },
+          {
+            "id": "gz-math",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-math.json"
+            }
+          },
+          {
+            "id": "gz-tools2",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-tools2.json"
+            }
+          },
+          {
+            "id": "gz-utils",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-utils.json"
+            }
+          },
+          {
             "id": "harfbuzz",
             "payload": {
               "__lazy_json__": "node_attrs/harfbuzz.json"
+            }
+          },
+          {
+            "id": "hypothesis",
+            "payload": {
+              "__lazy_json__": "node_attrs/hypothesis.json"
             }
           },
           {
@@ -4164,6 +5166,12 @@
             "id": "intel-media-driver",
             "payload": {
               "__lazy_json__": "node_attrs/intel-media-driver.json"
+            }
+          },
+          {
+            "id": "ipopt",
+            "payload": {
+              "__lazy_json__": "node_attrs/ipopt.json"
             }
           },
           {
@@ -4206,6 +5214,12 @@
             "id": "khronos-opencl-icd-loader",
             "payload": {
               "__lazy_json__": "node_attrs/khronos-opencl-icd-loader.json"
+            }
+          },
+          {
+            "id": "knem-headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/knem-headers.json"
             }
           },
           {
@@ -4275,6 +5289,12 @@
             }
           },
           {
+            "id": "libconfig",
+            "payload": {
+              "__lazy_json__": "node_attrs/libconfig.json"
+            }
+          },
+          {
             "id": "libcxx",
             "payload": {
               "__lazy_json__": "node_attrs/libcxx.json"
@@ -4332,6 +5352,12 @@
             "id": "libflac",
             "payload": {
               "__lazy_json__": "node_attrs/libflac.json"
+            }
+          },
+          {
+            "id": "libfuse",
+            "payload": {
+              "__lazy_json__": "node_attrs/libfuse.json"
             }
           },
           {
@@ -4407,6 +5433,12 @@
             }
           },
           {
+            "id": "libosqp",
+            "payload": {
+              "__lazy_json__": "node_attrs/libosqp.json"
+            }
+          },
+          {
             "id": "libpciaccess",
             "payload": {
               "__lazy_json__": "node_attrs/libpciaccess.json"
@@ -4437,9 +5469,21 @@
             }
           },
           {
+            "id": "libqdldl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libqdldl.json"
+            }
+          },
+          {
             "id": "librsvg",
             "payload": {
               "__lazy_json__": "node_attrs/librsvg.json"
+            }
+          },
+          {
+            "id": "libsdformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
@@ -4611,6 +5655,12 @@
             }
           },
           {
+            "id": "lm-sensors",
+            "payload": {
+              "__lazy_json__": "node_attrs/lm-sensors.json"
+            }
+          },
+          {
             "id": "lxml",
             "payload": {
               "__lazy_json__": "node_attrs/lxml.json"
@@ -4659,9 +5709,27 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
+            }
+          },
+          {
+            "id": "mimalloc",
+            "payload": {
+              "__lazy_json__": "node_attrs/mimalloc.json"
+            }
+          },
+          {
+            "id": "mold",
+            "payload": {
+              "__lazy_json__": "node_attrs/mold.json"
             }
           },
           {
@@ -4713,6 +5781,18 @@
             }
           },
           {
+            "id": "mumps",
+            "payload": {
+              "__lazy_json__": "node_attrs/mumps.json"
+            }
+          },
+          {
+            "id": "mvapich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
             "id": "mypy",
             "payload": {
               "__lazy_json__": "node_attrs/mypy.json"
@@ -4761,6 +5841,12 @@
             }
           },
           {
+            "id": "numactl",
+            "payload": {
+              "__lazy_json__": "node_attrs/numactl.json"
+            }
+          },
+          {
             "id": "numpy",
             "payload": {
               "__lazy_json__": "node_attrs/numpy.json"
@@ -4770,6 +5856,12 @@
             "id": "ocl-icd",
             "payload": {
               "__lazy_json__": "node_attrs/ocl-icd.json"
+            }
+          },
+          {
+            "id": "octomap",
+            "payload": {
+              "__lazy_json__": "node_attrs/octomap.json"
             }
           },
           {
@@ -4857,6 +5949,12 @@
             }
           },
           {
+            "id": "parmetis",
+            "payload": {
+              "__lazy_json__": "node_attrs/parmetis.json"
+            }
+          },
+          {
             "id": "patch",
             "payload": {
               "__lazy_json__": "node_attrs/patch.json"
@@ -4884,6 +5982,12 @@
             "id": "pillow",
             "payload": {
               "__lazy_json__": "node_attrs/pillow.json"
+            }
+          },
+          {
+            "id": "pinocchio",
+            "payload": {
+              "__lazy_json__": "node_attrs/pinocchio.json"
             }
           },
           {
@@ -4932,6 +6036,12 @@
             "id": "propcache",
             "payload": {
               "__lazy_json__": "node_attrs/propcache.json"
+            }
+          },
+          {
+            "id": "proxsuite",
+            "payload": {
+              "__lazy_json__": "node_attrs/proxsuite.json"
             }
           },
           {
@@ -4995,6 +6105,12 @@
             }
           },
           {
+            "id": "python-xxhash",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-xxhash.json"
+            }
+          },
+          {
             "id": "pytokens",
             "payload": {
               "__lazy_json__": "node_attrs/pytokens.json"
@@ -5010,6 +6126,12 @@
             "id": "pyzmq",
             "payload": {
               "__lazy_json__": "node_attrs/pyzmq.json"
+            }
+          },
+          {
+            "id": "qhull",
+            "payload": {
+              "__lazy_json__": "node_attrs/qhull.json"
             }
           },
           {
@@ -5235,6 +6357,12 @@
             }
           },
           {
+            "id": "roboplan",
+            "payload": {
+              "__lazy_json__": "node_attrs/roboplan.json"
+            }
+          },
+          {
             "id": "rocm-core",
             "payload": {
               "__lazy_json__": "node_attrs/rocm-core.json"
@@ -5271,6 +6399,36 @@
             }
           },
           {
+            "id": "ruby",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruby.json"
+            }
+          },
+          {
+            "id": "scalapack",
+            "payload": {
+              "__lazy_json__": "node_attrs/scalapack.json"
+            }
+          },
+          {
+            "id": "sccache",
+            "payload": {
+              "__lazy_json__": "node_attrs/sccache.json"
+            }
+          },
+          {
+            "id": "scipy",
+            "payload": {
+              "__lazy_json__": "node_attrs/scipy.json"
+            }
+          },
+          {
+            "id": "scotch",
+            "payload": {
+              "__lazy_json__": "node_attrs/scotch.json"
+            }
+          },
+          {
             "id": "sdl",
             "payload": {
               "__lazy_json__": "node_attrs/sdl.json"
@@ -5295,9 +6453,21 @@
             }
           },
           {
+            "id": "shs-libcxi",
+            "payload": {
+              "__lazy_json__": "node_attrs/shs-libcxi.json"
+            }
+          },
+          {
             "id": "sigtool",
             "payload": {
               "__lazy_json__": "node_attrs/sigtool.json"
+            }
+          },
+          {
+            "id": "simde",
+            "payload": {
+              "__lazy_json__": "node_attrs/simde.json"
             }
           },
           {
@@ -5328,6 +6498,12 @@
             "id": "spirv-tools",
             "payload": {
               "__lazy_json__": "node_attrs/spirv-tools.json"
+            }
+          },
+          {
+            "id": "spral",
+            "payload": {
+              "__lazy_json__": "node_attrs/spral.json"
             }
           },
           {
@@ -5373,9 +6549,21 @@
             }
           },
           {
+            "id": "tinyxml2",
+            "payload": {
+              "__lazy_json__": "node_attrs/tinyxml2.json"
+            }
+          },
+          {
             "id": "tktable",
             "payload": {
               "__lazy_json__": "node_attrs/tktable.json"
+            }
+          },
+          {
+            "id": "toppra",
+            "payload": {
+              "__lazy_json__": "node_attrs/toppra.json"
             }
           },
           {
@@ -5406,6 +6594,18 @@
             "id": "ujson",
             "payload": {
               "__lazy_json__": "node_attrs/ujson.json"
+            }
+          },
+          {
+            "id": "urdfdom",
+            "payload": {
+              "__lazy_json__": "node_attrs/urdfdom.json"
+            }
+          },
+          {
+            "id": "urdfdom_headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/urdfdom_headers.json"
             }
           },
           {
@@ -5595,6 +6795,12 @@
             }
           },
           {
+            "id": "xpmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/xpmem.json"
+            }
+          },
+          {
             "id": "xxhash",
             "payload": {
               "__lazy_json__": "node_attrs/xxhash.json"
@@ -5745,12 +6951,15 @@
         "mamba",
         "maturin",
         "micromamba",
+        "mold",
         "patch",
         "pip",
         "pixi",
         "python",
         "rattler-build",
+        "roboplan",
         "rsync",
+        "sccache",
         "sdl",
         "sed",
         "su-exec",
@@ -5763,11 +6972,14 @@
       "__set__": true,
       "elements": [
         "alsa-lib",
+        "ampl-asl",
         "aom",
         "attr",
+        "blasfeo",
         "bzip2",
         "c-ares",
         "cli11",
+        "console_bridge",
         "cpp-expected",
         "cuda-cccl",
         "cuda-nvml-dev",
@@ -5784,15 +6996,18 @@
         "graphite2",
         "gstreamer-orc",
         "gtest",
+        "gz-cmake",
         "icu",
         "intel-gmmlib",
         "json-c",
         "jsoncpp",
         "keyutils",
+        "knem-headers",
         "lapack",
         "lerc",
         "level-zero",
         "libcap",
+        "libconfig",
         "libcxx",
         "libdeflate",
         "libdispatch",
@@ -5805,6 +7020,7 @@
         "libnl",
         "libogg",
         "libopus",
+        "libqdldl",
         "libsodium",
         "libtasn1",
         "libtommath",
@@ -5821,11 +7037,15 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
+        "mimalloc",
         "mpdecimal",
         "mpg123",
         "nccl",
         "ninja",
         "nlohmann_json",
+        "numactl",
+        "octomap",
         "oniguruma",
         "openblas",
         "opencl-headers",
@@ -5836,22 +7056,27 @@
         "pixman",
         "pkg-config",
         "pugixml",
+        "qhull",
         "reproc",
         "rhash",
         "ripgrep",
         "rocm-core",
         "sed",
+        "simde",
         "simdjson",
         "spirv-tools",
         "svt-av1",
         "tapi",
         "termcolor-cpp",
+        "tinyxml2",
+        "urdfdom_headers",
         "vulkan-headers",
         "winpthreads",
         "x264",
         "x265",
         "xbyak",
         "xorg-util-macros",
+        "xpmem",
         "xxhash",
         "xz",
         "yaml",
