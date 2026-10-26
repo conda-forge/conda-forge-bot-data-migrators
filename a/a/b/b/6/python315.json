@@ -14105,10 +14105,6 @@
           },
           {
             "source": "cython",
-            "target": "pybmoore"
-          },
-          {
-            "source": "cython",
             "target": "pycalphad"
           },
           {
@@ -48564,10 +48560,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pybmoore",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pybox2d",
             "target": "conda-forge-pinning"
           },
@@ -75509,10 +75501,6 @@
           },
           {
             "source": "tbb",
-            "target": "pybmoore"
-          },
-          {
-            "source": "tbb",
             "target": "pybox2d"
           },
           {
@@ -98414,12 +98402,6 @@
             "id": "pyblake2",
             "payload": {
               "__lazy_json__": "node_attrs/pyblake2.json"
-            }
-          },
-          {
-            "id": "pybmoore",
-            "payload": {
-              "__lazy_json__": "node_attrs/pybmoore.json"
             }
           },
           {
