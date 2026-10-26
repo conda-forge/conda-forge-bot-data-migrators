@@ -2051,6 +2051,10 @@
           },
           {
             "source": "autoconf",
+            "target": "rsync"
+          },
+          {
+            "source": "autoconf",
             "target": "ruby"
           },
           {
@@ -3304,6 +3308,10 @@
           {
             "source": "automake",
             "target": "rrdtool"
+          },
+          {
+            "source": "automake",
+            "target": "rsync"
           },
           {
             "source": "automake",
@@ -40987,6 +40995,10 @@
           },
           {
             "source": "libidn2",
+            "target": "rsync"
+          },
+          {
+            "source": "libidn2",
             "target": "wget"
           },
           {
@@ -50440,10 +50452,6 @@
           {
             "source": "libxcrypt",
             "target": "r-rstanarm"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "rsync"
           },
           {
             "source": "libxcrypt",
@@ -60588,6 +60596,10 @@
           {
             "source": "numpy",
             "target": "python-blosc"
+          },
+          {
+            "source": "numpy",
+            "target": "python-duckdb"
           },
           {
             "source": "numpy",
@@ -103648,10 +103660,6 @@
           {
             "source": "zlib",
             "target": "rpy2"
-          },
-          {
-            "source": "zlib",
-            "target": "rsync"
           },
           {
             "source": "zlib",
