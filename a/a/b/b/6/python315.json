@@ -38182,6 +38182,10 @@
           },
           {
             "source": "numpy",
+            "target": "pylibjpeg-rle"
+          },
+          {
+            "source": "numpy",
             "target": "pylibtiff"
           },
           {
@@ -50474,6 +50478,14 @@
           },
           {
             "source": "pylibjpeg-openjpeg",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "pylibjpeg-rle",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pylibjpeg-rle",
             "target": "tiatoolbox"
           },
           {
@@ -76166,6 +76178,10 @@
           },
           {
             "source": "tbb",
+            "target": "pylibjpeg-rle"
+          },
+          {
+            "source": "tbb",
             "target": "pylibmc"
           },
           {
@@ -99377,6 +99393,12 @@
             "id": "pylibjpeg-openjpeg",
             "payload": {
               "__lazy_json__": "node_attrs/pylibjpeg-openjpeg.json"
+            }
+          },
+          {
+            "id": "pylibjpeg-rle",
+            "payload": {
+              "__lazy_json__": "node_attrs/pylibjpeg-rle.json"
             }
           },
           {
