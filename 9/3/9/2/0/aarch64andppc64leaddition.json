@@ -23651,6 +23651,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "gauxc"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "horovod"
           },
           {
@@ -38675,6 +38679,10 @@
           },
           {
             "source": "libcublas",
+            "target": "gauxc"
+          },
+          {
+            "source": "libcublas",
             "target": "implicit"
           },
           {
@@ -39144,6 +39152,10 @@
           {
             "source": "libcusparse",
             "target": "fvdb-core"
+          },
+          {
+            "source": "libcusparse",
+            "target": "gauxc"
           },
           {
             "source": "libcusparse",
@@ -41384,6 +41396,10 @@
           {
             "source": "libmad",
             "target": "sdl2_mixer"
+          },
+          {
+            "source": "libmagma",
+            "target": "gauxc"
           },
           {
             "source": "libmagma",
@@ -65660,6 +65676,10 @@
           {
             "source": "pkg-config",
             "target": "gap"
+          },
+          {
+            "source": "pkg-config",
+            "target": "gauxc"
           },
           {
             "source": "pkg-config",
