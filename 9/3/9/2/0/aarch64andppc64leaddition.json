@@ -7307,6 +7307,10 @@
           },
           {
             "source": "bash",
+            "target": "p7zip"
+          },
+          {
+            "source": "bash",
             "target": "palp"
           },
           {
@@ -45671,6 +45675,10 @@
           },
           {
             "source": "libtool",
+            "target": "p7zip"
+          },
+          {
+            "source": "libtool",
             "target": "palp"
           },
           {
@@ -63416,6 +63424,10 @@
           {
             "source": "p11-kit",
             "target": "systemd"
+          },
+          {
+            "source": "p7zip",
+            "target": "julia"
           },
           {
             "source": "pagmo",
@@ -112768,6 +112780,12 @@
             "id": "p11-kit",
             "payload": {
               "__lazy_json__": "node_attrs/p11-kit.json"
+            }
+          },
+          {
+            "id": "p7zip",
+            "payload": {
+              "__lazy_json__": "node_attrs/p7zip.json"
             }
           },
           {
