@@ -57,7 +57,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "dpctl",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpctl.json"
+            }
+          },
+          {
+            "id": "mkl_fft",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_fft.json"
+            }
+          },
+          {
+            "id": "mkl_random",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_random.json"
+            }
+          },
+          {
+            "id": "mkl_umath",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_umath.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -2370,6 +2395,10 @@
           },
           {
             "source": "cython",
+            "target": "dpctl"
+          },
+          {
+            "source": "cython",
             "target": "dtaidistance"
           },
           {
@@ -2579,6 +2608,18 @@
           {
             "source": "cython",
             "target": "mkl-service"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_random"
+          },
+          {
+            "source": "cython",
+            "target": "mkl_umath"
           },
           {
             "source": "cython",
@@ -3207,6 +3248,10 @@
           {
             "source": "dm-tree",
             "target": "ray-packages"
+          },
+          {
+            "source": "dpctl",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "dscribe",
@@ -5505,6 +5550,22 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "mkl-service",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "mkl_fft",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mkl_random",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mkl_umath",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "ml_dtypes",
             "target": "cached_interpolate"
           },
@@ -6190,6 +6251,10 @@
           },
           {
             "source": "numpy",
+            "target": "dpctl"
+          },
+          {
+            "source": "numpy",
             "target": "dscribe"
           },
           {
@@ -6491,6 +6556,18 @@
           {
             "source": "numpy",
             "target": "minorminer"
+          },
+          {
+            "source": "numpy",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "numpy",
+            "target": "mkl_random"
+          },
+          {
+            "source": "numpy",
+            "target": "mkl_umath"
           },
           {
             "source": "numpy",
@@ -10442,6 +10519,10 @@
           },
           {
             "source": "scipy",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "scipy",
             "target": "mne-lsl"
           },
           {
@@ -11374,6 +11455,10 @@
           },
           {
             "source": "tbb",
+            "target": "dpctl"
+          },
+          {
+            "source": "tbb",
             "target": "dscribe"
           },
           {
@@ -11995,6 +12080,18 @@
           {
             "source": "tbb",
             "target": "mkl-service"
+          },
+          {
+            "source": "tbb",
+            "target": "mkl_fft"
+          },
+          {
+            "source": "tbb",
+            "target": "mkl_random"
+          },
+          {
+            "source": "tbb",
+            "target": "mkl_umath"
           },
           {
             "source": "tbb",
@@ -15456,6 +15553,12 @@
             }
           },
           {
+            "id": "dpctl",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpctl.json"
+            }
+          },
+          {
             "id": "dscribe",
             "payload": {
               "__lazy_json__": "node_attrs/dscribe.json"
@@ -16389,6 +16492,24 @@
             "id": "mkl-service",
             "payload": {
               "__lazy_json__": "node_attrs/mkl-service.json"
+            }
+          },
+          {
+            "id": "mkl_fft",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_fft.json"
+            }
+          },
+          {
+            "id": "mkl_random",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_random.json"
+            }
+          },
+          {
+            "id": "mkl_umath",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl_umath.json"
             }
           },
           {
