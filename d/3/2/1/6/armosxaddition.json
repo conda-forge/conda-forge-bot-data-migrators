@@ -31650,6 +31650,14 @@
             "target": "systemd"
           },
           {
+            "source": "p7zip",
+            "target": "datalad"
+          },
+          {
+            "source": "p7zip",
+            "target": "julia"
+          },
+          {
             "source": "pagmo",
             "target": "pygmo"
           },
@@ -67699,6 +67707,12 @@
             }
           },
           {
+            "id": "p7zip",
+            "payload": {
+              "__lazy_json__": "node_attrs/p7zip.json"
+            }
+          },
+          {
             "id": "pagmo",
             "payload": {
               "__lazy_json__": "node_attrs/pagmo.json"
@@ -77912,6 +77926,7 @@
         "openlibm",
         "openssl",
         "optional-lite",
+        "p7zip",
         "palp",
         "pandoc",
         "patch",
