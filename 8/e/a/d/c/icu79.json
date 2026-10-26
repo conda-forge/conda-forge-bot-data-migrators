@@ -98,12 +98,6 @@
             }
           },
           {
-            "id": "libpsl",
-            "payload": {
-              "__lazy_json__": "node_attrs/libpsl.json"
-            }
-          },
-          {
             "id": "libv8",
             "payload": {
               "__lazy_json__": "node_attrs/libv8.json"
@@ -1083,7 +1077,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
