@@ -73,12 +73,6 @@
             }
           },
           {
-            "id": "fpsim2",
-            "payload": {
-              "__lazy_json__": "node_attrs/fpsim2.json"
-            }
-          },
-          {
             "id": "molbloom",
             "payload": {
               "__lazy_json__": "node_attrs/molbloom.json"
@@ -31352,6 +31346,10 @@
           },
           {
             "source": "mypy",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "mypy",
             "target": "aiida-crystal17"
           },
           {
@@ -33477,6 +33475,10 @@
           {
             "source": "numpy",
             "target": "aicspylibczi"
+          },
+          {
+            "source": "numpy",
+            "target": "aihwkit-gpu"
           },
           {
             "source": "numpy",
