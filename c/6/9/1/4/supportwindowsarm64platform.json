@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "libgcrypt",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgcrypt.json"
+            }
+          },
+          {
+            "id": "libunistring",
+            "payload": {
+              "__lazy_json__": "node_attrs/libunistring.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1219,6 +1232,10 @@
           },
           {
             "source": "gettext",
+            "target": "libidn2"
+          },
+          {
+            "source": "gettext",
             "target": "r-base"
           },
           {
@@ -2098,6 +2115,10 @@
             "target": "winpthreads"
           },
           {
+            "source": "libidn2",
+            "target": "rsync"
+          },
+          {
             "source": "libjpeg-turbo",
             "target": "gdk-pixbuf"
           },
@@ -2380,6 +2401,10 @@
           {
             "source": "libtool",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libunistring",
+            "target": "libidn2"
           },
           {
             "source": "liburing",
@@ -5711,10 +5736,6 @@
           },
           {
             "source": "zlib",
-            "target": "rsync"
-          },
-          {
-            "source": "zlib",
             "target": "soxr"
           },
           {
@@ -6787,6 +6808,12 @@
             }
           },
           {
+            "id": "libidn2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libidn2.json"
+            }
+          },
+          {
             "id": "libjpeg-turbo",
             "payload": {
               "__lazy_json__": "node_attrs/libjpeg-turbo.json"
@@ -6934,6 +6961,12 @@
             "id": "libtool",
             "payload": {
               "__lazy_json__": "node_attrs/libtool.json"
+            }
+          },
+          {
+            "id": "libunistring",
+            "payload": {
+              "__lazy_json__": "node_attrs/libunistring.json"
             }
           },
           {
@@ -8558,6 +8591,7 @@
         "libtasn1",
         "libtommath",
         "libtool",
+        "libunistring",
         "liburing",
         "libuuid",
         "libuv",
