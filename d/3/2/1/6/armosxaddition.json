@@ -7779,10 +7779,6 @@
           },
           {
             "source": "cython",
-            "target": "pykrige"
-          },
-          {
-            "source": "cython",
             "target": "pymartini"
           },
           {
@@ -28587,10 +28583,6 @@
           },
           {
             "source": "numpy",
-            "target": "pykrige"
-          },
-          {
-            "source": "numpy",
             "target": "pylabdd"
           },
           {
@@ -31656,14 +31648,6 @@
           {
             "source": "p11-kit",
             "target": "systemd"
-          },
-          {
-            "source": "p7zip",
-            "target": "datalad"
-          },
-          {
-            "source": "p7zip",
-            "target": "julia"
           },
           {
             "source": "pagmo",
@@ -35316,10 +35300,6 @@
           {
             "source": "pykdtree",
             "target": "pyresample"
-          },
-          {
-            "source": "pykrige",
-            "target": "geowombat"
           },
           {
             "source": "pymatgen-core",
@@ -39256,10 +39236,6 @@
           {
             "source": "python",
             "target": "pykrb5"
-          },
-          {
-            "source": "python",
-            "target": "pykrige"
           },
           {
             "source": "python",
@@ -43979,10 +43955,6 @@
           },
           {
             "source": "r-base",
-            "target": "r-s7"
-          },
-          {
-            "source": "r-base",
             "target": "r-sass"
           },
           {
@@ -48574,110 +48546,6 @@
             "target": "r-sf"
           },
           {
-            "source": "r-s7",
-            "target": "r-caret"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-changepoints"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-cvxr"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-forecast"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-gap"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-geepack"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-ggdist"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-ggforce"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-ggiraph"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-ggrepel"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-gunifrac"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-harmony"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-hmisc"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-mess"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-mice"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-mlr"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-osqp"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-poolfstat"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-prodlim"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-rbiom"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-rstan"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-rstanarm"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-scattermore"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-sctransform"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-seurat"
-          },
-          {
-            "source": "r-s7",
-            "target": "r-skpr"
-          },
-          {
             "source": "r-sass",
             "target": "r-changepoints"
           },
@@ -51952,10 +51820,6 @@
           {
             "source": "scipy",
             "target": "pykep"
-          },
-          {
-            "source": "scipy",
-            "target": "pykrige"
           },
           {
             "source": "scipy",
@@ -67727,12 +67591,6 @@
             }
           },
           {
-            "id": "p7zip",
-            "payload": {
-              "__lazy_json__": "node_attrs/p7zip.json"
-            }
-          },
-          {
             "id": "pagmo",
             "payload": {
               "__lazy_json__": "node_attrs/pagmo.json"
@@ -69266,12 +69124,6 @@
             "id": "pykrb5",
             "payload": {
               "__lazy_json__": "node_attrs/pykrb5.json"
-            }
-          },
-          {
-            "id": "pykrige",
-            "payload": {
-              "__lazy_json__": "node_attrs/pykrige.json"
             }
           },
           {
@@ -72062,12 +71914,6 @@
             "id": "r-s2",
             "payload": {
               "__lazy_json__": "node_attrs/r-s2.json"
-            }
-          },
-          {
-            "id": "r-s7",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-s7.json"
             }
           },
           {
@@ -77952,7 +77798,6 @@
         "openlibm",
         "openssl",
         "optional-lite",
-        "p7zip",
         "palp",
         "pandoc",
         "patch",
