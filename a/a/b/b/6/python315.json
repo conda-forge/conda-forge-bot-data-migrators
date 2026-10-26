@@ -79,6 +79,12 @@
             }
           },
           {
+            "id": "pyearth",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyearth.json"
+            }
+          },
+          {
             "id": "qtmolecularnetwork",
             "payload": {
               "__lazy_json__": "node_attrs/qtmolecularnetwork.json"
@@ -6197,6 +6203,10 @@
           {
             "source": "boost",
             "target": "pyopcode"
+          },
+          {
+            "source": "boost",
+            "target": "pyranha"
           },
           {
             "source": "boost",
@@ -38448,6 +38458,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyranha"
+          },
+          {
+            "source": "numpy",
             "target": "pyratbay"
           },
           {
@@ -52280,6 +52294,10 @@
           },
           {
             "source": "pyrage",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyranha",
             "target": "conda-forge-pinning"
           },
           {
@@ -76676,6 +76694,10 @@
           },
           {
             "source": "tbb",
+            "target": "pyranha"
+          },
+          {
+            "source": "tbb",
             "target": "pyratbay"
           },
           {
@@ -100121,6 +100143,12 @@
             "id": "pyrage",
             "payload": {
               "__lazy_json__": "node_attrs/pyrage.json"
+            }
+          },
+          {
+            "id": "pyranha",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyranha.json"
             }
           },
           {
