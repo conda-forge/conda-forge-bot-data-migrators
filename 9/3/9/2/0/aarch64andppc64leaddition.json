@@ -8107,10 +8107,6 @@
           },
           {
             "source": "bash",
-            "target": "r-brms"
-          },
-          {
-            "source": "bash",
             "target": "r-bwstest"
           },
           {
@@ -9476,6 +9472,10 @@
           {
             "source": "bash",
             "target": "r-s2"
+          },
+          {
+            "source": "bash",
+            "target": "r-s7"
           },
           {
             "source": "bash",
@@ -46471,10 +46471,6 @@
           },
           {
             "source": "libtool",
-            "target": "r-brms"
-          },
-          {
-            "source": "libtool",
             "target": "r-bwstest"
           },
           {
@@ -47840,6 +47836,10 @@
           {
             "source": "libtool",
             "target": "r-s2"
+          },
+          {
+            "source": "libtool",
+            "target": "r-s7"
           },
           {
             "source": "libtool",
@@ -79815,6 +79815,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-s7"
+          },
+          {
+            "source": "r-base",
             "target": "r-sads"
           },
           {
@@ -85936,6 +85940,142 @@
           {
             "source": "r-s2",
             "target": "r-spdep"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-adegenet"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-brms"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-caret"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-clusterr"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-cplm"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-factominer"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-forecast"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-gap"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-geepack"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-ggforce"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-ggiraph"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-ggraph"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-ggrepel"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-harmony"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-hdrcde"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-hmisc"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-mess"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-mice"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-nmf"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-poppr"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-precrec"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-prodlim"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-remacor"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-rms"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-robcompositions"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-robusthd"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-rstan"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-rstanarm"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-ruv"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-scattermore"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-sctransform"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-seurat"
+          },
+          {
+            "source": "r-s7",
+            "target": "r-vim"
+          },
+          {
+            "source": "r-s7",
+            "target": "rpy2"
           },
           {
             "source": "r-sass",
@@ -116816,6 +116956,12 @@
             "id": "r-s2",
             "payload": {
               "__lazy_json__": "node_attrs/r-s2.json"
+            }
+          },
+          {
+            "id": "r-s7",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-s7.json"
             }
           },
           {
