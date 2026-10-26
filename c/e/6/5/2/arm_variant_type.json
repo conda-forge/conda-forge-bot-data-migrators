@@ -793,6 +793,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "exchcxx",
+            "target": "gauxc"
+          },
+          {
             "source": "fairscale",
             "target": "conda-forge-pinning"
           },
@@ -838,6 +842,10 @@
           },
           {
             "source": "fvdb-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gauxc",
             "target": "conda-forge-pinning"
           },
           {
@@ -1067,6 +1075,10 @@
           {
             "source": "libmagma",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libmagma",
+            "target": "gauxc"
           },
           {
             "source": "libmagma",
@@ -1483,6 +1495,10 @@
           {
             "source": "openmpi",
             "target": "fastemriwaveforms"
+          },
+          {
+            "source": "openmpi",
+            "target": "gauxc"
           },
           {
             "source": "openmpi",
@@ -2469,6 +2485,12 @@
             "id": "fvdb-core",
             "payload": {
               "__lazy_json__": "node_attrs/fvdb-core.json"
+            }
+          },
+          {
+            "id": "gauxc",
+            "payload": {
+              "__lazy_json__": "node_attrs/gauxc.json"
             }
           },
           {
