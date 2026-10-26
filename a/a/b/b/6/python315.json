@@ -61,12 +61,6 @@
             }
           },
           {
-            "id": "capytaine",
-            "payload": {
-              "__lazy_json__": "node_attrs/capytaine.json"
-            }
-          },
-          {
             "id": "cuik-molmaker",
             "payload": {
               "__lazy_json__": "node_attrs/cuik-molmaker.json"
@@ -76,6 +70,12 @@
             "id": "molbloom",
             "payload": {
               "__lazy_json__": "node_attrs/molbloom.json"
+            }
+          },
+          {
+            "id": "openslide-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/openslide-python.json"
             }
           },
           {
@@ -100,6 +100,18 @@
             "id": "votca",
             "payload": {
               "__lazy_json__": "node_attrs/votca.json"
+            }
+          },
+          {
+            "id": "yara-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/yara-python.json"
+            }
+          },
+          {
+            "id": "embreex",
+            "payload": {
+              "__lazy_json__": "node_attrs/embreex.json"
             }
           }
         ]
@@ -6194,10 +6206,6 @@
           },
           {
             "source": "boost",
-            "target": "pyranha"
-          },
-          {
-            "source": "boost",
             "target": "pyscipopt"
           },
           {
@@ -11078,10 +11086,6 @@
           },
           {
             "source": "contourpy",
-            "target": "raynest"
-          },
-          {
-            "source": "contourpy",
             "target": "reproject"
           },
           {
@@ -12998,6 +13002,10 @@
           },
           {
             "source": "cython",
+            "target": "embreex"
+          },
+          {
+            "source": "cython",
             "target": "enterprise_outliers"
           },
           {
@@ -14358,10 +14366,6 @@
           },
           {
             "source": "cython",
-            "target": "pykrige"
-          },
-          {
-            "source": "cython",
             "target": "pylablib"
           },
           {
@@ -14811,10 +14815,6 @@
           {
             "source": "cython",
             "target": "ray-packages"
-          },
-          {
-            "source": "cython",
-            "target": "raynest"
           },
           {
             "source": "cython",
@@ -17230,6 +17230,10 @@
           },
           {
             "source": "ellc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "embreex",
             "target": "conda-forge-pinning"
           },
           {
@@ -20609,10 +20613,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "gstools-cython",
-            "target": "pykrige"
-          },
-          {
             "source": "gtsam",
             "target": "conda-forge-pinning"
           },
@@ -21350,10 +21350,6 @@
           },
           {
             "source": "h5py",
-            "target": "pykrige"
-          },
-          {
-            "source": "h5py",
             "target": "pylabdd"
           },
           {
@@ -21431,10 +21427,6 @@
           {
             "source": "h5py",
             "target": "rapid-pe"
-          },
-          {
-            "source": "h5py",
-            "target": "raynest"
           },
           {
             "source": "h5py",
@@ -26774,10 +26766,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "raynest"
-          },
-          {
-            "source": "markupsafe",
             "target": "redlionfish"
           },
           {
@@ -28735,10 +28723,6 @@
           {
             "source": "matplotlib",
             "target": "rateslib"
-          },
-          {
-            "source": "matplotlib",
-            "target": "raynest"
           },
           {
             "source": "matplotlib",
@@ -32222,10 +32206,6 @@
           },
           {
             "source": "netcdf4",
-            "target": "pykrige"
-          },
-          {
-            "source": "netcdf4",
             "target": "pylbl"
           },
           {
@@ -34939,6 +34919,10 @@
           {
             "source": "numpy",
             "target": "ellc"
+          },
+          {
+            "source": "numpy",
+            "target": "embreex"
           },
           {
             "source": "numpy",
@@ -38158,10 +38142,6 @@
           },
           {
             "source": "numpy",
-            "target": "pykrige"
-          },
-          {
-            "source": "numpy",
             "target": "pylabdd"
           },
           {
@@ -38199,10 +38179,6 @@
           {
             "source": "numpy",
             "target": "pylibjpeg-openjpeg"
-          },
-          {
-            "source": "numpy",
-            "target": "pylibjpeg-rle"
           },
           {
             "source": "numpy",
@@ -38451,10 +38427,6 @@
           {
             "source": "numpy",
             "target": "pyrad_mch"
-          },
-          {
-            "source": "numpy",
-            "target": "pyranha"
           },
           {
             "source": "numpy",
@@ -38951,10 +38923,6 @@
           {
             "source": "numpy",
             "target": "ray-packages"
-          },
-          {
-            "source": "numpy",
-            "target": "raynest"
           },
           {
             "source": "numpy",
@@ -43026,10 +42994,6 @@
           },
           {
             "source": "pandas",
-            "target": "raynest"
-          },
-          {
-            "source": "pandas",
             "target": "rdkit"
           },
           {
@@ -44687,10 +44651,6 @@
           {
             "source": "pillow",
             "target": "rapid-pe"
-          },
-          {
-            "source": "pillow",
-            "target": "raynest"
           },
           {
             "source": "pillow",
@@ -47159,10 +47119,6 @@
           {
             "source": "psutil",
             "target": "pyjs_code_runner"
-          },
-          {
-            "source": "psutil",
-            "target": "pykrige"
           },
           {
             "source": "psutil",
@@ -50465,14 +50421,6 @@
             "target": "stackvana-core"
           },
           {
-            "source": "pykrige",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pykrige",
-            "target": "geowombat"
-          },
-          {
             "source": "pylabdd",
             "target": "conda-forge-pinning"
           },
@@ -50526,14 +50474,6 @@
           },
           {
             "source": "pylibjpeg-openjpeg",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "pylibjpeg-rle",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pylibjpeg-rle",
             "target": "tiatoolbox"
           },
           {
@@ -52302,10 +52242,6 @@
           },
           {
             "source": "pyrage",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyranha",
             "target": "conda-forge-pinning"
           },
           {
@@ -57578,10 +57514,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "raynest"
-          },
-          {
-            "source": "pyyaml",
             "target": "reasonable"
           },
           {
@@ -59006,15 +58938,7 @@
           },
           {
             "source": "ray-packages",
-            "target": "raynest"
-          },
-          {
-            "source": "ray-packages",
             "target": "unidist-packages"
-          },
-          {
-            "source": "raynest",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "raysect",
@@ -61786,10 +61710,6 @@
           },
           {
             "source": "scikit-learn",
-            "target": "pykrige"
-          },
-          {
-            "source": "scikit-learn",
             "target": "pylandstats"
           },
           {
@@ -64310,10 +64230,6 @@
           },
           {
             "source": "scipy",
-            "target": "pykrige"
-          },
-          {
-            "source": "scipy",
             "target": "pylablib"
           },
           {
@@ -64647,10 +64563,6 @@
           {
             "source": "scipy",
             "target": "ray-packages"
-          },
-          {
-            "source": "scipy",
-            "target": "raynest"
           },
           {
             "source": "scipy",
@@ -70650,6 +70562,10 @@
           },
           {
             "source": "tbb",
+            "target": "embreex"
+          },
+          {
+            "source": "tbb",
             "target": "emperor"
           },
           {
@@ -76206,10 +76122,6 @@
           },
           {
             "source": "tbb",
-            "target": "pykrige"
-          },
-          {
-            "source": "tbb",
             "target": "pylabdd"
           },
           {
@@ -76251,10 +76163,6 @@
           {
             "source": "tbb",
             "target": "pylibjpeg-openjpeg"
-          },
-          {
-            "source": "tbb",
-            "target": "pylibjpeg-rle"
           },
           {
             "source": "tbb",
@@ -76707,10 +76615,6 @@
           {
             "source": "tbb",
             "target": "pyrage"
-          },
-          {
-            "source": "tbb",
-            "target": "pyranha"
           },
           {
             "source": "tbb",
@@ -77727,10 +77631,6 @@
           {
             "source": "tbb",
             "target": "ray-packages"
-          },
-          {
-            "source": "tbb",
-            "target": "raynest"
           },
           {
             "source": "tbb",
@@ -80426,6 +80326,10 @@
           },
           {
             "source": "tbb",
+            "target": "yara-python"
+          },
+          {
+            "source": "tbb",
             "target": "yargy"
           },
           {
@@ -81851,10 +81755,6 @@
           {
             "source": "tornado",
             "target": "rapid-pe"
-          },
-          {
-            "source": "tornado",
-            "target": "raynest"
           },
           {
             "source": "tornado",
@@ -84926,10 +84826,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "pykrige"
-          },
-          {
-            "source": "wcwidth",
             "target": "pymeshfix"
           },
           {
@@ -86618,6 +86514,10 @@
           },
           {
             "source": "yaqc-qtpy",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "yara-python",
             "target": "conda-forge-pinning"
           },
           {
@@ -99414,12 +99314,6 @@
             }
           },
           {
-            "id": "pykrige",
-            "payload": {
-              "__lazy_json__": "node_attrs/pykrige.json"
-            }
-          },
-          {
             "id": "pylabdd",
             "payload": {
               "__lazy_json__": "node_attrs/pylabdd.json"
@@ -99483,12 +99377,6 @@
             "id": "pylibjpeg-openjpeg",
             "payload": {
               "__lazy_json__": "node_attrs/pylibjpeg-openjpeg.json"
-            }
-          },
-          {
-            "id": "pylibjpeg-rle",
-            "payload": {
-              "__lazy_json__": "node_attrs/pylibjpeg-rle.json"
             }
           },
           {
@@ -100161,12 +100049,6 @@
             "id": "pyrage",
             "payload": {
               "__lazy_json__": "node_attrs/pyrage.json"
-            }
-          },
-          {
-            "id": "pyranha",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyranha.json"
             }
           },
           {
@@ -101691,12 +101573,6 @@
             "id": "ray-packages",
             "payload": {
               "__lazy_json__": "node_attrs/ray-packages.json"
-            }
-          },
-          {
-            "id": "raynest",
-            "payload": {
-              "__lazy_json__": "node_attrs/raynest.json"
             }
           },
           {
@@ -106065,6 +105941,18 @@
             "id": "klayout",
             "payload": {
               "__lazy_json__": "node_attrs/klayout.json"
+            }
+          },
+          {
+            "id": "yara-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/yara-python.json"
+            }
+          },
+          {
+            "id": "embreex",
+            "payload": {
+              "__lazy_json__": "node_attrs/embreex.json"
             }
           }
         ]
