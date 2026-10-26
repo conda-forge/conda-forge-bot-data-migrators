@@ -1130,6 +1130,10 @@
             "target": "soxr"
           },
           {
+            "source": "libidn2",
+            "target": "rsync"
+          },
+          {
             "source": "libjpeg-turbo",
             "target": "gdk-pixbuf"
           },
@@ -1344,6 +1348,10 @@
           {
             "source": "libtool",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libunistring",
+            "target": "libidn2"
           },
           {
             "source": "libunwind",
@@ -3627,10 +3635,6 @@
           },
           {
             "source": "zlib",
-            "target": "rsync"
-          },
-          {
-            "source": "zlib",
             "target": "soxr"
           },
           {
@@ -4367,6 +4371,12 @@
             }
           },
           {
+            "id": "libidn2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libidn2.json"
+            }
+          },
+          {
             "id": "libjpeg-turbo",
             "payload": {
               "__lazy_json__": "node_attrs/libjpeg-turbo.json"
@@ -4478,6 +4488,12 @@
             "id": "libtool",
             "payload": {
               "__lazy_json__": "node_attrs/libtool.json"
+            }
+          },
+          {
+            "id": "libunistring",
+            "payload": {
+              "__lazy_json__": "node_attrs/libunistring.json"
             }
           },
           {
@@ -5793,6 +5809,7 @@
         "libtasn1",
         "libtommath",
         "libtool",
+        "libunistring",
         "libunwind",
         "liburing",
         "libuuid",
