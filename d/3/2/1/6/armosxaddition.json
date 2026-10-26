@@ -1931,6 +1931,10 @@
           },
           {
             "source": "binutils",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "binutils",
             "target": "cvxopt"
           },
           {
@@ -1956,6 +1960,10 @@
           {
             "source": "binutils",
             "target": "fluidsim"
+          },
+          {
+            "source": "binutils",
+            "target": "gauxc"
           },
           {
             "source": "binutils",
@@ -2431,6 +2439,10 @@
           },
           {
             "source": "blas",
+            "target": "gauxc"
+          },
+          {
+            "source": "blas",
             "target": "giac"
           },
           {
@@ -2508,6 +2520,10 @@
           {
             "source": "blas",
             "target": "libefp"
+          },
+          {
+            "source": "blas",
+            "target": "libmagma"
           },
           {
             "source": "blas",
@@ -4847,11 +4863,19 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "cvxopt"
           },
           {
             "source": "cctools-and-ld64",
             "target": "finesse"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "gauxc"
           },
           {
             "source": "cctools-and-ld64",
@@ -6163,6 +6187,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "cvxopt"
           },
           {
@@ -6200,6 +6228,10 @@
           {
             "source": "ctng-compilers",
             "target": "fluidsim"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "gauxc"
           },
           {
             "source": "ctng-compilers",
@@ -6252,6 +6284,10 @@
           {
             "source": "ctng-compilers",
             "target": "libclc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "libmagma"
           },
           {
             "source": "ctng-compilers",
@@ -6436,6 +6472,42 @@
           {
             "source": "ctng-compilers",
             "target": "xeus-cling"
+          },
+          {
+            "source": "cuda-cccl",
+            "target": "cuda-cudart"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cuda-profiler-api"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "gauxc"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libmagma"
+          },
+          {
+            "source": "cuda-nvcc-impl",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "libcublas"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "libmagma"
           },
           {
             "source": "cunit",
@@ -11271,11 +11343,19 @@
           },
           {
             "source": "gendef",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gendef",
             "target": "cvxopt"
           },
           {
             "source": "gendef",
             "target": "finesse"
+          },
+          {
+            "source": "gendef",
+            "target": "gauxc"
           },
           {
             "source": "gendef",
@@ -11655,11 +11735,19 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "cvxopt"
           },
           {
             "source": "gfortran_impl_osx-64",
             "target": "finesse"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
+            "target": "gauxc"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -11775,11 +11863,19 @@
           },
           {
             "source": "gfortran_osx-64",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "gfortran_osx-64",
             "target": "cvxopt"
           },
           {
             "source": "gfortran_osx-64",
             "target": "finesse"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "gauxc"
           },
           {
             "source": "gfortran_osx-64",
@@ -16599,6 +16695,10 @@
           },
           {
             "source": "lapack",
+            "target": "gauxc"
+          },
+          {
+            "source": "lapack",
             "target": "giac"
           },
           {
@@ -16676,6 +16776,10 @@
           {
             "source": "lapack",
             "target": "libefp"
+          },
+          {
+            "source": "lapack",
+            "target": "libmagma"
           },
           {
             "source": "lapack",
@@ -17686,8 +17790,24 @@
             "target": "pymeep"
           },
           {
+            "source": "libcublas",
+            "target": "gauxc"
+          },
+          {
+            "source": "libcublas",
+            "target": "libmagma"
+          },
+          {
             "source": "libcups",
             "target": "rstudio"
+          },
+          {
+            "source": "libcusparse",
+            "target": "gauxc"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libmagma"
           },
           {
             "source": "libcxx",
@@ -17747,6 +17867,10 @@
           },
           {
             "source": "libcxx",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "libcxx",
             "target": "cvxopt"
           },
           {
@@ -17772,6 +17896,10 @@
           {
             "source": "libcxx",
             "target": "fluidsim"
+          },
+          {
+            "source": "libcxx",
+            "target": "gauxc"
           },
           {
             "source": "libcxx",
@@ -19446,6 +19574,10 @@
             "target": "sdl2_mixer"
           },
           {
+            "source": "libmagma",
+            "target": "gauxc"
+          },
+          {
             "source": "libmatio-cpp",
             "target": "bipedal-locomotion-framework"
           },
@@ -19648,6 +19780,10 @@
           {
             "source": "libntlm",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "libcusparse"
           },
           {
             "source": "libobjcryst",
@@ -21415,6 +21551,10 @@
           },
           {
             "source": "libxml2",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "libxml2",
             "target": "cvxopt"
           },
           {
@@ -21460,6 +21600,10 @@
           {
             "source": "libxml2",
             "target": "fluidsim"
+          },
+          {
+            "source": "libxml2",
+            "target": "gauxc"
           },
           {
             "source": "libxml2",
@@ -22111,6 +22255,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "llvmdev",
             "target": "cvxopt"
           },
           {
@@ -22136,6 +22284,10 @@
           {
             "source": "llvmdev",
             "target": "fluidsim"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gauxc"
           },
           {
             "source": "llvmdev",
@@ -30040,6 +30192,10 @@
           {
             "source": "openmp",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "openmp",
+            "target": "cuda-nvcc-impl"
           },
           {
             "source": "openmp",
@@ -54151,11 +54307,19 @@
           },
           {
             "source": "ucrt",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ucrt",
             "target": "cvxopt"
           },
           {
             "source": "ucrt",
             "target": "finesse"
+          },
+          {
+            "source": "ucrt",
+            "target": "gauxc"
           },
           {
             "source": "ucrt",
@@ -54532,6 +54696,10 @@
           {
             "source": "vc",
             "target": "intel-compiler-repack"
+          },
+          {
+            "source": "vc",
+            "target": "libmagma"
           },
           {
             "source": "vcpkg-tool",
@@ -54987,11 +55155,19 @@
           },
           {
             "source": "winpthreads",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "winpthreads",
             "target": "cvxopt"
           },
           {
             "source": "winpthreads",
             "target": "finesse"
+          },
+          {
+            "source": "winpthreads",
+            "target": "gauxc"
           },
           {
             "source": "winpthreads",
@@ -57155,6 +57331,10 @@
           },
           {
             "source": "zlib",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "zlib",
             "target": "curl"
           },
           {
@@ -57296,6 +57476,10 @@
           {
             "source": "zlib",
             "target": "gap"
+          },
+          {
+            "source": "zlib",
+            "target": "gauxc"
           },
           {
             "source": "zlib",
@@ -58859,6 +59043,10 @@
           },
           {
             "source": "zstd",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "zstd",
             "target": "curl"
           },
           {
@@ -58900,6 +59088,10 @@
           {
             "source": "zstd",
             "target": "fluidsim"
+          },
+          {
+            "source": "zstd",
+            "target": "gauxc"
           },
           {
             "source": "zstd",
@@ -61298,6 +61490,36 @@
             "id": "ctng-compilers",
             "payload": {
               "__lazy_json__": "node_attrs/ctng-compilers.json"
+            }
+          },
+          {
+            "id": "cuda-cccl",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-cccl.json"
+            }
+          },
+          {
+            "id": "cuda-cudart",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-cudart.json"
+            }
+          },
+          {
+            "id": "cuda-nvcc-impl",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvcc-impl.json"
+            }
+          },
+          {
+            "id": "cuda-nvrtc",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-nvrtc.json"
+            }
+          },
+          {
+            "id": "cuda-profiler-api",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-profiler-api.json"
             }
           },
           {
@@ -64829,9 +65051,21 @@
             }
           },
           {
+            "id": "libcublas",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcublas.json"
+            }
+          },
+          {
             "id": "libcups",
             "payload": {
               "__lazy_json__": "node_attrs/libcups.json"
+            }
+          },
+          {
+            "id": "libcusparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcusparse.json"
             }
           },
           {
@@ -65261,6 +65495,12 @@
             }
           },
           {
+            "id": "libmagma",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmagma.json"
+            }
+          },
+          {
             "id": "libmatio",
             "payload": {
               "__lazy_json__": "node_attrs/libmatio.json"
@@ -65354,6 +65594,12 @@
             "id": "libntlm",
             "payload": {
               "__lazy_json__": "node_attrs/libntlm.json"
+            }
+          },
+          {
+            "id": "libnvjitlink",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvjitlink.json"
             }
           },
           {
@@ -77781,6 +78027,8 @@
         "cppad",
         "cryptopp",
         "cspice",
+        "cuda-cccl",
+        "cuda-nvrtc",
         "cunit",
         "cxxopts",
         "dart-sdk",
@@ -77870,6 +78118,7 @@
         "libignition-cmake0",
         "libjpeg-turbo",
         "libntlm",
+        "libnvjitlink",
         "libogg",
         "libopus",
         "libosxunwind",
