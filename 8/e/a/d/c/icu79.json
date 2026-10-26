@@ -1,0 +1,1094 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for icu 79\n  kind: version\n  migration_number: 1\nicu:\n- '79'\nmigrator_ts: 1792698974.6739285\n",
+    "icu79"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for icu 79",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "baumwelch",
+            "payload": {
+              "__lazy_json__": "node_attrs/baumwelch.json"
+            }
+          },
+          {
+            "id": "boost",
+            "payload": {
+              "__lazy_json__": "node_attrs/boost.json"
+            }
+          },
+          {
+            "id": "cairo",
+            "payload": {
+              "__lazy_json__": "node_attrs/cairo.json"
+            }
+          },
+          {
+            "id": "freerdp",
+            "payload": {
+              "__lazy_json__": "node_attrs/freerdp.json"
+            }
+          },
+          {
+            "id": "kaldi",
+            "payload": {
+              "__lazy_json__": "node_attrs/kaldi.json"
+            }
+          },
+          {
+            "id": "libgd",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgd.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libpsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpsl.json"
+            }
+          },
+          {
+            "id": "libv8",
+            "payload": {
+              "__lazy_json__": "node_attrs/libv8.json"
+            }
+          },
+          {
+            "id": "libxml2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxml2.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "openvino-tokenizers",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino-tokenizers.json"
+            }
+          },
+          {
+            "id": "pyicu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyicu.json"
+            }
+          },
+          {
+            "id": "spidermonkey",
+            "payload": {
+              "__lazy_json__": "node_attrs/spidermonkey.json"
+            }
+          },
+          {
+            "id": "sqlite",
+            "payload": {
+              "__lazy_json__": "node_attrs/sqlite.json"
+            }
+          },
+          {
+            "id": "xerces-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/xerces-c.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "baumwelch",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "boost",
+            "target": "clickhouse-odbc"
+          },
+          {
+            "source": "boost",
+            "target": "colmap"
+          },
+          {
+            "source": "boost",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "boost",
+            "target": "dssp"
+          },
+          {
+            "source": "boost",
+            "target": "e-antic"
+          },
+          {
+            "source": "boost",
+            "target": "exact-real"
+          },
+          {
+            "source": "boost",
+            "target": "libpdal"
+          },
+          {
+            "source": "boost",
+            "target": "odil"
+          },
+          {
+            "source": "boost",
+            "target": "paraview"
+          },
+          {
+            "source": "boost",
+            "target": "qgis"
+          },
+          {
+            "source": "boost",
+            "target": "topologytoolkit"
+          },
+          {
+            "source": "cairo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cairo",
+            "target": "harfbuzz"
+          },
+          {
+            "source": "cairo",
+            "target": "r-base"
+          },
+          {
+            "source": "cairo",
+            "target": "r-cairo"
+          },
+          {
+            "source": "cairo",
+            "target": "texlive-core"
+          },
+          {
+            "source": "cairo",
+            "target": "vte"
+          },
+          {
+            "source": "clickhouse-odbc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "colmap",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "couchdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ds9",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dssp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "e-antic",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "e-antic",
+            "target": "exact-real"
+          },
+          {
+            "source": "exact-real",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "freerdp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "qt-main"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "r-base"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "r-cairo"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "tectonic"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "texlive-core"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "vte"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "webkit2gtk4.1"
+          },
+          {
+            "source": "kaldi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libabigail",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libical",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libmongoc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpdal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpdal",
+            "target": "qgis"
+          },
+          {
+            "source": "libpsl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libv8",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libxml2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libxml2",
+            "target": "ds9"
+          },
+          {
+            "source": "libxml2",
+            "target": "exact-real"
+          },
+          {
+            "source": "libxml2",
+            "target": "libabigail"
+          },
+          {
+            "source": "libxml2",
+            "target": "libical"
+          },
+          {
+            "source": "libxml2",
+            "target": "libpdal"
+          },
+          {
+            "source": "libxml2",
+            "target": "libxmlsec1"
+          },
+          {
+            "source": "libxml2",
+            "target": "octave"
+          },
+          {
+            "source": "libxml2",
+            "target": "paraview"
+          },
+          {
+            "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
+            "target": "postgresql"
+          },
+          {
+            "source": "libxml2",
+            "target": "qgis"
+          },
+          {
+            "source": "libxml2",
+            "target": "qt-main"
+          },
+          {
+            "source": "libxml2",
+            "target": "qtwebkit"
+          },
+          {
+            "source": "libxml2",
+            "target": "scilab"
+          },
+          {
+            "source": "libxml2",
+            "target": "ticcutils"
+          },
+          {
+            "source": "libxml2",
+            "target": "uwsgi"
+          },
+          {
+            "source": "libxml2",
+            "target": "webkit2gtk4.1"
+          },
+          {
+            "source": "libxmlsec1",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nodejs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "octave",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "odil",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino-tokenizers",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "paraview",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "paraview",
+            "target": "topologytoolkit"
+          },
+          {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgresql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgresql",
+            "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
+          },
+          {
+            "source": "postgresql",
+            "target": "qgis"
+          },
+          {
+            "source": "postgresql",
+            "target": "qt-main"
+          },
+          {
+            "source": "pyicu",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qgis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "colmap"
+          },
+          {
+            "source": "qt-main",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "octave"
+          },
+          {
+            "source": "qt-main",
+            "target": "paraview"
+          },
+          {
+            "source": "qt-main",
+            "target": "qgis"
+          },
+          {
+            "source": "qt-main",
+            "target": "qtwebkit"
+          },
+          {
+            "source": "qt-main",
+            "target": "topologytoolkit"
+          },
+          {
+            "source": "qtwebkit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-base",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-base",
+            "target": "r-cairo"
+          },
+          {
+            "source": "r-base",
+            "target": "r-stringi"
+          },
+          {
+            "source": "r-cairo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-stringi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scilab",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spidermonkey",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spidermonkey",
+            "target": "couchdb"
+          },
+          {
+            "source": "sqlite",
+            "target": "colmap"
+          },
+          {
+            "source": "sqlite",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sqlite",
+            "target": "libpdal"
+          },
+          {
+            "source": "sqlite",
+            "target": "nodejs"
+          },
+          {
+            "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
+            "target": "qgis"
+          },
+          {
+            "source": "sqlite",
+            "target": "qt-main"
+          },
+          {
+            "source": "sqlite",
+            "target": "qtwebkit"
+          },
+          {
+            "source": "sqlite",
+            "target": "tensorflow"
+          },
+          {
+            "source": "sqlite",
+            "target": "topologytoolkit"
+          },
+          {
+            "source": "sqlite",
+            "target": "zk"
+          },
+          {
+            "source": "tectonic",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tensorflow",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "texlive-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ticcutils",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "topologytoolkit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "uwsgi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "vte",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "webkit2gtk4.1",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "xalan-c",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "xerces-c",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "xerces-c",
+            "target": "libpdal"
+          },
+          {
+            "source": "xerces-c",
+            "target": "xalan-c"
+          },
+          {
+            "source": "zk",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "baumwelch",
+            "payload": {
+              "__lazy_json__": "node_attrs/baumwelch.json"
+            }
+          },
+          {
+            "id": "boost",
+            "payload": {
+              "__lazy_json__": "node_attrs/boost.json"
+            }
+          },
+          {
+            "id": "cairo",
+            "payload": {
+              "__lazy_json__": "node_attrs/cairo.json"
+            }
+          },
+          {
+            "id": "clickhouse-odbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/clickhouse-odbc.json"
+            }
+          },
+          {
+            "id": "colmap",
+            "payload": {
+              "__lazy_json__": "node_attrs/colmap.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "couchdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/couchdb.json"
+            }
+          },
+          {
+            "id": "ds9",
+            "payload": {
+              "__lazy_json__": "node_attrs/ds9.json"
+            }
+          },
+          {
+            "id": "dssp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dssp.json"
+            }
+          },
+          {
+            "id": "e-antic",
+            "payload": {
+              "__lazy_json__": "node_attrs/e-antic.json"
+            }
+          },
+          {
+            "id": "exact-real",
+            "payload": {
+              "__lazy_json__": "node_attrs/exact-real.json"
+            }
+          },
+          {
+            "id": "freerdp",
+            "payload": {
+              "__lazy_json__": "node_attrs/freerdp.json"
+            }
+          },
+          {
+            "id": "harfbuzz",
+            "payload": {
+              "__lazy_json__": "node_attrs/harfbuzz.json"
+            }
+          },
+          {
+            "id": "kaldi",
+            "payload": {
+              "__lazy_json__": "node_attrs/kaldi.json"
+            }
+          },
+          {
+            "id": "libabigail",
+            "payload": {
+              "__lazy_json__": "node_attrs/libabigail.json"
+            }
+          },
+          {
+            "id": "libgd",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgd.json"
+            }
+          },
+          {
+            "id": "libical",
+            "payload": {
+              "__lazy_json__": "node_attrs/libical.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libpdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpdal.json"
+            }
+          },
+          {
+            "id": "libpsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpsl.json"
+            }
+          },
+          {
+            "id": "libv8",
+            "payload": {
+              "__lazy_json__": "node_attrs/libv8.json"
+            }
+          },
+          {
+            "id": "libxml2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxml2.json"
+            }
+          },
+          {
+            "id": "libxmlsec1",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxmlsec1.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "nodejs",
+            "payload": {
+              "__lazy_json__": "node_attrs/nodejs.json"
+            }
+          },
+          {
+            "id": "octave",
+            "payload": {
+              "__lazy_json__": "node_attrs/octave.json"
+            }
+          },
+          {
+            "id": "odil",
+            "payload": {
+              "__lazy_json__": "node_attrs/odil.json"
+            }
+          },
+          {
+            "id": "openvino-tokenizers",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino-tokenizers.json"
+            }
+          },
+          {
+            "id": "paraview",
+            "payload": {
+              "__lazy_json__": "node_attrs/paraview.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "postgresql",
+            "payload": {
+              "__lazy_json__": "node_attrs/postgresql.json"
+            }
+          },
+          {
+            "id": "pyicu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyicu.json"
+            }
+          },
+          {
+            "id": "qgis",
+            "payload": {
+              "__lazy_json__": "node_attrs/qgis.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          },
+          {
+            "id": "qtwebkit",
+            "payload": {
+              "__lazy_json__": "node_attrs/qtwebkit.json"
+            }
+          },
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "r-cairo",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-cairo.json"
+            }
+          },
+          {
+            "id": "r-stringi",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-stringi.json"
+            }
+          },
+          {
+            "id": "scilab",
+            "payload": {
+              "__lazy_json__": "node_attrs/scilab.json"
+            }
+          },
+          {
+            "id": "spidermonkey",
+            "payload": {
+              "__lazy_json__": "node_attrs/spidermonkey.json"
+            }
+          },
+          {
+            "id": "sqlite",
+            "payload": {
+              "__lazy_json__": "node_attrs/sqlite.json"
+            }
+          },
+          {
+            "id": "tectonic",
+            "payload": {
+              "__lazy_json__": "node_attrs/tectonic.json"
+            }
+          },
+          {
+            "id": "tensorflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          },
+          {
+            "id": "texlive-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/texlive-core.json"
+            }
+          },
+          {
+            "id": "ticcutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/ticcutils.json"
+            }
+          },
+          {
+            "id": "topologytoolkit",
+            "payload": {
+              "__lazy_json__": "node_attrs/topologytoolkit.json"
+            }
+          },
+          {
+            "id": "uwsgi",
+            "payload": {
+              "__lazy_json__": "node_attrs/uwsgi.json"
+            }
+          },
+          {
+            "id": "vte",
+            "payload": {
+              "__lazy_json__": "node_attrs/vte.json"
+            }
+          },
+          {
+            "id": "webkit2gtk4.1",
+            "payload": {
+              "__lazy_json__": "node_attrs/webkit2gtk4.1.json"
+            }
+          },
+          {
+            "id": "xalan-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/xalan-c.json"
+            }
+          },
+          {
+            "id": "xerces-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/xerces-c.json"
+            }
+          },
+          {
+            "id": "zk",
+            "payload": {
+              "__lazy_json__": "node_attrs/zk.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "icu"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "icu79"
+}
