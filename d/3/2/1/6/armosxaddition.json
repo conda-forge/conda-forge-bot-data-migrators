@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "python-constraint2",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-constraint2.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -7960,6 +7967,10 @@
           {
             "source": "cython",
             "target": "python-cityhash"
+          },
+          {
+            "source": "cython",
+            "target": "python-constraint2"
           },
           {
             "source": "cython",
@@ -39747,6 +39758,10 @@
           },
           {
             "source": "python",
+            "target": "python-constraint2"
+          },
+          {
+            "source": "python",
             "target": "python-crfsuite"
           },
           {
@@ -70031,6 +70046,12 @@
             }
           },
           {
+            "id": "python-constraint2",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-constraint2.json"
+            }
+          },
+          {
             "id": "python-crfsuite",
             "payload": {
               "__lazy_json__": "node_attrs/python-crfsuite.json"
@@ -77309,6 +77330,7 @@
         "python-cdo",
         "python-cityhash",
         "python-confluent-kafka",
+        "python-constraint2",
         "python-cppcolormap",
         "python-crfsuite",
         "python-dateutil",
