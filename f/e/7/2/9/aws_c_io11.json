@@ -52,20 +52,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "aws-c-event-stream",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
-            }
-          },
-          {
-            "id": "aws-c-http",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-http.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -367,7 +354,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
