@@ -49775,6 +49775,10 @@
           },
           {
             "source": "libwebp-base",
+            "target": "libheif"
+          },
+          {
+            "source": "libwebp-base",
             "target": "libtiff"
           },
           {
@@ -49812,10 +49816,6 @@
           {
             "source": "libwebp",
             "target": "libgd"
-          },
-          {
-            "source": "libwebp",
-            "target": "libheif"
           },
           {
             "source": "libwebp",
@@ -66352,6 +66352,10 @@
           {
             "source": "pkg-config",
             "target": "libgpiod-split"
+          },
+          {
+            "source": "pkg-config",
+            "target": "libheif"
           },
           {
             "source": "pkg-config",
