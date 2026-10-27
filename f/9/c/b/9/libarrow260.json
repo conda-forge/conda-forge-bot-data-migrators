@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libarrow 26.0\n  kind: version\n  migration_number: 1\nlibarrow:\n- '26.0'\n- '25.0'\n- '24.0'\n- '23.0'\nlibarrow_all:\n- '26.0'\n- '25.0'\n- '24.0'\n- '23.0'\nmigrator_ts: 1792663411.0277383\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libarrow 26.0\n  kind: version\n  migration_number: 1\n  exclude:\n    - pyarrow\n    - r-arrow\n    - arrow-c-glib\n\nlibarrow:\n- '26.0'\n- '25.0'\n- '24.0'\n- '23.0'\nlibarrow_all:\n- '26.0'\n- '25.0'\n- '24.0'\n- '23.0'\nmigrator_ts: 1792663411.0277383\n",
     "libarrow260"
   ],
   "class": "MigrationYaml",
@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "arrow-c-glib",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow-c-glib.json"
-            }
-          },
-          {
             "id": "bodo",
             "payload": {
               "__lazy_json__": "node_attrs/bodo.json"
@@ -74,27 +68,9 @@
             }
           },
           {
-            "id": "nyxus",
-            "payload": {
-              "__lazy_json__": "node_attrs/nyxus.json"
-            }
-          },
-          {
             "id": "pymongoarrow",
             "payload": {
               "__lazy_json__": "node_attrs/pymongoarrow.json"
-            }
-          },
-          {
-            "id": "river-ingester",
-            "payload": {
-              "__lazy_json__": "node_attrs/river-ingester.json"
-            }
-          },
-          {
-            "id": "tip",
-            "payload": {
-              "__lazy_json__": "node_attrs/tip.json"
             }
           },
           {
@@ -106,6 +82,11 @@
         ]
       }
     },
+    "exclude": [
+      "pyarrow",
+      "r-arrow",
+      "arrow-c-glib"
+    ],
     "force_pr_after_solver_attempts": 10,
     "graph": {
       "__nx_digraph__": true,
@@ -149,10 +130,6 @@
         },
         "links": [
           {
-            "source": "arrow-c-glib",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "bodo",
             "target": "conda-forge-pinning"
           },
@@ -181,31 +158,7 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyarrow",
-            "target": "bodo"
-          },
-          {
-            "source": "pyarrow",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyarrow",
-            "target": "csp"
-          },
-          {
-            "source": "pyarrow",
-            "target": "pymongoarrow"
-          },
-          {
-            "source": "pyarrow",
-            "target": "turbodbc"
-          },
-          {
             "source": "pymongoarrow",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "r-arrow",
             "target": "conda-forge-pinning"
           },
           {
@@ -223,12 +176,6 @@
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "arrow-c-glib",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow-c-glib.json"
-            }
-          },
           {
             "id": "bodo",
             "payload": {
@@ -272,21 +219,9 @@
             }
           },
           {
-            "id": "pyarrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyarrow.json"
-            }
-          },
-          {
             "id": "pymongoarrow",
             "payload": {
               "__lazy_json__": "node_attrs/pymongoarrow.json"
-            }
-          },
-          {
-            "id": "r-arrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-arrow.json"
             }
           },
           {
