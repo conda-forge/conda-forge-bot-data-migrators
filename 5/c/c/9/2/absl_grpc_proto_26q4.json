@@ -1,0 +1,1240 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libabseil 20260817 & libgrpc 1.85\n  kind: version\n  migration_number: 1\n  paused: true\n  exclude:\n    # core deps\n    - abseil-cpp\n    - grpc-cpp\n    - libprotobuf\n    # required for building/testing\n    - protobuf\n    - re2\n    # bazel stack\n    - bazel\n    - grpc_java_plugin\n    - singlejar\n    # built manually beforehand due to enormous build time\n    - pytorch-cpu\nlibabseil:\n- 20260817\nlibgrpc:\n- \"1.85\"\n# protobuf v36.x changes the default edition to 2026, which grpc\n# is not yet ready for: https://github.com/grpc/grpc/issues/43718;\n# need to keep the googleverse-specific bump relative to our current baseline\n# https://github.com/protocolbuffers/protobuf/commit/66a9ea7540ad7d3d0822ace6fc8d9ba6cd088c4d\nc_stdlib_version:   # [osx]\n  - 12.0            # [osx]\nmigrator_ts: 1793065783.6495733\n",
+    "absl_grpc_proto_26Q4"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for libabseil 20260817 & libgrpc 1.85",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "abb_libegm",
+            "payload": {
+              "__lazy_json__": "node_attrs/abb_libegm.json"
+            }
+          },
+          {
+            "id": "brpc",
+            "payload": {
+              "__lazy_json__": "node_attrs/brpc.json"
+            }
+          },
+          {
+            "id": "cartographer",
+            "payload": {
+              "__lazy_json__": "node_attrs/cartographer.json"
+            }
+          },
+          {
+            "id": "casacpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacpp.json"
+            }
+          },
+          {
+            "id": "cel-expr-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cel-expr-python.json"
+            }
+          },
+          {
+            "id": "coremltools",
+            "payload": {
+              "__lazy_json__": "node_attrs/coremltools.json"
+            }
+          },
+          {
+            "id": "cpp-opentelemetry-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/cpp-opentelemetry-sdk.json"
+            }
+          },
+          {
+            "id": "dm-tree",
+            "payload": {
+              "__lazy_json__": "node_attrs/dm-tree.json"
+            }
+          },
+          {
+            "id": "dydx-v4-proto-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dydx-v4-proto-cpp.json"
+            }
+          },
+          {
+            "id": "gazebo",
+            "payload": {
+              "__lazy_json__": "node_attrs/gazebo.json"
+            }
+          },
+          {
+            "id": "gz-msgs",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-msgs.json"
+            }
+          },
+          {
+            "id": "jaxlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/jaxlib.json"
+            }
+          },
+          {
+            "id": "labmaze",
+            "payload": {
+              "__lazy_json__": "node_attrs/labmaze.json"
+            }
+          },
+          {
+            "id": "libignition-msgs1",
+            "payload": {
+              "__lazy_json__": "node_attrs/libignition-msgs1.json"
+            }
+          },
+          {
+            "id": "mosh",
+            "payload": {
+              "__lazy_json__": "node_attrs/mosh.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "mysqlx-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysqlx-connector-python.json"
+            }
+          },
+          {
+            "id": "nodejs",
+            "payload": {
+              "__lazy_json__": "node_attrs/nodejs.json"
+            }
+          },
+          {
+            "id": "nurikit",
+            "payload": {
+              "__lazy_json__": "node_attrs/nurikit.json"
+            }
+          },
+          {
+            "id": "nvidia-dali-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+            }
+          },
+          {
+            "id": "openvino",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino.json"
+            }
+          },
+          {
+            "id": "or-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/or-tools.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "protobuf-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/protobuf-c.json"
+            }
+          },
+          {
+            "id": "protozfits",
+            "payload": {
+              "__lazy_json__": "node_attrs/protozfits.json"
+            }
+          },
+          {
+            "id": "pyaudi",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyaudi.json"
+            }
+          },
+          {
+            "id": "r-s2",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-s2.json"
+            }
+          },
+          {
+            "id": "s2geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/s2geometry.json"
+            }
+          },
+          {
+            "id": "sentencepiece",
+            "payload": {
+              "__lazy_json__": "node_attrs/sentencepiece.json"
+            }
+          },
+          {
+            "id": "spot-cpp-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/spot-cpp-sdk.json"
+            }
+          },
+          {
+            "id": "tensorflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          },
+          {
+            "id": "tritonclient-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/tritonclient-split.json"
+            }
+          },
+          {
+            "id": "uhd",
+            "payload": {
+              "__lazy_json__": "node_attrs/uhd.json"
+            }
+          },
+          {
+            "id": "dawn",
+            "payload": {
+              "__lazy_json__": "node_attrs/dawn.json"
+            }
+          }
+        ]
+      }
+    },
+    "exclude": [
+      "abseil-cpp",
+      "grpc-cpp",
+      "libprotobuf",
+      "protobuf",
+      "re2",
+      "bazel",
+      "grpc_java_plugin",
+      "singlejar",
+      "pytorch-cpu"
+    ],
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "abb_libegm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arcticdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "ray-packages"
+          },
+          {
+            "source": "brpc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cartographer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "casacpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cel-expr-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coremltools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coremltools",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "dawn",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "deepmd-kit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dm-tree",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dm-tree",
+            "target": "ray-packages"
+          },
+          {
+            "source": "dydx-v4-proto-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gazebo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gnss-sdr",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "google-cloud-cpp-ai",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "google-cloud-cpp-ai",
+            "target": "google-cloud-cpp"
+          },
+          {
+            "source": "google-cloud-cpp-bigquery",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "google-cloud-cpp-bigquery",
+            "target": "google-cloud-cpp"
+          },
+          {
+            "source": "google-cloud-cpp-compute",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "google-cloud-cpp-compute",
+            "target": "google-cloud-cpp"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "google-cloud-cpp"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "google-cloud-cpp-ai"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "google-cloud-cpp-bigquery"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "google-cloud-cpp-compute"
+          },
+          {
+            "source": "google-cloud-cpp-core",
+            "target": "tiledb"
+          },
+          {
+            "source": "google-cloud-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-gui",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-gui",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-gui",
+            "target": "gz-sim"
+          },
+          {
+            "source": "gz-launch",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-launch",
+            "target": "gz-sim-yarp-plugins"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-gui"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-sim"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-sim-yarp-plugins"
+          },
+          {
+            "source": "gz-msgs",
+            "target": "gz-transport"
+          },
+          {
+            "source": "gz-sensors",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-sensors",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-sensors",
+            "target": "gz-sim"
+          },
+          {
+            "source": "gz-sim-yarp-plugins",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-sim",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-sim",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-sim",
+            "target": "gz-sim-yarp-plugins"
+          },
+          {
+            "source": "gz-transport",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gz-transport",
+            "target": "gz-gui"
+          },
+          {
+            "source": "gz-transport",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-transport",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "gz-transport",
+            "target": "gz-sim"
+          },
+          {
+            "source": "gz-transport",
+            "target": "gz-sim-yarp-plugins"
+          },
+          {
+            "source": "horovod",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "jaxlib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "jaxlib",
+            "target": "mujoco"
+          },
+          {
+            "source": "jaxlib",
+            "target": "ray-packages"
+          },
+          {
+            "source": "labmaze",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libignition-launch",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libignition-msgs1",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libignition-msgs1",
+            "target": "libignition-launch"
+          },
+          {
+            "source": "libignition-msgs1",
+            "target": "libignition-transport4"
+          },
+          {
+            "source": "libignition-transport4",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libignition-transport4",
+            "target": "libignition-launch"
+          },
+          {
+            "source": "mosh",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mujoco",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mujoco",
+            "target": "ray-packages"
+          },
+          {
+            "source": "mysql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysqlx-connector-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nodejs",
+            "target": "arcticdb"
+          },
+          {
+            "source": "nodejs",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "nodejs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nurikit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvidia-dali-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "onnxruntime",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino-tokenizers",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino",
+            "target": "openvino-tokenizers"
+          },
+          {
+            "source": "or-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "orc",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "orc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "protobuf-c",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "protozfits",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyaudi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pys2index",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-s2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ray-packages",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "s2geography",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "s2geography",
+            "target": "spherely"
+          },
+          {
+            "source": "s2geometry",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "s2geometry",
+            "target": "pys2index"
+          },
+          {
+            "source": "s2geometry",
+            "target": "s2geography"
+          },
+          {
+            "source": "s2geometry",
+            "target": "spherely"
+          },
+          {
+            "source": "sentencepiece",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sentencepiece",
+            "target": "openvino-tokenizers"
+          },
+          {
+            "source": "spherely",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spot-cpp-sdk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tensorflow",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tensorflow",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "tensorflow",
+            "target": "horovod"
+          },
+          {
+            "source": "tiledb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tritonclient-split",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "uhd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "uhd",
+            "target": "gnss-sdr"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "abb_libegm",
+            "payload": {
+              "__lazy_json__": "node_attrs/abb_libegm.json"
+            }
+          },
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "brpc",
+            "payload": {
+              "__lazy_json__": "node_attrs/brpc.json"
+            }
+          },
+          {
+            "id": "cartographer",
+            "payload": {
+              "__lazy_json__": "node_attrs/cartographer.json"
+            }
+          },
+          {
+            "id": "casacpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacpp.json"
+            }
+          },
+          {
+            "id": "cel-expr-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cel-expr-python.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "coremltools",
+            "payload": {
+              "__lazy_json__": "node_attrs/coremltools.json"
+            }
+          },
+          {
+            "id": "cpp-opentelemetry-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/cpp-opentelemetry-sdk.json"
+            }
+          },
+          {
+            "id": "deepmd-kit",
+            "payload": {
+              "__lazy_json__": "node_attrs/deepmd-kit.json"
+            }
+          },
+          {
+            "id": "dm-tree",
+            "payload": {
+              "__lazy_json__": "node_attrs/dm-tree.json"
+            }
+          },
+          {
+            "id": "dydx-v4-proto-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dydx-v4-proto-cpp.json"
+            }
+          },
+          {
+            "id": "gazebo",
+            "payload": {
+              "__lazy_json__": "node_attrs/gazebo.json"
+            }
+          },
+          {
+            "id": "gnss-sdr",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnss-sdr.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-ai.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-bigquery",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-bigquery.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-compute",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-compute.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-core.json"
+            }
+          },
+          {
+            "id": "gz-gui",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-gui.json"
+            }
+          },
+          {
+            "id": "gz-launch",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-launch.json"
+            }
+          },
+          {
+            "id": "gz-msgs",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-msgs.json"
+            }
+          },
+          {
+            "id": "gz-sensors",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-sensors.json"
+            }
+          },
+          {
+            "id": "gz-sim",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-sim.json"
+            }
+          },
+          {
+            "id": "gz-sim-yarp-plugins",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-sim-yarp-plugins.json"
+            }
+          },
+          {
+            "id": "gz-transport",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-transport.json"
+            }
+          },
+          {
+            "id": "horovod",
+            "payload": {
+              "__lazy_json__": "node_attrs/horovod.json"
+            }
+          },
+          {
+            "id": "jaxlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/jaxlib.json"
+            }
+          },
+          {
+            "id": "labmaze",
+            "payload": {
+              "__lazy_json__": "node_attrs/labmaze.json"
+            }
+          },
+          {
+            "id": "libignition-launch",
+            "payload": {
+              "__lazy_json__": "node_attrs/libignition-launch.json"
+            }
+          },
+          {
+            "id": "libignition-msgs1",
+            "payload": {
+              "__lazy_json__": "node_attrs/libignition-msgs1.json"
+            }
+          },
+          {
+            "id": "libignition-transport4",
+            "payload": {
+              "__lazy_json__": "node_attrs/libignition-transport4.json"
+            }
+          },
+          {
+            "id": "mosh",
+            "payload": {
+              "__lazy_json__": "node_attrs/mosh.json"
+            }
+          },
+          {
+            "id": "mujoco",
+            "payload": {
+              "__lazy_json__": "node_attrs/mujoco.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "mysqlx-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysqlx-connector-python.json"
+            }
+          },
+          {
+            "id": "nodejs",
+            "payload": {
+              "__lazy_json__": "node_attrs/nodejs.json"
+            }
+          },
+          {
+            "id": "nurikit",
+            "payload": {
+              "__lazy_json__": "node_attrs/nurikit.json"
+            }
+          },
+          {
+            "id": "nvidia-dali-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+            }
+          },
+          {
+            "id": "onnxruntime",
+            "payload": {
+              "__lazy_json__": "node_attrs/onnxruntime.json"
+            }
+          },
+          {
+            "id": "openvino",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino.json"
+            }
+          },
+          {
+            "id": "openvino-tokenizers",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino-tokenizers.json"
+            }
+          },
+          {
+            "id": "or-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/or-tools.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "protobuf-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/protobuf-c.json"
+            }
+          },
+          {
+            "id": "protozfits",
+            "payload": {
+              "__lazy_json__": "node_attrs/protozfits.json"
+            }
+          },
+          {
+            "id": "pyaudi",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyaudi.json"
+            }
+          },
+          {
+            "id": "pys2index",
+            "payload": {
+              "__lazy_json__": "node_attrs/pys2index.json"
+            }
+          },
+          {
+            "id": "r-s2",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-s2.json"
+            }
+          },
+          {
+            "id": "ray-packages",
+            "payload": {
+              "__lazy_json__": "node_attrs/ray-packages.json"
+            }
+          },
+          {
+            "id": "s2geography",
+            "payload": {
+              "__lazy_json__": "node_attrs/s2geography.json"
+            }
+          },
+          {
+            "id": "s2geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/s2geometry.json"
+            }
+          },
+          {
+            "id": "sentencepiece",
+            "payload": {
+              "__lazy_json__": "node_attrs/sentencepiece.json"
+            }
+          },
+          {
+            "id": "spherely",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherely.json"
+            }
+          },
+          {
+            "id": "spot-cpp-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/spot-cpp-sdk.json"
+            }
+          },
+          {
+            "id": "tensorflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
+            }
+          },
+          {
+            "id": "tritonclient-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/tritonclient-split.json"
+            }
+          },
+          {
+            "id": "uhd",
+            "payload": {
+              "__lazy_json__": "node_attrs/uhd.json"
+            }
+          },
+          {
+            "id": "dawn",
+            "payload": {
+              "__lazy_json__": "node_attrs/dawn.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "libabseil",
+        "libgrpc"
+      ]
+    },
+    "paused": true,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "absl_grpc_proto_26q4"
+}
