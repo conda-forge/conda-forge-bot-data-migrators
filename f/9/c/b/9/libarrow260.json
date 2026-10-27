@@ -54,32 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "bodo",
-            "payload": {
-              "__lazy_json__": "node_attrs/bodo.json"
-            }
-          },
-          {
-            "id": "csp",
-            "payload": {
-              "__lazy_json__": "node_attrs/csp.json"
-            }
-          },
-          {
-            "id": "pymongoarrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/pymongoarrow.json"
-            }
-          },
-          {
-            "id": "turbodbc",
-            "payload": {
-              "__lazy_json__": "node_attrs/turbodbc.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -343,7 +318,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
