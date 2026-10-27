@@ -7779,6 +7779,10 @@
           },
           {
             "source": "cython",
+            "target": "pykrige"
+          },
+          {
+            "source": "cython",
             "target": "pymartini"
           },
           {
@@ -28583,6 +28587,10 @@
           },
           {
             "source": "numpy",
+            "target": "pykrige"
+          },
+          {
+            "source": "numpy",
             "target": "pylabdd"
           },
           {
@@ -35310,6 +35318,10 @@
             "target": "pyresample"
           },
           {
+            "source": "pykrige",
+            "target": "geowombat"
+          },
+          {
             "source": "pymatgen-core",
             "target": "pymatgen"
           },
@@ -39244,6 +39256,10 @@
           {
             "source": "python",
             "target": "pykrb5"
+          },
+          {
+            "source": "python",
+            "target": "pykrige"
           },
           {
             "source": "python",
@@ -51936,6 +51952,10 @@
           {
             "source": "scipy",
             "target": "pykep"
+          },
+          {
+            "source": "scipy",
+            "target": "pykrige"
           },
           {
             "source": "scipy",
@@ -69246,6 +69266,12 @@
             "id": "pykrb5",
             "payload": {
               "__lazy_json__": "node_attrs/pykrb5.json"
+            }
+          },
+          {
+            "id": "pykrige",
+            "payload": {
+              "__lazy_json__": "node_attrs/pykrige.json"
             }
           },
           {
