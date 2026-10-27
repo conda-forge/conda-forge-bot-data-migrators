@@ -6276,6 +6276,10 @@
           },
           {
             "source": "boost",
+            "target": "slac-rogue"
+          },
+          {
+            "source": "boost",
             "target": "sofa-cosserat"
           },
           {
@@ -28916,6 +28920,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "slac-rogue"
+          },
+          {
+            "source": "matplotlib",
             "target": "sleepecg"
           },
           {
@@ -39448,6 +39456,10 @@
           },
           {
             "source": "numpy",
+            "target": "slac-rogue"
+          },
+          {
+            "source": "numpy",
             "target": "slda"
           },
           {
@@ -49803,6 +49815,10 @@
             "target": "nomad-camels"
           },
           {
+            "source": "pyepics",
+            "target": "slac-rogue"
+          },
+          {
             "source": "pyepr",
             "target": "conda-forge-pinning"
           },
@@ -57692,6 +57708,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "slac-rogue"
+          },
+          {
+            "source": "pyyaml",
             "target": "sleepecg"
           },
           {
@@ -58389,6 +58409,10 @@
           {
             "source": "pyzmq",
             "target": "silx"
+          },
+          {
+            "source": "pyzmq",
+            "target": "slac-rogue"
           },
           {
             "source": "pyzmq",
@@ -66343,6 +66367,10 @@
             "target": "stackvana-core"
           },
           {
+            "source": "slac-rogue",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "slda",
             "target": "conda-forge-pinning"
           },
@@ -67169,6 +67197,10 @@
           {
             "source": "sqlalchemy",
             "target": "seismon"
+          },
+          {
+            "source": "sqlalchemy",
+            "target": "slac-rogue"
           },
           {
             "source": "sqlalchemy",
@@ -78581,6 +78613,10 @@
           {
             "source": "tbb",
             "target": "skyproj"
+          },
+          {
+            "source": "tbb",
+            "target": "slac-rogue"
           },
           {
             "source": "tbb",
@@ -106041,6 +106077,12 @@
             "id": "embreex",
             "payload": {
               "__lazy_json__": "node_attrs/embreex.json"
+            }
+          },
+          {
+            "id": "slac-rogue",
+            "payload": {
+              "__lazy_json__": "node_attrs/slac-rogue.json"
             }
           }
         ]
