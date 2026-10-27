@@ -55,12 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "cuik-molmaker",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuik-molmaker.json"
-            }
-          },
-          {
             "id": "poli",
             "payload": {
               "__lazy_json__": "node_attrs/poli.json"
@@ -52239,6 +52233,10 @@
           {
             "source": "pyqt",
             "target": "silx"
+          },
+          {
+            "source": "pyqt",
+            "target": "slac-rogue"
           },
           {
             "source": "pyqt",
