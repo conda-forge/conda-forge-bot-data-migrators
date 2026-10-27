@@ -56,27 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "libv8",
-            "payload": {
-              "__lazy_json__": "node_attrs/libv8.json"
-            }
-          },
-          {
             "id": "nodejs",
             "payload": {
               "__lazy_json__": "node_attrs/nodejs.json"
-            }
-          },
-          {
-            "id": "openvino-tokenizers",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvino-tokenizers.json"
-            }
-          },
-          {
-            "id": "spidermonkey",
-            "payload": {
-              "__lazy_json__": "node_attrs/spidermonkey.json"
             }
           },
           {
@@ -1023,7 +1005,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
