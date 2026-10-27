@@ -51,7 +51,32 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "coverage",
+            "target": "autode"
+          },
+          {
+            "source": "coverage",
+            "target": "cuik-molmaker"
+          },
+          {
+            "source": "coverage",
+            "target": "poli"
+          },
+          {
+            "source": "coverage",
+            "target": "pygnome"
+          },
+          {
+            "source": "coverage",
+            "target": "rdchiral_cpp"
+          },
+          {
+            "source": "coverage",
+            "target": "votca"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -64,6 +89,12 @@
             "id": "brian2",
             "payload": {
               "__lazy_json__": "node_attrs/brian2.json"
+            }
+          },
+          {
+            "id": "coverage",
+            "payload": {
+              "__lazy_json__": "node_attrs/coverage.json"
             }
           },
           {
@@ -6037,10 +6068,6 @@
           {
             "source": "boost",
             "target": "opencamlib"
-          },
-          {
-            "source": "boost",
-            "target": "openvdb"
           },
           {
             "source": "boost",
