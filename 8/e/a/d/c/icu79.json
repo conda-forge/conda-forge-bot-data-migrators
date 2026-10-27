@@ -56,39 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "baumwelch",
-            "payload": {
-              "__lazy_json__": "node_attrs/baumwelch.json"
-            }
-          },
-          {
-            "id": "freerdp",
-            "payload": {
-              "__lazy_json__": "node_attrs/freerdp.json"
-            }
-          },
-          {
-            "id": "kaldi",
-            "payload": {
-              "__lazy_json__": "node_attrs/kaldi.json"
-            }
-          },
-          {
-            "id": "libmongoc",
-            "payload": {
-              "__lazy_json__": "node_attrs/libmongoc.json"
-            }
-          },
-          {
             "id": "libv8",
             "payload": {
               "__lazy_json__": "node_attrs/libv8.json"
-            }
-          },
-          {
-            "id": "mysql",
-            "payload": {
-              "__lazy_json__": "node_attrs/mysql.json"
             }
           },
           {
@@ -104,12 +74,6 @@
             }
           },
           {
-            "id": "pyicu",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyicu.json"
-            }
-          },
-          {
             "id": "spidermonkey",
             "payload": {
               "__lazy_json__": "node_attrs/spidermonkey.json"
@@ -119,12 +83,6 @@
             "id": "tensorflow",
             "payload": {
               "__lazy_json__": "node_attrs/tensorflow.json"
-            }
-          },
-          {
-            "id": "xerces-c",
-            "payload": {
-              "__lazy_json__": "node_attrs/xerces-c.json"
             }
           },
           {
@@ -1065,7 +1023,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
