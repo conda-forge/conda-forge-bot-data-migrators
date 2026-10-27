@@ -14354,6 +14354,10 @@
           },
           {
             "source": "cython",
+            "target": "pykrige"
+          },
+          {
+            "source": "cython",
             "target": "pylablib"
           },
           {
@@ -20605,6 +20609,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "gstools-cython",
+            "target": "pykrige"
+          },
+          {
             "source": "gtsam",
             "target": "conda-forge-pinning"
           },
@@ -21339,6 +21347,10 @@
           {
             "source": "h5py",
             "target": "pygwb"
+          },
+          {
+            "source": "h5py",
+            "target": "pykrige"
           },
           {
             "source": "h5py",
@@ -32214,6 +32226,10 @@
           },
           {
             "source": "netcdf4",
+            "target": "pykrige"
+          },
+          {
+            "source": "netcdf4",
             "target": "pylbl"
           },
           {
@@ -38147,6 +38163,10 @@
           {
             "source": "numpy",
             "target": "pykep"
+          },
+          {
+            "source": "numpy",
+            "target": "pykrige"
           },
           {
             "source": "numpy",
@@ -47154,6 +47174,10 @@
           },
           {
             "source": "psutil",
+            "target": "pykrige"
+          },
+          {
+            "source": "psutil",
             "target": "pylink-square"
           },
           {
@@ -50455,6 +50479,14 @@
           {
             "source": "pykrb5",
             "target": "stackvana-core"
+          },
+          {
+            "source": "pykrige",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pykrige",
+            "target": "geowombat"
           },
           {
             "source": "pylabdd",
@@ -61778,6 +61810,10 @@
           },
           {
             "source": "scikit-learn",
+            "target": "pykrige"
+          },
+          {
+            "source": "scikit-learn",
             "target": "pylandstats"
           },
           {
@@ -64295,6 +64331,10 @@
           {
             "source": "scipy",
             "target": "pykep"
+          },
+          {
+            "source": "scipy",
+            "target": "pykrige"
           },
           {
             "source": "scipy",
@@ -76202,6 +76242,10 @@
           },
           {
             "source": "tbb",
+            "target": "pykrige"
+          },
+          {
+            "source": "tbb",
             "target": "pylabdd"
           },
           {
@@ -84923,6 +84967,10 @@
           {
             "source": "wcwidth",
             "target": "pyjs_code_runner"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pykrige"
           },
           {
             "source": "wcwidth",
@@ -99411,6 +99459,12 @@
             "id": "pykrb5",
             "payload": {
               "__lazy_json__": "node_attrs/pykrb5.json"
+            }
+          },
+          {
+            "id": "pykrige",
+            "payload": {
+              "__lazy_json__": "node_attrs/pykrige.json"
             }
           },
           {
