@@ -74,12 +74,6 @@
             }
           },
           {
-            "id": "librerun-sdk",
-            "payload": {
-              "__lazy_json__": "node_attrs/librerun-sdk.json"
-            }
-          },
-          {
             "id": "nyxus",
             "payload": {
               "__lazy_json__": "node_attrs/nyxus.json"
@@ -89,12 +83,6 @@
             "id": "pymongoarrow",
             "payload": {
               "__lazy_json__": "node_attrs/pymongoarrow.json"
-            }
-          },
-          {
-            "id": "r-arrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-arrow.json"
             }
           },
           {
@@ -420,7 +408,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
