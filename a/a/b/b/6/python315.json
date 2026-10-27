@@ -51,36 +51,13 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "coverage",
-            "target": "autode"
-          },
-          {
-            "source": "coverage",
-            "target": "cuik-molmaker"
-          },
-          {
-            "source": "coverage",
-            "target": "poli"
-          },
-          {
-            "source": "coverage",
-            "target": "votca"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
             "id": "autode",
             "payload": {
               "__lazy_json__": "node_attrs/autode.json"
-            }
-          },
-          {
-            "id": "coverage",
-            "payload": {
-              "__lazy_json__": "node_attrs/coverage.json"
             }
           },
           {
@@ -47445,6 +47422,10 @@
           },
           {
             "source": "psutil",
+            "target": "slac-rogue"
+          },
+          {
+            "source": "psutil",
             "target": "sleepecg"
           },
           {
@@ -85162,6 +85143,10 @@
           {
             "source": "wcwidth",
             "target": "silx"
+          },
+          {
+            "source": "wcwidth",
+            "target": "slac-rogue"
           },
           {
             "source": "wcwidth",
