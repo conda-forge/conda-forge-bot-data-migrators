@@ -98,23 +98,7 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "nvtx-c"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "optree"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "python-xxhash"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "s2n"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "scons"
           },
           {
             "source": "cmake-no-system",
@@ -123,10 +107,6 @@
           {
             "source": "cmake-no-system",
             "target": "tar"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "uriparser"
           },
           {
             "source": "cmake-no-system",
@@ -226,33 +206,9 @@
             }
           },
           {
-            "id": "nvtx-c",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvtx-c.json"
-            }
-          },
-          {
-            "id": "optree",
-            "payload": {
-              "__lazy_json__": "node_attrs/optree.json"
-            }
-          },
-          {
-            "id": "python-xxhash",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-xxhash.json"
-            }
-          },
-          {
             "id": "s2n",
             "payload": {
               "__lazy_json__": "node_attrs/s2n.json"
-            }
-          },
-          {
-            "id": "scons",
-            "payload": {
-              "__lazy_json__": "node_attrs/scons.json"
             }
           },
           {
@@ -265,12 +221,6 @@
             "id": "tar",
             "payload": {
               "__lazy_json__": "node_attrs/tar.json"
-            }
-          },
-          {
-            "id": "uriparser",
-            "payload": {
-              "__lazy_json__": "node_attrs/uriparser.json"
             }
           },
           {
