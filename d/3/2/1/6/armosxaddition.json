@@ -45,26 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "getopt-win32",
-            "payload": {
-              "__lazy_json__": "node_attrs/getopt-win32.json"
-            }
-          },
-          {
-            "id": "git-annex",
-            "payload": {
-              "__lazy_json__": "node_attrs/git-annex.json"
-            }
-          },
-          {
-            "id": "tcsh",
-            "payload": {
-              "__lazy_json__": "node_attrs/tcsh.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -47390,10 +47371,6 @@
           },
           {
             "source": "make",
-            "target": "openlibm"
-          },
-          {
-            "source": "make",
             "target": "openmc"
           },
           {
@@ -62767,18 +62744,6 @@
           {
             "source": "openldap",
             "target": "postgresql"
-          },
-          {
-            "source": "openlibm",
-            "target": "julia"
-          },
-          {
-            "source": "openlibm",
-            "target": "magics-metview-batch"
-          },
-          {
-            "source": "openlibm",
-            "target": "metview-batch"
           },
           {
             "source": "openmm",
@@ -122127,12 +122092,6 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
-            }
-          },
-          {
-            "id": "openlibm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
