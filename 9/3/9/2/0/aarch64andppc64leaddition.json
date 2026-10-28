@@ -7235,10 +7235,6 @@
           },
           {
             "source": "bash",
-            "target": "openlibm"
-          },
-          {
-            "source": "bash",
             "target": "openmeeg"
           },
           {
@@ -45687,10 +45683,6 @@
           },
           {
             "source": "libtool",
-            "target": "openlibm"
-          },
-          {
-            "source": "libtool",
             "target": "openmeeg"
           },
           {
@@ -61572,10 +61564,6 @@
           {
             "source": "openldap",
             "target": "postgresql"
-          },
-          {
-            "source": "openlibm",
-            "target": "julia"
           },
           {
             "source": "openmm",
@@ -112798,12 +112786,6 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
-            }
-          },
-          {
-            "id": "openlibm",
-            "payload": {
-              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
