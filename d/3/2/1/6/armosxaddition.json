@@ -47371,6 +47371,10 @@
           },
           {
             "source": "make",
+            "target": "openlibm"
+          },
+          {
+            "source": "make",
             "target": "openmc"
           },
           {
@@ -62744,6 +62748,18 @@
           {
             "source": "openldap",
             "target": "postgresql"
+          },
+          {
+            "source": "openlibm",
+            "target": "julia"
+          },
+          {
+            "source": "openlibm",
+            "target": "magics-metview-batch"
+          },
+          {
+            "source": "openlibm",
+            "target": "metview-batch"
           },
           {
             "source": "openmm",
@@ -122092,6 +122108,12 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
+            }
+          },
+          {
+            "id": "openlibm",
+            "payload": {
+              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
