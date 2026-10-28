@@ -1392,10 +1392,6 @@
           },
           {
             "source": "binutils",
-            "target": "libev"
-          },
-          {
-            "source": "binutils",
             "target": "libffi"
           },
           {
@@ -1933,10 +1929,6 @@
           {
             "source": "c-ares",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "c-ares",
-            "target": "nghttp2"
           },
           {
             "source": "c-ares",
@@ -3225,10 +3217,6 @@
           {
             "source": "cmake",
             "target": "libdrm"
-          },
-          {
-            "source": "cmake",
-            "target": "libev"
           },
           {
             "source": "cmake",
@@ -4521,10 +4509,6 @@
           {
             "source": "ctng-compilers",
             "target": "libcxx"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "libev"
           },
           {
             "source": "ctng-compilers",
@@ -8387,10 +8371,6 @@
             "target": "thrift-cpp"
           },
           {
-            "source": "libev",
-            "target": "nghttp2"
-          },
-          {
             "source": "libfabric",
             "target": "mpich"
           },
@@ -9336,10 +9316,6 @@
           },
           {
             "source": "libtool",
-            "target": "nghttp2"
-          },
-          {
-            "source": "libtool",
             "target": "numactl"
           },
           {
@@ -9780,10 +9756,6 @@
           },
           {
             "source": "libxml2",
-            "target": "libev"
-          },
-          {
-            "source": "libxml2",
             "target": "libffi"
           },
           {
@@ -10032,10 +10004,6 @@
           },
           {
             "source": "lld",
-            "target": "libev"
-          },
-          {
-            "source": "lld",
             "target": "libffi"
           },
           {
@@ -10129,10 +10097,6 @@
           {
             "source": "llvmdev",
             "target": "libcxx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libev"
           },
           {
             "source": "llvmdev",
@@ -10716,10 +10680,6 @@
           },
           {
             "source": "make",
-            "target": "libev"
-          },
-          {
-            "source": "make",
             "target": "libfabric"
           },
           {
@@ -10913,10 +10873,6 @@
           {
             "source": "make",
             "target": "netpbm"
-          },
-          {
-            "source": "make",
-            "target": "nghttp2"
           },
           {
             "source": "make",
@@ -12640,10 +12596,6 @@
           },
           {
             "source": "ninja",
-            "target": "libev"
-          },
-          {
-            "source": "ninja",
             "target": "libevent"
           },
           {
@@ -13772,10 +13724,6 @@
           },
           {
             "source": "openmp",
-            "target": "libev"
-          },
-          {
-            "source": "openmp",
             "target": "libffi"
           },
           {
@@ -14057,10 +14005,6 @@
           {
             "source": "openssl",
             "target": "multidict"
-          },
-          {
-            "source": "openssl",
-            "target": "nghttp2"
           },
           {
             "source": "openssl",
@@ -14981,10 +14925,6 @@
           {
             "source": "pkg-config",
             "target": "netpbm"
-          },
-          {
-            "source": "pkg-config",
-            "target": "nghttp2"
           },
           {
             "source": "pkg-config",
@@ -16449,10 +16389,6 @@
           {
             "source": "python",
             "target": "libdrm"
-          },
-          {
-            "source": "python",
-            "target": "libev"
           },
           {
             "source": "python",
@@ -21932,10 +21868,6 @@
           },
           {
             "source": "zlib",
-            "target": "libev"
-          },
-          {
-            "source": "zlib",
             "target": "libffi"
           },
           {
@@ -22057,10 +21989,6 @@
           {
             "source": "zlib",
             "target": "netpbm"
-          },
-          {
-            "source": "zlib",
-            "target": "nghttp2"
           },
           {
             "source": "zlib",
@@ -22525,10 +22453,6 @@
           {
             "source": "zstd",
             "target": "libcxx"
-          },
-          {
-            "source": "zstd",
-            "target": "libev"
           },
           {
             "source": "zstd",
@@ -24313,12 +24237,6 @@
             "id": "libedit",
             "payload": {
               "__lazy_json__": "node_attrs/libedit.json"
-            }
-          },
-          {
-            "id": "libev",
-            "payload": {
-              "__lazy_json__": "node_attrs/libev.json"
             }
           },
           {
