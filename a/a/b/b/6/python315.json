@@ -15796,6 +15796,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "dau-driver",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "dawg",
             "target": "conda-forge-pinning"
           },
@@ -25950,6 +25954,10 @@
           {
             "source": "markupsafe",
             "target": "datatable"
+          },
+          {
+            "source": "markupsafe",
+            "target": "dau-driver"
           },
           {
             "source": "markupsafe",
@@ -48165,6 +48173,10 @@
           },
           {
             "source": "pyarrow",
+            "target": "dau-driver"
+          },
+          {
+            "source": "pyarrow",
             "target": "dora-rs-suite"
           },
           {
@@ -49142,6 +49154,10 @@
           {
             "source": "pydantic-core",
             "target": "dask-sql"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "dau-driver"
           },
           {
             "source": "pydantic-core",
@@ -56518,6 +56534,10 @@
           {
             "source": "pyyaml",
             "target": "datavzrd"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dau-driver"
           },
           {
             "source": "pyyaml",
@@ -70006,6 +70026,10 @@
           {
             "source": "tbb",
             "target": "datrie"
+          },
+          {
+            "source": "tbb",
+            "target": "dau-driver"
           },
           {
             "source": "tbb",
@@ -106090,6 +106114,12 @@
             "id": "slac-rogue",
             "payload": {
               "__lazy_json__": "node_attrs/slac-rogue.json"
+            }
+          },
+          {
+            "id": "dau-driver",
+            "payload": {
+              "__lazy_json__": "node_attrs/dau-driver.json"
             }
           }
         ]
