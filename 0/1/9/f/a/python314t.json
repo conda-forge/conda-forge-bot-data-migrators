@@ -57,7 +57,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -2615,6 +2622,10 @@
           {
             "source": "cython",
             "target": "murmurhash"
+          },
+          {
+            "source": "cython",
+            "target": "nanoarrow"
           },
           {
             "source": "cython",
@@ -5826,6 +5837,10 @@
           },
           {
             "source": "mysqlclient",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nanoarrow",
             "target": "conda-forge-pinning"
           },
           {
@@ -12134,6 +12149,10 @@
           },
           {
             "source": "tbb",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "tbb",
             "target": "nccl4py"
           },
           {
@@ -16579,6 +16598,12 @@
             "id": "mysqlclient",
             "payload": {
               "__lazy_json__": "node_attrs/mysqlclient.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
             }
           },
           {
