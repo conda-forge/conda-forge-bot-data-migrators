@@ -54,10 +54,6 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "azure-storage-common-cpp"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "brotlicffi"
           },
           {
@@ -91,10 +87,6 @@
           {
             "source": "cmake-no-system",
             "target": "hdrhistogram-c"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "httptools"
           },
           {
             "source": "cmake-no-system",
@@ -146,10 +138,6 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "rapidjson"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "regex"
           },
           {
@@ -163,10 +151,6 @@
           {
             "source": "cmake-no-system",
             "target": "simplejson"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "siphash24"
           },
           {
             "source": "cmake-no-system",
@@ -185,20 +169,12 @@
             "target": "uvloop"
           },
           {
-            "source": "cmake-no-system",
-            "target": "yasm"
-          },
-          {
             "source": "grep",
             "target": "aws-c-common"
           },
           {
             "source": "grep",
             "target": "azure-identity-cpp"
-          },
-          {
-            "source": "grep",
-            "target": "azure-storage-common-cpp"
           },
           {
             "source": "grep",
@@ -235,10 +211,6 @@
           {
             "source": "grep",
             "target": "hdrhistogram-c"
-          },
-          {
-            "source": "grep",
-            "target": "httptools"
           },
           {
             "source": "grep",
@@ -290,10 +262,6 @@
           },
           {
             "source": "grep",
-            "target": "rapidjson"
-          },
-          {
-            "source": "grep",
             "target": "regex"
           },
           {
@@ -307,10 +275,6 @@
           {
             "source": "grep",
             "target": "simplejson"
-          },
-          {
-            "source": "grep",
-            "target": "siphash24"
           },
           {
             "source": "grep",
@@ -329,20 +293,12 @@
             "target": "uvloop"
           },
           {
-            "source": "grep",
-            "target": "yasm"
-          },
-          {
             "source": "m4",
             "target": "aws-c-common"
           },
           {
             "source": "m4",
             "target": "azure-identity-cpp"
-          },
-          {
-            "source": "m4",
-            "target": "azure-storage-common-cpp"
           },
           {
             "source": "m4",
@@ -383,10 +339,6 @@
           {
             "source": "m4",
             "target": "hdrhistogram-c"
-          },
-          {
-            "source": "m4",
-            "target": "httptools"
           },
           {
             "source": "m4",
@@ -434,10 +386,6 @@
           },
           {
             "source": "m4",
-            "target": "rapidjson"
-          },
-          {
-            "source": "m4",
             "target": "regex"
           },
           {
@@ -454,10 +402,6 @@
           },
           {
             "source": "m4",
-            "target": "siphash24"
-          },
-          {
-            "source": "m4",
             "target": "symlink-exe-substitute"
           },
           {
@@ -471,10 +415,6 @@
           {
             "source": "m4",
             "target": "uvloop"
-          },
-          {
-            "source": "m4",
-            "target": "yasm"
           }
         ],
         "multigraph": false,
@@ -489,12 +429,6 @@
             "id": "azure-identity-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/azure-identity-cpp.json"
-            }
-          },
-          {
-            "id": "azure-storage-common-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
             }
           },
           {
@@ -561,12 +495,6 @@
             "id": "hicolor-icon-theme",
             "payload": {
               "__lazy_json__": "node_attrs/hicolor-icon-theme.json"
-            }
-          },
-          {
-            "id": "httptools",
-            "payload": {
-              "__lazy_json__": "node_attrs/httptools.json"
             }
           },
           {
@@ -648,12 +576,6 @@
             }
           },
           {
-            "id": "rapidjson",
-            "payload": {
-              "__lazy_json__": "node_attrs/rapidjson.json"
-            }
-          },
-          {
             "id": "regex",
             "payload": {
               "__lazy_json__": "node_attrs/regex.json"
@@ -678,12 +600,6 @@
             }
           },
           {
-            "id": "siphash24",
-            "payload": {
-              "__lazy_json__": "node_attrs/siphash24.json"
-            }
-          },
-          {
             "id": "symlink-exe-substitute",
             "payload": {
               "__lazy_json__": "node_attrs/symlink-exe-substitute.json"
@@ -705,12 +621,6 @@
             "id": "uvloop",
             "payload": {
               "__lazy_json__": "node_attrs/uvloop.json"
-            }
-          },
-          {
-            "id": "yasm",
-            "payload": {
-              "__lazy_json__": "node_attrs/yasm.json"
             }
           }
         ]
