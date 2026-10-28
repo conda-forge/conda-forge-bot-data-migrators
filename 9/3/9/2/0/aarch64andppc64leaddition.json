@@ -2423,6 +2423,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -2976,10 +2980,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5035,6 +5035,10 @@
           },
           {
             "source": "bash",
+            "target": "cusparselt"
+          },
+          {
+            "source": "bash",
             "target": "cutde"
           },
           {
@@ -5580,6 +5584,10 @@
           {
             "source": "bash",
             "target": "graph-tool"
+          },
+          {
+            "source": "bash",
+            "target": "graphblas"
           },
           {
             "source": "bash",
@@ -17623,6 +17631,10 @@
           },
           {
             "source": "cmake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cmake",
             "target": "cutde"
           },
           {
@@ -23631,6 +23643,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -23972,6 +23988,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24520,6 +24540,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -31823,6 +31847,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32060,10 +32088,6 @@
           {
             "source": "git",
             "target": "pyshtools"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39135,6 +39159,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -43471,6 +43499,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -44016,6 +44048,10 @@
           {
             "source": "libtool",
             "target": "graph-tool"
+          },
+          {
+            "source": "libtool",
+            "target": "graphblas"
           },
           {
             "source": "libtool",
@@ -56359,6 +56395,10 @@
           },
           {
             "source": "ninja",
+            "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
             "target": "cutde"
           },
           {
@@ -56680,10 +56720,6 @@
           {
             "source": "ninja",
             "target": "graph-tool"
-          },
-          {
-            "source": "ninja",
-            "target": "graphblas"
           },
           {
             "source": "ninja",
@@ -71948,6 +71984,10 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -107188,6 +107228,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
