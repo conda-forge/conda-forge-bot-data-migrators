@@ -2672,6 +2672,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "ncurses"
           },
           {
@@ -3437,6 +3441,10 @@
           {
             "source": "cmake",
             "target": "mvapich"
+          },
+          {
+            "source": "cmake",
+            "target": "nanoarrow"
           },
           {
             "source": "cmake",
@@ -4552,6 +4560,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "nccl"
           },
           {
@@ -5153,6 +5165,10 @@
           {
             "source": "cython",
             "target": "multidict"
+          },
+          {
+            "source": "cython",
+            "target": "nanoarrow"
           },
           {
             "source": "cython",
@@ -10288,6 +10304,10 @@
           },
           {
             "source": "lz4-c",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "lz4-c",
             "target": "orc"
           },
           {
@@ -12067,6 +12087,10 @@
             "target": "websockets"
           },
           {
+            "source": "nanoarrow",
+            "target": "azure-storage-blobs-cpp"
+          },
+          {
             "source": "nasm",
             "target": "aom"
           },
@@ -12797,6 +12821,10 @@
           {
             "source": "ninja",
             "target": "mvapich"
+          },
+          {
+            "source": "ninja",
+            "target": "nanoarrow"
           },
           {
             "source": "ninja",
@@ -14920,6 +14948,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "pkg-config",
             "target": "ncurses"
           },
           {
@@ -16541,6 +16573,10 @@
           {
             "source": "python",
             "target": "mypy"
+          },
+          {
+            "source": "python",
+            "target": "nanoarrow"
           },
           {
             "source": "python",
@@ -18332,6 +18368,10 @@
           },
           {
             "source": "rsync",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "rsync",
             "target": "nh3"
           },
           {
@@ -18697,6 +18737,10 @@
           {
             "source": "sed",
             "target": "mypy"
+          },
+          {
+            "source": "sed",
+            "target": "nanoarrow"
           },
           {
             "source": "sed",
@@ -22516,6 +22560,10 @@
           },
           {
             "source": "zstd",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "zstd",
             "target": "nccl"
           },
           {
@@ -24891,6 +24939,12 @@
             "id": "mypy",
             "payload": {
               "__lazy_json__": "node_attrs/mypy.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
             }
           },
           {
