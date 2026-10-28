@@ -55,21 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "cuda_histogram",
+            "id": "cupy",
             "payload": {
-              "__lazy_json__": "node_attrs/cuda_histogram.json"
-            }
-          },
-          {
-            "id": "tomocupy",
-            "payload": {
-              "__lazy_json__": "node_attrs/tomocupy.json"
-            }
-          },
-          {
-            "id": "ormar-utils",
-            "payload": {
-              "__lazy_json__": "node_attrs/ormar-utils.json"
+              "__lazy_json__": "node_attrs/cupy.json"
             }
           }
         ]
@@ -3536,6 +3524,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "mdanalysis"
+          },
+          {
+            "source": "backports.zstd",
             "target": "mdanse"
           },
           {
@@ -4905,6 +4897,10 @@
           {
             "source": "bcrypt",
             "target": "ligo-raven"
+          },
+          {
+            "source": "bcrypt",
+            "target": "mdanalysis"
           },
           {
             "source": "bcrypt",
@@ -7336,6 +7332,10 @@
           },
           {
             "source": "brotli",
+            "target": "mdanalysis"
+          },
+          {
+            "source": "brotli",
             "target": "mdanse"
           },
           {
@@ -9541,6 +9541,10 @@
           {
             "source": "cffi",
             "target": "mattersim"
+          },
+          {
+            "source": "cffi",
+            "target": "mdanalysis"
           },
           {
             "source": "cffi",
@@ -53997,6 +54001,10 @@
           {
             "source": "python-xxhash",
             "target": "mattersim"
+          },
+          {
+            "source": "python-xxhash",
+            "target": "mdanalysis"
           },
           {
             "source": "python-xxhash",
