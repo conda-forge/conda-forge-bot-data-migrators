@@ -109,10 +109,6 @@
           },
           {
             "source": "boost",
-            "target": "colmap"
-          },
-          {
-            "source": "boost",
             "target": "conda-forge-pinning"
           },
           {
@@ -173,10 +169,6 @@
           },
           {
             "source": "clickhouse-odbc",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "colmap",
             "target": "conda-forge-pinning"
           },
           {
@@ -413,10 +405,6 @@
           },
           {
             "source": "qt-main",
-            "target": "colmap"
-          },
-          {
-            "source": "qt-main",
             "target": "conda-forge-pinning"
           },
           {
@@ -474,10 +462,6 @@
           {
             "source": "spidermonkey",
             "target": "couchdb"
-          },
-          {
-            "source": "sqlite",
-            "target": "colmap"
           },
           {
             "source": "sqlite",
@@ -596,12 +580,6 @@
             "id": "clickhouse-odbc",
             "payload": {
               "__lazy_json__": "node_attrs/clickhouse-odbc.json"
-            }
-          },
-          {
-            "id": "colmap",
-            "payload": {
-              "__lazy_json__": "node_attrs/colmap.json"
             }
           },
           {
