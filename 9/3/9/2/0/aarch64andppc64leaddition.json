@@ -2423,6 +2423,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -2976,10 +2980,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5032,6 +5032,10 @@
           {
             "source": "bash",
             "target": "curl"
+          },
+          {
+            "source": "bash",
+            "target": "cusparselt"
           },
           {
             "source": "bash",
@@ -7228,6 +7232,10 @@
           {
             "source": "bash",
             "target": "openldap"
+          },
+          {
+            "source": "bash",
+            "target": "openlibm"
           },
           {
             "source": "bash",
@@ -17619,6 +17627,10 @@
           },
           {
             "source": "cmake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cmake",
             "target": "cutde"
           },
           {
@@ -23627,6 +23639,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -23968,6 +23984,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24516,6 +24536,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -31819,6 +31843,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32056,10 +32084,6 @@
           {
             "source": "git",
             "target": "pyshtools"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39131,6 +39155,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -43467,6 +43495,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45652,6 +45684,10 @@
           {
             "source": "libtool",
             "target": "openldap"
+          },
+          {
+            "source": "libtool",
+            "target": "openlibm"
           },
           {
             "source": "libtool",
@@ -56355,6 +56391,10 @@
           },
           {
             "source": "ninja",
+            "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
             "target": "cutde"
           },
           {
@@ -61532,6 +61572,10 @@
           {
             "source": "openldap",
             "target": "postgresql"
+          },
+          {
+            "source": "openlibm",
+            "target": "julia"
           },
           {
             "source": "openmm",
@@ -71936,6 +71980,10 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -107179,6 +107227,12 @@
             }
           },
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
             "id": "cutde",
             "payload": {
               "__lazy_json__": "node_attrs/cutde.json"
@@ -112744,6 +112798,12 @@
             "id": "openldap",
             "payload": {
               "__lazy_json__": "node_attrs/openldap.json"
+            }
+          },
+          {
+            "id": "openlibm",
+            "payload": {
+              "__lazy_json__": "node_attrs/openlibm.json"
             }
           },
           {
