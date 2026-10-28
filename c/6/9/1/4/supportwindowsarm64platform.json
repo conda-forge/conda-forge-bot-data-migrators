@@ -43,70 +43,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "cmake-no-system",
-            "target": "brotlicffi"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "cusparselt"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "cutlass"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "gts"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "hdrhistogram-c"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "libaec"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "libcrc32c"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "libfuse"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "ls-hpack"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "metis"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "tar"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "uvloop"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "brotlicffi",
-            "payload": {
-              "__lazy_json__": "node_attrs/brotlicffi.json"
-            }
-          },
-          {
-            "id": "cmake-no-system",
-            "payload": {
-              "__lazy_json__": "node_attrs/cmake-no-system.json"
-            }
-          },
           {
             "id": "cusparselt",
             "payload": {
@@ -117,12 +56,6 @@
             "id": "cutlass",
             "payload": {
               "__lazy_json__": "node_attrs/cutlass.json"
-            }
-          },
-          {
-            "id": "gts",
-            "payload": {
-              "__lazy_json__": "node_attrs/gts.json"
             }
           },
           {
@@ -141,12 +74,6 @@
             "id": "libaec",
             "payload": {
               "__lazy_json__": "node_attrs/libaec.json"
-            }
-          },
-          {
-            "id": "libcrc32c",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcrc32c.json"
             }
           },
           {
@@ -171,12 +98,6 @@
             "id": "tar",
             "payload": {
               "__lazy_json__": "node_attrs/tar.json"
-            }
-          },
-          {
-            "id": "uvloop",
-            "payload": {
-              "__lazy_json__": "node_attrs/uvloop.json"
             }
           }
         ]
