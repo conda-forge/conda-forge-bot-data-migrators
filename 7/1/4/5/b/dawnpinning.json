@@ -47,7 +47,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          }
+        ]
       }
     },
     "feedstock_name": "dawn",
@@ -103,7 +110,7 @@
         ]
       }
     },
-    "new_pin_version": "20261026.205545",
+    "new_pin_version": "20261027.184652",
     "package_name": "dawn",
     "pin_impact": 1,
     "pin_spec": "x",
