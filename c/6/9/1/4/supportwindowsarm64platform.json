@@ -46,14 +46,6 @@
         "links": [
           {
             "source": "cmake-no-system",
-            "target": "aws-c-common"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "azure-identity-cpp"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "brotlicffi"
           },
           {
@@ -74,15 +66,7 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "grep"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "gts"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "gunicorn"
           },
           {
             "source": "cmake-no-system",
@@ -98,10 +82,6 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "libcbor"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "libcrc32c"
           },
           {
@@ -111,10 +91,6 @@
           {
             "source": "cmake-no-system",
             "target": "ls-hpack"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "m4"
           },
           {
             "source": "cmake-no-system",
@@ -130,15 +106,7 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "playwright"
-          },
-          {
-            "source": "cmake-no-system",
             "target": "python-xxhash"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "regex"
           },
           {
             "source": "cmake-no-system",
@@ -147,10 +115,6 @@
           {
             "source": "cmake-no-system",
             "target": "scons"
-          },
-          {
-            "source": "cmake-no-system",
-            "target": "simplejson"
           },
           {
             "source": "cmake-no-system",
@@ -166,271 +130,11 @@
           },
           {
             "source": "cmake-no-system",
-            "target": "uvloop"
-          },
-          {
-            "source": "grep",
-            "target": "aws-c-common"
-          },
-          {
-            "source": "grep",
-            "target": "azure-identity-cpp"
-          },
-          {
-            "source": "grep",
-            "target": "brotlicffi"
-          },
-          {
-            "source": "grep",
-            "target": "cmake-no-system"
-          },
-          {
-            "source": "grep",
-            "target": "cusparselt"
-          },
-          {
-            "source": "grep",
-            "target": "cutlass"
-          },
-          {
-            "source": "grep",
-            "target": "flatbuffers"
-          },
-          {
-            "source": "grep",
-            "target": "gflags"
-          },
-          {
-            "source": "grep",
-            "target": "gts"
-          },
-          {
-            "source": "grep",
-            "target": "gunicorn"
-          },
-          {
-            "source": "grep",
-            "target": "hdrhistogram-c"
-          },
-          {
-            "source": "grep",
-            "target": "jq"
-          },
-          {
-            "source": "grep",
-            "target": "libaec"
-          },
-          {
-            "source": "grep",
-            "target": "libcbor"
-          },
-          {
-            "source": "grep",
-            "target": "libcrc32c"
-          },
-          {
-            "source": "grep",
-            "target": "libfuse"
-          },
-          {
-            "source": "grep",
-            "target": "ls-hpack"
-          },
-          {
-            "source": "grep",
-            "target": "m4"
-          },
-          {
-            "source": "grep",
-            "target": "metis"
-          },
-          {
-            "source": "grep",
-            "target": "nvtx-c"
-          },
-          {
-            "source": "grep",
-            "target": "optree"
-          },
-          {
-            "source": "grep",
-            "target": "playwright"
-          },
-          {
-            "source": "grep",
-            "target": "python-xxhash"
-          },
-          {
-            "source": "grep",
-            "target": "regex"
-          },
-          {
-            "source": "grep",
-            "target": "s2n"
-          },
-          {
-            "source": "grep",
-            "target": "scons"
-          },
-          {
-            "source": "grep",
-            "target": "simplejson"
-          },
-          {
-            "source": "grep",
-            "target": "symlink-exe-substitute"
-          },
-          {
-            "source": "grep",
-            "target": "tar"
-          },
-          {
-            "source": "grep",
-            "target": "uriparser"
-          },
-          {
-            "source": "grep",
-            "target": "uvloop"
-          },
-          {
-            "source": "m4",
-            "target": "aws-c-common"
-          },
-          {
-            "source": "m4",
-            "target": "azure-identity-cpp"
-          },
-          {
-            "source": "m4",
-            "target": "brotlicffi"
-          },
-          {
-            "source": "m4",
-            "target": "cmake-no-system"
-          },
-          {
-            "source": "m4",
-            "target": "cusparselt"
-          },
-          {
-            "source": "m4",
-            "target": "cutlass"
-          },
-          {
-            "source": "m4",
-            "target": "flatbuffers"
-          },
-          {
-            "source": "m4",
-            "target": "gflags"
-          },
-          {
-            "source": "m4",
-            "target": "grep"
-          },
-          {
-            "source": "m4",
-            "target": "gts"
-          },
-          {
-            "source": "m4",
-            "target": "gunicorn"
-          },
-          {
-            "source": "m4",
-            "target": "hdrhistogram-c"
-          },
-          {
-            "source": "m4",
-            "target": "jq"
-          },
-          {
-            "source": "m4",
-            "target": "libaec"
-          },
-          {
-            "source": "m4",
-            "target": "libcbor"
-          },
-          {
-            "source": "m4",
-            "target": "libcrc32c"
-          },
-          {
-            "source": "m4",
-            "target": "libfuse"
-          },
-          {
-            "source": "m4",
-            "target": "ls-hpack"
-          },
-          {
-            "source": "m4",
-            "target": "metis"
-          },
-          {
-            "source": "m4",
-            "target": "nvtx-c"
-          },
-          {
-            "source": "m4",
-            "target": "optree"
-          },
-          {
-            "source": "m4",
-            "target": "playwright"
-          },
-          {
-            "source": "m4",
-            "target": "python-xxhash"
-          },
-          {
-            "source": "m4",
-            "target": "regex"
-          },
-          {
-            "source": "m4",
-            "target": "s2n"
-          },
-          {
-            "source": "m4",
-            "target": "scons"
-          },
-          {
-            "source": "m4",
-            "target": "simplejson"
-          },
-          {
-            "source": "m4",
-            "target": "symlink-exe-substitute"
-          },
-          {
-            "source": "m4",
-            "target": "tar"
-          },
-          {
-            "source": "m4",
-            "target": "uriparser"
-          },
-          {
-            "source": "m4",
             "target": "uvloop"
           }
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "aws-c-common",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-common.json"
-            }
-          },
-          {
-            "id": "azure-identity-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
-            }
-          },
           {
             "id": "brotlicffi",
             "payload": {
@@ -468,33 +172,15 @@
             }
           },
           {
-            "id": "grep",
-            "payload": {
-              "__lazy_json__": "node_attrs/grep.json"
-            }
-          },
-          {
             "id": "gts",
             "payload": {
               "__lazy_json__": "node_attrs/gts.json"
             }
           },
           {
-            "id": "gunicorn",
-            "payload": {
-              "__lazy_json__": "node_attrs/gunicorn.json"
-            }
-          },
-          {
             "id": "hdrhistogram-c",
             "payload": {
               "__lazy_json__": "node_attrs/hdrhistogram-c.json"
-            }
-          },
-          {
-            "id": "hicolor-icon-theme",
-            "payload": {
-              "__lazy_json__": "node_attrs/hicolor-icon-theme.json"
             }
           },
           {
@@ -516,12 +202,6 @@
             }
           },
           {
-            "id": "libcbor",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcbor.json"
-            }
-          },
-          {
             "id": "libcrc32c",
             "payload": {
               "__lazy_json__": "node_attrs/libcrc32c.json"
@@ -537,12 +217,6 @@
             "id": "ls-hpack",
             "payload": {
               "__lazy_json__": "node_attrs/ls-hpack.json"
-            }
-          },
-          {
-            "id": "m4",
-            "payload": {
-              "__lazy_json__": "node_attrs/m4.json"
             }
           },
           {
@@ -564,21 +238,9 @@
             }
           },
           {
-            "id": "playwright",
-            "payload": {
-              "__lazy_json__": "node_attrs/playwright.json"
-            }
-          },
-          {
             "id": "python-xxhash",
             "payload": {
               "__lazy_json__": "node_attrs/python-xxhash.json"
-            }
-          },
-          {
-            "id": "regex",
-            "payload": {
-              "__lazy_json__": "node_attrs/regex.json"
             }
           },
           {
@@ -591,12 +253,6 @@
             "id": "scons",
             "payload": {
               "__lazy_json__": "node_attrs/scons.json"
-            }
-          },
-          {
-            "id": "simplejson",
-            "payload": {
-              "__lazy_json__": "node_attrs/simplejson.json"
             }
           },
           {
