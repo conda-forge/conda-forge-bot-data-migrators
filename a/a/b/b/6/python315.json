@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ormar-utils",
+            "payload": {
+              "__lazy_json__": "node_attrs/ormar-utils.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -41694,6 +41701,10 @@
           {
             "source": "orjson",
             "target": "xraylarch"
+          },
+          {
+            "source": "ormar-utils",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "ormdantic",
@@ -106262,6 +106273,12 @@
             "id": "dau-driver",
             "payload": {
               "__lazy_json__": "node_attrs/dau-driver.json"
+            }
+          },
+          {
+            "id": "ormar-utils",
+            "payload": {
+              "__lazy_json__": "node_attrs/ormar-utils.json"
             }
           }
         ]
