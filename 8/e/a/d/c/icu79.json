@@ -54,7 +54,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "tectonic",
+            "payload": {
+              "__lazy_json__": "node_attrs/tectonic.json"
+            }
+          },
+          {
+            "id": "texlive-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/texlive-core.json"
+            }
+          },
+          {
+            "id": "vte",
+            "payload": {
+              "__lazy_json__": "node_attrs/vte.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
