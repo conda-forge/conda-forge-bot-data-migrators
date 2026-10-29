@@ -573,10 +573,6 @@
             "target": "pixsfm"
           },
           {
-            "source": "ceres-solver",
-            "target": "pycolmap"
-          },
-          {
             "source": "chfem",
             "target": "conda-forge-pinning"
           },
@@ -591,10 +587,6 @@
           {
             "source": "colmap",
             "target": "pixsfm"
-          },
-          {
-            "source": "colmap",
-            "target": "pycolmap"
           },
           {
             "source": "conda-forge-ci-setup",
@@ -811,10 +803,6 @@
           {
             "source": "faiss-split",
             "target": "graphvite"
-          },
-          {
-            "source": "faiss-split",
-            "target": "pycolmap"
           },
           {
             "source": "faiss-split",
@@ -1635,14 +1623,6 @@
           {
             "source": "pyarrow",
             "target": "torchani"
-          },
-          {
-            "source": "pycolmap",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pycolmap",
-            "target": "pixsfm"
           },
           {
             "source": "pycuampcor",
@@ -2965,12 +2945,6 @@
             "id": "pyarrow",
             "payload": {
               "__lazy_json__": "node_attrs/pyarrow.json"
-            }
-          },
-          {
-            "id": "pycolmap",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycolmap.json"
             }
           },
           {
