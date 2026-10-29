@@ -6227,10 +6227,6 @@
           },
           {
             "source": "bash",
-            "target": "libdiscid"
-          },
-          {
-            "source": "bash",
             "target": "libecpint"
           },
           {
@@ -44719,10 +44715,6 @@
           },
           {
             "source": "libtool",
-            "target": "libdiscid"
-          },
-          {
-            "source": "libtool",
             "target": "libecpint"
           },
           {
@@ -57056,6 +57048,10 @@
           {
             "source": "ninja",
             "target": "libdicom"
+          },
+          {
+            "source": "ninja",
+            "target": "libdiscid"
           },
           {
             "source": "ninja",
@@ -75808,6 +75804,10 @@
           {
             "source": "python",
             "target": "xorg-libxcomposite"
+          },
+          {
+            "source": "python",
+            "target": "xorg-libxcursor"
           },
           {
             "source": "python",
