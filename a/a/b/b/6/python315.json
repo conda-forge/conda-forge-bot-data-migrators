@@ -55,15 +55,69 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "chalice",
+            "payload": {
+              "__lazy_json__": "node_attrs/chalice.json"
+            }
+          },
+          {
             "id": "cuda_histogram",
             "payload": {
               "__lazy_json__": "node_attrs/cuda_histogram.json"
             }
           },
           {
+            "id": "fastemriwaveforms",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastemriwaveforms.json"
+            }
+          },
+          {
+            "id": "physics-tenpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/physics-tenpy.json"
+            }
+          },
+          {
+            "id": "rignore",
+            "payload": {
+              "__lazy_json__": "node_attrs/rignore.json"
+            }
+          },
+          {
+            "id": "rtxpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/rtxpy.json"
+            }
+          },
+          {
+            "id": "snowflake-snowpark-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/snowflake-snowpark-python.json"
+            }
+          },
+          {
+            "id": "spatialgeometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/spatialgeometry.json"
+            }
+          },
+          {
+            "id": "spikeinterface",
+            "payload": {
+              "__lazy_json__": "node_attrs/spikeinterface.json"
+            }
+          },
+          {
             "id": "tomocupy",
             "payload": {
               "__lazy_json__": "node_attrs/tomocupy.json"
+            }
+          },
+          {
+            "id": "slac-rogue",
+            "payload": {
+              "__lazy_json__": "node_attrs/slac-rogue.json"
             }
           }
         ]
