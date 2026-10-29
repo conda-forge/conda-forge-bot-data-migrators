@@ -714,10 +714,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "soxr-python"
-          },
-          {
-            "source": "backports.zstd",
             "target": "tensorflow"
           },
           {
@@ -1263,10 +1259,6 @@
           {
             "source": "brotli",
             "target": "snowflake-connector-python"
-          },
-          {
-            "source": "brotli",
-            "target": "soxr-python"
           },
           {
             "source": "brotli",
@@ -7026,10 +7018,6 @@
           },
           {
             "source": "numpy",
-            "target": "soxr-python"
-          },
-          {
-            "source": "numpy",
             "target": "spglib"
           },
           {
@@ -8323,10 +8311,6 @@
           {
             "source": "psutil",
             "target": "silx"
-          },
-          {
-            "source": "psutil",
-            "target": "soxr-python"
           },
           {
             "source": "psutil",
@@ -9830,10 +9814,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "soxr-python"
-          },
-          {
-            "source": "pyyaml",
             "target": "spglib"
           },
           {
@@ -10859,14 +10839,6 @@
           {
             "source": "snowflake-connector-python",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "soxr-python",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "soxr-python",
-            "target": "torchaudio"
           },
           {
             "source": "spglib",
@@ -13246,10 +13218,6 @@
           },
           {
             "source": "tbb",
-            "target": "soxr-python"
-          },
-          {
-            "source": "tbb",
             "target": "spglib"
           },
           {
@@ -14154,10 +14122,6 @@
           },
           {
             "source": "ujson",
-            "target": "soxr-python"
-          },
-          {
-            "source": "ujson",
             "target": "typst-py"
           },
           {
@@ -14523,10 +14487,6 @@
           {
             "source": "wcwidth",
             "target": "silx"
-          },
-          {
-            "source": "wcwidth",
-            "target": "soxr-python"
           },
           {
             "source": "wcwidth",
@@ -18239,12 +18199,6 @@
             "id": "snowflake-connector-python",
             "payload": {
               "__lazy_json__": "node_attrs/snowflake-connector-python.json"
-            }
-          },
-          {
-            "id": "soxr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/soxr-python.json"
             }
           },
           {
