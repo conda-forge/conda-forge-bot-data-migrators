@@ -5326,6 +5326,10 @@
           },
           {
             "source": "maturin",
+            "target": "pcodec"
+          },
+          {
+            "source": "maturin",
             "target": "peprs"
           },
           {
@@ -6686,6 +6690,10 @@
           },
           {
             "source": "numpy",
+            "target": "pcodec"
+          },
+          {
+            "source": "numpy",
             "target": "phasorpy"
           },
           {
@@ -7562,6 +7570,10 @@
           },
           {
             "source": "patiencediff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pcodec",
             "target": "conda-forge-pinning"
           },
           {
@@ -12323,6 +12335,10 @@
           {
             "source": "tbb",
             "target": "patiencediff"
+          },
+          {
+            "source": "tbb",
+            "target": "pcodec"
           },
           {
             "source": "tbb",
@@ -18775,6 +18791,12 @@
             "id": "zxing-cpp-python",
             "payload": {
               "__lazy_json__": "node_attrs/zxing-cpp-python.json"
+            }
+          },
+          {
+            "id": "pcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcodec.json"
             }
           }
         ]
