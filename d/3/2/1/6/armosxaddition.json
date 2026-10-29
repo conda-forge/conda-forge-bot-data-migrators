@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -10647,6 +10654,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "pcodec"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "pendulum"
           },
           {
@@ -12552,6 +12563,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "ocaml"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "pcodec"
           },
           {
             "source": "clang-compiler-activation",
@@ -18287,6 +18302,10 @@
           },
           {
             "source": "coverage",
+            "target": "pcodec"
+          },
+          {
+            "source": "coverage",
             "target": "pennylane"
           },
           {
@@ -20012,6 +20031,10 @@
           {
             "source": "ctng-compilers",
             "target": "oxigraph"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "pcodec"
           },
           {
             "source": "ctng-compilers",
@@ -46483,10 +46506,6 @@
           },
           {
             "source": "make",
-            "target": "libdiscid"
-          },
-          {
-            "source": "make",
             "target": "libecpint"
           },
           {
@@ -56511,6 +56530,10 @@
           },
           {
             "source": "ninja",
+            "target": "libdiscid"
+          },
+          {
+            "source": "ninja",
             "target": "libdlfind"
           },
           {
@@ -60916,6 +60939,10 @@
           {
             "source": "numpy",
             "target": "pcaspy"
+          },
+          {
+            "source": "numpy",
+            "target": "pcodec"
           },
           {
             "source": "numpy",
@@ -80099,6 +80126,10 @@
           },
           {
             "source": "python",
+            "target": "pcodec"
+          },
+          {
+            "source": "python",
             "target": "pcraster"
           },
           {
@@ -82476,6 +82507,10 @@
           {
             "source": "python",
             "target": "xorg-libxcomposite"
+          },
+          {
+            "source": "python",
+            "target": "xorg-libxcursor"
           },
           {
             "source": "python",
@@ -95611,6 +95646,10 @@
           },
           {
             "source": "rsync",
+            "target": "pcodec"
+          },
+          {
+            "source": "rsync",
             "target": "pysjef"
           },
           {
@@ -98936,6 +98975,10 @@
           {
             "source": "sed",
             "target": "oxigraph"
+          },
+          {
+            "source": "sed",
+            "target": "pcodec"
           },
           {
             "source": "sed",
@@ -130847,6 +130890,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/skia.json"
             }
+          },
+          {
+            "id": "pcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcodec.json"
+            }
           }
         ]
       }
@@ -131953,6 +132002,7 @@
         "parmetis",
         "patch",
         "pathos",
+        "pcodec",
         "pcraster",
         "pcst-fast",
         "pdf2svg",
