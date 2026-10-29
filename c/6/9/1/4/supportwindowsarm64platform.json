@@ -53,6 +53,12 @@
             }
           },
           {
+            "id": "dovi_tool",
+            "payload": {
+              "__lazy_json__": "node_attrs/dovi_tool.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
@@ -1521,6 +1527,10 @@
           {
             "source": "binutils",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "binutils",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "binutils",
@@ -3848,6 +3858,10 @@
           },
           {
             "source": "cmake",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "cmake",
             "target": "xorg-xproto"
           },
           {
@@ -4721,6 +4735,10 @@
           {
             "source": "ctng-compilers",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "ctng-compilers",
@@ -9452,10 +9470,6 @@
           },
           {
             "source": "libuuid",
-            "target": "fontconfig"
-          },
-          {
-            "source": "libuuid",
             "target": "postgresql"
           },
           {
@@ -9948,6 +9962,10 @@
           },
           {
             "source": "libxml2",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "libxml2",
             "target": "xorg-xproto"
           },
           {
@@ -10033,6 +10051,10 @@
           {
             "source": "lld",
             "target": "xorg-libxshmfence"
+          },
+          {
+            "source": "lld",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "lld",
@@ -10261,6 +10283,10 @@
           {
             "source": "llvmdev",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "llvmdev",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "llvmdev",
@@ -13180,6 +13206,10 @@
           },
           {
             "source": "ninja",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "ninja",
             "target": "xorg-xproto"
           },
           {
@@ -13893,6 +13923,10 @@
           {
             "source": "openmp",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "openmp",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "openmp",
@@ -17073,6 +17107,10 @@
           {
             "source": "python",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "python",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "python",
@@ -22300,6 +22338,10 @@
           },
           {
             "source": "zlib",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "zlib",
             "target": "xorg-xproto"
           },
           {
@@ -22721,6 +22763,10 @@
           {
             "source": "zstd",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "zstd",
+            "target": "xorg-xineramaproto"
           },
           {
             "source": "zstd",
