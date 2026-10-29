@@ -91,6 +91,10 @@
           },
           {
             "source": "hdf5",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "hdf5",
             "target": "pyfabm"
           },
           {
@@ -390,6 +394,12 @@
             "id": "pygtide",
             "payload": {
               "__lazy_json__": "node_attrs/pygtide.json"
+            }
+          },
+          {
+            "id": "perseo_perturbations",
+            "payload": {
+              "__lazy_json__": "node_attrs/perseo_perturbations.json"
             }
           }
         ]
@@ -1198,6 +1208,10 @@
           },
           {
             "source": "hdf5",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "hdf5",
             "target": "pyfabm"
           },
           {
@@ -1758,6 +1772,10 @@
           },
           {
             "source": "numpy",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "numpy",
             "target": "pfapack"
           },
           {
@@ -1933,6 +1951,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "perseo_perturbations",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pfapack",
             "target": "conda-forge-pinning"
           },
@@ -2095,6 +2117,10 @@
           {
             "source": "scipy",
             "target": "odrpack"
+          },
+          {
+            "source": "scipy",
+            "target": "perseo_perturbations"
           },
           {
             "source": "scipy",
@@ -3181,6 +3207,12 @@
             "id": "pygtide",
             "payload": {
               "__lazy_json__": "node_attrs/pygtide.json"
+            }
+          },
+          {
+            "id": "perseo_perturbations",
+            "payload": {
+              "__lazy_json__": "node_attrs/perseo_perturbations.json"
             }
           }
         ]
