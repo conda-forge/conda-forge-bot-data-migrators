@@ -55,9 +55,21 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "cuda_histogram",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda_histogram.json"
+            }
+          },
+          {
             "id": "cycamore",
             "payload": {
               "__lazy_json__": "node_attrs/cycamore.json"
+            }
+          },
+          {
+            "id": "tomocupy",
+            "payload": {
+              "__lazy_json__": "node_attrs/tomocupy.json"
             }
           }
         ]
