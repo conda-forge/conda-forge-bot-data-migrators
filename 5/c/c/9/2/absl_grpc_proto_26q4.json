@@ -52,7 +52,12 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "google-cloud-cpp-core"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -113,6 +118,12 @@
             "id": "gazebo",
             "payload": {
               "__lazy_json__": "node_attrs/gazebo.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-core.json"
             }
           },
           {
