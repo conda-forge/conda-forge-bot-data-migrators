@@ -42443,6 +42443,10 @@
           },
           {
             "source": "libprotobuf",
+            "target": "snowflake-snowpark-python"
+          },
+          {
+            "source": "libprotobuf",
             "target": "tensorflow"
           },
           {
@@ -94928,10 +94932,6 @@
           {
             "source": "ujson",
             "target": "z5py"
-          },
-          {
-            "source": "unicodedata2",
-            "target": "fonttools"
           },
           {
             "source": "unixodbc",
