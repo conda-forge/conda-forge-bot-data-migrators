@@ -15651,6 +15651,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "wasm-bindgen-cli"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "wasmtime-py"
           },
           {
@@ -119840,6 +119844,12 @@
             "id": "warp-lang",
             "payload": {
               "__lazy_json__": "node_attrs/warp-lang.json"
+            }
+          },
+          {
+            "id": "wasm-bindgen-cli",
+            "payload": {
+              "__lazy_json__": "node_attrs/wasm-bindgen-cli.json"
             }
           },
           {
