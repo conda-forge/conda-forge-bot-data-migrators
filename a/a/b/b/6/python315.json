@@ -53,7 +53,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "casatools",
+            "payload": {
+              "__lazy_json__": "node_attrs/casatools.json"
+            }
+          },
+          {
+            "id": "python-casacore",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-casacore.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
