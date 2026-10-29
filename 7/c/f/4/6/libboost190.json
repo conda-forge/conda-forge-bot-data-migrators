@@ -321,10 +321,6 @@
           },
           {
             "source": "cgal-cpp",
-            "target": "pycolmap"
-          },
-          {
-            "source": "cgal-cpp",
             "target": "pygplates"
           },
           {
@@ -486,10 +482,6 @@
           {
             "source": "colmap",
             "target": "pixsfm"
-          },
-          {
-            "source": "colmap",
-            "target": "pycolmap"
           },
           {
             "source": "cp2k",
@@ -2161,14 +2153,6 @@
           },
           {
             "source": "pyceres",
-            "target": "pixsfm"
-          },
-          {
-            "source": "pycolmap",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pycolmap",
             "target": "pixsfm"
           },
           {
@@ -4150,12 +4134,6 @@
             "id": "pyceres",
             "payload": {
               "__lazy_json__": "node_attrs/pyceres.json"
-            }
-          },
-          {
-            "id": "pycolmap",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycolmap.json"
             }
           },
           {
