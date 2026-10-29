@@ -2423,6 +2423,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -2976,10 +2980,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -4503,10 +4503,6 @@
           },
           {
             "source": "bash",
-            "target": "adcc"
-          },
-          {
-            "source": "bash",
             "target": "adjfind"
           },
           {
@@ -5036,6 +5032,10 @@
           {
             "source": "bash",
             "target": "curl"
+          },
+          {
+            "source": "bash",
+            "target": "cusparselt"
           },
           {
             "source": "bash",
@@ -6812,6 +6812,10 @@
           {
             "source": "bash",
             "target": "metaio"
+          },
+          {
+            "source": "bash",
+            "target": "metis"
           },
           {
             "source": "bash",
@@ -11399,10 +11403,6 @@
           },
           {
             "source": "binutils",
-            "target": "adcc"
-          },
-          {
-            "source": "binutils",
             "target": "arrow-cpp"
           },
           {
@@ -12187,10 +12187,6 @@
           },
           {
             "source": "biopython",
-            "target": "cctbx-base"
-          },
-          {
-            "source": "biopython",
             "target": "mdanalysis"
           },
           {
@@ -12384,10 +12380,6 @@
           {
             "source": "blas",
             "target": "abinit"
-          },
-          {
-            "source": "blas",
-            "target": "adcc"
           },
           {
             "source": "blas",
@@ -15815,10 +15807,6 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "adcc"
-          },
-          {
-            "source": "cctools-and-ld64",
             "target": "batoid"
           },
           {
@@ -17167,10 +17155,6 @@
           },
           {
             "source": "cmake",
-            "target": "adcc"
-          },
-          {
-            "source": "cmake",
             "target": "adjfind"
           },
           {
@@ -17636,6 +17620,10 @@
           {
             "source": "cmake",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cmake",
+            "target": "cusparselt"
           },
           {
             "source": "cmake",
@@ -18948,6 +18936,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -22499,10 +22491,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "adcc"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "allennlp"
           },
           {
@@ -23659,6 +23647,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -24000,6 +23992,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24548,6 +24544,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -29627,10 +29627,6 @@
           },
           {
             "source": "gendef",
-            "target": "adcc"
-          },
-          {
-            "source": "gendef",
             "target": "batoid"
           },
           {
@@ -30579,10 +30575,6 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "adcc"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
             "target": "batoid"
           },
           {
@@ -31140,10 +31132,6 @@
           {
             "source": "gfortran_osx-64",
             "target": "abacus"
-          },
-          {
-            "source": "gfortran_osx-64",
-            "target": "adcc"
           },
           {
             "source": "gfortran_osx-64",
@@ -31851,6 +31839,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32088,10 +32080,6 @@
           {
             "source": "git",
             "target": "pyshtools"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -37227,10 +37215,6 @@
           },
           {
             "source": "lapack",
-            "target": "adcc"
-          },
-          {
-            "source": "lapack",
             "target": "ambertools"
           },
           {
@@ -38618,10 +38602,6 @@
             "target": "libfido2"
           },
           {
-            "source": "libcint",
-            "target": "adcc"
-          },
-          {
             "source": "libconfig",
             "target": "ldc"
           },
@@ -39163,6 +39143,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -39244,10 +39228,6 @@
           {
             "source": "libcxx",
             "target": "abacus"
-          },
-          {
-            "source": "libcxx",
-            "target": "adcc"
           },
           {
             "source": "libcxx",
@@ -42967,10 +42947,6 @@
           },
           {
             "source": "libtool",
-            "target": "adcc"
-          },
-          {
-            "source": "libtool",
             "target": "adjfind"
           },
           {
@@ -43504,6 +43480,10 @@
           {
             "source": "libtool",
             "target": "curl"
+          },
+          {
+            "source": "libtool",
+            "target": "cusparselt"
           },
           {
             "source": "libtool",
@@ -45276,6 +45256,10 @@
           {
             "source": "libtool",
             "target": "metaio"
+          },
+          {
+            "source": "libtool",
+            "target": "metis"
           },
           {
             "source": "libtool",
@@ -49870,10 +49854,6 @@
             "target": "abinit"
           },
           {
-            "source": "libxc",
-            "target": "adcc"
-          },
-          {
             "source": "libxcb",
             "target": "cairo"
           },
@@ -50560,10 +50540,6 @@
           {
             "source": "libxml2",
             "target": "abacus"
-          },
-          {
-            "source": "libxml2",
-            "target": "adcc"
           },
           {
             "source": "libxml2",
@@ -51676,10 +51652,6 @@
           {
             "source": "llvmdev",
             "target": "abacus"
-          },
-          {
-            "source": "llvmdev",
-            "target": "adcc"
           },
           {
             "source": "llvmdev",
@@ -54338,6 +54310,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -55967,10 +55995,6 @@
           },
           {
             "source": "ninja",
-            "target": "adcc"
-          },
-          {
-            "source": "ninja",
             "target": "airspy"
           },
           {
@@ -56332,6 +56356,10 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ninja",
+            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -61540,10 +61568,6 @@
           {
             "source": "openmp",
             "target": "abacus"
-          },
-          {
-            "source": "openmp",
-            "target": "adcc"
           },
           {
             "source": "openmp",
@@ -71932,6 +71956,10 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -90475,10 +90503,6 @@
           },
           {
             "source": "sed",
-            "target": "adcc"
-          },
-          {
-            "source": "sed",
             "target": "allennlp"
           },
           {
@@ -91240,10 +91264,6 @@
           {
             "source": "shellcheck",
             "target": "abacus"
-          },
-          {
-            "source": "shellcheck",
-            "target": "adcc"
           },
           {
             "source": "shellcheck",
@@ -93896,10 +93916,6 @@
           {
             "source": "ucrt",
             "target": "abacus"
-          },
-          {
-            "source": "ucrt",
-            "target": "adcc"
           },
           {
             "source": "ucrt",
@@ -97227,10 +97243,6 @@
           },
           {
             "source": "winpthreads",
-            "target": "adcc"
-          },
-          {
-            "source": "winpthreads",
             "target": "batoid"
           },
           {
@@ -98632,10 +98644,6 @@
           {
             "source": "xcb-util",
             "target": "xcb-util-image"
-          },
-          {
-            "source": "xcfun",
-            "target": "adcc"
           },
           {
             "source": "xcfun",
@@ -101915,10 +101923,6 @@
           },
           {
             "source": "zlib",
-            "target": "adcc"
-          },
-          {
-            "source": "zlib",
             "target": "ale-py"
           },
           {
@@ -104352,10 +104356,6 @@
           {
             "source": "zstd",
             "target": "abacus"
-          },
-          {
-            "source": "zstd",
-            "target": "adcc"
           },
           {
             "source": "zstd",
@@ -107188,6 +107188,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -111766,6 +111772,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
