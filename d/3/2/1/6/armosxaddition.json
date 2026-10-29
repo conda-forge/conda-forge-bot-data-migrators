@@ -307,7 +307,7 @@
           },
           {
             "source": "adcc",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "aiohttp",
@@ -6727,6 +6727,10 @@
           },
           {
             "source": "blas",
+            "target": "forte"
+          },
+          {
+            "source": "blas",
             "target": "giac"
           },
           {
@@ -6932,10 +6936,6 @@
           {
             "source": "blas",
             "target": "plumed"
-          },
-          {
-            "source": "blas",
-            "target": "psi4"
           },
           {
             "source": "blas",
@@ -7760,10 +7760,6 @@
           {
             "source": "boost",
             "target": "prrng"
-          },
-          {
-            "source": "boost",
-            "target": "psi4"
           },
           {
             "source": "boost",
@@ -15435,10 +15431,6 @@
           },
           {
             "source": "cmake",
-            "target": "psi4"
-          },
-          {
-            "source": "cmake",
             "target": "pugixml"
           },
           {
@@ -18355,10 +18347,6 @@
           },
           {
             "source": "coverage",
-            "target": "psi4"
-          },
-          {
-            "source": "coverage",
             "target": "psyplot-gui"
           },
           {
@@ -19395,7 +19383,7 @@
           },
           {
             "source": "cppe",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "cpptango",
@@ -19419,7 +19407,7 @@
           },
           {
             "source": "cpptrace",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "cppyy-backend",
@@ -23311,15 +23299,15 @@
           },
           {
             "source": "dftd3-python",
-            "target": "gcp-correction"
+            "target": "forte"
           },
           {
             "source": "dftd3-python",
-            "target": "psi4"
+            "target": "gcp-correction"
           },
           {
             "source": "dftd4-python",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "dftd4-python",
@@ -23363,7 +23351,7 @@
           },
           {
             "source": "dkh",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "dlpack",
@@ -24499,10 +24487,6 @@
           },
           {
             "source": "eigen",
-            "target": "psi4"
-          },
-          {
-            "source": "eigen",
             "target": "puma"
           },
           {
@@ -24619,7 +24603,7 @@
           },
           {
             "source": "einsums",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "elfutils",
@@ -24739,11 +24723,11 @@
           },
           {
             "source": "exchcxx",
-            "target": "gauxc"
+            "target": "forte"
           },
           {
             "source": "exchcxx",
-            "target": "psi4"
+            "target": "gauxc"
           },
           {
             "source": "exiftool",
@@ -26879,6 +26863,10 @@
           },
           {
             "source": "fmt",
+            "target": "forte"
+          },
+          {
+            "source": "fmt",
             "target": "gnuradio"
           },
           {
@@ -26944,10 +26932,6 @@
           {
             "source": "fmt",
             "target": "openmc"
-          },
-          {
-            "source": "fmt",
-            "target": "psi4"
           },
           {
             "source": "fmt",
@@ -27587,15 +27571,15 @@
           },
           {
             "source": "gau2grid",
-            "target": "gauxc"
+            "target": "forte"
           },
           {
             "source": "gau2grid",
-            "target": "psi4"
+            "target": "gauxc"
           },
           {
             "source": "gauxc",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "gawk",
@@ -27631,7 +27615,7 @@
           },
           {
             "source": "gcp-correction",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "gct",
@@ -27823,7 +27807,7 @@
           },
           {
             "source": "gdma",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "gds-frameio",
@@ -33219,6 +33203,10 @@
           },
           {
             "source": "hdf5",
+            "target": "forte"
+          },
+          {
+            "source": "hdf5",
             "target": "freecad"
           },
           {
@@ -33435,10 +33423,6 @@
           },
           {
             "source": "hdf5",
-            "target": "psi4"
-          },
-          {
-            "source": "hdf5",
             "target": "pymeep"
           },
           {
@@ -33651,6 +33635,10 @@
           },
           {
             "source": "highfive",
+            "target": "forte"
+          },
+          {
+            "source": "highfive",
             "target": "gauxc"
           },
           {
@@ -33660,10 +33648,6 @@
           {
             "source": "highfive",
             "target": "kealib"
-          },
-          {
-            "source": "highfive",
-            "target": "psi4"
           },
           {
             "source": "highfive",
@@ -34447,6 +34431,10 @@
           },
           {
             "source": "hypothesis",
+            "target": "forte"
+          },
+          {
+            "source": "hypothesis",
             "target": "fps-terminals"
           },
           {
@@ -34636,10 +34624,6 @@
           {
             "source": "hypothesis",
             "target": "porespy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "psi4"
           },
           {
             "source": "hypothesis",
@@ -36291,6 +36275,10 @@
           },
           {
             "source": "lapack",
+            "target": "forte"
+          },
+          {
+            "source": "lapack",
             "target": "giac"
           },
           {
@@ -36496,10 +36484,6 @@
           {
             "source": "lapack",
             "target": "plumed"
-          },
-          {
-            "source": "lapack",
-            "target": "psi4"
           },
           {
             "source": "lapack",
@@ -38323,7 +38307,7 @@
           },
           {
             "source": "libecpint",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "libedit",
@@ -38363,7 +38347,7 @@
           },
           {
             "source": "libefp",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "libev",
@@ -39367,11 +39351,11 @@
           },
           {
             "source": "libint",
-            "target": "horton"
+            "target": "forte"
           },
           {
             "source": "libint",
-            "target": "psi4"
+            "target": "horton"
           },
           {
             "source": "libitk",
@@ -42455,6 +42439,10 @@
           },
           {
             "source": "libxc",
+            "target": "forte"
+          },
+          {
+            "source": "libxc",
             "target": "gpaw"
           },
           {
@@ -42464,10 +42452,6 @@
           {
             "source": "libxc",
             "target": "openorbitaloptimizer"
-          },
-          {
-            "source": "libxc",
-            "target": "psi4"
           },
           {
             "source": "libxcrypt",
@@ -45507,6 +45491,10 @@
           },
           {
             "source": "make",
+            "target": "forte"
+          },
+          {
+            "source": "make",
             "target": "fplll"
           },
           {
@@ -47856,10 +47844,6 @@
           {
             "source": "make",
             "target": "prrng"
-          },
-          {
-            "source": "make",
-            "target": "psi4"
           },
           {
             "source": "make",
@@ -51883,6 +51867,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "forte"
+          },
+          {
+            "source": "matplotlib",
             "target": "freecad"
           },
           {
@@ -52220,10 +52208,6 @@
           {
             "source": "matplotlib",
             "target": "prophet"
-          },
-          {
-            "source": "matplotlib",
-            "target": "psi4"
           },
           {
             "source": "matplotlib",
@@ -53755,6 +53739,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "forte"
+          },
+          {
+            "source": "msgpack-python",
             "target": "geocat-f2py"
           },
           {
@@ -53796,10 +53784,6 @@
           {
             "source": "msgpack-python",
             "target": "porespy"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "psi4"
           },
           {
             "source": "msgpack-python",
@@ -57252,10 +57236,6 @@
           {
             "source": "ninja",
             "target": "prrng"
-          },
-          {
-            "source": "ninja",
-            "target": "psi4"
           },
           {
             "source": "ninja",
@@ -60951,10 +60931,6 @@
           },
           {
             "source": "numpy",
-            "target": "psi4"
-          },
-          {
-            "source": "numpy",
             "target": "psyplot"
           },
           {
@@ -62731,7 +62707,7 @@
           },
           {
             "source": "openmm",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "openmm",
@@ -63671,10 +63647,6 @@
           },
           {
             "source": "openmp",
-            "target": "psi4"
-          },
-          {
-            "source": "openmp",
             "target": "puma"
           },
           {
@@ -64055,7 +64027,7 @@
           },
           {
             "source": "openorbitaloptimizer",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "openpmix",
@@ -66995,7 +66967,7 @@
           },
           {
             "source": "pcmsolver-split",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "pcre2",
@@ -73130,10 +73102,6 @@
             "target": "gooseeye"
           },
           {
-            "source": "psi4",
-            "target": "forte"
-          },
-          {
             "source": "psutil",
             "target": "allennlp"
           },
@@ -73315,6 +73283,10 @@
           },
           {
             "source": "psutil",
+            "target": "forte"
+          },
+          {
+            "source": "psutil",
             "target": "geoarray"
           },
           {
@@ -73476,10 +73448,6 @@
           {
             "source": "psutil",
             "target": "porespy"
-          },
-          {
-            "source": "psutil",
-            "target": "psi4"
           },
           {
             "source": "psutil",
@@ -74315,6 +74283,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "forte"
+          },
+          {
+            "source": "pydantic-core",
             "target": "fps-terminals"
           },
           {
@@ -74476,10 +74448,6 @@
           {
             "source": "pydantic-core",
             "target": "porespy"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "psi4"
           },
           {
             "source": "pydantic-core",
@@ -74751,7 +74719,7 @@
           },
           {
             "source": "pyddx",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "pyepr",
@@ -74915,7 +74883,7 @@
           },
           {
             "source": "pymdi",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "pymongo",
@@ -80199,10 +80167,6 @@
           },
           {
             "source": "python",
-            "target": "psi4"
-          },
-          {
-            "source": "python",
             "target": "psutil"
           },
           {
@@ -84727,6 +84691,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "forte"
+          },
+          {
+            "source": "pyyaml",
             "target": "fps-terminals"
           },
           {
@@ -84996,10 +84964,6 @@
           {
             "source": "pyyaml",
             "target": "proj.4"
-          },
-          {
-            "source": "pyyaml",
-            "target": "psi4"
           },
           {
             "source": "pyyaml",
@@ -93983,11 +93947,11 @@
           },
           {
             "source": "rdkit",
-            "target": "grouper"
+            "target": "forte"
           },
           {
             "source": "rdkit",
-            "target": "psi4"
+            "target": "grouper"
           },
           {
             "source": "rdkit",
@@ -97299,6 +97263,10 @@
           },
           {
             "source": "scipy",
+            "target": "forte"
+          },
+          {
+            "source": "scipy",
             "target": "galpy"
           },
           {
@@ -97688,10 +97656,6 @@
           {
             "source": "scipy",
             "target": "proxsuite"
-          },
-          {
-            "source": "scipy",
-            "target": "psi4"
           },
           {
             "source": "scipy",
@@ -99783,6 +99747,10 @@
           },
           {
             "source": "spdlog",
+            "target": "forte"
+          },
+          {
+            "source": "spdlog",
             "target": "gnuradio"
           },
           {
@@ -99824,10 +99792,6 @@
           {
             "source": "spdlog",
             "target": "micromamba"
-          },
-          {
-            "source": "spdlog",
-            "target": "psi4"
           },
           {
             "source": "spdlog",
@@ -109227,7 +109191,7 @@
           },
           {
             "source": "xtb-python",
-            "target": "psi4"
+            "target": "forte"
           },
           {
             "source": "xtb-python",
@@ -110387,6 +110351,10 @@
           },
           {
             "source": "zlib",
+            "target": "forte"
+          },
+          {
+            "source": "zlib",
             "target": "freecad"
           },
           {
@@ -111360,10 +111328,6 @@
           {
             "source": "zlib",
             "target": "protozfits"
-          },
-          {
-            "source": "zlib",
-            "target": "psi4"
           },
           {
             "source": "zlib",
@@ -123220,12 +123184,6 @@
             "id": "psfex",
             "payload": {
               "__lazy_json__": "node_attrs/psfex.json"
-            }
-          },
-          {
-            "id": "psi4",
-            "payload": {
-              "__lazy_json__": "node_attrs/psi4.json"
             }
           },
           {
