@@ -67,9 +67,9 @@
             }
           },
           {
-            "id": "python-casacore",
+            "id": "perseo_perturbations",
             "payload": {
-              "__lazy_json__": "node_attrs/python-casacore.json"
+              "__lazy_json__": "node_attrs/perseo_perturbations.json"
             }
           }
         ]
@@ -2173,6 +2173,10 @@
           {
             "source": "astropy",
             "target": "pdspy"
+          },
+          {
+            "source": "astropy",
+            "target": "perseo_perturbations"
           },
           {
             "source": "astropy",
@@ -32188,6 +32192,10 @@
           },
           {
             "source": "netcdf4",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "netcdf4",
             "target": "polymer"
           },
           {
@@ -37429,6 +37437,10 @@
           {
             "source": "numpy",
             "target": "perpetual"
+          },
+          {
+            "source": "numpy",
+            "target": "perseo_perturbations"
           },
           {
             "source": "numpy",
@@ -42728,6 +42740,10 @@
           },
           {
             "source": "pandas",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "pandas",
             "target": "pgmpy"
           },
           {
@@ -43760,6 +43776,10 @@
           },
           {
             "source": "perpetual",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "perseo_perturbations",
             "target": "conda-forge-pinning"
           },
           {
@@ -47041,6 +47061,10 @@
           {
             "source": "psutil",
             "target": "pdata"
+          },
+          {
+            "source": "psutil",
+            "target": "perseo_perturbations"
           },
           {
             "source": "psutil",
@@ -52029,6 +52053,10 @@
           {
             "source": "pyproj",
             "target": "pandas-plink"
+          },
+          {
+            "source": "pyproj",
+            "target": "perseo_perturbations"
           },
           {
             "source": "pyproj",
@@ -64040,6 +64068,10 @@
           },
           {
             "source": "scipy",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "scipy",
             "target": "pfapack"
           },
           {
@@ -74940,6 +74972,10 @@
           },
           {
             "source": "tbb",
+            "target": "perseo_perturbations"
+          },
+          {
+            "source": "tbb",
             "target": "persistent"
           },
           {
@@ -84877,6 +84913,10 @@
           {
             "source": "wcwidth",
             "target": "pdata"
+          },
+          {
+            "source": "wcwidth",
+            "target": "perseo_perturbations"
           },
           {
             "source": "wcwidth",
@@ -106169,6 +106209,12 @@
             "id": "ormar-utils",
             "payload": {
               "__lazy_json__": "node_attrs/ormar-utils.json"
+            }
+          },
+          {
+            "id": "perseo_perturbations",
+            "payload": {
+              "__lazy_json__": "node_attrs/perseo_perturbations.json"
             }
           }
         ]
