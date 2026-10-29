@@ -624,10 +624,6 @@
           },
           {
             "source": "autoconf",
-            "target": "xorg-xproto"
-          },
-          {
-            "source": "autoconf",
             "target": "xpmem"
           },
           {
@@ -853,10 +849,6 @@
           {
             "source": "automake",
             "target": "xorg-libxxf86vm"
-          },
-          {
-            "source": "automake",
-            "target": "xorg-xproto"
           },
           {
             "source": "automake",
@@ -1529,6 +1521,10 @@
           {
             "source": "binutils",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "binutils",
+            "target": "xorg-xproto"
           },
           {
             "source": "bison",
@@ -3852,6 +3848,10 @@
           },
           {
             "source": "cmake",
+            "target": "xorg-xproto"
+          },
+          {
+            "source": "cmake",
             "target": "xsimd"
           },
           {
@@ -4721,6 +4721,10 @@
           {
             "source": "ctng-compilers",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "xorg-xproto"
           },
           {
             "source": "cuda-cccl",
@@ -6429,10 +6433,6 @@
           {
             "source": "gettext",
             "target": "xorg-libxxf86vm"
-          },
-          {
-            "source": "gettext",
-            "target": "xorg-xproto"
           },
           {
             "source": "gflags",
@@ -9424,10 +9424,6 @@
           },
           {
             "source": "libtool",
-            "target": "xorg-xproto"
-          },
-          {
-            "source": "libtool",
             "target": "xpmem"
           },
           {
@@ -9951,6 +9947,10 @@
             "target": "xorg-xf86vidmodeproto"
           },
           {
+            "source": "libxml2",
+            "target": "xorg-xproto"
+          },
+          {
             "source": "libxslt",
             "target": "lxml"
           },
@@ -10033,6 +10033,10 @@
           {
             "source": "lld",
             "target": "xorg-libxshmfence"
+          },
+          {
+            "source": "lld",
+            "target": "xorg-xproto"
           },
           {
             "source": "llvmdev",
@@ -10257,6 +10261,10 @@
           {
             "source": "llvmdev",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "llvmdev",
+            "target": "xorg-xproto"
           },
           {
             "source": "llvmlite",
@@ -13172,6 +13180,10 @@
           },
           {
             "source": "ninja",
+            "target": "xorg-xproto"
+          },
+          {
+            "source": "ninja",
             "target": "xsimd"
           },
           {
@@ -13881,6 +13893,10 @@
           {
             "source": "openmp",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "openmp",
+            "target": "xorg-xproto"
           },
           {
             "source": "openpmix",
@@ -17057,6 +17073,10 @@
           {
             "source": "python",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "python",
+            "target": "xorg-xproto"
           },
           {
             "source": "python",
@@ -22280,6 +22300,10 @@
           },
           {
             "source": "zlib",
+            "target": "xorg-xproto"
+          },
+          {
+            "source": "zlib",
             "target": "zlib-ng"
           },
           {
@@ -22697,6 +22721,10 @@
           {
             "source": "zstd",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "zstd",
+            "target": "xorg-xproto"
           },
           {
             "source": "zstd",
