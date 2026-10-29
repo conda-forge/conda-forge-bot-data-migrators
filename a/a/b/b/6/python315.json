@@ -67,6 +67,12 @@
             }
           },
           {
+            "id": "pyuvdata",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyuvdata.json"
+            }
+          },
+          {
             "id": "tslearn",
             "payload": {
               "__lazy_json__": "node_attrs/tslearn.json"
@@ -2443,6 +2449,10 @@
           {
             "source": "audioop-lts",
             "target": "lm_eval"
+          },
+          {
+            "source": "audioop-lts",
+            "target": "standard-aifc"
           },
           {
             "source": "augurs",
