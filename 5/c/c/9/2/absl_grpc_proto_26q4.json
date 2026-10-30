@@ -134,9 +134,15 @@
             }
           },
           {
-            "id": "nvidia-dali-python",
+            "id": "onnxruntime",
             "payload": {
-              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+              "__lazy_json__": "node_attrs/onnxruntime.json"
+            }
+          },
+          {
+            "id": "opencv",
+            "payload": {
+              "__lazy_json__": "node_attrs/opencv.json"
             }
           },
           {
@@ -560,12 +566,28 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "opencv",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "opencv",
+            "target": "nvidia-dali-python"
+          },
+          {
+            "source": "opencv",
+            "target": "ray-packages"
+          },
+          {
             "source": "openvino-tokenizers",
             "target": "conda-forge-pinning"
           },
           {
             "source": "openvino",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino",
+            "target": "opencv"
           },
           {
             "source": "openvino",
@@ -922,6 +944,12 @@
             "id": "onnxruntime",
             "payload": {
               "__lazy_json__": "node_attrs/onnxruntime.json"
+            }
+          },
+          {
+            "id": "opencv",
+            "payload": {
+              "__lazy_json__": "node_attrs/opencv.json"
             }
           },
           {
