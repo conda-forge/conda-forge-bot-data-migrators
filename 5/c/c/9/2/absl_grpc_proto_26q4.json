@@ -98,6 +98,12 @@
             }
           },
           {
+            "id": "paraview",
+            "payload": {
+              "__lazy_json__": "node_attrs/paraview.json"
+            }
+          },
+          {
             "id": "pys2index",
             "payload": {
               "__lazy_json__": "node_attrs/pys2index.json"
@@ -534,6 +540,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "paraview",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "protobuf-c",
             "target": "conda-forge-pinning"
           },
@@ -902,6 +912,12 @@
             "id": "orc",
             "payload": {
               "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "paraview",
+            "payload": {
+              "__lazy_json__": "node_attrs/paraview.json"
             }
           },
           {
