@@ -2427,6 +2427,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -2980,10 +2984,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5039,6 +5039,10 @@
           },
           {
             "source": "bash",
+            "target": "cusparselt"
+          },
+          {
+            "source": "bash",
             "target": "cutde"
           },
           {
@@ -6812,6 +6816,10 @@
           {
             "source": "bash",
             "target": "metaio"
+          },
+          {
+            "source": "bash",
+            "target": "metis"
           },
           {
             "source": "bash",
@@ -14931,6 +14939,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "typst-gather"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "typstyle"
           },
           {
@@ -15600,6 +15612,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "typst"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "typst-gather"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -17066,6 +17082,10 @@
             "target": "pyobjc-core"
           },
           {
+            "source": "clang-compiler-activation",
+            "target": "pyobjc-framework-cocoa"
+          },
+          {
             "source": "clarabel",
             "target": "cvxpy"
           },
@@ -17620,6 +17640,10 @@
           {
             "source": "cmake",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cmake",
+            "target": "cusparselt"
           },
           {
             "source": "cmake",
@@ -18932,6 +18956,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -23175,6 +23203,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "pyobjc-framework-cocoa"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "pyrage"
           },
           {
@@ -23639,6 +23671,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -23980,6 +24016,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24528,6 +24568,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -31819,6 +31863,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32056,10 +32104,6 @@
           {
             "source": "git",
             "target": "pyshtools"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39123,6 +39167,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -43455,6 +43503,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45224,6 +45276,10 @@
           {
             "source": "libtool",
             "target": "metaio"
+          },
+          {
+            "source": "libtool",
+            "target": "metis"
           },
           {
             "source": "libtool",
@@ -54270,6 +54326,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56244,6 +56356,10 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ninja",
+            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -63240,6 +63356,10 @@
           {
             "source": "openssl",
             "target": "typst"
+          },
+          {
+            "source": "openssl",
+            "target": "typst-gather"
           },
           {
             "source": "openssl",
@@ -71840,6 +71960,10 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -88723,6 +88847,10 @@
           },
           {
             "source": "rsync",
+            "target": "pyobjc-framework-cocoa"
+          },
+          {
+            "source": "rsync",
             "target": "pythia8"
           },
           {
@@ -90816,6 +90944,10 @@
           {
             "source": "sed",
             "target": "pyobjc-core"
+          },
+          {
+            "source": "sed",
+            "target": "pyobjc-framework-cocoa"
           },
           {
             "source": "sed",
@@ -93792,6 +93924,10 @@
           {
             "source": "twisted-iocpsupport",
             "target": "autobahn"
+          },
+          {
+            "source": "typst-gather",
+            "target": "quarto"
           },
           {
             "source": "typst",
@@ -107083,6 +107219,12 @@
             }
           },
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
             "id": "cutde",
             "payload": {
               "__lazy_json__": "node_attrs/cutde.json"
@@ -111658,6 +111800,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -120484,6 +120632,12 @@
             "id": "pcodec",
             "payload": {
               "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          },
+          {
+            "id": "typst-gather",
+            "payload": {
+              "__lazy_json__": "node_attrs/typst-gather.json"
             }
           }
         ]
