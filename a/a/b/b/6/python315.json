@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "casa_formats_io",
+            "payload": {
+              "__lazy_json__": "node_attrs/casa_formats_io.json"
+            }
+          },
+          {
             "id": "casatools",
             "payload": {
               "__lazy_json__": "node_attrs/casatools.json"
@@ -3923,10 +3929,6 @@
           {
             "source": "backports.zstd",
             "target": "pygypsy"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pyhepmc"
           },
           {
             "source": "backports.zstd",
