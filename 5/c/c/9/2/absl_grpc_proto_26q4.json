@@ -104,9 +104,9 @@
             }
           },
           {
-            "id": "labmaze",
+            "id": "gz-transport",
             "payload": {
-              "__lazy_json__": "node_attrs/labmaze.json"
+              "__lazy_json__": "node_attrs/gz-transport.json"
             }
           },
           {
@@ -152,12 +152,6 @@
             }
           },
           {
-            "id": "protozfits",
-            "payload": {
-              "__lazy_json__": "node_attrs/protozfits.json"
-            }
-          },
-          {
             "id": "pyaudi",
             "payload": {
               "__lazy_json__": "node_attrs/pyaudi.json"
@@ -173,12 +167,6 @@
             "id": "spot-cpp-sdk",
             "payload": {
               "__lazy_json__": "node_attrs/spot-cpp-sdk.json"
-            }
-          },
-          {
-            "id": "tritonclient-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/tritonclient-split.json"
             }
           },
           {
@@ -1157,7 +1145,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
