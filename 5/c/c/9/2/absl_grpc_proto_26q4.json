@@ -52,12 +52,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "cpp-opentelemetry-sdk",
-            "target": "google-cloud-cpp-core"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -94,12 +89,6 @@
             "id": "coremltools",
             "payload": {
               "__lazy_json__": "node_attrs/coremltools.json"
-            }
-          },
-          {
-            "id": "cpp-opentelemetry-sdk",
-            "payload": {
-              "__lazy_json__": "node_attrs/cpp-opentelemetry-sdk.json"
             }
           },
           {
@@ -184,12 +173,6 @@
             "id": "nvidia-dali-python",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-dali-python.json"
-            }
-          },
-          {
-            "id": "openvino",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvino.json"
             }
           },
           {
@@ -1240,7 +1223,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
