@@ -56,51 +56,27 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "brpc",
+            "id": "google-cloud-cpp-ai",
             "payload": {
-              "__lazy_json__": "node_attrs/brpc.json"
+              "__lazy_json__": "node_attrs/google-cloud-cpp-ai.json"
             }
           },
           {
-            "id": "cartographer",
+            "id": "google-cloud-cpp-bigquery",
             "payload": {
-              "__lazy_json__": "node_attrs/cartographer.json"
+              "__lazy_json__": "node_attrs/google-cloud-cpp-bigquery.json"
             }
           },
           {
-            "id": "gazebo",
+            "id": "google-cloud-cpp-compute",
             "payload": {
-              "__lazy_json__": "node_attrs/gazebo.json"
-            }
-          },
-          {
-            "id": "gnss-sdr",
-            "payload": {
-              "__lazy_json__": "node_attrs/gnss-sdr.json"
+              "__lazy_json__": "node_attrs/google-cloud-cpp-compute.json"
             }
           },
           {
             "id": "gz-transport",
             "payload": {
               "__lazy_json__": "node_attrs/gz-transport.json"
-            }
-          },
-          {
-            "id": "mosh",
-            "payload": {
-              "__lazy_json__": "node_attrs/mosh.json"
-            }
-          },
-          {
-            "id": "mysqlx-connector-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/mysqlx-connector-python.json"
-            }
-          },
-          {
-            "id": "nurikit",
-            "payload": {
-              "__lazy_json__": "node_attrs/nurikit.json"
             }
           },
           {
@@ -125,6 +101,12 @@
             "id": "spot-cpp-sdk",
             "payload": {
               "__lazy_json__": "node_attrs/spot-cpp-sdk.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
             }
           }
         ]
@@ -1119,7 +1101,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
