@@ -235,6 +235,10 @@
           },
           {
             "source": "abseil-cpp",
+            "target": "opencv"
+          },
+          {
+            "source": "abseil-cpp",
             "target": "openvino"
           },
           {
@@ -19095,10 +19099,6 @@
           },
           {
             "source": "cmake",
-            "target": "nexus"
-          },
-          {
-            "source": "cmake",
             "target": "nim"
           },
           {
@@ -35007,10 +35007,6 @@
           },
           {
             "source": "hdf4",
-            "target": "nexus"
-          },
-          {
-            "source": "hdf4",
             "target": "pyhdf"
           },
           {
@@ -35143,6 +35139,14 @@
           },
           {
             "source": "hdf5",
+            "target": "mcstas-suite"
+          },
+          {
+            "source": "hdf5",
+            "target": "mcxtrace-suite"
+          },
+          {
+            "source": "hdf5",
             "target": "mpas_tools"
           },
           {
@@ -35164,10 +35168,6 @@
           {
             "source": "hdf5",
             "target": "netcdf4"
-          },
-          {
-            "source": "hdf5",
-            "target": "nexus"
           },
           {
             "source": "hdf5",
@@ -41240,10 +41240,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "netpbm"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "nexus"
           },
           {
             "source": "libjpeg-turbo",
@@ -51035,10 +51031,6 @@
           },
           {
             "source": "libxml2",
-            "target": "nexus"
-          },
-          {
-            "source": "libxml2",
             "target": "nim"
           },
           {
@@ -55799,10 +55791,6 @@
           },
           {
             "source": "ncurses",
-            "target": "nexus"
-          },
-          {
-            "source": "ncurses",
             "target": "octave"
           },
           {
@@ -55952,14 +55940,6 @@
           {
             "source": "nettle",
             "target": "gnutls"
-          },
-          {
-            "source": "nexus",
-            "target": "mcstas-suite"
-          },
-          {
-            "source": "nexus",
-            "target": "mcxtrace-suite"
           },
           {
             "source": "nghttp2",
@@ -57496,10 +57476,6 @@
           {
             "source": "ninja",
             "target": "ncurses"
-          },
-          {
-            "source": "ninja",
-            "target": "nexus"
           },
           {
             "source": "ninja",
@@ -87983,10 +87959,6 @@
           },
           {
             "source": "readline",
-            "target": "nexus"
-          },
-          {
-            "source": "readline",
             "target": "oclgrind"
           },
           {
@@ -103031,10 +103003,6 @@
           },
           {
             "source": "zlib",
-            "target": "nexus"
-          },
-          {
-            "source": "zlib",
             "target": "nghttp2"
           },
           {
@@ -112282,12 +112250,6 @@
             "id": "newrelic",
             "payload": {
               "__lazy_json__": "node_attrs/newrelic.json"
-            }
-          },
-          {
-            "id": "nexus",
-            "payload": {
-              "__lazy_json__": "node_attrs/nexus.json"
             }
           },
           {
