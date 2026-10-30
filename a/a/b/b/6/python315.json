@@ -2692,11 +2692,11 @@
           },
           {
             "source": "backports-datetime-fromisoformat",
-            "target": "tiatoolbox"
+            "target": "tomviz"
           },
           {
             "source": "backports-datetime-fromisoformat",
-            "target": "tomviz"
+            "target": "wsidicom"
           },
           {
             "source": "backports.zoneinfo",
@@ -4569,6 +4569,10 @@
           {
             "source": "backports.zstd",
             "target": "wordllama"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "wsidicom"
           },
           {
             "source": "backports.zstd",
@@ -8368,6 +8372,10 @@
           },
           {
             "source": "brotli",
+            "target": "wsidicom"
+          },
+          {
+            "source": "brotli",
             "target": "wxpython"
           },
           {
@@ -10040,10 +10048,6 @@
           },
           {
             "source": "cffi",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "cffi",
             "target": "timezonefinder"
           },
           {
@@ -10121,6 +10125,10 @@
           {
             "source": "cffi",
             "target": "websockify"
+          },
+          {
+            "source": "cffi",
+            "target": "wsidicom"
           },
           {
             "source": "cffi",
@@ -16892,15 +16900,15 @@
           },
           {
             "source": "dulwich",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "dulwich",
             "target": "uhd"
           },
           {
             "source": "dulwich",
             "target": "vega"
+          },
+          {
+            "source": "dulwich",
+            "target": "wsidicom"
           },
           {
             "source": "dummydata",
@@ -22617,6 +22625,10 @@
           {
             "source": "imagecodecs",
             "target": "word-image"
+          },
+          {
+            "source": "imagecodecs",
+            "target": "wsidicom"
           },
           {
             "source": "imagededup",
@@ -30861,6 +30873,10 @@
           {
             "source": "msgpack-python",
             "target": "wavespectra"
+          },
+          {
+            "source": "msgpack-python",
+            "target": "wsidicom"
           },
           {
             "source": "msgpack-python",
@@ -40332,6 +40348,10 @@
           },
           {
             "source": "numpy",
+            "target": "wsidicom"
+          },
+          {
+            "source": "numpy",
             "target": "wxpython"
           },
           {
@@ -40989,6 +41009,10 @@
           {
             "source": "opencv",
             "target": "word-image"
+          },
+          {
+            "source": "opencv",
+            "target": "wsidicom"
           },
           {
             "source": "opencv",
@@ -45013,6 +45037,10 @@
           {
             "source": "pillow",
             "target": "wordcloud"
+          },
+          {
+            "source": "pillow",
+            "target": "wsidicom"
           },
           {
             "source": "pillow",
@@ -50460,7 +50488,7 @@
           },
           {
             "source": "pyjpegls",
-            "target": "tiatoolbox"
+            "target": "wsidicom"
           },
           {
             "source": "pyjq",
@@ -50588,7 +50616,7 @@
           },
           {
             "source": "pylibjpeg-openjpeg",
-            "target": "tiatoolbox"
+            "target": "wsidicom"
           },
           {
             "source": "pylibjpeg-rle",
@@ -50596,7 +50624,7 @@
           },
           {
             "source": "pylibjpeg-rle",
-            "target": "tiatoolbox"
+            "target": "wsidicom"
           },
           {
             "source": "pylibmc",
@@ -55344,15 +55372,15 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "uhd"
           },
           {
             "source": "pywin32-ctypes",
             "target": "vega"
+          },
+          {
+            "source": "pywin32-ctypes",
+            "target": "wsidicom"
           },
           {
             "source": "pywin32",
@@ -58912,15 +58940,15 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "rapidfuzz",
             "target": "uhd"
           },
           {
             "source": "rapidfuzz",
             "target": "vega"
+          },
+          {
+            "source": "rapidfuzz",
+            "target": "wsidicom"
           },
           {
             "source": "rapidgzip",
@@ -80332,6 +80360,10 @@
           },
           {
             "source": "tbb",
+            "target": "wsidicom"
+          },
+          {
+            "source": "tbb",
             "target": "wstool"
           },
           {
@@ -86227,6 +86259,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "wsidicom",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wsidicom",
+            "target": "tiatoolbox"
+          },
+          {
             "source": "wstool",
             "target": "conda-forge-pinning"
           },
@@ -86396,15 +86436,15 @@
           },
           {
             "source": "xattr",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "xattr",
             "target": "uhd"
           },
           {
             "source": "xattr",
             "target": "vega"
+          },
+          {
+            "source": "xattr",
+            "target": "wsidicom"
           },
           {
             "source": "xbbg",
@@ -87196,15 +87236,15 @@
           },
           {
             "source": "zstandard",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "zstandard",
             "target": "uhd"
           },
           {
             "source": "zstandard",
             "target": "vega"
+          },
+          {
+            "source": "zstandard",
+            "target": "wsidicom"
           },
           {
             "source": "zxing-cpp-python",
@@ -105545,6 +105585,12 @@
             "id": "wsaccel",
             "payload": {
               "__lazy_json__": "node_attrs/wsaccel.json"
+            }
+          },
+          {
+            "id": "wsidicom",
+            "payload": {
+              "__lazy_json__": "node_attrs/wsidicom.json"
             }
           },
           {
