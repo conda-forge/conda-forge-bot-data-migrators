@@ -60,12 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/cpptango.json"
             }
-          },
-          {
-            "id": "google-cloud-cpp-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/google-cloud-cpp-core.json"
-            }
           }
         ]
       }
@@ -255,7 +249,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
