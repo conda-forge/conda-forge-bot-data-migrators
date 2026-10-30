@@ -86,12 +86,6 @@
             }
           },
           {
-            "id": "coremltools",
-            "payload": {
-              "__lazy_json__": "node_attrs/coremltools.json"
-            }
-          },
-          {
             "id": "dydx-v4-proto-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/dydx-v4-proto-cpp.json"
@@ -131,12 +125,6 @@
             "id": "mosh",
             "payload": {
               "__lazy_json__": "node_attrs/mosh.json"
-            }
-          },
-          {
-            "id": "mysql",
-            "payload": {
-              "__lazy_json__": "node_attrs/mysql.json"
             }
           },
           {
@@ -182,33 +170,15 @@
             }
           },
           {
-            "id": "r-s2",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-s2.json"
-            }
-          },
-          {
             "id": "s2geometry",
             "payload": {
               "__lazy_json__": "node_attrs/s2geometry.json"
             }
           },
           {
-            "id": "sentencepiece",
-            "payload": {
-              "__lazy_json__": "node_attrs/sentencepiece.json"
-            }
-          },
-          {
             "id": "spot-cpp-sdk",
             "payload": {
               "__lazy_json__": "node_attrs/spot-cpp-sdk.json"
-            }
-          },
-          {
-            "id": "tensorflow",
-            "payload": {
-              "__lazy_json__": "node_attrs/tensorflow.json"
             }
           },
           {
@@ -1199,7 +1169,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
