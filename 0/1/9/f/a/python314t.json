@@ -662,6 +662,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "python-symengine"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pytorch-cpu"
           },
           {
@@ -1207,6 +1211,10 @@
           {
             "source": "brotli",
             "target": "python-box"
+          },
+          {
+            "source": "brotli",
+            "target": "python-symengine"
           },
           {
             "source": "brotli",
@@ -8274,6 +8282,10 @@
           },
           {
             "source": "psutil",
+            "target": "python-symengine"
+          },
+          {
+            "source": "psutil",
             "target": "pyzmq"
           },
           {
@@ -9767,6 +9779,10 @@
           {
             "source": "pyyaml",
             "target": "python-stratify"
+          },
+          {
+            "source": "pyyaml",
+            "target": "python-symengine"
           },
           {
             "source": "pyyaml",
@@ -14102,6 +14118,10 @@
           },
           {
             "source": "ujson",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ujson",
             "target": "pyzmq"
           },
           {
@@ -14447,6 +14467,10 @@
           {
             "source": "wcwidth",
             "target": "python-blosc2"
+          },
+          {
+            "source": "wcwidth",
+            "target": "python-symengine"
           },
           {
             "source": "wcwidth",
