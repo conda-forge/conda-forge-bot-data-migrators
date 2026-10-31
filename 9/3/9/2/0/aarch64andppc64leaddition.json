@@ -499,6 +499,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "python-symengine"
+          },
+          {
+            "source": "aiohttp",
             "target": "pyzmq"
           },
           {
@@ -936,6 +940,10 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "pyshtools"
+          },
+          {
+            "source": "argon2-cffi-bindings",
+            "target": "python-symengine"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -2427,10 +2435,6 @@
           },
           {
             "source": "automake",
-            "target": "cusparselt"
-          },
-          {
-            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -2984,6 +2988,10 @@
           {
             "source": "automake",
             "target": "pyqt"
+          },
+          {
+            "source": "automake",
+            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -4255,6 +4263,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "python-symengine"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pytorch-cpu"
           },
           {
@@ -5036,10 +5048,6 @@
           {
             "source": "bash",
             "target": "curl"
-          },
-          {
-            "source": "bash",
-            "target": "cusparselt"
           },
           {
             "source": "bash",
@@ -6816,10 +6824,6 @@
           {
             "source": "bash",
             "target": "metaio"
-          },
-          {
-            "source": "bash",
-            "target": "metis"
           },
           {
             "source": "bash",
@@ -11275,6 +11279,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "python-symengine"
+          },
+          {
+            "source": "bcrypt",
             "target": "pyzmq"
           },
           {
@@ -13935,6 +13943,10 @@
           },
           {
             "source": "brotli",
+            "target": "python-symengine"
+          },
+          {
+            "source": "brotli",
             "target": "pytorch-cpu"
           },
           {
@@ -14827,6 +14839,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "python-symengine"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "pyzmq"
           },
           {
@@ -15440,6 +15456,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "pyshtools"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "python-symengine"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16743,6 +16763,10 @@
           },
           {
             "source": "cffi",
+            "target": "python-symengine"
+          },
+          {
+            "source": "cffi",
             "target": "pytorch-cpu"
           },
           {
@@ -17648,10 +17672,6 @@
           {
             "source": "cmake",
             "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "cmake",
-            "target": "cusparselt"
           },
           {
             "source": "cmake",
@@ -18964,10 +18984,6 @@
           {
             "source": "cmake",
             "target": "mesalib"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -23235,6 +23251,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "pywinpty"
           },
           {
@@ -23683,10 +23703,6 @@
           },
           {
             "source": "cuda-cudart",
-            "target": "cusparselt"
-          },
-          {
-            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -24028,10 +24044,6 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
-          },
-          {
-            "source": "cuda-nvrtc",
-            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24580,10 +24592,6 @@
           {
             "source": "curl",
             "target": "zchunk"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -26059,6 +26067,10 @@
           },
           {
             "source": "debugpy",
+            "target": "python-symengine"
+          },
+          {
+            "source": "debugpy",
             "target": "pyzmq"
           },
           {
@@ -26552,6 +26564,10 @@
           {
             "source": "dulwich",
             "target": "python-box"
+          },
+          {
+            "source": "dulwich",
+            "target": "python-symengine"
           },
           {
             "source": "dulwich",
@@ -27687,6 +27703,10 @@
           },
           {
             "source": "falcon",
+            "target": "python-symengine"
+          },
+          {
+            "source": "falcon",
             "target": "pyzmq"
           },
           {
@@ -27996,6 +28016,10 @@
           {
             "source": "fastar",
             "target": "pyshtools"
+          },
+          {
+            "source": "fastar",
+            "target": "python-symengine"
           },
           {
             "source": "fastar",
@@ -31863,10 +31887,6 @@
           },
           {
             "source": "git",
-            "target": "cusparselt"
-          },
-          {
-            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32104,6 +32124,14 @@
           {
             "source": "git",
             "target": "pyshtools"
+          },
+          {
+            "source": "git",
+            "target": "python-symengine"
+          },
+          {
+            "source": "git",
+            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -33764,6 +33792,10 @@
           {
             "source": "greenlet",
             "target": "pyshtools"
+          },
+          {
+            "source": "greenlet",
+            "target": "python-symengine"
           },
           {
             "source": "greenlet",
@@ -35659,6 +35691,10 @@
           },
           {
             "source": "httptools",
+            "target": "python-symengine"
+          },
+          {
+            "source": "httptools",
             "target": "pyzmq"
           },
           {
@@ -36056,6 +36092,10 @@
           {
             "source": "hypothesis",
             "target": "python-hyperscan"
+          },
+          {
+            "source": "hypothesis",
+            "target": "python-symengine"
           },
           {
             "source": "hypothesis",
@@ -38099,6 +38139,10 @@
           },
           {
             "source": "lazy-object-proxy",
+            "target": "python-symengine"
+          },
+          {
+            "source": "lazy-object-proxy",
             "target": "pyzmq"
           },
           {
@@ -39164,10 +39208,6 @@
           {
             "source": "libcusparse",
             "target": "cuquantum"
-          },
-          {
-            "source": "libcusparse",
-            "target": "cusparselt"
           },
           {
             "source": "libcusparse",
@@ -43503,10 +43543,6 @@
           },
           {
             "source": "libtool",
-            "target": "cusparselt"
-          },
-          {
-            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45276,10 +45312,6 @@
           {
             "source": "libtool",
             "target": "metaio"
-          },
-          {
-            "source": "libtool",
-            "target": "metis"
           },
           {
             "source": "libtool",
@@ -53427,6 +53459,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "python-symengine"
+          },
+          {
+            "source": "markupsafe",
             "target": "pytorch-cpu"
           },
           {
@@ -54039,6 +54075,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "python-symengine"
+          },
+          {
+            "source": "matplotlib",
             "target": "pyzmq"
           },
           {
@@ -54324,62 +54364,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -55395,6 +55379,10 @@
           },
           {
             "source": "mypy",
+            "target": "python-symengine"
+          },
+          {
+            "source": "mypy",
             "target": "pytokens"
           },
           {
@@ -56356,10 +56344,6 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
-          },
-          {
-            "source": "ninja",
-            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -59011,6 +58995,10 @@
           },
           {
             "source": "nodejs",
+            "target": "python-symengine"
+          },
+          {
+            "source": "nodejs",
             "target": "pyzmq"
           },
           {
@@ -60592,6 +60580,10 @@
           {
             "source": "numpy",
             "target": "python-suitesparse-graphblas"
+          },
+          {
+            "source": "numpy",
+            "target": "python-symengine"
           },
           {
             "source": "numpy",
@@ -63175,6 +63167,10 @@
           },
           {
             "source": "openssl",
+            "target": "python-symengine"
+          },
+          {
+            "source": "openssl",
             "target": "pyzmq"
           },
           {
@@ -63831,6 +63827,10 @@
           },
           {
             "source": "pandas",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pandas",
             "target": "pyzmq"
           },
           {
@@ -64196,6 +64196,10 @@
           {
             "source": "pandoc",
             "target": "pyshtools"
+          },
+          {
+            "source": "pandoc",
+            "target": "python-symengine"
           },
           {
             "source": "pandoc",
@@ -67179,6 +67183,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pkg-config",
             "target": "pytinyrenderer"
           },
           {
@@ -68491,6 +68499,10 @@
           },
           {
             "source": "playwright",
+            "target": "python-symengine"
+          },
+          {
+            "source": "playwright",
             "target": "pyzmq"
           },
           {
@@ -69083,6 +69095,10 @@
           },
           {
             "source": "protobuf",
+            "target": "python-symengine"
+          },
+          {
+            "source": "protobuf",
             "target": "pytorch-cpu"
           },
           {
@@ -69448,6 +69464,10 @@
           {
             "source": "psutil",
             "target": "python-blosc"
+          },
+          {
+            "source": "psutil",
+            "target": "python-symengine"
           },
           {
             "source": "psutil",
@@ -70179,6 +70199,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pydantic-core",
             "target": "pyzmq"
           },
           {
@@ -70607,6 +70631,10 @@
           },
           {
             "source": "pynacl",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pynacl",
             "target": "pyzmq"
           },
           {
@@ -70924,6 +70952,10 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "pyshtools"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
+            "target": "python-symengine"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -71960,10 +71992,6 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
-          },
-          {
-            "source": "python",
-            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -76135,6 +76163,10 @@
           },
           {
             "source": "pytokens",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pytokens",
             "target": "pyzmq"
           },
           {
@@ -76675,6 +76707,10 @@
           },
           {
             "source": "pywin32",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pywin32",
             "target": "pyzmq"
           },
           {
@@ -76984,6 +77020,10 @@
           {
             "source": "pywinpty",
             "target": "pyshtools"
+          },
+          {
+            "source": "pywinpty",
+            "target": "python-symengine"
           },
           {
             "source": "pywinpty",
@@ -77435,6 +77475,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pyyaml",
             "target": "pytorch-cpu"
           },
           {
@@ -77784,6 +77828,10 @@
           {
             "source": "pyzmq",
             "target": "pyshtools"
+          },
+          {
+            "source": "pyzmq",
+            "target": "python-symengine"
           },
           {
             "source": "pyzmq",
@@ -88283,6 +88331,10 @@
           },
           {
             "source": "regress",
+            "target": "python-symengine"
+          },
+          {
+            "source": "regress",
             "target": "pyzmq"
           },
           {
@@ -88672,6 +88724,10 @@
           {
             "source": "rpds-py",
             "target": "pyshtools"
+          },
+          {
+            "source": "rpds-py",
+            "target": "python-symengine"
           },
           {
             "source": "rpds-py",
@@ -89115,6 +89171,10 @@
           },
           {
             "source": "ruamel.yaml.clib",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ruamel.yaml.clib",
             "target": "pyzmq"
           },
           {
@@ -89436,6 +89496,10 @@
           {
             "source": "ruamel",
             "target": "pyshtools"
+          },
+          {
+            "source": "ruamel",
+            "target": "python-symengine"
           },
           {
             "source": "ruamel",
@@ -90972,6 +91036,10 @@
           {
             "source": "sed",
             "target": "pythia8"
+          },
+          {
+            "source": "sed",
+            "target": "python-symengine"
           },
           {
             "source": "sed",
@@ -93463,6 +93531,10 @@
           },
           {
             "source": "tornado",
+            "target": "python-symengine"
+          },
+          {
+            "source": "tornado",
             "target": "pyzmq"
           },
           {
@@ -93800,6 +93872,10 @@
           {
             "source": "trio",
             "target": "pyshtools"
+          },
+          {
+            "source": "trio",
+            "target": "python-symengine"
           },
           {
             "source": "trio",
@@ -94779,6 +94855,10 @@
           },
           {
             "source": "ujson",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ujson",
             "target": "pyzmq"
           },
           {
@@ -95383,6 +95463,10 @@
           },
           {
             "source": "uvloop",
+            "target": "python-symengine"
+          },
+          {
+            "source": "uvloop",
             "target": "pyzmq"
           },
           {
@@ -95608,6 +95692,10 @@
           {
             "source": "uv",
             "target": "python-box"
+          },
+          {
+            "source": "uv",
+            "target": "python-symengine"
           },
           {
             "source": "uv",
@@ -96183,6 +96271,10 @@
           },
           {
             "source": "watchdog",
+            "target": "python-symengine"
+          },
+          {
+            "source": "watchdog",
             "target": "pyzmq"
           },
           {
@@ -96484,6 +96576,10 @@
           {
             "source": "watchfiles",
             "target": "pyshtools"
+          },
+          {
+            "source": "watchfiles",
+            "target": "python-symengine"
           },
           {
             "source": "watchfiles",
@@ -96823,6 +96919,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "python-symengine"
+          },
+          {
+            "source": "wcwidth",
             "target": "pyzmq"
           },
           {
@@ -97124,6 +97224,10 @@
           {
             "source": "websockets",
             "target": "pyshtools"
+          },
+          {
+            "source": "websockets",
+            "target": "python-symengine"
           },
           {
             "source": "websockets",
@@ -98067,6 +98171,10 @@
           },
           {
             "source": "wrapt",
+            "target": "python-symengine"
+          },
+          {
+            "source": "wrapt",
             "target": "pyzmq"
           },
           {
@@ -98420,6 +98528,10 @@
           {
             "source": "xattr",
             "target": "python-box"
+          },
+          {
+            "source": "xattr",
+            "target": "python-symengine"
           },
           {
             "source": "xattr",
@@ -104271,6 +104383,10 @@
           },
           {
             "source": "zstandard",
+            "target": "python-symengine"
+          },
+          {
+            "source": "zstandard",
             "target": "pytorch-cpu"
           },
           {
@@ -107228,12 +107344,6 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
-            }
-          },
-          {
-            "id": "cusparselt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -111806,12 +111916,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
