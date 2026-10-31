@@ -8585,6 +8585,10 @@
           },
           {
             "source": "capstone",
+            "target": "qcs-sdk-python"
+          },
+          {
+            "source": "capstone",
             "target": "quil-split"
           },
           {
@@ -58742,10 +58746,6 @@
           {
             "source": "quil-split",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "quil-split",
-            "target": "qcs-sdk-python"
           },
           {
             "source": "quippy",
