@@ -671,6 +671,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "python-symengine"
+          },
+          {
+            "source": "aiohttp",
             "target": "pyzmq"
           },
           {
@@ -1292,6 +1296,10 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "python-stratify"
+          },
+          {
+            "source": "argon2-cffi-bindings",
+            "target": "python-symengine"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -4843,6 +4851,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "python-symengine"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pytorch-cpu"
           },
           {
@@ -5644,6 +5656,10 @@
           {
             "source": "bcrypt",
             "target": "python-stratify"
+          },
+          {
+            "source": "bcrypt",
+            "target": "python-symengine"
           },
           {
             "source": "bcrypt",
@@ -8651,6 +8667,10 @@
           },
           {
             "source": "brotli",
+            "target": "python-symengine"
+          },
+          {
+            "source": "brotli",
             "target": "pytorch-cpu"
           },
           {
@@ -9859,6 +9879,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "python-symengine"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "pyzmq"
           },
           {
@@ -10744,6 +10768,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "python-stratify"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "python-symengine"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -12044,6 +12072,10 @@
           {
             "source": "cffi",
             "target": "python-suitesparse-graphblas"
+          },
+          {
+            "source": "cffi",
+            "target": "python-symengine"
           },
           {
             "source": "cffi",
@@ -14815,10 +14847,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14868,6 +14896,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14924,6 +14956,10 @@
           {
             "source": "cmake",
             "target": "multinest"
+          },
+          {
+            "source": "cmake",
+            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -20095,6 +20131,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "pywinpty"
           },
           {
@@ -23111,6 +23151,10 @@
           },
           {
             "source": "debugpy",
+            "target": "python-symengine"
+          },
+          {
+            "source": "debugpy",
             "target": "pyzmq"
           },
           {
@@ -23884,6 +23928,10 @@
           {
             "source": "dulwich",
             "target": "python-stratify"
+          },
+          {
+            "source": "dulwich",
+            "target": "python-symengine"
           },
           {
             "source": "dulwich",
@@ -25455,6 +25503,10 @@
           },
           {
             "source": "falcon",
+            "target": "python-symengine"
+          },
+          {
+            "source": "falcon",
             "target": "pyzmq"
           },
           {
@@ -25976,6 +26028,10 @@
           {
             "source": "fastar",
             "target": "python-stratify"
+          },
+          {
+            "source": "fastar",
+            "target": "python-symengine"
           },
           {
             "source": "fastar",
@@ -29255,6 +29311,10 @@
           },
           {
             "source": "git",
+            "target": "python-symengine"
+          },
+          {
+            "source": "git",
             "target": "pyuvdata"
           },
           {
@@ -31476,6 +31536,10 @@
           {
             "source": "greenlet",
             "target": "python-stratify"
+          },
+          {
+            "source": "greenlet",
+            "target": "python-symengine"
           },
           {
             "source": "greenlet",
@@ -34031,6 +34095,10 @@
           },
           {
             "source": "httptools",
+            "target": "python-symengine"
+          },
+          {
+            "source": "httptools",
             "target": "pyzmq"
           },
           {
@@ -34692,6 +34760,10 @@
           {
             "source": "hypothesis",
             "target": "python-stratify"
+          },
+          {
+            "source": "hypothesis",
+            "target": "python-symengine"
           },
           {
             "source": "hypothesis",
@@ -37192,6 +37264,10 @@
           {
             "source": "lazy-object-proxy",
             "target": "python-stratify"
+          },
+          {
+            "source": "lazy-object-proxy",
+            "target": "python-symengine"
           },
           {
             "source": "lazy-object-proxy",
@@ -46907,10 +46983,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "metplus"
           },
           {
@@ -51279,6 +51351,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "python-symengine"
+          },
+          {
+            "source": "markupsafe",
             "target": "pytorch-cpu"
           },
           {
@@ -52327,6 +52403,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "python-symengine"
+          },
+          {
+            "source": "matplotlib",
             "target": "pyuvdata"
           },
           {
@@ -52752,86 +52832,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -54416,6 +54416,10 @@
           {
             "source": "mypy",
             "target": "python-stratify"
+          },
+          {
+            "source": "mypy",
+            "target": "python-symengine"
           },
           {
             "source": "mypy",
@@ -58655,6 +58659,10 @@
           },
           {
             "source": "nodejs",
+            "target": "python-symengine"
+          },
+          {
+            "source": "nodejs",
             "target": "pyzmq"
           },
           {
@@ -61332,6 +61340,10 @@
           {
             "source": "numpy",
             "target": "python-suitesparse-graphblas"
+          },
+          {
+            "source": "numpy",
+            "target": "python-symengine"
           },
           {
             "source": "numpy",
@@ -64791,6 +64803,10 @@
           },
           {
             "source": "openssl",
+            "target": "python-symengine"
+          },
+          {
+            "source": "openssl",
             "target": "pyzmq"
           },
           {
@@ -65787,6 +65803,10 @@
           },
           {
             "source": "pandas",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pandas",
             "target": "pyzmq"
           },
           {
@@ -66392,6 +66412,10 @@
           {
             "source": "pandoc",
             "target": "python-stratify"
+          },
+          {
+            "source": "pandoc",
+            "target": "python-symengine"
           },
           {
             "source": "pandoc",
@@ -70435,6 +70459,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pkg-config",
             "target": "python-zstd"
           },
           {
@@ -71931,6 +71959,10 @@
           },
           {
             "source": "playwright",
+            "target": "python-symengine"
+          },
+          {
+            "source": "playwright",
             "target": "pyzmq"
           },
           {
@@ -72811,6 +72843,10 @@
           },
           {
             "source": "protobuf",
+            "target": "python-symengine"
+          },
+          {
+            "source": "protobuf",
             "target": "pytorch-cpu"
           },
           {
@@ -73476,6 +73512,10 @@
           {
             "source": "psutil",
             "target": "python-stratify"
+          },
+          {
+            "source": "psutil",
+            "target": "python-symengine"
           },
           {
             "source": "psutil",
@@ -74475,6 +74515,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pydantic-core",
             "target": "pyzmq"
           },
           {
@@ -75191,6 +75235,10 @@
           },
           {
             "source": "pynacl",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pynacl",
             "target": "pyuvdata"
           },
           {
@@ -75728,6 +75776,10 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "python-stratify"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
+            "target": "python-symengine"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -82811,6 +82863,10 @@
           },
           {
             "source": "pytokens",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pytokens",
             "target": "pyzmq"
           },
           {
@@ -83767,6 +83823,10 @@
           },
           {
             "source": "pywin32",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pywin32",
             "target": "pyzmq"
           },
           {
@@ -84280,6 +84340,10 @@
           {
             "source": "pywinpty",
             "target": "python-stratify"
+          },
+          {
+            "source": "pywinpty",
+            "target": "python-symengine"
           },
           {
             "source": "pywinpty",
@@ -85043,6 +85107,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "python-symengine"
+          },
+          {
+            "source": "pyyaml",
             "target": "pytorch-cpu"
           },
           {
@@ -85636,6 +85704,10 @@
           {
             "source": "pyzmq",
             "target": "python-stratify"
+          },
+          {
+            "source": "pyzmq",
+            "target": "python-symengine"
           },
           {
             "source": "pyzmq",
@@ -94519,6 +94591,10 @@
           },
           {
             "source": "regress",
+            "target": "python-symengine"
+          },
+          {
+            "source": "regress",
             "target": "pyzmq"
           },
           {
@@ -95167,6 +95243,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "python-symengine"
+          },
+          {
+            "source": "rpds-py",
             "target": "pyzmq"
           },
           {
@@ -95791,6 +95871,10 @@
           },
           {
             "source": "ruamel.yaml.clib",
+            "target": "python-symengine"
+          },
+          {
+            "source": "ruamel.yaml.clib",
             "target": "pyzmq"
           },
           {
@@ -96320,6 +96404,10 @@
           {
             "source": "ruamel",
             "target": "python-stratify"
+          },
+          {
+            "source": "ruamel",
+            "target": "python-symengine"
           },
           {
             "source": "ruamel",
@@ -98772,6 +98860,10 @@
           {
             "source": "sed",
             "target": "python-stratify"
+          },
+          {
+            "source": "sed",
+            "target": "python-symengine"
           },
           {
             "source": "sed",
@@ -101499,6 +101591,10 @@
           },
           {
             "source": "tornado",
+            "target": "python-symengine"
+          },
+          {
+            "source": "tornado",
             "target": "pyzmq"
           },
           {
@@ -102052,6 +102148,10 @@
           {
             "source": "trio",
             "target": "python-stratify"
+          },
+          {
+            "source": "trio",
+            "target": "python-symengine"
           },
           {
             "source": "trio",
@@ -102808,6 +102908,10 @@
           {
             "source": "ujson",
             "target": "python-stratify"
+          },
+          {
+            "source": "ujson",
+            "target": "python-symengine"
           },
           {
             "source": "ujson",
@@ -103715,6 +103819,10 @@
           },
           {
             "source": "uvloop",
+            "target": "python-symengine"
+          },
+          {
+            "source": "uvloop",
             "target": "pyzmq"
           },
           {
@@ -104096,6 +104204,10 @@
           {
             "source": "uv",
             "target": "python-stratify"
+          },
+          {
+            "source": "uv",
+            "target": "python-symengine"
           },
           {
             "source": "uv",
@@ -104931,6 +105043,10 @@
           },
           {
             "source": "watchdog",
+            "target": "python-symengine"
+          },
+          {
+            "source": "watchdog",
             "target": "pyzmq"
           },
           {
@@ -105432,6 +105548,10 @@
           {
             "source": "watchfiles",
             "target": "python-stratify"
+          },
+          {
+            "source": "watchfiles",
+            "target": "python-symengine"
           },
           {
             "source": "watchfiles",
@@ -105963,6 +106083,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "python-symengine"
+          },
+          {
+            "source": "wcwidth",
             "target": "pyzmq"
           },
           {
@@ -106476,6 +106600,10 @@
           {
             "source": "websockets",
             "target": "python-stratify"
+          },
+          {
+            "source": "websockets",
+            "target": "python-symengine"
           },
           {
             "source": "websockets",
@@ -107239,6 +107367,10 @@
           },
           {
             "source": "wrapt",
+            "target": "python-symengine"
+          },
+          {
+            "source": "wrapt",
             "target": "pyzmq"
           },
           {
@@ -107820,6 +107952,10 @@
           {
             "source": "xattr",
             "target": "python-stratify"
+          },
+          {
+            "source": "xattr",
+            "target": "python-symengine"
           },
           {
             "source": "xattr",
@@ -112228,6 +112364,10 @@
           {
             "source": "zstandard",
             "target": "python-stratify"
+          },
+          {
+            "source": "zstandard",
+            "target": "python-symengine"
           },
           {
             "source": "zstandard",
@@ -120728,12 +120868,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
