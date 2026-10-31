@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "r-base",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-base.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -2013,14 +2006,6 @@
             "target": "conda-forge-ci-setup"
           },
           {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
             "source": "mimalloc",
             "target": "mold"
           },
@@ -2147,6 +2132,10 @@
           {
             "source": "mypy",
             "target": "pytokens"
+          },
+          {
+            "source": "nanoflann",
+            "target": "roboplan"
           },
           {
             "source": "nccl",
@@ -5572,12 +5561,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -5659,6 +5642,12 @@
             "id": "mypy",
             "payload": {
               "__lazy_json__": "node_attrs/mypy.json"
+            }
+          },
+          {
+            "id": "nanoflann",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoflann.json"
             }
           },
           {
@@ -6900,10 +6889,10 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
+        "nanoflann",
         "nccl",
         "ninja",
         "nlohmann_json",
