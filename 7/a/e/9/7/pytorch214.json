@@ -53,7 +53,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "libmetatomic-torch",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmetatomic-torch.json"
+            }
+          },
+          {
+            "id": "python-metatensor-torch",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-metatensor-torch.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
