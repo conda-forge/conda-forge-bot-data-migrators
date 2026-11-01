@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "mrchem",
+            "payload": {
+              "__lazy_json__": "node_attrs/mrchem.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -11406,10 +11413,6 @@
           {
             "source": "coverage",
             "target": "pixell"
-          },
-          {
-            "source": "coverage",
-            "target": "portalocker"
           },
           {
             "source": "coverage",
