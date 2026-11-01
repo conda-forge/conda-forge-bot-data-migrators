@@ -121,12 +121,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "camb",
-            "payload": {
-              "__lazy_json__": "node_attrs/camb.json"
-            }
-          },
-          {
             "id": "capytaine",
             "payload": {
               "__lazy_json__": "node_attrs/capytaine.json"
@@ -991,6 +985,10 @@
           {
             "source": "coin-or-utils",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "compilers",
+            "target": "camb"
           },
           {
             "source": "compilers",
