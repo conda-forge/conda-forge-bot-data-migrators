@@ -56,15 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "khiops-driver-gcs",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/khiops-driver-gcs.json"
-            }
-          },
-          {
-            "id": "tiledb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiledb.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -267,7 +261,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
