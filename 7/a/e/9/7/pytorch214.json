@@ -53,7 +53,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "eon",
+            "payload": {
+              "__lazy_json__": "node_attrs/eon.json"
+            }
+          },
+          {
+            "id": "python-metatomic-torch",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-metatomic-torch.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
