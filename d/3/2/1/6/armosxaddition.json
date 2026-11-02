@@ -16159,6 +16159,10 @@
           },
           {
             "source": "cmake",
+            "target": "svt-av1"
+          },
+          {
+            "source": "cmake",
             "target": "swig"
           },
           {
@@ -16744,10 +16748,6 @@
           {
             "source": "compilers",
             "target": "camb"
-          },
-          {
-            "source": "compilers",
-            "target": "cosmosis-build-standard-library"
           },
           {
             "source": "compilers",
@@ -46375,10 +46375,6 @@
           },
           {
             "source": "make",
-            "target": "libavif"
-          },
-          {
-            "source": "make",
             "target": "libbraiding"
           },
           {
@@ -50004,6 +50000,10 @@
           {
             "source": "make",
             "target": "superlu_dist"
+          },
+          {
+            "source": "make",
+            "target": "svt-av1"
           },
           {
             "source": "make",
@@ -100398,6 +100398,14 @@
             "target": "petsc"
           },
           {
+            "source": "svt-av1",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "svt-av1",
+            "target": "libavif"
+          },
+          {
             "source": "swig",
             "target": "ale"
           },
@@ -109935,14 +109943,6 @@
           },
           {
             "source": "yasm",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "yasm",
-            "target": "libavif"
-          },
-          {
-            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
@@ -109952,6 +109952,10 @@
           {
             "source": "yasm",
             "target": "mpir"
+          },
+          {
+            "source": "yasm",
+            "target": "svt-av1"
           },
           {
             "source": "ycm-cmake-modules",
@@ -128680,6 +128684,12 @@
             "id": "surfa",
             "payload": {
               "__lazy_json__": "node_attrs/surfa.json"
+            }
+          },
+          {
+            "id": "svt-av1",
+            "payload": {
+              "__lazy_json__": "node_attrs/svt-av1.json"
             }
           },
           {
