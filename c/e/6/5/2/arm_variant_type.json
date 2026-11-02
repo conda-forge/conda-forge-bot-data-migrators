@@ -58,7 +58,35 @@
         "links": [
           {
             "source": "cudnn",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "cudnn",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "cudnn",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "cudnn",
             "target": "causal-conv1d"
+          },
+          {
+            "source": "cudnn",
+            "target": "deepspeed"
+          },
+          {
+            "source": "cudnn",
+            "target": "detectron2"
+          },
+          {
+            "source": "cudnn",
+            "target": "fairscale"
+          },
+          {
+            "source": "cudnn",
+            "target": "fcos"
           },
           {
             "source": "cudnn",
@@ -66,7 +94,31 @@
           },
           {
             "source": "cudnn",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "cudnn",
+            "target": "gsplat"
+          },
+          {
+            "source": "cudnn",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "cudnn",
             "target": "kaolin"
+          },
+          {
+            "source": "cudnn",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "cudnn",
+            "target": "nerfacc"
+          },
+          {
+            "source": "cudnn",
+            "target": "nnpops"
           },
           {
             "source": "cudnn",
@@ -74,15 +126,103 @@
           },
           {
             "source": "cudnn",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "cudnn",
             "target": "nvmolkit"
+          },
+          {
+            "source": "cudnn",
+            "target": "pytorch_cluster"
           },
           {
             "source": "cudnn",
             "target": "pytorch_scatter"
           },
           {
+            "source": "cudnn",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "cudnn",
+            "target": "sam-2"
+          },
+          {
+            "source": "cudnn",
+            "target": "sevenn"
+          },
+          {
+            "source": "cudnn",
+            "target": "sphericart"
+          },
+          {
+            "source": "cudnn",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "cudnn",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "cudnn",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "cudnn",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "cudnn",
+            "target": "torchao"
+          },
+          {
+            "source": "cudnn",
+            "target": "torchcodec"
+          },
+          {
+            "source": "cudnn",
+            "target": "torchsort"
+          },
+          {
+            "source": "cudnn",
+            "target": "torchsparse"
+          },
+          {
+            "source": "cudnn",
+            "target": "triton"
+          },
+          {
+            "source": "cusparselt",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "cusparselt",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "cusparselt",
+            "target": "carterbox-torch-radon"
+          },
+          {
             "source": "cusparselt",
             "target": "causal-conv1d"
+          },
+          {
+            "source": "cusparselt",
+            "target": "deepspeed"
+          },
+          {
+            "source": "cusparselt",
+            "target": "detectron2"
+          },
+          {
+            "source": "cusparselt",
+            "target": "fairscale"
+          },
+          {
+            "source": "cusparselt",
+            "target": "fcos"
           },
           {
             "source": "cusparselt",
@@ -90,7 +230,31 @@
           },
           {
             "source": "cusparselt",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "cusparselt",
+            "target": "gsplat"
+          },
+          {
+            "source": "cusparselt",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "cusparselt",
             "target": "kaolin"
+          },
+          {
+            "source": "cusparselt",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "cusparselt",
+            "target": "nerfacc"
+          },
+          {
+            "source": "cusparselt",
+            "target": "nnpops"
           },
           {
             "source": "cusparselt",
@@ -98,11 +262,83 @@
           },
           {
             "source": "cusparselt",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "cusparselt",
             "target": "nvmolkit"
           },
           {
             "source": "cusparselt",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "cusparselt",
             "target": "pytorch_scatter"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "cusparselt",
+            "target": "sam-2"
+          },
+          {
+            "source": "cusparselt",
+            "target": "sevenn"
+          },
+          {
+            "source": "cusparselt",
+            "target": "sphericart"
+          },
+          {
+            "source": "cusparselt",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "cusparselt",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torchao"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torchcodec"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torchsort"
+          },
+          {
+            "source": "cusparselt",
+            "target": "torchsparse"
+          },
+          {
+            "source": "cusparselt",
+            "target": "triton"
+          },
+          {
+            "source": "libhwloc",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "libhwloc",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "libhwloc",
+            "target": "carterbox-torch-radon"
           },
           {
             "source": "libhwloc",
@@ -110,7 +346,35 @@
           },
           {
             "source": "libhwloc",
+            "target": "deepspeed"
+          },
+          {
+            "source": "libhwloc",
+            "target": "detectron2"
+          },
+          {
+            "source": "libhwloc",
+            "target": "fairscale"
+          },
+          {
+            "source": "libhwloc",
+            "target": "fcos"
+          },
+          {
+            "source": "libhwloc",
             "target": "flash-attn"
+          },
+          {
+            "source": "libhwloc",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "libhwloc",
+            "target": "gsplat"
+          },
+          {
+            "source": "libhwloc",
+            "target": "inplace-abn"
           },
           {
             "source": "libhwloc",
@@ -118,7 +382,23 @@
           },
           {
             "source": "libhwloc",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "libhwloc",
+            "target": "nerfacc"
+          },
+          {
+            "source": "libhwloc",
+            "target": "nnpops"
+          },
+          {
+            "source": "libhwloc",
             "target": "nvidia-apex"
+          },
+          {
+            "source": "libhwloc",
+            "target": "nvidia-tao-pytorch"
           },
           {
             "source": "libhwloc",
@@ -126,7 +406,75 @@
           },
           {
             "source": "libhwloc",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "libhwloc",
             "target": "pytorch_scatter"
+          },
+          {
+            "source": "libhwloc",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "libhwloc",
+            "target": "sam-2"
+          },
+          {
+            "source": "libhwloc",
+            "target": "sevenn"
+          },
+          {
+            "source": "libhwloc",
+            "target": "sphericart"
+          },
+          {
+            "source": "libhwloc",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "libhwloc",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torchao"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torchcodec"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torchsort"
+          },
+          {
+            "source": "libhwloc",
+            "target": "torchsparse"
+          },
+          {
+            "source": "libhwloc",
+            "target": "triton"
+          },
+          {
+            "source": "libmagma",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "libmagma",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "libmagma",
+            "target": "carterbox-torch-radon"
           },
           {
             "source": "libmagma",
@@ -134,7 +482,39 @@
           },
           {
             "source": "libmagma",
+            "target": "deepspeed"
+          },
+          {
+            "source": "libmagma",
+            "target": "detectron2"
+          },
+          {
+            "source": "libmagma",
+            "target": "fairscale"
+          },
+          {
+            "source": "libmagma",
+            "target": "fcos"
+          },
+          {
+            "source": "libmagma",
             "target": "flash-attn"
+          },
+          {
+            "source": "libmagma",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "libmagma",
+            "target": "gsplat"
+          },
+          {
+            "source": "libmagma",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "libmagma",
+            "target": "kaldi"
           },
           {
             "source": "libmagma",
@@ -142,7 +522,23 @@
           },
           {
             "source": "libmagma",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "libmagma",
+            "target": "nerfacc"
+          },
+          {
+            "source": "libmagma",
+            "target": "nnpops"
+          },
+          {
+            "source": "libmagma",
             "target": "nvidia-apex"
+          },
+          {
+            "source": "libmagma",
+            "target": "nvidia-tao-pytorch"
           },
           {
             "source": "libmagma",
@@ -150,7 +546,63 @@
           },
           {
             "source": "libmagma",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "libmagma",
             "target": "pytorch_scatter"
+          },
+          {
+            "source": "libmagma",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "libmagma",
+            "target": "sam-2"
+          },
+          {
+            "source": "libmagma",
+            "target": "sevenn"
+          },
+          {
+            "source": "libmagma",
+            "target": "sphericart"
+          },
+          {
+            "source": "libmagma",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "libmagma",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "libmagma",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "libmagma",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "libmagma",
+            "target": "torchao"
+          },
+          {
+            "source": "libmagma",
+            "target": "torchcodec"
+          },
+          {
+            "source": "libmagma",
+            "target": "torchsort"
+          },
+          {
+            "source": "libmagma",
+            "target": "torchsparse"
+          },
+          {
+            "source": "libmagma",
+            "target": "triton"
           },
           {
             "source": "libmathdx",
@@ -161,8 +613,24 @@
             "target": "libnvimgcodec"
           },
           {
+            "source": "libnvimgcodec",
+            "target": "nvimgcodec"
+          },
+          {
             "source": "libnvjpeg2k-split",
             "target": "libnvimgcodec"
+          },
+          {
+            "source": "nccl",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "nccl",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "nccl",
+            "target": "carterbox-torch-radon"
           },
           {
             "source": "nccl",
@@ -170,7 +638,39 @@
           },
           {
             "source": "nccl",
+            "target": "deepspeed"
+          },
+          {
+            "source": "nccl",
+            "target": "detectron2"
+          },
+          {
+            "source": "nccl",
+            "target": "fairscale"
+          },
+          {
+            "source": "nccl",
+            "target": "fcos"
+          },
+          {
+            "source": "nccl",
+            "target": "finufft-split"
+          },
+          {
+            "source": "nccl",
             "target": "flash-attn"
+          },
+          {
+            "source": "nccl",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "nccl",
+            "target": "gsplat"
+          },
+          {
+            "source": "nccl",
+            "target": "inplace-abn"
           },
           {
             "source": "nccl",
@@ -186,7 +686,23 @@
           },
           {
             "source": "nccl",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "nccl",
+            "target": "nerfacc"
+          },
+          {
+            "source": "nccl",
+            "target": "nnpops"
+          },
+          {
+            "source": "nccl",
             "target": "nvidia-apex"
+          },
+          {
+            "source": "nccl",
+            "target": "nvidia-tao-pytorch"
           },
           {
             "source": "nccl",
@@ -194,7 +710,207 @@
           },
           {
             "source": "nccl",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "nccl",
             "target": "pytorch_scatter"
+          },
+          {
+            "source": "nccl",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "nccl",
+            "target": "sam-2"
+          },
+          {
+            "source": "nccl",
+            "target": "sevenn"
+          },
+          {
+            "source": "nccl",
+            "target": "sphericart"
+          },
+          {
+            "source": "nccl",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "nccl",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "nccl",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "nccl",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "nccl",
+            "target": "torchao"
+          },
+          {
+            "source": "nccl",
+            "target": "torchcodec"
+          },
+          {
+            "source": "nccl",
+            "target": "torchsort"
+          },
+          {
+            "source": "nccl",
+            "target": "torchsparse"
+          },
+          {
+            "source": "nccl",
+            "target": "triton"
+          },
+          {
+            "source": "triton",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "triton",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "triton",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "triton",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "triton",
+            "target": "deepspeed"
+          },
+          {
+            "source": "triton",
+            "target": "detectron2"
+          },
+          {
+            "source": "triton",
+            "target": "fairscale"
+          },
+          {
+            "source": "triton",
+            "target": "fcos"
+          },
+          {
+            "source": "triton",
+            "target": "flash-attn"
+          },
+          {
+            "source": "triton",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "triton",
+            "target": "gsplat"
+          },
+          {
+            "source": "triton",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "triton",
+            "target": "kaolin"
+          },
+          {
+            "source": "triton",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "triton",
+            "target": "nerfacc"
+          },
+          {
+            "source": "triton",
+            "target": "nnpops"
+          },
+          {
+            "source": "triton",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "triton",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "triton",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "triton",
+            "target": "sam-2"
+          },
+          {
+            "source": "triton",
+            "target": "sevenn"
+          },
+          {
+            "source": "triton",
+            "target": "sphericart"
+          },
+          {
+            "source": "triton",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "triton",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "triton",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "triton",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "triton",
+            "target": "torchao"
+          },
+          {
+            "source": "triton",
+            "target": "torchcodec"
+          },
+          {
+            "source": "triton",
+            "target": "torchsort"
+          },
+          {
+            "source": "triton",
+            "target": "torchsparse"
+          },
+          {
+            "source": "ucx-split",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "ucx-split",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "ucx-split",
+            "target": "carterbox-torch-radon"
           },
           {
             "source": "ucx-split",
@@ -202,7 +918,35 @@
           },
           {
             "source": "ucx-split",
+            "target": "deepspeed"
+          },
+          {
+            "source": "ucx-split",
+            "target": "detectron2"
+          },
+          {
+            "source": "ucx-split",
+            "target": "fairscale"
+          },
+          {
+            "source": "ucx-split",
+            "target": "fcos"
+          },
+          {
+            "source": "ucx-split",
             "target": "flash-attn"
+          },
+          {
+            "source": "ucx-split",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "ucx-split",
+            "target": "gsplat"
+          },
+          {
+            "source": "ucx-split",
+            "target": "inplace-abn"
           },
           {
             "source": "ucx-split",
@@ -210,7 +954,23 @@
           },
           {
             "source": "ucx-split",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "ucx-split",
+            "target": "nerfacc"
+          },
+          {
+            "source": "ucx-split",
+            "target": "nnpops"
+          },
+          {
+            "source": "ucx-split",
             "target": "nvidia-apex"
+          },
+          {
+            "source": "ucx-split",
+            "target": "nvidia-tao-pytorch"
           },
           {
             "source": "ucx-split",
@@ -218,11 +978,79 @@
           },
           {
             "source": "ucx-split",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "ucx-split",
             "target": "pytorch_scatter"
+          },
+          {
+            "source": "ucx-split",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "ucx-split",
+            "target": "sam-2"
+          },
+          {
+            "source": "ucx-split",
+            "target": "sevenn"
+          },
+          {
+            "source": "ucx-split",
+            "target": "sphericart"
+          },
+          {
+            "source": "ucx-split",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "ucx-split",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torchao"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torchcodec"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torchsort"
+          },
+          {
+            "source": "ucx-split",
+            "target": "torchsparse"
+          },
+          {
+            "source": "ucx-split",
+            "target": "triton"
           }
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "adaptivecpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/adaptivecpp.json"
+            }
+          },
+          {
+            "id": "aihwkit-gpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/aihwkit-gpu.json"
+            }
+          },
           {
             "id": "arrow-cpp",
             "payload": {
@@ -233,6 +1061,24 @@
             "id": "astra-toolbox",
             "payload": {
               "__lazy_json__": "node_attrs/astra-toolbox.json"
+            }
+          },
+          {
+            "id": "bitsandbytes",
+            "payload": {
+              "__lazy_json__": "node_attrs/bitsandbytes.json"
+            }
+          },
+          {
+            "id": "bmf",
+            "payload": {
+              "__lazy_json__": "node_attrs/bmf.json"
+            }
+          },
+          {
+            "id": "carterbox-torch-radon",
+            "payload": {
+              "__lazy_json__": "node_attrs/carterbox-torch-radon.json"
             }
           },
           {
@@ -266,9 +1112,33 @@
             }
           },
           {
+            "id": "chfem",
+            "payload": {
+              "__lazy_json__": "node_attrs/chfem.json"
+            }
+          },
+          {
             "id": "conda-forge-ci-setup",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-ci-setup.json"
+            }
+          },
+          {
+            "id": "cuda-api-wrappers",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-api-wrappers.json"
+            }
+          },
+          {
+            "id": "cudadecon",
+            "payload": {
+              "__lazy_json__": "node_attrs/cudadecon.json"
+            }
+          },
+          {
+            "id": "cudasirecon",
+            "payload": {
+              "__lazy_json__": "node_attrs/cudasirecon.json"
             }
           },
           {
@@ -290,9 +1160,57 @@
             }
           },
           {
+            "id": "cyrsoxs",
+            "payload": {
+              "__lazy_json__": "node_attrs/cyrsoxs.json"
+            }
+          },
+          {
+            "id": "deepspeed",
+            "payload": {
+              "__lazy_json__": "node_attrs/deepspeed.json"
+            }
+          },
+          {
+            "id": "detectron2",
+            "payload": {
+              "__lazy_json__": "node_attrs/detectron2.json"
+            }
+          },
+          {
+            "id": "drjit-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/drjit-cpp.json"
+            }
+          },
+          {
+            "id": "fairscale",
+            "payload": {
+              "__lazy_json__": "node_attrs/fairscale.json"
+            }
+          },
+          {
             "id": "faiss-split",
             "payload": {
               "__lazy_json__": "node_attrs/faiss-split.json"
+            }
+          },
+          {
+            "id": "fcos",
+            "payload": {
+              "__lazy_json__": "node_attrs/fcos.json"
+            }
+          },
+          {
+            "id": "ffbidx",
+            "payload": {
+              "__lazy_json__": "node_attrs/ffbidx.json"
+            }
+          },
+          {
+            "id": "finufft-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/finufft-split.json"
             }
           },
           {
@@ -302,9 +1220,51 @@
             }
           },
           {
+            "id": "fvdb-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/fvdb-core.json"
+            }
+          },
+          {
+            "id": "gsplat",
+            "payload": {
+              "__lazy_json__": "node_attrs/gsplat.json"
+            }
+          },
+          {
+            "id": "gtsam-points",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtsam-points.json"
+            }
+          },
+          {
+            "id": "hoomd",
+            "payload": {
+              "__lazy_json__": "node_attrs/hoomd.json"
+            }
+          },
+          {
+            "id": "hydra-image-processor",
+            "payload": {
+              "__lazy_json__": "node_attrs/hydra-image-processor.json"
+            }
+          },
+          {
             "id": "implicit",
             "payload": {
               "__lazy_json__": "node_attrs/implicit.json"
+            }
+          },
+          {
+            "id": "inplace-abn",
+            "payload": {
+              "__lazy_json__": "node_attrs/inplace-abn.json"
+            }
+          },
+          {
+            "id": "kaldi",
+            "payload": {
+              "__lazy_json__": "node_attrs/kaldi.json"
             }
           },
           {
@@ -314,9 +1274,27 @@
             }
           },
           {
+            "id": "kegalign",
+            "payload": {
+              "__lazy_json__": "node_attrs/kegalign.json"
+            }
+          },
+          {
             "id": "libcublasmp",
             "payload": {
               "__lazy_json__": "node_attrs/libcublasmp.json"
+            }
+          },
+          {
+            "id": "libcuest",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcuest.json"
+            }
+          },
+          {
+            "id": "libcvcuda",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcvcuda.json"
             }
           },
           {
@@ -338,6 +1316,12 @@
             }
           },
           {
+            "id": "libmobility",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmobility.json"
+            }
+          },
+          {
             "id": "libnvcomp",
             "payload": {
               "__lazy_json__": "node_attrs/libnvcomp.json"
@@ -356,9 +1340,21 @@
             }
           },
           {
+            "id": "libparallelproj",
+            "payload": {
+              "__lazy_json__": "node_attrs/libparallelproj.json"
+            }
+          },
+          {
             "id": "librealsense",
             "payload": {
               "__lazy_json__": "node_attrs/librealsense.json"
+            }
+          },
+          {
+            "id": "librett",
+            "payload": {
+              "__lazy_json__": "node_attrs/librett.json"
             }
           },
           {
@@ -374,9 +1370,33 @@
             }
           },
           {
+            "id": "llama.cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/llama.cpp.json"
+            }
+          },
+          {
+            "id": "mmcv-recipe",
+            "payload": {
+              "__lazy_json__": "node_attrs/mmcv-recipe.json"
+            }
+          },
+          {
             "id": "nccl",
             "payload": {
               "__lazy_json__": "node_attrs/nccl.json"
+            }
+          },
+          {
+            "id": "nerfacc",
+            "payload": {
+              "__lazy_json__": "node_attrs/nerfacc.json"
+            }
+          },
+          {
+            "id": "nnpops",
+            "payload": {
+              "__lazy_json__": "node_attrs/nnpops.json"
             }
           },
           {
@@ -386,9 +1406,33 @@
             }
           },
           {
+            "id": "nvidia-cutlass-dsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
+            }
+          },
+          {
+            "id": "nvidia-tao-pytorch",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-tao-pytorch.json"
+            }
+          },
+          {
+            "id": "nvimgcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvimgcodec.json"
+            }
+          },
+          {
             "id": "nvmolkit",
             "payload": {
               "__lazy_json__": "node_attrs/nvmolkit.json"
+            }
+          },
+          {
+            "id": "pbcuda",
+            "payload": {
+              "__lazy_json__": "node_attrs/pbcuda.json"
             }
           },
           {
@@ -398,9 +1442,27 @@
             }
           },
           {
+            "id": "pyscamp-gpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyscamp-gpu.json"
+            }
+          },
+          {
+            "id": "pytorch_cluster",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch_cluster.json"
+            }
+          },
+          {
             "id": "pytorch_scatter",
             "payload": {
               "__lazy_json__": "node_attrs/pytorch_scatter.json"
+            }
+          },
+          {
+            "id": "pytorch_spline_conv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch_spline_conv.json"
             }
           },
           {
@@ -410,9 +1472,93 @@
             }
           },
           {
+            "id": "sam-2",
+            "payload": {
+              "__lazy_json__": "node_attrs/sam-2.json"
+            }
+          },
+          {
+            "id": "scikit-bio-binaries",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-bio-binaries.json"
+            }
+          },
+          {
+            "id": "sevenn",
+            "payload": {
+              "__lazy_json__": "node_attrs/sevenn.json"
+            }
+          },
+          {
+            "id": "sphericart",
+            "payload": {
+              "__lazy_json__": "node_attrs/sphericart.json"
+            }
+          },
+          {
+            "id": "tensorrt",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorrt.json"
+            }
+          },
+          {
+            "id": "theseus-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/theseus-ai.json"
+            }
+          },
+          {
+            "id": "tiny-cuda-nn",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiny-cuda-nn.json"
+            }
+          },
+          {
             "id": "tomopy",
             "payload": {
               "__lazy_json__": "node_attrs/tomopy.json"
+            }
+          },
+          {
+            "id": "torch-harmonics",
+            "payload": {
+              "__lazy_json__": "node_attrs/torch-harmonics.json"
+            }
+          },
+          {
+            "id": "torch_memory_saver",
+            "payload": {
+              "__lazy_json__": "node_attrs/torch_memory_saver.json"
+            }
+          },
+          {
+            "id": "torchao",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchao.json"
+            }
+          },
+          {
+            "id": "torchcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchcodec.json"
+            }
+          },
+          {
+            "id": "torchsort",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchsort.json"
+            }
+          },
+          {
+            "id": "torchsparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchsparse.json"
+            }
+          },
+          {
+            "id": "triton",
+            "payload": {
+              "__lazy_json__": "node_attrs/triton.json"
             }
           },
           {
@@ -425,6 +1571,18 @@
             "id": "viskores",
             "payload": {
               "__lazy_json__": "node_attrs/viskores.json"
+            }
+          },
+          {
+            "id": "whisper.cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/whisper.cpp.json"
+            }
+          },
+          {
+            "id": "cupdlpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/cupdlpx.json"
             }
           }
         ]
