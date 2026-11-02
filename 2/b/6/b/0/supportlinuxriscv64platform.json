@@ -2006,6 +2006,14 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
             "source": "mimalloc",
             "target": "mold"
           },
@@ -3468,10 +3476,6 @@
           {
             "source": "sqlite",
             "target": "python"
-          },
-          {
-            "source": "svt-av1",
-            "target": "ffmpeg"
           },
           {
             "source": "systemd",
@@ -5561,6 +5565,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -6365,12 +6375,6 @@
             }
           },
           {
-            "id": "svt-av1",
-            "payload": {
-              "__lazy_json__": "node_attrs/svt-av1.json"
-            }
-          },
-          {
             "id": "systemd",
             "payload": {
               "__lazy_json__": "node_attrs/systemd.json"
@@ -6889,6 +6893,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
@@ -6917,7 +6922,6 @@
         "simde",
         "simdjson",
         "spirv-tools",
-        "svt-av1",
         "tapi",
         "termcolor-cpp",
         "tinyxml2",
