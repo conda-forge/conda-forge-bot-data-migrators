@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "libwignernj",
+            "payload": {
+              "__lazy_json__": "node_attrs/libwignernj.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -953,6 +960,10 @@
           },
           {
             "source": "libmed",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libwignernj",
             "target": "conda-forge-pinning"
           },
           {
@@ -2692,6 +2703,12 @@
             "id": "perseo_perturbations",
             "payload": {
               "__lazy_json__": "node_attrs/perseo_perturbations.json"
+            }
+          },
+          {
+            "id": "libwignernj",
+            "payload": {
+              "__lazy_json__": "node_attrs/libwignernj.json"
             }
           }
         ]
