@@ -6147,10 +6147,6 @@
           },
           {
             "source": "bash",
-            "target": "libavif"
-          },
-          {
-            "source": "bash",
             "target": "libbraiding"
           },
           {
@@ -10296,6 +10292,10 @@
           {
             "source": "bash",
             "target": "superlu_dist"
+          },
+          {
+            "source": "bash",
+            "target": "svt-av1"
           },
           {
             "source": "bash",
@@ -20104,6 +20104,10 @@
           {
             "source": "cmake",
             "target": "superlu_dist"
+          },
+          {
+            "source": "cmake",
+            "target": "svt-av1"
           },
           {
             "source": "cmake",
@@ -44663,10 +44667,6 @@
           },
           {
             "source": "libtool",
-            "target": "libavif"
-          },
-          {
-            "source": "libtool",
             "target": "libbraiding"
           },
           {
@@ -48804,6 +48804,10 @@
           {
             "source": "libtool",
             "target": "superlu_dist"
+          },
+          {
+            "source": "libtool",
+            "target": "svt-av1"
           },
           {
             "source": "libtool",
@@ -92646,6 +92650,14 @@
             "target": "petsc"
           },
           {
+            "source": "svt-av1",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "svt-av1",
+            "target": "libavif"
+          },
+          {
             "source": "swig",
             "target": "casadi"
           },
@@ -101927,19 +101939,15 @@
           },
           {
             "source": "yasm",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "yasm",
-            "target": "libavif"
-          },
-          {
-            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
             "source": "yasm",
             "target": "libvpx"
+          },
+          {
+            "source": "yasm",
+            "target": "svt-av1"
           },
           {
             "source": "ycm-cmake-modules",
@@ -119114,6 +119122,12 @@
             "id": "surfa",
             "payload": {
               "__lazy_json__": "node_attrs/surfa.json"
+            }
+          },
+          {
+            "id": "svt-av1",
+            "payload": {
+              "__lazy_json__": "node_attrs/svt-av1.json"
             }
           },
           {
