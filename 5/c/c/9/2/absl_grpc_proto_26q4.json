@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "tomviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/tomviz.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -487,6 +494,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "paraview",
+            "target": "tomviz"
+          },
+          {
             "source": "protobuf-c",
             "target": "conda-forge-pinning"
           },
@@ -564,6 +575,10 @@
           },
           {
             "source": "tiledb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tomviz",
             "target": "conda-forge-pinning"
           },
           {
@@ -945,6 +960,12 @@
             "id": "tiledb",
             "payload": {
               "__lazy_json__": "node_attrs/tiledb.json"
+            }
+          },
+          {
+            "id": "tomviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/tomviz.json"
             }
           },
           {
