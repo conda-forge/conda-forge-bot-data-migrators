@@ -55,9 +55,319 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "coverage",
+            "target": "dclab"
+          },
+          {
+            "source": "coverage",
+            "target": "multidict"
+          },
+          {
+            "source": "cython",
+            "target": "chardet"
+          },
+          {
+            "source": "cython",
+            "target": "cylp"
+          },
+          {
+            "source": "cython",
+            "target": "dclab"
+          },
+          {
+            "source": "cython",
+            "target": "ecell4_base"
+          },
+          {
+            "source": "cython",
+            "target": "fonttools"
+          },
+          {
+            "source": "cython",
+            "target": "frozenlist"
+          },
+          {
+            "source": "cython",
+            "target": "multidict"
+          },
+          {
+            "source": "cython",
+            "target": "nvidia-cutlass-dsl"
+          },
+          {
+            "source": "cython",
+            "target": "pcodec"
+          },
+          {
+            "source": "cython",
+            "target": "perfmetrics"
+          },
+          {
+            "source": "cython",
+            "target": "polyscope"
+          },
+          {
+            "source": "cython",
+            "target": "potpourri3d"
+          },
+          {
+            "source": "cython",
+            "target": "propcache"
+          },
+          {
+            "source": "cython",
+            "target": "pycapnp"
+          },
+          {
+            "source": "cython",
+            "target": "pyemd"
+          },
+          {
+            "source": "cython",
+            "target": "pytiff"
+          },
+          {
+            "source": "cython",
+            "target": "pyyaml"
+          },
+          {
+            "source": "cython",
+            "target": "segyio"
+          },
+          {
+            "source": "cython",
+            "target": "trustregion"
+          },
+          {
+            "source": "cython",
+            "target": "upolygon"
+          },
+          {
+            "source": "cython",
+            "target": "zeroconf"
+          },
+          {
+            "source": "markupsafe",
+            "target": "dclab"
+          },
+          {
+            "source": "pyyaml",
+            "target": "chardet"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cylp"
+          },
+          {
+            "source": "pyyaml",
+            "target": "dclab"
+          },
+          {
+            "source": "pyyaml",
+            "target": "ecell4_base"
+          },
+          {
+            "source": "pyyaml",
+            "target": "multidict"
+          },
+          {
+            "source": "pyyaml",
+            "target": "nvidia-cutlass-dsl"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pcodec"
+          },
+          {
+            "source": "pyyaml",
+            "target": "polyscope"
+          },
+          {
+            "source": "pyyaml",
+            "target": "potpourri3d"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyemd"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pytiff"
+          },
+          {
+            "source": "pyyaml",
+            "target": "segyio"
+          },
+          {
+            "source": "pyyaml",
+            "target": "trustregion"
+          },
+          {
+            "source": "pyyaml",
+            "target": "upolygon"
+          }
+        ],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "chardet",
+            "payload": {
+              "__lazy_json__": "node_attrs/chardet.json"
+            }
+          },
+          {
+            "id": "coverage",
+            "payload": {
+              "__lazy_json__": "node_attrs/coverage.json"
+            }
+          },
+          {
+            "id": "cylp",
+            "payload": {
+              "__lazy_json__": "node_attrs/cylp.json"
+            }
+          },
+          {
+            "id": "cython",
+            "payload": {
+              "__lazy_json__": "node_attrs/cython.json"
+            }
+          },
+          {
+            "id": "dclab",
+            "payload": {
+              "__lazy_json__": "node_attrs/dclab.json"
+            }
+          },
+          {
+            "id": "ecell4_base",
+            "payload": {
+              "__lazy_json__": "node_attrs/ecell4_base.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
+            }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
+            }
+          },
+          {
+            "id": "markupsafe",
+            "payload": {
+              "__lazy_json__": "node_attrs/markupsafe.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
+            }
+          },
+          {
+            "id": "nvidia-cutlass-dsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
+            }
+          },
+          {
+            "id": "perfmetrics",
+            "payload": {
+              "__lazy_json__": "node_attrs/perfmetrics.json"
+            }
+          },
+          {
+            "id": "polyscope",
+            "payload": {
+              "__lazy_json__": "node_attrs/polyscope.json"
+            }
+          },
+          {
+            "id": "potpourri3d",
+            "payload": {
+              "__lazy_json__": "node_attrs/potpourri3d.json"
+            }
+          },
+          {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
+          },
+          {
+            "id": "pycapnp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycapnp.json"
+            }
+          },
+          {
+            "id": "pyemd",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyemd.json"
+            }
+          },
+          {
+            "id": "pytiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytiff.json"
+            }
+          },
+          {
+            "id": "pyyaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyyaml.json"
+            }
+          },
+          {
+            "id": "ryaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/ryaml.json"
+            }
+          },
+          {
+            "id": "segyio",
+            "payload": {
+              "__lazy_json__": "node_attrs/segyio.json"
+            }
+          },
+          {
+            "id": "sqloxide",
+            "payload": {
+              "__lazy_json__": "node_attrs/sqloxide.json"
+            }
+          },
+          {
+            "id": "trustregion",
+            "payload": {
+              "__lazy_json__": "node_attrs/trustregion.json"
+            }
+          },
+          {
+            "id": "upolygon",
+            "payload": {
+              "__lazy_json__": "node_attrs/upolygon.json"
+            }
+          },
+          {
+            "id": "zeroconf",
+            "payload": {
+              "__lazy_json__": "node_attrs/zeroconf.json"
+            }
+          },
+          {
+            "id": "pcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
