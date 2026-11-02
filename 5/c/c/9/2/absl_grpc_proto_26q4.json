@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "onnx",
+            "payload": {
+              "__lazy_json__": "node_attrs/onnx.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -432,6 +439,10 @@
           },
           {
             "source": "nvidia-dali-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "onnx",
             "target": "conda-forge-pinning"
           },
           {
@@ -815,6 +826,12 @@
             "id": "nvidia-dali-python",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+            }
+          },
+          {
+            "id": "onnx",
+            "payload": {
+              "__lazy_json__": "node_attrs/onnx.json"
             }
           },
           {
