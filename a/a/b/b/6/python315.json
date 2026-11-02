@@ -55,9 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "spherely",
+            "id": "s2geometry",
             "payload": {
-              "__lazy_json__": "node_attrs/spherely.json"
+              "__lazy_json__": "node_attrs/s2geometry.json"
             }
           },
           {
@@ -70,6 +70,12 @@
             "id": "xrayutilities",
             "payload": {
               "__lazy_json__": "node_attrs/xrayutilities.json"
+            }
+          },
+          {
+            "id": "twobitreader-rs",
+            "payload": {
+              "__lazy_json__": "node_attrs/twobitreader-rs.json"
             }
           }
         ]
