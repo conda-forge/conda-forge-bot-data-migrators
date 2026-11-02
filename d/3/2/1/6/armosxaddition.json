@@ -14847,6 +14847,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14896,10 +14900,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14956,10 +14956,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -16160,10 +16156,6 @@
           {
             "source": "cmake",
             "target": "superlu_dist"
-          },
-          {
-            "source": "cmake",
-            "target": "svt-av1"
           },
           {
             "source": "cmake",
@@ -46383,6 +46375,10 @@
           },
           {
             "source": "make",
+            "target": "libavif"
+          },
+          {
+            "source": "make",
             "target": "libbraiding"
           },
           {
@@ -46976,6 +46972,10 @@
           {
             "source": "make",
             "target": "metaio"
+          },
+          {
+            "source": "make",
+            "target": "metis"
           },
           {
             "source": "make",
@@ -50007,10 +50007,6 @@
           },
           {
             "source": "make",
-            "target": "svt-av1"
-          },
-          {
-            "source": "make",
             "target": "swig"
           },
           {
@@ -52830,6 +52826,86 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -55160,6 +55236,10 @@
           {
             "source": "nghttp2",
             "target": "nodejs"
+          },
+          {
+            "source": "ngspice",
+            "target": "pyspice"
           },
           {
             "source": "nh3",
@@ -100318,14 +100398,6 @@
             "target": "petsc"
           },
           {
-            "source": "svt-av1",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "svt-av1",
-            "target": "libavif"
-          },
-          {
             "source": "swig",
             "target": "ale"
           },
@@ -106835,7 +106907,7 @@
           },
           {
             "source": "winflexbison",
-            "target": "pyspice"
+            "target": "ngspice"
           },
           {
             "source": "winpthreads",
@@ -109863,6 +109935,14 @@
           },
           {
             "source": "yasm",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "yasm",
+            "target": "libavif"
+          },
+          {
+            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
@@ -109872,10 +109952,6 @@
           {
             "source": "yasm",
             "target": "mpir"
-          },
-          {
-            "source": "yasm",
-            "target": "svt-av1"
           },
           {
             "source": "ycm-cmake-modules",
@@ -120867,6 +120943,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -121476,6 +121558,12 @@
             "id": "ngmix",
             "payload": {
               "__lazy_json__": "node_attrs/ngmix.json"
+            }
+          },
+          {
+            "id": "ngspice",
+            "payload": {
+              "__lazy_json__": "node_attrs/ngspice.json"
             }
           },
           {
@@ -128592,12 +128680,6 @@
             "id": "surfa",
             "payload": {
               "__lazy_json__": "node_attrs/surfa.json"
-            }
-          },
-          {
-            "id": "svt-av1",
-            "payload": {
-              "__lazy_json__": "node_attrs/svt-av1.json"
             }
           },
           {
