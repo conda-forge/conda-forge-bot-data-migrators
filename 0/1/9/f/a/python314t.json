@@ -55,7 +55,28 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "wcwidth",
+            "target": "cylp"
+          },
+          {
+            "source": "wcwidth",
+            "target": "dclab"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nvidia-cutlass-dsl"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pytiff"
+          },
+          {
+            "source": "wcwidth",
+            "target": "resvg-py"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -95,9 +116,21 @@
             }
           },
           {
+            "id": "resvg-py",
+            "payload": {
+              "__lazy_json__": "node_attrs/resvg-py.json"
+            }
+          },
+          {
             "id": "sqloxide",
             "payload": {
               "__lazy_json__": "node_attrs/sqloxide.json"
+            }
+          },
+          {
+            "id": "wcwidth",
+            "payload": {
+              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           }
         ]
