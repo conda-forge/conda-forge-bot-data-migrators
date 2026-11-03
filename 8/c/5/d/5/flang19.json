@@ -301,6 +301,12 @@
             }
           },
           {
+            "id": "pysolid",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysolid.json"
+            }
+          },
+          {
             "id": "r-jfa",
             "payload": {
               "__lazy_json__": "node_attrs/r-jfa.json"
@@ -1838,6 +1844,10 @@
           },
           {
             "source": "numpy",
+            "target": "pysolid"
+          },
+          {
+            "source": "numpy",
             "target": "quasielasticbayes"
           },
           {
@@ -2037,6 +2047,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pysolid",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "quasielasticbayes",
             "target": "conda-forge-pinning"
           },
@@ -2159,6 +2173,10 @@
           {
             "source": "scipy",
             "target": "pyshtools"
+          },
+          {
+            "source": "scipy",
+            "target": "pysolid"
           },
           {
             "source": "scipy",
@@ -2999,6 +3017,12 @@
             "id": "pyshtools",
             "payload": {
               "__lazy_json__": "node_attrs/pyshtools.json"
+            }
+          },
+          {
+            "id": "pysolid",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysolid.json"
             }
           },
           {
