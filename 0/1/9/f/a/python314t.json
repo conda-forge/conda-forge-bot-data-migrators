@@ -93,6 +93,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/pytiff.json"
             }
+          },
+          {
+            "id": "traits",
+            "payload": {
+              "__lazy_json__": "node_attrs/traits.json"
+            }
           }
         ]
       }
@@ -9338,10 +9344,6 @@
             "target": "mypy"
           },
           {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "python-marisa-trie",
             "target": "conda-forge-pinning"
           },
@@ -12920,10 +12922,6 @@
           {
             "source": "tbb",
             "target": "python-librt"
-          },
-          {
-            "source": "tbb",
-            "target": "python-lmdb"
           },
           {
             "source": "tbb",
@@ -17736,12 +17734,6 @@
             "id": "python-librt",
             "payload": {
               "__lazy_json__": "node_attrs/python-librt.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
