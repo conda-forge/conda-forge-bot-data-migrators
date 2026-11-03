@@ -55,26 +55,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "fonttools",
-            "target": "unidist-packages"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "cylp",
-            "payload": {
-              "__lazy_json__": "node_attrs/cylp.json"
-            }
-          },
-          {
-            "id": "fonttools",
-            "payload": {
-              "__lazy_json__": "node_attrs/fonttools.json"
-            }
-          },
           {
             "id": "pycapnp",
             "payload": {
@@ -85,12 +68,6 @@
             "id": "pytiff",
             "payload": {
               "__lazy_json__": "node_attrs/pytiff.json"
-            }
-          },
-          {
-            "id": "unidist-packages",
-            "payload": {
-              "__lazy_json__": "node_attrs/unidist-packages.json"
             }
           }
         ]
