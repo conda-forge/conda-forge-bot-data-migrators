@@ -51,12 +51,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "pytest-codspeed",
-            "target": "tiledbsoma"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -69,12 +64,6 @@
             "id": "bilby.cython",
             "payload": {
               "__lazy_json__": "node_attrs/bilby.cython.json"
-            }
-          },
-          {
-            "id": "igwn-ligolw",
-            "payload": {
-              "__lazy_json__": "node_attrs/igwn-ligolw.json"
             }
           },
           {
@@ -93,24 +82,6 @@
             "id": "lalsimulation",
             "payload": {
               "__lazy_json__": "node_attrs/lalsimulation.json"
-            }
-          },
-          {
-            "id": "polars-ds",
-            "payload": {
-              "__lazy_json__": "node_attrs/polars-ds.json"
-            }
-          },
-          {
-            "id": "pytensor-suite",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytensor-suite.json"
-            }
-          },
-          {
-            "id": "pytest-codspeed",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytest-codspeed.json"
             }
           },
           {
