@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pysolid",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysolid.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -1313,6 +1320,10 @@
           },
           {
             "source": "numpy",
+            "target": "pysolid"
+          },
+          {
+            "source": "numpy",
             "target": "quasielasticbayes"
           },
           {
@@ -1512,6 +1523,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pysolid",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "quasielasticbayes",
             "target": "conda-forge-pinning"
           },
@@ -1634,6 +1649,10 @@
           {
             "source": "scipy",
             "target": "pyshtools"
+          },
+          {
+            "source": "scipy",
+            "target": "pysolid"
           },
           {
             "source": "scipy",
@@ -2468,6 +2487,12 @@
             "id": "pyshtools",
             "payload": {
               "__lazy_json__": "node_attrs/pyshtools.json"
+            }
+          },
+          {
+            "id": "pysolid",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysolid.json"
             }
           },
           {
