@@ -51,9 +51,20 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "pytest-codspeed",
+            "target": "tiledbsoma"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "bblean",
+            "payload": {
+              "__lazy_json__": "node_attrs/bblean.json"
+            }
+          },
           {
             "id": "bilby.cython",
             "payload": {
@@ -100,6 +111,12 @@
             "id": "pytest-codspeed",
             "payload": {
               "__lazy_json__": "node_attrs/pytest-codspeed.json"
+            }
+          },
+          {
+            "id": "tiledbsoma",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledbsoma.json"
             }
           }
         ]
