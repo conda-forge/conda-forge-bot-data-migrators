@@ -5195,6 +5195,10 @@
           },
           {
             "source": "bash",
+            "target": "ghostty"
+          },
+          {
+            "source": "bash",
             "target": "kubernetes"
           },
           {
@@ -5996,6 +6000,10 @@
           {
             "source": "binutils",
             "target": "ghc"
+          },
+          {
+            "source": "binutils",
+            "target": "ghostty"
           },
           {
             "source": "binutils",
@@ -11759,6 +11767,10 @@
           },
           {
             "source": "cffi",
+            "target": "fps-terminals"
+          },
+          {
+            "source": "cffi",
             "target": "freeze-core"
           },
           {
@@ -13740,6 +13752,10 @@
           {
             "source": "cmake",
             "target": "ghc"
+          },
+          {
+            "source": "cmake",
+            "target": "ghostty"
           },
           {
             "source": "cmake",
@@ -19788,6 +19804,10 @@
           {
             "source": "ctng-compilers",
             "target": "ghc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "ghostty"
           },
           {
             "source": "ctng-compilers",
@@ -26591,6 +26611,10 @@
           },
           {
             "source": "file",
+            "target": "ghostty"
+          },
+          {
+            "source": "file",
             "target": "git-annex"
           },
           {
@@ -28764,6 +28788,10 @@
           {
             "source": "ghostscript",
             "target": "octave"
+          },
+          {
+            "source": "ghostty",
+            "target": "fps-terminals"
           },
           {
             "source": "giac",
@@ -37939,6 +37967,10 @@
           },
           {
             "source": "libcxx",
+            "target": "ghostty"
+          },
+          {
+            "source": "libcxx",
             "target": "google-cloud-cpp-core"
           },
           {
@@ -42683,6 +42715,10 @@
           },
           {
             "source": "libxml2",
+            "target": "ghostty"
+          },
+          {
+            "source": "libxml2",
             "target": "git-annex"
           },
           {
@@ -43399,6 +43435,10 @@
           },
           {
             "source": "lld",
+            "target": "ghostty"
+          },
+          {
+            "source": "lld",
             "target": "kanidm-clients"
           },
           {
@@ -43560,6 +43600,10 @@
           {
             "source": "llvmdev",
             "target": "ghc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ghostty"
           },
           {
             "source": "llvmdev",
@@ -45672,6 +45716,10 @@
           {
             "source": "make",
             "target": "ghostscript"
+          },
+          {
+            "source": "make",
+            "target": "ghostty"
           },
           {
             "source": "make",
@@ -55991,6 +56039,10 @@
           },
           {
             "source": "ninja",
+            "target": "ghostty"
+          },
+          {
+            "source": "ninja",
             "target": "gl2ps"
           },
           {
@@ -63031,6 +63083,10 @@
           },
           {
             "source": "openmp",
+            "target": "ghostty"
+          },
+          {
+            "source": "openmp",
             "target": "gklib"
           },
           {
@@ -66275,6 +66331,10 @@
           },
           {
             "source": "pandoc",
+            "target": "ghostty"
+          },
+          {
+            "source": "pandoc",
             "target": "go-yq"
           },
           {
@@ -67480,6 +67540,10 @@
           {
             "source": "perl",
             "target": "ghc"
+          },
+          {
+            "source": "perl",
+            "target": "ghostty"
           },
           {
             "source": "perl",
@@ -68940,6 +69004,10 @@
           {
             "source": "pkg-config",
             "target": "gfal2"
+          },
+          {
+            "source": "pkg-config",
+            "target": "ghostty"
           },
           {
             "source": "pkg-config",
@@ -78264,6 +78332,10 @@
           {
             "source": "python",
             "target": "ghc"
+          },
+          {
+            "source": "python",
+            "target": "ghostty"
           },
           {
             "source": "python",
@@ -110591,6 +110663,10 @@
           },
           {
             "source": "zlib",
+            "target": "ghostty"
+          },
+          {
+            "source": "zlib",
             "target": "giac"
           },
           {
@@ -112816,6 +112892,10 @@
           {
             "source": "zstd",
             "target": "ghc"
+          },
+          {
+            "source": "zstd",
+            "target": "ghostty"
           },
           {
             "source": "zstd",
@@ -117266,6 +117346,12 @@
             "id": "ghostscript",
             "payload": {
               "__lazy_json__": "node_attrs/ghostscript.json"
+            }
+          },
+          {
+            "id": "ghostty",
+            "payload": {
+              "__lazy_json__": "node_attrs/ghostty.json"
             }
           },
           {
