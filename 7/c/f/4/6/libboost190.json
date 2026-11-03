@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -310,6 +317,10 @@
           {
             "source": "cgal-cpp",
             "target": "multipers"
+          },
+          {
+            "source": "cgal-cpp",
+            "target": "openmvs-split"
           },
           {
             "source": "cgal-cpp",
@@ -1953,6 +1964,10 @@
           },
           {
             "source": "openmodelica",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openmvs-split",
             "target": "conda-forge-pinning"
           },
           {
@@ -4698,6 +4713,12 @@
             "id": "slac-rogue",
             "payload": {
               "__lazy_json__": "node_attrs/slac-rogue.json"
+            }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
