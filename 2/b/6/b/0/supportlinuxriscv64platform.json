@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "benchmark",
+            "payload": {
+              "__lazy_json__": "node_attrs/benchmark.json"
+            }
+          },
+          {
+            "id": "protobuf",
+            "payload": {
+              "__lazy_json__": "node_attrs/protobuf.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -91,6 +104,10 @@
         "links": [
           {
             "source": "abseil-cpp",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "abseil-cpp",
             "target": "libprotobuf"
           },
           {
@@ -100,6 +117,14 @@
           {
             "source": "abseil-cpp",
             "target": "openvino"
+          },
+          {
+            "source": "abseil-cpp",
+            "target": "protobuf"
+          },
+          {
+            "source": "abseil-cpp",
+            "target": "re2"
           },
           {
             "source": "alsa-lib",
@@ -160,6 +185,10 @@
           {
             "source": "backward-cpp",
             "target": "gz-tools2"
+          },
+          {
+            "source": "benchmark",
+            "target": "re2"
           },
           {
             "source": "binutils",
@@ -308,6 +337,10 @@
           {
             "source": "bzip2",
             "target": "scotch"
+          },
+          {
+            "source": "c-ares",
+            "target": "grpc-cpp"
           },
           {
             "source": "c-ares",
@@ -480,6 +513,10 @@
           {
             "source": "cython",
             "target": "frozenlist"
+          },
+          {
+            "source": "cython",
+            "target": "grpc-cpp"
           },
           {
             "source": "cython",
@@ -926,6 +963,10 @@
             "target": "harfbuzz"
           },
           {
+            "source": "grpc-cpp",
+            "target": "conda-forge-ci-setup"
+          },
+          {
             "source": "gsl",
             "target": "r-base"
           },
@@ -944,6 +985,10 @@
           {
             "source": "gtest",
             "target": "msgpack-c"
+          },
+          {
+            "source": "gtest",
+            "target": "re2"
           },
           {
             "source": "gtest",
@@ -1580,6 +1625,10 @@
           {
             "source": "libpng",
             "target": "r-base"
+          },
+          {
+            "source": "libprotobuf",
+            "target": "grpc-cpp"
           },
           {
             "source": "libprotobuf",
@@ -2387,6 +2436,10 @@
           },
           {
             "source": "openssl",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "openssl",
             "target": "krb5"
           },
           {
@@ -2574,6 +2627,14 @@
             "target": "yarl"
           },
           {
+            "source": "protobuf",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "protobuf",
+            "target": "grpc-cpp"
+          },
+          {
             "source": "proxsuite",
             "target": "casadi"
           },
@@ -2588,6 +2649,10 @@
           {
             "source": "psutil",
             "target": "mypy"
+          },
+          {
+            "source": "pthread-stubs",
+            "target": "grpc-cpp"
           },
           {
             "source": "pthread-stubs",
@@ -2759,6 +2824,10 @@
           },
           {
             "source": "python",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "python",
             "target": "gz-math"
           },
           {
@@ -2840,6 +2909,10 @@
           {
             "source": "python",
             "target": "propcache"
+          },
+          {
+            "source": "python",
+            "target": "protobuf"
           },
           {
             "source": "python",
@@ -3326,6 +3399,10 @@
             "target": "ucx-split"
           },
           {
+            "source": "re2",
+            "target": "grpc-cpp"
+          },
+          {
             "source": "readline",
             "target": "r-base"
           },
@@ -3480,6 +3557,10 @@
           {
             "source": "svt-av1",
             "target": "ffmpeg"
+          },
+          {
+            "source": "systemd",
+            "target": "grpc-cpp"
           },
           {
             "source": "systemd",
@@ -4247,6 +4328,10 @@
           },
           {
             "source": "zlib",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "zlib",
             "target": "harfbuzz"
           },
           {
@@ -4356,6 +4441,10 @@
           {
             "source": "zlib",
             "target": "pillow"
+          },
+          {
+            "source": "zlib",
+            "target": "protobuf"
           },
           {
             "source": "zlib",
@@ -4612,6 +4701,12 @@
             "id": "bcrypt",
             "payload": {
               "__lazy_json__": "node_attrs/bcrypt.json"
+            }
+          },
+          {
+            "id": "benchmark",
+            "payload": {
+              "__lazy_json__": "node_attrs/benchmark.json"
             }
           },
           {
@@ -4948,6 +5043,12 @@
             "id": "greenlet",
             "payload": {
               "__lazy_json__": "node_attrs/greenlet.json"
+            }
+          },
+          {
+            "id": "grpc-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/grpc-cpp.json"
             }
           },
           {
@@ -5905,6 +6006,12 @@
             }
           },
           {
+            "id": "protobuf",
+            "payload": {
+              "__lazy_json__": "node_attrs/protobuf.json"
+            }
+          },
+          {
             "id": "proxsuite",
             "payload": {
               "__lazy_json__": "node_attrs/proxsuite.json"
@@ -6196,6 +6303,12 @@
             "id": "rdma-core",
             "payload": {
               "__lazy_json__": "node_attrs/rdma-core.json"
+            }
+          },
+          {
+            "id": "re2",
+            "payload": {
+              "__lazy_json__": "node_attrs/re2.json"
             }
           },
           {
@@ -6841,6 +6954,7 @@
         "ampl-asl",
         "aom",
         "attr",
+        "benchmark",
         "blasfeo",
         "bzip2",
         "c-ares",
