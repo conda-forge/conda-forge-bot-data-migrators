@@ -1584,6 +1584,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/cupdlpx.json"
             }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
+            }
           }
         ]
       }
@@ -2729,6 +2735,10 @@
           {
             "source": "openmpi",
             "target": "unidock"
+          },
+          {
+            "source": "openmvs-split",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pbcuda",
@@ -4427,6 +4437,12 @@
             "id": "cupdlpx",
             "payload": {
               "__lazy_json__": "node_attrs/cupdlpx.json"
+            }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
