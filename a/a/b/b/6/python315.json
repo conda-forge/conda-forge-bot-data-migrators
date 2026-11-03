@@ -65,6 +65,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/spherely.json"
             }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
+            }
           }
         ]
       }
@@ -6027,6 +6033,10 @@
           {
             "source": "boost",
             "target": "opencamlib"
+          },
+          {
+            "source": "boost",
+            "target": "openmvs-split"
           },
           {
             "source": "boost",
@@ -26514,6 +26524,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "openmvs-split"
+          },
+          {
+            "source": "markupsafe",
             "target": "openusd"
           },
           {
@@ -40934,6 +40948,10 @@
           },
           {
             "source": "opencv",
+            "target": "openmvs-split"
+          },
+          {
+            "source": "opencv",
             "target": "pixsfm"
           },
           {
@@ -41179,6 +41197,10 @@
           {
             "source": "openmm",
             "target": "veloxchem"
+          },
+          {
+            "source": "openmvs-split",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "opennavsurf-bag",
@@ -74554,6 +74576,10 @@
           },
           {
             "source": "tbb",
+            "target": "openmvs-split"
+          },
+          {
+            "source": "tbb",
             "target": "opennavsurf-bag"
           },
           {
@@ -106237,6 +106263,12 @@
             "id": "twobitreader-rs",
             "payload": {
               "__lazy_json__": "node_attrs/twobitreader-rs.json"
+            }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
