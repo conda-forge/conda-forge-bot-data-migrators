@@ -51,9 +51,32 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "multidict",
+            "target": "nutpie"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "biogeme",
+            "payload": {
+              "__lazy_json__": "node_attrs/biogeme.json"
+            }
+          },
+          {
+            "id": "multidict",
+            "payload": {
+              "__lazy_json__": "node_attrs/multidict.json"
+            }
+          },
+          {
+            "id": "nutpie",
+            "payload": {
+              "__lazy_json__": "node_attrs/nutpie.json"
+            }
+          },
           {
             "id": "scinumtools3",
             "payload": {
@@ -64,6 +87,12 @@
             "id": "spherely",
             "payload": {
               "__lazy_json__": "node_attrs/spherely.json"
+            }
+          },
+          {
+            "id": "sunode",
+            "payload": {
+              "__lazy_json__": "node_attrs/sunode.json"
             }
           }
         ]
