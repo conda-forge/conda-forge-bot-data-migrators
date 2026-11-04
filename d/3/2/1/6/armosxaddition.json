@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "oommf",
-            "payload": {
-              "__lazy_json__": "node_attrs/oommf.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -20471,6 +20464,10 @@
           {
             "source": "curl",
             "target": "cmake"
+          },
+          {
+            "source": "curl",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "curl",
