@@ -55,15 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "conda",
-            "payload": {
-              "__lazy_json__": "node_attrs/conda.json"
-            }
-          },
-          {
             "id": "docx2pdf",
             "payload": {
               "__lazy_json__": "node_attrs/docx2pdf.json"
+            }
+          },
+          {
+            "id": "nvimgcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvimgcodec.json"
             }
           }
         ]
@@ -49162,7 +49162,15 @@
           },
           {
             "source": "pycurl",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "pycurl",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pycurl",
+            "target": "eo-dataflow-ui"
           },
           {
             "source": "pycurl",
@@ -49170,7 +49178,15 @@
           },
           {
             "source": "pycurl",
+            "target": "nb_conda_store_kernels"
+          },
+          {
+            "source": "pycurl",
             "target": "pyresttest"
+          },
+          {
+            "source": "pycurl",
+            "target": "superset"
           },
           {
             "source": "pycvodes",
