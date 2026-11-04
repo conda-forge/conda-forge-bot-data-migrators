@@ -174,10 +174,6 @@
             "target": "google-cloud-cpp-core"
           },
           {
-            "source": "dawn",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "deepmd-kit",
             "target": "conda-forge-pinning"
           },
@@ -978,12 +974,6 @@
             "id": "uhd",
             "payload": {
               "__lazy_json__": "node_attrs/uhd.json"
-            }
-          },
-          {
-            "id": "dawn",
-            "payload": {
-              "__lazy_json__": "node_attrs/dawn.json"
             }
           }
         ]
