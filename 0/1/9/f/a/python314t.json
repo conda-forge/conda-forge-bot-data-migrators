@@ -63,6 +63,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/lal.json"
             }
+          },
+          {
+            "id": "onnx",
+            "payload": {
+              "__lazy_json__": "node_attrs/onnx.json"
+            }
           }
         ]
       }
@@ -4182,10 +4188,6 @@
           {
             "source": "hypothesis",
             "target": "cvxpy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "cylp"
           },
           {
             "source": "hypothesis",
