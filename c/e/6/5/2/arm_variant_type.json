@@ -193,142 +193,6 @@
             "target": "triton"
           },
           {
-            "source": "cusparselt",
-            "target": "aihwkit-gpu"
-          },
-          {
-            "source": "cusparselt",
-            "target": "bitsandbytes"
-          },
-          {
-            "source": "cusparselt",
-            "target": "carterbox-torch-radon"
-          },
-          {
-            "source": "cusparselt",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "cusparselt",
-            "target": "deepspeed"
-          },
-          {
-            "source": "cusparselt",
-            "target": "detectron2"
-          },
-          {
-            "source": "cusparselt",
-            "target": "fairscale"
-          },
-          {
-            "source": "cusparselt",
-            "target": "fcos"
-          },
-          {
-            "source": "cusparselt",
-            "target": "flash-attn"
-          },
-          {
-            "source": "cusparselt",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "cusparselt",
-            "target": "gsplat"
-          },
-          {
-            "source": "cusparselt",
-            "target": "inplace-abn"
-          },
-          {
-            "source": "cusparselt",
-            "target": "kaolin"
-          },
-          {
-            "source": "cusparselt",
-            "target": "mmcv-recipe"
-          },
-          {
-            "source": "cusparselt",
-            "target": "nerfacc"
-          },
-          {
-            "source": "cusparselt",
-            "target": "nnpops"
-          },
-          {
-            "source": "cusparselt",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "cusparselt",
-            "target": "nvidia-tao-pytorch"
-          },
-          {
-            "source": "cusparselt",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "cusparselt",
-            "target": "sam-2"
-          },
-          {
-            "source": "cusparselt",
-            "target": "sevenn"
-          },
-          {
-            "source": "cusparselt",
-            "target": "sphericart"
-          },
-          {
-            "source": "cusparselt",
-            "target": "theseus-ai"
-          },
-          {
-            "source": "cusparselt",
-            "target": "tiny-cuda-nn"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torch-harmonics"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torch_memory_saver"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torchao"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torchcodec"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torchsort"
-          },
-          {
-            "source": "cusparselt",
-            "target": "torchsparse"
-          },
-          {
-            "source": "cusparselt",
-            "target": "triton"
-          },
-          {
             "source": "libhwloc",
             "target": "aihwkit-gpu"
           },
@@ -1148,12 +1012,6 @@
             }
           },
           {
-            "id": "cusparselt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cusparselt.json"
-            }
-          },
-          {
             "id": "cutlass",
             "payload": {
               "__lazy_json__": "node_attrs/cutlass.json"
@@ -1863,14 +1721,6 @@
           {
             "source": "cuquantum",
             "target": "qsimcirq"
-          },
-          {
-            "source": "cusparselt",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -3519,12 +3369,6 @@
             "id": "cuquantum",
             "payload": {
               "__lazy_json__": "node_attrs/cuquantum.json"
-            }
-          },
-          {
-            "id": "cusparselt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
