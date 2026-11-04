@@ -6311,6 +6311,10 @@
           },
           {
             "source": "biopython",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "biopython",
             "target": "dockq"
           },
           {
@@ -14859,6 +14863,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14908,10 +14916,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14968,10 +14972,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -47031,6 +47031,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "metplus"
           },
           {
@@ -52880,6 +52884,86 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -76299,6 +76383,10 @@
           },
           {
             "source": "pyside2",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "pyside2",
             "target": "compas_view2"
           },
           {
@@ -86324,6 +86412,10 @@
           {
             "source": "qt-sensors",
             "target": "pyside2"
+          },
+          {
+            "source": "qt-webengine",
+            "target": "cctbx-base"
           },
           {
             "source": "qt-webengine",
@@ -120952,6 +121044,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
