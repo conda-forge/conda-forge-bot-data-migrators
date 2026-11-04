@@ -89,6 +89,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/lalsimulation.json"
             }
+          },
+          {
+            "id": "scikit-clarans",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-clarans.json"
+            }
           }
         ]
       }
@@ -14935,6 +14941,10 @@
           {
             "source": "cython",
             "target": "scikit-bio"
+          },
+          {
+            "source": "cython",
+            "target": "scikit-clarans"
           },
           {
             "source": "cython",
@@ -39258,6 +39268,10 @@
           },
           {
             "source": "numpy",
+            "target": "scikit-clarans"
+          },
+          {
+            "source": "numpy",
             "target": "scikit-cycling"
           },
           {
@@ -61417,6 +61431,10 @@
             "target": "songbird"
           },
           {
+            "source": "scikit-clarans",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "scikit-cycling",
             "target": "conda-forge-pinning"
           },
@@ -62055,6 +62073,10 @@
           {
             "source": "scikit-learn",
             "target": "scikit-allel"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "scikit-clarans"
           },
           {
             "source": "scikit-learn",
@@ -64939,6 +64961,10 @@
           {
             "source": "scipy",
             "target": "scikit-bio"
+          },
+          {
+            "source": "scipy",
+            "target": "scikit-clarans"
           },
           {
             "source": "scipy",
@@ -78403,6 +78429,10 @@
           {
             "source": "tbb",
             "target": "scikit-bio"
+          },
+          {
+            "source": "tbb",
+            "target": "scikit-clarans"
           },
           {
             "source": "tbb",
@@ -106339,6 +106369,12 @@
             "id": "openmvs-split",
             "payload": {
               "__lazy_json__": "node_attrs/openmvs-split.json"
+            }
+          },
+          {
+            "id": "scikit-clarans",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-clarans.json"
             }
           }
         ]
