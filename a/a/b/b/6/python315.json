@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "appscript",
+            "payload": {
+              "__lazy_json__": "node_attrs/appscript.json"
+            }
+          },
+          {
             "id": "bblean",
             "payload": {
               "__lazy_json__": "node_attrs/bblean.json"
@@ -64,18 +70,6 @@
             "id": "bilby.cython",
             "payload": {
               "__lazy_json__": "node_attrs/bilby.cython.json"
-            }
-          },
-          {
-            "id": "conda-press",
-            "payload": {
-              "__lazy_json__": "node_attrs/conda-press.json"
-            }
-          },
-          {
-            "id": "docx2pdf",
-            "payload": {
-              "__lazy_json__": "node_attrs/docx2pdf.json"
             }
           },
           {
@@ -94,12 +88,6 @@
             "id": "lalsimulation",
             "payload": {
               "__lazy_json__": "node_attrs/lalsimulation.json"
-            }
-          },
-          {
-            "id": "xlwings",
-            "payload": {
-              "__lazy_json__": "node_attrs/xlwings.json"
             }
           }
         ]
@@ -2706,39 +2694,7 @@
           },
           {
             "source": "backports-datetime-fromisoformat",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "eo-learn-geometry"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "eo-learn-mask"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "httpstan"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "pygltflib"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "superset"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "tomviz"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
-            "target": "wsidicom"
           },
           {
             "source": "backports.zoneinfo",
