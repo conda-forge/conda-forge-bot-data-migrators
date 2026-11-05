@@ -2451,6 +2451,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -3004,10 +3008,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5067,6 +5067,10 @@
           },
           {
             "source": "bash",
+            "target": "cusparselt"
+          },
+          {
+            "source": "bash",
             "target": "cutde"
           },
           {
@@ -6840,6 +6844,10 @@
           {
             "source": "bash",
             "target": "metaio"
+          },
+          {
+            "source": "bash",
+            "target": "metis"
           },
           {
             "source": "bash",
@@ -10971,6 +10979,10 @@
           },
           {
             "source": "bash",
+            "target": "z3prover"
+          },
+          {
+            "source": "bash",
             "target": "z5py"
           },
           {
@@ -12204,6 +12216,10 @@
           {
             "source": "binutils",
             "target": "yt"
+          },
+          {
+            "source": "binutils",
+            "target": "z3prover"
           },
           {
             "source": "binutils",
@@ -16447,6 +16463,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "z3prover"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "zfpy"
           },
           {
@@ -17724,6 +17744,10 @@
           {
             "source": "cmake",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cmake",
+            "target": "cusparselt"
           },
           {
             "source": "cmake",
@@ -19036,6 +19060,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -20532,6 +20560,10 @@
           {
             "source": "cmake",
             "target": "yt"
+          },
+          {
+            "source": "cmake",
+            "target": "z3prover"
           },
           {
             "source": "cmake",
@@ -22371,6 +22403,10 @@
           },
           {
             "source": "coverage",
+            "target": "z3prover"
+          },
+          {
+            "source": "coverage",
             "target": "z5py"
           },
           {
@@ -23643,6 +23679,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "z3prover"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "z5py"
           },
           {
@@ -23764,6 +23804,10 @@
           {
             "source": "cuda-cudart",
             "target": "cuquantum"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-cudart",
@@ -24112,6 +24156,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24664,6 +24712,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -30327,6 +30379,10 @@
           },
           {
             "source": "gendef",
+            "target": "z3prover"
+          },
+          {
+            "source": "gendef",
             "target": "zfpy"
           },
           {
@@ -31271,6 +31327,10 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "z3prover"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "zfpy"
           },
           {
@@ -31835,6 +31895,10 @@
           },
           {
             "source": "gfortran_osx-64",
+            "target": "z3prover"
+          },
+          {
+            "source": "gfortran_osx-64",
             "target": "zfpy"
           },
           {
@@ -31984,6 +32048,10 @@
           {
             "source": "git",
             "target": "cuquantum"
+          },
+          {
+            "source": "git",
+            "target": "cusparselt"
           },
           {
             "source": "git",
@@ -32228,10 +32296,6 @@
           {
             "source": "git",
             "target": "python-symengine"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39331,6 +39395,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -39976,6 +40044,10 @@
           {
             "source": "libcxx",
             "target": "yt"
+          },
+          {
+            "source": "libcxx",
+            "target": "z3prover"
           },
           {
             "source": "libcxx",
@@ -43663,6 +43735,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45432,6 +45508,10 @@
           {
             "source": "libtool",
             "target": "metaio"
+          },
+          {
+            "source": "libtool",
+            "target": "metis"
           },
           {
             "source": "libtool",
@@ -49559,6 +49639,10 @@
           },
           {
             "source": "libtool",
+            "target": "z3prover"
+          },
+          {
+            "source": "libtool",
             "target": "z5py"
           },
           {
@@ -51659,6 +51743,10 @@
           },
           {
             "source": "libxml2",
+            "target": "z3prover"
+          },
+          {
+            "source": "libxml2",
             "target": "zfpy"
           },
           {
@@ -52588,6 +52676,10 @@
           {
             "source": "llvmdev",
             "target": "yt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "z3prover"
           },
           {
             "source": "llvmdev",
@@ -54504,6 +54596,62 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -56492,6 +56640,10 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ninja",
+            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -58716,6 +58868,10 @@
           {
             "source": "ninja",
             "target": "yt"
+          },
+          {
+            "source": "ninja",
+            "target": "z3prover"
           },
           {
             "source": "ninja",
@@ -62684,6 +62840,10 @@
           {
             "source": "openmp",
             "target": "yt"
+          },
+          {
+            "source": "openmp",
+            "target": "z3prover"
           },
           {
             "source": "openmp",
@@ -72203,6 +72363,10 @@
           },
           {
             "source": "python",
+            "target": "cusparselt"
+          },
+          {
+            "source": "python",
             "target": "cutde"
           },
           {
@@ -76116,6 +76280,10 @@
           {
             "source": "python",
             "target": "yt"
+          },
+          {
+            "source": "python",
+            "target": "z3prover"
           },
           {
             "source": "python",
@@ -92195,6 +92363,10 @@
           },
           {
             "source": "shellcheck",
+            "target": "z3prover"
+          },
+          {
+            "source": "shellcheck",
             "target": "zfpy"
           },
           {
@@ -94860,6 +95032,10 @@
           {
             "source": "ucrt",
             "target": "yt"
+          },
+          {
+            "source": "ucrt",
+            "target": "z3prover"
           },
           {
             "source": "ucrt",
@@ -98232,6 +98408,10 @@
           {
             "source": "winpthreads",
             "target": "yt"
+          },
+          {
+            "source": "winpthreads",
+            "target": "z3prover"
           },
           {
             "source": "winpthreads",
@@ -104435,6 +104615,10 @@
           },
           {
             "source": "zlib",
+            "target": "z3prover"
+          },
+          {
+            "source": "zlib",
             "target": "z5py"
           },
           {
@@ -105812,6 +105996,10 @@
           {
             "source": "zstd",
             "target": "yt"
+          },
+          {
+            "source": "zstd",
+            "target": "z3prover"
           },
           {
             "source": "zstd",
@@ -107650,6 +107838,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -112222,6 +112416,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -120907,6 +121107,12 @@
             }
           },
           {
+            "id": "z3prover",
+            "payload": {
+              "__lazy_json__": "node_attrs/z3prover.json"
+            }
+          },
+          {
             "id": "z5py",
             "payload": {
               "__lazy_json__": "node_attrs/z5py.json"
@@ -122371,6 +122577,7 @@
         "tidy-html5",
         "tiktoken",
         "tiledb-py",
+        "tilelang",
         "time",
         "timezonefinder",
         "tini",
