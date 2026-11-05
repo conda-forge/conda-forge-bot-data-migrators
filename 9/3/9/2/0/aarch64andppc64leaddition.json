@@ -2451,6 +2451,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -3004,10 +3008,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5067,6 +5067,10 @@
           },
           {
             "source": "bash",
+            "target": "cusparselt"
+          },
+          {
+            "source": "bash",
             "target": "cutde"
           },
           {
@@ -6840,6 +6844,10 @@
           {
             "source": "bash",
             "target": "metaio"
+          },
+          {
+            "source": "bash",
+            "target": "metis"
           },
           {
             "source": "bash",
@@ -17739,6 +17747,10 @@
           },
           {
             "source": "cmake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cmake",
             "target": "cutde"
           },
           {
@@ -19048,6 +19060,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -21983,6 +21999,10 @@
           },
           {
             "source": "coverage",
+            "target": "python-lmdb"
+          },
+          {
+            "source": "coverage",
             "target": "python-rapidjson"
           },
           {
@@ -23787,6 +23807,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -24132,6 +24156,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -24684,6 +24712,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -32019,6 +32051,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32260,10 +32296,6 @@
           {
             "source": "git",
             "target": "python-symengine"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39363,6 +39395,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -43699,6 +43735,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45468,6 +45508,10 @@
           {
             "source": "libtool",
             "target": "metaio"
+          },
+          {
+            "source": "libtool",
+            "target": "metis"
           },
           {
             "source": "libtool",
@@ -54554,6 +54598,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56540,6 +56640,10 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ninja",
+            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -64699,10 +64803,6 @@
           },
           {
             "source": "patch",
-            "target": "allennlp"
-          },
-          {
-            "source": "patch",
             "target": "ambertools"
           },
           {
@@ -64772,6 +64872,10 @@
           {
             "source": "patch",
             "target": "python"
+          },
+          {
+            "source": "patch",
+            "target": "python-lmdb"
           },
           {
             "source": "patch",
@@ -71586,6 +71690,10 @@
             "target": "pycbc"
           },
           {
+            "source": "python-lmdb",
+            "target": "allennlp"
+          },
+          {
             "source": "python-rapidjson",
             "target": "pyrosm"
           },
@@ -72252,6 +72360,10 @@
           {
             "source": "python",
             "target": "curated-tokenizers"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -75016,6 +75128,10 @@
           {
             "source": "python",
             "target": "python-ligo-lw"
+          },
+          {
+            "source": "python",
+            "target": "python-lmdb"
           },
           {
             "source": "python",
@@ -107725,6 +107841,12 @@
             }
           },
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
             "id": "cutde",
             "payload": {
               "__lazy_json__": "node_attrs/cutde.json"
@@ -112297,6 +112419,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -115066,6 +115194,12 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
+            }
+          },
+          {
+            "id": "python-lmdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
