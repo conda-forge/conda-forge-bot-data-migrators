@@ -61,6 +61,12 @@
             }
           },
           {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
+            }
+          },
+          {
             "id": "z5py",
             "payload": {
               "__lazy_json__": "node_attrs/z5py.json"
@@ -82559,10 +82565,6 @@
           {
             "source": "triton",
             "target": "pyg-lib"
-          },
-          {
-            "source": "triton",
-            "target": "pytorch-cpu"
           },
           {
             "source": "triton",
