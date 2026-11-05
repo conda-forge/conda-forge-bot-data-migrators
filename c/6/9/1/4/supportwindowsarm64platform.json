@@ -14646,10 +14646,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "openssh"
-          },
-          {
-            "source": "pkg-config",
             "target": "openssl"
           },
           {
@@ -14991,6 +14987,10 @@
           {
             "source": "pkgconf",
             "target": "graphviz"
+          },
+          {
+            "source": "pkgconf",
+            "target": "openssh"
           },
           {
             "source": "playwright",
