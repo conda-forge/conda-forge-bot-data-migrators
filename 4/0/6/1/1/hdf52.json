@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "grads",
+            "payload": {
+              "__lazy_json__": "node_attrs/grads.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -404,6 +411,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "grads",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "graph",
             "target": "conda-forge-pinning"
           },
@@ -726,6 +737,10 @@
           {
             "source": "libnetcdf",
             "target": "gmt"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "grads"
           },
           {
             "source": "libnetcdf",
@@ -2292,6 +2307,12 @@
             "id": "pycuampcor",
             "payload": {
               "__lazy_json__": "node_attrs/pycuampcor.json"
+            }
+          },
+          {
+            "id": "grads",
+            "payload": {
+              "__lazy_json__": "node_attrs/grads.json"
             }
           }
         ]
