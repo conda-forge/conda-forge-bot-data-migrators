@@ -2646,6 +2646,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "pycurl"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "pynacl"
           },
           {
@@ -2687,6 +2691,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "tbb"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "tornado"
           },
           {
             "source": "clang-compiler-activation",
@@ -4262,6 +4270,10 @@
           },
           {
             "source": "coverage",
+            "target": "tornado"
+          },
+          {
+            "source": "coverage",
             "target": "watchfiles"
           },
           {
@@ -4538,6 +4550,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "pycurl"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "pynacl"
           },
           {
@@ -4599,6 +4615,10 @@
           {
             "source": "ctng-compilers",
             "target": "tbb"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "tornado"
           },
           {
             "source": "ctng-compilers",
@@ -4943,6 +4963,10 @@
           {
             "source": "curl",
             "target": "prometheus-cpp"
+          },
+          {
+            "source": "curl",
+            "target": "pycurl"
           },
           {
             "source": "curl",
@@ -7327,6 +7351,10 @@
           {
             "source": "hypothesis",
             "target": "time-machine"
+          },
+          {
+            "source": "hypothesis",
+            "target": "tornado"
           },
           {
             "source": "hypothesis",
@@ -13746,6 +13774,10 @@
           },
           {
             "source": "openssl",
+            "target": "pycurl"
+          },
+          {
+            "source": "openssl",
             "target": "pynacl"
           },
           {
@@ -15409,6 +15441,10 @@
             "target": "conda"
           },
           {
+            "source": "pycurl",
+            "target": "tornado"
+          },
+          {
             "source": "pydantic-core",
             "target": "ast-serialize"
           },
@@ -16343,6 +16379,10 @@
           {
             "source": "python",
             "target": "pycosat"
+          },
+          {
+            "source": "python",
+            "target": "pycurl"
           },
           {
             "source": "python",
@@ -18010,6 +18050,10 @@
           },
           {
             "source": "rsync",
+            "target": "pycurl"
+          },
+          {
+            "source": "rsync",
             "target": "pynacl"
           },
           {
@@ -18043,6 +18087,10 @@
           {
             "source": "rsync",
             "target": "regress"
+          },
+          {
+            "source": "rsync",
+            "target": "tornado"
           },
           {
             "source": "rsync",
@@ -18402,6 +18450,10 @@
           },
           {
             "source": "sed",
+            "target": "pycurl"
+          },
+          {
+            "source": "sed",
             "target": "pynacl"
           },
           {
@@ -18559,6 +18611,10 @@
           {
             "source": "sed",
             "target": "regress"
+          },
+          {
+            "source": "sed",
+            "target": "tornado"
           },
           {
             "source": "sed",
@@ -24959,6 +25015,12 @@
             "id": "pycosat",
             "payload": {
               "__lazy_json__": "node_attrs/pycosat.json"
+            }
+          },
+          {
+            "id": "pycurl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycurl.json"
             }
           },
           {
