@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -3090,10 +3083,6 @@
           },
           {
             "source": "cmake",
-            "target": "intel-gmmlib"
-          },
-          {
-            "source": "cmake",
             "target": "intel-media-driver"
           },
           {
@@ -3355,10 +3344,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -7425,10 +7410,6 @@
             "target": "intel_repack"
           },
           {
-            "source": "intel-gmmlib",
-            "target": "intel-media-driver"
-          },
-          {
             "source": "intel-media-driver",
             "target": "libvpl"
           },
@@ -10390,10 +10371,6 @@
           },
           {
             "source": "make",
-            "target": "intel-gmmlib"
-          },
-          {
-            "source": "make",
             "target": "intel-media-driver"
           },
           {
@@ -10607,10 +10584,6 @@
           {
             "source": "make",
             "target": "matplotlib"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -11435,10 +11408,6 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
           },
           {
             "source": "miktex",
@@ -23614,12 +23583,6 @@
             }
           },
           {
-            "id": "intel-gmmlib",
-            "payload": {
-              "__lazy_json__": "node_attrs/intel-gmmlib.json"
-            }
-          },
-          {
             "id": "intel-media-driver",
             "payload": {
               "__lazy_json__": "node_attrs/intel-media-driver.json"
@@ -24415,12 +24378,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
