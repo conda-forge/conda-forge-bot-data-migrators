@@ -51,150 +51,13 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "openvino",
-            "target": "insightface"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "bitsandbytes",
-            "payload": {
-              "__lazy_json__": "node_attrs/bitsandbytes.json"
-            }
-          },
-          {
-            "id": "cached_interpolate",
-            "payload": {
-              "__lazy_json__": "node_attrs/cached_interpolate.json"
-            }
-          },
-          {
-            "id": "carterbox-torch-radon",
-            "payload": {
-              "__lazy_json__": "node_attrs/carterbox-torch-radon.json"
-            }
-          },
-          {
-            "id": "causal-conv1d",
-            "payload": {
-              "__lazy_json__": "node_attrs/causal-conv1d.json"
-            }
-          },
-          {
-            "id": "chgnet",
-            "payload": {
-              "__lazy_json__": "node_attrs/chgnet.json"
-            }
-          },
-          {
-            "id": "deepspeed",
-            "payload": {
-              "__lazy_json__": "node_attrs/deepspeed.json"
-            }
-          },
-          {
-            "id": "diffq",
-            "payload": {
-              "__lazy_json__": "node_attrs/diffq.json"
-            }
-          },
-          {
-            "id": "eon",
-            "payload": {
-              "__lazy_json__": "node_attrs/eon.json"
-            }
-          },
-          {
-            "id": "fairseq",
-            "payload": {
-              "__lazy_json__": "node_attrs/fairseq.json"
-            }
-          },
-          {
-            "id": "flash-attn",
-            "payload": {
-              "__lazy_json__": "node_attrs/flash-attn.json"
-            }
-          },
-          {
-            "id": "fvdb-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/fvdb-core.json"
-            }
-          },
-          {
-            "id": "gsplat",
-            "payload": {
-              "__lazy_json__": "node_attrs/gsplat.json"
-            }
-          },
-          {
-            "id": "holoscan",
-            "payload": {
-              "__lazy_json__": "node_attrs/holoscan.json"
-            }
-          },
-          {
-            "id": "inplace-abn",
-            "payload": {
-              "__lazy_json__": "node_attrs/inplace-abn.json"
-            }
-          },
-          {
-            "id": "insightface",
-            "payload": {
-              "__lazy_json__": "node_attrs/insightface.json"
-            }
-          },
           {
             "id": "lalburst",
             "payload": {
               "__lazy_json__": "node_attrs/lalburst.json"
-            }
-          },
-          {
-            "id": "nerfacc",
-            "payload": {
-              "__lazy_json__": "node_attrs/nerfacc.json"
-            }
-          },
-          {
-            "id": "nnpops",
-            "payload": {
-              "__lazy_json__": "node_attrs/nnpops.json"
-            }
-          },
-          {
-            "id": "nvidia-tao-pytorch",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-tao-pytorch.json"
-            }
-          },
-          {
-            "id": "nvmolkit",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvmolkit.json"
-            }
-          },
-          {
-            "id": "openvino",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvino.json"
-            }
-          },
-          {
-            "id": "pydrobert-kaldi",
-            "payload": {
-              "__lazy_json__": "node_attrs/pydrobert-kaldi.json"
-            }
-          },
-          {
-            "id": "pyribs",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyribs.json"
             }
           },
           {
@@ -204,159 +67,9 @@
             }
           },
           {
-            "id": "pysurvival",
+            "id": "vaex-core",
             "payload": {
-              "__lazy_json__": "node_attrs/pysurvival.json"
-            }
-          },
-          {
-            "id": "python-metatensor-torch",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-metatensor-torch.json"
-            }
-          },
-          {
-            "id": "pytorch-pretrained-bert",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch-pretrained-bert.json"
-            }
-          },
-          {
-            "id": "pytorch_cluster",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch_cluster.json"
-            }
-          },
-          {
-            "id": "pytorch_scatter",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch_scatter.json"
-            }
-          },
-          {
-            "id": "pytorch_spline_conv",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch_spline_conv.json"
-            }
-          },
-          {
-            "id": "pytorchrl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorchrl.json"
-            }
-          },
-          {
-            "id": "pyvinecopulib",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyvinecopulib.json"
-            }
-          },
-          {
-            "id": "runai-model-streamer",
-            "payload": {
-              "__lazy_json__": "node_attrs/runai-model-streamer.json"
-            }
-          },
-          {
-            "id": "scikit-allel",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikit-allel.json"
-            }
-          },
-          {
-            "id": "sinabs-exodus",
-            "payload": {
-              "__lazy_json__": "node_attrs/sinabs-exodus.json"
-            }
-          },
-          {
-            "id": "sphericart",
-            "payload": {
-              "__lazy_json__": "node_attrs/sphericart.json"
-            }
-          },
-          {
-            "id": "theseus-ai",
-            "payload": {
-              "__lazy_json__": "node_attrs/theseus-ai.json"
-            }
-          },
-          {
-            "id": "tiny-cuda-nn",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiny-cuda-nn.json"
-            }
-          },
-          {
-            "id": "torch-harmonics",
-            "payload": {
-              "__lazy_json__": "node_attrs/torch-harmonics.json"
-            }
-          },
-          {
-            "id": "torch_memory_saver",
-            "payload": {
-              "__lazy_json__": "node_attrs/torch_memory_saver.json"
-            }
-          },
-          {
-            "id": "torchao",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchao.json"
-            }
-          },
-          {
-            "id": "torchopt",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchopt.json"
-            }
-          },
-          {
-            "id": "torchsort",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchsort.json"
-            }
-          },
-          {
-            "id": "torchsparse",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchsparse.json"
-            }
-          },
-          {
-            "id": "torchvision-extra-decoders",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchvision-extra-decoders.json"
-            }
-          },
-          {
-            "id": "transformer-engine",
-            "payload": {
-              "__lazy_json__": "node_attrs/transformer-engine.json"
-            }
-          },
-          {
-            "id": "triton",
-            "payload": {
-              "__lazy_json__": "node_attrs/triton.json"
-            }
-          },
-          {
-            "id": "tt-metalium",
-            "payload": {
-              "__lazy_json__": "node_attrs/tt-metalium.json"
-            }
-          },
-          {
-            "id": "ylearn",
-            "payload": {
-              "__lazy_json__": "node_attrs/ylearn.json"
-            }
-          },
-          {
-            "id": "natten",
-            "payload": {
-              "__lazy_json__": "node_attrs/natten.json"
+              "__lazy_json__": "node_attrs/vaex-core.json"
             }
           }
         ]
@@ -4327,6 +4040,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pytorch-pretrained-bert"
           },
           {
@@ -8140,6 +7857,10 @@
           {
             "source": "brotli",
             "target": "python-xapian"
+          },
+          {
+            "source": "brotli",
+            "target": "pytorch-cpu"
           },
           {
             "source": "brotli",
@@ -19455,31 +19176,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "aihwkit-gpu"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "gmpy2",
             "target": "ambertools"
-          },
-          {
-            "source": "gmpy2",
-            "target": "arcjetcv"
           },
           {
             "source": "gmpy2",
@@ -19491,35 +19188,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "atom-ml"
-          },
-          {
-            "source": "gmpy2",
-            "target": "auto_gptq"
-          },
-          {
-            "source": "gmpy2",
-            "target": "autogluon.vision"
-          },
-          {
-            "source": "gmpy2",
-            "target": "av2"
-          },
-          {
-            "source": "gmpy2",
-            "target": "bitsandbytes"
-          },
-          {
-            "source": "gmpy2",
-            "target": "bregman-learning"
-          },
-          {
-            "source": "gmpy2",
             "target": "brian2"
-          },
-          {
-            "source": "gmpy2",
-            "target": "cached_interpolate"
           },
           {
             "source": "gmpy2",
@@ -19527,19 +19196,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "caiman"
-          },
-          {
-            "source": "gmpy2",
             "target": "camb"
-          },
-          {
-            "source": "gmpy2",
-            "target": "carterbox-torch-radon"
-          },
-          {
-            "source": "gmpy2",
-            "target": "causal-conv1d"
           },
           {
             "source": "gmpy2",
@@ -19547,15 +19204,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "chgnet"
-          },
-          {
-            "source": "gmpy2",
             "target": "cis_interface"
-          },
-          {
-            "source": "gmpy2",
-            "target": "classy_vision"
           },
           {
             "source": "gmpy2",
@@ -19583,27 +19232,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "deepspeed"
-          },
-          {
-            "source": "gmpy2",
-            "target": "detectron2"
-          },
-          {
-            "source": "gmpy2",
             "target": "dfba"
-          },
-          {
-            "source": "gmpy2",
-            "target": "dgl"
-          },
-          {
-            "source": "gmpy2",
-            "target": "diffq"
-          },
-          {
-            "source": "gmpy2",
-            "target": "easyocr"
           },
           {
             "source": "gmpy2",
@@ -19611,31 +19240,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "endstate_correction"
-          },
-          {
-            "source": "gmpy2",
-            "target": "eon"
-          },
-          {
-            "source": "gmpy2",
             "target": "esys-escript"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fairscale"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fairseq"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fast-plaid"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fcos"
           },
           {
             "source": "gmpy2",
@@ -19651,47 +19256,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "flash-attn"
-          },
-          {
-            "source": "gmpy2",
             "target": "fqe"
           },
           {
             "source": "gmpy2",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "gmpy2",
             "target": "gemseo"
-          },
-          {
-            "source": "gmpy2",
-            "target": "geowombat"
-          },
-          {
-            "source": "gmpy2",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "gmpy2",
-            "target": "graphvite"
-          },
-          {
-            "source": "gmpy2",
-            "target": "grouper"
-          },
-          {
-            "source": "gmpy2",
-            "target": "gsplat"
-          },
-          {
-            "source": "gmpy2",
-            "target": "gymnasium"
-          },
-          {
-            "source": "gmpy2",
-            "target": "heat"
           },
           {
             "source": "gmpy2",
@@ -19707,14 +19276,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "holoscan"
-          },
-          {
-            "source": "gmpy2",
-            "target": "horovod"
-          },
-          {
-            "source": "gmpy2",
             "target": "hyperlib"
           },
           {
@@ -19723,31 +19284,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "imagededup"
-          },
-          {
-            "source": "gmpy2",
-            "target": "inplace-abn"
-          },
-          {
-            "source": "gmpy2",
-            "target": "insightface"
-          },
-          {
-            "source": "gmpy2",
-            "target": "invert4geom"
-          },
-          {
-            "source": "gmpy2",
             "target": "isitgr"
-          },
-          {
-            "source": "gmpy2",
-            "target": "kaolin"
-          },
-          {
-            "source": "gmpy2",
-            "target": "kraken-ocr"
           },
           {
             "source": "gmpy2",
@@ -19759,19 +19296,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "lm_eval"
-          },
-          {
-            "source": "gmpy2",
-            "target": "lsds"
-          },
-          {
-            "source": "gmpy2",
             "target": "m3gnet"
-          },
-          {
-            "source": "gmpy2",
-            "target": "mamba-ssm"
           },
           {
             "source": "gmpy2",
@@ -19783,22 +19308,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "mmcv-recipe"
-          },
-          {
-            "source": "gmpy2",
-            "target": "molearn"
-          },
-          {
-            "source": "gmpy2",
-            "target": "molsimplify"
-          },
-          {
-            "source": "gmpy2",
-            "target": "momentum"
-          },
-          {
-            "source": "gmpy2",
             "target": "mosdef_cassandra"
           },
           {
@@ -19807,27 +19316,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "nannos"
-          },
-          {
-            "source": "gmpy2",
-            "target": "natten"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nerfacc"
-          },
-          {
-            "source": "gmpy2",
-            "target": "neuralcoref"
-          },
-          {
-            "source": "gmpy2",
             "target": "nipy"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nnpops"
           },
           {
             "source": "gmpy2",
@@ -19835,35 +19324,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "norse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvidia-tao-pytorch"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvmath"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "gmpy2",
-            "target": "openmm-torch"
-          },
-          {
-            "source": "gmpy2",
             "target": "openpnm"
-          },
-          {
-            "source": "gmpy2",
-            "target": "openvino"
           },
           {
             "source": "gmpy2",
@@ -19871,19 +19332,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "outlines-core"
-          },
-          {
-            "source": "gmpy2",
             "target": "paraprobe"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pixsfm"
-          },
-          {
-            "source": "gmpy2",
-            "target": "planktonclas-base"
           },
           {
             "source": "gmpy2",
@@ -19899,14 +19348,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "pydrobert-kaldi"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "gmpy2",
             "target": "pyg4ometry"
           },
           {
@@ -19919,10 +19360,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "pymde"
-          },
-          {
-            "source": "gmpy2",
             "target": "pyodesys"
           },
           {
@@ -19931,19 +19368,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "pyribs"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pyserini"
-          },
-          {
-            "source": "gmpy2",
             "target": "pystencils"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pysurvival"
           },
           {
             "source": "gmpy2",
@@ -19951,47 +19376,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "python-metatensor-torch"
-          },
-          {
-            "source": "gmpy2",
-            "target": "python-metatomic-torch"
-          },
-          {
-            "source": "gmpy2",
             "target": "python-symengine"
           },
           {
             "source": "gmpy2",
-            "target": "pytorch-pretrained-bert"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch3d"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorchrl"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pyvinecopulib"
+            "target": "pytorch-cpu"
           },
           {
             "source": "gmpy2",
@@ -20003,10 +19392,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "rift"
-          },
-          {
-            "source": "gmpy2",
             "target": "roboticstoolbox-python"
           },
           {
@@ -20015,23 +19400,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "runai-model-streamer"
-          },
-          {
-            "source": "gmpy2",
             "target": "sage"
           },
           {
             "source": "gmpy2",
             "target": "sagelib"
-          },
-          {
-            "source": "gmpy2",
-            "target": "sam-2"
-          },
-          {
-            "source": "gmpy2",
-            "target": "scikit-allel"
           },
           {
             "source": "gmpy2",
@@ -20055,31 +19428,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "sinabs-exodus"
-          },
-          {
-            "source": "gmpy2",
             "target": "sklearn-contrib-py-earth"
           },
           {
             "source": "gmpy2",
-            "target": "spacy-transformers"
-          },
-          {
-            "source": "gmpy2",
             "target": "spatialgeometry"
-          },
-          {
-            "source": "gmpy2",
-            "target": "sphericart"
-          },
-          {
-            "source": "gmpy2",
-            "target": "spotiflow"
-          },
-          {
-            "source": "gmpy2",
-            "target": "stackvana-core"
           },
           {
             "source": "gmpy2",
@@ -20088,10 +19441,6 @@
           {
             "source": "gmpy2",
             "target": "stim-split"
-          },
-          {
-            "source": "gmpy2",
-            "target": "stylegan2-pytorch"
           },
           {
             "source": "gmpy2",
@@ -20107,27 +19456,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "tango"
-          },
-          {
-            "source": "gmpy2",
             "target": "tardis-sn"
-          },
-          {
-            "source": "gmpy2",
-            "target": "theseus-ai"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tiny-cuda-nn"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tinygrad"
           },
           {
             "source": "gmpy2",
@@ -20135,87 +19464,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "torch-harmonics"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torch_memory_saver"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchani"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchao"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchaudio"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchcodec"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchdata"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchopt"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchsort"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchsparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchtext"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchvision"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchvision-extra-decoders"
-          },
-          {
-            "source": "gmpy2",
-            "target": "trackastra"
-          },
-          {
-            "source": "gmpy2",
             "target": "transformer-engine"
-          },
-          {
-            "source": "gmpy2",
-            "target": "triton"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tt-metalium"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tts"
-          },
-          {
-            "source": "gmpy2",
-            "target": "ultranest"
-          },
-          {
-            "source": "gmpy2",
-            "target": "vllm"
-          },
-          {
-            "source": "gmpy2",
-            "target": "xgrammar"
           },
           {
             "source": "gmpy2",
@@ -20224,10 +19473,6 @@
           {
             "source": "gmpy2",
             "target": "yggdrasil-python-rapidjson"
-          },
-          {
-            "source": "gmpy2",
-            "target": "ylearn"
           },
           {
             "source": "gmpy2",
@@ -26535,10 +25780,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "aihwkit-gpu"
-          },
-          {
-            "source": "markupsafe",
             "target": "aiida-crystal17"
           },
           {
@@ -26548,14 +25789,6 @@
           {
             "source": "markupsafe",
             "target": "allennlp"
-          },
-          {
-            "source": "markupsafe",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "markupsafe",
-            "target": "allennlp-semparse"
           },
           {
             "source": "markupsafe",
@@ -26580,10 +25813,6 @@
           {
             "source": "markupsafe",
             "target": "apache-beam"
-          },
-          {
-            "source": "markupsafe",
-            "target": "arcjetcv"
           },
           {
             "source": "markupsafe",
@@ -26619,10 +25848,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "auto_gptq"
-          },
-          {
-            "source": "markupsafe",
             "target": "autogluon.vision"
           },
           {
@@ -26651,15 +25876,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "bitsandbytes"
-          },
-          {
-            "source": "markupsafe",
             "target": "bowtie-py"
-          },
-          {
-            "source": "markupsafe",
-            "target": "bregman-learning"
           },
           {
             "source": "markupsafe",
@@ -26671,10 +25888,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "cached_interpolate"
-          },
-          {
-            "source": "markupsafe",
             "target": "caiman"
           },
           {
@@ -26683,19 +25896,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "carterbox-torch-radon"
-          },
-          {
-            "source": "markupsafe",
             "target": "casadi"
           },
           {
             "source": "markupsafe",
             "target": "catboost"
-          },
-          {
-            "source": "markupsafe",
-            "target": "causal-conv1d"
           },
           {
             "source": "markupsafe",
@@ -26723,10 +25928,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "chgnet"
-          },
-          {
-            "source": "markupsafe",
             "target": "chromadb"
           },
           {
@@ -26736,10 +25937,6 @@
           {
             "source": "markupsafe",
             "target": "ckan"
-          },
-          {
-            "source": "markupsafe",
-            "target": "classy_vision"
           },
           {
             "source": "markupsafe",
@@ -26847,19 +26044,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "markupsafe",
-            "target": "deepspeed"
-          },
-          {
-            "source": "markupsafe",
             "target": "detectron2"
-          },
-          {
-            "source": "markupsafe",
-            "target": "dgl"
           },
           {
             "source": "markupsafe",
@@ -26868,10 +26053,6 @@
           {
             "source": "markupsafe",
             "target": "dials"
-          },
-          {
-            "source": "markupsafe",
-            "target": "diffq"
           },
           {
             "source": "markupsafe",
@@ -26892,10 +26073,6 @@
           {
             "source": "markupsafe",
             "target": "dragonfly2"
-          },
-          {
-            "source": "markupsafe",
-            "target": "easyocr"
           },
           {
             "source": "markupsafe",
@@ -26935,22 +26112,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "eon"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fairscale"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fairseq"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fast-plaid"
-          },
-          {
-            "source": "markupsafe",
             "target": "fastapi-azure-auth"
           },
           {
@@ -26967,15 +26128,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "fcos"
-          },
-          {
-            "source": "markupsafe",
             "target": "finesse"
-          },
-          {
-            "source": "markupsafe",
-            "target": "flash-attn"
           },
           {
             "source": "markupsafe",
@@ -27008,10 +26161,6 @@
           {
             "source": "markupsafe",
             "target": "fqe"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fvdb-core"
           },
           {
             "source": "markupsafe",
@@ -27059,10 +26208,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "graphvite"
-          },
-          {
-            "source": "markupsafe",
             "target": "gravelamps"
           },
           {
@@ -27072,10 +26217,6 @@
           {
             "source": "markupsafe",
             "target": "grouper"
-          },
-          {
-            "source": "markupsafe",
-            "target": "gsplat"
           },
           {
             "source": "markupsafe",
@@ -27091,10 +26232,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "gymnasium"
-          },
-          {
-            "source": "markupsafe",
             "target": "gz-math"
           },
           {
@@ -27107,10 +26244,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "heat"
-          },
-          {
-            "source": "markupsafe",
             "target": "hide_code"
           },
           {
@@ -27120,14 +26253,6 @@
           {
             "source": "markupsafe",
             "target": "hklpy"
-          },
-          {
-            "source": "markupsafe",
-            "target": "holoscan"
-          },
-          {
-            "source": "markupsafe",
-            "target": "horovod"
           },
           {
             "source": "markupsafe",
@@ -27155,23 +26280,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "imagededup"
-          },
-          {
-            "source": "markupsafe",
             "target": "impactx"
           },
           {
             "source": "markupsafe",
-            "target": "inplace-abn"
-          },
-          {
-            "source": "markupsafe",
             "target": "input4mips-validation"
-          },
-          {
-            "source": "markupsafe",
-            "target": "insightface"
           },
           {
             "source": "markupsafe",
@@ -27283,15 +26396,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "lsds"
-          },
-          {
-            "source": "markupsafe",
             "target": "lue"
-          },
-          {
-            "source": "markupsafe",
-            "target": "mamba-ssm"
           },
           {
             "source": "markupsafe",
@@ -27343,23 +26448,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "mmcv-recipe"
-          },
-          {
-            "source": "markupsafe",
-            "target": "molearn"
-          },
-          {
-            "source": "markupsafe",
             "target": "molecule-docker"
           },
           {
             "source": "markupsafe",
             "target": "molsimplify"
-          },
-          {
-            "source": "markupsafe",
-            "target": "momentum"
           },
           {
             "source": "markupsafe",
@@ -27387,15 +26480,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "nannos"
-          },
-          {
-            "source": "markupsafe",
             "target": "natcap.invest"
-          },
-          {
-            "source": "markupsafe",
-            "target": "natten"
           },
           {
             "source": "markupsafe",
@@ -27411,27 +26496,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "nerfacc"
-          },
-          {
-            "source": "markupsafe",
             "target": "networkit"
           },
           {
             "source": "markupsafe",
-            "target": "neuralcoref"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nnpops"
-          },
-          {
-            "source": "markupsafe",
             "target": "nomad-camels"
-          },
-          {
-            "source": "markupsafe",
-            "target": "norse"
           },
           {
             "source": "markupsafe",
@@ -27448,22 +26517,6 @@
           {
             "source": "markupsafe",
             "target": "nutpie"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvidia-tao-pytorch"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvmath"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvmolkit"
           },
           {
             "source": "markupsafe",
@@ -27491,15 +26544,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "openmm-torch"
-          },
-          {
-            "source": "markupsafe",
             "target": "openusd"
-          },
-          {
-            "source": "markupsafe",
-            "target": "openvino"
           },
           {
             "source": "markupsafe",
@@ -27516,10 +26561,6 @@
           {
             "source": "markupsafe",
             "target": "ostaphep"
-          },
-          {
-            "source": "markupsafe",
-            "target": "outlines-core"
           },
           {
             "source": "markupsafe",
@@ -27552,14 +26593,6 @@
           {
             "source": "markupsafe",
             "target": "pint-pulsar"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pixsfm"
-          },
-          {
-            "source": "markupsafe",
-            "target": "planktonclas-base"
           },
           {
             "source": "markupsafe",
@@ -27619,15 +26652,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "pydrobert-kaldi"
-          },
-          {
-            "source": "markupsafe",
             "target": "pyfmmlib"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pyg-lib"
           },
           {
             "source": "markupsafe",
@@ -27656,10 +26681,6 @@
           {
             "source": "markupsafe",
             "target": "pylandstats"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pymde"
           },
           {
             "source": "markupsafe",
@@ -27719,10 +26740,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "pyribs"
-          },
-          {
-            "source": "markupsafe",
             "target": "pyrobuf"
           },
           {
@@ -27743,18 +26760,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "pysurvival"
-          },
-          {
-            "source": "markupsafe",
-            "target": "python-metatensor-torch"
-          },
-          {
-            "source": "markupsafe",
-            "target": "python-metatomic-torch"
-          },
-          {
-            "source": "markupsafe",
             "target": "python-mint"
           },
           {
@@ -27763,39 +26768,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "pytorch-pretrained-bert"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch3d"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorchrl"
+            "target": "pytorch-cpu"
           },
           {
             "source": "markupsafe",
             "target": "pytype"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pyvinecopulib"
           },
           {
             "source": "markupsafe",
@@ -27875,10 +26852,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "runai-model-streamer"
-          },
-          {
-            "source": "markupsafe",
             "target": "sage"
           },
           {
@@ -27892,10 +26865,6 @@
           {
             "source": "markupsafe",
             "target": "salt"
-          },
-          {
-            "source": "markupsafe",
-            "target": "sam-2"
           },
           {
             "source": "markupsafe",
@@ -27936,10 +26905,6 @@
           {
             "source": "markupsafe",
             "target": "silx"
-          },
-          {
-            "source": "markupsafe",
-            "target": "sinabs-exodus"
           },
           {
             "source": "markupsafe",
@@ -27987,14 +26952,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "spacy-transformers"
-          },
-          {
-            "source": "markupsafe",
-            "target": "sphericart"
-          },
-          {
-            "source": "markupsafe",
             "target": "sphinx-nbexamples"
           },
           {
@@ -28031,19 +26988,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "stylegan2-pytorch"
-          },
-          {
-            "source": "markupsafe",
             "target": "superset"
           },
           {
             "source": "markupsafe",
             "target": "tabmat"
-          },
-          {
-            "source": "markupsafe",
-            "target": "tango"
           },
           {
             "source": "markupsafe",
@@ -28071,10 +27020,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "theseus-ai"
-          },
-          {
-            "source": "markupsafe",
             "target": "thinc"
           },
           {
@@ -28083,23 +27028,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "tiny-cuda-nn"
-          },
-          {
-            "source": "markupsafe",
-            "target": "tinygrad"
-          },
-          {
-            "source": "markupsafe",
             "target": "tmtk"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torch-harmonics"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torch_memory_saver"
           },
           {
             "source": "markupsafe",
@@ -28107,43 +27036,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "torchao"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchaudio"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchcodec"
-          },
-          {
-            "source": "markupsafe",
             "target": "torchdata"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchopt"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchsort"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchsparse"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchtext"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchvision"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchvision-extra-decoders"
           },
           {
             "source": "markupsafe",
@@ -28155,10 +27048,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "transformer-engine"
-          },
-          {
-            "source": "markupsafe",
             "target": "trintrin"
           },
           {
@@ -28167,15 +27056,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "triton"
-          },
-          {
-            "source": "markupsafe",
             "target": "trollimage"
-          },
-          {
-            "source": "markupsafe",
-            "target": "tt-metalium"
           },
           {
             "source": "markupsafe",
@@ -28296,10 +27177,6 @@
           {
             "source": "markupsafe",
             "target": "yggdrasil"
-          },
-          {
-            "source": "markupsafe",
-            "target": "ylearn"
           },
           {
             "source": "markupsafe",
@@ -39975,6 +38852,10 @@
           },
           {
             "source": "numpy",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "numpy",
             "target": "pytorch-pretrained-bert"
           },
           {
@@ -42635,79 +41516,7 @@
           },
           {
             "source": "optree",
-            "target": "aihwkit-gpu"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "optree",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "optree",
-            "target": "asapdiscovery"
-          },
-          {
-            "source": "optree",
-            "target": "atom-ml"
-          },
-          {
-            "source": "optree",
-            "target": "auto_gptq"
-          },
-          {
-            "source": "optree",
-            "target": "autogluon.vision"
-          },
-          {
-            "source": "optree",
-            "target": "av2"
-          },
-          {
-            "source": "optree",
-            "target": "bitsandbytes"
-          },
-          {
-            "source": "optree",
-            "target": "bregman-learning"
-          },
-          {
-            "source": "optree",
-            "target": "cached_interpolate"
-          },
-          {
-            "source": "optree",
             "target": "caiman"
-          },
-          {
-            "source": "optree",
-            "target": "carterbox-torch-radon"
-          },
-          {
-            "source": "optree",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "optree",
-            "target": "chgnet"
-          },
-          {
-            "source": "optree",
-            "target": "classy_vision"
           },
           {
             "source": "optree",
@@ -42719,179 +41528,7 @@
           },
           {
             "source": "optree",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "optree",
-            "target": "deepspeed"
-          },
-          {
-            "source": "optree",
-            "target": "detectron2"
-          },
-          {
-            "source": "optree",
-            "target": "dgl"
-          },
-          {
-            "source": "optree",
-            "target": "diffq"
-          },
-          {
-            "source": "optree",
-            "target": "easyocr"
-          },
-          {
-            "source": "optree",
-            "target": "endstate_correction"
-          },
-          {
-            "source": "optree",
-            "target": "eon"
-          },
-          {
-            "source": "optree",
-            "target": "fairscale"
-          },
-          {
-            "source": "optree",
-            "target": "fairseq"
-          },
-          {
-            "source": "optree",
-            "target": "fast-plaid"
-          },
-          {
-            "source": "optree",
-            "target": "fcos"
-          },
-          {
-            "source": "optree",
-            "target": "flash-attn"
-          },
-          {
-            "source": "optree",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "optree",
-            "target": "geowombat"
-          },
-          {
-            "source": "optree",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "optree",
-            "target": "graphvite"
-          },
-          {
-            "source": "optree",
-            "target": "grouper"
-          },
-          {
-            "source": "optree",
-            "target": "gsplat"
-          },
-          {
-            "source": "optree",
-            "target": "gymnasium"
-          },
-          {
-            "source": "optree",
-            "target": "heat"
-          },
-          {
-            "source": "optree",
-            "target": "holoscan"
-          },
-          {
-            "source": "optree",
-            "target": "horovod"
-          },
-          {
-            "source": "optree",
-            "target": "imagededup"
-          },
-          {
-            "source": "optree",
-            "target": "inplace-abn"
-          },
-          {
-            "source": "optree",
-            "target": "insightface"
-          },
-          {
-            "source": "optree",
-            "target": "invert4geom"
-          },
-          {
-            "source": "optree",
-            "target": "kaolin"
-          },
-          {
-            "source": "optree",
-            "target": "kraken-ocr"
-          },
-          {
-            "source": "optree",
-            "target": "lm_eval"
-          },
-          {
-            "source": "optree",
-            "target": "lsds"
-          },
-          {
-            "source": "optree",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "optree",
-            "target": "mattersim"
-          },
-          {
-            "source": "optree",
-            "target": "mmcv-recipe"
-          },
-          {
-            "source": "optree",
-            "target": "molearn"
-          },
-          {
-            "source": "optree",
             "target": "molsimplify"
-          },
-          {
-            "source": "optree",
-            "target": "momentum"
-          },
-          {
-            "source": "optree",
-            "target": "nannos"
-          },
-          {
-            "source": "optree",
-            "target": "natten"
-          },
-          {
-            "source": "optree",
-            "target": "nerfacc"
-          },
-          {
-            "source": "optree",
-            "target": "neuralcoref"
-          },
-          {
-            "source": "optree",
-            "target": "nnpops"
-          },
-          {
-            "source": "optree",
-            "target": "norse"
-          },
-          {
-            "source": "optree",
-            "target": "nvidia-apex"
           },
           {
             "source": "optree",
@@ -42899,151 +41536,7 @@
           },
           {
             "source": "optree",
-            "target": "nvidia-tao-pytorch"
-          },
-          {
-            "source": "optree",
-            "target": "nvmath"
-          },
-          {
-            "source": "optree",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "optree",
-            "target": "openmm-torch"
-          },
-          {
-            "source": "optree",
-            "target": "openvino"
-          },
-          {
-            "source": "optree",
-            "target": "outlines-core"
-          },
-          {
-            "source": "optree",
-            "target": "pixsfm"
-          },
-          {
-            "source": "optree",
-            "target": "planktonclas-base"
-          },
-          {
-            "source": "optree",
-            "target": "pydrobert-kaldi"
-          },
-          {
-            "source": "optree",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "optree",
-            "target": "pymde"
-          },
-          {
-            "source": "optree",
-            "target": "pyribs"
-          },
-          {
-            "source": "optree",
-            "target": "pyserini"
-          },
-          {
-            "source": "optree",
-            "target": "pysurvival"
-          },
-          {
-            "source": "optree",
-            "target": "python-metatensor-torch"
-          },
-          {
-            "source": "optree",
-            "target": "python-metatomic-torch"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch-pretrained-bert"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch3d"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "optree",
-            "target": "pytorchrl"
-          },
-          {
-            "source": "optree",
-            "target": "pyvinecopulib"
-          },
-          {
-            "source": "optree",
-            "target": "rift"
-          },
-          {
-            "source": "optree",
-            "target": "runai-model-streamer"
-          },
-          {
-            "source": "optree",
-            "target": "sam-2"
-          },
-          {
-            "source": "optree",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "optree",
-            "target": "sevenn"
-          },
-          {
-            "source": "optree",
-            "target": "shap"
-          },
-          {
-            "source": "optree",
-            "target": "sinabs-exodus"
-          },
-          {
-            "source": "optree",
-            "target": "spacy-transformers"
-          },
-          {
-            "source": "optree",
-            "target": "sphericart"
-          },
-          {
-            "source": "optree",
-            "target": "spotiflow"
-          },
-          {
-            "source": "optree",
-            "target": "stackvana-core"
-          },
-          {
-            "source": "optree",
-            "target": "stylegan2-pytorch"
-          },
-          {
-            "source": "optree",
-            "target": "tango"
+            "target": "pytorch-cpu"
           },
           {
             "source": "optree",
@@ -43051,111 +41544,7 @@
           },
           {
             "source": "optree",
-            "target": "theseus-ai"
-          },
-          {
-            "source": "optree",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "optree",
-            "target": "tiny-cuda-nn"
-          },
-          {
-            "source": "optree",
-            "target": "tinygrad"
-          },
-          {
-            "source": "optree",
-            "target": "torch-harmonics"
-          },
-          {
-            "source": "optree",
-            "target": "torch_memory_saver"
-          },
-          {
-            "source": "optree",
-            "target": "torchani"
-          },
-          {
-            "source": "optree",
-            "target": "torchao"
-          },
-          {
-            "source": "optree",
-            "target": "torchaudio"
-          },
-          {
-            "source": "optree",
-            "target": "torchcodec"
-          },
-          {
-            "source": "optree",
-            "target": "torchdata"
-          },
-          {
-            "source": "optree",
             "target": "torchopt"
-          },
-          {
-            "source": "optree",
-            "target": "torchsort"
-          },
-          {
-            "source": "optree",
-            "target": "torchsparse"
-          },
-          {
-            "source": "optree",
-            "target": "torchtext"
-          },
-          {
-            "source": "optree",
-            "target": "torchvision"
-          },
-          {
-            "source": "optree",
-            "target": "torchvision-extra-decoders"
-          },
-          {
-            "source": "optree",
-            "target": "trackastra"
-          },
-          {
-            "source": "optree",
-            "target": "transformer-engine"
-          },
-          {
-            "source": "optree",
-            "target": "triton"
-          },
-          {
-            "source": "optree",
-            "target": "tt-metalium"
-          },
-          {
-            "source": "optree",
-            "target": "tts"
-          },
-          {
-            "source": "optree",
-            "target": "ultranest"
-          },
-          {
-            "source": "optree",
-            "target": "vllm"
-          },
-          {
-            "source": "optree",
-            "target": "xgrammar"
-          },
-          {
-            "source": "optree",
-            "target": "yggdrasil"
-          },
-          {
-            "source": "optree",
-            "target": "ylearn"
           },
           {
             "source": "opty",
@@ -56250,6 +54639,518 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pytorch-cpu",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-models"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-semparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-server"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "arcjetcv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "asapdiscovery"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "atom-ml"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "auto_gptq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "autogluon.vision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "av2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "bregman-learning"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "cached_interpolate"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "caiman"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "chgnet"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "classy_vision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepspeed"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "detectron2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "dgl"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "diffq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "easyocr"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "endstate_correction"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "eon"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairscale"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairseq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fast-plaid"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fcos"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "flash-attn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "geowombat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "graphvite"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "grouper"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gsplat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gymnasium"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "heat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "holoscan"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "horovod"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "imagededup"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "insightface"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "invert4geom"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "kaolin"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "kraken-ocr"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "lm_eval"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "lsds"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mattersim"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "molearn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "molsimplify"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "momentum"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nannos"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "natten"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nerfacc"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "neuralcoref"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nnpops"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "norse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmath"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "openmm-torch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "openvino"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "outlines-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pixsfm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "planktonclas-base"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pydrobert-kaldi"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyg-lib"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pymde"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyribs"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyserini"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pysurvival"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "python-metatensor-torch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "python-metatomic-torch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch-pretrained-bert"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch3d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_sparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorchrl"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyvinecopulib"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "rift"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "runai-model-streamer"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sam-2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sevenn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "shap"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sinabs-exodus"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "spacy-transformers"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sphericart"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "spotiflow"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "stackvana-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "stylegan2-pytorch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tango"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tinygrad"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchani"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchao"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchaudio"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchcodec"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchdata"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchopt"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsort"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchtext"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchvision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchvision-extra-decoders"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "trackastra"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "transformer-engine"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "triton"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tt-metalium"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tts"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "ultranest"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "vllm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "xgrammar"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "yggdrasil"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "ylearn"
+          },
+          {
             "source": "pytorch-pretrained-bert",
             "target": "conda-forge-pinning"
           },
@@ -58828,6 +57729,10 @@
           {
             "source": "pyyaml",
             "target": "python-symengine"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pytorch-cpu"
           },
           {
             "source": "pyyaml",
@@ -78708,6 +77613,10 @@
           {
             "source": "tbb",
             "target": "pytomlpp"
+          },
+          {
+            "source": "tbb",
+            "target": "pytorch-cpu"
           },
           {
             "source": "tbb",
@@ -102528,6 +101437,12 @@
             "id": "pytomlpp",
             "payload": {
               "__lazy_json__": "node_attrs/pytomlpp.json"
+            }
+          },
+          {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
             }
           },
           {
