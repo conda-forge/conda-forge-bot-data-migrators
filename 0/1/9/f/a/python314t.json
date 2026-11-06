@@ -666,10 +666,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "backports.zstd",
             "target": "pyzmq"
           },
           {
@@ -1219,10 +1215,6 @@
           {
             "source": "brotli",
             "target": "python-symengine"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch-cpu"
           },
           {
             "source": "brotli",
@@ -3822,11 +3814,23 @@
           },
           {
             "source": "gmpy2",
+            "target": "cached_interpolate"
+          },
+          {
+            "source": "gmpy2",
             "target": "conda-forge-pinning"
           },
           {
             "source": "gmpy2",
             "target": "coremltools"
+          },
+          {
+            "source": "gmpy2",
+            "target": "gymnasium"
+          },
+          {
+            "source": "gmpy2",
+            "target": "openvino"
           },
           {
             "source": "gmpy2",
@@ -3842,11 +3846,31 @@
           },
           {
             "source": "gmpy2",
-            "target": "pytorch-cpu"
+            "target": "pytorchrl"
           },
           {
             "source": "gmpy2",
             "target": "shap"
+          },
+          {
+            "source": "gmpy2",
+            "target": "torchaudio"
+          },
+          {
+            "source": "gmpy2",
+            "target": "torchcodec"
+          },
+          {
+            "source": "gmpy2",
+            "target": "torchvision"
+          },
+          {
+            "source": "gmpy2",
+            "target": "triton"
+          },
+          {
+            "source": "gmpy2",
+            "target": "xgrammar"
           },
           {
             "source": "gmpy2",
@@ -4207,10 +4231,6 @@
           {
             "source": "hypothesis",
             "target": "python-marisa-trie"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch-cpu"
           },
           {
             "source": "hypothesis",
@@ -5022,6 +5042,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "cached_interpolate"
+          },
+          {
+            "source": "markupsafe",
             "target": "cantera"
           },
           {
@@ -5043,6 +5067,10 @@
           {
             "source": "markupsafe",
             "target": "gridmarthe"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gymnasium"
           },
           {
             "source": "markupsafe",
@@ -5071,6 +5099,10 @@
           {
             "source": "markupsafe",
             "target": "onnxruntime"
+          },
+          {
+            "source": "markupsafe",
+            "target": "openvino"
           },
           {
             "source": "markupsafe",
@@ -5110,7 +5142,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "pytorch-cpu"
+            "target": "pytorchrl"
           },
           {
             "source": "markupsafe",
@@ -5135,6 +5167,22 @@
           {
             "source": "markupsafe",
             "target": "tensorflow"
+          },
+          {
+            "source": "markupsafe",
+            "target": "torchaudio"
+          },
+          {
+            "source": "markupsafe",
+            "target": "torchcodec"
+          },
+          {
+            "source": "markupsafe",
+            "target": "torchvision"
+          },
+          {
+            "source": "markupsafe",
+            "target": "triton"
           },
           {
             "source": "markupsafe",
@@ -6906,10 +6954,6 @@
           },
           {
             "source": "numpy",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "numpy",
             "target": "pytorchrl"
           },
           {
@@ -7302,7 +7346,15 @@
           },
           {
             "source": "optree",
+            "target": "cached_interpolate"
+          },
+          {
+            "source": "optree",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "optree",
+            "target": "gymnasium"
           },
           {
             "source": "optree",
@@ -7310,11 +7362,39 @@
           },
           {
             "source": "optree",
-            "target": "pytorch-cpu"
+            "target": "openvino"
+          },
+          {
+            "source": "optree",
+            "target": "pytorchrl"
+          },
+          {
+            "source": "optree",
+            "target": "shap"
           },
           {
             "source": "optree",
             "target": "tensorflow"
+          },
+          {
+            "source": "optree",
+            "target": "torchaudio"
+          },
+          {
+            "source": "optree",
+            "target": "torchcodec"
+          },
+          {
+            "source": "optree",
+            "target": "torchvision"
+          },
+          {
+            "source": "optree",
+            "target": "triton"
+          },
+          {
+            "source": "optree",
+            "target": "xgrammar"
           },
           {
             "source": "oracledb",
@@ -9429,50 +9509,6 @@
             "target": "wisdem"
           },
           {
-            "source": "pytorch-cpu",
-            "target": "cached_interpolate"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "gymnasium"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "openvino"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "pytorchrl"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "shap"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "torchaudio"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "torchcodec"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "torchvision"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "triton"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "xgrammar"
-          },
-          {
             "source": "pytorchrl",
             "target": "conda-forge-pinning"
           },
@@ -9791,10 +9827,6 @@
           {
             "source": "pyyaml",
             "target": "python-symengine"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pytorch-cpu"
           },
           {
             "source": "pyyaml",
@@ -12935,10 +12967,6 @@
           {
             "source": "tbb",
             "target": "pytokens"
-          },
-          {
-            "source": "tbb",
-            "target": "pytorch-cpu"
           },
           {
             "source": "tbb",
@@ -17767,12 +17795,6 @@
             "id": "pytokens",
             "payload": {
               "__lazy_json__": "node_attrs/pytokens.json"
-            }
-          },
-          {
-            "id": "pytorch-cpu",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch-cpu.json"
             }
           },
           {
