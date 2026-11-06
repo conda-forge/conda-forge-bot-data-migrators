@@ -47,7 +47,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          }
+        ]
       }
     },
     "feedstock_name": "gpgme",
@@ -106,7 +113,7 @@
     "new_pin_version": "2.2.0",
     "package_name": "gpgme",
     "pin_impact": 7,
-    "pin_spec": "x",
+    "pin_spec": "x.x",
     "pinnings": [
       "gpgme"
     ],
