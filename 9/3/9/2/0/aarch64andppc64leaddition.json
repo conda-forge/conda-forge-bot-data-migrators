@@ -615,10 +615,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "yt"
-          },
-          {
-            "source": "aiohttp",
             "target": "z5py"
           },
           {
@@ -1052,10 +1048,6 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "xtb-python"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "yt"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -4491,10 +4483,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "yt"
-          },
-          {
-            "source": "backports.zstd",
             "target": "z5py"
           },
           {
@@ -6848,6 +6836,10 @@
           {
             "source": "bash",
             "target": "metaio"
+          },
+          {
+            "source": "bash",
+            "target": "metis"
           },
           {
             "source": "bash",
@@ -11411,10 +11403,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "yt"
-          },
-          {
-            "source": "bcrypt",
             "target": "z5py"
           },
           {
@@ -14203,10 +14191,6 @@
           },
           {
             "source": "brotli",
-            "target": "yt"
-          },
-          {
-            "source": "brotli",
             "target": "z5py"
           },
           {
@@ -15043,10 +15027,6 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "yt"
-          },
-          {
-            "source": "cargo-auditable",
             "target": "z5py"
           },
           {
@@ -15748,10 +15728,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "xtb-python"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "yt"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16988,10 +16964,6 @@
           {
             "source": "cffi",
             "target": "xtb-python"
-          },
-          {
-            "source": "cffi",
-            "target": "yt"
           },
           {
             "source": "cffi",
@@ -19064,6 +19036,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -22400,10 +22376,6 @@
           {
             "source": "coverage",
             "target": "yarp"
-          },
-          {
-            "source": "coverage",
-            "target": "yt"
           },
           {
             "source": "coverage",
@@ -26283,10 +26255,6 @@
           },
           {
             "source": "debugpy",
-            "target": "yt"
-          },
-          {
-            "source": "debugpy",
             "target": "z5py"
           },
           {
@@ -26796,10 +26764,6 @@
           {
             "source": "dulwich",
             "target": "xtb-python"
-          },
-          {
-            "source": "dulwich",
-            "target": "yt"
           },
           {
             "source": "dulwich",
@@ -27927,10 +27891,6 @@
           },
           {
             "source": "falcon",
-            "target": "yt"
-          },
-          {
-            "source": "falcon",
             "target": "z5py"
           },
           {
@@ -28244,10 +28204,6 @@
           {
             "source": "fastar",
             "target": "xtb-python"
-          },
-          {
-            "source": "fastar",
-            "target": "yt"
           },
           {
             "source": "fastar",
@@ -32383,10 +32339,6 @@
           },
           {
             "source": "git",
-            "target": "yt"
-          },
-          {
-            "source": "git",
             "target": "z5py"
           },
           {
@@ -34040,10 +33992,6 @@
           {
             "source": "greenlet",
             "target": "xtb-python"
-          },
-          {
-            "source": "greenlet",
-            "target": "yt"
           },
           {
             "source": "greenlet",
@@ -35947,10 +35895,6 @@
           },
           {
             "source": "httptools",
-            "target": "yt"
-          },
-          {
-            "source": "httptools",
             "target": "z5py"
           },
           {
@@ -36412,10 +36356,6 @@
           {
             "source": "hypothesis",
             "target": "yarl"
-          },
-          {
-            "source": "hypothesis",
-            "target": "yt"
           },
           {
             "source": "hypothesis",
@@ -38400,10 +38340,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "xtb-python"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "yt"
           },
           {
             "source": "lazy-object-proxy",
@@ -45460,6 +45396,10 @@
           {
             "source": "libtool",
             "target": "metaio"
+          },
+          {
+            "source": "libtool",
+            "target": "metis"
           },
           {
             "source": "libtool",
@@ -53839,10 +53779,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "yt"
-          },
-          {
-            "source": "markupsafe",
             "target": "z5py"
           },
           {
@@ -54544,6 +54480,62 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -55700,10 +55692,6 @@
           {
             "source": "mypy",
             "target": "xtb-python"
-          },
-          {
-            "source": "mypy",
-            "target": "yt"
           },
           {
             "source": "mypy",
@@ -59308,10 +59296,6 @@
           {
             "source": "nodejs",
             "target": "xtb-python"
-          },
-          {
-            "source": "nodejs",
-            "target": "yt"
           },
           {
             "source": "nodejs",
@@ -63627,10 +63611,6 @@
           },
           {
             "source": "openssl",
-            "target": "yt"
-          },
-          {
-            "source": "openssl",
             "target": "z5py"
           },
           {
@@ -64207,10 +64187,6 @@
           },
           {
             "source": "pandas",
-            "target": "yt"
-          },
-          {
-            "source": "pandas",
             "target": "z5py"
           },
           {
@@ -64568,10 +64544,6 @@
           {
             "source": "pandoc",
             "target": "xtb-python"
-          },
-          {
-            "source": "pandoc",
-            "target": "yt"
           },
           {
             "source": "pandoc",
@@ -68443,10 +68415,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "yt"
-          },
-          {
-            "source": "pkg-config",
             "target": "z5py"
           },
           {
@@ -68836,10 +68804,6 @@
           {
             "source": "playwright",
             "target": "xtb-python"
-          },
-          {
-            "source": "playwright",
-            "target": "yt"
           },
           {
             "source": "playwright",
@@ -69459,10 +69423,6 @@
           },
           {
             "source": "protobuf",
-            "target": "yt"
-          },
-          {
-            "source": "protobuf",
             "target": "z5py"
           },
           {
@@ -69840,10 +69800,6 @@
           {
             "source": "psutil",
             "target": "xtb-python"
-          },
-          {
-            "source": "psutil",
-            "target": "yt"
           },
           {
             "source": "psutil",
@@ -70587,10 +70543,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "yt"
-          },
-          {
-            "source": "pydantic-core",
             "target": "z5py"
           },
           {
@@ -70999,10 +70951,6 @@
           },
           {
             "source": "pynacl",
-            "target": "yt"
-          },
-          {
-            "source": "pynacl",
             "target": "z5py"
           },
           {
@@ -71328,10 +71276,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "xtb-python"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "yt"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -76559,10 +76503,6 @@
           },
           {
             "source": "pytokens",
-            "target": "yt"
-          },
-          {
-            "source": "pytokens",
             "target": "z5py"
           },
           {
@@ -77115,10 +77055,6 @@
           },
           {
             "source": "pywin32",
-            "target": "yt"
-          },
-          {
-            "source": "pywin32",
             "target": "z5py"
           },
           {
@@ -77424,10 +77360,6 @@
           {
             "source": "pywinpty",
             "target": "xtb-python"
-          },
-          {
-            "source": "pywinpty",
-            "target": "yt"
           },
           {
             "source": "pywinpty",
@@ -77927,10 +77859,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "yt"
-          },
-          {
-            "source": "pyyaml",
             "target": "z5py"
           },
           {
@@ -78244,10 +78172,6 @@
           {
             "source": "pyzmq",
             "target": "xtb-python"
-          },
-          {
-            "source": "pyzmq",
-            "target": "yt"
           },
           {
             "source": "pyzmq",
@@ -88751,10 +88675,6 @@
           },
           {
             "source": "regress",
-            "target": "yt"
-          },
-          {
-            "source": "regress",
             "target": "z5py"
           },
           {
@@ -89160,10 +89080,6 @@
           {
             "source": "rpds-py",
             "target": "xtb-python"
-          },
-          {
-            "source": "rpds-py",
-            "target": "yt"
           },
           {
             "source": "rpds-py",
@@ -89619,10 +89535,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "yt"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "z5py"
           },
           {
@@ -89940,10 +89852,6 @@
           {
             "source": "ruamel",
             "target": "xtb-python"
-          },
-          {
-            "source": "ruamel",
-            "target": "yt"
           },
           {
             "source": "ruamel",
@@ -91588,10 +91496,6 @@
           {
             "source": "sed",
             "target": "yoda"
-          },
-          {
-            "source": "sed",
-            "target": "yt"
           },
           {
             "source": "sed",
@@ -93999,10 +93903,6 @@
           },
           {
             "source": "tornado",
-            "target": "yt"
-          },
-          {
-            "source": "tornado",
             "target": "z5py"
           },
           {
@@ -94332,10 +94232,6 @@
           {
             "source": "trio",
             "target": "xtb-python"
-          },
-          {
-            "source": "trio",
-            "target": "yt"
           },
           {
             "source": "trio",
@@ -95327,10 +95223,6 @@
           },
           {
             "source": "ujson",
-            "target": "yt"
-          },
-          {
-            "source": "ujson",
             "target": "z5py"
           },
           {
@@ -95935,10 +95827,6 @@
           },
           {
             "source": "uvloop",
-            "target": "yt"
-          },
-          {
-            "source": "uvloop",
             "target": "z5py"
           },
           {
@@ -96196,10 +96084,6 @@
           {
             "source": "uv",
             "target": "xtb-python"
-          },
-          {
-            "source": "uv",
-            "target": "yt"
           },
           {
             "source": "uv",
@@ -96747,10 +96631,6 @@
           },
           {
             "source": "watchdog",
-            "target": "yt"
-          },
-          {
-            "source": "watchdog",
             "target": "z5py"
           },
           {
@@ -97052,10 +96932,6 @@
           {
             "source": "watchfiles",
             "target": "xtb-python"
-          },
-          {
-            "source": "watchfiles",
-            "target": "yt"
           },
           {
             "source": "watchfiles",
@@ -97399,10 +97275,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "yt"
-          },
-          {
-            "source": "wcwidth",
             "target": "z5py"
           },
           {
@@ -97712,10 +97584,6 @@
           {
             "source": "websockets",
             "target": "xtb-python"
-          },
-          {
-            "source": "websockets",
-            "target": "yt"
           },
           {
             "source": "websockets",
@@ -98679,10 +98547,6 @@
           },
           {
             "source": "wrapt",
-            "target": "yt"
-          },
-          {
-            "source": "wrapt",
             "target": "z5py"
           },
           {
@@ -99048,10 +98912,6 @@
           {
             "source": "xattr",
             "target": "xtb-python"
-          },
-          {
-            "source": "xattr",
-            "target": "yt"
           },
           {
             "source": "xattr",
@@ -104916,10 +104776,6 @@
           {
             "source": "zstandard",
             "target": "xtb-python"
-          },
-          {
-            "source": "zstandard",
-            "target": "yt"
           },
           {
             "source": "zstandard",
@@ -112340,6 +112196,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
