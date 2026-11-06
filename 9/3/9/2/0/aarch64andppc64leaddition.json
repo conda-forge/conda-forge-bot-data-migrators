@@ -68035,10 +68035,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "systemd"
-          },
-          {
-            "source": "pkg-config",
             "target": "tango-access-control"
           },
           {
@@ -68552,6 +68548,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "systemd"
           },
           {
             "source": "planarity",
