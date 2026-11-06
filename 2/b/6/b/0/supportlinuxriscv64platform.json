@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "intel-media-driver",
-            "payload": {
-              "__lazy_json__": "node_attrs/intel-media-driver.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -1097,6 +1090,10 @@
             "target": "openexr"
           },
           {
+            "source": "intel-gmmlib",
+            "target": "intel-media-driver"
+          },
+          {
             "source": "intel-media-driver",
             "target": "libvpl"
           },
@@ -2047,6 +2044,14 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -5104,6 +5109,12 @@
             }
           },
           {
+            "id": "intel-gmmlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-gmmlib.json"
+            }
+          },
+          {
             "id": "intel-media-driver",
             "payload": {
               "__lazy_json__": "node_attrs/intel-media-driver.json"
@@ -5647,6 +5658,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -6952,6 +6969,7 @@
         "gtest",
         "gz-cmake",
         "icu",
+        "intel-gmmlib",
         "json-c",
         "jsoncpp",
         "keyutils",
@@ -6990,6 +7008,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
