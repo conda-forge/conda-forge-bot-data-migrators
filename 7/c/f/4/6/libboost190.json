@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "coolprop",
+            "payload": {
+              "__lazy_json__": "node_attrs/coolprop.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -486,6 +493,10 @@
           {
             "source": "colmap",
             "target": "pixsfm"
+          },
+          {
+            "source": "coolprop",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "cp2k",
@@ -1817,6 +1828,10 @@
           },
           {
             "source": "msgpack-cxx",
+            "target": "coolprop"
+          },
+          {
+            "source": "msgpack-cxx",
             "target": "dials"
           },
           {
@@ -2984,6 +2999,12 @@
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "coolprop",
+            "payload": {
+              "__lazy_json__": "node_attrs/coolprop.json"
             }
           },
           {
