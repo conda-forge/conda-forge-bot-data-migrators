@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "lalburst",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalburst.json"
+            }
+          },
+          {
             "id": "opensees",
             "payload": {
               "__lazy_json__": "node_attrs/opensees.json"
@@ -22461,6 +22467,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinspiral"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalmetaio"
           },
           {
             "source": "igwn-ligolw",
