@@ -61,9 +61,9 @@
             }
           },
           {
-            "id": "lalburst",
+            "id": "higgstools",
             "payload": {
-              "__lazy_json__": "node_attrs/lalburst.json"
+              "__lazy_json__": "node_attrs/higgstools.json"
             }
           }
         ]
@@ -3327,6 +3327,10 @@
           {
             "source": "backports.zstd",
             "target": "hide_code"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "higgstools"
           },
           {
             "source": "backports.zstd",
@@ -7139,6 +7143,10 @@
           {
             "source": "brotli",
             "target": "hide_code"
+          },
+          {
+            "source": "brotli",
+            "target": "higgstools"
           },
           {
             "source": "brotli",
@@ -21981,6 +21989,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "higgstools",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "highspy",
             "target": "conda-forge-pinning"
           },
@@ -27871,6 +27883,10 @@
           {
             "source": "matplotlib",
             "target": "helios"
+          },
+          {
+            "source": "matplotlib",
+            "target": "higgstools"
           },
           {
             "source": "matplotlib",
@@ -35862,6 +35878,10 @@
           },
           {
             "source": "numpy",
+            "target": "higgstools"
+          },
+          {
+            "source": "numpy",
             "target": "highspy"
           },
           {
@@ -42483,6 +42503,10 @@
           {
             "source": "pandas",
             "target": "hidefix"
+          },
+          {
+            "source": "pandas",
+            "target": "higgstools"
           },
           {
             "source": "pandas",
@@ -57030,6 +57054,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "higgstools"
+          },
+          {
+            "source": "pyyaml",
             "target": "histfitter"
           },
           {
@@ -63475,6 +63503,10 @@
           {
             "source": "scipy",
             "target": "heat"
+          },
+          {
+            "source": "scipy",
+            "target": "higgstools"
           },
           {
             "source": "scipy",
@@ -72227,6 +72259,10 @@
           {
             "source": "tbb",
             "target": "hidefix"
+          },
+          {
+            "source": "tbb",
+            "target": "higgstools"
           },
           {
             "source": "tbb",
@@ -106367,6 +106403,12 @@
             "id": "scikit-clarans",
             "payload": {
               "__lazy_json__": "node_attrs/scikit-clarans.json"
+            }
+          },
+          {
+            "id": "higgstools",
+            "payload": {
+              "__lazy_json__": "node_attrs/higgstools.json"
             }
           }
         ]
