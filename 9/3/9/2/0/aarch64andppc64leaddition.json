@@ -65639,10 +65639,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "cbonsai"
-          },
-          {
-            "source": "pkg-config",
             "target": "ccache"
           },
           {
@@ -66979,10 +66975,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "mediainfo"
-          },
-          {
-            "source": "pkg-config",
             "target": "memray"
           },
           {
@@ -67352,10 +67344,6 @@
           {
             "source": "pkg-config",
             "target": "pixi"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pixi-inject"
           },
           {
             "source": "pkg-config",
@@ -68007,10 +67995,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "skia"
-          },
-          {
-            "source": "pkg-config",
             "target": "slepc"
           },
           {
@@ -68555,6 +68539,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "cbonsai"
+          },
+          {
+            "source": "pkgconf",
             "target": "gdb"
           },
           {
@@ -68563,7 +68551,15 @@
           },
           {
             "source": "pkgconf",
+            "target": "mediainfo"
+          },
+          {
+            "source": "pkgconf",
             "target": "openssh"
+          },
+          {
+            "source": "pkgconf",
+            "target": "pixi-inject"
           },
           {
             "source": "pkgconf",
@@ -68576,6 +68572,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "skia"
           },
           {
             "source": "pkgconf",
@@ -71520,6 +71520,10 @@
           {
             "source": "pyroaring",
             "target": "pyiceberg"
+          },
+          {
+            "source": "pyside2",
+            "target": "cctbx-base"
           },
           {
             "source": "pyside2",
@@ -78624,6 +78628,10 @@
           {
             "source": "qt-wayland",
             "target": "pyside2"
+          },
+          {
+            "source": "qt-webengine",
+            "target": "cctbx-base"
           },
           {
             "source": "qt-webengine",
@@ -98740,6 +98748,10 @@
           {
             "source": "wrapt",
             "target": "z5py"
+          },
+          {
+            "source": "wxpython",
+            "target": "cctbx-base"
           },
           {
             "source": "wxwidgets",
