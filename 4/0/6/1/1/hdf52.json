@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "nep",
+            "payload": {
+              "__lazy_json__": "node_attrs/nep.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -761,6 +768,10 @@
           },
           {
             "source": "libnetcdf",
+            "target": "nep"
+          },
+          {
+            "source": "libnetcdf",
             "target": "netcdf-cxx-legacy"
           },
           {
@@ -896,6 +907,10 @@
             "target": "mpas_tools"
           },
           {
+            "source": "nep",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nest-simulator",
             "target": "conda-forge-pinning"
           },
@@ -934,6 +949,10 @@
           {
             "source": "netcdf-fortran",
             "target": "mpas_tools"
+          },
+          {
+            "source": "netcdf-fortran",
+            "target": "nep"
           },
           {
             "source": "netcdf-fortran",
@@ -2306,6 +2325,12 @@
             "id": "grads",
             "payload": {
               "__lazy_json__": "node_attrs/grads.json"
+            }
+          },
+          {
+            "id": "nep",
+            "payload": {
+              "__lazy_json__": "node_attrs/nep.json"
             }
           }
         ]
