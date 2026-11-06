@@ -6847,6 +6847,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -8072,6 +8076,10 @@
           {
             "source": "bash",
             "target": "r-bayesm"
+          },
+          {
+            "source": "bash",
+            "target": "r-bbmisc"
           },
           {
             "source": "bash",
@@ -19048,6 +19056,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -45439,6 +45451,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -46660,6 +46676,10 @@
           {
             "source": "libtool",
             "target": "r-bayesm"
+          },
+          {
+            "source": "libtool",
+            "target": "r-bbmisc"
           },
           {
             "source": "libtool",
@@ -54512,6 +54532,62 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -78847,6 +78923,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-bbmisc"
+          },
+          {
+            "source": "r-base",
             "target": "r-bbotk"
           },
           {
@@ -80939,6 +81019,10 @@
           },
           {
             "source": "r-checkmate",
+            "target": "r-bbmisc"
+          },
+          {
+            "source": "r-checkmate",
             "target": "r-bbotk"
           },
           {
@@ -81640,6 +81724,10 @@
           {
             "source": "r-data.table",
             "target": "r-batchtools"
+          },
+          {
+            "source": "r-data.table",
+            "target": "r-bbmisc"
           },
           {
             "source": "r-data.table",
@@ -112259,6 +112347,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -115484,6 +115578,12 @@
             "id": "r-bayesm",
             "payload": {
               "__lazy_json__": "node_attrs/r-bayesm.json"
+            }
+          },
+          {
+            "id": "r-bbmisc",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-bbmisc.json"
             }
           },
           {
