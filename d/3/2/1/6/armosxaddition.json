@@ -12555,6 +12555,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "gdb"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "gfortran_osx-64"
           },
           {
@@ -19784,6 +19788,10 @@
           {
             "source": "ctng-compilers",
             "target": "fluidsim"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "gdb"
           },
           {
             "source": "ctng-compilers",
@@ -69015,10 +69023,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "gdb"
-          },
-          {
-            "source": "pkg-config",
             "target": "gdk-pixbuf"
           },
           {
@@ -71780,6 +71784,10 @@
           {
             "source": "pkg-config",
             "target": "zziplib"
+          },
+          {
+            "source": "pkgconf",
+            "target": "gdb"
           },
           {
             "source": "pkgconf",
@@ -95639,6 +95647,10 @@
           },
           {
             "source": "rsync",
+            "target": "gdb"
+          },
+          {
+            "source": "rsync",
             "target": "git-annex"
           },
           {
@@ -98716,6 +98728,10 @@
           {
             "source": "sed",
             "target": "gct"
+          },
+          {
+            "source": "sed",
+            "target": "gdb"
           },
           {
             "source": "sed",
