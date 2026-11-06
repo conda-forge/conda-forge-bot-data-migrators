@@ -14826,10 +14826,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "systemd"
-          },
-          {
-            "source": "pkg-config",
             "target": "tar"
           },
           {
@@ -15023,6 +15019,10 @@
           {
             "source": "pkgconf",
             "target": "openssh"
+          },
+          {
+            "source": "pkgconf",
+            "target": "systemd"
           },
           {
             "source": "playwright",
