@@ -71047,10 +71047,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "rw"
-          },
-          {
-            "source": "pkg-config",
             "target": "sage"
           },
           {
@@ -71768,6 +71764,10 @@
           {
             "source": "pkgconf",
             "target": "pyvips"
+          },
+          {
+            "source": "pkgconf",
+            "target": "rw"
           },
           {
             "source": "planarity",
