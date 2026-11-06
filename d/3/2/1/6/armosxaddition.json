@@ -71255,10 +71255,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "systemd"
-          },
-          {
-            "source": "pkg-config",
             "target": "ta-lib"
           },
           {
@@ -71768,6 +71764,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "systemd"
           },
           {
             "source": "planarity",
