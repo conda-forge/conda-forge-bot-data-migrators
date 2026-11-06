@@ -154,10 +154,6 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "re2"
           },
           {
@@ -1186,6 +1182,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "openvino"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pandas"
           },
           {
@@ -1203,10 +1203,6 @@
           {
             "source": "backports.zstd",
             "target": "pynacl"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pytorch-cpu"
           },
           {
             "source": "backports.zstd",
@@ -1666,7 +1662,7 @@
           },
           {
             "source": "blas",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "blas",
@@ -1786,6 +1782,10 @@
           },
           {
             "source": "brotli",
+            "target": "openvino"
+          },
+          {
+            "source": "brotli",
             "target": "pandas"
           },
           {
@@ -1807,10 +1807,6 @@
           {
             "source": "brotli",
             "target": "pynacl"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch-cpu"
           },
           {
             "source": "brotli",
@@ -2466,6 +2462,10 @@
           },
           {
             "source": "cffi",
+            "target": "openvino"
+          },
+          {
+            "source": "cffi",
             "target": "pillow"
           },
           {
@@ -2479,10 +2479,6 @@
           {
             "source": "cffi",
             "target": "pynacl"
-          },
-          {
-            "source": "cffi",
-            "target": "pytorch-cpu"
           },
           {
             "source": "cffi",
@@ -2526,7 +2522,7 @@
           },
           {
             "source": "chardet",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "check",
@@ -3558,10 +3554,6 @@
           },
           {
             "source": "cmake",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "cmake",
             "target": "pywinpty"
           },
           {
@@ -3751,10 +3743,6 @@
           {
             "source": "cmake",
             "target": "vc"
-          },
-          {
-            "source": "cmake",
-            "target": "vulkan-headers"
           },
           {
             "source": "cmake",
@@ -4198,6 +4186,10 @@
           },
           {
             "source": "coverage",
+            "target": "openvino"
+          },
+          {
+            "source": "coverage",
             "target": "pandas"
           },
           {
@@ -4239,10 +4231,6 @@
           {
             "source": "coverage",
             "target": "python-zlib-ng"
-          },
-          {
-            "source": "coverage",
-            "target": "pytorch-cpu"
           },
           {
             "source": "coverage",
@@ -5150,6 +5138,10 @@
           },
           {
             "source": "dbus",
+            "target": "openvino"
+          },
+          {
+            "source": "dbus",
             "target": "pillow"
           },
           {
@@ -5159,10 +5151,6 @@
           {
             "source": "dbus",
             "target": "pyarrow"
-          },
-          {
-            "source": "dbus",
-            "target": "pytorch-cpu"
           },
           {
             "source": "dbus",
@@ -5310,6 +5298,10 @@
           },
           {
             "source": "dulwich",
+            "target": "openvino"
+          },
+          {
+            "source": "dulwich",
             "target": "pillow"
           },
           {
@@ -5323,10 +5315,6 @@
           {
             "source": "dulwich",
             "target": "pynacl"
-          },
-          {
-            "source": "dulwich",
-            "target": "pytorch-cpu"
           },
           {
             "source": "dulwich",
@@ -5370,7 +5358,7 @@
           },
           {
             "source": "eigen",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "elfutils",
@@ -5810,7 +5798,7 @@
           },
           {
             "source": "fmt",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "fmt",
@@ -5823,10 +5811,6 @@
           {
             "source": "fontconfig",
             "target": "cairo"
-          },
-          {
-            "source": "fontconfig",
-            "target": "dovi_tool"
           },
           {
             "source": "fontconfig",
@@ -5883,10 +5867,6 @@
           {
             "source": "freetype",
             "target": "cairo"
-          },
-          {
-            "source": "freetype",
-            "target": "dovi_tool"
           },
           {
             "source": "freetype",
@@ -6650,7 +6630,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "go-licenses",
@@ -6910,7 +6890,7 @@
           },
           {
             "source": "graphviz",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "greenlet",
@@ -6998,7 +6978,7 @@
           },
           {
             "source": "grep",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "grep",
@@ -7322,6 +7302,10 @@
           },
           {
             "source": "hypothesis",
+            "target": "openvino"
+          },
+          {
+            "source": "hypothesis",
             "target": "pillow"
           },
           {
@@ -7335,10 +7319,6 @@
           {
             "source": "hypothesis",
             "target": "pynacl"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch-cpu"
           },
           {
             "source": "hypothesis",
@@ -7670,7 +7650,7 @@
           },
           {
             "source": "lapack",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "lapack",
@@ -8829,10 +8809,6 @@
             "target": "orc"
           },
           {
-            "source": "libprotobuf",
-            "target": "pytorch-cpu"
-          },
-          {
             "source": "libpsl",
             "target": "micromamba"
           },
@@ -9254,7 +9230,7 @@
           },
           {
             "source": "libuv",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "libuv",
@@ -11298,6 +11274,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "openvino"
+          },
+          {
+            "source": "markupsafe",
             "target": "pillow"
           },
           {
@@ -11315,10 +11295,6 @@
           {
             "source": "markupsafe",
             "target": "pyopencl"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch-cpu"
           },
           {
             "source": "markupsafe",
@@ -11694,7 +11670,7 @@
           },
           {
             "source": "msgpack-python",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "msinttypes",
@@ -12678,10 +12654,6 @@
           },
           {
             "source": "ninja",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "ninja",
             "target": "pywinpty"
           },
           {
@@ -12839,10 +12811,6 @@
           {
             "source": "ninja",
             "target": "vc"
-          },
-          {
-            "source": "ninja",
-            "target": "vulkan-headers"
           },
           {
             "source": "ninja",
@@ -13198,10 +13166,6 @@
           },
           {
             "source": "numpy",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "numpy",
             "target": "pyzmq"
           },
           {
@@ -13278,7 +13242,7 @@
           },
           {
             "source": "onednn",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "oniguruma",
@@ -13490,6 +13454,10 @@
           },
           {
             "source": "openmp",
+            "target": "openvino"
+          },
+          {
+            "source": "openmp",
             "target": "pocl"
           },
           {
@@ -13519,10 +13487,6 @@
           {
             "source": "openmp",
             "target": "python"
-          },
-          {
-            "source": "openmp",
-            "target": "pytorch-cpu"
           },
           {
             "source": "openmp",
@@ -13854,7 +13818,7 @@
           },
           {
             "source": "optree",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "orc",
@@ -14366,10 +14330,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "dovi_tool"
-          },
-          {
-            "source": "pkg-config",
             "target": "eigen"
           },
           {
@@ -14743,10 +14703,6 @@
           {
             "source": "pkg-config",
             "target": "python"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pytorch-cpu"
           },
           {
             "source": "pkg-config",
@@ -15226,6 +15182,10 @@
           },
           {
             "source": "protobuf",
+            "target": "openvino"
+          },
+          {
+            "source": "protobuf",
             "target": "pillow"
           },
           {
@@ -15239,10 +15199,6 @@
           {
             "source": "protobuf",
             "target": "pynacl"
-          },
-          {
-            "source": "protobuf",
-            "target": "pytorch-cpu"
           },
           {
             "source": "protobuf",
@@ -16442,10 +16398,6 @@
           },
           {
             "source": "python",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "python",
             "target": "pywin32"
           },
           {
@@ -16833,10 +16785,6 @@
             "target": "websockets"
           },
           {
-            "source": "pytorch-cpu",
-            "target": "openvino"
-          },
-          {
             "source": "pywin32-ctypes",
             "target": "awkward-cpp"
           },
@@ -16862,6 +16810,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "openvino"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "pillow"
           },
           {
@@ -16871,10 +16823,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "pyinstaller"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "pytorch-cpu"
           },
           {
             "source": "pywin32",
@@ -17082,6 +17030,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "openvino"
+          },
+          {
+            "source": "pyyaml",
             "target": "pillow"
           },
           {
@@ -17099,10 +17051,6 @@
           {
             "source": "pyyaml",
             "target": "pynacl"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pytorch-cpu"
           },
           {
             "source": "pyyaml",
@@ -17714,7 +17662,7 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "rapidjson",
@@ -18046,6 +17994,10 @@
           },
           {
             "source": "rsync",
+            "target": "openvino"
+          },
+          {
+            "source": "rsync",
             "target": "pandas"
           },
           {
@@ -18071,10 +18023,6 @@
           {
             "source": "rsync",
             "target": "pytokens"
-          },
-          {
-            "source": "rsync",
-            "target": "pytorch-cpu"
           },
           {
             "source": "rsync",
@@ -18766,7 +18714,7 @@
           },
           {
             "source": "sleef",
-            "target": "pytorch-cpu"
+            "target": "openvino"
           },
           {
             "source": "snappy",
@@ -19518,6 +19466,10 @@
           },
           {
             "source": "uv",
+            "target": "openvino"
+          },
+          {
+            "source": "uv",
             "target": "pillow"
           },
           {
@@ -19535,10 +19487,6 @@
           {
             "source": "uv",
             "target": "pytest-codspeed"
-          },
-          {
-            "source": "uv",
-            "target": "pytorch-cpu"
           },
           {
             "source": "uv",
@@ -19575,54 +19523,6 @@
           {
             "source": "vc",
             "target": "postgresql"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "libplacebo"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "llama.cpp"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "pyside2"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-3d"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-graphs"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-main"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-multimedia"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-quick3d"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "qt-webengine"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "vulkan-loader"
           },
           {
             "source": "vulkan-loader",
@@ -20214,6 +20114,10 @@
           },
           {
             "source": "xattr",
+            "target": "openvino"
+          },
+          {
+            "source": "xattr",
             "target": "pillow"
           },
           {
@@ -20227,10 +20131,6 @@
           {
             "source": "xattr",
             "target": "pynacl"
-          },
-          {
-            "source": "xattr",
-            "target": "pytorch-cpu"
           },
           {
             "source": "xattr",
@@ -21810,10 +21710,6 @@
           },
           {
             "source": "zlib",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "zlib",
             "target": "pywinpty"
           },
           {
@@ -21990,6 +21886,10 @@
           },
           {
             "source": "zstandard",
+            "target": "openvino"
+          },
+          {
+            "source": "zstandard",
             "target": "pillow"
           },
           {
@@ -22003,10 +21903,6 @@
           {
             "source": "zstandard",
             "target": "pynacl"
-          },
-          {
-            "source": "zstandard",
-            "target": "pytorch-cpu"
           },
           {
             "source": "zstandard",
@@ -25114,12 +25010,6 @@
             }
           },
           {
-            "id": "pytorch-cpu",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytorch-cpu.json"
-            }
-          },
-          {
             "id": "pywin32",
             "payload": {
               "__lazy_json__": "node_attrs/pywin32.json"
@@ -25909,12 +25799,6 @@
             "id": "vhs",
             "payload": {
               "__lazy_json__": "node_attrs/vhs.json"
-            }
-          },
-          {
-            "id": "vulkan-headers",
-            "payload": {
-              "__lazy_json__": "node_attrs/vulkan-headers.json"
             }
           },
           {
