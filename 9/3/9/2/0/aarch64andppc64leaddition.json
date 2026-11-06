@@ -135,10 +135,6 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "allennlp"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "arrow-cpp"
           },
           {
@@ -151,35 +147,11 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "cpp-opentelemetry-sdk"
           },
           {
             "source": "abseil-cpp",
-            "target": "dgl"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "dm-tree"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "easyocr"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "fairscale"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "flash-attn"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "fvdb-core"
           },
           {
             "source": "abseil-cpp",
@@ -196,10 +168,6 @@
           {
             "source": "abseil-cpp",
             "target": "grpc_java_plugin"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "gymnasium"
           },
           {
             "source": "abseil-cpp",
@@ -235,10 +203,6 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "kaolin"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "libignition-msgs1"
           },
           {
@@ -248,10 +212,6 @@
           {
             "source": "abseil-cpp",
             "target": "libprotobuf"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "mamba-ssm"
           },
           {
             "source": "abseil-cpp",
@@ -268,18 +228,6 @@
           {
             "source": "abseil-cpp",
             "target": "nodejs"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "nvmath"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "nvmolkit"
           },
           {
             "source": "abseil-cpp",
@@ -307,11 +255,7 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "abseil-cpp",
@@ -320,10 +264,6 @@
           {
             "source": "abseil-cpp",
             "target": "re2"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "scikit-allel"
           },
           {
             "source": "abseil-cpp",
@@ -340,18 +280,6 @@
           {
             "source": "abseil-cpp",
             "target": "tiledb"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "torchdata"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "torchvision"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "triton"
           },
           {
             "source": "abseil-cpp",
@@ -4019,10 +3947,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "backports.zstd",
             "target": "cctbx-base"
           },
           {
@@ -4079,10 +4003,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "fairscale"
-          },
-          {
-            "source": "backports.zstd",
             "target": "fastar"
           },
           {
@@ -4104,14 +4024,6 @@
           {
             "source": "backports.zstd",
             "target": "fish"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "flash-attn"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "fvdb-core"
           },
           {
             "source": "backports.zstd",
@@ -4148,10 +4060,6 @@
           {
             "source": "backports.zstd",
             "target": "gymnasium"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "horovod"
           },
           {
             "source": "backports.zstd",
@@ -4192,10 +4100,6 @@
           {
             "source": "backports.zstd",
             "target": "libcst"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "mamba-ssm"
           },
           {
             "source": "backports.zstd",
@@ -4259,18 +4163,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "nvmath"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "backports.zstd",
             "target": "opencv"
           },
           {
@@ -4280,10 +4172,6 @@
           {
             "source": "backports.zstd",
             "target": "openmeeg"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "openvino"
           },
           {
             "source": "backports.zstd",
@@ -4324,10 +4212,6 @@
           {
             "source": "backports.zstd",
             "target": "pycbc"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pyg-lib"
           },
           {
             "source": "backports.zstd",
@@ -4391,7 +4275,7 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "backports.zstd",
@@ -4552,10 +4436,6 @@
           {
             "source": "backports.zstd",
             "target": "torchvision"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "triton"
           },
           {
             "source": "backports.zstd",
@@ -12543,10 +12423,6 @@
           },
           {
             "source": "blas",
-            "target": "allennlp"
-          },
-          {
-            "source": "blas",
             "target": "ambertools"
           },
           {
@@ -12580,10 +12456,6 @@
           {
             "source": "blas",
             "target": "casadi"
-          },
-          {
-            "source": "blas",
-            "target": "causal-conv1d"
           },
           {
             "source": "blas",
@@ -12639,10 +12511,6 @@
           },
           {
             "source": "blas",
-            "target": "easyocr"
-          },
-          {
-            "source": "blas",
             "target": "elpa"
           },
           {
@@ -12652,10 +12520,6 @@
           {
             "source": "blas",
             "target": "ensmallen"
-          },
-          {
-            "source": "blas",
-            "target": "fairscale"
           },
           {
             "source": "blas",
@@ -12683,15 +12547,7 @@
           },
           {
             "source": "blas",
-            "target": "flash-attn"
-          },
-          {
-            "source": "blas",
             "target": "forte2"
-          },
-          {
-            "source": "blas",
-            "target": "fvdb-core"
           },
           {
             "source": "blas",
@@ -12723,15 +12579,7 @@
           },
           {
             "source": "blas",
-            "target": "gymnasium"
-          },
-          {
-            "source": "blas",
             "target": "heyoka"
-          },
-          {
-            "source": "blas",
-            "target": "horovod"
           },
           {
             "source": "blas",
@@ -12764,10 +12612,6 @@
           {
             "source": "blas",
             "target": "julia"
-          },
-          {
-            "source": "blas",
-            "target": "kaolin"
           },
           {
             "source": "blas",
@@ -12807,10 +12651,6 @@
           },
           {
             "source": "blas",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "blas",
             "target": "matrixswitch"
           },
           {
@@ -12847,18 +12687,6 @@
           },
           {
             "source": "blas",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "blas",
-            "target": "nvmath"
-          },
-          {
-            "source": "blas",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "blas",
             "target": "octave"
           },
           {
@@ -12880,10 +12708,6 @@
           {
             "source": "blas",
             "target": "opentrustregion"
-          },
-          {
-            "source": "blas",
-            "target": "openvino"
           },
           {
             "source": "blas",
@@ -12923,10 +12747,6 @@
           },
           {
             "source": "blas",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "blas",
             "target": "pykep"
           },
           {
@@ -12939,7 +12759,7 @@
           },
           {
             "source": "blas",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "blas",
@@ -13211,10 +13031,6 @@
           },
           {
             "source": "blas",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "blas",
             "target": "scipy"
           },
           {
@@ -13260,18 +13076,6 @@
           {
             "source": "blas",
             "target": "tempo2"
-          },
-          {
-            "source": "blas",
-            "target": "torchdata"
-          },
-          {
-            "source": "blas",
-            "target": "torchvision"
-          },
-          {
-            "source": "blas",
-            "target": "triton"
           },
           {
             "source": "blas",
@@ -13819,10 +13623,6 @@
           },
           {
             "source": "brotli",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "brotli",
             "target": "cctbx-base"
           },
           {
@@ -13887,10 +13687,6 @@
           },
           {
             "source": "brotli",
-            "target": "fairscale"
-          },
-          {
-            "source": "brotli",
             "target": "fenics-basix"
           },
           {
@@ -13911,15 +13707,7 @@
           },
           {
             "source": "brotli",
-            "target": "flash-attn"
-          },
-          {
-            "source": "brotli",
             "target": "fonttools"
-          },
-          {
-            "source": "brotli",
-            "target": "fvdb-core"
           },
           {
             "source": "brotli",
@@ -13956,10 +13744,6 @@
           {
             "source": "brotli",
             "target": "gymnasium"
-          },
-          {
-            "source": "brotli",
-            "target": "horovod"
           },
           {
             "source": "brotli",
@@ -14012,10 +13796,6 @@
           {
             "source": "brotli",
             "target": "libsoup"
-          },
-          {
-            "source": "brotli",
-            "target": "mamba-ssm"
           },
           {
             "source": "brotli",
@@ -14083,18 +13863,6 @@
           },
           {
             "source": "brotli",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "brotli",
-            "target": "nvmath"
-          },
-          {
-            "source": "brotli",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "brotli",
             "target": "opencv"
           },
           {
@@ -14104,10 +13872,6 @@
           {
             "source": "brotli",
             "target": "openmeeg"
-          },
-          {
-            "source": "brotli",
-            "target": "openvino"
           },
           {
             "source": "brotli",
@@ -14152,10 +13916,6 @@
           {
             "source": "brotli",
             "target": "pycbc"
-          },
-          {
-            "source": "brotli",
-            "target": "pyg-lib"
           },
           {
             "source": "brotli",
@@ -14219,7 +13979,7 @@
           },
           {
             "source": "brotli",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "brotli",
@@ -14384,10 +14144,6 @@
           {
             "source": "brotli",
             "target": "torchvision"
-          },
-          {
-            "source": "brotli",
-            "target": "triton"
           },
           {
             "source": "brotli",
@@ -16767,10 +16523,6 @@
           },
           {
             "source": "cffi",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "cffi",
             "target": "cctbx-base"
           },
           {
@@ -16823,10 +16575,6 @@
           },
           {
             "source": "cffi",
-            "target": "dgl"
-          },
-          {
-            "source": "cffi",
             "target": "dulwich"
           },
           {
@@ -16836,10 +16584,6 @@
           {
             "source": "cffi",
             "target": "fabio"
-          },
-          {
-            "source": "cffi",
-            "target": "fairscale"
           },
           {
             "source": "cffi",
@@ -16856,14 +16600,6 @@
           {
             "source": "cffi",
             "target": "firefox"
-          },
-          {
-            "source": "cffi",
-            "target": "flash-attn"
-          },
-          {
-            "source": "cffi",
-            "target": "fvdb-core"
           },
           {
             "source": "cffi",
@@ -16931,10 +16667,6 @@
           },
           {
             "source": "cffi",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "cffi",
             "target": "mcstas-suite"
           },
           {
@@ -16979,15 +16711,7 @@
           },
           {
             "source": "cffi",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "cffi",
             "target": "nvmath"
-          },
-          {
-            "source": "cffi",
-            "target": "nvmolkit"
           },
           {
             "source": "cffi",
@@ -16996,10 +16720,6 @@
           {
             "source": "cffi",
             "target": "openmeeg"
-          },
-          {
-            "source": "cffi",
-            "target": "openvino"
           },
           {
             "source": "cffi",
@@ -17036,10 +16756,6 @@
           {
             "source": "cffi",
             "target": "pycbc"
-          },
-          {
-            "source": "cffi",
-            "target": "pyg-lib"
           },
           {
             "source": "cffi",
@@ -17091,7 +16807,7 @@
           },
           {
             "source": "cffi",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "cffi",
@@ -17207,15 +16923,7 @@
           },
           {
             "source": "cffi",
-            "target": "torchvision"
-          },
-          {
-            "source": "cffi",
             "target": "trio"
-          },
-          {
-            "source": "cffi",
-            "target": "triton"
           },
           {
             "source": "cffi",
@@ -17331,15 +17039,7 @@
           },
           {
             "source": "chardet",
-            "target": "allennlp"
-          },
-          {
-            "source": "chardet",
             "target": "argtable2"
-          },
-          {
-            "source": "chardet",
-            "target": "causal-conv1d"
           },
           {
             "source": "chardet",
@@ -17348,42 +17048,6 @@
           {
             "source": "chardet",
             "target": "conda-standalone"
-          },
-          {
-            "source": "chardet",
-            "target": "dgl"
-          },
-          {
-            "source": "chardet",
-            "target": "easyocr"
-          },
-          {
-            "source": "chardet",
-            "target": "fairscale"
-          },
-          {
-            "source": "chardet",
-            "target": "flash-attn"
-          },
-          {
-            "source": "chardet",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "chardet",
-            "target": "gymnasium"
-          },
-          {
-            "source": "chardet",
-            "target": "horovod"
-          },
-          {
-            "source": "chardet",
-            "target": "kaolin"
-          },
-          {
-            "source": "chardet",
-            "target": "mamba-ssm"
           },
           {
             "source": "chardet",
@@ -17399,22 +17063,6 @@
           },
           {
             "source": "chardet",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "chardet",
-            "target": "nvmath"
-          },
-          {
-            "source": "chardet",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "chardet",
-            "target": "openvino"
-          },
-          {
-            "source": "chardet",
             "target": "orange3"
           },
           {
@@ -17423,31 +17071,11 @@
           },
           {
             "source": "chardet",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "chardet",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "chardet",
-            "target": "scikit-allel"
+            "target": "pytorch-cpu"
           },
           {
             "source": "chardet",
             "target": "spyder"
-          },
-          {
-            "source": "chardet",
-            "target": "torchdata"
-          },
-          {
-            "source": "chardet",
-            "target": "torchvision"
-          },
-          {
-            "source": "chardet",
-            "target": "triton"
           },
           {
             "source": "charls",
@@ -17632,10 +17260,6 @@
           {
             "source": "cmake",
             "target": "ale-py"
-          },
-          {
-            "source": "cmake",
-            "target": "allennlp"
           },
           {
             "source": "cmake",
@@ -17888,10 +17512,6 @@
           {
             "source": "cmake",
             "target": "catch2"
-          },
-          {
-            "source": "cmake",
-            "target": "causal-conv1d"
           },
           {
             "source": "cmake",
@@ -18243,10 +17863,6 @@
           },
           {
             "source": "cmake",
-            "target": "fairscale"
-          },
-          {
-            "source": "cmake",
             "target": "faiss-split"
           },
           {
@@ -18300,10 +17916,6 @@
           {
             "source": "cmake",
             "target": "flann"
-          },
-          {
-            "source": "cmake",
-            "target": "flash-attn"
           },
           {
             "source": "cmake",
@@ -18536,10 +18148,6 @@
           {
             "source": "cmake",
             "target": "gwframe"
-          },
-          {
-            "source": "cmake",
-            "target": "gymnasium"
           },
           {
             "source": "cmake",
@@ -18796,10 +18404,6 @@
           {
             "source": "cmake",
             "target": "kahip"
-          },
-          {
-            "source": "cmake",
-            "target": "kaolin"
           },
           {
             "source": "cmake",
@@ -19387,10 +18991,6 @@
           },
           {
             "source": "cmake",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "cmake",
             "target": "mandrake"
           },
           {
@@ -19655,15 +19255,7 @@
           },
           {
             "source": "cmake",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "cmake",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "cmake",
-            "target": "nvmath"
           },
           {
             "source": "cmake",
@@ -20043,10 +19635,6 @@
           },
           {
             "source": "cmake",
-            "target": "pyqt"
-          },
-          {
-            "source": "cmake",
             "target": "pyre"
           },
           {
@@ -20099,7 +19687,7 @@
           },
           {
             "source": "cmake",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "cmake",
@@ -20356,10 +19944,6 @@
           {
             "source": "cmake",
             "target": "scenepic"
-          },
-          {
-            "source": "cmake",
-            "target": "scikit-allel"
           },
           {
             "source": "cmake",
@@ -20695,10 +20279,6 @@
           },
           {
             "source": "cmake",
-            "target": "torchvision"
-          },
-          {
-            "source": "cmake",
             "target": "tree-sitter-cli"
           },
           {
@@ -20808,6 +20388,10 @@
           {
             "source": "cmake",
             "target": "vtk"
+          },
+          {
+            "source": "cmake",
+            "target": "vulkan-headers"
           },
           {
             "source": "cmake",
@@ -21423,10 +21007,6 @@
           },
           {
             "source": "coverage",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "coverage",
             "target": "cbor2"
           },
           {
@@ -21639,10 +21219,6 @@
           },
           {
             "source": "coverage",
-            "target": "flash-attn"
-          },
-          {
-            "source": "coverage",
             "target": "forte2"
           },
           {
@@ -21768,10 +21344,6 @@
           {
             "source": "coverage",
             "target": "hmmlearn"
-          },
-          {
-            "source": "coverage",
-            "target": "horovod"
           },
           {
             "source": "coverage",
@@ -22079,10 +21651,6 @@
           },
           {
             "source": "coverage",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "coverage",
             "target": "nvmath"
           },
           {
@@ -22124,10 +21692,6 @@
           {
             "source": "coverage",
             "target": "openusd"
-          },
-          {
-            "source": "coverage",
-            "target": "openvino"
           },
           {
             "source": "coverage",
@@ -22244,6 +21808,10 @@
           {
             "source": "coverage",
             "target": "pycbc"
+          },
+          {
+            "source": "coverage",
+            "target": "pycryptodome"
           },
           {
             "source": "coverage",
@@ -22431,7 +21999,7 @@
           },
           {
             "source": "coverage",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "coverage",
@@ -26179,10 +25747,6 @@
           },
           {
             "source": "dbus",
-            "target": "allennlp"
-          },
-          {
-            "source": "dbus",
             "target": "argtable2"
           },
           {
@@ -26207,10 +25771,6 @@
           },
           {
             "source": "dbus",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "dbus",
             "target": "conda"
           },
           {
@@ -26231,10 +25791,6 @@
           },
           {
             "source": "dbus",
-            "target": "dgl"
-          },
-          {
-            "source": "dbus",
             "target": "easyocr"
           },
           {
@@ -26247,15 +25803,7 @@
           },
           {
             "source": "dbus",
-            "target": "fairscale"
-          },
-          {
-            "source": "dbus",
             "target": "fiona"
-          },
-          {
-            "source": "dbus",
-            "target": "flash-attn"
           },
           {
             "source": "dbus",
@@ -26263,23 +25811,7 @@
           },
           {
             "source": "dbus",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "dbus",
             "target": "glum"
-          },
-          {
-            "source": "dbus",
-            "target": "gymnasium"
-          },
-          {
-            "source": "dbus",
-            "target": "horovod"
-          },
-          {
-            "source": "dbus",
-            "target": "kaolin"
           },
           {
             "source": "dbus",
@@ -26288,10 +25820,6 @@
           {
             "source": "dbus",
             "target": "laspy"
-          },
-          {
-            "source": "dbus",
-            "target": "mamba-ssm"
           },
           {
             "source": "dbus",
@@ -26311,23 +25839,7 @@
           },
           {
             "source": "dbus",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "dbus",
-            "target": "nvmath"
-          },
-          {
-            "source": "dbus",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "dbus",
             "target": "openal-soft"
-          },
-          {
-            "source": "dbus",
-            "target": "openvino"
           },
           {
             "source": "dbus",
@@ -26351,15 +25863,11 @@
           },
           {
             "source": "dbus",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "dbus",
             "target": "pyinterp"
           },
           {
             "source": "dbus",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "dbus",
@@ -26416,14 +25924,6 @@
           {
             "source": "dbus",
             "target": "torchdata"
-          },
-          {
-            "source": "dbus",
-            "target": "torchvision"
-          },
-          {
-            "source": "dbus",
-            "target": "triton"
           },
           {
             "source": "dbus",
@@ -26963,10 +26463,6 @@
           },
           {
             "source": "dulwich",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "dulwich",
             "target": "cctbx-base"
           },
           {
@@ -26999,19 +26495,11 @@
           },
           {
             "source": "dulwich",
-            "target": "dgl"
-          },
-          {
-            "source": "dulwich",
             "target": "easyocr"
           },
           {
             "source": "dulwich",
             "target": "fabio"
-          },
-          {
-            "source": "dulwich",
-            "target": "fairscale"
           },
           {
             "source": "dulwich",
@@ -27027,23 +26515,11 @@
           },
           {
             "source": "dulwich",
-            "target": "flash-attn"
-          },
-          {
-            "source": "dulwich",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "dulwich",
             "target": "glum"
           },
           {
             "source": "dulwich",
             "target": "gymnasium"
-          },
-          {
-            "source": "dulwich",
-            "target": "horovod"
           },
           {
             "source": "dulwich",
@@ -27072,10 +26548,6 @@
           {
             "source": "dulwich",
             "target": "libcst"
-          },
-          {
-            "source": "dulwich",
-            "target": "mamba-ssm"
           },
           {
             "source": "dulwich",
@@ -27123,27 +26595,11 @@
           },
           {
             "source": "dulwich",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "dulwich",
-            "target": "nvmath"
-          },
-          {
-            "source": "dulwich",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "dulwich",
             "target": "opencv"
           },
           {
             "source": "dulwich",
             "target": "openmeeg"
-          },
-          {
-            "source": "dulwich",
-            "target": "openvino"
           },
           {
             "source": "dulwich",
@@ -27164,10 +26620,6 @@
           {
             "source": "dulwich",
             "target": "pyarrow"
-          },
-          {
-            "source": "dulwich",
-            "target": "pyg-lib"
           },
           {
             "source": "dulwich",
@@ -27203,7 +26655,7 @@
           },
           {
             "source": "dulwich",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "dulwich",
@@ -27288,14 +26740,6 @@
           {
             "source": "dulwich",
             "target": "torchdata"
-          },
-          {
-            "source": "dulwich",
-            "target": "torchvision"
-          },
-          {
-            "source": "dulwich",
-            "target": "triton"
           },
           {
             "source": "dulwich",
@@ -27399,10 +26843,6 @@
           },
           {
             "source": "eigen",
-            "target": "allennlp"
-          },
-          {
-            "source": "eigen",
             "target": "autorift"
           },
           {
@@ -27424,10 +26864,6 @@
           {
             "source": "eigen",
             "target": "casadi"
-          },
-          {
-            "source": "eigen",
-            "target": "causal-conv1d"
           },
           {
             "source": "eigen",
@@ -27463,23 +26899,11 @@
           },
           {
             "source": "eigen",
-            "target": "dgl"
-          },
-          {
-            "source": "eigen",
             "target": "draco"
           },
           {
             "source": "eigen",
-            "target": "easyocr"
-          },
-          {
-            "source": "eigen",
             "target": "eigenpy"
-          },
-          {
-            "source": "eigen",
-            "target": "fairscale"
           },
           {
             "source": "eigen",
@@ -27491,19 +26915,11 @@
           },
           {
             "source": "eigen",
-            "target": "flash-attn"
-          },
-          {
-            "source": "eigen",
             "target": "forte2"
           },
           {
             "source": "eigen",
             "target": "freecad"
-          },
-          {
-            "source": "eigen",
-            "target": "fvdb-core"
           },
           {
             "source": "eigen",
@@ -27515,19 +26931,11 @@
           },
           {
             "source": "eigen",
-            "target": "gymnasium"
-          },
-          {
-            "source": "eigen",
             "target": "gz-math"
           },
           {
             "source": "eigen",
             "target": "gz-physics"
-          },
-          {
-            "source": "eigen",
-            "target": "horovod"
           },
           {
             "source": "eigen",
@@ -27544,10 +26952,6 @@
           {
             "source": "eigen",
             "target": "jack"
-          },
-          {
-            "source": "eigen",
-            "target": "kaolin"
           },
           {
             "source": "eigen",
@@ -27587,10 +26991,6 @@
           },
           {
             "source": "eigen",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "eigen",
             "target": "manif"
           },
           {
@@ -27611,14 +27011,6 @@
           },
           {
             "source": "eigen",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "eigen",
-            "target": "nvmath"
-          },
-          {
-            "source": "eigen",
             "target": "nvmolkit"
           },
           {
@@ -27632,10 +27024,6 @@
           {
             "source": "eigen",
             "target": "opensees"
-          },
-          {
-            "source": "eigen",
-            "target": "openvino"
           },
           {
             "source": "eigen",
@@ -27683,10 +27071,6 @@
           },
           {
             "source": "eigen",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "eigen",
             "target": "pykep"
           },
           {
@@ -27695,15 +27079,11 @@
           },
           {
             "source": "eigen",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "eigen",
             "target": "rdkit"
-          },
-          {
-            "source": "eigen",
-            "target": "scikit-allel"
           },
           {
             "source": "eigen",
@@ -27728,18 +27108,6 @@
           {
             "source": "eigen",
             "target": "tardigrade_vector_tools"
-          },
-          {
-            "source": "eigen",
-            "target": "torchdata"
-          },
-          {
-            "source": "eigen",
-            "target": "torchvision"
-          },
-          {
-            "source": "eigen",
-            "target": "triton"
           },
           {
             "source": "eigen",
@@ -29395,10 +28763,6 @@
           },
           {
             "source": "fmt",
-            "target": "allennlp"
-          },
-          {
-            "source": "fmt",
             "target": "bipedal-locomotion-framework"
           },
           {
@@ -29411,15 +28775,7 @@
           },
           {
             "source": "fmt",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "fmt",
             "target": "dartsim"
-          },
-          {
-            "source": "fmt",
-            "target": "dgl"
           },
           {
             "source": "fmt",
@@ -29427,27 +28783,11 @@
           },
           {
             "source": "fmt",
-            "target": "easyocr"
-          },
-          {
-            "source": "fmt",
             "target": "fairlogger"
           },
           {
             "source": "fmt",
-            "target": "fairscale"
-          },
-          {
-            "source": "fmt",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "fmt",
-            "target": "flash-attn"
-          },
-          {
-            "source": "fmt",
-            "target": "fvdb-core"
           },
           {
             "source": "fmt",
@@ -29463,10 +28803,6 @@
           },
           {
             "source": "fmt",
-            "target": "gymnasium"
-          },
-          {
-            "source": "fmt",
             "target": "heyoka"
           },
           {
@@ -29475,15 +28811,7 @@
           },
           {
             "source": "fmt",
-            "target": "horovod"
-          },
-          {
-            "source": "fmt",
             "target": "implicit"
-          },
-          {
-            "source": "fmt",
-            "target": "kaolin"
           },
           {
             "source": "fmt",
@@ -29507,10 +28835,6 @@
           },
           {
             "source": "fmt",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "fmt",
             "target": "micromamba"
           },
           {
@@ -29523,23 +28847,7 @@
           },
           {
             "source": "fmt",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "fmt",
-            "target": "nvmath"
-          },
-          {
-            "source": "fmt",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "fmt",
             "target": "openimageio"
-          },
-          {
-            "source": "fmt",
-            "target": "openvino"
           },
           {
             "source": "fmt",
@@ -29547,23 +28855,15 @@
           },
           {
             "source": "fmt",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "fmt",
             "target": "pykep"
           },
           {
             "source": "fmt",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "fmt",
             "target": "remage"
-          },
-          {
-            "source": "fmt",
-            "target": "scikit-allel"
           },
           {
             "source": "fmt",
@@ -29575,19 +28875,7 @@
           },
           {
             "source": "fmt",
-            "target": "torchdata"
-          },
-          {
-            "source": "fmt",
-            "target": "torchvision"
-          },
-          {
-            "source": "fmt",
             "target": "treelite"
-          },
-          {
-            "source": "fmt",
-            "target": "triton"
           },
           {
             "source": "fmt",
@@ -33787,10 +33075,6 @@
           },
           {
             "source": "gmp",
-            "target": "pycryptodome"
-          },
-          {
-            "source": "gmp",
             "target": "pycryptodomex"
           },
           {
@@ -33851,10 +33135,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "allennlp"
-          },
-          {
-            "source": "gmpy2",
             "target": "ambertools"
           },
           {
@@ -33863,23 +33143,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "gmpy2",
             "target": "cwinpy"
-          },
-          {
-            "source": "gmpy2",
-            "target": "dgl"
-          },
-          {
-            "source": "gmpy2",
-            "target": "easyocr"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fairscale"
           },
           {
             "source": "gmpy2",
@@ -33887,47 +33151,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "flash-attn"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "gmpy2",
-            "target": "gymnasium"
-          },
-          {
-            "source": "gmpy2",
             "target": "heyoka.py"
-          },
-          {
-            "source": "gmpy2",
-            "target": "horovod"
-          },
-          {
-            "source": "gmpy2",
-            "target": "kaolin"
-          },
-          {
-            "source": "gmpy2",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvmath"
-          },
-          {
-            "source": "gmpy2",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "gmpy2",
-            "target": "openvino"
           },
           {
             "source": "gmpy2",
@@ -33936,10 +33160,6 @@
           {
             "source": "gmpy2",
             "target": "pycbc"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pyg-lib"
           },
           {
             "source": "gmpy2",
@@ -33955,7 +33175,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "gmpy2",
@@ -33967,27 +33187,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "gmpy2",
             "target": "shap"
           },
           {
             "source": "gmpy2",
             "target": "sunode"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchdata"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchvision"
-          },
-          {
-            "source": "gmpy2",
-            "target": "triton"
           },
           {
             "source": "gmp",
@@ -34435,15 +33639,7 @@
           },
           {
             "source": "graphviz",
-            "target": "allennlp"
-          },
-          {
-            "source": "graphviz",
             "target": "catboost"
-          },
-          {
-            "source": "graphviz",
-            "target": "causal-conv1d"
           },
           {
             "source": "graphviz",
@@ -34451,35 +33647,7 @@
           },
           {
             "source": "graphviz",
-            "target": "dgl"
-          },
-          {
-            "source": "graphviz",
-            "target": "easyocr"
-          },
-          {
-            "source": "graphviz",
-            "target": "fairscale"
-          },
-          {
-            "source": "graphviz",
-            "target": "flash-attn"
-          },
-          {
-            "source": "graphviz",
             "target": "freecad"
-          },
-          {
-            "source": "graphviz",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "graphviz",
-            "target": "gymnasium"
-          },
-          {
-            "source": "graphviz",
-            "target": "horovod"
           },
           {
             "source": "graphviz",
@@ -34487,15 +33655,7 @@
           },
           {
             "source": "graphviz",
-            "target": "kaolin"
-          },
-          {
-            "source": "graphviz",
             "target": "libsemigroups_pybind11"
-          },
-          {
-            "source": "graphviz",
-            "target": "mamba-ssm"
           },
           {
             "source": "graphviz",
@@ -34507,23 +33667,7 @@
           },
           {
             "source": "graphviz",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "graphviz",
-            "target": "nvmath"
-          },
-          {
-            "source": "graphviz",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "graphviz",
             "target": "openscenegraph"
-          },
-          {
-            "source": "graphviz",
-            "target": "openvino"
           },
           {
             "source": "graphviz",
@@ -34531,35 +33675,15 @@
           },
           {
             "source": "graphviz",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "graphviz",
             "target": "pygraphviz"
           },
           {
             "source": "graphviz",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "graphviz",
             "target": "root"
-          },
-          {
-            "source": "graphviz",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchdata"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchvision"
-          },
-          {
-            "source": "graphviz",
-            "target": "triton"
           },
           {
             "source": "greenlet",
@@ -34875,35 +33999,7 @@
           },
           {
             "source": "grep",
-            "target": "allennlp"
-          },
-          {
-            "source": "grep",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "grep",
-            "target": "dgl"
-          },
-          {
-            "source": "grep",
-            "target": "easyocr"
-          },
-          {
-            "source": "grep",
-            "target": "fairscale"
-          },
-          {
-            "source": "grep",
             "target": "fastjet-contrib"
-          },
-          {
-            "source": "grep",
-            "target": "flash-attn"
-          },
-          {
-            "source": "grep",
-            "target": "fvdb-core"
           },
           {
             "source": "grep",
@@ -34911,39 +34007,11 @@
           },
           {
             "source": "grep",
-            "target": "gymnasium"
-          },
-          {
-            "source": "grep",
-            "target": "horovod"
-          },
-          {
-            "source": "grep",
-            "target": "kaolin"
-          },
-          {
-            "source": "grep",
             "target": "libprotobuf"
           },
           {
             "source": "grep",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "grep",
             "target": "numactl"
-          },
-          {
-            "source": "grep",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "grep",
-            "target": "nvmath"
-          },
-          {
-            "source": "grep",
-            "target": "nvmolkit"
           },
           {
             "source": "grep",
@@ -34963,15 +34031,7 @@
           },
           {
             "source": "grep",
-            "target": "openvino"
-          },
-          {
-            "source": "grep",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "grep",
@@ -34980,22 +34040,6 @@
           {
             "source": "grep",
             "target": "rivet"
-          },
-          {
-            "source": "grep",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "grep",
-            "target": "torchdata"
-          },
-          {
-            "source": "grep",
-            "target": "torchvision"
-          },
-          {
-            "source": "grep",
-            "target": "triton"
           },
           {
             "source": "grep",
@@ -36903,10 +35947,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "hypothesis",
             "target": "cctbx-base"
           },
           {
@@ -36955,10 +35995,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "dgl"
-          },
-          {
-            "source": "hypothesis",
             "target": "dulwich"
           },
           {
@@ -36968,10 +36004,6 @@
           {
             "source": "hypothesis",
             "target": "fabio"
-          },
-          {
-            "source": "hypothesis",
-            "target": "fairscale"
           },
           {
             "source": "hypothesis",
@@ -36987,15 +36019,7 @@
           },
           {
             "source": "hypothesis",
-            "target": "flash-attn"
-          },
-          {
-            "source": "hypothesis",
             "target": "forte2"
-          },
-          {
-            "source": "hypothesis",
-            "target": "fvdb-core"
           },
           {
             "source": "hypothesis",
@@ -37012,10 +36036,6 @@
           {
             "source": "hypothesis",
             "target": "gymnasium"
-          },
-          {
-            "source": "hypothesis",
-            "target": "horovod"
           },
           {
             "source": "hypothesis",
@@ -37044,10 +36064,6 @@
           {
             "source": "hypothesis",
             "target": "libcst"
-          },
-          {
-            "source": "hypothesis",
-            "target": "mamba-ssm"
           },
           {
             "source": "hypothesis",
@@ -37099,27 +36115,11 @@
           },
           {
             "source": "hypothesis",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "hypothesis",
-            "target": "nvmath"
-          },
-          {
-            "source": "hypothesis",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "hypothesis",
             "target": "opencv"
           },
           {
             "source": "hypothesis",
             "target": "openmeeg"
-          },
-          {
-            "source": "hypothesis",
-            "target": "openvino"
           },
           {
             "source": "hypothesis",
@@ -37159,10 +36159,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "hypothesis",
             "target": "pygmo"
           },
           {
@@ -37199,7 +36195,7 @@
           },
           {
             "source": "hypothesis",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "hypothesis",
@@ -37315,15 +36311,7 @@
           },
           {
             "source": "hypothesis",
-            "target": "torchvision"
-          },
-          {
-            "source": "hypothesis",
             "target": "tornado"
-          },
-          {
-            "source": "hypothesis",
-            "target": "triton"
           },
           {
             "source": "hypothesis",
@@ -38387,10 +37375,6 @@
           },
           {
             "source": "lapack",
-            "target": "allennlp"
-          },
-          {
-            "source": "lapack",
             "target": "ambertools"
           },
           {
@@ -38428,10 +37412,6 @@
           {
             "source": "lapack",
             "target": "casadi"
-          },
-          {
-            "source": "lapack",
-            "target": "causal-conv1d"
           },
           {
             "source": "lapack",
@@ -38487,10 +37467,6 @@
           },
           {
             "source": "lapack",
-            "target": "easyocr"
-          },
-          {
-            "source": "lapack",
             "target": "elpa"
           },
           {
@@ -38500,10 +37476,6 @@
           {
             "source": "lapack",
             "target": "ensmallen"
-          },
-          {
-            "source": "lapack",
-            "target": "fairscale"
           },
           {
             "source": "lapack",
@@ -38523,15 +37495,7 @@
           },
           {
             "source": "lapack",
-            "target": "flash-attn"
-          },
-          {
-            "source": "lapack",
             "target": "forte2"
-          },
-          {
-            "source": "lapack",
-            "target": "fvdb-core"
           },
           {
             "source": "lapack",
@@ -38563,15 +37527,7 @@
           },
           {
             "source": "lapack",
-            "target": "gymnasium"
-          },
-          {
-            "source": "lapack",
             "target": "heyoka"
-          },
-          {
-            "source": "lapack",
-            "target": "horovod"
           },
           {
             "source": "lapack",
@@ -38604,10 +37560,6 @@
           {
             "source": "lapack",
             "target": "julia"
-          },
-          {
-            "source": "lapack",
-            "target": "kaolin"
           },
           {
             "source": "lapack",
@@ -38647,10 +37599,6 @@
           },
           {
             "source": "lapack",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "lapack",
             "target": "matrixswitch"
           },
           {
@@ -38687,18 +37635,6 @@
           },
           {
             "source": "lapack",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "lapack",
-            "target": "nvmath"
-          },
-          {
-            "source": "lapack",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "lapack",
             "target": "octave"
           },
           {
@@ -38720,10 +37656,6 @@
           {
             "source": "lapack",
             "target": "opentrustregion"
-          },
-          {
-            "source": "lapack",
-            "target": "openvino"
           },
           {
             "source": "lapack",
@@ -38763,10 +37695,6 @@
           },
           {
             "source": "lapack",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "lapack",
             "target": "pykep"
           },
           {
@@ -38779,7 +37707,7 @@
           },
           {
             "source": "lapack",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "lapack",
@@ -39051,10 +37979,6 @@
           },
           {
             "source": "lapack",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "lapack",
             "target": "scipy"
           },
           {
@@ -39100,18 +38024,6 @@
           {
             "source": "lapack",
             "target": "tempo2"
-          },
-          {
-            "source": "lapack",
-            "target": "torchdata"
-          },
-          {
-            "source": "lapack",
-            "target": "torchvision"
-          },
-          {
-            "source": "lapack",
-            "target": "triton"
           },
           {
             "source": "lapack",
@@ -43479,10 +42391,6 @@
           },
           {
             "source": "libprotobuf",
-            "target": "allennlp"
-          },
-          {
-            "source": "libprotobuf",
             "target": "arrow-cpp"
           },
           {
@@ -43495,10 +42403,6 @@
           },
           {
             "source": "libprotobuf",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "libprotobuf",
             "target": "cpp-opentelemetry-sdk"
           },
           {
@@ -43508,26 +42412,6 @@
           {
             "source": "libprotobuf",
             "target": "datafusion"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "dgl"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "easyocr"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "fairscale"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "flash-attn"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "fvdb-core"
           },
           {
             "source": "libprotobuf",
@@ -43544,10 +42428,6 @@
           {
             "source": "libprotobuf",
             "target": "grpc_java_plugin"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "gymnasium"
           },
           {
             "source": "libprotobuf",
@@ -43579,15 +42459,7 @@
           },
           {
             "source": "libprotobuf",
-            "target": "horovod"
-          },
-          {
-            "source": "libprotobuf",
             "target": "jaxlib"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "kaolin"
           },
           {
             "source": "libprotobuf",
@@ -43603,10 +42475,6 @@
           },
           {
             "source": "libprotobuf",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "libprotobuf",
             "target": "moonrepo-moon"
           },
           {
@@ -43616,18 +42484,6 @@
           {
             "source": "libprotobuf",
             "target": "mysql"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "nvmath"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "nvmolkit"
           },
           {
             "source": "libprotobuf",
@@ -43655,23 +42511,15 @@
           },
           {
             "source": "libprotobuf",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "libprotobuf",
             "target": "pylance"
           },
           {
             "source": "libprotobuf",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "libprotobuf",
             "target": "qgis"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "scikit-allel"
           },
           {
             "source": "libprotobuf",
@@ -43692,18 +42540,6 @@
           {
             "source": "libprotobuf",
             "target": "tensorstore"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "torchdata"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "torchvision"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "triton"
           },
           {
             "source": "libprotobuf",
@@ -50963,35 +49799,7 @@
           },
           {
             "source": "libuv",
-            "target": "allennlp"
-          },
-          {
-            "source": "libuv",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "libuv",
             "target": "cmake"
-          },
-          {
-            "source": "libuv",
-            "target": "dgl"
-          },
-          {
-            "source": "libuv",
-            "target": "easyocr"
-          },
-          {
-            "source": "libuv",
-            "target": "fairscale"
-          },
-          {
-            "source": "libuv",
-            "target": "flash-attn"
-          },
-          {
-            "source": "libuv",
-            "target": "fvdb-core"
           },
           {
             "source": "libuv",
@@ -50999,23 +49807,7 @@
           },
           {
             "source": "libuv",
-            "target": "gymnasium"
-          },
-          {
-            "source": "libuv",
-            "target": "horovod"
-          },
-          {
-            "source": "libuv",
-            "target": "kaolin"
-          },
-          {
-            "source": "libuv",
             "target": "libwebsockets"
-          },
-          {
-            "source": "libuv",
-            "target": "mamba-ssm"
           },
           {
             "source": "libuv",
@@ -51023,27 +49815,7 @@
           },
           {
             "source": "libuv",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "libuv",
-            "target": "nvmath"
-          },
-          {
-            "source": "libuv",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "libuv",
-            "target": "openvino"
-          },
-          {
-            "source": "libuv",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "libuv",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "libuv",
@@ -51055,23 +49827,7 @@
           },
           {
             "source": "libuv",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "libuv",
             "target": "shs-libcxi"
-          },
-          {
-            "source": "libuv",
-            "target": "torchdata"
-          },
-          {
-            "source": "libuv",
-            "target": "torchvision"
-          },
-          {
-            "source": "libuv",
-            "target": "triton"
           },
           {
             "source": "libuv",
@@ -54435,10 +53191,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "markupsafe",
             "target": "cctbx-base"
           },
           {
@@ -54487,10 +53239,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "dgl"
-          },
-          {
-            "source": "markupsafe",
             "target": "digital_rf"
           },
           {
@@ -54511,10 +53259,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "fairscale"
-          },
-          {
-            "source": "markupsafe",
             "target": "fenics-basix"
           },
           {
@@ -54528,14 +53272,6 @@
           {
             "source": "markupsafe",
             "target": "fish"
-          },
-          {
-            "source": "markupsafe",
-            "target": "flash-attn"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fvdb-core"
           },
           {
             "source": "markupsafe",
@@ -54580,10 +53316,6 @@
           {
             "source": "markupsafe",
             "target": "gz-utils"
-          },
-          {
-            "source": "markupsafe",
-            "target": "horovod"
           },
           {
             "source": "markupsafe",
@@ -54667,10 +53399,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "markupsafe",
             "target": "mcstas-suite"
           },
           {
@@ -54727,18 +53455,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvmath"
-          },
-          {
-            "source": "markupsafe",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "markupsafe",
             "target": "ompl"
           },
           {
@@ -54764,10 +53480,6 @@
           {
             "source": "markupsafe",
             "target": "openusd"
-          },
-          {
-            "source": "markupsafe",
-            "target": "openvino"
           },
           {
             "source": "markupsafe",
@@ -54823,10 +53535,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "markupsafe",
             "target": "pygame-ce"
           },
           {
@@ -54867,7 +53575,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "markupsafe",
@@ -55023,15 +53731,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "torchvision"
-          },
-          {
-            "source": "markupsafe",
             "target": "trintrin"
-          },
-          {
-            "source": "markupsafe",
-            "target": "triton"
           },
           {
             "source": "markupsafe",
@@ -56395,10 +55095,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "msgpack-python",
             "target": "conda"
           },
           {
@@ -56419,43 +55115,11 @@
           },
           {
             "source": "msgpack-python",
-            "target": "dgl"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "easyocr"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "fairscale"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "flash-attn"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "msgpack-python",
             "target": "glum"
           },
           {
             "source": "msgpack-python",
             "target": "gymnasium"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "horovod"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "kaolin"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "mamba-ssm"
           },
           {
             "source": "msgpack-python",
@@ -56475,27 +55139,7 @@
           },
           {
             "source": "msgpack-python",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "nvmath"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "openvino"
-          },
-          {
-            "source": "msgpack-python",
             "target": "psi4"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "pyg-lib"
           },
           {
             "source": "msgpack-python",
@@ -56503,7 +55147,7 @@
           },
           {
             "source": "msgpack-python",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "msgpack-python",
@@ -56540,14 +55184,6 @@
           {
             "source": "msgpack-python",
             "target": "torchdata"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "torchvision"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "triton"
           },
           {
             "source": "msgpack-python",
@@ -57535,10 +56171,6 @@
           },
           {
             "source": "ninja",
-            "target": "allennlp"
-          },
-          {
-            "source": "ninja",
             "target": "ampl-asl"
           },
           {
@@ -58027,10 +56659,6 @@
           },
           {
             "source": "ninja",
-            "target": "fairscale"
-          },
-          {
-            "source": "ninja",
             "target": "faiss-split"
           },
           {
@@ -58271,10 +56899,6 @@
           },
           {
             "source": "ninja",
-            "target": "gymnasium"
-          },
-          {
-            "source": "ninja",
             "target": "gz-cmake"
           },
           {
@@ -58356,10 +56980,6 @@
           {
             "source": "ninja",
             "target": "heyoka.py"
-          },
-          {
-            "source": "ninja",
-            "target": "horovod"
           },
           {
             "source": "ninja",
@@ -58452,10 +57072,6 @@
           {
             "source": "ninja",
             "target": "kahip"
-          },
-          {
-            "source": "ninja",
-            "target": "kaolin"
           },
           {
             "source": "ninja",
@@ -59111,10 +57727,6 @@
           },
           {
             "source": "ninja",
-            "target": "nvmath"
-          },
-          {
-            "source": "ninja",
             "target": "nvmolkit"
           },
           {
@@ -59264,10 +57876,6 @@
           {
             "source": "ninja",
             "target": "osqp-eigen"
-          },
-          {
-            "source": "ninja",
-            "target": "ovito"
           },
           {
             "source": "ninja",
@@ -59443,10 +58051,6 @@
           },
           {
             "source": "ninja",
-            "target": "pyqt"
-          },
-          {
-            "source": "ninja",
             "target": "pyshtools"
           },
           {
@@ -59480,6 +58084,10 @@
           {
             "source": "ninja",
             "target": "pytinyrenderer"
+          },
+          {
+            "source": "ninja",
+            "target": "pytorch-cpu"
           },
           {
             "source": "ninja",
@@ -59712,10 +58320,6 @@
           {
             "source": "ninja",
             "target": "scenepic"
-          },
-          {
-            "source": "ninja",
-            "target": "scikit-allel"
           },
           {
             "source": "ninja",
@@ -59979,10 +58583,6 @@
           },
           {
             "source": "ninja",
-            "target": "torchvision"
-          },
-          {
-            "source": "ninja",
             "target": "tree-sitter-cli"
           },
           {
@@ -60060,6 +58660,10 @@
           {
             "source": "ninja",
             "target": "vtk"
+          },
+          {
+            "source": "ninja",
+            "target": "vulkan-headers"
           },
           {
             "source": "ninja",
@@ -61091,10 +59695,6 @@
           },
           {
             "source": "numpy",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "numpy",
             "target": "cccl-python"
           },
           {
@@ -61283,10 +59883,6 @@
           },
           {
             "source": "numpy",
-            "target": "fairscale"
-          },
-          {
-            "source": "numpy",
             "target": "faiss-split"
           },
           {
@@ -61320,10 +59916,6 @@
           {
             "source": "numpy",
             "target": "fisx"
-          },
-          {
-            "source": "numpy",
-            "target": "flash-attn"
           },
           {
             "source": "numpy",
@@ -61492,10 +60084,6 @@
           {
             "source": "numpy",
             "target": "hmmlearn"
-          },
-          {
-            "source": "numpy",
-            "target": "horovod"
           },
           {
             "source": "numpy",
@@ -62035,10 +60623,6 @@
           },
           {
             "source": "numpy",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "numpy",
             "target": "pyg4ometry"
           },
           {
@@ -62207,7 +60791,7 @@
           },
           {
             "source": "numpy",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "numpy",
@@ -62448,10 +61032,6 @@
           {
             "source": "numpy",
             "target": "treelite"
-          },
-          {
-            "source": "numpy",
-            "target": "triton"
           },
           {
             "source": "numpy",
@@ -62795,95 +61375,15 @@
           },
           {
             "source": "onednn",
-            "target": "allennlp"
-          },
-          {
-            "source": "onednn",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "onednn",
-            "target": "dgl"
-          },
-          {
-            "source": "onednn",
-            "target": "easyocr"
-          },
-          {
-            "source": "onednn",
-            "target": "fairscale"
-          },
-          {
-            "source": "onednn",
-            "target": "flash-attn"
-          },
-          {
-            "source": "onednn",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "onednn",
-            "target": "gymnasium"
-          },
-          {
-            "source": "onednn",
-            "target": "horovod"
-          },
-          {
-            "source": "onednn",
             "target": "jaxlib"
           },
           {
             "source": "onednn",
-            "target": "kaolin"
-          },
-          {
-            "source": "onednn",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "onednn",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "onednn",
-            "target": "nvmath"
-          },
-          {
-            "source": "onednn",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "onednn",
-            "target": "openvino"
-          },
-          {
-            "source": "onednn",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "onednn",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "onednn",
-            "target": "scikit-allel"
+            "target": "pytorch-cpu"
           },
           {
             "source": "onednn",
             "target": "tensorflow"
-          },
-          {
-            "source": "onednn",
-            "target": "torchdata"
-          },
-          {
-            "source": "onednn",
-            "target": "torchvision"
-          },
-          {
-            "source": "onednn",
-            "target": "triton"
           },
           {
             "source": "oniguruma",
@@ -63251,10 +61751,6 @@
           },
           {
             "source": "openmp",
-            "target": "allennlp"
-          },
-          {
-            "source": "openmp",
             "target": "arrow-cpp"
           },
           {
@@ -63284,10 +61780,6 @@
           {
             "source": "openmp",
             "target": "catboost"
-          },
-          {
-            "source": "openmp",
-            "target": "causal-conv1d"
           },
           {
             "source": "openmp",
@@ -63375,10 +61867,6 @@
           },
           {
             "source": "openmp",
-            "target": "fairscale"
-          },
-          {
-            "source": "openmp",
             "target": "faiss-split"
           },
           {
@@ -63387,15 +61875,7 @@
           },
           {
             "source": "openmp",
-            "target": "flash-attn"
-          },
-          {
-            "source": "openmp",
             "target": "fluidsynth"
-          },
-          {
-            "source": "openmp",
-            "target": "fvdb-core"
           },
           {
             "source": "openmp",
@@ -63459,19 +61939,11 @@
           },
           {
             "source": "openmp",
-            "target": "gymnasium"
-          },
-          {
-            "source": "openmp",
             "target": "hdf5"
           },
           {
             "source": "openmp",
             "target": "healpix_cxx"
-          },
-          {
-            "source": "openmp",
-            "target": "horovod"
           },
           {
             "source": "openmp",
@@ -63723,10 +62195,6 @@
           },
           {
             "source": "openmp",
-            "target": "kaolin"
-          },
-          {
-            "source": "openmp",
             "target": "kokkos"
           },
           {
@@ -63796,10 +62264,6 @@
           {
             "source": "openmp",
             "target": "linux-perf"
-          },
-          {
-            "source": "openmp",
-            "target": "mamba-ssm"
           },
           {
             "source": "openmp",
@@ -63903,15 +62367,7 @@
           },
           {
             "source": "openmp",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "openmp",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "openmp",
-            "target": "nvmath"
           },
           {
             "source": "openmp",
@@ -63944,10 +62400,6 @@
           {
             "source": "openmp",
             "target": "opensees"
-          },
-          {
-            "source": "openmp",
-            "target": "openvino"
           },
           {
             "source": "openmp",
@@ -64039,7 +62491,7 @@
           },
           {
             "source": "openmp",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "openmp",
@@ -64135,10 +62587,6 @@
           },
           {
             "source": "openmp",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "openmp",
             "target": "scikit-learn"
           },
           {
@@ -64223,23 +62671,11 @@
           },
           {
             "source": "openmp",
-            "target": "torchdata"
-          },
-          {
-            "source": "openmp",
-            "target": "torchvision"
-          },
-          {
-            "source": "openmp",
             "target": "tree-sitter-cli"
           },
           {
             "source": "openmp",
             "target": "treelite"
-          },
-          {
-            "source": "openmp",
-            "target": "triton"
           },
           {
             "source": "openmp",
@@ -65207,91 +63643,11 @@
           },
           {
             "source": "optree",
-            "target": "allennlp"
-          },
-          {
-            "source": "optree",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "optree",
-            "target": "dgl"
-          },
-          {
-            "source": "optree",
-            "target": "easyocr"
-          },
-          {
-            "source": "optree",
-            "target": "fairscale"
-          },
-          {
-            "source": "optree",
-            "target": "flash-attn"
-          },
-          {
-            "source": "optree",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "optree",
-            "target": "gymnasium"
-          },
-          {
-            "source": "optree",
-            "target": "horovod"
-          },
-          {
-            "source": "optree",
-            "target": "kaolin"
-          },
-          {
-            "source": "optree",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "optree",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "optree",
-            "target": "nvmath"
-          },
-          {
-            "source": "optree",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "optree",
-            "target": "openvino"
-          },
-          {
-            "source": "optree",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "optree",
-            "target": "scikit-allel"
+            "target": "pytorch-cpu"
           },
           {
             "source": "optree",
             "target": "tensorflow"
-          },
-          {
-            "source": "optree",
-            "target": "torchdata"
-          },
-          {
-            "source": "optree",
-            "target": "torchvision"
-          },
-          {
-            "source": "optree",
-            "target": "triton"
           },
           {
             "source": "opusfile",
@@ -67191,10 +65547,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "pkg-config",
             "target": "ccache"
           },
           {
@@ -67375,10 +65727,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "dgl"
-          },
-          {
-            "source": "pkg-config",
             "target": "digital_rf"
           },
           {
@@ -67451,10 +65799,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "fairscale"
-          },
-          {
-            "source": "pkg-config",
             "target": "fastar"
           },
           {
@@ -67484,10 +65828,6 @@
           {
             "source": "pkg-config",
             "target": "fiona"
-          },
-          {
-            "source": "pkg-config",
-            "target": "flash-attn"
           },
           {
             "source": "pkg-config",
@@ -67844,10 +66184,6 @@
           {
             "source": "pkg-config",
             "target": "heffte"
-          },
-          {
-            "source": "pkg-config",
-            "target": "horovod"
           },
           {
             "source": "pkg-config",
@@ -68523,10 +66859,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "pkg-config",
             "target": "manimpango"
           },
           {
@@ -68735,19 +67067,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "pkg-config",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "pkg-config",
-            "target": "nvmath"
-          },
-          {
-            "source": "pkg-config",
-            "target": "nvmolkit"
           },
           {
             "source": "pkg-config",
@@ -68995,10 +67315,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "pkg-config",
             "target": "pygame-ce"
           },
           {
@@ -69059,7 +67375,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pkg-config",
@@ -69739,19 +68055,11 @@
           },
           {
             "source": "pkg-config",
-            "target": "torchvision"
-          },
-          {
-            "source": "pkg-config",
             "target": "trexio"
           },
           {
             "source": "pkg-config",
             "target": "trintrin"
-          },
-          {
-            "source": "pkg-config",
-            "target": "triton"
           },
           {
             "source": "pkg-config",
@@ -70783,10 +69091,6 @@
           },
           {
             "source": "protobuf",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "protobuf",
             "target": "cctbx-base"
           },
           {
@@ -70819,19 +69123,11 @@
           },
           {
             "source": "protobuf",
-            "target": "dgl"
-          },
-          {
-            "source": "protobuf",
             "target": "easyocr"
           },
           {
             "source": "protobuf",
             "target": "fabio"
-          },
-          {
-            "source": "protobuf",
-            "target": "fairscale"
           },
           {
             "source": "protobuf",
@@ -70844,14 +69140,6 @@
           {
             "source": "protobuf",
             "target": "fiona"
-          },
-          {
-            "source": "protobuf",
-            "target": "flash-attn"
-          },
-          {
-            "source": "protobuf",
-            "target": "fvdb-core"
           },
           {
             "source": "protobuf",
@@ -70872,10 +69160,6 @@
           {
             "source": "protobuf",
             "target": "gz-msgs"
-          },
-          {
-            "source": "protobuf",
-            "target": "horovod"
           },
           {
             "source": "protobuf",
@@ -70904,10 +69188,6 @@
           {
             "source": "protobuf",
             "target": "libcst"
-          },
-          {
-            "source": "protobuf",
-            "target": "mamba-ssm"
           },
           {
             "source": "protobuf",
@@ -70955,19 +69235,7 @@
           },
           {
             "source": "protobuf",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "protobuf",
             "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "protobuf",
-            "target": "nvmath"
-          },
-          {
-            "source": "protobuf",
-            "target": "nvmolkit"
           },
           {
             "source": "protobuf",
@@ -70984,10 +69252,6 @@
           {
             "source": "protobuf",
             "target": "openmeeg"
-          },
-          {
-            "source": "protobuf",
-            "target": "openvino"
           },
           {
             "source": "protobuf",
@@ -71008,10 +69272,6 @@
           {
             "source": "protobuf",
             "target": "pyarrow"
-          },
-          {
-            "source": "protobuf",
-            "target": "pyg-lib"
           },
           {
             "source": "protobuf",
@@ -71047,7 +69307,7 @@
           },
           {
             "source": "protobuf",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "protobuf",
@@ -71128,14 +69388,6 @@
           {
             "source": "protobuf",
             "target": "torchdata"
-          },
-          {
-            "source": "protobuf",
-            "target": "torchvision"
-          },
-          {
-            "source": "protobuf",
-            "target": "triton"
           },
           {
             "source": "protobuf",
@@ -76783,6 +75035,10 @@
           },
           {
             "source": "python",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "python",
             "target": "pytorch_scatter"
           },
           {
@@ -78250,12 +76506,92 @@
             "target": "z5py"
           },
           {
-            "source": "pywavelets",
-            "target": "tomopy"
+            "source": "pytorch-cpu",
+            "target": "allennlp"
           },
           {
-            "source": "pywin32-ctypes",
-            "target": "allennlp"
+            "source": "pytorch-cpu",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "dgl"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "easyocr"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairscale"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "flash-attn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gymnasium"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "horovod"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "kaolin"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmath"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "openvino"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyg-lib"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchdata"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchvision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "triton"
+          },
+          {
+            "source": "pywavelets",
+            "target": "tomopy"
           },
           {
             "source": "pywin32-ctypes",
@@ -78268,10 +76604,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "bioimage-cpp"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "causal-conv1d"
           },
           {
             "source": "pywin32-ctypes",
@@ -78291,10 +76623,6 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "dgl"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "easyocr"
           },
           {
@@ -78303,35 +76631,11 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "fairscale"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "fiona"
           },
           {
             "source": "pywin32-ctypes",
-            "target": "flash-attn"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "glum"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "gymnasium"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "horovod"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "kaolin"
           },
           {
             "source": "pywin32-ctypes",
@@ -78340,10 +76644,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "laspy"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "mamba-ssm"
           },
           {
             "source": "pywin32-ctypes",
@@ -78356,22 +76656,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "nutpie"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "nvmath"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "openvino"
           },
           {
             "source": "pywin32-ctypes",
@@ -78391,15 +76675,11 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "pyinterp"
           },
           {
             "source": "pywin32-ctypes",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pywin32-ctypes",
@@ -78444,14 +76724,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "torchdata"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "torchvision"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "triton"
           },
           {
             "source": "pywin32-ctypes",
@@ -79135,10 +77407,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "pyyaml",
             "target": "cctbx-base"
           },
           {
@@ -79199,10 +77467,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "fairscale"
-          },
-          {
-            "source": "pyyaml",
             "target": "fenics-basix"
           },
           {
@@ -79215,15 +77479,7 @@
           },
           {
             "source": "pyyaml",
-            "target": "flash-attn"
-          },
-          {
-            "source": "pyyaml",
             "target": "freecad"
-          },
-          {
-            "source": "pyyaml",
-            "target": "fvdb-core"
           },
           {
             "source": "pyyaml",
@@ -79371,23 +77627,11 @@
           },
           {
             "source": "pyyaml",
-            "target": "nvmath"
-          },
-          {
-            "source": "pyyaml",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "pyyaml",
             "target": "opencv"
           },
           {
             "source": "pyyaml",
             "target": "openmeeg"
-          },
-          {
-            "source": "pyyaml",
-            "target": "openvino"
           },
           {
             "source": "pyyaml",
@@ -79431,10 +77675,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "pyyaml",
             "target": "pygame-ce"
           },
           {
@@ -79475,7 +77715,7 @@
           },
           {
             "source": "pyyaml",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pyyaml",
@@ -79576,14 +77816,6 @@
           {
             "source": "pyyaml",
             "target": "torchdata"
-          },
-          {
-            "source": "pyyaml",
-            "target": "torchvision"
-          },
-          {
-            "source": "pyyaml",
-            "target": "triton"
           },
           {
             "source": "pyyaml",
@@ -89819,47 +88051,7 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "allennlp"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "dgl"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "easyocr"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "fairscale"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "flash-attn"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "rapidfuzz",
             "target": "glum"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "gymnasium"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "horovod"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "kaolin"
           },
           {
             "source": "rapidfuzz",
@@ -89867,35 +88059,7 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "nvmath"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "openvino"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "scikit-allel"
+            "target": "pytorch-cpu"
           },
           {
             "source": "rapidfuzz",
@@ -89908,14 +88072,6 @@
           {
             "source": "rapidfuzz",
             "target": "torchdata"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "torchvision"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "triton"
           },
           {
             "source": "rapidjson",
@@ -90935,47 +89091,11 @@
           },
           {
             "source": "rsync",
-            "target": "allennlp"
-          },
-          {
-            "source": "rsync",
             "target": "autobahn"
           },
           {
             "source": "rsync",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "rsync",
             "target": "cppyy"
-          },
-          {
-            "source": "rsync",
-            "target": "dgl"
-          },
-          {
-            "source": "rsync",
-            "target": "easyocr"
-          },
-          {
-            "source": "rsync",
-            "target": "fairscale"
-          },
-          {
-            "source": "rsync",
-            "target": "flash-attn"
-          },
-          {
-            "source": "rsync",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "rsync",
-            "target": "gymnasium"
-          },
-          {
-            "source": "rsync",
-            "target": "horovod"
           },
           {
             "source": "rsync",
@@ -90984,10 +89104,6 @@
           {
             "source": "rsync",
             "target": "jaxlib"
-          },
-          {
-            "source": "rsync",
-            "target": "kaolin"
           },
           {
             "source": "rsync",
@@ -91003,10 +89119,6 @@
           },
           {
             "source": "rsync",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "rsync",
             "target": "mcstas-suite"
           },
           {
@@ -91019,31 +89131,11 @@
           },
           {
             "source": "rsync",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "rsync",
-            "target": "nvmath"
-          },
-          {
-            "source": "rsync",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "rsync",
             "target": "opam"
           },
           {
             "source": "rsync",
-            "target": "openvino"
-          },
-          {
-            "source": "rsync",
             "target": "pcodec"
-          },
-          {
-            "source": "rsync",
-            "target": "pyg-lib"
           },
           {
             "source": "rsync",
@@ -91071,7 +89163,7 @@
           },
           {
             "source": "rsync",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "rsync",
@@ -91079,23 +89171,7 @@
           },
           {
             "source": "rsync",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "rsync",
             "target": "tensorflow"
-          },
-          {
-            "source": "rsync",
-            "target": "torchdata"
-          },
-          {
-            "source": "rsync",
-            "target": "torchvision"
-          },
-          {
-            "source": "rsync",
-            "target": "triton"
           },
           {
             "source": "rtl-sdr",
@@ -94231,91 +92307,11 @@
           },
           {
             "source": "sleef",
-            "target": "allennlp"
-          },
-          {
-            "source": "sleef",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "sleef",
-            "target": "dgl"
-          },
-          {
-            "source": "sleef",
-            "target": "easyocr"
-          },
-          {
-            "source": "sleef",
-            "target": "fairscale"
-          },
-          {
-            "source": "sleef",
-            "target": "flash-attn"
-          },
-          {
-            "source": "sleef",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "sleef",
-            "target": "gymnasium"
-          },
-          {
-            "source": "sleef",
             "target": "heyoka"
           },
           {
             "source": "sleef",
-            "target": "horovod"
-          },
-          {
-            "source": "sleef",
-            "target": "kaolin"
-          },
-          {
-            "source": "sleef",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "sleef",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "sleef",
-            "target": "nvmath"
-          },
-          {
-            "source": "sleef",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "sleef",
-            "target": "openvino"
-          },
-          {
-            "source": "sleef",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "sleef",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "sleef",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "sleef",
-            "target": "torchdata"
-          },
-          {
-            "source": "sleef",
-            "target": "torchvision"
-          },
-          {
-            "source": "sleef",
-            "target": "triton"
+            "target": "pytorch-cpu"
           },
           {
             "source": "slepc",
@@ -97403,10 +95399,6 @@
           },
           {
             "source": "uv",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "uv",
             "target": "cctbx-base"
           },
           {
@@ -97439,19 +95431,11 @@
           },
           {
             "source": "uv",
-            "target": "dgl"
-          },
-          {
-            "source": "uv",
             "target": "easyocr"
           },
           {
             "source": "uv",
             "target": "fabio"
-          },
-          {
-            "source": "uv",
-            "target": "fairscale"
           },
           {
             "source": "uv",
@@ -97471,15 +95455,7 @@
           },
           {
             "source": "uv",
-            "target": "flash-attn"
-          },
-          {
-            "source": "uv",
             "target": "forte2"
-          },
-          {
-            "source": "uv",
-            "target": "fvdb-core"
           },
           {
             "source": "uv",
@@ -97500,10 +95476,6 @@
           {
             "source": "uv",
             "target": "gymnasium"
-          },
-          {
-            "source": "uv",
-            "target": "horovod"
           },
           {
             "source": "uv",
@@ -97859,10 +95831,6 @@
           },
           {
             "source": "uv",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "uv",
             "target": "mcstas-suite"
           },
           {
@@ -97919,27 +95887,11 @@
           },
           {
             "source": "uv",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "uv",
-            "target": "nvmath"
-          },
-          {
-            "source": "uv",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "uv",
             "target": "opencv"
           },
           {
             "source": "uv",
             "target": "openmeeg"
-          },
-          {
-            "source": "uv",
-            "target": "openvino"
           },
           {
             "source": "uv",
@@ -97960,10 +95912,6 @@
           {
             "source": "uv",
             "target": "pyarrow"
-          },
-          {
-            "source": "uv",
-            "target": "pyg-lib"
           },
           {
             "source": "uv",
@@ -98007,7 +95955,7 @@
           },
           {
             "source": "uv",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "uv",
@@ -98100,14 +96048,6 @@
           {
             "source": "uv",
             "target": "torchdata"
-          },
-          {
-            "source": "uv",
-            "target": "torchvision"
-          },
-          {
-            "source": "uv",
-            "target": "triton"
           },
           {
             "source": "uv",
@@ -98264,6 +96204,62 @@
           {
             "source": "vtk",
             "target": "smesh"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "imgui"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "libplacebo"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "ovito"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "pyqt"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "pyside2"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-3d"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-graphs"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-main"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-multimedia"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-webengine"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "vulkan-loader"
           },
           {
             "source": "vulkan-loader",
@@ -100611,10 +98607,6 @@
           },
           {
             "source": "xattr",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "xattr",
             "target": "cctbx-base"
           },
           {
@@ -100647,19 +98639,11 @@
           },
           {
             "source": "xattr",
-            "target": "dgl"
-          },
-          {
-            "source": "xattr",
             "target": "easyocr"
           },
           {
             "source": "xattr",
             "target": "fabio"
-          },
-          {
-            "source": "xattr",
-            "target": "fairscale"
           },
           {
             "source": "xattr",
@@ -100675,23 +98659,11 @@
           },
           {
             "source": "xattr",
-            "target": "flash-attn"
-          },
-          {
-            "source": "xattr",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "xattr",
             "target": "glum"
           },
           {
             "source": "xattr",
             "target": "gymnasium"
-          },
-          {
-            "source": "xattr",
-            "target": "horovod"
           },
           {
             "source": "xattr",
@@ -100720,10 +98692,6 @@
           {
             "source": "xattr",
             "target": "libcst"
-          },
-          {
-            "source": "xattr",
-            "target": "mamba-ssm"
           },
           {
             "source": "xattr",
@@ -100771,27 +98739,11 @@
           },
           {
             "source": "xattr",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "xattr",
-            "target": "nvmath"
-          },
-          {
-            "source": "xattr",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "xattr",
             "target": "opencv"
           },
           {
             "source": "xattr",
             "target": "openmeeg"
-          },
-          {
-            "source": "xattr",
-            "target": "openvino"
           },
           {
             "source": "xattr",
@@ -100812,10 +98764,6 @@
           {
             "source": "xattr",
             "target": "pyarrow"
-          },
-          {
-            "source": "xattr",
-            "target": "pyg-lib"
           },
           {
             "source": "xattr",
@@ -100851,7 +98799,7 @@
           },
           {
             "source": "xattr",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "xattr",
@@ -100936,14 +98884,6 @@
           {
             "source": "xattr",
             "target": "torchdata"
-          },
-          {
-            "source": "xattr",
-            "target": "torchvision"
-          },
-          {
-            "source": "xattr",
-            "target": "triton"
           },
           {
             "source": "xattr",
@@ -104399,10 +102339,6 @@
           },
           {
             "source": "zlib",
-            "target": "allennlp"
-          },
-          {
-            "source": "zlib",
             "target": "ambertools"
           },
           {
@@ -104512,10 +102448,6 @@
           {
             "source": "zlib",
             "target": "catboost"
-          },
-          {
-            "source": "zlib",
-            "target": "causal-conv1d"
           },
           {
             "source": "zlib",
@@ -104715,10 +102647,6 @@
           },
           {
             "source": "zlib",
-            "target": "fairscale"
-          },
-          {
-            "source": "zlib",
             "target": "faiss-split"
           },
           {
@@ -104736,10 +102664,6 @@
           {
             "source": "zlib",
             "target": "flann"
-          },
-          {
-            "source": "zlib",
-            "target": "flash-attn"
           },
           {
             "source": "zlib",
@@ -104975,10 +102899,6 @@
           },
           {
             "source": "zlib",
-            "target": "gymnasium"
-          },
-          {
-            "source": "zlib",
             "target": "harfbuzz"
           },
           {
@@ -105028,10 +102948,6 @@
           {
             "source": "zlib",
             "target": "highspy"
-          },
-          {
-            "source": "zlib",
-            "target": "horovod"
           },
           {
             "source": "zlib",
@@ -105088,10 +103004,6 @@
           {
             "source": "zlib",
             "target": "kahip"
-          },
-          {
-            "source": "zlib",
-            "target": "kaolin"
           },
           {
             "source": "zlib",
@@ -105355,10 +103267,6 @@
           },
           {
             "source": "zlib",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "zlib",
             "target": "mandrake"
           },
           {
@@ -105591,15 +103499,7 @@
           },
           {
             "source": "zlib",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "zlib",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "zlib",
-            "target": "nvmath"
           },
           {
             "source": "zlib",
@@ -105915,7 +103815,7 @@
           },
           {
             "source": "zlib",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "zlib",
@@ -106355,10 +104255,6 @@
           },
           {
             "source": "zlib",
-            "target": "torchvision"
-          },
-          {
-            "source": "zlib",
             "target": "tree-sitter-cli"
           },
           {
@@ -106563,10 +104459,6 @@
           },
           {
             "source": "zstandard",
-            "target": "causal-conv1d"
-          },
-          {
-            "source": "zstandard",
             "target": "cctbx-base"
           },
           {
@@ -106603,19 +104495,11 @@
           },
           {
             "source": "zstandard",
-            "target": "dgl"
-          },
-          {
-            "source": "zstandard",
             "target": "easyocr"
           },
           {
             "source": "zstandard",
             "target": "fabio"
-          },
-          {
-            "source": "zstandard",
-            "target": "fairscale"
           },
           {
             "source": "zstandard",
@@ -106631,14 +104515,6 @@
           },
           {
             "source": "zstandard",
-            "target": "flash-attn"
-          },
-          {
-            "source": "zstandard",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "zstandard",
             "target": "glum"
           },
           {
@@ -106648,10 +104524,6 @@
           {
             "source": "zstandard",
             "target": "gymnasium"
-          },
-          {
-            "source": "zstandard",
-            "target": "horovod"
           },
           {
             "source": "zstandard",
@@ -106680,10 +104552,6 @@
           {
             "source": "zstandard",
             "target": "libcst"
-          },
-          {
-            "source": "zstandard",
-            "target": "mamba-ssm"
           },
           {
             "source": "zstandard",
@@ -106731,27 +104599,11 @@
           },
           {
             "source": "zstandard",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "zstandard",
-            "target": "nvmath"
-          },
-          {
-            "source": "zstandard",
-            "target": "nvmolkit"
-          },
-          {
-            "source": "zstandard",
             "target": "opencv"
           },
           {
             "source": "zstandard",
             "target": "openmeeg"
-          },
-          {
-            "source": "zstandard",
-            "target": "openvino"
           },
           {
             "source": "zstandard",
@@ -106772,10 +104624,6 @@
           {
             "source": "zstandard",
             "target": "pyarrow"
-          },
-          {
-            "source": "zstandard",
-            "target": "pyg-lib"
           },
           {
             "source": "zstandard",
@@ -106815,7 +104663,7 @@
           },
           {
             "source": "zstandard",
-            "target": "pytorch_scatter"
+            "target": "pytorch-cpu"
           },
           {
             "source": "zstandard",
@@ -106900,14 +104748,6 @@
           {
             "source": "zstandard",
             "target": "torchdata"
-          },
-          {
-            "source": "zstandard",
-            "target": "torchvision"
-          },
-          {
-            "source": "zstandard",
-            "target": "triton"
           },
           {
             "source": "zstandard",
@@ -117215,6 +115055,12 @@
             }
           },
           {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
+            }
+          },
+          {
             "id": "pytorch_scatter",
             "payload": {
               "__lazy_json__": "node_attrs/pytorch_scatter.json"
@@ -122288,6 +120134,12 @@
             "id": "vtk",
             "payload": {
               "__lazy_json__": "node_attrs/vtk.json"
+            }
+          },
+          {
+            "id": "vulkan-headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/vulkan-headers.json"
             }
           },
           {
