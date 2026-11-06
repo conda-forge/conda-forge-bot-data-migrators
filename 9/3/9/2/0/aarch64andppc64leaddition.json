@@ -65991,10 +65991,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "gdb"
-          },
-          {
-            "source": "pkg-config",
             "target": "gdk-pixbuf"
           },
           {
@@ -68560,6 +68556,10 @@
           {
             "source": "pkg-config",
             "target": "zziplib"
+          },
+          {
+            "source": "pkgconf",
+            "target": "gdb"
           },
           {
             "source": "pkgconf",
