@@ -115,35 +115,11 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "allennlp"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "arrow-cpp"
           },
           {
             "source": "abseil-cpp",
             "target": "bazel"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "caiman"
           },
           {
             "source": "abseil-cpp",
@@ -159,35 +135,7 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "deepspeed"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "detectron2"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "dgl"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "dm-tree"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "easyocr"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "fairscale"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "fairseq"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "geowombat"
           },
           {
             "source": "abseil-cpp",
@@ -215,19 +163,11 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "grouper"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "grpc-cpp"
           },
           {
             "source": "abseil-cpp",
             "target": "grpc_java_plugin"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "gymnasium"
           },
           {
             "source": "abseil-cpp",
@@ -252,10 +192,6 @@
           {
             "source": "abseil-cpp",
             "target": "gz-transport"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "heat"
           },
           {
             "source": "abseil-cpp",
@@ -295,10 +231,6 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "norse"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "onnxruntime"
           },
           {
@@ -335,23 +267,7 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "pymde"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "abseil-cpp",
@@ -367,23 +283,11 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "sentencepiece"
           },
           {
             "source": "abseil-cpp",
-            "target": "shap"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "singlejar"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "tango"
           },
           {
             "source": "abseil-cpp",
@@ -395,35 +299,11 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "torchdata"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "torchsparse"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "torchtext"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "torchvision"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "tritonclient-split"
           },
           {
             "source": "abseil-cpp",
             "target": "uhd"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "ultranest"
-          },
-          {
-            "source": "abseil-cpp",
-            "target": "xgrammar"
           },
           {
             "source": "ace",
@@ -4327,10 +4207,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "backports.zstd",
             "target": "allennlp-server"
           },
           {
@@ -4344,10 +4220,6 @@
           {
             "source": "backports.zstd",
             "target": "apache-flink"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "arcjetcv"
           },
           {
             "source": "backports.zstd",
@@ -4463,10 +4335,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "deepspeed"
-          },
-          {
-            "source": "backports.zstd",
             "target": "detectron2"
           },
           {
@@ -4520,14 +4388,6 @@
           {
             "source": "backports.zstd",
             "target": "fabio"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "fairscale"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "fairseq"
           },
           {
             "source": "backports.zstd",
@@ -4632,10 +4492,6 @@
           {
             "source": "backports.zstd",
             "target": "hazelbean"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "heat"
           },
           {
             "source": "backports.zstd",
@@ -4751,10 +4607,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "norse"
-          },
-          {
-            "source": "backports.zstd",
             "target": "numba"
           },
           {
@@ -4796,10 +4648,6 @@
           {
             "source": "backports.zstd",
             "target": "openpnm"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "openvino"
           },
           {
             "source": "backports.zstd",
@@ -4995,19 +4843,7 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "backports.zstd",
@@ -5219,10 +5055,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "torchsparse"
-          },
-          {
-            "source": "backports.zstd",
             "target": "torchtext"
           },
           {
@@ -5236,10 +5068,6 @@
           {
             "source": "backports.zstd",
             "target": "uhd"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "ultranest"
           },
           {
             "source": "backports.zstd",
@@ -5292,10 +5120,6 @@
           {
             "source": "backports.zstd",
             "target": "xeus-octave"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "xgrammar"
           },
           {
             "source": "backports.zstd",
@@ -6699,31 +6523,11 @@
           },
           {
             "source": "blas",
-            "target": "allennlp"
-          },
-          {
-            "source": "blas",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "blas",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "blas",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "blas",
             "target": "ambertools"
           },
           {
             "source": "blas",
             "target": "ambit"
-          },
-          {
-            "source": "blas",
-            "target": "arcjetcv"
           },
           {
             "source": "blas",
@@ -6748,10 +6552,6 @@
           {
             "source": "blas",
             "target": "cadet"
-          },
-          {
-            "source": "blas",
-            "target": "caiman"
           },
           {
             "source": "blas",
@@ -6851,14 +6651,6 @@
           },
           {
             "source": "blas",
-            "target": "deepspeed"
-          },
-          {
-            "source": "blas",
-            "target": "detectron2"
-          },
-          {
-            "source": "blas",
             "target": "dftbplus"
           },
           {
@@ -6895,10 +6687,6 @@
           },
           {
             "source": "blas",
-            "target": "easyocr"
-          },
-          {
-            "source": "blas",
             "target": "eatpy"
           },
           {
@@ -6920,14 +6708,6 @@
           {
             "source": "blas",
             "target": "ensmallen"
-          },
-          {
-            "source": "blas",
-            "target": "fairscale"
-          },
-          {
-            "source": "blas",
-            "target": "fairseq"
           },
           {
             "source": "blas",
@@ -6959,10 +6739,6 @@
           },
           {
             "source": "blas",
-            "target": "geowombat"
-          },
-          {
-            "source": "blas",
             "target": "giac"
           },
           {
@@ -6991,23 +6767,11 @@
           },
           {
             "source": "blas",
-            "target": "grouper"
-          },
-          {
-            "source": "blas",
             "target": "gsl"
           },
           {
             "source": "blas",
-            "target": "gymnasium"
-          },
-          {
-            "source": "blas",
             "target": "harminv"
-          },
-          {
-            "source": "blas",
-            "target": "heat"
           },
           {
             "source": "blas",
@@ -7123,10 +6887,6 @@
           },
           {
             "source": "blas",
-            "target": "norse"
-          },
-          {
-            "source": "blas",
             "target": "numcosmo"
           },
           {
@@ -7152,10 +6912,6 @@
           {
             "source": "blas",
             "target": "opentrustregion"
-          },
-          {
-            "source": "blas",
-            "target": "openvino"
           },
           {
             "source": "blas",
@@ -7211,10 +6967,6 @@
           },
           {
             "source": "blas",
-            "target": "pymde"
-          },
-          {
-            "source": "blas",
             "target": "pymeep"
           },
           {
@@ -7227,19 +6979,7 @@
           },
           {
             "source": "blas",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "blas",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "blas",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "blas",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "blas",
@@ -7483,10 +7223,6 @@
           },
           {
             "source": "blas",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "blas",
             "target": "scikit-sparse"
           },
           {
@@ -7523,10 +7259,6 @@
           },
           {
             "source": "blas",
-            "target": "shap"
-          },
-          {
-            "source": "blas",
             "target": "siesta"
           },
           {
@@ -7555,10 +7287,6 @@
           },
           {
             "source": "blas",
-            "target": "tango"
-          },
-          {
-            "source": "blas",
             "target": "tblite"
           },
           {
@@ -7572,22 +7300,6 @@
           {
             "source": "blas",
             "target": "tempo2"
-          },
-          {
-            "source": "blas",
-            "target": "torchdata"
-          },
-          {
-            "source": "blas",
-            "target": "torchsparse"
-          },
-          {
-            "source": "blas",
-            "target": "torchtext"
-          },
-          {
-            "source": "blas",
-            "target": "torchvision"
           },
           {
             "source": "blas",
@@ -7607,15 +7319,7 @@
           },
           {
             "source": "blas",
-            "target": "ultranest"
-          },
-          {
-            "source": "blas",
             "target": "visp"
-          },
-          {
-            "source": "blas",
-            "target": "xgrammar"
           },
           {
             "source": "blas",
@@ -8291,10 +7995,6 @@
           },
           {
             "source": "brotli",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "brotli",
             "target": "allennlp-server"
           },
           {
@@ -8308,10 +8008,6 @@
           {
             "source": "brotli",
             "target": "apache-flink"
-          },
-          {
-            "source": "brotli",
-            "target": "arcjetcv"
           },
           {
             "source": "brotli",
@@ -8443,10 +8139,6 @@
           },
           {
             "source": "brotli",
-            "target": "deepspeed"
-          },
-          {
-            "source": "brotli",
             "target": "detectron2"
           },
           {
@@ -8504,14 +8196,6 @@
           {
             "source": "brotli",
             "target": "fabio"
-          },
-          {
-            "source": "brotli",
-            "target": "fairscale"
-          },
-          {
-            "source": "brotli",
-            "target": "fairseq"
           },
           {
             "source": "brotli",
@@ -8616,10 +8300,6 @@
           {
             "source": "brotli",
             "target": "hazelbean"
-          },
-          {
-            "source": "brotli",
-            "target": "heat"
           },
           {
             "source": "brotli",
@@ -8755,10 +8435,6 @@
           },
           {
             "source": "brotli",
-            "target": "norse"
-          },
-          {
-            "source": "brotli",
             "target": "numba"
           },
           {
@@ -8796,10 +8472,6 @@
           {
             "source": "brotli",
             "target": "openpnm"
-          },
-          {
-            "source": "brotli",
-            "target": "openvino"
           },
           {
             "source": "brotli",
@@ -8999,19 +8671,7 @@
           },
           {
             "source": "brotli",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "brotli",
@@ -9227,10 +8887,6 @@
           },
           {
             "source": "brotli",
-            "target": "torchsparse"
-          },
-          {
-            "source": "brotli",
             "target": "torchtext"
           },
           {
@@ -9244,10 +8900,6 @@
           {
             "source": "brotli",
             "target": "uhd"
-          },
-          {
-            "source": "brotli",
-            "target": "ultranest"
           },
           {
             "source": "brotli",
@@ -9300,10 +8952,6 @@
           {
             "source": "brotli",
             "target": "xeus-octave"
-          },
-          {
-            "source": "brotli",
-            "target": "xgrammar"
           },
           {
             "source": "brotli",
@@ -11903,10 +11551,6 @@
           },
           {
             "source": "cffi",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "cffi",
             "target": "allennlp-server"
           },
           {
@@ -11916,10 +11560,6 @@
           {
             "source": "cffi",
             "target": "apache-beam"
-          },
-          {
-            "source": "cffi",
-            "target": "arcjetcv"
           },
           {
             "source": "cffi",
@@ -12035,10 +11675,6 @@
           },
           {
             "source": "cffi",
-            "target": "deepspeed"
-          },
-          {
-            "source": "cffi",
             "target": "detectron2"
           },
           {
@@ -12048,10 +11684,6 @@
           {
             "source": "cffi",
             "target": "dftd4-python"
-          },
-          {
-            "source": "cffi",
-            "target": "dgl"
           },
           {
             "source": "cffi",
@@ -12076,14 +11708,6 @@
           {
             "source": "cffi",
             "target": "fabio"
-          },
-          {
-            "source": "cffi",
-            "target": "fairscale"
-          },
-          {
-            "source": "cffi",
-            "target": "fairseq"
           },
           {
             "source": "cffi",
@@ -12168,10 +11792,6 @@
           {
             "source": "cffi",
             "target": "hazelbean"
-          },
-          {
-            "source": "cffi",
-            "target": "heat"
           },
           {
             "source": "cffi",
@@ -12263,10 +11883,6 @@
           },
           {
             "source": "cffi",
-            "target": "norse"
-          },
-          {
-            "source": "cffi",
             "target": "numba"
           },
           {
@@ -12296,10 +11912,6 @@
           {
             "source": "cffi",
             "target": "openpnm"
-          },
-          {
-            "source": "cffi",
-            "target": "openvino"
           },
           {
             "source": "cffi",
@@ -12387,10 +11999,6 @@
           },
           {
             "source": "cffi",
-            "target": "pymde"
-          },
-          {
-            "source": "cffi",
             "target": "pymeos-cffi"
           },
           {
@@ -12459,19 +12067,7 @@
           },
           {
             "source": "cffi",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "cffi",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "cffi",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "cffi",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "cffi",
@@ -12643,10 +12239,6 @@
           },
           {
             "source": "cffi",
-            "target": "torchsparse"
-          },
-          {
-            "source": "cffi",
             "target": "torchtext"
           },
           {
@@ -12664,10 +12256,6 @@
           {
             "source": "cffi",
             "target": "ukkonen"
-          },
-          {
-            "source": "cffi",
-            "target": "ultranest"
           },
           {
             "source": "cffi",
@@ -12712,10 +12300,6 @@
           {
             "source": "cffi",
             "target": "xeus-octave"
-          },
-          {
-            "source": "cffi",
-            "target": "xgrammar"
           },
           {
             "source": "cffi",
@@ -12859,35 +12443,11 @@
           },
           {
             "source": "chardet",
-            "target": "allennlp"
-          },
-          {
-            "source": "chardet",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "chardet",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "chardet",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "chardet",
             "target": "almosthere"
           },
           {
             "source": "chardet",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "chardet",
             "target": "bgen"
-          },
-          {
-            "source": "chardet",
-            "target": "caiman"
           },
           {
             "source": "chardet",
@@ -12903,46 +12463,6 @@
           },
           {
             "source": "chardet",
-            "target": "deepspeed"
-          },
-          {
-            "source": "chardet",
-            "target": "detectron2"
-          },
-          {
-            "source": "chardet",
-            "target": "dgl"
-          },
-          {
-            "source": "chardet",
-            "target": "easyocr"
-          },
-          {
-            "source": "chardet",
-            "target": "fairscale"
-          },
-          {
-            "source": "chardet",
-            "target": "fairseq"
-          },
-          {
-            "source": "chardet",
-            "target": "geowombat"
-          },
-          {
-            "source": "chardet",
-            "target": "grouper"
-          },
-          {
-            "source": "chardet",
-            "target": "gymnasium"
-          },
-          {
-            "source": "chardet",
-            "target": "heat"
-          },
-          {
-            "source": "chardet",
             "target": "mcstas-suite"
           },
           {
@@ -12951,15 +12471,7 @@
           },
           {
             "source": "chardet",
-            "target": "norse"
-          },
-          {
-            "source": "chardet",
             "target": "openmm"
-          },
-          {
-            "source": "chardet",
-            "target": "openvino"
           },
           {
             "source": "chardet",
@@ -12967,23 +12479,7 @@
           },
           {
             "source": "chardet",
-            "target": "pymde"
-          },
-          {
-            "source": "chardet",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "chardet",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "chardet",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "chardet",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "chardet",
@@ -12991,43 +12487,7 @@
           },
           {
             "source": "chardet",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "chardet",
-            "target": "shap"
-          },
-          {
-            "source": "chardet",
             "target": "spyder"
-          },
-          {
-            "source": "chardet",
-            "target": "tango"
-          },
-          {
-            "source": "chardet",
-            "target": "torchdata"
-          },
-          {
-            "source": "chardet",
-            "target": "torchsparse"
-          },
-          {
-            "source": "chardet",
-            "target": "torchtext"
-          },
-          {
-            "source": "chardet",
-            "target": "torchvision"
-          },
-          {
-            "source": "chardet",
-            "target": "ultranest"
-          },
-          {
-            "source": "chardet",
-            "target": "xgrammar"
           },
           {
             "source": "charls",
@@ -13239,22 +12699,6 @@
           },
           {
             "source": "cmake",
-            "target": "allennlp"
-          },
-          {
-            "source": "cmake",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "cmake",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "cmake",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "cmake",
             "target": "almosthere"
           },
           {
@@ -13284,10 +12728,6 @@
           {
             "source": "cmake",
             "target": "arborx"
-          },
-          {
-            "source": "cmake",
-            "target": "arcjetcv"
           },
           {
             "source": "cmake",
@@ -13895,19 +13335,11 @@
           },
           {
             "source": "cmake",
-            "target": "deepspeed"
-          },
-          {
-            "source": "cmake",
             "target": "deeptime"
           },
           {
             "source": "cmake",
             "target": "deno"
-          },
-          {
-            "source": "cmake",
-            "target": "detectron2"
           },
           {
             "source": "cmake",
@@ -14080,14 +13512,6 @@
           {
             "source": "cmake",
             "target": "fairlogger"
-          },
-          {
-            "source": "cmake",
-            "target": "fairscale"
-          },
-          {
-            "source": "cmake",
-            "target": "fairseq"
           },
           {
             "source": "cmake",
@@ -14471,19 +13895,11 @@
           },
           {
             "source": "cmake",
-            "target": "gtk4"
-          },
-          {
-            "source": "cmake",
             "target": "gwframe"
           },
           {
             "source": "cmake",
             "target": "gwollum"
-          },
-          {
-            "source": "cmake",
-            "target": "gymnasium"
           },
           {
             "source": "cmake",
@@ -16143,10 +15559,6 @@
           },
           {
             "source": "cmake",
-            "target": "pymde"
-          },
-          {
-            "source": "cmake",
             "target": "pymdi"
           },
           {
@@ -16168,10 +15580,6 @@
           {
             "source": "cmake",
             "target": "pypolymlp"
-          },
-          {
-            "source": "cmake",
-            "target": "pyqt"
           },
           {
             "source": "cmake",
@@ -16263,19 +15671,7 @@
           },
           {
             "source": "cmake",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "cmake",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "cmake",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "cmake",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "cmake",
@@ -16512,10 +15908,6 @@
           {
             "source": "cmake",
             "target": "scenepic"
-          },
-          {
-            "source": "cmake",
-            "target": "scikit-allel"
           },
           {
             "source": "cmake",
@@ -16787,10 +16179,6 @@
           },
           {
             "source": "cmake",
-            "target": "tango"
-          },
-          {
-            "source": "cmake",
             "target": "tango-admin"
           },
           {
@@ -16907,15 +16295,7 @@
           },
           {
             "source": "cmake",
-            "target": "torchsparse"
-          },
-          {
-            "source": "cmake",
             "target": "torchtext"
-          },
-          {
-            "source": "cmake",
-            "target": "torchvision"
           },
           {
             "source": "cmake",
@@ -16964,10 +16344,6 @@
           {
             "source": "cmake",
             "target": "uhd"
-          },
-          {
-            "source": "cmake",
-            "target": "ultranest"
           },
           {
             "source": "cmake",
@@ -17080,6 +16456,10 @@
           {
             "source": "cmake",
             "target": "vtk"
+          },
+          {
+            "source": "cmake",
+            "target": "vulkan-headers"
           },
           {
             "source": "cmake",
@@ -18367,10 +17747,6 @@
           },
           {
             "source": "coverage",
-            "target": "heat"
-          },
-          {
-            "source": "coverage",
             "target": "helios"
           },
           {
@@ -18855,10 +18231,6 @@
           },
           {
             "source": "coverage",
-            "target": "openvino"
-          },
-          {
-            "source": "coverage",
             "target": "opty"
           },
           {
@@ -19060,6 +18432,10 @@
           {
             "source": "coverage",
             "target": "pycrdt"
+          },
+          {
+            "source": "coverage",
+            "target": "pycryptodome"
           },
           {
             "source": "coverage",
@@ -19371,19 +18747,15 @@
           },
           {
             "source": "coverage",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "coverage",
             "target": "pytorch_cluster"
           },
           {
             "source": "coverage",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "coverage",
             "target": "pytorch_sparse"
-          },
-          {
-            "source": "coverage",
-            "target": "pytorch_spline_conv"
           },
           {
             "source": "coverage",
@@ -19768,10 +19140,6 @@
           {
             "source": "coverage",
             "target": "torchdata"
-          },
-          {
-            "source": "coverage",
-            "target": "torchsparse"
           },
           {
             "source": "coverage",
@@ -23119,27 +22487,11 @@
           },
           {
             "source": "dbus",
-            "target": "allennlp"
-          },
-          {
-            "source": "dbus",
             "target": "allennlp-models"
           },
           {
             "source": "dbus",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "dbus",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "dbus",
             "target": "almosthere"
-          },
-          {
-            "source": "dbus",
-            "target": "arcjetcv"
           },
           {
             "source": "dbus",
@@ -23187,18 +22539,6 @@
           },
           {
             "source": "dbus",
-            "target": "deepspeed"
-          },
-          {
-            "source": "dbus",
-            "target": "detectron2"
-          },
-          {
-            "source": "dbus",
-            "target": "dgl"
-          },
-          {
-            "source": "dbus",
             "target": "dials"
           },
           {
@@ -23216,14 +22556,6 @@
           {
             "source": "dbus",
             "target": "fabio"
-          },
-          {
-            "source": "dbus",
-            "target": "fairscale"
-          },
-          {
-            "source": "dbus",
-            "target": "fairseq"
           },
           {
             "source": "dbus",
@@ -23259,19 +22591,7 @@
           },
           {
             "source": "dbus",
-            "target": "grouper"
-          },
-          {
-            "source": "dbus",
-            "target": "gymnasium"
-          },
-          {
-            "source": "dbus",
             "target": "hazelbean"
-          },
-          {
-            "source": "dbus",
-            "target": "heat"
           },
           {
             "source": "dbus",
@@ -23307,10 +22627,6 @@
           },
           {
             "source": "dbus",
-            "target": "norse"
-          },
-          {
-            "source": "dbus",
             "target": "nutpie"
           },
           {
@@ -23328,10 +22644,6 @@
           {
             "source": "dbus",
             "target": "openpnm"
-          },
-          {
-            "source": "dbus",
-            "target": "openvino"
           },
           {
             "source": "dbus",
@@ -23371,10 +22683,6 @@
           },
           {
             "source": "dbus",
-            "target": "pymde"
-          },
-          {
-            "source": "dbus",
             "target": "pypeit"
           },
           {
@@ -23395,19 +22703,7 @@
           },
           {
             "source": "dbus",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "dbus",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "dbus",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "dbus",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "dbus",
@@ -23447,10 +22743,6 @@
           },
           {
             "source": "dbus",
-            "target": "shap"
-          },
-          {
-            "source": "dbus",
             "target": "sktime"
           },
           {
@@ -23487,10 +22779,6 @@
           },
           {
             "source": "dbus",
-            "target": "torchsparse"
-          },
-          {
-            "source": "dbus",
             "target": "torchtext"
           },
           {
@@ -23503,19 +22791,11 @@
           },
           {
             "source": "dbus",
-            "target": "ultranest"
-          },
-          {
-            "source": "dbus",
             "target": "unidist-packages"
           },
           {
             "source": "dbus",
             "target": "uwsift"
-          },
-          {
-            "source": "dbus",
-            "target": "xgrammar"
           },
           {
             "source": "dbus",
@@ -24291,19 +23571,11 @@
           },
           {
             "source": "dulwich",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "dulwich",
             "target": "allennlp-server"
           },
           {
             "source": "dulwich",
             "target": "almosthere"
-          },
-          {
-            "source": "dulwich",
-            "target": "arcjetcv"
           },
           {
             "source": "dulwich",
@@ -24363,19 +23635,11 @@
           },
           {
             "source": "dulwich",
-            "target": "deepspeed"
-          },
-          {
-            "source": "dulwich",
             "target": "detectron2"
           },
           {
             "source": "dulwich",
             "target": "dftd3-python"
-          },
-          {
-            "source": "dulwich",
-            "target": "dgl"
           },
           {
             "source": "dulwich",
@@ -24400,14 +23664,6 @@
           {
             "source": "dulwich",
             "target": "fabio"
-          },
-          {
-            "source": "dulwich",
-            "target": "fairscale"
-          },
-          {
-            "source": "dulwich",
-            "target": "fairseq"
           },
           {
             "source": "dulwich",
@@ -24464,10 +23720,6 @@
           {
             "source": "dulwich",
             "target": "hazelbean"
-          },
-          {
-            "source": "dulwich",
-            "target": "heat"
           },
           {
             "source": "dulwich",
@@ -24551,10 +23803,6 @@
           },
           {
             "source": "dulwich",
-            "target": "norse"
-          },
-          {
-            "source": "dulwich",
             "target": "numba"
           },
           {
@@ -24584,10 +23832,6 @@
           {
             "source": "dulwich",
             "target": "openpnm"
-          },
-          {
-            "source": "dulwich",
-            "target": "openvino"
           },
           {
             "source": "dulwich",
@@ -24643,10 +23887,6 @@
           },
           {
             "source": "dulwich",
-            "target": "pymde"
-          },
-          {
-            "source": "dulwich",
             "target": "pynacl"
           },
           {
@@ -24695,19 +23935,7 @@
           },
           {
             "source": "dulwich",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "dulwich",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "dulwich",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "dulwich",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "dulwich",
@@ -24811,10 +24039,6 @@
           },
           {
             "source": "dulwich",
-            "target": "tango"
-          },
-          {
-            "source": "dulwich",
             "target": "tensorflow"
           },
           {
@@ -24835,10 +24059,6 @@
           },
           {
             "source": "dulwich",
-            "target": "torchsparse"
-          },
-          {
-            "source": "dulwich",
             "target": "torchtext"
           },
           {
@@ -24848,10 +24068,6 @@
           {
             "source": "dulwich",
             "target": "trollimage"
-          },
-          {
-            "source": "dulwich",
-            "target": "ultranest"
           },
           {
             "source": "dulwich",
@@ -24888,10 +24104,6 @@
           {
             "source": "dulwich",
             "target": "xeus-octave"
-          },
-          {
-            "source": "dulwich",
-            "target": "xgrammar"
           },
           {
             "source": "dulwich",
@@ -25011,26 +24223,6 @@
           },
           {
             "source": "eigen",
-            "target": "allennlp"
-          },
-          {
-            "source": "eigen",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "eigen",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "eigen",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "eigen",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "eigen",
             "target": "audi"
           },
           {
@@ -25048,10 +24240,6 @@
           {
             "source": "eigen",
             "target": "cadet"
-          },
-          {
-            "source": "eigen",
-            "target": "caiman"
           },
           {
             "source": "eigen",
@@ -25123,18 +24311,6 @@
           },
           {
             "source": "eigen",
-            "target": "deepspeed"
-          },
-          {
-            "source": "eigen",
-            "target": "detectron2"
-          },
-          {
-            "source": "eigen",
-            "target": "dgl"
-          },
-          {
-            "source": "eigen",
             "target": "dials"
           },
           {
@@ -25151,19 +24327,7 @@
           },
           {
             "source": "eigen",
-            "target": "easyocr"
-          },
-          {
-            "source": "eigen",
             "target": "eigenpy"
-          },
-          {
-            "source": "eigen",
-            "target": "fairscale"
-          },
-          {
-            "source": "eigen",
-            "target": "fairseq"
           },
           {
             "source": "eigen",
@@ -25191,10 +24355,6 @@
           },
           {
             "source": "eigen",
-            "target": "geowombat"
-          },
-          {
-            "source": "eigen",
             "target": "gmsh"
           },
           {
@@ -25211,19 +24371,11 @@
           },
           {
             "source": "eigen",
-            "target": "gymnasium"
-          },
-          {
-            "source": "eigen",
             "target": "gz-math"
           },
           {
             "source": "eigen",
             "target": "gz-physics"
-          },
-          {
-            "source": "eigen",
-            "target": "heat"
           },
           {
             "source": "eigen",
@@ -25323,10 +24475,6 @@
           },
           {
             "source": "eigen",
-            "target": "norse"
-          },
-          {
-            "source": "eigen",
             "target": "openbabel"
           },
           {
@@ -25336,10 +24484,6 @@
           {
             "source": "eigen",
             "target": "openmc"
-          },
-          {
-            "source": "eigen",
-            "target": "openvino"
           },
           {
             "source": "eigen",
@@ -25406,10 +24550,6 @@
             "target": "pykep"
           },
           {
-            "source": "eigen",
-            "target": "pymde"
-          },
-          {
             "source": "eigenpy",
             "target": "mim-solvers"
           },
@@ -25423,19 +24563,7 @@
           },
           {
             "source": "eigen",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "eigen",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "eigen",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "eigen",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "eigen",
@@ -25455,15 +24583,7 @@
           },
           {
             "source": "eigen",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "eigen",
             "target": "scilab"
-          },
-          {
-            "source": "eigen",
-            "target": "shap"
           },
           {
             "source": "eigen",
@@ -25472,10 +24592,6 @@
           {
             "source": "eigen",
             "target": "spectralib"
-          },
-          {
-            "source": "eigen",
-            "target": "tango"
           },
           {
             "source": "eigen",
@@ -25503,26 +24619,6 @@
           },
           {
             "source": "eigen",
-            "target": "torchdata"
-          },
-          {
-            "source": "eigen",
-            "target": "torchsparse"
-          },
-          {
-            "source": "eigen",
-            "target": "torchtext"
-          },
-          {
-            "source": "eigen",
-            "target": "torchvision"
-          },
-          {
-            "source": "eigen",
-            "target": "ultranest"
-          },
-          {
-            "source": "eigen",
             "target": "vampyr"
           },
           {
@@ -25540,10 +24636,6 @@
           {
             "source": "eigen",
             "target": "vtk"
-          },
-          {
-            "source": "eigen",
-            "target": "xgrammar"
           },
           {
             "source": "eigen",
@@ -27783,35 +26875,11 @@
           },
           {
             "source": "fmt",
-            "target": "allennlp"
-          },
-          {
-            "source": "fmt",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "fmt",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "fmt",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "fmt",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "fmt",
             "target": "avrocpp"
           },
           {
             "source": "fmt",
             "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "fmt",
-            "target": "caiman"
           },
           {
             "source": "fmt",
@@ -27831,23 +26899,7 @@
           },
           {
             "source": "fmt",
-            "target": "deepspeed"
-          },
-          {
-            "source": "fmt",
-            "target": "detectron2"
-          },
-          {
-            "source": "fmt",
-            "target": "dgl"
-          },
-          {
-            "source": "fmt",
             "target": "dinrail"
-          },
-          {
-            "source": "fmt",
-            "target": "easyocr"
           },
           {
             "source": "fmt",
@@ -27859,19 +26911,7 @@
           },
           {
             "source": "fmt",
-            "target": "fairscale"
-          },
-          {
-            "source": "fmt",
-            "target": "fairseq"
-          },
-          {
-            "source": "fmt",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "fmt",
-            "target": "geowombat"
           },
           {
             "source": "fmt",
@@ -27880,18 +26920,6 @@
           {
             "source": "fmt",
             "target": "gnuradio-satellites"
-          },
-          {
-            "source": "fmt",
-            "target": "grouper"
-          },
-          {
-            "source": "fmt",
-            "target": "gymnasium"
-          },
-          {
-            "source": "fmt",
-            "target": "heat"
           },
           {
             "source": "fmt",
@@ -27943,10 +26971,6 @@
           },
           {
             "source": "fmt",
-            "target": "norse"
-          },
-          {
-            "source": "fmt",
             "target": "obake"
           },
           {
@@ -27959,10 +26983,6 @@
           },
           {
             "source": "fmt",
-            "target": "openvino"
-          },
-          {
-            "source": "fmt",
             "target": "psi4"
           },
           {
@@ -27971,39 +26991,15 @@
           },
           {
             "source": "fmt",
-            "target": "pymde"
-          },
-          {
-            "source": "fmt",
             "target": "pyslang"
           },
           {
             "source": "fmt",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "fmt",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "fmt",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "fmt",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "fmt",
             "target": "remage"
-          },
-          {
-            "source": "fmt",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "fmt",
-            "target": "shap"
           },
           {
             "source": "fmt",
@@ -28023,10 +27019,6 @@
           },
           {
             "source": "fmt",
-            "target": "tango"
-          },
-          {
-            "source": "fmt",
             "target": "tiledb"
           },
           {
@@ -28035,31 +27027,11 @@
           },
           {
             "source": "fmt",
-            "target": "torchdata"
-          },
-          {
-            "source": "fmt",
-            "target": "torchsparse"
-          },
-          {
-            "source": "fmt",
-            "target": "torchtext"
-          },
-          {
-            "source": "fmt",
-            "target": "torchvision"
-          },
-          {
-            "source": "fmt",
             "target": "treelite"
           },
           {
             "source": "fmt",
             "target": "triqs"
-          },
-          {
-            "source": "fmt",
-            "target": "ultranest"
           },
           {
             "source": "fmt",
@@ -28072,10 +27044,6 @@
           {
             "source": "fmt",
             "target": "vtk"
-          },
-          {
-            "source": "fmt",
-            "target": "xgrammar"
           },
           {
             "source": "fontconfig",
@@ -31379,10 +30347,6 @@
           },
           {
             "source": "gmp",
-            "target": "pycryptodome"
-          },
-          {
-            "source": "gmp",
             "target": "pyg4ometry"
           },
           {
@@ -31475,35 +30439,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "allennlp"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "gmpy2",
             "target": "ambertools"
           },
           {
             "source": "gmpy2",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "gmpy2",
             "target": "brian2"
-          },
-          {
-            "source": "gmpy2",
-            "target": "caiman"
           },
           {
             "source": "gmpy2",
@@ -31519,51 +30459,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "deepspeed"
-          },
-          {
-            "source": "gmpy2",
-            "target": "detectron2"
-          },
-          {
-            "source": "gmpy2",
-            "target": "dgl"
-          },
-          {
-            "source": "gmpy2",
-            "target": "easyocr"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fairscale"
-          },
-          {
-            "source": "gmpy2",
-            "target": "fairseq"
-          },
-          {
-            "source": "gmpy2",
             "target": "fenics-dolfinx"
           },
           {
             "source": "gmpy2",
             "target": "finesse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "geowombat"
-          },
-          {
-            "source": "gmpy2",
-            "target": "grouper"
-          },
-          {
-            "source": "gmpy2",
-            "target": "gymnasium"
-          },
-          {
-            "source": "gmpy2",
-            "target": "heat"
           },
           {
             "source": "gmpy2",
@@ -31575,15 +30475,7 @@
           },
           {
             "source": "gmpy2",
-            "target": "norse"
-          },
-          {
-            "source": "gmpy2",
             "target": "openpnm"
-          },
-          {
-            "source": "gmpy2",
-            "target": "openvino"
           },
           {
             "source": "gmpy2",
@@ -31607,27 +30499,11 @@
           },
           {
             "source": "gmpy2",
-            "target": "pymde"
-          },
-          {
-            "source": "gmpy2",
             "target": "python-symengine"
           },
           {
             "source": "gmpy2",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "gmpy2",
@@ -31647,10 +30523,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "gmpy2",
             "target": "sfepy"
           },
           {
@@ -31664,34 +30536,6 @@
           {
             "source": "gmpy2",
             "target": "symjit"
-          },
-          {
-            "source": "gmpy2",
-            "target": "tango"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchdata"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchsparse"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchtext"
-          },
-          {
-            "source": "gmpy2",
-            "target": "torchvision"
-          },
-          {
-            "source": "gmpy2",
-            "target": "ultranest"
-          },
-          {
-            "source": "gmpy2",
-            "target": "xgrammar"
           },
           {
             "source": "gmp",
@@ -32267,30 +31111,6 @@
           },
           {
             "source": "graphviz",
-            "target": "allennlp"
-          },
-          {
-            "source": "graphviz",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "graphviz",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "graphviz",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "graphviz",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "graphviz",
-            "target": "caiman"
-          },
-          {
-            "source": "graphviz",
             "target": "catboost"
           },
           {
@@ -32303,27 +31123,7 @@
           },
           {
             "source": "graphviz",
-            "target": "deepspeed"
-          },
-          {
-            "source": "graphviz",
             "target": "detectron2"
-          },
-          {
-            "source": "graphviz",
-            "target": "dgl"
-          },
-          {
-            "source": "graphviz",
-            "target": "easyocr"
-          },
-          {
-            "source": "graphviz",
-            "target": "fairscale"
-          },
-          {
-            "source": "graphviz",
-            "target": "fairseq"
           },
           {
             "source": "graphviz",
@@ -32332,18 +31132,6 @@
           {
             "source": "graphviz",
             "target": "geowombat"
-          },
-          {
-            "source": "graphviz",
-            "target": "grouper"
-          },
-          {
-            "source": "graphviz",
-            "target": "gymnasium"
-          },
-          {
-            "source": "graphviz",
-            "target": "heat"
           },
           {
             "source": "graphviz",
@@ -32359,19 +31147,11 @@
           },
           {
             "source": "graphviz",
-            "target": "norse"
-          },
-          {
-            "source": "graphviz",
             "target": "nutpie"
           },
           {
             "source": "graphviz",
             "target": "openscenegraph"
-          },
-          {
-            "source": "graphviz",
-            "target": "openvino"
           },
           {
             "source": "graphviz",
@@ -32383,23 +31163,7 @@
           },
           {
             "source": "graphviz",
-            "target": "pymde"
-          },
-          {
-            "source": "graphviz",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "graphviz",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "graphviz",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "graphviz",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "graphviz",
@@ -32411,43 +31175,7 @@
           },
           {
             "source": "graphviz",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "graphviz",
-            "target": "shap"
-          },
-          {
-            "source": "graphviz",
-            "target": "tango"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchdata"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchsparse"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchtext"
-          },
-          {
-            "source": "graphviz",
-            "target": "torchvision"
-          },
-          {
-            "source": "graphviz",
-            "target": "ultranest"
-          },
-          {
-            "source": "graphviz",
             "target": "verilator"
-          },
-          {
-            "source": "graphviz",
-            "target": "xgrammar"
           },
           {
             "source": "greenlet",
@@ -32963,79 +31691,11 @@
           },
           {
             "source": "grep",
-            "target": "allennlp"
-          },
-          {
-            "source": "grep",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "grep",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "grep",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "grep",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "grep",
-            "target": "caiman"
-          },
-          {
-            "source": "grep",
-            "target": "deepspeed"
-          },
-          {
-            "source": "grep",
-            "target": "detectron2"
-          },
-          {
-            "source": "grep",
-            "target": "dgl"
-          },
-          {
-            "source": "grep",
-            "target": "easyocr"
-          },
-          {
-            "source": "grep",
-            "target": "fairscale"
-          },
-          {
-            "source": "grep",
-            "target": "fairseq"
-          },
-          {
-            "source": "grep",
             "target": "gawk"
           },
           {
             "source": "grep",
-            "target": "geowombat"
-          },
-          {
-            "source": "grep",
-            "target": "grouper"
-          },
-          {
-            "source": "grep",
-            "target": "gymnasium"
-          },
-          {
-            "source": "grep",
-            "target": "heat"
-          },
-          {
-            "source": "grep",
             "target": "libprotobuf"
-          },
-          {
-            "source": "grep",
-            "target": "norse"
           },
           {
             "source": "grep",
@@ -33047,63 +31707,7 @@
           },
           {
             "source": "grep",
-            "target": "openvino"
-          },
-          {
-            "source": "grep",
-            "target": "pymde"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "grep",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "grep",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "grep",
-            "target": "shap"
-          },
-          {
-            "source": "grep",
-            "target": "tango"
-          },
-          {
-            "source": "grep",
-            "target": "torchdata"
-          },
-          {
-            "source": "grep",
-            "target": "torchsparse"
-          },
-          {
-            "source": "grep",
-            "target": "torchtext"
-          },
-          {
-            "source": "grep",
-            "target": "torchvision"
-          },
-          {
-            "source": "grep",
-            "target": "ultranest"
-          },
-          {
-            "source": "grep",
-            "target": "xgrammar"
+            "target": "pytorch-cpu"
           },
           {
             "source": "grep",
@@ -35779,10 +34383,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "deepspeed"
-          },
-          {
-            "source": "hypothesis",
             "target": "detectron2"
           },
           {
@@ -35792,10 +34392,6 @@
           {
             "source": "hypothesis",
             "target": "dftd4-python"
-          },
-          {
-            "source": "hypothesis",
-            "target": "dgl"
           },
           {
             "source": "hypothesis",
@@ -35832,14 +34428,6 @@
           {
             "source": "hypothesis",
             "target": "fabio"
-          },
-          {
-            "source": "hypothesis",
-            "target": "fairscale"
-          },
-          {
-            "source": "hypothesis",
-            "target": "fairseq"
           },
           {
             "source": "hypothesis",
@@ -35912,10 +34500,6 @@
           {
             "source": "hypothesis",
             "target": "hazelbean"
-          },
-          {
-            "source": "hypothesis",
-            "target": "heat"
           },
           {
             "source": "hypothesis",
@@ -36035,10 +34619,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "openvino"
-          },
-          {
-            "source": "hypothesis",
             "target": "orange3"
           },
           {
@@ -36111,10 +34691,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "pymde"
-          },
-          {
-            "source": "hypothesis",
             "target": "pymongo"
           },
           {
@@ -36175,19 +34751,7 @@
           },
           {
             "source": "hypothesis",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "hypothesis",
@@ -36348,10 +34912,6 @@
           {
             "source": "hypothesis",
             "target": "torchdata"
-          },
-          {
-            "source": "hypothesis",
-            "target": "torchsparse"
           },
           {
             "source": "hypothesis",
@@ -37539,31 +36099,11 @@
           },
           {
             "source": "lapack",
-            "target": "allennlp"
-          },
-          {
-            "source": "lapack",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "lapack",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "lapack",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "lapack",
             "target": "ambertools"
           },
           {
             "source": "lapack",
             "target": "ambit"
-          },
-          {
-            "source": "lapack",
-            "target": "arcjetcv"
           },
           {
             "source": "lapack",
@@ -37592,10 +36132,6 @@
           {
             "source": "lapack",
             "target": "cadet"
-          },
-          {
-            "source": "lapack",
-            "target": "caiman"
           },
           {
             "source": "lapack",
@@ -37695,14 +36231,6 @@
           },
           {
             "source": "lapack",
-            "target": "deepspeed"
-          },
-          {
-            "source": "lapack",
-            "target": "detectron2"
-          },
-          {
-            "source": "lapack",
             "target": "dftbplus"
           },
           {
@@ -37739,10 +36267,6 @@
           },
           {
             "source": "lapack",
-            "target": "easyocr"
-          },
-          {
-            "source": "lapack",
             "target": "eatpy"
           },
           {
@@ -37767,14 +36291,6 @@
           },
           {
             "source": "lapack",
-            "target": "fairscale"
-          },
-          {
-            "source": "lapack",
-            "target": "fairseq"
-          },
-          {
-            "source": "lapack",
             "target": "faiss-split"
           },
           {
@@ -37792,10 +36308,6 @@
           {
             "source": "lapack",
             "target": "finesse"
-          },
-          {
-            "source": "lapack",
-            "target": "geowombat"
           },
           {
             "source": "lapack",
@@ -37827,23 +36339,11 @@
           },
           {
             "source": "lapack",
-            "target": "grouper"
-          },
-          {
-            "source": "lapack",
             "target": "gsl"
           },
           {
             "source": "lapack",
-            "target": "gymnasium"
-          },
-          {
-            "source": "lapack",
             "target": "harminv"
-          },
-          {
-            "source": "lapack",
-            "target": "heat"
           },
           {
             "source": "lapack",
@@ -37959,10 +36459,6 @@
           },
           {
             "source": "lapack",
-            "target": "norse"
-          },
-          {
-            "source": "lapack",
             "target": "numcosmo"
           },
           {
@@ -37988,10 +36484,6 @@
           {
             "source": "lapack",
             "target": "opentrustregion"
-          },
-          {
-            "source": "lapack",
-            "target": "openvino"
           },
           {
             "source": "lapack",
@@ -38047,10 +36539,6 @@
           },
           {
             "source": "lapack",
-            "target": "pymde"
-          },
-          {
-            "source": "lapack",
             "target": "pymeep"
           },
           {
@@ -38063,19 +36551,7 @@
           },
           {
             "source": "lapack",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "lapack",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "lapack",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "lapack",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "lapack",
@@ -38319,10 +36795,6 @@
           },
           {
             "source": "lapack",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "lapack",
             "target": "scikit-sparse"
           },
           {
@@ -38359,10 +36831,6 @@
           },
           {
             "source": "lapack",
-            "target": "shap"
-          },
-          {
-            "source": "lapack",
             "target": "siesta"
           },
           {
@@ -38391,10 +36859,6 @@
           },
           {
             "source": "lapack",
-            "target": "tango"
-          },
-          {
-            "source": "lapack",
             "target": "tblite"
           },
           {
@@ -38408,22 +36872,6 @@
           {
             "source": "lapack",
             "target": "tempo2"
-          },
-          {
-            "source": "lapack",
-            "target": "torchdata"
-          },
-          {
-            "source": "lapack",
-            "target": "torchsparse"
-          },
-          {
-            "source": "lapack",
-            "target": "torchtext"
-          },
-          {
-            "source": "lapack",
-            "target": "torchvision"
           },
           {
             "source": "lapack",
@@ -38443,15 +36891,7 @@
           },
           {
             "source": "lapack",
-            "target": "ultranest"
-          },
-          {
-            "source": "lapack",
             "target": "visp"
-          },
-          {
-            "source": "lapack",
-            "target": "xgrammar"
           },
           {
             "source": "lapack",
@@ -42031,35 +40471,11 @@
           },
           {
             "source": "libprotobuf",
-            "target": "allennlp"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "libprotobuf",
             "target": "arrow-cpp"
           },
           {
             "source": "libprotobuf",
             "target": "bazel"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "caiman"
           },
           {
             "source": "libprotobuf",
@@ -42080,34 +40496,6 @@
           {
             "source": "libprotobuf",
             "target": "datafusion"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "deepspeed"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "detectron2"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "dgl"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "easyocr"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "fairscale"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "fairseq"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "geowombat"
           },
           {
             "source": "libprotobuf",
@@ -42135,19 +40523,11 @@
           },
           {
             "source": "libprotobuf",
-            "target": "grouper"
-          },
-          {
-            "source": "libprotobuf",
             "target": "grpc-cpp"
           },
           {
             "source": "libprotobuf",
             "target": "grpc_java_plugin"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "gymnasium"
           },
           {
             "source": "libprotobuf",
@@ -42176,10 +40556,6 @@
           {
             "source": "libprotobuf",
             "target": "gz-transport"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "heat"
           },
           {
             "source": "libprotobuf",
@@ -42227,10 +40603,6 @@
           },
           {
             "source": "libprotobuf",
-            "target": "norse"
-          },
-          {
-            "source": "libprotobuf",
             "target": "onnx"
           },
           {
@@ -42267,27 +40639,11 @@
           },
           {
             "source": "libprotobuf",
-            "target": "pymde"
-          },
-          {
-            "source": "libprotobuf",
             "target": "pyorc"
           },
           {
             "source": "libprotobuf",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "libprotobuf",
@@ -42295,15 +40651,7 @@
           },
           {
             "source": "libprotobuf",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "libprotobuf",
             "target": "sentencepiece"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "shap"
           },
           {
             "source": "libprotobuf",
@@ -42312,10 +40660,6 @@
           {
             "source": "libprotobuf",
             "target": "snowflake-snowpark-python"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "tango"
           },
           {
             "source": "libprotobuf",
@@ -42331,22 +40675,6 @@
           },
           {
             "source": "libprotobuf",
-            "target": "torchdata"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "torchsparse"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "torchtext"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "torchvision"
-          },
-          {
-            "source": "libprotobuf",
             "target": "tritonclient-split"
           },
           {
@@ -42355,15 +40683,7 @@
           },
           {
             "source": "libprotobuf",
-            "target": "ultranest"
-          },
-          {
-            "source": "libprotobuf",
             "target": "vegafusion"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "xgrammar"
           },
           {
             "source": "libpsl",
@@ -43911,75 +42231,11 @@
           },
           {
             "source": "libuv",
-            "target": "allennlp"
-          },
-          {
-            "source": "libuv",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "libuv",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "libuv",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "libuv",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "libuv",
-            "target": "caiman"
-          },
-          {
-            "source": "libuv",
             "target": "cmake"
           },
           {
             "source": "libuv",
-            "target": "deepspeed"
-          },
-          {
-            "source": "libuv",
-            "target": "detectron2"
-          },
-          {
-            "source": "libuv",
-            "target": "dgl"
-          },
-          {
-            "source": "libuv",
-            "target": "easyocr"
-          },
-          {
-            "source": "libuv",
-            "target": "fairscale"
-          },
-          {
-            "source": "libuv",
-            "target": "fairseq"
-          },
-          {
-            "source": "libuv",
-            "target": "geowombat"
-          },
-          {
-            "source": "libuv",
             "target": "gevent"
-          },
-          {
-            "source": "libuv",
-            "target": "grouper"
-          },
-          {
-            "source": "libuv",
-            "target": "gymnasium"
-          },
-          {
-            "source": "libuv",
-            "target": "heat"
           },
           {
             "source": "libuv",
@@ -43999,19 +42255,7 @@
           },
           {
             "source": "libuv",
-            "target": "norse"
-          },
-          {
-            "source": "libuv",
             "target": "nvim"
-          },
-          {
-            "source": "libuv",
-            "target": "openvino"
-          },
-          {
-            "source": "libuv",
-            "target": "pymde"
           },
           {
             "source": "libuv",
@@ -44019,19 +42263,7 @@
           },
           {
             "source": "libuv",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "libuv",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "libuv",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "libuv",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "libuv",
@@ -44043,47 +42275,11 @@
           },
           {
             "source": "libuv",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "libuv",
-            "target": "shap"
-          },
-          {
-            "source": "libuv",
-            "target": "tango"
-          },
-          {
-            "source": "libuv",
-            "target": "torchdata"
-          },
-          {
-            "source": "libuv",
-            "target": "torchsparse"
-          },
-          {
-            "source": "libuv",
-            "target": "torchtext"
-          },
-          {
-            "source": "libuv",
-            "target": "torchvision"
-          },
-          {
-            "source": "libuv",
             "target": "ttyd"
           },
           {
             "source": "libuv",
-            "target": "ultranest"
-          },
-          {
-            "source": "libuv",
             "target": "uvloop"
-          },
-          {
-            "source": "libuv",
-            "target": "xgrammar"
           },
           {
             "source": "libvdwxc",
@@ -52583,10 +50779,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "markupsafe",
             "target": "allennlp-server"
           },
           {
@@ -52600,10 +50792,6 @@
           {
             "source": "markupsafe",
             "target": "apache-beam"
-          },
-          {
-            "source": "markupsafe",
-            "target": "arcjetcv"
           },
           {
             "source": "markupsafe",
@@ -52699,19 +50887,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "deepspeed"
-          },
-          {
-            "source": "markupsafe",
             "target": "detectron2"
           },
           {
             "source": "markupsafe",
             "target": "dftd3-python"
-          },
-          {
-            "source": "markupsafe",
-            "target": "dgl"
           },
           {
             "source": "markupsafe",
@@ -52756,14 +50936,6 @@
           {
             "source": "markupsafe",
             "target": "fabio"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fairscale"
-          },
-          {
-            "source": "markupsafe",
-            "target": "fairseq"
           },
           {
             "source": "markupsafe",
@@ -52864,10 +51036,6 @@
           {
             "source": "markupsafe",
             "target": "hazelbean"
-          },
-          {
-            "source": "markupsafe",
-            "target": "heat"
           },
           {
             "source": "markupsafe",
@@ -53015,10 +51183,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "norse"
-          },
-          {
-            "source": "markupsafe",
             "target": "numba"
           },
           {
@@ -53060,10 +51224,6 @@
           {
             "source": "markupsafe",
             "target": "openusd"
-          },
-          {
-            "source": "markupsafe",
-            "target": "openvino"
           },
           {
             "source": "markupsafe",
@@ -53163,10 +51323,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "pymde"
-          },
-          {
-            "source": "markupsafe",
             "target": "pymt"
           },
           {
@@ -53219,19 +51375,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "markupsafe",
@@ -53427,18 +51571,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "torchsparse"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchtext"
-          },
-          {
-            "source": "markupsafe",
-            "target": "torchvision"
-          },
-          {
-            "source": "markupsafe",
             "target": "trintrin"
           },
           {
@@ -53504,10 +51636,6 @@
           {
             "source": "markupsafe",
             "target": "xeus-octave"
-          },
-          {
-            "source": "markupsafe",
-            "target": "xgrammar"
           },
           {
             "source": "markupsafe",
@@ -55603,10 +53731,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "msgpack-python",
             "target": "aria-tools"
           },
           {
@@ -55620,10 +53744,6 @@
           {
             "source": "msgpack-python",
             "target": "biotite"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "caiman"
           },
           {
             "source": "msgpack-python",
@@ -55655,26 +53775,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "detectron2"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "dgl"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "easyocr"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "fairscale"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "fairseq"
-          },
-          {
-            "source": "msgpack-python",
             "target": "fluidimage"
           },
           {
@@ -55687,19 +53787,11 @@
           },
           {
             "source": "msgpack-python",
-            "target": "grouper"
-          },
-          {
-            "source": "msgpack-python",
             "target": "gymnasium"
           },
           {
             "source": "msgpack-python",
             "target": "hazelbean"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "heat"
           },
           {
             "source": "msgpack-python",
@@ -55715,10 +53807,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "norse"
-          },
-          {
-            "source": "msgpack-python",
             "target": "numcodecs"
           },
           {
@@ -55731,19 +53819,11 @@
           },
           {
             "source": "msgpack-python",
-            "target": "openvino"
-          },
-          {
-            "source": "msgpack-python",
             "target": "porespy"
           },
           {
             "source": "msgpack-python",
             "target": "psi4"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "pymde"
           },
           {
             "source": "msgpack-python",
@@ -55755,19 +53835,7 @@
           },
           {
             "source": "msgpack-python",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "msgpack-python",
@@ -55799,10 +53867,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "shap"
-          },
-          {
-            "source": "msgpack-python",
             "target": "sktime"
           },
           {
@@ -55819,19 +53883,11 @@
           },
           {
             "source": "msgpack-python",
-            "target": "tango"
-          },
-          {
-            "source": "msgpack-python",
             "target": "thinc"
           },
           {
             "source": "msgpack-python",
             "target": "torchdata"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "torchsparse"
           },
           {
             "source": "msgpack-python",
@@ -55847,19 +53903,11 @@
           },
           {
             "source": "msgpack-python",
-            "target": "ultranest"
-          },
-          {
-            "source": "msgpack-python",
             "target": "unidist-packages"
           },
           {
             "source": "msgpack-python",
             "target": "vtk"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "xgrammar"
           },
           {
             "source": "msgspec",
@@ -57247,22 +55295,6 @@
           },
           {
             "source": "ninja",
-            "target": "allennlp"
-          },
-          {
-            "source": "ninja",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "ninja",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "ninja",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "ninja",
             "target": "ambit"
           },
           {
@@ -57280,10 +55312,6 @@
           {
             "source": "ninja",
             "target": "arch-py"
-          },
-          {
-            "source": "ninja",
-            "target": "arcjetcv"
           },
           {
             "source": "ninja",
@@ -57731,10 +55759,6 @@
           },
           {
             "source": "ninja",
-            "target": "detectron2"
-          },
-          {
-            "source": "ninja",
             "target": "dftbplus"
           },
           {
@@ -57748,10 +55772,6 @@
           {
             "source": "ninja",
             "target": "dftd4-python"
-          },
-          {
-            "source": "ninja",
-            "target": "dgl"
           },
           {
             "source": "ninja",
@@ -57844,14 +55864,6 @@
           {
             "source": "ninja",
             "target": "fabmos"
-          },
-          {
-            "source": "ninja",
-            "target": "fairscale"
-          },
-          {
-            "source": "ninja",
-            "target": "fairseq"
           },
           {
             "source": "ninja",
@@ -58127,10 +56139,6 @@
           },
           {
             "source": "ninja",
-            "target": "grouper"
-          },
-          {
-            "source": "ninja",
             "target": "grpc-cpp"
           },
           {
@@ -58164,10 +56172,6 @@
           {
             "source": "ninja",
             "target": "gtksourceview"
-          },
-          {
-            "source": "ninja",
-            "target": "gymnasium"
           },
           {
             "source": "ninja",
@@ -58240,10 +56244,6 @@
           {
             "source": "ninja",
             "target": "hdf5"
-          },
-          {
-            "source": "ninja",
-            "target": "heat"
           },
           {
             "source": "ninja",
@@ -58971,10 +56971,6 @@
           },
           {
             "source": "ninja",
-            "target": "norse"
-          },
-          {
-            "source": "ninja",
             "target": "nuflux"
           },
           {
@@ -59132,10 +57128,6 @@
           {
             "source": "ninja",
             "target": "osqp-eigen"
-          },
-          {
-            "source": "ninja",
-            "target": "ovito"
           },
           {
             "source": "ninja",
@@ -59359,10 +57351,6 @@
           },
           {
             "source": "ninja",
-            "target": "pymde"
-          },
-          {
-            "source": "ninja",
             "target": "pymdi"
           },
           {
@@ -59376,10 +57364,6 @@
           {
             "source": "ninja",
             "target": "pypolymlp"
-          },
-          {
-            "source": "ninja",
-            "target": "pyqt"
           },
           {
             "source": "ninja",
@@ -59451,19 +57435,11 @@
           },
           {
             "source": "ninja",
-            "target": "pytorch_cluster"
+            "target": "pytorch-cpu"
           },
           {
             "source": "ninja",
             "target": "pytorch_scatter"
-          },
-          {
-            "source": "ninja",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "ninja",
-            "target": "pytorch_spline_conv"
           },
           {
             "source": "ninja",
@@ -59640,10 +57616,6 @@
           {
             "source": "ninja",
             "target": "scenepic"
-          },
-          {
-            "source": "ninja",
-            "target": "scikit-allel"
           },
           {
             "source": "ninja",
@@ -59855,10 +57827,6 @@
           },
           {
             "source": "ninja",
-            "target": "tango"
-          },
-          {
-            "source": "ninja",
             "target": "tango-admin"
           },
           {
@@ -59955,15 +57923,7 @@
           },
           {
             "source": "ninja",
-            "target": "torchsparse"
-          },
-          {
-            "source": "ninja",
             "target": "torchtext"
-          },
-          {
-            "source": "ninja",
-            "target": "torchvision"
           },
           {
             "source": "ninja",
@@ -60000,10 +57960,6 @@
           {
             "source": "ninja",
             "target": "uhd"
-          },
-          {
-            "source": "ninja",
-            "target": "ultranest"
           },
           {
             "source": "ninja",
@@ -60064,6 +58020,10 @@
           {
             "source": "ninja",
             "target": "vtk"
+          },
+          {
+            "source": "ninja",
+            "target": "vulkan-headers"
           },
           {
             "source": "ninja",
@@ -61967,10 +59927,6 @@
           },
           {
             "source": "numpy",
-            "target": "fairscale"
-          },
-          {
-            "source": "numpy",
             "target": "fairseq"
           },
           {
@@ -63511,19 +61467,7 @@
           },
           {
             "source": "numpy",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "numpy",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "numpy",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "numpy",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "numpy",
@@ -63987,10 +61931,6 @@
           },
           {
             "source": "numpy",
-            "target": "torchsparse"
-          },
-          {
-            "source": "numpy",
             "target": "torchtext"
           },
           {
@@ -64423,135 +62363,11 @@
           },
           {
             "source": "onednn",
-            "target": "allennlp"
-          },
-          {
-            "source": "onednn",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "onednn",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "onednn",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "onednn",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "onednn",
-            "target": "caiman"
-          },
-          {
-            "source": "onednn",
-            "target": "deepspeed"
-          },
-          {
-            "source": "onednn",
-            "target": "detectron2"
-          },
-          {
-            "source": "onednn",
-            "target": "dgl"
-          },
-          {
-            "source": "onednn",
-            "target": "easyocr"
-          },
-          {
-            "source": "onednn",
-            "target": "fairscale"
-          },
-          {
-            "source": "onednn",
-            "target": "fairseq"
-          },
-          {
-            "source": "onednn",
-            "target": "geowombat"
-          },
-          {
-            "source": "onednn",
-            "target": "grouper"
-          },
-          {
-            "source": "onednn",
-            "target": "gymnasium"
-          },
-          {
-            "source": "onednn",
-            "target": "heat"
-          },
-          {
-            "source": "onednn",
-            "target": "norse"
-          },
-          {
-            "source": "onednn",
-            "target": "openvino"
-          },
-          {
-            "source": "onednn",
-            "target": "pymde"
-          },
-          {
-            "source": "onednn",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "onednn",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "onednn",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "onednn",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "onednn",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "onednn",
-            "target": "shap"
-          },
-          {
-            "source": "onednn",
-            "target": "tango"
+            "target": "pytorch-cpu"
           },
           {
             "source": "onednn",
             "target": "tensorflow"
-          },
-          {
-            "source": "onednn",
-            "target": "torchdata"
-          },
-          {
-            "source": "onednn",
-            "target": "torchsparse"
-          },
-          {
-            "source": "onednn",
-            "target": "torchtext"
-          },
-          {
-            "source": "onednn",
-            "target": "torchvision"
-          },
-          {
-            "source": "onednn",
-            "target": "ultranest"
-          },
-          {
-            "source": "onednn",
-            "target": "xgrammar"
           },
           {
             "source": "oniguruma",
@@ -64979,31 +62795,11 @@
           },
           {
             "source": "openmp",
-            "target": "allennlp"
-          },
-          {
-            "source": "openmp",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "openmp",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "openmp",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "openmp",
             "target": "ambertools"
           },
           {
             "source": "openmp",
             "target": "ambit"
-          },
-          {
-            "source": "openmp",
-            "target": "arcjetcv"
           },
           {
             "source": "openmp",
@@ -65131,10 +62927,6 @@
           },
           {
             "source": "openmp",
-            "target": "detectron2"
-          },
-          {
-            "source": "openmp",
             "target": "dftbplus"
           },
           {
@@ -65188,14 +62980,6 @@
           {
             "source": "openmp",
             "target": "euphonic"
-          },
-          {
-            "source": "openmp",
-            "target": "fairscale"
-          },
-          {
-            "source": "openmp",
-            "target": "fairseq"
           },
           {
             "source": "openmp",
@@ -65312,10 +63096,6 @@
           {
             "source": "openmp",
             "target": "gstools-cython"
-          },
-          {
-            "source": "openmp",
-            "target": "gymnasium"
           },
           {
             "source": "openmp",
@@ -65863,10 +63643,6 @@
           },
           {
             "source": "openmp",
-            "target": "openvino"
-          },
-          {
-            "source": "openmp",
             "target": "paicos"
           },
           {
@@ -65991,10 +63767,6 @@
           },
           {
             "source": "openmp",
-            "target": "pymde"
-          },
-          {
-            "source": "openmp",
             "target": "pypeit"
           },
           {
@@ -66015,19 +63787,7 @@
           },
           {
             "source": "openmp",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "openmp",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "openmp",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "openmp",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "openmp",
@@ -66147,10 +63907,6 @@
           },
           {
             "source": "openmp",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "openmp",
             "target": "scikit-learn"
           },
           {
@@ -66176,10 +63932,6 @@
           {
             "source": "openmp",
             "target": "scipy"
-          },
-          {
-            "source": "openmp",
-            "target": "shap"
           },
           {
             "source": "openmp",
@@ -66235,10 +63987,6 @@
           },
           {
             "source": "openmp",
-            "target": "tango"
-          },
-          {
-            "source": "openmp",
             "target": "tardigrade_abaqus_tools"
           },
           {
@@ -66291,22 +64039,6 @@
           },
           {
             "source": "openmp",
-            "target": "torchdata"
-          },
-          {
-            "source": "openmp",
-            "target": "torchsparse"
-          },
-          {
-            "source": "openmp",
-            "target": "torchtext"
-          },
-          {
-            "source": "openmp",
-            "target": "torchvision"
-          },
-          {
-            "source": "openmp",
             "target": "tree-sitter-cli"
           },
           {
@@ -66324,10 +64056,6 @@
           {
             "source": "openmp",
             "target": "triqs_tprf"
-          },
-          {
-            "source": "openmp",
-            "target": "ultranest"
           },
           {
             "source": "openmp",
@@ -66368,10 +64096,6 @@
           {
             "source": "openmp",
             "target": "xgboost"
-          },
-          {
-            "source": "openmp",
-            "target": "xgrammar"
           },
           {
             "source": "openmp",
@@ -67527,135 +65251,15 @@
           },
           {
             "source": "optree",
-            "target": "allennlp"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "optree",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "optree",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "optree",
             "target": "caiman"
           },
           {
             "source": "optree",
-            "target": "deepspeed"
-          },
-          {
-            "source": "optree",
-            "target": "detectron2"
-          },
-          {
-            "source": "optree",
-            "target": "dgl"
-          },
-          {
-            "source": "optree",
-            "target": "easyocr"
-          },
-          {
-            "source": "optree",
-            "target": "fairscale"
-          },
-          {
-            "source": "optree",
-            "target": "fairseq"
-          },
-          {
-            "source": "optree",
-            "target": "geowombat"
-          },
-          {
-            "source": "optree",
-            "target": "grouper"
-          },
-          {
-            "source": "optree",
-            "target": "gymnasium"
-          },
-          {
-            "source": "optree",
-            "target": "heat"
-          },
-          {
-            "source": "optree",
-            "target": "norse"
-          },
-          {
-            "source": "optree",
-            "target": "openvino"
-          },
-          {
-            "source": "optree",
-            "target": "pymde"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "optree",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "optree",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "optree",
-            "target": "shap"
-          },
-          {
-            "source": "optree",
-            "target": "tango"
+            "target": "pytorch-cpu"
           },
           {
             "source": "optree",
             "target": "tensorflow"
-          },
-          {
-            "source": "optree",
-            "target": "torchdata"
-          },
-          {
-            "source": "optree",
-            "target": "torchsparse"
-          },
-          {
-            "source": "optree",
-            "target": "torchtext"
-          },
-          {
-            "source": "optree",
-            "target": "torchvision"
-          },
-          {
-            "source": "optree",
-            "target": "ultranest"
-          },
-          {
-            "source": "optree",
-            "target": "xgrammar"
           },
           {
             "source": "opusfile",
@@ -70743,10 +68347,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "pkg-config",
             "target": "allennlp-server"
           },
           {
@@ -70756,10 +68356,6 @@
           {
             "source": "pkg-config",
             "target": "ampl-asl"
-          },
-          {
-            "source": "pkg-config",
-            "target": "arcjetcv"
           },
           {
             "source": "pkg-config",
@@ -71103,10 +68699,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "deepspeed"
-          },
-          {
-            "source": "pkg-config",
             "target": "deno"
           },
           {
@@ -71128,10 +68720,6 @@
           {
             "source": "pkg-config",
             "target": "dftd4-python"
-          },
-          {
-            "source": "pkg-config",
-            "target": "dgl"
           },
           {
             "source": "pkg-config",
@@ -71220,14 +68808,6 @@
           {
             "source": "pkg-config",
             "target": "fabio"
-          },
-          {
-            "source": "pkg-config",
-            "target": "fairscale"
-          },
-          {
-            "source": "pkg-config",
-            "target": "fairseq"
           },
           {
             "source": "pkg-config",
@@ -71672,10 +69252,6 @@
           {
             "source": "pkg-config",
             "target": "healpy"
-          },
-          {
-            "source": "pkg-config",
-            "target": "heat"
           },
           {
             "source": "pkg-config",
@@ -72535,10 +70111,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "norse"
-          },
-          {
-            "source": "pkg-config",
             "target": "nss"
           },
           {
@@ -72915,10 +70487,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "pymde"
-          },
-          {
-            "source": "pkg-config",
             "target": "pymeep"
           },
           {
@@ -72999,19 +70567,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pkg-config",
@@ -73635,10 +71191,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "tango"
-          },
-          {
-            "source": "pkg-config",
             "target": "tango-admin"
           },
           {
@@ -73735,15 +71287,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "torchsparse"
-          },
-          {
-            "source": "pkg-config",
             "target": "torchtext"
-          },
-          {
-            "source": "pkg-config",
-            "target": "torchvision"
           },
           {
             "source": "pkg-config",
@@ -73768,10 +71312,6 @@
           {
             "source": "pkg-config",
             "target": "uhd"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ultranest"
           },
           {
             "source": "pkg-config",
@@ -73916,10 +71456,6 @@
           {
             "source": "pkg-config",
             "target": "xeus-r"
-          },
-          {
-            "source": "pkg-config",
-            "target": "xgrammar"
           },
           {
             "source": "pkg-config",
@@ -75047,10 +72583,6 @@
           },
           {
             "source": "protobuf",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "protobuf",
             "target": "aria-tools"
           },
           {
@@ -75115,19 +72647,11 @@
           },
           {
             "source": "protobuf",
-            "target": "deepspeed"
-          },
-          {
-            "source": "protobuf",
             "target": "detectron2"
           },
           {
             "source": "protobuf",
             "target": "dftd3-python"
-          },
-          {
-            "source": "protobuf",
-            "target": "dgl"
           },
           {
             "source": "protobuf",
@@ -75152,14 +72676,6 @@
           {
             "source": "protobuf",
             "target": "fabio"
-          },
-          {
-            "source": "protobuf",
-            "target": "fairscale"
-          },
-          {
-            "source": "protobuf",
-            "target": "fairseq"
           },
           {
             "source": "protobuf",
@@ -75224,10 +72740,6 @@
           {
             "source": "protobuf",
             "target": "hazelbean"
-          },
-          {
-            "source": "protobuf",
-            "target": "heat"
           },
           {
             "source": "protobuf",
@@ -75307,10 +72819,6 @@
           },
           {
             "source": "protobuf",
-            "target": "norse"
-          },
-          {
-            "source": "protobuf",
             "target": "numba"
           },
           {
@@ -75344,10 +72852,6 @@
           {
             "source": "protobuf",
             "target": "openpnm"
-          },
-          {
-            "source": "protobuf",
-            "target": "openvino"
           },
           {
             "source": "protobuf",
@@ -75403,10 +72907,6 @@
           },
           {
             "source": "protobuf",
-            "target": "pymde"
-          },
-          {
-            "source": "protobuf",
             "target": "pynacl"
           },
           {
@@ -75455,19 +72955,7 @@
           },
           {
             "source": "protobuf",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "protobuf",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "protobuf",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "protobuf",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "protobuf",
@@ -75603,15 +73091,7 @@
           },
           {
             "source": "protobuf",
-            "target": "torchsparse"
-          },
-          {
-            "source": "protobuf",
             "target": "torchtext"
-          },
-          {
-            "source": "protobuf",
-            "target": "torchvision"
           },
           {
             "source": "protobuf",
@@ -75620,10 +73100,6 @@
           {
             "source": "protobuf",
             "target": "typedunits"
-          },
-          {
-            "source": "protobuf",
-            "target": "ultranest"
           },
           {
             "source": "protobuf",
@@ -83663,6 +81139,10 @@
           },
           {
             "source": "python",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "python",
             "target": "pytorch_cluster"
           },
           {
@@ -85654,6 +83134,134 @@
             "target": "z5py"
           },
           {
+            "source": "pytorch-cpu",
+            "target": "allennlp"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-models"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-semparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "allennlp-server"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "arcjetcv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "caiman"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepspeed"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "detectron2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "dgl"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "easyocr"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairscale"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairseq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "geowombat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "grouper"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gymnasium"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "heat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "norse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "openvino"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pymde"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_sparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "scikit-allel"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "shap"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tango"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchdata"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchtext"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchvision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "ultranest"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "xgrammar"
+          },
+          {
             "source": "pytorch_scatter",
             "target": "pytorch_sparse"
           },
@@ -85671,27 +83279,11 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "allennlp"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "allennlp-models"
           },
           {
             "source": "pywin32-ctypes",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "almosthere"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "arcjetcv"
           },
           {
             "source": "pywin32-ctypes",
@@ -85731,18 +83323,6 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "deepspeed"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "detectron2"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "dgl"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "dials"
           },
           {
@@ -85756,14 +83336,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "fabio"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "fairscale"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "fairseq"
           },
           {
             "source": "pywin32-ctypes",
@@ -85795,19 +83367,7 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "grouper"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "gymnasium"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "hazelbean"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "heat"
           },
           {
             "source": "pywin32-ctypes",
@@ -85839,10 +83399,6 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "norse"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "nutpie"
           },
           {
@@ -85856,10 +83412,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "openpnm"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "openvino"
           },
           {
             "source": "pywin32-ctypes",
@@ -85899,10 +83451,6 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "pymde"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "pypeit"
           },
           {
@@ -85923,19 +83471,7 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pywin32-ctypes",
@@ -85968,10 +83504,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "scikit-allel"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "shap"
           },
           {
             "source": "pywin32-ctypes",
@@ -86011,10 +83543,6 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "torchsparse"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "torchtext"
           },
           {
@@ -86027,19 +83555,11 @@
           },
           {
             "source": "pywin32-ctypes",
-            "target": "ultranest"
-          },
-          {
-            "source": "pywin32-ctypes",
             "target": "unidist-packages"
           },
           {
             "source": "pywin32-ctypes",
             "target": "uwsift"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "xgrammar"
           },
           {
             "source": "pywin32-ctypes",
@@ -87095,10 +84615,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "pyyaml",
             "target": "allennlp-server"
           },
           {
@@ -87211,10 +84727,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "deepspeed"
-          },
-          {
-            "source": "pyyaml",
             "target": "detectron2"
           },
           {
@@ -87256,10 +84768,6 @@
           {
             "source": "pyyaml",
             "target": "fabio"
-          },
-          {
-            "source": "pyyaml",
-            "target": "fairscale"
           },
           {
             "source": "pyyaml",
@@ -87356,10 +84864,6 @@
           {
             "source": "pyyaml",
             "target": "hazelbean"
-          },
-          {
-            "source": "pyyaml",
-            "target": "heat"
           },
           {
             "source": "pyyaml",
@@ -87519,10 +85023,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "openvino"
-          },
-          {
-            "source": "pyyaml",
             "target": "orange3"
           },
           {
@@ -87639,10 +85139,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "pymde"
-          },
-          {
-            "source": "pyyaml",
             "target": "pymt"
           },
           {
@@ -87707,19 +85203,7 @@
           },
           {
             "source": "pyyaml",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "pyyaml",
@@ -87888,18 +85372,6 @@
           {
             "source": "pyyaml",
             "target": "torchdata"
-          },
-          {
-            "source": "pyyaml",
-            "target": "torchsparse"
-          },
-          {
-            "source": "pyyaml",
-            "target": "torchtext"
-          },
-          {
-            "source": "pyyaml",
-            "target": "torchvision"
           },
           {
             "source": "pyyaml",
@@ -96447,107 +93919,11 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "allennlp"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "caiman"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "deepspeed"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "detectron2"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "dgl"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "easyocr"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "fairscale"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "fairseq"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "geowombat"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "grouper"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "gymnasium"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "heat"
-          },
-          {
-            "source": "rapidfuzz",
             "target": "levenshtein"
           },
           {
             "source": "rapidfuzz",
-            "target": "norse"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "openvino"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pymde"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "shap"
+            "target": "pytorch-cpu"
           },
           {
             "source": "rapidfuzz",
@@ -96555,15 +93931,7 @@
           },
           {
             "source": "rapidfuzz",
-            "target": "tango"
-          },
-          {
-            "source": "rapidfuzz",
             "target": "torchdata"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "torchsparse"
           },
           {
             "source": "rapidfuzz",
@@ -96572,14 +93940,6 @@
           {
             "source": "rapidfuzz",
             "target": "torchvision"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "ultranest"
-          },
-          {
-            "source": "rapidfuzz",
-            "target": "xgrammar"
           },
           {
             "source": "rapidjson",
@@ -98135,75 +95495,11 @@
           },
           {
             "source": "rsync",
-            "target": "allennlp"
-          },
-          {
-            "source": "rsync",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "rsync",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "rsync",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "rsync",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "rsync",
-            "target": "caiman"
-          },
-          {
-            "source": "rsync",
-            "target": "deepspeed"
-          },
-          {
-            "source": "rsync",
-            "target": "detectron2"
-          },
-          {
-            "source": "rsync",
-            "target": "dgl"
-          },
-          {
-            "source": "rsync",
-            "target": "easyocr"
-          },
-          {
-            "source": "rsync",
-            "target": "fairscale"
-          },
-          {
-            "source": "rsync",
-            "target": "fairseq"
-          },
-          {
-            "source": "rsync",
             "target": "gdb"
           },
           {
             "source": "rsync",
-            "target": "geowombat"
-          },
-          {
-            "source": "rsync",
             "target": "git-annex"
-          },
-          {
-            "source": "rsync",
-            "target": "grouper"
-          },
-          {
-            "source": "rsync",
-            "target": "gymnasium"
-          },
-          {
-            "source": "rsync",
-            "target": "heat"
           },
           {
             "source": "rsync",
@@ -98235,19 +95531,7 @@
           },
           {
             "source": "rsync",
-            "target": "norse"
-          },
-          {
-            "source": "rsync",
-            "target": "openvino"
-          },
-          {
-            "source": "rsync",
             "target": "panda3d"
-          },
-          {
-            "source": "rsync",
-            "target": "pymde"
           },
           {
             "source": "rsync",
@@ -98259,19 +95543,7 @@
           },
           {
             "source": "rsync",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "rsync",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "rsync",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "rsync",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "rsync",
@@ -98279,43 +95551,7 @@
           },
           {
             "source": "rsync",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "rsync",
-            "target": "shap"
-          },
-          {
-            "source": "rsync",
-            "target": "tango"
-          },
-          {
-            "source": "rsync",
             "target": "tensorflow"
-          },
-          {
-            "source": "rsync",
-            "target": "torchdata"
-          },
-          {
-            "source": "rsync",
-            "target": "torchsparse"
-          },
-          {
-            "source": "rsync",
-            "target": "torchtext"
-          },
-          {
-            "source": "rsync",
-            "target": "torchvision"
-          },
-          {
-            "source": "rsync",
-            "target": "ultranest"
-          },
-          {
-            "source": "rsync",
-            "target": "xgrammar"
           },
           {
             "source": "rte_rrtmgp",
@@ -102447,135 +99683,11 @@
           },
           {
             "source": "sleef",
-            "target": "allennlp"
-          },
-          {
-            "source": "sleef",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "sleef",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "sleef",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "sleef",
-            "target": "arcjetcv"
-          },
-          {
-            "source": "sleef",
-            "target": "caiman"
-          },
-          {
-            "source": "sleef",
-            "target": "deepspeed"
-          },
-          {
-            "source": "sleef",
-            "target": "detectron2"
-          },
-          {
-            "source": "sleef",
-            "target": "dgl"
-          },
-          {
-            "source": "sleef",
-            "target": "easyocr"
-          },
-          {
-            "source": "sleef",
-            "target": "fairscale"
-          },
-          {
-            "source": "sleef",
-            "target": "fairseq"
-          },
-          {
-            "source": "sleef",
-            "target": "geowombat"
-          },
-          {
-            "source": "sleef",
-            "target": "grouper"
-          },
-          {
-            "source": "sleef",
-            "target": "gymnasium"
-          },
-          {
-            "source": "sleef",
-            "target": "heat"
-          },
-          {
-            "source": "sleef",
             "target": "heyoka"
           },
           {
             "source": "sleef",
-            "target": "norse"
-          },
-          {
-            "source": "sleef",
-            "target": "openvino"
-          },
-          {
-            "source": "sleef",
-            "target": "pymde"
-          },
-          {
-            "source": "sleef",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "sleef",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "sleef",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "sleef",
-            "target": "pytorch_spline_conv"
-          },
-          {
-            "source": "sleef",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "sleef",
-            "target": "shap"
-          },
-          {
-            "source": "sleef",
-            "target": "tango"
-          },
-          {
-            "source": "sleef",
-            "target": "torchdata"
-          },
-          {
-            "source": "sleef",
-            "target": "torchsparse"
-          },
-          {
-            "source": "sleef",
-            "target": "torchtext"
-          },
-          {
-            "source": "sleef",
-            "target": "torchvision"
-          },
-          {
-            "source": "sleef",
-            "target": "ultranest"
-          },
-          {
-            "source": "sleef",
-            "target": "xgrammar"
+            "target": "pytorch-cpu"
           },
           {
             "source": "slepc",
@@ -106175,19 +103287,11 @@
           },
           {
             "source": "uv",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "uv",
             "target": "allennlp-server"
           },
           {
             "source": "uv",
             "target": "almosthere"
-          },
-          {
-            "source": "uv",
-            "target": "arcjetcv"
           },
           {
             "source": "uv",
@@ -106275,19 +103379,11 @@
           },
           {
             "source": "uv",
-            "target": "deepspeed"
-          },
-          {
-            "source": "uv",
             "target": "detectron2"
           },
           {
             "source": "uv",
             "target": "dftd3-python"
-          },
-          {
-            "source": "uv",
-            "target": "dgl"
           },
           {
             "source": "uv",
@@ -106316,14 +103412,6 @@
           {
             "source": "uv",
             "target": "fabio"
-          },
-          {
-            "source": "uv",
-            "target": "fairscale"
-          },
-          {
-            "source": "uv",
-            "target": "fairseq"
           },
           {
             "source": "uv",
@@ -106396,10 +103484,6 @@
           {
             "source": "uv",
             "target": "hazelbean"
-          },
-          {
-            "source": "uv",
-            "target": "heat"
           },
           {
             "source": "uv",
@@ -107023,10 +104107,6 @@
           },
           {
             "source": "uv",
-            "target": "norse"
-          },
-          {
-            "source": "uv",
             "target": "numba"
           },
           {
@@ -107060,10 +104140,6 @@
           {
             "source": "uv",
             "target": "openpnm"
-          },
-          {
-            "source": "uv",
-            "target": "openvino"
           },
           {
             "source": "uv",
@@ -107143,10 +104219,6 @@
           },
           {
             "source": "uv",
-            "target": "pymde"
-          },
-          {
-            "source": "uv",
             "target": "pynacl"
           },
           {
@@ -107203,19 +104275,7 @@
           },
           {
             "source": "uv",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "uv",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "uv",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "uv",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "uv",
@@ -107359,10 +104419,6 @@
           },
           {
             "source": "uv",
-            "target": "torchsparse"
-          },
-          {
-            "source": "uv",
             "target": "torchtext"
           },
           {
@@ -107372,10 +104428,6 @@
           {
             "source": "uv",
             "target": "trollimage"
-          },
-          {
-            "source": "uv",
-            "target": "ultranest"
           },
           {
             "source": "uv",
@@ -107416,10 +104468,6 @@
           {
             "source": "uv",
             "target": "xeus-octave"
-          },
-          {
-            "source": "uv",
-            "target": "xgrammar"
           },
           {
             "source": "uv",
@@ -107604,6 +104652,46 @@
           {
             "source": "vtk",
             "target": "visan"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "gtk4"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "imgui"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "libplacebo"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "ovito"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "pyqt"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-main"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-multimedia"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "qt-quick3d"
+          },
+          {
+            "source": "vulkan-headers",
+            "target": "vulkan-loader"
           },
           {
             "source": "vulkan-loader",
@@ -110551,19 +107639,11 @@
           },
           {
             "source": "xattr",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "xattr",
             "target": "allennlp-server"
           },
           {
             "source": "xattr",
             "target": "almosthere"
-          },
-          {
-            "source": "xattr",
-            "target": "arcjetcv"
           },
           {
             "source": "xattr",
@@ -110619,19 +107699,11 @@
           },
           {
             "source": "xattr",
-            "target": "deepspeed"
-          },
-          {
-            "source": "xattr",
             "target": "detectron2"
           },
           {
             "source": "xattr",
             "target": "dftd3-python"
-          },
-          {
-            "source": "xattr",
-            "target": "dgl"
           },
           {
             "source": "xattr",
@@ -110656,14 +107728,6 @@
           {
             "source": "xattr",
             "target": "fabio"
-          },
-          {
-            "source": "xattr",
-            "target": "fairscale"
-          },
-          {
-            "source": "xattr",
-            "target": "fairseq"
           },
           {
             "source": "xattr",
@@ -110720,10 +107784,6 @@
           {
             "source": "xattr",
             "target": "hazelbean"
-          },
-          {
-            "source": "xattr",
-            "target": "heat"
           },
           {
             "source": "xattr",
@@ -110807,10 +107867,6 @@
           },
           {
             "source": "xattr",
-            "target": "norse"
-          },
-          {
-            "source": "xattr",
             "target": "numba"
           },
           {
@@ -110840,10 +107896,6 @@
           {
             "source": "xattr",
             "target": "openpnm"
-          },
-          {
-            "source": "xattr",
-            "target": "openvino"
           },
           {
             "source": "xattr",
@@ -110899,10 +107951,6 @@
           },
           {
             "source": "xattr",
-            "target": "pymde"
-          },
-          {
-            "source": "xattr",
             "target": "pynacl"
           },
           {
@@ -110951,19 +107999,7 @@
           },
           {
             "source": "xattr",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "xattr",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "xattr",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "xattr",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "xattr",
@@ -111067,10 +108103,6 @@
           },
           {
             "source": "xattr",
-            "target": "tango"
-          },
-          {
-            "source": "xattr",
             "target": "tensorflow"
           },
           {
@@ -111091,10 +108123,6 @@
           },
           {
             "source": "xattr",
-            "target": "torchsparse"
-          },
-          {
-            "source": "xattr",
             "target": "torchtext"
           },
           {
@@ -111104,10 +108132,6 @@
           {
             "source": "xattr",
             "target": "trollimage"
-          },
-          {
-            "source": "xattr",
-            "target": "ultranest"
           },
           {
             "source": "xattr",
@@ -111144,10 +108168,6 @@
           {
             "source": "xattr",
             "target": "xeus-octave"
-          },
-          {
-            "source": "xattr",
-            "target": "xgrammar"
           },
           {
             "source": "xattr",
@@ -113115,27 +110135,7 @@
           },
           {
             "source": "zlib",
-            "target": "allennlp"
-          },
-          {
-            "source": "zlib",
-            "target": "allennlp-models"
-          },
-          {
-            "source": "zlib",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "zlib",
-            "target": "allennlp-server"
-          },
-          {
-            "source": "zlib",
             "target": "ambertools"
-          },
-          {
-            "source": "zlib",
-            "target": "arcjetcv"
           },
           {
             "source": "zlib",
@@ -113371,19 +110371,7 @@
           },
           {
             "source": "zlib",
-            "target": "deepspeed"
-          },
-          {
-            "source": "zlib",
             "target": "deno"
-          },
-          {
-            "source": "zlib",
-            "target": "detectron2"
-          },
-          {
-            "source": "zlib",
-            "target": "dgl"
           },
           {
             "source": "zlib",
@@ -113440,14 +110428,6 @@
           {
             "source": "zlib",
             "target": "exiv2"
-          },
-          {
-            "source": "zlib",
-            "target": "fairscale"
-          },
-          {
-            "source": "zlib",
-            "target": "fairseq"
           },
           {
             "source": "zlib",
@@ -113667,10 +110647,6 @@
           },
           {
             "source": "zlib",
-            "target": "grouper"
-          },
-          {
-            "source": "zlib",
             "target": "grpc-cpp"
           },
           {
@@ -113723,10 +110699,6 @@
           },
           {
             "source": "zlib",
-            "target": "gymnasium"
-          },
-          {
-            "source": "zlib",
             "target": "harfbuzz"
           },
           {
@@ -113752,10 +110724,6 @@
           {
             "source": "zlib",
             "target": "healpy"
-          },
-          {
-            "source": "zlib",
-            "target": "heat"
           },
           {
             "source": "zlib",
@@ -114263,10 +111231,6 @@
           },
           {
             "source": "zlib",
-            "target": "norse"
-          },
-          {
-            "source": "zlib",
             "target": "nsis"
           },
           {
@@ -114547,10 +111511,6 @@
           },
           {
             "source": "zlib",
-            "target": "pymde"
-          },
-          {
-            "source": "zlib",
             "target": "pymeep"
           },
           {
@@ -114595,19 +111555,7 @@
           },
           {
             "source": "zlib",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "zlib",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "zlib",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "zlib",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "zlib",
@@ -114751,10 +111699,6 @@
           },
           {
             "source": "zlib",
-            "target": "scikit-allel"
-          },
-          {
-            "source": "zlib",
             "target": "scikit-geometry"
           },
           {
@@ -114788,10 +111732,6 @@
           {
             "source": "zlib",
             "target": "serf"
-          },
-          {
-            "source": "zlib",
-            "target": "shap"
           },
           {
             "source": "zlib",
@@ -114836,10 +111776,6 @@
           {
             "source": "zlib",
             "target": "tachyon"
-          },
-          {
-            "source": "zlib",
-            "target": "tango"
           },
           {
             "source": "zlib",
@@ -114923,22 +111859,6 @@
           },
           {
             "source": "zlib",
-            "target": "torchdata"
-          },
-          {
-            "source": "zlib",
-            "target": "torchsparse"
-          },
-          {
-            "source": "zlib",
-            "target": "torchtext"
-          },
-          {
-            "source": "zlib",
-            "target": "torchvision"
-          },
-          {
-            "source": "zlib",
             "target": "tree-sitter-cli"
           },
           {
@@ -114960,10 +111880,6 @@
           {
             "source": "zlib",
             "target": "uharfbuzz"
-          },
-          {
-            "source": "zlib",
-            "target": "ultranest"
           },
           {
             "source": "zlib",
@@ -115032,10 +111948,6 @@
           {
             "source": "zlib",
             "target": "xeus-cling"
-          },
-          {
-            "source": "zlib",
-            "target": "xgrammar"
           },
           {
             "source": "zlib",
@@ -115127,10 +112039,6 @@
           },
           {
             "source": "zstandard",
-            "target": "allennlp-semparse"
-          },
-          {
-            "source": "zstandard",
             "target": "allennlp-server"
           },
           {
@@ -115140,10 +112048,6 @@
           {
             "source": "zstandard",
             "target": "apache-beam"
-          },
-          {
-            "source": "zstandard",
-            "target": "arcjetcv"
           },
           {
             "source": "zstandard",
@@ -115203,19 +112107,11 @@
           },
           {
             "source": "zstandard",
-            "target": "deepspeed"
-          },
-          {
-            "source": "zstandard",
             "target": "detectron2"
           },
           {
             "source": "zstandard",
             "target": "dftd3-python"
-          },
-          {
-            "source": "zstandard",
-            "target": "dgl"
           },
           {
             "source": "zstandard",
@@ -115240,14 +112136,6 @@
           {
             "source": "zstandard",
             "target": "fabio"
-          },
-          {
-            "source": "zstandard",
-            "target": "fairscale"
-          },
-          {
-            "source": "zstandard",
-            "target": "fairseq"
           },
           {
             "source": "zstandard",
@@ -115308,10 +112196,6 @@
           {
             "source": "zstandard",
             "target": "hazelbean"
-          },
-          {
-            "source": "zstandard",
-            "target": "heat"
           },
           {
             "source": "zstandard",
@@ -115395,10 +112279,6 @@
           },
           {
             "source": "zstandard",
-            "target": "norse"
-          },
-          {
-            "source": "zstandard",
             "target": "numba"
           },
           {
@@ -115428,10 +112308,6 @@
           {
             "source": "zstandard",
             "target": "openpnm"
-          },
-          {
-            "source": "zstandard",
-            "target": "openvino"
           },
           {
             "source": "zstandard",
@@ -115491,10 +112367,6 @@
           },
           {
             "source": "zstandard",
-            "target": "pymde"
-          },
-          {
-            "source": "zstandard",
             "target": "pynacl"
           },
           {
@@ -115543,19 +112415,7 @@
           },
           {
             "source": "zstandard",
-            "target": "pytorch_cluster"
-          },
-          {
-            "source": "zstandard",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "zstandard",
-            "target": "pytorch_sparse"
-          },
-          {
-            "source": "zstandard",
-            "target": "pytorch_spline_conv"
+            "target": "pytorch-cpu"
           },
           {
             "source": "zstandard",
@@ -115659,10 +112519,6 @@
           },
           {
             "source": "zstandard",
-            "target": "tango"
-          },
-          {
-            "source": "zstandard",
             "target": "tensorflow"
           },
           {
@@ -115683,10 +112539,6 @@
           },
           {
             "source": "zstandard",
-            "target": "torchsparse"
-          },
-          {
-            "source": "zstandard",
             "target": "torchtext"
           },
           {
@@ -115696,10 +112548,6 @@
           {
             "source": "zstandard",
             "target": "trollimage"
-          },
-          {
-            "source": "zstandard",
-            "target": "ultranest"
           },
           {
             "source": "zstandard",
@@ -115736,10 +112584,6 @@
           {
             "source": "zstandard",
             "target": "xeus-octave"
-          },
-          {
-            "source": "zstandard",
-            "target": "xgrammar"
           },
           {
             "source": "zstandard",
@@ -127795,6 +124639,12 @@
             }
           },
           {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
+            }
+          },
+          {
             "id": "pytorch_cluster",
             "payload": {
               "__lazy_json__": "node_attrs/pytorch_cluster.json"
@@ -132904,6 +129754,12 @@
             "id": "vtk",
             "payload": {
               "__lazy_json__": "node_attrs/vtk.json"
+            }
+          },
+          {
+            "id": "vulkan-headers",
+            "payload": {
+              "__lazy_json__": "node_attrs/vulkan-headers.json"
             }
           },
           {
