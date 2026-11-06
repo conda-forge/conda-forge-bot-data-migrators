@@ -14706,10 +14706,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "pixi-inject"
-          },
-          {
-            "source": "pkg-config",
             "target": "pixi-pack"
           },
           {
@@ -15019,6 +15015,10 @@
           {
             "source": "pkgconf",
             "target": "openssh"
+          },
+          {
+            "source": "pkgconf",
+            "target": "pixi-inject"
           },
           {
             "source": "pkgconf",
