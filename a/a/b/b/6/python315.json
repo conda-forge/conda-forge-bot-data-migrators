@@ -61,6 +61,18 @@
             }
           },
           {
+            "id": "plotpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/plotpy.json"
+            }
+          },
+          {
+            "id": "pyamrex",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyamrex.json"
+            }
+          },
+          {
             "id": "xaitk-saliency",
             "payload": {
               "__lazy_json__": "node_attrs/xaitk-saliency.json"
@@ -49889,6 +49901,10 @@
           {
             "source": "pydantic-core",
             "target": "wandb"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "warpx"
           },
           {
             "source": "pydantic-core",
