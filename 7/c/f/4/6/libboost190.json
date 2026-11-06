@@ -1689,10 +1689,6 @@
           },
           {
             "source": "libosmium",
-            "target": "osm2pgsql"
-          },
-          {
-            "source": "libosmium",
             "target": "osmium-tool"
           },
           {
@@ -1977,10 +1973,6 @@
           },
           {
             "source": "osm2pgrouting",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "osm2pgsql",
             "target": "conda-forge-pinning"
           },
           {
@@ -4012,12 +4004,6 @@
             "id": "osm2pgrouting",
             "payload": {
               "__lazy_json__": "node_attrs/osm2pgrouting.json"
-            }
-          },
-          {
-            "id": "osm2pgsql",
-            "payload": {
-              "__lazy_json__": "node_attrs/osm2pgsql.json"
             }
           },
           {
