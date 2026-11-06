@@ -68591,10 +68591,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "cbonsai"
-          },
-          {
-            "source": "pkg-config",
             "target": "ccache"
           },
           {
@@ -70043,10 +70039,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "mediainfo"
-          },
-          {
-            "source": "pkg-config",
             "target": "memray"
           },
           {
@@ -70472,10 +70464,6 @@
           {
             "source": "pkg-config",
             "target": "pixi"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pixi-inject"
           },
           {
             "source": "pkg-config",
@@ -71223,10 +71211,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "skia"
-          },
-          {
-            "source": "pkg-config",
             "target": "sktime"
           },
           {
@@ -71787,6 +71771,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "cbonsai"
+          },
+          {
+            "source": "pkgconf",
             "target": "gdb"
           },
           {
@@ -71795,7 +71783,15 @@
           },
           {
             "source": "pkgconf",
+            "target": "mediainfo"
+          },
+          {
+            "source": "pkgconf",
             "target": "openssh"
+          },
+          {
+            "source": "pkgconf",
+            "target": "pixi-inject"
           },
           {
             "source": "pkgconf",
@@ -71808,6 +71804,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "skia"
           },
           {
             "source": "pkgconf",
