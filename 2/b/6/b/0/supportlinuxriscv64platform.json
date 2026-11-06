@@ -3654,18 +3654,6 @@
             "target": "systemd"
           },
           {
-            "source": "vulkan-headers",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "libplacebo"
-          },
-          {
-            "source": "vulkan-headers",
-            "target": "vulkan-loader"
-          },
-          {
             "source": "vulkan-loader",
             "target": "ffmpeg"
           },
@@ -6597,12 +6585,6 @@
             }
           },
           {
-            "id": "vulkan-headers",
-            "payload": {
-              "__lazy_json__": "node_attrs/vulkan-headers.json"
-            }
-          },
-          {
             "id": "vulkan-loader",
             "payload": {
               "__lazy_json__": "node_attrs/vulkan-loader.json"
@@ -7042,7 +7024,6 @@
         "termcolor-cpp",
         "tinyxml2",
         "urdfdom_headers",
-        "vulkan-headers",
         "winpthreads",
         "x264",
         "x265",
