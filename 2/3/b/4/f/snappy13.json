@@ -68,33 +68,9 @@
             }
           },
           {
-            "id": "leveldb",
-            "payload": {
-              "__lazy_json__": "node_attrs/leveldb.json"
-            }
-          },
-          {
-            "id": "libmongoc",
-            "payload": {
-              "__lazy_json__": "node_attrs/libmongoc.json"
-            }
-          },
-          {
-            "id": "libpulsar",
-            "payload": {
-              "__lazy_json__": "node_attrs/libpulsar.json"
-            }
-          },
-          {
             "id": "ospray",
             "payload": {
               "__lazy_json__": "node_attrs/ospray.json"
-            }
-          },
-          {
-            "id": "rocksdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/rocksdb.json"
             }
           },
           {
@@ -107,12 +83,6 @@
             "id": "squash",
             "payload": {
               "__lazy_json__": "node_attrs/squash.json"
-            }
-          },
-          {
-            "id": "tensorflow",
-            "payload": {
-              "__lazy_json__": "node_attrs/tensorflow.json"
             }
           }
         ]
@@ -465,7 +435,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
