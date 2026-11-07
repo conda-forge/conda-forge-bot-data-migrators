@@ -14342,10 +14342,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "conda-mirror"
-          },
-          {
-            "source": "pkg-config",
             "target": "contourpy"
           },
           {
@@ -15003,6 +14999,10 @@
           {
             "source": "pkgconf",
             "target": "conda-deny"
+          },
+          {
+            "source": "pkgconf",
+            "target": "conda-mirror"
           },
           {
             "source": "pkgconf",
