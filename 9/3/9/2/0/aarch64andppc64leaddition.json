@@ -14479,6 +14479,10 @@
           },
           {
             "source": "cairo",
+            "target": "libdecor"
+          },
+          {
+            "source": "cairo",
             "target": "librsvg"
           },
           {
@@ -18540,6 +18544,10 @@
           {
             "source": "cmake",
             "target": "libde265"
+          },
+          {
+            "source": "cmake",
+            "target": "libdecor"
           },
           {
             "source": "cmake",
@@ -25779,6 +25787,10 @@
           },
           {
             "source": "dbus",
+            "target": "libdecor"
+          },
+          {
+            "source": "dbus",
             "target": "mpas_tools"
           },
           {
@@ -27320,6 +27332,10 @@
           {
             "source": "expat",
             "target": "libass"
+          },
+          {
+            "source": "expat",
+            "target": "libdecor"
           },
           {
             "source": "expat",
@@ -32551,6 +32567,10 @@
           },
           {
             "source": "glib",
+            "target": "libdecor"
+          },
+          {
+            "source": "glib",
             "target": "libignition-common"
           },
           {
@@ -34448,6 +34468,10 @@
           {
             "source": "gtk3",
             "target": "kornia-rs"
+          },
+          {
+            "source": "gtk3",
+            "target": "libdecor"
           },
           {
             "source": "gtk3",
@@ -39904,6 +39928,10 @@
           {
             "source": "libde265",
             "target": "libheif"
+          },
+          {
+            "source": "libdecor",
+            "target": "sdl"
           },
           {
             "source": "libdeflate",
@@ -57067,6 +57095,10 @@
           },
           {
             "source": "ninja",
+            "target": "libdecor"
+          },
+          {
+            "source": "ninja",
             "target": "libdicom"
           },
           {
@@ -64479,6 +64511,10 @@
           },
           {
             "source": "pango",
+            "target": "libdecor"
+          },
+          {
+            "source": "pango",
             "target": "librsvg"
           },
           {
@@ -66355,6 +66391,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libdecor"
+          },
+          {
+            "source": "pkg-config",
             "target": "libdevmapper"
           },
           {
@@ -67715,10 +67755,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "sdl"
-          },
-          {
-            "source": "pkg-config",
             "target": "sdl2_image"
           },
           {
@@ -68364,6 +68400,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "sdl"
           },
           {
             "source": "pkgconf",
@@ -73260,6 +73300,10 @@
           {
             "source": "python",
             "target": "libcxx"
+          },
+          {
+            "source": "python",
+            "target": "libdecor"
           },
           {
             "source": "python",
@@ -96807,6 +96851,10 @@
           },
           {
             "source": "wayland",
+            "target": "libdecor"
+          },
+          {
+            "source": "wayland",
             "target": "nsight-compute"
           },
           {
@@ -101715,6 +101763,10 @@
           },
           {
             "source": "xz",
+            "target": "libdecor"
+          },
+          {
+            "source": "xz",
             "target": "libgpg-error"
           },
           {
@@ -102932,6 +102984,10 @@
           {
             "source": "zlib",
             "target": "libcxx"
+          },
+          {
+            "source": "zlib",
+            "target": "libdecor"
           },
           {
             "source": "zlib",
@@ -110584,6 +110640,12 @@
             "id": "libde265",
             "payload": {
               "__lazy_json__": "node_attrs/libde265.json"
+            }
+          },
+          {
+            "id": "libdecor",
+            "payload": {
+              "__lazy_json__": "node_attrs/libdecor.json"
             }
           },
           {
