@@ -68,21 +68,9 @@
             }
           },
           {
-            "id": "pytables",
-            "payload": {
-              "__lazy_json__": "node_attrs/pytables.json"
-            }
-          },
-          {
             "id": "python-blosc2",
             "payload": {
               "__lazy_json__": "node_attrs/python-blosc2.json"
-            }
-          },
-          {
-            "id": "tiledb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiledb.json"
             }
           }
         ]
@@ -289,7 +277,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
