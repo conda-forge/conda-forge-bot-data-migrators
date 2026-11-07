@@ -86,21 +86,9 @@
             }
           },
           {
-            "id": "qt-webengine",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-webengine.json"
-            }
-          },
-          {
             "id": "sstp-client",
             "payload": {
               "__lazy_json__": "node_attrs/sstp-client.json"
-            }
-          },
-          {
-            "id": "thrift-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/thrift-cpp.json"
             }
           },
           {
@@ -427,7 +415,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
