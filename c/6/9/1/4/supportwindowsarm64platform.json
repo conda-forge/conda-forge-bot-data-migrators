@@ -2934,6 +2934,10 @@
           },
           {
             "source": "cmake",
+            "target": "cuda-cccl"
+          },
+          {
+            "source": "cmake",
             "target": "cuda-nvcc"
           },
           {
@@ -12099,6 +12103,10 @@
           {
             "source": "ninja",
             "target": "ctng-compilers"
+          },
+          {
+            "source": "ninja",
+            "target": "cuda-cccl"
           },
           {
             "source": "ninja",
@@ -26460,7 +26468,6 @@
       "elements": [
         "7zip",
         "bzip2",
-        "cuda-cccl",
         "cuda-cupti",
         "cuda-nvdisasm",
         "cuda-nvml-dev",
