@@ -60,18 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/go-cockroach.json"
             }
-          },
-          {
-            "id": "ifcopenshell",
-            "payload": {
-              "__lazy_json__": "node_attrs/ifcopenshell.json"
-            }
-          },
-          {
-            "id": "python-rocksdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-rocksdb.json"
-            }
           }
         ]
       }
@@ -291,7 +279,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
