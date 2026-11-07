@@ -45,7 +45,68 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "at-spi2-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/at-spi2-core.json"
+            }
+          },
+          {
+            "id": "atk",
+            "payload": {
+              "__lazy_json__": "node_attrs/atk.json"
+            }
+          },
+          {
+            "id": "hicolor-icon-theme",
+            "payload": {
+              "__lazy_json__": "node_attrs/hicolor-icon-theme.json"
+            }
+          },
+          {
+            "id": "libcups",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcups.json"
+            }
+          },
+          {
+            "id": "xorg-libxcomposite",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxcomposite.json"
+            }
+          },
+          {
+            "id": "xorg-libxdamage",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxdamage.json"
+            }
+          },
+          {
+            "id": "xorg-libxinerama",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxinerama.json"
+            }
+          },
+          {
+            "id": "xorg-libxxf86vm",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxxf86vm.json"
+            }
+          },
+          {
+            "id": "xorg-xf86vidmodeproto",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-xf86vidmodeproto.json"
+            }
+          },
+          {
+            "id": "xorg-xineramaproto",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-xineramaproto.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -140,6 +201,22 @@
           {
             "source": "ast-serialize",
             "target": "mypy"
+          },
+          {
+            "source": "at-spi2-atk",
+            "target": "gtk3"
+          },
+          {
+            "source": "at-spi2-core",
+            "target": "at-spi2-atk"
+          },
+          {
+            "source": "atk",
+            "target": "at-spi2-atk"
+          },
+          {
+            "source": "atk",
+            "target": "gtk3"
           },
           {
             "source": "attr",
@@ -343,7 +420,15 @@
           },
           {
             "source": "cairo",
+            "target": "gtk3"
+          },
+          {
+            "source": "cairo",
             "target": "harfbuzz"
+          },
+          {
+            "source": "cairo",
+            "target": "libdecor"
           },
           {
             "source": "cairo",
@@ -559,6 +644,18 @@
           },
           {
             "source": "dbus",
+            "target": "at-spi2-atk"
+          },
+          {
+            "source": "dbus",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "dbus",
+            "target": "libdecor"
+          },
+          {
+            "source": "dbus",
             "target": "pulseaudio"
           },
           {
@@ -626,6 +723,10 @@
             "target": "systemd"
           },
           {
+            "source": "epoxy",
+            "target": "gtk3"
+          },
+          {
             "source": "expat",
             "target": "bwidget"
           },
@@ -659,11 +760,19 @@
           },
           {
             "source": "expat",
+            "target": "gtk3"
+          },
+          {
+            "source": "expat",
             "target": "harfbuzz"
           },
           {
             "source": "expat",
             "target": "libass"
+          },
+          {
+            "source": "expat",
+            "target": "libdecor"
           },
           {
             "source": "expat",
@@ -751,6 +860,10 @@
           },
           {
             "source": "fontconfig",
+            "target": "gtk3"
+          },
+          {
+            "source": "fontconfig",
             "target": "libass"
           },
           {
@@ -803,6 +916,10 @@
           },
           {
             "source": "freetype",
+            "target": "gtk3"
+          },
+          {
+            "source": "freetype",
             "target": "harfbuzz"
           },
           {
@@ -831,6 +948,10 @@
           },
           {
             "source": "fribidi",
+            "target": "gtk3"
+          },
+          {
+            "source": "fribidi",
             "target": "libass"
           },
           {
@@ -840,6 +961,10 @@
           {
             "source": "frozenlist",
             "target": "aiohttp"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "gtk3"
           },
           {
             "source": "gdk-pixbuf",
@@ -856,6 +981,18 @@
           {
             "source": "git",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "glib",
+            "target": "at-spi2-atk"
+          },
+          {
+            "source": "glib",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "glib",
+            "target": "atk"
           },
           {
             "source": "glib",
@@ -879,7 +1016,15 @@
           },
           {
             "source": "glib",
+            "target": "gtk3"
+          },
+          {
+            "source": "glib",
             "target": "harfbuzz"
+          },
+          {
+            "source": "glib",
+            "target": "libdecor"
           },
           {
             "source": "glib",
@@ -943,6 +1088,14 @@
           },
           {
             "source": "gobject-introspection",
+            "target": "at-spi2-atk"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "gobject-introspection",
             "target": "harfbuzz"
           },
           {
@@ -994,6 +1147,10 @@
             "target": "zlib-ng"
           },
           {
+            "source": "gtk3",
+            "target": "libdecor"
+          },
+          {
             "source": "gz-cmake",
             "target": "gz-math"
           },
@@ -1035,6 +1192,10 @@
           },
           {
             "source": "harfbuzz",
+            "target": "gtk3"
+          },
+          {
+            "source": "harfbuzz",
             "target": "libass"
           },
           {
@@ -1044,6 +1205,10 @@
           {
             "source": "harfbuzz",
             "target": "pango"
+          },
+          {
+            "source": "hicolor-icon-theme",
+            "target": "gtk3"
           },
           {
             "source": "hypothesis",
@@ -1155,6 +1320,10 @@
           },
           {
             "source": "krb5",
+            "target": "libcups"
+          },
+          {
+            "source": "krb5",
             "target": "micromamba"
           },
           {
@@ -1262,6 +1431,10 @@
             "target": "shs-libcxi"
           },
           {
+            "source": "libcups",
+            "target": "gtk3"
+          },
+          {
             "source": "libcxx",
             "target": "mvapich"
           },
@@ -1282,6 +1455,10 @@
             "target": "soxr"
           },
           {
+            "source": "libdecor",
+            "target": "sdl"
+          },
+          {
             "source": "libdeflate",
             "target": "libtiff"
           },
@@ -1296,6 +1473,10 @@
           {
             "source": "libdispatch",
             "target": "cctools-and-ld64"
+          },
+          {
+            "source": "libdrm",
+            "target": "epoxy"
           },
           {
             "source": "libdrm",
@@ -1380,6 +1561,14 @@
           {
             "source": "libgcrypt",
             "target": "systemd"
+          },
+          {
+            "source": "libglvnd",
+            "target": "epoxy"
+          },
+          {
+            "source": "libglvnd",
+            "target": "gtk3"
           },
           {
             "source": "libglvnd",
@@ -1642,6 +1831,10 @@
             "target": "ffmpeg"
           },
           {
+            "source": "librsvg",
+            "target": "gtk3"
+          },
+          {
             "source": "libsdformat",
             "target": "pinocchio"
           },
@@ -1887,7 +2080,15 @@
           },
           {
             "source": "libxkbcommon",
+            "target": "gtk3"
+          },
+          {
+            "source": "libxkbcommon",
             "target": "sdl"
+          },
+          {
+            "source": "libxml2",
+            "target": "at-spi2-core"
           },
           {
             "source": "libxml2",
@@ -2523,6 +2724,14 @@
           },
           {
             "source": "pango",
+            "target": "gtk3"
+          },
+          {
+            "source": "pango",
+            "target": "libdecor"
+          },
+          {
+            "source": "pango",
             "target": "librsvg"
           },
           {
@@ -2684,6 +2893,10 @@
           {
             "source": "pthread-stubs",
             "target": "xorg-libxrandr"
+          },
+          {
+            "source": "pthread-stubs",
+            "target": "xorg-libxxf86vm"
           },
           {
             "source": "pugixml",
@@ -3679,6 +3892,14 @@
           },
           {
             "source": "wayland",
+            "target": "gtk3"
+          },
+          {
+            "source": "wayland",
+            "target": "libdecor"
+          },
+          {
+            "source": "wayland",
             "target": "libva"
           },
           {
@@ -3767,6 +3988,10 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "bwidget"
           },
           {
@@ -3775,7 +4000,15 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "epoxy"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "ffmpeg"
+          },
+          {
+            "source": "xorg-libx11",
+            "target": "gtk3"
           },
           {
             "source": "xorg-libx11",
@@ -3819,7 +4052,15 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "xorg-libxcomposite"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "xorg-libxcursor"
+          },
+          {
+            "source": "xorg-libx11",
+            "target": "xorg-libxdamage"
           },
           {
             "source": "xorg-libx11",
@@ -3836,6 +4077,10 @@
           {
             "source": "xorg-libx11",
             "target": "xorg-libxi"
+          },
+          {
+            "source": "xorg-libx11",
+            "target": "xorg-libxinerama"
           },
           {
             "source": "xorg-libx11",
@@ -3858,6 +4103,10 @@
             "target": "xorg-libxtst"
           },
           {
+            "source": "xorg-libx11",
+            "target": "xorg-libxxf86vm"
+          },
+          {
             "source": "xorg-libxau",
             "target": "libxcb"
           },
@@ -3866,8 +4115,24 @@
             "target": "libxkbcommon"
           },
           {
+            "source": "xorg-libxcomposite",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxcursor",
+            "target": "gtk3"
+          },
+          {
             "source": "xorg-libxcursor",
             "target": "sdl"
+          },
+          {
+            "source": "xorg-libxdamage",
+            "target": "epoxy"
+          },
+          {
+            "source": "xorg-libxdamage",
+            "target": "gtk3"
           },
           {
             "source": "xorg-libxdmcp",
@@ -3879,7 +4144,15 @@
           },
           {
             "source": "xorg-libxext",
+            "target": "epoxy"
+          },
+          {
+            "source": "xorg-libxext",
             "target": "ffmpeg"
+          },
+          {
+            "source": "xorg-libxext",
+            "target": "gtk3"
           },
           {
             "source": "xorg-libxext",
@@ -3895,7 +4168,15 @@
           },
           {
             "source": "xorg-libxext",
+            "target": "xorg-libxdamage"
+          },
+          {
+            "source": "xorg-libxext",
             "target": "xorg-libxi"
+          },
+          {
+            "source": "xorg-libxext",
+            "target": "xorg-libxinerama"
           },
           {
             "source": "xorg-libxext",
@@ -3910,8 +4191,20 @@
             "target": "xorg-libxtst"
           },
           {
+            "source": "xorg-libxext",
+            "target": "xorg-libxxf86vm"
+          },
+          {
+            "source": "xorg-libxfixes",
+            "target": "epoxy"
+          },
+          {
             "source": "xorg-libxfixes",
             "target": "ffmpeg"
+          },
+          {
+            "source": "xorg-libxfixes",
+            "target": "gtk3"
           },
           {
             "source": "xorg-libxfixes",
@@ -3923,7 +4216,15 @@
           },
           {
             "source": "xorg-libxfixes",
+            "target": "xorg-libxcomposite"
+          },
+          {
+            "source": "xorg-libxfixes",
             "target": "xorg-libxcursor"
+          },
+          {
+            "source": "xorg-libxfixes",
+            "target": "xorg-libxdamage"
           },
           {
             "source": "xorg-libxfixes",
@@ -3951,6 +4252,18 @@
           },
           {
             "source": "xorg-libxi",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "xorg-libxi",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxinerama",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxi",
             "target": "sdl"
           },
           {
@@ -3959,11 +4272,19 @@
           },
           {
             "source": "xorg-libxrandr",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxrandr",
             "target": "vulkan-loader"
           },
           {
             "source": "xorg-libxrender",
             "target": "cairo"
+          },
+          {
+            "source": "xorg-libxrender",
+            "target": "gtk3"
           },
           {
             "source": "xorg-libxrender",
@@ -3987,11 +4308,19 @@
           },
           {
             "source": "xorg-libxtst",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "xorg-libxtst",
             "target": "pulseaudio"
           },
           {
             "source": "xorg-libxtst",
             "target": "sdl"
+          },
+          {
+            "source": "xorg-libxxf86vm",
+            "target": "epoxy"
           },
           {
             "source": "xorg-util-macros",
@@ -4008,6 +4337,10 @@
           {
             "source": "xorg-util-macros",
             "target": "gobject-introspection"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "gtk3"
           },
           {
             "source": "xorg-util-macros",
@@ -4087,7 +4420,15 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "xorg-libxcomposite"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "xorg-libxcursor"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "xorg-libxdamage"
           },
           {
             "source": "xorg-util-macros",
@@ -4111,6 +4452,10 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "xorg-libxinerama"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "xorg-libxrandr"
           },
           {
@@ -4131,7 +4476,27 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "xorg-libxxf86vm"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "xorg-xproto"
+          },
+          {
+            "source": "xorg-xf86vidmodeproto",
+            "target": "epoxy"
+          },
+          {
+            "source": "xorg-xineramaproto",
+            "target": "gtk3"
           },
           {
             "source": "xorg-xproto",
@@ -4175,7 +4540,15 @@
           },
           {
             "source": "xz",
+            "target": "gtk3"
+          },
+          {
+            "source": "xz",
             "target": "libarchive"
+          },
+          {
+            "source": "xz",
+            "target": "libdecor"
           },
           {
             "source": "xz",
@@ -4255,6 +4628,10 @@
           },
           {
             "source": "zlib",
+            "target": "at-spi2-core"
+          },
+          {
+            "source": "zlib",
             "target": "backtrace"
           },
           {
@@ -4323,6 +4700,10 @@
           },
           {
             "source": "zlib",
+            "target": "gtk3"
+          },
+          {
+            "source": "zlib",
             "target": "harfbuzz"
           },
           {
@@ -4336,6 +4717,14 @@
           {
             "source": "zlib",
             "target": "libass"
+          },
+          {
+            "source": "zlib",
+            "target": "libcups"
+          },
+          {
+            "source": "zlib",
+            "target": "libdecor"
           },
           {
             "source": "zlib",
@@ -4659,6 +5048,24 @@
             }
           },
           {
+            "id": "at-spi2-atk",
+            "payload": {
+              "__lazy_json__": "node_attrs/at-spi2-atk.json"
+            }
+          },
+          {
+            "id": "at-spi2-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/at-spi2-core.json"
+            }
+          },
+          {
+            "id": "atk",
+            "payload": {
+              "__lazy_json__": "node_attrs/atk.json"
+            }
+          },
+          {
             "id": "attr",
             "payload": {
               "__lazy_json__": "node_attrs/attr.json"
@@ -4911,6 +5318,12 @@
             }
           },
           {
+            "id": "epoxy",
+            "payload": {
+              "__lazy_json__": "node_attrs/epoxy.json"
+            }
+          },
+          {
             "id": "expat",
             "payload": {
               "__lazy_json__": "node_attrs/expat.json"
@@ -5061,6 +5474,12 @@
             }
           },
           {
+            "id": "gtk3",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtk3.json"
+            }
+          },
+          {
             "id": "gz-cmake",
             "payload": {
               "__lazy_json__": "node_attrs/gz-cmake.json"
@@ -5088,6 +5507,12 @@
             "id": "harfbuzz",
             "payload": {
               "__lazy_json__": "node_attrs/harfbuzz.json"
+            }
+          },
+          {
+            "id": "hicolor-icon-theme",
+            "payload": {
+              "__lazy_json__": "node_attrs/hicolor-icon-theme.json"
             }
           },
           {
@@ -5247,9 +5672,21 @@
             }
           },
           {
+            "id": "libcups",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcups.json"
+            }
+          },
+          {
             "id": "libcxx",
             "payload": {
               "__lazy_json__": "node_attrs/libcxx.json"
+            }
+          },
+          {
+            "id": "libdecor",
+            "payload": {
+              "__lazy_json__": "node_attrs/libdecor.json"
             }
           },
           {
@@ -6687,9 +7124,21 @@
             }
           },
           {
+            "id": "xorg-libxcomposite",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxcomposite.json"
+            }
+          },
+          {
             "id": "xorg-libxcursor",
             "payload": {
               "__lazy_json__": "node_attrs/xorg-libxcursor.json"
+            }
+          },
+          {
+            "id": "xorg-libxdamage",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxdamage.json"
             }
           },
           {
@@ -6723,6 +7172,12 @@
             }
           },
           {
+            "id": "xorg-libxinerama",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxinerama.json"
+            }
+          },
+          {
             "id": "xorg-libxrandr",
             "payload": {
               "__lazy_json__": "node_attrs/xorg-libxrandr.json"
@@ -6753,9 +7208,27 @@
             }
           },
           {
+            "id": "xorg-libxxf86vm",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxxf86vm.json"
+            }
+          },
+          {
             "id": "xorg-util-macros",
             "payload": {
               "__lazy_json__": "node_attrs/xorg-util-macros.json"
+            }
+          },
+          {
+            "id": "xorg-xf86vidmodeproto",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-xf86vidmodeproto.json"
+            }
+          },
+          {
+            "id": "xorg-xineramaproto",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-xineramaproto.json"
             }
           },
           {
@@ -6968,6 +7441,7 @@
         "gstreamer-orc",
         "gtest",
         "gz-cmake",
+        "hicolor-icon-theme",
         "icu",
         "intel-gmmlib",
         "json-c",
