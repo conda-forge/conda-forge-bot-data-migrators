@@ -54,7 +54,38 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "elegant",
+            "payload": {
+              "__lazy_json__": "node_attrs/elegant.json"
+            }
+          },
+          {
+            "id": "gdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdal.json"
+            }
+          },
+          {
+            "id": "imagecodecs",
+            "payload": {
+              "__lazy_json__": "node_attrs/imagecodecs.json"
+            }
+          },
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "timg-hzeller",
+            "payload": {
+              "__lazy_json__": "node_attrs/timg-hzeller.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
