@@ -60,18 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/lammps.json"
             }
-          },
-          {
-            "id": "moab",
-            "payload": {
-              "__lazy_json__": "node_attrs/moab.json"
-            }
-          },
-          {
-            "id": "parallelio",
-            "payload": {
-              "__lazy_json__": "node_attrs/parallelio.json"
-            }
           }
         ]
       }
@@ -279,7 +267,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
