@@ -56,27 +56,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "elegant",
-            "payload": {
-              "__lazy_json__": "node_attrs/elegant.json"
-            }
-          },
-          {
             "id": "gdal",
             "payload": {
               "__lazy_json__": "node_attrs/gdal.json"
             }
           },
           {
-            "id": "imagecodecs",
+            "id": "r-pgenlibr",
             "payload": {
-              "__lazy_json__": "node_attrs/imagecodecs.json"
-            }
-          },
-          {
-            "id": "timg-hzeller",
-            "payload": {
-              "__lazy_json__": "node_attrs/timg-hzeller.json"
+              "__lazy_json__": "node_attrs/r-pgenlibr.json"
             }
           }
         ]
@@ -397,7 +385,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
