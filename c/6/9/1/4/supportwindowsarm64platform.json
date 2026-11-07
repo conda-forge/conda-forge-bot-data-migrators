@@ -14555,10 +14555,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "libwebsockets"
-          },
-          {
-            "source": "pkg-config",
             "target": "libxcb"
           },
           {
@@ -14672,10 +14668,6 @@
           {
             "source": "pkg-config",
             "target": "pixi"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pixi-pack"
           },
           {
             "source": "pkg-config",
@@ -14991,11 +14983,19 @@
           },
           {
             "source": "pkgconf",
+            "target": "libwebsockets"
+          },
+          {
+            "source": "pkgconf",
             "target": "openssh"
           },
           {
             "source": "pkgconf",
             "target": "pixi-inject"
+          },
+          {
+            "source": "pkgconf",
+            "target": "pixi-pack"
           },
           {
             "source": "pkgconf",
