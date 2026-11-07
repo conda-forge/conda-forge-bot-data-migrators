@@ -56,51 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "arcticdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/arcticdb.json"
-            }
-          },
-          {
-            "id": "cbflib",
-            "payload": {
-              "__lazy_json__": "node_attrs/cbflib.json"
-            }
-          },
-          {
-            "id": "dssp",
-            "payload": {
-              "__lazy_json__": "node_attrs/dssp.json"
-            }
-          },
-          {
-            "id": "less",
-            "payload": {
-              "__lazy_json__": "node_attrs/less.json"
-            }
-          },
-          {
-            "id": "lighttpd",
-            "payload": {
-              "__lazy_json__": "node_attrs/lighttpd.json"
-            }
-          },
-          {
-            "id": "lnav",
-            "payload": {
-              "__lazy_json__": "node_attrs/lnav.json"
-            }
-          },
-          {
             "id": "php",
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "sphinxdft",
-            "payload": {
-              "__lazy_json__": "node_attrs/sphinxdft.json"
             }
           },
           {
@@ -659,7 +617,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
