@@ -74,12 +74,6 @@
             }
           },
           {
-            "id": "tmux",
-            "payload": {
-              "__lazy_json__": "node_attrs/tmux.json"
-            }
-          },
-          {
             "id": "torchtext",
             "payload": {
               "__lazy_json__": "node_attrs/torchtext.json"
@@ -323,7 +317,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
