@@ -68,21 +68,9 @@
             }
           },
           {
-            "id": "libtiff",
-            "payload": {
-              "__lazy_json__": "node_attrs/libtiff.json"
-            }
-          },
-          {
             "id": "lighttpd",
             "payload": {
               "__lazy_json__": "node_attrs/lighttpd.json"
-            }
-          },
-          {
-            "id": "openexr",
-            "payload": {
-              "__lazy_json__": "node_attrs/openexr.json"
             }
           },
           {
@@ -421,7 +409,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
