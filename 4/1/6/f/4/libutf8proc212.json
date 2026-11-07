@@ -1,0 +1,346 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libutf8proc 2.12\n  kind: version\n  migration_number: 1\nlibutf8proc:\n- '2.12'\nmigrator_ts: 1794007191.1521\n",
+    "libutf8proc212"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for libutf8proc 2.12",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "julia",
+            "payload": {
+              "__lazy_json__": "node_attrs/julia.json"
+            }
+          },
+          {
+            "id": "libddwaf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libddwaf.json"
+            }
+          },
+          {
+            "id": "nvim",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvim.json"
+            }
+          },
+          {
+            "id": "subversion",
+            "payload": {
+              "__lazy_json__": "node_attrs/subversion.json"
+            }
+          },
+          {
+            "id": "tmux",
+            "payload": {
+              "__lazy_json__": "node_attrs/tmux.json"
+            }
+          },
+          {
+            "id": "torchtext",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchtext.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "enumlib.jl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "enumlib.jl"
+          },
+          {
+            "source": "libddwaf",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvim",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "subversion",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tmux",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "torchtext",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "julia",
+            "payload": {
+              "__lazy_json__": "node_attrs/julia.json"
+            }
+          },
+          {
+            "id": "libddwaf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libddwaf.json"
+            }
+          },
+          {
+            "id": "nvim",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvim.json"
+            }
+          },
+          {
+            "id": "subversion",
+            "payload": {
+              "__lazy_json__": "node_attrs/subversion.json"
+            }
+          },
+          {
+            "id": "tmux",
+            "payload": {
+              "__lazy_json__": "node_attrs/tmux.json"
+            }
+          },
+          {
+            "id": "torchtext",
+            "payload": {
+              "__lazy_json__": "node_attrs/torchtext.json"
+            }
+          },
+          {
+            "id": "enumlib.jl",
+            "payload": {
+              "__lazy_json__": "node_attrs/enumlib.jl.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "libutf8proc"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "libutf8proc212"
+}
