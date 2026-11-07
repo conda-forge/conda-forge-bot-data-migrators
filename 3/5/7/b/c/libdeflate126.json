@@ -54,32 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "bun",
-            "payload": {
-              "__lazy_json__": "node_attrs/bun.json"
-            }
-          },
-          {
-            "id": "lighttpd",
-            "payload": {
-              "__lazy_json__": "node_attrs/lighttpd.json"
-            }
-          },
-          {
-            "id": "openexr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/openexr-python.json"
-            }
-          },
-          {
-            "id": "openfbx",
-            "payload": {
-              "__lazy_json__": "node_attrs/openfbx.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -397,7 +372,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
