@@ -54,56 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "avahi",
-            "payload": {
-              "__lazy_json__": "node_attrs/avahi.json"
-            }
-          },
-          {
-            "id": "folly",
-            "payload": {
-              "__lazy_json__": "node_attrs/folly.json"
-            }
-          },
-          {
-            "id": "libcamera",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcamera.json"
-            }
-          },
-          {
-            "id": "pvxs",
-            "payload": {
-              "__lazy_json__": "node_attrs/pvxs.json"
-            }
-          },
-          {
-            "id": "sstp-client",
-            "payload": {
-              "__lazy_json__": "node_attrs/sstp-client.json"
-            }
-          },
-          {
-            "id": "tmate",
-            "payload": {
-              "__lazy_json__": "node_attrs/tmate.json"
-            }
-          },
-          {
-            "id": "tmux",
-            "payload": {
-              "__lazy_json__": "node_attrs/tmux.json"
-            }
-          },
-          {
-            "id": "tor",
-            "payload": {
-              "__lazy_json__": "node_attrs/tor.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -409,7 +360,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
