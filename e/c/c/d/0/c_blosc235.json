@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "hdf5plugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/hdf5plugin.json"
-            }
-          },
-          {
-            "id": "imagecodecs",
-            "payload": {
-              "__lazy_json__": "node_attrs/imagecodecs.json"
-            }
-          },
-          {
             "id": "python-blosc2",
             "payload": {
               "__lazy_json__": "node_attrs/python-blosc2.json"
@@ -277,7 +265,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
