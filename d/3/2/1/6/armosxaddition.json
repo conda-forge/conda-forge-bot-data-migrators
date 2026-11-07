@@ -70943,10 +70943,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "sdl"
-          },
-          {
-            "source": "pkg-config",
             "target": "sdl2_gfx"
           },
           {
@@ -71628,6 +71624,10 @@
           {
             "source": "pkgconf",
             "target": "rw"
+          },
+          {
+            "source": "pkgconf",
+            "target": "sdl"
           },
           {
             "source": "pkgconf",
