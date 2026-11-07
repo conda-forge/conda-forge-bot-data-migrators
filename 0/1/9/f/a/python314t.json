@@ -57,7 +57,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "light-curve-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/light-curve-python.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -551,6 +558,10 @@
           {
             "source": "backports.zstd",
             "target": "lalsimulation"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "light-curve-python"
           },
           {
             "source": "backports.zstd",
@@ -1107,6 +1118,10 @@
           {
             "source": "brotli",
             "target": "lalsimulation"
+          },
+          {
+            "source": "brotli",
+            "target": "light-curve-python"
           },
           {
             "source": "brotli",
@@ -4329,6 +4344,10 @@
             "target": "gammapy"
           },
           {
+            "source": "iminuit",
+            "target": "light-curve-python"
+          },
+          {
             "source": "impit",
             "target": "conda-forge-pinning"
           },
@@ -4889,6 +4908,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "light-curve-python",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "livekit-blingfire",
             "target": "conda-forge-pinning"
           },
@@ -5291,6 +5314,10 @@
           {
             "source": "maturin",
             "target": "kornia-rs"
+          },
+          {
+            "source": "maturin",
+            "target": "light-curve-python"
           },
           {
             "source": "maturin",
@@ -6527,6 +6554,10 @@
           {
             "source": "numpy",
             "target": "ldas-tools-framecpp-swig"
+          },
+          {
+            "source": "numpy",
+            "target": "light-curve-python"
           },
           {
             "source": "numpy",
@@ -8182,6 +8213,10 @@
           },
           {
             "source": "psutil",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "psutil",
             "target": "llguidance"
           },
           {
@@ -9690,6 +9725,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "pyyaml",
             "target": "llguidance"
           },
           {
@@ -10503,6 +10542,10 @@
           {
             "source": "scipy",
             "target": "lalsimulation"
+          },
+          {
+            "source": "scipy",
+            "target": "light-curve-python"
           },
           {
             "source": "scipy",
@@ -11971,6 +12014,10 @@
           {
             "source": "tbb",
             "target": "lief"
+          },
+          {
+            "source": "tbb",
+            "target": "light-curve-python"
           },
           {
             "source": "tbb",
@@ -14062,6 +14109,10 @@
           },
           {
             "source": "ujson",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "ujson",
             "target": "llguidance"
           },
           {
@@ -14387,6 +14438,10 @@
           {
             "source": "wcwidth",
             "target": "jsonschema-rs"
+          },
+          {
+            "source": "wcwidth",
+            "target": "light-curve-python"
           },
           {
             "source": "wcwidth",
@@ -16327,6 +16382,12 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
+            "id": "light-curve-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/light-curve-python.json"
             }
           },
           {
