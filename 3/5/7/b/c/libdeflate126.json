@@ -62,12 +62,6 @@
             }
           },
           {
-            "id": "casacore",
-            "payload": {
-              "__lazy_json__": "node_attrs/casacore.json"
-            }
-          },
-          {
             "id": "lighttpd",
             "payload": {
               "__lazy_json__": "node_attrs/lighttpd.json"
@@ -83,12 +77,6 @@
             "id": "openfbx",
             "payload": {
               "__lazy_json__": "node_attrs/openfbx.json"
-            }
-          },
-          {
-            "id": "z5py",
-            "payload": {
-              "__lazy_json__": "node_attrs/z5py.json"
             }
           }
         ]
@@ -409,7 +397,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
