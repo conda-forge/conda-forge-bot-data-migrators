@@ -92,12 +92,6 @@
             }
           },
           {
-            "id": "openvino",
-            "payload": {
-              "__lazy_json__": "node_attrs/openvino.json"
-            }
-          },
-          {
             "id": "ospray",
             "payload": {
               "__lazy_json__": "node_attrs/ospray.json"
@@ -483,7 +477,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
