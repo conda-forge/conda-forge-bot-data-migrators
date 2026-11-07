@@ -54,7 +54,26 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "lammps",
+            "payload": {
+              "__lazy_json__": "node_attrs/lammps.json"
+            }
+          },
+          {
+            "id": "moab",
+            "payload": {
+              "__lazy_json__": "node_attrs/moab.json"
+            }
+          },
+          {
+            "id": "parallelio",
+            "payload": {
+              "__lazy_json__": "node_attrs/parallelio.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
