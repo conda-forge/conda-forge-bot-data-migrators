@@ -54,32 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "libddwaf",
-            "payload": {
-              "__lazy_json__": "node_attrs/libddwaf.json"
-            }
-          },
-          {
-            "id": "nvim",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvim.json"
-            }
-          },
-          {
-            "id": "subversion",
-            "payload": {
-              "__lazy_json__": "node_attrs/subversion.json"
-            }
-          },
-          {
-            "id": "torchtext",
-            "payload": {
-              "__lazy_json__": "node_attrs/torchtext.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -317,7 +292,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
