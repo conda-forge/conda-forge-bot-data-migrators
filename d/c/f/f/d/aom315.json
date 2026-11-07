@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ffmpeg",
-            "payload": {
-              "__lazy_json__": "node_attrs/ffmpeg.json"
-            }
-          },
-          {
             "id": "libavif",
             "payload": {
               "__lazy_json__": "node_attrs/libavif.json"
@@ -255,7 +249,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
