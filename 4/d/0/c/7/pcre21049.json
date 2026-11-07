@@ -74,18 +74,6 @@
             }
           },
           {
-            "id": "fish",
-            "payload": {
-              "__lazy_json__": "node_attrs/fish.json"
-            }
-          },
-          {
-            "id": "htcondor",
-            "payload": {
-              "__lazy_json__": "node_attrs/htcondor.json"
-            }
-          },
-          {
             "id": "less",
             "payload": {
               "__lazy_json__": "node_attrs/less.json"
@@ -104,21 +92,9 @@
             }
           },
           {
-            "id": "nginx",
-            "payload": {
-              "__lazy_json__": "node_attrs/nginx.json"
-            }
-          },
-          {
             "id": "php",
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "scipoptsuite",
-            "payload": {
-              "__lazy_json__": "node_attrs/scipoptsuite.json"
             }
           },
           {
@@ -131,24 +107,6 @@
             "id": "ugrep",
             "payload": {
               "__lazy_json__": "node_attrs/ugrep.json"
-            }
-          },
-          {
-            "id": "universal-ctags",
-            "payload": {
-              "__lazy_json__": "node_attrs/universal-ctags.json"
-            }
-          },
-          {
-            "id": "uwsgi",
-            "payload": {
-              "__lazy_json__": "node_attrs/uwsgi.json"
-            }
-          },
-          {
-            "id": "zsh",
-            "payload": {
-              "__lazy_json__": "node_attrs/zsh.json"
             }
           }
         ]
@@ -701,7 +659,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
