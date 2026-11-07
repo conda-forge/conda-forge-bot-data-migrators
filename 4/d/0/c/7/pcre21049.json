@@ -1,0 +1,760 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for pcre2 10.49\n  kind: version\n  migration_number: 1\nmigrator_ts: 1794008090.9124582\npcre2:\n- '10.49'\n",
+    "pcre21049"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for pcre2 10.49",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
+          {
+            "id": "cbflib",
+            "payload": {
+              "__lazy_json__": "node_attrs/cbflib.json"
+            }
+          },
+          {
+            "id": "dssp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dssp.json"
+            }
+          },
+          {
+            "id": "file",
+            "payload": {
+              "__lazy_json__": "node_attrs/file.json"
+            }
+          },
+          {
+            "id": "fish",
+            "payload": {
+              "__lazy_json__": "node_attrs/fish.json"
+            }
+          },
+          {
+            "id": "gdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdal.json"
+            }
+          },
+          {
+            "id": "git",
+            "payload": {
+              "__lazy_json__": "node_attrs/git.json"
+            }
+          },
+          {
+            "id": "glib",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib.json"
+            }
+          },
+          {
+            "id": "grep",
+            "payload": {
+              "__lazy_json__": "node_attrs/grep.json"
+            }
+          },
+          {
+            "id": "htcondor",
+            "payload": {
+              "__lazy_json__": "node_attrs/htcondor.json"
+            }
+          },
+          {
+            "id": "less",
+            "payload": {
+              "__lazy_json__": "node_attrs/less.json"
+            }
+          },
+          {
+            "id": "libgit2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgit2.json"
+            }
+          },
+          {
+            "id": "lighttpd",
+            "payload": {
+              "__lazy_json__": "node_attrs/lighttpd.json"
+            }
+          },
+          {
+            "id": "lnav",
+            "payload": {
+              "__lazy_json__": "node_attrs/lnav.json"
+            }
+          },
+          {
+            "id": "nginx",
+            "payload": {
+              "__lazy_json__": "node_attrs/nginx.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "scipoptsuite",
+            "payload": {
+              "__lazy_json__": "node_attrs/scipoptsuite.json"
+            }
+          },
+          {
+            "id": "sphinxdft",
+            "payload": {
+              "__lazy_json__": "node_attrs/sphinxdft.json"
+            }
+          },
+          {
+            "id": "swig",
+            "payload": {
+              "__lazy_json__": "node_attrs/swig.json"
+            }
+          },
+          {
+            "id": "ugrep",
+            "payload": {
+              "__lazy_json__": "node_attrs/ugrep.json"
+            }
+          },
+          {
+            "id": "universal-ctags",
+            "payload": {
+              "__lazy_json__": "node_attrs/universal-ctags.json"
+            }
+          },
+          {
+            "id": "uwsgi",
+            "payload": {
+              "__lazy_json__": "node_attrs/uwsgi.json"
+            }
+          },
+          {
+            "id": "wget",
+            "payload": {
+              "__lazy_json__": "node_attrs/wget.json"
+            }
+          },
+          {
+            "id": "zsh",
+            "payload": {
+              "__lazy_json__": "node_attrs/zsh.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "arcticdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cbflib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "deepsearch-glm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dssp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "enumlib.jl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "file",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fish",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdal",
+            "target": "mapserver"
+          },
+          {
+            "source": "git",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "git",
+            "target": "julia"
+          },
+          {
+            "source": "glib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "glib",
+            "target": "mapserver"
+          },
+          {
+            "source": "glib",
+            "target": "qt-main"
+          },
+          {
+            "source": "glib",
+            "target": "r-base"
+          },
+          {
+            "source": "glib",
+            "target": "vte"
+          },
+          {
+            "source": "glib",
+            "target": "wxwidgets"
+          },
+          {
+            "source": "grep",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "htcondor",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "enumlib.jl"
+          },
+          {
+            "source": "less",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgit2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgit2",
+            "target": "enumlib.jl"
+          },
+          {
+            "source": "libgit2",
+            "target": "julia"
+          },
+          {
+            "source": "lighttpd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lnav",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mapserver",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nginx",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "deepsearch-glm"
+          },
+          {
+            "source": "r-base",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-base",
+            "target": "r-rjava"
+          },
+          {
+            "source": "r-base",
+            "target": "r-stringfish"
+          },
+          {
+            "source": "r-rjava",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-stringfish",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scipoptsuite",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sphinxdft",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "swig",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "swig",
+            "target": "mapserver"
+          },
+          {
+            "source": "ugrep",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "universal-ctags",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "uwsgi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "vte",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wget",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wxwidgets",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zsh",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
+          {
+            "id": "cbflib",
+            "payload": {
+              "__lazy_json__": "node_attrs/cbflib.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "deepsearch-glm",
+            "payload": {
+              "__lazy_json__": "node_attrs/deepsearch-glm.json"
+            }
+          },
+          {
+            "id": "dssp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dssp.json"
+            }
+          },
+          {
+            "id": "file",
+            "payload": {
+              "__lazy_json__": "node_attrs/file.json"
+            }
+          },
+          {
+            "id": "fish",
+            "payload": {
+              "__lazy_json__": "node_attrs/fish.json"
+            }
+          },
+          {
+            "id": "gdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdal.json"
+            }
+          },
+          {
+            "id": "git",
+            "payload": {
+              "__lazy_json__": "node_attrs/git.json"
+            }
+          },
+          {
+            "id": "glib",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib.json"
+            }
+          },
+          {
+            "id": "grep",
+            "payload": {
+              "__lazy_json__": "node_attrs/grep.json"
+            }
+          },
+          {
+            "id": "htcondor",
+            "payload": {
+              "__lazy_json__": "node_attrs/htcondor.json"
+            }
+          },
+          {
+            "id": "julia",
+            "payload": {
+              "__lazy_json__": "node_attrs/julia.json"
+            }
+          },
+          {
+            "id": "less",
+            "payload": {
+              "__lazy_json__": "node_attrs/less.json"
+            }
+          },
+          {
+            "id": "libgit2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgit2.json"
+            }
+          },
+          {
+            "id": "lighttpd",
+            "payload": {
+              "__lazy_json__": "node_attrs/lighttpd.json"
+            }
+          },
+          {
+            "id": "lnav",
+            "payload": {
+              "__lazy_json__": "node_attrs/lnav.json"
+            }
+          },
+          {
+            "id": "mapserver",
+            "payload": {
+              "__lazy_json__": "node_attrs/mapserver.json"
+            }
+          },
+          {
+            "id": "nginx",
+            "payload": {
+              "__lazy_json__": "node_attrs/nginx.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          },
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "r-rjava",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-rjava.json"
+            }
+          },
+          {
+            "id": "r-stringfish",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-stringfish.json"
+            }
+          },
+          {
+            "id": "scipoptsuite",
+            "payload": {
+              "__lazy_json__": "node_attrs/scipoptsuite.json"
+            }
+          },
+          {
+            "id": "sphinxdft",
+            "payload": {
+              "__lazy_json__": "node_attrs/sphinxdft.json"
+            }
+          },
+          {
+            "id": "swig",
+            "payload": {
+              "__lazy_json__": "node_attrs/swig.json"
+            }
+          },
+          {
+            "id": "ugrep",
+            "payload": {
+              "__lazy_json__": "node_attrs/ugrep.json"
+            }
+          },
+          {
+            "id": "universal-ctags",
+            "payload": {
+              "__lazy_json__": "node_attrs/universal-ctags.json"
+            }
+          },
+          {
+            "id": "uwsgi",
+            "payload": {
+              "__lazy_json__": "node_attrs/uwsgi.json"
+            }
+          },
+          {
+            "id": "vte",
+            "payload": {
+              "__lazy_json__": "node_attrs/vte.json"
+            }
+          },
+          {
+            "id": "wget",
+            "payload": {
+              "__lazy_json__": "node_attrs/wget.json"
+            }
+          },
+          {
+            "id": "wxwidgets",
+            "payload": {
+              "__lazy_json__": "node_attrs/wxwidgets.json"
+            }
+          },
+          {
+            "id": "zsh",
+            "payload": {
+              "__lazy_json__": "node_attrs/zsh.json"
+            }
+          },
+          {
+            "id": "enumlib.jl",
+            "payload": {
+              "__lazy_json__": "node_attrs/enumlib.jl.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "pcre2"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "pcre21049"
+}
