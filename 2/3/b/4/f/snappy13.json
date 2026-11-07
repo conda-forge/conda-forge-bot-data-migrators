@@ -1,0 +1,500 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for snappy 1.3\n  kind: version\n  migration_number: 1\nmigrator_ts: 1794007775.0547163\nsnappy:\n- '1.3'\n",
+    "snappy13"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for snappy 1.3",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "avrocpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/avrocpp.json"
+            }
+          },
+          {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
+            "id": "folly",
+            "payload": {
+              "__lazy_json__": "node_attrs/folly.json"
+            }
+          },
+          {
+            "id": "leveldb",
+            "payload": {
+              "__lazy_json__": "node_attrs/leveldb.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libpulsar",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpulsar.json"
+            }
+          },
+          {
+            "id": "openvino",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "ospray",
+            "payload": {
+              "__lazy_json__": "node_attrs/ospray.json"
+            }
+          },
+          {
+            "id": "qt-webengine",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-webengine.json"
+            }
+          },
+          {
+            "id": "rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocksdb.json"
+            }
+          },
+          {
+            "id": "snzip",
+            "payload": {
+              "__lazy_json__": "node_attrs/snzip.json"
+            }
+          },
+          {
+            "id": "squash",
+            "payload": {
+              "__lazy_json__": "node_attrs/squash.json"
+            }
+          },
+          {
+            "id": "tensorflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "aimrocks",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "avrocpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "blosc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "blosc",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "folly",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "imagecodecs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "leveldb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libmongoc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpulsar",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvino",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "orc",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "orc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ospray",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-rocksdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-webengine",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rocksdb",
+            "target": "aimrocks"
+          },
+          {
+            "source": "rocksdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rocksdb",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "snzip",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "squash",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tensorflow",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "aimrocks",
+            "payload": {
+              "__lazy_json__": "node_attrs/aimrocks.json"
+            }
+          },
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "avrocpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/avrocpp.json"
+            }
+          },
+          {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "folly",
+            "payload": {
+              "__lazy_json__": "node_attrs/folly.json"
+            }
+          },
+          {
+            "id": "imagecodecs",
+            "payload": {
+              "__lazy_json__": "node_attrs/imagecodecs.json"
+            }
+          },
+          {
+            "id": "leveldb",
+            "payload": {
+              "__lazy_json__": "node_attrs/leveldb.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libpulsar",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpulsar.json"
+            }
+          },
+          {
+            "id": "openvino",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvino.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "ospray",
+            "payload": {
+              "__lazy_json__": "node_attrs/ospray.json"
+            }
+          },
+          {
+            "id": "python-rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-rocksdb.json"
+            }
+          },
+          {
+            "id": "qt-webengine",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-webengine.json"
+            }
+          },
+          {
+            "id": "rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocksdb.json"
+            }
+          },
+          {
+            "id": "snzip",
+            "payload": {
+              "__lazy_json__": "node_attrs/snzip.json"
+            }
+          },
+          {
+            "id": "squash",
+            "payload": {
+              "__lazy_json__": "node_attrs/squash.json"
+            }
+          },
+          {
+            "id": "tensorflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/tensorflow.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "snappy"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "snappy13"
+}
