@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "arrow-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow-cpp.json"
-            }
-          },
-          {
             "id": "julia",
             "payload": {
               "__lazy_json__": "node_attrs/julia.json"
@@ -335,7 +329,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
