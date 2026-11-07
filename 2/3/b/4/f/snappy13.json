@@ -62,21 +62,9 @@
             }
           },
           {
-            "id": "folly",
-            "payload": {
-              "__lazy_json__": "node_attrs/folly.json"
-            }
-          },
-          {
             "id": "ospray",
             "payload": {
               "__lazy_json__": "node_attrs/ospray.json"
-            }
-          },
-          {
-            "id": "snzip",
-            "payload": {
-              "__lazy_json__": "node_attrs/snzip.json"
             }
           },
           {
@@ -435,7 +423,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
