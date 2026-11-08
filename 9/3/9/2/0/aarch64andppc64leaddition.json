@@ -1967,6 +1967,10 @@
           },
           {
             "source": "autoconf",
+            "target": "leptonica"
+          },
+          {
+            "source": "autoconf",
             "target": "lftp"
           },
           {
@@ -2132,10 +2136,6 @@
           {
             "source": "autoconf",
             "target": "mpi_serial"
-          },
-          {
-            "source": "autoconf",
-            "target": "mupdf"
           },
           {
             "source": "autoconf",
@@ -3211,6 +3211,10 @@
           },
           {
             "source": "automake",
+            "target": "leptonica"
+          },
+          {
+            "source": "automake",
             "target": "lftp"
           },
           {
@@ -3524,10 +3528,6 @@
           {
             "source": "automake",
             "target": "mumps"
-          },
-          {
-            "source": "automake",
-            "target": "mupdf"
           },
           {
             "source": "automake",
@@ -5727,6 +5727,10 @@
           },
           {
             "source": "bash",
+            "target": "deno-dom"
+          },
+          {
+            "source": "bash",
             "target": "dftd4"
           },
           {
@@ -6715,6 +6719,10 @@
           },
           {
             "source": "bash",
+            "target": "leptonica"
+          },
+          {
+            "source": "bash",
             "target": "lerc"
           },
           {
@@ -6760,10 +6768,6 @@
           {
             "source": "bash",
             "target": "libatomic_ops"
-          },
-          {
-            "source": "bash",
-            "target": "libavif"
           },
           {
             "source": "bash",
@@ -8572,10 +8576,6 @@
           {
             "source": "bash",
             "target": "qtkeychain"
-          },
-          {
-            "source": "bash",
-            "target": "quarto"
           },
           {
             "source": "bash",
@@ -10904,6 +10904,10 @@
           {
             "source": "bash",
             "target": "superlu_dist"
+          },
+          {
+            "source": "bash",
+            "target": "svt-av1"
           },
           {
             "source": "bash",
@@ -15739,6 +15743,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "deno-dom"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "deptry"
           },
           {
@@ -19087,6 +19095,10 @@
           },
           {
             "source": "cmake",
+            "target": "leptonica"
+          },
+          {
+            "source": "cmake",
             "target": "lerc"
           },
           {
@@ -20723,6 +20735,10 @@
           },
           {
             "source": "cmake",
+            "target": "svt-av1"
+          },
+          {
+            "source": "cmake",
             "target": "swig"
           },
           {
@@ -20807,10 +20823,6 @@
           },
           {
             "source": "cmake",
-            "target": "tesseract"
-          },
-          {
-            "source": "cmake",
             "target": "thrift-cpp"
           },
           {
@@ -20832,6 +20844,10 @@
           {
             "source": "cmake",
             "target": "tiny-process-library"
+          },
+          {
+            "source": "cmake",
+            "target": "tinyobjloader"
           },
           {
             "source": "cmake",
@@ -21631,6 +21647,10 @@
           },
           {
             "source": "coverage",
+            "target": "cuda-core"
+          },
+          {
+            "source": "coverage",
             "target": "cuquantum"
           },
           {
@@ -22160,10 +22180,6 @@
           {
             "source": "coverage",
             "target": "msgspec"
-          },
-          {
-            "source": "coverage",
-            "target": "mujoco"
           },
           {
             "source": "coverage",
@@ -22824,6 +22840,10 @@
           {
             "source": "coverage",
             "target": "time-machine"
+          },
+          {
+            "source": "coverage",
+            "target": "tinyobjloader"
           },
           {
             "source": "coverage",
@@ -24270,6 +24290,30 @@
             "target": "cuda-tools"
           },
           {
+            "source": "cuda-core",
+            "target": "cccl-python"
+          },
+          {
+            "source": "cuda-core",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "cuda-core",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-core",
+            "target": "numba-cuda"
+          },
+          {
+            "source": "cuda-core",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cuda-core",
+            "target": "nvmath"
+          },
+          {
             "source": "cuda-cudart",
             "target": "abacus"
           },
@@ -24292,6 +24336,10 @@
           {
             "source": "cuda-cudart",
             "target": "ceres-solver"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "cuda-core"
           },
           {
             "source": "cuda-cudart",
@@ -24543,7 +24591,7 @@
           },
           {
             "source": "cuda-nvcc-impl",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "cuda-nvcc-impl",
@@ -24607,7 +24655,7 @@
           },
           {
             "source": "cuda-nvcc",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "cuda-nvcc",
@@ -24688,6 +24736,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cccl-python"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cuda-core"
           },
           {
             "source": "cuda-nvrtc",
@@ -24839,7 +24891,7 @@
           },
           {
             "source": "cuda-profiler-api",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "cuda-profiler-api",
@@ -25492,6 +25544,10 @@
           {
             "source": "cython",
             "target": "cpnest"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-core"
           },
           {
             "source": "cython",
@@ -26840,6 +26896,14 @@
           {
             "source": "debugpy",
             "target": "z5py"
+          },
+          {
+            "source": "deno-dom",
+            "target": "quarto"
+          },
+          {
+            "source": "deno",
+            "target": "deno-dom"
           },
           {
             "source": "deno",
@@ -32455,15 +32519,15 @@
           },
           {
             "source": "giflib",
+            "target": "leptonica"
+          },
+          {
+            "source": "giflib",
             "target": "libjxl-split"
           },
           {
             "source": "giflib",
             "target": "libwebp"
-          },
-          {
-            "source": "giflib",
-            "target": "mupdf"
           },
           {
             "source": "giflib",
@@ -38994,6 +39058,14 @@
             "target": "vigra"
           },
           {
+            "source": "leptonica",
+            "target": "mupdf"
+          },
+          {
+            "source": "leptonica",
+            "target": "tesseract"
+          },
+          {
             "source": "lerc",
             "target": "gdal"
           },
@@ -39383,7 +39455,7 @@
           },
           {
             "source": "libcudla",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "libcudla",
@@ -39487,7 +39559,7 @@
           },
           {
             "source": "libcufile",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "libcufile",
@@ -41815,6 +41887,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "leptonica"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "libgd"
           },
           {
@@ -41844,10 +41920,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "libwebp"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "mupdf"
           },
           {
             "source": "libjpeg-turbo",
@@ -42227,7 +42299,7 @@
           },
           {
             "source": "libnvfatbin",
-            "target": "cccl-python"
+            "target": "cuda-core"
           },
           {
             "source": "libnvfatbin",
@@ -42272,6 +42344,10 @@
           {
             "source": "libnvjitlink",
             "target": "cccl-python"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "cuda-core"
           },
           {
             "source": "libnvjitlink",
@@ -42659,6 +42735,10 @@
           },
           {
             "source": "libpng",
+            "target": "leptonica"
+          },
+          {
+            "source": "libpng",
             "target": "libgd"
           },
           {
@@ -42692,10 +42772,6 @@
           {
             "source": "libpng",
             "target": "m4rie"
-          },
-          {
-            "source": "libpng",
-            "target": "mupdf"
           },
           {
             "source": "libpng",
@@ -43399,6 +43475,10 @@
           },
           {
             "source": "libtiff",
+            "target": "leptonica"
+          },
+          {
+            "source": "libtiff",
             "target": "libgd"
           },
           {
@@ -43412,10 +43492,6 @@
           {
             "source": "libtiff",
             "target": "libwebp"
-          },
-          {
-            "source": "libtiff",
-            "target": "mupdf"
           },
           {
             "source": "libtiff",
@@ -44136,6 +44212,10 @@
           {
             "source": "libtool",
             "target": "deno"
+          },
+          {
+            "source": "libtool",
+            "target": "deno-dom"
           },
           {
             "source": "libtool",
@@ -45127,6 +45207,10 @@
           },
           {
             "source": "libtool",
+            "target": "leptonica"
+          },
+          {
+            "source": "libtool",
             "target": "lerc"
           },
           {
@@ -45172,10 +45256,6 @@
           {
             "source": "libtool",
             "target": "libatomic_ops"
-          },
-          {
-            "source": "libtool",
-            "target": "libavif"
           },
           {
             "source": "libtool",
@@ -46976,10 +47056,6 @@
           {
             "source": "libtool",
             "target": "qtkeychain"
-          },
-          {
-            "source": "libtool",
-            "target": "quarto"
           },
           {
             "source": "libtool",
@@ -49311,6 +49387,10 @@
           },
           {
             "source": "libtool",
+            "target": "svt-av1"
+          },
+          {
+            "source": "libtool",
             "target": "swig"
           },
           {
@@ -50391,15 +50471,15 @@
           },
           {
             "source": "libwebp",
+            "target": "leptonica"
+          },
+          {
+            "source": "libwebp",
             "target": "libgd"
           },
           {
             "source": "libwebp",
             "target": "libvips"
-          },
-          {
-            "source": "libwebp",
-            "target": "mupdf"
           },
           {
             "source": "libwebp",
@@ -53963,6 +54043,10 @@
           },
           {
             "source": "m4",
+            "target": "leptonica"
+          },
+          {
+            "source": "m4",
             "target": "lftp"
           },
           {
@@ -54032,10 +54116,6 @@
           {
             "source": "m4",
             "target": "mpfr"
-          },
-          {
-            "source": "m4",
-            "target": "mupdf"
           },
           {
             "source": "m4",
@@ -54148,10 +54228,6 @@
           {
             "source": "m4",
             "target": "tempo2"
-          },
-          {
-            "source": "m4",
-            "target": "tesseract"
           },
           {
             "source": "m4",
@@ -57915,6 +57991,10 @@
           },
           {
             "source": "ninja",
+            "target": "leptonica"
+          },
+          {
+            "source": "ninja",
             "target": "level-zero"
           },
           {
@@ -59343,15 +59423,15 @@
           },
           {
             "source": "ninja",
-            "target": "tesseract"
-          },
-          {
-            "source": "ninja",
             "target": "test-drive"
           },
           {
             "source": "ninja",
             "target": "thrift-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "tinyobjloader"
           },
           {
             "source": "ninja",
@@ -60552,6 +60632,10 @@
           {
             "source": "numpy",
             "target": "csbdeep"
+          },
+          {
+            "source": "numpy",
+            "target": "cuda-core"
           },
           {
             "source": "numpy",
@@ -62440,6 +62524,10 @@
           {
             "source": "openjpeg",
             "target": "imagemagick"
+          },
+          {
+            "source": "openjpeg",
+            "target": "leptonica"
           },
           {
             "source": "openjpeg",
@@ -67231,6 +67319,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "leptonica"
+          },
+          {
+            "source": "pkg-config",
             "target": "lftp"
           },
           {
@@ -67480,10 +67572,6 @@
           {
             "source": "pkg-config",
             "target": "libpsl"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libqrencode"
           },
           {
             "source": "pkg-config",
@@ -69212,6 +69300,10 @@
           {
             "source": "pkgconf",
             "target": "libmediainfo"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libqrencode"
           },
           {
             "source": "pkgconf",
@@ -73339,6 +73431,10 @@
           },
           {
             "source": "python",
+            "target": "cuda-core"
+          },
+          {
+            "source": "python",
             "target": "cuda-ctadvisor"
           },
           {
@@ -76888,6 +76984,10 @@
           {
             "source": "python",
             "target": "timezonefinder"
+          },
+          {
+            "source": "python",
+            "target": "tinyobjloader"
           },
           {
             "source": "python",
@@ -93962,6 +94062,14 @@
             "target": "petsc"
           },
           {
+            "source": "svt-av1",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "svt-av1",
+            "target": "libavif"
+          },
+          {
             "source": "swig",
             "target": "casadi"
           },
@@ -94588,6 +94696,10 @@
           {
             "source": "tiny-process-library",
             "target": "bipedal-locomotion-framework"
+          },
+          {
+            "source": "tinyobjloader",
+            "target": "mujoco"
           },
           {
             "source": "tinyxml2",
@@ -103003,6 +103115,10 @@
           },
           {
             "source": "xz",
+            "target": "leptonica"
+          },
+          {
+            "source": "xz",
             "target": "lftp"
           },
           {
@@ -103048,10 +103164,6 @@
           {
             "source": "xz",
             "target": "minizip"
-          },
-          {
-            "source": "xz",
-            "target": "mupdf"
           },
           {
             "source": "xz",
@@ -103255,19 +103367,15 @@
           },
           {
             "source": "yasm",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "yasm",
-            "target": "libavif"
-          },
-          {
-            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
             "source": "yasm",
             "target": "libvpx"
+          },
+          {
+            "source": "yasm",
+            "target": "svt-av1"
           },
           {
             "source": "ycm-cmake-modules",
@@ -104208,6 +104316,10 @@
           {
             "source": "zlib",
             "target": "lemon"
+          },
+          {
+            "source": "zlib",
+            "target": "leptonica"
           },
           {
             "source": "zlib",
@@ -108543,6 +108655,12 @@
             }
           },
           {
+            "id": "cuda-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-core.json"
+            }
+          },
+          {
             "id": "cuda-ctadvisor",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-ctadvisor.json"
@@ -108954,6 +109072,12 @@
             "id": "deno",
             "payload": {
               "__lazy_json__": "node_attrs/deno.json"
+            }
+          },
+          {
+            "id": "deno-dom",
+            "payload": {
+              "__lazy_json__": "node_attrs/deno-dom.json"
             }
           },
           {
@@ -111510,6 +111634,12 @@
             "id": "lemon",
             "payload": {
               "__lazy_json__": "node_attrs/lemon.json"
+            }
+          },
+          {
+            "id": "leptonica",
+            "payload": {
+              "__lazy_json__": "node_attrs/leptonica.json"
             }
           },
           {
@@ -120261,6 +120391,12 @@
             }
           },
           {
+            "id": "svt-av1",
+            "payload": {
+              "__lazy_json__": "node_attrs/svt-av1.json"
+            }
+          },
+          {
             "id": "swig",
             "payload": {
               "__lazy_json__": "node_attrs/swig.json"
@@ -120594,6 +120730,12 @@
             "id": "tiny-process-library",
             "payload": {
               "__lazy_json__": "node_attrs/tiny-process-library.json"
+            }
+          },
+          {
+            "id": "tinyobjloader",
+            "payload": {
+              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
