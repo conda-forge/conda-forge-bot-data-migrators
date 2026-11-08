@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "shapely",
+            "payload": {
+              "__lazy_json__": "node_attrs/shapely.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -226,6 +233,14 @@
           {
             "source": "sedonadb",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "sedonadb"
           }
         ],
         "multigraph": false,
@@ -330,6 +345,12 @@
             "id": "sedonadb",
             "payload": {
               "__lazy_json__": "node_attrs/sedonadb.json"
+            }
+          },
+          {
+            "id": "shapely",
+            "payload": {
+              "__lazy_json__": "node_attrs/shapely.json"
             }
           }
         ]
