@@ -788,6 +788,10 @@
             "target": "hpp-plot"
           },
           {
+            "source": "glim",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "glomap",
             "target": "conda-forge-pinning"
           },
@@ -896,8 +900,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "gtsam-points",
+            "target": "glim"
+          },
+          {
             "source": "gtsam",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtsam",
+            "target": "glim"
           },
           {
             "source": "gtsam",
@@ -3152,6 +3164,12 @@
             "id": "gepetto-viewer-corba",
             "payload": {
               "__lazy_json__": "node_attrs/gepetto-viewer-corba.json"
+            }
+          },
+          {
+            "id": "glim",
+            "payload": {
+              "__lazy_json__": "node_attrs/glim.json"
             }
           },
           {
