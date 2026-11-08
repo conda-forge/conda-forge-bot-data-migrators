@@ -1376,10 +1376,6 @@
             "target": "hpp-template-corba"
           },
           {
-            "source": "hpx",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "hugin",
             "target": "conda-forge-pinning"
           },
@@ -2397,14 +2393,6 @@
           },
           {
             "source": "scine-core",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "scine-core",
-            "target": "scine-utilsos"
-          },
-          {
-            "source": "scine-utilsos",
             "target": "conda-forge-pinning"
           },
           {
@@ -3513,12 +3501,6 @@
             }
           },
           {
-            "id": "hpx",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpx.json"
-            }
-          },
-          {
             "id": "hugin",
             "payload": {
               "__lazy_json__": "node_attrs/hugin.json"
@@ -4374,12 +4356,6 @@
             "id": "scine-core",
             "payload": {
               "__lazy_json__": "node_attrs/scine-core.json"
-            }
-          },
-          {
-            "id": "scine-utilsos",
-            "payload": {
-              "__lazy_json__": "node_attrs/scine-utilsos.json"
             }
           },
           {
