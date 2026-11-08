@@ -2978,10 +2978,6 @@
           },
           {
             "source": "cython",
-            "target": "shapely"
-          },
-          {
-            "source": "cython",
             "target": "silx"
           },
           {
@@ -7042,10 +7038,6 @@
           },
           {
             "source": "numpy",
-            "target": "shapely"
-          },
-          {
-            "source": "numpy",
             "target": "sharplib"
           },
           {
@@ -10801,38 +10793,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "shapely",
-            "target": "apache-sedona"
-          },
-          {
-            "source": "shapely",
-            "target": "cartopy"
-          },
-          {
-            "source": "shapely",
-            "target": "catsmoothing"
-          },
-          {
-            "source": "shapely",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shapely",
-            "target": "gridmarthe"
-          },
-          {
-            "source": "shapely",
-            "target": "pyproj"
-          },
-          {
-            "source": "shapely",
-            "target": "pyresample"
-          },
-          {
-            "source": "shapely",
-            "target": "rasterio"
-          },
-          {
             "source": "sharplib",
             "target": "conda-forge-pinning"
           },
@@ -13239,10 +13199,6 @@
           {
             "source": "tbb",
             "target": "shap"
-          },
-          {
-            "source": "tbb",
-            "target": "shapely"
           },
           {
             "source": "tbb",
@@ -18217,12 +18173,6 @@
             "id": "shap",
             "payload": {
               "__lazy_json__": "node_attrs/shap.json"
-            }
-          },
-          {
-            "id": "shapely",
-            "payload": {
-              "__lazy_json__": "node_attrs/shapely.json"
             }
           },
           {
