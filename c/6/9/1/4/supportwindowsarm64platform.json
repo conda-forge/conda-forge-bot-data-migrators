@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -270,11 +263,11 @@
           },
           {
             "source": "aom",
-            "target": "libavif"
+            "target": "gdal"
           },
           {
             "source": "aom",
-            "target": "libheif"
+            "target": "libavif"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1398,11 +1391,11 @@
           },
           {
             "source": "binutils",
-            "target": "flang"
+            "target": "flang-rt"
           },
           {
             "source": "binutils",
-            "target": "flang-rt"
+            "target": "gdal"
           },
           {
             "source": "binutils",
@@ -1435,10 +1428,6 @@
           {
             "source": "binutils",
             "target": "libhwloc"
-          },
-          {
-            "source": "binutils",
-            "target": "libjxl-split"
           },
           {
             "source": "binutils",
@@ -1602,6 +1591,10 @@
           },
           {
             "source": "bison",
+            "target": "gtk3"
+          },
+          {
+            "source": "bison",
             "target": "hdf4"
           },
           {
@@ -1623,10 +1616,6 @@
           {
             "source": "bison",
             "target": "libuuid"
-          },
-          {
-            "source": "bison",
-            "target": "libxkbcommon"
           },
           {
             "source": "bison",
@@ -1663,6 +1652,10 @@
           {
             "source": "bison",
             "target": "qt-multimedia"
+          },
+          {
+            "source": "bison",
+            "target": "qt-wayland"
           },
           {
             "source": "bison",
@@ -1802,7 +1795,15 @@
           },
           {
             "source": "brotli",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "brotli",
             "target": "fonttools"
+          },
+          {
+            "source": "brotli",
+            "target": "gdal"
           },
           {
             "source": "brotli",
@@ -1819,10 +1820,6 @@
           {
             "source": "brotli",
             "target": "libcst"
-          },
-          {
-            "source": "brotli",
-            "target": "libjxl-split"
           },
           {
             "source": "brotli",
@@ -1966,6 +1963,10 @@
           },
           {
             "source": "cairo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cairo",
             "target": "gobject-introspection"
           },
           {
@@ -1979,10 +1980,6 @@
           {
             "source": "cairo",
             "target": "harfbuzz"
-          },
-          {
-            "source": "cairo",
-            "target": "librsvg"
           },
           {
             "source": "cairo",
@@ -2206,7 +2203,19 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "git-delta"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "graphviz"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "gtk3"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2219,10 +2228,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "libcst"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "librsvg"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2330,7 +2335,15 @@
           },
           {
             "source": "cargo-c",
-            "target": "librsvg"
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cargo-c",
+            "target": "graphviz"
+          },
+          {
+            "source": "cargo-c",
+            "target": "gtk3"
           },
           {
             "source": "cargo-c",
@@ -3070,10 +3083,6 @@
           },
           {
             "source": "cmake",
-            "target": "flang"
-          },
-          {
-            "source": "cmake",
             "target": "flang-rt"
           },
           {
@@ -3147,6 +3156,10 @@
           {
             "source": "cmake",
             "target": "gtest"
+          },
+          {
+            "source": "cmake",
+            "target": "gtk3"
           },
           {
             "source": "cmake",
@@ -3290,10 +3303,6 @@
           },
           {
             "source": "cmake",
-            "target": "libheif"
-          },
-          {
-            "source": "cmake",
             "target": "libhiredis"
           },
           {
@@ -3311,10 +3320,6 @@
           {
             "source": "cmake",
             "target": "libjpeg-turbo"
-          },
-          {
-            "source": "cmake",
-            "target": "libjxl-split"
           },
           {
             "source": "cmake",
@@ -3374,10 +3379,6 @@
           },
           {
             "source": "cmake",
-            "target": "libvorbis"
-          },
-          {
-            "source": "cmake",
             "target": "libvpl"
           },
           {
@@ -3387,10 +3388,6 @@
           {
             "source": "cmake",
             "target": "libwebsockets"
-          },
-          {
-            "source": "cmake",
-            "target": "libxkbcommon"
           },
           {
             "source": "cmake",
@@ -3439,10 +3436,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -4222,11 +4215,23 @@
           },
           {
             "source": "coverage",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "coverage",
             "target": "gmpy2"
           },
           {
             "source": "coverage",
+            "target": "graphviz"
+          },
+          {
+            "source": "coverage",
             "target": "grpc-cpp"
+          },
+          {
+            "source": "coverage",
+            "target": "gtk3"
           },
           {
             "source": "coverage",
@@ -4251,10 +4256,6 @@
           {
             "source": "coverage",
             "target": "libcst"
-          },
-          {
-            "source": "coverage",
-            "target": "librsvg"
           },
           {
             "source": "coverage",
@@ -4474,10 +4475,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "flang"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "flang-rt"
           },
           {
@@ -4539,10 +4536,6 @@
           {
             "source": "ctng-compilers",
             "target": "libhwloc"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "libjxl-split"
           },
           {
             "source": "ctng-compilers",
@@ -5154,11 +5147,11 @@
           },
           {
             "source": "dav1d",
-            "target": "libavif"
+            "target": "gdal"
           },
           {
             "source": "dav1d",
-            "target": "libheif"
+            "target": "libavif"
           },
           {
             "source": "dbus",
@@ -5474,10 +5467,6 @@
           },
           {
             "source": "expat",
-            "target": "librsvg"
-          },
-          {
-            "source": "expat",
             "target": "nsight-compute"
           },
           {
@@ -5693,10 +5682,6 @@
             "target": "openblas"
           },
           {
-            "source": "flang",
-            "target": "flang-rt"
-          },
-          {
             "source": "flatbuffers",
             "target": "openvino"
           },
@@ -5862,6 +5847,10 @@
           },
           {
             "source": "fontconfig",
+            "target": "graphviz"
+          },
+          {
+            "source": "fontconfig",
             "target": "gtk3"
           },
           {
@@ -5871,10 +5860,6 @@
           {
             "source": "fontconfig",
             "target": "libgd"
-          },
-          {
-            "source": "fontconfig",
-            "target": "librsvg"
           },
           {
             "source": "fontconfig",
@@ -5926,6 +5911,10 @@
           },
           {
             "source": "freetype",
+            "target": "graphviz"
+          },
+          {
+            "source": "freetype",
             "target": "gtk3"
           },
           {
@@ -5943,10 +5932,6 @@
           {
             "source": "freetype",
             "target": "libraqm"
-          },
-          {
-            "source": "freetype",
-            "target": "librsvg"
           },
           {
             "source": "freetype",
@@ -6042,95 +6027,15 @@
           },
           {
             "source": "gdk-pixbuf",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "gdk-pixbuf",
             "target": "graphviz"
           },
           {
             "source": "gdk-pixbuf",
             "target": "gtk3"
-          },
-          {
-            "source": "gdk-pixbuf",
-            "target": "librsvg"
-          },
-          {
-            "source": "gendef",
-            "target": "binutils"
-          },
-          {
-            "source": "gendef",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "gendef",
-            "target": "clang-compiler-activation"
-          },
-          {
-            "source": "gendef",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "gendef",
-            "target": "gmp"
-          },
-          {
-            "source": "gendef",
-            "target": "hdf5"
-          },
-          {
-            "source": "gendef",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "gendef",
-            "target": "libhwloc"
-          },
-          {
-            "source": "gendef",
-            "target": "mvapich"
-          },
-          {
-            "source": "gendef",
-            "target": "ncurses"
-          },
-          {
-            "source": "gendef",
-            "target": "numba"
-          },
-          {
-            "source": "gendef",
-            "target": "pocl"
-          },
-          {
-            "source": "gendef",
-            "target": "pthread-stubs"
-          },
-          {
-            "source": "gendef",
-            "target": "r-base"
-          },
-          {
-            "source": "gendef",
-            "target": "sleef"
-          },
-          {
-            "source": "gendef",
-            "target": "soxr"
-          },
-          {
-            "source": "gendef",
-            "target": "tbb"
-          },
-          {
-            "source": "gendef",
-            "target": "ucx-split"
-          },
-          {
-            "source": "gendef",
-            "target": "winpthreads"
-          },
-          {
-            "source": "gendef",
-            "target": "xorg-xf86vidmodeproto"
           },
           {
             "source": "geos",
@@ -6334,11 +6239,11 @@
           },
           {
             "source": "giflib",
-            "target": "gdal"
+            "target": "ffmpeg"
           },
           {
             "source": "giflib",
-            "target": "libjxl-split"
+            "target": "gdal"
           },
           {
             "source": "giflib",
@@ -6487,10 +6392,6 @@
           {
             "source": "glib",
             "target": "harfbuzz"
-          },
-          {
-            "source": "glib",
-            "target": "librsvg"
           },
           {
             "source": "glib",
@@ -6850,7 +6751,15 @@
           },
           {
             "source": "gobject-introspection",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "gobject-introspection",
             "target": "gdk-pixbuf"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "graphviz"
           },
           {
             "source": "gobject-introspection",
@@ -6859,10 +6768,6 @@
           {
             "source": "gobject-introspection",
             "target": "harfbuzz"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "librsvg"
           },
           {
             "source": "gobject-introspection",
@@ -7114,6 +7019,10 @@
           },
           {
             "source": "harfbuzz",
+            "target": "graphviz"
+          },
+          {
+            "source": "harfbuzz",
             "target": "gtk3"
           },
           {
@@ -7123,10 +7032,6 @@
           {
             "source": "harfbuzz",
             "target": "libraqm"
-          },
-          {
-            "source": "harfbuzz",
-            "target": "librsvg"
           },
           {
             "source": "harfbuzz",
@@ -7845,10 +7750,6 @@
             "target": "gdal"
           },
           {
-            "source": "libavif",
-            "target": "libheif"
-          },
-          {
             "source": "libcap",
             "target": "pulseaudio"
           },
@@ -7957,22 +7858,6 @@
             "target": "cupy"
           },
           {
-            "source": "libcusparse",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "libcusparse",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "libcusparse",
-            "target": "cupy"
-          },
-          {
-            "source": "libcusparse",
-            "target": "libcusolver"
-          },
-          {
             "source": "libcxx",
             "target": "binutils"
           },
@@ -8070,7 +7955,7 @@
           },
           {
             "source": "libde265",
-            "target": "libheif"
+            "target": "gdal"
           },
           {
             "source": "libdeflate",
@@ -8285,10 +8170,6 @@
             "target": "libgcrypt"
           },
           {
-            "source": "libheif",
-            "target": "gdal"
-          },
-          {
             "source": "libhiredis",
             "target": "ccache"
           },
@@ -8326,7 +8207,11 @@
           },
           {
             "source": "libhwy",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libhwy",
+            "target": "gdal"
           },
           {
             "source": "libiconv",
@@ -8530,6 +8415,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "gdal"
           },
           {
@@ -8551,10 +8440,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "libgd"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "libjxl-split"
           },
           {
             "source": "libjpeg-turbo",
@@ -8587,14 +8472,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "r-base"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "gdal"
           },
           {
             "source": "libkml",
@@ -8638,19 +8515,27 @@
           },
           {
             "source": "libnvjitlink",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "libnvjitlink",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "cupy"
           },
           {
             "source": "libnvjitlink",
             "target": "libcusolver"
           },
           {
-            "source": "libnvjitlink",
-            "target": "libcusparse"
-          },
-          {
             "source": "libnvjpeg",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libogg",
+            "target": "ffmpeg"
           },
           {
             "source": "libogg",
@@ -8659,10 +8544,6 @@
           {
             "source": "libogg",
             "target": "libsndfile"
-          },
-          {
-            "source": "libogg",
-            "target": "libvorbis"
           },
           {
             "source": "libopus",
@@ -8698,6 +8579,10 @@
           },
           {
             "source": "libpng",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libpng",
             "target": "freetype"
           },
           {
@@ -8710,19 +8595,19 @@
           },
           {
             "source": "libpng",
+            "target": "graphviz"
+          },
+          {
+            "source": "libpng",
+            "target": "gtk3"
+          },
+          {
+            "source": "libpng",
             "target": "harfbuzz"
           },
           {
             "source": "libpng",
             "target": "libgd"
-          },
-          {
-            "source": "libpng",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "libpng",
-            "target": "librsvg"
           },
           {
             "source": "libpng",
@@ -8791,18 +8676,6 @@
           {
             "source": "libraqm",
             "target": "matplotlib"
-          },
-          {
-            "source": "librsvg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "librsvg",
-            "target": "graphviz"
-          },
-          {
-            "source": "librsvg",
-            "target": "gtk3"
           },
           {
             "source": "librttopo",
@@ -9233,14 +9106,6 @@
             "target": "libvpl"
           },
           {
-            "source": "libvorbis",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libvorbis",
-            "target": "libsndfile"
-          },
-          {
             "source": "libvpl",
             "target": "ffmpeg"
           },
@@ -9263,10 +9128,6 @@
           {
             "source": "libwebp-base",
             "target": "graphviz"
-          },
-          {
-            "source": "libwebp-base",
-            "target": "libheif"
           },
           {
             "source": "libwebp-base",
@@ -9306,11 +9167,11 @@
           },
           {
             "source": "libxcb",
-            "target": "libva"
+            "target": "gtk3"
           },
           {
             "source": "libxcb",
-            "target": "libxkbcommon"
+            "target": "libva"
           },
           {
             "source": "libxcb",
@@ -9319,6 +9180,10 @@
           {
             "source": "libxcb",
             "target": "qt-main"
+          },
+          {
+            "source": "libxcb",
+            "target": "qt-wayland"
           },
           {
             "source": "libxcb",
@@ -9373,22 +9238,6 @@
             "target": "util-linux"
           },
           {
-            "source": "libxkbcommon",
-            "target": "gtk3"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "qt-main"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "qt-wayland"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "qt-webengine"
-          },
-          {
             "source": "libxkbfile",
             "target": "qt-webengine"
           },
@@ -9438,10 +9287,6 @@
           },
           {
             "source": "libxml2",
-            "target": "flang"
-          },
-          {
-            "source": "libxml2",
             "target": "flang-rt"
           },
           {
@@ -9454,7 +9299,15 @@
           },
           {
             "source": "libxml2",
+            "target": "graphviz"
+          },
+          {
+            "source": "libxml2",
             "target": "gsl"
+          },
+          {
+            "source": "libxml2",
+            "target": "gtk3"
           },
           {
             "source": "libxml2",
@@ -9486,10 +9339,6 @@
           },
           {
             "source": "libxml2",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "libxml2",
             "target": "libnetcdf"
           },
           {
@@ -9498,19 +9347,7 @@
           },
           {
             "source": "libxml2",
-            "target": "librsvg"
-          },
-          {
-            "source": "libxml2",
             "target": "libspatialite"
-          },
-          {
-            "source": "libxml2",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "libxml2",
-            "target": "libxslt"
           },
           {
             "source": "libxml2",
@@ -9598,6 +9435,10 @@
           },
           {
             "source": "libxml2",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "libxml2",
             "target": "qt-webengine"
           },
           {
@@ -9646,6 +9487,10 @@
           },
           {
             "source": "libxml2",
+            "target": "xkeyboard-config"
+          },
+          {
+            "source": "libxml2",
             "target": "xorg-libxdmcp"
           },
           {
@@ -9663,26 +9508,6 @@
           {
             "source": "libxml2",
             "target": "xorg-xproto"
-          },
-          {
-            "source": "libxslt",
-            "target": "lxml"
-          },
-          {
-            "source": "libxslt",
-            "target": "postgresql"
-          },
-          {
-            "source": "libxslt",
-            "target": "pyside2"
-          },
-          {
-            "source": "libxslt",
-            "target": "qt-webengine"
-          },
-          {
-            "source": "libxslt",
-            "target": "xkeyboard-config"
           },
           {
             "source": "libzip",
@@ -9786,11 +9611,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "flang"
+            "target": "flang-rt"
           },
           {
             "source": "llvmdev",
-            "target": "flang-rt"
+            "target": "gdal"
           },
           {
             "source": "llvmdev",
@@ -9823,10 +9648,6 @@
           {
             "source": "llvmdev",
             "target": "libhwloc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libjxl-split"
           },
           {
             "source": "llvmdev",
@@ -10154,6 +9975,10 @@
           },
           {
             "source": "m4",
+            "target": "gtk3"
+          },
+          {
+            "source": "m4",
             "target": "libedit"
           },
           {
@@ -10170,10 +9995,6 @@
           },
           {
             "source": "m4",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "m4",
             "target": "mpc"
           },
           {
@@ -10183,6 +10004,18 @@
           {
             "source": "m4",
             "target": "pulseaudio"
+          },
+          {
+            "source": "m4",
+            "target": "qt-main"
+          },
+          {
+            "source": "m4",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "m4",
+            "target": "qt-webengine"
           },
           {
             "source": "m4",
@@ -10310,10 +10143,6 @@
           },
           {
             "source": "make",
-            "target": "flang"
-          },
-          {
-            "source": "make",
             "target": "flang-rt"
           },
           {
@@ -10326,7 +10155,7 @@
           },
           {
             "source": "make",
-            "target": "gendef"
+            "target": "gdal"
           },
           {
             "source": "make",
@@ -10518,10 +10347,6 @@
           },
           {
             "source": "make",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "make",
             "target": "libkml"
           },
           {
@@ -10543,10 +10368,6 @@
           {
             "source": "make",
             "target": "libpnetcdf"
-          },
-          {
-            "source": "make",
-            "target": "librsvg"
           },
           {
             "source": "make",
@@ -10598,15 +10419,15 @@
           },
           {
             "source": "make",
-            "target": "libxslt"
-          },
-          {
-            "source": "make",
             "target": "llvmlite"
           },
           {
             "source": "make",
             "target": "lm-sensors"
+          },
+          {
+            "source": "make",
+            "target": "lxml"
           },
           {
             "source": "make",
@@ -10619,10 +10440,6 @@
           {
             "source": "make",
             "target": "matplotlib"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -10839,6 +10656,10 @@
           {
             "source": "make",
             "target": "qt-multimedia"
+          },
+          {
+            "source": "make",
+            "target": "qt-webengine"
           },
           {
             "source": "make",
@@ -11274,6 +11095,18 @@
           },
           {
             "source": "markupsafe",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "markupsafe",
+            "target": "graphviz"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gtk3"
+          },
+          {
+            "source": "markupsafe",
             "target": "hypothesis"
           },
           {
@@ -11291,10 +11124,6 @@
           {
             "source": "markupsafe",
             "target": "libplacebo"
-          },
-          {
-            "source": "markupsafe",
-            "target": "librsvg"
           },
           {
             "source": "markupsafe",
@@ -11449,10 +11278,6 @@
             "target": "conda-standalone"
           },
           {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
             "source": "miktex",
             "target": "r-base"
           },
@@ -11471,10 +11296,6 @@
           {
             "source": "minizip",
             "target": "qt-webengine"
-          },
-          {
-            "source": "mlir",
-            "target": "flang"
           },
           {
             "source": "mlir",
@@ -12074,10 +11895,6 @@
           },
           {
             "source": "ninja",
-            "target": "flang"
-          },
-          {
-            "source": "ninja",
             "target": "flang-rt"
           },
           {
@@ -12278,10 +12095,6 @@
           },
           {
             "source": "ninja",
-            "target": "libheif"
-          },
-          {
-            "source": "ninja",
             "target": "libhwloc"
           },
           {
@@ -12291,10 +12104,6 @@
           {
             "source": "ninja",
             "target": "libiconv"
-          },
-          {
-            "source": "ninja",
-            "target": "libjxl-split"
           },
           {
             "source": "ninja",
@@ -12334,10 +12143,6 @@
           },
           {
             "source": "ninja",
-            "target": "librsvg"
-          },
-          {
-            "source": "ninja",
             "target": "libsndfile"
           },
           {
@@ -12366,19 +12171,11 @@
           },
           {
             "source": "ninja",
-            "target": "libvorbis"
-          },
-          {
-            "source": "ninja",
             "target": "libwebp-base"
           },
           {
             "source": "ninja",
             "target": "libwebsockets"
-          },
-          {
-            "source": "ninja",
-            "target": "libxkbcommon"
           },
           {
             "source": "ninja",
@@ -13210,7 +13007,11 @@
           },
           {
             "source": "openexr",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
+          },
+          {
+            "source": "openexr",
+            "target": "gdal"
           },
           {
             "source": "openh264",
@@ -13286,11 +13087,11 @@
           },
           {
             "source": "openmp",
-            "target": "flang"
+            "target": "flang-rt"
           },
           {
             "source": "openmp",
-            "target": "flang-rt"
+            "target": "gdal"
           },
           {
             "source": "openmp",
@@ -13351,10 +13152,6 @@
           {
             "source": "openmp",
             "target": "libhwloc"
-          },
-          {
-            "source": "openmp",
-            "target": "libjxl-split"
           },
           {
             "source": "openmp",
@@ -13922,15 +13719,15 @@
           },
           {
             "source": "pango",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "pango",
             "target": "graphviz"
           },
           {
             "source": "pango",
             "target": "gtk3"
-          },
-          {
-            "source": "pango",
-            "target": "librsvg"
           },
           {
             "source": "pango",
@@ -14410,10 +14207,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "libheif"
-          },
-          {
-            "source": "pkg-config",
             "target": "libhwloc"
           },
           {
@@ -14423,10 +14216,6 @@
           {
             "source": "pkg-config",
             "target": "libidn2"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libjxl-split"
           },
           {
             "source": "pkg-config",
@@ -14458,10 +14247,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "librsvg"
-          },
-          {
-            "source": "pkg-config",
             "target": "libsndfile"
           },
           {
@@ -14478,15 +14263,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "pkg-config",
             "target": "libxkbfile"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libxslt"
           },
           {
             "source": "pkg-config",
@@ -14618,6 +14395,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "pyside2"
+          },
+          {
+            "source": "pkg-config",
             "target": "python"
           },
           {
@@ -14631,6 +14412,10 @@
           {
             "source": "pkg-config",
             "target": "qt-main"
+          },
+          {
+            "source": "pkg-config",
+            "target": "qt-wayland"
           },
           {
             "source": "pkg-config",
@@ -15242,15 +15027,15 @@
           },
           {
             "source": "pthread-stubs",
+            "target": "gtk3"
+          },
+          {
+            "source": "pthread-stubs",
             "target": "harfbuzz"
           },
           {
             "source": "pthread-stubs",
             "target": "libxcb"
-          },
-          {
-            "source": "pthread-stubs",
-            "target": "libxkbcommon"
           },
           {
             "source": "pthread-stubs",
@@ -15263,6 +15048,14 @@
           {
             "source": "pthread-stubs",
             "target": "qt-multimedia"
+          },
+          {
+            "source": "pthread-stubs",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "pthread-stubs",
+            "target": "qt-webengine"
           },
           {
             "source": "pthread-stubs",
@@ -15894,10 +15687,6 @@
           },
           {
             "source": "python",
-            "target": "flang"
-          },
-          {
-            "source": "python",
             "target": "flang-rt"
           },
           {
@@ -16078,10 +15867,6 @@
           },
           {
             "source": "python",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "python",
             "target": "libpciaccess"
           },
           {
@@ -16095,10 +15880,6 @@
           {
             "source": "python",
             "target": "libraqm"
-          },
-          {
-            "source": "python",
-            "target": "librsvg"
           },
           {
             "source": "python",
@@ -16119,10 +15900,6 @@
           {
             "source": "python",
             "target": "libxcb"
-          },
-          {
-            "source": "python",
-            "target": "libxkbcommon"
           },
           {
             "source": "python",
@@ -16411,6 +16188,10 @@
           {
             "source": "python",
             "target": "qt-main"
+          },
+          {
+            "source": "python",
+            "target": "qt-wayland"
           },
           {
             "source": "python",
@@ -19370,6 +19151,18 @@
           },
           {
             "source": "uv",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "uv",
+            "target": "graphviz"
+          },
+          {
+            "source": "uv",
+            "target": "gtk3"
+          },
+          {
+            "source": "uv",
             "target": "hypothesis"
           },
           {
@@ -19379,10 +19172,6 @@
           {
             "source": "uv",
             "target": "libcst"
-          },
-          {
-            "source": "uv",
-            "target": "librsvg"
           },
           {
             "source": "uvloop",
@@ -20106,7 +19895,7 @@
           },
           {
             "source": "x265",
-            "target": "libheif"
+            "target": "gdal"
           },
           {
             "source": "xattr",
@@ -20234,7 +20023,19 @@
           },
           {
             "source": "xkeyboard-config",
-            "target": "libxkbcommon"
+            "target": "gtk3"
+          },
+          {
+            "source": "xkeyboard-config",
+            "target": "qt-main"
+          },
+          {
+            "source": "xkeyboard-config",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "xkeyboard-config",
+            "target": "qt-webengine"
           },
           {
             "source": "xorg-kbproto",
@@ -20430,11 +20231,23 @@
           },
           {
             "source": "xorg-libxau",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxau",
             "target": "libxcb"
           },
           {
             "source": "xorg-libxau",
-            "target": "libxkbcommon"
+            "target": "qt-main"
+          },
+          {
+            "source": "xorg-libxau",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "xorg-libxau",
+            "target": "qt-webengine"
           },
           {
             "source": "xorg-libxcomposite",
@@ -20746,10 +20559,6 @@
           },
           {
             "source": "xorg-util-macros",
-            "target": "librsvg"
-          },
-          {
-            "source": "xorg-util-macros",
             "target": "libxcb"
           },
           {
@@ -20922,11 +20731,23 @@
           },
           {
             "source": "xorg-xproto",
-            "target": "libxkbcommon"
+            "target": "gtk3"
           },
           {
             "source": "xorg-xproto",
             "target": "netpbm"
+          },
+          {
+            "source": "xorg-xproto",
+            "target": "qt-main"
+          },
+          {
+            "source": "xorg-xproto",
+            "target": "qt-wayland"
+          },
+          {
+            "source": "xorg-xproto",
+            "target": "qt-webengine"
           },
           {
             "source": "xorg-xproto",
@@ -21023,10 +20844,6 @@
           {
             "source": "xz",
             "target": "libgpg-error"
-          },
-          {
-            "source": "xz",
-            "target": "librsvg"
           },
           {
             "source": "xz",
@@ -21374,10 +21191,6 @@
           },
           {
             "source": "zlib",
-            "target": "flang"
-          },
-          {
-            "source": "zlib",
             "target": "flang-rt"
           },
           {
@@ -21510,10 +21323,6 @@
           },
           {
             "source": "zlib",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "zlib",
             "target": "libkml"
           },
           {
@@ -21531,10 +21340,6 @@
           {
             "source": "zlib",
             "target": "libprotobuf"
-          },
-          {
-            "source": "zlib",
-            "target": "librsvg"
           },
           {
             "source": "zlib",
@@ -22030,10 +21835,6 @@
           },
           {
             "source": "zstd",
-            "target": "flang"
-          },
-          {
-            "source": "zstd",
             "target": "flang-rt"
           },
           {
@@ -22075,10 +21876,6 @@
           {
             "source": "zstd",
             "target": "libhwloc"
-          },
-          {
-            "source": "zstd",
-            "target": "libjxl-split"
           },
           {
             "source": "zstd",
@@ -23126,12 +22923,6 @@
             }
           },
           {
-            "id": "flang",
-            "payload": {
-              "__lazy_json__": "node_attrs/flang.json"
-            }
-          },
-          {
             "id": "flang-rt",
             "payload": {
               "__lazy_json__": "node_attrs/flang-rt.json"
@@ -23219,12 +23010,6 @@
             "id": "gdk-pixbuf",
             "payload": {
               "__lazy_json__": "node_attrs/gdk-pixbuf.json"
-            }
-          },
-          {
-            "id": "gendef",
-            "payload": {
-              "__lazy_json__": "node_attrs/gendef.json"
             }
           },
           {
@@ -23756,12 +23541,6 @@
             }
           },
           {
-            "id": "libcusparse",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcusparse.json"
-            }
-          },
-          {
             "id": "libcxx",
             "payload": {
               "__lazy_json__": "node_attrs/libcxx.json"
@@ -23876,12 +23655,6 @@
             }
           },
           {
-            "id": "libheif",
-            "payload": {
-              "__lazy_json__": "node_attrs/libheif.json"
-            }
-          },
-          {
             "id": "libhiredis",
             "payload": {
               "__lazy_json__": "node_attrs/libhiredis.json"
@@ -23915,12 +23688,6 @@
             "id": "libjpeg-turbo",
             "payload": {
               "__lazy_json__": "node_attrs/libjpeg-turbo.json"
-            }
-          },
-          {
-            "id": "libjxl-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/libjxl-split.json"
             }
           },
           {
@@ -24032,12 +23799,6 @@
             }
           },
           {
-            "id": "librsvg",
-            "payload": {
-              "__lazy_json__": "node_attrs/librsvg.json"
-            }
-          },
-          {
             "id": "librttopo",
             "payload": {
               "__lazy_json__": "node_attrs/librttopo.json"
@@ -24134,12 +23895,6 @@
             }
           },
           {
-            "id": "libvorbis",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvorbis.json"
-            }
-          },
-          {
             "id": "libvpl",
             "payload": {
               "__lazy_json__": "node_attrs/libvpl.json"
@@ -24182,12 +23937,6 @@
             }
           },
           {
-            "id": "libxkbcommon",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxkbcommon.json"
-            }
-          },
-          {
             "id": "libxkbfile",
             "payload": {
               "__lazy_json__": "node_attrs/libxkbfile.json"
@@ -24197,12 +23946,6 @@
             "id": "libxml2",
             "payload": {
               "__lazy_json__": "node_attrs/libxml2.json"
-            }
-          },
-          {
-            "id": "libxslt",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxslt.json"
             }
           },
           {
@@ -24311,12 +24054,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
