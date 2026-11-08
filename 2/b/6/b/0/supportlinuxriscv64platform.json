@@ -135,11 +135,23 @@
           },
           {
             "source": "assimp",
-            "target": "coal"
+            "target": "pinocchio"
+          },
+          {
+            "source": "assimp",
+            "target": "roboplan"
           },
           {
             "source": "ast-serialize",
-            "target": "mypy"
+            "target": "chardet"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "mamba"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pytokens"
           },
           {
             "source": "at-spi2-atk",
@@ -263,15 +275,15 @@
           },
           {
             "source": "boost",
-            "target": "coal"
-          },
-          {
-            "source": "boost",
             "target": "eigenpy"
           },
           {
             "source": "boost",
             "target": "pinocchio"
+          },
+          {
+            "source": "boost",
+            "target": "roboplan"
           },
           {
             "source": "brotli",
@@ -436,14 +448,6 @@
           {
             "source": "cli11",
             "target": "micromamba"
-          },
-          {
-            "source": "coal",
-            "target": "pinocchio"
-          },
-          {
-            "source": "coal",
-            "target": "roboplan"
           },
           {
             "source": "conda",
@@ -611,10 +615,6 @@
           },
           {
             "source": "eigen",
-            "target": "coal"
-          },
-          {
-            "source": "eigen",
             "target": "eigenpy"
           },
           {
@@ -635,11 +635,11 @@
           },
           {
             "source": "eigenpy",
-            "target": "coal"
+            "target": "pinocchio"
           },
           {
             "source": "eigenpy",
-            "target": "pinocchio"
+            "target": "roboplan"
           },
           {
             "source": "eigen",
@@ -2251,10 +2251,6 @@
           },
           {
             "source": "mpich",
-            "target": "parmetis"
-          },
-          {
-            "source": "mpich",
             "target": "pulseaudio"
           },
           {
@@ -2300,18 +2296,6 @@
           {
             "source": "mvapich",
             "target": "scalapack"
-          },
-          {
-            "source": "mypy",
-            "target": "chardet"
-          },
-          {
-            "source": "mypy",
-            "target": "mamba"
-          },
-          {
-            "source": "mypy",
-            "target": "pytokens"
           },
           {
             "source": "nanoflann",
@@ -2419,10 +2403,6 @@
           },
           {
             "source": "numpy",
-            "target": "coal"
-          },
-          {
-            "source": "numpy",
             "target": "eigenpy"
           },
           {
@@ -2459,7 +2439,7 @@
           },
           {
             "source": "octomap",
-            "target": "coal"
+            "target": "pinocchio"
           },
           {
             "source": "octomap",
@@ -2500,10 +2480,6 @@
           {
             "source": "openmpi",
             "target": "mumps"
-          },
-          {
-            "source": "openmpi",
-            "target": "parmetis"
           },
           {
             "source": "openmpi",
@@ -2670,10 +2646,6 @@
             "target": "r-base"
           },
           {
-            "source": "parmetis",
-            "target": "mumps"
-          },
-          {
             "source": "patch",
             "target": "conda-forge-ci-setup"
           },
@@ -2775,11 +2747,19 @@
           },
           {
             "source": "psutil",
+            "target": "chardet"
+          },
+          {
+            "source": "psutil",
             "target": "conda-forge-ci-setup"
           },
           {
             "source": "psutil",
-            "target": "mypy"
+            "target": "mamba"
+          },
+          {
+            "source": "psutil",
+            "target": "pytokens"
           },
           {
             "source": "pthread-stubs",
@@ -2863,7 +2843,15 @@
           },
           {
             "source": "python-librt",
-            "target": "mypy"
+            "target": "chardet"
+          },
+          {
+            "source": "python-librt",
+            "target": "mamba"
+          },
+          {
+            "source": "python-librt",
+            "target": "pytokens"
           },
           {
             "source": "python",
@@ -2912,10 +2900,6 @@
           {
             "source": "python",
             "target": "chardet"
-          },
-          {
-            "source": "python",
-            "target": "coal"
           },
           {
             "source": "python",
@@ -3012,14 +2996,6 @@
           {
             "source": "python",
             "target": "multidict"
-          },
-          {
-            "source": "python",
-            "target": "mypy"
-          },
-          {
-            "source": "python",
-            "target": "nh3"
           },
           {
             "source": "python",
@@ -3160,10 +3136,6 @@
           {
             "source": "pyyaml",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "qhull",
-            "target": "coal"
           },
           {
             "source": "qhull",
@@ -5133,12 +5105,6 @@
             }
           },
           {
-            "id": "coal",
-            "payload": {
-              "__lazy_json__": "node_attrs/coal.json"
-            }
-          },
-          {
             "id": "conda",
             "payload": {
               "__lazy_json__": "node_attrs/conda.json"
@@ -6093,12 +6059,6 @@
             }
           },
           {
-            "id": "mypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/mypy.json"
-            }
-          },
-          {
             "id": "nanoflann",
             "payload": {
               "__lazy_json__": "node_attrs/nanoflann.json"
@@ -6120,12 +6080,6 @@
             "id": "nghttp2",
             "payload": {
               "__lazy_json__": "node_attrs/nghttp2.json"
-            }
-          },
-          {
-            "id": "nh3",
-            "payload": {
-              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
@@ -6252,12 +6206,6 @@
             "id": "pango",
             "payload": {
               "__lazy_json__": "node_attrs/pango.json"
-            }
-          },
-          {
-            "id": "parmetis",
-            "payload": {
-              "__lazy_json__": "node_attrs/parmetis.json"
             }
           },
           {
