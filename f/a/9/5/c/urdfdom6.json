@@ -260,18 +260,6 @@
             "target": "hpp-gepetto-viewer"
           },
           {
-            "source": "libsdformat",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gazebo"
-          },
-          {
-            "source": "libsdformat",
-            "target": "pinocchio"
-          },
-          {
             "source": "momentum",
             "target": "conda-forge-pinning"
           },
@@ -380,12 +368,6 @@
             "id": "hpp-python",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-python.json"
-            }
-          },
-          {
-            "id": "libsdformat",
-            "payload": {
-              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
