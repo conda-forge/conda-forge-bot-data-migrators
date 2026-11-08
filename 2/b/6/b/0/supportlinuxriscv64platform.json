@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "libvpl",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvpl.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -142,11 +135,7 @@
           },
           {
             "source": "assimp",
-            "target": "pinocchio"
-          },
-          {
-            "source": "assimp",
-            "target": "roboplan"
+            "target": "coal"
           },
           {
             "source": "ast-serialize",
@@ -282,15 +271,15 @@
           },
           {
             "source": "boost",
+            "target": "coal"
+          },
+          {
+            "source": "boost",
             "target": "eigenpy"
           },
           {
             "source": "boost",
             "target": "pinocchio"
-          },
-          {
-            "source": "boost",
-            "target": "roboplan"
           },
           {
             "source": "brotli",
@@ -455,6 +444,14 @@
           {
             "source": "cli11",
             "target": "micromamba"
+          },
+          {
+            "source": "coal",
+            "target": "pinocchio"
+          },
+          {
+            "source": "coal",
+            "target": "roboplan"
           },
           {
             "source": "conda",
@@ -622,6 +619,10 @@
           },
           {
             "source": "eigen",
+            "target": "coal"
+          },
+          {
+            "source": "eigen",
             "target": "eigenpy"
           },
           {
@@ -642,11 +643,11 @@
           },
           {
             "source": "eigenpy",
-            "target": "pinocchio"
+            "target": "coal"
           },
           {
             "source": "eigenpy",
-            "target": "roboplan"
+            "target": "pinocchio"
           },
           {
             "source": "eigen",
@@ -2410,6 +2411,10 @@
           },
           {
             "source": "numpy",
+            "target": "coal"
+          },
+          {
+            "source": "numpy",
             "target": "eigenpy"
           },
           {
@@ -2446,7 +2451,7 @@
           },
           {
             "source": "octomap",
-            "target": "pinocchio"
+            "target": "coal"
           },
           {
             "source": "octomap",
@@ -2910,6 +2915,10 @@
           },
           {
             "source": "python",
+            "target": "coal"
+          },
+          {
+            "source": "python",
             "target": "conda"
           },
           {
@@ -3143,6 +3152,10 @@
           {
             "source": "pyyaml",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "qhull",
+            "target": "coal"
           },
           {
             "source": "qhull",
@@ -5113,6 +5126,12 @@
             "id": "cmake",
             "payload": {
               "__lazy_json__": "node_attrs/cmake.json"
+            }
+          },
+          {
+            "id": "coal",
+            "payload": {
+              "__lazy_json__": "node_attrs/coal.json"
             }
           },
           {
