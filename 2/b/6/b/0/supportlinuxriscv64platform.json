@@ -1647,15 +1647,15 @@
           },
           {
             "source": "libogg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libogg",
             "target": "libflac"
           },
           {
             "source": "libogg",
             "target": "libsndfile"
+          },
+          {
+            "source": "libogg",
+            "target": "libvorbis"
           },
           {
             "source": "libopus",
@@ -1902,6 +1902,14 @@
             "target": "libvpl"
           },
           {
+            "source": "libvorbis",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libsndfile"
+          },
+          {
             "source": "libvpl",
             "target": "ffmpeg"
           },
@@ -2124,6 +2132,14 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -5801,6 +5817,12 @@
             }
           },
           {
+            "id": "libvorbis",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvorbis.json"
+            }
+          },
+          {
             "id": "libvpl",
             "payload": {
               "__lazy_json__": "node_attrs/libvpl.json"
@@ -5906,6 +5928,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -7275,6 +7303,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
