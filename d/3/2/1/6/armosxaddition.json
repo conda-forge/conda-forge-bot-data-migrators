@@ -895,11 +895,23 @@
           },
           {
             "source": "aom",
+            "target": "gdal"
+          },
+          {
+            "source": "aom",
+            "target": "imagemagick"
+          },
+          {
+            "source": "aom",
             "target": "libavif"
           },
           {
             "source": "aom",
-            "target": "libheif"
+            "target": "libvips"
+          },
+          {
+            "source": "aom",
+            "target": "openimageio"
           },
           {
             "source": "apache-ant",
@@ -3032,10 +3044,6 @@
           {
             "source": "autoconf",
             "target": "petsc"
-          },
-          {
-            "source": "autoconf",
-            "target": "php"
           },
           {
             "source": "autoconf",
@@ -7375,6 +7383,10 @@
           },
           {
             "source": "bison",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "bison",
             "target": "findent"
           },
           {
@@ -7407,10 +7419,6 @@
           },
           {
             "source": "bison",
-            "target": "harp"
-          },
-          {
-            "source": "bison",
             "target": "hdf4"
           },
           {
@@ -7432,10 +7440,6 @@
           {
             "source": "bison",
             "target": "libuuid"
-          },
-          {
-            "source": "bison",
-            "target": "libxkbcommon"
           },
           {
             "source": "bison",
@@ -7487,10 +7491,6 @@
           },
           {
             "source": "bison",
-            "target": "php"
-          },
-          {
-            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -7504,6 +7504,10 @@
           {
             "source": "bison",
             "target": "root"
+          },
+          {
+            "source": "bison",
+            "target": "rstudio"
           },
           {
             "source": "bison",
@@ -7532,6 +7536,10 @@
           {
             "source": "bison",
             "target": "verilator"
+          },
+          {
+            "source": "bison",
+            "target": "visan"
           },
           {
             "source": "bison",
@@ -9223,6 +9231,10 @@
           },
           {
             "source": "brotli",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "brotli",
             "target": "finesse"
           },
           {
@@ -9264,6 +9276,10 @@
           {
             "source": "brotli",
             "target": "funcparserlib"
+          },
+          {
+            "source": "brotli",
+            "target": "gdal"
           },
           {
             "source": "brotli",
@@ -9331,6 +9347,10 @@
           },
           {
             "source": "brotli",
+            "target": "imagemagick"
+          },
+          {
+            "source": "brotli",
             "target": "indexed_gzip"
           },
           {
@@ -9371,11 +9391,11 @@
           },
           {
             "source": "brotli",
-            "target": "libjxl-split"
+            "target": "libsoup"
           },
           {
             "source": "brotli",
-            "target": "libsoup"
+            "target": "libvips"
           },
           {
             "source": "brotli",
@@ -10187,10 +10207,6 @@
           },
           {
             "source": "bzip2",
-            "target": "php"
-          },
-          {
-            "source": "bzip2",
             "target": "pyreadr"
           },
           {
@@ -10287,6 +10303,18 @@
           },
           {
             "source": "cairo",
+            "target": "djvulibre"
+          },
+          {
+            "source": "cairo",
+            "target": "emacs"
+          },
+          {
+            "source": "cairo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cairo",
             "target": "giza"
           },
           {
@@ -10300,6 +10328,10 @@
           {
             "source": "cairo",
             "target": "gobject-introspection"
+          },
+          {
+            "source": "cairo",
+            "target": "graph-tool"
           },
           {
             "source": "cairo",
@@ -10327,7 +10359,7 @@
           },
           {
             "source": "cairo",
-            "target": "librsvg"
+            "target": "imagemagick"
           },
           {
             "source": "cairo",
@@ -10416,6 +10448,10 @@
           {
             "source": "cairo",
             "target": "rdkit"
+          },
+          {
+            "source": "cairo",
+            "target": "root"
           },
           {
             "source": "cairo",
@@ -11283,6 +11319,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "djvulibre"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "dovi_tool"
           },
           {
@@ -11304,6 +11344,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "eelbrain"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "emacs"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -11332,6 +11376,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "fenics-dolfinx"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "ffmpeg"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -11383,7 +11431,23 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "graph-tool"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "graphviz"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "grouper"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "gtk3"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "gtk4"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -11420,6 +11484,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "hypothesis"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "imagemagick"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -11487,7 +11555,7 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "librsvg"
+            "target": "libvips"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -11772,6 +11840,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "r-rpostgres"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "r-rsvg"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -12103,15 +12175,55 @@
           },
           {
             "source": "cargo-c",
+            "target": "djvulibre"
+          },
+          {
+            "source": "cargo-c",
             "target": "dovi_tool"
           },
           {
             "source": "cargo-c",
-            "target": "librsvg"
+            "target": "emacs"
+          },
+          {
+            "source": "cargo-c",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cargo-c",
+            "target": "graph-tool"
+          },
+          {
+            "source": "cargo-c",
+            "target": "graphviz"
+          },
+          {
+            "source": "cargo-c",
+            "target": "gtk3"
+          },
+          {
+            "source": "cargo-c",
+            "target": "gtk4"
+          },
+          {
+            "source": "cargo-c",
+            "target": "imagemagick"
+          },
+          {
+            "source": "cargo-c",
+            "target": "libvips"
+          },
+          {
+            "source": "cargo-c",
+            "target": "r-rsvg"
           },
           {
             "source": "cargo-c",
             "target": "rav1e"
+          },
+          {
+            "source": "cargo-c",
+            "target": "root"
           },
           {
             "source": "cartopy",
@@ -12787,10 +12899,6 @@
           },
           {
             "source": "cffi",
-            "target": "harp"
-          },
-          {
-            "source": "cffi",
             "target": "hazelbean"
           },
           {
@@ -13264,6 +13372,10 @@
           {
             "source": "cffi",
             "target": "vega"
+          },
+          {
+            "source": "cffi",
+            "target": "visan"
           },
           {
             "source": "cffi",
@@ -14859,10 +14971,6 @@
           },
           {
             "source": "cmake",
-            "target": "goosefem"
-          },
-          {
-            "source": "cmake",
             "target": "gotm"
           },
           {
@@ -14908,6 +15016,10 @@
           {
             "source": "cmake",
             "target": "gstlal-ugly"
+          },
+          {
+            "source": "cmake",
+            "target": "gstreamer"
           },
           {
             "source": "cmake",
@@ -14959,6 +15071,10 @@
           },
           {
             "source": "cmake",
+            "target": "gz-rendering"
+          },
+          {
+            "source": "cmake",
             "target": "gz-sensors"
           },
           {
@@ -14988,10 +15104,6 @@
           {
             "source": "cmake",
             "target": "hackrf"
-          },
-          {
-            "source": "cmake",
-            "target": "harp"
           },
           {
             "source": "cmake",
@@ -15104,6 +15216,10 @@
           {
             "source": "cmake",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "cmake",
+            "target": "imagecodecs"
           },
           {
             "source": "cmake",
@@ -15431,10 +15547,6 @@
           },
           {
             "source": "cmake",
-            "target": "libheif"
-          },
-          {
-            "source": "cmake",
             "target": "libhiredis"
           },
           {
@@ -15516,10 +15628,6 @@
           {
             "source": "cmake",
             "target": "libjpeg-turbo"
-          },
-          {
-            "source": "cmake",
-            "target": "libjxl-split"
           },
           {
             "source": "cmake",
@@ -15639,15 +15747,15 @@
           },
           {
             "source": "cmake",
-            "target": "libsdformat"
-          },
-          {
-            "source": "cmake",
             "target": "libsecp256k1"
           },
           {
             "source": "cmake",
             "target": "libsimpleitk"
+          },
+          {
+            "source": "cmake",
+            "target": "libsndfile"
           },
           {
             "source": "cmake",
@@ -15676,6 +15784,10 @@
           {
             "source": "cmake",
             "target": "libtensorlight"
+          },
+          {
+            "source": "cmake",
+            "target": "libtheora"
           },
           {
             "source": "cmake",
@@ -15719,10 +15831,6 @@
           },
           {
             "source": "cmake",
-            "target": "libvorbis"
-          },
-          {
-            "source": "cmake",
             "target": "libwebp-base"
           },
           {
@@ -15732,10 +15840,6 @@
           {
             "source": "cmake",
             "target": "libxc"
-          },
-          {
-            "source": "cmake",
-            "target": "libxkbcommon"
           },
           {
             "source": "cmake",
@@ -15875,10 +15979,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -15928,6 +16028,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -16340,6 +16444,10 @@
           {
             "source": "cmake",
             "target": "paraview"
+          },
+          {
+            "source": "cmake",
+            "target": "parmetis"
           },
           {
             "source": "cmake",
@@ -17711,10 +17819,6 @@
           },
           {
             "source": "coda",
-            "target": "harp"
-          },
-          {
-            "source": "coda",
             "target": "qdoas"
           },
           {
@@ -18451,6 +18555,10 @@
           },
           {
             "source": "coverage",
+            "target": "djvulibre"
+          },
+          {
+            "source": "coverage",
             "target": "dm-tree"
           },
           {
@@ -18504,6 +18612,10 @@
           {
             "source": "coverage",
             "target": "einsums"
+          },
+          {
+            "source": "coverage",
+            "target": "emacs"
           },
           {
             "source": "coverage",
@@ -18583,11 +18695,11 @@
           },
           {
             "source": "coverage",
-            "target": "fiatlux"
+            "target": "ffmpeg"
           },
           {
             "source": "coverage",
-            "target": "filprofiler"
+            "target": "fiatlux"
           },
           {
             "source": "coverage",
@@ -18735,11 +18847,15 @@
           },
           {
             "source": "coverage",
-            "target": "goosefem"
+            "target": "gpaw"
           },
           {
             "source": "coverage",
-            "target": "gpaw"
+            "target": "graph-tool"
+          },
+          {
+            "source": "coverage",
+            "target": "graphviz"
           },
           {
             "source": "coverage",
@@ -18767,6 +18883,14 @@
           },
           {
             "source": "coverage",
+            "target": "gtk3"
+          },
+          {
+            "source": "coverage",
+            "target": "gtk4"
+          },
+          {
+            "source": "coverage",
             "target": "gwframe"
           },
           {
@@ -18779,11 +18903,23 @@
           },
           {
             "source": "coverage",
+            "target": "gz-launch"
+          },
+          {
+            "source": "coverage",
             "target": "gz-math"
           },
           {
             "source": "coverage",
             "target": "gz-physics"
+          },
+          {
+            "source": "coverage",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "coverage",
+            "target": "gz-sim"
           },
           {
             "source": "coverage",
@@ -18883,6 +19019,10 @@
           },
           {
             "source": "coverage",
+            "target": "imagemagick"
+          },
+          {
+            "source": "coverage",
             "target": "iminuit"
           },
           {
@@ -18935,6 +19075,10 @@
           },
           {
             "source": "coverage",
+            "target": "lalapps"
+          },
+          {
+            "source": "coverage",
             "target": "lalburst"
           },
           {
@@ -18944,10 +19088,6 @@
           {
             "source": "coverage",
             "target": "lalinference"
-          },
-          {
-            "source": "coverage",
-            "target": "lalinspiral"
           },
           {
             "source": "coverage",
@@ -19023,15 +19163,11 @@
           },
           {
             "source": "coverage",
-            "target": "librsvg"
-          },
-          {
-            "source": "coverage",
-            "target": "libsdformat"
-          },
-          {
-            "source": "coverage",
             "target": "libstempo"
+          },
+          {
+            "source": "coverage",
+            "target": "libvips"
           },
           {
             "source": "coverage",
@@ -19856,6 +19992,10 @@
           {
             "source": "coverage",
             "target": "r-rpostgres"
+          },
+          {
+            "source": "coverage",
+            "target": "r-rsvg"
           },
           {
             "source": "coverage",
@@ -21727,10 +21867,6 @@
           },
           {
             "source": "curl",
-            "target": "php"
-          },
-          {
-            "source": "curl",
             "target": "pocl"
           },
           {
@@ -22312,10 +22448,6 @@
           {
             "source": "cython",
             "target": "fastparquet"
-          },
-          {
-            "source": "cython",
-            "target": "fastremap"
           },
           {
             "source": "cython",
@@ -23499,11 +23631,23 @@
           },
           {
             "source": "dav1d",
+            "target": "gdal"
+          },
+          {
+            "source": "dav1d",
+            "target": "imagemagick"
+          },
+          {
+            "source": "dav1d",
             "target": "libavif"
           },
           {
             "source": "dav1d",
-            "target": "libheif"
+            "target": "libvips"
+          },
+          {
+            "source": "dav1d",
+            "target": "openimageio"
           },
           {
             "source": "dbus-python",
@@ -25351,6 +25495,14 @@
           },
           {
             "source": "eigen",
+            "target": "frictionqpotfem"
+          },
+          {
+            "source": "eigen",
+            "target": "frictionqpotspringblock"
+          },
+          {
+            "source": "eigen",
             "target": "galsim"
           },
           {
@@ -25364,10 +25516,6 @@
           {
             "source": "eigen",
             "target": "gofit"
-          },
-          {
-            "source": "eigen",
-            "target": "goosefem"
           },
           {
             "source": "eigen",
@@ -25831,6 +25979,10 @@
           },
           {
             "source": "expat",
+            "target": "djvulibre"
+          },
+          {
+            "source": "expat",
             "target": "e-antic"
           },
           {
@@ -25967,10 +26119,6 @@
           },
           {
             "source": "expat",
-            "target": "librsvg"
-          },
-          {
-            "source": "expat",
             "target": "libvips"
           },
           {
@@ -26092,6 +26240,10 @@
           {
             "source": "expat",
             "target": "rdkit"
+          },
+          {
+            "source": "expat",
+            "target": "root"
           },
           {
             "source": "expat",
@@ -27487,10 +27639,6 @@
           },
           {
             "source": "flex",
-            "target": "harp"
-          },
-          {
-            "source": "flex",
             "target": "hdf4"
           },
           {
@@ -27580,6 +27728,10 @@
           {
             "source": "flex",
             "target": "verilator"
+          },
+          {
+            "source": "flex",
+            "target": "visan"
           },
           {
             "source": "flex",
@@ -27823,6 +27975,14 @@
           },
           {
             "source": "fontconfig",
+            "target": "djvulibre"
+          },
+          {
+            "source": "fontconfig",
+            "target": "emacs"
+          },
+          {
+            "source": "fontconfig",
             "target": "ffmpeg"
           },
           {
@@ -27832,6 +27992,18 @@
           {
             "source": "fontconfig",
             "target": "gepetto-viewer-corba"
+          },
+          {
+            "source": "fontconfig",
+            "target": "graph-tool"
+          },
+          {
+            "source": "fontconfig",
+            "target": "graphviz"
+          },
+          {
+            "source": "fontconfig",
+            "target": "gtk3"
           },
           {
             "source": "fontconfig",
@@ -27852,10 +28024,6 @@
           {
             "source": "fontconfig",
             "target": "libgd"
-          },
-          {
-            "source": "fontconfig",
-            "target": "librsvg"
           },
           {
             "source": "fontconfig",
@@ -27904,6 +28072,14 @@
           {
             "source": "fontconfig",
             "target": "r-gdtools"
+          },
+          {
+            "source": "fontconfig",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "fontconfig",
+            "target": "root"
           },
           {
             "source": "fontconfig",
@@ -28027,6 +28203,14 @@
           },
           {
             "source": "freetype",
+            "target": "djvulibre"
+          },
+          {
+            "source": "freetype",
+            "target": "emacs"
+          },
+          {
+            "source": "freetype",
             "target": "ffmpeg"
           },
           {
@@ -28067,7 +28251,15 @@
           },
           {
             "source": "freetype",
+            "target": "graph-tool"
+          },
+          {
+            "source": "freetype",
             "target": "graphicsmagick"
+          },
+          {
+            "source": "freetype",
+            "target": "graphviz"
           },
           {
             "source": "freetype",
@@ -28104,10 +28296,6 @@
           {
             "source": "freetype",
             "target": "libraqm"
-          },
-          {
-            "source": "freetype",
-            "target": "librsvg"
           },
           {
             "source": "freetype",
@@ -28244,6 +28432,10 @@
           {
             "source": "freetype",
             "target": "r-rgl"
+          },
+          {
+            "source": "freetype",
+            "target": "r-rsvg"
           },
           {
             "source": "freetype",
@@ -28595,7 +28787,15 @@
           },
           {
             "source": "gdk-pixbuf",
+            "target": "djvulibre"
+          },
+          {
+            "source": "gdk-pixbuf",
             "target": "emacs"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "ffmpeg"
           },
           {
             "source": "gdk-pixbuf",
@@ -28623,7 +28823,15 @@
           },
           {
             "source": "gdk-pixbuf",
-            "target": "librsvg"
+            "target": "imagemagick"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "libvips"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "r-rsvg"
           },
           {
             "source": "gdk-pixbuf",
@@ -28692,138 +28900,6 @@
           {
             "source": "gemmi",
             "target": "mdanalysis"
-          },
-          {
-            "source": "gendef",
-            "target": "binutils"
-          },
-          {
-            "source": "gendef",
-            "target": "cadet"
-          },
-          {
-            "source": "gendef",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "gendef",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "gendef",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "gendef",
-            "target": "cvxopt"
-          },
-          {
-            "source": "gendef",
-            "target": "easychem"
-          },
-          {
-            "source": "gendef",
-            "target": "finesse"
-          },
-          {
-            "source": "gendef",
-            "target": "gdma"
-          },
-          {
-            "source": "gendef",
-            "target": "gfortran_impl_osx-64"
-          },
-          {
-            "source": "gendef",
-            "target": "gfortran_osx-64"
-          },
-          {
-            "source": "gendef",
-            "target": "ghc"
-          },
-          {
-            "source": "gendef",
-            "target": "hdf5"
-          },
-          {
-            "source": "gendef",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "gendef",
-            "target": "julia"
-          },
-          {
-            "source": "gendef",
-            "target": "libtdlpack"
-          },
-          {
-            "source": "gendef",
-            "target": "nceplibs-bufr"
-          },
-          {
-            "source": "gendef",
-            "target": "ncl"
-          },
-          {
-            "source": "gendef",
-            "target": "nim"
-          },
-          {
-            "source": "gendef",
-            "target": "octave"
-          },
-          {
-            "source": "gendef",
-            "target": "opentrustregion"
-          },
-          {
-            "source": "gendef",
-            "target": "petsc"
-          },
-          {
-            "source": "gendef",
-            "target": "photospline"
-          },
-          {
-            "source": "gendef",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "gendef",
-            "target": "pylabdd"
-          },
-          {
-            "source": "gendef",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "gendef",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "gendef",
-            "target": "scilab"
-          },
-          {
-            "source": "gendef",
-            "target": "sundials"
-          },
-          {
-            "source": "gendef",
-            "target": "test-drive"
-          },
-          {
-            "source": "gendef",
-            "target": "tl2cgen"
-          },
-          {
-            "source": "gendef",
-            "target": "uproc"
-          },
-          {
-            "source": "gendef",
-            "target": "winpthreads"
           },
           {
             "source": "gengetopt",
@@ -29260,10 +29336,6 @@
           {
             "source": "gettext",
             "target": "petsc"
-          },
-          {
-            "source": "gettext",
-            "target": "php"
           },
           {
             "source": "gettext",
@@ -29831,6 +29903,10 @@
           },
           {
             "source": "giflib",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "giflib",
             "target": "gdal"
           },
           {
@@ -29847,11 +29923,15 @@
           },
           {
             "source": "giflib",
-            "target": "libjxl-split"
+            "target": "libvips"
           },
           {
             "source": "giflib",
             "target": "libwebp"
+          },
+          {
+            "source": "giflib",
+            "target": "opencv"
           },
           {
             "source": "giflib",
@@ -30683,6 +30763,10 @@
           },
           {
             "source": "glib",
+            "target": "djvulibre"
+          },
+          {
+            "source": "glib",
             "target": "emacs"
           },
           {
@@ -30807,6 +30891,10 @@
           },
           {
             "source": "glib",
+            "target": "libgraphene"
+          },
+          {
+            "source": "glib",
             "target": "libgsf"
           },
           {
@@ -30816,10 +30904,6 @@
           {
             "source": "glib",
             "target": "libmemcached"
-          },
-          {
-            "source": "glib",
-            "target": "librsvg"
           },
           {
             "source": "glib",
@@ -31359,10 +31443,6 @@
           },
           {
             "source": "gmp",
-            "target": "php"
-          },
-          {
-            "source": "gmp",
             "target": "postgis"
           },
           {
@@ -31863,11 +31943,31 @@
           },
           {
             "source": "gobject-introspection",
+            "target": "djvulibre"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "emacs"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "gobject-introspection",
             "target": "gcab"
           },
           {
             "source": "gobject-introspection",
             "target": "gdk-pixbuf"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "graph-tool"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "graphviz"
           },
           {
             "source": "gobject-introspection",
@@ -31911,7 +32011,11 @@
           },
           {
             "source": "gobject-introspection",
-            "target": "librsvg"
+            "target": "imagemagick"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "libgraphene"
           },
           {
             "source": "gobject-introspection",
@@ -31944,6 +32048,14 @@
           {
             "source": "gobject-introspection",
             "target": "pygobject"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "gobject-introspection",
+            "target": "root"
           },
           {
             "source": "gobject-introspection",
@@ -32056,14 +32168,6 @@
           {
             "source": "google-crc32c",
             "target": "z5py"
-          },
-          {
-            "source": "goosefem",
-            "target": "frictionqpotfem"
-          },
-          {
-            "source": "goosefem",
-            "target": "frictionqpotspringblock"
           },
           {
             "source": "go",
@@ -32939,10 +33043,6 @@
           },
           {
             "source": "gsl",
-            "target": "lalinspiral"
-          },
-          {
-            "source": "gsl",
             "target": "lalpulsar"
           },
           {
@@ -33351,7 +33451,11 @@
           },
           {
             "source": "gz-cmake",
-            "target": "libsdformat"
+            "target": "idyntree"
+          },
+          {
+            "source": "gz-cmake",
+            "target": "pinocchio"
           },
           {
             "source": "gz-common",
@@ -33368,6 +33472,10 @@
           {
             "source": "gz-common",
             "target": "gz-physics"
+          },
+          {
+            "source": "gz-common",
+            "target": "gz-rendering"
           },
           {
             "source": "gz-common",
@@ -33419,6 +33527,10 @@
           },
           {
             "source": "gz-math",
+            "target": "gz-rendering"
+          },
+          {
+            "source": "gz-math",
             "target": "gz-sensors"
           },
           {
@@ -33427,7 +33539,7 @@
           },
           {
             "source": "gz-math",
-            "target": "libsdformat"
+            "target": "idyntree"
           },
           {
             "source": "gz-math",
@@ -33479,10 +33591,30 @@
           },
           {
             "source": "gz-plugin",
+            "target": "gz-rendering"
+          },
+          {
+            "source": "gz-plugin",
             "target": "gz-sensors"
           },
           {
             "source": "gz-plugin",
+            "target": "gz-sim"
+          },
+          {
+            "source": "gz-rendering",
+            "target": "gz-gui"
+          },
+          {
+            "source": "gz-rendering",
+            "target": "gz-launch"
+          },
+          {
+            "source": "gz-rendering",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "gz-rendering",
             "target": "gz-sim"
           },
           {
@@ -33515,7 +33647,15 @@
           },
           {
             "source": "gz-tools2",
+            "target": "gz-physics"
+          },
+          {
+            "source": "gz-tools2",
             "target": "gz-plugin"
+          },
+          {
+            "source": "gz-tools2",
+            "target": "gz-sensors"
           },
           {
             "source": "gz-tools2",
@@ -33527,7 +33667,11 @@
           },
           {
             "source": "gz-tools2",
-            "target": "libsdformat"
+            "target": "idyntree"
+          },
+          {
+            "source": "gz-tools2",
+            "target": "pinocchio"
           },
           {
             "source": "gz-transport",
@@ -33575,6 +33719,10 @@
           },
           {
             "source": "gz-utils",
+            "target": "gz-rendering"
+          },
+          {
+            "source": "gz-utils",
             "target": "gz-sensors"
           },
           {
@@ -33587,7 +33735,11 @@
           },
           {
             "source": "gz-utils",
-            "target": "libsdformat"
+            "target": "idyntree"
+          },
+          {
+            "source": "gz-utils",
+            "target": "pinocchio"
           },
           {
             "source": "gzip",
@@ -33955,6 +34107,14 @@
           },
           {
             "source": "harfbuzz",
+            "target": "djvulibre"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "emacs"
+          },
+          {
+            "source": "harfbuzz",
             "target": "ffmpeg"
           },
           {
@@ -33964,6 +34124,14 @@
           {
             "source": "harfbuzz",
             "target": "gnuplot"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "graph-tool"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "graphviz"
           },
           {
             "source": "harfbuzz",
@@ -33979,15 +34147,15 @@
           },
           {
             "source": "harfbuzz",
+            "target": "imagemagick"
+          },
+          {
+            "source": "harfbuzz",
             "target": "libass"
           },
           {
             "source": "harfbuzz",
             "target": "libraqm"
-          },
-          {
-            "source": "harfbuzz",
-            "target": "librsvg"
           },
           {
             "source": "harfbuzz",
@@ -34031,7 +34199,15 @@
           },
           {
             "source": "harfbuzz",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "harfbuzz",
             "target": "r-textshaping"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "root"
           },
           {
             "source": "harfbuzz",
@@ -34058,10 +34234,6 @@
             "target": "pymeep"
           },
           {
-            "source": "harp",
-            "target": "visan"
-          },
-          {
             "source": "hazelbean",
             "target": "sealsmodel"
           },
@@ -34072,10 +34244,6 @@
           {
             "source": "hdf4",
             "target": "gdal"
-          },
-          {
-            "source": "hdf4",
-            "target": "harp"
           },
           {
             "source": "hdf4",
@@ -34104,6 +34272,10 @@
           {
             "source": "hdf4",
             "target": "qdoas"
+          },
+          {
+            "source": "hdf4",
+            "target": "visan"
           },
           {
             "source": "hdf5",
@@ -34212,10 +34384,6 @@
           {
             "source": "hdf5",
             "target": "h5py"
-          },
-          {
-            "source": "hdf5",
-            "target": "harp"
           },
           {
             "source": "hdf5",
@@ -34467,6 +34635,10 @@
           },
           {
             "source": "hdf5",
+            "target": "visan"
+          },
+          {
+            "source": "hdf5",
             "target": "viskores"
           },
           {
@@ -34519,7 +34691,19 @@
           },
           {
             "source": "help2man",
+            "target": "bayeswave"
+          },
+          {
+            "source": "help2man",
             "target": "flex"
+          },
+          {
+            "source": "help2man",
+            "target": "gstlal"
+          },
+          {
+            "source": "help2man",
+            "target": "gstlal-inspiral"
           },
           {
             "source": "help2man",
@@ -34531,6 +34715,10 @@
           },
           {
             "source": "help2man",
+            "target": "lalapps"
+          },
+          {
+            "source": "help2man",
             "target": "lalburst"
           },
           {
@@ -34539,7 +34727,7 @@
           },
           {
             "source": "help2man",
-            "target": "lalinspiral"
+            "target": "lalinference"
           },
           {
             "source": "help2man",
@@ -36011,10 +36199,6 @@
           },
           {
             "source": "icu",
-            "target": "php"
-          },
-          {
-            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -36119,6 +36303,10 @@
           },
           {
             "source": "igwn-ligolw",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "igwn-ligolw",
             "target": "lalapps"
           },
           {
@@ -36128,10 +36316,6 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
-          },
-          {
-            "source": "igwn-ligolw",
-            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -36155,6 +36339,10 @@
           },
           {
             "source": "igwn-segments",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "igwn-segments",
             "target": "igwn-ligolw"
           },
           {
@@ -36172,10 +36360,6 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
-          },
-          {
-            "source": "igwn-segments",
-            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -36420,14 +36604,6 @@
           {
             "source": "jemalloc",
             "target": "tmux"
-          },
-          {
-            "source": "jmol",
-            "target": "sage"
-          },
-          {
-            "source": "jmol",
-            "target": "sagelib"
           },
           {
             "source": "jonquil",
@@ -36751,6 +36927,10 @@
           },
           {
             "source": "lalburst",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalburst",
             "target": "gstlal"
           },
           {
@@ -36759,15 +36939,15 @@
           },
           {
             "source": "lalburst",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalburst",
             "target": "lalapps"
           },
           {
             "source": "lalburst",
             "target": "lalinference"
-          },
-          {
-            "source": "lalburst",
-            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -36783,15 +36963,19 @@
           },
           {
             "source": "lalframe",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalframe",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalframe",
             "target": "lalapps"
           },
           {
             "source": "lalframe",
             "target": "lalinference"
-          },
-          {
-            "source": "lalframe",
-            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -36846,26 +37030,6 @@
             "target": "lalpulsar"
           },
           {
-            "source": "lalinspiral",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "lalapps"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "lalinference"
-          },
-          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -36880,10 +37044,6 @@
           {
             "source": "lal",
             "target": "lalinference"
-          },
-          {
-            "source": "lal",
-            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -36930,10 +37090,6 @@
             "target": "lalinference"
           },
           {
-            "source": "lalmetaio",
-            "target": "lalinspiral"
-          },
-          {
             "source": "lalpulsar",
             "target": "cwinpy"
           },
@@ -36963,6 +37119,10 @@
           },
           {
             "source": "lalsimulation",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -36980,10 +37140,6 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
-          },
-          {
-            "source": "lalsimulation",
-            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -38607,11 +38763,19 @@
           },
           {
             "source": "libavif",
-            "target": "libheif"
+            "target": "imagemagick"
+          },
+          {
+            "source": "libavif",
+            "target": "libvips"
           },
           {
             "source": "libavif",
             "target": "opencv"
+          },
+          {
+            "source": "libavif",
+            "target": "openimageio"
           },
           {
             "source": "libavif",
@@ -39203,7 +39367,19 @@
           },
           {
             "source": "libde265",
-            "target": "libheif"
+            "target": "gdal"
+          },
+          {
+            "source": "libde265",
+            "target": "imagemagick"
+          },
+          {
+            "source": "libde265",
+            "target": "libvips"
+          },
+          {
+            "source": "libde265",
+            "target": "openimageio"
           },
           {
             "source": "libdeflate",
@@ -39646,6 +39822,14 @@
             "target": "ntbtls"
           },
           {
+            "source": "libgraphene",
+            "target": "gtk4"
+          },
+          {
+            "source": "libgraphene",
+            "target": "gtksourceview"
+          },
+          {
             "source": "libgsf",
             "target": "msitools"
           },
@@ -39660,22 +39844,6 @@
           {
             "source": "libharu",
             "target": "vtk"
-          },
-          {
-            "source": "libheif",
-            "target": "gdal"
-          },
-          {
-            "source": "libheif",
-            "target": "imagemagick"
-          },
-          {
-            "source": "libheif",
-            "target": "libvips"
-          },
-          {
-            "source": "libheif",
-            "target": "openimageio"
           },
           {
             "source": "libhiredis",
@@ -39739,11 +39907,31 @@
           },
           {
             "source": "libhwy",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libhwy",
+            "target": "gdal"
+          },
+          {
+            "source": "libhwy",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "libhwy",
+            "target": "imagemagick"
           },
           {
             "source": "libhwy",
             "target": "libvips"
+          },
+          {
+            "source": "libhwy",
+            "target": "opencv"
+          },
+          {
+            "source": "libhwy",
+            "target": "openimageio"
           },
           {
             "source": "libiconv",
@@ -39916,10 +40104,6 @@
           {
             "source": "libiconv",
             "target": "openmotif"
-          },
-          {
-            "source": "libiconv",
-            "target": "php"
           },
           {
             "source": "libiconv",
@@ -40323,6 +40507,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "fltk"
           },
           {
@@ -40424,10 +40612,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "libitk"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "libjxl-split"
           },
           {
             "source": "libjpeg-turbo",
@@ -40588,34 +40772,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "zbar"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "gdal"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "imagemagick"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "libvips"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "opencv"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "openimageio"
           },
           {
             "source": "libkml",
@@ -40867,6 +41023,10 @@
           },
           {
             "source": "libogg",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libogg",
             "target": "gstreamer"
           },
           {
@@ -40883,10 +41043,6 @@
           },
           {
             "source": "libogg",
-            "target": "libvorbis"
-          },
-          {
-            "source": "libogg",
             "target": "opusfile"
           },
           {
@@ -40900,6 +41056,10 @@
           {
             "source": "libogg",
             "target": "sfml"
+          },
+          {
+            "source": "libogg",
+            "target": "sox"
           },
           {
             "source": "libogg",
@@ -41051,6 +41211,10 @@
           },
           {
             "source": "libpng",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libpng",
             "target": "fltk"
           },
           {
@@ -41152,10 +41316,6 @@
           {
             "source": "libpng",
             "target": "libitk"
-          },
-          {
-            "source": "libpng",
-            "target": "libjxl-split"
           },
           {
             "source": "libpng",
@@ -41674,76 +41834,8 @@
             "target": "human-dynamics-estimation"
           },
           {
-            "source": "librsvg",
-            "target": "djvulibre"
-          },
-          {
-            "source": "librsvg",
-            "target": "emacs"
-          },
-          {
-            "source": "librsvg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "librsvg",
-            "target": "graph-tool"
-          },
-          {
-            "source": "librsvg",
-            "target": "graphviz"
-          },
-          {
-            "source": "librsvg",
-            "target": "gtk3"
-          },
-          {
-            "source": "librsvg",
-            "target": "gtk4"
-          },
-          {
-            "source": "librsvg",
-            "target": "imagemagick"
-          },
-          {
-            "source": "librsvg",
-            "target": "libvips"
-          },
-          {
-            "source": "librsvg",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "librsvg",
-            "target": "root"
-          },
-          {
             "source": "librttopo",
             "target": "libspatialite"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gz-launch"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gz-physics"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gz-sim"
-          },
-          {
-            "source": "libsdformat",
-            "target": "idyntree"
-          },
-          {
-            "source": "libsdformat",
-            "target": "pinocchio"
           },
           {
             "source": "libsecret",
@@ -41804,10 +41896,6 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
-          },
-          {
-            "source": "libsodium",
-            "target": "php"
           },
           {
             "source": "libsodium",
@@ -42911,10 +42999,6 @@
           },
           {
             "source": "libtool",
-            "target": "php"
-          },
-          {
-            "source": "libtool",
             "target": "pixell"
           },
           {
@@ -43442,38 +43526,6 @@
             "target": "pyvips"
           },
           {
-            "source": "libvorbis",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libvorbis",
-            "target": "gstreamer"
-          },
-          {
-            "source": "libvorbis",
-            "target": "libsndfile"
-          },
-          {
-            "source": "libvorbis",
-            "target": "libtheora"
-          },
-          {
-            "source": "libvorbis",
-            "target": "panda3d"
-          },
-          {
-            "source": "libvorbis",
-            "target": "sdl2_mixer"
-          },
-          {
-            "source": "libvorbis",
-            "target": "sfml"
-          },
-          {
-            "source": "libvorbis",
-            "target": "sox"
-          },
-          {
             "source": "libvpx",
             "target": "ffmpeg"
           },
@@ -43507,7 +43559,7 @@
           },
           {
             "source": "libwebp-base",
-            "target": "libheif"
+            "target": "imagemagick"
           },
           {
             "source": "libwebp-base",
@@ -43515,7 +43567,15 @@
           },
           {
             "source": "libwebp-base",
+            "target": "libvips"
+          },
+          {
+            "source": "libwebp-base",
             "target": "libwebp"
+          },
+          {
+            "source": "libwebp-base",
+            "target": "openimageio"
           },
           {
             "source": "libwebp-base",
@@ -43587,6 +43647,10 @@
           },
           {
             "source": "libxcb",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "libxcb",
             "target": "fltk"
           },
           {
@@ -43599,11 +43663,11 @@
           },
           {
             "source": "libxcb",
-            "target": "libxkbcommon"
+            "target": "pillow"
           },
           {
             "source": "libxcb",
-            "target": "pillow"
+            "target": "rstudio"
           },
           {
             "source": "libxcb",
@@ -43656,14 +43720,6 @@
           {
             "source": "libxc",
             "target": "veloxchem"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "rstudio"
           },
           {
             "source": "libxml2",
@@ -43767,6 +43823,10 @@
           },
           {
             "source": "libxml2",
+            "target": "djvulibre"
+          },
+          {
+            "source": "libxml2",
             "target": "easychem"
           },
           {
@@ -43776,6 +43836,10 @@
           {
             "source": "libxml2",
             "target": "emacs"
+          },
+          {
+            "source": "libxml2",
+            "target": "fcitx-qt5"
           },
           {
             "source": "libxml2",
@@ -43851,11 +43915,19 @@
           },
           {
             "source": "libxml2",
+            "target": "graphviz"
+          },
+          {
+            "source": "libxml2",
             "target": "gst-plugins-bad"
           },
           {
             "source": "libxml2",
             "target": "gstreamer"
+          },
+          {
+            "source": "libxml2",
+            "target": "gtk3"
           },
           {
             "source": "libxml2",
@@ -43955,10 +44027,6 @@
           },
           {
             "source": "libxml2",
-            "target": "librsvg"
-          },
-          {
-            "source": "libxml2",
             "target": "libsbml"
           },
           {
@@ -43975,19 +44043,11 @@
           },
           {
             "source": "libxml2",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "libxml2",
             "target": "libxmlpp"
           },
           {
             "source": "libxml2",
             "target": "libxmlsec1"
-          },
-          {
-            "source": "libxml2",
-            "target": "libxslt"
           },
           {
             "source": "libxml2",
@@ -44107,10 +44167,6 @@
           },
           {
             "source": "libxml2",
-            "target": "php"
-          },
-          {
-            "source": "libxml2",
             "target": "pocl"
           },
           {
@@ -44191,6 +44247,10 @@
           },
           {
             "source": "libxml2",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "libxml2",
             "target": "r-xml"
           },
           {
@@ -44208,6 +44268,10 @@
           {
             "source": "libxml2",
             "target": "rrdtool"
+          },
+          {
+            "source": "libxml2",
+            "target": "rstudio"
           },
           {
             "source": "libxml2",
@@ -44331,6 +44395,10 @@
           },
           {
             "source": "libxml2",
+            "target": "xkeyboard-config"
+          },
+          {
+            "source": "libxml2",
             "target": "xmlsec"
           },
           {
@@ -44352,42 +44420,6 @@
           {
             "source": "libxmlsec1",
             "target": "xmlsec"
-          },
-          {
-            "source": "libxslt",
-            "target": "libxmlsec1"
-          },
-          {
-            "source": "libxslt",
-            "target": "lxml"
-          },
-          {
-            "source": "libxslt",
-            "target": "php"
-          },
-          {
-            "source": "libxslt",
-            "target": "postgis"
-          },
-          {
-            "source": "libxslt",
-            "target": "postgresql"
-          },
-          {
-            "source": "libxslt",
-            "target": "pyside2"
-          },
-          {
-            "source": "libxslt",
-            "target": "qt-webengine"
-          },
-          {
-            "source": "libxslt",
-            "target": "xkeyboard-config"
-          },
-          {
-            "source": "libxslt",
-            "target": "xmlstarlet"
           },
           {
             "source": "libzen",
@@ -44428,10 +44460,6 @@
           {
             "source": "libzip",
             "target": "paraview"
-          },
-          {
-            "source": "libzip",
-            "target": "php"
           },
           {
             "source": "libzip",
@@ -44512,10 +44540,6 @@
           {
             "source": "lld",
             "target": "deno"
-          },
-          {
-            "source": "lld",
-            "target": "filprofiler"
           },
           {
             "source": "lld",
@@ -45079,10 +45103,6 @@
           },
           {
             "source": "luajit-openresty",
-            "target": "luarocks"
-          },
-          {
-            "source": "luajit-openresty",
             "target": "luv"
           },
           {
@@ -45092,10 +45112,6 @@
           {
             "source": "lua",
             "target": "libsimpleitk"
-          },
-          {
-            "source": "lua",
-            "target": "luarocks"
           },
           {
             "source": "lua",
@@ -46131,6 +46147,10 @@
           },
           {
             "source": "m4",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "m4",
             "target": "flex"
           },
           {
@@ -46303,10 +46323,6 @@
           },
           {
             "source": "m4",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "m4",
             "target": "lrcalc"
           },
           {
@@ -46468,6 +46484,10 @@
           {
             "source": "m4",
             "target": "root"
+          },
+          {
+            "source": "m4",
+            "target": "rstudio"
           },
           {
             "source": "m4",
@@ -47375,10 +47395,6 @@
           },
           {
             "source": "make",
-            "target": "filprofiler"
-          },
-          {
-            "source": "make",
             "target": "findent"
           },
           {
@@ -47507,6 +47523,10 @@
           },
           {
             "source": "make",
+            "target": "gdal"
+          },
+          {
+            "source": "make",
             "target": "gdb"
           },
           {
@@ -47536,10 +47556,6 @@
           {
             "source": "make",
             "target": "gemmi"
-          },
-          {
-            "source": "make",
-            "target": "gendef"
           },
           {
             "source": "make",
@@ -47767,10 +47783,6 @@
           },
           {
             "source": "make",
-            "target": "goosefem"
-          },
-          {
-            "source": "make",
             "target": "gotm"
           },
           {
@@ -47851,6 +47863,14 @@
           },
           {
             "source": "make",
+            "target": "gtk3"
+          },
+          {
+            "source": "make",
+            "target": "gtk4"
+          },
+          {
+            "source": "make",
             "target": "gtkmm"
           },
           {
@@ -47896,10 +47916,6 @@
           {
             "source": "make",
             "target": "harminv"
-          },
-          {
-            "source": "make",
-            "target": "harp"
           },
           {
             "source": "make",
@@ -47979,10 +47995,6 @@
           },
           {
             "source": "make",
-            "target": "hole2"
-          },
-          {
-            "source": "make",
             "target": "howardhinnant_date"
           },
           {
@@ -48032,6 +48044,10 @@
           {
             "source": "make",
             "target": "igwn-ligolw"
+          },
+          {
+            "source": "make",
+            "target": "imagecodecs"
           },
           {
             "source": "make",
@@ -48208,10 +48224,6 @@
           {
             "source": "make",
             "target": "lalinference"
-          },
-          {
-            "source": "make",
-            "target": "lalinspiral"
           },
           {
             "source": "make",
@@ -48523,10 +48535,6 @@
           },
           {
             "source": "make",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "make",
             "target": "libkml"
           },
           {
@@ -48632,10 +48640,6 @@
           {
             "source": "make",
             "target": "librdkafka"
-          },
-          {
-            "source": "make",
-            "target": "librsvg"
           },
           {
             "source": "make",
@@ -48763,10 +48767,6 @@
           },
           {
             "source": "make",
-            "target": "libxslt"
-          },
-          {
-            "source": "make",
             "target": "libzopfli"
           },
           {
@@ -48827,11 +48827,11 @@
           },
           {
             "source": "make",
-            "target": "luarocks"
+            "target": "luv"
           },
           {
             "source": "make",
-            "target": "luv"
+            "target": "lxml"
           },
           {
             "source": "make",
@@ -48936,10 +48936,6 @@
           {
             "source": "make",
             "target": "metaio"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -49307,6 +49303,10 @@
           },
           {
             "source": "make",
+            "target": "opencv"
+          },
+          {
+            "source": "make",
             "target": "openh264"
           },
           {
@@ -49440,6 +49440,10 @@
           {
             "source": "make",
             "target": "pari"
+          },
+          {
+            "source": "make",
+            "target": "parmetis"
           },
           {
             "source": "make",
@@ -49691,10 +49695,6 @@
           },
           {
             "source": "make",
-            "target": "pexsi"
-          },
-          {
-            "source": "make",
             "target": "pgplot"
           },
           {
@@ -49712,10 +49712,6 @@
           {
             "source": "make",
             "target": "photospline"
-          },
-          {
-            "source": "make",
-            "target": "php"
           },
           {
             "source": "make",
@@ -50096,6 +50092,10 @@
           {
             "source": "make",
             "target": "qt-multimedia"
+          },
+          {
+            "source": "make",
+            "target": "qt-webengine"
           },
           {
             "source": "make",
@@ -52847,6 +52847,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "djvulibre"
+          },
+          {
+            "source": "markupsafe",
             "target": "dmri-dicelib"
           },
           {
@@ -52860,6 +52864,10 @@
           {
             "source": "markupsafe",
             "target": "eigen"
+          },
+          {
+            "source": "markupsafe",
+            "target": "emacs"
           },
           {
             "source": "markupsafe",
@@ -52884,6 +52892,10 @@
           {
             "source": "markupsafe",
             "target": "fenics-dolfinx"
+          },
+          {
+            "source": "markupsafe",
+            "target": "ffmpeg"
           },
           {
             "source": "markupsafe",
@@ -52947,11 +52959,27 @@
           },
           {
             "source": "markupsafe",
+            "target": "graph-tool"
+          },
+          {
+            "source": "markupsafe",
+            "target": "graphviz"
+          },
+          {
+            "source": "markupsafe",
             "target": "grouper"
           },
           {
             "source": "markupsafe",
             "target": "gstlal"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gtk3"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gtk4"
           },
           {
             "source": "markupsafe",
@@ -52963,11 +52991,23 @@
           },
           {
             "source": "markupsafe",
+            "target": "gz-launch"
+          },
+          {
+            "source": "markupsafe",
             "target": "gz-math"
           },
           {
             "source": "markupsafe",
             "target": "gz-physics"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "markupsafe",
+            "target": "gz-sim"
           },
           {
             "source": "markupsafe",
@@ -53000,6 +53040,10 @@
           {
             "source": "markupsafe",
             "target": "idyntree"
+          },
+          {
+            "source": "markupsafe",
+            "target": "imagemagick"
           },
           {
             "source": "markupsafe",
@@ -53055,11 +53099,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "librsvg"
-          },
-          {
-            "source": "markupsafe",
-            "target": "libsdformat"
+            "target": "libvips"
           },
           {
             "source": "markupsafe",
@@ -53332,6 +53372,10 @@
           {
             "source": "markupsafe",
             "target": "r-rpostgres"
+          },
+          {
+            "source": "markupsafe",
+            "target": "r-rsvg"
           },
           {
             "source": "markupsafe",
@@ -54794,86 +54838,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -55676,6 +55640,10 @@
           {
             "source": "mpich",
             "target": "parallelio"
+          },
+          {
+            "source": "mpich",
+            "target": "parmetis"
           },
           {
             "source": "mpich",
@@ -57287,6 +57255,10 @@
           },
           {
             "source": "ninja",
+            "target": "djvulibre"
+          },
+          {
+            "source": "ninja",
             "target": "dkh"
           },
           {
@@ -57328,6 +57300,10 @@
           {
             "source": "ninja",
             "target": "einsums"
+          },
+          {
+            "source": "ninja",
+            "target": "emacs"
           },
           {
             "source": "ninja",
@@ -57619,15 +57595,15 @@
           },
           {
             "source": "ninja",
-            "target": "goosefem"
-          },
-          {
-            "source": "ninja",
             "target": "gqrx"
           },
           {
             "source": "ninja",
             "target": "graph-tool"
+          },
+          {
+            "source": "ninja",
+            "target": "graphviz"
           },
           {
             "source": "ninja",
@@ -57704,6 +57680,10 @@
           {
             "source": "ninja",
             "target": "gz-plugin"
+          },
+          {
+            "source": "ninja",
+            "target": "gz-rendering"
           },
           {
             "source": "ninja",
@@ -57784,6 +57764,10 @@
           {
             "source": "ninja",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "ninja",
+            "target": "imagemagick"
           },
           {
             "source": "ninja",
@@ -57987,11 +57971,11 @@
           },
           {
             "source": "ninja",
-            "target": "libharu"
+            "target": "libgraphene"
           },
           {
             "source": "ninja",
-            "target": "libheif"
+            "target": "libharu"
           },
           {
             "source": "ninja",
@@ -58123,14 +58107,6 @@
           },
           {
             "source": "ninja",
-            "target": "librsvg"
-          },
-          {
-            "source": "ninja",
-            "target": "libsdformat"
-          },
-          {
-            "source": "ninja",
             "target": "libsecp256k1"
           },
           {
@@ -58144,6 +58120,10 @@
           {
             "source": "ninja",
             "target": "libsimpleitk"
+          },
+          {
+            "source": "ninja",
+            "target": "libsndfile"
           },
           {
             "source": "ninja",
@@ -58164,6 +58144,10 @@
           {
             "source": "ninja",
             "target": "libtensorlight"
+          },
+          {
+            "source": "ninja",
+            "target": "libtheora"
           },
           {
             "source": "ninja",
@@ -58207,10 +58191,6 @@
           },
           {
             "source": "ninja",
-            "target": "libvorbis"
-          },
-          {
-            "source": "ninja",
             "target": "libwebp-base"
           },
           {
@@ -58220,10 +58200,6 @@
           {
             "source": "ninja",
             "target": "libxc"
-          },
-          {
-            "source": "ninja",
-            "target": "libxkbcommon"
           },
           {
             "source": "ninja",
@@ -59019,6 +58995,10 @@
           },
           {
             "source": "ninja",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "ninja",
             "target": "randomgen"
           },
           {
@@ -59064,6 +59044,10 @@
           {
             "source": "ninja",
             "target": "rosettasciio"
+          },
+          {
+            "source": "ninja",
+            "target": "rstudio"
           },
           {
             "source": "ninja",
@@ -60699,10 +60683,6 @@
           },
           {
             "source": "numexpr",
-            "target": "filprofiler"
-          },
-          {
-            "source": "numexpr",
             "target": "pyfai"
           },
           {
@@ -61427,10 +61407,6 @@
           },
           {
             "source": "numpy",
-            "target": "fastremap"
-          },
-          {
-            "source": "numpy",
             "target": "fasttext"
           },
           {
@@ -61615,10 +61591,6 @@
           },
           {
             "source": "numpy",
-            "target": "goosefem"
-          },
-          {
-            "source": "numpy",
             "target": "gpaw"
           },
           {
@@ -61684,10 +61656,6 @@
           {
             "source": "numpy",
             "target": "halotools"
-          },
-          {
-            "source": "numpy",
-            "target": "harp"
           },
           {
             "source": "numpy",
@@ -61888,10 +61856,6 @@
           {
             "source": "numpy",
             "target": "lalinference"
-          },
-          {
-            "source": "numpy",
-            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -63759,19 +63723,7 @@
           },
           {
             "source": "ogre-next",
-            "target": "gz-gui"
-          },
-          {
-            "source": "ogre-next",
-            "target": "gz-launch"
-          },
-          {
-            "source": "ogre-next",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "ogre-next",
-            "target": "gz-sim"
+            "target": "gz-rendering"
           },
           {
             "source": "ogre-next",
@@ -63779,19 +63731,7 @@
           },
           {
             "source": "ogre",
-            "target": "gz-gui"
-          },
-          {
-            "source": "ogre",
-            "target": "gz-launch"
-          },
-          {
-            "source": "ogre",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "ogre",
-            "target": "gz-sim"
+            "target": "gz-rendering"
           },
           {
             "source": "ogre",
@@ -63848,10 +63788,6 @@
           {
             "source": "oniguruma",
             "target": "jq"
-          },
-          {
-            "source": "oniguruma",
-            "target": "php"
           },
           {
             "source": "onnxruntime",
@@ -64015,7 +63951,15 @@
           },
           {
             "source": "openexr",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "openexr",
             "target": "freeimage"
+          },
+          {
+            "source": "openexr",
+            "target": "gdal"
           },
           {
             "source": "openexr",
@@ -64023,11 +63967,15 @@
           },
           {
             "source": "openexr",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "openexr",
             "target": "imagemagick"
           },
           {
             "source": "openexr",
-            "target": "libjxl-split"
+            "target": "libvips"
           },
           {
             "source": "openexr",
@@ -64087,10 +64035,6 @@
           },
           {
             "source": "openjdk",
-            "target": "jmol"
-          },
-          {
-            "source": "openjdk",
             "target": "jpype1"
           },
           {
@@ -64128,6 +64072,14 @@
           {
             "source": "openjdk",
             "target": "rstudio"
+          },
+          {
+            "source": "openjdk",
+            "target": "sage"
+          },
+          {
+            "source": "openjdk",
+            "target": "sagelib"
           },
           {
             "source": "openjdk",
@@ -65020,6 +64972,10 @@
           {
             "source": "openmpi",
             "target": "parallelio"
+          },
+          {
+            "source": "openmpi",
+            "target": "parmetis"
           },
           {
             "source": "openmpi",
@@ -66616,10 +66572,6 @@
           {
             "source": "openssl",
             "target": "photutils"
-          },
-          {
-            "source": "openssl",
-            "target": "php"
           },
           {
             "source": "openssl",
@@ -68531,7 +68483,23 @@
           },
           {
             "source": "pango",
+            "target": "djvulibre"
+          },
+          {
+            "source": "pango",
+            "target": "emacs"
+          },
+          {
+            "source": "pango",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "pango",
             "target": "gnuplot"
+          },
+          {
+            "source": "pango",
+            "target": "graph-tool"
           },
           {
             "source": "pango",
@@ -68567,10 +68535,6 @@
           },
           {
             "source": "pango",
-            "target": "librsvg"
-          },
-          {
-            "source": "pango",
             "target": "libvips"
           },
           {
@@ -68596,6 +68560,14 @@
           {
             "source": "pango",
             "target": "r-base"
+          },
+          {
+            "source": "pango",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "pango",
+            "target": "root"
           },
           {
             "source": "pango",
@@ -68648,6 +68620,26 @@
           {
             "source": "parmed",
             "target": "ambertools"
+          },
+          {
+            "source": "parmetis",
+            "target": "fenics-dolfinx"
+          },
+          {
+            "source": "parmetis",
+            "target": "mumps"
+          },
+          {
+            "source": "parmetis",
+            "target": "petsc"
+          },
+          {
+            "source": "parmetis",
+            "target": "pexsi"
+          },
+          {
+            "source": "parmetis",
+            "target": "superlu_dist"
           },
           {
             "source": "partsegcore-compiled-backend",
@@ -68860,10 +68852,6 @@
           {
             "source": "pcre2",
             "target": "libgit2"
-          },
-          {
-            "source": "pcre2",
-            "target": "php"
           },
           {
             "source": "pcre2",
@@ -70807,6 +70795,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "pkg-config",
             "target": "fcl"
           },
           {
@@ -71171,6 +71163,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "gz-rendering"
+          },
+          {
+            "source": "pkg-config",
             "target": "gz-sensors"
           },
           {
@@ -71391,10 +71387,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "lalinspiral"
-          },
-          {
-            "source": "pkg-config",
             "target": "lalmetaio"
           },
           {
@@ -71543,11 +71535,11 @@
           },
           {
             "source": "pkg-config",
-            "target": "libgsf"
+            "target": "libgraphene"
           },
           {
             "source": "pkg-config",
-            "target": "libheif"
+            "target": "libgsf"
           },
           {
             "source": "pkg-config",
@@ -71624,10 +71616,6 @@
           {
             "source": "pkg-config",
             "target": "libiio"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libjxl-split"
           },
           {
             "source": "pkg-config",
@@ -71723,19 +71711,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "librsvg"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libsdformat"
-          },
-          {
-            "source": "pkg-config",
             "target": "libsecp256k1"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libsecret"
           },
           {
             "source": "pkg-config",
@@ -71791,15 +71767,15 @@
           },
           {
             "source": "pkg-config",
+            "target": "libvips"
+          },
+          {
+            "source": "pkg-config",
             "target": "libxcb"
           },
           {
             "source": "pkg-config",
             "target": "libxcrypt"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libxkbcommon"
           },
           {
             "source": "pkg-config",
@@ -71812,10 +71788,6 @@
           {
             "source": "pkg-config",
             "target": "libxmlsec1"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libxslt"
           },
           {
             "source": "pkg-config",
@@ -72223,10 +72195,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "parallelio"
-          },
-          {
-            "source": "pkg-config",
             "target": "paraview"
           },
           {
@@ -72264,10 +72232,6 @@
           {
             "source": "pkg-config",
             "target": "photutils"
-          },
-          {
-            "source": "pkg-config",
-            "target": "php"
           },
           {
             "source": "pkg-config",
@@ -72428,6 +72392,10 @@
           {
             "source": "pkg-config",
             "target": "pyshtools"
+          },
+          {
+            "source": "pkg-config",
+            "target": "pyside2"
           },
           {
             "source": "pkg-config",
@@ -72872,6 +72840,10 @@
           {
             "source": "pkg-config",
             "target": "rrdtool"
+          },
+          {
+            "source": "pkg-config",
+            "target": "rstudio"
           },
           {
             "source": "pkg-config",
@@ -73583,6 +73555,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "libsecret"
+          },
+          {
+            "source": "pkgconf",
             "target": "libvips"
           },
           {
@@ -73616,6 +73592,10 @@
           {
             "source": "pkgconf",
             "target": "oxigraph"
+          },
+          {
+            "source": "pkgconf",
+            "target": "parallelio"
           },
           {
             "source": "pkgconf",
@@ -74320,10 +74300,6 @@
           {
             "source": "postgresql",
             "target": "meos"
-          },
-          {
-            "source": "postgresql",
-            "target": "php"
           },
           {
             "source": "postgresql",
@@ -75335,10 +75311,6 @@
           },
           {
             "source": "psutil",
-            "target": "filprofiler"
-          },
-          {
-            "source": "psutil",
             "target": "finesse"
           },
           {
@@ -75907,6 +75879,10 @@
           },
           {
             "source": "pthread-stubs",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "pthread-stubs",
             "target": "giza"
           },
           {
@@ -75923,11 +75899,11 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "libxkbcommon"
+            "target": "openmm"
           },
           {
             "source": "pthread-stubs",
-            "target": "openmm"
+            "target": "rstudio"
           },
           {
             "source": "pthread-stubs",
@@ -76967,11 +76943,11 @@
           },
           {
             "source": "pygobject",
-            "target": "gtksourceview"
+            "target": "harfbuzz"
           },
           {
             "source": "pygobject",
-            "target": "harfbuzz"
+            "target": "libgraphene"
           },
           {
             "source": "pygobject",
@@ -80387,6 +80363,10 @@
           },
           {
             "source": "python",
+            "target": "djvulibre"
+          },
+          {
+            "source": "python",
             "target": "dm-tree"
           },
           {
@@ -80520,6 +80500,10 @@
           {
             "source": "python",
             "target": "einsums"
+          },
+          {
+            "source": "python",
+            "target": "emacs"
           },
           {
             "source": "python",
@@ -80663,10 +80647,6 @@
           },
           {
             "source": "python",
-            "target": "fastremap"
-          },
-          {
-            "source": "python",
             "target": "fasttext"
           },
           {
@@ -80683,6 +80663,10 @@
           },
           {
             "source": "python",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "python",
             "target": "fenics-basix"
           },
           {
@@ -80691,11 +80675,11 @@
           },
           {
             "source": "python",
-            "target": "fiatlux"
+            "target": "ffmpeg"
           },
           {
             "source": "python",
-            "target": "filprofiler"
+            "target": "fiatlux"
           },
           {
             "source": "python",
@@ -81063,10 +81047,6 @@
           },
           {
             "source": "python",
-            "target": "goosefem"
-          },
-          {
-            "source": "python",
             "target": "gpaw"
           },
           {
@@ -81199,6 +81179,10 @@
           },
           {
             "source": "python",
+            "target": "gz-launch"
+          },
+          {
+            "source": "python",
             "target": "gz-math"
           },
           {
@@ -81208,6 +81192,10 @@
           {
             "source": "python",
             "target": "gz-physics"
+          },
+          {
+            "source": "python",
+            "target": "gz-sensors"
           },
           {
             "source": "python",
@@ -81244,10 +81232,6 @@
           {
             "source": "python",
             "target": "harfbuzz"
-          },
-          {
-            "source": "python",
-            "target": "harp"
           },
           {
             "source": "python",
@@ -81591,10 +81575,6 @@
           },
           {
             "source": "python",
-            "target": "lalinspiral"
-          },
-          {
-            "source": "python",
             "target": "lalmetaio"
           },
           {
@@ -81735,6 +81715,10 @@
           },
           {
             "source": "python",
+            "target": "libgraphene"
+          },
+          {
+            "source": "python",
             "target": "libignition-cmake0"
           },
           {
@@ -81823,19 +81807,11 @@
           },
           {
             "source": "python",
-            "target": "librsvg"
-          },
-          {
-            "source": "python",
             "target": "librttopo"
           },
           {
             "source": "python",
             "target": "libsass"
-          },
-          {
-            "source": "python",
-            "target": "libsdformat"
           },
           {
             "source": "python",
@@ -81892,10 +81868,6 @@
           {
             "source": "python",
             "target": "libxcb"
-          },
-          {
-            "source": "python",
-            "target": "libxkbcommon"
           },
           {
             "source": "python",
@@ -83935,6 +83907,10 @@
           },
           {
             "source": "python",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "python",
             "target": "raider"
           },
           {
@@ -84044,6 +84020,10 @@
           {
             "source": "python",
             "target": "rpy2"
+          },
+          {
+            "source": "python",
+            "target": "rstudio"
           },
           {
             "source": "python",
@@ -96662,10 +96642,6 @@
             "target": "clingo"
           },
           {
-            "source": "re2c",
-            "target": "php"
-          },
-          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -96796,10 +96772,6 @@
           {
             "source": "readline",
             "target": "pari"
-          },
-          {
-            "source": "readline",
-            "target": "php"
           },
           {
             "source": "readline",
@@ -100947,6 +100919,10 @@
           },
           {
             "source": "sed",
+            "target": "bayeswave"
+          },
+          {
+            "source": "sed",
             "target": "bazel"
           },
           {
@@ -101159,6 +101135,14 @@
           },
           {
             "source": "sed",
+            "target": "gstlal"
+          },
+          {
+            "source": "sed",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "sed",
             "target": "gymnasium"
           },
           {
@@ -101207,6 +101191,10 @@
           },
           {
             "source": "sed",
+            "target": "lalapps"
+          },
+          {
+            "source": "sed",
             "target": "lalburst"
           },
           {
@@ -101216,10 +101204,6 @@
           {
             "source": "sed",
             "target": "lalinference"
-          },
-          {
-            "source": "sed",
-            "target": "lalinspiral"
           },
           {
             "source": "sed",
@@ -101284,10 +101268,6 @@
           {
             "source": "sed",
             "target": "lua"
-          },
-          {
-            "source": "sed",
-            "target": "luarocks"
           },
           {
             "source": "sed",
@@ -102679,10 +102659,6 @@
           },
           {
             "source": "sqlite",
-            "target": "php"
-          },
-          {
-            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -102959,6 +102935,10 @@
           },
           {
             "source": "swig",
+            "target": "bayeswave"
+          },
+          {
+            "source": "swig",
             "target": "box2d-py"
           },
           {
@@ -102995,6 +102975,14 @@
           },
           {
             "source": "swig",
+            "target": "gstlal"
+          },
+          {
+            "source": "swig",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "swig",
             "target": "gymnasium"
           },
           {
@@ -103015,6 +103003,10 @@
           },
           {
             "source": "swig",
+            "target": "lalapps"
+          },
+          {
+            "source": "swig",
             "target": "lalburst"
           },
           {
@@ -103024,10 +103016,6 @@
           {
             "source": "swig",
             "target": "lalinference"
-          },
-          {
-            "source": "swig",
-            "target": "lalinspiral"
           },
           {
             "source": "swig",
@@ -103679,11 +103667,23 @@
           },
           {
             "source": "tinyxml2",
+            "target": "gz-physics"
+          },
+          {
+            "source": "tinyxml2",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "tinyxml2",
             "target": "gz-sim"
           },
           {
             "source": "tinyxml2",
             "target": "helios"
+          },
+          {
+            "source": "tinyxml2",
+            "target": "idyntree"
           },
           {
             "source": "tinyxml2",
@@ -103715,11 +103715,11 @@
           },
           {
             "source": "tinyxml2",
-            "target": "libsdformat"
+            "target": "mujoco"
           },
           {
             "source": "tinyxml2",
-            "target": "mujoco"
+            "target": "pinocchio"
           },
           {
             "source": "tinyxml2",
@@ -105719,15 +105719,7 @@
           },
           {
             "source": "unzip",
-            "target": "jmol"
-          },
-          {
-            "source": "unzip",
             "target": "libnetcdf"
-          },
-          {
-            "source": "unzip",
-            "target": "luarocks"
           },
           {
             "source": "unzip",
@@ -105740,6 +105732,14 @@
           {
             "source": "unzip",
             "target": "rstudio"
+          },
+          {
+            "source": "unzip",
+            "target": "sage"
+          },
+          {
+            "source": "unzip",
+            "target": "sagelib"
           },
           {
             "source": "unzip",
@@ -105771,7 +105771,23 @@
           },
           {
             "source": "urdfdom",
-            "target": "libsdformat"
+            "target": "gz-launch"
+          },
+          {
+            "source": "urdfdom",
+            "target": "gz-physics"
+          },
+          {
+            "source": "urdfdom",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "urdfdom",
+            "target": "gz-sim"
+          },
+          {
+            "source": "urdfdom",
+            "target": "idyntree"
           },
           {
             "source": "urdfdom",
@@ -105939,6 +105955,10 @@
           },
           {
             "source": "uv",
+            "target": "djvulibre"
+          },
+          {
+            "source": "uv",
             "target": "dxtbx"
           },
           {
@@ -105948,6 +105968,10 @@
           {
             "source": "uv",
             "target": "eelbrain"
+          },
+          {
+            "source": "uv",
+            "target": "emacs"
           },
           {
             "source": "uv",
@@ -105976,6 +106000,10 @@
           {
             "source": "uv",
             "target": "fenics-dolfinx"
+          },
+          {
+            "source": "uv",
+            "target": "ffmpeg"
           },
           {
             "source": "uv",
@@ -106031,7 +106059,23 @@
           },
           {
             "source": "uv",
+            "target": "graph-tool"
+          },
+          {
+            "source": "uv",
+            "target": "graphviz"
+          },
+          {
+            "source": "uv",
             "target": "grouper"
+          },
+          {
+            "source": "uv",
+            "target": "gtk3"
+          },
+          {
+            "source": "uv",
+            "target": "gtk4"
           },
           {
             "source": "uv",
@@ -106056,6 +106100,10 @@
           {
             "source": "uv",
             "target": "hypothesis"
+          },
+          {
+            "source": "uv",
+            "target": "imagemagick"
           },
           {
             "source": "uv",
@@ -106091,7 +106139,7 @@
           },
           {
             "source": "uv",
-            "target": "librsvg"
+            "target": "libvips"
           },
           {
             "source": "uv",
@@ -106864,6 +106912,10 @@
           {
             "source": "uv",
             "target": "r-rpostgres"
+          },
+          {
+            "source": "uv",
+            "target": "r-rsvg"
           },
           {
             "source": "uv",
@@ -110187,7 +110239,19 @@
           },
           {
             "source": "x265",
-            "target": "libheif"
+            "target": "gdal"
+          },
+          {
+            "source": "x265",
+            "target": "imagemagick"
+          },
+          {
+            "source": "x265",
+            "target": "libvips"
+          },
+          {
+            "source": "x265",
+            "target": "openimageio"
           },
           {
             "source": "xapian-core",
@@ -110843,7 +110907,11 @@
           },
           {
             "source": "xkeyboard-config",
-            "target": "libxkbcommon"
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "xkeyboard-config",
+            "target": "rstudio"
           },
           {
             "source": "xorg-imake",
@@ -111131,6 +111199,10 @@
           },
           {
             "source": "xorg-libxau",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "xorg-libxau",
             "target": "fltk"
           },
           {
@@ -111143,7 +111215,7 @@
           },
           {
             "source": "xorg-libxau",
-            "target": "libxkbcommon"
+            "target": "rstudio"
           },
           {
             "source": "xorg-libxau",
@@ -111551,6 +111623,18 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "djvulibre"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "emacs"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "freeglut"
           },
           {
@@ -111567,7 +111651,19 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "graph-tool"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "graphviz"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "gtk4"
           },
           {
             "source": "xorg-util-macros",
@@ -111579,11 +111675,15 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "imagemagick"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "libglvnd"
           },
           {
             "source": "xorg-util-macros",
-            "target": "librsvg"
+            "target": "libvips"
           },
           {
             "source": "xorg-util-macros",
@@ -111648,6 +111748,14 @@
           {
             "source": "xorg-util-macros",
             "target": "r-base"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "root"
           },
           {
             "source": "xorg-util-macros",
@@ -111803,11 +111911,15 @@
           },
           {
             "source": "xorg-xproto",
-            "target": "libxkbcommon"
+            "target": "fcitx-qt5"
           },
           {
             "source": "xorg-xproto",
             "target": "netpbm"
+          },
+          {
+            "source": "xorg-xproto",
+            "target": "rstudio"
           },
           {
             "source": "xproperty",
@@ -111927,10 +112039,6 @@
           },
           {
             "source": "xtensor-python",
-            "target": "goosefem"
-          },
-          {
-            "source": "xtensor-python",
             "target": "nifty"
           },
           {
@@ -111996,10 +112104,6 @@
           {
             "source": "xtensor",
             "target": "gooseeye"
-          },
-          {
-            "source": "xtensor",
-            "target": "goosefem"
           },
           {
             "source": "xtensor",
@@ -112123,7 +112227,15 @@
           },
           {
             "source": "xz",
+            "target": "djvulibre"
+          },
+          {
+            "source": "xz",
             "target": "elfutils"
+          },
+          {
+            "source": "xz",
+            "target": "emacs"
           },
           {
             "source": "xz",
@@ -112164,6 +112276,10 @@
           {
             "source": "xz",
             "target": "glibmm"
+          },
+          {
+            "source": "xz",
+            "target": "graph-tool"
           },
           {
             "source": "xz",
@@ -112211,11 +112327,11 @@
           },
           {
             "source": "xz",
-            "target": "librsvg"
+            "target": "libtiff"
           },
           {
             "source": "xz",
-            "target": "libtiff"
+            "target": "libvips"
           },
           {
             "source": "xz",
@@ -112272,6 +112388,10 @@
           {
             "source": "xz",
             "target": "r-leidenbase"
+          },
+          {
+            "source": "xz",
+            "target": "r-rsvg"
           },
           {
             "source": "xz",
@@ -112923,6 +113043,10 @@
           },
           {
             "source": "zlib",
+            "target": "djvulibre"
+          },
+          {
+            "source": "zlib",
             "target": "dlib-cpp"
           },
           {
@@ -113431,6 +113555,10 @@
           },
           {
             "source": "zlib",
+            "target": "libgraphene"
+          },
+          {
+            "source": "zlib",
             "target": "libgsf"
           },
           {
@@ -113440,10 +113568,6 @@
           {
             "source": "zlib",
             "target": "libitk"
-          },
-          {
-            "source": "zlib",
-            "target": "libjxl-split"
           },
           {
             "source": "zlib",
@@ -113504,10 +113628,6 @@
           {
             "source": "zlib",
             "target": "librdkafka"
-          },
-          {
-            "source": "zlib",
-            "target": "librsvg"
           },
           {
             "source": "zlib",
@@ -113940,10 +114060,6 @@
           {
             "source": "zlib",
             "target": "photospline"
-          },
-          {
-            "source": "zlib",
-            "target": "php"
           },
           {
             "source": "zlib",
@@ -118973,12 +119089,6 @@
             }
           },
           {
-            "id": "fastremap",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastremap.json"
-            }
-          },
-          {
             "id": "fasttext",
             "payload": {
               "__lazy_json__": "node_attrs/fasttext.json"
@@ -119060,12 +119170,6 @@
             "id": "file",
             "payload": {
               "__lazy_json__": "node_attrs/file.json"
-            }
-          },
-          {
-            "id": "filprofiler",
-            "payload": {
-              "__lazy_json__": "node_attrs/filprofiler.json"
             }
           },
           {
@@ -119492,12 +119596,6 @@
             "id": "gemmi",
             "payload": {
               "__lazy_json__": "node_attrs/gemmi.json"
-            }
-          },
-          {
-            "id": "gendef",
-            "payload": {
-              "__lazy_json__": "node_attrs/gendef.json"
             }
           },
           {
@@ -120065,12 +120163,6 @@
             }
           },
           {
-            "id": "goosefem",
-            "payload": {
-              "__lazy_json__": "node_attrs/goosefem.json"
-            }
-          },
-          {
             "id": "gotm",
             "payload": {
               "__lazy_json__": "node_attrs/gotm.json"
@@ -120395,6 +120487,12 @@
             }
           },
           {
+            "id": "gz-rendering",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-rendering.json"
+            }
+          },
+          {
             "id": "gz-sensors",
             "payload": {
               "__lazy_json__": "node_attrs/gz-sensors.json"
@@ -120476,12 +120574,6 @@
             "id": "harminv",
             "payload": {
               "__lazy_json__": "node_attrs/harminv.json"
-            }
-          },
-          {
-            "id": "harp",
-            "payload": {
-              "__lazy_json__": "node_attrs/harp.json"
             }
           },
           {
@@ -120674,12 +120766,6 @@
             "id": "hnswlib",
             "payload": {
               "__lazy_json__": "node_attrs/hnswlib.json"
-            }
-          },
-          {
-            "id": "hole2",
-            "payload": {
-              "__lazy_json__": "node_attrs/hole2.json"
             }
           },
           {
@@ -121103,12 +121189,6 @@
             }
           },
           {
-            "id": "jmol",
-            "payload": {
-              "__lazy_json__": "node_attrs/jmol.json"
-            }
-          },
-          {
             "id": "jnv",
             "payload": {
               "__lazy_json__": "node_attrs/jnv.json"
@@ -121364,12 +121444,6 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
-            }
-          },
-          {
-            "id": "lalinspiral",
-            "payload": {
-              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -121907,6 +121981,12 @@
             }
           },
           {
+            "id": "libgraphene",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgraphene.json"
+            }
+          },
+          {
             "id": "libgsf",
             "payload": {
               "__lazy_json__": "node_attrs/libgsf.json"
@@ -121922,12 +122002,6 @@
             "id": "libharu",
             "payload": {
               "__lazy_json__": "node_attrs/libharu.json"
-            }
-          },
-          {
-            "id": "libheif",
-            "payload": {
-              "__lazy_json__": "node_attrs/libheif.json"
             }
           },
           {
@@ -122084,12 +122158,6 @@
             "id": "libjpeg-turbo",
             "payload": {
               "__lazy_json__": "node_attrs/libjpeg-turbo.json"
-            }
-          },
-          {
-            "id": "libjxl-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/libjxl-split.json"
             }
           },
           {
@@ -122393,12 +122461,6 @@
             }
           },
           {
-            "id": "librsvg",
-            "payload": {
-              "__lazy_json__": "node_attrs/librsvg.json"
-            }
-          },
-          {
             "id": "librttopo",
             "payload": {
               "__lazy_json__": "node_attrs/librttopo.json"
@@ -122414,12 +122476,6 @@
             "id": "libsbml",
             "payload": {
               "__lazy_json__": "node_attrs/libsbml.json"
-            }
-          },
-          {
-            "id": "libsdformat",
-            "payload": {
-              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
@@ -122663,12 +122719,6 @@
             }
           },
           {
-            "id": "libvorbis",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvorbis.json"
-            }
-          },
-          {
             "id": "libvpx",
             "payload": {
               "__lazy_json__": "node_attrs/libvpx.json"
@@ -122711,12 +122761,6 @@
             }
           },
           {
-            "id": "libxkbcommon",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxkbcommon.json"
-            }
-          },
-          {
             "id": "libxml2",
             "payload": {
               "__lazy_json__": "node_attrs/libxml2.json"
@@ -122732,12 +122776,6 @@
             "id": "libxmlsec1",
             "payload": {
               "__lazy_json__": "node_attrs/libxmlsec1.json"
-            }
-          },
-          {
-            "id": "libxslt",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxslt.json"
             }
           },
           {
@@ -122960,12 +122998,6 @@
             "id": "luajit-openresty",
             "payload": {
               "__lazy_json__": "node_attrs/luajit-openresty.json"
-            }
-          },
-          {
-            "id": "luarocks",
-            "payload": {
-              "__lazy_json__": "node_attrs/luarocks.json"
             }
           },
           {
@@ -123302,12 +123334,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -124757,6 +124783,12 @@
             }
           },
           {
+            "id": "parmetis",
+            "payload": {
+              "__lazy_json__": "node_attrs/parmetis.json"
+            }
+          },
+          {
             "id": "partsegcore-compiled-backend",
             "payload": {
               "__lazy_json__": "node_attrs/partsegcore-compiled-backend.json"
@@ -125270,12 +125302,6 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
-            }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
