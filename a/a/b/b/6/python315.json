@@ -59,6 +59,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/mujoco.json"
             }
+          },
+          {
+            "id": "pyhrf",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyhrf.json"
+            }
           }
         ]
       }
@@ -120,10 +126,6 @@
         "links": [
           {
             "source": "21cmfast",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "Iris-Codec",
             "target": "conda-forge-pinning"
           },
           {
@@ -329,10 +331,6 @@
           {
             "source": "aiohttp",
             "target": "cad-to-openmc"
-          },
-          {
-            "source": "aiohttp",
-            "target": "caiman"
           },
           {
             "source": "aiohttp",
@@ -656,10 +654,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "pycontrails"
-          },
-          {
-            "source": "aiohttp",
             "target": "pyflyby"
           },
           {
@@ -955,10 +949,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "alm",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "alpenglow",
             "target": "conda-forge-pinning"
           },
@@ -1196,10 +1186,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "caiman"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "catboost"
           },
           {
@@ -1357,10 +1343,6 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "pnab"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "pycontrails"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1652,10 +1634,6 @@
           },
           {
             "source": "astroid",
-            "target": "caiman"
-          },
-          {
-            "source": "astroid",
             "target": "catboost"
           },
           {
@@ -1793,10 +1771,6 @@
           {
             "source": "astroid",
             "target": "pnab"
-          },
-          {
-            "source": "astroid",
-            "target": "pycontrails"
           },
           {
             "source": "astroid",
@@ -2204,10 +2178,6 @@
           },
           {
             "source": "astropy",
-            "target": "pygwb"
-          },
-          {
-            "source": "astropy",
             "target": "pypeit"
           },
           {
@@ -2371,10 +2341,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "atheris",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "atom-ml",
             "target": "conda-forge-pinning"
           },
@@ -2525,10 +2491,6 @@
           {
             "source": "av",
             "target": "av2"
-          },
-          {
-            "source": "av",
-            "target": "caiman"
           },
           {
             "source": "av",
@@ -2820,14 +2782,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "bpython"
-          },
-          {
-            "source": "backports.zstd",
             "target": "breezy"
           },
           {
@@ -2849,10 +2803,6 @@
           {
             "source": "backports.zstd",
             "target": "bytewax"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "caiman"
           },
           {
             "source": "backports.zstd",
@@ -3852,10 +3802,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pycontrails"
-          },
-          {
-            "source": "backports.zstd",
             "target": "pycrdt"
           },
           {
@@ -3869,10 +3815,6 @@
           {
             "source": "backports.zstd",
             "target": "pygnome"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pygwb"
           },
           {
             "source": "backports.zstd",
@@ -4928,10 +4870,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "pygwb"
-          },
-          {
-            "source": "bcrypt",
             "target": "pymeshfix"
           },
           {
@@ -5137,10 +5075,6 @@
           {
             "source": "bilby.cython",
             "target": "gwtc_analysis"
-          },
-          {
-            "source": "bilby.cython",
-            "target": "pygwb"
           },
           {
             "source": "bilby.cython",
@@ -5464,10 +5398,6 @@
           },
           {
             "source": "boost",
-            "target": "alm"
-          },
-          {
-            "source": "boost",
             "target": "analisi"
           },
           {
@@ -5513,10 +5443,6 @@
           {
             "source": "boost",
             "target": "cms-combine"
-          },
-          {
-            "source": "boost",
-            "target": "coal"
           },
           {
             "source": "boost",
@@ -5676,10 +5602,6 @@
           },
           {
             "source": "boost",
-            "target": "fmipp"
-          },
-          {
-            "source": "boost",
             "target": "forte"
           },
           {
@@ -5809,10 +5731,6 @@
           {
             "source": "boost",
             "target": "hpp-python"
-          },
-          {
-            "source": "boost",
-            "target": "hpp-template-corba"
           },
           {
             "source": "boost",
@@ -6160,6 +6078,10 @@
           },
           {
             "source": "boost",
+            "target": "roboplan"
+          },
+          {
+            "source": "boost",
             "target": "robotraconteur"
           },
           {
@@ -6395,15 +6317,7 @@
             "target": "zipline-reloaded"
           },
           {
-            "source": "bowtie-py",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "box2d-py",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "bpython",
             "target": "conda-forge-pinning"
           },
           {
@@ -6588,14 +6502,6 @@
           },
           {
             "source": "brotli",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "brotli",
-            "target": "bpython"
-          },
-          {
-            "source": "brotli",
             "target": "breezy"
           },
           {
@@ -6617,10 +6523,6 @@
           {
             "source": "brotli",
             "target": "bytewax"
-          },
-          {
-            "source": "brotli",
-            "target": "caiman"
           },
           {
             "source": "brotli",
@@ -7632,10 +7534,6 @@
           },
           {
             "source": "brotli",
-            "target": "pycontrails"
-          },
-          {
-            "source": "brotli",
             "target": "pycrdt"
           },
           {
@@ -7649,10 +7547,6 @@
           {
             "source": "brotli",
             "target": "pygnome"
-          },
-          {
-            "source": "brotli",
-            "target": "pygwb"
           },
           {
             "source": "brotli",
@@ -8487,10 +8381,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "caiman",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "caio",
             "target": "conda-forge-pinning"
           },
@@ -8641,10 +8531,6 @@
           {
             "source": "cartopy",
             "target": "pyart_mch"
-          },
-          {
-            "source": "cartopy",
-            "target": "pycontrails"
           },
           {
             "source": "cartopy",
@@ -8809,10 +8695,6 @@
           {
             "source": "causal-conv1d",
             "target": "mamba-ssm"
-          },
-          {
-            "source": "causalml",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "cbgen",
@@ -9664,19 +9546,11 @@
           },
           {
             "source": "cffi",
-            "target": "pycontrails"
-          },
-          {
-            "source": "cffi",
             "target": "pyepr"
           },
           {
             "source": "cffi",
             "target": "pygit2"
-          },
-          {
-            "source": "cffi",
-            "target": "pygwb"
           },
           {
             "source": "cffi",
@@ -10515,66 +10389,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "coal",
-            "target": "aligator"
-          },
-          {
-            "source": "coal",
-            "target": "candlewick"
-          },
-          {
-            "source": "coal",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coal",
-            "target": "crocoddyl"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-corbaserver"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-environments"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-gepetto-viewer"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-gui"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-manipulation-corba"
-          },
-          {
-            "source": "coal",
-            "target": "hpp-python"
-          },
-          {
-            "source": "coal",
-            "target": "ndcurves"
-          },
-          {
-            "source": "coal",
-            "target": "pinocchio"
-          },
-          {
-            "source": "coal",
-            "target": "placo"
-          },
-          {
-            "source": "coal",
-            "target": "roboplan"
-          },
-          {
-            "source": "coal",
-            "target": "tsid"
-          },
-          {
             "source": "cobs-python",
             "target": "conda-forge-pinning"
           },
@@ -10812,10 +10626,6 @@
           },
           {
             "source": "contourpy",
-            "target": "caiman"
-          },
-          {
-            "source": "contourpy",
             "target": "ceffyl"
           },
           {
@@ -10969,10 +10779,6 @@
           {
             "source": "contourpy",
             "target": "pyart_mch"
-          },
-          {
-            "source": "contourpy",
-            "target": "pygwb"
           },
           {
             "source": "contourpy",
@@ -11163,10 +10969,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cosmolopy",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "cosmosis-build-standard-library",
             "target": "conda-forge-pinning"
           },
@@ -11213,10 +11015,6 @@
           {
             "source": "coverage",
             "target": "bbf"
-          },
-          {
-            "source": "coverage",
-            "target": "caiman"
           },
           {
             "source": "coverage",
@@ -11465,10 +11263,6 @@
           {
             "source": "coverage",
             "target": "shapelysmooth"
-          },
-          {
-            "source": "coverage",
-            "target": "snaphu"
           },
           {
             "source": "coverage",
@@ -11763,42 +11557,6 @@
             "target": "votca"
           },
           {
-            "source": "cuda-python",
-            "target": "cccl-python"
-          },
-          {
-            "source": "cuda-python",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-python",
-            "target": "cuquantum"
-          },
-          {
-            "source": "cuda-python",
-            "target": "libnvshmem"
-          },
-          {
-            "source": "cuda-python",
-            "target": "nccl4py"
-          },
-          {
-            "source": "cuda-python",
-            "target": "numba-cuda"
-          },
-          {
-            "source": "cuda-python",
-            "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-python",
-            "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "cuda-python",
-            "target": "nvmath"
-          },
-          {
             "source": "cuda_histogram",
             "target": "conda-forge-pinning"
           },
@@ -11961,10 +11719,6 @@
           {
             "source": "cw-eval",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cwcwidth",
-            "target": "bpython"
           },
           {
             "source": "cwcwidth",
@@ -12436,10 +12190,6 @@
           },
           {
             "source": "cython",
-            "target": "caiman"
-          },
-          {
-            "source": "cython",
             "target": "cantera"
           },
           {
@@ -12457,10 +12207,6 @@
           {
             "source": "cython",
             "target": "catboost"
-          },
-          {
-            "source": "cython",
-            "target": "causalml"
           },
           {
             "source": "cython",
@@ -12597,10 +12343,6 @@
           {
             "source": "cython",
             "target": "crick"
-          },
-          {
-            "source": "cython",
-            "target": "cuda-python"
           },
           {
             "source": "cython",
@@ -12925,10 +12667,6 @@
           {
             "source": "cython",
             "target": "extinction"
-          },
-          {
-            "source": "cython",
-            "target": "ezdxf"
           },
           {
             "source": "cython",
@@ -13752,10 +13490,6 @@
           },
           {
             "source": "cython",
-            "target": "nipy"
-          },
-          {
-            "source": "cython",
             "target": "nnvm"
           },
           {
@@ -13928,10 +13662,6 @@
           },
           {
             "source": "cython",
-            "target": "piqs"
-          },
-          {
-            "source": "cython",
             "target": "pixell"
           },
           {
@@ -14081,10 +13811,6 @@
           {
             "source": "cython",
             "target": "pycocotools"
-          },
-          {
-            "source": "cython",
-            "target": "pycontrails"
           },
           {
             "source": "cython",
@@ -15880,10 +15606,6 @@
           },
           {
             "source": "debugpy",
-            "target": "caiman"
-          },
-          {
-            "source": "debugpy",
             "target": "catboost"
           },
           {
@@ -16085,10 +15807,6 @@
           {
             "source": "debugpy",
             "target": "psyplot-gui"
-          },
-          {
-            "source": "debugpy",
-            "target": "pycontrails"
           },
           {
             "source": "debugpy",
@@ -16591,10 +16309,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "dora-rs-suite",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "doublemetaphone",
             "target": "conda-forge-pinning"
           },
@@ -17056,10 +16770,6 @@
           },
           {
             "source": "eigenpy",
-            "target": "coal"
-          },
-          {
-            "source": "eigenpy",
             "target": "conda-forge-pinning"
           },
           {
@@ -17441,14 +17151,6 @@
           {
             "source": "ezc3d",
             "target": "opensim"
-          },
-          {
-            "source": "ezdxf",
-            "target": "cad-to-openmc"
-          },
-          {
-            "source": "ezdxf",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "f90wrap",
@@ -18231,10 +17933,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "fmipp",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "foam_ct_phantom",
             "target": "conda-forge-pinning"
           },
@@ -18245,6 +17943,10 @@
           {
             "source": "focal-stats",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fonttools",
+            "target": "cad-to-openmc"
           },
           {
             "source": "fonttools",
@@ -18261,10 +17963,6 @@
           {
             "source": "fonttools",
             "target": "docling-parse"
-          },
-          {
-            "source": "fonttools",
-            "target": "ezdxf"
           },
           {
             "source": "fonttools",
@@ -18819,14 +18517,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "george",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "george",
-            "target": "holodeck-gw"
-          },
-          {
             "source": "geoschem-gcpy",
             "target": "conda-forge-pinning"
           },
@@ -19176,10 +18866,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "nipy"
-          },
-          {
-            "source": "gmpy2",
             "target": "nomad-camels"
           },
           {
@@ -19504,10 +19190,6 @@
           },
           {
             "source": "google-crc32c",
-            "target": "caiman"
-          },
-          {
-            "source": "google-crc32c",
             "target": "cfdm"
           },
           {
@@ -19605,10 +19287,6 @@
           {
             "source": "google-crc32c",
             "target": "plaid"
-          },
-          {
-            "source": "google-crc32c",
-            "target": "pycontrails"
           },
           {
             "source": "google-crc32c",
@@ -19832,18 +19510,6 @@
           },
           {
             "source": "greenlet",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "greenlet",
-            "target": "bpython"
-          },
-          {
-            "source": "greenlet",
-            "target": "caiman"
-          },
-          {
-            "source": "greenlet",
             "target": "catboost"
           },
           {
@@ -20009,10 +19675,6 @@
           {
             "source": "greenlet",
             "target": "pnab"
-          },
-          {
-            "source": "greenlet",
-            "target": "pycontrails"
           },
           {
             "source": "greenlet",
@@ -20309,10 +19971,6 @@
           {
             "source": "grpc-cpp",
             "target": "pyaedt"
-          },
-          {
-            "source": "grpc-cpp",
-            "target": "pycontrails"
           },
           {
             "source": "grpc-cpp",
@@ -20717,10 +20375,6 @@
           {
             "source": "h5py",
             "target": "btrack"
-          },
-          {
-            "source": "h5py",
-            "target": "caiman"
           },
           {
             "source": "h5py",
@@ -21225,10 +20879,6 @@
           {
             "source": "h5py",
             "target": "pygmsh"
-          },
-          {
-            "source": "h5py",
-            "target": "pygwb"
           },
           {
             "source": "h5py",
@@ -22023,26 +21673,6 @@
             "target": "hpp-gepetto-viewer"
           },
           {
-            "source": "hpp-template-corba",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "hpp-template-corba",
-            "target": "hpp-corbaserver"
-          },
-          {
-            "source": "hpp-template-corba",
-            "target": "hpp-gepetto-viewer"
-          },
-          {
-            "source": "hpp-template-corba",
-            "target": "hpp-gui"
-          },
-          {
-            "source": "hpp-template-corba",
-            "target": "hpp-manipulation-corba"
-          },
-          {
             "source": "htcondor",
             "target": "conda-forge-pinning"
           },
@@ -22251,14 +21881,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "icub-models",
-            "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "icub-models",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "idyntree",
             "target": "biomechanical-analysis-framework"
           },
@@ -22336,10 +21958,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "pygwb"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "rapid-pe"
           },
           {
@@ -22413,10 +22031,6 @@
           {
             "source": "igwn-segments",
             "target": "pycbc"
-          },
-          {
-            "source": "igwn-segments",
-            "target": "pygwb"
           },
           {
             "source": "igwn-segments",
@@ -22688,10 +22302,6 @@
           },
           {
             "source": "islpy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "isosplit6",
             "target": "conda-forge-pinning"
           },
           {
@@ -23240,10 +22850,6 @@
           },
           {
             "source": "lalapps",
-            "target": "pygwb"
-          },
-          {
-            "source": "lalapps",
             "target": "rapid-pe"
           },
           {
@@ -23293,10 +22899,6 @@
           {
             "source": "lalburst",
             "target": "lalinspiral"
-          },
-          {
-            "source": "lalburst",
-            "target": "pygwb"
           },
           {
             "source": "lalburst",
@@ -23357,10 +22959,6 @@
           {
             "source": "lalframe",
             "target": "pycbc"
-          },
-          {
-            "source": "lalframe",
-            "target": "pygwb"
           },
           {
             "source": "lalframe",
@@ -23436,10 +23034,6 @@
           },
           {
             "source": "lalinference",
-            "target": "pygwb"
-          },
-          {
-            "source": "lalinference",
             "target": "rapid-pe"
           },
           {
@@ -23481,10 +23075,6 @@
           {
             "source": "lalinspiral",
             "target": "ligo-raven"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "pygwb"
           },
           {
             "source": "lalinspiral",
@@ -23584,10 +23174,6 @@
           },
           {
             "source": "lalmetaio",
-            "target": "pygwb"
-          },
-          {
-            "source": "lalmetaio",
             "target": "rapid-pe"
           },
           {
@@ -23616,19 +23202,11 @@
           },
           {
             "source": "lalpulsar",
-            "target": "pygwb"
-          },
-          {
-            "source": "lalpulsar",
             "target": "rapid-pe"
           },
           {
             "source": "lalpulsar",
             "target": "rift"
-          },
-          {
-            "source": "lal",
-            "target": "pygwb"
           },
           {
             "source": "lal",
@@ -23709,10 +23287,6 @@
           {
             "source": "lalsimulation",
             "target": "pycbc"
-          },
-          {
-            "source": "lalsimulation",
-            "target": "pygwb"
           },
           {
             "source": "lalsimulation",
@@ -23821,10 +23395,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "beakerx"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "caiman"
           },
           {
             "source": "lazy-object-proxy",
@@ -23961,10 +23531,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "pnab"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "pycontrails"
           },
           {
             "source": "lazy-object-proxy",
@@ -25028,10 +24594,6 @@
           },
           {
             "source": "lxml",
-            "target": "mypy"
-          },
-          {
-            "source": "lxml",
             "target": "napari-nd-annotator"
           },
           {
@@ -25081,10 +24643,6 @@
           {
             "source": "lxml",
             "target": "pyfixest"
-          },
-          {
-            "source": "lxml",
-            "target": "pygwb"
           },
           {
             "source": "lxml",
@@ -25688,19 +25246,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "markupsafe",
             "target": "brian2"
           },
           {
             "source": "markupsafe",
             "target": "buildpy"
-          },
-          {
-            "source": "markupsafe",
-            "target": "caiman"
           },
           {
             "source": "markupsafe",
@@ -25757,10 +25307,6 @@
           {
             "source": "markupsafe",
             "target": "cmac"
-          },
-          {
-            "source": "markupsafe",
-            "target": "coal"
           },
           {
             "source": "markupsafe",
@@ -26452,10 +25998,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "pycontrails"
-          },
-          {
-            "source": "markupsafe",
             "target": "pycuda"
           },
           {
@@ -26469,10 +26011,6 @@
           {
             "source": "markupsafe",
             "target": "pygnome"
-          },
-          {
-            "source": "markupsafe",
-            "target": "pygwb"
           },
           {
             "source": "markupsafe",
@@ -27224,10 +26762,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "caiman"
-          },
-          {
-            "source": "matplotlib",
             "target": "carputils"
           },
           {
@@ -27237,10 +26771,6 @@
           {
             "source": "matplotlib",
             "target": "catboost"
-          },
-          {
-            "source": "matplotlib",
-            "target": "causalml"
           },
           {
             "source": "matplotlib",
@@ -27940,10 +27470,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "mikeio"
-          },
-          {
-            "source": "matplotlib",
             "target": "mir-flare"
           },
           {
@@ -28025,10 +27551,6 @@
           {
             "source": "matplotlib",
             "target": "neworder"
-          },
-          {
-            "source": "matplotlib",
-            "target": "nipy"
           },
           {
             "source": "matplotlib",
@@ -28312,10 +27834,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "pycontrails"
-          },
-          {
-            "source": "matplotlib",
             "target": "pycraf"
           },
           {
@@ -28360,15 +27878,7 @@
           },
           {
             "source": "matplotlib",
-            "target": "pygridgen"
-          },
-          {
-            "source": "matplotlib",
             "target": "pygsti"
-          },
-          {
-            "source": "matplotlib",
-            "target": "pygwb"
           },
           {
             "source": "matplotlib",
@@ -29459,10 +28969,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "mikeio",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "mim-solvers",
             "target": "conda-forge-pinning"
           },
@@ -29537,10 +29043,6 @@
           {
             "source": "ml_dtypes",
             "target": "cached_interpolate"
-          },
-          {
-            "source": "ml_dtypes",
-            "target": "caiman"
           },
           {
             "source": "ml_dtypes",
@@ -30208,10 +29710,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "msgpack-python",
             "target": "cad-to-openmc"
           },
           {
@@ -30736,10 +30234,6 @@
           },
           {
             "source": "msgspec",
-            "target": "caiman"
-          },
-          {
-            "source": "msgspec",
             "target": "candlewick"
           },
           {
@@ -30821,10 +30315,6 @@
           {
             "source": "msgspec",
             "target": "plaid"
-          },
-          {
-            "source": "msgspec",
-            "target": "pycontrails"
           },
           {
             "source": "msgspec",
@@ -31024,10 +30514,6 @@
           },
           {
             "source": "multidict",
-            "target": "pycontrails"
-          },
-          {
-            "source": "multidict",
             "target": "raider"
           },
           {
@@ -31085,10 +30571,6 @@
           {
             "source": "multiprocess",
             "target": "batman"
-          },
-          {
-            "source": "multiprocess",
-            "target": "causalml"
           },
           {
             "source": "multiprocess",
@@ -31225,370 +30707,6 @@
           {
             "source": "mwparserfromhell",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "mypy",
-            "target": "aihwkit-gpu"
-          },
-          {
-            "source": "mypy",
-            "target": "aiida-crystal17"
-          },
-          {
-            "source": "mypy",
-            "target": "allennlp"
-          },
-          {
-            "source": "mypy",
-            "target": "alphacsc"
-          },
-          {
-            "source": "mypy",
-            "target": "aria-tools"
-          },
-          {
-            "source": "mypy",
-            "target": "asapdiscovery"
-          },
-          {
-            "source": "mypy",
-            "target": "ase2sprkkr"
-          },
-          {
-            "source": "mypy",
-            "target": "beakerx"
-          },
-          {
-            "source": "mypy",
-            "target": "caiman"
-          },
-          {
-            "source": "mypy",
-            "target": "catboost"
-          },
-          {
-            "source": "mypy",
-            "target": "cellpy"
-          },
-          {
-            "source": "mypy",
-            "target": "chardet"
-          },
-          {
-            "source": "mypy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "mypy",
-            "target": "copc-lib"
-          },
-          {
-            "source": "mypy",
-            "target": "coredis"
-          },
-          {
-            "source": "mypy",
-            "target": "cwltool"
-          },
-          {
-            "source": "mypy",
-            "target": "cylc"
-          },
-          {
-            "source": "mypy",
-            "target": "dgpsi"
-          },
-          {
-            "source": "mypy",
-            "target": "doconce"
-          },
-          {
-            "source": "mypy",
-            "target": "eelbrain"
-          },
-          {
-            "source": "mypy",
-            "target": "egal"
-          },
-          {
-            "source": "mypy",
-            "target": "endstate_correction"
-          },
-          {
-            "source": "mypy",
-            "target": "euklid"
-          },
-          {
-            "source": "mypy",
-            "target": "fastar"
-          },
-          {
-            "source": "mypy",
-            "target": "fatiando"
-          },
-          {
-            "source": "mypy",
-            "target": "fqe"
-          },
-          {
-            "source": "mypy",
-            "target": "gbs"
-          },
-          {
-            "source": "mypy",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "mypy",
-            "target": "grouper"
-          },
-          {
-            "source": "mypy",
-            "target": "hide_code"
-          },
-          {
-            "source": "mypy",
-            "target": "ijava"
-          },
-          {
-            "source": "mypy",
-            "target": "ipywe"
-          },
-          {
-            "source": "mypy",
-            "target": "itkwidgets"
-          },
-          {
-            "source": "mypy",
-            "target": "jscatter"
-          },
-          {
-            "source": "mypy",
-            "target": "jupyter-hdfscm"
-          },
-          {
-            "source": "mypy",
-            "target": "jupyter_cms"
-          },
-          {
-            "source": "mypy",
-            "target": "jupyter_dashboards"
-          },
-          {
-            "source": "mypy",
-            "target": "jupyterhub-systemdspawner"
-          },
-          {
-            "source": "mypy",
-            "target": "jupyterhub-yarnspawner"
-          },
-          {
-            "source": "mypy",
-            "target": "mamba"
-          },
-          {
-            "source": "mypy",
-            "target": "mhkit"
-          },
-          {
-            "source": "mypy",
-            "target": "mini-racer"
-          },
-          {
-            "source": "mypy",
-            "target": "molsimplify"
-          },
-          {
-            "source": "mypy",
-            "target": "nb_anacondacloud"
-          },
-          {
-            "source": "mypy",
-            "target": "nb_cron"
-          },
-          {
-            "source": "mypy",
-            "target": "nest-simulator"
-          },
-          {
-            "source": "mypy",
-            "target": "networkit"
-          },
-          {
-            "source": "mypy",
-            "target": "openllm-playground"
-          },
-          {
-            "source": "mypy",
-            "target": "orjson"
-          },
-          {
-            "source": "mypy",
-            "target": "oso"
-          },
-          {
-            "source": "mypy",
-            "target": "oxigraph"
-          },
-          {
-            "source": "mypy",
-            "target": "pandas-plink"
-          },
-          {
-            "source": "mypy",
-            "target": "paraprobe"
-          },
-          {
-            "source": "mypy",
-            "target": "pdata"
-          },
-          {
-            "source": "mypy",
-            "target": "pnab"
-          },
-          {
-            "source": "mypy",
-            "target": "pycontrails"
-          },
-          {
-            "source": "mypy",
-            "target": "pyjelly"
-          },
-          {
-            "source": "mypy",
-            "target": "pyodesys"
-          },
-          {
-            "source": "mypy",
-            "target": "pyshtools"
-          },
-          {
-            "source": "mypy",
-            "target": "pytokens"
-          },
-          {
-            "source": "mypy",
-            "target": "pywim"
-          },
-          {
-            "source": "mypy",
-            "target": "pywr"
-          },
-          {
-            "source": "mypy",
-            "target": "quantlab"
-          },
-          {
-            "source": "mypy",
-            "target": "roboticstoolbox-python"
-          },
-          {
-            "source": "mypy",
-            "target": "root"
-          },
-          {
-            "source": "mypy",
-            "target": "sage"
-          },
-          {
-            "source": "mypy",
-            "target": "sagelib"
-          },
-          {
-            "source": "mypy",
-            "target": "schema-salad"
-          },
-          {
-            "source": "mypy",
-            "target": "sherlockml-dataclean"
-          },
-          {
-            "source": "mypy",
-            "target": "sleepecg"
-          },
-          {
-            "source": "mypy",
-            "target": "ssh-ipykernel"
-          },
-          {
-            "source": "mypy",
-            "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "mypy",
-            "target": "stackvana-core"
-          },
-          {
-            "source": "mypy",
-            "target": "strongtyping"
-          },
-          {
-            "source": "mypy",
-            "target": "tardis-sn"
-          },
-          {
-            "source": "mypy",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "mypy",
-            "target": "tmtk"
-          },
-          {
-            "source": "mypy",
-            "target": "tyssue"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-local-depth-cache"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "mypy",
-            "target": "vega"
-          },
-          {
-            "source": "mypy",
-            "target": "visp"
-          },
-          {
-            "source": "mypy",
-            "target": "vpython"
-          },
-          {
-            "source": "mypy",
-            "target": "wisdem"
-          },
-          {
-            "source": "mypy",
-            "target": "xeus-robot"
-          },
-          {
-            "source": "mypy",
-            "target": "xeus-robot-static"
-          },
-          {
-            "source": "mypy",
-            "target": "xorjson"
-          },
-          {
-            "source": "mypy",
-            "target": "xraylarch"
           },
           {
             "source": "mysql-connector-python",
@@ -32068,10 +31186,6 @@
           },
           {
             "source": "netcdf4",
-            "target": "pycontrails"
-          },
-          {
-            "source": "netcdf4",
             "target": "pycovjson"
           },
           {
@@ -32309,14 +31423,6 @@
           {
             "source": "nionui-tool",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nipy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nipy",
-            "target": "pyhrf"
           },
           {
             "source": "njoy2016",
@@ -32972,10 +32078,6 @@
           },
           {
             "source": "numcodecs",
-            "target": "caiman"
-          },
-          {
-            "source": "numcodecs",
             "target": "cf-python"
           },
           {
@@ -33057,10 +32159,6 @@
           {
             "source": "numcodecs",
             "target": "plaid"
-          },
-          {
-            "source": "numcodecs",
-            "target": "pycontrails"
           },
           {
             "source": "numcodecs",
@@ -33397,10 +32495,6 @@
           {
             "source": "numpy",
             "target": "allensdk"
-          },
-          {
-            "source": "numpy",
-            "target": "alm"
           },
           {
             "source": "numpy",
@@ -33872,10 +32966,6 @@
           },
           {
             "source": "numpy",
-            "target": "caiman"
-          },
-          {
-            "source": "numpy",
             "target": "camb"
           },
           {
@@ -33925,10 +33015,6 @@
           {
             "source": "numpy",
             "target": "catsmoothing"
-          },
-          {
-            "source": "numpy",
-            "target": "causalml"
           },
           {
             "source": "numpy",
@@ -34108,10 +33194,6 @@
           },
           {
             "source": "numpy",
-            "target": "coal"
-          },
-          {
-            "source": "numpy",
             "target": "coda"
           },
           {
@@ -34220,10 +33302,6 @@
           },
           {
             "source": "numpy",
-            "target": "cosmolopy"
-          },
-          {
-            "source": "numpy",
             "target": "cosmosis"
           },
           {
@@ -34285,10 +33363,6 @@
           {
             "source": "numpy",
             "target": "ctc-segmentation"
-          },
-          {
-            "source": "numpy",
-            "target": "cuda-python"
           },
           {
             "source": "numpy",
@@ -34921,10 +33995,6 @@
           {
             "source": "numpy",
             "target": "ezc3d"
-          },
-          {
-            "source": "numpy",
-            "target": "ezdxf"
           },
           {
             "source": "numpy",
@@ -35720,11 +34790,19 @@
           },
           {
             "source": "numpy",
+            "target": "hpp-corbaserver"
+          },
+          {
+            "source": "numpy",
             "target": "hpp-environments"
           },
           {
             "source": "numpy",
             "target": "hpp-gepetto-viewer"
+          },
+          {
+            "source": "numpy",
+            "target": "hpp-gui"
           },
           {
             "source": "numpy",
@@ -35893,10 +34971,6 @@
           {
             "source": "numpy",
             "target": "isitgr"
-          },
-          {
-            "source": "numpy",
-            "target": "isosplit6"
           },
           {
             "source": "numpy",
@@ -36500,10 +35574,6 @@
           },
           {
             "source": "numpy",
-            "target": "mikeio"
-          },
-          {
-            "source": "numpy",
             "target": "mim-solvers"
           },
           {
@@ -36825,10 +35895,6 @@
           {
             "source": "numpy",
             "target": "nionui-tool"
-          },
-          {
-            "source": "numpy",
-            "target": "nipy"
           },
           {
             "source": "numpy",
@@ -37356,10 +36422,6 @@
           },
           {
             "source": "numpy",
-            "target": "piqs"
-          },
-          {
-            "source": "numpy",
             "target": "pixell"
           },
           {
@@ -37700,10 +36762,6 @@
           },
           {
             "source": "numpy",
-            "target": "pycontrails"
-          },
-          {
-            "source": "numpy",
             "target": "pycovjson"
           },
           {
@@ -37924,10 +36982,6 @@
           },
           {
             "source": "numpy",
-            "target": "pygridgen"
-          },
-          {
-            "source": "numpy",
             "target": "pygsl"
           },
           {
@@ -37945,10 +36999,6 @@
           {
             "source": "numpy",
             "target": "pygtide"
-          },
-          {
-            "source": "numpy",
-            "target": "pygwb"
           },
           {
             "source": "numpy",
@@ -38385,6 +37435,10 @@
           {
             "source": "numpy",
             "target": "pyscipopt"
+          },
+          {
+            "source": "numpy",
+            "target": "pysdf"
           },
           {
             "source": "numpy",
@@ -39345,10 +38399,6 @@
           {
             "source": "numpy",
             "target": "smt"
-          },
-          {
-            "source": "numpy",
-            "target": "snaphu"
           },
           {
             "source": "numpy",
@@ -40472,15 +39522,15 @@
           },
           {
             "source": "omniorb",
+            "target": "hpp-gepetto-viewer"
+          },
+          {
+            "source": "omniorb",
             "target": "hpp-gui"
           },
           {
             "source": "omniorb",
             "target": "hpp-manipulation-corba"
-          },
-          {
-            "source": "omniorb",
-            "target": "hpp-template-corba"
           },
           {
             "source": "omniorb",
@@ -40656,10 +39706,6 @@
           },
           {
             "source": "opencv",
-            "target": "caiman"
-          },
-          {
-            "source": "opencv",
             "target": "cherab-nagdis"
           },
           {
@@ -40757,10 +39803,6 @@
           {
             "source": "opencv",
             "target": "pycontour"
-          },
-          {
-            "source": "opencv",
-            "target": "pycontrails"
           },
           {
             "source": "opencv",
@@ -41264,10 +40306,6 @@
           },
           {
             "source": "optree",
-            "target": "caiman"
-          },
-          {
-            "source": "optree",
             "target": "conda-forge-pinning"
           },
           {
@@ -41349,150 +40387,6 @@
           {
             "source": "orekit",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "orjson",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "orjson",
-            "target": "aria-tools"
-          },
-          {
-            "source": "orjson",
-            "target": "atom-ml"
-          },
-          {
-            "source": "orjson",
-            "target": "autogluon.vision"
-          },
-          {
-            "source": "orjson",
-            "target": "checkov"
-          },
-          {
-            "source": "orjson",
-            "target": "chromadb"
-          },
-          {
-            "source": "orjson",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "orjson",
-            "target": "csxtools"
-          },
-          {
-            "source": "orjson",
-            "target": "cwltool"
-          },
-          {
-            "source": "orjson",
-            "target": "dau-driver"
-          },
-          {
-            "source": "orjson",
-            "target": "doebase"
-          },
-          {
-            "source": "orjson",
-            "target": "geowombat"
-          },
-          {
-            "source": "orjson",
-            "target": "hklpy"
-          },
-          {
-            "source": "orjson",
-            "target": "kaolin"
-          },
-          {
-            "source": "orjson",
-            "target": "lm_eval"
-          },
-          {
-            "source": "orjson",
-            "target": "mattersim"
-          },
-          {
-            "source": "orjson",
-            "target": "metadata-crawler"
-          },
-          {
-            "source": "orjson",
-            "target": "mget3"
-          },
-          {
-            "source": "orjson",
-            "target": "nbproject"
-          },
-          {
-            "source": "orjson",
-            "target": "nomad-camels"
-          },
-          {
-            "source": "orjson",
-            "target": "pandas-plink"
-          },
-          {
-            "source": "orjson",
-            "target": "paraprobe"
-          },
-          {
-            "source": "orjson",
-            "target": "provstore-api"
-          },
-          {
-            "source": "orjson",
-            "target": "pyb2d3"
-          },
-          {
-            "source": "orjson",
-            "target": "pyjelly"
-          },
-          {
-            "source": "orjson",
-            "target": "pymatgen-core"
-          },
-          {
-            "source": "orjson",
-            "target": "pymseed"
-          },
-          {
-            "source": "orjson",
-            "target": "reasonable"
-          },
-          {
-            "source": "orjson",
-            "target": "robyn"
-          },
-          {
-            "source": "orjson",
-            "target": "schema-salad"
-          },
-          {
-            "source": "orjson",
-            "target": "smt"
-          },
-          {
-            "source": "orjson",
-            "target": "unicorn-binance-local-depth-cache"
-          },
-          {
-            "source": "orjson",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "orjson",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "orjson",
-            "target": "viztracer"
-          },
-          {
-            "source": "orjson",
-            "target": "xraylarch"
           },
           {
             "source": "ormar-utils",
@@ -41852,10 +40746,6 @@
           },
           {
             "source": "pandas",
-            "target": "caiman"
-          },
-          {
-            "source": "pandas",
             "target": "capytaine"
           },
           {
@@ -41865,10 +40755,6 @@
           {
             "source": "pandas",
             "target": "catboost"
-          },
-          {
-            "source": "pandas",
-            "target": "causalml"
           },
           {
             "source": "pandas",
@@ -42384,10 +41270,6 @@
           },
           {
             "source": "pandas",
-            "target": "mikeio"
-          },
-          {
-            "source": "pandas",
             "target": "mlinsights"
           },
           {
@@ -42656,10 +41538,6 @@
           },
           {
             "source": "pandas",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pandas",
             "target": "pycovjson"
           },
           {
@@ -42705,10 +41583,6 @@
           {
             "source": "pandas",
             "target": "pygtide"
-          },
-          {
-            "source": "pandas",
-            "target": "pygwb"
           },
           {
             "source": "pandas",
@@ -43884,10 +42758,6 @@
           },
           {
             "source": "pillow",
-            "target": "caiman"
-          },
-          {
-            "source": "pillow",
             "target": "cctbx-base"
           },
           {
@@ -44468,15 +43338,7 @@
           },
           {
             "source": "pillow",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pillow",
             "target": "pygacode"
-          },
-          {
-            "source": "pillow",
-            "target": "pygwb"
           },
           {
             "source": "pillow",
@@ -44961,18 +43823,6 @@
           {
             "source": "piqp",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "piqs",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pivy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pivy",
-            "target": "freecad"
           },
           {
             "source": "pixell",
@@ -45680,10 +44530,6 @@
           },
           {
             "source": "protobuf",
-            "target": "pycontrails"
-          },
-          {
-            "source": "protobuf",
             "target": "pyjelly"
           },
           {
@@ -45924,6 +44770,10 @@
           },
           {
             "source": "psutil",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "psutil",
             "target": "aiida-crystal17"
           },
           {
@@ -46068,10 +44918,6 @@
           },
           {
             "source": "psutil",
-            "target": "caiman"
-          },
-          {
-            "source": "psutil",
             "target": "capytaine"
           },
           {
@@ -46097,6 +44943,10 @@
           {
             "source": "psutil",
             "target": "cfdm"
+          },
+          {
+            "source": "psutil",
+            "target": "chardet"
           },
           {
             "source": "psutil",
@@ -46156,7 +45006,15 @@
           },
           {
             "source": "psutil",
+            "target": "copc-lib"
+          },
+          {
+            "source": "psutil",
             "target": "coq-jupyter"
+          },
+          {
+            "source": "psutil",
+            "target": "coredis"
           },
           {
             "source": "psutil",
@@ -46301,6 +45159,10 @@
           {
             "source": "psutil",
             "target": "esptool"
+          },
+          {
+            "source": "psutil",
+            "target": "euklid"
           },
           {
             "source": "psutil",
@@ -46612,6 +45474,10 @@
           },
           {
             "source": "psutil",
+            "target": "mamba"
+          },
+          {
+            "source": "psutil",
             "target": "mamba-ssm"
           },
           {
@@ -46649,6 +45515,10 @@
           {
             "source": "psutil",
             "target": "mhkit"
+          },
+          {
+            "source": "psutil",
+            "target": "mini-racer"
           },
           {
             "source": "psutil",
@@ -46697,10 +45567,6 @@
           {
             "source": "psutil",
             "target": "muscat-split"
-          },
-          {
-            "source": "psutil",
-            "target": "mypy"
           },
           {
             "source": "psutil",
@@ -46829,6 +45695,10 @@
           {
             "source": "psutil",
             "target": "ormdantic"
+          },
+          {
+            "source": "psutil",
+            "target": "oso"
           },
           {
             "source": "psutil",
@@ -46984,15 +45854,7 @@
           },
           {
             "source": "psutil",
-            "target": "pycontrails"
-          },
-          {
-            "source": "psutil",
             "target": "pycrdt"
-          },
-          {
-            "source": "psutil",
-            "target": "pycryptodomex"
           },
           {
             "source": "psutil",
@@ -47137,6 +45999,10 @@
           {
             "source": "psutil",
             "target": "python-symengine"
+          },
+          {
+            "source": "psutil",
+            "target": "pytokens"
           },
           {
             "source": "psutil",
@@ -47384,6 +46250,10 @@
           },
           {
             "source": "psutil",
+            "target": "strongtyping"
+          },
+          {
+            "source": "psutil",
             "target": "structuralgt"
           },
           {
@@ -47504,7 +46374,23 @@
           },
           {
             "source": "psutil",
+            "target": "unicorn-binance-local-depth-cache"
+          },
+          {
+            "source": "psutil",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "psutil",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "psutil",
             "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "psutil",
+            "target": "unicorn-fy"
           },
           {
             "source": "psutil",
@@ -47525,6 +46411,10 @@
           {
             "source": "psutil",
             "target": "veloxchem"
+          },
+          {
+            "source": "psutil",
+            "target": "visp"
           },
           {
             "source": "psutil",
@@ -47593,6 +46483,10 @@
           {
             "source": "psutil",
             "target": "xlwings"
+          },
+          {
+            "source": "psutil",
+            "target": "xorjson"
           },
           {
             "source": "psutil",
@@ -48085,10 +46979,6 @@
           {
             "source": "pyarrow",
             "target": "dau-driver"
-          },
-          {
-            "source": "pyarrow",
-            "target": "dora-rs-suite"
           },
           {
             "source": "pyarrow",
@@ -48644,10 +47534,6 @@
           },
           {
             "source": "pycbc",
-            "target": "pygwb"
-          },
-          {
-            "source": "pycbc",
             "target": "pyseobnr"
           },
           {
@@ -48803,10 +47689,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pycontrails",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pycosat",
             "target": "conda"
           },
@@ -48881,18 +47763,6 @@
           {
             "source": "pycryptodome",
             "target": "web3"
-          },
-          {
-            "source": "pycryptodomex",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pycryptodomex",
-            "target": "dandi"
-          },
-          {
-            "source": "pycryptodomex",
-            "target": "tinygrad"
           },
           {
             "source": "pycspade",
@@ -49025,10 +47895,6 @@
           {
             "source": "pydantic-core",
             "target": "bw2calc"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "caiman"
           },
           {
             "source": "pydantic-core",
@@ -49425,10 +48291,6 @@
           {
             "source": "pydantic-core",
             "target": "pyb2d"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "pycontrails"
           },
           {
             "source": "pydantic-core",
@@ -50151,10 +49013,6 @@
             "target": "uwsift"
           },
           {
-            "source": "pygridgen",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pygsl_lite",
             "target": "conda-forge-pinning"
           },
@@ -50184,10 +49042,6 @@
           },
           {
             "source": "pygubu",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pygwb",
             "target": "conda-forge-pinning"
           },
           {
@@ -50980,10 +49834,6 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "caiman"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "catboost"
           },
           {
@@ -51173,10 +50023,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "pyautogui"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "pycontrails"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -51600,10 +50446,6 @@
           },
           {
             "source": "pyogrio",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pyogrio",
             "target": "pygnome"
           },
           {
@@ -51872,10 +50714,6 @@
           },
           {
             "source": "pyproj",
-            "target": "mikeio"
-          },
-          {
-            "source": "pyproj",
             "target": "mpas_tools"
           },
           {
@@ -51916,10 +50754,6 @@
           },
           {
             "source": "pyproj",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pyproj",
             "target": "pycraf"
           },
           {
@@ -51929,10 +50763,6 @@
           {
             "source": "pyproj",
             "target": "pygrib"
-          },
-          {
-            "source": "pyproj",
-            "target": "pygridgen"
           },
           {
             "source": "pyproj",
@@ -52268,10 +51098,6 @@
           },
           {
             "source": "pyreadline3",
-            "target": "pygwb"
-          },
-          {
-            "source": "pyreadline3",
             "target": "stackvana-core"
           },
           {
@@ -52463,6 +51289,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pysdf",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pysdl2",
             "target": "aestream"
           },
@@ -52505,10 +51335,6 @@
           {
             "source": "pyside2",
             "target": "arcjetcv"
-          },
-          {
-            "source": "pyside2",
-            "target": "caiman"
           },
           {
             "source": "pyside2",
@@ -52979,10 +51805,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "python-annoy",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "python-augeas",
             "target": "conda-forge-pinning"
           },
@@ -53148,10 +51970,6 @@
           },
           {
             "source": "python-eccodes",
-            "target": "pycontrails"
-          },
-          {
-            "source": "python-eccodes",
             "target": "raider"
           },
           {
@@ -53265,10 +52083,6 @@
           {
             "source": "python-gssapi",
             "target": "pycbc"
-          },
-          {
-            "source": "python-gssapi",
-            "target": "pygwb"
           },
           {
             "source": "python-gssapi",
@@ -53388,11 +52202,271 @@
           },
           {
             "source": "python-librt",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "python-librt",
+            "target": "aiida-crystal17"
+          },
+          {
+            "source": "python-librt",
+            "target": "allennlp"
+          },
+          {
+            "source": "python-librt",
+            "target": "alphacsc"
+          },
+          {
+            "source": "python-librt",
+            "target": "aria-tools"
+          },
+          {
+            "source": "python-librt",
+            "target": "asapdiscovery"
+          },
+          {
+            "source": "python-librt",
+            "target": "ase2sprkkr"
+          },
+          {
+            "source": "python-librt",
+            "target": "beakerx"
+          },
+          {
+            "source": "python-librt",
+            "target": "catboost"
+          },
+          {
+            "source": "python-librt",
+            "target": "cellpy"
+          },
+          {
+            "source": "python-librt",
+            "target": "chardet"
+          },
+          {
+            "source": "python-librt",
             "target": "conda-forge-pinning"
           },
           {
             "source": "python-librt",
-            "target": "mypy"
+            "target": "copc-lib"
+          },
+          {
+            "source": "python-librt",
+            "target": "coredis"
+          },
+          {
+            "source": "python-librt",
+            "target": "cwltool"
+          },
+          {
+            "source": "python-librt",
+            "target": "cylc"
+          },
+          {
+            "source": "python-librt",
+            "target": "dgpsi"
+          },
+          {
+            "source": "python-librt",
+            "target": "doconce"
+          },
+          {
+            "source": "python-librt",
+            "target": "eelbrain"
+          },
+          {
+            "source": "python-librt",
+            "target": "egal"
+          },
+          {
+            "source": "python-librt",
+            "target": "endstate_correction"
+          },
+          {
+            "source": "python-librt",
+            "target": "euklid"
+          },
+          {
+            "source": "python-librt",
+            "target": "fastar"
+          },
+          {
+            "source": "python-librt",
+            "target": "fatiando"
+          },
+          {
+            "source": "python-librt",
+            "target": "fqe"
+          },
+          {
+            "source": "python-librt",
+            "target": "gbs"
+          },
+          {
+            "source": "python-librt",
+            "target": "graphormer-pretrained"
+          },
+          {
+            "source": "python-librt",
+            "target": "grouper"
+          },
+          {
+            "source": "python-librt",
+            "target": "hide_code"
+          },
+          {
+            "source": "python-librt",
+            "target": "ijava"
+          },
+          {
+            "source": "python-librt",
+            "target": "ipywe"
+          },
+          {
+            "source": "python-librt",
+            "target": "itkwidgets"
+          },
+          {
+            "source": "python-librt",
+            "target": "jscatter"
+          },
+          {
+            "source": "python-librt",
+            "target": "jupyter-hdfscm"
+          },
+          {
+            "source": "python-librt",
+            "target": "jupyter_cms"
+          },
+          {
+            "source": "python-librt",
+            "target": "jupyter_dashboards"
+          },
+          {
+            "source": "python-librt",
+            "target": "jupyterhub-systemdspawner"
+          },
+          {
+            "source": "python-librt",
+            "target": "jupyterhub-yarnspawner"
+          },
+          {
+            "source": "python-librt",
+            "target": "mamba"
+          },
+          {
+            "source": "python-librt",
+            "target": "mhkit"
+          },
+          {
+            "source": "python-librt",
+            "target": "mini-racer"
+          },
+          {
+            "source": "python-librt",
+            "target": "molsimplify"
+          },
+          {
+            "source": "python-librt",
+            "target": "nb_anacondacloud"
+          },
+          {
+            "source": "python-librt",
+            "target": "nb_cron"
+          },
+          {
+            "source": "python-librt",
+            "target": "nest-simulator"
+          },
+          {
+            "source": "python-librt",
+            "target": "networkit"
+          },
+          {
+            "source": "python-librt",
+            "target": "openllm-playground"
+          },
+          {
+            "source": "python-librt",
+            "target": "oso"
+          },
+          {
+            "source": "python-librt",
+            "target": "oxigraph"
+          },
+          {
+            "source": "python-librt",
+            "target": "pandas-plink"
+          },
+          {
+            "source": "python-librt",
+            "target": "paraprobe"
+          },
+          {
+            "source": "python-librt",
+            "target": "pdata"
+          },
+          {
+            "source": "python-librt",
+            "target": "pnab"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyjelly"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyodesys"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyshtools"
+          },
+          {
+            "source": "python-librt",
+            "target": "pytokens"
+          },
+          {
+            "source": "python-librt",
+            "target": "pywim"
+          },
+          {
+            "source": "python-librt",
+            "target": "pywr"
+          },
+          {
+            "source": "python-librt",
+            "target": "quantlab"
+          },
+          {
+            "source": "python-librt",
+            "target": "roboticstoolbox-python"
+          },
+          {
+            "source": "python-librt",
+            "target": "root"
+          },
+          {
+            "source": "python-librt",
+            "target": "sage"
+          },
+          {
+            "source": "python-librt",
+            "target": "sagelib"
+          },
+          {
+            "source": "python-librt",
+            "target": "schema-salad"
+          },
+          {
+            "source": "python-librt",
+            "target": "sherlockml-dataclean"
+          },
+          {
+            "source": "python-librt",
+            "target": "sleepecg"
           },
           {
             "source": "python-librt",
@@ -53400,7 +52474,87 @@
           },
           {
             "source": "python-librt",
+            "target": "ssh-ipykernel"
+          },
+          {
+            "source": "python-librt",
+            "target": "ssh_ipykernel_interrupt"
+          },
+          {
+            "source": "python-librt",
+            "target": "stackvana-core"
+          },
+          {
+            "source": "python-librt",
             "target": "strongtyping"
+          },
+          {
+            "source": "python-librt",
+            "target": "tardis-sn"
+          },
+          {
+            "source": "python-librt",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "python-librt",
+            "target": "tmtk"
+          },
+          {
+            "source": "python-librt",
+            "target": "tyssue"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-local-depth-cache"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "python-librt",
+            "target": "vega"
+          },
+          {
+            "source": "python-librt",
+            "target": "visp"
+          },
+          {
+            "source": "python-librt",
+            "target": "vpython"
+          },
+          {
+            "source": "python-librt",
+            "target": "wisdem"
+          },
+          {
+            "source": "python-librt",
+            "target": "xeus-robot"
+          },
+          {
+            "source": "python-librt",
+            "target": "xeus-robot-static"
+          },
+          {
+            "source": "python-librt",
+            "target": "xorjson"
+          },
+          {
+            "source": "python-librt",
+            "target": "xraylarch"
           },
           {
             "source": "python-libsbml-experimental",
@@ -54080,10 +53234,6 @@
           },
           {
             "source": "pytokens",
-            "target": "caiman"
-          },
-          {
-            "source": "pytokens",
             "target": "catboost"
           },
           {
@@ -54237,10 +53387,6 @@
           {
             "source": "pytokens",
             "target": "pnab"
-          },
-          {
-            "source": "pytokens",
-            "target": "pycontrails"
           },
           {
             "source": "pytokens",
@@ -54413,10 +53559,6 @@
           {
             "source": "pytorch-cpu",
             "target": "cached_interpolate"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "caiman"
           },
           {
             "source": "pytorch-cpu",
@@ -55276,10 +54418,6 @@
           },
           {
             "source": "pywin32",
-            "target": "caiman"
-          },
-          {
-            "source": "pywin32",
             "target": "cantera"
           },
           {
@@ -55600,10 +54738,6 @@
           },
           {
             "source": "pywin32",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pywin32",
             "target": "pygmo"
           },
           {
@@ -55884,10 +55018,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "caiman"
-          },
-          {
-            "source": "pywinpty",
             "target": "catboost"
           },
           {
@@ -56025,10 +55155,6 @@
           {
             "source": "pywinpty",
             "target": "pnab"
-          },
-          {
-            "source": "pywinpty",
-            "target": "pycontrails"
           },
           {
             "source": "pywinpty",
@@ -56320,10 +55446,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "caiman"
-          },
-          {
-            "source": "pyyaml",
             "target": "catboost"
           },
           {
@@ -56513,10 +55635,6 @@
           {
             "source": "pyyaml",
             "target": "doconce"
-          },
-          {
-            "source": "pyyaml",
-            "target": "dora-rs-suite"
           },
           {
             "source": "pyyaml",
@@ -56980,10 +56098,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "mikeio"
-          },
-          {
-            "source": "pyyaml",
             "target": "mir-flare"
           },
           {
@@ -57268,10 +56382,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "pycontrails"
-          },
-          {
-            "source": "pyyaml",
             "target": "pycrdt"
           },
           {
@@ -57301,10 +56411,6 @@
           {
             "source": "pyyaml",
             "target": "pygetm"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pygwb"
           },
           {
             "source": "pyyaml",
@@ -58004,10 +57110,6 @@
           },
           {
             "source": "pyzmq",
-            "target": "caiman"
-          },
-          {
-            "source": "pyzmq",
             "target": "candlewick"
           },
           {
@@ -58265,10 +57367,6 @@
           {
             "source": "pyzmq",
             "target": "psyplot-gui"
-          },
-          {
-            "source": "pyzmq",
-            "target": "pycontrails"
           },
           {
             "source": "pyzmq",
@@ -58615,10 +57713,6 @@
             "target": "muspinsim"
           },
           {
-            "source": "qutip",
-            "target": "piqs"
-          },
-          {
             "source": "radarx",
             "target": "conda-forge-pinning"
           },
@@ -58853,10 +57947,6 @@
           {
             "source": "rasterio",
             "target": "polymer"
-          },
-          {
-            "source": "rasterio",
-            "target": "pycontrails"
           },
           {
             "source": "rasterio",
@@ -59301,10 +58391,6 @@
           {
             "source": "regex",
             "target": "pygnome"
-          },
-          {
-            "source": "regex",
-            "target": "pygwb"
           },
           {
             "source": "regex",
@@ -59760,10 +58846,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "caiman"
-          },
-          {
-            "source": "rpds-py",
             "target": "catboost"
           },
           {
@@ -60104,10 +59186,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "pycontrails"
-          },
-          {
-            "source": "rpds-py",
             "target": "pygypsy"
           },
           {
@@ -60416,10 +59494,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "caiman"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "cantera"
           },
           {
@@ -60641,10 +59715,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "pnab"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "pycontrails"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -61316,15 +60386,7 @@
           },
           {
             "source": "scikit-learn",
-            "target": "caiman"
-          },
-          {
-            "source": "scikit-learn",
             "target": "catboost"
-          },
-          {
-            "source": "scikit-learn",
-            "target": "causalml"
           },
           {
             "source": "scikit-learn",
@@ -61704,15 +60766,7 @@
           },
           {
             "source": "scikit-learn",
-            "target": "pycontrails"
-          },
-          {
-            "source": "scikit-learn",
             "target": "pygnome"
-          },
-          {
-            "source": "scikit-learn",
-            "target": "pygwb"
           },
           {
             "source": "scikit-learn",
@@ -62428,10 +61482,6 @@
           },
           {
             "source": "scipy",
-            "target": "caiman"
-          },
-          {
-            "source": "scipy",
             "target": "camb"
           },
           {
@@ -62449,10 +61499,6 @@
           {
             "source": "scipy",
             "target": "catboost"
-          },
-          {
-            "source": "scipy",
-            "target": "causalml"
           },
           {
             "source": "scipy",
@@ -62581,10 +61627,6 @@
           {
             "source": "scipy",
             "target": "cosmic_profiles"
-          },
-          {
-            "source": "scipy",
-            "target": "cosmolopy"
           },
           {
             "source": "scipy",
@@ -63033,10 +62075,6 @@
           {
             "source": "scipy",
             "target": "geohexviz"
-          },
-          {
-            "source": "scipy",
-            "target": "george"
           },
           {
             "source": "scipy",
@@ -63588,10 +62626,6 @@
           },
           {
             "source": "scipy",
-            "target": "mikeio"
-          },
-          {
-            "source": "scipy",
             "target": "minorminer"
           },
           {
@@ -63749,10 +62783,6 @@
           {
             "source": "scipy",
             "target": "nionui-tool"
-          },
-          {
-            "source": "scipy",
-            "target": "nipy"
           },
           {
             "source": "scipy",
@@ -63968,10 +62998,6 @@
           },
           {
             "source": "scipy",
-            "target": "piqs"
-          },
-          {
-            "source": "scipy",
             "target": "pixell"
           },
           {
@@ -64140,10 +63166,6 @@
           },
           {
             "source": "scipy",
-            "target": "pycontrails"
-          },
-          {
-            "source": "scipy",
             "target": "pycraf"
           },
           {
@@ -64217,10 +63239,6 @@
           {
             "source": "scipy",
             "target": "pygsti"
-          },
-          {
-            "source": "scipy",
-            "target": "pygwb"
           },
           {
             "source": "scipy",
@@ -65632,10 +64650,6 @@
           },
           {
             "source": "shap",
-            "target": "causalml"
-          },
-          {
-            "source": "shap",
             "target": "conda-forge-pinning"
           },
           {
@@ -65800,10 +64814,6 @@
           },
           {
             "source": "shapely",
-            "target": "mikeio"
-          },
-          {
-            "source": "shapely",
             "target": "mpas_tools"
           },
           {
@@ -65845,10 +64855,6 @@
           {
             "source": "shapely",
             "target": "pycontour"
-          },
-          {
-            "source": "shapely",
-            "target": "pycontrails"
           },
           {
             "source": "shapely",
@@ -66391,10 +65397,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "snaphu",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "sncosmo",
             "target": "bbf"
           },
@@ -66769,10 +65771,6 @@
           {
             "source": "spglib",
             "target": "alamode"
-          },
-          {
-            "source": "spglib",
-            "target": "alm"
           },
           {
             "source": "spglib",
@@ -67308,10 +66306,6 @@
           },
           {
             "source": "statsmodels",
-            "target": "causalml"
-          },
-          {
-            "source": "statsmodels",
             "target": "celer"
           },
           {
@@ -67445,10 +66439,6 @@
           {
             "source": "statsmodels",
             "target": "pyfixest"
-          },
-          {
-            "source": "statsmodels",
-            "target": "pygwb"
           },
           {
             "source": "statsmodels",
@@ -67860,10 +66850,6 @@
           },
           {
             "source": "tbb",
-            "target": "Iris-Codec"
-          },
-          {
-            "source": "tbb",
             "target": "abess"
           },
           {
@@ -68037,10 +67023,6 @@
           {
             "source": "tbb",
             "target": "allensdk"
-          },
-          {
-            "source": "tbb",
-            "target": "alm"
           },
           {
             "source": "tbb",
@@ -68297,10 +67279,6 @@
           {
             "source": "tbb",
             "target": "atari_py"
-          },
-          {
-            "source": "tbb",
-            "target": "atheris"
           },
           {
             "source": "tbb",
@@ -68712,15 +67690,7 @@
           },
           {
             "source": "tbb",
-            "target": "bowtie-py"
-          },
-          {
-            "source": "tbb",
             "target": "box2d-py"
-          },
-          {
-            "source": "tbb",
-            "target": "bpython"
           },
           {
             "source": "tbb",
@@ -68832,10 +67802,6 @@
           },
           {
             "source": "tbb",
-            "target": "caiman"
-          },
-          {
-            "source": "tbb",
             "target": "caio"
           },
           {
@@ -68909,10 +67875,6 @@
           {
             "source": "tbb",
             "target": "causal-conv1d"
-          },
-          {
-            "source": "tbb",
-            "target": "causalml"
           },
           {
             "source": "tbb",
@@ -69240,10 +68202,6 @@
           },
           {
             "source": "tbb",
-            "target": "coal"
-          },
-          {
-            "source": "tbb",
             "target": "cobs-python"
           },
           {
@@ -69440,10 +68398,6 @@
           },
           {
             "source": "tbb",
-            "target": "cosmolopy"
-          },
-          {
-            "source": "tbb",
             "target": "cosmosis"
           },
           {
@@ -69613,10 +68567,6 @@
           {
             "source": "tbb",
             "target": "cuda-gdb"
-          },
-          {
-            "source": "tbb",
-            "target": "cuda-python"
           },
           {
             "source": "tbb",
@@ -70264,10 +69214,6 @@
           },
           {
             "source": "tbb",
-            "target": "dora-rs-suite"
-          },
-          {
-            "source": "tbb",
             "target": "doublemetaphone"
           },
           {
@@ -70748,10 +69694,6 @@
           },
           {
             "source": "tbb",
-            "target": "ezdxf"
-          },
-          {
-            "source": "tbb",
             "target": "f90wrap"
           },
           {
@@ -71148,10 +70090,6 @@
           },
           {
             "source": "tbb",
-            "target": "fmipp"
-          },
-          {
-            "source": "tbb",
             "target": "foam_ct_phantom"
           },
           {
@@ -71397,10 +70335,6 @@
           {
             "source": "tbb",
             "target": "geomodels"
-          },
-          {
-            "source": "tbb",
-            "target": "george"
           },
           {
             "source": "tbb",
@@ -72024,10 +70958,6 @@
           },
           {
             "source": "tbb",
-            "target": "hpp-template-corba"
-          },
-          {
-            "source": "tbb",
             "target": "htcondor"
           },
           {
@@ -72101,10 +71031,6 @@
           {
             "source": "tbb",
             "target": "icub-main"
-          },
-          {
-            "source": "tbb",
-            "target": "icub-models"
           },
           {
             "source": "tbb",
@@ -72305,10 +71231,6 @@
           {
             "source": "tbb",
             "target": "islpy"
-          },
-          {
-            "source": "tbb",
-            "target": "isosplit6"
           },
           {
             "source": "tbb",
@@ -73420,10 +72342,6 @@
           },
           {
             "source": "tbb",
-            "target": "mikeio"
-          },
-          {
-            "source": "tbb",
             "target": "mim-solvers"
           },
           {
@@ -73744,10 +72662,6 @@
           },
           {
             "source": "tbb",
-            "target": "mypy"
-          },
-          {
-            "source": "tbb",
             "target": "mysql-connector-python"
           },
           {
@@ -73957,10 +72871,6 @@
           {
             "source": "tbb",
             "target": "nionui-tool"
-          },
-          {
-            "source": "tbb",
-            "target": "nipy"
           },
           {
             "source": "tbb",
@@ -74468,10 +73378,6 @@
           },
           {
             "source": "tbb",
-            "target": "orjson"
-          },
-          {
-            "source": "tbb",
             "target": "ormar-utils"
           },
           {
@@ -74881,14 +73787,6 @@
           {
             "source": "tbb",
             "target": "piqp"
-          },
-          {
-            "source": "tbb",
-            "target": "piqs"
-          },
-          {
-            "source": "tbb",
-            "target": "pivy"
           },
           {
             "source": "tbb",
@@ -75568,10 +74466,6 @@
           },
           {
             "source": "tbb",
-            "target": "pycontrails"
-          },
-          {
-            "source": "tbb",
             "target": "pycosat"
           },
           {
@@ -75597,10 +74491,6 @@
           {
             "source": "tbb",
             "target": "pycryptodome"
-          },
-          {
-            "source": "tbb",
-            "target": "pycryptodomex"
           },
           {
             "source": "tbb",
@@ -75924,10 +74814,6 @@
           },
           {
             "source": "tbb",
-            "target": "pygridgen"
-          },
-          {
-            "source": "tbb",
             "target": "pygsl"
           },
           {
@@ -75949,10 +74835,6 @@
           {
             "source": "tbb",
             "target": "pygubu"
-          },
-          {
-            "source": "tbb",
-            "target": "pygwb"
           },
           {
             "source": "tbb",
@@ -76728,6 +75610,10 @@
           },
           {
             "source": "tbb",
+            "target": "pysdf"
+          },
+          {
+            "source": "tbb",
             "target": "pysdl2"
           },
           {
@@ -76901,10 +75787,6 @@
           {
             "source": "tbb",
             "target": "python-ace"
-          },
-          {
-            "source": "tbb",
-            "target": "python-annoy"
           },
           {
             "source": "tbb",
@@ -78537,10 +77419,6 @@
           {
             "source": "tbb",
             "target": "snakefood"
-          },
-          {
-            "source": "tbb",
-            "target": "snaphu"
           },
           {
             "source": "tbb",
@@ -81072,10 +79950,6 @@
           },
           {
             "source": "torchvision",
-            "target": "caiman"
-          },
-          {
-            "source": "torchvision",
             "target": "classy_vision"
           },
           {
@@ -81257,10 +80131,6 @@
           {
             "source": "tornado",
             "target": "buildpy"
-          },
-          {
-            "source": "tornado",
-            "target": "caiman"
           },
           {
             "source": "tornado",
@@ -81652,15 +80522,7 @@
           },
           {
             "source": "tornado",
-            "target": "pycontrails"
-          },
-          {
-            "source": "tornado",
             "target": "pygmo"
-          },
-          {
-            "source": "tornado",
-            "target": "pygwb"
           },
           {
             "source": "tornado",
@@ -82476,10 +81338,6 @@
           },
           {
             "source": "ujson",
-            "target": "caiman"
-          },
-          {
-            "source": "ujson",
             "target": "catboost"
           },
           {
@@ -82685,10 +81543,6 @@
           {
             "source": "ujson",
             "target": "py-rattler"
-          },
-          {
-            "source": "ujson",
-            "target": "pycontrails"
           },
           {
             "source": "ujson",
@@ -83732,10 +82586,6 @@
           },
           {
             "source": "watchdog",
-            "target": "bpython"
-          },
-          {
-            "source": "watchdog",
             "target": "compas_cgal"
           },
           {
@@ -84004,10 +82854,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "bpython"
-          },
-          {
-            "source": "wcwidth",
             "target": "btrack"
           },
           {
@@ -84021,10 +82867,6 @@
           {
             "source": "wcwidth",
             "target": "cad-to-openmc"
-          },
-          {
-            "source": "wcwidth",
-            "target": "caiman"
           },
           {
             "source": "wcwidth",
@@ -84741,10 +83583,6 @@
           {
             "source": "wcwidth",
             "target": "pycifrw"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pycontrails"
           },
           {
             "source": "wcwidth",
@@ -85821,10 +84659,6 @@
           {
             "source": "wrapt",
             "target": "pyart_mch"
-          },
-          {
-            "source": "wrapt",
-            "target": "pycontrails"
           },
           {
             "source": "wrapt",
@@ -87012,12 +85846,6 @@
             }
           },
           {
-            "id": "Iris-Codec",
-            "payload": {
-              "__lazy_json__": "node_attrs/Iris-Codec.json"
-            }
-          },
-          {
             "id": "abess",
             "payload": {
               "__lazy_json__": "node_attrs/abess.json"
@@ -87279,12 +86107,6 @@
             "id": "allensdk",
             "payload": {
               "__lazy_json__": "node_attrs/allensdk.json"
-            }
-          },
-          {
-            "id": "alm",
-            "payload": {
-              "__lazy_json__": "node_attrs/alm.json"
             }
           },
           {
@@ -87663,12 +86485,6 @@
             "id": "atari_py",
             "payload": {
               "__lazy_json__": "node_attrs/atari_py.json"
-            }
-          },
-          {
-            "id": "atheris",
-            "payload": {
-              "__lazy_json__": "node_attrs/atheris.json"
             }
           },
           {
@@ -88284,21 +87100,9 @@
             }
           },
           {
-            "id": "bowtie-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/bowtie-py.json"
-            }
-          },
-          {
             "id": "box2d-py",
             "payload": {
               "__lazy_json__": "node_attrs/box2d-py.json"
-            }
-          },
-          {
-            "id": "bpython",
-            "payload": {
-              "__lazy_json__": "node_attrs/bpython.json"
             }
           },
           {
@@ -88464,12 +87268,6 @@
             }
           },
           {
-            "id": "caiman",
-            "payload": {
-              "__lazy_json__": "node_attrs/caiman.json"
-            }
-          },
-          {
             "id": "caio",
             "payload": {
               "__lazy_json__": "node_attrs/caio.json"
@@ -88581,12 +87379,6 @@
             "id": "causal-conv1d",
             "payload": {
               "__lazy_json__": "node_attrs/causal-conv1d.json"
-            }
-          },
-          {
-            "id": "causalml",
-            "payload": {
-              "__lazy_json__": "node_attrs/causalml.json"
             }
           },
           {
@@ -89076,12 +87868,6 @@
             }
           },
           {
-            "id": "coal",
-            "payload": {
-              "__lazy_json__": "node_attrs/coal.json"
-            }
-          },
-          {
             "id": "cobs-python",
             "payload": {
               "__lazy_json__": "node_attrs/cobs-python.json"
@@ -89376,12 +88162,6 @@
             }
           },
           {
-            "id": "cosmolopy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cosmolopy.json"
-            }
-          },
-          {
             "id": "cosmosis",
             "payload": {
               "__lazy_json__": "node_attrs/cosmosis.json"
@@ -89637,12 +88417,6 @@
             "id": "cuda-gdb",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-gdb.json"
-            }
-          },
-          {
-            "id": "cuda-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -90594,12 +89368,6 @@
             }
           },
           {
-            "id": "dora-rs-suite",
-            "payload": {
-              "__lazy_json__": "node_attrs/dora-rs-suite.json"
-            }
-          },
-          {
             "id": "doublemetaphone",
             "payload": {
               "__lazy_json__": "node_attrs/doublemetaphone.json"
@@ -91314,12 +90082,6 @@
             }
           },
           {
-            "id": "ezdxf",
-            "payload": {
-              "__lazy_json__": "node_attrs/ezdxf.json"
-            }
-          },
-          {
             "id": "f90wrap",
             "payload": {
               "__lazy_json__": "node_attrs/f90wrap.json"
@@ -91914,12 +90676,6 @@
             }
           },
           {
-            "id": "fmipp",
-            "payload": {
-              "__lazy_json__": "node_attrs/fmipp.json"
-            }
-          },
-          {
             "id": "foam_ct_phantom",
             "payload": {
               "__lazy_json__": "node_attrs/foam_ct_phantom.json"
@@ -92283,12 +91039,6 @@
             "id": "geomodels",
             "payload": {
               "__lazy_json__": "node_attrs/geomodels.json"
-            }
-          },
-          {
-            "id": "george",
-            "payload": {
-              "__lazy_json__": "node_attrs/george.json"
             }
           },
           {
@@ -93210,12 +91960,6 @@
             }
           },
           {
-            "id": "hpp-template-corba",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpp-template-corba.json"
-            }
-          },
-          {
             "id": "htcondor",
             "payload": {
               "__lazy_json__": "node_attrs/htcondor.json"
@@ -93327,12 +92071,6 @@
             "id": "icub-main",
             "payload": {
               "__lazy_json__": "node_attrs/icub-main.json"
-            }
-          },
-          {
-            "id": "icub-models",
-            "payload": {
-              "__lazy_json__": "node_attrs/icub-models.json"
             }
           },
           {
@@ -93627,12 +92365,6 @@
             "id": "islpy",
             "payload": {
               "__lazy_json__": "node_attrs/islpy.json"
-            }
-          },
-          {
-            "id": "isosplit6",
-            "payload": {
-              "__lazy_json__": "node_attrs/isosplit6.json"
             }
           },
           {
@@ -95280,12 +94012,6 @@
             }
           },
           {
-            "id": "mikeio",
-            "payload": {
-              "__lazy_json__": "node_attrs/mikeio.json"
-            }
-          },
-          {
             "id": "mim-solvers",
             "payload": {
               "__lazy_json__": "node_attrs/mim-solvers.json"
@@ -95766,12 +94492,6 @@
             }
           },
           {
-            "id": "mypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/mypy.json"
-            }
-          },
-          {
             "id": "mysql-connector-python",
             "payload": {
               "__lazy_json__": "node_attrs/mysql-connector-python.json"
@@ -96069,12 +94789,6 @@
             "id": "nionui-tool",
             "payload": {
               "__lazy_json__": "node_attrs/nionui-tool.json"
-            }
-          },
-          {
-            "id": "nipy",
-            "payload": {
-              "__lazy_json__": "node_attrs/nipy.json"
             }
           },
           {
@@ -96828,12 +95542,6 @@
             }
           },
           {
-            "id": "orjson",
-            "payload": {
-              "__lazy_json__": "node_attrs/orjson.json"
-            }
-          },
-          {
             "id": "ormdantic",
             "payload": {
               "__lazy_json__": "node_attrs/ormdantic.json"
@@ -97425,18 +96133,6 @@
             "id": "piqp",
             "payload": {
               "__lazy_json__": "node_attrs/piqp.json"
-            }
-          },
-          {
-            "id": "piqs",
-            "payload": {
-              "__lazy_json__": "node_attrs/piqs.json"
-            }
-          },
-          {
-            "id": "pivy",
-            "payload": {
-              "__lazy_json__": "node_attrs/pivy.json"
             }
           },
           {
@@ -98448,12 +97144,6 @@
             }
           },
           {
-            "id": "pycontrails",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycontrails.json"
-            }
-          },
-          {
             "id": "pycosat",
             "payload": {
               "__lazy_json__": "node_attrs/pycosat.json"
@@ -98493,12 +97183,6 @@
             "id": "pycryptodome",
             "payload": {
               "__lazy_json__": "node_attrs/pycryptodome.json"
-            }
-          },
-          {
-            "id": "pycryptodomex",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycryptodomex.json"
             }
           },
           {
@@ -98970,12 +97654,6 @@
             }
           },
           {
-            "id": "pygridgen",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygridgen.json"
-            }
-          },
-          {
             "id": "pygsl",
             "payload": {
               "__lazy_json__": "node_attrs/pygsl.json"
@@ -99003,12 +97681,6 @@
             "id": "pygubu",
             "payload": {
               "__lazy_json__": "node_attrs/pygubu.json"
-            }
-          },
-          {
-            "id": "pygwb",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygwb.json"
             }
           },
           {
@@ -100158,6 +98830,12 @@
             }
           },
           {
+            "id": "pysdf",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysdf.json"
+            }
+          },
+          {
             "id": "pysdl2",
             "payload": {
               "__lazy_json__": "node_attrs/pysdl2.json"
@@ -100419,12 +99097,6 @@
             "id": "python-ace",
             "payload": {
               "__lazy_json__": "node_attrs/python-ace.json"
-            }
-          },
-          {
-            "id": "python-annoy",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-annoy.json"
             }
           },
           {
@@ -102849,12 +101521,6 @@
             "id": "snakefood",
             "payload": {
               "__lazy_json__": "node_attrs/snakefood.json"
-            }
-          },
-          {
-            "id": "snaphu",
-            "payload": {
-              "__lazy_json__": "node_attrs/snaphu.json"
             }
           },
           {
