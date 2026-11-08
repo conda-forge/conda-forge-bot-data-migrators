@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -195,10 +202,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "nh3"
-          },
-          {
-            "source": "aiohttp",
             "target": "numba"
           },
           {
@@ -311,10 +314,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "nh3"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "numba"
           },
           {
@@ -371,7 +370,87 @@
           },
           {
             "source": "ast-serialize",
-            "target": "mypy"
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "chardet"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "conda"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "fastar"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "hypothesis"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "kealib"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "libcst"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "mamba"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "multidict"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "numba"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pillow"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "py-rattler"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pyarrow"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pynacl"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pytokens"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pyzmq"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "watchfiles"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "wcwidth"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "websockets"
           },
           {
             "source": "at-spi2-atk",
@@ -895,10 +974,6 @@
           },
           {
             "source": "aws-c-common",
-            "target": "aws-c-event-stream"
-          },
-          {
-            "source": "aws-c-common",
             "target": "aws-c-http"
           },
           {
@@ -938,14 +1013,6 @@
             "target": "aws-c-http"
           },
           {
-            "source": "aws-c-event-stream",
-            "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-c-event-stream",
-            "target": "aws-sdk-cpp"
-          },
-          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -971,10 +1038,6 @@
           },
           {
             "source": "aws-c-io",
-            "target": "aws-c-event-stream"
-          },
-          {
-            "source": "aws-c-io",
             "target": "aws-c-http"
           },
           {
@@ -988,6 +1051,10 @@
           {
             "source": "aws-c-io",
             "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-c-io",
@@ -1019,11 +1086,15 @@
           },
           {
             "source": "aws-checksums",
-            "target": "aws-c-event-stream"
+            "target": "aws-c-s3"
           },
           {
             "source": "aws-checksums",
-            "target": "aws-c-s3"
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-checksums",
+            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-crt-cpp",
@@ -1171,10 +1242,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "nh3"
-          },
-          {
-            "source": "backports.zstd",
             "target": "numba"
           },
           {
@@ -1256,10 +1323,6 @@
           {
             "source": "bcrypt",
             "target": "multidict"
-          },
-          {
-            "source": "bcrypt",
-            "target": "nh3"
           },
           {
             "source": "bcrypt",
@@ -1767,10 +1830,6 @@
           },
           {
             "source": "brotli",
-            "target": "nh3"
-          },
-          {
-            "source": "brotli",
             "target": "nodejs"
           },
           {
@@ -1967,10 +2026,6 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "comrak"
-          },
-          {
-            "source": "cargo-auditable",
             "target": "conda"
           },
           {
@@ -2012,10 +2067,6 @@
           {
             "source": "cargo-auditable",
             "target": "multidict"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "nh3"
           },
           {
             "source": "cargo-auditable",
@@ -2123,10 +2174,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "comrak"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "conda"
           },
           {
@@ -2180,10 +2227,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "multidict"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "nh3"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2459,10 +2502,6 @@
           },
           {
             "source": "cffi",
-            "target": "nh3"
-          },
-          {
-            "source": "cffi",
             "target": "numba"
           },
           {
@@ -2539,6 +2578,14 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "backports.zstd"
           },
           {
@@ -2555,6 +2602,18 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "conda"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "contourpy"
           },
           {
@@ -2568,6 +2627,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "falcon"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "fastar"
           },
           {
             "source": "clang-compiler-activation",
@@ -2595,6 +2658,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "kealib"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "libcst"
           },
           {
@@ -2611,7 +2678,15 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "mamba"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "markupsafe"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "multidict"
           },
           {
             "source": "clang-compiler-activation",
@@ -2619,15 +2694,7 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "mypy"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "ncurses"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "nh3"
           },
           {
             "source": "clang-compiler-activation",
@@ -2639,11 +2706,23 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "pillow"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "pocl"
           },
           {
             "source": "clang-compiler-activation",
             "target": "pthread-stubs"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "py-rattler"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "pyarrow"
           },
           {
             "source": "clang-compiler-activation",
@@ -2708,6 +2787,18 @@
           {
             "source": "clang-compiler-activation",
             "target": "watchdog"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "watchfiles"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "wcwidth"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "websockets"
           },
           {
             "source": "clang-compiler-activation",
@@ -2788,10 +2879,6 @@
           {
             "source": "cmake",
             "target": "aws-c-compression"
-          },
-          {
-            "source": "cmake",
-            "target": "aws-c-event-stream"
           },
           {
             "source": "cmake",
@@ -3352,6 +3439,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -4115,10 +4206,6 @@
           },
           {
             "source": "coverage",
-            "target": "cuda-python"
-          },
-          {
-            "source": "coverage",
             "target": "cytoolz"
           },
           {
@@ -4175,14 +4262,6 @@
           },
           {
             "source": "coverage",
-            "target": "mypy"
-          },
-          {
-            "source": "coverage",
-            "target": "nh3"
-          },
-          {
-            "source": "coverage",
             "target": "numba"
           },
           {
@@ -4232,6 +4311,10 @@
           {
             "source": "coverage",
             "target": "python-zlib-ng"
+          },
+          {
+            "source": "coverage",
+            "target": "pytokens"
           },
           {
             "source": "coverage",
@@ -4379,6 +4462,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "fastar"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "ffmpeg"
           },
           {
@@ -4463,6 +4550,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "mamba"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "markupsafe"
           },
           {
@@ -4475,19 +4566,11 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "mypy"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "nccl"
           },
           {
             "source": "ctng-compilers",
             "target": "ncurses"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "nh3"
           },
           {
             "source": "ctng-compilers",
@@ -4687,10 +4770,6 @@
           },
           {
             "source": "cuda-cudart",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "cuda-cudart",
             "target": "cuda-libraries-dev"
           },
           {
@@ -4704,10 +4783,6 @@
           {
             "source": "cuda-cudart",
             "target": "cuda-profiler-api"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "cuda-python"
           },
           {
             "source": "cuda-cudart",
@@ -4763,10 +4838,6 @@
           },
           {
             "source": "cuda-nvcc-impl",
-            "target": "cuda-python"
-          },
-          {
-            "source": "cuda-nvcc-impl",
             "target": "cuda-tileiras"
           },
           {
@@ -4776,10 +4847,6 @@
           {
             "source": "cuda-nvcc-impl",
             "target": "llama.cpp"
-          },
-          {
-            "source": "cuda-nvcc",
-            "target": "cuda-python"
           },
           {
             "source": "cuda-nvdisasm",
@@ -4803,15 +4870,7 @@
           },
           {
             "source": "cuda-nvrtc",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "cuda-nvrtc",
             "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "cuda-nvrtc",
-            "target": "cuda-python"
           },
           {
             "source": "cuda-nvrtc",
@@ -4831,19 +4890,11 @@
           },
           {
             "source": "cuda-opencl",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "cuda-opencl",
             "target": "cuda-libraries-dev"
           },
           {
             "source": "cuda-profiler-api",
             "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "cuda-profiler-api",
-            "target": "cuda-python"
           },
           {
             "source": "cuda-profiler-api",
@@ -4992,10 +5043,6 @@
           {
             "source": "cython",
             "target": "chardet"
-          },
-          {
-            "source": "cython",
-            "target": "cuda-python"
           },
           {
             "source": "cython",
@@ -5203,10 +5250,6 @@
           },
           {
             "source": "debugpy",
-            "target": "nh3"
-          },
-          {
-            "source": "debugpy",
             "target": "numba"
           },
           {
@@ -5292,10 +5335,6 @@
           {
             "source": "dulwich",
             "target": "multidict"
-          },
-          {
-            "source": "dulwich",
-            "target": "nh3"
           },
           {
             "source": "dulwich",
@@ -5511,10 +5550,6 @@
           },
           {
             "source": "falcon",
-            "target": "nh3"
-          },
-          {
-            "source": "falcon",
             "target": "numba"
           },
           {
@@ -5588,10 +5623,6 @@
           {
             "source": "fastar",
             "target": "multidict"
-          },
-          {
-            "source": "fastar",
-            "target": "nh3"
           },
           {
             "source": "fastar",
@@ -6371,10 +6402,6 @@
           },
           {
             "source": "git",
-            "target": "nh3"
-          },
-          {
-            "source": "git",
             "target": "numba"
           },
           {
@@ -6935,10 +6962,6 @@
           },
           {
             "source": "greenlet",
-            "target": "nh3"
-          },
-          {
-            "source": "greenlet",
             "target": "numba"
           },
           {
@@ -7215,10 +7238,6 @@
           },
           {
             "source": "httptools",
-            "target": "nh3"
-          },
-          {
-            "source": "httptools",
             "target": "numba"
           },
           {
@@ -7292,10 +7311,6 @@
           {
             "source": "hypothesis",
             "target": "multidict"
-          },
-          {
-            "source": "hypothesis",
-            "target": "nh3"
           },
           {
             "source": "hypothesis",
@@ -7703,10 +7718,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "nh3"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "numba"
           },
           {
@@ -7871,10 +7882,6 @@
           },
           {
             "source": "libcublas",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libcublas",
             "target": "cuda-libraries-dev"
           },
           {
@@ -7899,15 +7906,7 @@
           },
           {
             "source": "libcudla",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libcudla",
             "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "libcufft",
-            "target": "cuda-libraries"
           },
           {
             "source": "libcufft",
@@ -7935,10 +7934,6 @@
           },
           {
             "source": "libcurand",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libcurand",
             "target": "cuda-libraries-dev"
           },
           {
@@ -7951,10 +7946,6 @@
           },
           {
             "source": "libcusolver",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libcusolver",
             "target": "cuda-libraries-dev"
           },
           {
@@ -7964,10 +7955,6 @@
           {
             "source": "libcusparse",
             "target": "ceres-solver"
-          },
-          {
-            "source": "libcusparse",
-            "target": "cuda-libraries"
           },
           {
             "source": "libcusparse",
@@ -8635,10 +8622,6 @@
           },
           {
             "source": "libnpp",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libnpp",
             "target": "cuda-libraries-dev"
           },
           {
@@ -8647,27 +8630,11 @@
           },
           {
             "source": "libnvfatbin",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libnvfatbin",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "libnvfatbin",
-            "target": "cuda-python"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libnvjitlink",
             "target": "cuda-libraries-dev"
           },
           {
             "source": "libnvjitlink",
-            "target": "cuda-python"
+            "target": "cuda-libraries-dev"
           },
           {
             "source": "libnvjitlink",
@@ -8676,10 +8643,6 @@
           {
             "source": "libnvjitlink",
             "target": "libcusparse"
-          },
-          {
-            "source": "libnvjpeg",
-            "target": "cuda-libraries"
           },
           {
             "source": "libnvjpeg",
@@ -10015,7 +9978,91 @@
           },
           {
             "source": "lxml",
-            "target": "mypy"
+            "target": "ast-serialize"
+          },
+          {
+            "source": "lxml",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "lxml",
+            "target": "chardet"
+          },
+          {
+            "source": "lxml",
+            "target": "conda"
+          },
+          {
+            "source": "lxml",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "lxml",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "lxml",
+            "target": "fastar"
+          },
+          {
+            "source": "lxml",
+            "target": "hypothesis"
+          },
+          {
+            "source": "lxml",
+            "target": "kealib"
+          },
+          {
+            "source": "lxml",
+            "target": "libcst"
+          },
+          {
+            "source": "lxml",
+            "target": "mamba"
+          },
+          {
+            "source": "lxml",
+            "target": "multidict"
+          },
+          {
+            "source": "lxml",
+            "target": "numba"
+          },
+          {
+            "source": "lxml",
+            "target": "pillow"
+          },
+          {
+            "source": "lxml",
+            "target": "py-rattler"
+          },
+          {
+            "source": "lxml",
+            "target": "pyarrow"
+          },
+          {
+            "source": "lxml",
+            "target": "pynacl"
+          },
+          {
+            "source": "lxml",
+            "target": "pytokens"
+          },
+          {
+            "source": "lxml",
+            "target": "pyzmq"
+          },
+          {
+            "source": "lxml",
+            "target": "watchfiles"
+          },
+          {
+            "source": "lxml",
+            "target": "wcwidth"
+          },
+          {
+            "source": "lxml",
+            "target": "websockets"
           },
           {
             "source": "lz4-c",
@@ -10568,6 +10615,10 @@
           {
             "source": "make",
             "target": "matplotlib"
+          },
+          {
+            "source": "make",
+            "target": "metis"
           },
           {
             "source": "make",
@@ -11247,10 +11298,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "nh3"
-          },
-          {
-            "source": "markupsafe",
             "target": "numba"
           },
           {
@@ -11339,10 +11386,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "nh3"
-          },
-          {
-            "source": "matplotlib",
             "target": "numba"
           },
           {
@@ -11400,6 +11443,10 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
           },
           {
             "source": "miktex",
@@ -11686,98 +11733,6 @@
             "target": "libpnetcdf"
           },
           {
-            "source": "mypy",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "mypy",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "mypy",
-            "target": "chardet"
-          },
-          {
-            "source": "mypy",
-            "target": "conda"
-          },
-          {
-            "source": "mypy",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "mypy",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "mypy",
-            "target": "fastar"
-          },
-          {
-            "source": "mypy",
-            "target": "hypothesis"
-          },
-          {
-            "source": "mypy",
-            "target": "kealib"
-          },
-          {
-            "source": "mypy",
-            "target": "libcst"
-          },
-          {
-            "source": "mypy",
-            "target": "mamba"
-          },
-          {
-            "source": "mypy",
-            "target": "multidict"
-          },
-          {
-            "source": "mypy",
-            "target": "nh3"
-          },
-          {
-            "source": "mypy",
-            "target": "numba"
-          },
-          {
-            "source": "mypy",
-            "target": "pillow"
-          },
-          {
-            "source": "mypy",
-            "target": "py-rattler"
-          },
-          {
-            "source": "mypy",
-            "target": "pyarrow"
-          },
-          {
-            "source": "mypy",
-            "target": "pynacl"
-          },
-          {
-            "source": "mypy",
-            "target": "pytokens"
-          },
-          {
-            "source": "mypy",
-            "target": "pyzmq"
-          },
-          {
-            "source": "mypy",
-            "target": "watchfiles"
-          },
-          {
-            "source": "mypy",
-            "target": "wcwidth"
-          },
-          {
-            "source": "mypy",
-            "target": "websockets"
-          },
-          {
             "source": "nanoarrow",
             "target": "azure-storage-blobs-cpp"
           },
@@ -11928,10 +11883,6 @@
           {
             "source": "ninja",
             "target": "aws-c-compression"
-          },
-          {
-            "source": "ninja",
-            "target": "aws-c-event-stream"
           },
           {
             "source": "ninja",
@@ -12967,10 +12918,6 @@
           },
           {
             "source": "nodejs",
-            "target": "nh3"
-          },
-          {
-            "source": "nodejs",
             "target": "nomad"
           },
           {
@@ -13087,10 +13034,6 @@
           },
           {
             "source": "numpy",
-            "target": "cuda-python"
-          },
-          {
-            "source": "numpy",
             "target": "cupy"
           },
           {
@@ -13124,10 +13067,6 @@
           {
             "source": "numpy",
             "target": "multidict"
-          },
-          {
-            "source": "numpy",
-            "target": "nh3"
           },
           {
             "source": "numpy",
@@ -13196,10 +13135,6 @@
           {
             "source": "nushell",
             "target": "beads"
-          },
-          {
-            "source": "nushell",
-            "target": "comrak"
           },
           {
             "source": "nushell",
@@ -13699,10 +13634,6 @@
           },
           {
             "source": "openssl",
-            "target": "nh3"
-          },
-          {
-            "source": "openssl",
             "target": "nodejs"
           },
           {
@@ -13871,10 +13802,6 @@
           },
           {
             "source": "pandas",
-            "target": "nh3"
-          },
-          {
-            "source": "pandas",
             "target": "numba"
           },
           {
@@ -13948,10 +13875,6 @@
           {
             "source": "pandoc",
             "target": "multidict"
-          },
-          {
-            "source": "pandoc",
-            "target": "nh3"
           },
           {
             "source": "pandoc",
@@ -15027,10 +14950,6 @@
           },
           {
             "source": "playwright",
-            "target": "nh3"
-          },
-          {
-            "source": "playwright",
             "target": "numba"
           },
           {
@@ -15183,10 +15102,6 @@
           },
           {
             "source": "protobuf",
-            "target": "nh3"
-          },
-          {
-            "source": "protobuf",
             "target": "numba"
           },
           {
@@ -15235,6 +15150,10 @@
           },
           {
             "source": "psutil",
+            "target": "chardet"
+          },
+          {
+            "source": "psutil",
             "target": "conda"
           },
           {
@@ -15263,15 +15182,11 @@
           },
           {
             "source": "psutil",
+            "target": "mamba"
+          },
+          {
+            "source": "psutil",
             "target": "multidict"
-          },
-          {
-            "source": "psutil",
-            "target": "mypy"
-          },
-          {
-            "source": "psutil",
-            "target": "nh3"
           },
           {
             "source": "psutil",
@@ -15292,6 +15207,10 @@
           {
             "source": "psutil",
             "target": "pynacl"
+          },
+          {
+            "source": "psutil",
+            "target": "pytokens"
           },
           {
             "source": "psutil",
@@ -15451,10 +15370,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "nh3"
-          },
-          {
-            "source": "pydantic-core",
             "target": "numba"
           },
           {
@@ -15543,10 +15458,6 @@
           },
           {
             "source": "pynacl",
-            "target": "nh3"
-          },
-          {
-            "source": "pynacl",
             "target": "numba"
           },
           {
@@ -15619,10 +15530,6 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "nh3"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "numba"
           },
           {
@@ -15687,7 +15594,91 @@
           },
           {
             "source": "python-librt",
-            "target": "mypy"
+            "target": "ast-serialize"
+          },
+          {
+            "source": "python-librt",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "python-librt",
+            "target": "chardet"
+          },
+          {
+            "source": "python-librt",
+            "target": "conda"
+          },
+          {
+            "source": "python-librt",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "python-librt",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "python-librt",
+            "target": "fastar"
+          },
+          {
+            "source": "python-librt",
+            "target": "hypothesis"
+          },
+          {
+            "source": "python-librt",
+            "target": "kealib"
+          },
+          {
+            "source": "python-librt",
+            "target": "libcst"
+          },
+          {
+            "source": "python-librt",
+            "target": "mamba"
+          },
+          {
+            "source": "python-librt",
+            "target": "multidict"
+          },
+          {
+            "source": "python-librt",
+            "target": "numba"
+          },
+          {
+            "source": "python-librt",
+            "target": "pillow"
+          },
+          {
+            "source": "python-librt",
+            "target": "py-rattler"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyarrow"
+          },
+          {
+            "source": "python-librt",
+            "target": "pynacl"
+          },
+          {
+            "source": "python-librt",
+            "target": "pytokens"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyzmq"
+          },
+          {
+            "source": "python-librt",
+            "target": "watchfiles"
+          },
+          {
+            "source": "python-librt",
+            "target": "wcwidth"
+          },
+          {
+            "source": "python-librt",
+            "target": "websockets"
           },
           {
             "source": "python-zlib-ng",
@@ -15824,10 +15815,6 @@
           {
             "source": "python",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "python",
-            "target": "cuda-python"
           },
           {
             "source": "python",
@@ -16203,10 +16190,6 @@
           },
           {
             "source": "python",
-            "target": "mypy"
-          },
-          {
-            "source": "python",
             "target": "nanoarrow"
           },
           {
@@ -16216,10 +16199,6 @@
           {
             "source": "python",
             "target": "ncurses"
-          },
-          {
-            "source": "python",
-            "target": "nh3"
           },
           {
             "source": "python",
@@ -16755,10 +16734,6 @@
           },
           {
             "source": "pytokens",
-            "target": "nh3"
-          },
-          {
-            "source": "pytokens",
             "target": "numba"
           },
           {
@@ -16875,10 +16850,6 @@
           },
           {
             "source": "pywin32",
-            "target": "nh3"
-          },
-          {
-            "source": "pywin32",
             "target": "numba"
           },
           {
@@ -16955,10 +16926,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "nh3"
-          },
-          {
-            "source": "pywinpty",
             "target": "numba"
           },
           {
@@ -17032,10 +16999,6 @@
           {
             "source": "pyyaml",
             "target": "multidict"
-          },
-          {
-            "source": "pyyaml",
-            "target": "nh3"
           },
           {
             "source": "pyyaml",
@@ -17120,10 +17083,6 @@
           {
             "source": "pyzmq",
             "target": "multidict"
-          },
-          {
-            "source": "pyzmq",
-            "target": "nh3"
           },
           {
             "source": "pyzmq",
@@ -17783,10 +17742,6 @@
           },
           {
             "source": "regress",
-            "target": "nh3"
-          },
-          {
-            "source": "regress",
             "target": "numba"
           },
           {
@@ -17899,10 +17854,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "nh3"
-          },
-          {
-            "source": "rpds-py",
             "target": "numba"
           },
           {
@@ -17943,11 +17894,31 @@
           },
           {
             "source": "rsync",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "rsync",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "rsync",
             "target": "backports.zstd"
           },
           {
             "source": "rsync",
             "target": "chardet"
+          },
+          {
+            "source": "rsync",
+            "target": "conda"
+          },
+          {
+            "source": "rsync",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "rsync",
+            "target": "conda-standalone"
           },
           {
             "source": "rsync",
@@ -17960,6 +17931,10 @@
           {
             "source": "rsync",
             "target": "falcon"
+          },
+          {
+            "source": "rsync",
+            "target": "fastar"
           },
           {
             "source": "rsync",
@@ -17979,6 +17954,10 @@
           },
           {
             "source": "rsync",
+            "target": "kealib"
+          },
+          {
+            "source": "rsync",
             "target": "libcst"
           },
           {
@@ -17991,15 +17970,15 @@
           },
           {
             "source": "rsync",
+            "target": "mamba"
+          },
+          {
+            "source": "rsync",
             "target": "markupsafe"
           },
           {
             "source": "rsync",
-            "target": "mypy"
-          },
-          {
-            "source": "rsync",
-            "target": "nh3"
+            "target": "multidict"
           },
           {
             "source": "rsync",
@@ -18008,6 +17987,18 @@
           {
             "source": "rsync",
             "target": "pandas"
+          },
+          {
+            "source": "rsync",
+            "target": "pillow"
+          },
+          {
+            "source": "rsync",
+            "target": "py-rattler"
+          },
+          {
+            "source": "rsync",
+            "target": "pyarrow"
           },
           {
             "source": "rsync",
@@ -18062,6 +18053,18 @@
             "target": "watchdog"
           },
           {
+            "source": "rsync",
+            "target": "watchfiles"
+          },
+          {
+            "source": "rsync",
+            "target": "wcwidth"
+          },
+          {
+            "source": "rsync",
+            "target": "websockets"
+          },
+          {
             "source": "ruamel.yaml.clib",
             "target": "ast-serialize"
           },
@@ -18096,10 +18099,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "multidict"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "nh3"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -18172,10 +18171,6 @@
           {
             "source": "ruamel",
             "target": "multidict"
-          },
-          {
-            "source": "ruamel",
-            "target": "nh3"
           },
           {
             "source": "ruamel",
@@ -18319,6 +18314,10 @@
           },
           {
             "source": "sed",
+            "target": "fastar"
+          },
+          {
+            "source": "sed",
             "target": "findutils"
           },
           {
@@ -18363,6 +18362,10 @@
           },
           {
             "source": "sed",
+            "target": "mamba"
+          },
+          {
+            "source": "sed",
             "target": "markupsafe"
           },
           {
@@ -18371,15 +18374,7 @@
           },
           {
             "source": "sed",
-            "target": "mypy"
-          },
-          {
-            "source": "sed",
             "target": "netpbm"
-          },
-          {
-            "source": "sed",
-            "target": "nh3"
           },
           {
             "source": "sed",
@@ -19011,10 +19006,6 @@
           },
           {
             "source": "tornado",
-            "target": "nh3"
-          },
-          {
-            "source": "tornado",
             "target": "numba"
           },
           {
@@ -19084,10 +19075,6 @@
           {
             "source": "trio",
             "target": "multidict"
-          },
-          {
-            "source": "trio",
-            "target": "nh3"
           },
           {
             "source": "trio",
@@ -19275,10 +19262,6 @@
           },
           {
             "source": "ujson",
-            "target": "nh3"
-          },
-          {
-            "source": "ujson",
             "target": "numba"
           },
           {
@@ -19355,6 +19338,10 @@
           },
           {
             "source": "uv",
+            "target": "chardet"
+          },
+          {
+            "source": "uv",
             "target": "conda"
           },
           {
@@ -19364,6 +19351,10 @@
           {
             "source": "uv",
             "target": "conda-standalone"
+          },
+          {
+            "source": "uv",
+            "target": "fastar"
           },
           {
             "source": "uv",
@@ -19423,10 +19414,6 @@
           },
           {
             "source": "uvloop",
-            "target": "nh3"
-          },
-          {
-            "source": "uvloop",
             "target": "numba"
           },
           {
@@ -19463,15 +19450,11 @@
           },
           {
             "source": "uv",
+            "target": "mamba"
+          },
+          {
+            "source": "uv",
             "target": "multidict"
-          },
-          {
-            "source": "uv",
-            "target": "mypy"
-          },
-          {
-            "source": "uv",
-            "target": "nh3"
           },
           {
             "source": "uv",
@@ -19496,6 +19479,10 @@
           {
             "source": "uv",
             "target": "pytest-codspeed"
+          },
+          {
+            "source": "uv",
+            "target": "pytokens"
           },
           {
             "source": "uv",
@@ -19671,10 +19658,6 @@
           },
           {
             "source": "watchdog",
-            "target": "nh3"
-          },
-          {
-            "source": "watchdog",
             "target": "numba"
           },
           {
@@ -19744,10 +19727,6 @@
           {
             "source": "watchfiles",
             "target": "multidict"
-          },
-          {
-            "source": "watchfiles",
-            "target": "nh3"
           },
           {
             "source": "watchfiles",
@@ -19835,10 +19814,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "nh3"
-          },
-          {
-            "source": "wcwidth",
             "target": "numba"
           },
           {
@@ -19904,10 +19879,6 @@
           {
             "source": "websockets",
             "target": "multidict"
-          },
-          {
-            "source": "websockets",
-            "target": "nh3"
           },
           {
             "source": "websockets",
@@ -20079,10 +20050,6 @@
           },
           {
             "source": "wrapt",
-            "target": "nh3"
-          },
-          {
-            "source": "wrapt",
             "target": "numba"
           },
           {
@@ -20164,10 +20131,6 @@
           {
             "source": "xattr",
             "target": "multidict"
-          },
-          {
-            "source": "xattr",
-            "target": "nh3"
           },
           {
             "source": "xattr",
@@ -21947,10 +21910,6 @@
           },
           {
             "source": "zstandard",
-            "target": "nh3"
-          },
-          {
-            "source": "zstandard",
             "target": "numba"
           },
           {
@@ -22475,12 +22434,6 @@
             }
           },
           {
-            "id": "aws-c-event-stream",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
-            }
-          },
-          {
             "id": "aws-c-http",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-http.json"
@@ -22793,12 +22746,6 @@
             }
           },
           {
-            "id": "comrak",
-            "payload": {
-              "__lazy_json__": "node_attrs/comrak.json"
-            }
-          },
-          {
             "id": "conda",
             "payload": {
               "__lazy_json__": "node_attrs/conda.json"
@@ -22913,12 +22860,6 @@
             }
           },
           {
-            "id": "cuda-libraries",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-libraries.json"
-            }
-          },
-          {
             "id": "cuda-libraries-dev",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-libraries-dev.json"
@@ -22970,12 +22911,6 @@
             "id": "cuda-profiler-api",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-profiler-api.json"
-            }
-          },
-          {
-            "id": "cuda-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -24371,6 +24306,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -24491,12 +24432,6 @@
             }
           },
           {
-            "id": "mypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/mypy.json"
-            }
-          },
-          {
             "id": "nanoarrow",
             "payload": {
               "__lazy_json__": "node_attrs/nanoarrow.json"
@@ -24530,12 +24465,6 @@
             "id": "nghttp2",
             "payload": {
               "__lazy_json__": "node_attrs/nghttp2.json"
-            }
-          },
-          {
-            "id": "nh3",
-            "payload": {
-              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
