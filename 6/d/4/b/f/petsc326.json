@@ -54,38 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "damask",
-            "payload": {
-              "__lazy_json__": "node_attrs/damask.json"
-            }
-          },
-          {
-            "id": "libadjoint",
-            "payload": {
-              "__lazy_json__": "node_attrs/libadjoint.json"
-            }
-          },
-          {
-            "id": "proteus",
-            "payload": {
-              "__lazy_json__": "node_attrs/proteus.json"
-            }
-          },
-          {
-            "id": "sfincs",
-            "payload": {
-              "__lazy_json__": "node_attrs/sfincs.json"
-            }
-          },
-          {
-            "id": "yambo",
-            "payload": {
-              "__lazy_json__": "node_attrs/yambo.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -386,7 +355,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
