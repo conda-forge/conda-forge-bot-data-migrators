@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -967,6 +974,10 @@
           },
           {
             "source": "aws-c-common",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-common",
             "target": "aws-c-http"
           },
           {
@@ -1006,6 +1017,14 @@
             "target": "aws-c-http"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "aws-sdk-cpp"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -1031,6 +1050,10 @@
           },
           {
             "source": "aws-c-io",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-io",
             "target": "aws-c-http"
           },
           {
@@ -1044,10 +1067,6 @@
           {
             "source": "aws-c-io",
             "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-c-io",
-            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-c-io",
@@ -1079,15 +1098,11 @@
           },
           {
             "source": "aws-checksums",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-checksums",
             "target": "aws-c-s3"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-crt-cpp",
@@ -2895,6 +2910,10 @@
           },
           {
             "source": "cmake",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "cmake",
             "target": "aws-c-http"
           },
           {
@@ -3379,6 +3398,10 @@
           },
           {
             "source": "cmake",
+            "target": "libvorbis"
+          },
+          {
+            "source": "cmake",
             "target": "libvpl"
           },
           {
@@ -3436,6 +3459,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -8535,15 +8562,15 @@
           },
           {
             "source": "libogg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libogg",
             "target": "libflac"
           },
           {
             "source": "libogg",
             "target": "libsndfile"
+          },
+          {
+            "source": "libogg",
+            "target": "libvorbis"
           },
           {
             "source": "libopus",
@@ -9104,6 +9131,14 @@
           {
             "source": "libva",
             "target": "libvpl"
+          },
+          {
+            "source": "libvorbis",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libsndfile"
           },
           {
             "source": "libvpl",
@@ -10443,6 +10478,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11278,6 +11317,10 @@
             "target": "conda-standalone"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
             "source": "miktex",
             "target": "r-base"
           },
@@ -11708,6 +11751,10 @@
           {
             "source": "ninja",
             "target": "aws-c-compression"
+          },
+          {
+            "source": "ninja",
+            "target": "aws-c-event-stream"
           },
           {
             "source": "ninja",
@@ -12168,6 +12215,10 @@
           {
             "source": "ninja",
             "target": "libva"
+          },
+          {
+            "source": "ninja",
+            "target": "libvorbis"
           },
           {
             "source": "ninja",
@@ -22239,6 +22290,12 @@
             }
           },
           {
+            "id": "aws-c-event-stream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
+            }
+          },
+          {
             "id": "aws-c-http",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-http.json"
@@ -23895,6 +23952,12 @@
             }
           },
           {
+            "id": "libvorbis",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvorbis.json"
+            }
+          },
+          {
             "id": "libvpl",
             "payload": {
               "__lazy_json__": "node_attrs/libvpl.json"
@@ -24054,6 +24117,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
