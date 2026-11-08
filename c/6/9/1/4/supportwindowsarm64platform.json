@@ -3794,6 +3794,10 @@
           },
           {
             "source": "cmake",
+            "target": "svt-av1"
+          },
+          {
+            "source": "cmake",
             "target": "swig"
           },
           {
@@ -18837,6 +18841,14 @@
             "target": "shellcheck"
           },
           {
+            "source": "svt-av1",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "svt-av1",
+            "target": "libavif"
+          },
+          {
             "source": "swig",
             "target": "gdal"
           },
@@ -21074,14 +21086,6 @@
           },
           {
             "source": "yasm",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "yasm",
-            "target": "libavif"
-          },
-          {
-            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
@@ -21091,6 +21095,10 @@
           {
             "source": "yasm",
             "target": "mpg123"
+          },
+          {
+            "source": "yasm",
+            "target": "svt-av1"
           },
           {
             "source": "zeromq",
@@ -25581,6 +25589,12 @@
             "id": "subfinder",
             "payload": {
               "__lazy_json__": "node_attrs/subfinder.json"
+            }
+          },
+          {
+            "id": "svt-av1",
+            "payload": {
+              "__lazy_json__": "node_attrs/svt-av1.json"
             }
           },
           {
