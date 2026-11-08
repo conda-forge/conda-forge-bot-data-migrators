@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "mujoco",
+            "payload": {
+              "__lazy_json__": "node_attrs/mujoco.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -1989,10 +1996,6 @@
           },
           {
             "source": "astropy",
-            "target": "casa_formats_io"
-          },
-          {
-            "source": "astropy",
             "target": "cdshealpix"
           },
           {
@@ -2653,10 +2656,6 @@
           },
           {
             "source": "backpack",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "backports-datetime-fromisoformat",
             "target": "conda-forge-pinning"
           },
           {
@@ -3373,10 +3372,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "jenkinsapi"
-          },
-          {
-            "source": "backports.zstd",
             "target": "jscatter"
           },
           {
@@ -3706,10 +3701,6 @@
           {
             "source": "backports.zstd",
             "target": "pamtra"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pandana"
           },
           {
             "source": "backports.zstd",
@@ -5424,10 +5415,6 @@
             "target": "xbbg"
           },
           {
-            "source": "bmf",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "bodo",
             "target": "conda-forge-pinning"
           },
@@ -5514,10 +5501,6 @@
           {
             "source": "boost",
             "target": "casacore"
-          },
-          {
-            "source": "boost",
-            "target": "cascade"
           },
           {
             "source": "boost",
@@ -5825,10 +5808,6 @@
           },
           {
             "source": "boost",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "boost",
             "target": "hpp-python"
           },
           {
@@ -5850,10 +5829,6 @@
           {
             "source": "boost",
             "target": "imp"
-          },
-          {
-            "source": "boost",
-            "target": "intervalxt"
           },
           {
             "source": "boost",
@@ -5949,10 +5924,6 @@
           },
           {
             "source": "boost",
-            "target": "nuflux"
-          },
-          {
-            "source": "boost",
             "target": "nurikit"
           },
           {
@@ -5990,10 +5961,6 @@
           {
             "source": "boost",
             "target": "opencamlib"
-          },
-          {
-            "source": "boost",
-            "target": "openmvs-split"
           },
           {
             "source": "boost",
@@ -7189,10 +7156,6 @@
           },
           {
             "source": "brotli",
-            "target": "jenkinsapi"
-          },
-          {
-            "source": "brotli",
             "target": "jscatter"
           },
           {
@@ -7514,10 +7477,6 @@
           {
             "source": "brotli",
             "target": "pamtra"
-          },
-          {
-            "source": "brotli",
-            "target": "pandana"
           },
           {
             "source": "brotli",
@@ -8712,14 +8671,6 @@
             "target": "stackvana-core"
           },
           {
-            "source": "casa_formats_io",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "casa_formats_io",
-            "target": "glue-qt"
-          },
-          {
             "source": "casacore",
             "target": "casatools"
           },
@@ -8764,10 +8715,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cascade",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "cassandra-driver",
             "target": "apache-airflow-backport-providers-cncf-kubernetes"
           },
@@ -8778,14 +8725,6 @@
           {
             "source": "cassandra-driver",
             "target": "stackvana-core"
-          },
-          {
-            "source": "cassandra",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cassandra",
-            "target": "mosdef_cassandra"
           },
           {
             "source": "catalogue",
@@ -11653,10 +11592,6 @@
           },
           {
             "source": "cppyy",
-            "target": "intervalxt"
-          },
-          {
-            "source": "cppyy",
             "target": "pygoss-meta"
           },
           {
@@ -11812,38 +11747,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cuda-core",
-            "target": "cccl-python"
-          },
-          {
-            "source": "cuda-core",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-core",
-            "target": "cuda-python"
-          },
-          {
-            "source": "cuda-core",
-            "target": "libnvshmem"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nccl4py"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nvmath"
-          },
-          {
             "source": "cuda-gdb",
             "target": "conda-forge-pinning"
           },
@@ -11861,11 +11764,11 @@
           },
           {
             "source": "cuda-python",
-            "target": "conda-forge-pinning"
+            "target": "cccl-python"
           },
           {
             "source": "cuda-python",
-            "target": "cuda-core"
+            "target": "conda-forge-pinning"
           },
           {
             "source": "cuda-python",
@@ -12694,10 +12597,6 @@
           {
             "source": "cython",
             "target": "crick"
-          },
-          {
-            "source": "cython",
-            "target": "cuda-core"
           },
           {
             "source": "cython",
@@ -13953,10 +13852,6 @@
           },
           {
             "source": "cython",
-            "target": "pandana"
-          },
-          {
-            "source": "cython",
             "target": "pandas"
           },
           {
@@ -15038,6 +14933,10 @@
           {
             "source": "cython",
             "target": "sha256"
+          },
+          {
+            "source": "cython",
+            "target": "shapely"
           },
           {
             "source": "cython",
@@ -16708,10 +16607,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "dpct-meta",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "dpctl",
             "target": "conda-forge-pinning"
           },
@@ -17724,10 +17619,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "fast_matrix_market",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "fastapi-azure-auth",
             "target": "conda-forge-pinning"
           },
@@ -18245,10 +18136,6 @@
           },
           {
             "source": "flake8-to-ruff",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "flake8-typing-imports",
             "target": "conda-forge-pinning"
           },
           {
@@ -18960,10 +18847,6 @@
             "target": "hpp-gui"
           },
           {
-            "source": "gepetto-viewer-corba",
-            "target": "hpp-plot"
-          },
-          {
             "source": "gepetto-viewer",
             "target": "conda-forge-pinning"
           },
@@ -18978,10 +18861,6 @@
           {
             "source": "gepetto-viewer",
             "target": "hpp-gui"
-          },
-          {
-            "source": "gepetto-viewer",
-            "target": "hpp-plot"
           },
           {
             "source": "getdaft",
@@ -21941,10 +21820,6 @@
           },
           {
             "source": "heyoka.py",
-            "target": "cascade"
-          },
-          {
-            "source": "heyoka.py",
             "target": "conda-forge-pinning"
           },
           {
@@ -22116,10 +21991,6 @@
             "target": "hpp-manipulation-corba"
           },
           {
-            "source": "hpp-corbaserver",
-            "target": "hpp-plot"
-          },
-          {
             "source": "hpp-environments",
             "target": "conda-forge-pinning"
           },
@@ -22142,14 +22013,6 @@
           {
             "source": "hpp-manipulation-corba",
             "target": "hpp-gui"
-          },
-          {
-            "source": "hpp-manipulation-corba",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "hpp-plot",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "hpp-python",
@@ -22768,14 +22631,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "intervalxt",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "intervalxt",
-            "target": "flatsurf"
-          },
-          {
             "source": "invert4geom",
             "target": "conda-forge-pinning"
           },
@@ -23026,10 +22881,6 @@
           {
             "source": "jellyfish",
             "target": "textacy"
-          },
-          {
-            "source": "jenkinsapi",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "jenkspy",
@@ -24568,6 +24419,10 @@
             "target": "visp"
           },
           {
+            "source": "libredwg",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "librepo",
             "target": "conda-forge-pinning"
           },
@@ -24666,18 +24521,6 @@
           {
             "source": "libxfoil",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "lief",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "lief",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "lief",
-            "target": "networkit"
           },
           {
             "source": "lightfm",
@@ -26034,10 +25877,6 @@
           {
             "source": "markupsafe",
             "target": "doconce"
-          },
-          {
-            "source": "markupsafe",
-            "target": "dpct-meta"
           },
           {
             "source": "markupsafe",
@@ -32628,10 +32467,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "nuflux",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "nuitka",
             "target": "conda-forge-pinning"
           },
@@ -33957,10 +33792,6 @@
           },
           {
             "source": "numpy",
-            "target": "bmf"
-          },
-          {
-            "source": "numpy",
             "target": "bodo"
           },
           {
@@ -34073,10 +33904,6 @@
           },
           {
             "source": "numpy",
-            "target": "casa_formats_io"
-          },
-          {
-            "source": "numpy",
             "target": "casacore"
           },
           {
@@ -34086,14 +33913,6 @@
           {
             "source": "numpy",
             "target": "casatools"
-          },
-          {
-            "source": "numpy",
-            "target": "cascade"
-          },
-          {
-            "source": "numpy",
-            "target": "cassandra"
           },
           {
             "source": "numpy",
@@ -34466,10 +34285,6 @@
           {
             "source": "numpy",
             "target": "ctc-segmentation"
-          },
-          {
-            "source": "numpy",
-            "target": "cuda-core"
           },
           {
             "source": "numpy",
@@ -35161,10 +34976,6 @@
           },
           {
             "source": "numpy",
-            "target": "fast_matrix_market"
-          },
-          {
-            "source": "numpy",
             "target": "fastbdt"
           },
           {
@@ -35290,10 +35101,6 @@
           {
             "source": "numpy",
             "target": "finufft-split"
-          },
-          {
-            "source": "numpy",
-            "target": "fiona"
           },
           {
             "source": "numpy",
@@ -37057,10 +36864,6 @@
           },
           {
             "source": "numpy",
-            "target": "nuflux"
-          },
-          {
-            "source": "numpy",
             "target": "numba"
           },
           {
@@ -37354,10 +37157,6 @@
           {
             "source": "numpy",
             "target": "panda3d_viewer"
-          },
-          {
-            "source": "numpy",
-            "target": "pandana"
           },
           {
             "source": "numpy",
@@ -38313,10 +38112,6 @@
           },
           {
             "source": "numpy",
-            "target": "pymeos-cffi"
-          },
-          {
-            "source": "numpy",
             "target": "pymeshfix"
           },
           {
@@ -38590,10 +38385,6 @@
           {
             "source": "numpy",
             "target": "pyscipopt"
-          },
-          {
-            "source": "numpy",
-            "target": "pysdf"
           },
           {
             "source": "numpy",
@@ -39425,7 +39216,7 @@
           },
           {
             "source": "numpy",
-            "target": "shapelysmooth"
+            "target": "shapely"
           },
           {
             "source": "numpy",
@@ -39666,10 +39457,6 @@
           {
             "source": "numpy",
             "target": "spikeinterface"
-          },
-          {
-            "source": "numpy",
-            "target": "spinsfast"
           },
           {
             "source": "numpy",
@@ -40693,10 +40480,6 @@
           },
           {
             "source": "omniorb",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "omniorb",
             "target": "hpp-template-corba"
           },
           {
@@ -40965,10 +40748,6 @@
           },
           {
             "source": "opencv",
-            "target": "openmvs-split"
-          },
-          {
-            "source": "opencv",
             "target": "pixsfm"
           },
           {
@@ -41214,10 +40993,6 @@
           {
             "source": "openmm",
             "target": "veloxchem"
-          },
-          {
-            "source": "openmvs-split",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "opennavsurf-bag",
@@ -41854,10 +41629,6 @@
           {
             "source": "panda3d",
             "target": "visp"
-          },
-          {
-            "source": "pandana",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "pandarm",
@@ -42738,10 +42509,6 @@
           {
             "source": "pandas",
             "target": "outlines-core"
-          },
-          {
-            "source": "pandas",
-            "target": "pandana"
           },
           {
             "source": "pandas",
@@ -43930,10 +43697,6 @@
           {
             "source": "photospline",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "photospline",
-            "target": "nuflux"
           },
           {
             "source": "photutils",
@@ -45328,10 +45091,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "polyglot-sql",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "polygon3",
             "target": "conda-forge-pinning"
           },
@@ -45438,10 +45197,6 @@
           {
             "source": "posix_ipc",
             "target": "dejaq"
-          },
-          {
-            "source": "postal",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "postgresql",
@@ -46090,10 +45845,6 @@
           {
             "source": "proxsuite",
             "target": "hpp-manipulation-corba"
-          },
-          {
-            "source": "proxsuite",
-            "target": "hpp-plot"
           },
           {
             "source": "proxsuite",
@@ -49529,10 +49280,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "lief"
-          },
-          {
-            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -52716,10 +52463,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pysdf",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "pysdl2",
             "target": "aestream"
           },
@@ -53098,10 +52841,6 @@
           {
             "source": "pytables",
             "target": "nomad-camels"
-          },
-          {
-            "source": "pytables",
-            "target": "pandana"
           },
           {
             "source": "pytables",
@@ -56582,10 +56321,6 @@
           {
             "source": "pyyaml",
             "target": "caiman"
-          },
-          {
-            "source": "pyyaml",
-            "target": "casa_formats_io"
           },
           {
             "source": "pyyaml",
@@ -61921,10 +61656,6 @@
           },
           {
             "source": "scikit-learn",
-            "target": "pandana"
-          },
-          {
-            "source": "scikit-learn",
             "target": "pandarm"
           },
           {
@@ -63174,10 +62905,6 @@
           {
             "source": "scipy",
             "target": "faiss-split"
-          },
-          {
-            "source": "scipy",
-            "target": "fast_matrix_market"
           },
           {
             "source": "scipy",
@@ -65916,8 +65643,312 @@
             "target": "econml"
           },
           {
+            "source": "shapely",
+            "target": "agg-regrid"
+          },
+          {
+            "source": "shapely",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "shapely",
+            "target": "apache-sedona"
+          },
+          {
+            "source": "shapely",
+            "target": "aria-tools"
+          },
+          {
+            "source": "shapely",
+            "target": "arosics"
+          },
+          {
+            "source": "shapely",
+            "target": "autorift"
+          },
+          {
+            "source": "shapely",
+            "target": "bayesbay"
+          },
+          {
+            "source": "shapely",
+            "target": "bayeswave"
+          },
+          {
+            "source": "shapely",
+            "target": "buildpy"
+          },
+          {
+            "source": "shapely",
+            "target": "cartopy"
+          },
+          {
+            "source": "shapely",
+            "target": "catsmoothing"
+          },
+          {
+            "source": "shapely",
+            "target": "cis"
+          },
+          {
+            "source": "shapely",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "csxtools"
+          },
+          {
+            "source": "shapely",
+            "target": "cw-eval"
+          },
+          {
+            "source": "shapely",
+            "target": "easyocr"
+          },
+          {
+            "source": "shapely",
+            "target": "eo-learn-geometry"
+          },
+          {
+            "source": "shapely",
+            "target": "eo-learn-mask"
+          },
+          {
+            "source": "shapely",
+            "target": "eodie"
+          },
+          {
+            "source": "shapely",
+            "target": "fiona"
+          },
+          {
+            "source": "shapely",
+            "target": "geoarray"
+          },
+          {
+            "source": "shapely",
+            "target": "geohexviz"
+          },
+          {
+            "source": "shapely",
+            "target": "geoschem-gcpy"
+          },
+          {
+            "source": "shapely",
+            "target": "geowombat"
+          },
+          {
+            "source": "shapely",
+            "target": "glue-qt"
+          },
+          {
+            "source": "shapely",
+            "target": "glueviz"
+          },
+          {
+            "source": "shapely",
+            "target": "gridmarthe"
+          },
+          {
+            "source": "shapely",
+            "target": "gwtc_analysis"
+          },
+          {
+            "source": "shapely",
+            "target": "hazelbean"
+          },
+          {
+            "source": "shapely",
+            "target": "hklpy"
+          },
+          {
+            "source": "shapely",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "shapely",
+            "target": "input4mips-validation"
+          },
+          {
+            "source": "shapely",
+            "target": "invert4geom"
+          },
+          {
+            "source": "shapely",
+            "target": "isce3"
+          },
+          {
+            "source": "shapely",
+            "target": "kraken-ocr"
+          },
+          {
+            "source": "shapely",
+            "target": "ligo-raven"
+          },
+          {
+            "source": "shapely",
+            "target": "locan"
+          },
+          {
+            "source": "shapely",
+            "target": "metoffice-afterburner"
+          },
+          {
+            "source": "shapely",
+            "target": "mget3"
+          },
+          {
+            "source": "shapely",
+            "target": "mikeio"
+          },
+          {
+            "source": "shapely",
+            "target": "mpas_tools"
+          },
+          {
+            "source": "shapely",
+            "target": "nannos"
+          },
+          {
+            "source": "shapely",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "shapely",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "shapely",
+            "target": "nrel.routee.compass"
+          },
+          {
+            "source": "shapely",
+            "target": "oq-engine"
+          },
+          {
+            "source": "shapely",
+            "target": "pandarm"
+          },
+          {
+            "source": "shapely",
+            "target": "pandas-plink"
+          },
+          {
+            "source": "shapely",
+            "target": "photutils"
+          },
+          {
+            "source": "shapely",
+            "target": "py-tools-ds"
+          },
+          {
+            "source": "shapely",
+            "target": "pycontour"
+          },
+          {
+            "source": "shapely",
+            "target": "pycontrails"
+          },
+          {
+            "source": "shapely",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "shapely",
+            "target": "pygnome"
+          },
+          {
+            "source": "shapely",
+            "target": "pylandstats"
+          },
+          {
+            "source": "shapely",
+            "target": "pymeos-cffi"
+          },
+          {
+            "source": "shapely",
+            "target": "pymt"
+          },
+          {
+            "source": "shapely",
+            "target": "pyproj"
+          },
+          {
+            "source": "shapely",
+            "target": "pyresample"
+          },
+          {
+            "source": "shapely",
+            "target": "pyribs"
+          },
+          {
+            "source": "shapely",
+            "target": "pyrosm"
+          },
+          {
+            "source": "shapely",
+            "target": "python-mint"
+          },
+          {
+            "source": "shapely",
+            "target": "raider"
+          },
+          {
+            "source": "shapely",
+            "target": "rapid-pe"
+          },
+          {
+            "source": "shapely",
+            "target": "rasterio"
+          },
+          {
+            "source": "shapely",
+            "target": "reproject"
+          },
+          {
+            "source": "shapely",
+            "target": "rift"
+          },
+          {
+            "source": "shapely",
+            "target": "sealsmodel"
+          },
+          {
+            "source": "shapely",
+            "target": "shapelysmooth"
+          },
+          {
             "source": "shapelysmooth",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "stackvana-core"
+          },
+          {
+            "source": "shapely",
+            "target": "tiatoolbox"
+          },
+          {
+            "source": "shapely",
+            "target": "tiledbsoma"
+          },
+          {
+            "source": "shapely",
+            "target": "toasty"
+          },
+          {
+            "source": "shapely",
+            "target": "uwsift"
+          },
+          {
+            "source": "shapely",
+            "target": "wntr"
+          },
+          {
+            "source": "shapely",
+            "target": "word-image"
           },
           {
             "source": "shap",
@@ -66874,14 +66905,6 @@
           {
             "source": "spikeinterface",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "spinsfast",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "spinsfast",
-            "target": "pyseobnr"
           },
           {
             "source": "spire-pipeline",
@@ -68421,10 +68444,6 @@
           },
           {
             "source": "tbb",
-            "target": "backports-datetime-fromisoformat"
-          },
-          {
-            "source": "tbb",
             "target": "backports.zoneinfo"
           },
           {
@@ -68665,10 +68684,6 @@
           },
           {
             "source": "tbb",
-            "target": "bmf"
-          },
-          {
-            "source": "tbb",
             "target": "bodo"
           },
           {
@@ -68861,10 +68876,6 @@
           },
           {
             "source": "tbb",
-            "target": "casa_formats_io"
-          },
-          {
-            "source": "tbb",
             "target": "casacore"
           },
           {
@@ -68874,14 +68885,6 @@
           {
             "source": "tbb",
             "target": "casatools"
-          },
-          {
-            "source": "tbb",
-            "target": "cascade"
-          },
-          {
-            "source": "tbb",
-            "target": "cassandra"
           },
           {
             "source": "tbb",
@@ -69609,10 +69612,6 @@
           },
           {
             "source": "tbb",
-            "target": "cuda-core"
-          },
-          {
-            "source": "tbb",
             "target": "cuda-gdb"
           },
           {
@@ -70277,10 +70276,6 @@
           },
           {
             "source": "tbb",
-            "target": "dpct-meta"
-          },
-          {
-            "source": "tbb",
             "target": "dpctl"
           },
           {
@@ -70829,10 +70824,6 @@
           },
           {
             "source": "tbb",
-            "target": "fast_matrix_market"
-          },
-          {
-            "source": "tbb",
             "target": "fastapi-azure-auth"
           },
           {
@@ -71082,10 +71073,6 @@
           {
             "source": "tbb",
             "target": "flake8-to-ruff"
-          },
-          {
-            "source": "tbb",
-            "target": "flake8-typing-imports"
           },
           {
             "source": "tbb",
@@ -72033,10 +72020,6 @@
           },
           {
             "source": "tbb",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "tbb",
             "target": "hpp-python"
           },
           {
@@ -72277,10 +72260,6 @@
           },
           {
             "source": "tbb",
-            "target": "intervalxt"
-          },
-          {
-            "source": "tbb",
             "target": "invert4geom"
           },
           {
@@ -72402,10 +72381,6 @@
           {
             "source": "tbb",
             "target": "jellyfish"
-          },
-          {
-            "source": "tbb",
-            "target": "jenkinsapi"
           },
           {
             "source": "tbb",
@@ -72897,6 +72872,10 @@
           },
           {
             "source": "tbb",
+            "target": "libredwg"
+          },
+          {
+            "source": "tbb",
             "target": "librepo"
           },
           {
@@ -72954,10 +72933,6 @@
           {
             "source": "tbb",
             "target": "libxfoil"
-          },
-          {
-            "source": "tbb",
-            "target": "lief"
           },
           {
             "source": "tbb",
@@ -74053,10 +74028,6 @@
           },
           {
             "source": "tbb",
-            "target": "nuflux"
-          },
-          {
-            "source": "tbb",
             "target": "nuitka"
           },
           {
@@ -74361,10 +74332,6 @@
           },
           {
             "source": "tbb",
-            "target": "openmvs-split"
-          },
-          {
-            "source": "tbb",
             "target": "opennavsurf-bag"
           },
           {
@@ -74602,10 +74569,6 @@
           {
             "source": "tbb",
             "target": "panda3d_viewer"
-          },
-          {
-            "source": "tbb",
-            "target": "pandana"
           },
           {
             "source": "tbb",
@@ -75037,10 +75000,6 @@
           },
           {
             "source": "tbb",
-            "target": "polyglot-sql"
-          },
-          {
-            "source": "tbb",
             "target": "polygon3"
           },
           {
@@ -75082,10 +75041,6 @@
           {
             "source": "tbb",
             "target": "posix_ipc"
-          },
-          {
-            "source": "tbb",
-            "target": "postal"
           },
           {
             "source": "tbb",
@@ -76773,10 +76728,6 @@
           },
           {
             "source": "tbb",
-            "target": "pysdf"
-          },
-          {
-            "source": "tbb",
             "target": "pysdl2"
           },
           {
@@ -78381,6 +78332,10 @@
           },
           {
             "source": "tbb",
+            "target": "shapely"
+          },
+          {
+            "source": "tbb",
             "target": "shapelysmooth"
           },
           {
@@ -78802,10 +78757,6 @@
           {
             "source": "tbb",
             "target": "spikeinterface"
-          },
-          {
-            "source": "tbb",
-            "target": "spinsfast"
           },
           {
             "source": "tbb",
@@ -79326,10 +79277,6 @@
           {
             "source": "tbb",
             "target": "tinygrad"
-          },
-          {
-            "source": "tbb",
-            "target": "tinyobjloader"
           },
           {
             "source": "tbb",
@@ -80862,18 +80809,6 @@
           {
             "source": "tinygrad",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "mujoco"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "open3d"
           },
           {
             "source": "tkwant",
@@ -87947,12 +87882,6 @@
             }
           },
           {
-            "id": "backports-datetime-fromisoformat",
-            "payload": {
-              "__lazy_json__": "node_attrs/backports-datetime-fromisoformat.json"
-            }
-          },
-          {
             "id": "backports.zoneinfo",
             "payload": {
               "__lazy_json__": "node_attrs/backports.zoneinfo.json"
@@ -88313,12 +88242,6 @@
             }
           },
           {
-            "id": "bmf",
-            "payload": {
-              "__lazy_json__": "node_attrs/bmf.json"
-            }
-          },
-          {
             "id": "bodo",
             "payload": {
               "__lazy_json__": "node_attrs/bodo.json"
@@ -88607,12 +88530,6 @@
             }
           },
           {
-            "id": "casa_formats_io",
-            "payload": {
-              "__lazy_json__": "node_attrs/casa_formats_io.json"
-            }
-          },
-          {
             "id": "casacore",
             "payload": {
               "__lazy_json__": "node_attrs/casacore.json"
@@ -88628,18 +88545,6 @@
             "id": "casatools",
             "payload": {
               "__lazy_json__": "node_attrs/casatools.json"
-            }
-          },
-          {
-            "id": "cascade",
-            "payload": {
-              "__lazy_json__": "node_attrs/cascade.json"
-            }
-          },
-          {
-            "id": "cassandra",
-            "payload": {
-              "__lazy_json__": "node_attrs/cassandra.json"
             }
           },
           {
@@ -89729,12 +89634,6 @@
             }
           },
           {
-            "id": "cuda-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-core.json"
-            }
-          },
-          {
             "id": "cuda-gdb",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-gdb.json"
@@ -90713,12 +90612,6 @@
             }
           },
           {
-            "id": "dpct-meta",
-            "payload": {
-              "__lazy_json__": "node_attrs/dpct-meta.json"
-            }
-          },
-          {
             "id": "dpctl",
             "payload": {
               "__lazy_json__": "node_attrs/dpctl.json"
@@ -91535,12 +91428,6 @@
             }
           },
           {
-            "id": "fast_matrix_market",
-            "payload": {
-              "__lazy_json__": "node_attrs/fast_matrix_market.json"
-            }
-          },
-          {
             "id": "fastapi-azure-auth",
             "payload": {
               "__lazy_json__": "node_attrs/fastapi-azure-auth.json"
@@ -91916,12 +91803,6 @@
             "id": "flake8-to-ruff",
             "payload": {
               "__lazy_json__": "node_attrs/flake8-to-ruff.json"
-            }
-          },
-          {
-            "id": "flake8-typing-imports",
-            "payload": {
-              "__lazy_json__": "node_attrs/flake8-typing-imports.json"
             }
           },
           {
@@ -93323,12 +93204,6 @@
             }
           },
           {
-            "id": "hpp-plot",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpp-plot.json"
-            }
-          },
-          {
             "id": "hpp-python",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-python.json"
@@ -93683,12 +93558,6 @@
             }
           },
           {
-            "id": "intervalxt",
-            "payload": {
-              "__lazy_json__": "node_attrs/intervalxt.json"
-            }
-          },
-          {
             "id": "invert4geom",
             "payload": {
               "__lazy_json__": "node_attrs/invert4geom.json"
@@ -93872,12 +93741,6 @@
             "id": "jellyfish",
             "payload": {
               "__lazy_json__": "node_attrs/jellyfish.json"
-            }
-          },
-          {
-            "id": "jenkinsapi",
-            "payload": {
-              "__lazy_json__": "node_attrs/jenkinsapi.json"
             }
           },
           {
@@ -94595,6 +94458,12 @@
             }
           },
           {
+            "id": "libredwg",
+            "payload": {
+              "__lazy_json__": "node_attrs/libredwg.json"
+            }
+          },
+          {
             "id": "librepo",
             "payload": {
               "__lazy_json__": "node_attrs/librepo.json"
@@ -94682,12 +94551,6 @@
             "id": "libxfoil",
             "payload": {
               "__lazy_json__": "node_attrs/libxfoil.json"
-            }
-          },
-          {
-            "id": "lief",
-            "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
@@ -96311,12 +96174,6 @@
             }
           },
           {
-            "id": "nuflux",
-            "payload": {
-              "__lazy_json__": "node_attrs/nuflux.json"
-            }
-          },
-          {
             "id": "nuitka",
             "payload": {
               "__lazy_json__": "node_attrs/nuitka.json"
@@ -97121,12 +96978,6 @@
             }
           },
           {
-            "id": "pandana",
-            "payload": {
-              "__lazy_json__": "node_attrs/pandana.json"
-            }
-          },
-          {
             "id": "pandarm",
             "payload": {
               "__lazy_json__": "node_attrs/pandarm.json"
@@ -97745,12 +97596,6 @@
             }
           },
           {
-            "id": "polyglot-sql",
-            "payload": {
-              "__lazy_json__": "node_attrs/polyglot-sql.json"
-            }
-          },
-          {
             "id": "polygon3",
             "payload": {
               "__lazy_json__": "node_attrs/polygon3.json"
@@ -97814,12 +97659,6 @@
             "id": "posix_ipc",
             "payload": {
               "__lazy_json__": "node_attrs/posix_ipc.json"
-            }
-          },
-          {
-            "id": "postal",
-            "payload": {
-              "__lazy_json__": "node_attrs/postal.json"
             }
           },
           {
@@ -100319,12 +100158,6 @@
             }
           },
           {
-            "id": "pysdf",
-            "payload": {
-              "__lazy_json__": "node_attrs/pysdf.json"
-            }
-          },
-          {
             "id": "pysdl2",
             "payload": {
               "__lazy_json__": "node_attrs/pysdl2.json"
@@ -102713,6 +102546,12 @@
             }
           },
           {
+            "id": "shapely",
+            "payload": {
+              "__lazy_json__": "node_attrs/shapely.json"
+            }
+          },
+          {
             "id": "shapelysmooth",
             "payload": {
               "__lazy_json__": "node_attrs/shapelysmooth.json"
@@ -103334,12 +103173,6 @@
             "id": "spikeinterface",
             "payload": {
               "__lazy_json__": "node_attrs/spikeinterface.json"
-            }
-          },
-          {
-            "id": "spinsfast",
-            "payload": {
-              "__lazy_json__": "node_attrs/spinsfast.json"
             }
           },
           {
@@ -104126,12 +103959,6 @@
             "id": "tinygrad",
             "payload": {
               "__lazy_json__": "node_attrs/tinygrad.json"
-            }
-          },
-          {
-            "id": "tinyobjloader",
-            "payload": {
-              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
@@ -106028,12 +105855,6 @@
             "id": "twobitreader-rs",
             "payload": {
               "__lazy_json__": "node_attrs/twobitreader-rs.json"
-            }
-          },
-          {
-            "id": "openmvs-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           },
           {
