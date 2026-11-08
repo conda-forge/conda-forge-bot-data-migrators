@@ -68,12 +68,6 @@
             }
           },
           {
-            "id": "fenics-dolfinx",
-            "payload": {
-              "__lazy_json__": "node_attrs/fenics-dolfinx.json"
-            }
-          },
-          {
             "id": "freefem",
             "payload": {
               "__lazy_json__": "node_attrs/freefem.json"
@@ -101,12 +95,6 @@
             "id": "openfoam",
             "payload": {
               "__lazy_json__": "node_attrs/openfoam.json"
-            }
-          },
-          {
-            "id": "precice",
-            "payload": {
-              "__lazy_json__": "node_attrs/precice.json"
             }
           },
           {
@@ -428,7 +416,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
