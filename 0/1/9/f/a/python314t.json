@@ -2093,28 +2093,8 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cuda-core",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-core",
-            "target": "cuda-python"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nccl4py"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda-mlir"
-          },
-          {
             "source": "cuda-python",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-python",
-            "target": "cuda-core"
           },
           {
             "source": "cuda-python",
@@ -2315,10 +2295,6 @@
           {
             "source": "cython",
             "target": "cppbktree"
-          },
-          {
-            "source": "cython",
-            "target": "cuda-core"
           },
           {
             "source": "cython",
@@ -2975,6 +2951,10 @@
           {
             "source": "cython",
             "target": "selectolax"
+          },
+          {
+            "source": "cython",
+            "target": "shapely"
           },
           {
             "source": "cython",
@@ -4893,10 +4873,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "lief",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "light-curve-python",
             "target": "conda-forge-pinning"
           },
@@ -5363,10 +5339,6 @@
           {
             "source": "maturin",
             "target": "polars"
-          },
-          {
-            "source": "maturin",
-            "target": "polyglot-sql"
           },
           {
             "source": "maturin",
@@ -6206,10 +6178,6 @@
           },
           {
             "source": "numpy",
-            "target": "cuda-core"
-          },
-          {
-            "source": "numpy",
             "target": "cuda-python"
           },
           {
@@ -7038,6 +7006,10 @@
           },
           {
             "source": "numpy",
+            "target": "shapely"
+          },
+          {
+            "source": "numpy",
             "target": "sharplib"
           },
           {
@@ -7059,10 +7031,6 @@
           {
             "source": "numpy",
             "target": "spherical-geometry"
-          },
-          {
-            "source": "numpy",
-            "target": "spinsfast"
           },
           {
             "source": "numpy",
@@ -7969,10 +7937,6 @@
             "target": "wisdem"
           },
           {
-            "source": "polyglot-sql",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "polyhedral-gravity-model",
             "target": "conda-forge-pinning"
           },
@@ -8615,10 +8579,6 @@
           {
             "source": "pydantic-core",
             "target": "jax-finufft"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "lief"
           },
           {
             "source": "pydantic-core",
@@ -10793,6 +10753,38 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "shapely",
+            "target": "apache-sedona"
+          },
+          {
+            "source": "shapely",
+            "target": "cartopy"
+          },
+          {
+            "source": "shapely",
+            "target": "catsmoothing"
+          },
+          {
+            "source": "shapely",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "gridmarthe"
+          },
+          {
+            "source": "shapely",
+            "target": "pyproj"
+          },
+          {
+            "source": "shapely",
+            "target": "pyresample"
+          },
+          {
+            "source": "shapely",
+            "target": "rasterio"
+          },
+          {
             "source": "sharplib",
             "target": "conda-forge-pinning"
           },
@@ -10878,10 +10870,6 @@
           },
           {
             "source": "spherical-geometry",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "spinsfast",
             "target": "conda-forge-pinning"
           },
           {
@@ -11323,10 +11311,6 @@
           {
             "source": "tbb",
             "target": "createrepo_c"
-          },
-          {
-            "source": "tbb",
-            "target": "cuda-core"
           },
           {
             "source": "tbb",
@@ -11966,10 +11950,6 @@
           },
           {
             "source": "tbb",
-            "target": "lief"
-          },
-          {
-            "source": "tbb",
             "target": "light-curve-python"
           },
           {
@@ -12391,10 +12371,6 @@
           {
             "source": "tbb",
             "target": "polars"
-          },
-          {
-            "source": "tbb",
-            "target": "polyglot-sql"
           },
           {
             "source": "tbb",
@@ -13202,6 +13178,10 @@
           },
           {
             "source": "tbb",
+            "target": "shapely"
+          },
+          {
+            "source": "tbb",
             "target": "sharplib"
           },
           {
@@ -13247,10 +13227,6 @@
           {
             "source": "tbb",
             "target": "spherical-geometry"
-          },
-          {
-            "source": "tbb",
-            "target": "spinsfast"
           },
           {
             "source": "tbb",
@@ -13335,10 +13311,6 @@
           {
             "source": "tbb",
             "target": "time-machine"
-          },
-          {
-            "source": "tbb",
-            "target": "tinyobjloader"
           },
           {
             "source": "tbb",
@@ -13659,14 +13631,6 @@
           {
             "source": "time-machine",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "mujoco"
           },
           {
             "source": "tokenizers",
@@ -15368,12 +15332,6 @@
             }
           },
           {
-            "id": "cuda-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-core.json"
-            }
-          },
-          {
             "id": "cuda-python",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-python.json"
@@ -16328,12 +16286,6 @@
             }
           },
           {
-            "id": "lief",
-            "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
-            }
-          },
-          {
             "id": "light-curve-python",
             "payload": {
               "__lazy_json__": "node_attrs/light-curve-python.json"
@@ -16961,12 +16913,6 @@
             "id": "polars",
             "payload": {
               "__lazy_json__": "node_attrs/polars.json"
-            }
-          },
-          {
-            "id": "polyglot-sql",
-            "payload": {
-              "__lazy_json__": "node_attrs/polyglot-sql.json"
             }
           },
           {
@@ -18176,6 +18122,12 @@
             }
           },
           {
+            "id": "shapely",
+            "payload": {
+              "__lazy_json__": "node_attrs/shapely.json"
+            }
+          },
+          {
             "id": "sharplib",
             "payload": {
               "__lazy_json__": "node_attrs/sharplib.json"
@@ -18245,12 +18197,6 @@
             "id": "spherical-geometry",
             "payload": {
               "__lazy_json__": "node_attrs/spherical-geometry.json"
-            }
-          },
-          {
-            "id": "spinsfast",
-            "payload": {
-              "__lazy_json__": "node_attrs/spinsfast.json"
             }
           },
           {
@@ -18383,12 +18329,6 @@
             "id": "time-machine",
             "payload": {
               "__lazy_json__": "node_attrs/time-machine.json"
-            }
-          },
-          {
-            "id": "tinyobjloader",
-            "payload": {
-              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
