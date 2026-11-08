@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "libvpl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvpl.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -3658,6 +3665,10 @@
             "target": "python"
           },
           {
+            "source": "svt-av1",
+            "target": "ffmpeg"
+          },
+          {
             "source": "systemd",
             "target": "grpc-cpp"
           },
@@ -6779,6 +6790,12 @@
             }
           },
           {
+            "id": "svt-av1",
+            "payload": {
+              "__lazy_json__": "node_attrs/svt-av1.json"
+            }
+          },
+          {
             "id": "systemd",
             "payload": {
               "__lazy_json__": "node_attrs/systemd.json"
@@ -7364,6 +7381,7 @@
         "simde",
         "simdjson",
         "spirv-tools",
+        "svt-av1",
         "tapi",
         "termcolor-cpp",
         "tinyxml2",
