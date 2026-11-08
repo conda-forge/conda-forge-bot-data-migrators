@@ -302,11 +302,55 @@
           },
           {
             "source": "ast-serialize",
+            "target": "catboost"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "chardet"
+          },
+          {
+            "source": "ast-serialize",
             "target": "conda-forge-pinning"
           },
           {
             "source": "ast-serialize",
-            "target": "mypy"
+            "target": "coredis"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "fastar"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "mne-lsl"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pyshtools"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pytokens"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "wisdem"
           },
           {
             "source": "astra-toolbox",
@@ -567,10 +611,6 @@
           {
             "source": "backports.zstd",
             "target": "netcdf4"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "nh3"
           },
           {
             "source": "backports.zstd",
@@ -1131,10 +1171,6 @@
           {
             "source": "brotli",
             "target": "netcdf4"
-          },
-          {
-            "source": "brotli",
-            "target": "nh3"
           },
           {
             "source": "brotli",
@@ -1966,10 +2002,6 @@
           },
           {
             "source": "coverage",
-            "target": "nh3"
-          },
-          {
-            "source": "coverage",
             "target": "p4p"
           },
           {
@@ -2091,22 +2123,6 @@
           {
             "source": "createrepo_c",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-python",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-python",
-            "target": "nccl4py"
-          },
-          {
-            "source": "cuda-python",
-            "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-python",
-            "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "cupy",
@@ -2295,10 +2311,6 @@
           {
             "source": "cython",
             "target": "cppbktree"
-          },
-          {
-            "source": "cython",
-            "target": "cuda-python"
           },
           {
             "source": "cython",
@@ -4934,10 +4946,6 @@
           },
           {
             "source": "lxml",
-            "target": "mypy"
-          },
-          {
-            "source": "lxml",
             "target": "pikepdf"
           },
           {
@@ -5306,19 +5314,11 @@
           },
           {
             "source": "maturin",
-            "target": "nh3"
-          },
-          {
-            "source": "maturin",
             "target": "obstore"
           },
           {
             "source": "maturin",
             "target": "opening-hours-py"
-          },
-          {
-            "source": "maturin",
-            "target": "orjson"
           },
           {
             "source": "maturin",
@@ -5773,62 +5773,6 @@
             "target": "preshed"
           },
           {
-            "source": "mypy",
-            "target": "catboost"
-          },
-          {
-            "source": "mypy",
-            "target": "chardet"
-          },
-          {
-            "source": "mypy",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "mypy",
-            "target": "coredis"
-          },
-          {
-            "source": "mypy",
-            "target": "fastar"
-          },
-          {
-            "source": "mypy",
-            "target": "mne-lsl"
-          },
-          {
-            "source": "mypy",
-            "target": "orjson"
-          },
-          {
-            "source": "mypy",
-            "target": "pyshtools"
-          },
-          {
-            "source": "mypy",
-            "target": "pytokens"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "mypy",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "mypy",
-            "target": "wisdem"
-          },
-          {
             "source": "mysqlclient",
             "target": "conda-forge-pinning"
           },
@@ -5887,22 +5831,6 @@
           {
             "source": "newrelic",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nh3",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nh3",
-            "target": "freeze-core"
-          },
-          {
-            "source": "nh3",
-            "target": "python-marisa-trie"
-          },
-          {
-            "source": "nh3",
-            "target": "wisdem"
           },
           {
             "source": "nlopt",
@@ -6175,10 +6103,6 @@
           {
             "source": "numpy",
             "target": "cpnest"
-          },
-          {
-            "source": "numpy",
-            "target": "cuda-python"
           },
           {
             "source": "numpy",
@@ -7317,22 +7241,6 @@
             "target": "orange3-associate"
           },
           {
-            "source": "orjson",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "orjson",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "orjson",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "orjson",
-            "target": "viztracer"
-          },
-          {
             "source": "ormsgpack",
             "target": "conda-forge-pinning"
           },
@@ -8086,6 +7994,10 @@
           },
           {
             "source": "psutil",
+            "target": "chardet"
+          },
+          {
+            "source": "psutil",
             "target": "cocoindex"
           },
           {
@@ -8095,6 +8007,10 @@
           {
             "source": "psutil",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "psutil",
+            "target": "coredis"
           },
           {
             "source": "psutil",
@@ -8182,15 +8098,7 @@
           },
           {
             "source": "psutil",
-            "target": "mypy"
-          },
-          {
-            "source": "psutil",
             "target": "netcdf4"
-          },
-          {
-            "source": "psutil",
-            "target": "nh3"
           },
           {
             "source": "psutil",
@@ -8278,6 +8186,10 @@
           },
           {
             "source": "psutil",
+            "target": "pytokens"
+          },
+          {
+            "source": "psutil",
             "target": "pyzmq"
           },
           {
@@ -8338,7 +8250,19 @@
           },
           {
             "source": "psutil",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "psutil",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "psutil",
             "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "psutil",
+            "target": "unicorn-fy"
           },
           {
             "source": "psutil",
@@ -9278,11 +9202,55 @@
           },
           {
             "source": "python-librt",
+            "target": "catboost"
+          },
+          {
+            "source": "python-librt",
+            "target": "chardet"
+          },
+          {
+            "source": "python-librt",
             "target": "conda-forge-pinning"
           },
           {
             "source": "python-librt",
-            "target": "mypy"
+            "target": "coredis"
+          },
+          {
+            "source": "python-librt",
+            "target": "fastar"
+          },
+          {
+            "source": "python-librt",
+            "target": "mne-lsl"
+          },
+          {
+            "source": "python-librt",
+            "target": "pyshtools"
+          },
+          {
+            "source": "python-librt",
+            "target": "pytokens"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "python-librt",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "python-librt",
+            "target": "wisdem"
           },
           {
             "source": "python-lmdb",
@@ -9691,10 +9659,6 @@
           {
             "source": "pyyaml",
             "target": "netcdf4"
-          },
-          {
-            "source": "pyyaml",
-            "target": "nh3"
           },
           {
             "source": "pyyaml",
@@ -11314,10 +11278,6 @@
           },
           {
             "source": "tbb",
-            "target": "cuda-python"
-          },
-          {
-            "source": "tbb",
             "target": "cupy"
           },
           {
@@ -12122,10 +12082,6 @@
           },
           {
             "source": "tbb",
-            "target": "mypy"
-          },
-          {
-            "source": "tbb",
             "target": "mysqlclient"
           },
           {
@@ -12155,10 +12111,6 @@
           {
             "source": "tbb",
             "target": "newrelic"
-          },
-          {
-            "source": "tbb",
-            "target": "nh3"
           },
           {
             "source": "tbb",
@@ -12279,10 +12231,6 @@
           {
             "source": "tbb",
             "target": "orange3-associate"
-          },
-          {
-            "source": "tbb",
-            "target": "orjson"
           },
           {
             "source": "tbb",
@@ -14038,10 +13986,6 @@
           },
           {
             "source": "ujson",
-            "target": "nh3"
-          },
-          {
-            "source": "ujson",
             "target": "opencv"
           },
           {
@@ -14371,10 +14315,6 @@
           {
             "source": "wcwidth",
             "target": "netcdf4"
-          },
-          {
-            "source": "wcwidth",
-            "target": "nh3"
           },
           {
             "source": "wcwidth",
@@ -15329,12 +15269,6 @@
             "id": "createrepo_c",
             "payload": {
               "__lazy_json__": "node_attrs/createrepo_c.json"
-            }
-          },
-          {
-            "id": "cuda-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -16544,12 +16478,6 @@
             }
           },
           {
-            "id": "mypy",
-            "payload": {
-              "__lazy_json__": "node_attrs/mypy.json"
-            }
-          },
-          {
             "id": "mysqlclient",
             "payload": {
               "__lazy_json__": "node_attrs/mysqlclient.json"
@@ -16595,12 +16523,6 @@
             "id": "newrelic",
             "payload": {
               "__lazy_json__": "node_attrs/newrelic.json"
-            }
-          },
-          {
-            "id": "nh3",
-            "payload": {
-              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
@@ -16781,12 +16703,6 @@
             "id": "orange3-associate",
             "payload": {
               "__lazy_json__": "node_attrs/orange3-associate.json"
-            }
-          },
-          {
-            "id": "orjson",
-            "payload": {
-              "__lazy_json__": "node_attrs/orjson.json"
             }
           },
           {
