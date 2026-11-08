@@ -19127,6 +19127,10 @@
           },
           {
             "source": "cmake",
+            "target": "libbson"
+          },
+          {
+            "source": "cmake",
             "target": "libcbor"
           },
           {
@@ -33703,6 +33707,10 @@
           },
           {
             "source": "gmp",
+            "target": "pycryptodomex"
+          },
+          {
+            "source": "gmp",
             "target": "pyg4ometry"
           },
           {
@@ -39252,6 +39260,14 @@
           {
             "source": "libbraiding",
             "target": "sagelib"
+          },
+          {
+            "source": "libbson",
+            "target": "libmongoc"
+          },
+          {
+            "source": "libbson",
+            "target": "libmongocxx"
           },
           {
             "source": "libcap",
@@ -58007,6 +58023,10 @@
           },
           {
             "source": "ninja",
+            "target": "libbson"
+          },
+          {
+            "source": "ninja",
             "target": "libcint"
           },
           {
@@ -67343,6 +67363,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libbson"
+          },
+          {
+            "source": "pkg-config",
             "target": "libcap"
           },
           {
@@ -67512,10 +67536,6 @@
           {
             "source": "pkg-config",
             "target": "libmongoc"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libmongocxx"
           },
           {
             "source": "pkg-config",
@@ -70564,6 +70584,10 @@
           {
             "source": "psutil",
             "target": "pyarrow"
+          },
+          {
+            "source": "psutil",
+            "target": "pycryptodomex"
           },
           {
             "source": "psutil",
@@ -75916,6 +75940,10 @@
           {
             "source": "python",
             "target": "pycryptodome"
+          },
+          {
+            "source": "python",
+            "target": "pycryptodomex"
           },
           {
             "source": "python",
@@ -111745,6 +111773,12 @@
             }
           },
           {
+            "id": "libbson",
+            "payload": {
+              "__lazy_json__": "node_attrs/libbson.json"
+            }
+          },
+          {
             "id": "libcap",
             "payload": {
               "__lazy_json__": "node_attrs/libcap.json"
@@ -115510,6 +115544,12 @@
             "id": "pycryptodome",
             "payload": {
               "__lazy_json__": "node_attrs/pycryptodome.json"
+            }
+          },
+          {
+            "id": "pycryptodomex",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycryptodomex.json"
             }
           },
           {
