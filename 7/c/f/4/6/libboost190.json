@@ -273,10 +273,6 @@
           },
           {
             "source": "cgal-cpp",
-            "target": "gudhi"
-          },
-          {
-            "source": "cgal-cpp",
             "target": "herwig"
           },
           {
@@ -768,6 +764,10 @@
             "target": "hpp-gui"
           },
           {
+            "source": "gepetto-viewer-corba",
+            "target": "hpp-plot"
+          },
+          {
             "source": "gepetto-viewer",
             "target": "conda-forge-pinning"
           },
@@ -782,6 +782,10 @@
           {
             "source": "gepetto-viewer",
             "target": "hpp-gui"
+          },
+          {
+            "source": "gepetto-viewer",
+            "target": "hpp-plot"
           },
           {
             "source": "glomap",
@@ -900,23 +904,11 @@
             "target": "gtsam-points"
           },
           {
-            "source": "gudhi",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "gudhi",
-            "target": "multipers"
-          },
-          {
             "source": "gwframe",
             "target": "conda-forge-pinning"
           },
           {
             "source": "hammer",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "heaptrack",
             "target": "conda-forge-pinning"
           },
           {
@@ -1002,6 +994,10 @@
           {
             "source": "hpp-corbaserver",
             "target": "hpp-manipulation-corba"
+          },
+          {
+            "source": "hpp-corbaserver",
+            "target": "hpp-plot"
           },
           {
             "source": "hpp-corbaserver",
@@ -1093,6 +1089,10 @@
           },
           {
             "source": "hpp-manipulation-corba",
+            "target": "hpp-plot"
+          },
+          {
+            "source": "hpp-manipulation-corba",
             "target": "hpp-tutorial"
           },
           {
@@ -1126,6 +1126,10 @@
           {
             "source": "hpp-manipulation",
             "target": "hpp-manipulation-urdf"
+          },
+          {
+            "source": "hpp-manipulation",
+            "target": "hpp-plot"
           },
           {
             "source": "hpp-manipulation",
@@ -1173,6 +1177,18 @@
           },
           {
             "source": "hpp-pinocchio",
+            "target": "hpp-tutorial"
+          },
+          {
+            "source": "hpp-plot",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hpp-plot",
+            "target": "hpp-practicals"
+          },
+          {
+            "source": "hpp-plot",
             "target": "hpp-tutorial"
           },
           {
@@ -2154,6 +2170,10 @@
           {
             "source": "qgv",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qgv",
+            "target": "hpp-plot"
           },
           {
             "source": "qpmad",
@@ -3231,12 +3251,6 @@
             }
           },
           {
-            "id": "gudhi",
-            "payload": {
-              "__lazy_json__": "node_attrs/gudhi.json"
-            }
-          },
-          {
             "id": "gwframe",
             "payload": {
               "__lazy_json__": "node_attrs/gwframe.json"
@@ -3246,12 +3260,6 @@
             "id": "hammer",
             "payload": {
               "__lazy_json__": "node_attrs/hammer.json"
-            }
-          },
-          {
-            "id": "heaptrack",
-            "payload": {
-              "__lazy_json__": "node_attrs/heaptrack.json"
             }
           },
           {
@@ -3342,6 +3350,12 @@
             "id": "hpp-pinocchio",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-pinocchio.json"
+            }
+          },
+          {
+            "id": "hpp-plot",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpp-plot.json"
             }
           },
           {
