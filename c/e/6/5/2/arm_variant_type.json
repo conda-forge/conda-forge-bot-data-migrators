@@ -1065,6 +1065,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "glim",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "glomap",
             "target": "conda-forge-pinning"
           },
@@ -1083,6 +1087,10 @@
           {
             "source": "gtsam-points",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtsam-points",
+            "target": "glim"
           },
           {
             "source": "heat",
@@ -2431,6 +2439,12 @@
             "id": "gauxc",
             "payload": {
               "__lazy_json__": "node_attrs/gauxc.json"
+            }
+          },
+          {
+            "id": "glim",
+            "payload": {
+              "__lazy_json__": "node_attrs/glim.json"
             }
           },
           {
