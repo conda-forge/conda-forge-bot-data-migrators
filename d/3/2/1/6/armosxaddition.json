@@ -3483,6 +3483,10 @@
           },
           {
             "source": "autoconf",
+            "target": "spinsfast"
+          },
+          {
+            "source": "autoconf",
             "target": "srm-ifce"
           },
           {
@@ -4704,6 +4708,10 @@
           {
             "source": "automake",
             "target": "singular"
+          },
+          {
+            "source": "automake",
+            "target": "spinsfast"
           },
           {
             "source": "automake",
@@ -7891,6 +7899,10 @@
           },
           {
             "source": "blas",
+            "target": "jags"
+          },
+          {
+            "source": "blas",
             "target": "julia"
           },
           {
@@ -8236,10 +8248,6 @@
           {
             "source": "blas",
             "target": "r-rfast"
-          },
-          {
-            "source": "blas",
-            "target": "r-rjags"
           },
           {
             "source": "blas",
@@ -17339,6 +17347,10 @@
           },
           {
             "source": "cmake",
+            "target": "spinsfast"
+          },
+          {
+            "source": "cmake",
             "target": "spirv-tools"
           },
           {
@@ -22528,6 +22540,10 @@
           {
             "source": "cython",
             "target": "fastparquet"
+          },
+          {
+            "source": "cython",
+            "target": "fastremap"
           },
           {
             "source": "cython",
@@ -29532,6 +29548,10 @@
           {
             "source": "gettext",
             "target": "sed"
+          },
+          {
+            "source": "gettext",
+            "target": "spinsfast"
           },
           {
             "source": "gettext",
@@ -36690,6 +36710,10 @@
             "target": "embree"
           },
           {
+            "source": "jags",
+            "target": "r-rjags"
+          },
+          {
             "source": "jansson",
             "target": "scipoptsuite"
           },
@@ -37627,6 +37651,10 @@
           },
           {
             "source": "lapack",
+            "target": "jags"
+          },
+          {
+            "source": "lapack",
             "target": "julia"
           },
           {
@@ -37972,10 +38000,6 @@
           {
             "source": "lapack",
             "target": "r-rfast"
-          },
-          {
-            "source": "lapack",
-            "target": "r-rjags"
           },
           {
             "source": "lapack",
@@ -43303,6 +43327,10 @@
           },
           {
             "source": "libtool",
+            "target": "spinsfast"
+          },
+          {
+            "source": "libtool",
             "target": "srm-ifce"
           },
           {
@@ -45339,6 +45367,10 @@
           },
           {
             "source": "luajit-openresty",
+            "target": "luarocks"
+          },
+          {
+            "source": "luajit-openresty",
             "target": "luv"
           },
           {
@@ -45348,6 +45380,10 @@
           {
             "source": "lua",
             "target": "libsimpleitk"
+          },
+          {
+            "source": "lua",
+            "target": "luarocks"
           },
           {
             "source": "lua",
@@ -46744,6 +46780,10 @@
           {
             "source": "m4",
             "target": "scilab"
+          },
+          {
+            "source": "m4",
+            "target": "spinsfast"
           },
           {
             "source": "m4",
@@ -48371,6 +48411,10 @@
           },
           {
             "source": "make",
+            "target": "jags"
+          },
+          {
+            "source": "make",
             "target": "jansson"
           },
           {
@@ -49072,6 +49116,10 @@
           {
             "source": "make",
             "target": "luajit-openresty"
+          },
+          {
+            "source": "make",
+            "target": "luarocks"
           },
           {
             "source": "make",
@@ -52164,6 +52212,10 @@
           {
             "source": "make",
             "target": "spiceypy"
+          },
+          {
+            "source": "make",
+            "target": "spinsfast"
           },
           {
             "source": "make",
@@ -56064,6 +56116,10 @@
           {
             "source": "mpich",
             "target": "slepc"
+          },
+          {
+            "source": "mpich",
+            "target": "spinsfast"
           },
           {
             "source": "mpich",
@@ -61771,6 +61827,10 @@
           },
           {
             "source": "numpy",
+            "target": "fastremap"
+          },
+          {
+            "source": "numpy",
             "target": "fasttext"
           },
           {
@@ -63604,6 +63664,10 @@
           {
             "source": "numpy",
             "target": "spiceypy"
+          },
+          {
+            "source": "numpy",
+            "target": "spinsfast"
           },
           {
             "source": "numpy",
@@ -65455,6 +65519,10 @@
           },
           {
             "source": "openmpi",
+            "target": "spinsfast"
+          },
+          {
+            "source": "openmpi",
             "target": "stockwell"
           },
           {
@@ -65500,6 +65568,10 @@
           {
             "source": "openmpi",
             "target": "zoltan"
+          },
+          {
+            "source": "openmp",
+            "target": "jags"
           },
           {
             "source": "openmp",
@@ -66035,10 +66107,6 @@
           },
           {
             "source": "openmp",
-            "target": "r-rjags"
-          },
-          {
-            "source": "openmp",
             "target": "r-sitmo"
           },
           {
@@ -66128,6 +66196,10 @@
           {
             "source": "openmp",
             "target": "spam"
+          },
+          {
+            "source": "openmp",
+            "target": "spinsfast"
           },
           {
             "source": "openmp",
@@ -70283,6 +70355,10 @@
           },
           {
             "source": "perl",
+            "target": "spinsfast"
+          },
+          {
+            "source": "perl",
             "target": "stockwell"
           },
           {
@@ -71724,6 +71800,10 @@
           {
             "source": "pkg-config",
             "target": "isce2"
+          },
+          {
+            "source": "pkg-config",
+            "target": "jags"
           },
           {
             "source": "pkg-config",
@@ -81119,6 +81199,10 @@
           },
           {
             "source": "python",
+            "target": "fastremap"
+          },
+          {
+            "source": "python",
             "target": "fasttext"
           },
           {
@@ -84856,6 +84940,10 @@
           {
             "source": "python",
             "target": "spiceypy"
+          },
+          {
+            "source": "python",
+            "target": "spinsfast"
           },
           {
             "source": "python",
@@ -101803,6 +101891,10 @@
           },
           {
             "source": "sed",
+            "target": "luarocks"
+          },
+          {
+            "source": "sed",
             "target": "mcstas-suite"
           },
           {
@@ -106268,6 +106360,10 @@
           {
             "source": "unzip",
             "target": "libnetcdf"
+          },
+          {
+            "source": "unzip",
+            "target": "luarocks"
           },
           {
             "source": "unzip",
@@ -119695,6 +119791,12 @@
             }
           },
           {
+            "id": "fastremap",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastremap.json"
+            }
+          },
+          {
             "id": "fasttext",
             "payload": {
               "__lazy_json__": "node_attrs/fasttext.json"
@@ -121735,6 +121837,12 @@
             }
           },
           {
+            "id": "jags",
+            "payload": {
+              "__lazy_json__": "node_attrs/jags.json"
+            }
+          },
+          {
             "id": "jansson",
             "payload": {
               "__lazy_json__": "node_attrs/jansson.json"
@@ -123628,6 +123736,12 @@
             "id": "luajit-openresty",
             "payload": {
               "__lazy_json__": "node_attrs/luajit-openresty.json"
+            }
+          },
+          {
+            "id": "luarocks",
+            "payload": {
+              "__lazy_json__": "node_attrs/luarocks.json"
             }
           },
           {
@@ -131410,6 +131524,12 @@
             "id": "spiceypy",
             "payload": {
               "__lazy_json__": "node_attrs/spiceypy.json"
+            }
+          },
+          {
+            "id": "spinsfast",
+            "payload": {
+              "__lazy_json__": "node_attrs/spinsfast.json"
             }
           },
           {
