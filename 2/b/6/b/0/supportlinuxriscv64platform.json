@@ -299,7 +299,7 @@
           },
           {
             "source": "brotli",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
           },
           {
             "source": "brotli",
@@ -363,6 +363,10 @@
           },
           {
             "source": "cairo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "cairo",
             "target": "gobject-introspection"
           },
           {
@@ -376,10 +380,6 @@
           {
             "source": "cairo",
             "target": "libdecor"
-          },
-          {
-            "source": "cairo",
-            "target": "librsvg"
           },
           {
             "source": "cairo",
@@ -723,10 +723,6 @@
           },
           {
             "source": "expat",
-            "target": "librsvg"
-          },
-          {
-            "source": "expat",
             "target": "pango"
           },
           {
@@ -811,10 +807,6 @@
           },
           {
             "source": "fontconfig",
-            "target": "librsvg"
-          },
-          {
-            "source": "fontconfig",
             "target": "pango"
           },
           {
@@ -871,10 +863,6 @@
           },
           {
             "source": "freetype",
-            "target": "librsvg"
-          },
-          {
-            "source": "freetype",
             "target": "pango"
           },
           {
@@ -907,15 +895,15 @@
           },
           {
             "source": "gdk-pixbuf",
-            "target": "gtk3"
+            "target": "ffmpeg"
           },
           {
             "source": "gdk-pixbuf",
-            "target": "librsvg"
+            "target": "gtk3"
           },
           {
             "source": "giflib",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
           },
           {
             "source": "giflib",
@@ -968,10 +956,6 @@
           {
             "source": "glib",
             "target": "libdecor"
-          },
-          {
-            "source": "glib",
-            "target": "librsvg"
           },
           {
             "source": "glib",
@@ -1107,11 +1091,7 @@
           },
           {
             "source": "gz-cmake",
-            "target": "libsdformat"
-          },
-          {
-            "source": "gz-math",
-            "target": "libsdformat"
+            "target": "pinocchio"
           },
           {
             "source": "gz-math",
@@ -1119,7 +1099,7 @@
           },
           {
             "source": "gz-tools2",
-            "target": "libsdformat"
+            "target": "pinocchio"
           },
           {
             "source": "gz-utils",
@@ -1127,7 +1107,7 @@
           },
           {
             "source": "gz-utils",
-            "target": "libsdformat"
+            "target": "pinocchio"
           },
           {
             "source": "harfbuzz",
@@ -1140,10 +1120,6 @@
           {
             "source": "harfbuzz",
             "target": "libass"
-          },
-          {
-            "source": "harfbuzz",
-            "target": "librsvg"
           },
           {
             "source": "harfbuzz",
@@ -1551,7 +1527,7 @@
           },
           {
             "source": "libhwy",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
           },
           {
             "source": "libiconv",
@@ -1623,15 +1599,15 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "gdk-pixbuf"
           },
           {
             "source": "libjpeg-turbo",
             "target": "lcms2"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "libjxl-split"
           },
           {
             "source": "libjpeg-turbo",
@@ -1648,10 +1624,6 @@
           {
             "source": "libjpeg-turbo",
             "target": "r-base"
-          },
-          {
-            "source": "libjxl-split",
-            "target": "ffmpeg"
           },
           {
             "source": "libnl",
@@ -1675,15 +1647,15 @@
           },
           {
             "source": "libogg",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libogg",
             "target": "libflac"
           },
           {
             "source": "libogg",
             "target": "libsndfile"
-          },
-          {
-            "source": "libogg",
-            "target": "libvorbis"
           },
           {
             "source": "libopus",
@@ -1715,6 +1687,10 @@
           },
           {
             "source": "libpng",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libpng",
             "target": "freetype"
           },
           {
@@ -1723,15 +1699,11 @@
           },
           {
             "source": "libpng",
+            "target": "gtk3"
+          },
+          {
+            "source": "libpng",
             "target": "harfbuzz"
-          },
-          {
-            "source": "libpng",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "libpng",
-            "target": "librsvg"
           },
           {
             "source": "libpng",
@@ -1768,18 +1740,6 @@
           {
             "source": "libqdldl",
             "target": "libosqp"
-          },
-          {
-            "source": "librsvg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "librsvg",
-            "target": "gtk3"
-          },
-          {
-            "source": "libsdformat",
-            "target": "pinocchio"
           },
           {
             "source": "libsndfile",
@@ -1942,14 +1902,6 @@
             "target": "libvpl"
           },
           {
-            "source": "libvorbis",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libvorbis",
-            "target": "libsndfile"
-          },
-          {
             "source": "libvpl",
             "target": "ffmpeg"
           },
@@ -1987,11 +1939,11 @@
           },
           {
             "source": "libxcb",
-            "target": "libva"
+            "target": "gtk3"
           },
           {
             "source": "libxcb",
-            "target": "libxkbcommon"
+            "target": "libva"
           },
           {
             "source": "libxcb",
@@ -2000,6 +1952,10 @@
           {
             "source": "libxcb",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libxcb",
+            "target": "sdl"
           },
           {
             "source": "libxcb",
@@ -2022,14 +1978,6 @@
             "target": "util-linux"
           },
           {
-            "source": "libxkbcommon",
-            "target": "gtk3"
-          },
-          {
-            "source": "libxkbcommon",
-            "target": "sdl"
-          },
-          {
             "source": "libxml2",
             "target": "at-spi2-core"
           },
@@ -2039,23 +1987,15 @@
           },
           {
             "source": "libxml2",
+            "target": "gtk3"
+          },
+          {
+            "source": "libxml2",
             "target": "libarchive"
           },
           {
             "source": "libxml2",
             "target": "libhwloc"
-          },
-          {
-            "source": "libxml2",
-            "target": "librsvg"
-          },
-          {
-            "source": "libxml2",
-            "target": "libxkbcommon"
-          },
-          {
-            "source": "libxml2",
-            "target": "libxslt"
           },
           {
             "source": "libxml2",
@@ -2087,15 +2027,15 @@
           },
           {
             "source": "libxml2",
+            "target": "sdl"
+          },
+          {
+            "source": "libxml2",
             "target": "soxr"
           },
           {
             "source": "libxml2",
             "target": "tbb"
-          },
-          {
-            "source": "libxslt",
-            "target": "lxml"
           },
           {
             "source": "llvmdev",
@@ -2186,14 +2126,6 @@
             "target": "conda-forge-ci-setup"
           },
           {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
             "source": "mimalloc",
             "target": "mold"
           },
@@ -2256,6 +2188,10 @@
           {
             "source": "mpich",
             "target": "mumps"
+          },
+          {
+            "source": "mpich",
+            "target": "parmetis"
           },
           {
             "source": "mpich",
@@ -2475,7 +2411,7 @@
           },
           {
             "source": "openexr",
-            "target": "libjxl-split"
+            "target": "ffmpeg"
           },
           {
             "source": "openh264",
@@ -2492,6 +2428,10 @@
           {
             "source": "openmpi",
             "target": "mumps"
+          },
+          {
+            "source": "openmpi",
+            "target": "parmetis"
           },
           {
             "source": "openmpi",
@@ -2643,6 +2583,10 @@
           },
           {
             "source": "pango",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "pango",
             "target": "gtk3"
           },
           {
@@ -2651,11 +2595,11 @@
           },
           {
             "source": "pango",
-            "target": "librsvg"
+            "target": "r-base"
           },
           {
-            "source": "pango",
-            "target": "r-base"
+            "source": "parmetis",
+            "target": "mumps"
           },
           {
             "source": "patch",
@@ -2779,6 +2723,10 @@
           },
           {
             "source": "pthread-stubs",
+            "target": "gtk3"
+          },
+          {
+            "source": "pthread-stubs",
             "target": "harfbuzz"
           },
           {
@@ -2787,7 +2735,7 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "libxkbcommon"
+            "target": "sdl"
           },
           {
             "source": "pthread-stubs",
@@ -2963,6 +2911,10 @@
           },
           {
             "source": "python",
+            "target": "gtk3"
+          },
+          {
+            "source": "python",
             "target": "gz-math"
           },
           {
@@ -2975,15 +2927,7 @@
           },
           {
             "source": "python",
-            "target": "libsdformat"
-          },
-          {
-            "source": "python",
             "target": "libxcb"
-          },
-          {
-            "source": "python",
-            "target": "libxkbcommon"
           },
           {
             "source": "python",
@@ -3104,6 +3048,10 @@
           {
             "source": "python",
             "target": "scipy"
+          },
+          {
+            "source": "python",
+            "target": "sdl"
           },
           {
             "source": "python",
@@ -3731,7 +3679,7 @@
           },
           {
             "source": "tinyxml2",
-            "target": "libsdformat"
+            "target": "pinocchio"
           },
           {
             "source": "tinyxml2",
@@ -3772,10 +3720,6 @@
           {
             "source": "urdfdom_headers",
             "target": "urdfdom"
-          },
-          {
-            "source": "urdfdom",
-            "target": "libsdformat"
           },
           {
             "source": "urdfdom",
@@ -3863,7 +3807,11 @@
           },
           {
             "source": "xkeyboard-config",
-            "target": "libxkbcommon"
+            "target": "gtk3"
+          },
+          {
+            "source": "xkeyboard-config",
+            "target": "sdl"
           },
           {
             "source": "xorg-inputproto",
@@ -4027,11 +3975,15 @@
           },
           {
             "source": "xorg-libxau",
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-libxau",
             "target": "libxcb"
           },
           {
             "source": "xorg-libxau",
-            "target": "libxkbcommon"
+            "target": "sdl"
           },
           {
             "source": "xorg-libxcomposite",
@@ -4275,10 +4227,6 @@
           },
           {
             "source": "xorg-util-macros",
-            "target": "librsvg"
-          },
-          {
-            "source": "xorg-util-macros",
             "target": "libxcb"
           },
           {
@@ -4419,7 +4367,11 @@
           },
           {
             "source": "xorg-xproto",
-            "target": "libxkbcommon"
+            "target": "gtk3"
+          },
+          {
+            "source": "xorg-xproto",
+            "target": "sdl"
           },
           {
             "source": "xpmem",
@@ -4468,10 +4420,6 @@
           {
             "source": "xz",
             "target": "libdecor"
-          },
-          {
-            "source": "xz",
-            "target": "librsvg"
           },
           {
             "source": "xz",
@@ -4647,19 +4595,11 @@
           },
           {
             "source": "zlib",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "zlib",
             "target": "libpng"
           },
           {
             "source": "zlib",
             "target": "libprotobuf"
-          },
-          {
-            "source": "zlib",
-            "target": "librsvg"
           },
           {
             "source": "zlib",
@@ -5711,12 +5651,6 @@
             }
           },
           {
-            "id": "libjxl-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/libjxl-split.json"
-            }
-          },
-          {
             "id": "libnl",
             "payload": {
               "__lazy_json__": "node_attrs/libnl.json"
@@ -5774,18 +5708,6 @@
             "id": "libqdldl",
             "payload": {
               "__lazy_json__": "node_attrs/libqdldl.json"
-            }
-          },
-          {
-            "id": "librsvg",
-            "payload": {
-              "__lazy_json__": "node_attrs/librsvg.json"
-            }
-          },
-          {
-            "id": "libsdformat",
-            "payload": {
-              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
@@ -5879,12 +5801,6 @@
             }
           },
           {
-            "id": "libvorbis",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvorbis.json"
-            }
-          },
-          {
             "id": "libvpl",
             "payload": {
               "__lazy_json__": "node_attrs/libvpl.json"
@@ -5927,21 +5843,9 @@
             }
           },
           {
-            "id": "libxkbcommon",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxkbcommon.json"
-            }
-          },
-          {
             "id": "libxml2",
             "payload": {
               "__lazy_json__": "node_attrs/libxml2.json"
-            }
-          },
-          {
-            "id": "libxslt",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxslt.json"
             }
           },
           {
@@ -6002,12 +5906,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -6236,6 +6134,12 @@
             "id": "pango",
             "payload": {
               "__lazy_json__": "node_attrs/pango.json"
+            }
+          },
+          {
+            "id": "parmetis",
+            "payload": {
+              "__lazy_json__": "node_attrs/parmetis.json"
             }
           },
           {
@@ -7371,7 +7275,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
