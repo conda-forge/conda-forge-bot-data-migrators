@@ -71,6 +71,24 @@
             "payload": {
               "__lazy_json__": "node_attrs/pyhrf.json"
             }
+          },
+          {
+            "id": "skyproj",
+            "payload": {
+              "__lazy_json__": "node_attrs/skyproj.json"
+            }
+          },
+          {
+            "id": "tsinfer",
+            "payload": {
+              "__lazy_json__": "node_attrs/tsinfer.json"
+            }
+          },
+          {
+            "id": "turbodbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/turbodbc.json"
+            }
           }
         ]
       }
@@ -52615,30 +52633,6 @@
             "target": "sbank"
           },
           {
-            "source": "python-lmdb",
-            "target": "allennlp"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "graphormer-pretrained"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "hangar"
-          },
-          {
-            "source": "python-lmdb",
-            "target": "tsinfer"
-          },
-          {
             "source": "python-lzf",
             "target": "conda-forge-pinning"
           },
@@ -75937,10 +75931,6 @@
           {
             "source": "tbb",
             "target": "python-ligo-lw"
-          },
-          {
-            "source": "tbb",
-            "target": "python-lmdb"
           },
           {
             "source": "tbb",
@@ -99319,12 +99309,6 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
