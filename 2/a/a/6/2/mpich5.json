@@ -1088,6 +1088,58 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "parmetis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "parmetis",
+            "target": "daetk"
+          },
+          {
+            "source": "parmetis",
+            "target": "fenics"
+          },
+          {
+            "source": "parmetis",
+            "target": "fenics-dolfinx"
+          },
+          {
+            "source": "parmetis",
+            "target": "freefem"
+          },
+          {
+            "source": "parmetis",
+            "target": "mumps"
+          },
+          {
+            "source": "parmetis",
+            "target": "opencarp"
+          },
+          {
+            "source": "parmetis",
+            "target": "openfoam"
+          },
+          {
+            "source": "parmetis",
+            "target": "petsc"
+          },
+          {
+            "source": "parmetis",
+            "target": "pexsi"
+          },
+          {
+            "source": "parmetis",
+            "target": "proteus"
+          },
+          {
+            "source": "parmetis",
+            "target": "scorec"
+          },
+          {
+            "source": "parmetis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "parsplice",
             "target": "conda-forge-pinning"
           },
@@ -2092,6 +2144,12 @@
             "id": "paraprobe",
             "payload": {
               "__lazy_json__": "node_attrs/paraprobe.json"
+            }
+          },
+          {
+            "id": "parmetis",
+            "payload": {
+              "__lazy_json__": "node_attrs/parmetis.json"
             }
           },
           {
