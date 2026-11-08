@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -430,10 +423,6 @@
           },
           {
             "source": "autoconf",
-            "target": "fftw"
-          },
-          {
-            "source": "autoconf",
             "target": "findutils"
           },
           {
@@ -515,6 +504,10 @@
           {
             "source": "autoconf",
             "target": "p11-kit"
+          },
+          {
+            "source": "autoconf",
+            "target": "pulseaudio"
           },
           {
             "source": "autoconf",
@@ -650,10 +643,6 @@
           },
           {
             "source": "automake",
-            "target": "fftw"
-          },
-          {
-            "source": "automake",
             "target": "findutils"
           },
           {
@@ -743,6 +732,10 @@
           {
             "source": "automake",
             "target": "patchelf"
+          },
+          {
+            "source": "automake",
+            "target": "pulseaudio"
           },
           {
             "source": "automake",
@@ -1070,6 +1063,10 @@
           },
           {
             "source": "azure-core-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
             "target": "tiledb"
           },
           {
@@ -1086,11 +1083,11 @@
           },
           {
             "source": "azure-storage-blobs-cpp",
-            "target": "tiledb"
+            "target": "azure-storage-files-datalake-cpp"
           },
           {
-            "source": "azure-storage-common-cpp",
-            "target": "arrow-cpp"
+            "source": "azure-storage-blobs-cpp",
+            "target": "tiledb"
           },
           {
             "source": "azure-storage-common-cpp",
@@ -1098,6 +1095,18 @@
           },
           {
             "source": "azure-storage-common-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
             "target": "tiledb"
           },
           {
@@ -2286,7 +2295,15 @@
           },
           {
             "source": "ccache",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "ccache",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "ccache",
+            "target": "grpc-cpp"
           },
           {
             "source": "ccache",
@@ -2826,6 +2843,10 @@
           },
           {
             "source": "cmake",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "cmake",
             "target": "benchmark"
           },
           {
@@ -2955,10 +2976,6 @@
           {
             "source": "cmake",
             "target": "ffmpeg"
-          },
-          {
-            "source": "cmake",
-            "target": "fftw"
           },
           {
             "source": "cmake",
@@ -3298,10 +3315,6 @@
           },
           {
             "source": "cmake",
-            "target": "lief"
-          },
-          {
-            "source": "cmake",
             "target": "llama.cpp"
           },
           {
@@ -3339,10 +3352,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -3522,6 +3531,10 @@
           },
           {
             "source": "cmake",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "cmake",
             "target": "py-rattler"
           },
           {
@@ -3687,10 +3700,6 @@
           {
             "source": "cmake",
             "target": "spirv-tools"
-          },
-          {
-            "source": "cmake",
-            "target": "svt-av1"
           },
           {
             "source": "cmake",
@@ -4126,6 +4135,10 @@
           },
           {
             "source": "coverage",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "coverage",
             "target": "hypothesis"
           },
           {
@@ -4151,10 +4164,6 @@
           {
             "source": "coverage",
             "target": "librsvg"
-          },
-          {
-            "source": "coverage",
-            "target": "lief"
           },
           {
             "source": "coverage",
@@ -5633,10 +5642,6 @@
             "target": "ffmpeg"
           },
           {
-            "source": "fftw",
-            "target": "pulseaudio"
-          },
-          {
             "source": "fgt",
             "target": "cpd"
           },
@@ -5782,7 +5787,15 @@
           },
           {
             "source": "fmt",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "fmt",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "fmt",
+            "target": "grpc-cpp"
           },
           {
             "source": "fmt",
@@ -6123,10 +6136,6 @@
           {
             "source": "gettext",
             "target": "elfutils"
-          },
-          {
-            "source": "gettext",
-            "target": "fftw"
           },
           {
             "source": "gettext",
@@ -8986,10 +8995,6 @@
           },
           {
             "source": "libtool",
-            "target": "fftw"
-          },
-          {
-            "source": "libtool",
             "target": "flex"
           },
           {
@@ -9717,18 +9722,6 @@
             "target": "libnetcdf"
           },
           {
-            "source": "lief",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "lief",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "lief",
-            "target": "grpc-cpp"
-          },
-          {
             "source": "lld",
             "target": "bun"
           },
@@ -10102,10 +10095,6 @@
           },
           {
             "source": "m4",
-            "target": "fftw"
-          },
-          {
-            "source": "m4",
             "target": "flex"
           },
           {
@@ -10259,10 +10248,6 @@
           {
             "source": "make",
             "target": "ffnvcodec-headers"
-          },
-          {
-            "source": "make",
-            "target": "fftw"
           },
           {
             "source": "make",
@@ -10583,10 +10568,6 @@
           {
             "source": "make",
             "target": "matplotlib"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -11398,7 +11379,15 @@
           },
           {
             "source": "mbedtls",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "mbedtls",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "mbedtls",
+            "target": "grpc-cpp"
           },
           {
             "source": "menuinst",
@@ -11411,10 +11400,6 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
           },
           {
             "source": "miktex",
@@ -11630,10 +11615,6 @@
           },
           {
             "source": "mpich",
-            "target": "fftw"
-          },
-          {
-            "source": "mpich",
             "target": "hdf5"
           },
           {
@@ -11643,6 +11624,10 @@
           {
             "source": "mpich",
             "target": "libpnetcdf"
+          },
+          {
+            "source": "mpich",
+            "target": "pulseaudio"
           },
           {
             "source": "msgpack-c",
@@ -11995,6 +11980,10 @@
           {
             "source": "ninja",
             "target": "azure-storage-common-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "azure-storage-files-datalake-cpp"
           },
           {
             "source": "ninja",
@@ -12443,10 +12432,6 @@
           {
             "source": "ninja",
             "target": "libzip"
-          },
-          {
-            "source": "ninja",
-            "target": "lief"
           },
           {
             "source": "ninja",
@@ -12902,6 +12887,14 @@
           },
           {
             "source": "nlohmann_json",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "nlohmann_json",
             "target": "cpp-opentelemetry-sdk"
           },
           {
@@ -12910,7 +12903,7 @@
           },
           {
             "source": "nlohmann_json",
-            "target": "lief"
+            "target": "grpc-cpp"
           },
           {
             "source": "nlohmann_json",
@@ -13354,10 +13347,6 @@
           },
           {
             "source": "openmp",
-            "target": "fftw"
-          },
-          {
-            "source": "openmp",
             "target": "flang"
           },
           {
@@ -13382,10 +13371,6 @@
           },
           {
             "source": "openmpi",
-            "target": "fftw"
-          },
-          {
-            "source": "openmpi",
             "target": "fgt"
           },
           {
@@ -13407,6 +13392,10 @@
           {
             "source": "openmp",
             "target": "intel_repack"
+          },
+          {
+            "source": "openmpi",
+            "target": "pulseaudio"
           },
           {
             "source": "openmp",
@@ -13483,6 +13472,10 @@
           {
             "source": "openmp",
             "target": "pthread-stubs"
+          },
+          {
+            "source": "openmp",
+            "target": "pulseaudio"
           },
           {
             "source": "openmp",
@@ -14126,10 +14119,6 @@
           },
           {
             "source": "perl",
-            "target": "fftw"
-          },
-          {
-            "source": "perl",
             "target": "graphviz"
           },
           {
@@ -14175,6 +14164,10 @@
           {
             "source": "perl",
             "target": "postgresql"
+          },
+          {
+            "source": "perl",
+            "target": "pulseaudio"
           },
           {
             "source": "perl",
@@ -15438,6 +15431,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "grpc-cpp"
+          },
+          {
+            "source": "pydantic-core",
             "target": "hypothesis"
           },
           {
@@ -15447,10 +15444,6 @@
           {
             "source": "pydantic-core",
             "target": "libcst"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "lief"
           },
           {
             "source": "pydantic-core",
@@ -15906,10 +15899,6 @@
           },
           {
             "source": "python",
-            "target": "fftw"
-          },
-          {
-            "source": "python",
             "target": "findutils"
           },
           {
@@ -16147,10 +16136,6 @@
           {
             "source": "python",
             "target": "libxkbfile"
-          },
-          {
-            "source": "python",
-            "target": "lief"
           },
           {
             "source": "python",
@@ -18770,7 +18755,15 @@
           },
           {
             "source": "spdlog",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "spdlog",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "spdlog",
+            "target": "grpc-cpp"
           },
           {
             "source": "spdlog",
@@ -18847,14 +18840,6 @@
           {
             "source": "stack",
             "target": "shellcheck"
-          },
-          {
-            "source": "svt-av1",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "svt-av1",
-            "target": "libavif"
           },
           {
             "source": "swig",
@@ -21126,6 +21111,14 @@
           },
           {
             "source": "yasm",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "yasm",
+            "target": "libavif"
+          },
+          {
+            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
@@ -21135,10 +21128,6 @@
           {
             "source": "yasm",
             "target": "mpg123"
-          },
-          {
-            "source": "yasm",
-            "target": "svt-av1"
           },
           {
             "source": "zeromq",
@@ -22576,6 +22565,12 @@
             }
           },
           {
+            "id": "azure-storage-files-datalake-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
+            }
+          },
+          {
             "id": "backports.zoneinfo",
             "payload": {
               "__lazy_json__": "node_attrs/backports.zoneinfo.json"
@@ -23173,12 +23168,6 @@
             "id": "ffnvcodec-headers",
             "payload": {
               "__lazy_json__": "node_attrs/ffnvcodec-headers.json"
-            }
-          },
-          {
-            "id": "fftw",
-            "payload": {
-              "__lazy_json__": "node_attrs/fftw.json"
             }
           },
           {
@@ -24280,12 +24269,6 @@
             }
           },
           {
-            "id": "lief",
-            "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
-            }
-          },
-          {
             "id": "llama.cpp",
             "payload": {
               "__lazy_json__": "node_attrs/llama.cpp.json"
@@ -24385,12 +24368,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -25675,12 +25652,6 @@
             "id": "subfinder",
             "payload": {
               "__lazy_json__": "node_attrs/subfinder.json"
-            }
-          },
-          {
-            "id": "svt-av1",
-            "payload": {
-              "__lazy_json__": "node_attrs/svt-av1.json"
             }
           },
           {
