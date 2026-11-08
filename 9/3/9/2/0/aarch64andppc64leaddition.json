@@ -2203,6 +2203,10 @@
           },
           {
             "source": "autoconf",
+            "target": "php"
+          },
+          {
+            "source": "autoconf",
             "target": "planarity"
           },
           {
@@ -4355,6 +4359,10 @@
           },
           {
             "source": "aws-c-common",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-common",
             "target": "aws-c-http"
           },
           {
@@ -4398,6 +4406,18 @@
             "target": "aws-c-http"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "awscrt"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -4424,6 +4444,10 @@
           {
             "source": "aws-c-io",
             "target": "aws-c-auth"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-event-stream"
           },
           {
             "source": "aws-c-io",
@@ -4443,10 +4467,6 @@
           },
           {
             "source": "aws-c-io",
-            "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "aws-c-io",
             "target": "awscrt"
           },
           {
@@ -4487,15 +4507,11 @@
           },
           {
             "source": "aws-checksums",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-checksums",
             "target": "aws-c-s3"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-checksums",
@@ -6427,6 +6443,10 @@
           },
           {
             "source": "bash",
+            "target": "harp"
+          },
+          {
+            "source": "bash",
             "target": "hdf4"
           },
           {
@@ -6704,6 +6724,10 @@
           {
             "source": "bash",
             "target": "lalinference"
+          },
+          {
+            "source": "bash",
+            "target": "lalinspiral"
           },
           {
             "source": "bash",
@@ -7531,6 +7555,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -8320,6 +8348,10 @@
           {
             "source": "bash",
             "target": "photutils"
+          },
+          {
+            "source": "bash",
+            "target": "php"
           },
           {
             "source": "bash",
@@ -12999,6 +13031,10 @@
           },
           {
             "source": "bison",
+            "target": "harp"
+          },
+          {
+            "source": "bison",
             "target": "hdf4"
           },
           {
@@ -13072,6 +13108,10 @@
           {
             "source": "bison",
             "target": "petsc"
+          },
+          {
+            "source": "bison",
+            "target": "php"
           },
           {
             "source": "bison",
@@ -15088,6 +15128,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -17407,6 +17451,10 @@
           },
           {
             "source": "cffi",
+            "target": "harp"
+          },
+          {
+            "source": "cffi",
             "target": "horovod"
           },
           {
@@ -18115,6 +18163,10 @@
           },
           {
             "source": "cmake",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "cmake",
             "target": "aws-c-http"
           },
           {
@@ -18144,10 +18196,6 @@
           {
             "source": "cmake",
             "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "cmake",
-            "target": "awscrt"
           },
           {
             "source": "cmake",
@@ -18915,10 +18963,6 @@
           },
           {
             "source": "cmake",
-            "target": "gstreamer"
-          },
-          {
-            "source": "cmake",
             "target": "gtest"
           },
           {
@@ -19000,6 +19044,10 @@
           {
             "source": "cmake",
             "target": "hackrf"
+          },
+          {
+            "source": "cmake",
+            "target": "harp"
           },
           {
             "source": "cmake",
@@ -19619,10 +19667,6 @@
           },
           {
             "source": "cmake",
-            "target": "libsndfile"
-          },
-          {
-            "source": "cmake",
             "target": "libsodium"
           },
           {
@@ -19647,10 +19691,6 @@
           },
           {
             "source": "cmake",
-            "target": "libtheora"
-          },
-          {
-            "source": "cmake",
             "target": "libtins"
           },
           {
@@ -19672,6 +19712,10 @@
           {
             "source": "cmake",
             "target": "libvips"
+          },
+          {
+            "source": "cmake",
+            "target": "libvorbis"
           },
           {
             "source": "cmake",
@@ -19804,6 +19848,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -21378,6 +21426,10 @@
             "target": "pinocchio"
           },
           {
+            "source": "coda",
+            "target": "harp"
+          },
+          {
             "source": "codec2",
             "target": "gnuradio"
           },
@@ -22251,10 +22303,6 @@
           },
           {
             "source": "coverage",
-            "target": "lalapps"
-          },
-          {
-            "source": "coverage",
             "target": "lalburst"
           },
           {
@@ -22264,6 +22312,10 @@
           {
             "source": "coverage",
             "target": "lalinference"
+          },
+          {
+            "source": "coverage",
+            "target": "lalinspiral"
           },
           {
             "source": "coverage",
@@ -25444,6 +25496,10 @@
           {
             "source": "curl",
             "target": "pari"
+          },
+          {
+            "source": "curl",
+            "target": "php"
           },
           {
             "source": "curl",
@@ -29360,6 +29416,10 @@
           {
             "source": "flex",
             "target": "gstreamer"
+          },
+          {
+            "source": "flex",
+            "target": "harp"
           },
           {
             "source": "flex",
@@ -33419,6 +33479,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "ppl"
           },
           {
@@ -34563,6 +34627,10 @@
           },
           {
             "source": "gsl",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "gsl",
             "target": "lalpulsar"
           },
           {
@@ -35539,6 +35607,10 @@
           },
           {
             "source": "hdf4",
+            "target": "harp"
+          },
+          {
+            "source": "hdf4",
             "target": "hdfeos2"
           },
           {
@@ -35620,6 +35692,10 @@
           {
             "source": "hdf5",
             "target": "h5py"
+          },
+          {
+            "source": "hdf5",
+            "target": "harp"
           },
           {
             "source": "hdf5",
@@ -35831,19 +35907,7 @@
           },
           {
             "source": "help2man",
-            "target": "bayeswave"
-          },
-          {
-            "source": "help2man",
             "target": "flex"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal-inspiral"
           },
           {
             "source": "help2man",
@@ -35855,10 +35919,6 @@
           },
           {
             "source": "help2man",
-            "target": "lalapps"
-          },
-          {
-            "source": "help2man",
             "target": "lalburst"
           },
           {
@@ -35867,7 +35927,7 @@
           },
           {
             "source": "help2man",
-            "target": "lalinference"
+            "target": "lalinspiral"
           },
           {
             "source": "help2man",
@@ -36811,6 +36871,10 @@
           },
           {
             "source": "icu",
+            "target": "php"
+          },
+          {
+            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -36931,10 +36995,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "lalapps"
           },
           {
@@ -36944,6 +37004,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -36967,10 +37031,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "igwn-ligolw"
           },
           {
@@ -36988,6 +37048,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -37208,6 +37272,14 @@
           {
             "source": "jemalloc",
             "target": "tabmat"
+          },
+          {
+            "source": "jmol",
+            "target": "sage"
+          },
+          {
+            "source": "jmol",
+            "target": "sagelib"
           },
           {
             "source": "jonquil",
@@ -37479,10 +37551,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "gstlal"
           },
           {
@@ -37491,15 +37559,15 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "lalapps"
           },
           {
             "source": "lalburst",
             "target": "lalinference"
+          },
+          {
+            "source": "lalburst",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37515,19 +37583,15 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "lalapps"
           },
           {
             "source": "lalframe",
             "target": "lalinference"
+          },
+          {
+            "source": "lalframe",
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -37578,6 +37642,26 @@
             "target": "lalpulsar"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -37592,6 +37676,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37638,6 +37726,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lalpulsar",
             "target": "cwinpy"
           },
@@ -37663,10 +37755,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -37680,6 +37768,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -41339,6 +41431,10 @@
           },
           {
             "source": "libiconv",
+            "target": "php"
+          },
+          {
+            "source": "libiconv",
             "target": "poppler"
           },
           {
@@ -42259,10 +42355,6 @@
           },
           {
             "source": "libogg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libogg",
             "target": "gstreamer"
           },
           {
@@ -42276,6 +42368,10 @@
           {
             "source": "libogg",
             "target": "libtheora"
+          },
+          {
+            "source": "libogg",
+            "target": "libvorbis"
           },
           {
             "source": "libogg",
@@ -43024,6 +43120,10 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
+          },
+          {
+            "source": "libsodium",
+            "target": "php"
           },
           {
             "source": "libsodium",
@@ -44563,6 +44663,10 @@
           },
           {
             "source": "libtool",
+            "target": "harp"
+          },
+          {
+            "source": "libtool",
             "target": "hdf4"
           },
           {
@@ -44840,6 +44944,10 @@
           {
             "source": "libtool",
             "target": "lalinference"
+          },
+          {
+            "source": "libtool",
+            "target": "lalinspiral"
           },
           {
             "source": "libtool",
@@ -45663,6 +45771,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -46448,6 +46560,10 @@
           {
             "source": "libtool",
             "target": "photutils"
+          },
+          {
+            "source": "libtool",
+            "target": "php"
           },
           {
             "source": "libtool",
@@ -50114,6 +50230,30 @@
             "target": "pyvips"
           },
           {
+            "source": "libvorbis",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libvorbis",
+            "target": "gstreamer"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libsndfile"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libtheora"
+          },
+          {
+            "source": "libvorbis",
+            "target": "sdl2_mixer"
+          },
+          {
+            "source": "libvorbis",
+            "target": "sfml"
+          },
+          {
             "source": "libvpx",
             "target": "ffmpeg"
           },
@@ -51659,6 +51799,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pinocchio"
           },
           {
@@ -52060,6 +52204,10 @@
           {
             "source": "libzip",
             "target": "libnetcdf"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -55394,6 +55542,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56835,6 +57039,10 @@
           },
           {
             "source": "ninja",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "ninja",
             "target": "aws-c-http"
           },
           {
@@ -56864,10 +57072,6 @@
           {
             "source": "ninja",
             "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "ninja",
-            "target": "awscrt"
           },
           {
             "source": "ninja",
@@ -58007,10 +58211,6 @@
           },
           {
             "source": "ninja",
-            "target": "libsndfile"
-          },
-          {
-            "source": "ninja",
             "target": "libsolv"
           },
           {
@@ -58024,10 +58224,6 @@
           {
             "source": "ninja",
             "target": "libtensorlight"
-          },
-          {
-            "source": "ninja",
-            "target": "libtheora"
           },
           {
             "source": "ninja",
@@ -58052,6 +58248,10 @@
           {
             "source": "ninja",
             "target": "libvips"
+          },
+          {
+            "source": "ninja",
+            "target": "libvorbis"
           },
           {
             "source": "ninja",
@@ -60659,6 +60859,10 @@
           },
           {
             "source": "numpy",
+            "target": "harp"
+          },
+          {
+            "source": "numpy",
             "target": "hdbscan"
           },
           {
@@ -60776,6 +60980,10 @@
           {
             "source": "numpy",
             "target": "lalinference"
+          },
+          {
+            "source": "numpy",
+            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -61967,6 +62175,10 @@
           },
           {
             "source": "oniguruma",
+            "target": "php"
+          },
+          {
+            "source": "oniguruma",
             "target": "slang"
           },
           {
@@ -62155,6 +62367,10 @@
           },
           {
             "source": "openjdk",
+            "target": "jmol"
+          },
+          {
+            "source": "openjdk",
             "target": "jpype1"
           },
           {
@@ -62196,14 +62412,6 @@
           {
             "source": "openjdk",
             "target": "ray-packages"
-          },
-          {
-            "source": "openjdk",
-            "target": "sage"
-          },
-          {
-            "source": "openjdk",
-            "target": "sagelib"
           },
           {
             "source": "openjdk",
@@ -63991,6 +64199,10 @@
           },
           {
             "source": "openssl",
+            "target": "php"
+          },
+          {
+            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -65507,6 +65719,10 @@
           },
           {
             "source": "pcre2",
+            "target": "php"
+          },
+          {
+            "source": "pcre2",
             "target": "qt-main"
           },
           {
@@ -67019,6 +67235,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "pkg-config",
             "target": "lalmetaio"
           },
           {
@@ -67840,6 +68060,10 @@
           {
             "source": "pkg-config",
             "target": "photutils"
+          },
+          {
+            "source": "pkg-config",
+            "target": "php"
           },
           {
             "source": "pkg-config",
@@ -69150,6 +69374,10 @@
             "target": "xorg-xf86vidmodeproto"
           },
           {
+            "source": "pkgconf",
+            "target": "yarp"
+          },
+          {
             "source": "planarity",
             "target": "gap"
           },
@@ -69564,6 +69792,10 @@
           {
             "source": "postgresql",
             "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -74083,6 +74315,10 @@
           },
           {
             "source": "python",
+            "target": "harp"
+          },
+          {
+            "source": "python",
             "target": "hdbscan"
           },
           {
@@ -74328,6 +74564,10 @@
           {
             "source": "python",
             "target": "lalinference"
+          },
+          {
+            "source": "python",
+            "target": "lalinspiral"
           },
           {
             "source": "python",
@@ -79816,6 +80056,10 @@
           {
             "source": "r-base64url",
             "target": "r-batchtools"
+          },
+          {
+            "source": "r-base",
+            "target": "harp"
           },
           {
             "source": "r-base",
@@ -89246,6 +89490,10 @@
             "target": "clingo"
           },
           {
+            "source": "re2c",
+            "target": "php"
+          },
+          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -89356,6 +89604,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -91911,10 +92163,6 @@
           },
           {
             "source": "sed",
-            "target": "bayeswave"
-          },
-          {
-            "source": "sed",
             "target": "bazel"
           },
           {
@@ -92059,14 +92307,6 @@
           },
           {
             "source": "sed",
-            "target": "gstlal"
-          },
-          {
-            "source": "sed",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "sed",
             "target": "gymnasium"
           },
           {
@@ -92115,10 +92355,6 @@
           },
           {
             "source": "sed",
-            "target": "lalapps"
-          },
-          {
-            "source": "sed",
             "target": "lalburst"
           },
           {
@@ -92128,6 +92364,10 @@
           {
             "source": "sed",
             "target": "lalinference"
+          },
+          {
+            "source": "sed",
+            "target": "lalinspiral"
           },
           {
             "source": "sed",
@@ -93715,6 +93955,10 @@
           },
           {
             "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -93863,10 +94107,6 @@
           },
           {
             "source": "swig",
-            "target": "bayeswave"
-          },
-          {
-            "source": "swig",
             "target": "casadi"
           },
           {
@@ -93891,14 +94131,6 @@
           },
           {
             "source": "swig",
-            "target": "gstlal"
-          },
-          {
-            "source": "swig",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "swig",
             "target": "gymnasium"
           },
           {
@@ -93919,10 +94151,6 @@
           },
           {
             "source": "swig",
-            "target": "lalapps"
-          },
-          {
-            "source": "swig",
             "target": "lalburst"
           },
           {
@@ -93932,6 +94160,10 @@
           {
             "source": "swig",
             "target": "lalinference"
+          },
+          {
+            "source": "swig",
+            "target": "lalinspiral"
           },
           {
             "source": "swig",
@@ -96335,6 +96567,10 @@
           },
           {
             "source": "unzip",
+            "target": "jmol"
+          },
+          {
+            "source": "unzip",
             "target": "libnetcdf"
           },
           {
@@ -96352,14 +96588,6 @@
           {
             "source": "unzip",
             "target": "ray-packages"
-          },
-          {
-            "source": "unzip",
-            "target": "sage"
-          },
-          {
-            "source": "unzip",
-            "target": "sagelib"
           },
           {
             "source": "unzip",
@@ -96432,6 +96660,10 @@
           {
             "source": "util-linux",
             "target": "lbzip2"
+          },
+          {
+            "source": "util-linux",
+            "target": "php"
           },
           {
             "source": "util-linux",
@@ -103571,6 +103803,10 @@
           },
           {
             "source": "zlib-ng",
+            "target": "php"
+          },
+          {
+            "source": "zlib-ng",
             "target": "pillow"
           },
           {
@@ -104900,6 +105136,10 @@
           {
             "source": "zlib",
             "target": "photutils"
+          },
+          {
+            "source": "zlib",
+            "target": "php"
           },
           {
             "source": "zlib",
@@ -107420,6 +107660,12 @@
             "id": "aws-c-compression",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-compression.json"
+            }
+          },
+          {
+            "id": "aws-c-event-stream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
             }
           },
           {
@@ -110735,6 +110981,12 @@
             }
           },
           {
+            "id": "harp",
+            "payload": {
+              "__lazy_json__": "node_attrs/harp.json"
+            }
+          },
+          {
             "id": "hdbscan",
             "payload": {
               "__lazy_json__": "node_attrs/hdbscan.json"
@@ -111179,6 +111431,12 @@
             }
           },
           {
+            "id": "jmol",
+            "payload": {
+              "__lazy_json__": "node_attrs/jmol.json"
+            }
+          },
+          {
             "id": "jnv",
             "payload": {
               "__lazy_json__": "node_attrs/jnv.json"
@@ -111392,6 +111650,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -112769,6 +113033,12 @@
             }
           },
           {
+            "id": "libvorbis",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvorbis.json"
+            }
+          },
+          {
             "id": "libvpx",
             "payload": {
               "__lazy_json__": "node_attrs/libvpx.json"
@@ -113258,6 +113528,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -114980,6 +115256,12 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
