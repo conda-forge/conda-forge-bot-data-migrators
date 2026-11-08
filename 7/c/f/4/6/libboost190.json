@@ -248,10 +248,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cascade",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "cctbx-base",
             "target": "conda-forge-pinning"
           },
@@ -306,10 +302,6 @@
           {
             "source": "cgal-cpp",
             "target": "multipers"
-          },
-          {
-            "source": "cgal-cpp",
-            "target": "openmvs-split"
           },
           {
             "source": "cgal-cpp",
@@ -506,10 +498,6 @@
           {
             "source": "cppyy-cling",
             "target": "flatsurf"
-          },
-          {
-            "source": "cppyy-cling",
-            "target": "intervalxt"
           },
           {
             "source": "crbeam",
@@ -784,10 +772,6 @@
             "target": "hpp-gui"
           },
           {
-            "source": "gepetto-viewer-corba",
-            "target": "hpp-plot"
-          },
-          {
             "source": "gepetto-viewer",
             "target": "conda-forge-pinning"
           },
@@ -802,14 +786,6 @@
           {
             "source": "gepetto-viewer",
             "target": "hpp-gui"
-          },
-          {
-            "source": "gepetto-viewer",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "glim",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "glomap",
@@ -920,16 +896,8 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "gtsam-points",
-            "target": "glim"
-          },
-          {
             "source": "gtsam",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "gtsam",
-            "target": "glim"
           },
           {
             "source": "gtsam",
@@ -965,19 +933,11 @@
           },
           {
             "source": "heyoka.py",
-            "target": "cascade"
-          },
-          {
-            "source": "heyoka.py",
             "target": "conda-forge-pinning"
           },
           {
             "source": "heyoka.py",
             "target": "pykep"
-          },
-          {
-            "source": "heyoka",
-            "target": "cascade"
           },
           {
             "source": "heyoka",
@@ -1046,10 +1006,6 @@
           {
             "source": "hpp-corbaserver",
             "target": "hpp-manipulation-corba"
-          },
-          {
-            "source": "hpp-corbaserver",
-            "target": "hpp-plot"
           },
           {
             "source": "hpp-corbaserver",
@@ -1141,10 +1097,6 @@
           },
           {
             "source": "hpp-manipulation-corba",
-            "target": "hpp-plot"
-          },
-          {
-            "source": "hpp-manipulation-corba",
             "target": "hpp-tutorial"
           },
           {
@@ -1178,10 +1130,6 @@
           {
             "source": "hpp-manipulation",
             "target": "hpp-manipulation-urdf"
-          },
-          {
-            "source": "hpp-manipulation",
-            "target": "hpp-plot"
           },
           {
             "source": "hpp-manipulation",
@@ -1229,18 +1177,6 @@
           },
           {
             "source": "hpp-pinocchio",
-            "target": "hpp-tutorial"
-          },
-          {
-            "source": "hpp-plot",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "hpp-plot",
-            "target": "hpp-practicals"
-          },
-          {
-            "source": "hpp-plot",
             "target": "hpp-tutorial"
           },
           {
@@ -1376,6 +1312,10 @@
             "target": "hpp-template-corba"
           },
           {
+            "source": "hpx",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "hugin",
             "target": "conda-forge-pinning"
           },
@@ -1394,14 +1334,6 @@
           {
             "source": "imp",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "intervalxt",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "intervalxt",
-            "target": "flatsurf"
           },
           {
             "source": "ipbus",
@@ -1884,10 +1816,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "nuflux",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "nurikit",
             "target": "conda-forge-pinning"
           },
@@ -1953,10 +1881,6 @@
           },
           {
             "source": "openmodelica",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "openmvs-split",
             "target": "conda-forge-pinning"
           },
           {
@@ -2256,10 +2180,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "qgv",
-            "target": "hpp-plot"
-          },
-          {
             "source": "qpmad",
             "target": "conda-forge-pinning"
           },
@@ -2393,6 +2313,14 @@
           },
           {
             "source": "scine-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scine-core",
+            "target": "scine-utilsos"
+          },
+          {
+            "source": "scine-utilsos",
             "target": "conda-forge-pinning"
           },
           {
@@ -2883,12 +2811,6 @@
             }
           },
           {
-            "id": "cascade",
-            "payload": {
-              "__lazy_json__": "node_attrs/cascade.json"
-            }
-          },
-          {
             "id": "cctbx-base",
             "payload": {
               "__lazy_json__": "node_attrs/cctbx-base.json"
@@ -3243,12 +3165,6 @@
             }
           },
           {
-            "id": "glim",
-            "payload": {
-              "__lazy_json__": "node_attrs/glim.json"
-            }
-          },
-          {
             "id": "glomap",
             "payload": {
               "__lazy_json__": "node_attrs/glomap.json"
@@ -3459,12 +3375,6 @@
             }
           },
           {
-            "id": "hpp-plot",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpp-plot.json"
-            }
-          },
-          {
             "id": "hpp-practicals",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-practicals.json"
@@ -3501,6 +3411,12 @@
             }
           },
           {
+            "id": "hpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpx.json"
+            }
+          },
+          {
             "id": "hugin",
             "payload": {
               "__lazy_json__": "node_attrs/hugin.json"
@@ -3522,12 +3438,6 @@
             "id": "imp",
             "payload": {
               "__lazy_json__": "node_attrs/imp.json"
-            }
-          },
-          {
-            "id": "intervalxt",
-            "payload": {
-              "__lazy_json__": "node_attrs/intervalxt.json"
             }
           },
           {
@@ -3876,12 +3786,6 @@
             "id": "nrgljubljana",
             "payload": {
               "__lazy_json__": "node_attrs/nrgljubljana.json"
-            }
-          },
-          {
-            "id": "nuflux",
-            "payload": {
-              "__lazy_json__": "node_attrs/nuflux.json"
             }
           },
           {
@@ -4359,6 +4263,12 @@
             }
           },
           {
+            "id": "scine-utilsos",
+            "payload": {
+              "__lazy_json__": "node_attrs/scine-utilsos.json"
+            }
+          },
+          {
             "id": "scipoptsuite",
             "payload": {
               "__lazy_json__": "node_attrs/scipoptsuite.json"
@@ -4668,12 +4578,6 @@
             "id": "slac-rogue",
             "payload": {
               "__lazy_json__": "node_attrs/slac-rogue.json"
-            }
-          },
-          {
-            "id": "openmvs-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
