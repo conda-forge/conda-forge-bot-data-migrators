@@ -67,6 +67,12 @@
             }
           },
           {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
+            }
+          },
+          {
             "id": "turbodbc",
             "payload": {
               "__lazy_json__": "node_attrs/turbodbc.json"
@@ -661,6 +667,10 @@
           {
             "source": "aiohttp",
             "target": "pyart_mch"
+          },
+          {
+            "source": "aiohttp",
+            "target": "pycontrails"
           },
           {
             "source": "aiohttp",
@@ -1364,6 +1374,10 @@
           },
           {
             "source": "argon2-cffi-bindings",
+            "target": "pycontrails"
+          },
+          {
+            "source": "argon2-cffi-bindings",
             "target": "pyodesys"
           },
           {
@@ -1793,6 +1807,10 @@
           {
             "source": "astroid",
             "target": "pnab"
+          },
+          {
+            "source": "astroid",
+            "target": "pycontrails"
           },
           {
             "source": "astroid",
@@ -2644,6 +2662,10 @@
           },
           {
             "source": "backpack",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "backports-datetime-fromisoformat",
             "target": "conda-forge-pinning"
           },
           {
@@ -3833,6 +3855,10 @@
           {
             "source": "backports.zstd",
             "target": "pycgtool"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "pycontrails"
           },
           {
             "source": "backports.zstd",
@@ -7592,6 +7618,10 @@
           },
           {
             "source": "brotli",
+            "target": "pycontrails"
+          },
+          {
+            "source": "brotli",
             "target": "pycrdt"
           },
           {
@@ -8596,6 +8626,10 @@
           },
           {
             "source": "cartopy",
+            "target": "pycontrails"
+          },
+          {
+            "source": "cartopy",
             "target": "pyshtools"
           },
           {
@@ -9332,6 +9366,10 @@
           },
           {
             "source": "cffi",
+            "target": "harp"
+          },
+          {
+            "source": "cffi",
             "target": "hazelbean"
           },
           {
@@ -9605,6 +9643,10 @@
           {
             "source": "cffi",
             "target": "pycgtool"
+          },
+          {
+            "source": "cffi",
+            "target": "pycontrails"
           },
           {
             "source": "cffi",
@@ -9985,10 +10027,6 @@
           {
             "source": "cffi",
             "target": "vic"
-          },
-          {
-            "source": "cffi",
-            "target": "visan"
           },
           {
             "source": "cffi",
@@ -10529,6 +10567,10 @@
           {
             "source": "coda",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coda",
+            "target": "harp"
           },
           {
             "source": "coda",
@@ -13976,6 +14018,10 @@
           },
           {
             "source": "cython",
+            "target": "pycontrails"
+          },
+          {
+            "source": "cython",
             "target": "pycraf"
           },
           {
@@ -15976,6 +16022,10 @@
           },
           {
             "source": "debugpy",
+            "target": "pycontrails"
+          },
+          {
+            "source": "debugpy",
             "target": "pygmo"
           },
           {
@@ -17488,6 +17538,10 @@
           },
           {
             "source": "fast3tree",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fast_matrix_market",
             "target": "conda-forge-pinning"
           },
           {
@@ -19472,6 +19526,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "pycontrails"
+          },
+          {
+            "source": "google-crc32c",
             "target": "python-infomap"
           },
           {
@@ -19856,6 +19914,10 @@
           },
           {
             "source": "greenlet",
+            "target": "pycontrails"
+          },
+          {
+            "source": "greenlet",
             "target": "pyodesys"
           },
           {
@@ -20149,6 +20211,10 @@
           {
             "source": "grpc-cpp",
             "target": "pyaedt"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "pycontrails"
           },
           {
             "source": "grpc-cpp",
@@ -21379,6 +21445,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "harp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "harp",
+            "target": "visan"
+          },
+          {
             "source": "hazelbean",
             "target": "conda-forge-pinning"
           },
@@ -22104,10 +22178,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "gwtc_analysis"
           },
           {
@@ -22121,6 +22191,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -22172,10 +22246,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "gwtc_analysis"
           },
           {
@@ -22197,6 +22267,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -23040,10 +23114,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "conda-forge-pinning"
           },
           {
@@ -23060,10 +23130,6 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "gwtc_analysis"
           },
           {
@@ -23076,7 +23142,7 @@
           },
           {
             "source": "lalburst",
-            "target": "ligo-raven"
+            "target": "lalinspiral"
           },
           {
             "source": "lalburst",
@@ -23116,14 +23182,6 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "gwtc_analysis"
           },
           {
@@ -23136,11 +23194,11 @@
           },
           {
             "source": "lalframe",
-            "target": "lalpulsar"
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
-            "target": "ligo-raven"
+            "target": "lalpulsar"
           },
           {
             "source": "lalframe",
@@ -23227,6 +23285,50 @@
             "target": "rift"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gravelamps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gwtc_analysis"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "ligo-raven"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "rapid-pe"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "rift"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -23241,6 +23343,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -23301,6 +23407,10 @@
           {
             "source": "lalmetaio",
             "target": "lalinference"
+          },
+          {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
           },
           {
             "source": "lalmetaio",
@@ -23384,10 +23494,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -23409,6 +23515,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -23669,6 +23779,10 @@
           {
             "source": "lazy-object-proxy",
             "target": "pnab"
+          },
+          {
+            "source": "lazy-object-proxy",
+            "target": "pycontrails"
           },
           {
             "source": "lazy-object-proxy",
@@ -26128,6 +26242,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "pycontrails"
+          },
+          {
+            "source": "markupsafe",
             "target": "pycuda"
           },
           {
@@ -27961,6 +28079,10 @@
           {
             "source": "matplotlib",
             "target": "pycocotools"
+          },
+          {
+            "source": "matplotlib",
+            "target": "pycontrails"
           },
           {
             "source": "matplotlib",
@@ -30460,6 +30582,10 @@
           },
           {
             "source": "msgspec",
+            "target": "pycontrails"
+          },
+          {
+            "source": "msgspec",
             "target": "python-infomap"
           },
           {
@@ -30653,6 +30779,10 @@
           {
             "source": "multidict",
             "target": "pyart_mch"
+          },
+          {
+            "source": "multidict",
+            "target": "pycontrails"
           },
           {
             "source": "multidict",
@@ -31325,6 +31455,10 @@
           {
             "source": "netcdf4",
             "target": "pychemia"
+          },
+          {
+            "source": "netcdf4",
+            "target": "pycontrails"
           },
           {
             "source": "netcdf4",
@@ -32301,6 +32435,10 @@
           {
             "source": "numcodecs",
             "target": "plaid"
+          },
+          {
+            "source": "numcodecs",
+            "target": "pycontrails"
           },
           {
             "source": "numcodecs",
@@ -34212,6 +34350,10 @@
           },
           {
             "source": "numpy",
+            "target": "fast_matrix_market"
+          },
+          {
+            "source": "numpy",
             "target": "fastbdt"
           },
           {
@@ -34828,6 +34970,10 @@
           },
           {
             "source": "numpy",
+            "target": "harp"
+          },
+          {
+            "source": "numpy",
             "target": "hazelbean"
           },
           {
@@ -35241,6 +35387,10 @@
           {
             "source": "numpy",
             "target": "lalinference"
+          },
+          {
+            "source": "numpy",
+            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -36889,6 +37039,10 @@
           {
             "source": "numpy",
             "target": "pycontour"
+          },
+          {
+            "source": "numpy",
+            "target": "pycontrails"
           },
           {
             "source": "numpy",
@@ -39948,6 +40102,10 @@
           },
           {
             "source": "opencv",
+            "target": "pycontrails"
+          },
+          {
+            "source": "opencv",
             "target": "pymagewell"
           },
           {
@@ -41840,6 +41998,10 @@
           },
           {
             "source": "pandas",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pandas",
             "target": "pycovjson"
           },
           {
@@ -43636,6 +43798,10 @@
           },
           {
             "source": "pillow",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pillow",
             "target": "pygacode"
           },
           {
@@ -44833,6 +44999,10 @@
           {
             "source": "protobuf",
             "target": "pyaedt"
+          },
+          {
+            "source": "protobuf",
+            "target": "pycontrails"
           },
           {
             "source": "protobuf",
@@ -46165,6 +46335,10 @@
           {
             "source": "psutil",
             "target": "pychemia"
+          },
+          {
+            "source": "psutil",
+            "target": "pycontrails"
           },
           {
             "source": "psutil",
@@ -48007,6 +48181,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pycontrails",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pycosat",
             "target": "conda"
           },
@@ -48625,6 +48803,10 @@
           {
             "source": "pydantic-core",
             "target": "pyb2d"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "pycontrails"
           },
           {
             "source": "pydantic-core",
@@ -50360,6 +50542,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "pymeshfix"
           },
           {
@@ -50780,6 +50966,10 @@
           },
           {
             "source": "pyogrio",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyogrio",
             "target": "pygnome"
           },
           {
@@ -51089,6 +51279,10 @@
           {
             "source": "pyproj",
             "target": "pyart_mch"
+          },
+          {
+            "source": "pyproj",
+            "target": "pycontrails"
           },
           {
             "source": "pyproj",
@@ -52312,6 +52506,10 @@
           },
           {
             "source": "python-eccodes",
+            "target": "pycontrails"
+          },
+          {
+            "source": "python-eccodes",
             "target": "raider"
           },
           {
@@ -52761,6 +52959,10 @@
           {
             "source": "python-librt",
             "target": "pnab"
+          },
+          {
+            "source": "python-librt",
+            "target": "pycontrails"
           },
           {
             "source": "python-librt",
@@ -53737,6 +53939,10 @@
           {
             "source": "pytokens",
             "target": "pnab"
+          },
+          {
+            "source": "pytokens",
+            "target": "pycontrails"
           },
           {
             "source": "pytokens",
@@ -55096,6 +55302,10 @@
           },
           {
             "source": "pywin32",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pywin32",
             "target": "pygmo"
           },
           {
@@ -55517,6 +55727,10 @@
           {
             "source": "pywinpty",
             "target": "pnab"
+          },
+          {
+            "source": "pywinpty",
+            "target": "pycontrails"
           },
           {
             "source": "pywinpty",
@@ -56748,6 +56962,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyyaml",
             "target": "pycrdt"
           },
           {
@@ -57740,6 +57958,10 @@
           },
           {
             "source": "pyzmq",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyzmq",
             "target": "pygmo"
           },
           {
@@ -58317,6 +58539,10 @@
           {
             "source": "rasterio",
             "target": "polymer"
+          },
+          {
+            "source": "rasterio",
+            "target": "pycontrails"
           },
           {
             "source": "rasterio",
@@ -59560,6 +59786,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "pycontrails"
+          },
+          {
+            "source": "rpds-py",
             "target": "pygypsy"
           },
           {
@@ -60093,6 +60323,10 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "pnab"
+          },
+          {
+            "source": "ruamel.yaml.clib",
+            "target": "pycontrails"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -61141,6 +61375,10 @@
           {
             "source": "scikit-learn",
             "target": "py_entitymatching"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "pycontrails"
           },
           {
             "source": "scikit-learn",
@@ -62333,6 +62571,10 @@
           {
             "source": "scipy",
             "target": "faiss-split"
+          },
+          {
+            "source": "scipy",
+            "target": "fast_matrix_market"
           },
           {
             "source": "scipy",
@@ -63549,6 +63791,10 @@
           {
             "source": "scipy",
             "target": "pycontour"
+          },
+          {
+            "source": "scipy",
+            "target": "pycontrails"
           },
           {
             "source": "scipy",
@@ -65245,6 +65491,10 @@
           {
             "source": "shapely",
             "target": "pycontour"
+          },
+          {
+            "source": "shapely",
+            "target": "pycontrails"
           },
           {
             "source": "shapely",
@@ -67820,6 +68070,10 @@
           },
           {
             "source": "tbb",
+            "target": "backports-datetime-fromisoformat"
+          },
+          {
+            "source": "tbb",
             "target": "backports.zoneinfo"
           },
           {
@@ -70192,6 +70446,10 @@
           },
           {
             "source": "tbb",
+            "target": "fast_matrix_market"
+          },
+          {
+            "source": "tbb",
             "target": "fastapi-azure-auth"
           },
           {
@@ -71180,6 +71438,10 @@
           },
           {
             "source": "tbb",
+            "target": "harp"
+          },
+          {
+            "source": "tbb",
             "target": "hazelbean"
           },
           {
@@ -71949,6 +72211,10 @@
           {
             "source": "tbb",
             "target": "lalinference"
+          },
+          {
+            "source": "tbb",
+            "target": "lalinspiral"
           },
           {
             "source": "tbb",
@@ -74881,6 +75147,10 @@
           {
             "source": "tbb",
             "target": "pycontour"
+          },
+          {
+            "source": "tbb",
+            "target": "pycontrails"
           },
           {
             "source": "tbb",
@@ -80968,6 +81238,10 @@
           },
           {
             "source": "tornado",
+            "target": "pycontrails"
+          },
+          {
+            "source": "tornado",
             "target": "pygmo"
           },
           {
@@ -81993,6 +82267,10 @@
           {
             "source": "ujson",
             "target": "py-rattler"
+          },
+          {
+            "source": "ujson",
+            "target": "pycontrails"
           },
           {
             "source": "ujson",
@@ -84040,6 +84318,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "pycontrails"
+          },
+          {
+            "source": "wcwidth",
             "target": "pycrdt"
           },
           {
@@ -85113,6 +85395,10 @@
           {
             "source": "wrapt",
             "target": "pyart_mch"
+          },
+          {
+            "source": "wrapt",
+            "target": "pycontrails"
           },
           {
             "source": "wrapt",
@@ -87151,6 +87437,12 @@
             "id": "backpack",
             "payload": {
               "__lazy_json__": "node_attrs/backpack.json"
+            }
+          },
+          {
+            "id": "backports-datetime-fromisoformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/backports-datetime-fromisoformat.json"
             }
           },
           {
@@ -90688,6 +90980,12 @@
             }
           },
           {
+            "id": "fast_matrix_market",
+            "payload": {
+              "__lazy_json__": "node_attrs/fast_matrix_market.json"
+            }
+          },
+          {
             "id": "fastapi-azure-auth",
             "payload": {
               "__lazy_json__": "node_attrs/fastapi-azure-auth.json"
@@ -92158,6 +92456,12 @@
             }
           },
           {
+            "id": "harp",
+            "payload": {
+              "__lazy_json__": "node_attrs/harp.json"
+            }
+          },
+          {
             "id": "hazelbean",
             "payload": {
               "__lazy_json__": "node_attrs/hazelbean.json"
@@ -93289,6 +93593,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -97621,6 +97931,12 @@
             "id": "pycontour",
             "payload": {
               "__lazy_json__": "node_attrs/pycontour.json"
+            }
+          },
+          {
+            "id": "pycontrails",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycontrails.json"
             }
           },
           {
