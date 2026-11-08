@@ -19695,6 +19695,10 @@
           },
           {
             "source": "coverage",
+            "target": "python-lmdb"
+          },
+          {
+            "source": "coverage",
             "target": "python-msilib"
           },
           {
@@ -68399,10 +68403,6 @@
           },
           {
             "source": "patch",
-            "target": "allennlp"
-          },
-          {
-            "source": "patch",
             "target": "almosthere"
           },
           {
@@ -68532,6 +68532,10 @@
           {
             "source": "patch",
             "target": "python"
+          },
+          {
+            "source": "patch",
+            "target": "python-lmdb"
           },
           {
             "source": "patch",
@@ -78882,6 +78886,10 @@
             "target": "sbank"
           },
           {
+            "source": "python-lmdb",
+            "target": "allennlp"
+          },
+          {
             "source": "python-mumps",
             "target": "kwant"
           },
@@ -83384,6 +83392,10 @@
           {
             "source": "python",
             "target": "python-ligo-lw"
+          },
+          {
+            "source": "python",
+            "target": "python-lmdb"
           },
           {
             "source": "python",
@@ -126330,6 +126342,12 @@
             "id": "python-ligo-lw",
             "payload": {
               "__lazy_json__": "node_attrs/python-ligo-lw.json"
+            }
+          },
+          {
+            "id": "python-lmdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
