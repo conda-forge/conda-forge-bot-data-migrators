@@ -2125,6 +2125,22 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cuda-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cuda-core",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-core",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cuda-core",
+            "target": "nvidia-cutlass-dsl"
+          },
+          {
             "source": "cupy",
             "target": "conda-forge-pinning"
           },
@@ -2311,6 +2327,10 @@
           {
             "source": "cython",
             "target": "cppbktree"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-core"
           },
           {
             "source": "cython",
@@ -6103,6 +6123,10 @@
           {
             "source": "numpy",
             "target": "cpnest"
+          },
+          {
+            "source": "numpy",
+            "target": "cuda-core"
           },
           {
             "source": "numpy",
@@ -11278,6 +11302,10 @@
           },
           {
             "source": "tbb",
+            "target": "cuda-core"
+          },
+          {
+            "source": "tbb",
             "target": "cupy"
           },
           {
@@ -13262,6 +13290,10 @@
           },
           {
             "source": "tbb",
+            "target": "tinyobjloader"
+          },
+          {
+            "source": "tbb",
             "target": "tokenizers"
           },
           {
@@ -13579,6 +13611,14 @@
           {
             "source": "time-machine",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tinyobjloader",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tinyobjloader",
+            "target": "mujoco"
           },
           {
             "source": "tokenizers",
@@ -15269,6 +15309,12 @@
             "id": "createrepo_c",
             "payload": {
               "__lazy_json__": "node_attrs/createrepo_c.json"
+            }
+          },
+          {
+            "id": "cuda-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-core.json"
             }
           },
           {
@@ -18245,6 +18291,12 @@
             "id": "time-machine",
             "payload": {
               "__lazy_json__": "node_attrs/time-machine.json"
+            }
+          },
+          {
+            "id": "tinyobjloader",
+            "payload": {
+              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
