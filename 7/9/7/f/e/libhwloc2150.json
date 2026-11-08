@@ -116,6 +116,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "hpx",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "intel-compiler-repack",
             "target": "conda-forge-pinning"
           },
@@ -130,6 +134,10 @@
           {
             "source": "intel-compiler-repack",
             "target": "gromacs"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "hpx"
           },
           {
             "source": "intel-compiler-repack",
@@ -313,6 +321,10 @@
           },
           {
             "source": "tbb",
+            "target": "hpx"
+          },
+          {
+            "source": "tbb",
             "target": "intel-compiler-repack"
           },
           {
@@ -408,6 +420,12 @@
             "id": "gromacs",
             "payload": {
               "__lazy_json__": "node_attrs/gromacs.json"
+            }
+          },
+          {
+            "id": "hpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpx.json"
             }
           },
           {
