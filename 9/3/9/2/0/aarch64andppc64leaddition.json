@@ -6611,6 +6611,10 @@
           },
           {
             "source": "bash",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "bash",
             "target": "lalmetaio"
           },
           {
@@ -21963,10 +21967,6 @@
           },
           {
             "source": "coverage",
-            "target": "lalapps"
-          },
-          {
-            "source": "coverage",
             "target": "lalburst"
           },
           {
@@ -21976,6 +21976,10 @@
           {
             "source": "coverage",
             "target": "lalinference"
+          },
+          {
+            "source": "coverage",
+            "target": "lalinspiral"
           },
           {
             "source": "coverage",
@@ -34703,6 +34707,10 @@
           },
           {
             "source": "gsl",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "gsl",
             "target": "lalpulsar"
           },
           {
@@ -35907,19 +35915,7 @@
           },
           {
             "source": "help2man",
-            "target": "bayeswave"
-          },
-          {
-            "source": "help2man",
             "target": "flex"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal-inspiral"
           },
           {
             "source": "help2man",
@@ -35931,10 +35927,6 @@
           },
           {
             "source": "help2man",
-            "target": "lalapps"
-          },
-          {
-            "source": "help2man",
             "target": "lalburst"
           },
           {
@@ -35943,7 +35935,7 @@
           },
           {
             "source": "help2man",
-            "target": "lalinference"
+            "target": "lalinspiral"
           },
           {
             "source": "help2man",
@@ -37007,10 +36999,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "lalapps"
           },
           {
@@ -37020,6 +37008,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -37043,10 +37035,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "igwn-ligolw"
           },
           {
@@ -37064,6 +37052,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -37563,10 +37555,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "gstlal"
           },
           {
@@ -37575,15 +37563,15 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "lalapps"
           },
           {
             "source": "lalburst",
             "target": "lalinference"
+          },
+          {
+            "source": "lalburst",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37599,19 +37587,15 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "lalapps"
           },
           {
             "source": "lalframe",
             "target": "lalinference"
+          },
+          {
+            "source": "lalframe",
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -37662,6 +37646,26 @@
             "target": "lalpulsar"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -37676,6 +37680,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37722,6 +37730,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lalpulsar",
             "target": "cwinpy"
           },
@@ -37747,10 +37759,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -37764,6 +37772,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -44968,6 +44980,10 @@
           {
             "source": "libtool",
             "target": "lalinference"
+          },
+          {
+            "source": "libtool",
+            "target": "lalinspiral"
           },
           {
             "source": "libtool",
@@ -60827,6 +60843,10 @@
           },
           {
             "source": "numpy",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "numpy",
             "target": "lalmetaio"
           },
           {
@@ -66992,6 +67012,10 @@
           {
             "source": "pkg-config",
             "target": "lalinference"
+          },
+          {
+            "source": "pkg-config",
+            "target": "lalinspiral"
           },
           {
             "source": "pkg-config",
@@ -74284,6 +74308,10 @@
           {
             "source": "python",
             "target": "lalinference"
+          },
+          {
+            "source": "python",
+            "target": "lalinspiral"
           },
           {
             "source": "python",
@@ -91851,10 +91879,6 @@
           },
           {
             "source": "sed",
-            "target": "bayeswave"
-          },
-          {
-            "source": "sed",
             "target": "bazel"
           },
           {
@@ -91999,14 +92023,6 @@
           },
           {
             "source": "sed",
-            "target": "gstlal"
-          },
-          {
-            "source": "sed",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "sed",
             "target": "gymnasium"
           },
           {
@@ -92055,10 +92071,6 @@
           },
           {
             "source": "sed",
-            "target": "lalapps"
-          },
-          {
-            "source": "sed",
             "target": "lalburst"
           },
           {
@@ -92068,6 +92080,10 @@
           {
             "source": "sed",
             "target": "lalinference"
+          },
+          {
+            "source": "sed",
+            "target": "lalinspiral"
           },
           {
             "source": "sed",
@@ -93795,10 +93811,6 @@
           },
           {
             "source": "swig",
-            "target": "bayeswave"
-          },
-          {
-            "source": "swig",
             "target": "casadi"
           },
           {
@@ -93823,14 +93835,6 @@
           },
           {
             "source": "swig",
-            "target": "gstlal"
-          },
-          {
-            "source": "swig",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "swig",
             "target": "gymnasium"
           },
           {
@@ -93851,10 +93855,6 @@
           },
           {
             "source": "swig",
-            "target": "lalapps"
-          },
-          {
-            "source": "swig",
             "target": "lalburst"
           },
           {
@@ -93864,6 +93864,10 @@
           {
             "source": "swig",
             "target": "lalinference"
+          },
+          {
+            "source": "swig",
+            "target": "lalinspiral"
           },
           {
             "source": "swig",
@@ -111150,6 +111154,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
