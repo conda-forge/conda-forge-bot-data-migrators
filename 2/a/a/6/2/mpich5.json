@@ -104,10 +104,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "abinit",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "acctaudem",
             "target": "conda-forge-pinning"
           },
@@ -296,138 +292,6 @@
             "target": "mshr"
           },
           {
-            "source": "fftw",
-            "target": "abacus"
-          },
-          {
-            "source": "fftw",
-            "target": "abinit"
-          },
-          {
-            "source": "fftw",
-            "target": "amrex"
-          },
-          {
-            "source": "fftw",
-            "target": "analisi"
-          },
-          {
-            "source": "fftw",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "fftw",
-            "target": "conquest"
-          },
-          {
-            "source": "fftw",
-            "target": "cp2k"
-          },
-          {
-            "source": "fftw",
-            "target": "damask"
-          },
-          {
-            "source": "fftw",
-            "target": "elegant"
-          },
-          {
-            "source": "fftw",
-            "target": "fluidfft-fftwmpi"
-          },
-          {
-            "source": "fftw",
-            "target": "fluidfft-mpi_with_fftw"
-          },
-          {
-            "source": "fftw",
-            "target": "freefem"
-          },
-          {
-            "source": "fftw",
-            "target": "genesis4"
-          },
-          {
-            "source": "fftw",
-            "target": "gpaw"
-          },
-          {
-            "source": "fftw",
-            "target": "heffte"
-          },
-          {
-            "source": "fftw",
-            "target": "imp"
-          },
-          {
-            "source": "fftw",
-            "target": "impact-t"
-          },
-          {
-            "source": "fftw",
-            "target": "impact-z"
-          },
-          {
-            "source": "fftw",
-            "target": "lammps"
-          },
-          {
-            "source": "fftw",
-            "target": "libvdwxc"
-          },
-          {
-            "source": "fftw",
-            "target": "mpb"
-          },
-          {
-            "source": "fftw",
-            "target": "numcosmo"
-          },
-          {
-            "source": "fftw",
-            "target": "opencarp"
-          },
-          {
-            "source": "fftw",
-            "target": "openfoam"
-          },
-          {
-            "source": "fftw",
-            "target": "petsc"
-          },
-          {
-            "source": "fftw",
-            "target": "plumed"
-          },
-          {
-            "source": "fftw",
-            "target": "puffin"
-          },
-          {
-            "source": "fftw",
-            "target": "pymeep"
-          },
-          {
-            "source": "fftw",
-            "target": "qe"
-          },
-          {
-            "source": "fftw",
-            "target": "spfft"
-          },
-          {
-            "source": "fftw",
-            "target": "triqs"
-          },
-          {
-            "source": "fftw",
-            "target": "triqs_cthyb"
-          },
-          {
-            "source": "fftw",
-            "target": "triqs_tprf"
-          },
-          {
             "source": "fluidfft-fftwmpi",
             "target": "conda-forge-pinning"
           },
@@ -530,10 +394,6 @@
           {
             "source": "h5utils",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "hdf5",
-            "target": "abinit"
           },
           {
             "source": "hdf5",
@@ -841,10 +701,6 @@
           },
           {
             "source": "libnetcdf",
-            "target": "abinit"
-          },
-          {
-            "source": "libnetcdf",
             "target": "conda-forge-pinning"
           },
           {
@@ -1142,10 +998,6 @@
           {
             "source": "netcdf-cxx4",
             "target": "trilinos"
-          },
-          {
-            "source": "netcdf-fortran",
-            "target": "abinit"
           },
           {
             "source": "netcdf-fortran",
@@ -1733,12 +1585,6 @@
             }
           },
           {
-            "id": "abinit",
-            "payload": {
-              "__lazy_json__": "node_attrs/abinit.json"
-            }
-          },
-          {
             "id": "acctaudem",
             "payload": {
               "__lazy_json__": "node_attrs/acctaudem.json"
@@ -1928,12 +1774,6 @@
             "id": "fenics-dolfinx",
             "payload": {
               "__lazy_json__": "node_attrs/fenics-dolfinx.json"
-            }
-          },
-          {
-            "id": "fftw",
-            "payload": {
-              "__lazy_json__": "node_attrs/fftw.json"
             }
           },
           {
