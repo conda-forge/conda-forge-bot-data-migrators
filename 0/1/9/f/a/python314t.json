@@ -326,6 +326,10 @@
           },
           {
             "source": "ast-serialize",
+            "target": "orjson"
+          },
+          {
+            "source": "ast-serialize",
             "target": "pyshtools"
           },
           {
@@ -5342,6 +5346,10 @@
           },
           {
             "source": "maturin",
+            "target": "orjson"
+          },
+          {
+            "source": "maturin",
             "target": "ormsgpack"
           },
           {
@@ -7265,6 +7273,22 @@
             "target": "orange3-associate"
           },
           {
+            "source": "orjson",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "orjson",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "orjson",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "orjson",
+            "target": "viztracer"
+          },
+          {
             "source": "ormsgpack",
             "target": "conda-forge-pinning"
           },
@@ -8147,6 +8171,10 @@
           {
             "source": "psutil",
             "target": "orange3"
+          },
+          {
+            "source": "psutil",
+            "target": "orjson"
           },
           {
             "source": "psutil",
@@ -9247,6 +9275,10 @@
           {
             "source": "python-librt",
             "target": "mne-lsl"
+          },
+          {
+            "source": "python-librt",
+            "target": "orjson"
           },
           {
             "source": "python-librt",
@@ -12259,6 +12291,10 @@
           {
             "source": "tbb",
             "target": "orange3-associate"
+          },
+          {
+            "source": "tbb",
+            "target": "orjson"
           },
           {
             "source": "tbb",
@@ -16749,6 +16785,12 @@
             "id": "orange3-associate",
             "payload": {
               "__lazy_json__": "node_attrs/orange3-associate.json"
+            }
+          },
+          {
+            "id": "orjson",
+            "payload": {
+              "__lazy_json__": "node_attrs/orjson.json"
             }
           },
           {
