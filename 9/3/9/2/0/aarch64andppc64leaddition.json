@@ -91,10 +91,6 @@
         "links": [
           {
             "source": "_openmp_mutex",
-            "target": "abinit"
-          },
-          {
-            "source": "_openmp_mutex",
             "target": "ctng-compilers"
           },
           {
@@ -1311,7 +1307,7 @@
           },
           {
             "source": "autoconf",
-            "target": "abinit"
+            "target": "abacus"
           },
           {
             "source": "autoconf",
@@ -1324,6 +1320,10 @@
           {
             "source": "autoconf",
             "target": "alsa-plugins"
+          },
+          {
+            "source": "autoconf",
+            "target": "ambertools"
           },
           {
             "source": "autoconf",
@@ -1347,6 +1347,10 @@
           },
           {
             "source": "autoconf",
+            "target": "bayeswave"
+          },
+          {
+            "source": "autoconf",
             "target": "bdw-gc"
           },
           {
@@ -1356,6 +1360,14 @@
           {
             "source": "autoconf",
             "target": "cctools-and-ld64"
+          },
+          {
+            "source": "autoconf",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "autoconf",
+            "target": "cgsi-gsoap"
           },
           {
             "source": "autoconf",
@@ -1375,7 +1387,15 @@
           },
           {
             "source": "autoconf",
+            "target": "cvxopt"
+          },
+          {
+            "source": "autoconf",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "autoconf",
+            "target": "davix"
           },
           {
             "source": "autoconf",
@@ -1403,10 +1423,6 @@
           },
           {
             "source": "autoconf",
-            "target": "fftw"
-          },
-          {
-            "source": "autoconf",
             "target": "findutils"
           },
           {
@@ -1416,6 +1432,14 @@
           {
             "source": "autoconf",
             "target": "fuse-overlayfs"
+          },
+          {
+            "source": "autoconf",
+            "target": "galsim"
+          },
+          {
+            "source": "autoconf",
+            "target": "gds"
           },
           {
             "source": "autoconf",
@@ -1443,6 +1467,18 @@
           },
           {
             "source": "autoconf",
+            "target": "gmt"
+          },
+          {
+            "source": "autoconf",
+            "target": "gnuradio"
+          },
+          {
+            "source": "autoconf",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "autoconf",
             "target": "gpgme"
           },
           {
@@ -1455,11 +1491,27 @@
           },
           {
             "source": "autoconf",
+            "target": "gromacs"
+          },
+          {
+            "source": "autoconf",
             "target": "gsl"
           },
           {
             "source": "autoconf",
-            "target": "gsoap"
+            "target": "gstlal"
+          },
+          {
+            "source": "autoconf",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "autoconf",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "autoconf",
+            "target": "hackrf"
           },
           {
             "source": "autoconf",
@@ -1475,7 +1527,15 @@
           },
           {
             "source": "autoconf",
+            "target": "heffte"
+          },
+          {
+            "source": "autoconf",
             "target": "heppdt"
+          },
+          {
+            "source": "autoconf",
+            "target": "imagemagick"
           },
           {
             "source": "autoconf",
@@ -1491,6 +1551,10 @@
           },
           {
             "source": "autoconf",
+            "target": "isce3"
+          },
+          {
+            "source": "autoconf",
             "target": "jansson"
           },
           {
@@ -1500,6 +1564,18 @@
           {
             "source": "autoconf",
             "target": "krb5"
+          },
+          {
+            "source": "autoconf",
+            "target": "lal"
+          },
+          {
+            "source": "autoconf",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "autoconf",
+            "target": "lammps"
           },
           {
             "source": "autoconf",
@@ -1635,6 +1711,10 @@
           },
           {
             "source": "autoconf",
+            "target": "libvips"
+          },
+          {
+            "source": "autoconf",
             "target": "libxcb"
           },
           {
@@ -1664,6 +1744,10 @@
           {
             "source": "autoconf",
             "target": "mediainfo"
+          },
+          {
+            "source": "autoconf",
+            "target": "metview"
           },
           {
             "source": "autoconf",
@@ -1707,6 +1791,10 @@
           },
           {
             "source": "autoconf",
+            "target": "octave"
+          },
+          {
+            "source": "autoconf",
             "target": "ogre"
           },
           {
@@ -1723,11 +1811,19 @@
           },
           {
             "source": "autoconf",
+            "target": "petsc"
+          },
+          {
+            "source": "autoconf",
             "target": "php"
           },
           {
             "source": "autoconf",
             "target": "planarity"
+          },
+          {
+            "source": "autoconf",
+            "target": "plumed"
           },
           {
             "source": "autoconf",
@@ -1743,7 +1839,23 @@
           },
           {
             "source": "autoconf",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "autoconf",
+            "target": "pycbc"
+          },
+          {
+            "source": "autoconf",
+            "target": "pyfftw"
+          },
+          {
+            "source": "autoconf",
             "target": "pygame-ce"
+          },
+          {
+            "source": "autoconf",
+            "target": "pyshtools"
           },
           {
             "source": "autoconf",
@@ -1892,6 +2004,10 @@
           {
             "source": "autoconf",
             "target": "r-pki"
+          },
+          {
+            "source": "autoconf",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "autoconf",
@@ -2103,6 +2219,10 @@
           },
           {
             "source": "autoconf",
+            "target": "srm-ifce"
+          },
+          {
+            "source": "autoconf",
             "target": "sympow"
           },
           {
@@ -2135,6 +2255,10 @@
           },
           {
             "source": "autoconf",
+            "target": "tomopy"
+          },
+          {
+            "source": "autoconf",
             "target": "ucc"
           },
           {
@@ -2152,6 +2276,14 @@
           {
             "source": "autoconf",
             "target": "util-linux"
+          },
+          {
+            "source": "autoconf",
+            "target": "vigra"
+          },
+          {
+            "source": "autoconf",
+            "target": "voms"
           },
           {
             "source": "autoconf",
@@ -2263,6 +2395,14 @@
           },
           {
             "source": "autoconf",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "autoconf",
+            "target": "yambo"
+          },
+          {
+            "source": "autoconf",
             "target": "yaml"
           },
           {
@@ -2279,7 +2419,7 @@
           },
           {
             "source": "automake",
-            "target": "abinit"
+            "target": "abacus"
           },
           {
             "source": "automake",
@@ -2288,6 +2428,10 @@
           {
             "source": "automake",
             "target": "alsa-plugins"
+          },
+          {
+            "source": "automake",
+            "target": "ambertools"
           },
           {
             "source": "automake",
@@ -2300,6 +2444,10 @@
           {
             "source": "automake",
             "target": "bash-completion"
+          },
+          {
+            "source": "automake",
+            "target": "bayeswave"
           },
           {
             "source": "automake",
@@ -2320,6 +2468,14 @@
           {
             "source": "automake",
             "target": "cctools-and-ld64"
+          },
+          {
+            "source": "automake",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "automake",
+            "target": "cgsi-gsoap"
           },
           {
             "source": "automake",
@@ -2344,10 +2500,6 @@
           {
             "source": "automake",
             "target": "conda-standalone"
-          },
-          {
-            "source": "automake",
-            "target": "cppunit"
           },
           {
             "source": "automake",
@@ -2451,7 +2603,15 @@
           },
           {
             "source": "automake",
+            "target": "cvxopt"
+          },
+          {
+            "source": "automake",
             "target": "cyrus-sasl"
+          },
+          {
+            "source": "automake",
+            "target": "davix"
           },
           {
             "source": "automake",
@@ -2487,10 +2647,6 @@
           },
           {
             "source": "automake",
-            "target": "fftw"
-          },
-          {
-            "source": "automake",
             "target": "findutils"
           },
           {
@@ -2511,11 +2667,19 @@
           },
           {
             "source": "automake",
+            "target": "galsim"
+          },
+          {
+            "source": "automake",
             "target": "gap"
           },
           {
             "source": "automake",
             "target": "gct"
+          },
+          {
+            "source": "automake",
+            "target": "gds"
           },
           {
             "source": "automake",
@@ -2539,6 +2703,18 @@
           },
           {
             "source": "automake",
+            "target": "gmt"
+          },
+          {
+            "source": "automake",
+            "target": "gnuradio"
+          },
+          {
+            "source": "automake",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "automake",
             "target": "graph-tool"
           },
           {
@@ -2551,11 +2727,27 @@
           },
           {
             "source": "automake",
+            "target": "gromacs"
+          },
+          {
+            "source": "automake",
             "target": "gsl"
           },
           {
             "source": "automake",
-            "target": "gsoap"
+            "target": "gstlal"
+          },
+          {
+            "source": "automake",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "automake",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "automake",
+            "target": "hackrf"
           },
           {
             "source": "automake",
@@ -2571,11 +2763,19 @@
           },
           {
             "source": "automake",
+            "target": "heffte"
+          },
+          {
+            "source": "automake",
             "target": "heppdt"
           },
           {
             "source": "automake",
             "target": "htop"
+          },
+          {
+            "source": "automake",
+            "target": "imagemagick"
           },
           {
             "source": "automake",
@@ -2595,6 +2795,10 @@
           },
           {
             "source": "automake",
+            "target": "isce3"
+          },
+          {
+            "source": "automake",
             "target": "jansson"
           },
           {
@@ -2604,6 +2808,18 @@
           {
             "source": "automake",
             "target": "julia"
+          },
+          {
+            "source": "automake",
+            "target": "lal"
+          },
+          {
+            "source": "automake",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "automake",
+            "target": "lammps"
           },
           {
             "source": "automake",
@@ -2883,6 +3099,10 @@
           },
           {
             "source": "automake",
+            "target": "libvips"
+          },
+          {
+            "source": "automake",
             "target": "libxcb"
           },
           {
@@ -2912,6 +3132,10 @@
           {
             "source": "automake",
             "target": "mediainfo"
+          },
+          {
+            "source": "automake",
+            "target": "metview"
           },
           {
             "source": "automake",
@@ -2979,11 +3203,19 @@
           },
           {
             "source": "automake",
+            "target": "petsc"
+          },
+          {
+            "source": "automake",
             "target": "pkg-config"
           },
           {
             "source": "automake",
             "target": "planarity"
+          },
+          {
+            "source": "automake",
+            "target": "plumed"
           },
           {
             "source": "automake",
@@ -2999,7 +3231,23 @@
           },
           {
             "source": "automake",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "automake",
+            "target": "pycbc"
+          },
+          {
+            "source": "automake",
+            "target": "pyfftw"
+          },
+          {
+            "source": "automake",
             "target": "pyqt"
+          },
+          {
+            "source": "automake",
+            "target": "pyshtools"
           },
           {
             "source": "automake",
@@ -3148,6 +3396,10 @@
           {
             "source": "automake",
             "target": "r-pki"
+          },
+          {
+            "source": "automake",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "automake",
@@ -3327,6 +3579,10 @@
           },
           {
             "source": "automake",
+            "target": "root"
+          },
+          {
+            "source": "automake",
             "target": "rrdtool"
           },
           {
@@ -3364,6 +3620,10 @@
           {
             "source": "automake",
             "target": "slirp4netns"
+          },
+          {
+            "source": "automake",
+            "target": "srm-ifce"
           },
           {
             "source": "automake",
@@ -3415,6 +3675,10 @@
           },
           {
             "source": "automake",
+            "target": "tomopy"
+          },
+          {
+            "source": "automake",
             "target": "ucc"
           },
           {
@@ -3436,6 +3700,10 @@
           {
             "source": "automake",
             "target": "util-linux"
+          },
+          {
+            "source": "automake",
+            "target": "vigra"
           },
           {
             "source": "automake",
@@ -3548,6 +3816,14 @@
           {
             "source": "automake",
             "target": "xsel"
+          },
+          {
+            "source": "automake",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "automake",
+            "target": "yambo"
           },
           {
             "source": "automake",
@@ -3839,6 +4115,10 @@
           },
           {
             "source": "azure-core-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
             "target": "tiledb"
           },
           {
@@ -3855,11 +4135,11 @@
           },
           {
             "source": "azure-storage-blobs-cpp",
-            "target": "tiledb"
+            "target": "azure-storage-files-datalake-cpp"
           },
           {
-            "source": "azure-storage-common-cpp",
-            "target": "arrow-cpp"
+            "source": "azure-storage-blobs-cpp",
+            "target": "tiledb"
           },
           {
             "source": "azure-storage-common-cpp",
@@ -3867,6 +4147,18 @@
           },
           {
             "source": "azure-storage-common-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
             "target": "tiledb"
           },
           {
@@ -4164,10 +4456,6 @@
           {
             "source": "backports.zstd",
             "target": "ovito"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pandana"
           },
           {
             "source": "backports.zstd",
@@ -4496,10 +4784,6 @@
           {
             "source": "bash",
             "target": "abacus"
-          },
-          {
-            "source": "bash",
-            "target": "abinit"
           },
           {
             "source": "bash",
@@ -4911,10 +5195,6 @@
           },
           {
             "source": "bash",
-            "target": "cppunit"
-          },
-          {
-            "source": "bash",
             "target": "cppyy-cling"
           },
           {
@@ -5071,6 +5351,10 @@
           },
           {
             "source": "bash",
+            "target": "davix"
+          },
+          {
+            "source": "bash",
             "target": "dbus-python"
           },
           {
@@ -5080,10 +5364,6 @@
           {
             "source": "bash",
             "target": "deno"
-          },
-          {
-            "source": "bash",
-            "target": "deno-dom"
           },
           {
             "source": "bash",
@@ -5116,10 +5396,6 @@
           {
             "source": "bash",
             "target": "doxygen"
-          },
-          {
-            "source": "bash",
-            "target": "dpct-meta"
           },
           {
             "source": "bash",
@@ -5264,10 +5540,6 @@
           {
             "source": "bash",
             "target": "ffnvcodec-headers"
-          },
-          {
-            "source": "bash",
-            "target": "fftw"
           },
           {
             "source": "bash",
@@ -5559,6 +5831,14 @@
           },
           {
             "source": "bash",
+            "target": "gnuradio"
+          },
+          {
+            "source": "bash",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "bash",
             "target": "gnuradio-osmosdr"
           },
           {
@@ -5616,10 +5896,6 @@
           {
             "source": "bash",
             "target": "gsl"
-          },
-          {
-            "source": "bash",
-            "target": "gsoap"
           },
           {
             "source": "bash",
@@ -5696,6 +5972,10 @@
           {
             "source": "bash",
             "target": "h3-py"
+          },
+          {
+            "source": "bash",
+            "target": "hackrf"
           },
           {
             "source": "bash",
@@ -5867,6 +6147,10 @@
           },
           {
             "source": "bash",
+            "target": "isce3"
+          },
+          {
+            "source": "bash",
             "target": "isl"
           },
           {
@@ -5876,10 +6160,6 @@
           {
             "source": "bash",
             "target": "jaeger"
-          },
-          {
-            "source": "bash",
-            "target": "jags"
           },
           {
             "source": "bash",
@@ -6128,6 +6408,10 @@
           {
             "source": "bash",
             "target": "libatomic_ops"
+          },
+          {
+            "source": "bash",
+            "target": "libavif"
           },
           {
             "source": "bash",
@@ -7771,6 +8055,10 @@
           },
           {
             "source": "bash",
+            "target": "pyfftw"
+          },
+          {
+            "source": "bash",
             "target": "pyg-lib"
           },
           {
@@ -7944,6 +8232,10 @@
           {
             "source": "bash",
             "target": "qtkeychain"
+          },
+          {
+            "source": "bash",
+            "target": "quarto"
           },
           {
             "source": "bash",
@@ -10103,6 +10395,10 @@
           },
           {
             "source": "bash",
+            "target": "sdsl-lite"
+          },
+          {
+            "source": "bash",
             "target": "seccomp-split"
           },
           {
@@ -10268,10 +10564,6 @@
           {
             "source": "bash",
             "target": "superlu_dist"
-          },
-          {
-            "source": "bash",
-            "target": "svt-av1"
           },
           {
             "source": "bash",
@@ -11627,10 +11919,6 @@
           },
           {
             "source": "binutils",
-            "target": "jags"
-          },
-          {
-            "source": "binutils",
             "target": "julia"
           },
           {
@@ -12019,6 +12307,10 @@
           },
           {
             "source": "binutils",
+            "target": "r-rjags"
+          },
+          {
+            "source": "binutils",
             "target": "r-robusthd"
           },
           {
@@ -12219,11 +12511,19 @@
           },
           {
             "source": "bison",
+            "target": "cgsi-gsoap"
+          },
+          {
+            "source": "bison",
             "target": "clingo"
           },
           {
             "source": "bison",
             "target": "coda"
+          },
+          {
+            "source": "bison",
+            "target": "davix"
           },
           {
             "source": "bison",
@@ -12248,10 +12548,6 @@
           {
             "source": "bison",
             "target": "groff"
-          },
-          {
-            "source": "bison",
-            "target": "gsoap"
           },
           {
             "source": "bison",
@@ -12367,6 +12663,10 @@
           },
           {
             "source": "bison",
+            "target": "srm-ifce"
+          },
+          {
+            "source": "bison",
             "target": "thrift-cpp"
           },
           {
@@ -12376,6 +12676,10 @@
           {
             "source": "bison",
             "target": "vala"
+          },
+          {
+            "source": "bison",
+            "target": "voms"
           },
           {
             "source": "bison",
@@ -12392,10 +12696,6 @@
           {
             "source": "blas",
             "target": "abacus"
-          },
-          {
-            "source": "blas",
-            "target": "abinit"
           },
           {
             "source": "blas",
@@ -12580,10 +12880,6 @@
           {
             "source": "blas",
             "target": "ipopt"
-          },
-          {
-            "source": "blas",
-            "target": "jags"
           },
           {
             "source": "blas",
@@ -12923,6 +13219,10 @@
           },
           {
             "source": "blas",
+            "target": "r-rjags"
+          },
+          {
+            "source": "blas",
             "target": "r-robust"
           },
           {
@@ -13144,10 +13444,6 @@
           {
             "source": "boost",
             "target": "cartographer"
-          },
-          {
-            "source": "boost",
-            "target": "cascade"
           },
           {
             "source": "boost",
@@ -13848,10 +14144,6 @@
           {
             "source": "brotli",
             "target": "ovito"
-          },
-          {
-            "source": "brotli",
-            "target": "pandana"
           },
           {
             "source": "brotli",
@@ -15131,10 +15423,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "deno-dom"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "deptry"
           },
           {
@@ -15819,7 +16107,15 @@
           },
           {
             "source": "ccache",
-            "target": "lief"
+            "target": "argtable2"
+          },
+          {
+            "source": "ccache",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "ccache",
+            "target": "conda-standalone"
           },
           {
             "source": "ccache",
@@ -16008,10 +16304,6 @@
           {
             "source": "cctools-and-ld64",
             "target": "intel-compiler-repack"
-          },
-          {
-            "source": "cctools-and-ld64",
-            "target": "jags"
           },
           {
             "source": "cctools-and-ld64",
@@ -16300,6 +16592,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "r-rjags"
           },
           {
             "source": "cctools-and-ld64",
@@ -17359,6 +17655,10 @@
           },
           {
             "source": "cmake",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "cmake",
             "target": "backward-cpp"
           },
           {
@@ -17460,10 +17760,6 @@
           {
             "source": "cmake",
             "target": "casadi"
-          },
-          {
-            "source": "cmake",
-            "target": "cascade"
           },
           {
             "source": "cmake",
@@ -17751,10 +18047,6 @@
           },
           {
             "source": "cmake",
-            "target": "dpct-meta"
-          },
-          {
-            "source": "cmake",
             "target": "draco"
           },
           {
@@ -17863,10 +18155,6 @@
           },
           {
             "source": "cmake",
-            "target": "fftw"
-          },
-          {
-            "source": "cmake",
             "target": "fgt"
           },
           {
@@ -17948,6 +18236,10 @@
           {
             "source": "cmake",
             "target": "gdma"
+          },
+          {
+            "source": "cmake",
+            "target": "gds"
           },
           {
             "source": "cmake",
@@ -18096,6 +18388,18 @@
           {
             "source": "cmake",
             "target": "grpc-cpp"
+          },
+          {
+            "source": "cmake",
+            "target": "gstlal"
+          },
+          {
+            "source": "cmake",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "cmake",
+            "target": "gstlal-ugly"
           },
           {
             "source": "cmake",
@@ -18279,6 +18583,10 @@
           },
           {
             "source": "cmake",
+            "target": "imagemagick"
+          },
+          {
+            "source": "cmake",
             "target": "imath"
           },
           {
@@ -18320,10 +18628,6 @@
           {
             "source": "cmake",
             "target": "islpy"
-          },
-          {
-            "source": "cmake",
-            "target": "jags"
           },
           {
             "source": "cmake",
@@ -18388,6 +18692,10 @@
           {
             "source": "cmake",
             "target": "kornia-rs"
+          },
+          {
+            "source": "cmake",
+            "target": "lal"
           },
           {
             "source": "cmake",
@@ -18763,6 +19071,10 @@
           },
           {
             "source": "cmake",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "cmake",
             "target": "libosqp"
           },
           {
@@ -18851,6 +19163,10 @@
           },
           {
             "source": "cmake",
+            "target": "libvips"
+          },
+          {
+            "source": "cmake",
             "target": "libvorbis"
           },
           {
@@ -18880,10 +19196,6 @@
           {
             "source": "cmake",
             "target": "libzopfli"
-          },
-          {
-            "source": "cmake",
-            "target": "lief"
           },
           {
             "source": "cmake",
@@ -19463,6 +19775,10 @@
           },
           {
             "source": "cmake",
+            "target": "plumed"
+          },
+          {
+            "source": "cmake",
             "target": "pocl"
           },
           {
@@ -19523,6 +19839,10 @@
           },
           {
             "source": "cmake",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "cmake",
             "target": "pyarrow"
           },
           {
@@ -19544,6 +19864,10 @@
           {
             "source": "cmake",
             "target": "pyddx"
+          },
+          {
+            "source": "cmake",
+            "target": "pyfftw"
           },
           {
             "source": "cmake",
@@ -19759,6 +20083,10 @@
           },
           {
             "source": "cmake",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "cmake",
             "target": "r-glmmtmb"
           },
           {
@@ -19772,6 +20100,10 @@
           {
             "source": "cmake",
             "target": "r-mvnfast"
+          },
+          {
+            "source": "cmake",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "cmake",
@@ -19796,6 +20128,10 @@
           {
             "source": "cmake",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "cmake",
+            "target": "r-rjags"
           },
           {
             "source": "cmake",
@@ -19932,6 +20268,10 @@
           {
             "source": "cmake",
             "target": "sdl2_ttf"
+          },
+          {
+            "source": "cmake",
+            "target": "sdsl-lite"
           },
           {
             "source": "cmake",
@@ -20095,10 +20435,6 @@
           },
           {
             "source": "cmake",
-            "target": "svt-av1"
-          },
-          {
-            "source": "cmake",
             "target": "swig"
           },
           {
@@ -20175,6 +20511,10 @@
           },
           {
             "source": "cmake",
+            "target": "tempo2"
+          },
+          {
+            "source": "cmake",
             "target": "termcolor-cpp"
           },
           {
@@ -20200,10 +20540,6 @@
           {
             "source": "cmake",
             "target": "tiny-process-library"
-          },
-          {
-            "source": "cmake",
-            "target": "tinyobjloader"
           },
           {
             "source": "cmake",
@@ -21015,10 +21351,6 @@
           },
           {
             "source": "coverage",
-            "target": "cuda-core"
-          },
-          {
-            "source": "coverage",
             "target": "cuda-python"
           },
           {
@@ -21092,10 +21424,6 @@
           {
             "source": "coverage",
             "target": "dm-tree"
-          },
-          {
-            "source": "coverage",
-            "target": "dpct-meta"
           },
           {
             "source": "coverage",
@@ -21355,10 +21683,6 @@
           },
           {
             "source": "coverage",
-            "target": "isce3"
-          },
-          {
-            "source": "coverage",
             "target": "islpy"
           },
           {
@@ -21439,6 +21763,10 @@
           },
           {
             "source": "coverage",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "coverage",
             "target": "libode"
           },
           {
@@ -21464,10 +21792,6 @@
           {
             "source": "coverage",
             "target": "libstempo"
-          },
-          {
-            "source": "coverage",
-            "target": "lief"
           },
           {
             "source": "coverage",
@@ -21551,6 +21875,10 @@
           },
           {
             "source": "coverage",
+            "target": "mujoco"
+          },
+          {
+            "source": "coverage",
             "target": "multidict"
           },
           {
@@ -21568,6 +21896,10 @@
           {
             "source": "coverage",
             "target": "natcap.invest"
+          },
+          {
+            "source": "coverage",
+            "target": "nccl4py"
           },
           {
             "source": "coverage",
@@ -21592,6 +21924,14 @@
           {
             "source": "coverage",
             "target": "numba"
+          },
+          {
+            "source": "coverage",
+            "target": "numba-cuda"
+          },
+          {
+            "source": "coverage",
+            "target": "numba-cuda-mlir"
           },
           {
             "source": "coverage",
@@ -21676,10 +22016,6 @@
           {
             "source": "coverage",
             "target": "ovito"
-          },
-          {
-            "source": "coverage",
-            "target": "pandana"
           },
           {
             "source": "coverage",
@@ -22087,6 +22423,10 @@
           },
           {
             "source": "coverage",
+            "target": "shapely"
+          },
+          {
+            "source": "coverage",
             "target": "sharedlibpp"
           },
           {
@@ -22192,10 +22532,6 @@
           {
             "source": "coverage",
             "target": "time-machine"
-          },
-          {
-            "source": "coverage",
-            "target": "tinyobjloader"
           },
           {
             "source": "coverage",
@@ -22438,10 +22774,6 @@
             "target": "tango-test"
           },
           {
-            "source": "cppunit",
-            "target": "nordugrid-arc"
-          },
-          {
             "source": "cppyy-backend",
             "target": "cppyy"
           },
@@ -22548,10 +22880,6 @@
           {
             "source": "ctng-compilers",
             "target": "abacus"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "abinit"
           },
           {
             "source": "ctng-compilers",
@@ -22852,10 +23180,6 @@
           {
             "source": "ctng-compilers",
             "target": "isce3"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "jags"
           },
           {
             "source": "ctng-compilers",
@@ -23379,6 +23703,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "r-rjags"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "r-robusthd"
           },
           {
@@ -23650,30 +23978,6 @@
             "target": "cuda-tools"
           },
           {
-            "source": "cuda-core",
-            "target": "cccl-python"
-          },
-          {
-            "source": "cuda-core",
-            "target": "libnvshmem"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nccl4py"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nvmath"
-          },
-          {
             "source": "cuda-cudart",
             "target": "abacus"
           },
@@ -23696,10 +24000,6 @@
           {
             "source": "cuda-cudart",
             "target": "ceres-solver"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "cuda-core"
           },
           {
             "source": "cuda-cudart",
@@ -24055,10 +24355,6 @@
           },
           {
             "source": "cuda-nvrtc",
-            "target": "cuda-core"
-          },
-          {
-            "source": "cuda-nvrtc",
             "target": "cuda-libraries"
           },
           {
@@ -24112,6 +24408,18 @@
           {
             "source": "cuda-nvrtc",
             "target": "libmathdx"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "numba-cuda"
           },
           {
             "source": "cuda-nvrtc",
@@ -24195,7 +24503,7 @@
           },
           {
             "source": "cuda-profiler-api",
-            "target": "cuda-core"
+            "target": "cccl-python"
           },
           {
             "source": "cuda-profiler-api",
@@ -24223,11 +24531,31 @@
           },
           {
             "source": "cuda-profiler-api",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "cuda-profiler-api",
             "target": "mandrake"
           },
           {
             "source": "cuda-profiler-api",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "numba-cuda"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cuda-profiler-api",
             "target": "nvidia-apex"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "nvmath"
           },
           {
             "source": "cuda-profiler-api",
@@ -24239,7 +24567,7 @@
           },
           {
             "source": "cuda-python",
-            "target": "cuda-core"
+            "target": "cccl-python"
           },
           {
             "source": "cuda-python",
@@ -24783,10 +25111,6 @@
           },
           {
             "source": "cython",
-            "target": "bayeswave"
-          },
-          {
-            "source": "cython",
             "target": "bilby.cython"
           },
           {
@@ -24859,10 +25183,6 @@
           },
           {
             "source": "cython",
-            "target": "cuda-core"
-          },
-          {
-            "source": "cython",
             "target": "cuda-python"
           },
           {
@@ -24920,10 +25240,6 @@
           {
             "source": "cython",
             "target": "dipy"
-          },
-          {
-            "source": "cython",
-            "target": "dpct-meta"
           },
           {
             "source": "cython",
@@ -25003,10 +25319,6 @@
           },
           {
             "source": "cython",
-            "target": "geohexviz"
-          },
-          {
-            "source": "cython",
             "target": "gevent"
           },
           {
@@ -25060,10 +25372,6 @@
           {
             "source": "cython",
             "target": "inpoly"
-          },
-          {
-            "source": "cython",
-            "target": "isce3"
           },
           {
             "source": "cython",
@@ -25195,6 +25503,14 @@
           },
           {
             "source": "cython",
+            "target": "numba-cuda"
+          },
+          {
+            "source": "cython",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cython",
             "target": "numcodecs"
           },
           {
@@ -25232,10 +25548,6 @@
           {
             "source": "cython",
             "target": "orange3-network"
-          },
-          {
-            "source": "cython",
-            "target": "pandana"
           },
           {
             "source": "cython",
@@ -25512,6 +25824,10 @@
           {
             "source": "cython",
             "target": "seccomp-split"
+          },
+          {
+            "source": "cython",
+            "target": "shapely"
           },
           {
             "source": "cython",
@@ -26224,14 +26540,6 @@
           {
             "source": "debugpy",
             "target": "z5py"
-          },
-          {
-            "source": "deno-dom",
-            "target": "quarto"
-          },
-          {
-            "source": "deno",
-            "target": "deno-dom"
           },
           {
             "source": "deno",
@@ -28306,166 +28614,6 @@
             "target": "ffmpeg"
           },
           {
-            "source": "fftw",
-            "target": "abacus"
-          },
-          {
-            "source": "fftw",
-            "target": "abinit"
-          },
-          {
-            "source": "fftw",
-            "target": "ambertools"
-          },
-          {
-            "source": "fftw",
-            "target": "bayeswave"
-          },
-          {
-            "source": "fftw",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "fftw",
-            "target": "cvxopt"
-          },
-          {
-            "source": "fftw",
-            "target": "galsim"
-          },
-          {
-            "source": "fftw",
-            "target": "gds"
-          },
-          {
-            "source": "fftw",
-            "target": "gmt"
-          },
-          {
-            "source": "fftw",
-            "target": "gnuradio"
-          },
-          {
-            "source": "fftw",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "fftw",
-            "target": "gromacs"
-          },
-          {
-            "source": "fftw",
-            "target": "gstlal"
-          },
-          {
-            "source": "fftw",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "fftw",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "fftw",
-            "target": "hackrf"
-          },
-          {
-            "source": "fftw",
-            "target": "heffte"
-          },
-          {
-            "source": "fftw",
-            "target": "imagemagick"
-          },
-          {
-            "source": "fftw",
-            "target": "isce3"
-          },
-          {
-            "source": "fftw",
-            "target": "lal"
-          },
-          {
-            "source": "fftw",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "fftw",
-            "target": "lammps"
-          },
-          {
-            "source": "fftw",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "fftw",
-            "target": "libvips"
-          },
-          {
-            "source": "fftw",
-            "target": "metview"
-          },
-          {
-            "source": "fftw",
-            "target": "octave"
-          },
-          {
-            "source": "fftw",
-            "target": "petsc"
-          },
-          {
-            "source": "fftw",
-            "target": "plumed"
-          },
-          {
-            "source": "fftw",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "fftw",
-            "target": "pycbc"
-          },
-          {
-            "source": "fftw",
-            "target": "pyfftw"
-          },
-          {
-            "source": "fftw",
-            "target": "pyshtools"
-          },
-          {
-            "source": "fftw",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "fftw",
-            "target": "r-poissonbinomial"
-          },
-          {
-            "source": "fftw",
-            "target": "root"
-          },
-          {
-            "source": "fftw",
-            "target": "tempo2"
-          },
-          {
-            "source": "fftw",
-            "target": "tomopy"
-          },
-          {
-            "source": "fftw",
-            "target": "vigra"
-          },
-          {
-            "source": "fftw",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "fftw",
-            "target": "yambo"
-          },
-          {
             "source": "fgt",
             "target": "cpd"
           },
@@ -28583,7 +28731,15 @@
           },
           {
             "source": "flex",
+            "target": "cgsi-gsoap"
+          },
+          {
+            "source": "flex",
             "target": "coda"
+          },
+          {
+            "source": "flex",
+            "target": "davix"
           },
           {
             "source": "flex",
@@ -28608,10 +28764,6 @@
           {
             "source": "flex",
             "target": "groff"
-          },
-          {
-            "source": "flex",
-            "target": "gsoap"
           },
           {
             "source": "flex",
@@ -28703,11 +28855,19 @@
           },
           {
             "source": "flex",
+            "target": "srm-ifce"
+          },
+          {
+            "source": "flex",
             "target": "thrift-cpp"
           },
           {
             "source": "flex",
             "target": "vala"
+          },
+          {
+            "source": "flex",
+            "target": "voms"
           },
           {
             "source": "flex",
@@ -28731,6 +28891,10 @@
           },
           {
             "source": "fmt",
+            "target": "argtable2"
+          },
+          {
+            "source": "fmt",
             "target": "bipedal-locomotion-framework"
           },
           {
@@ -28739,7 +28903,11 @@
           },
           {
             "source": "fmt",
-            "target": "cascade"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "fmt",
+            "target": "conda-standalone"
           },
           {
             "source": "fmt",
@@ -28784,10 +28952,6 @@
           {
             "source": "fmt",
             "target": "libsemigroups"
-          },
-          {
-            "source": "fmt",
-            "target": "lief"
           },
           {
             "source": "fmt",
@@ -29467,11 +29631,15 @@
           },
           {
             "source": "gawk",
-            "target": "groff"
+            "target": "cgsi-gsoap"
           },
           {
             "source": "gawk",
-            "target": "gsoap"
+            "target": "davix"
+          },
+          {
+            "source": "gawk",
+            "target": "groff"
           },
           {
             "source": "gawk",
@@ -29503,7 +29671,15 @@
           },
           {
             "source": "gawk",
+            "target": "srm-ifce"
+          },
+          {
+            "source": "gawk",
             "target": "texinfo"
+          },
+          {
+            "source": "gawk",
+            "target": "voms"
           },
           {
             "source": "gawk",
@@ -29891,10 +30067,6 @@
           },
           {
             "source": "gendef",
-            "target": "jags"
-          },
-          {
-            "source": "gendef",
             "target": "julia"
           },
           {
@@ -30179,6 +30351,10 @@
           },
           {
             "source": "gendef",
+            "target": "r-rjags"
+          },
+          {
+            "source": "gendef",
             "target": "r-robusthd"
           },
           {
@@ -30299,27 +30475,7 @@
           },
           {
             "source": "geos",
-            "target": "autorift"
-          },
-          {
-            "source": "geos",
             "target": "basemap"
-          },
-          {
-            "source": "geos",
-            "target": "bayeswave"
-          },
-          {
-            "source": "geos",
-            "target": "cartopy"
-          },
-          {
-            "source": "geos",
-            "target": "easyocr"
-          },
-          {
-            "source": "geos",
-            "target": "fiona"
           },
           {
             "source": "geos",
@@ -30327,15 +30483,7 @@
           },
           {
             "source": "geos",
-            "target": "geohexviz"
-          },
-          {
-            "source": "geos",
             "target": "gmt"
-          },
-          {
-            "source": "geos",
-            "target": "isce3"
           },
           {
             "source": "geos",
@@ -30344,30 +30492,6 @@
           {
             "source": "geos",
             "target": "libspatialite"
-          },
-          {
-            "source": "geos",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "geos",
-            "target": "natcap.invest"
-          },
-          {
-            "source": "geos",
-            "target": "photutils"
-          },
-          {
-            "source": "geos",
-            "target": "pygeoprocessing"
-          },
-          {
-            "source": "geos",
-            "target": "pyproj"
-          },
-          {
-            "source": "geos",
-            "target": "pyrosm"
           },
           {
             "source": "geos",
@@ -30387,15 +30511,19 @@
           },
           {
             "source": "geos",
-            "target": "rasterio"
-          },
-          {
-            "source": "geos",
-            "target": "reproject"
+            "target": "shapely"
           },
           {
             "source": "geotiff",
             "target": "libpdal"
+          },
+          {
+            "source": "gettext",
+            "target": "abacus"
+          },
+          {
+            "source": "gettext",
+            "target": "ambertools"
           },
           {
             "source": "gettext",
@@ -30407,7 +30535,19 @@
           },
           {
             "source": "gettext",
+            "target": "bayeswave"
+          },
+          {
+            "source": "gettext",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "gettext",
             "target": "chktex"
+          },
+          {
+            "source": "gettext",
+            "target": "cvxopt"
           },
           {
             "source": "gettext",
@@ -30423,10 +30563,6 @@
           },
           {
             "source": "gettext",
-            "target": "fftw"
-          },
-          {
-            "source": "gettext",
             "target": "findutils"
           },
           {
@@ -30439,11 +30575,19 @@
           },
           {
             "source": "gettext",
+            "target": "galsim"
+          },
+          {
+            "source": "gettext",
             "target": "gawk"
           },
           {
             "source": "gettext",
             "target": "gdk-pixbuf"
+          },
+          {
+            "source": "gettext",
+            "target": "gds"
           },
           {
             "source": "gettext",
@@ -30463,11 +30607,27 @@
           },
           {
             "source": "gettext",
+            "target": "gmt"
+          },
+          {
+            "source": "gettext",
             "target": "gnucobol"
           },
           {
             "source": "gettext",
+            "target": "gnuradio"
+          },
+          {
+            "source": "gettext",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "gettext",
             "target": "grep"
+          },
+          {
+            "source": "gettext",
+            "target": "gromacs"
           },
           {
             "source": "gettext",
@@ -30479,6 +30639,18 @@
           },
           {
             "source": "gettext",
+            "target": "gstlal"
+          },
+          {
+            "source": "gettext",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "gettext",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "gettext",
             "target": "gstreamer"
           },
           {
@@ -30487,7 +30659,35 @@
           },
           {
             "source": "gettext",
+            "target": "hackrf"
+          },
+          {
+            "source": "gettext",
+            "target": "heffte"
+          },
+          {
+            "source": "gettext",
+            "target": "imagemagick"
+          },
+          {
+            "source": "gettext",
+            "target": "isce3"
+          },
+          {
+            "source": "gettext",
             "target": "krb5"
+          },
+          {
+            "source": "gettext",
+            "target": "lal"
+          },
+          {
+            "source": "gettext",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "gettext",
+            "target": "lammps"
           },
           {
             "source": "gettext",
@@ -30511,6 +30711,10 @@
           },
           {
             "source": "gettext",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "gettext",
             "target": "libsecret"
           },
           {
@@ -30519,7 +30723,15 @@
           },
           {
             "source": "gettext",
+            "target": "libvips"
+          },
+          {
+            "source": "gettext",
             "target": "libxcb"
+          },
+          {
+            "source": "gettext",
+            "target": "metview"
           },
           {
             "source": "gettext",
@@ -30532,6 +30744,18 @@
           {
             "source": "gettext",
             "target": "nordugrid-arc"
+          },
+          {
+            "source": "gettext",
+            "target": "octave"
+          },
+          {
+            "source": "gettext",
+            "target": "petsc"
+          },
+          {
+            "source": "gettext",
+            "target": "plumed"
           },
           {
             "source": "gettext",
@@ -30555,7 +30779,31 @@
           },
           {
             "source": "gettext",
+            "target": "pycbc"
+          },
+          {
+            "source": "gettext",
+            "target": "pyfftw"
+          },
+          {
+            "source": "gettext",
+            "target": "pyshtools"
+          },
+          {
+            "source": "gettext",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "gettext",
+            "target": "r-poissonbinomial"
+          },
+          {
+            "source": "gettext",
             "target": "rabbitmq-server"
+          },
+          {
+            "source": "gettext",
+            "target": "root"
           },
           {
             "source": "gettext",
@@ -30579,11 +30827,23 @@
           },
           {
             "source": "gettext",
+            "target": "tempo2"
+          },
+          {
+            "source": "gettext",
             "target": "texinfo"
           },
           {
             "source": "gettext",
+            "target": "tomopy"
+          },
+          {
+            "source": "gettext",
             "target": "util-linux"
+          },
+          {
+            "source": "gettext",
+            "target": "vigra"
           },
           {
             "source": "gettext",
@@ -30684,6 +30944,14 @@
           {
             "source": "gettext",
             "target": "xsel"
+          },
+          {
+            "source": "gettext",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "gettext",
+            "target": "yambo"
           },
           {
             "source": "gf2x",
@@ -30895,10 +31163,6 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "jags"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
             "target": "julia"
           },
           {
@@ -31180,6 +31444,10 @@
           {
             "source": "gfortran_impl_osx-64",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
+            "target": "r-rjags"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -31463,10 +31731,6 @@
           },
           {
             "source": "gfortran_osx-64",
-            "target": "jags"
-          },
-          {
-            "source": "gfortran_osx-64",
             "target": "julia"
           },
           {
@@ -31748,6 +32012,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "r-rjags"
           },
           {
             "source": "gfortran_osx-64",
@@ -34290,22 +34558,6 @@
             "target": "tempo2"
           },
           {
-            "source": "gsoap",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "gsoap",
-            "target": "davix"
-          },
-          {
-            "source": "gsoap",
-            "target": "srm-ifce"
-          },
-          {
-            "source": "gsoap",
-            "target": "voms"
-          },
-          {
             "source": "gst-plugins-bad",
             "target": "gst-python"
           },
@@ -35163,10 +35415,6 @@
           },
           {
             "source": "hdf5",
-            "target": "abinit"
-          },
-          {
-            "source": "hdf5",
             "target": "adjfind"
           },
           {
@@ -35176,10 +35424,6 @@
           {
             "source": "hdf5",
             "target": "cantera"
-          },
-          {
-            "source": "hdf5",
-            "target": "cascade"
           },
           {
             "source": "hdf5",
@@ -35519,15 +35763,7 @@
           },
           {
             "source": "heyoka.py",
-            "target": "cascade"
-          },
-          {
-            "source": "heyoka.py",
             "target": "pykep"
-          },
-          {
-            "source": "heyoka",
-            "target": "cascade"
           },
           {
             "source": "heyoka",
@@ -36778,10 +37014,6 @@
             "target": "pulseaudio"
           },
           {
-            "source": "jags",
-            "target": "r-rjags"
-          },
-          {
             "source": "jansson",
             "target": "universal-ctags"
           },
@@ -36908,10 +37140,6 @@
           {
             "source": "json-c",
             "target": "ttyd"
-          },
-          {
-            "source": "jsoncpp",
-            "target": "dpct-meta"
           },
           {
             "source": "jsoncpp",
@@ -37367,10 +37595,6 @@
           },
           {
             "source": "lapack",
-            "target": "abinit"
-          },
-          {
-            "source": "lapack",
             "target": "ambertools"
           },
           {
@@ -37548,10 +37772,6 @@
           {
             "source": "lapack",
             "target": "ipopt"
-          },
-          {
-            "source": "lapack",
-            "target": "jags"
           },
           {
             "source": "lapack",
@@ -37888,6 +38108,10 @@
           {
             "source": "lapack",
             "target": "r-rfast"
+          },
+          {
+            "source": "lapack",
+            "target": "r-rjags"
           },
           {
             "source": "lapack",
@@ -38524,10 +38748,6 @@
           {
             "source": "ldc",
             "target": "tsv-utils"
-          },
-          {
-            "source": "lemon",
-            "target": "dpct-meta"
           },
           {
             "source": "lemon",
@@ -39531,10 +39751,6 @@
           },
           {
             "source": "libcxx",
-            "target": "jags"
-          },
-          {
-            "source": "libcxx",
             "target": "julia"
           },
           {
@@ -39816,6 +40032,10 @@
           {
             "source": "libcxx",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "libcxx",
+            "target": "r-rjags"
           },
           {
             "source": "libcxx",
@@ -41619,10 +41839,6 @@
           },
           {
             "source": "libnetcdf",
-            "target": "abinit"
-          },
-          {
-            "source": "libnetcdf",
             "target": "ambertools"
           },
           {
@@ -43083,10 +43299,6 @@
           },
           {
             "source": "libtool",
-            "target": "abinit"
-          },
-          {
-            "source": "libtool",
             "target": "ace"
           },
           {
@@ -43499,10 +43711,6 @@
           },
           {
             "source": "libtool",
-            "target": "cppunit"
-          },
-          {
-            "source": "libtool",
             "target": "cppyy-cling"
           },
           {
@@ -43659,6 +43867,10 @@
           },
           {
             "source": "libtool",
+            "target": "davix"
+          },
+          {
+            "source": "libtool",
             "target": "dbus-python"
           },
           {
@@ -43668,10 +43880,6 @@
           {
             "source": "libtool",
             "target": "deno"
-          },
-          {
-            "source": "libtool",
-            "target": "deno-dom"
           },
           {
             "source": "libtool",
@@ -43704,10 +43912,6 @@
           {
             "source": "libtool",
             "target": "doxygen"
-          },
-          {
-            "source": "libtool",
-            "target": "dpct-meta"
           },
           {
             "source": "libtool",
@@ -43852,10 +44056,6 @@
           {
             "source": "libtool",
             "target": "ffnvcodec-headers"
-          },
-          {
-            "source": "libtool",
-            "target": "fftw"
           },
           {
             "source": "libtool",
@@ -44147,6 +44347,14 @@
           },
           {
             "source": "libtool",
+            "target": "gnuradio"
+          },
+          {
+            "source": "libtool",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "libtool",
             "target": "gnuradio-osmosdr"
           },
           {
@@ -44204,10 +44412,6 @@
           {
             "source": "libtool",
             "target": "gsl"
-          },
-          {
-            "source": "libtool",
-            "target": "gsoap"
           },
           {
             "source": "libtool",
@@ -44284,6 +44488,10 @@
           {
             "source": "libtool",
             "target": "h3-py"
+          },
+          {
+            "source": "libtool",
+            "target": "hackrf"
           },
           {
             "source": "libtool",
@@ -44455,6 +44663,10 @@
           },
           {
             "source": "libtool",
+            "target": "isce3"
+          },
+          {
+            "source": "libtool",
             "target": "isl"
           },
           {
@@ -44464,10 +44676,6 @@
           {
             "source": "libtool",
             "target": "jaeger"
-          },
-          {
-            "source": "libtool",
-            "target": "jags"
           },
           {
             "source": "libtool",
@@ -44716,6 +44924,10 @@
           {
             "source": "libtool",
             "target": "libatomic_ops"
+          },
+          {
+            "source": "libtool",
+            "target": "libavif"
           },
           {
             "source": "libtool",
@@ -46351,6 +46563,10 @@
           },
           {
             "source": "libtool",
+            "target": "pyfftw"
+          },
+          {
+            "source": "libtool",
             "target": "pyg-lib"
           },
           {
@@ -46524,6 +46740,10 @@
           {
             "source": "libtool",
             "target": "qtkeychain"
+          },
+          {
+            "source": "libtool",
+            "target": "quarto"
           },
           {
             "source": "libtool",
@@ -48683,6 +48903,10 @@
           },
           {
             "source": "libtool",
+            "target": "sdsl-lite"
+          },
+          {
+            "source": "libtool",
             "target": "seccomp-split"
           },
           {
@@ -48848,10 +49072,6 @@
           {
             "source": "libtool",
             "target": "superlu_dist"
-          },
-          {
-            "source": "libtool",
-            "target": "svt-av1"
           },
           {
             "source": "libtool",
@@ -49990,10 +50210,6 @@
             "target": "abacus"
           },
           {
-            "source": "libxc",
-            "target": "abinit"
-          },
-          {
             "source": "libxcb",
             "target": "cairo"
           },
@@ -50115,6 +50331,10 @@
           },
           {
             "source": "libxcrypt",
+            "target": "abacus"
+          },
+          {
+            "source": "libxcrypt",
             "target": "ace"
           },
           {
@@ -50139,7 +50359,15 @@
           },
           {
             "source": "libxcrypt",
+            "target": "bayeswave"
+          },
+          {
+            "source": "libxcrypt",
             "target": "bison"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "cds-crtools"
           },
           {
             "source": "libxcrypt",
@@ -50148,6 +50376,10 @@
           {
             "source": "libxcrypt",
             "target": "curl"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "cvxopt"
           },
           {
             "source": "libxcrypt",
@@ -50171,11 +50403,15 @@
           },
           {
             "source": "libxcrypt",
-            "target": "fftw"
+            "target": "galsim"
           },
           {
             "source": "libxcrypt",
             "target": "gct"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gds"
           },
           {
             "source": "libxcrypt",
@@ -50184,6 +50420,18 @@
           {
             "source": "libxcrypt",
             "target": "git"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gmt"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gnuradio"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gnuradio-iqbalance"
           },
           {
             "source": "libxcrypt",
@@ -50199,7 +50447,27 @@
           },
           {
             "source": "libxcrypt",
+            "target": "gstlal"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "libxcrypt",
             "target": "gtk2"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "hackrf"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "heffte"
           },
           {
             "source": "libxcrypt",
@@ -50215,7 +50483,15 @@
           },
           {
             "source": "libxcrypt",
+            "target": "imagemagick"
+          },
+          {
+            "source": "libxcrypt",
             "target": "inetutils"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "isce3"
           },
           {
             "source": "libxcrypt",
@@ -50224,6 +50500,18 @@
           {
             "source": "libxcrypt",
             "target": "julia"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "lal"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "lammps"
           },
           {
             "source": "libxcrypt",
@@ -50243,6 +50531,14 @@
           },
           {
             "source": "libxcrypt",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "libvips"
+          },
+          {
+            "source": "libxcrypt",
             "target": "libxc"
           },
           {
@@ -50252,6 +50548,10 @@
           {
             "source": "libxcrypt",
             "target": "matrixswitch"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "metview"
           },
           {
             "source": "libxcrypt",
@@ -50503,7 +50803,31 @@
           },
           {
             "source": "libxcrypt",
+            "target": "petsc"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "plumed"
+          },
+          {
+            "source": "libxcrypt",
             "target": "poppler"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "pycbc"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "pyfftw"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "pyshtools"
           },
           {
             "source": "libxcrypt",
@@ -50559,11 +50883,19 @@
           },
           {
             "source": "libxcrypt",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "libxcrypt",
             "target": "r-ggiraph"
           },
           {
             "source": "libxcrypt",
             "target": "r-mapdeck"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "libxcrypt",
@@ -50583,11 +50915,19 @@
           },
           {
             "source": "libxcrypt",
+            "target": "root"
+          },
+          {
+            "source": "libxcrypt",
             "target": "ruby"
           },
           {
             "source": "libxcrypt",
             "target": "tcsh"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "tempo2"
           },
           {
             "source": "libxcrypt",
@@ -50603,11 +50943,19 @@
           },
           {
             "source": "libxcrypt",
+            "target": "tomopy"
+          },
+          {
+            "source": "libxcrypt",
             "target": "util-linux"
           },
           {
             "source": "libxcrypt",
             "target": "valgrind"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "vigra"
           },
           {
             "source": "libxcrypt",
@@ -50624,6 +50972,14 @@
           {
             "source": "libxcrypt",
             "target": "xrootd"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "libxcrypt",
+            "target": "yambo"
           },
           {
             "source": "libxc",
@@ -50952,10 +51308,6 @@
           {
             "source": "libxml2",
             "target": "intel-compiler-repack"
-          },
-          {
-            "source": "libxml2",
-            "target": "jags"
           },
           {
             "source": "libxml2",
@@ -51431,6 +51783,10 @@
           },
           {
             "source": "libxml2",
+            "target": "r-rjags"
+          },
+          {
+            "source": "libxml2",
             "target": "r-robusthd"
           },
           {
@@ -51704,18 +52060,6 @@
           {
             "source": "libzopfli",
             "target": "imagecodecs"
-          },
-          {
-            "source": "lief",
-            "target": "argtable2"
-          },
-          {
-            "source": "lief",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "lief",
-            "target": "conda-standalone"
           },
           {
             "source": "lightgbm",
@@ -52020,10 +52364,6 @@
           {
             "source": "llvmdev",
             "target": "intel-compiler-repack"
-          },
-          {
-            "source": "llvmdev",
-            "target": "jags"
           },
           {
             "source": "llvmdev",
@@ -52400,6 +52740,10 @@
           {
             "source": "llvmdev",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-rjags"
           },
           {
             "source": "llvmdev",
@@ -52879,7 +53223,11 @@
           },
           {
             "source": "m4",
-            "target": "abinit"
+            "target": "abacus"
+          },
+          {
+            "source": "m4",
+            "target": "ambertools"
           },
           {
             "source": "m4",
@@ -52891,11 +53239,23 @@
           },
           {
             "source": "m4",
+            "target": "bayeswave"
+          },
+          {
+            "source": "m4",
             "target": "bison"
           },
           {
             "source": "m4",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "m4",
             "target": "clingo"
+          },
+          {
+            "source": "m4",
+            "target": "cvxopt"
           },
           {
             "source": "m4",
@@ -52915,10 +53275,6 @@
           },
           {
             "source": "m4",
-            "target": "fftw"
-          },
-          {
-            "source": "m4",
             "target": "flex"
           },
           {
@@ -52931,6 +53287,14 @@
           },
           {
             "source": "m4",
+            "target": "galsim"
+          },
+          {
+            "source": "m4",
+            "target": "gds"
+          },
+          {
+            "source": "m4",
             "target": "gf2x"
           },
           {
@@ -52939,7 +53303,63 @@
           },
           {
             "source": "m4",
+            "target": "gmt"
+          },
+          {
+            "source": "m4",
+            "target": "gnuradio"
+          },
+          {
+            "source": "m4",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "m4",
+            "target": "gromacs"
+          },
+          {
+            "source": "m4",
+            "target": "gstlal"
+          },
+          {
+            "source": "m4",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "m4",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "m4",
+            "target": "hackrf"
+          },
+          {
+            "source": "m4",
+            "target": "heffte"
+          },
+          {
+            "source": "m4",
+            "target": "imagemagick"
+          },
+          {
+            "source": "m4",
             "target": "inetutils"
+          },
+          {
+            "source": "m4",
+            "target": "isce3"
+          },
+          {
+            "source": "m4",
+            "target": "lal"
+          },
+          {
+            "source": "m4",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "m4",
+            "target": "lammps"
           },
           {
             "source": "m4",
@@ -52971,6 +53391,10 @@
           },
           {
             "source": "m4",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "m4",
             "target": "libpcap"
           },
           {
@@ -52991,6 +53415,10 @@
           },
           {
             "source": "m4",
+            "target": "libvips"
+          },
+          {
+            "source": "m4",
             "target": "libxkbcommon"
           },
           {
@@ -53000,6 +53428,10 @@
           {
             "source": "m4",
             "target": "m4ri"
+          },
+          {
+            "source": "m4",
+            "target": "metview"
           },
           {
             "source": "m4",
@@ -53023,6 +53455,18 @@
           },
           {
             "source": "m4",
+            "target": "octave"
+          },
+          {
+            "source": "m4",
+            "target": "petsc"
+          },
+          {
+            "source": "m4",
+            "target": "plumed"
+          },
+          {
+            "source": "m4",
             "target": "ppl"
           },
           {
@@ -53031,11 +53475,31 @@
           },
           {
             "source": "m4",
+            "target": "pycbc"
+          },
+          {
+            "source": "m4",
+            "target": "pyfftw"
+          },
+          {
+            "source": "m4",
+            "target": "pyshtools"
+          },
+          {
+            "source": "m4",
             "target": "qd"
           },
           {
             "source": "m4",
             "target": "qgis"
+          },
+          {
+            "source": "m4",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "m4",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "m4ri",
@@ -53063,6 +53527,10 @@
           },
           {
             "source": "m4",
+            "target": "root"
+          },
+          {
+            "source": "m4",
             "target": "rw"
           },
           {
@@ -53079,7 +53547,19 @@
           },
           {
             "source": "m4",
+            "target": "tempo2"
+          },
+          {
+            "source": "m4",
             "target": "tmux"
+          },
+          {
+            "source": "m4",
+            "target": "tomopy"
+          },
+          {
+            "source": "m4",
+            "target": "vigra"
           },
           {
             "source": "m4",
@@ -53088,6 +53568,10 @@
           {
             "source": "m4",
             "target": "xcb-util-wm"
+          },
+          {
+            "source": "m4",
+            "target": "xtensor-fftw"
           },
           {
             "source": "m4",
@@ -53240,10 +53724,6 @@
           {
             "source": "markupsafe",
             "target": "digital_rf"
-          },
-          {
-            "source": "markupsafe",
-            "target": "dpct-meta"
           },
           {
             "source": "markupsafe",
@@ -54375,7 +54855,15 @@
           },
           {
             "source": "mbedtls",
-            "target": "lief"
+            "target": "argtable2"
+          },
+          {
+            "source": "mbedtls",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "mbedtls",
+            "target": "conda-standalone"
           },
           {
             "source": "mbedtls",
@@ -54891,11 +55379,23 @@
           },
           {
             "source": "mpich",
-            "target": "abinit"
+            "target": "ambertools"
           },
           {
             "source": "mpich",
             "target": "arpack"
+          },
+          {
+            "source": "mpich",
+            "target": "bayeswave"
+          },
+          {
+            "source": "mpich",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "mpich",
+            "target": "cvxopt"
           },
           {
             "source": "mpich",
@@ -54915,7 +55415,7 @@
           },
           {
             "source": "mpich",
-            "target": "fftw"
+            "target": "galsim"
           },
           {
             "source": "mpich",
@@ -54923,7 +55423,43 @@
           },
           {
             "source": "mpich",
+            "target": "gds"
+          },
+          {
+            "source": "mpich",
+            "target": "gmt"
+          },
+          {
+            "source": "mpich",
+            "target": "gnuradio"
+          },
+          {
+            "source": "mpich",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "mpich",
+            "target": "gromacs"
+          },
+          {
+            "source": "mpich",
+            "target": "gstlal"
+          },
+          {
+            "source": "mpich",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "mpich",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "mpich",
             "target": "h5py"
+          },
+          {
+            "source": "mpich",
+            "target": "hackrf"
           },
           {
             "source": "mpich",
@@ -54943,7 +55479,23 @@
           },
           {
             "source": "mpich",
+            "target": "imagemagick"
+          },
+          {
+            "source": "mpich",
+            "target": "isce3"
+          },
+          {
+            "source": "mpich",
             "target": "kahip"
+          },
+          {
+            "source": "mpich",
+            "target": "lal"
+          },
+          {
+            "source": "mpich",
+            "target": "lalpulsar"
           },
           {
             "source": "mpich",
@@ -54967,11 +55519,23 @@
           },
           {
             "source": "mpich",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "mpich",
             "target": "libpnetcdf"
           },
           {
             "source": "mpich",
+            "target": "libvips"
+          },
+          {
+            "source": "mpich",
             "target": "matrixswitch"
+          },
+          {
+            "source": "mpich",
+            "target": "metview"
           },
           {
             "source": "mpich",
@@ -55015,6 +55579,10 @@
           },
           {
             "source": "mpich",
+            "target": "octave"
+          },
+          {
+            "source": "mpich",
             "target": "parallelio"
           },
           {
@@ -55035,7 +55603,35 @@
           },
           {
             "source": "mpich",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "mpich",
+            "target": "pycbc"
+          },
+          {
+            "source": "mpich",
+            "target": "pyfftw"
+          },
+          {
+            "source": "mpich",
             "target": "pymdi"
+          },
+          {
+            "source": "mpich",
+            "target": "pyshtools"
+          },
+          {
+            "source": "mpich",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "mpich",
+            "target": "r-poissonbinomial"
+          },
+          {
+            "source": "mpich",
+            "target": "root"
           },
           {
             "source": "mpich",
@@ -55055,7 +55651,27 @@
           },
           {
             "source": "mpich",
+            "target": "tempo2"
+          },
+          {
+            "source": "mpich",
+            "target": "tomopy"
+          },
+          {
+            "source": "mpich",
             "target": "trexio"
+          },
+          {
+            "source": "mpich",
+            "target": "vigra"
+          },
+          {
+            "source": "mpich",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "mpich",
+            "target": "yambo"
           },
           {
             "source": "mppp",
@@ -56063,10 +56679,6 @@
           },
           {
             "source": "netcdf-fortran",
-            "target": "abinit"
-          },
-          {
-            "source": "netcdf-fortran",
             "target": "ambertools"
           },
           {
@@ -56183,6 +56795,10 @@
           },
           {
             "source": "ninja",
+            "target": "argtable2"
+          },
+          {
+            "source": "ninja",
             "target": "arrow-adbc-split"
           },
           {
@@ -56291,6 +56907,10 @@
           },
           {
             "source": "ninja",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "ninja",
             "target": "batoid"
           },
           {
@@ -56367,15 +56987,7 @@
           },
           {
             "source": "ninja",
-            "target": "cartopy"
-          },
-          {
-            "source": "ninja",
             "target": "casadi"
-          },
-          {
-            "source": "ninja",
-            "target": "cascade"
           },
           {
             "source": "ninja",
@@ -56460,6 +57072,14 @@
           {
             "source": "ninja",
             "target": "collada-dom"
+          },
+          {
+            "source": "ninja",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "ninja",
+            "target": "conda-standalone"
           },
           {
             "source": "ninja",
@@ -56619,10 +57239,6 @@
           },
           {
             "source": "ninja",
-            "target": "dpct-meta"
-          },
-          {
-            "source": "ninja",
             "target": "draco"
           },
           {
@@ -56691,10 +57307,6 @@
           },
           {
             "source": "ninja",
-            "target": "fiona"
-          },
-          {
-            "source": "ninja",
             "target": "flann"
           },
           {
@@ -56760,10 +57372,6 @@
           {
             "source": "ninja",
             "target": "geant4"
-          },
-          {
-            "source": "ninja",
-            "target": "geohexviz"
           },
           {
             "source": "ninja",
@@ -57052,10 +57660,6 @@
           {
             "source": "ninja",
             "target": "isce3"
-          },
-          {
-            "source": "ninja",
-            "target": "jags"
           },
           {
             "source": "ninja",
@@ -57495,10 +58099,6 @@
           },
           {
             "source": "ninja",
-            "target": "lief"
-          },
-          {
-            "source": "ninja",
             "target": "lightgbm"
           },
           {
@@ -57652,10 +58252,6 @@
           {
             "source": "ninja",
             "target": "nanoarrow"
-          },
-          {
-            "source": "ninja",
-            "target": "natcap.invest"
           },
           {
             "source": "ninja",
@@ -57947,10 +58543,6 @@
           },
           {
             "source": "ninja",
-            "target": "photutils"
-          },
-          {
-            "source": "ninja",
             "target": "pinocchio"
           },
           {
@@ -58059,10 +58651,6 @@
           },
           {
             "source": "ninja",
-            "target": "pygeoprocessing"
-          },
-          {
-            "source": "ninja",
             "target": "pygobject"
           },
           {
@@ -58072,14 +58660,6 @@
           {
             "source": "ninja",
             "target": "pymdi"
-          },
-          {
-            "source": "ninja",
-            "target": "pyproj"
-          },
-          {
-            "source": "ninja",
-            "target": "pyrosm"
           },
           {
             "source": "ninja",
@@ -58275,6 +58855,10 @@
           },
           {
             "source": "ninja",
+            "target": "r-rjags"
+          },
+          {
+            "source": "ninja",
             "target": "r-robusthd"
           },
           {
@@ -58295,10 +58879,6 @@
           },
           {
             "source": "ninja",
-            "target": "rasterio"
-          },
-          {
-            "source": "ninja",
             "target": "rav1e"
           },
           {
@@ -58316,10 +58896,6 @@
           {
             "source": "ninja",
             "target": "reproc"
-          },
-          {
-            "source": "ninja",
-            "target": "reproject"
           },
           {
             "source": "ninja",
@@ -58404,6 +58980,10 @@
           {
             "source": "ninja",
             "target": "shap"
+          },
+          {
+            "source": "ninja",
+            "target": "shapely"
           },
           {
             "source": "ninja",
@@ -58588,14 +59168,6 @@
           {
             "source": "ninja",
             "target": "thrift-cpp"
-          },
-          {
-            "source": "ninja",
-            "target": "tiledb"
-          },
-          {
-            "source": "ninja",
-            "target": "tinyobjloader"
           },
           {
             "source": "ninja",
@@ -58827,11 +59399,23 @@
           },
           {
             "source": "nlohmann_json",
+            "target": "argtable2"
+          },
+          {
+            "source": "nlohmann_json",
             "target": "arrow-cpp"
           },
           {
             "source": "nlohmann_json",
             "target": "bipedal-locomotion-framework"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "conda-standalone"
           },
           {
             "source": "nlohmann_json",
@@ -58856,10 +59440,6 @@
           {
             "source": "nlohmann_json",
             "target": "librobometry"
-          },
-          {
-            "source": "nlohmann_json",
-            "target": "lief"
           },
           {
             "source": "nlohmann_json",
@@ -59723,10 +60303,6 @@
           },
           {
             "source": "numpy",
-            "target": "cascade"
-          },
-          {
-            "source": "numpy",
             "target": "cassandra-driver"
           },
           {
@@ -59800,10 +60376,6 @@
           {
             "source": "numpy",
             "target": "csbdeep"
-          },
-          {
-            "source": "numpy",
-            "target": "cuda-core"
           },
           {
             "source": "numpy",
@@ -60535,10 +61107,6 @@
           },
           {
             "source": "numpy",
-            "target": "pandana"
-          },
-          {
-            "source": "numpy",
             "target": "pandas"
           },
           {
@@ -60964,6 +61532,10 @@
           {
             "source": "numpy",
             "target": "shap"
+          },
+          {
+            "source": "numpy",
+            "target": "shapely"
           },
           {
             "source": "numpy",
@@ -62011,7 +62583,19 @@
           },
           {
             "source": "openmpi",
+            "target": "ambertools"
+          },
+          {
+            "source": "openmpi",
             "target": "arpack"
+          },
+          {
+            "source": "openmpi",
+            "target": "bayeswave"
+          },
+          {
+            "source": "openmpi",
+            "target": "cds-crtools"
           },
           {
             "source": "openmpi",
@@ -62020,6 +62604,10 @@
           {
             "source": "openmpi",
             "target": "cutensor"
+          },
+          {
+            "source": "openmpi",
+            "target": "cvxopt"
           },
           {
             "source": "openmpi",
@@ -62039,11 +62627,11 @@
           },
           {
             "source": "openmpi",
-            "target": "fftw"
+            "target": "fgt"
           },
           {
             "source": "openmpi",
-            "target": "fgt"
+            "target": "galsim"
           },
           {
             "source": "openmpi",
@@ -62051,11 +62639,43 @@
           },
           {
             "source": "openmpi",
+            "target": "gds"
+          },
+          {
+            "source": "openmpi",
+            "target": "gmt"
+          },
+          {
+            "source": "openmpi",
+            "target": "gnuradio"
+          },
+          {
+            "source": "openmpi",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "openmpi",
             "target": "gromacs"
           },
           {
             "source": "openmpi",
+            "target": "gstlal"
+          },
+          {
+            "source": "openmpi",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "openmpi",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "openmpi",
             "target": "h5py"
+          },
+          {
+            "source": "openmpi",
+            "target": "hackrf"
           },
           {
             "source": "openmpi",
@@ -62075,6 +62695,14 @@
           },
           {
             "source": "openmpi",
+            "target": "imagemagick"
+          },
+          {
+            "source": "openmpi",
+            "target": "isce3"
+          },
+          {
+            "source": "openmpi",
             "target": "kahip"
           },
           {
@@ -62083,7 +62711,15 @@
           },
           {
             "source": "openmpi",
+            "target": "lal"
+          },
+          {
+            "source": "openmpi",
             "target": "lalinference"
+          },
+          {
+            "source": "openmpi",
+            "target": "lalpulsar"
           },
           {
             "source": "openmpi",
@@ -62115,7 +62751,15 @@
           },
           {
             "source": "openmpi",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "openmpi",
             "target": "libpnetcdf"
+          },
+          {
+            "source": "openmpi",
+            "target": "libvips"
           },
           {
             "source": "openmpi",
@@ -62128,6 +62772,10 @@
           {
             "source": "openmpi",
             "target": "mcxtrace-suite"
+          },
+          {
+            "source": "openmpi",
+            "target": "metview"
           },
           {
             "source": "openmpi",
@@ -62183,6 +62831,10 @@
           },
           {
             "source": "openmpi",
+            "target": "octave"
+          },
+          {
+            "source": "openmpi",
             "target": "opensees"
           },
           {
@@ -62207,7 +62859,35 @@
           },
           {
             "source": "openmpi",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "openmpi",
+            "target": "pycbc"
+          },
+          {
+            "source": "openmpi",
+            "target": "pyfftw"
+          },
+          {
+            "source": "openmpi",
             "target": "pymdi"
+          },
+          {
+            "source": "openmpi",
+            "target": "pyshtools"
+          },
+          {
+            "source": "openmpi",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "openmpi",
+            "target": "r-poissonbinomial"
+          },
+          {
+            "source": "openmpi",
+            "target": "root"
           },
           {
             "source": "openmpi",
@@ -62227,15 +62907,27 @@
           },
           {
             "source": "openmpi",
+            "target": "tempo2"
+          },
+          {
+            "source": "openmpi",
+            "target": "tomopy"
+          },
+          {
+            "source": "openmpi",
             "target": "trexio"
           },
           {
             "source": "openmpi",
-            "target": "yambo"
+            "target": "vigra"
           },
           {
-            "source": "openmp",
-            "target": "jags"
+            "source": "openmpi",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "openmpi",
+            "target": "yambo"
           },
           {
             "source": "openmp",
@@ -62612,6 +63304,10 @@
           {
             "source": "openmp",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "openmp",
+            "target": "r-rjags"
           },
           {
             "source": "openmp",
@@ -63036,10 +63732,6 @@
           {
             "source": "openssl",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "openssl",
-            "target": "gsoap"
           },
           {
             "source": "openssl",
@@ -64012,10 +64704,6 @@
           {
             "source": "pandas",
             "target": "orange3"
-          },
-          {
-            "source": "pandas",
-            "target": "pandana"
           },
           {
             "source": "pandas",
@@ -65591,10 +66279,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "cartopy"
-          },
-          {
-            "source": "pkg-config",
             "target": "casadi"
           },
           {
@@ -65803,10 +66487,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "dpct-meta"
-          },
-          {
-            "source": "pkg-config",
             "target": "e2fsprogs"
           },
           {
@@ -65968,10 +66648,6 @@
           {
             "source": "pkg-config",
             "target": "gds-root-extensions"
-          },
-          {
-            "source": "pkg-config",
-            "target": "geohexviz"
           },
           {
             "source": "pkg-config",
@@ -66311,15 +66987,7 @@
           },
           {
             "source": "pkg-config",
-            "target": "isce3"
-          },
-          {
-            "source": "pkg-config",
             "target": "jack"
-          },
-          {
-            "source": "pkg-config",
-            "target": "jags"
           },
           {
             "source": "pkg-config",
@@ -66855,10 +67523,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "lief"
-          },
-          {
-            "source": "pkg-config",
             "target": "linbox"
           },
           {
@@ -67339,10 +68003,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "pygeoprocessing"
-          },
-          {
-            "source": "pkg-config",
             "target": "pygmo"
           },
           {
@@ -67371,19 +68031,11 @@
           },
           {
             "source": "pkg-config",
-            "target": "pyproj"
-          },
-          {
-            "source": "pkg-config",
             "target": "pyqt"
           },
           {
             "source": "pkg-config",
             "target": "pyrage"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pyrosm"
           },
           {
             "source": "pkg-config",
@@ -67803,10 +68455,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "reproject"
-          },
-          {
-            "source": "pkg-config",
             "target": "resolve-robotics-uri-cpp"
           },
           {
@@ -67900,6 +68548,10 @@
           {
             "source": "pkg-config",
             "target": "shap"
+          },
+          {
+            "source": "pkg-config",
+            "target": "shapely"
           },
           {
             "source": "pkg-config",
@@ -70383,10 +71035,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "lief"
-          },
-          {
-            "source": "pydantic-core",
             "target": "mcstas-suite"
           },
           {
@@ -71519,10 +72167,6 @@
           },
           {
             "source": "pytables",
-            "target": "pandana"
-          },
-          {
-            "source": "pytables",
             "target": "remage"
           },
           {
@@ -71983,10 +72627,6 @@
           },
           {
             "source": "python",
-            "target": "cascade"
-          },
-          {
-            "source": "python",
             "target": "cassandra-driver"
           },
           {
@@ -72184,10 +72824,6 @@
           {
             "source": "python",
             "target": "cuda-compat"
-          },
-          {
-            "source": "python",
-            "target": "cuda-core"
           },
           {
             "source": "python",
@@ -72451,10 +73087,6 @@
           },
           {
             "source": "python",
-            "target": "dpct-meta"
-          },
-          {
-            "source": "python",
             "target": "ducc0"
           },
           {
@@ -72615,10 +73247,6 @@
           },
           {
             "source": "python",
-            "target": "fftw"
-          },
-          {
-            "source": "python",
             "target": "filprofiler"
           },
           {
@@ -72747,6 +73375,10 @@
           },
           {
             "source": "python",
+            "target": "gds"
+          },
+          {
+            "source": "python",
             "target": "geckodriver"
           },
           {
@@ -72848,6 +73480,10 @@
           {
             "source": "python",
             "target": "gmsh"
+          },
+          {
+            "source": "python",
+            "target": "gmt"
           },
           {
             "source": "python",
@@ -73047,6 +73683,10 @@
           },
           {
             "source": "python",
+            "target": "hackrf"
+          },
+          {
+            "source": "python",
             "target": "harfbuzz"
           },
           {
@@ -73080,6 +73720,10 @@
           {
             "source": "python",
             "target": "healpy"
+          },
+          {
+            "source": "python",
+            "target": "heffte"
           },
           {
             "source": "python",
@@ -73171,6 +73815,10 @@
           },
           {
             "source": "python",
+            "target": "imagemagick"
+          },
+          {
+            "source": "python",
             "target": "iminuit"
           },
           {
@@ -73204,10 +73852,6 @@
           {
             "source": "python",
             "target": "jack"
-          },
-          {
-            "source": "python",
-            "target": "jags"
           },
           {
             "source": "python",
@@ -73619,6 +74263,10 @@
           },
           {
             "source": "python",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "python",
             "target": "libosqp"
           },
           {
@@ -73740,10 +74388,6 @@
           {
             "source": "python",
             "target": "libxnvme"
-          },
-          {
-            "source": "python",
-            "target": "lief"
           },
           {
             "source": "python",
@@ -74419,10 +75063,6 @@
           },
           {
             "source": "python",
-            "target": "pandana"
-          },
-          {
-            "source": "python",
             "target": "pandas"
           },
           {
@@ -74524,6 +75164,10 @@
           {
             "source": "python",
             "target": "pkgconf"
+          },
+          {
+            "source": "python",
+            "target": "plumed"
           },
           {
             "source": "python",
@@ -75223,6 +75867,10 @@
           },
           {
             "source": "python",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "python",
             "target": "r-glmmtmb"
           },
           {
@@ -75236,6 +75884,10 @@
           {
             "source": "python",
             "target": "r-mvnfast"
+          },
+          {
+            "source": "python",
+            "target": "r-poissonbinomial"
           },
           {
             "source": "python",
@@ -75264,6 +75916,10 @@
           {
             "source": "python",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "python",
+            "target": "r-rjags"
           },
           {
             "source": "python",
@@ -75487,6 +76143,10 @@
           },
           {
             "source": "python",
+            "target": "shapely"
+          },
+          {
+            "source": "python",
             "target": "sharedlibpp"
           },
           {
@@ -75691,6 +76351,10 @@
           },
           {
             "source": "python",
+            "target": "tempo2"
+          },
+          {
+            "source": "python",
             "target": "tensorboard-data-server"
           },
           {
@@ -75744,10 +76408,6 @@
           {
             "source": "python",
             "target": "timezonefinder"
-          },
-          {
-            "source": "python",
-            "target": "tinyobjloader"
           },
           {
             "source": "python",
@@ -76184,6 +76844,10 @@
           {
             "source": "python",
             "target": "xtb-python"
+          },
+          {
+            "source": "python",
+            "target": "xtensor-fftw"
           },
           {
             "source": "python",
@@ -90143,10 +90807,6 @@
           },
           {
             "source": "scikit-learn",
-            "target": "pandana"
-          },
-          {
-            "source": "scikit-learn",
             "target": "pykrige"
           },
           {
@@ -91622,6 +92282,66 @@
             "target": "metview"
           },
           {
+            "source": "shapely",
+            "target": "autorift"
+          },
+          {
+            "source": "shapely",
+            "target": "bayeswave"
+          },
+          {
+            "source": "shapely",
+            "target": "cartopy"
+          },
+          {
+            "source": "shapely",
+            "target": "easyocr"
+          },
+          {
+            "source": "shapely",
+            "target": "fiona"
+          },
+          {
+            "source": "shapely",
+            "target": "geohexviz"
+          },
+          {
+            "source": "shapely",
+            "target": "isce3"
+          },
+          {
+            "source": "shapely",
+            "target": "mpas_tools"
+          },
+          {
+            "source": "shapely",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "shapely",
+            "target": "photutils"
+          },
+          {
+            "source": "shapely",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "shapely",
+            "target": "pyproj"
+          },
+          {
+            "source": "shapely",
+            "target": "pyrosm"
+          },
+          {
+            "source": "shapely",
+            "target": "rasterio"
+          },
+          {
+            "source": "shapely",
+            "target": "reproject"
+          },
+          {
             "source": "sharedlibpp",
             "target": "dinrail"
           },
@@ -91792,10 +92512,6 @@
           {
             "source": "shellcheck",
             "target": "intel-compiler-repack"
-          },
-          {
-            "source": "shellcheck",
-            "target": "jags"
           },
           {
             "source": "shellcheck",
@@ -92088,6 +92804,10 @@
           {
             "source": "shellcheck",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "shellcheck",
+            "target": "r-rjags"
           },
           {
             "source": "shellcheck",
@@ -92443,11 +93163,19 @@
           },
           {
             "source": "spdlog",
+            "target": "argtable2"
+          },
+          {
+            "source": "spdlog",
             "target": "bipedal-locomotion-framework"
           },
           {
             "source": "spdlog",
-            "target": "cascade"
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "spdlog",
+            "target": "conda-standalone"
           },
           {
             "source": "spdlog",
@@ -92488,10 +93216,6 @@
           {
             "source": "spdlog",
             "target": "implicit"
-          },
-          {
-            "source": "spdlog",
-            "target": "lief"
           },
           {
             "source": "spdlog",
@@ -92804,14 +93528,6 @@
           {
             "source": "superlu",
             "target": "petsc"
-          },
-          {
-            "source": "svt-av1",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "svt-av1",
-            "target": "libavif"
           },
           {
             "source": "swig",
@@ -93163,10 +93879,6 @@
           },
           {
             "source": "tbb",
-            "target": "cascade"
-          },
-          {
-            "source": "tbb",
             "target": "cmdstan"
           },
           {
@@ -93448,10 +94160,6 @@
           {
             "source": "tiny-process-library",
             "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "tinyobjloader",
-            "target": "mujoco"
           },
           {
             "source": "tinyxml2",
@@ -94459,10 +95167,6 @@
           },
           {
             "source": "ucrt",
-            "target": "jags"
-          },
-          {
-            "source": "ucrt",
             "target": "julia"
           },
           {
@@ -94744,6 +95448,10 @@
           {
             "source": "ucrt",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "ucrt",
+            "target": "r-rjags"
           },
           {
             "source": "ucrt",
@@ -97819,10 +98527,6 @@
           },
           {
             "source": "winpthreads",
-            "target": "jags"
-          },
-          {
-            "source": "winpthreads",
             "target": "julia"
           },
           {
@@ -98104,6 +98808,10 @@
           {
             "source": "winpthreads",
             "target": "r-rhpcblasctl"
+          },
+          {
+            "source": "winpthreads",
+            "target": "r-rjags"
           },
           {
             "source": "winpthreads",
@@ -101667,19 +102375,11 @@
           },
           {
             "source": "xtensor-blas",
-            "target": "cascade"
-          },
-          {
-            "source": "xtensor-blas",
             "target": "heyoka"
           },
           {
             "source": "xtensor-blas",
             "target": "pykep"
-          },
-          {
-            "source": "xtensor",
-            "target": "cascade"
           },
           {
             "source": "xtensor",
@@ -102111,15 +102811,19 @@
           },
           {
             "source": "yasm",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "yasm",
+            "target": "libavif"
+          },
+          {
+            "source": "yasm",
             "target": "libjpeg-turbo"
           },
           {
             "source": "yasm",
             "target": "libvpx"
-          },
-          {
-            "source": "yasm",
-            "target": "svt-av1"
           },
           {
             "source": "ycm-cmake-modules",
@@ -102351,10 +103055,6 @@
           },
           {
             "source": "zlib",
-            "target": "abinit"
-          },
-          {
-            "source": "zlib",
             "target": "ale-py"
           },
           {
@@ -102488,6 +103188,10 @@
           {
             "source": "zlib",
             "target": "cgns"
+          },
+          {
+            "source": "zlib",
+            "target": "cgsi-gsoap"
           },
           {
             "source": "zlib",
@@ -102867,10 +103571,6 @@
           },
           {
             "source": "zlib",
-            "target": "gsoap"
-          },
-          {
-            "source": "zlib",
             "target": "gst-libav"
           },
           {
@@ -103004,10 +103704,6 @@
           {
             "source": "zlib",
             "target": "irrlicht"
-          },
-          {
-            "source": "zlib",
-            "target": "jags"
           },
           {
             "source": "zlib",
@@ -103995,6 +104691,10 @@
           },
           {
             "source": "zlib",
+            "target": "r-rjags"
+          },
+          {
+            "source": "zlib",
             "target": "r-rjava"
           },
           {
@@ -104168,6 +104868,10 @@
           {
             "source": "zlib",
             "target": "squashfuse"
+          },
+          {
+            "source": "zlib",
+            "target": "srm-ifce"
           },
           {
             "source": "zlib",
@@ -105095,10 +105799,6 @@
           },
           {
             "source": "zstd",
-            "target": "jags"
-          },
-          {
-            "source": "zstd",
             "target": "julia"
           },
           {
@@ -105595,6 +106295,10 @@
           },
           {
             "source": "zstd",
+            "target": "r-rjags"
+          },
+          {
+            "source": "zstd",
             "target": "r-robusthd"
           },
           {
@@ -105842,12 +106546,6 @@
             "id": "abacus",
             "payload": {
               "__lazy_json__": "node_attrs/abacus.json"
-            }
-          },
-          {
-            "id": "abinit",
-            "payload": {
-              "__lazy_json__": "node_attrs/abinit.json"
             }
           },
           {
@@ -106319,6 +107017,12 @@
             }
           },
           {
+            "id": "azure-storage-files-datalake-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
+            }
+          },
+          {
             "id": "backports.zoneinfo",
             "payload": {
               "__lazy_json__": "node_attrs/backports.zoneinfo.json"
@@ -106772,12 +107476,6 @@
             "id": "casadi",
             "payload": {
               "__lazy_json__": "node_attrs/casadi.json"
-            }
-          },
-          {
-            "id": "cascade",
-            "payload": {
-              "__lazy_json__": "node_attrs/cascade.json"
             }
           },
           {
@@ -107327,12 +108025,6 @@
             }
           },
           {
-            "id": "cppunit",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppunit.json"
-            }
-          },
-          {
             "id": "cppyy",
             "payload": {
               "__lazy_json__": "node_attrs/cppyy.json"
@@ -107438,12 +108130,6 @@
             "id": "cuda-compat",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-compat.json"
-            }
-          },
-          {
-            "id": "cuda-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-core.json"
             }
           },
           {
@@ -107879,12 +108565,6 @@
             }
           },
           {
-            "id": "deno-dom",
-            "payload": {
-              "__lazy_json__": "node_attrs/deno-dom.json"
-            }
-          },
-          {
             "id": "deptry",
             "payload": {
               "__lazy_json__": "node_attrs/deptry.json"
@@ -108008,12 +108688,6 @@
             "id": "doxygen",
             "payload": {
               "__lazy_json__": "node_attrs/doxygen.json"
-            }
-          },
-          {
-            "id": "dpct-meta",
-            "payload": {
-              "__lazy_json__": "node_attrs/dpct-meta.json"
             }
           },
           {
@@ -108428,12 +109102,6 @@
             "id": "ffnvcodec-headers",
             "payload": {
               "__lazy_json__": "node_attrs/ffnvcodec-headers.json"
-            }
-          },
-          {
-            "id": "fftw",
-            "payload": {
-              "__lazy_json__": "node_attrs/fftw.json"
             }
           },
           {
@@ -109343,12 +110011,6 @@
             }
           },
           {
-            "id": "gsoap",
-            "payload": {
-              "__lazy_json__": "node_attrs/gsoap.json"
-            }
-          },
-          {
             "id": "gst-libav",
             "payload": {
               "__lazy_json__": "node_attrs/gst-libav.json"
@@ -110000,12 +110662,6 @@
             "id": "jaeger",
             "payload": {
               "__lazy_json__": "node_attrs/jaeger.json"
-            }
-          },
-          {
-            "id": "jags",
-            "payload": {
-              "__lazy_json__": "node_attrs/jags.json"
             }
           },
           {
@@ -111803,12 +112459,6 @@
             }
           },
           {
-            "id": "lief",
-            "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
-            }
-          },
-          {
             "id": "lightgbm",
             "payload": {
               "__lazy_json__": "node_attrs/lightgbm.json"
@@ -113462,12 +114112,6 @@
             "id": "palp",
             "payload": {
               "__lazy_json__": "node_attrs/palp.json"
-            }
-          },
-          {
-            "id": "pandana",
-            "payload": {
-              "__lazy_json__": "node_attrs/pandana.json"
             }
           },
           {
@@ -118793,6 +119437,12 @@
             }
           },
           {
+            "id": "sdsl-lite",
+            "payload": {
+              "__lazy_json__": "node_attrs/sdsl-lite.json"
+            }
+          },
+          {
             "id": "seccomp-split",
             "payload": {
               "__lazy_json__": "node_attrs/seccomp-split.json"
@@ -118850,6 +119500,12 @@
             "id": "shapelib",
             "payload": {
               "__lazy_json__": "node_attrs/shapelib.json"
+            }
+          },
+          {
+            "id": "shapely",
+            "payload": {
+              "__lazy_json__": "node_attrs/shapely.json"
             }
           },
           {
@@ -119291,12 +119947,6 @@
             }
           },
           {
-            "id": "svt-av1",
-            "payload": {
-              "__lazy_json__": "node_attrs/svt-av1.json"
-            }
-          },
-          {
             "id": "swig",
             "payload": {
               "__lazy_json__": "node_attrs/swig.json"
@@ -119630,12 +120280,6 @@
             "id": "tiny-process-library",
             "payload": {
               "__lazy_json__": "node_attrs/tiny-process-library.json"
-            }
-          },
-          {
-            "id": "tinyobjloader",
-            "payload": {
-              "__lazy_json__": "node_attrs/tinyobjloader.json"
             }
           },
           {
