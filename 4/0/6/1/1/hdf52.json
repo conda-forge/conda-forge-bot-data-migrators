@@ -173,10 +173,6 @@
           },
           {
             "source": "coda",
-            "target": "harp"
-          },
-          {
-            "source": "coda",
             "target": "qdoas"
           },
           {
@@ -545,10 +541,6 @@
           },
           {
             "source": "h5utils",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "harp",
             "target": "conda-forge-pinning"
           },
           {
@@ -1690,12 +1682,6 @@
             "id": "h5utils",
             "payload": {
               "__lazy_json__": "node_attrs/h5utils.json"
-            }
-          },
-          {
-            "id": "harp",
-            "payload": {
-              "__lazy_json__": "node_attrs/harp.json"
             }
           },
           {
