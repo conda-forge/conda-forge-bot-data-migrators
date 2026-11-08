@@ -56,45 +56,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "daetk",
-            "payload": {
-              "__lazy_json__": "node_attrs/daetk.json"
-            }
-          },
-          {
             "id": "damask",
             "payload": {
               "__lazy_json__": "node_attrs/damask.json"
             }
           },
           {
-            "id": "freefem",
-            "payload": {
-              "__lazy_json__": "node_attrs/freefem.json"
-            }
-          },
-          {
             "id": "libadjoint",
             "payload": {
               "__lazy_json__": "node_attrs/libadjoint.json"
-            }
-          },
-          {
-            "id": "medcoupling",
-            "payload": {
-              "__lazy_json__": "node_attrs/medcoupling.json"
-            }
-          },
-          {
-            "id": "opencarp",
-            "payload": {
-              "__lazy_json__": "node_attrs/opencarp.json"
-            }
-          },
-          {
-            "id": "openfoam",
-            "payload": {
-              "__lazy_json__": "node_attrs/openfoam.json"
             }
           },
           {
@@ -416,7 +386,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
