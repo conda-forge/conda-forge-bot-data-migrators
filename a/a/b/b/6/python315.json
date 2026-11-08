@@ -61,12 +61,6 @@
             }
           },
           {
-            "id": "pyhrf",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyhrf.json"
-            }
-          },
-          {
             "id": "turbodbc",
             "payload": {
               "__lazy_json__": "node_attrs/turbodbc.json"
@@ -5488,6 +5482,10 @@
           },
           {
             "source": "boost",
+            "target": "coal"
+          },
+          {
+            "source": "boost",
             "target": "code-aster"
           },
           {
@@ -6125,10 +6123,6 @@
           {
             "source": "boost",
             "target": "rmf"
-          },
-          {
-            "source": "boost",
-            "target": "roboplan"
           },
           {
             "source": "boost",
@@ -10457,6 +10451,66 @@
           {
             "source": "cnchash",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coal",
+            "target": "aligator"
+          },
+          {
+            "source": "coal",
+            "target": "candlewick"
+          },
+          {
+            "source": "coal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coal",
+            "target": "crocoddyl"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-corbaserver"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-environments"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-gepetto-viewer"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-gui"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-manipulation-corba"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-python"
+          },
+          {
+            "source": "coal",
+            "target": "ndcurves"
+          },
+          {
+            "source": "coal",
+            "target": "pinocchio"
+          },
+          {
+            "source": "coal",
+            "target": "placo"
+          },
+          {
+            "source": "coal",
+            "target": "roboplan"
+          },
+          {
+            "source": "coal",
+            "target": "tsid"
           },
           {
             "source": "cobs-python",
@@ -16893,6 +16947,10 @@
           {
             "source": "eigenpy",
             "target": "candlewick"
+          },
+          {
+            "source": "eigenpy",
+            "target": "coal"
           },
           {
             "source": "eigenpy",
@@ -25480,6 +25538,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "coal"
+          },
+          {
+            "source": "markupsafe",
             "target": "codechecker"
           },
           {
@@ -33400,6 +33462,10 @@
           },
           {
             "source": "numpy",
+            "target": "coal"
+          },
+          {
+            "source": "numpy",
             "target": "coda"
           },
           {
@@ -35004,19 +35070,11 @@
           },
           {
             "source": "numpy",
-            "target": "hpp-corbaserver"
-          },
-          {
-            "source": "numpy",
             "target": "hpp-environments"
           },
           {
             "source": "numpy",
             "target": "hpp-gepetto-viewer"
-          },
-          {
-            "source": "numpy",
-            "target": "hpp-gui"
           },
           {
             "source": "numpy",
@@ -40623,6 +40681,150 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "orjson",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "orjson",
+            "target": "aria-tools"
+          },
+          {
+            "source": "orjson",
+            "target": "atom-ml"
+          },
+          {
+            "source": "orjson",
+            "target": "autogluon.vision"
+          },
+          {
+            "source": "orjson",
+            "target": "checkov"
+          },
+          {
+            "source": "orjson",
+            "target": "chromadb"
+          },
+          {
+            "source": "orjson",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "orjson",
+            "target": "csxtools"
+          },
+          {
+            "source": "orjson",
+            "target": "cwltool"
+          },
+          {
+            "source": "orjson",
+            "target": "dau-driver"
+          },
+          {
+            "source": "orjson",
+            "target": "doebase"
+          },
+          {
+            "source": "orjson",
+            "target": "geowombat"
+          },
+          {
+            "source": "orjson",
+            "target": "hklpy"
+          },
+          {
+            "source": "orjson",
+            "target": "kaolin"
+          },
+          {
+            "source": "orjson",
+            "target": "lm_eval"
+          },
+          {
+            "source": "orjson",
+            "target": "mattersim"
+          },
+          {
+            "source": "orjson",
+            "target": "metadata-crawler"
+          },
+          {
+            "source": "orjson",
+            "target": "mget3"
+          },
+          {
+            "source": "orjson",
+            "target": "nbproject"
+          },
+          {
+            "source": "orjson",
+            "target": "nomad-camels"
+          },
+          {
+            "source": "orjson",
+            "target": "pandas-plink"
+          },
+          {
+            "source": "orjson",
+            "target": "paraprobe"
+          },
+          {
+            "source": "orjson",
+            "target": "provstore-api"
+          },
+          {
+            "source": "orjson",
+            "target": "pyb2d3"
+          },
+          {
+            "source": "orjson",
+            "target": "pyjelly"
+          },
+          {
+            "source": "orjson",
+            "target": "pymatgen-core"
+          },
+          {
+            "source": "orjson",
+            "target": "pymseed"
+          },
+          {
+            "source": "orjson",
+            "target": "reasonable"
+          },
+          {
+            "source": "orjson",
+            "target": "robyn"
+          },
+          {
+            "source": "orjson",
+            "target": "schema-salad"
+          },
+          {
+            "source": "orjson",
+            "target": "smt"
+          },
+          {
+            "source": "orjson",
+            "target": "unicorn-binance-local-depth-cache"
+          },
+          {
+            "source": "orjson",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "orjson",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "orjson",
+            "target": "viztracer"
+          },
+          {
+            "source": "orjson",
+            "target": "xraylarch"
+          },
+          {
             "source": "ormar-utils",
             "target": "conda-forge-pinning"
           },
@@ -44071,6 +44273,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pivy",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pivy",
+            "target": "freecad"
+          },
+          {
             "source": "pixell",
             "target": "conda-forge-pinning"
           },
@@ -45941,6 +46151,10 @@
           {
             "source": "psutil",
             "target": "orange3"
+          },
+          {
+            "source": "psutil",
+            "target": "orjson"
           },
           {
             "source": "psutil",
@@ -52673,6 +52887,10 @@
           {
             "source": "python-librt",
             "target": "openllm-playground"
+          },
+          {
+            "source": "python-librt",
+            "target": "orjson"
           },
           {
             "source": "python-librt",
@@ -68564,6 +68782,10 @@
           },
           {
             "source": "tbb",
+            "target": "coal"
+          },
+          {
+            "source": "tbb",
             "target": "cobs-python"
           },
           {
@@ -73768,6 +73990,10 @@
           },
           {
             "source": "tbb",
+            "target": "orjson"
+          },
+          {
+            "source": "tbb",
             "target": "ormar-utils"
           },
           {
@@ -74177,6 +74403,10 @@
           {
             "source": "tbb",
             "target": "piqp"
+          },
+          {
+            "source": "tbb",
+            "target": "pivy"
           },
           {
             "source": "tbb",
@@ -88312,6 +88542,12 @@
             }
           },
           {
+            "id": "coal",
+            "payload": {
+              "__lazy_json__": "node_attrs/coal.json"
+            }
+          },
+          {
             "id": "cobs-python",
             "payload": {
               "__lazy_json__": "node_attrs/cobs-python.json"
@@ -96022,6 +96258,12 @@
             }
           },
           {
+            "id": "orjson",
+            "payload": {
+              "__lazy_json__": "node_attrs/orjson.json"
+            }
+          },
+          {
             "id": "ormdantic",
             "payload": {
               "__lazy_json__": "node_attrs/ormdantic.json"
@@ -96613,6 +96855,12 @@
             "id": "piqp",
             "payload": {
               "__lazy_json__": "node_attrs/piqp.json"
+            }
+          },
+          {
+            "id": "pivy",
+            "payload": {
+              "__lazy_json__": "node_attrs/pivy.json"
             }
           },
           {
