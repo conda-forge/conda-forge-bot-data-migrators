@@ -100,10 +100,6 @@
         },
         "links": [
           {
-            "source": "abinit",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "adjfind",
             "target": "conda-forge-pinning"
           },
@@ -145,10 +141,6 @@
           },
           {
             "source": "casacore",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cascade",
             "target": "conda-forge-pinning"
           },
           {
@@ -697,10 +689,6 @@
           },
           {
             "source": "libnetcdf",
-            "target": "abinit"
-          },
-          {
-            "source": "libnetcdf",
             "target": "ccr"
           },
           {
@@ -922,10 +910,6 @@
           {
             "source": "netcdf-cxx4",
             "target": "trilinos"
-          },
-          {
-            "source": "netcdf-fortran",
-            "target": "abinit"
           },
           {
             "source": "netcdf-fortran",
@@ -1379,12 +1363,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "abinit",
-            "payload": {
-              "__lazy_json__": "node_attrs/abinit.json"
-            }
-          },
-          {
             "id": "adjfind",
             "payload": {
               "__lazy_json__": "node_attrs/adjfind.json"
@@ -1448,12 +1426,6 @@
             "id": "casacore",
             "payload": {
               "__lazy_json__": "node_attrs/casacore.json"
-            }
-          },
-          {
-            "id": "cascade",
-            "payload": {
-              "__lazy_json__": "node_attrs/cascade.json"
             }
           },
           {
