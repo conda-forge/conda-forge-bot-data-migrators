@@ -611,6 +611,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "pycontrails"
+          },
+          {
+            "source": "aiohttp",
             "target": "pycrdt"
           },
           {
@@ -1244,6 +1248,10 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "pyarrow"
+          },
+          {
+            "source": "argon2-cffi-bindings",
+            "target": "pycontrails"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1976,6 +1984,10 @@
           {
             "source": "ast-serialize",
             "target": "pycalphad"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "pycontrails"
           },
           {
             "source": "ast-serialize",
@@ -3044,6 +3056,10 @@
           {
             "source": "autoconf",
             "target": "petsc"
+          },
+          {
+            "source": "autoconf",
+            "target": "php"
           },
           {
             "source": "autoconf",
@@ -4971,6 +4987,10 @@
           },
           {
             "source": "aws-c-common",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-common",
             "target": "aws-c-http"
           },
           {
@@ -5014,6 +5034,18 @@
             "target": "aws-c-http"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "awscrt"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -5040,6 +5072,10 @@
           {
             "source": "aws-c-io",
             "target": "aws-c-auth"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-event-stream"
           },
           {
             "source": "aws-c-io",
@@ -5059,10 +5095,6 @@
           },
           {
             "source": "aws-c-io",
-            "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "aws-c-io",
             "target": "awscrt"
           },
           {
@@ -5103,15 +5135,11 @@
           },
           {
             "source": "aws-checksums",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-checksums",
             "target": "aws-c-s3"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-checksums",
-            "target": "aws-sdk-cpp"
           },
           {
             "source": "aws-checksums",
@@ -5768,6 +5796,10 @@
           {
             "source": "backports.zstd",
             "target": "pycbc"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "pycontrails"
           },
           {
             "source": "backports.zstd",
@@ -6631,6 +6663,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "pycontrails"
+          },
+          {
+            "source": "bcrypt",
             "target": "pycrdt"
           },
           {
@@ -7191,6 +7227,10 @@
           },
           {
             "source": "binutils",
+            "target": "pycontrails"
+          },
+          {
+            "source": "binutils",
             "target": "pylabdd"
           },
           {
@@ -7419,6 +7459,10 @@
           },
           {
             "source": "bison",
+            "target": "harp"
+          },
+          {
+            "source": "bison",
             "target": "hdf4"
           },
           {
@@ -7491,6 +7535,10 @@
           },
           {
             "source": "bison",
+            "target": "php"
+          },
+          {
+            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -7536,10 +7584,6 @@
           {
             "source": "bison",
             "target": "verilator"
-          },
-          {
-            "source": "bison",
-            "target": "visan"
           },
           {
             "source": "bison",
@@ -9583,6 +9627,10 @@
           },
           {
             "source": "brotli",
+            "target": "pycontrails"
+          },
+          {
+            "source": "brotli",
             "target": "pycrdt"
           },
           {
@@ -10204,6 +10252,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -10852,6 +10904,10 @@
           {
             "source": "cargo-auditable",
             "target": "pyarrow"
+          },
+          {
+            "source": "cargo-auditable",
+            "target": "pycontrails"
           },
           {
             "source": "cargo-auditable",
@@ -11759,6 +11815,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "pycontrails"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "pycrdt"
           },
           {
@@ -12256,6 +12316,10 @@
           {
             "source": "cartopy",
             "target": "psy-maps"
+          },
+          {
+            "source": "cartopy",
+            "target": "pycontrails"
           },
           {
             "source": "cartopy",
@@ -12899,6 +12963,10 @@
           },
           {
             "source": "cffi",
+            "target": "harp"
+          },
+          {
+            "source": "cffi",
             "target": "hazelbean"
           },
           {
@@ -13076,6 +13144,10 @@
           {
             "source": "cffi",
             "target": "pycbc"
+          },
+          {
+            "source": "cffi",
+            "target": "pycontrails"
           },
           {
             "source": "cffi",
@@ -13372,10 +13444,6 @@
           {
             "source": "cffi",
             "target": "vega"
-          },
-          {
-            "source": "cffi",
-            "target": "visan"
           },
           {
             "source": "cffi",
@@ -13923,6 +13991,10 @@
           },
           {
             "source": "cmake",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "cmake",
             "target": "aws-c-http"
           },
           {
@@ -13952,10 +14024,6 @@
           {
             "source": "cmake",
             "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "cmake",
-            "target": "awscrt"
           },
           {
             "source": "cmake",
@@ -15019,10 +15087,6 @@
           },
           {
             "source": "cmake",
-            "target": "gstreamer"
-          },
-          {
-            "source": "cmake",
             "target": "gtest"
           },
           {
@@ -15104,6 +15168,10 @@
           {
             "source": "cmake",
             "target": "hackrf"
+          },
+          {
+            "source": "cmake",
+            "target": "harp"
           },
           {
             "source": "cmake",
@@ -15755,10 +15823,6 @@
           },
           {
             "source": "cmake",
-            "target": "libsndfile"
-          },
-          {
-            "source": "cmake",
             "target": "libsodium"
           },
           {
@@ -15784,10 +15848,6 @@
           {
             "source": "cmake",
             "target": "libtensorlight"
-          },
-          {
-            "source": "cmake",
-            "target": "libtheora"
           },
           {
             "source": "cmake",
@@ -15828,6 +15888,10 @@
           {
             "source": "cmake",
             "target": "libvips"
+          },
+          {
+            "source": "cmake",
+            "target": "libvorbis"
           },
           {
             "source": "cmake",
@@ -15979,6 +16043,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -16028,10 +16096,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -16092,10 +16156,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -16656,6 +16716,10 @@
           {
             "source": "cmake",
             "target": "pyccl"
+          },
+          {
+            "source": "cmake",
+            "target": "pycontrails"
           },
           {
             "source": "cmake",
@@ -17816,6 +17880,10 @@
           {
             "source": "coal",
             "target": "pinocchio"
+          },
+          {
+            "source": "coda",
+            "target": "harp"
           },
           {
             "source": "coda",
@@ -19075,10 +19143,6 @@
           },
           {
             "source": "coverage",
-            "target": "lalapps"
-          },
-          {
-            "source": "coverage",
             "target": "lalburst"
           },
           {
@@ -19088,6 +19152,10 @@
           {
             "source": "coverage",
             "target": "lalinference"
+          },
+          {
+            "source": "coverage",
+            "target": "lalinspiral"
           },
           {
             "source": "coverage",
@@ -19612,6 +19680,10 @@
           {
             "source": "coverage",
             "target": "pycbc"
+          },
+          {
+            "source": "coverage",
+            "target": "pycontrails"
           },
           {
             "source": "coverage",
@@ -21255,6 +21327,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "pycontrails"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "pycrdt"
           },
           {
@@ -21864,6 +21940,10 @@
           {
             "source": "curl",
             "target": "pari"
+          },
+          {
+            "source": "curl",
+            "target": "php"
           },
           {
             "source": "curl",
@@ -22939,6 +23019,10 @@
           },
           {
             "source": "cython",
+            "target": "pycontrails"
+          },
+          {
+            "source": "cython",
             "target": "pydeb"
           },
           {
@@ -23847,6 +23931,10 @@
           },
           {
             "source": "dbus",
+            "target": "pycontrails"
+          },
+          {
+            "source": "dbus",
             "target": "pypeit"
           },
           {
@@ -24264,6 +24352,10 @@
           {
             "source": "debugpy",
             "target": "pyarrow"
+          },
+          {
+            "source": "debugpy",
+            "target": "pycontrails"
           },
           {
             "source": "debugpy",
@@ -25027,6 +25119,10 @@
           },
           {
             "source": "dulwich",
+            "target": "pycontrails"
+          },
+          {
+            "source": "dulwich",
             "target": "pycrdt"
           },
           {
@@ -25308,6 +25404,10 @@
           {
             "source": "eccodes",
             "target": "metview-batch"
+          },
+          {
+            "source": "eccodes",
+            "target": "pycontrails"
           },
           {
             "source": "eccodes",
@@ -26619,6 +26719,10 @@
           },
           {
             "source": "falcon",
+            "target": "pycontrails"
+          },
+          {
+            "source": "falcon",
             "target": "pycrdt"
           },
           {
@@ -27139,6 +27243,10 @@
           },
           {
             "source": "fastar",
+            "target": "pycontrails"
+          },
+          {
+            "source": "fastar",
             "target": "pycrdt"
           },
           {
@@ -27639,6 +27747,10 @@
           },
           {
             "source": "flex",
+            "target": "harp"
+          },
+          {
+            "source": "flex",
             "target": "hdf4"
           },
           {
@@ -27728,10 +27840,6 @@
           {
             "source": "flex",
             "target": "verilator"
-          },
-          {
-            "source": "flex",
-            "target": "visan"
           },
           {
             "source": "flex",
@@ -29339,6 +29447,10 @@
           },
           {
             "source": "gettext",
+            "target": "php"
+          },
+          {
+            "source": "gettext",
             "target": "plumed"
           },
           {
@@ -30376,6 +30488,10 @@
           {
             "source": "git",
             "target": "pyarrow"
+          },
+          {
+            "source": "git",
+            "target": "pycontrails"
           },
           {
             "source": "git",
@@ -31443,6 +31559,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "postgis"
           },
           {
@@ -31751,6 +31871,10 @@
           },
           {
             "source": "go-licenses",
+            "target": "act"
+          },
+          {
+            "source": "go-licenses",
             "target": "age"
           },
           {
@@ -31776,6 +31900,10 @@
           {
             "source": "go-licenses",
             "target": "docker-cli"
+          },
+          {
+            "source": "go-licenses",
+            "target": "docker-compose"
           },
           {
             "source": "go-licenses",
@@ -32132,6 +32260,10 @@
           {
             "source": "google-crc32c",
             "target": "nutpie"
+          },
+          {
+            "source": "google-crc32c",
+            "target": "pycontrails"
           },
           {
             "source": "google-crc32c",
@@ -32595,6 +32727,10 @@
           },
           {
             "source": "greenlet",
+            "target": "pycontrails"
+          },
+          {
+            "source": "greenlet",
             "target": "pycrdt"
           },
           {
@@ -32903,6 +33039,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "pycontrails"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "pytango"
           },
           {
@@ -33040,6 +33180,10 @@
           {
             "source": "gsl",
             "target": "lalinference"
+          },
+          {
+            "source": "gsl",
+            "target": "lalinspiral"
           },
           {
             "source": "gsl",
@@ -34234,6 +34378,10 @@
             "target": "pymeep"
           },
           {
+            "source": "harp",
+            "target": "visan"
+          },
+          {
             "source": "hazelbean",
             "target": "sealsmodel"
           },
@@ -34244,6 +34392,10 @@
           {
             "source": "hdf4",
             "target": "gdal"
+          },
+          {
+            "source": "hdf4",
+            "target": "harp"
           },
           {
             "source": "hdf4",
@@ -34272,10 +34424,6 @@
           {
             "source": "hdf4",
             "target": "qdoas"
-          },
-          {
-            "source": "hdf4",
-            "target": "visan"
           },
           {
             "source": "hdf5",
@@ -34384,6 +34532,10 @@
           {
             "source": "hdf5",
             "target": "h5py"
+          },
+          {
+            "source": "hdf5",
+            "target": "harp"
           },
           {
             "source": "hdf5",
@@ -34635,10 +34787,6 @@
           },
           {
             "source": "hdf5",
-            "target": "visan"
-          },
-          {
-            "source": "hdf5",
             "target": "viskores"
           },
           {
@@ -34691,19 +34839,7 @@
           },
           {
             "source": "help2man",
-            "target": "bayeswave"
-          },
-          {
-            "source": "help2man",
             "target": "flex"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal-inspiral"
           },
           {
             "source": "help2man",
@@ -34715,10 +34851,6 @@
           },
           {
             "source": "help2man",
-            "target": "lalapps"
-          },
-          {
-            "source": "help2man",
             "target": "lalburst"
           },
           {
@@ -34727,7 +34859,7 @@
           },
           {
             "source": "help2man",
-            "target": "lalinference"
+            "target": "lalinspiral"
           },
           {
             "source": "help2man",
@@ -35160,6 +35292,10 @@
           {
             "source": "httptools",
             "target": "pyarrow"
+          },
+          {
+            "source": "httptools",
+            "target": "pycontrails"
           },
           {
             "source": "httptools",
@@ -35799,6 +35935,10 @@
           },
           {
             "source": "hypothesis",
+            "target": "pycontrails"
+          },
+          {
+            "source": "hypothesis",
             "target": "pycrdt"
           },
           {
@@ -36199,6 +36339,10 @@
           },
           {
             "source": "icu",
+            "target": "php"
+          },
+          {
+            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -36303,10 +36447,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "lalapps"
           },
           {
@@ -36316,6 +36456,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -36339,10 +36483,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "igwn-ligolw"
           },
           {
@@ -36360,6 +36500,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -36604,6 +36748,14 @@
           {
             "source": "jemalloc",
             "target": "tmux"
+          },
+          {
+            "source": "jmol",
+            "target": "sage"
+          },
+          {
+            "source": "jmol",
+            "target": "sagelib"
           },
           {
             "source": "jonquil",
@@ -36927,10 +37079,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "gstlal"
           },
           {
@@ -36939,15 +37087,15 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "lalapps"
           },
           {
             "source": "lalburst",
             "target": "lalinference"
+          },
+          {
+            "source": "lalburst",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -36963,19 +37111,15 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "lalapps"
           },
           {
             "source": "lalframe",
             "target": "lalinference"
+          },
+          {
+            "source": "lalframe",
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -37030,6 +37174,26 @@
             "target": "lalpulsar"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -37044,6 +37208,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37090,6 +37258,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lalpulsar",
             "target": "cwinpy"
           },
@@ -37119,10 +37291,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -37140,6 +37308,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -38279,6 +38451,10 @@
           },
           {
             "source": "lazy-object-proxy",
+            "target": "pycontrails"
+          },
+          {
+            "source": "lazy-object-proxy",
             "target": "pycrdt"
           },
           {
@@ -39184,6 +39360,10 @@
           {
             "source": "libcxx",
             "target": "pybammsolvers"
+          },
+          {
+            "source": "libcxx",
+            "target": "pycontrails"
           },
           {
             "source": "libcxx",
@@ -40107,6 +40287,10 @@
           },
           {
             "source": "libiconv",
+            "target": "php"
+          },
+          {
+            "source": "libiconv",
             "target": "pkg-config"
           },
           {
@@ -41023,10 +41207,6 @@
           },
           {
             "source": "libogg",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libogg",
             "target": "gstreamer"
           },
           {
@@ -41043,6 +41223,10 @@
           },
           {
             "source": "libogg",
+            "target": "libvorbis"
+          },
+          {
+            "source": "libogg",
             "target": "opusfile"
           },
           {
@@ -41056,10 +41240,6 @@
           {
             "source": "libogg",
             "target": "sfml"
-          },
-          {
-            "source": "libogg",
-            "target": "sox"
           },
           {
             "source": "libogg",
@@ -41896,6 +42076,10 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
+          },
+          {
+            "source": "libsodium",
+            "target": "php"
           },
           {
             "source": "libsodium",
@@ -42999,6 +43183,10 @@
           },
           {
             "source": "libtool",
+            "target": "php"
+          },
+          {
+            "source": "libtool",
             "target": "pixell"
           },
           {
@@ -43524,6 +43712,38 @@
           {
             "source": "libvips",
             "target": "pyvips"
+          },
+          {
+            "source": "libvorbis",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libvorbis",
+            "target": "gstreamer"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libsndfile"
+          },
+          {
+            "source": "libvorbis",
+            "target": "libtheora"
+          },
+          {
+            "source": "libvorbis",
+            "target": "panda3d"
+          },
+          {
+            "source": "libvorbis",
+            "target": "sdl2_mixer"
+          },
+          {
+            "source": "libvorbis",
+            "target": "sfml"
+          },
+          {
+            "source": "libvorbis",
+            "target": "sox"
           },
           {
             "source": "libvpx",
@@ -44167,6 +44387,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pocl"
           },
           {
@@ -44196,6 +44420,10 @@
           {
             "source": "libxml2",
             "target": "pybammsolvers"
+          },
+          {
+            "source": "libxml2",
+            "target": "pycontrails"
           },
           {
             "source": "libxml2",
@@ -44460,6 +44688,10 @@
           {
             "source": "libzip",
             "target": "paraview"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -44892,6 +45124,10 @@
           {
             "source": "llvmdev",
             "target": "pybammsolvers"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pycontrails"
           },
           {
             "source": "llvmdev",
@@ -45540,6 +45776,10 @@
           {
             "source": "lxml",
             "target": "pycalphad"
+          },
+          {
+            "source": "lxml",
+            "target": "pycontrails"
           },
           {
             "source": "lxml",
@@ -47919,6 +48159,10 @@
           },
           {
             "source": "make",
+            "target": "harp"
+          },
+          {
+            "source": "make",
             "target": "hdf4"
           },
           {
@@ -48224,6 +48468,10 @@
           {
             "source": "make",
             "target": "lalinference"
+          },
+          {
+            "source": "make",
+            "target": "lalinspiral"
           },
           {
             "source": "make",
@@ -48936,6 +49184,10 @@
           {
             "source": "make",
             "target": "metaio"
+          },
+          {
+            "source": "make",
+            "target": "metis"
           },
           {
             "source": "make",
@@ -49715,6 +49967,10 @@
           },
           {
             "source": "make",
+            "target": "php"
+          },
+          {
+            "source": "make",
             "target": "picojson"
           },
           {
@@ -49884,6 +50140,10 @@
           {
             "source": "make",
             "target": "pyccl"
+          },
+          {
+            "source": "make",
+            "target": "pycontrails"
           },
           {
             "source": "make",
@@ -53275,6 +53535,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "pycontrails"
+          },
+          {
+            "source": "markupsafe",
             "target": "pycrdt"
           },
           {
@@ -54271,6 +54535,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pycontrails"
+          },
+          {
+            "source": "matplotlib",
             "target": "pycrdt"
           },
           {
@@ -54836,6 +55104,86 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -56047,6 +56395,10 @@
           },
           {
             "source": "msgspec",
+            "target": "pycontrails"
+          },
+          {
+            "source": "msgspec",
             "target": "python-infomap"
           },
           {
@@ -56635,6 +56987,10 @@
           },
           {
             "source": "netcdf4",
+            "target": "pycontrails"
+          },
+          {
+            "source": "netcdf4",
             "target": "pyfabm"
           },
           {
@@ -56843,6 +57199,10 @@
           },
           {
             "source": "ninja",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "ninja",
             "target": "aws-c-http"
           },
           {
@@ -56872,10 +57232,6 @@
           {
             "source": "ninja",
             "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "ninja",
-            "target": "awscrt"
           },
           {
             "source": "ninja",
@@ -58123,10 +58479,6 @@
           },
           {
             "source": "ninja",
-            "target": "libsndfile"
-          },
-          {
-            "source": "ninja",
             "target": "libsolv"
           },
           {
@@ -58144,10 +58496,6 @@
           {
             "source": "ninja",
             "target": "libtensorlight"
-          },
-          {
-            "source": "ninja",
-            "target": "libtheora"
           },
           {
             "source": "ninja",
@@ -58188,6 +58536,10 @@
           {
             "source": "ninja",
             "target": "libvips"
+          },
+          {
+            "source": "ninja",
+            "target": "libvorbis"
           },
           {
             "source": "ninja",
@@ -58768,6 +59120,10 @@
           {
             "source": "ninja",
             "target": "pycairo"
+          },
+          {
+            "source": "ninja",
+            "target": "pycontrails"
           },
           {
             "source": "ninja",
@@ -60187,6 +60543,10 @@
           },
           {
             "source": "nodejs",
+            "target": "pycontrails"
+          },
+          {
+            "source": "nodejs",
             "target": "pycrdt"
           },
           {
@@ -60652,6 +61012,10 @@
           {
             "source": "numcodecs",
             "target": "pixy"
+          },
+          {
+            "source": "numcodecs",
+            "target": "pycontrails"
           },
           {
             "source": "numcodecs",
@@ -61659,6 +62023,10 @@
           },
           {
             "source": "numpy",
+            "target": "harp"
+          },
+          {
+            "source": "numpy",
             "target": "hazelbean"
           },
           {
@@ -61856,6 +62224,10 @@
           {
             "source": "numpy",
             "target": "lalinference"
+          },
+          {
+            "source": "numpy",
+            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -62516,6 +62888,10 @@
           {
             "source": "numpy",
             "target": "pycocotools"
+          },
+          {
+            "source": "numpy",
+            "target": "pycontrails"
           },
           {
             "source": "numpy",
@@ -63790,6 +64166,10 @@
             "target": "jq"
           },
           {
+            "source": "oniguruma",
+            "target": "php"
+          },
+          {
             "source": "onnxruntime",
             "target": "bipedal-locomotion-framework"
           },
@@ -63935,6 +64315,10 @@
           },
           {
             "source": "opencv",
+            "target": "pycontrails"
+          },
+          {
+            "source": "opencv",
             "target": "pymagewell"
           },
           {
@@ -64035,6 +64419,10 @@
           },
           {
             "source": "openjdk",
+            "target": "jmol"
+          },
+          {
+            "source": "openjdk",
             "target": "jpype1"
           },
           {
@@ -64072,14 +64460,6 @@
           {
             "source": "openjdk",
             "target": "rstudio"
-          },
-          {
-            "source": "openjdk",
-            "target": "sage"
-          },
-          {
-            "source": "openjdk",
-            "target": "sagelib"
           },
           {
             "source": "openjdk",
@@ -65507,6 +65887,10 @@
           },
           {
             "source": "openmp",
+            "target": "pycontrails"
+          },
+          {
+            "source": "openmp",
             "target": "pyddx"
           },
           {
@@ -66575,6 +66959,10 @@
           },
           {
             "source": "openssl",
+            "target": "php"
+          },
+          {
+            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -66616,6 +67004,10 @@
           {
             "source": "openssl",
             "target": "pyarrow"
+          },
+          {
+            "source": "openssl",
+            "target": "pycontrails"
           },
           {
             "source": "openssl",
@@ -67575,6 +67967,10 @@
           },
           {
             "source": "pandas",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pandas",
             "target": "pycrdt"
           },
           {
@@ -68223,6 +68619,10 @@
           },
           {
             "source": "pandoc",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pandoc",
             "target": "pycrdt"
           },
           {
@@ -68852,6 +69252,10 @@
           {
             "source": "pcre2",
             "target": "libgit2"
+          },
+          {
+            "source": "pcre2",
+            "target": "php"
           },
           {
             "source": "pcre2",
@@ -70167,6 +70571,10 @@
           },
           {
             "source": "pillow",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pillow",
             "target": "pypdfium2"
           },
           {
@@ -71387,6 +71795,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "pkg-config",
             "target": "lalmetaio"
           },
           {
@@ -72043,10 +72455,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "nvim"
-          },
-          {
-            "source": "pkg-config",
             "target": "ocl-icd"
           },
           {
@@ -72235,6 +72643,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "php"
+          },
+          {
+            "source": "pkg-config",
             "target": "pillow"
           },
           {
@@ -72320,6 +72732,10 @@
           {
             "source": "pkg-config",
             "target": "pycbc"
+          },
+          {
+            "source": "pkg-config",
+            "target": "pycontrails"
           },
           {
             "source": "pkg-config",
@@ -73583,6 +73999,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "nvim"
+          },
+          {
+            "source": "pkgconf",
             "target": "odrpack"
           },
           {
@@ -73644,6 +74064,10 @@
           {
             "source": "pkgconf",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "pkgconf",
+            "target": "yarp"
           },
           {
             "source": "pkgconf",
@@ -73948,6 +74372,10 @@
           {
             "source": "playwright",
             "target": "pyarrow"
+          },
+          {
+            "source": "playwright",
+            "target": "pycontrails"
           },
           {
             "source": "playwright",
@@ -74300,6 +74728,10 @@
           {
             "source": "postgresql",
             "target": "meos"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -74812,6 +75244,10 @@
           {
             "source": "protobuf",
             "target": "pyarrow"
+          },
+          {
+            "source": "protobuf",
+            "target": "pycontrails"
           },
           {
             "source": "protobuf",
@@ -75544,6 +75980,10 @@
           {
             "source": "psutil",
             "target": "pycalphad"
+          },
+          {
+            "source": "psutil",
+            "target": "pycontrails"
           },
           {
             "source": "psutil",
@@ -76587,6 +77027,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pydantic-core",
             "target": "pycrdt"
           },
           {
@@ -77307,6 +77751,10 @@
           },
           {
             "source": "pynacl",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pynacl",
             "target": "pycrdt"
           },
           {
@@ -77839,6 +78287,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "pycrdt"
           },
           {
@@ -78095,6 +78547,10 @@
           },
           {
             "source": "pyogrio",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyogrio",
             "target": "pyrosm"
           },
           {
@@ -78176,6 +78632,10 @@
           {
             "source": "pyproj",
             "target": "py-tools-ds"
+          },
+          {
+            "source": "pyproj",
+            "target": "pycontrails"
           },
           {
             "source": "pyproj",
@@ -78460,6 +78920,10 @@
           {
             "source": "python-confluent-kafka",
             "target": "gstlal-ugly"
+          },
+          {
+            "source": "python-eccodes",
+            "target": "pycontrails"
           },
           {
             "source": "python-eccodes",
@@ -78867,6 +79331,10 @@
           },
           {
             "source": "python-librt",
+            "target": "pycontrails"
+          },
+          {
+            "source": "python-librt",
             "target": "pycrdt"
           },
           {
@@ -79232,6 +79700,10 @@
           {
             "source": "python-xxhash",
             "target": "puma"
+          },
+          {
+            "source": "python-xxhash",
+            "target": "pycontrails"
           },
           {
             "source": "python-xxhash",
@@ -81235,6 +81707,10 @@
           },
           {
             "source": "python",
+            "target": "harp"
+          },
+          {
+            "source": "python",
             "target": "hazelbean"
           },
           {
@@ -81572,6 +82048,10 @@
           {
             "source": "python",
             "target": "lalinference"
+          },
+          {
+            "source": "python",
+            "target": "lalinspiral"
           },
           {
             "source": "python",
@@ -83064,6 +83544,10 @@
           {
             "source": "python",
             "target": "pycocotools"
+          },
+          {
+            "source": "python",
+            "target": "pycontrails"
           },
           {
             "source": "python",
@@ -85539,6 +86023,10 @@
           },
           {
             "source": "pytokens",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pytokens",
             "target": "pycrdt"
           },
           {
@@ -86067,6 +86555,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "pypeit"
           },
           {
@@ -86480,6 +86972,10 @@
           {
             "source": "pywin32",
             "target": "pyarrow"
+          },
+          {
+            "source": "pywin32",
+            "target": "pycontrails"
           },
           {
             "source": "pywin32",
@@ -86996,6 +87492,10 @@
           {
             "source": "pywinpty",
             "target": "pyarrow"
+          },
+          {
+            "source": "pywinpty",
+            "target": "pycontrails"
           },
           {
             "source": "pywinpty",
@@ -87715,6 +88215,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "pycontrails"
+          },
+          {
+            "source": "pyyaml",
             "target": "pycrdt"
           },
           {
@@ -88344,6 +88848,10 @@
           {
             "source": "pyzmq",
             "target": "pyarrow"
+          },
+          {
+            "source": "pyzmq",
+            "target": "pycontrails"
           },
           {
             "source": "pyzmq",
@@ -96575,6 +97083,10 @@
           },
           {
             "source": "rasterio",
+            "target": "pycontrails"
+          },
+          {
+            "source": "rasterio",
             "target": "raider"
           },
           {
@@ -96640,6 +97152,10 @@
           {
             "source": "re2c",
             "target": "clingo"
+          },
+          {
+            "source": "re2c",
+            "target": "php"
           },
           {
             "source": "re2",
@@ -96772,6 +97288,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -97172,6 +97692,10 @@
           {
             "source": "regress",
             "target": "pyarrow"
+          },
+          {
+            "source": "regress",
+            "target": "pycontrails"
           },
           {
             "source": "regress",
@@ -97819,6 +98343,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "pycontrails"
+          },
+          {
+            "source": "rpds-py",
             "target": "pycrdt"
           },
           {
@@ -98435,6 +98963,10 @@
           },
           {
             "source": "ruamel.yaml.clib",
+            "target": "pycontrails"
+          },
+          {
+            "source": "ruamel.yaml.clib",
             "target": "pycrdt"
           },
           {
@@ -98975,6 +99507,10 @@
           },
           {
             "source": "ruamel",
+            "target": "pycontrails"
+          },
+          {
+            "source": "ruamel",
             "target": "pycrdt"
           },
           {
@@ -99492,6 +100028,10 @@
           {
             "source": "scikit-learn",
             "target": "pmdarima"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "pycontrails"
           },
           {
             "source": "scikit-learn",
@@ -100347,6 +100887,10 @@
           },
           {
             "source": "scipy",
+            "target": "pycontrails"
+          },
+          {
+            "source": "scipy",
             "target": "pyddx"
           },
           {
@@ -100919,10 +101463,6 @@
           },
           {
             "source": "sed",
-            "target": "bayeswave"
-          },
-          {
-            "source": "sed",
             "target": "bazel"
           },
           {
@@ -101135,14 +101675,6 @@
           },
           {
             "source": "sed",
-            "target": "gstlal"
-          },
-          {
-            "source": "sed",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "sed",
             "target": "gymnasium"
           },
           {
@@ -101191,10 +101723,6 @@
           },
           {
             "source": "sed",
-            "target": "lalapps"
-          },
-          {
-            "source": "sed",
             "target": "lalburst"
           },
           {
@@ -101204,6 +101732,10 @@
           {
             "source": "sed",
             "target": "lalinference"
+          },
+          {
+            "source": "sed",
+            "target": "lalinspiral"
           },
           {
             "source": "sed",
@@ -101412,6 +101944,10 @@
           {
             "source": "sed",
             "target": "pyarrow"
+          },
+          {
+            "source": "sed",
+            "target": "pycontrails"
           },
           {
             "source": "sed",
@@ -101872,6 +102408,10 @@
           {
             "source": "shapely",
             "target": "py-tools-ds"
+          },
+          {
+            "source": "shapely",
+            "target": "pycontrails"
           },
           {
             "source": "shapely",
@@ -102659,6 +103199,10 @@
           },
           {
             "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -102935,10 +103479,6 @@
           },
           {
             "source": "swig",
-            "target": "bayeswave"
-          },
-          {
-            "source": "swig",
             "target": "box2d-py"
           },
           {
@@ -102975,14 +103515,6 @@
           },
           {
             "source": "swig",
-            "target": "gstlal"
-          },
-          {
-            "source": "swig",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "swig",
             "target": "gymnasium"
           },
           {
@@ -103003,10 +103535,6 @@
           },
           {
             "source": "swig",
-            "target": "lalapps"
-          },
-          {
-            "source": "swig",
             "target": "lalburst"
           },
           {
@@ -103016,6 +103544,10 @@
           {
             "source": "swig",
             "target": "lalinference"
+          },
+          {
+            "source": "swig",
+            "target": "lalinspiral"
           },
           {
             "source": "swig",
@@ -104159,6 +104691,10 @@
           },
           {
             "source": "tornado",
+            "target": "pycontrails"
+          },
+          {
+            "source": "tornado",
             "target": "pycrdt"
           },
           {
@@ -104708,6 +105244,10 @@
           {
             "source": "trio",
             "target": "pyarrow"
+          },
+          {
+            "source": "trio",
+            "target": "pycontrails"
           },
           {
             "source": "trio",
@@ -105463,6 +106003,10 @@
           },
           {
             "source": "ujson",
+            "target": "pycontrails"
+          },
+          {
+            "source": "ujson",
             "target": "pycrdt"
           },
           {
@@ -105719,6 +106263,10 @@
           },
           {
             "source": "unzip",
+            "target": "jmol"
+          },
+          {
+            "source": "unzip",
             "target": "libnetcdf"
           },
           {
@@ -105732,14 +106280,6 @@
           {
             "source": "unzip",
             "target": "rstudio"
-          },
-          {
-            "source": "unzip",
-            "target": "sage"
-          },
-          {
-            "source": "unzip",
-            "target": "sagelib"
           },
           {
             "source": "unzip",
@@ -106439,6 +106979,10 @@
           },
           {
             "source": "uvloop",
+            "target": "pycontrails"
+          },
+          {
+            "source": "uvloop",
             "target": "pycrdt"
           },
           {
@@ -106804,6 +107348,10 @@
           {
             "source": "uv",
             "target": "pycalphad"
+          },
+          {
+            "source": "uv",
+            "target": "pycontrails"
           },
           {
             "source": "uv",
@@ -107687,6 +108235,10 @@
           },
           {
             "source": "watchdog",
+            "target": "pycontrails"
+          },
+          {
+            "source": "watchdog",
             "target": "pycrdt"
           },
           {
@@ -108184,6 +108736,10 @@
           {
             "source": "watchfiles",
             "target": "pyarrow"
+          },
+          {
+            "source": "watchfiles",
+            "target": "pycontrails"
           },
           {
             "source": "watchfiles",
@@ -108711,6 +109267,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "pycontrails"
+          },
+          {
+            "source": "wcwidth",
             "target": "pycrdt"
           },
           {
@@ -109220,6 +109780,10 @@
           {
             "source": "websockets",
             "target": "pyarrow"
+          },
+          {
+            "source": "websockets",
+            "target": "pycontrails"
           },
           {
             "source": "websockets",
@@ -109967,6 +110531,10 @@
           },
           {
             "source": "wrapt",
+            "target": "pycontrails"
+          },
+          {
+            "source": "wrapt",
             "target": "pycrdt"
           },
           {
@@ -110560,6 +111128,10 @@
           {
             "source": "xattr",
             "target": "pyarrow"
+          },
+          {
+            "source": "xattr",
+            "target": "pycontrails"
           },
           {
             "source": "xattr",
@@ -114063,6 +114635,10 @@
           },
           {
             "source": "zlib",
+            "target": "php"
+          },
+          {
+            "source": "zlib",
             "target": "pigz"
           },
           {
@@ -114124,6 +114700,10 @@
           {
             "source": "zlib",
             "target": "pycairo"
+          },
+          {
+            "source": "zlib",
+            "target": "pycontrails"
           },
           {
             "source": "zlib",
@@ -114999,6 +115579,10 @@
           },
           {
             "source": "zstandard",
+            "target": "pycontrails"
+          },
+          {
+            "source": "zstandard",
             "target": "pycrdt"
           },
           {
@@ -115719,6 +116303,10 @@
           },
           {
             "source": "zstd",
+            "target": "pycontrails"
+          },
+          {
+            "source": "zstd",
             "target": "pylabdd"
           },
           {
@@ -115954,6 +116542,12 @@
             "id": "ace",
             "payload": {
               "__lazy_json__": "node_attrs/ace.json"
+            }
+          },
+          {
+            "id": "act",
+            "payload": {
+              "__lazy_json__": "node_attrs/act.json"
             }
           },
           {
@@ -116458,6 +117052,12 @@
             "id": "aws-c-compression",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-compression.json"
+            }
+          },
+          {
+            "id": "aws-c-event-stream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
             }
           },
           {
@@ -118492,6 +119092,12 @@
             "id": "docker-cli",
             "payload": {
               "__lazy_json__": "node_attrs/docker-cli.json"
+            }
+          },
+          {
+            "id": "docker-compose",
+            "payload": {
+              "__lazy_json__": "node_attrs/docker-compose.json"
             }
           },
           {
@@ -120577,6 +121183,12 @@
             }
           },
           {
+            "id": "harp",
+            "payload": {
+              "__lazy_json__": "node_attrs/harp.json"
+            }
+          },
+          {
             "id": "hazelbean",
             "payload": {
               "__lazy_json__": "node_attrs/hazelbean.json"
@@ -121189,6 +121801,12 @@
             }
           },
           {
+            "id": "jmol",
+            "payload": {
+              "__lazy_json__": "node_attrs/jmol.json"
+            }
+          },
+          {
             "id": "jnv",
             "payload": {
               "__lazy_json__": "node_attrs/jnv.json"
@@ -121444,6 +122062,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -122719,6 +123343,12 @@
             }
           },
           {
+            "id": "libvorbis",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvorbis.json"
+            }
+          },
+          {
             "id": "libvpx",
             "payload": {
               "__lazy_json__": "node_attrs/libvpx.json"
@@ -123334,6 +123964,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -125305,6 +125941,12 @@
             }
           },
           {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
             "id": "physics-tenpy",
             "payload": {
               "__lazy_json__": "node_attrs/physics-tenpy.json"
@@ -125950,6 +126592,12 @@
             "id": "pycocotools",
             "payload": {
               "__lazy_json__": "node_attrs/pycocotools.json"
+            }
+          },
+          {
+            "id": "pycontrails",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycontrails.json"
             }
           },
           {
