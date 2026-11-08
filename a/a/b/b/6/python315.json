@@ -55,9 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "lalinspiral",
+            "id": "gz-sim",
             "payload": {
-              "__lazy_json__": "node_attrs/lalinspiral.json"
+              "__lazy_json__": "node_attrs/gz-sim.json"
+            }
+          },
+          {
+            "id": "idyntree",
+            "payload": {
+              "__lazy_json__": "node_attrs/idyntree.json"
             }
           },
           {
@@ -3386,10 +3392,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "kalpy"
-          },
-          {
-            "source": "backports.zstd",
             "target": "kivy"
           },
           {
@@ -4810,10 +4812,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "kalpy"
-          },
-          {
-            "source": "bcrypt",
             "target": "lalinference"
           },
           {
@@ -5381,6 +5379,10 @@
             "target": "xbbg"
           },
           {
+            "source": "bmf",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "bodo",
             "target": "conda-forge-pinning"
           },
@@ -5730,10 +5732,6 @@
           },
           {
             "source": "boost",
-            "target": "gudhi"
-          },
-          {
-            "source": "boost",
             "target": "gwframe"
           },
           {
@@ -5771,6 +5769,10 @@
           {
             "source": "boost",
             "target": "hpp-manipulation-corba"
+          },
+          {
+            "source": "boost",
+            "target": "hpp-plot"
           },
           {
             "source": "boost",
@@ -7147,10 +7149,6 @@
           {
             "source": "brotli",
             "target": "jupyterhub-yarnspawner"
-          },
-          {
-            "source": "brotli",
-            "target": "kalpy"
           },
           {
             "source": "brotli",
@@ -8677,6 +8675,14 @@
             "target": "stackvana-core"
           },
           {
+            "source": "cassandra",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cassandra",
+            "target": "mosdef_cassandra"
+          },
+          {
             "source": "catalogue",
             "target": "allennlp"
           },
@@ -9326,10 +9332,6 @@
           },
           {
             "source": "cffi",
-            "target": "harp"
-          },
-          {
-            "source": "cffi",
             "target": "hazelbean"
           },
           {
@@ -9359,10 +9361,6 @@
           {
             "source": "cffi",
             "target": "jupyterhub-yarnspawner"
-          },
-          {
-            "source": "cffi",
-            "target": "kalpy"
           },
           {
             "source": "cffi",
@@ -9990,6 +9988,10 @@
           },
           {
             "source": "cffi",
+            "target": "visan"
+          },
+          {
+            "source": "cffi",
             "target": "vllm"
           },
           {
@@ -10527,10 +10529,6 @@
           {
             "source": "coda",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coda",
-            "target": "harp"
           },
           {
             "source": "coda",
@@ -12906,15 +12904,7 @@
           },
           {
             "source": "cython",
-            "target": "fastremap"
-          },
-          {
-            "source": "cython",
             "target": "fastrlock"
-          },
-          {
-            "source": "cython",
-            "target": "fastshermanmorrison-pulsar"
           },
           {
             "source": "cython",
@@ -13279,10 +13269,6 @@
           {
             "source": "cython",
             "target": "jscatter"
-          },
-          {
-            "source": "cython",
-            "target": "jxlpy"
           },
           {
             "source": "cython",
@@ -17777,14 +17763,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "fastremap",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "fastremap",
-            "target": "fill-voids"
-          },
-          {
             "source": "fastrlock",
             "target": "conda-forge-pinning"
           },
@@ -17794,10 +17772,6 @@
           },
           {
             "source": "fastscapelib",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "fastshermanmorrison-pulsar",
             "target": "conda-forge-pinning"
           },
           {
@@ -17925,10 +17899,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "filprofiler",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "finesse",
             "target": "conda-forge-pinning"
           },
@@ -18022,6 +17992,10 @@
           },
           {
             "source": "flake8-to-ruff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flake8-typing-imports",
             "target": "conda-forge-pinning"
           },
           {
@@ -18733,6 +18707,10 @@
             "target": "hpp-gui"
           },
           {
+            "source": "gepetto-viewer-corba",
+            "target": "hpp-plot"
+          },
+          {
             "source": "gepetto-viewer",
             "target": "conda-forge-pinning"
           },
@@ -18747,6 +18725,10 @@
           {
             "source": "gepetto-viewer",
             "target": "hpp-gui"
+          },
+          {
+            "source": "gepetto-viewer",
+            "target": "hpp-plot"
           },
           {
             "source": "getdaft",
@@ -19589,18 +19571,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "goosefem",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "goosefem",
-            "target": "frictionqpotfem"
-          },
-          {
-            "source": "goosefem",
-            "target": "frictionqpotspringblock"
-          },
-          {
             "source": "gpaw",
             "target": "conda-forge-pinning"
           },
@@ -20361,14 +20331,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "gudhi",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "gudhi",
-            "target": "multipers"
-          },
-          {
             "source": "guiqwt",
             "target": "conda-forge-pinning"
           },
@@ -20446,7 +20408,7 @@
           },
           {
             "source": "gz-math",
-            "target": "libsdformat"
+            "target": "idyntree"
           },
           {
             "source": "gz-math",
@@ -21417,14 +21379,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "harp",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "harp",
-            "target": "visan"
-          },
-          {
             "source": "hazelbean",
             "target": "conda-forge-pinning"
           },
@@ -21853,6 +21807,10 @@
             "target": "hpp-manipulation-corba"
           },
           {
+            "source": "hpp-corbaserver",
+            "target": "hpp-plot"
+          },
+          {
             "source": "hpp-environments",
             "target": "conda-forge-pinning"
           },
@@ -21875,6 +21833,14 @@
           {
             "source": "hpp-manipulation-corba",
             "target": "hpp-gui"
+          },
+          {
+            "source": "hpp-manipulation-corba",
+            "target": "hpp-plot"
+          },
+          {
+            "source": "hpp-plot",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "hpp-python",
@@ -22138,6 +22104,10 @@
           },
           {
             "source": "igwn-ligolw",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "igwn-ligolw",
             "target": "gwtc_analysis"
           },
           {
@@ -22151,10 +22121,6 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
-          },
-          {
-            "source": "igwn-ligolw",
-            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -22206,6 +22172,10 @@
           },
           {
             "source": "igwn-segments",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "igwn-segments",
             "target": "gwtc_analysis"
           },
           {
@@ -22227,10 +22197,6 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
-          },
-          {
-            "source": "igwn-segments",
-            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -22278,10 +22244,6 @@
           },
           {
             "source": "ilastik-carving-tools",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "image-meta-tag",
             "target": "conda-forge-pinning"
           },
           {
@@ -22837,10 +22799,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "jxlpy",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "kahip",
             "target": "conda-forge-pinning"
           },
@@ -22850,10 +22808,6 @@
           },
           {
             "source": "kalign",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "kalpy",
             "target": "conda-forge-pinning"
           },
           {
@@ -23086,6 +23040,10 @@
           },
           {
             "source": "lalburst",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalburst",
             "target": "conda-forge-pinning"
           },
           {
@@ -23102,6 +23060,10 @@
           },
           {
             "source": "lalburst",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalburst",
             "target": "gwtc_analysis"
           },
           {
@@ -23114,7 +23076,7 @@
           },
           {
             "source": "lalburst",
-            "target": "lalinspiral"
+            "target": "ligo-raven"
           },
           {
             "source": "lalburst",
@@ -23154,6 +23116,14 @@
           },
           {
             "source": "lalframe",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalframe",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalframe",
             "target": "gwtc_analysis"
           },
           {
@@ -23166,11 +23136,11 @@
           },
           {
             "source": "lalframe",
-            "target": "lalinspiral"
+            "target": "lalpulsar"
           },
           {
             "source": "lalframe",
-            "target": "lalpulsar"
+            "target": "ligo-raven"
           },
           {
             "source": "lalframe",
@@ -23257,50 +23227,6 @@
             "target": "rift"
           },
           {
-            "source": "lalinspiral",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gravelamps"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "gwtc_analysis"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "lalapps"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "lalinference"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "ligo-raven"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "rapid-pe"
-          },
-          {
-            "source": "lalinspiral",
-            "target": "rift"
-          },
-          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -23315,10 +23241,6 @@
           {
             "source": "lal",
             "target": "lalinference"
-          },
-          {
-            "source": "lal",
-            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -23379,10 +23301,6 @@
           {
             "source": "lalmetaio",
             "target": "lalinference"
-          },
-          {
-            "source": "lalmetaio",
-            "target": "lalinspiral"
           },
           {
             "source": "lalmetaio",
@@ -23466,6 +23384,10 @@
           },
           {
             "source": "lalsimulation",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -23487,10 +23409,6 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
-          },
-          {
-            "source": "lalsimulation",
-            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -24215,22 +24133,6 @@
           {
             "source": "libsass",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "libsdformat",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "libsdformat",
-            "target": "gz-sim"
-          },
-          {
-            "source": "libsdformat",
-            "target": "idyntree"
-          },
-          {
-            "source": "libsdformat",
-            "target": "pinocchio"
           },
           {
             "source": "libsecp256k1-py-bindings",
@@ -25966,10 +25868,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "libsdformat"
-          },
-          {
-            "source": "markupsafe",
             "target": "limix-inference"
           },
           {
@@ -27494,10 +27392,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "image-meta-tag"
-          },
-          {
-            "source": "matplotlib",
             "target": "imagededup"
           },
           {
@@ -27539,10 +27433,6 @@
           {
             "source": "matplotlib",
             "target": "jscatter"
-          },
-          {
-            "source": "matplotlib",
-            "target": "kalpy"
           },
           {
             "source": "matplotlib",
@@ -30114,10 +30004,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "kalpy"
-          },
-          {
-            "source": "msgpack-python",
             "target": "ldcpy"
           },
           {
@@ -32014,10 +31900,6 @@
           },
           {
             "source": "numba",
-            "target": "kalpy"
-          },
-          {
-            "source": "numba",
             "target": "libertem"
           },
           {
@@ -32531,10 +32413,6 @@
           {
             "source": "numexpr",
             "target": "endstate_correction"
-          },
-          {
-            "source": "numexpr",
-            "target": "filprofiler"
           },
           {
             "source": "numexpr",
@@ -33150,6 +33028,10 @@
           },
           {
             "source": "numpy",
+            "target": "bmf"
+          },
+          {
+            "source": "numpy",
             "target": "bodo"
           },
           {
@@ -33271,6 +33153,10 @@
           {
             "source": "numpy",
             "target": "casatools"
+          },
+          {
+            "source": "numpy",
+            "target": "cassandra"
           },
           {
             "source": "numpy",
@@ -34370,19 +34256,11 @@
           },
           {
             "source": "numpy",
-            "target": "fastremap"
-          },
-          {
-            "source": "numpy",
             "target": "fastscapelib"
           },
           {
             "source": "numpy",
             "target": "fastscapelib-f2py"
-          },
-          {
-            "source": "numpy",
-            "target": "fastshermanmorrison-pulsar"
           },
           {
             "source": "numpy",
@@ -34782,10 +34660,6 @@
           },
           {
             "source": "numpy",
-            "target": "goosefem"
-          },
-          {
-            "source": "numpy",
             "target": "gpaw"
           },
           {
@@ -34894,10 +34768,6 @@
           },
           {
             "source": "numpy",
-            "target": "gudhi"
-          },
-          {
-            "source": "numpy",
             "target": "guiqwt"
           },
           {
@@ -34955,10 +34825,6 @@
           {
             "source": "numpy",
             "target": "hangar"
-          },
-          {
-            "source": "numpy",
-            "target": "harp"
           },
           {
             "source": "numpy",
@@ -35146,10 +35012,6 @@
           },
           {
             "source": "numpy",
-            "target": "image-meta-tag"
-          },
-          {
-            "source": "numpy",
             "target": "imagecodecs"
           },
           {
@@ -35302,10 +35164,6 @@
           },
           {
             "source": "numpy",
-            "target": "kalpy"
-          },
-          {
-            "source": "numpy",
             "target": "kaolin"
           },
           {
@@ -35383,10 +35241,6 @@
           {
             "source": "numpy",
             "target": "lalinference"
-          },
-          {
-            "source": "numpy",
-            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -39810,6 +39664,10 @@
           },
           {
             "source": "omniorb",
+            "target": "hpp-plot"
+          },
+          {
+            "source": "omniorb",
             "target": "pytango"
           },
           {
@@ -43462,10 +43320,6 @@
           },
           {
             "source": "pillow",
-            "target": "image-meta-tag"
-          },
-          {
-            "source": "pillow",
             "target": "imagededup"
           },
           {
@@ -43507,10 +43361,6 @@
           {
             "source": "pillow",
             "target": "juliart"
-          },
-          {
-            "source": "pillow",
-            "target": "jxlpy"
           },
           {
             "source": "pillow",
@@ -45150,6 +45000,10 @@
           },
           {
             "source": "proxsuite",
+            "target": "hpp-plot"
+          },
+          {
+            "source": "proxsuite",
             "target": "hpp-python"
           },
           {
@@ -45659,10 +45513,6 @@
           {
             "source": "psutil",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "psutil",
-            "target": "filprofiler"
           },
           {
             "source": "psutil",
@@ -50161,10 +50011,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pynini",
-            "target": "kalpy"
-          },
-          {
             "source": "pynng",
             "target": "conda-forge-pinning"
           },
@@ -53438,10 +53284,6 @@
           },
           {
             "source": "python-xxhash",
-            "target": "kalpy"
-          },
-          {
-            "source": "python-xxhash",
             "target": "ldcpy"
           },
           {
@@ -56507,10 +56349,6 @@
           {
             "source": "pyyaml",
             "target": "jupyterhub-yarnspawner"
-          },
-          {
-            "source": "pyyaml",
-            "target": "kalpy"
           },
           {
             "source": "pyyaml",
@@ -61142,10 +60980,6 @@
           },
           {
             "source": "scikit-learn",
-            "target": "kalpy"
-          },
-          {
-            "source": "scikit-learn",
             "target": "kraken-ocr"
           },
           {
@@ -62506,10 +62340,6 @@
           },
           {
             "source": "scipy",
-            "target": "fastshermanmorrison-pulsar"
-          },
-          {
-            "source": "scipy",
             "target": "fasttreeshap"
           },
           {
@@ -62915,10 +62745,6 @@
           {
             "source": "scipy",
             "target": "jscatter"
-          },
-          {
-            "source": "scipy",
-            "target": "kalpy"
           },
           {
             "source": "scipy",
@@ -68234,6 +68060,10 @@
           },
           {
             "source": "tbb",
+            "target": "bmf"
+          },
+          {
+            "source": "tbb",
             "target": "bodo"
           },
           {
@@ -68431,6 +68261,10 @@
           {
             "source": "tbb",
             "target": "casatools"
+          },
+          {
+            "source": "tbb",
+            "target": "cassandra"
           },
           {
             "source": "tbb",
@@ -70458,10 +70292,6 @@
           },
           {
             "source": "tbb",
-            "target": "fastremap"
-          },
-          {
-            "source": "tbb",
             "target": "fastrlock"
           },
           {
@@ -70471,10 +70301,6 @@
           {
             "source": "tbb",
             "target": "fastscapelib-f2py"
-          },
-          {
-            "source": "tbb",
-            "target": "fastshermanmorrison-pulsar"
           },
           {
             "source": "tbb",
@@ -70570,10 +70396,6 @@
           },
           {
             "source": "tbb",
-            "target": "filprofiler"
-          },
-          {
-            "source": "tbb",
             "target": "finesse"
           },
           {
@@ -70607,6 +70429,10 @@
           {
             "source": "tbb",
             "target": "flake8-to-ruff"
+          },
+          {
+            "source": "tbb",
+            "target": "flake8-typing-imports"
           },
           {
             "source": "tbb",
@@ -71118,10 +70944,6 @@
           },
           {
             "source": "tbb",
-            "target": "goosefem"
-          },
-          {
-            "source": "tbb",
             "target": "gpaw"
           },
           {
@@ -71270,10 +71092,6 @@
           },
           {
             "source": "tbb",
-            "target": "gudhi"
-          },
-          {
-            "source": "tbb",
             "target": "guiqwt"
           },
           {
@@ -71359,10 +71177,6 @@
           {
             "source": "tbb",
             "target": "hangar"
-          },
-          {
-            "source": "tbb",
-            "target": "harp"
           },
           {
             "source": "tbb",
@@ -71554,6 +71368,10 @@
           },
           {
             "source": "tbb",
+            "target": "hpp-plot"
+          },
+          {
+            "source": "tbb",
             "target": "hpp-python"
           },
           {
@@ -71667,10 +71485,6 @@
           {
             "source": "tbb",
             "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "tbb",
-            "target": "image-meta-tag"
           },
           {
             "source": "tbb",
@@ -71990,19 +71804,11 @@
           },
           {
             "source": "tbb",
-            "target": "jxlpy"
-          },
-          {
-            "source": "tbb",
             "target": "kahip"
           },
           {
             "source": "tbb",
             "target": "kalign"
-          },
-          {
-            "source": "tbb",
-            "target": "kalpy"
           },
           {
             "source": "tbb",
@@ -72143,10 +71949,6 @@
           {
             "source": "tbb",
             "target": "lalinference"
-          },
-          {
-            "source": "tbb",
-            "target": "lalinspiral"
           },
           {
             "source": "tbb",
@@ -72407,10 +72209,6 @@
           {
             "source": "tbb",
             "target": "libsass"
-          },
-          {
-            "source": "tbb",
-            "target": "libsdformat"
           },
           {
             "source": "tbb",
@@ -85938,10 +85736,6 @@
           },
           {
             "source": "xtensor-python",
-            "target": "goosefem"
-          },
-          {
-            "source": "xtensor-python",
             "target": "lsdtt-xtensor-python"
           },
           {
@@ -87720,6 +87514,12 @@
             }
           },
           {
+            "id": "bmf",
+            "payload": {
+              "__lazy_json__": "node_attrs/bmf.json"
+            }
+          },
+          {
             "id": "bodo",
             "payload": {
               "__lazy_json__": "node_attrs/bodo.json"
@@ -88017,6 +87817,12 @@
             "id": "casatools",
             "payload": {
               "__lazy_json__": "node_attrs/casatools.json"
+            }
+          },
+          {
+            "id": "cassandra",
+            "payload": {
+              "__lazy_json__": "node_attrs/cassandra.json"
             }
           },
           {
@@ -91032,12 +90838,6 @@
             }
           },
           {
-            "id": "fastremap",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastremap.json"
-            }
-          },
-          {
             "id": "fastrlock",
             "payload": {
               "__lazy_json__": "node_attrs/fastrlock.json"
@@ -91053,12 +90853,6 @@
             "id": "fastscapelib-f2py",
             "payload": {
               "__lazy_json__": "node_attrs/fastscapelib-f2py.json"
-            }
-          },
-          {
-            "id": "fastshermanmorrison-pulsar",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastshermanmorrison-pulsar.json"
             }
           },
           {
@@ -91200,12 +90994,6 @@
             }
           },
           {
-            "id": "filprofiler",
-            "payload": {
-              "__lazy_json__": "node_attrs/filprofiler.json"
-            }
-          },
-          {
             "id": "finesse",
             "payload": {
               "__lazy_json__": "node_attrs/finesse.json"
@@ -91257,6 +91045,12 @@
             "id": "flake8-to-ruff",
             "payload": {
               "__lazy_json__": "node_attrs/flake8-to-ruff.json"
+            }
+          },
+          {
+            "id": "flake8-typing-imports",
+            "payload": {
+              "__lazy_json__": "node_attrs/flake8-typing-imports.json"
             }
           },
           {
@@ -92016,12 +91810,6 @@
             }
           },
           {
-            "id": "goosefem",
-            "payload": {
-              "__lazy_json__": "node_attrs/goosefem.json"
-            }
-          },
-          {
             "id": "gpaw",
             "payload": {
               "__lazy_json__": "node_attrs/gpaw.json"
@@ -92238,12 +92026,6 @@
             }
           },
           {
-            "id": "gudhi",
-            "payload": {
-              "__lazy_json__": "node_attrs/gudhi.json"
-            }
-          },
-          {
             "id": "guiqwt",
             "payload": {
               "__lazy_json__": "node_attrs/guiqwt.json"
@@ -92373,12 +92155,6 @@
             "id": "hangar",
             "payload": {
               "__lazy_json__": "node_attrs/hangar.json"
-            }
-          },
-          {
-            "id": "harp",
-            "payload": {
-              "__lazy_json__": "node_attrs/harp.json"
             }
           },
           {
@@ -92658,6 +92434,12 @@
             }
           },
           {
+            "id": "hpp-plot",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpp-plot.json"
+            }
+          },
+          {
             "id": "hpp-python",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-python.json"
@@ -92823,12 +92605,6 @@
             "id": "ilamb",
             "payload": {
               "__lazy_json__": "node_attrs/ilamb.json"
-            }
-          },
-          {
-            "id": "image-meta-tag",
-            "payload": {
-              "__lazy_json__": "node_attrs/image-meta-tag.json"
             }
           },
           {
@@ -93306,12 +93082,6 @@
             }
           },
           {
-            "id": "jxlpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/jxlpy.json"
-            }
-          },
-          {
             "id": "kahip",
             "payload": {
               "__lazy_json__": "node_attrs/kahip.json"
@@ -93321,12 +93091,6 @@
             "id": "kalign",
             "payload": {
               "__lazy_json__": "node_attrs/kalign.json"
-            }
-          },
-          {
-            "id": "kalpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/kalpy.json"
             }
           },
           {
@@ -93525,12 +93289,6 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
-            }
-          },
-          {
-            "id": "lalinspiral",
-            "payload": {
-              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -93915,12 +93673,6 @@
             "id": "libsass",
             "payload": {
               "__lazy_json__": "node_attrs/libsass.json"
-            }
-          },
-          {
-            "id": "libsdformat",
-            "payload": {
-              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
