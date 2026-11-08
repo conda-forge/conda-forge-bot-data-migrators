@@ -15041,10 +15041,6 @@
           },
           {
             "source": "cython",
-            "target": "shapely"
-          },
-          {
-            "source": "cython",
             "target": "shenfun"
           },
           {
@@ -24570,10 +24566,6 @@
           {
             "source": "librealsense",
             "target": "visp"
-          },
-          {
-            "source": "libredwg",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "librepo",
@@ -35301,6 +35293,10 @@
           },
           {
             "source": "numpy",
+            "target": "fiona"
+          },
+          {
+            "source": "numpy",
             "target": "fisher"
           },
           {
@@ -38317,6 +38313,10 @@
           },
           {
             "source": "numpy",
+            "target": "pymeos-cffi"
+          },
+          {
+            "source": "numpy",
             "target": "pymeshfix"
           },
           {
@@ -39425,7 +39425,7 @@
           },
           {
             "source": "numpy",
-            "target": "shapely"
+            "target": "shapelysmooth"
           },
           {
             "source": "numpy",
@@ -65916,312 +65916,8 @@
             "target": "econml"
           },
           {
-            "source": "shapely",
-            "target": "agg-regrid"
-          },
-          {
-            "source": "shapely",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "shapely",
-            "target": "apache-sedona"
-          },
-          {
-            "source": "shapely",
-            "target": "aria-tools"
-          },
-          {
-            "source": "shapely",
-            "target": "arosics"
-          },
-          {
-            "source": "shapely",
-            "target": "autorift"
-          },
-          {
-            "source": "shapely",
-            "target": "bayesbay"
-          },
-          {
-            "source": "shapely",
-            "target": "bayeswave"
-          },
-          {
-            "source": "shapely",
-            "target": "buildpy"
-          },
-          {
-            "source": "shapely",
-            "target": "cartopy"
-          },
-          {
-            "source": "shapely",
-            "target": "catsmoothing"
-          },
-          {
-            "source": "shapely",
-            "target": "cis"
-          },
-          {
-            "source": "shapely",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shapely",
-            "target": "csxtools"
-          },
-          {
-            "source": "shapely",
-            "target": "cw-eval"
-          },
-          {
-            "source": "shapely",
-            "target": "easyocr"
-          },
-          {
-            "source": "shapely",
-            "target": "eo-learn-geometry"
-          },
-          {
-            "source": "shapely",
-            "target": "eo-learn-mask"
-          },
-          {
-            "source": "shapely",
-            "target": "eodie"
-          },
-          {
-            "source": "shapely",
-            "target": "fiona"
-          },
-          {
-            "source": "shapely",
-            "target": "geoarray"
-          },
-          {
-            "source": "shapely",
-            "target": "geohexviz"
-          },
-          {
-            "source": "shapely",
-            "target": "geoschem-gcpy"
-          },
-          {
-            "source": "shapely",
-            "target": "geowombat"
-          },
-          {
-            "source": "shapely",
-            "target": "glue-qt"
-          },
-          {
-            "source": "shapely",
-            "target": "glueviz"
-          },
-          {
-            "source": "shapely",
-            "target": "gridmarthe"
-          },
-          {
-            "source": "shapely",
-            "target": "gwtc_analysis"
-          },
-          {
-            "source": "shapely",
-            "target": "hazelbean"
-          },
-          {
-            "source": "shapely",
-            "target": "hklpy"
-          },
-          {
-            "source": "shapely",
-            "target": "ifcopenshell"
-          },
-          {
-            "source": "shapely",
-            "target": "input4mips-validation"
-          },
-          {
-            "source": "shapely",
-            "target": "invert4geom"
-          },
-          {
-            "source": "shapely",
-            "target": "isce3"
-          },
-          {
-            "source": "shapely",
-            "target": "kraken-ocr"
-          },
-          {
-            "source": "shapely",
-            "target": "ligo-raven"
-          },
-          {
-            "source": "shapely",
-            "target": "locan"
-          },
-          {
-            "source": "shapely",
-            "target": "metoffice-afterburner"
-          },
-          {
-            "source": "shapely",
-            "target": "mget3"
-          },
-          {
-            "source": "shapely",
-            "target": "mikeio"
-          },
-          {
-            "source": "shapely",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "shapely",
-            "target": "nannos"
-          },
-          {
-            "source": "shapely",
-            "target": "natcap.invest"
-          },
-          {
-            "source": "shapely",
-            "target": "nomad-camels"
-          },
-          {
-            "source": "shapely",
-            "target": "nrel.routee.compass"
-          },
-          {
-            "source": "shapely",
-            "target": "oq-engine"
-          },
-          {
-            "source": "shapely",
-            "target": "pandarm"
-          },
-          {
-            "source": "shapely",
-            "target": "pandas-plink"
-          },
-          {
-            "source": "shapely",
-            "target": "photutils"
-          },
-          {
-            "source": "shapely",
-            "target": "py-tools-ds"
-          },
-          {
-            "source": "shapely",
-            "target": "pycontour"
-          },
-          {
-            "source": "shapely",
-            "target": "pycontrails"
-          },
-          {
-            "source": "shapely",
-            "target": "pygeoprocessing"
-          },
-          {
-            "source": "shapely",
-            "target": "pygnome"
-          },
-          {
-            "source": "shapely",
-            "target": "pylandstats"
-          },
-          {
-            "source": "shapely",
-            "target": "pymeos-cffi"
-          },
-          {
-            "source": "shapely",
-            "target": "pymt"
-          },
-          {
-            "source": "shapely",
-            "target": "pyproj"
-          },
-          {
-            "source": "shapely",
-            "target": "pyresample"
-          },
-          {
-            "source": "shapely",
-            "target": "pyribs"
-          },
-          {
-            "source": "shapely",
-            "target": "pyrosm"
-          },
-          {
-            "source": "shapely",
-            "target": "python-mint"
-          },
-          {
-            "source": "shapely",
-            "target": "raider"
-          },
-          {
-            "source": "shapely",
-            "target": "rapid-pe"
-          },
-          {
-            "source": "shapely",
-            "target": "rasterio"
-          },
-          {
-            "source": "shapely",
-            "target": "reproject"
-          },
-          {
-            "source": "shapely",
-            "target": "rift"
-          },
-          {
-            "source": "shapely",
-            "target": "sealsmodel"
-          },
-          {
-            "source": "shapely",
-            "target": "shapelysmooth"
-          },
-          {
             "source": "shapelysmooth",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shapely",
-            "target": "stackvana-core"
-          },
-          {
-            "source": "shapely",
-            "target": "tiatoolbox"
-          },
-          {
-            "source": "shapely",
-            "target": "tiledbsoma"
-          },
-          {
-            "source": "shapely",
-            "target": "toasty"
-          },
-          {
-            "source": "shapely",
-            "target": "uwsift"
-          },
-          {
-            "source": "shapely",
-            "target": "wntr"
-          },
-          {
-            "source": "shapely",
-            "target": "word-image"
           },
           {
             "source": "shap",
@@ -73201,10 +72897,6 @@
           },
           {
             "source": "tbb",
-            "target": "libredwg"
-          },
-          {
-            "source": "tbb",
             "target": "librepo"
           },
           {
@@ -78686,10 +78378,6 @@
           {
             "source": "tbb",
             "target": "shap"
-          },
-          {
-            "source": "tbb",
-            "target": "shapely"
           },
           {
             "source": "tbb",
@@ -94907,12 +94595,6 @@
             }
           },
           {
-            "id": "libredwg",
-            "payload": {
-              "__lazy_json__": "node_attrs/libredwg.json"
-            }
-          },
-          {
             "id": "librepo",
             "payload": {
               "__lazy_json__": "node_attrs/librepo.json"
@@ -103028,12 +102710,6 @@
             "id": "shap",
             "payload": {
               "__lazy_json__": "node_attrs/shap.json"
-            }
-          },
-          {
-            "id": "shapely",
-            "payload": {
-              "__lazy_json__": "node_attrs/shapely.json"
             }
           },
           {
