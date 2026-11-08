@@ -132,6 +132,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "adaptivecpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/adaptivecpp.json"
+            }
+          },
+          {
             "id": "aihwkit-gpu",
             "payload": {
               "__lazy_json__": "node_attrs/aihwkit-gpu.json"
@@ -700,6 +706,10 @@
         "links": [
           {
             "source": "abacus",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "adaptivecpp",
             "target": "conda-forge-pinning"
           },
           {
@@ -2149,6 +2159,12 @@
             "id": "abacus",
             "payload": {
               "__lazy_json__": "node_attrs/abacus.json"
+            }
+          },
+          {
+            "id": "adaptivecpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/adaptivecpp.json"
             }
           },
           {
