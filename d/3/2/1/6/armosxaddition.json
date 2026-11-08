@@ -1550,10 +1550,6 @@
             "target": "r-arrow"
           },
           {
-            "source": "asio",
-            "target": "hpx"
-          },
-          {
             "source": "assimp",
             "target": "dartsim"
           },
@@ -2464,10 +2460,6 @@
           {
             "source": "autoconf",
             "target": "arrow-cpp"
-          },
-          {
-            "source": "autoconf",
-            "target": "asio"
           },
           {
             "source": "autoconf",
@@ -3656,10 +3648,6 @@
           {
             "source": "automake",
             "target": "ambertools"
-          },
-          {
-            "source": "automake",
-            "target": "asio"
           },
           {
             "source": "automake",
@@ -11232,6 +11220,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "deno"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "deno-dom"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -22127,10 +22119,6 @@
           },
           {
             "source": "cython",
-            "target": "deeptime"
-          },
-          {
-            "source": "cython",
             "target": "dgl"
           },
           {
@@ -24268,6 +24256,14 @@
           {
             "source": "deeptime",
             "target": "pyemma"
+          },
+          {
+            "source": "deno-dom",
+            "target": "quarto"
+          },
+          {
+            "source": "deno",
+            "target": "deno-dom"
           },
           {
             "source": "deno",
@@ -46447,10 +46443,6 @@
           },
           {
             "source": "make",
-            "target": "asio"
-          },
-          {
-            "source": "make",
             "target": "assimp"
           },
           {
@@ -46971,11 +46963,11 @@
           },
           {
             "source": "make",
-            "target": "deeptime"
+            "target": "deno"
           },
           {
             "source": "make",
-            "target": "deno"
+            "target": "deno-dom"
           },
           {
             "source": "make",
@@ -49948,10 +49940,6 @@
           {
             "source": "make",
             "target": "quantlib-python"
-          },
-          {
-            "source": "make",
-            "target": "quarto"
           },
           {
             "source": "make",
@@ -70115,10 +70103,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "asio"
-          },
-          {
-            "source": "pkg-config",
             "target": "ast-serialize"
           },
           {
@@ -70696,10 +70680,6 @@
           {
             "source": "pkg-config",
             "target": "gfal2"
-          },
-          {
-            "source": "pkg-config",
-            "target": "ghostty"
           },
           {
             "source": "pkg-config",
@@ -71440,10 +71420,6 @@
           {
             "source": "pkg-config",
             "target": "libpsl"
-          },
-          {
-            "source": "pkg-config",
-            "target": "libqrencode"
           },
           {
             "source": "pkg-config",
@@ -73303,6 +73279,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "ghostty"
+          },
+          {
+            "source": "pkgconf",
             "target": "git-cliff"
           },
           {
@@ -73312,6 +73292,10 @@
           {
             "source": "pkgconf",
             "target": "libmediainfo"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libqrencode"
           },
           {
             "source": "pkgconf",
@@ -115647,12 +115631,6 @@
             }
           },
           {
-            "id": "asio",
-            "payload": {
-              "__lazy_json__": "node_attrs/asio.json"
-            }
-          },
-          {
             "id": "assimp",
             "payload": {
               "__lazy_json__": "node_attrs/assimp.json"
@@ -117726,6 +117704,12 @@
             "id": "deno",
             "payload": {
               "__lazy_json__": "node_attrs/deno.json"
+            }
+          },
+          {
+            "id": "deno-dom",
+            "payload": {
+              "__lazy_json__": "node_attrs/deno-dom.json"
             }
           },
           {
