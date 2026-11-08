@@ -100,10 +100,6 @@
         },
         "links": [
           {
-            "source": "act",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "atlantis",
             "target": "conda-forge-pinning"
           },
@@ -666,12 +662,6 @@
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "act",
-            "payload": {
-              "__lazy_json__": "node_attrs/act.json"
-            }
-          },
           {
             "id": "atlantis",
             "payload": {
