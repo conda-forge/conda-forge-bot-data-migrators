@@ -1723,6 +1723,10 @@
           },
           {
             "source": "autoconf",
+            "target": "php"
+          },
+          {
+            "source": "autoconf",
             "target": "planarity"
           },
           {
@@ -3835,10 +3839,6 @@
           },
           {
             "source": "azure-core-cpp",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "azure-core-cpp",
             "target": "tiledb"
           },
           {
@@ -3855,11 +3855,11 @@
           },
           {
             "source": "azure-storage-blobs-cpp",
-            "target": "azure-storage-files-datalake-cpp"
+            "target": "tiledb"
           },
           {
-            "source": "azure-storage-blobs-cpp",
-            "target": "tiledb"
+            "source": "azure-storage-common-cpp",
+            "target": "arrow-cpp"
           },
           {
             "source": "azure-storage-common-cpp",
@@ -3867,18 +3867,6 @@
           },
           {
             "source": "azure-storage-common-cpp",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "azure-storage-common-cpp",
-            "target": "tiledb"
-          },
-          {
-            "source": "azure-storage-files-datalake-cpp",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "azure-storage-files-datalake-cpp",
             "target": "tiledb"
           },
           {
@@ -6831,6 +6819,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -7612,6 +7604,10 @@
           {
             "source": "bash",
             "target": "photutils"
+          },
+          {
+            "source": "bash",
+            "target": "php"
           },
           {
             "source": "bash",
@@ -10107,10 +10103,6 @@
           },
           {
             "source": "bash",
-            "target": "sdsl-lite"
-          },
-          {
-            "source": "bash",
             "target": "seccomp-split"
           },
           {
@@ -12347,6 +12339,10 @@
           },
           {
             "source": "bison",
+            "target": "php"
+          },
+          {
+            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -14348,6 +14344,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -17359,10 +17359,6 @@
           },
           {
             "source": "cmake",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "cmake",
             "target": "backward-cpp"
           },
           {
@@ -18148,10 +18144,6 @@
           {
             "source": "cmake",
             "target": "gz-plugin"
-          },
-          {
-            "source": "cmake",
-            "target": "gz-rendering"
           },
           {
             "source": "cmake",
@@ -19000,6 +18992,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -19936,10 +19932,6 @@
           {
             "source": "cmake",
             "target": "sdl2_ttf"
-          },
-          {
-            "source": "cmake",
-            "target": "sdsl-lite"
           },
           {
             "source": "cmake",
@@ -21363,6 +21355,10 @@
           },
           {
             "source": "coverage",
+            "target": "isce3"
+          },
+          {
+            "source": "coverage",
             "target": "islpy"
           },
           {
@@ -22088,10 +22084,6 @@
           {
             "source": "coverage",
             "target": "shap"
-          },
-          {
-            "source": "coverage",
-            "target": "shapely"
           },
           {
             "source": "coverage",
@@ -24531,6 +24523,10 @@
           },
           {
             "source": "curl",
+            "target": "php"
+          },
+          {
+            "source": "curl",
             "target": "pocl"
           },
           {
@@ -24787,6 +24783,10 @@
           },
           {
             "source": "cython",
+            "target": "bayeswave"
+          },
+          {
+            "source": "cython",
             "target": "bilby.cython"
           },
           {
@@ -25003,6 +25003,10 @@
           },
           {
             "source": "cython",
+            "target": "geohexviz"
+          },
+          {
+            "source": "cython",
             "target": "gevent"
           },
           {
@@ -25056,6 +25060,10 @@
           {
             "source": "cython",
             "target": "inpoly"
+          },
+          {
+            "source": "cython",
+            "target": "isce3"
           },
           {
             "source": "cython",
@@ -25504,10 +25512,6 @@
           {
             "source": "cython",
             "target": "seccomp-split"
-          },
-          {
-            "source": "cython",
-            "target": "shapely"
           },
           {
             "source": "cython",
@@ -30295,7 +30299,27 @@
           },
           {
             "source": "geos",
+            "target": "autorift"
+          },
+          {
+            "source": "geos",
             "target": "basemap"
+          },
+          {
+            "source": "geos",
+            "target": "bayeswave"
+          },
+          {
+            "source": "geos",
+            "target": "cartopy"
+          },
+          {
+            "source": "geos",
+            "target": "easyocr"
+          },
+          {
+            "source": "geos",
+            "target": "fiona"
           },
           {
             "source": "geos",
@@ -30303,7 +30327,15 @@
           },
           {
             "source": "geos",
+            "target": "geohexviz"
+          },
+          {
+            "source": "geos",
             "target": "gmt"
+          },
+          {
+            "source": "geos",
+            "target": "isce3"
           },
           {
             "source": "geos",
@@ -30312,6 +30344,30 @@
           {
             "source": "geos",
             "target": "libspatialite"
+          },
+          {
+            "source": "geos",
+            "target": "mpas_tools"
+          },
+          {
+            "source": "geos",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "geos",
+            "target": "photutils"
+          },
+          {
+            "source": "geos",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "geos",
+            "target": "pyproj"
+          },
+          {
+            "source": "geos",
+            "target": "pyrosm"
           },
           {
             "source": "geos",
@@ -30331,7 +30387,11 @@
           },
           {
             "source": "geos",
-            "target": "shapely"
+            "target": "rasterio"
+          },
+          {
+            "source": "geos",
+            "target": "reproject"
           },
           {
             "source": "geotiff",
@@ -33027,6 +33087,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "ppl"
           },
           {
@@ -34563,10 +34627,6 @@
           },
           {
             "source": "gz-common",
-            "target": "gz-rendering"
-          },
-          {
-            "source": "gz-common",
             "target": "gz-sensors"
           },
           {
@@ -34612,10 +34672,6 @@
           {
             "source": "gz-math",
             "target": "gz-physics"
-          },
-          {
-            "source": "gz-math",
-            "target": "gz-rendering"
           },
           {
             "source": "gz-math",
@@ -34679,30 +34735,10 @@
           },
           {
             "source": "gz-plugin",
-            "target": "gz-rendering"
-          },
-          {
-            "source": "gz-plugin",
             "target": "gz-sensors"
           },
           {
             "source": "gz-plugin",
-            "target": "gz-sim"
-          },
-          {
-            "source": "gz-rendering",
-            "target": "gz-gui"
-          },
-          {
-            "source": "gz-rendering",
-            "target": "gz-launch"
-          },
-          {
-            "source": "gz-rendering",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "gz-rendering",
             "target": "gz-sim"
           },
           {
@@ -34795,7 +34831,7 @@
           },
           {
             "source": "gz-utils",
-            "target": "gz-rendering"
+            "target": "gz-sensors"
           },
           {
             "source": "gz-utils",
@@ -36392,6 +36428,10 @@
           {
             "source": "icu",
             "target": "octave"
+          },
+          {
+            "source": "icu",
+            "target": "php"
           },
           {
             "source": "icu",
@@ -40355,7 +40395,19 @@
           },
           {
             "source": "libglu",
-            "target": "gz-rendering"
+            "target": "gz-gui"
+          },
+          {
+            "source": "libglu",
+            "target": "gz-launch"
+          },
+          {
+            "source": "libglu",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "libglu",
+            "target": "gz-sim"
           },
           {
             "source": "libglu",
@@ -40515,7 +40567,7 @@
           },
           {
             "source": "libglvnd",
-            "target": "gz-rendering"
+            "target": "gz-sensors"
           },
           {
             "source": "libglvnd",
@@ -41024,6 +41076,10 @@
           {
             "source": "libiconv",
             "target": "openmotif"
+          },
+          {
+            "source": "libiconv",
+            "target": "php"
           },
           {
             "source": "libiconv",
@@ -42696,6 +42752,10 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
+          },
+          {
+            "source": "libsodium",
+            "target": "php"
           },
           {
             "source": "libsodium",
@@ -45343,6 +45403,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -46120,6 +46184,10 @@
           {
             "source": "libtool",
             "target": "photutils"
+          },
+          {
+            "source": "libtool",
+            "target": "php"
           },
           {
             "source": "libtool",
@@ -48612,10 +48680,6 @@
           {
             "source": "libtool",
             "target": "sdl_image"
-          },
-          {
-            "source": "libtool",
-            "target": "sdsl-lite"
           },
           {
             "source": "libtool",
@@ -51211,6 +51275,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pinocchio"
           },
           {
@@ -51579,6 +51647,10 @@
           },
           {
             "source": "libxslt",
+            "target": "php"
+          },
+          {
+            "source": "libxslt",
             "target": "postgresql"
           },
           {
@@ -51620,6 +51692,10 @@
           {
             "source": "libzip",
             "target": "libnetcdf"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -54406,6 +54482,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56159,10 +56291,6 @@
           },
           {
             "source": "ninja",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "ninja",
             "target": "batoid"
           },
           {
@@ -56236,6 +56364,10 @@
           {
             "source": "ninja",
             "target": "cartographer"
+          },
+          {
+            "source": "ninja",
+            "target": "cartopy"
           },
           {
             "source": "ninja",
@@ -56559,6 +56691,10 @@
           },
           {
             "source": "ninja",
+            "target": "fiona"
+          },
+          {
+            "source": "ninja",
             "target": "flann"
           },
           {
@@ -56624,6 +56760,10 @@
           {
             "source": "ninja",
             "target": "geant4"
+          },
+          {
+            "source": "ninja",
+            "target": "geohexviz"
           },
           {
             "source": "ninja",
@@ -56804,10 +56944,6 @@
           {
             "source": "ninja",
             "target": "gz-plugin"
-          },
-          {
-            "source": "ninja",
-            "target": "gz-rendering"
           },
           {
             "source": "ninja",
@@ -57519,6 +57655,10 @@
           },
           {
             "source": "ninja",
+            "target": "natcap.invest"
+          },
+          {
+            "source": "ninja",
             "target": "nccl"
           },
           {
@@ -57807,6 +57947,10 @@
           },
           {
             "source": "ninja",
+            "target": "photutils"
+          },
+          {
+            "source": "ninja",
             "target": "pinocchio"
           },
           {
@@ -57915,6 +58059,10 @@
           },
           {
             "source": "ninja",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "ninja",
             "target": "pygobject"
           },
           {
@@ -57924,6 +58072,14 @@
           {
             "source": "ninja",
             "target": "pymdi"
+          },
+          {
+            "source": "ninja",
+            "target": "pyproj"
+          },
+          {
+            "source": "ninja",
+            "target": "pyrosm"
           },
           {
             "source": "ninja",
@@ -58139,6 +58295,10 @@
           },
           {
             "source": "ninja",
+            "target": "rasterio"
+          },
+          {
+            "source": "ninja",
             "target": "rav1e"
           },
           {
@@ -58156,6 +58316,10 @@
           {
             "source": "ninja",
             "target": "reproc"
+          },
+          {
+            "source": "ninja",
+            "target": "reproject"
           },
           {
             "source": "ninja",
@@ -58240,10 +58404,6 @@
           {
             "source": "ninja",
             "target": "shap"
-          },
-          {
-            "source": "ninja",
-            "target": "shapely"
           },
           {
             "source": "ninja",
@@ -58428,6 +58588,10 @@
           {
             "source": "ninja",
             "target": "thrift-cpp"
+          },
+          {
+            "source": "ninja",
+            "target": "tiledb"
           },
           {
             "source": "ninja",
@@ -60803,10 +60967,6 @@
           },
           {
             "source": "numpy",
-            "target": "shapely"
-          },
-          {
-            "source": "numpy",
             "target": "silx"
           },
           {
@@ -61211,15 +61371,35 @@
           },
           {
             "source": "ogre-next",
-            "target": "gz-rendering"
+            "target": "gz-gui"
+          },
+          {
+            "source": "ogre-next",
+            "target": "gz-launch"
+          },
+          {
+            "source": "ogre-next",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "ogre-next",
+            "target": "gz-sim"
           },
           {
             "source": "ogre",
-            "target": "gz-rendering"
+            "target": "gz-gui"
+          },
+          {
+            "source": "ogre",
+            "target": "gz-launch"
           },
           {
             "source": "ogre",
             "target": "gz-sensors"
+          },
+          {
+            "source": "ogre",
+            "target": "gz-sim"
           },
           {
             "source": "omniorb",
@@ -61260,6 +61440,10 @@
           {
             "source": "oniguruma",
             "target": "jq"
+          },
+          {
+            "source": "oniguruma",
+            "target": "php"
           },
           {
             "source": "oniguruma",
@@ -63159,6 +63343,10 @@
           },
           {
             "source": "openssl",
+            "target": "php"
+          },
+          {
+            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -64671,6 +64859,10 @@
           },
           {
             "source": "pcre2",
+            "target": "php"
+          },
+          {
+            "source": "pcre2",
             "target": "qt-main"
           },
           {
@@ -65399,6 +65591,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "cartopy"
+          },
+          {
+            "source": "pkg-config",
             "target": "casadi"
           },
           {
@@ -65775,6 +65971,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "geohexviz"
+          },
+          {
+            "source": "pkg-config",
             "target": "gfal2"
           },
           {
@@ -65979,10 +66179,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "gz-rendering"
-          },
-          {
-            "source": "pkg-config",
             "target": "gz-sensors"
           },
           {
@@ -66112,6 +66308,10 @@
           {
             "source": "pkg-config",
             "target": "ipopt"
+          },
+          {
+            "source": "pkg-config",
+            "target": "isce3"
           },
           {
             "source": "pkg-config",
@@ -67067,6 +67267,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "php"
+          },
+          {
+            "source": "pkg-config",
             "target": "pillow"
           },
           {
@@ -67135,6 +67339,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "pygeoprocessing"
+          },
+          {
+            "source": "pkg-config",
             "target": "pygmo"
           },
           {
@@ -67163,11 +67371,19 @@
           },
           {
             "source": "pkg-config",
+            "target": "pyproj"
+          },
+          {
+            "source": "pkg-config",
             "target": "pyqt"
           },
           {
             "source": "pkg-config",
             "target": "pyrage"
+          },
+          {
+            "source": "pkg-config",
+            "target": "pyrosm"
           },
           {
             "source": "pkg-config",
@@ -67587,6 +67803,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "reproject"
+          },
+          {
+            "source": "pkg-config",
             "target": "resolve-robotics-uri-cpp"
           },
           {
@@ -67680,10 +67900,6 @@
           {
             "source": "pkg-config",
             "target": "shap"
-          },
-          {
-            "source": "pkg-config",
-            "target": "shapely"
           },
           {
             "source": "pkg-config",
@@ -68768,6 +68984,10 @@
           {
             "source": "postgresql",
             "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -75264,10 +75484,6 @@
           {
             "source": "python",
             "target": "shap"
-          },
-          {
-            "source": "python",
-            "target": "shapely"
           },
           {
             "source": "python",
@@ -88022,6 +88238,10 @@
             "target": "clingo"
           },
           {
+            "source": "re2c",
+            "target": "php"
+          },
+          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -88132,6 +88352,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -91398,66 +91622,6 @@
             "target": "metview"
           },
           {
-            "source": "shapely",
-            "target": "autorift"
-          },
-          {
-            "source": "shapely",
-            "target": "bayeswave"
-          },
-          {
-            "source": "shapely",
-            "target": "cartopy"
-          },
-          {
-            "source": "shapely",
-            "target": "easyocr"
-          },
-          {
-            "source": "shapely",
-            "target": "fiona"
-          },
-          {
-            "source": "shapely",
-            "target": "geohexviz"
-          },
-          {
-            "source": "shapely",
-            "target": "isce3"
-          },
-          {
-            "source": "shapely",
-            "target": "mpas_tools"
-          },
-          {
-            "source": "shapely",
-            "target": "natcap.invest"
-          },
-          {
-            "source": "shapely",
-            "target": "photutils"
-          },
-          {
-            "source": "shapely",
-            "target": "pygeoprocessing"
-          },
-          {
-            "source": "shapely",
-            "target": "pyproj"
-          },
-          {
-            "source": "shapely",
-            "target": "pyrosm"
-          },
-          {
-            "source": "shapely",
-            "target": "rasterio"
-          },
-          {
-            "source": "shapely",
-            "target": "reproject"
-          },
-          {
             "source": "sharedlibpp",
             "target": "dinrail"
           },
@@ -92496,6 +92660,10 @@
           {
             "source": "sqlite",
             "target": "ovito"
+          },
+          {
+            "source": "sqlite",
+            "target": "php"
           },
           {
             "source": "sqlite",
@@ -95188,6 +95356,10 @@
           {
             "source": "util-linux",
             "target": "lbzip2"
+          },
+          {
+            "source": "util-linux",
+            "target": "php"
           },
           {
             "source": "util-linux",
@@ -102163,6 +102335,10 @@
           },
           {
             "source": "zlib-ng",
+            "target": "php"
+          },
+          {
+            "source": "zlib-ng",
             "target": "pillow"
           },
           {
@@ -103512,6 +103688,10 @@
           {
             "source": "zlib",
             "target": "photutils"
+          },
+          {
+            "source": "zlib",
+            "target": "php"
           },
           {
             "source": "zlib",
@@ -106136,12 +106316,6 @@
             "id": "azure-storage-common-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
-            }
-          },
-          {
-            "id": "azure-storage-files-datalake-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
             }
           },
           {
@@ -109349,12 +109523,6 @@
             }
           },
           {
-            "id": "gz-rendering",
-            "payload": {
-              "__lazy_json__": "node_attrs/gz-rendering.json"
-            }
-          },
-          {
             "id": "gz-sensors",
             "payload": {
               "__lazy_json__": "node_attrs/gz-sensors.json"
@@ -112043,6 +112211,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -113786,6 +113960,12 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
@@ -118613,12 +118793,6 @@
             }
           },
           {
-            "id": "sdsl-lite",
-            "payload": {
-              "__lazy_json__": "node_attrs/sdsl-lite.json"
-            }
-          },
-          {
             "id": "seccomp-split",
             "payload": {
               "__lazy_json__": "node_attrs/seccomp-split.json"
@@ -118676,12 +118850,6 @@
             "id": "shapelib",
             "payload": {
               "__lazy_json__": "node_attrs/shapelib.json"
-            }
-          },
-          {
-            "id": "shapely",
-            "payload": {
-              "__lazy_json__": "node_attrs/shapely.json"
             }
           },
           {
