@@ -118,6 +118,18 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "awscrt"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -192,6 +204,12 @@
             "id": "aws-c-auth",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-auth.json"
+            }
+          },
+          {
+            "id": "aws-c-event-stream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
             }
           },
           {
