@@ -762,12 +762,8 @@
             "target": "ffmpeg"
           },
           {
-            "source": "fftw",
-            "target": "pulseaudio"
-          },
-          {
             "source": "fmt",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "fmt",
@@ -2094,10 +2090,6 @@
             "target": "lxml"
           },
           {
-            "source": "lief",
-            "target": "conda-forge-ci-setup"
-          },
-          {
             "source": "llvmdev",
             "target": "cctools-and-ld64"
           },
@@ -2175,7 +2167,7 @@
           },
           {
             "source": "mbedtls",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "menuinst",
@@ -2255,15 +2247,15 @@
           },
           {
             "source": "mpich",
-            "target": "fftw"
-          },
-          {
-            "source": "mpich",
             "target": "mumps"
           },
           {
             "source": "mpich",
             "target": "parmetis"
+          },
+          {
+            "source": "mpich",
+            "target": "pulseaudio"
           },
           {
             "source": "mpich",
@@ -2387,7 +2379,7 @@
           },
           {
             "source": "nlohmann_json",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "nlohmann_json",
@@ -2507,15 +2499,15 @@
           },
           {
             "source": "openmpi",
-            "target": "fftw"
-          },
-          {
-            "source": "openmpi",
             "target": "mumps"
           },
           {
             "source": "openmpi",
             "target": "parmetis"
+          },
+          {
+            "source": "openmpi",
+            "target": "pulseaudio"
           },
           {
             "source": "openmpi",
@@ -2867,7 +2859,7 @@
           },
           {
             "source": "pydantic-core",
-            "target": "lief"
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "python-librt",
@@ -2992,10 +2984,6 @@
           {
             "source": "python",
             "target": "libxkbcommon"
-          },
-          {
-            "source": "python",
-            "target": "lief"
           },
           {
             "source": "python",
@@ -3663,11 +3651,11 @@
           },
           {
             "source": "spdlog",
-            "target": "gz-utils"
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "spdlog",
-            "target": "lief"
+            "target": "gz-utils"
           },
           {
             "source": "spdlog",
@@ -3696,10 +3684,6 @@
           {
             "source": "sqlite",
             "target": "python"
-          },
-          {
-            "source": "svt-av1",
-            "target": "ffmpeg"
           },
           {
             "source": "systemd",
@@ -5293,12 +5277,6 @@
             }
           },
           {
-            "id": "fftw",
-            "payload": {
-              "__lazy_json__": "node_attrs/fftw.json"
-            }
-          },
-          {
             "id": "fmt",
             "payload": {
               "__lazy_json__": "node_attrs/fmt.json"
@@ -5968,12 +5946,6 @@
             "id": "libxslt",
             "payload": {
               "__lazy_json__": "node_attrs/libxslt.json"
-            }
-          },
-          {
-            "id": "lief",
-            "payload": {
-              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
@@ -6859,12 +6831,6 @@
             }
           },
           {
-            "id": "svt-av1",
-            "payload": {
-              "__lazy_json__": "node_attrs/svt-av1.json"
-            }
-          },
-          {
             "id": "systemd",
             "payload": {
               "__lazy_json__": "node_attrs/systemd.json"
@@ -7450,7 +7416,6 @@
         "simde",
         "simdjson",
         "spirv-tools",
-        "svt-av1",
         "tapi",
         "termcolor-cpp",
         "tinyxml2",
