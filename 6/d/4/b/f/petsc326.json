@@ -68,12 +68,6 @@
             }
           },
           {
-            "id": "fenics",
-            "payload": {
-              "__lazy_json__": "node_attrs/fenics.json"
-            }
-          },
-          {
             "id": "fenics-dolfinx",
             "payload": {
               "__lazy_json__": "node_attrs/fenics-dolfinx.json"
@@ -434,7 +428,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
