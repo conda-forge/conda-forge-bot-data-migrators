@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1063,10 +1070,6 @@
           },
           {
             "source": "azure-core-cpp",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "azure-core-cpp",
             "target": "tiledb"
           },
           {
@@ -1083,11 +1086,11 @@
           },
           {
             "source": "azure-storage-blobs-cpp",
-            "target": "azure-storage-files-datalake-cpp"
+            "target": "tiledb"
           },
           {
-            "source": "azure-storage-blobs-cpp",
-            "target": "tiledb"
+            "source": "azure-storage-common-cpp",
+            "target": "arrow-cpp"
           },
           {
             "source": "azure-storage-common-cpp",
@@ -1095,18 +1098,6 @@
           },
           {
             "source": "azure-storage-common-cpp",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "azure-storage-common-cpp",
-            "target": "tiledb"
-          },
-          {
-            "source": "azure-storage-files-datalake-cpp",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "azure-storage-files-datalake-cpp",
             "target": "tiledb"
           },
           {
@@ -2835,10 +2826,6 @@
           },
           {
             "source": "cmake",
-            "target": "azure-storage-files-datalake-cpp"
-          },
-          {
-            "source": "cmake",
             "target": "benchmark"
           },
           {
@@ -3352,6 +3339,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -10595,6 +10586,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11418,6 +11413,10 @@
             "target": "conda-standalone"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
             "source": "miktex",
             "target": "r-base"
           },
@@ -11996,10 +11995,6 @@
           {
             "source": "ninja",
             "target": "azure-storage-common-cpp"
-          },
-          {
-            "source": "ninja",
-            "target": "azure-storage-files-datalake-cpp"
           },
           {
             "source": "ninja",
@@ -22581,12 +22576,6 @@
             }
           },
           {
-            "id": "azure-storage-files-datalake-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
-            }
-          },
-          {
             "id": "backports.zoneinfo",
             "payload": {
               "__lazy_json__": "node_attrs/backports.zoneinfo.json"
@@ -24396,6 +24385,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
