@@ -2458,6 +2458,10 @@
           },
           {
             "source": "cython",
+            "target": "fastremap"
+          },
+          {
+            "source": "cython",
             "target": "faust-cchardet"
           },
           {
@@ -3467,6 +3471,14 @@
           {
             "source": "fastparquet",
             "target": "sharplib"
+          },
+          {
+            "source": "fastremap",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fastremap",
+            "target": "fill-voids"
           },
           {
             "source": "faust-cchardet",
@@ -6254,6 +6266,10 @@
           },
           {
             "source": "numpy",
+            "target": "fastremap"
+          },
+          {
+            "source": "numpy",
             "target": "fbdfile"
           },
           {
@@ -6971,6 +6987,10 @@
           {
             "source": "numpy",
             "target": "spherical-geometry"
+          },
+          {
+            "source": "numpy",
+            "target": "spinsfast"
           },
           {
             "source": "numpy",
@@ -10877,6 +10897,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "spinsfast",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "sqlalchemy",
             "target": "conda-forge-pinning"
           },
@@ -11571,6 +11595,10 @@
           {
             "source": "tbb",
             "target": "fastparquet"
+          },
+          {
+            "source": "tbb",
+            "target": "fastremap"
           },
           {
             "source": "tbb",
@@ -13219,6 +13247,10 @@
           {
             "source": "tbb",
             "target": "spherical-geometry"
+          },
+          {
+            "source": "tbb",
+            "target": "spinsfast"
           },
           {
             "source": "tbb",
@@ -15712,6 +15744,12 @@
             }
           },
           {
+            "id": "fastremap",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastremap.json"
+            }
+          },
+          {
             "id": "faust-cchardet",
             "payload": {
               "__lazy_json__": "node_attrs/faust-cchardet.json"
@@ -18175,6 +18213,12 @@
             "id": "spherical-geometry",
             "payload": {
               "__lazy_json__": "node_attrs/spherical-geometry.json"
+            }
+          },
+          {
+            "id": "spinsfast",
+            "payload": {
+              "__lazy_json__": "node_attrs/spinsfast.json"
             }
           },
           {
