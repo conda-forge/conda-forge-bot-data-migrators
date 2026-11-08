@@ -162,6 +162,12 @@
             }
           },
           {
+            "id": "bmf",
+            "payload": {
+              "__lazy_json__": "node_attrs/bmf.json"
+            }
+          },
+          {
             "id": "carterbox-torch-radon",
             "payload": {
               "__lazy_json__": "node_attrs/carterbox-torch-radon.json"
@@ -748,6 +754,10 @@
           },
           {
             "source": "bitsandbytes",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "bmf",
             "target": "conda-forge-pinning"
           },
           {
@@ -2211,6 +2221,12 @@
             "id": "bitsandbytes",
             "payload": {
               "__lazy_json__": "node_attrs/bitsandbytes.json"
+            }
+          },
+          {
+            "id": "bmf",
+            "payload": {
+              "__lazy_json__": "node_attrs/bmf.json"
             }
           },
           {
