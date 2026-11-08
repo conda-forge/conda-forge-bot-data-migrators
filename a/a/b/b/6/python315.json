@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
+            }
+          },
+          {
             "id": "mujoco",
             "payload": {
               "__lazy_json__": "node_attrs/mujoco.json"
@@ -21932,10 +21938,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "gwtc_analysis"
           },
           {
@@ -21949,6 +21951,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -22000,10 +22006,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "gwtc_analysis"
           },
           {
@@ -22025,6 +22027,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -22876,10 +22882,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "conda-forge-pinning"
           },
           {
@@ -22896,10 +22898,6 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "gwtc_analysis"
           },
           {
@@ -22912,7 +22910,7 @@
           },
           {
             "source": "lalburst",
-            "target": "ligo-raven"
+            "target": "lalinspiral"
           },
           {
             "source": "lalburst",
@@ -22952,14 +22950,6 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "gwtc_analysis"
           },
           {
@@ -22972,11 +22962,11 @@
           },
           {
             "source": "lalframe",
-            "target": "lalpulsar"
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
-            "target": "ligo-raven"
+            "target": "lalpulsar"
           },
           {
             "source": "lalframe",
@@ -23063,6 +23053,50 @@
             "target": "rift"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gravelamps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gwtc_analysis"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "ligo-raven"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "rapid-pe"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "rift"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -23077,6 +23111,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -23137,6 +23175,10 @@
           {
             "source": "lalmetaio",
             "target": "lalinference"
+          },
+          {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
           },
           {
             "source": "lalmetaio",
@@ -23220,10 +23262,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -23245,6 +23283,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -35081,6 +35123,10 @@
           {
             "source": "numpy",
             "target": "lalinference"
+          },
+          {
+            "source": "numpy",
+            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -71508,6 +71554,10 @@
           },
           {
             "source": "tbb",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "tbb",
             "target": "lalmetaio"
           },
           {
@@ -92777,6 +92827,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
