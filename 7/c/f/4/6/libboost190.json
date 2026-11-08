@@ -293,6 +293,10 @@
           },
           {
             "source": "cgal-cpp",
+            "target": "openmvs-split"
+          },
+          {
+            "source": "cgal-cpp",
             "target": "paraprobe"
           },
           {
@@ -1769,6 +1773,10 @@
           },
           {
             "source": "openmodelica",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openmvs-split",
             "target": "conda-forge-pinning"
           },
           {
@@ -4432,6 +4440,12 @@
             "id": "slac-rogue",
             "payload": {
               "__lazy_json__": "node_attrs/slac-rogue.json"
+            }
+          },
+          {
+            "id": "openmvs-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
