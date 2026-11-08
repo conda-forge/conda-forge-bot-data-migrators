@@ -136,10 +136,6 @@
             "target": "freefem"
           },
           {
-            "source": "bigdft-suite",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "bml",
             "target": "conda-forge-pinning"
           },
@@ -1053,10 +1049,6 @@
           },
           {
             "source": "ntpoly",
-            "target": "bigdft-suite"
-          },
-          {
-            "source": "ntpoly",
             "target": "conda-forge-pinning"
           },
           {
@@ -1094,58 +1086,6 @@
           {
             "source": "paraprobe",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "parmetis",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "parmetis",
-            "target": "daetk"
-          },
-          {
-            "source": "parmetis",
-            "target": "fenics"
-          },
-          {
-            "source": "parmetis",
-            "target": "fenics-dolfinx"
-          },
-          {
-            "source": "parmetis",
-            "target": "freefem"
-          },
-          {
-            "source": "parmetis",
-            "target": "mumps"
-          },
-          {
-            "source": "parmetis",
-            "target": "opencarp"
-          },
-          {
-            "source": "parmetis",
-            "target": "openfoam"
-          },
-          {
-            "source": "parmetis",
-            "target": "petsc"
-          },
-          {
-            "source": "parmetis",
-            "target": "pexsi"
-          },
-          {
-            "source": "parmetis",
-            "target": "proteus"
-          },
-          {
-            "source": "parmetis",
-            "target": "scorec"
-          },
-          {
-            "source": "parmetis",
-            "target": "superlu_dist"
           },
           {
             "source": "parsplice",
@@ -1612,12 +1552,6 @@
             "id": "arpack",
             "payload": {
               "__lazy_json__": "node_attrs/arpack.json"
-            }
-          },
-          {
-            "id": "bigdft-suite",
-            "payload": {
-              "__lazy_json__": "node_attrs/bigdft-suite.json"
             }
           },
           {
@@ -2158,12 +2092,6 @@
             "id": "paraprobe",
             "payload": {
               "__lazy_json__": "node_attrs/paraprobe.json"
-            }
-          },
-          {
-            "id": "parmetis",
-            "payload": {
-              "__lazy_json__": "node_attrs/parmetis.json"
             }
           },
           {
