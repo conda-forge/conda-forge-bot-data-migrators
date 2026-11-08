@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "pyscard",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyscard.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -52692,6 +52699,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyscard",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pyscipopt",
             "target": "conda-forge-pinning"
           },
@@ -77058,6 +77069,10 @@
           {
             "source": "tbb",
             "target": "pyscamp-gpu"
+          },
+          {
+            "source": "tbb",
+            "target": "pyscard"
           },
           {
             "source": "tbb",
@@ -106362,6 +106377,12 @@
             "id": "higgstools",
             "payload": {
               "__lazy_json__": "node_attrs/higgstools.json"
+            }
+          },
+          {
+            "id": "pyscard",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyscard.json"
             }
           }
         ]
