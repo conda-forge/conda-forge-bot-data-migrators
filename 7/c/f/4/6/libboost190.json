@@ -124,6 +124,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "alm",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "analisi",
             "target": "conda-forge-pinning"
           },
@@ -348,6 +352,78 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "coal",
+            "target": "aligator"
+          },
+          {
+            "source": "coal",
+            "target": "candlewick"
+          },
+          {
+            "source": "coal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "coal",
+            "target": "crocoddyl"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-constraints"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-corbaserver"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-core"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-environments"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-gui"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-manipulation"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-manipulation-corba"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-manipulation-urdf"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-pinocchio"
+          },
+          {
+            "source": "coal",
+            "target": "hpp-python"
+          },
+          {
+            "source": "coal",
+            "target": "ndcurves"
+          },
+          {
+            "source": "coal",
+            "target": "pinocchio"
+          },
+          {
+            "source": "coal",
+            "target": "placo"
+          },
+          {
+            "source": "coal",
+            "target": "tsid"
+          },
+          {
             "source": "code-aster",
             "target": "conda-forge-pinning"
           },
@@ -550,6 +626,10 @@
           {
             "source": "eigenpy",
             "target": "candlewick"
+          },
+          {
+            "source": "eigenpy",
+            "target": "coal"
           },
           {
             "source": "eigenpy",
@@ -1932,6 +2012,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "povray",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "precice",
             "target": "conda-forge-pinning"
           },
@@ -2595,6 +2679,12 @@
             }
           },
           {
+            "id": "alm",
+            "payload": {
+              "__lazy_json__": "node_attrs/alm.json"
+            }
+          },
+          {
             "id": "analisi",
             "payload": {
               "__lazy_json__": "node_attrs/analisi.json"
@@ -2730,6 +2820,12 @@
             "id": "cms-combine",
             "payload": {
               "__lazy_json__": "node_attrs/cms-combine.json"
+            }
+          },
+          {
+            "id": "coal",
+            "payload": {
+              "__lazy_json__": "node_attrs/coal.json"
             }
           },
           {
@@ -3834,6 +3930,12 @@
             "id": "poppler",
             "payload": {
               "__lazy_json__": "node_attrs/poppler.json"
+            }
+          },
+          {
+            "id": "povray",
+            "payload": {
+              "__lazy_json__": "node_attrs/povray.json"
             }
           },
           {
