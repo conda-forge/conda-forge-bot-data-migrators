@@ -47,9 +47,21 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "metis",
+            "id": "xcb-util",
             "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
+              "__lazy_json__": "node_attrs/xcb-util.json"
+            }
+          },
+          {
+            "id": "xcb-util-keysyms",
+            "payload": {
+              "__lazy_json__": "node_attrs/xcb-util-keysyms.json"
+            }
+          },
+          {
+            "id": "xcb-util-renderutil",
+            "payload": {
+              "__lazy_json__": "node_attrs/xcb-util-renderutil.json"
             }
           }
         ]
@@ -482,10 +494,6 @@
           },
           {
             "source": "autoconf",
-            "target": "libxcb"
-          },
-          {
-            "source": "autoconf",
             "target": "mvapich"
           },
           {
@@ -715,10 +723,6 @@
           {
             "source": "automake",
             "target": "libuuid"
-          },
-          {
-            "source": "automake",
-            "target": "libxcb"
           },
           {
             "source": "automake",
@@ -1386,6 +1390,10 @@
           },
           {
             "source": "binutils",
+            "target": "libxcb"
+          },
+          {
+            "source": "binutils",
             "target": "micromamba"
           },
           {
@@ -1567,6 +1575,10 @@
           {
             "source": "bison",
             "target": "libuuid"
+          },
+          {
+            "source": "bison",
+            "target": "libxcb"
           },
           {
             "source": "bison",
@@ -2350,6 +2362,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "libxcb"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "mvapich"
           },
           {
@@ -2599,6 +2615,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "libhwloc"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "libxcb"
           },
           {
             "source": "clang-compiler-activation",
@@ -3306,6 +3326,10 @@
           },
           {
             "source": "cmake",
+            "target": "libxcb"
+          },
+          {
+            "source": "cmake",
             "target": "libxkbcommon"
           },
           {
@@ -3359,10 +3383,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -3891,6 +3911,10 @@
           {
             "source": "coreutils",
             "target": "libhwloc"
+          },
+          {
+            "source": "coreutils",
+            "target": "libxcb"
           },
           {
             "source": "coreutils",
@@ -4463,6 +4487,10 @@
           {
             "source": "ctng-compilers",
             "target": "libjxl-split"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "libxcb"
           },
           {
             "source": "ctng-compilers",
@@ -5734,6 +5762,10 @@
           },
           {
             "source": "flex",
+            "target": "libxcb"
+          },
+          {
+            "source": "flex",
             "target": "lm-sensors"
           },
           {
@@ -6058,6 +6090,10 @@
           },
           {
             "source": "gendef",
+            "target": "libxcb"
+          },
+          {
+            "source": "gendef",
             "target": "mvapich"
           },
           {
@@ -6195,10 +6231,6 @@
           {
             "source": "gettext",
             "target": "libuuid"
-          },
-          {
-            "source": "gettext",
-            "target": "libxcb"
           },
           {
             "source": "gettext",
@@ -6575,6 +6607,10 @@
           {
             "source": "gmp",
             "target": "libhwloc"
+          },
+          {
+            "source": "gmp",
+            "target": "libxcb"
           },
           {
             "source": "gmp",
@@ -7474,6 +7510,10 @@
           },
           {
             "source": "isl",
+            "target": "libxcb"
+          },
+          {
+            "source": "isl",
             "target": "mvapich"
           },
           {
@@ -8030,6 +8070,10 @@
           },
           {
             "source": "libcxx",
+            "target": "libxcb"
+          },
+          {
+            "source": "libcxx",
             "target": "mvapich"
           },
           {
@@ -8439,6 +8483,10 @@
           {
             "source": "libiconv",
             "target": "libuuid"
+          },
+          {
+            "source": "libiconv",
+            "target": "libxcb"
           },
           {
             "source": "libiconv",
@@ -9070,10 +9118,6 @@
           },
           {
             "source": "libtool",
-            "target": "libxcb"
-          },
-          {
-            "source": "libtool",
             "target": "m4"
           },
           {
@@ -9554,6 +9598,10 @@
           },
           {
             "source": "libxml2",
+            "target": "libxcb"
+          },
+          {
+            "source": "libxml2",
             "target": "libxkbcommon"
           },
           {
@@ -9887,6 +9935,10 @@
           {
             "source": "llvmdev",
             "target": "libjxl-split"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libxcb"
           },
           {
             "source": "llvmdev",
@@ -10603,10 +10655,6 @@
           {
             "source": "make",
             "target": "matplotlib"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -11433,8 +11481,8 @@
             "target": "conda-standalone"
           },
           {
-            "source": "metis",
-            "target": "ceres-solver"
+            "source": "micromamba",
+            "target": "glib"
           },
           {
             "source": "miktex",
@@ -11499,6 +11547,10 @@
           {
             "source": "mpc",
             "target": "libhwloc"
+          },
+          {
+            "source": "mpc",
+            "target": "libxcb"
           },
           {
             "source": "mpc",
@@ -11587,6 +11639,10 @@
           {
             "source": "mpfr",
             "target": "libhwloc"
+          },
+          {
+            "source": "mpfr",
+            "target": "libxcb"
           },
           {
             "source": "mpfr",
@@ -12455,6 +12511,10 @@
           {
             "source": "ninja",
             "target": "libwebsockets"
+          },
+          {
+            "source": "ninja",
+            "target": "libxcb"
           },
           {
             "source": "ninja",
@@ -13451,6 +13511,10 @@
           {
             "source": "openmp",
             "target": "libjxl-split"
+          },
+          {
+            "source": "openmp",
+            "target": "libxcb"
           },
           {
             "source": "openmp",
@@ -14806,10 +14870,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "tiledb"
-          },
-          {
-            "source": "pkg-config",
             "target": "tktable"
           },
           {
@@ -15019,6 +15079,10 @@
           {
             "source": "pkgconf",
             "target": "systemd"
+          },
+          {
+            "source": "pkgconf",
+            "target": "tiledb"
           },
           {
             "source": "playwright",
@@ -18694,6 +18758,10 @@
           },
           {
             "source": "shellcheck",
+            "target": "libxcb"
+          },
+          {
+            "source": "shellcheck",
             "target": "mvapich"
           },
           {
@@ -19211,6 +19279,10 @@
           {
             "source": "ucrt",
             "target": "libhwloc"
+          },
+          {
+            "source": "ucrt",
+            "target": "libxcb"
           },
           {
             "source": "ucrt",
@@ -20027,6 +20099,10 @@
           {
             "source": "winpthreads",
             "target": "libhwloc"
+          },
+          {
+            "source": "winpthreads",
+            "target": "libxcb"
           },
           {
             "source": "winpthreads",
@@ -21622,6 +21698,10 @@
           },
           {
             "source": "zlib",
+            "target": "libxcb"
+          },
+          {
+            "source": "zlib",
             "target": "libxml2"
           },
           {
@@ -22163,6 +22243,10 @@
           {
             "source": "zstd",
             "target": "libtiff"
+          },
+          {
+            "source": "zstd",
+            "target": "libxcb"
           },
           {
             "source": "zstd",
@@ -24419,12 +24503,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
