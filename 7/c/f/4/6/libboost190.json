@@ -948,6 +948,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "heaptrack",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "helios",
             "target": "conda-forge-pinning"
           },
@@ -1869,6 +1873,10 @@
           },
           {
             "source": "nrgljubljana",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nuflux",
             "target": "conda-forge-pinning"
           },
           {
@@ -3355,6 +3363,12 @@
             }
           },
           {
+            "id": "heaptrack",
+            "payload": {
+              "__lazy_json__": "node_attrs/heaptrack.json"
+            }
+          },
+          {
             "id": "helios",
             "payload": {
               "__lazy_json__": "node_attrs/helios.json"
@@ -3862,6 +3876,12 @@
             "id": "nrgljubljana",
             "payload": {
               "__lazy_json__": "node_attrs/nrgljubljana.json"
+            }
+          },
+          {
+            "id": "nuflux",
+            "payload": {
+              "__lazy_json__": "node_attrs/nuflux.json"
             }
           },
           {
