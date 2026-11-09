@@ -14667,6 +14667,10 @@
           },
           {
             "source": "cmake",
+            "target": "icub-models"
+          },
+          {
+            "source": "cmake",
             "target": "idyntree"
           },
           {
@@ -15431,10 +15435,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -15484,6 +15484,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -15540,6 +15544,10 @@
           {
             "source": "cmake",
             "target": "multinest"
+          },
+          {
+            "source": "cmake",
+            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -35598,6 +35606,10 @@
             "target": "human-dynamics-estimation"
           },
           {
+            "source": "icub-models",
+            "target": "bipedal-locomotion-framework"
+          },
+          {
             "source": "icu",
             "target": "boost"
           },
@@ -43395,6 +43407,10 @@
           },
           {
             "source": "libxml2",
+            "target": "libxslt"
+          },
+          {
+            "source": "libxml2",
             "target": "lld"
           },
           {
@@ -43739,10 +43755,6 @@
           },
           {
             "source": "libxml2",
-            "target": "xkeyboard-config"
-          },
-          {
-            "source": "libxml2",
             "target": "xmlsec"
           },
           {
@@ -43764,6 +43776,42 @@
           {
             "source": "libxmlsec1",
             "target": "xmlsec"
+          },
+          {
+            "source": "libxslt",
+            "target": "libxmlsec1"
+          },
+          {
+            "source": "libxslt",
+            "target": "lxml"
+          },
+          {
+            "source": "libxslt",
+            "target": "php"
+          },
+          {
+            "source": "libxslt",
+            "target": "postgis"
+          },
+          {
+            "source": "libxslt",
+            "target": "postgresql"
+          },
+          {
+            "source": "libxslt",
+            "target": "pyside2"
+          },
+          {
+            "source": "libxslt",
+            "target": "qt-webengine"
+          },
+          {
+            "source": "libxslt",
+            "target": "xkeyboard-config"
+          },
+          {
+            "source": "libxslt",
+            "target": "xmlstarlet"
           },
           {
             "source": "libzen",
@@ -47883,6 +47931,10 @@
           },
           {
             "source": "make",
+            "target": "libxslt"
+          },
+          {
+            "source": "make",
             "target": "libzopfli"
           },
           {
@@ -47948,10 +48000,6 @@
           {
             "source": "make",
             "target": "luv"
-          },
-          {
-            "source": "make",
-            "target": "lxml"
           },
           {
             "source": "make",
@@ -48056,10 +48104,6 @@
           {
             "source": "make",
             "target": "metaio"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -49208,10 +49252,6 @@
           {
             "source": "make",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "make",
-            "target": "qt-webengine"
           },
           {
             "source": "make",
@@ -53910,86 +53950,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56704,6 +56664,10 @@
           {
             "source": "ninja",
             "target": "icub-main"
+          },
+          {
+            "source": "ninja",
+            "target": "icub-models"
           },
           {
             "source": "ninja",
@@ -69675,6 +69639,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "icub-models"
+          },
+          {
+            "source": "pkg-config",
             "target": "idyntree"
           },
           {
@@ -70196,6 +70164,10 @@
           {
             "source": "pkg-config",
             "target": "libxmlsec1"
+          },
+          {
+            "source": "pkg-config",
+            "target": "libxslt"
           },
           {
             "source": "pkg-config",
@@ -70824,10 +70796,6 @@
           {
             "source": "pkg-config",
             "target": "pyshtools"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pyside2"
           },
           {
             "source": "pkg-config",
@@ -79844,6 +79812,10 @@
           {
             "source": "python",
             "target": "icub-main"
+          },
+          {
+            "source": "python",
+            "target": "icub-models"
           },
           {
             "source": "python",
@@ -119475,6 +119447,12 @@
             }
           },
           {
+            "id": "icub-models",
+            "payload": {
+              "__lazy_json__": "node_attrs/icub-models.json"
+            }
+          },
+          {
             "id": "idyntree",
             "payload": {
               "__lazy_json__": "node_attrs/idyntree.json"
@@ -121401,6 +121379,12 @@
             }
           },
           {
+            "id": "libxslt",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxslt.json"
+            }
+          },
+          {
             "id": "libzen",
             "payload": {
               "__lazy_json__": "node_attrs/libzen.json"
@@ -121968,12 +121952,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
