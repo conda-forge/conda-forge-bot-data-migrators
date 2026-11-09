@@ -2051,6 +2051,10 @@
           },
           {
             "source": "libxml2",
+            "target": "libxslt"
+          },
+          {
+            "source": "libxml2",
             "target": "llvmdev"
           },
           {
@@ -2084,6 +2088,10 @@
           {
             "source": "libxml2",
             "target": "tbb"
+          },
+          {
+            "source": "libxslt",
+            "target": "lxml"
           },
           {
             "source": "lief",
@@ -2176,14 +2184,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -5943,6 +5943,12 @@
             }
           },
           {
+            "id": "libxslt",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxslt.json"
+            }
+          },
+          {
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
@@ -6006,12 +6012,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -7387,7 +7387,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
