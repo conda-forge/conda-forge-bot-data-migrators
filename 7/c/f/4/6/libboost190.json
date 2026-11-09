@@ -1256,6 +1256,26 @@
             "target": "hpp-python"
           },
           {
+            "source": "hpp-template-corba",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-corbaserver"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-gepetto-viewer"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-gui"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-manipulation-corba"
+          },
+          {
             "source": "hpp-tutorial",
             "target": "conda-forge-pinning"
           },
@@ -1310,6 +1330,10 @@
           {
             "source": "hpp-util",
             "target": "hpp-statistics"
+          },
+          {
+            "source": "hpp-util",
+            "target": "hpp-template-corba"
           },
           {
             "source": "hpx",
@@ -3392,6 +3416,12 @@
             "id": "hpp-statistics",
             "payload": {
               "__lazy_json__": "node_attrs/hpp-statistics.json"
+            }
+          },
+          {
+            "id": "hpp-template-corba",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpp-template-corba.json"
             }
           },
           {
