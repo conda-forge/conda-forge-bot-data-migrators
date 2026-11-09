@@ -1947,11 +1947,11 @@
           },
           {
             "source": "libxcb",
-            "target": "gtk3"
+            "target": "libva"
           },
           {
             "source": "libxcb",
-            "target": "libva"
+            "target": "libxkbcommon"
           },
           {
             "source": "libxcb",
@@ -1960,10 +1960,6 @@
           {
             "source": "libxcb",
             "target": "pulseaudio"
-          },
-          {
-            "source": "libxcb",
-            "target": "sdl"
           },
           {
             "source": "libxcb",
@@ -1986,6 +1982,14 @@
             "target": "util-linux"
           },
           {
+            "source": "libxkbcommon",
+            "target": "gtk3"
+          },
+          {
+            "source": "libxkbcommon",
+            "target": "sdl"
+          },
+          {
             "source": "libxml2",
             "target": "at-spi2-core"
           },
@@ -2004,6 +2008,10 @@
           {
             "source": "libxml2",
             "target": "libhwloc"
+          },
+          {
+            "source": "libxml2",
+            "target": "libxkbcommon"
           },
           {
             "source": "libxml2",
@@ -2032,10 +2040,6 @@
           {
             "source": "libxml2",
             "target": "scipy"
-          },
-          {
-            "source": "libxml2",
-            "target": "sdl"
           },
           {
             "source": "libxml2",
@@ -2739,10 +2743,6 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "gtk3"
-          },
-          {
-            "source": "pthread-stubs",
             "target": "harfbuzz"
           },
           {
@@ -2751,7 +2751,7 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "sdl"
+            "target": "libxkbcommon"
           },
           {
             "source": "pthread-stubs",
@@ -2927,10 +2927,6 @@
           },
           {
             "source": "python",
-            "target": "gtk3"
-          },
-          {
-            "source": "python",
             "target": "gz-math"
           },
           {
@@ -2944,6 +2940,10 @@
           {
             "source": "python",
             "target": "libxcb"
+          },
+          {
+            "source": "python",
+            "target": "libxkbcommon"
           },
           {
             "source": "python",
@@ -2972,6 +2972,10 @@
           {
             "source": "python",
             "target": "multidict"
+          },
+          {
+            "source": "python",
+            "target": "nh3"
           },
           {
             "source": "python",
@@ -3064,10 +3068,6 @@
           {
             "source": "python",
             "target": "scipy"
-          },
-          {
-            "source": "python",
-            "target": "sdl"
           },
           {
             "source": "python",
@@ -3823,11 +3823,7 @@
           },
           {
             "source": "xkeyboard-config",
-            "target": "gtk3"
-          },
-          {
-            "source": "xkeyboard-config",
-            "target": "sdl"
+            "target": "libxkbcommon"
           },
           {
             "source": "xorg-inputproto",
@@ -3991,15 +3987,11 @@
           },
           {
             "source": "xorg-libxau",
-            "target": "gtk3"
-          },
-          {
-            "source": "xorg-libxau",
             "target": "libxcb"
           },
           {
             "source": "xorg-libxau",
-            "target": "sdl"
+            "target": "libxkbcommon"
           },
           {
             "source": "xorg-libxcomposite",
@@ -4383,11 +4375,7 @@
           },
           {
             "source": "xorg-xproto",
-            "target": "gtk3"
-          },
-          {
-            "source": "xorg-xproto",
-            "target": "sdl"
+            "target": "libxkbcommon"
           },
           {
             "source": "xpmem",
@@ -5865,6 +5853,12 @@
             }
           },
           {
+            "id": "libxkbcommon",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxkbcommon.json"
+            }
+          },
+          {
             "id": "libxml2",
             "payload": {
               "__lazy_json__": "node_attrs/libxml2.json"
@@ -6036,6 +6030,12 @@
             "id": "nghttp2",
             "payload": {
               "__lazy_json__": "node_attrs/nghttp2.json"
+            }
+          },
+          {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
