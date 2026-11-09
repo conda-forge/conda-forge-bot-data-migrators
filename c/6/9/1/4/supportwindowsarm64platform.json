@@ -378,91 +378,7 @@
           },
           {
             "source": "ast-serialize",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "chardet"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "conda"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "fastar"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "hypothesis"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "kealib"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "libcst"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "mamba"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "multidict"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "nh3"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "numba"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pillow"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "py-rattler"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pyarrow"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pynacl"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pytokens"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pyzmq"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "watchfiles"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "wcwidth"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "websockets"
+            "target": "mypy"
           },
           {
             "source": "at-spi2-atk",
@@ -2622,14 +2538,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "backports.zstd"
           },
           {
@@ -2646,18 +2554,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "conda"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "contourpy"
           },
           {
@@ -2671,10 +2567,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "falcon"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "fastar"
           },
           {
             "source": "clang-compiler-activation",
@@ -2702,10 +2594,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "kealib"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "libcst"
           },
           {
@@ -2722,19 +2610,15 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "mamba"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "markupsafe"
           },
           {
             "source": "clang-compiler-activation",
-            "target": "multidict"
+            "target": "mvapich"
           },
           {
             "source": "clang-compiler-activation",
-            "target": "mvapich"
+            "target": "mypy"
           },
           {
             "source": "clang-compiler-activation",
@@ -2754,23 +2638,11 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "pillow"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "pocl"
           },
           {
             "source": "clang-compiler-activation",
             "target": "pthread-stubs"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "py-rattler"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "pyarrow"
           },
           {
             "source": "clang-compiler-activation",
@@ -2835,18 +2707,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "watchdog"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "watchfiles"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "wcwidth"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "websockets"
           },
           {
             "source": "clang-compiler-activation",
@@ -4326,6 +4186,10 @@
           },
           {
             "source": "coverage",
+            "target": "mypy"
+          },
+          {
+            "source": "coverage",
             "target": "nh3"
           },
           {
@@ -4379,10 +4243,6 @@
           {
             "source": "coverage",
             "target": "python-zlib-ng"
-          },
-          {
-            "source": "coverage",
-            "target": "pytokens"
           },
           {
             "source": "coverage",
@@ -4530,10 +4390,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "fastar"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "ffmpeg"
           },
           {
@@ -4618,10 +4474,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "mamba"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "markupsafe"
           },
           {
@@ -4631,6 +4483,10 @@
           {
             "source": "ctng-compilers",
             "target": "mvapich"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "mypy"
           },
           {
             "source": "ctng-compilers",
@@ -10186,95 +10042,7 @@
           },
           {
             "source": "lxml",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "lxml",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "lxml",
-            "target": "chardet"
-          },
-          {
-            "source": "lxml",
-            "target": "conda"
-          },
-          {
-            "source": "lxml",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "lxml",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "lxml",
-            "target": "fastar"
-          },
-          {
-            "source": "lxml",
-            "target": "hypothesis"
-          },
-          {
-            "source": "lxml",
-            "target": "kealib"
-          },
-          {
-            "source": "lxml",
-            "target": "libcst"
-          },
-          {
-            "source": "lxml",
-            "target": "mamba"
-          },
-          {
-            "source": "lxml",
-            "target": "multidict"
-          },
-          {
-            "source": "lxml",
-            "target": "nh3"
-          },
-          {
-            "source": "lxml",
-            "target": "numba"
-          },
-          {
-            "source": "lxml",
-            "target": "pillow"
-          },
-          {
-            "source": "lxml",
-            "target": "py-rattler"
-          },
-          {
-            "source": "lxml",
-            "target": "pyarrow"
-          },
-          {
-            "source": "lxml",
-            "target": "pynacl"
-          },
-          {
-            "source": "lxml",
-            "target": "pytokens"
-          },
-          {
-            "source": "lxml",
-            "target": "pyzmq"
-          },
-          {
-            "source": "lxml",
-            "target": "watchfiles"
-          },
-          {
-            "source": "lxml",
-            "target": "wcwidth"
-          },
-          {
-            "source": "lxml",
-            "target": "websockets"
+            "target": "mypy"
           },
           {
             "source": "lz4-c",
@@ -11951,6 +11719,98 @@
           {
             "source": "mvapich",
             "target": "libpnetcdf"
+          },
+          {
+            "source": "mypy",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "mypy",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
+            "target": "conda"
+          },
+          {
+            "source": "mypy",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "mypy",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "mypy",
+            "target": "fastar"
+          },
+          {
+            "source": "mypy",
+            "target": "hypothesis"
+          },
+          {
+            "source": "mypy",
+            "target": "kealib"
+          },
+          {
+            "source": "mypy",
+            "target": "libcst"
+          },
+          {
+            "source": "mypy",
+            "target": "mamba"
+          },
+          {
+            "source": "mypy",
+            "target": "multidict"
+          },
+          {
+            "source": "mypy",
+            "target": "nh3"
+          },
+          {
+            "source": "mypy",
+            "target": "numba"
+          },
+          {
+            "source": "mypy",
+            "target": "pillow"
+          },
+          {
+            "source": "mypy",
+            "target": "py-rattler"
+          },
+          {
+            "source": "mypy",
+            "target": "pyarrow"
+          },
+          {
+            "source": "mypy",
+            "target": "pynacl"
+          },
+          {
+            "source": "mypy",
+            "target": "pytokens"
+          },
+          {
+            "source": "mypy",
+            "target": "pyzmq"
+          },
+          {
+            "source": "mypy",
+            "target": "watchfiles"
+          },
+          {
+            "source": "mypy",
+            "target": "wcwidth"
+          },
+          {
+            "source": "mypy",
+            "target": "websockets"
           },
           {
             "source": "nanoarrow",
@@ -15406,10 +15266,6 @@
           },
           {
             "source": "psutil",
-            "target": "chardet"
-          },
-          {
-            "source": "psutil",
             "target": "conda"
           },
           {
@@ -15438,11 +15294,11 @@
           },
           {
             "source": "psutil",
-            "target": "mamba"
+            "target": "multidict"
           },
           {
             "source": "psutil",
-            "target": "multidict"
+            "target": "mypy"
           },
           {
             "source": "psutil",
@@ -15467,10 +15323,6 @@
           {
             "source": "psutil",
             "target": "pynacl"
-          },
-          {
-            "source": "psutil",
-            "target": "pytokens"
           },
           {
             "source": "psutil",
@@ -15866,95 +15718,7 @@
           },
           {
             "source": "python-librt",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "python-librt",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "python-librt",
-            "target": "chardet"
-          },
-          {
-            "source": "python-librt",
-            "target": "conda"
-          },
-          {
-            "source": "python-librt",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "python-librt",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "python-librt",
-            "target": "fastar"
-          },
-          {
-            "source": "python-librt",
-            "target": "hypothesis"
-          },
-          {
-            "source": "python-librt",
-            "target": "kealib"
-          },
-          {
-            "source": "python-librt",
-            "target": "libcst"
-          },
-          {
-            "source": "python-librt",
-            "target": "mamba"
-          },
-          {
-            "source": "python-librt",
-            "target": "multidict"
-          },
-          {
-            "source": "python-librt",
-            "target": "nh3"
-          },
-          {
-            "source": "python-librt",
-            "target": "numba"
-          },
-          {
-            "source": "python-librt",
-            "target": "pillow"
-          },
-          {
-            "source": "python-librt",
-            "target": "py-rattler"
-          },
-          {
-            "source": "python-librt",
-            "target": "pyarrow"
-          },
-          {
-            "source": "python-librt",
-            "target": "pynacl"
-          },
-          {
-            "source": "python-librt",
-            "target": "pytokens"
-          },
-          {
-            "source": "python-librt",
-            "target": "pyzmq"
-          },
-          {
-            "source": "python-librt",
-            "target": "watchfiles"
-          },
-          {
-            "source": "python-librt",
-            "target": "wcwidth"
-          },
-          {
-            "source": "python-librt",
-            "target": "websockets"
+            "target": "mypy"
           },
           {
             "source": "python-zlib-ng",
@@ -16479,6 +16243,10 @@
           {
             "source": "python",
             "target": "mvapich"
+          },
+          {
+            "source": "python",
+            "target": "mypy"
           },
           {
             "source": "python",
@@ -18218,31 +17986,11 @@
           },
           {
             "source": "rsync",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "rsync",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "rsync",
             "target": "backports.zstd"
           },
           {
             "source": "rsync",
             "target": "chardet"
-          },
-          {
-            "source": "rsync",
-            "target": "conda"
-          },
-          {
-            "source": "rsync",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "rsync",
-            "target": "conda-standalone"
           },
           {
             "source": "rsync",
@@ -18255,10 +18003,6 @@
           {
             "source": "rsync",
             "target": "falcon"
-          },
-          {
-            "source": "rsync",
-            "target": "fastar"
           },
           {
             "source": "rsync",
@@ -18278,10 +18022,6 @@
           },
           {
             "source": "rsync",
-            "target": "kealib"
-          },
-          {
-            "source": "rsync",
             "target": "libcst"
           },
           {
@@ -18294,15 +18034,11 @@
           },
           {
             "source": "rsync",
-            "target": "mamba"
-          },
-          {
-            "source": "rsync",
             "target": "markupsafe"
           },
           {
             "source": "rsync",
-            "target": "multidict"
+            "target": "mypy"
           },
           {
             "source": "rsync",
@@ -18315,18 +18051,6 @@
           {
             "source": "rsync",
             "target": "pandas"
-          },
-          {
-            "source": "rsync",
-            "target": "pillow"
-          },
-          {
-            "source": "rsync",
-            "target": "py-rattler"
-          },
-          {
-            "source": "rsync",
-            "target": "pyarrow"
           },
           {
             "source": "rsync",
@@ -18379,18 +18103,6 @@
           {
             "source": "rsync",
             "target": "watchdog"
-          },
-          {
-            "source": "rsync",
-            "target": "watchfiles"
-          },
-          {
-            "source": "rsync",
-            "target": "wcwidth"
-          },
-          {
-            "source": "rsync",
-            "target": "websockets"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -18650,10 +18362,6 @@
           },
           {
             "source": "sed",
-            "target": "fastar"
-          },
-          {
-            "source": "sed",
             "target": "findutils"
           },
           {
@@ -18698,15 +18406,15 @@
           },
           {
             "source": "sed",
-            "target": "mamba"
-          },
-          {
-            "source": "sed",
             "target": "markupsafe"
           },
           {
             "source": "sed",
             "target": "multidict"
+          },
+          {
+            "source": "sed",
+            "target": "mypy"
           },
           {
             "source": "sed",
@@ -19690,10 +19398,6 @@
           },
           {
             "source": "uv",
-            "target": "chardet"
-          },
-          {
-            "source": "uv",
             "target": "conda"
           },
           {
@@ -19703,10 +19407,6 @@
           {
             "source": "uv",
             "target": "conda-standalone"
-          },
-          {
-            "source": "uv",
-            "target": "fastar"
           },
           {
             "source": "uv",
@@ -19806,11 +19506,11 @@
           },
           {
             "source": "uv",
-            "target": "mamba"
+            "target": "multidict"
           },
           {
             "source": "uv",
-            "target": "multidict"
+            "target": "mypy"
           },
           {
             "source": "uv",
@@ -19839,10 +19539,6 @@
           {
             "source": "uv",
             "target": "pytest-codspeed"
-          },
-          {
-            "source": "uv",
-            "target": "pytokens"
           },
           {
             "source": "uv",
@@ -24849,6 +24545,12 @@
             "id": "mvapich",
             "payload": {
               "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
+            "id": "mypy",
+            "payload": {
+              "__lazy_json__": "node_attrs/mypy.json"
             }
           },
           {
