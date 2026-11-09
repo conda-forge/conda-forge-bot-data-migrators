@@ -210,6 +210,12 @@
             }
           },
           {
+            "id": "cuda-api-wrappers",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-api-wrappers.json"
+            }
+          },
+          {
             "id": "cudadecon",
             "payload": {
               "__lazy_json__": "node_attrs/cudadecon.json"
@@ -831,6 +837,10 @@
           {
             "source": "colmap",
             "target": "pixsfm"
+          },
+          {
+            "source": "cuda-api-wrappers",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "cudadecon",
@@ -2289,6 +2299,12 @@
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "cuda-api-wrappers",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-api-wrappers.json"
             }
           },
           {
