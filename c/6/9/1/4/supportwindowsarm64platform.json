@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -3491,10 +3484,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -9694,6 +9683,10 @@
           },
           {
             "source": "libxml2",
+            "target": "libxslt"
+          },
+          {
+            "source": "libxml2",
             "target": "lld"
           },
           {
@@ -9826,10 +9819,6 @@
           },
           {
             "source": "libxml2",
-            "target": "xkeyboard-config"
-          },
-          {
-            "source": "libxml2",
             "target": "xorg-libxdmcp"
           },
           {
@@ -9847,6 +9836,26 @@
           {
             "source": "libxml2",
             "target": "xorg-xproto"
+          },
+          {
+            "source": "libxslt",
+            "target": "lxml"
+          },
+          {
+            "source": "libxslt",
+            "target": "postgresql"
+          },
+          {
+            "source": "libxslt",
+            "target": "pyside2"
+          },
+          {
+            "source": "libxslt",
+            "target": "qt-webengine"
+          },
+          {
+            "source": "libxslt",
+            "target": "xkeyboard-config"
           },
           {
             "source": "libzip",
@@ -10786,15 +10795,15 @@
           },
           {
             "source": "make",
+            "target": "libxslt"
+          },
+          {
+            "source": "make",
             "target": "llvmlite"
           },
           {
             "source": "make",
             "target": "lm-sensors"
-          },
-          {
-            "source": "make",
-            "target": "lxml"
           },
           {
             "source": "make",
@@ -10807,10 +10816,6 @@
           {
             "source": "make",
             "target": "matplotlib"
-          },
-          {
-            "source": "make",
-            "target": "metis"
           },
           {
             "source": "make",
@@ -11027,10 +11032,6 @@
           {
             "source": "make",
             "target": "qt-multimedia"
-          },
-          {
-            "source": "make",
-            "target": "qt-webengine"
           },
           {
             "source": "make",
@@ -11639,10 +11640,6 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
           },
           {
             "source": "miktex",
@@ -14698,6 +14695,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libxslt"
+          },
+          {
+            "source": "pkg-config",
             "target": "llama.cpp"
           },
           {
@@ -14823,10 +14824,6 @@
           {
             "source": "pkg-config",
             "target": "pygobject"
-          },
-          {
-            "source": "pkg-config",
-            "target": "pyside2"
           },
           {
             "source": "pkg-config",
@@ -24572,6 +24569,12 @@
             }
           },
           {
+            "id": "libxslt",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxslt.json"
+            }
+          },
+          {
             "id": "libzip",
             "payload": {
               "__lazy_json__": "node_attrs/libzip.json"
@@ -24683,12 +24686,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
