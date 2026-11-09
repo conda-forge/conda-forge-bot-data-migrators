@@ -17719,6 +17719,10 @@
           },
           {
             "source": "cmake",
+            "target": "davix"
+          },
+          {
+            "source": "cmake",
             "target": "dcmtk"
           },
           {
@@ -24379,6 +24383,10 @@
           },
           {
             "source": "curl",
+            "target": "davix"
+          },
+          {
+            "source": "curl",
             "target": "fastjet-contrib"
           },
           {
@@ -24396,10 +24404,6 @@
           {
             "source": "curl",
             "target": "gettext"
-          },
-          {
-            "source": "curl",
-            "target": "gfal2"
           },
           {
             "source": "curl",
@@ -24596,10 +24600,6 @@
           {
             "source": "curl",
             "target": "ray-packages"
-          },
-          {
-            "source": "curl",
-            "target": "root"
           },
           {
             "source": "curl",
@@ -25704,6 +25704,14 @@
           {
             "source": "dav1d",
             "target": "libheif"
+          },
+          {
+            "source": "davix",
+            "target": "gfal2"
+          },
+          {
+            "source": "davix",
+            "target": "root"
           },
           {
             "source": "dbus-fast",
@@ -31971,6 +31979,10 @@
           },
           {
             "source": "git",
+            "target": "davix"
+          },
+          {
+            "source": "git",
             "target": "dftd3-python"
           },
           {
@@ -32004,10 +32016,6 @@
           {
             "source": "git",
             "target": "fvdb-core"
-          },
-          {
-            "source": "git",
-            "target": "gfal2"
           },
           {
             "source": "git",
@@ -34235,11 +34243,7 @@
           },
           {
             "source": "gsoap",
-            "target": "gfal2"
-          },
-          {
-            "source": "gsoap",
-            "target": "root"
+            "target": "davix"
           },
           {
             "source": "gsoap",
@@ -34372,6 +34376,10 @@
           {
             "source": "gtest",
             "target": "cartographer"
+          },
+          {
+            "source": "gtest",
+            "target": "davix"
           },
           {
             "source": "gtest",
@@ -49675,6 +49683,10 @@
           },
           {
             "source": "libuuid",
+            "target": "davix"
+          },
+          {
+            "source": "libuuid",
             "target": "fontconfig"
           },
           {
@@ -49716,10 +49728,6 @@
           {
             "source": "libuuid",
             "target": "r-base"
-          },
-          {
-            "source": "libuuid",
-            "target": "root"
           },
           {
             "source": "libuuid",
@@ -50739,6 +50747,10 @@
           },
           {
             "source": "libxml2",
+            "target": "davix"
+          },
+          {
+            "source": "libxml2",
             "target": "dcmtk"
           },
           {
@@ -50804,10 +50816,6 @@
           {
             "source": "libxml2",
             "target": "gdal"
-          },
-          {
-            "source": "libxml2",
-            "target": "gfal2"
           },
           {
             "source": "libxml2",
@@ -56515,6 +56523,10 @@
           },
           {
             "source": "ninja",
+            "target": "davix"
+          },
+          {
+            "source": "ninja",
             "target": "dbus"
           },
           {
@@ -56712,10 +56724,6 @@
           {
             "source": "ninja",
             "target": "geos"
-          },
-          {
-            "source": "ninja",
-            "target": "gfal2"
           },
           {
             "source": "ninja",
@@ -62863,6 +62871,10 @@
           },
           {
             "source": "openssl",
+            "target": "davix"
+          },
+          {
+            "source": "openssl",
             "target": "dcap"
           },
           {
@@ -62912,10 +62924,6 @@
           {
             "source": "openssl",
             "target": "gdal"
-          },
-          {
-            "source": "openssl",
-            "target": "gfal2"
           },
           {
             "source": "openssl",
@@ -65644,6 +65652,10 @@
           {
             "source": "pkg-config",
             "target": "dav1d"
+          },
+          {
+            "source": "pkg-config",
+            "target": "davix"
           },
           {
             "source": "pkg-config",
@@ -72259,6 +72271,10 @@
           },
           {
             "source": "python",
+            "target": "davix"
+          },
+          {
+            "source": "python",
             "target": "dbus"
           },
           {
@@ -72648,10 +72664,6 @@
           {
             "source": "python",
             "target": "gevent"
-          },
-          {
-            "source": "python",
-            "target": "gfal2"
           },
           {
             "source": "python",
@@ -102543,6 +102555,10 @@
           },
           {
             "source": "zlib",
+            "target": "davix"
+          },
+          {
+            "source": "zlib",
             "target": "dbus"
           },
           {
@@ -107768,6 +107784,12 @@
             "id": "dav1d",
             "payload": {
               "__lazy_json__": "node_attrs/dav1d.json"
+            }
+          },
+          {
+            "id": "davix",
+            "payload": {
+              "__lazy_json__": "node_attrs/davix.json"
             }
           },
           {
