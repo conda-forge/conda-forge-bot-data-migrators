@@ -7195,6 +7195,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -13515,6 +13519,10 @@
           },
           {
             "source": "boost",
+            "target": "cascade"
+          },
+          {
+            "source": "boost",
             "target": "cctbx-base"
           },
           {
@@ -17815,6 +17823,10 @@
           },
           {
             "source": "cmake",
+            "target": "cascade"
+          },
+          {
+            "source": "cmake",
             "target": "catboost"
           },
           {
@@ -19328,6 +19340,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -29067,6 +29083,10 @@
           },
           {
             "source": "fmt",
+            "target": "cascade"
+          },
+          {
+            "source": "fmt",
             "target": "dartsim"
           },
           {
@@ -35483,6 +35503,10 @@
           },
           {
             "source": "hdf5",
+            "target": "cascade"
+          },
+          {
+            "source": "hdf5",
             "target": "cgns"
           },
           {
@@ -35819,7 +35843,15 @@
           },
           {
             "source": "heyoka.py",
+            "target": "cascade"
+          },
+          {
+            "source": "heyoka.py",
             "target": "pykep"
+          },
+          {
+            "source": "heyoka",
+            "target": "cascade"
           },
           {
             "source": "heyoka",
@@ -45627,6 +45659,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -55026,6 +55062,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56472,6 +56564,10 @@
           {
             "source": "ninja",
             "target": "casadi"
+          },
+          {
+            "source": "ninja",
+            "target": "cascade"
           },
           {
             "source": "ninja",
@@ -59772,6 +59868,10 @@
           {
             "source": "numpy",
             "target": "casadi"
+          },
+          {
+            "source": "numpy",
+            "target": "cascade"
           },
           {
             "source": "numpy",
@@ -72404,6 +72504,10 @@
           {
             "source": "python",
             "target": "casadi"
+          },
+          {
+            "source": "python",
+            "target": "cascade"
           },
           {
             "source": "python",
@@ -92919,6 +93023,10 @@
           },
           {
             "source": "spdlog",
+            "target": "cascade"
+          },
+          {
+            "source": "spdlog",
             "target": "dartsim"
           },
           {
@@ -93624,6 +93732,10 @@
           {
             "source": "tar",
             "target": "vectorscan"
+          },
+          {
+            "source": "tbb",
+            "target": "cascade"
           },
           {
             "source": "tbb",
@@ -102199,11 +102311,19 @@
           },
           {
             "source": "xtensor-blas",
+            "target": "cascade"
+          },
+          {
+            "source": "xtensor-blas",
             "target": "heyoka"
           },
           {
             "source": "xtensor-blas",
             "target": "pykep"
+          },
+          {
+            "source": "xtensor",
+            "target": "cascade"
           },
           {
             "source": "xtensor",
@@ -107286,6 +107406,12 @@
             "id": "casadi",
             "payload": {
               "__lazy_json__": "node_attrs/casadi.json"
+            }
+          },
+          {
+            "id": "cascade",
+            "payload": {
+              "__lazy_json__": "node_attrs/cascade.json"
             }
           },
           {
@@ -112668,6 +112794,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
