@@ -91,6 +91,10 @@
         "links": [
           {
             "source": "_openmp_mutex",
+            "target": "abinit"
+          },
+          {
+            "source": "_openmp_mutex",
             "target": "ctng-compilers"
           },
           {
@@ -1687,7 +1691,7 @@
           },
           {
             "source": "autoconf",
-            "target": "abacus"
+            "target": "abinit"
           },
           {
             "source": "autoconf",
@@ -1700,10 +1704,6 @@
           {
             "source": "autoconf",
             "target": "alsa-plugins"
-          },
-          {
-            "source": "autoconf",
-            "target": "ambertools"
           },
           {
             "source": "autoconf",
@@ -1727,10 +1727,6 @@
           },
           {
             "source": "autoconf",
-            "target": "bayeswave"
-          },
-          {
-            "source": "autoconf",
             "target": "bdw-gc"
           },
           {
@@ -1740,10 +1736,6 @@
           {
             "source": "autoconf",
             "target": "cctools-and-ld64"
-          },
-          {
-            "source": "autoconf",
-            "target": "cds-crtools"
           },
           {
             "source": "autoconf",
@@ -1760,10 +1752,6 @@
           {
             "source": "autoconf",
             "target": "cunit"
-          },
-          {
-            "source": "autoconf",
-            "target": "cvxopt"
           },
           {
             "source": "autoconf",
@@ -1799,6 +1787,10 @@
           },
           {
             "source": "autoconf",
+            "target": "fftw"
+          },
+          {
+            "source": "autoconf",
             "target": "findutils"
           },
           {
@@ -1808,14 +1800,6 @@
           {
             "source": "autoconf",
             "target": "fuse-overlayfs"
-          },
-          {
-            "source": "autoconf",
-            "target": "galsim"
-          },
-          {
-            "source": "autoconf",
-            "target": "gds"
           },
           {
             "source": "autoconf",
@@ -1843,18 +1827,6 @@
           },
           {
             "source": "autoconf",
-            "target": "gmt"
-          },
-          {
-            "source": "autoconf",
-            "target": "gnuradio"
-          },
-          {
-            "source": "autoconf",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "autoconf",
             "target": "gpgme"
           },
           {
@@ -1867,31 +1839,11 @@
           },
           {
             "source": "autoconf",
-            "target": "gromacs"
-          },
-          {
-            "source": "autoconf",
             "target": "gsl"
           },
           {
             "source": "autoconf",
             "target": "gsoap"
-          },
-          {
-            "source": "autoconf",
-            "target": "gstlal"
-          },
-          {
-            "source": "autoconf",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "autoconf",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "autoconf",
-            "target": "hackrf"
           },
           {
             "source": "autoconf",
@@ -1907,15 +1859,7 @@
           },
           {
             "source": "autoconf",
-            "target": "heffte"
-          },
-          {
-            "source": "autoconf",
             "target": "heppdt"
-          },
-          {
-            "source": "autoconf",
-            "target": "imagemagick"
           },
           {
             "source": "autoconf",
@@ -1931,10 +1875,6 @@
           },
           {
             "source": "autoconf",
-            "target": "isce3"
-          },
-          {
-            "source": "autoconf",
             "target": "jansson"
           },
           {
@@ -1944,18 +1884,6 @@
           {
             "source": "autoconf",
             "target": "krb5"
-          },
-          {
-            "source": "autoconf",
-            "target": "lal"
-          },
-          {
-            "source": "autoconf",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "autoconf",
-            "target": "lammps"
           },
           {
             "source": "autoconf",
@@ -2091,10 +2019,6 @@
           },
           {
             "source": "autoconf",
-            "target": "libvips"
-          },
-          {
-            "source": "autoconf",
             "target": "libxcb"
           },
           {
@@ -2124,10 +2048,6 @@
           {
             "source": "autoconf",
             "target": "mediainfo"
-          },
-          {
-            "source": "autoconf",
-            "target": "metview"
           },
           {
             "source": "autoconf",
@@ -2175,10 +2095,6 @@
           },
           {
             "source": "autoconf",
-            "target": "octave"
-          },
-          {
-            "source": "autoconf",
             "target": "ogre"
           },
           {
@@ -2195,19 +2111,11 @@
           },
           {
             "source": "autoconf",
-            "target": "petsc"
-          },
-          {
-            "source": "autoconf",
             "target": "php"
           },
           {
             "source": "autoconf",
             "target": "planarity"
-          },
-          {
-            "source": "autoconf",
-            "target": "plumed"
           },
           {
             "source": "autoconf",
@@ -2223,23 +2131,7 @@
           },
           {
             "source": "autoconf",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "autoconf",
-            "target": "pycbc"
-          },
-          {
-            "source": "autoconf",
-            "target": "pyfftw"
-          },
-          {
-            "source": "autoconf",
             "target": "pygame-ce"
-          },
-          {
-            "source": "autoconf",
-            "target": "pyshtools"
           },
           {
             "source": "autoconf",
@@ -2388,10 +2280,6 @@
           {
             "source": "autoconf",
             "target": "r-pki"
-          },
-          {
-            "source": "autoconf",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "autoconf",
@@ -2635,10 +2523,6 @@
           },
           {
             "source": "autoconf",
-            "target": "tomopy"
-          },
-          {
-            "source": "autoconf",
             "target": "ucc"
           },
           {
@@ -2656,10 +2540,6 @@
           {
             "source": "autoconf",
             "target": "util-linux"
-          },
-          {
-            "source": "autoconf",
-            "target": "vigra"
           },
           {
             "source": "autoconf",
@@ -2771,14 +2651,6 @@
           },
           {
             "source": "autoconf",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "autoconf",
-            "target": "yambo"
-          },
-          {
-            "source": "autoconf",
             "target": "yaml"
           },
           {
@@ -2795,7 +2667,7 @@
           },
           {
             "source": "automake",
-            "target": "abacus"
+            "target": "abinit"
           },
           {
             "source": "automake",
@@ -2804,10 +2676,6 @@
           {
             "source": "automake",
             "target": "alsa-plugins"
-          },
-          {
-            "source": "automake",
-            "target": "ambertools"
           },
           {
             "source": "automake",
@@ -2820,10 +2688,6 @@
           {
             "source": "automake",
             "target": "bash-completion"
-          },
-          {
-            "source": "automake",
-            "target": "bayeswave"
           },
           {
             "source": "automake",
@@ -2844,14 +2708,6 @@
           {
             "source": "automake",
             "target": "cctools-and-ld64"
-          },
-          {
-            "source": "automake",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "automake",
-            "target": "ceres-solver"
           },
           {
             "source": "automake",
@@ -2904,18 +2760,6 @@
           {
             "source": "automake",
             "target": "cuda-gdb"
-          },
-          {
-            "source": "automake",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "automake",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "automake",
-            "target": "cuda-libraries-static"
           },
           {
             "source": "automake",
@@ -2979,10 +2823,6 @@
           },
           {
             "source": "automake",
-            "target": "cupy"
-          },
-          {
-            "source": "automake",
             "target": "cuquantum"
           },
           {
@@ -2995,19 +2835,11 @@
           },
           {
             "source": "automake",
-            "target": "cvxopt"
-          },
-          {
-            "source": "automake",
             "target": "cyrus-sasl"
           },
           {
             "source": "automake",
             "target": "dcap"
-          },
-          {
-            "source": "automake",
-            "target": "dgl"
           },
           {
             "source": "automake",
@@ -3039,6 +2871,10 @@
           },
           {
             "source": "automake",
+            "target": "fftw"
+          },
+          {
+            "source": "automake",
             "target": "findutils"
           },
           {
@@ -3059,27 +2895,11 @@
           },
           {
             "source": "automake",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "automake",
-            "target": "galsim"
-          },
-          {
-            "source": "automake",
             "target": "gap"
           },
           {
             "source": "automake",
-            "target": "gauxc"
-          },
-          {
-            "source": "automake",
             "target": "gct"
-          },
-          {
-            "source": "automake",
-            "target": "gds"
           },
           {
             "source": "automake",
@@ -3099,18 +2919,6 @@
           },
           {
             "source": "automake",
-            "target": "gmt"
-          },
-          {
-            "source": "automake",
-            "target": "gnuradio"
-          },
-          {
-            "source": "automake",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "automake",
             "target": "graph-tool"
           },
           {
@@ -3123,31 +2931,11 @@
           },
           {
             "source": "automake",
-            "target": "gromacs"
-          },
-          {
-            "source": "automake",
             "target": "gsl"
           },
           {
             "source": "automake",
             "target": "gsoap"
-          },
-          {
-            "source": "automake",
-            "target": "gstlal"
-          },
-          {
-            "source": "automake",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "automake",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "automake",
-            "target": "hackrf"
           },
           {
             "source": "automake",
@@ -3163,19 +2951,11 @@
           },
           {
             "source": "automake",
-            "target": "heffte"
-          },
-          {
-            "source": "automake",
             "target": "heppdt"
           },
           {
             "source": "automake",
             "target": "htop"
-          },
-          {
-            "source": "automake",
-            "target": "imagemagick"
           },
           {
             "source": "automake",
@@ -3195,15 +2975,7 @@
           },
           {
             "source": "automake",
-            "target": "isce3"
-          },
-          {
-            "source": "automake",
             "target": "jansson"
-          },
-          {
-            "source": "automake",
-            "target": "jaxlib"
           },
           {
             "source": "automake",
@@ -3212,22 +2984,6 @@
           {
             "source": "automake",
             "target": "julia"
-          },
-          {
-            "source": "automake",
-            "target": "kaolin"
-          },
-          {
-            "source": "automake",
-            "target": "lal"
-          },
-          {
-            "source": "automake",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "automake",
-            "target": "lammps"
           },
           {
             "source": "automake",
@@ -3319,6 +3075,10 @@
           },
           {
             "source": "automake",
+            "target": "libcusparse"
+          },
+          {
+            "source": "automake",
             "target": "libdc1394"
           },
           {
@@ -3364,10 +3124,6 @@
           {
             "source": "automake",
             "target": "libmad"
-          },
-          {
-            "source": "automake",
-            "target": "libmagma"
           },
           {
             "source": "automake",
@@ -3507,10 +3263,6 @@
           },
           {
             "source": "automake",
-            "target": "libvips"
-          },
-          {
-            "source": "automake",
             "target": "libxcb"
           },
           {
@@ -3540,10 +3292,6 @@
           {
             "source": "automake",
             "target": "mediainfo"
-          },
-          {
-            "source": "automake",
-            "target": "metview"
           },
           {
             "source": "automake",
@@ -3591,15 +3339,7 @@
           },
           {
             "source": "automake",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "automake",
             "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "automake",
-            "target": "nvmath"
           },
           {
             "source": "automake",
@@ -3611,10 +3351,6 @@
           },
           {
             "source": "automake",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "automake",
             "target": "openmpi"
           },
           {
@@ -3623,23 +3359,11 @@
           },
           {
             "source": "automake",
-            "target": "pennylane-lightning-gpu"
-          },
-          {
-            "source": "automake",
-            "target": "petsc"
-          },
-          {
-            "source": "automake",
             "target": "pkg-config"
           },
           {
             "source": "automake",
             "target": "planarity"
-          },
-          {
-            "source": "automake",
-            "target": "plumed"
           },
           {
             "source": "automake",
@@ -3655,31 +3379,7 @@
           },
           {
             "source": "automake",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "automake",
-            "target": "pycbc"
-          },
-          {
-            "source": "automake",
-            "target": "pyfftw"
-          },
-          {
-            "source": "automake",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pyshtools"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch_scatter"
           },
           {
             "source": "automake",
@@ -3828,10 +3528,6 @@
           {
             "source": "automake",
             "target": "r-pki"
-          },
-          {
-            "source": "automake",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "automake",
@@ -4011,10 +3707,6 @@
           },
           {
             "source": "automake",
-            "target": "root"
-          },
-          {
-            "source": "automake",
             "target": "rrdtool"
           },
           {
@@ -4048,10 +3740,6 @@
           {
             "source": "automake",
             "target": "singular"
-          },
-          {
-            "source": "automake",
-            "target": "slepc"
           },
           {
             "source": "automake",
@@ -4107,14 +3795,6 @@
           },
           {
             "source": "automake",
-            "target": "tomopy"
-          },
-          {
-            "source": "automake",
-            "target": "torchvision"
-          },
-          {
-            "source": "automake",
             "target": "ucc"
           },
           {
@@ -4136,10 +3816,6 @@
           {
             "source": "automake",
             "target": "util-linux"
-          },
-          {
-            "source": "automake",
-            "target": "vigra"
           },
           {
             "source": "automake",
@@ -4252,14 +3928,6 @@
           {
             "source": "automake",
             "target": "xsel"
-          },
-          {
-            "source": "automake",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "automake",
-            "target": "yambo"
           },
           {
             "source": "automake",
@@ -5227,6 +4895,10 @@
           },
           {
             "source": "bash",
+            "target": "abinit"
+          },
+          {
+            "source": "bash",
             "target": "ace"
           },
           {
@@ -5691,18 +5363,6 @@
           },
           {
             "source": "bash",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "bash",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "bash",
-            "target": "cuda-libraries-static"
-          },
-          {
-            "source": "bash",
             "target": "cuda-nsight"
           },
           {
@@ -5763,10 +5423,6 @@
           },
           {
             "source": "bash",
-            "target": "cupy"
-          },
-          {
-            "source": "bash",
             "target": "cuquantum"
           },
           {
@@ -5792,10 +5448,6 @@
           {
             "source": "bash",
             "target": "cyrus-sasl"
-          },
-          {
-            "source": "bash",
-            "target": "dartsim"
           },
           {
             "source": "bash",
@@ -6007,6 +5659,10 @@
           },
           {
             "source": "bash",
+            "target": "fftw"
+          },
+          {
+            "source": "bash",
             "target": "fgt"
           },
           {
@@ -6107,10 +5763,6 @@
           },
           {
             "source": "bash",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "bash",
             "target": "g2clib"
           },
           {
@@ -6136,10 +5788,6 @@
           {
             "source": "bash",
             "target": "gct"
-          },
-          {
-            "source": "bash",
-            "target": "gdal"
           },
           {
             "source": "bash",
@@ -6295,14 +5943,6 @@
           },
           {
             "source": "bash",
-            "target": "gnuradio"
-          },
-          {
-            "source": "bash",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "bash",
             "target": "gnuradio-osmosdr"
           },
           {
@@ -6443,10 +6083,6 @@
           },
           {
             "source": "bash",
-            "target": "hackrf"
-          },
-          {
-            "source": "bash",
             "target": "harfbuzz"
           },
           {
@@ -6563,10 +6199,6 @@
           },
           {
             "source": "bash",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "bash",
             "target": "imagemagick"
           },
           {
@@ -6615,10 +6247,6 @@
           },
           {
             "source": "bash",
-            "target": "isce3"
-          },
-          {
-            "source": "bash",
             "target": "isl"
           },
           {
@@ -6640,10 +6268,6 @@
           {
             "source": "bash",
             "target": "jasper"
-          },
-          {
-            "source": "bash",
-            "target": "jaxlib"
           },
           {
             "source": "bash",
@@ -6680,10 +6304,6 @@
           {
             "source": "bash",
             "target": "kahip"
-          },
-          {
-            "source": "bash",
-            "target": "kaolin"
           },
           {
             "source": "bash",
@@ -6959,6 +6579,10 @@
           },
           {
             "source": "bash",
+            "target": "libcusparse"
+          },
+          {
+            "source": "bash",
             "target": "libcxx"
           },
           {
@@ -7092,6 +6716,10 @@
           {
             "source": "bash",
             "target": "libjpeg-turbo"
+          },
+          {
+            "source": "bash",
+            "target": "libjxl-split"
           },
           {
             "source": "bash",
@@ -7260,6 +6888,10 @@
           {
             "source": "bash",
             "target": "librdkafka"
+          },
+          {
+            "source": "bash",
+            "target": "librsvg"
           },
           {
             "source": "bash",
@@ -7567,10 +7199,6 @@
           },
           {
             "source": "bash",
-            "target": "metis"
-          },
-          {
-            "source": "bash",
             "target": "metplus"
           },
           {
@@ -7875,19 +7503,11 @@
           },
           {
             "source": "bash",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "bash",
             "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "bash",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "bash",
-            "target": "nvmath"
           },
           {
             "source": "bash",
@@ -7959,10 +7579,6 @@
           },
           {
             "source": "bash",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "bash",
             "target": "opam"
           },
           {
@@ -8020,6 +7636,10 @@
           {
             "source": "bash",
             "target": "openpmix"
+          },
+          {
+            "source": "bash",
+            "target": "openscenegraph"
           },
           {
             "source": "bash",
@@ -8527,10 +8147,6 @@
           },
           {
             "source": "bash",
-            "target": "pyfftw"
-          },
-          {
-            "source": "bash",
             "target": "pyg-lib"
           },
           {
@@ -8620,10 +8236,6 @@
           {
             "source": "bash",
             "target": "python-symengine"
-          },
-          {
-            "source": "bash",
-            "target": "pytorch_scatter"
           },
           {
             "source": "bash",
@@ -11215,10 +10827,6 @@
           },
           {
             "source": "bash",
-            "target": "torchvision"
-          },
-          {
-            "source": "bash",
             "target": "tree"
           },
           {
@@ -13167,6 +12775,10 @@
           },
           {
             "source": "blas",
+            "target": "abinit"
+          },
+          {
+            "source": "blas",
             "target": "ambertools"
           },
           {
@@ -14423,10 +14035,6 @@
           },
           {
             "source": "brotli",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "brotli",
             "target": "fiona"
           },
           {
@@ -14440,10 +14048,6 @@
           {
             "source": "brotli",
             "target": "fonttools"
-          },
-          {
-            "source": "brotli",
-            "target": "gdal"
           },
           {
             "source": "brotli",
@@ -14495,10 +14099,6 @@
           },
           {
             "source": "brotli",
-            "target": "imagemagick"
-          },
-          {
-            "source": "brotli",
             "target": "indexed_gzip"
           },
           {
@@ -14531,11 +14131,11 @@
           },
           {
             "source": "brotli",
-            "target": "libsoup"
+            "target": "libjxl-split"
           },
           {
             "source": "brotli",
-            "target": "libvips"
+            "target": "libsoup"
           },
           {
             "source": "brotli",
@@ -15215,15 +14815,7 @@
           },
           {
             "source": "cairo",
-            "target": "djvulibre"
-          },
-          {
-            "source": "cairo",
             "target": "emacs"
-          },
-          {
-            "source": "cairo",
-            "target": "ffmpeg"
           },
           {
             "source": "cairo",
@@ -15236,10 +14828,6 @@
           {
             "source": "cairo",
             "target": "gobject-introspection"
-          },
-          {
-            "source": "cairo",
-            "target": "graph-tool"
           },
           {
             "source": "cairo",
@@ -15259,11 +14847,11 @@
           },
           {
             "source": "cairo",
-            "target": "imagemagick"
+            "target": "libdecor"
           },
           {
             "source": "cairo",
-            "target": "libdecor"
+            "target": "librsvg"
           },
           {
             "source": "cairo",
@@ -15332,10 +14920,6 @@
           {
             "source": "cairo",
             "target": "rdkit"
-          },
-          {
-            "source": "cairo",
-            "target": "root"
           },
           {
             "source": "cairo",
@@ -15923,10 +15507,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "djvulibre"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "dovi_tool"
           },
           {
@@ -15940,10 +15520,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "easyocr"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "emacs"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -15971,10 +15547,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "fiona"
           },
           {
@@ -15991,19 +15563,7 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "graph-tool"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "graphviz"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "graspologic-native"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "gtk3"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16028,10 +15588,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "hypothesis"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "imagemagick"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16087,7 +15643,7 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "libvips"
+            "target": "librsvg"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16276,10 +15832,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "quarto"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "r-rsvg"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16527,51 +16079,15 @@
           },
           {
             "source": "cargo-c",
-            "target": "djvulibre"
-          },
-          {
-            "source": "cargo-c",
             "target": "dovi_tool"
           },
           {
             "source": "cargo-c",
-            "target": "emacs"
-          },
-          {
-            "source": "cargo-c",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "cargo-c",
-            "target": "graph-tool"
-          },
-          {
-            "source": "cargo-c",
-            "target": "graphviz"
-          },
-          {
-            "source": "cargo-c",
-            "target": "gtk3"
-          },
-          {
-            "source": "cargo-c",
-            "target": "imagemagick"
-          },
-          {
-            "source": "cargo-c",
-            "target": "libvips"
-          },
-          {
-            "source": "cargo-c",
-            "target": "r-rsvg"
+            "target": "librsvg"
           },
           {
             "source": "cargo-c",
             "target": "rav1e"
-          },
-          {
-            "source": "cargo-c",
-            "target": "root"
           },
           {
             "source": "cargo-patch",
@@ -16667,15 +16183,7 @@
           },
           {
             "source": "ccache",
-            "target": "argtable2"
-          },
-          {
-            "source": "ccache",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "ccache",
-            "target": "conda-standalone"
+            "target": "lief"
           },
           {
             "source": "ccache",
@@ -18715,6 +18223,10 @@
           },
           {
             "source": "cmake",
+            "target": "fftw"
+          },
+          {
+            "source": "cmake",
             "target": "fgt"
           },
           {
@@ -18796,10 +18308,6 @@
           {
             "source": "cmake",
             "target": "gdma"
-          },
-          {
-            "source": "cmake",
-            "target": "gds"
           },
           {
             "source": "cmake",
@@ -18948,18 +18456,6 @@
           {
             "source": "cmake",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "cmake",
-            "target": "gstlal"
-          },
-          {
-            "source": "cmake",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "cmake",
-            "target": "gstlal-ugly"
           },
           {
             "source": "cmake",
@@ -19139,14 +18635,6 @@
           },
           {
             "source": "cmake",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "cmake",
-            "target": "imagemagick"
-          },
-          {
-            "source": "cmake",
             "target": "imath"
           },
           {
@@ -19256,10 +18744,6 @@
           {
             "source": "cmake",
             "target": "kornia-rs"
-          },
-          {
-            "source": "cmake",
-            "target": "lal"
           },
           {
             "source": "cmake",
@@ -19535,6 +19019,10 @@
           },
           {
             "source": "cmake",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "cmake",
             "target": "libkml"
           },
           {
@@ -19631,10 +19119,6 @@
           },
           {
             "source": "cmake",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "cmake",
             "target": "libosqp"
           },
           {
@@ -19719,10 +19203,6 @@
           },
           {
             "source": "cmake",
-            "target": "libvips"
-          },
-          {
-            "source": "cmake",
             "target": "libvorbis"
           },
           {
@@ -19752,6 +19232,10 @@
           {
             "source": "cmake",
             "target": "libzopfli"
+          },
+          {
+            "source": "cmake",
+            "target": "lief"
           },
           {
             "source": "cmake",
@@ -19860,10 +19344,6 @@
           {
             "source": "cmake",
             "target": "mesalib"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -20191,6 +19671,10 @@
           },
           {
             "source": "cmake",
+            "target": "openscenegraph"
+          },
+          {
+            "source": "cmake",
             "target": "opensees"
           },
           {
@@ -20327,10 +19811,6 @@
           },
           {
             "source": "cmake",
-            "target": "plumed"
-          },
-          {
-            "source": "cmake",
             "target": "pocl"
           },
           {
@@ -20391,10 +19871,6 @@
           },
           {
             "source": "cmake",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "cmake",
             "target": "pyarrow"
           },
           {
@@ -20416,10 +19892,6 @@
           {
             "source": "cmake",
             "target": "pyddx"
-          },
-          {
-            "source": "cmake",
-            "target": "pyfftw"
           },
           {
             "source": "cmake",
@@ -20635,10 +20107,6 @@
           },
           {
             "source": "cmake",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "cmake",
             "target": "r-glmmtmb"
           },
           {
@@ -20652,10 +20120,6 @@
           {
             "source": "cmake",
             "target": "r-mvnfast"
-          },
-          {
-            "source": "cmake",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "cmake",
@@ -21060,10 +20524,6 @@
           {
             "source": "cmake",
             "target": "tblite"
-          },
-          {
-            "source": "cmake",
-            "target": "tempo2"
           },
           {
             "source": "cmake",
@@ -21543,7 +21003,7 @@
           },
           {
             "source": "collada-dom",
-            "target": "dartsim"
+            "target": "openscenegraph"
           },
           {
             "source": "compilers",
@@ -21987,10 +21447,6 @@
           },
           {
             "source": "coverage",
-            "target": "djvulibre"
-          },
-          {
-            "source": "coverage",
             "target": "dm-tree"
           },
           {
@@ -22012,10 +21468,6 @@
           {
             "source": "coverage",
             "target": "eigen"
-          },
-          {
-            "source": "coverage",
-            "target": "emacs"
           },
           {
             "source": "coverage",
@@ -22056,10 +21508,6 @@
           {
             "source": "coverage",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "coverage",
-            "target": "ffmpeg"
           },
           {
             "source": "coverage",
@@ -22135,14 +21583,6 @@
           },
           {
             "source": "coverage",
-            "target": "graph-tool"
-          },
-          {
-            "source": "coverage",
-            "target": "graphviz"
-          },
-          {
-            "source": "coverage",
             "target": "gstlal"
           },
           {
@@ -22160,10 +21600,6 @@
           {
             "source": "coverage",
             "target": "gstools-cython"
-          },
-          {
-            "source": "coverage",
-            "target": "gtk3"
           },
           {
             "source": "coverage",
@@ -22264,10 +21700,6 @@
           {
             "source": "coverage",
             "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "coverage",
-            "target": "imagemagick"
           },
           {
             "source": "coverage",
@@ -22383,11 +21815,15 @@
           },
           {
             "source": "coverage",
+            "target": "librsvg"
+          },
+          {
+            "source": "coverage",
             "target": "libstempo"
           },
           {
             "source": "coverage",
-            "target": "libvips"
+            "target": "lief"
           },
           {
             "source": "coverage",
@@ -22908,10 +22344,6 @@
           {
             "source": "coverage",
             "target": "quippy"
-          },
-          {
-            "source": "coverage",
-            "target": "r-rsvg"
           },
           {
             "source": "coverage",
@@ -23480,6 +22912,10 @@
           {
             "source": "ctng-compilers",
             "target": "abacus"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "abinit"
           },
           {
             "source": "ctng-compilers",
@@ -25287,10 +24723,6 @@
           },
           {
             "source": "curl",
-            "target": "dartsim"
-          },
-          {
-            "source": "curl",
             "target": "fastjet-contrib"
           },
           {
@@ -25440,6 +24872,10 @@
           {
             "source": "curl",
             "target": "opam"
+          },
+          {
+            "source": "curl",
+            "target": "openscenegraph"
           },
           {
             "source": "curl",
@@ -27271,6 +26707,10 @@
           },
           {
             "source": "doxygen",
+            "target": "openscenegraph"
+          },
+          {
+            "source": "doxygen",
             "target": "proxsuite"
           },
           {
@@ -28135,15 +27575,7 @@
           },
           {
             "source": "expat",
-            "target": "dartsim"
-          },
-          {
-            "source": "expat",
             "target": "dbus"
-          },
-          {
-            "source": "expat",
-            "target": "djvulibre"
           },
           {
             "source": "expat",
@@ -28259,6 +27691,10 @@
           },
           {
             "source": "expat",
+            "target": "librsvg"
+          },
+          {
+            "source": "expat",
             "target": "libvips"
           },
           {
@@ -28308,6 +27744,10 @@
           {
             "source": "expat",
             "target": "openmotif"
+          },
+          {
+            "source": "expat",
+            "target": "openscenegraph"
           },
           {
             "source": "expat",
@@ -28384,10 +27824,6 @@
           {
             "source": "expat",
             "target": "rdkit"
-          },
-          {
-            "source": "expat",
-            "target": "root"
           },
           {
             "source": "expat",
@@ -29218,6 +28654,166 @@
             "target": "ffmpeg"
           },
           {
+            "source": "fftw",
+            "target": "abacus"
+          },
+          {
+            "source": "fftw",
+            "target": "abinit"
+          },
+          {
+            "source": "fftw",
+            "target": "ambertools"
+          },
+          {
+            "source": "fftw",
+            "target": "bayeswave"
+          },
+          {
+            "source": "fftw",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "fftw",
+            "target": "cvxopt"
+          },
+          {
+            "source": "fftw",
+            "target": "galsim"
+          },
+          {
+            "source": "fftw",
+            "target": "gds"
+          },
+          {
+            "source": "fftw",
+            "target": "gmt"
+          },
+          {
+            "source": "fftw",
+            "target": "gnuradio"
+          },
+          {
+            "source": "fftw",
+            "target": "gnuradio-iqbalance"
+          },
+          {
+            "source": "fftw",
+            "target": "gromacs"
+          },
+          {
+            "source": "fftw",
+            "target": "gstlal"
+          },
+          {
+            "source": "fftw",
+            "target": "gstlal-calibration"
+          },
+          {
+            "source": "fftw",
+            "target": "gstlal-ugly"
+          },
+          {
+            "source": "fftw",
+            "target": "hackrf"
+          },
+          {
+            "source": "fftw",
+            "target": "heffte"
+          },
+          {
+            "source": "fftw",
+            "target": "imagemagick"
+          },
+          {
+            "source": "fftw",
+            "target": "isce3"
+          },
+          {
+            "source": "fftw",
+            "target": "lal"
+          },
+          {
+            "source": "fftw",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "fftw",
+            "target": "lammps"
+          },
+          {
+            "source": "fftw",
+            "target": "libosmo-dsp"
+          },
+          {
+            "source": "fftw",
+            "target": "libvips"
+          },
+          {
+            "source": "fftw",
+            "target": "metview"
+          },
+          {
+            "source": "fftw",
+            "target": "octave"
+          },
+          {
+            "source": "fftw",
+            "target": "petsc"
+          },
+          {
+            "source": "fftw",
+            "target": "plumed"
+          },
+          {
+            "source": "fftw",
+            "target": "pulseaudio"
+          },
+          {
+            "source": "fftw",
+            "target": "pycbc"
+          },
+          {
+            "source": "fftw",
+            "target": "pyfftw"
+          },
+          {
+            "source": "fftw",
+            "target": "pyshtools"
+          },
+          {
+            "source": "fftw",
+            "target": "r-fftwtools"
+          },
+          {
+            "source": "fftw",
+            "target": "r-poissonbinomial"
+          },
+          {
+            "source": "fftw",
+            "target": "root"
+          },
+          {
+            "source": "fftw",
+            "target": "tempo2"
+          },
+          {
+            "source": "fftw",
+            "target": "tomopy"
+          },
+          {
+            "source": "fftw",
+            "target": "vigra"
+          },
+          {
+            "source": "fftw",
+            "target": "xtensor-fftw"
+          },
+          {
+            "source": "fftw",
+            "target": "yambo"
+          },
+          {
             "source": "fgt",
             "target": "cpd"
           },
@@ -29483,23 +29079,11 @@
           },
           {
             "source": "fmt",
-            "target": "argtable2"
-          },
-          {
-            "source": "fmt",
             "target": "bipedal-locomotion-framework"
           },
           {
             "source": "fmt",
             "target": "cantera"
-          },
-          {
-            "source": "fmt",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "fmt",
-            "target": "conda-standalone"
           },
           {
             "source": "fmt",
@@ -29544,6 +29128,10 @@
           {
             "source": "fmt",
             "target": "libsemigroups"
+          },
+          {
+            "source": "fmt",
+            "target": "lief"
           },
           {
             "source": "fmt",
@@ -29623,14 +29211,6 @@
           },
           {
             "source": "fontconfig",
-            "target": "dartsim"
-          },
-          {
-            "source": "fontconfig",
-            "target": "djvulibre"
-          },
-          {
-            "source": "fontconfig",
             "target": "dovi_tool"
           },
           {
@@ -29644,14 +29224,6 @@
           {
             "source": "fontconfig",
             "target": "git"
-          },
-          {
-            "source": "fontconfig",
-            "target": "graph-tool"
-          },
-          {
-            "source": "fontconfig",
-            "target": "graphviz"
           },
           {
             "source": "fontconfig",
@@ -29672,6 +29244,10 @@
           {
             "source": "fontconfig",
             "target": "libgd"
+          },
+          {
+            "source": "fontconfig",
+            "target": "librsvg"
           },
           {
             "source": "fontconfig",
@@ -29704,6 +29280,10 @@
           {
             "source": "fontconfig",
             "target": "openmotif"
+          },
+          {
+            "source": "fontconfig",
+            "target": "openscenegraph"
           },
           {
             "source": "fontconfig",
@@ -29751,15 +29331,7 @@
           },
           {
             "source": "fontconfig",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "fontconfig",
             "target": "r-tkrplot"
-          },
-          {
-            "source": "fontconfig",
-            "target": "root"
           },
           {
             "source": "fontconfig",
@@ -29883,14 +29455,6 @@
           },
           {
             "source": "freetype",
-            "target": "dartsim"
-          },
-          {
-            "source": "freetype",
-            "target": "djvulibre"
-          },
-          {
-            "source": "freetype",
             "target": "dovi_tool"
           },
           {
@@ -29931,15 +29495,7 @@
           },
           {
             "source": "freetype",
-            "target": "graph-tool"
-          },
-          {
-            "source": "freetype",
             "target": "graphicsmagick"
-          },
-          {
-            "source": "freetype",
-            "target": "graphviz"
           },
           {
             "source": "freetype",
@@ -29972,6 +29528,10 @@
           {
             "source": "freetype",
             "target": "libraqm"
+          },
+          {
+            "source": "freetype",
+            "target": "librsvg"
           },
           {
             "source": "freetype",
@@ -30036,6 +29596,10 @@
           {
             "source": "freetype",
             "target": "openmotif"
+          },
+          {
+            "source": "freetype",
+            "target": "openscenegraph"
           },
           {
             "source": "freetype",
@@ -30104,10 +29668,6 @@
           {
             "source": "freetype",
             "target": "r-rgl"
-          },
-          {
-            "source": "freetype",
-            "target": "r-rsvg"
           },
           {
             "source": "freetype",
@@ -30403,15 +29963,7 @@
           },
           {
             "source": "gdk-pixbuf",
-            "target": "djvulibre"
-          },
-          {
-            "source": "gdk-pixbuf",
             "target": "emacs"
-          },
-          {
-            "source": "gdk-pixbuf",
-            "target": "ffmpeg"
           },
           {
             "source": "gdk-pixbuf",
@@ -30431,15 +29983,7 @@
           },
           {
             "source": "gdk-pixbuf",
-            "target": "imagemagick"
-          },
-          {
-            "source": "gdk-pixbuf",
-            "target": "libvips"
-          },
-          {
-            "source": "gdk-pixbuf",
-            "target": "r-rsvg"
+            "target": "librsvg"
           },
           {
             "source": "gdk-pixbuf",
@@ -31143,14 +30687,6 @@
           },
           {
             "source": "gettext",
-            "target": "abacus"
-          },
-          {
-            "source": "gettext",
-            "target": "ambertools"
-          },
-          {
-            "source": "gettext",
             "target": "at-spi2-core"
           },
           {
@@ -31159,19 +30695,7 @@
           },
           {
             "source": "gettext",
-            "target": "bayeswave"
-          },
-          {
-            "source": "gettext",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "gettext",
             "target": "chktex"
-          },
-          {
-            "source": "gettext",
-            "target": "cvxopt"
           },
           {
             "source": "gettext",
@@ -31187,6 +30711,10 @@
           },
           {
             "source": "gettext",
+            "target": "fftw"
+          },
+          {
+            "source": "gettext",
             "target": "findutils"
           },
           {
@@ -31199,19 +30727,11 @@
           },
           {
             "source": "gettext",
-            "target": "galsim"
-          },
-          {
-            "source": "gettext",
             "target": "gawk"
           },
           {
             "source": "gettext",
             "target": "gdk-pixbuf"
-          },
-          {
-            "source": "gettext",
-            "target": "gds"
           },
           {
             "source": "gettext",
@@ -31231,27 +30751,11 @@
           },
           {
             "source": "gettext",
-            "target": "gmt"
-          },
-          {
-            "source": "gettext",
             "target": "gnucobol"
           },
           {
             "source": "gettext",
-            "target": "gnuradio"
-          },
-          {
-            "source": "gettext",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "gettext",
             "target": "grep"
-          },
-          {
-            "source": "gettext",
-            "target": "gromacs"
           },
           {
             "source": "gettext",
@@ -31263,18 +30767,6 @@
           },
           {
             "source": "gettext",
-            "target": "gstlal"
-          },
-          {
-            "source": "gettext",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "gettext",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "gettext",
             "target": "gstreamer"
           },
           {
@@ -31283,35 +30775,7 @@
           },
           {
             "source": "gettext",
-            "target": "hackrf"
-          },
-          {
-            "source": "gettext",
-            "target": "heffte"
-          },
-          {
-            "source": "gettext",
-            "target": "imagemagick"
-          },
-          {
-            "source": "gettext",
-            "target": "isce3"
-          },
-          {
-            "source": "gettext",
             "target": "krb5"
-          },
-          {
-            "source": "gettext",
-            "target": "lal"
-          },
-          {
-            "source": "gettext",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "gettext",
-            "target": "lammps"
           },
           {
             "source": "gettext",
@@ -31335,10 +30799,6 @@
           },
           {
             "source": "gettext",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "gettext",
             "target": "libsecret"
           },
           {
@@ -31347,15 +30807,7 @@
           },
           {
             "source": "gettext",
-            "target": "libvips"
-          },
-          {
-            "source": "gettext",
             "target": "libxcb"
-          },
-          {
-            "source": "gettext",
-            "target": "metview"
           },
           {
             "source": "gettext",
@@ -31368,18 +30820,6 @@
           {
             "source": "gettext",
             "target": "nordugrid-arc"
-          },
-          {
-            "source": "gettext",
-            "target": "octave"
-          },
-          {
-            "source": "gettext",
-            "target": "petsc"
-          },
-          {
-            "source": "gettext",
-            "target": "plumed"
           },
           {
             "source": "gettext",
@@ -31403,31 +30843,7 @@
           },
           {
             "source": "gettext",
-            "target": "pycbc"
-          },
-          {
-            "source": "gettext",
-            "target": "pyfftw"
-          },
-          {
-            "source": "gettext",
-            "target": "pyshtools"
-          },
-          {
-            "source": "gettext",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "gettext",
-            "target": "r-poissonbinomial"
-          },
-          {
-            "source": "gettext",
             "target": "rabbitmq-server"
-          },
-          {
-            "source": "gettext",
-            "target": "root"
           },
           {
             "source": "gettext",
@@ -31451,23 +30867,11 @@
           },
           {
             "source": "gettext",
-            "target": "tempo2"
-          },
-          {
-            "source": "gettext",
             "target": "texinfo"
           },
           {
             "source": "gettext",
-            "target": "tomopy"
-          },
-          {
-            "source": "gettext",
             "target": "util-linux"
-          },
-          {
-            "source": "gettext",
-            "target": "vigra"
           },
           {
             "source": "gettext",
@@ -31568,14 +30972,6 @@
           {
             "source": "gettext",
             "target": "xsel"
-          },
-          {
-            "source": "gettext",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "gettext",
-            "target": "yambo"
           },
           {
             "source": "gfal2",
@@ -32783,10 +32179,6 @@
           },
           {
             "source": "giflib",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "giflib",
             "target": "gdal"
           },
           {
@@ -32803,15 +32195,11 @@
           },
           {
             "source": "giflib",
-            "target": "libvips"
+            "target": "libjxl-split"
           },
           {
             "source": "giflib",
             "target": "libwebp"
-          },
-          {
-            "source": "giflib",
-            "target": "opencv"
           },
           {
             "source": "giflib",
@@ -33395,10 +32783,6 @@
           },
           {
             "source": "glib",
-            "target": "djvulibre"
-          },
-          {
-            "source": "glib",
             "target": "emacs"
           },
           {
@@ -33520,6 +32904,10 @@
           {
             "source": "glib",
             "target": "libmemcached"
+          },
+          {
+            "source": "glib",
+            "target": "librsvg"
           },
           {
             "source": "glib",
@@ -34375,27 +33763,7 @@
           },
           {
             "source": "gobject-introspection",
-            "target": "djvulibre"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "emacs"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "gobject-introspection",
             "target": "gdk-pixbuf"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "graph-tool"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "graphviz"
           },
           {
             "source": "gobject-introspection",
@@ -34439,7 +33807,7 @@
           },
           {
             "source": "gobject-introspection",
-            "target": "imagemagick"
+            "target": "librsvg"
           },
           {
             "source": "gobject-introspection",
@@ -34464,14 +33832,6 @@
           {
             "source": "gobject-introspection",
             "target": "pygobject"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "root"
           },
           {
             "source": "gobject-introspection",
@@ -34591,10 +33951,6 @@
           },
           {
             "source": "graphviz",
-            "target": "dartsim"
-          },
-          {
-            "source": "graphviz",
             "target": "freecad"
           },
           {
@@ -34612,6 +33968,10 @@
           {
             "source": "graphviz",
             "target": "nutpie"
+          },
+          {
+            "source": "graphviz",
+            "target": "openscenegraph"
           },
           {
             "source": "graphviz",
@@ -35991,10 +35351,6 @@
           },
           {
             "source": "harfbuzz",
-            "target": "djvulibre"
-          },
-          {
-            "source": "harfbuzz",
             "target": "emacs"
           },
           {
@@ -36011,14 +35367,6 @@
           },
           {
             "source": "harfbuzz",
-            "target": "graph-tool"
-          },
-          {
-            "source": "harfbuzz",
-            "target": "graphviz"
-          },
-          {
-            "source": "harfbuzz",
             "target": "gstreamer"
           },
           {
@@ -36031,15 +35379,15 @@
           },
           {
             "source": "harfbuzz",
-            "target": "imagemagick"
-          },
-          {
-            "source": "harfbuzz",
             "target": "libass"
           },
           {
             "source": "harfbuzz",
             "target": "libraqm"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "librsvg"
           },
           {
             "source": "harfbuzz",
@@ -36083,15 +35431,7 @@
           },
           {
             "source": "harfbuzz",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "harfbuzz",
             "target": "r-textshaping"
-          },
-          {
-            "source": "harfbuzz",
-            "target": "root"
           },
           {
             "source": "harfbuzz",
@@ -36148,6 +35488,10 @@
           {
             "source": "hdf4",
             "target": "pyhdf"
+          },
+          {
+            "source": "hdf5",
+            "target": "abinit"
           },
           {
             "source": "hdf5",
@@ -38335,6 +37679,10 @@
           },
           {
             "source": "lapack",
+            "target": "abinit"
+          },
+          {
+            "source": "lapack",
             "target": "ambertools"
           },
           {
@@ -40218,6 +39566,110 @@
             "target": "torchvision"
           },
           {
+            "source": "libcusparse",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cuda-libraries-static"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cupy"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cuquantum"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
+            "target": "dgl"
+          },
+          {
+            "source": "libcusparse",
+            "target": "flash-attn"
+          },
+          {
+            "source": "libcusparse",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "libcusparse",
+            "target": "gauxc"
+          },
+          {
+            "source": "libcusparse",
+            "target": "jaxlib"
+          },
+          {
+            "source": "libcusparse",
+            "target": "kaolin"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libcuest"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libcusolver"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libmagma"
+          },
+          {
+            "source": "libcusparse",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "libcusparse",
+            "target": "nvmath"
+          },
+          {
+            "source": "libcusparse",
+            "target": "onnxruntime"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pennylane-lightning-gpu"
+          },
+          {
+            "source": "libcusparse",
+            "target": "petsc"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pyg-lib"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "libcusparse",
+            "target": "slepc"
+          },
+          {
+            "source": "libcusparse",
+            "target": "tensorflow"
+          },
+          {
+            "source": "libcusparse",
+            "target": "torchvision"
+          },
+          {
             "source": "libcxx",
             "target": "abacus"
           },
@@ -41507,6 +40959,10 @@
           },
           {
             "source": "libglvnd",
+            "target": "openscenegraph"
+          },
+          {
+            "source": "libglvnd",
             "target": "opensubdiv"
           },
           {
@@ -41779,31 +41235,11 @@
           },
           {
             "source": "libhwy",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libhwy",
-            "target": "gdal"
-          },
-          {
-            "source": "libhwy",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "libhwy",
-            "target": "imagemagick"
+            "target": "libjxl-split"
           },
           {
             "source": "libhwy",
             "target": "libvips"
-          },
-          {
-            "source": "libhwy",
-            "target": "opencv"
-          },
-          {
-            "source": "libhwy",
-            "target": "openimageio"
           },
           {
             "source": "libi2c",
@@ -42139,19 +41575,11 @@
           },
           {
             "source": "libjpeg-turbo",
-            "target": "dartsim"
-          },
-          {
-            "source": "libjpeg-turbo",
             "target": "djvulibre"
           },
           {
             "source": "libjpeg-turbo",
             "target": "emacs"
-          },
-          {
-            "source": "libjpeg-turbo",
-            "target": "ffmpeg"
           },
           {
             "source": "libjpeg-turbo",
@@ -42231,6 +41659,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "libnvimgcodec"
           },
           {
@@ -42280,6 +41712,10 @@
           {
             "source": "libjpeg-turbo",
             "target": "openmotif"
+          },
+          {
+            "source": "libjpeg-turbo",
+            "target": "openscenegraph"
           },
           {
             "source": "libjpeg-turbo",
@@ -42370,6 +41806,34 @@
             "target": "yarp"
           },
           {
+            "source": "libjxl-split",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "gdal"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "imagemagick"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "libvips"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "opencv"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "openimageio"
+          },
+          {
             "source": "libkml",
             "target": "gdal"
           },
@@ -42452,6 +41916,10 @@
           {
             "source": "libmongoc",
             "target": "libmongocxx"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "abinit"
           },
           {
             "source": "libnetcdf",
@@ -42635,10 +42103,6 @@
           },
           {
             "source": "libnvjitlink",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "libnvjitlink",
             "target": "cuda-libraries"
           },
           {
@@ -42655,39 +42119,11 @@
           },
           {
             "source": "libnvjitlink",
-            "target": "cupy"
-          },
-          {
-            "source": "libnvjitlink",
             "target": "cuquantum"
           },
           {
             "source": "libnvjitlink",
-            "target": "cusparselt"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "dgl"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "flash-attn"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "gauxc"
-          },
-          {
-            "source": "libnvjitlink",
             "target": "jaxlib"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "kaolin"
           },
           {
             "source": "libnvjitlink",
@@ -42699,7 +42135,7 @@
           },
           {
             "source": "libnvjitlink",
-            "target": "libmagma"
+            "target": "libcusparse"
           },
           {
             "source": "libnvjitlink",
@@ -42707,43 +42143,7 @@
           },
           {
             "source": "libnvjitlink",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "nvmath"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "pennylane-lightning-gpu"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "petsc"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "pyg-lib"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "pytorch_scatter"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "slepc"
-          },
-          {
-            "source": "libnvjitlink",
             "target": "tensorflow"
-          },
-          {
-            "source": "libnvjitlink",
-            "target": "torchvision"
           },
           {
             "source": "libnvjitlink",
@@ -42991,15 +42391,7 @@
           },
           {
             "source": "libpng",
-            "target": "dartsim"
-          },
-          {
-            "source": "libpng",
             "target": "dcmtk"
-          },
-          {
-            "source": "libpng",
-            "target": "djvulibre"
           },
           {
             "source": "libpng",
@@ -43008,10 +42400,6 @@
           {
             "source": "libpng",
             "target": "emacs"
-          },
-          {
-            "source": "libpng",
-            "target": "ffmpeg"
           },
           {
             "source": "libpng",
@@ -43055,23 +42443,11 @@
           },
           {
             "source": "libpng",
-            "target": "graph-tool"
-          },
-          {
-            "source": "libpng",
             "target": "graphicsmagick"
           },
           {
             "source": "libpng",
-            "target": "graphviz"
-          },
-          {
-            "source": "libpng",
             "target": "gstreamer"
-          },
-          {
-            "source": "libpng",
-            "target": "gtk3"
           },
           {
             "source": "libpng",
@@ -43111,7 +42487,15 @@
           },
           {
             "source": "libpng",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "libpng",
             "target": "libqrencode"
+          },
+          {
+            "source": "libpng",
+            "target": "librsvg"
           },
           {
             "source": "libpng",
@@ -43160,6 +42544,10 @@
           {
             "source": "libpng",
             "target": "openmotif"
+          },
+          {
+            "source": "libpng",
+            "target": "openscenegraph"
           },
           {
             "source": "libpng",
@@ -43220,10 +42608,6 @@
           {
             "source": "libpng",
             "target": "r-rgl"
-          },
-          {
-            "source": "libpng",
-            "target": "r-rsvg"
           },
           {
             "source": "libpng",
@@ -43538,6 +42922,46 @@
             "target": "human-dynamics-estimation"
           },
           {
+            "source": "librsvg",
+            "target": "djvulibre"
+          },
+          {
+            "source": "librsvg",
+            "target": "emacs"
+          },
+          {
+            "source": "librsvg",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "librsvg",
+            "target": "graph-tool"
+          },
+          {
+            "source": "librsvg",
+            "target": "graphviz"
+          },
+          {
+            "source": "librsvg",
+            "target": "gtk3"
+          },
+          {
+            "source": "librsvg",
+            "target": "imagemagick"
+          },
+          {
+            "source": "librsvg",
+            "target": "libvips"
+          },
+          {
+            "source": "librsvg",
+            "target": "r-rsvg"
+          },
+          {
+            "source": "librsvg",
+            "target": "root"
+          },
+          {
             "source": "librttopo",
             "target": "libspatialite"
           },
@@ -43731,10 +43155,6 @@
           },
           {
             "source": "libtiff",
-            "target": "dartsim"
-          },
-          {
-            "source": "libtiff",
             "target": "dcmtk"
           },
           {
@@ -43816,6 +43236,10 @@
           {
             "source": "libtiff",
             "target": "openjph"
+          },
+          {
+            "source": "libtiff",
+            "target": "openscenegraph"
           },
           {
             "source": "libtiff",
@@ -43932,6 +43356,10 @@
           {
             "source": "libtool",
             "target": "abacus"
+          },
+          {
+            "source": "libtool",
+            "target": "abinit"
           },
           {
             "source": "libtool",
@@ -44403,18 +43831,6 @@
           },
           {
             "source": "libtool",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "libtool",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "libtool",
-            "target": "cuda-libraries-static"
-          },
-          {
-            "source": "libtool",
             "target": "cuda-nsight"
           },
           {
@@ -44475,10 +43891,6 @@
           },
           {
             "source": "libtool",
-            "target": "cupy"
-          },
-          {
-            "source": "libtool",
             "target": "cuquantum"
           },
           {
@@ -44504,10 +43916,6 @@
           {
             "source": "libtool",
             "target": "cyrus-sasl"
-          },
-          {
-            "source": "libtool",
-            "target": "dartsim"
           },
           {
             "source": "libtool",
@@ -44719,6 +44127,10 @@
           },
           {
             "source": "libtool",
+            "target": "fftw"
+          },
+          {
+            "source": "libtool",
             "target": "fgt"
           },
           {
@@ -44819,10 +44231,6 @@
           },
           {
             "source": "libtool",
-            "target": "fvdb-core"
-          },
-          {
-            "source": "libtool",
             "target": "g2clib"
           },
           {
@@ -44848,10 +44256,6 @@
           {
             "source": "libtool",
             "target": "gct"
-          },
-          {
-            "source": "libtool",
-            "target": "gdal"
           },
           {
             "source": "libtool",
@@ -45007,14 +44411,6 @@
           },
           {
             "source": "libtool",
-            "target": "gnuradio"
-          },
-          {
-            "source": "libtool",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "libtool",
             "target": "gnuradio-osmosdr"
           },
           {
@@ -45155,10 +44551,6 @@
           },
           {
             "source": "libtool",
-            "target": "hackrf"
-          },
-          {
-            "source": "libtool",
             "target": "harfbuzz"
           },
           {
@@ -45275,10 +44667,6 @@
           },
           {
             "source": "libtool",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "libtool",
             "target": "imagemagick"
           },
           {
@@ -45327,10 +44715,6 @@
           },
           {
             "source": "libtool",
-            "target": "isce3"
-          },
-          {
-            "source": "libtool",
             "target": "isl"
           },
           {
@@ -45352,10 +44736,6 @@
           {
             "source": "libtool",
             "target": "jasper"
-          },
-          {
-            "source": "libtool",
-            "target": "jaxlib"
           },
           {
             "source": "libtool",
@@ -45392,10 +44772,6 @@
           {
             "source": "libtool",
             "target": "kahip"
-          },
-          {
-            "source": "libtool",
-            "target": "kaolin"
           },
           {
             "source": "libtool",
@@ -45671,6 +45047,10 @@
           },
           {
             "source": "libtool",
+            "target": "libcusparse"
+          },
+          {
+            "source": "libtool",
             "target": "libcxx"
           },
           {
@@ -45804,6 +45184,10 @@
           {
             "source": "libtool",
             "target": "libjpeg-turbo"
+          },
+          {
+            "source": "libtool",
+            "target": "libjxl-split"
           },
           {
             "source": "libtool",
@@ -45972,6 +45356,10 @@
           {
             "source": "libtool",
             "target": "librdkafka"
+          },
+          {
+            "source": "libtool",
+            "target": "librsvg"
           },
           {
             "source": "libtool",
@@ -46272,10 +45660,6 @@
           {
             "source": "libtool",
             "target": "metaio"
-          },
-          {
-            "source": "libtool",
-            "target": "metis"
           },
           {
             "source": "libtool",
@@ -46583,19 +45967,11 @@
           },
           {
             "source": "libtool",
-            "target": "nvidia-apex"
-          },
-          {
-            "source": "libtool",
             "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "libtool",
             "target": "nvimgcodec"
-          },
-          {
-            "source": "libtool",
-            "target": "nvmath"
           },
           {
             "source": "libtool",
@@ -46663,10 +46039,6 @@
           },
           {
             "source": "libtool",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "libtool",
             "target": "opam"
           },
           {
@@ -46724,6 +46096,10 @@
           {
             "source": "libtool",
             "target": "openpmix"
+          },
+          {
+            "source": "libtool",
+            "target": "openscenegraph"
           },
           {
             "source": "libtool",
@@ -47231,10 +46607,6 @@
           },
           {
             "source": "libtool",
-            "target": "pyfftw"
-          },
-          {
-            "source": "libtool",
             "target": "pyg-lib"
           },
           {
@@ -47324,10 +46696,6 @@
           {
             "source": "libtool",
             "target": "python-symengine"
-          },
-          {
-            "source": "libtool",
-            "target": "pytorch_scatter"
           },
           {
             "source": "libtool",
@@ -49919,10 +49287,6 @@
           },
           {
             "source": "libtool",
-            "target": "torchvision"
-          },
-          {
-            "source": "libtool",
             "target": "tree"
           },
           {
@@ -50882,12 +50246,12 @@
             "target": "abacus"
           },
           {
-            "source": "libxcb",
-            "target": "cairo"
+            "source": "libxc",
+            "target": "abinit"
           },
           {
             "source": "libxcb",
-            "target": "dartsim"
+            "target": "cairo"
           },
           {
             "source": "libxcb",
@@ -50928,6 +50292,10 @@
           {
             "source": "libxcb",
             "target": "nsight-compute"
+          },
+          {
+            "source": "libxcb",
+            "target": "openscenegraph"
           },
           {
             "source": "libxcb",
@@ -51003,10 +50371,6 @@
           },
           {
             "source": "libxcrypt",
-            "target": "abacus"
-          },
-          {
-            "source": "libxcrypt",
             "target": "ace"
           },
           {
@@ -51031,15 +50395,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "bayeswave"
-          },
-          {
-            "source": "libxcrypt",
             "target": "bison"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "cds-crtools"
           },
           {
             "source": "libxcrypt",
@@ -51048,10 +50404,6 @@
           {
             "source": "libxcrypt",
             "target": "curl"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "cvxopt"
           },
           {
             "source": "libxcrypt",
@@ -51075,15 +50427,11 @@
           },
           {
             "source": "libxcrypt",
-            "target": "galsim"
+            "target": "fftw"
           },
           {
             "source": "libxcrypt",
             "target": "gct"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gds"
           },
           {
             "source": "libxcrypt",
@@ -51092,18 +50440,6 @@
           {
             "source": "libxcrypt",
             "target": "git"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gmt"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gnuradio"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gnuradio-iqbalance"
           },
           {
             "source": "libxcrypt",
@@ -51119,27 +50455,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "gstlal"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "libxcrypt",
             "target": "gtk2"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "hackrf"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "heffte"
           },
           {
             "source": "libxcrypt",
@@ -51155,15 +50471,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "imagemagick"
-          },
-          {
-            "source": "libxcrypt",
             "target": "inetutils"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "isce3"
           },
           {
             "source": "libxcrypt",
@@ -51172,18 +50480,6 @@
           {
             "source": "libxcrypt",
             "target": "julia"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "lal"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "lammps"
           },
           {
             "source": "libxcrypt",
@@ -51203,14 +50499,6 @@
           },
           {
             "source": "libxcrypt",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "libvips"
-          },
-          {
-            "source": "libxcrypt",
             "target": "libxc"
           },
           {
@@ -51220,10 +50508,6 @@
           {
             "source": "libxcrypt",
             "target": "matrixswitch"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "metview"
           },
           {
             "source": "libxcrypt",
@@ -51475,31 +50759,7 @@
           },
           {
             "source": "libxcrypt",
-            "target": "petsc"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "plumed"
-          },
-          {
-            "source": "libxcrypt",
             "target": "poppler"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "pycbc"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "pyfftw"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "pyshtools"
           },
           {
             "source": "libxcrypt",
@@ -51555,19 +50815,11 @@
           },
           {
             "source": "libxcrypt",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "libxcrypt",
             "target": "r-ggiraph"
           },
           {
             "source": "libxcrypt",
             "target": "r-mapdeck"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "libxcrypt",
@@ -51587,19 +50839,11 @@
           },
           {
             "source": "libxcrypt",
-            "target": "root"
-          },
-          {
-            "source": "libxcrypt",
             "target": "ruby"
           },
           {
             "source": "libxcrypt",
             "target": "tcsh"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "tempo2"
           },
           {
             "source": "libxcrypt",
@@ -51615,19 +50859,11 @@
           },
           {
             "source": "libxcrypt",
-            "target": "tomopy"
-          },
-          {
-            "source": "libxcrypt",
             "target": "util-linux"
           },
           {
             "source": "libxcrypt",
             "target": "valgrind"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "vigra"
           },
           {
             "source": "libxcrypt",
@@ -51644,14 +50880,6 @@
           {
             "source": "libxcrypt",
             "target": "xrootd"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "libxcrypt",
-            "target": "yambo"
           },
           {
             "source": "libxc",
@@ -51831,10 +51059,6 @@
           },
           {
             "source": "libxml2",
-            "target": "djvulibre"
-          },
-          {
-            "source": "libxml2",
             "target": "dmlc"
           },
           {
@@ -51927,10 +51151,6 @@
           },
           {
             "source": "libxml2",
-            "target": "graphviz"
-          },
-          {
-            "source": "libxml2",
             "target": "gromacs"
           },
           {
@@ -51944,10 +51164,6 @@
           {
             "source": "libxml2",
             "target": "gstreamer"
-          },
-          {
-            "source": "libxml2",
-            "target": "gtk3"
           },
           {
             "source": "libxml2",
@@ -52076,6 +51292,10 @@
           {
             "source": "libxml2",
             "target": "libraw"
+          },
+          {
+            "source": "libxml2",
+            "target": "librsvg"
           },
           {
             "source": "libxml2",
@@ -52467,10 +51687,6 @@
           },
           {
             "source": "libxml2",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "libxml2",
             "target": "r-sitmo"
           },
           {
@@ -52712,6 +51928,18 @@
           {
             "source": "libzopfli",
             "target": "imagecodecs"
+          },
+          {
+            "source": "lief",
+            "target": "argtable2"
+          },
+          {
+            "source": "lief",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "lief",
+            "target": "conda-standalone"
           },
           {
             "source": "lightgbm",
@@ -54227,11 +53455,7 @@
           },
           {
             "source": "m4",
-            "target": "abacus"
-          },
-          {
-            "source": "m4",
-            "target": "ambertools"
+            "target": "abinit"
           },
           {
             "source": "m4",
@@ -54243,23 +53467,11 @@
           },
           {
             "source": "m4",
-            "target": "bayeswave"
-          },
-          {
-            "source": "m4",
             "target": "bison"
           },
           {
             "source": "m4",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "m4",
             "target": "clingo"
-          },
-          {
-            "source": "m4",
-            "target": "cvxopt"
           },
           {
             "source": "m4",
@@ -54283,6 +53495,10 @@
           },
           {
             "source": "m4",
+            "target": "fftw"
+          },
+          {
+            "source": "m4",
             "target": "flex"
           },
           {
@@ -54295,14 +53511,6 @@
           },
           {
             "source": "m4",
-            "target": "galsim"
-          },
-          {
-            "source": "m4",
-            "target": "gds"
-          },
-          {
-            "source": "m4",
             "target": "giac"
           },
           {
@@ -54311,63 +53519,7 @@
           },
           {
             "source": "m4",
-            "target": "gmt"
-          },
-          {
-            "source": "m4",
-            "target": "gnuradio"
-          },
-          {
-            "source": "m4",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "m4",
-            "target": "gromacs"
-          },
-          {
-            "source": "m4",
-            "target": "gstlal"
-          },
-          {
-            "source": "m4",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "m4",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "m4",
-            "target": "hackrf"
-          },
-          {
-            "source": "m4",
-            "target": "heffte"
-          },
-          {
-            "source": "m4",
-            "target": "imagemagick"
-          },
-          {
-            "source": "m4",
             "target": "inetutils"
-          },
-          {
-            "source": "m4",
-            "target": "isce3"
-          },
-          {
-            "source": "m4",
-            "target": "lal"
-          },
-          {
-            "source": "m4",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "m4",
-            "target": "lammps"
           },
           {
             "source": "m4",
@@ -54399,10 +53551,6 @@
           },
           {
             "source": "m4",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "m4",
             "target": "libpcap"
           },
           {
@@ -54423,10 +53571,6 @@
           },
           {
             "source": "m4",
-            "target": "libvips"
-          },
-          {
-            "source": "m4",
             "target": "libxkbcommon"
           },
           {
@@ -54436,10 +53580,6 @@
           {
             "source": "m4",
             "target": "m4ri"
-          },
-          {
-            "source": "m4",
-            "target": "metview"
           },
           {
             "source": "m4",
@@ -54467,18 +53607,6 @@
           },
           {
             "source": "m4",
-            "target": "octave"
-          },
-          {
-            "source": "m4",
-            "target": "petsc"
-          },
-          {
-            "source": "m4",
-            "target": "plumed"
-          },
-          {
-            "source": "m4",
             "target": "ppl"
           },
           {
@@ -54487,31 +53615,11 @@
           },
           {
             "source": "m4",
-            "target": "pycbc"
-          },
-          {
-            "source": "m4",
-            "target": "pyfftw"
-          },
-          {
-            "source": "m4",
-            "target": "pyshtools"
-          },
-          {
-            "source": "m4",
             "target": "qd"
           },
           {
             "source": "m4",
             "target": "qgis"
-          },
-          {
-            "source": "m4",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "m4",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "m4ri",
@@ -54539,10 +53647,6 @@
           },
           {
             "source": "m4",
-            "target": "root"
-          },
-          {
-            "source": "m4",
             "target": "rw"
           },
           {
@@ -54559,19 +53663,7 @@
           },
           {
             "source": "m4",
-            "target": "tempo2"
-          },
-          {
-            "source": "m4",
             "target": "tmux"
-          },
-          {
-            "source": "m4",
-            "target": "tomopy"
-          },
-          {
-            "source": "m4",
-            "target": "vigra"
           },
           {
             "source": "m4",
@@ -54580,10 +53672,6 @@
           {
             "source": "m4",
             "target": "xcb-util-wm"
-          },
-          {
-            "source": "m4",
-            "target": "xtensor-fftw"
           },
           {
             "source": "m4",
@@ -54739,10 +53827,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "djvulibre"
-          },
-          {
-            "source": "markupsafe",
             "target": "dpct-meta"
           },
           {
@@ -54755,10 +53839,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "emacs"
-          },
-          {
-            "source": "markupsafe",
             "target": "fabio"
           },
           {
@@ -54768,10 +53848,6 @@
           {
             "source": "markupsafe",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "markupsafe",
-            "target": "ffmpeg"
           },
           {
             "source": "markupsafe",
@@ -54803,19 +53879,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "graph-tool"
-          },
-          {
-            "source": "markupsafe",
-            "target": "graphviz"
-          },
-          {
-            "source": "markupsafe",
             "target": "gstlal"
-          },
-          {
-            "source": "markupsafe",
-            "target": "gtk3"
           },
           {
             "source": "markupsafe",
@@ -54875,10 +53939,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "imagemagick"
-          },
-          {
-            "source": "markupsafe",
             "target": "indexed_gzip"
           },
           {
@@ -54927,7 +53987,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "libvips"
+            "target": "librsvg"
           },
           {
             "source": "markupsafe",
@@ -55120,10 +54180,6 @@
           {
             "source": "markupsafe",
             "target": "quarto"
-          },
-          {
-            "source": "markupsafe",
-            "target": "r-rsvg"
           },
           {
             "source": "markupsafe",
@@ -55911,15 +54967,7 @@
           },
           {
             "source": "mbedtls",
-            "target": "argtable2"
-          },
-          {
-            "source": "mbedtls",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "mbedtls",
-            "target": "conda-standalone"
+            "target": "lief"
           },
           {
             "source": "mbedtls",
@@ -56024,62 +55072,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -56435,23 +55427,11 @@
           },
           {
             "source": "mpich",
-            "target": "ambertools"
+            "target": "abinit"
           },
           {
             "source": "mpich",
             "target": "arpack"
-          },
-          {
-            "source": "mpich",
-            "target": "bayeswave"
-          },
-          {
-            "source": "mpich",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "mpich",
-            "target": "cvxopt"
           },
           {
             "source": "mpich",
@@ -56471,7 +55451,7 @@
           },
           {
             "source": "mpich",
-            "target": "galsim"
+            "target": "fftw"
           },
           {
             "source": "mpich",
@@ -56479,43 +55459,7 @@
           },
           {
             "source": "mpich",
-            "target": "gds"
-          },
-          {
-            "source": "mpich",
-            "target": "gmt"
-          },
-          {
-            "source": "mpich",
-            "target": "gnuradio"
-          },
-          {
-            "source": "mpich",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "mpich",
-            "target": "gromacs"
-          },
-          {
-            "source": "mpich",
-            "target": "gstlal"
-          },
-          {
-            "source": "mpich",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "mpich",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "mpich",
             "target": "h5py"
-          },
-          {
-            "source": "mpich",
-            "target": "hackrf"
           },
           {
             "source": "mpich",
@@ -56535,23 +55479,7 @@
           },
           {
             "source": "mpich",
-            "target": "imagemagick"
-          },
-          {
-            "source": "mpich",
-            "target": "isce3"
-          },
-          {
-            "source": "mpich",
             "target": "kahip"
-          },
-          {
-            "source": "mpich",
-            "target": "lal"
-          },
-          {
-            "source": "mpich",
-            "target": "lalpulsar"
           },
           {
             "source": "mpich",
@@ -56575,23 +55503,11 @@
           },
           {
             "source": "mpich",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "mpich",
             "target": "libpnetcdf"
           },
           {
             "source": "mpich",
-            "target": "libvips"
-          },
-          {
-            "source": "mpich",
             "target": "matrixswitch"
-          },
-          {
-            "source": "mpich",
-            "target": "metview"
           },
           {
             "source": "mpich",
@@ -56635,10 +55551,6 @@
           },
           {
             "source": "mpich",
-            "target": "octave"
-          },
-          {
-            "source": "mpich",
             "target": "parallelio"
           },
           {
@@ -56659,35 +55571,7 @@
           },
           {
             "source": "mpich",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "mpich",
-            "target": "pycbc"
-          },
-          {
-            "source": "mpich",
-            "target": "pyfftw"
-          },
-          {
-            "source": "mpich",
             "target": "pymdi"
-          },
-          {
-            "source": "mpich",
-            "target": "pyshtools"
-          },
-          {
-            "source": "mpich",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "mpich",
-            "target": "r-poissonbinomial"
-          },
-          {
-            "source": "mpich",
-            "target": "root"
           },
           {
             "source": "mpich",
@@ -56707,27 +55591,7 @@
           },
           {
             "source": "mpich",
-            "target": "tempo2"
-          },
-          {
-            "source": "mpich",
-            "target": "tomopy"
-          },
-          {
-            "source": "mpich",
             "target": "trexio"
-          },
-          {
-            "source": "mpich",
-            "target": "vigra"
-          },
-          {
-            "source": "mpich",
-            "target": "xtensor-fftw"
-          },
-          {
-            "source": "mpich",
-            "target": "yambo"
           },
           {
             "source": "mppp",
@@ -57347,6 +56211,10 @@
           },
           {
             "source": "netcdf-fortran",
+            "target": "abinit"
+          },
+          {
+            "source": "netcdf-fortran",
             "target": "ambertools"
           },
           {
@@ -57460,10 +56328,6 @@
           {
             "source": "ninja",
             "target": "argon2-cffi-bindings"
-          },
-          {
-            "source": "ninja",
-            "target": "argtable2"
           },
           {
             "source": "ninja",
@@ -57743,14 +56607,6 @@
           },
           {
             "source": "ninja",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "ninja",
-            "target": "conda-standalone"
-          },
-          {
-            "source": "ninja",
             "target": "connectorx"
           },
           {
@@ -57891,10 +56747,6 @@
           },
           {
             "source": "ninja",
-            "target": "djvulibre"
-          },
-          {
-            "source": "ninja",
             "target": "dkh"
           },
           {
@@ -57928,10 +56780,6 @@
           {
             "source": "ninja",
             "target": "elsi"
-          },
-          {
-            "source": "ninja",
-            "target": "emacs"
           },
           {
             "source": "ninja",
@@ -58155,10 +57003,6 @@
           },
           {
             "source": "ninja",
-            "target": "graphviz"
-          },
-          {
-            "source": "ninja",
             "target": "gromacs"
           },
           {
@@ -58320,10 +57164,6 @@
           {
             "source": "ninja",
             "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "ninja",
-            "target": "imagemagick"
           },
           {
             "source": "ninja",
@@ -58691,6 +57531,10 @@
           },
           {
             "source": "ninja",
+            "target": "librsvg"
+          },
+          {
+            "source": "ninja",
             "target": "libsecret"
           },
           {
@@ -58780,6 +57624,10 @@
           {
             "source": "ninja",
             "target": "libzip"
+          },
+          {
+            "source": "ninja",
+            "target": "lief"
           },
           {
             "source": "ninja",
@@ -59543,10 +58391,6 @@
           },
           {
             "source": "ninja",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "ninja",
             "target": "r-sitmo"
           },
           {
@@ -60087,23 +58931,11 @@
           },
           {
             "source": "nlohmann_json",
-            "target": "argtable2"
-          },
-          {
-            "source": "nlohmann_json",
             "target": "arrow-cpp"
           },
           {
             "source": "nlohmann_json",
             "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "nlohmann_json",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "nlohmann_json",
-            "target": "conda-standalone"
           },
           {
             "source": "nlohmann_json",
@@ -60128,6 +58960,10 @@
           {
             "source": "nlohmann_json",
             "target": "librobometry"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "lief"
           },
           {
             "source": "nlohmann_json",
@@ -62795,19 +61631,7 @@
           },
           {
             "source": "openexr",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "openexr",
             "target": "freeimage"
-          },
-          {
-            "source": "openexr",
-            "target": "gdal"
-          },
-          {
-            "source": "openexr",
-            "target": "imagecodecs"
           },
           {
             "source": "openexr",
@@ -62815,7 +61639,7 @@
           },
           {
             "source": "openexr",
-            "target": "libvips"
+            "target": "libjxl-split"
           },
           {
             "source": "openexr",
@@ -63259,19 +62083,7 @@
           },
           {
             "source": "openmpi",
-            "target": "ambertools"
-          },
-          {
-            "source": "openmpi",
             "target": "arpack"
-          },
-          {
-            "source": "openmpi",
-            "target": "bayeswave"
-          },
-          {
-            "source": "openmpi",
-            "target": "cds-crtools"
           },
           {
             "source": "openmpi",
@@ -63280,10 +62092,6 @@
           {
             "source": "openmpi",
             "target": "cutensor"
-          },
-          {
-            "source": "openmpi",
-            "target": "cvxopt"
           },
           {
             "source": "openmpi",
@@ -63303,11 +62111,11 @@
           },
           {
             "source": "openmpi",
-            "target": "fgt"
+            "target": "fftw"
           },
           {
             "source": "openmpi",
-            "target": "galsim"
+            "target": "fgt"
           },
           {
             "source": "openmpi",
@@ -63315,43 +62123,11 @@
           },
           {
             "source": "openmpi",
-            "target": "gds"
-          },
-          {
-            "source": "openmpi",
-            "target": "gmt"
-          },
-          {
-            "source": "openmpi",
-            "target": "gnuradio"
-          },
-          {
-            "source": "openmpi",
-            "target": "gnuradio-iqbalance"
-          },
-          {
-            "source": "openmpi",
             "target": "gromacs"
           },
           {
             "source": "openmpi",
-            "target": "gstlal"
-          },
-          {
-            "source": "openmpi",
-            "target": "gstlal-calibration"
-          },
-          {
-            "source": "openmpi",
-            "target": "gstlal-ugly"
-          },
-          {
-            "source": "openmpi",
             "target": "h5py"
-          },
-          {
-            "source": "openmpi",
-            "target": "hackrf"
           },
           {
             "source": "openmpi",
@@ -63371,14 +62147,6 @@
           },
           {
             "source": "openmpi",
-            "target": "imagemagick"
-          },
-          {
-            "source": "openmpi",
-            "target": "isce3"
-          },
-          {
-            "source": "openmpi",
             "target": "kahip"
           },
           {
@@ -63387,15 +62155,7 @@
           },
           {
             "source": "openmpi",
-            "target": "lal"
-          },
-          {
-            "source": "openmpi",
             "target": "lalinference"
-          },
-          {
-            "source": "openmpi",
-            "target": "lalpulsar"
           },
           {
             "source": "openmpi",
@@ -63427,15 +62187,7 @@
           },
           {
             "source": "openmpi",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "openmpi",
             "target": "libpnetcdf"
-          },
-          {
-            "source": "openmpi",
-            "target": "libvips"
           },
           {
             "source": "openmpi",
@@ -63448,10 +62200,6 @@
           {
             "source": "openmpi",
             "target": "mcxtrace-suite"
-          },
-          {
-            "source": "openmpi",
-            "target": "metview"
           },
           {
             "source": "openmpi",
@@ -63507,10 +62255,6 @@
           },
           {
             "source": "openmpi",
-            "target": "octave"
-          },
-          {
-            "source": "openmpi",
             "target": "opensees"
           },
           {
@@ -63535,35 +62279,7 @@
           },
           {
             "source": "openmpi",
-            "target": "pulseaudio"
-          },
-          {
-            "source": "openmpi",
-            "target": "pycbc"
-          },
-          {
-            "source": "openmpi",
-            "target": "pyfftw"
-          },
-          {
-            "source": "openmpi",
             "target": "pymdi"
-          },
-          {
-            "source": "openmpi",
-            "target": "pyshtools"
-          },
-          {
-            "source": "openmpi",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "openmpi",
-            "target": "r-poissonbinomial"
-          },
-          {
-            "source": "openmpi",
-            "target": "root"
           },
           {
             "source": "openmpi",
@@ -63583,23 +62299,7 @@
           },
           {
             "source": "openmpi",
-            "target": "tempo2"
-          },
-          {
-            "source": "openmpi",
-            "target": "tomopy"
-          },
-          {
-            "source": "openmpi",
             "target": "trexio"
-          },
-          {
-            "source": "openmpi",
-            "target": "vigra"
-          },
-          {
-            "source": "openmpi",
-            "target": "xtensor-fftw"
           },
           {
             "source": "openmpi",
@@ -64168,6 +62868,10 @@
           {
             "source": "openpyxl",
             "target": "orange3"
+          },
+          {
+            "source": "openscenegraph",
+            "target": "dartsim"
           },
           {
             "source": "openslide",
@@ -65971,23 +64675,11 @@
           },
           {
             "source": "pango",
-            "target": "djvulibre"
-          },
-          {
-            "source": "pango",
             "target": "emacs"
           },
           {
             "source": "pango",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "pango",
             "target": "gnuplot"
-          },
-          {
-            "source": "pango",
-            "target": "graph-tool"
           },
           {
             "source": "pango",
@@ -66015,6 +64707,10 @@
           },
           {
             "source": "pango",
+            "target": "librsvg"
+          },
+          {
+            "source": "pango",
             "target": "libvips"
           },
           {
@@ -66032,14 +64728,6 @@
           {
             "source": "pango",
             "target": "r-base"
-          },
-          {
-            "source": "pango",
-            "target": "r-rsvg"
-          },
-          {
-            "source": "pango",
-            "target": "root"
           },
           {
             "source": "pango",
@@ -68011,6 +66699,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "pkg-config",
             "target": "liblie-group-controllers"
           },
           {
@@ -68111,6 +66803,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "librsvg"
+          },
+          {
+            "source": "pkg-config",
             "target": "libsemigroups"
           },
           {
@@ -68192,6 +66888,10 @@
           {
             "source": "pkg-config",
             "target": "libxnvme"
+          },
+          {
+            "source": "pkg-config",
+            "target": "lief"
           },
           {
             "source": "pkg-config",
@@ -68524,6 +67224,10 @@
           {
             "source": "pkg-config",
             "target": "openpmix"
+          },
+          {
+            "source": "pkg-config",
+            "target": "openscenegraph"
           },
           {
             "source": "pkg-config",
@@ -71787,6 +70491,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "lief"
+          },
+          {
+            "source": "pydantic-core",
             "target": "mcstas-suite"
           },
           {
@@ -73995,18 +72703,6 @@
           },
           {
             "source": "python",
-            "target": "cuda-libraries"
-          },
-          {
-            "source": "python",
-            "target": "cuda-libraries-dev"
-          },
-          {
-            "source": "python",
-            "target": "cuda-libraries-static"
-          },
-          {
-            "source": "python",
             "target": "cuda-nsight"
           },
           {
@@ -74223,10 +72919,6 @@
           },
           {
             "source": "python",
-            "target": "djvulibre"
-          },
-          {
-            "source": "python",
             "target": "dm-tree"
           },
           {
@@ -74407,6 +73099,10 @@
           },
           {
             "source": "python",
+            "target": "fftw"
+          },
+          {
+            "source": "python",
             "target": "findutils"
           },
           {
@@ -74531,10 +73227,6 @@
           },
           {
             "source": "python",
-            "target": "gds"
-          },
-          {
-            "source": "python",
             "target": "geckodriver"
           },
           {
@@ -74640,10 +73332,6 @@
           {
             "source": "python",
             "target": "gmsh"
-          },
-          {
-            "source": "python",
-            "target": "gmt"
           },
           {
             "source": "python",
@@ -74851,10 +73539,6 @@
           },
           {
             "source": "python",
-            "target": "hackrf"
-          },
-          {
-            "source": "python",
             "target": "harfbuzz"
           },
           {
@@ -74888,10 +73572,6 @@
           {
             "source": "python",
             "target": "healpy"
-          },
-          {
-            "source": "python",
-            "target": "heffte"
           },
           {
             "source": "python",
@@ -74976,10 +73656,6 @@
           {
             "source": "python",
             "target": "imagecodecs"
-          },
-          {
-            "source": "python",
-            "target": "imagemagick"
           },
           {
             "source": "python",
@@ -75259,6 +73935,10 @@
           },
           {
             "source": "python",
+            "target": "libcusparse"
+          },
+          {
+            "source": "python",
             "target": "libcxx"
           },
           {
@@ -75427,10 +74107,6 @@
           },
           {
             "source": "python",
-            "target": "libosmo-dsp"
-          },
-          {
-            "source": "python",
             "target": "libosqp"
           },
           {
@@ -75468,6 +74144,10 @@
           {
             "source": "python",
             "target": "librobometry"
+          },
+          {
+            "source": "python",
+            "target": "librsvg"
           },
           {
             "source": "python",
@@ -75544,6 +74224,10 @@
           {
             "source": "python",
             "target": "libxnvme"
+          },
+          {
+            "source": "python",
+            "target": "lief"
           },
           {
             "source": "python",
@@ -76323,10 +75007,6 @@
           },
           {
             "source": "python",
-            "target": "plumed"
-          },
-          {
-            "source": "python",
             "target": "pmw"
           },
           {
@@ -77019,10 +75699,6 @@
           },
           {
             "source": "python",
-            "target": "r-fftwtools"
-          },
-          {
-            "source": "python",
             "target": "r-glmmtmb"
           },
           {
@@ -77036,10 +75712,6 @@
           {
             "source": "python",
             "target": "r-mvnfast"
-          },
-          {
-            "source": "python",
-            "target": "r-poissonbinomial"
           },
           {
             "source": "python",
@@ -77072,10 +75744,6 @@
           {
             "source": "python",
             "target": "r-robusthd"
-          },
-          {
-            "source": "python",
-            "target": "r-rsvg"
           },
           {
             "source": "python",
@@ -77500,10 +76168,6 @@
           {
             "source": "python",
             "target": "tclap"
-          },
-          {
-            "source": "python",
-            "target": "tempo2"
           },
           {
             "source": "python",
@@ -78000,10 +76664,6 @@
           {
             "source": "python",
             "target": "xtb-python"
-          },
-          {
-            "source": "python",
-            "target": "xtensor-fftw"
           },
           {
             "source": "python",
@@ -91011,6 +89671,10 @@
           },
           {
             "source": "rsync",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "rsync",
             "target": "libprotobuf"
           },
           {
@@ -94323,19 +92987,7 @@
           },
           {
             "source": "spdlog",
-            "target": "argtable2"
-          },
-          {
-            "source": "spdlog",
             "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "spdlog",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "spdlog",
-            "target": "conda-standalone"
           },
           {
             "source": "spdlog",
@@ -94376,6 +93028,10 @@
           {
             "source": "spdlog",
             "target": "implicit"
+          },
+          {
+            "source": "spdlog",
+            "target": "lief"
           },
           {
             "source": "spdlog",
@@ -97371,15 +96027,7 @@
           },
           {
             "source": "uv",
-            "target": "djvulibre"
-          },
-          {
-            "source": "uv",
             "target": "easyocr"
-          },
-          {
-            "source": "uv",
-            "target": "emacs"
           },
           {
             "source": "uv",
@@ -97396,10 +96044,6 @@
           {
             "source": "uv",
             "target": "fenics-dolfinx"
-          },
-          {
-            "source": "uv",
-            "target": "ffmpeg"
           },
           {
             "source": "uv",
@@ -97431,18 +96075,6 @@
           },
           {
             "source": "uv",
-            "target": "graph-tool"
-          },
-          {
-            "source": "uv",
-            "target": "graphviz"
-          },
-          {
-            "source": "uv",
-            "target": "gtk3"
-          },
-          {
-            "source": "uv",
             "target": "gymnasium"
           },
           {
@@ -97456,10 +96088,6 @@
           {
             "source": "uv",
             "target": "hypothesis"
-          },
-          {
-            "source": "uv",
-            "target": "imagemagick"
           },
           {
             "source": "uv",
@@ -97487,7 +96115,7 @@
           },
           {
             "source": "uv",
-            "target": "libvips"
+            "target": "librsvg"
           },
           {
             "source": "uvloop",
@@ -97948,10 +96576,6 @@
           {
             "source": "uv",
             "target": "quarto"
-          },
-          {
-            "source": "uv",
-            "target": "r-rsvg"
           },
           {
             "source": "uv",
@@ -100931,11 +99555,11 @@
           },
           {
             "source": "xcb-util-image",
-            "target": "dartsim"
+            "target": "nsight-compute"
           },
           {
             "source": "xcb-util-image",
-            "target": "nsight-compute"
+            "target": "openscenegraph"
           },
           {
             "source": "xcb-util-image",
@@ -100959,11 +99583,11 @@
           },
           {
             "source": "xcb-util-keysyms",
-            "target": "dartsim"
+            "target": "nsight-compute"
           },
           {
             "source": "xcb-util-keysyms",
-            "target": "nsight-compute"
+            "target": "openscenegraph"
           },
           {
             "source": "xcb-util-keysyms",
@@ -100983,11 +99607,11 @@
           },
           {
             "source": "xcb-util-renderutil",
-            "target": "dartsim"
+            "target": "nsight-compute"
           },
           {
             "source": "xcb-util-renderutil",
-            "target": "nsight-compute"
+            "target": "openscenegraph"
           },
           {
             "source": "xcb-util-renderutil",
@@ -101011,11 +99635,11 @@
           },
           {
             "source": "xcb-util-wm",
-            "target": "dartsim"
+            "target": "nsight-compute"
           },
           {
             "source": "xcb-util-wm",
-            "target": "nsight-compute"
+            "target": "openscenegraph"
           },
           {
             "source": "xcb-util-wm",
@@ -101032,14 +99656,14 @@
           {
             "source": "xcb-util-wm",
             "target": "qt-main"
-          },
-          {
-            "source": "xcb-util",
-            "target": "dartsim"
           },
           {
             "source": "xcb-util",
             "target": "irrlicht"
+          },
+          {
+            "source": "xcb-util",
+            "target": "openscenegraph"
           },
           {
             "source": "xcb-util",
@@ -101179,10 +99803,6 @@
           },
           {
             "source": "xorg-libice",
-            "target": "dartsim"
-          },
-          {
-            "source": "xorg-libice",
             "target": "emacs"
           },
           {
@@ -101196,6 +99816,10 @@
           {
             "source": "xorg-libice",
             "target": "nsight-compute"
+          },
+          {
+            "source": "xorg-libice",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libice",
@@ -101235,10 +99859,6 @@
           },
           {
             "source": "xorg-libsm",
-            "target": "dartsim"
-          },
-          {
-            "source": "xorg-libsm",
             "target": "emacs"
           },
           {
@@ -101252,6 +99872,10 @@
           {
             "source": "xorg-libsm",
             "target": "nsight-compute"
+          },
+          {
+            "source": "xorg-libsm",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libsm",
@@ -101340,10 +99964,6 @@
           {
             "source": "xorg-libx11",
             "target": "cartographer"
-          },
-          {
-            "source": "xorg-libx11",
-            "target": "dartsim"
           },
           {
             "source": "xorg-libx11",
@@ -101504,6 +100124,10 @@
           {
             "source": "xorg-libx11",
             "target": "openmotif"
+          },
+          {
+            "source": "xorg-libx11",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libx11",
@@ -101891,10 +100515,6 @@
           },
           {
             "source": "xorg-libxdamage",
-            "target": "dartsim"
-          },
-          {
-            "source": "xorg-libxdamage",
             "target": "epoxy"
           },
           {
@@ -101920,6 +100540,10 @@
           {
             "source": "xorg-libxdamage",
             "target": "nsight-compute"
+          },
+          {
+            "source": "xorg-libxdamage",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libxdamage",
@@ -101984,10 +100608,6 @@
           {
             "source": "xorg-libxext",
             "target": "cartographer"
-          },
-          {
-            "source": "xorg-libxext",
-            "target": "dartsim"
           },
           {
             "source": "xorg-libxext",
@@ -102096,6 +100716,10 @@
           {
             "source": "xorg-libxext",
             "target": "openmotif"
+          },
+          {
+            "source": "xorg-libxext",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libxext",
@@ -102959,10 +101583,6 @@
           },
           {
             "source": "xorg-libxxf86vm",
-            "target": "dartsim"
-          },
-          {
-            "source": "xorg-libxxf86vm",
             "target": "epoxy"
           },
           {
@@ -102992,6 +101612,10 @@
           {
             "source": "xorg-libxxf86vm",
             "target": "mesalib"
+          },
+          {
+            "source": "xorg-libxxf86vm",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-libxxf86vm",
@@ -103067,10 +101691,6 @@
           },
           {
             "source": "xorg-util-macros",
-            "target": "djvulibre"
-          },
-          {
-            "source": "xorg-util-macros",
             "target": "emacs"
           },
           {
@@ -103107,10 +101727,6 @@
           },
           {
             "source": "xorg-util-macros",
-            "target": "graph-tool"
-          },
-          {
-            "source": "xorg-util-macros",
             "target": "graphviz"
           },
           {
@@ -103143,15 +101759,15 @@
           },
           {
             "source": "xorg-util-macros",
-            "target": "imagemagick"
-          },
-          {
-            "source": "xorg-util-macros",
             "target": "libglvnd"
           },
           {
             "source": "xorg-util-macros",
             "target": "libpciaccess"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "librsvg"
           },
           {
             "source": "xorg-util-macros",
@@ -103280,10 +101896,6 @@
           {
             "source": "xorg-util-macros",
             "target": "r-rgl"
-          },
-          {
-            "source": "xorg-util-macros",
-            "target": "r-rsvg"
           },
           {
             "source": "xorg-util-macros",
@@ -103507,15 +102119,15 @@
           },
           {
             "source": "xorg-xf86vidmodeproto",
-            "target": "dartsim"
-          },
-          {
-            "source": "xorg-xf86vidmodeproto",
             "target": "epoxy"
           },
           {
             "source": "xorg-xf86vidmodeproto",
             "target": "irrlicht"
+          },
+          {
+            "source": "xorg-xf86vidmodeproto",
+            "target": "openscenegraph"
           },
           {
             "source": "xorg-xf86vidmodeproto",
@@ -103783,15 +102395,7 @@
           },
           {
             "source": "xz",
-            "target": "djvulibre"
-          },
-          {
-            "source": "xz",
             "target": "elfutils"
-          },
-          {
-            "source": "xz",
-            "target": "emacs"
           },
           {
             "source": "xz",
@@ -103820,10 +102424,6 @@
           {
             "source": "xz",
             "target": "giac"
-          },
-          {
-            "source": "xz",
-            "target": "graph-tool"
           },
           {
             "source": "xz",
@@ -103883,11 +102483,11 @@
           },
           {
             "source": "xz",
-            "target": "libtiff"
+            "target": "librsvg"
           },
           {
             "source": "xz",
-            "target": "libvips"
+            "target": "libtiff"
           },
           {
             "source": "xz",
@@ -103952,10 +102552,6 @@
           {
             "source": "xz",
             "target": "r-rjava"
-          },
-          {
-            "source": "xz",
-            "target": "r-rsvg"
           },
           {
             "source": "xz",
@@ -104359,6 +102955,10 @@
           },
           {
             "source": "zlib",
+            "target": "abinit"
+          },
+          {
+            "source": "zlib",
             "target": "ale-py"
           },
           {
@@ -104599,10 +103199,6 @@
           },
           {
             "source": "zlib",
-            "target": "dartsim"
-          },
-          {
-            "source": "zlib",
             "target": "dask-sql"
           },
           {
@@ -104628,10 +103224,6 @@
           {
             "source": "zlib",
             "target": "dgl"
-          },
-          {
-            "source": "zlib",
-            "target": "djvulibre"
           },
           {
             "source": "zlib",
@@ -105123,6 +103715,10 @@
           },
           {
             "source": "zlib",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "zlib",
             "target": "libkml"
           },
           {
@@ -105188,6 +103784,10 @@
           {
             "source": "zlib",
             "target": "librdkafka"
+          },
+          {
+            "source": "zlib",
+            "target": "librsvg"
           },
           {
             "source": "zlib",
@@ -105596,6 +104196,10 @@
           {
             "source": "zlib",
             "target": "openpmix"
+          },
+          {
+            "source": "zlib",
+            "target": "openscenegraph"
           },
           {
             "source": "zlib",
@@ -107834,6 +106438,12 @@
             "id": "abacus",
             "payload": {
               "__lazy_json__": "node_attrs/abacus.json"
+            }
+          },
+          {
+            "id": "abinit",
+            "payload": {
+              "__lazy_json__": "node_attrs/abinit.json"
             }
           },
           {
@@ -110399,6 +109009,12 @@
             }
           },
           {
+            "id": "fftw",
+            "payload": {
+              "__lazy_json__": "node_attrs/fftw.json"
+            }
+          },
+          {
             "id": "fgt",
             "payload": {
               "__lazy_json__": "node_attrs/fgt.json"
@@ -112649,6 +111265,12 @@
             }
           },
           {
+            "id": "libcusparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcusparse.json"
+            }
+          },
+          {
             "id": "libcxx",
             "payload": {
               "__lazy_json__": "node_attrs/libcxx.json"
@@ -113006,6 +111628,12 @@
             "id": "libjpeg-turbo",
             "payload": {
               "__lazy_json__": "node_attrs/libjpeg-turbo.json"
+            }
+          },
+          {
+            "id": "libjxl-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/libjxl-split.json"
             }
           },
           {
@@ -113375,6 +112003,12 @@
             }
           },
           {
+            "id": "librsvg",
+            "payload": {
+              "__lazy_json__": "node_attrs/librsvg.json"
+            }
+          },
+          {
             "id": "librttopo",
             "payload": {
               "__lazy_json__": "node_attrs/librttopo.json"
@@ -113714,6 +112348,12 @@
             "id": "libzopfli",
             "payload": {
               "__lazy_json__": "node_attrs/libzopfli.json"
+            }
+          },
+          {
+            "id": "lief",
+            "payload": {
+              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
@@ -114116,12 +112756,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -115154,6 +113788,12 @@
             "id": "openpyxl",
             "payload": {
               "__lazy_json__": "node_attrs/openpyxl.json"
+            }
+          },
+          {
+            "id": "openscenegraph",
+            "payload": {
+              "__lazy_json__": "node_attrs/openscenegraph.json"
             }
           },
           {
