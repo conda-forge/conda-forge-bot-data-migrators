@@ -8047,6 +8047,10 @@
           },
           {
             "source": "boost",
+            "target": "cascade"
+          },
+          {
+            "source": "boost",
             "target": "cctbx-base"
           },
           {
@@ -13579,6 +13583,10 @@
           },
           {
             "source": "cmake",
+            "target": "cascade"
+          },
+          {
+            "source": "cmake",
             "target": "castxml"
           },
           {
@@ -15403,6 +15411,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -15452,10 +15464,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -15512,10 +15520,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -27435,6 +27439,10 @@
           },
           {
             "source": "fmt",
+            "target": "cascade"
+          },
+          {
+            "source": "fmt",
             "target": "coolprop"
           },
           {
@@ -33715,6 +33723,10 @@
           },
           {
             "source": "hdf5",
+            "target": "cascade"
+          },
+          {
+            "source": "hdf5",
             "target": "cdo"
           },
           {
@@ -34171,7 +34183,15 @@
           },
           {
             "source": "heyoka.py",
+            "target": "cascade"
+          },
+          {
+            "source": "heyoka.py",
             "target": "pykep"
+          },
+          {
+            "source": "heyoka",
+            "target": "cascade"
           },
           {
             "source": "heyoka",
@@ -40980,6 +41000,10 @@
           {
             "source": "libpng",
             "target": "yarp"
+          },
+          {
+            "source": "libpostal",
+            "target": "postal"
           },
           {
             "source": "libprotobuf",
@@ -47971,6 +47995,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "metplus"
           },
           {
@@ -53814,6 +53842,86 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -55772,6 +55880,10 @@
           {
             "source": "ninja",
             "target": "casadi"
+          },
+          {
+            "source": "ninja",
+            "target": "cascade"
           },
           {
             "source": "ninja",
@@ -59708,6 +59820,10 @@
           {
             "source": "numpy",
             "target": "casadi"
+          },
+          {
+            "source": "numpy",
+            "target": "cascade"
           },
           {
             "source": "numpy",
@@ -78059,6 +78175,10 @@
           },
           {
             "source": "python",
+            "target": "cascade"
+          },
+          {
+            "source": "python",
             "target": "cassandra-driver"
           },
           {
@@ -81084,6 +81204,10 @@
           {
             "source": "python",
             "target": "posix_ipc"
+          },
+          {
+            "source": "python",
+            "target": "postal"
           },
           {
             "source": "python",
@@ -100663,6 +100787,10 @@
           },
           {
             "source": "spdlog",
+            "target": "cascade"
+          },
+          {
+            "source": "spdlog",
             "target": "dartsim"
           },
           {
@@ -101560,6 +101688,10 @@
           {
             "source": "tbb",
             "target": "cadet"
+          },
+          {
+            "source": "tbb",
+            "target": "cascade"
           },
           {
             "source": "tbb",
@@ -110211,6 +110343,10 @@
           },
           {
             "source": "xtensor-blas",
+            "target": "cascade"
+          },
+          {
+            "source": "xtensor-blas",
             "target": "pykep"
           },
           {
@@ -110276,6 +110412,10 @@
           {
             "source": "xtensor",
             "target": "affogato"
+          },
+          {
+            "source": "xtensor",
+            "target": "cascade"
           },
           {
             "source": "xtensor",
@@ -115356,6 +115496,12 @@
             "id": "casadi",
             "payload": {
               "__lazy_json__": "node_attrs/casadi.json"
+            }
+          },
+          {
+            "id": "cascade",
+            "payload": {
+              "__lazy_json__": "node_attrs/cascade.json"
             }
           },
           {
@@ -121701,6 +121847,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -123924,6 +124076,12 @@
             "id": "posix_ipc",
             "payload": {
               "__lazy_json__": "node_attrs/posix_ipc.json"
+            }
+          },
+          {
+            "id": "postal",
+            "payload": {
+              "__lazy_json__": "node_attrs/postal.json"
             }
           },
           {
