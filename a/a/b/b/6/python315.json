@@ -61,6 +61,12 @@
             }
           },
           {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
+            }
+          },
+          {
             "id": "turbodbc",
             "payload": {
               "__lazy_json__": "node_attrs/turbodbc.json"
@@ -2206,6 +2212,10 @@
           },
           {
             "source": "astropy",
+            "target": "pygwb"
+          },
+          {
+            "source": "astropy",
             "target": "pypeit"
           },
           {
@@ -3870,6 +3880,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pygwb"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pygypsy"
           },
           {
@@ -4918,6 +4932,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "pygwb"
+          },
+          {
+            "source": "bcrypt",
             "target": "pymeshfix"
           },
           {
@@ -5123,6 +5141,10 @@
           {
             "source": "bilby.cython",
             "target": "gwtc_analysis"
+          },
+          {
+            "source": "bilby.cython",
+            "target": "pygwb"
           },
           {
             "source": "bilby.cython",
@@ -5795,6 +5817,10 @@
           {
             "source": "boost",
             "target": "hpp-python"
+          },
+          {
+            "source": "boost",
+            "target": "hpp-template-corba"
           },
           {
             "source": "boost",
@@ -7627,6 +7653,10 @@
           {
             "source": "brotli",
             "target": "pygnome"
+          },
+          {
+            "source": "brotli",
+            "target": "pygwb"
           },
           {
             "source": "brotli",
@@ -9650,6 +9680,10 @@
           },
           {
             "source": "cffi",
+            "target": "pygwb"
+          },
+          {
+            "source": "cffi",
             "target": "pykrb5"
           },
           {
@@ -10939,6 +10973,10 @@
           {
             "source": "contourpy",
             "target": "pyart_mch"
+          },
+          {
+            "source": "contourpy",
+            "target": "pygwb"
           },
           {
             "source": "contourpy",
@@ -13859,6 +13897,10 @@
           {
             "source": "cython",
             "target": "picows"
+          },
+          {
+            "source": "cython",
+            "target": "piqs"
           },
           {
             "source": "cython",
@@ -21126,6 +21168,10 @@
           },
           {
             "source": "h5py",
+            "target": "pygwb"
+          },
+          {
+            "source": "h5py",
             "target": "pykrige"
           },
           {
@@ -21929,6 +21975,26 @@
             "target": "hpp-gepetto-viewer"
           },
           {
+            "source": "hpp-template-corba",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-corbaserver"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-gepetto-viewer"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-gui"
+          },
+          {
+            "source": "hpp-template-corba",
+            "target": "hpp-manipulation-corba"
+          },
+          {
             "source": "htcondor",
             "target": "conda-forge-pinning"
           },
@@ -22182,10 +22248,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "gwtc_analysis"
           },
           {
@@ -22202,6 +22264,10 @@
           },
           {
             "source": "igwn-ligolw",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "igwn-ligolw",
             "target": "lalmetaio"
           },
           {
@@ -22211,6 +22277,10 @@
           {
             "source": "igwn-ligolw",
             "target": "pycbc"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "pygwb"
           },
           {
             "source": "igwn-ligolw",
@@ -22250,10 +22320,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "gwtc_analysis"
           },
           {
@@ -22278,6 +22344,10 @@
           },
           {
             "source": "igwn-segments",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "igwn-segments",
             "target": "lalsimulation"
           },
           {
@@ -22287,6 +22357,10 @@
           {
             "source": "igwn-segments",
             "target": "pycbc"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "pygwb"
           },
           {
             "source": "igwn-segments",
@@ -23102,6 +23176,10 @@
           },
           {
             "source": "lalapps",
+            "target": "pygwb"
+          },
+          {
+            "source": "lalapps",
             "target": "rapid-pe"
           },
           {
@@ -23122,10 +23200,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "conda-forge-pinning"
           },
           {
@@ -23142,10 +23216,6 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "gwtc_analysis"
           },
           {
@@ -23158,7 +23228,11 @@
           },
           {
             "source": "lalburst",
-            "target": "ligo-raven"
+            "target": "lalinspiral"
+          },
+          {
+            "source": "lalburst",
+            "target": "pygwb"
           },
           {
             "source": "lalburst",
@@ -23198,14 +23272,6 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "gwtc_analysis"
           },
           {
@@ -23218,15 +23284,19 @@
           },
           {
             "source": "lalframe",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "lalframe",
             "target": "lalpulsar"
           },
           {
             "source": "lalframe",
-            "target": "ligo-raven"
+            "target": "pycbc"
           },
           {
             "source": "lalframe",
-            "target": "pycbc"
+            "target": "pygwb"
           },
           {
             "source": "lalframe",
@@ -23302,10 +23372,62 @@
           },
           {
             "source": "lalinference",
+            "target": "pygwb"
+          },
+          {
+            "source": "lalinference",
             "target": "rapid-pe"
           },
           {
             "source": "lalinference",
+            "target": "rift"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gravelamps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gwtc_analysis"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "ligo-raven"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "pygwb"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "rapid-pe"
+          },
+          {
+            "source": "lalinspiral",
             "target": "rift"
           },
           {
@@ -23323,6 +23445,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -23386,7 +23512,15 @@
           },
           {
             "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "lalmetaio",
             "target": "ligo-raven"
+          },
+          {
+            "source": "lalmetaio",
+            "target": "pygwb"
           },
           {
             "source": "lalmetaio",
@@ -23418,11 +23552,19 @@
           },
           {
             "source": "lalpulsar",
+            "target": "pygwb"
+          },
+          {
+            "source": "lalpulsar",
             "target": "rapid-pe"
           },
           {
             "source": "lalpulsar",
             "target": "rift"
+          },
+          {
+            "source": "lal",
+            "target": "pygwb"
           },
           {
             "source": "lal",
@@ -23466,10 +23608,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -23494,6 +23632,10 @@
           },
           {
             "source": "lalsimulation",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "lalsimulation",
             "target": "lalpulsar"
           },
           {
@@ -23503,6 +23645,10 @@
           {
             "source": "lalsimulation",
             "target": "pycbc"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "pygwb"
           },
           {
             "source": "lalsimulation",
@@ -24851,6 +24997,10 @@
           {
             "source": "lxml",
             "target": "pyfixest"
+          },
+          {
+            "source": "lxml",
+            "target": "pygwb"
           },
           {
             "source": "lxml",
@@ -26231,6 +26381,10 @@
           {
             "source": "markupsafe",
             "target": "pygnome"
+          },
+          {
+            "source": "markupsafe",
+            "target": "pygwb"
           },
           {
             "source": "markupsafe",
@@ -28103,6 +28257,10 @@
           {
             "source": "matplotlib",
             "target": "pygsti"
+          },
+          {
+            "source": "matplotlib",
+            "target": "pygwb"
           },
           {
             "source": "matplotlib",
@@ -35370,6 +35528,10 @@
           },
           {
             "source": "numpy",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "numpy",
             "target": "lalmetaio"
           },
           {
@@ -36678,6 +36840,10 @@
           },
           {
             "source": "numpy",
+            "target": "piqs"
+          },
+          {
+            "source": "numpy",
             "target": "pixell"
           },
           {
@@ -37259,6 +37425,10 @@
           {
             "source": "numpy",
             "target": "pygtide"
+          },
+          {
+            "source": "numpy",
+            "target": "pygwb"
           },
           {
             "source": "numpy",
@@ -39786,10 +39956,6 @@
           },
           {
             "source": "omniorb",
-            "target": "hpp-gepetto-viewer"
-          },
-          {
-            "source": "omniorb",
             "target": "hpp-gui"
           },
           {
@@ -39799,6 +39965,10 @@
           {
             "source": "omniorb",
             "target": "hpp-plot"
+          },
+          {
+            "source": "omniorb",
+            "target": "hpp-template-corba"
           },
           {
             "source": "omniorb",
@@ -42030,6 +42200,10 @@
           },
           {
             "source": "pandas",
+            "target": "pygwb"
+          },
+          {
+            "source": "pandas",
             "target": "pygypsy"
           },
           {
@@ -43786,6 +43960,10 @@
           },
           {
             "source": "pillow",
+            "target": "pygwb"
+          },
+          {
+            "source": "pillow",
             "target": "pyinterp"
           },
           {
@@ -44266,6 +44444,10 @@
           },
           {
             "source": "piqp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "piqs",
             "target": "conda-forge-pinning"
           },
           {
@@ -48006,6 +48188,10 @@
           },
           {
             "source": "pycbc",
+            "target": "pygwb"
+          },
+          {
+            "source": "pycbc",
             "target": "pyseobnr"
           },
           {
@@ -49538,6 +49724,10 @@
           },
           {
             "source": "pygubu",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pygwb",
             "target": "conda-forge-pinning"
           },
           {
@@ -51610,6 +51800,10 @@
           },
           {
             "source": "pyreadline3",
+            "target": "pygwb"
+          },
+          {
+            "source": "pyreadline3",
             "target": "stackvana-core"
           },
           {
@@ -52603,6 +52797,10 @@
           {
             "source": "python-gssapi",
             "target": "pycbc"
+          },
+          {
+            "source": "python-gssapi",
+            "target": "pygwb"
           },
           {
             "source": "python-gssapi",
@@ -56978,6 +57176,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "pygwb"
+          },
+          {
+            "source": "pyyaml",
             "target": "pyinterp"
           },
           {
@@ -58285,6 +58487,10 @@
             "target": "muspinsim"
           },
           {
+            "source": "qutip",
+            "target": "piqs"
+          },
+          {
             "source": "radarx",
             "target": "conda-forge-pinning"
           },
@@ -58967,6 +59173,10 @@
           {
             "source": "regex",
             "target": "pygnome"
+          },
+          {
+            "source": "regex",
+            "target": "pygwb"
           },
           {
             "source": "regex",
@@ -61366,6 +61576,10 @@
           },
           {
             "source": "scikit-learn",
+            "target": "pygwb"
+          },
+          {
+            "source": "scikit-learn",
             "target": "pykrige"
           },
           {
@@ -63606,6 +63820,10 @@
           },
           {
             "source": "scipy",
+            "target": "piqs"
+          },
+          {
+            "source": "scipy",
             "target": "pixell"
           },
           {
@@ -63851,6 +64069,10 @@
           {
             "source": "scipy",
             "target": "pygsti"
+          },
+          {
+            "source": "scipy",
+            "target": "pygwb"
           },
           {
             "source": "scipy",
@@ -67071,6 +67293,10 @@
           {
             "source": "statsmodels",
             "target": "pyfixest"
+          },
+          {
+            "source": "statsmodels",
+            "target": "pygwb"
           },
           {
             "source": "statsmodels",
@@ -71634,6 +71860,10 @@
           },
           {
             "source": "tbb",
+            "target": "hpp-template-corba"
+          },
+          {
+            "source": "tbb",
             "target": "htcondor"
           },
           {
@@ -72211,6 +72441,10 @@
           {
             "source": "tbb",
             "target": "lalinference"
+          },
+          {
+            "source": "tbb",
+            "target": "lalinspiral"
           },
           {
             "source": "tbb",
@@ -74466,6 +74700,10 @@
           },
           {
             "source": "tbb",
+            "target": "piqs"
+          },
+          {
+            "source": "tbb",
             "target": "pivy"
           },
           {
@@ -75523,6 +75761,10 @@
           {
             "source": "tbb",
             "target": "pygubu"
+          },
+          {
+            "source": "tbb",
+            "target": "pygwb"
           },
           {
             "source": "tbb",
@@ -81243,6 +81485,10 @@
           {
             "source": "tornado",
             "target": "pygmo"
+          },
+          {
+            "source": "tornado",
+            "target": "pygwb"
           },
           {
             "source": "tornado",
@@ -92762,6 +93008,12 @@
             }
           },
           {
+            "id": "hpp-template-corba",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpp-template-corba.json"
+            }
+          },
+          {
             "id": "htcondor",
             "payload": {
               "__lazy_json__": "node_attrs/htcondor.json"
@@ -93611,6 +93863,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
@@ -96932,6 +97190,12 @@
             }
           },
           {
+            "id": "piqs",
+            "payload": {
+              "__lazy_json__": "node_attrs/piqs.json"
+            }
+          },
+          {
             "id": "pivy",
             "payload": {
               "__lazy_json__": "node_attrs/pivy.json"
@@ -98495,6 +98759,12 @@
             "id": "pygubu",
             "payload": {
               "__lazy_json__": "node_attrs/pygubu.json"
+            }
+          },
+          {
+            "id": "pygwb",
+            "payload": {
+              "__lazy_json__": "node_attrs/pygwb.json"
             }
           },
           {
