@@ -618,6 +618,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "nh3"
+          },
+          {
+            "source": "backports.zstd",
             "target": "numcodecs"
           },
           {
@@ -1175,6 +1179,10 @@
           {
             "source": "brotli",
             "target": "netcdf4"
+          },
+          {
+            "source": "brotli",
+            "target": "nh3"
           },
           {
             "source": "brotli",
@@ -2006,6 +2014,10 @@
           },
           {
             "source": "coverage",
+            "target": "nh3"
+          },
+          {
+            "source": "coverage",
             "target": "p4p"
           },
           {
@@ -2134,6 +2146,10 @@
           },
           {
             "source": "cuda-core",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-core",
             "target": "nccl4py"
           },
           {
@@ -2141,7 +2157,23 @@
             "target": "numba-cuda-mlir"
           },
           {
-            "source": "cuda-core",
+            "source": "cuda-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cuda-python",
+            "target": "cuda-core"
+          },
+          {
+            "source": "cuda-python",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-python",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cuda-python",
             "target": "nvidia-cutlass-dsl"
           },
           {
@@ -2335,6 +2367,10 @@
           {
             "source": "cython",
             "target": "cuda-core"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-python"
           },
           {
             "source": "cython",
@@ -5338,6 +5374,10 @@
           },
           {
             "source": "maturin",
+            "target": "nh3"
+          },
+          {
+            "source": "maturin",
             "target": "obstore"
           },
           {
@@ -5865,6 +5905,22 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nh3",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nh3",
+            "target": "freeze-core"
+          },
+          {
+            "source": "nh3",
+            "target": "python-marisa-trie"
+          },
+          {
+            "source": "nh3",
+            "target": "wisdem"
+          },
+          {
             "source": "nlopt",
             "target": "conda-forge-pinning"
           },
@@ -6139,6 +6195,10 @@
           {
             "source": "numpy",
             "target": "cuda-core"
+          },
+          {
+            "source": "numpy",
+            "target": "cuda-python"
           },
           {
             "source": "numpy",
@@ -8162,6 +8222,10 @@
           },
           {
             "source": "psutil",
+            "target": "nh3"
+          },
+          {
+            "source": "psutil",
             "target": "nmslib"
           },
           {
@@ -9727,6 +9791,10 @@
           {
             "source": "pyyaml",
             "target": "netcdf4"
+          },
+          {
+            "source": "pyyaml",
+            "target": "nh3"
           },
           {
             "source": "pyyaml",
@@ -11354,6 +11422,10 @@
           },
           {
             "source": "tbb",
+            "target": "cuda-python"
+          },
+          {
+            "source": "tbb",
             "target": "cupy"
           },
           {
@@ -12187,6 +12259,10 @@
           {
             "source": "tbb",
             "target": "newrelic"
+          },
+          {
+            "source": "tbb",
+            "target": "nh3"
           },
           {
             "source": "tbb",
@@ -14086,6 +14162,10 @@
           },
           {
             "source": "ujson",
+            "target": "nh3"
+          },
+          {
+            "source": "ujson",
             "target": "opencv"
           },
           {
@@ -14415,6 +14495,10 @@
           {
             "source": "wcwidth",
             "target": "netcdf4"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nh3"
           },
           {
             "source": "wcwidth",
@@ -15375,6 +15459,12 @@
             "id": "cuda-core",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-core.json"
+            }
+          },
+          {
+            "id": "cuda-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -16629,6 +16719,12 @@
             "id": "newrelic",
             "payload": {
               "__lazy_json__": "node_attrs/newrelic.json"
+            }
+          },
+          {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
