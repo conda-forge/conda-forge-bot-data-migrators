@@ -13307,6 +13307,10 @@
           },
           {
             "source": "cmake",
+            "target": "davix"
+          },
+          {
+            "source": "cmake",
             "target": "dcm2niix"
           },
           {
@@ -16028,6 +16032,10 @@
           {
             "source": "cmake",
             "target": "smesh"
+          },
+          {
+            "source": "cmake",
+            "target": "snaphu"
           },
           {
             "source": "cmake",
@@ -18967,6 +18975,10 @@
           },
           {
             "source": "coverage",
+            "target": "snaphu"
+          },
+          {
+            "source": "coverage",
             "target": "snowflake-connector-python"
           },
           {
@@ -20439,6 +20451,10 @@
           },
           {
             "source": "curl",
+            "target": "davix"
+          },
+          {
+            "source": "curl",
             "target": "fitsio"
           },
           {
@@ -20456,10 +20472,6 @@
           {
             "source": "curl",
             "target": "gettext"
-          },
-          {
-            "source": "curl",
-            "target": "gfal2"
           },
           {
             "source": "curl",
@@ -20688,10 +20700,6 @@
           {
             "source": "curl",
             "target": "ray-packages"
-          },
-          {
-            "source": "curl",
-            "target": "root"
           },
           {
             "source": "curl",
@@ -22440,6 +22448,14 @@
           {
             "source": "dav1d",
             "target": "libheif"
+          },
+          {
+            "source": "davix",
+            "target": "gfal2"
+          },
+          {
+            "source": "davix",
+            "target": "root"
           },
           {
             "source": "dbus-python",
@@ -28887,6 +28903,10 @@
           },
           {
             "source": "git",
+            "target": "davix"
+          },
+          {
+            "source": "git",
             "target": "dcm2niix"
           },
           {
@@ -28984,10 +29004,6 @@
           {
             "source": "git",
             "target": "geowombat"
-          },
-          {
-            "source": "git",
-            "target": "gfal2"
           },
           {
             "source": "git",
@@ -31999,11 +32015,7 @@
           },
           {
             "source": "gsoap",
-            "target": "gfal2"
-          },
-          {
-            "source": "gsoap",
-            "target": "root"
+            "target": "davix"
           },
           {
             "source": "gsoap",
@@ -32124,6 +32136,10 @@
           {
             "source": "gtest",
             "target": "csp"
+          },
+          {
+            "source": "gtest",
+            "target": "davix"
           },
           {
             "source": "gtest",
@@ -42155,6 +42171,10 @@
           },
           {
             "source": "libuuid",
+            "target": "davix"
+          },
+          {
+            "source": "libuuid",
             "target": "gfal2"
           },
           {
@@ -42164,10 +42184,6 @@
           {
             "source": "libuuid",
             "target": "postgresql"
-          },
-          {
-            "source": "libuuid",
-            "target": "root"
           },
           {
             "source": "libuuid",
@@ -42555,6 +42571,10 @@
           },
           {
             "source": "libxml2",
+            "target": "davix"
+          },
+          {
+            "source": "libxml2",
             "target": "dcmtk"
           },
           {
@@ -42616,10 +42636,6 @@
           {
             "source": "libxml2",
             "target": "geowombat"
-          },
-          {
-            "source": "libxml2",
-            "target": "gfal2"
           },
           {
             "source": "libxml2",
@@ -49851,6 +49867,10 @@
           },
           {
             "source": "make",
+            "target": "snaphu"
+          },
+          {
+            "source": "make",
             "target": "snappy"
           },
           {
@@ -55647,6 +55667,10 @@
           },
           {
             "source": "ninja",
+            "target": "davix"
+          },
+          {
+            "source": "ninja",
             "target": "dbus"
           },
           {
@@ -55916,10 +55940,6 @@
           {
             "source": "ninja",
             "target": "geowombat"
-          },
-          {
-            "source": "ninja",
-            "target": "gfal2"
           },
           {
             "source": "ninja",
@@ -61683,6 +61703,10 @@
           },
           {
             "source": "numpy",
+            "target": "snaphu"
+          },
+          {
+            "source": "numpy",
             "target": "sncosmo"
           },
           {
@@ -64239,6 +64263,10 @@
           },
           {
             "source": "openssl",
+            "target": "davix"
+          },
+          {
+            "source": "openssl",
             "target": "dcap"
           },
           {
@@ -64336,10 +64364,6 @@
           {
             "source": "openssl",
             "target": "geowombat"
-          },
-          {
-            "source": "openssl",
-            "target": "gfal2"
           },
           {
             "source": "openssl",
@@ -68580,6 +68604,10 @@
           {
             "source": "pkg-config",
             "target": "dav1d"
+          },
+          {
+            "source": "pkg-config",
+            "target": "davix"
           },
           {
             "source": "pkg-config",
@@ -77555,6 +77583,10 @@
           },
           {
             "source": "python",
+            "target": "davix"
+          },
+          {
+            "source": "python",
             "target": "dbgpy"
           },
           {
@@ -78164,10 +78196,6 @@
           {
             "source": "python",
             "target": "gevent"
-          },
-          {
-            "source": "python",
-            "target": "gfal2"
           },
           {
             "source": "python",
@@ -81592,6 +81620,10 @@
           {
             "source": "python",
             "target": "slycot"
+          },
+          {
+            "source": "python",
+            "target": "snaphu"
           },
           {
             "source": "python",
@@ -110219,6 +110251,10 @@
           },
           {
             "source": "zlib",
+            "target": "davix"
+          },
+          {
+            "source": "zlib",
             "target": "dbus"
           },
           {
@@ -115520,6 +115556,12 @@
             "id": "dav1d",
             "payload": {
               "__lazy_json__": "node_attrs/dav1d.json"
+            }
+          },
+          {
+            "id": "davix",
+            "payload": {
+              "__lazy_json__": "node_attrs/davix.json"
             }
           },
           {
@@ -128084,6 +128126,12 @@
             "id": "smesh",
             "payload": {
               "__lazy_json__": "node_attrs/smesh.json"
+            }
+          },
+          {
+            "id": "snaphu",
+            "payload": {
+              "__lazy_json__": "node_attrs/snaphu.json"
             }
           },
           {
