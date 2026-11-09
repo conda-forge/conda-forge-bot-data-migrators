@@ -4945,6 +4945,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "lief",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "light-curve-python",
             "target": "conda-forge-pinning"
           },
@@ -8634,6 +8638,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "lief"
+          },
+          {
+            "source": "pydantic-core",
             "target": "mne-lsl"
           },
           {
@@ -12055,6 +12063,10 @@
           {
             "source": "tbb",
             "target": "libvalkey-py"
+          },
+          {
+            "source": "tbb",
+            "target": "lief"
           },
           {
             "source": "tbb",
@@ -16413,6 +16425,12 @@
             "id": "libvalkey-py",
             "payload": {
               "__lazy_json__": "node_attrs/libvalkey-py.json"
+            }
+          },
+          {
+            "id": "lief",
+            "payload": {
+              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
