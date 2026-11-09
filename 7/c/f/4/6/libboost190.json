@@ -273,6 +273,10 @@
           },
           {
             "source": "cgal-cpp",
+            "target": "gudhi"
+          },
+          {
+            "source": "cgal-cpp",
             "target": "herwig"
           },
           {
@@ -914,6 +918,14 @@
           {
             "source": "gtsam",
             "target": "gtsam-points"
+          },
+          {
+            "source": "gudhi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gudhi",
+            "target": "multipers"
           },
           {
             "source": "gwframe",
@@ -3290,6 +3302,12 @@
             "id": "gtsam-points",
             "payload": {
               "__lazy_json__": "node_attrs/gtsam-points.json"
+            }
+          },
+          {
+            "id": "gudhi",
+            "payload": {
+              "__lazy_json__": "node_attrs/gudhi.json"
             }
           },
           {
