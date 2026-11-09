@@ -8872,6 +8872,10 @@
             "target": "mamba-ssm"
           },
           {
+            "source": "causalml",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "cbgen",
             "target": "conda-forge-pinning"
           },
@@ -12546,6 +12550,10 @@
           {
             "source": "cython",
             "target": "catboost"
+          },
+          {
+            "source": "cython",
+            "target": "causalml"
           },
           {
             "source": "cython",
@@ -16668,6 +16676,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "dora-rs-suite",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "doublemetaphone",
             "target": "conda-forge-pinning"
           },
@@ -19788,6 +19800,18 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "goosefem",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "goosefem",
+            "target": "frictionqpotfem"
+          },
+          {
+            "source": "goosefem",
+            "target": "frictionqpotspringblock"
+          },
+          {
             "source": "gpaw",
             "target": "conda-forge-pinning"
           },
@@ -20645,7 +20669,7 @@
           },
           {
             "source": "gz-math",
-            "target": "idyntree"
+            "target": "libsdformat"
           },
           {
             "source": "gz-math",
@@ -22533,6 +22557,10 @@
           },
           {
             "source": "ilastik-carving-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "image-meta-tag",
             "target": "conda-forge-pinning"
           },
           {
@@ -24516,6 +24544,22 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "libsdformat",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libsdformat",
+            "target": "gz-sim"
+          },
+          {
+            "source": "libsdformat",
+            "target": "idyntree"
+          },
+          {
+            "source": "libsdformat",
+            "target": "pinocchio"
+          },
+          {
             "source": "libsecp256k1-py-bindings",
             "target": "conda-forge-pinning"
           },
@@ -26269,6 +26313,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "libsdformat"
+          },
+          {
+            "source": "markupsafe",
             "target": "limix-inference"
           },
           {
@@ -27317,6 +27365,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "causalml"
+          },
+          {
+            "source": "matplotlib",
             "target": "cctbx-base"
           },
           {
@@ -27798,6 +27850,10 @@
           {
             "source": "matplotlib",
             "target": "ilamb"
+          },
+          {
+            "source": "matplotlib",
+            "target": "image-meta-tag"
           },
           {
             "source": "matplotlib",
@@ -31153,6 +31209,10 @@
           },
           {
             "source": "multiprocess",
+            "target": "causalml"
+          },
+          {
+            "source": "multiprocess",
             "target": "codechecker"
           },
           {
@@ -33641,6 +33701,10 @@
           },
           {
             "source": "numpy",
+            "target": "causalml"
+          },
+          {
+            "source": "numpy",
             "target": "cbgen"
           },
           {
@@ -35141,6 +35205,10 @@
           },
           {
             "source": "numpy",
+            "target": "goosefem"
+          },
+          {
+            "source": "numpy",
             "target": "gpaw"
           },
           {
@@ -35498,6 +35566,10 @@
           {
             "source": "numpy",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "numpy",
+            "target": "image-meta-tag"
           },
           {
             "source": "numpy",
@@ -41593,6 +41665,10 @@
           },
           {
             "source": "pandas",
+            "target": "causalml"
+          },
+          {
+            "source": "pandas",
             "target": "ceffyl"
           },
           {
@@ -43870,6 +43946,10 @@
           {
             "source": "pillow",
             "target": "holopy"
+          },
+          {
+            "source": "pillow",
+            "target": "image-meta-tag"
           },
           {
             "source": "pillow",
@@ -47878,6 +47958,10 @@
           {
             "source": "pyarrow",
             "target": "dau-driver"
+          },
+          {
+            "source": "pyarrow",
+            "target": "dora-rs-suite"
           },
           {
             "source": "pyarrow",
@@ -56661,6 +56745,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "dora-rs-suite"
+          },
+          {
+            "source": "pyyaml",
             "target": "dsub"
           },
           {
@@ -61465,6 +61553,10 @@
           },
           {
             "source": "scikit-learn",
+            "target": "causalml"
+          },
+          {
+            "source": "scikit-learn",
             "target": "ceffyl"
           },
           {
@@ -62590,6 +62682,10 @@
           {
             "source": "scipy",
             "target": "catboost"
+          },
+          {
+            "source": "scipy",
+            "target": "causalml"
           },
           {
             "source": "scipy",
@@ -65769,6 +65865,10 @@
           },
           {
             "source": "shap",
+            "target": "causalml"
+          },
+          {
+            "source": "shap",
             "target": "conda-forge-pinning"
           },
           {
@@ -67445,6 +67545,10 @@
           },
           {
             "source": "statsmodels",
+            "target": "causalml"
+          },
+          {
+            "source": "statsmodels",
             "target": "celer"
           },
           {
@@ -69065,6 +69169,10 @@
           },
           {
             "source": "tbb",
+            "target": "causalml"
+          },
+          {
+            "source": "tbb",
             "target": "cbgen"
           },
           {
@@ -70417,6 +70525,10 @@
           },
           {
             "source": "tbb",
+            "target": "dora-rs-suite"
+          },
+          {
+            "source": "tbb",
             "target": "doublemetaphone"
           },
           {
@@ -71733,6 +71845,10 @@
           },
           {
             "source": "tbb",
+            "target": "goosefem"
+          },
+          {
+            "source": "tbb",
             "target": "gpaw"
           },
           {
@@ -72290,6 +72406,10 @@
           {
             "source": "tbb",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "tbb",
+            "target": "image-meta-tag"
           },
           {
             "source": "tbb",
@@ -73030,6 +73150,10 @@
           {
             "source": "tbb",
             "target": "libsass"
+          },
+          {
+            "source": "tbb",
+            "target": "libsdformat"
           },
           {
             "source": "tbb",
@@ -86625,6 +86749,10 @@
           },
           {
             "source": "xtensor-python",
+            "target": "goosefem"
+          },
+          {
+            "source": "xtensor-python",
             "target": "lsdtt-xtensor-python"
           },
           {
@@ -88787,6 +88915,12 @@
             }
           },
           {
+            "id": "causalml",
+            "payload": {
+              "__lazy_json__": "node_attrs/causalml.json"
+            }
+          },
+          {
             "id": "cbgen",
             "payload": {
               "__lazy_json__": "node_attrs/cbgen.json"
@@ -90797,6 +90931,12 @@
             }
           },
           {
+            "id": "dora-rs-suite",
+            "payload": {
+              "__lazy_json__": "node_attrs/dora-rs-suite.json"
+            }
+          },
+          {
             "id": "doublemetaphone",
             "payload": {
               "__lazy_json__": "node_attrs/doublemetaphone.json"
@@ -92759,6 +92899,12 @@
             }
           },
           {
+            "id": "goosefem",
+            "payload": {
+              "__lazy_json__": "node_attrs/goosefem.json"
+            }
+          },
+          {
             "id": "gpaw",
             "payload": {
               "__lazy_json__": "node_attrs/gpaw.json"
@@ -93578,6 +93724,12 @@
             "id": "ilamb",
             "payload": {
               "__lazy_json__": "node_attrs/ilamb.json"
+            }
+          },
+          {
+            "id": "image-meta-tag",
+            "payload": {
+              "__lazy_json__": "node_attrs/image-meta-tag.json"
             }
           },
           {
@@ -94670,6 +94822,12 @@
             "id": "libsass",
             "payload": {
               "__lazy_json__": "node_attrs/libsass.json"
+            }
+          },
+          {
+            "id": "libsdformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
