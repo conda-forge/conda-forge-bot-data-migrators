@@ -139,15 +139,7 @@
           },
           {
             "source": "ast-serialize",
-            "target": "chardet"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "mamba"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pytokens"
+            "target": "mypy"
           },
           {
             "source": "at-spi2-atk",
@@ -2318,6 +2310,18 @@
             "target": "scalapack"
           },
           {
+            "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
+            "target": "mamba"
+          },
+          {
+            "source": "mypy",
+            "target": "pytokens"
+          },
+          {
             "source": "nanoflann",
             "target": "roboplan"
           },
@@ -2779,19 +2783,11 @@
           },
           {
             "source": "psutil",
-            "target": "chardet"
-          },
-          {
-            "source": "psutil",
             "target": "conda-forge-ci-setup"
           },
           {
             "source": "psutil",
-            "target": "mamba"
-          },
-          {
-            "source": "psutil",
-            "target": "pytokens"
+            "target": "mypy"
           },
           {
             "source": "pthread-stubs",
@@ -2875,15 +2871,7 @@
           },
           {
             "source": "python-librt",
-            "target": "chardet"
-          },
-          {
-            "source": "python-librt",
-            "target": "mamba"
-          },
-          {
-            "source": "python-librt",
-            "target": "pytokens"
+            "target": "mypy"
           },
           {
             "source": "python",
@@ -3036,6 +3024,10 @@
           {
             "source": "python",
             "target": "multidict"
+          },
+          {
+            "source": "python",
+            "target": "mypy"
           },
           {
             "source": "python",
@@ -6126,6 +6118,12 @@
             "id": "mvapich",
             "payload": {
               "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
+            "id": "mypy",
+            "payload": {
+              "__lazy_json__": "node_attrs/mypy.json"
             }
           },
           {
