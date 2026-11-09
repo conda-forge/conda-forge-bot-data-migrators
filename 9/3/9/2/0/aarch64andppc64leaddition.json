@@ -19187,6 +19187,10 @@
           },
           {
             "source": "cmake",
+            "target": "libsdformat"
+          },
+          {
+            "source": "cmake",
             "target": "libsodium"
           },
           {
@@ -21647,23 +21651,11 @@
           },
           {
             "source": "coverage",
-            "target": "gz-launch"
-          },
-          {
-            "source": "coverage",
             "target": "gz-math"
           },
           {
             "source": "coverage",
             "target": "gz-physics"
-          },
-          {
-            "source": "coverage",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "coverage",
-            "target": "gz-sim"
           },
           {
             "source": "coverage",
@@ -21848,6 +21840,10 @@
           {
             "source": "coverage",
             "target": "librsvg"
+          },
+          {
+            "source": "coverage",
+            "target": "libsdformat"
           },
           {
             "source": "coverage",
@@ -34923,11 +34919,7 @@
           },
           {
             "source": "gz-cmake",
-            "target": "idyntree"
-          },
-          {
-            "source": "gz-cmake",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "gz-common",
@@ -35011,7 +35003,7 @@
           },
           {
             "source": "gz-math",
-            "target": "idyntree"
+            "target": "libsdformat"
           },
           {
             "source": "gz-math",
@@ -35119,15 +35111,7 @@
           },
           {
             "source": "gz-tools2",
-            "target": "gz-physics"
-          },
-          {
-            "source": "gz-tools2",
             "target": "gz-plugin"
-          },
-          {
-            "source": "gz-tools2",
-            "target": "gz-sensors"
           },
           {
             "source": "gz-tools2",
@@ -35139,11 +35123,7 @@
           },
           {
             "source": "gz-tools2",
-            "target": "idyntree"
-          },
-          {
-            "source": "gz-tools2",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "gz-transport",
@@ -35195,10 +35175,6 @@
           },
           {
             "source": "gz-utils",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "gz-utils",
             "target": "gz-sim"
           },
           {
@@ -35207,11 +35183,7 @@
           },
           {
             "source": "gz-utils",
-            "target": "idyntree"
-          },
-          {
-            "source": "gz-utils",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "gzip",
@@ -43020,6 +42992,30 @@
           {
             "source": "librttopo",
             "target": "libspatialite"
+          },
+          {
+            "source": "libsdformat",
+            "target": "gz-launch"
+          },
+          {
+            "source": "libsdformat",
+            "target": "gz-physics"
+          },
+          {
+            "source": "libsdformat",
+            "target": "gz-sensors"
+          },
+          {
+            "source": "libsdformat",
+            "target": "gz-sim"
+          },
+          {
+            "source": "libsdformat",
+            "target": "idyntree"
+          },
+          {
+            "source": "libsdformat",
+            "target": "pinocchio"
           },
           {
             "source": "libsecret",
@@ -53991,23 +53987,11 @@
           },
           {
             "source": "markupsafe",
-            "target": "gz-launch"
-          },
-          {
-            "source": "markupsafe",
             "target": "gz-math"
           },
           {
             "source": "markupsafe",
             "target": "gz-physics"
-          },
-          {
-            "source": "markupsafe",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "markupsafe",
-            "target": "gz-sim"
           },
           {
             "source": "markupsafe",
@@ -54088,6 +54072,10 @@
           {
             "source": "markupsafe",
             "target": "librsvg"
+          },
+          {
+            "source": "markupsafe",
+            "target": "libsdformat"
           },
           {
             "source": "markupsafe",
@@ -57696,6 +57684,10 @@
           {
             "source": "ninja",
             "target": "librsvg"
+          },
+          {
+            "source": "ninja",
+            "target": "libsdformat"
           },
           {
             "source": "ninja",
@@ -66979,6 +66971,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libsdformat"
+          },
+          {
+            "source": "pkg-config",
             "target": "libsemigroups"
           },
           {
@@ -73675,10 +73671,6 @@
           },
           {
             "source": "python",
-            "target": "gz-launch"
-          },
-          {
-            "source": "python",
             "target": "gz-math"
           },
           {
@@ -73688,10 +73680,6 @@
           {
             "source": "python",
             "target": "gz-physics"
-          },
-          {
-            "source": "python",
-            "target": "gz-sensors"
           },
           {
             "source": "python",
@@ -74340,6 +74328,10 @@
           {
             "source": "python",
             "target": "libsass"
+          },
+          {
+            "source": "python",
+            "target": "libsdformat"
           },
           {
             "source": "python",
@@ -94223,19 +94215,7 @@
           },
           {
             "source": "tinyxml2",
-            "target": "gz-physics"
-          },
-          {
-            "source": "tinyxml2",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "tinyxml2",
             "target": "gz-sim"
-          },
-          {
-            "source": "tinyxml2",
-            "target": "idyntree"
           },
           {
             "source": "tinyxml2",
@@ -94255,11 +94235,11 @@
           },
           {
             "source": "tinyxml2",
-            "target": "mujoco"
+            "target": "libsdformat"
           },
           {
             "source": "tinyxml2",
-            "target": "pinocchio"
+            "target": "mujoco"
           },
           {
             "source": "tinyxml2",
@@ -96067,23 +96047,7 @@
           },
           {
             "source": "urdfdom",
-            "target": "gz-launch"
-          },
-          {
-            "source": "urdfdom",
-            "target": "gz-physics"
-          },
-          {
-            "source": "urdfdom",
-            "target": "gz-sensors"
-          },
-          {
-            "source": "urdfdom",
-            "target": "gz-sim"
-          },
-          {
-            "source": "urdfdom",
-            "target": "idyntree"
+            "target": "libsdformat"
           },
           {
             "source": "urdfdom",
@@ -112244,6 +112208,12 @@
             "id": "libsass",
             "payload": {
               "__lazy_json__": "node_attrs/libsass.json"
+            }
+          },
+          {
+            "id": "libsdformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
