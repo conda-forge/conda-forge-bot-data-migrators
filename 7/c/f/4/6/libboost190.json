@@ -233,11 +233,23 @@
           },
           {
             "source": "casacore",
+            "target": "casacpp"
+          },
+          {
+            "source": "casacore",
             "target": "conda-forge-pinning"
           },
           {
             "source": "casacore",
             "target": "python-casacore"
+          },
+          {
+            "source": "casacpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cascade",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "cctbx-base",
@@ -945,11 +957,19 @@
           },
           {
             "source": "heyoka.py",
+            "target": "cascade"
+          },
+          {
+            "source": "heyoka.py",
             "target": "conda-forge-pinning"
           },
           {
             "source": "heyoka.py",
             "target": "pykep"
+          },
+          {
+            "source": "heyoka",
+            "target": "cascade"
           },
           {
             "source": "heyoka",
@@ -2846,6 +2866,18 @@
             "id": "casacore",
             "payload": {
               "__lazy_json__": "node_attrs/casacore.json"
+            }
+          },
+          {
+            "id": "casacpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacpp.json"
+            }
+          },
+          {
+            "id": "cascade",
+            "payload": {
+              "__lazy_json__": "node_attrs/cascade.json"
             }
           },
           {
