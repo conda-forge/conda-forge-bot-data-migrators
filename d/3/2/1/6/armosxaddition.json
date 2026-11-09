@@ -3491,6 +3491,10 @@
           },
           {
             "source": "automake",
+            "target": "cppunit"
+          },
+          {
+            "source": "automake",
             "target": "cunit"
           },
           {
@@ -10111,6 +10115,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "comrak"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "conda"
           },
           {
@@ -10208,10 +10216,6 @@
           {
             "source": "cargo-auditable",
             "target": "fluidsim"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "freeze-core"
           },
           {
             "source": "cargo-auditable",
@@ -10819,6 +10823,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "comrak"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "conda"
           },
           {
@@ -10968,10 +10976,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "fluidsim"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "freeze-core"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -17368,6 +17372,10 @@
           {
             "source": "compilers",
             "target": "pythia8"
+          },
+          {
+            "source": "comrak",
+            "target": "freeze-core"
           },
           {
             "source": "conda-bash-completion",
@@ -41891,6 +41899,10 @@
           },
           {
             "source": "libtool",
+            "target": "cppunit"
+          },
+          {
+            "source": "libtool",
             "target": "cunit"
           },
           {
@@ -46268,6 +46280,10 @@
           {
             "source": "make",
             "target": "cpppath"
+          },
+          {
+            "source": "make",
+            "target": "cppunit"
           },
           {
             "source": "make",
@@ -62619,7 +62635,7 @@
           },
           {
             "source": "nushell",
-            "target": "freeze-core"
+            "target": "comrak"
           },
           {
             "source": "nushell",
@@ -116283,6 +116299,12 @@
             }
           },
           {
+            "id": "comrak",
+            "payload": {
+              "__lazy_json__": "node_attrs/comrak.json"
+            }
+          },
+          {
             "id": "conda",
             "payload": {
               "__lazy_json__": "node_attrs/conda.json"
@@ -116520,6 +116542,12 @@
             "id": "cpptrace",
             "payload": {
               "__lazy_json__": "node_attrs/cpptrace.json"
+            }
+          },
+          {
+            "id": "cppunit",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppunit.json"
             }
           },
           {
