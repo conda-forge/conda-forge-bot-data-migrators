@@ -55,12 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ale",
-            "payload": {
-              "__lazy_json__": "node_attrs/ale.json"
-            }
-          },
-          {
             "id": "gz-sim",
             "payload": {
               "__lazy_json__": "node_attrs/gz-sim.json"
@@ -70,6 +64,12 @@
             "id": "lalinspiral",
             "payload": {
               "__lazy_json__": "node_attrs/lalinspiral.json"
+            }
+          },
+          {
+            "id": "spiceql",
+            "payload": {
+              "__lazy_json__": "node_attrs/spiceql.json"
             }
           }
         ]
@@ -2841,6 +2841,10 @@
           {
             "source": "backports.zstd",
             "target": "bowtie-py"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "bpython"
           },
           {
             "source": "backports.zstd",
@@ -5784,6 +5788,10 @@
           },
           {
             "source": "boost",
+            "target": "gudhi"
+          },
+          {
+            "source": "boost",
             "target": "gwframe"
           },
           {
@@ -6427,6 +6435,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "bpython",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "brain-isotopic-distribution",
             "target": "conda-forge-pinning"
           },
@@ -6609,6 +6621,10 @@
           {
             "source": "brotli",
             "target": "bowtie-py"
+          },
+          {
+            "source": "brotli",
+            "target": "bpython"
           },
           {
             "source": "brotli",
@@ -12017,6 +12033,10 @@
           {
             "source": "cw-eval",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cwcwidth",
+            "target": "bpython"
           },
           {
             "source": "cwcwidth",
@@ -19864,6 +19884,10 @@
           },
           {
             "source": "greenlet",
+            "target": "bpython"
+          },
+          {
+            "source": "greenlet",
             "target": "caiman"
           },
           {
@@ -20517,6 +20541,14 @@
           {
             "source": "gtsam",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gudhi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gudhi",
+            "target": "multipers"
           },
           {
             "source": "guiqwt",
@@ -24517,6 +24549,18 @@
           {
             "source": "libxfoil",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lief",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "lief",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lief",
+            "target": "networkit"
           },
           {
             "source": "lightfm",
@@ -35141,6 +35185,10 @@
           {
             "source": "numpy",
             "target": "gtsam"
+          },
+          {
+            "source": "numpy",
+            "target": "gudhi"
           },
           {
             "source": "numpy",
@@ -48941,6 +48989,10 @@
           {
             "source": "pydantic-core",
             "target": "libensemble"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "lief"
           },
           {
             "source": "pydantic-core",
@@ -68712,6 +68764,10 @@
           },
           {
             "source": "tbb",
+            "target": "bpython"
+          },
+          {
+            "source": "tbb",
             "target": "brain-isotopic-distribution"
           },
           {
@@ -71724,6 +71780,10 @@
           },
           {
             "source": "tbb",
+            "target": "gudhi"
+          },
+          {
+            "source": "tbb",
             "target": "guiqwt"
           },
           {
@@ -72905,6 +72965,10 @@
           {
             "source": "tbb",
             "target": "libxfoil"
+          },
+          {
+            "source": "tbb",
+            "target": "lief"
           },
           {
             "source": "tbb",
@@ -83724,6 +83788,10 @@
           },
           {
             "source": "watchdog",
+            "target": "bpython"
+          },
+          {
+            "source": "watchdog",
             "target": "compas_cgal"
           },
           {
@@ -83989,6 +84057,10 @@
           {
             "source": "wcwidth",
             "target": "biomechanical-analysis-framework"
+          },
+          {
+            "source": "wcwidth",
+            "target": "bpython"
           },
           {
             "source": "wcwidth",
@@ -88285,6 +88357,12 @@
             "id": "box2d-py",
             "payload": {
               "__lazy_json__": "node_attrs/box2d-py.json"
+            }
+          },
+          {
+            "id": "bpython",
+            "payload": {
+              "__lazy_json__": "node_attrs/bpython.json"
             }
           },
           {
@@ -92770,6 +92848,12 @@
             }
           },
           {
+            "id": "gudhi",
+            "payload": {
+              "__lazy_json__": "node_attrs/gudhi.json"
+            }
+          },
+          {
             "id": "guiqwt",
             "payload": {
               "__lazy_json__": "node_attrs/guiqwt.json"
@@ -94513,6 +94597,12 @@
             "id": "libxfoil",
             "payload": {
               "__lazy_json__": "node_attrs/libxfoil.json"
+            }
+          },
+          {
+            "id": "lief",
+            "payload": {
+              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
