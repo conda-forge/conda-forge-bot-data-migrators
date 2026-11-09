@@ -508,6 +508,10 @@
             "target": "flatsurf"
           },
           {
+            "source": "cppyy-cling",
+            "target": "intervalxt"
+          },
+          {
             "source": "crbeam",
             "target": "conda-forge-pinning"
           },
@@ -1394,6 +1398,14 @@
           {
             "source": "imp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intervalxt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intervalxt",
+            "target": "flatsurf"
           },
           {
             "source": "ipbus",
@@ -3528,6 +3540,12 @@
             "id": "imp",
             "payload": {
               "__lazy_json__": "node_attrs/imp.json"
+            }
+          },
+          {
+            "id": "intervalxt",
+            "payload": {
+              "__lazy_json__": "node_attrs/intervalxt.json"
             }
           },
           {
