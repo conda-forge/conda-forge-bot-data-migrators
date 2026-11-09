@@ -2058,6 +2058,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "comrak"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "conda"
           },
           {
@@ -2207,6 +2211,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "cargo-c"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "comrak"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -13362,6 +13370,10 @@
           },
           {
             "source": "nushell",
+            "target": "comrak"
+          },
+          {
+            "source": "nushell",
             "target": "flyctl"
           },
           {
@@ -23121,6 +23133,12 @@
             "id": "cmake-no-system",
             "payload": {
               "__lazy_json__": "node_attrs/cmake-no-system.json"
+            }
+          },
+          {
+            "id": "comrak",
+            "payload": {
+              "__lazy_json__": "node_attrs/comrak.json"
             }
           },
           {
