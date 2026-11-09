@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "ale",
+            "payload": {
+              "__lazy_json__": "node_attrs/ale.json"
+            }
+          },
+          {
             "id": "gz-sim",
             "payload": {
               "__lazy_json__": "node_attrs/gz-sim.json"
@@ -64,12 +70,6 @@
             "id": "lalinspiral",
             "payload": {
               "__lazy_json__": "node_attrs/lalinspiral.json"
-            }
-          },
-          {
-            "id": "turbodbc",
-            "payload": {
-              "__lazy_json__": "node_attrs/turbodbc.json"
             }
           }
         ]
@@ -11780,7 +11780,7 @@
           },
           {
             "source": "cuda-core",
-            "target": "cuquantum"
+            "target": "cuda-python"
           },
           {
             "source": "cuda-core",
@@ -11797,10 +11797,6 @@
           {
             "source": "cuda-core",
             "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-core",
-            "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "cuda-core",
@@ -11821,6 +11817,42 @@
           {
             "source": "cuda-gdb",
             "target": "votca"
+          },
+          {
+            "source": "cuda-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cuda-python",
+            "target": "cuda-core"
+          },
+          {
+            "source": "cuda-python",
+            "target": "cuquantum"
+          },
+          {
+            "source": "cuda-python",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "cuda-python",
+            "target": "nccl4py"
+          },
+          {
+            "source": "cuda-python",
+            "target": "numba-cuda"
+          },
+          {
+            "source": "cuda-python",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "cuda-python",
+            "target": "nvidia-cutlass-dsl"
+          },
+          {
+            "source": "cuda-python",
+            "target": "nvmath"
           },
           {
             "source": "cuda_histogram",
@@ -12617,6 +12649,10 @@
           {
             "source": "cython",
             "target": "cuda-core"
+          },
+          {
+            "source": "cython",
+            "target": "cuda-python"
           },
           {
             "source": "cython",
@@ -16604,6 +16640,10 @@
           },
           {
             "source": "downsample",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dpct-meta",
             "target": "conda-forge-pinning"
           },
           {
@@ -25832,6 +25872,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "markupsafe",
             "target": "dragonfly2"
           },
           {
@@ -33849,6 +33893,10 @@
           {
             "source": "numpy",
             "target": "cuda-core"
+          },
+          {
+            "source": "numpy",
+            "target": "cuda-python"
           },
           {
             "source": "numpy",
@@ -69564,6 +69612,10 @@
           },
           {
             "source": "tbb",
+            "target": "cuda-python"
+          },
+          {
+            "source": "tbb",
             "target": "cuda_histogram"
           },
           {
@@ -70213,6 +70265,10 @@
           {
             "source": "tbb",
             "target": "downsample"
+          },
+          {
+            "source": "tbb",
+            "target": "dpct-meta"
           },
           {
             "source": "tbb",
@@ -89582,6 +89638,12 @@
             }
           },
           {
+            "id": "cuda-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-python.json"
+            }
+          },
+          {
             "id": "cuda_histogram",
             "payload": {
               "__lazy_json__": "node_attrs/cuda_histogram.json"
@@ -90539,6 +90601,12 @@
             "id": "downsample",
             "payload": {
               "__lazy_json__": "node_attrs/downsample.json"
+            }
+          },
+          {
+            "id": "dpct-meta",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpct-meta.json"
             }
           },
           {
