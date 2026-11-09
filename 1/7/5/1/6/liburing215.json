@@ -72,12 +72,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/runai-model-streamer.json"
             }
-          },
-          {
-            "id": "sdl",
-            "payload": {
-              "__lazy_json__": "node_attrs/sdl.json"
-            }
           }
         ]
       }
@@ -283,7 +277,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
