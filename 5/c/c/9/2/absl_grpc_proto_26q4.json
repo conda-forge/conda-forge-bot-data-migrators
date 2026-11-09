@@ -139,6 +139,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "casacpp",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "cel-expr-python",
             "target": "conda-forge-pinning"
           },
@@ -613,6 +617,12 @@
             "id": "cartographer",
             "payload": {
               "__lazy_json__": "node_attrs/cartographer.json"
+            }
+          },
+          {
+            "id": "casacpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/casacpp.json"
             }
           },
           {
