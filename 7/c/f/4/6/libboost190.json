@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "khiops-driver-gcs",
+            "payload": {
+              "__lazy_json__": "node_attrs/khiops-driver-gcs.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -1701,14 +1708,6 @@
           },
           {
             "source": "libradolan",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "librobometry",
-            "target": "bipedal-locomotion-framework"
-          },
-          {
-            "source": "librobometry",
             "target": "conda-forge-pinning"
           },
           {
@@ -3708,12 +3707,6 @@
             "id": "libradolan",
             "payload": {
               "__lazy_json__": "node_attrs/libradolan.json"
-            }
-          },
-          {
-            "id": "librobometry",
-            "payload": {
-              "__lazy_json__": "node_attrs/librobometry.json"
             }
           },
           {
