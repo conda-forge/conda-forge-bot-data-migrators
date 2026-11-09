@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "yarp",
+            "payload": {
+              "__lazy_json__": "node_attrs/yarp.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -11526,6 +11533,10 @@
           {
             "source": "coverage",
             "target": "shapelysmooth"
+          },
+          {
+            "source": "coverage",
+            "target": "snaphu"
           },
           {
             "source": "coverage",
@@ -39525,6 +39536,10 @@
           },
           {
             "source": "numpy",
+            "target": "snaphu"
+          },
+          {
+            "source": "numpy",
             "target": "sncosmo"
           },
           {
@@ -66620,6 +66635,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "snaphu",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "sncosmo",
             "target": "bbf"
           },
@@ -78834,6 +78853,10 @@
           {
             "source": "tbb",
             "target": "snakefood"
+          },
+          {
+            "source": "tbb",
+            "target": "snaphu"
           },
           {
             "source": "tbb",
@@ -103252,6 +103275,12 @@
             "id": "snakefood",
             "payload": {
               "__lazy_json__": "node_attrs/snakefood.json"
+            }
+          },
+          {
+            "id": "snaphu",
+            "payload": {
+              "__lazy_json__": "node_attrs/snaphu.json"
             }
           },
           {
