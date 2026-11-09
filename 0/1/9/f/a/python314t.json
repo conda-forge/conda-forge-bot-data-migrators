@@ -5370,6 +5370,10 @@
           },
           {
             "source": "maturin",
+            "target": "polyglot-sql"
+          },
+          {
+            "source": "maturin",
             "target": "primp"
           },
           {
@@ -7895,6 +7899,10 @@
           {
             "source": "polars",
             "target": "wisdem"
+          },
+          {
+            "source": "polyglot-sql",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "polyhedral-gravity-model",
@@ -12391,6 +12399,10 @@
           {
             "source": "tbb",
             "target": "polars"
+          },
+          {
+            "source": "tbb",
+            "target": "polyglot-sql"
           },
           {
             "source": "tbb",
@@ -16929,6 +16941,12 @@
             "id": "polars",
             "payload": {
               "__lazy_json__": "node_attrs/polars.json"
+            }
+          },
+          {
+            "id": "polyglot-sql",
+            "payload": {
+              "__lazy_json__": "node_attrs/polyglot-sql.json"
             }
           },
           {
