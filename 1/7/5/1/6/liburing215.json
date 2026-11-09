@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "dgl",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/dgl.json"
-            }
-          },
-          {
-            "id": "libxnvme",
-            "payload": {
-              "__lazy_json__": "node_attrs/libxnvme.json"
-            }
-          },
-          {
-            "id": "runai-model-streamer",
-            "payload": {
-              "__lazy_json__": "node_attrs/runai-model-streamer.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -277,7 +265,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
