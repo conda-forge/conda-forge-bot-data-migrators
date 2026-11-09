@@ -2259,10 +2259,6 @@
           },
           {
             "source": "autoconf",
-            "target": "php"
-          },
-          {
-            "source": "autoconf",
             "target": "pixell"
           },
           {
@@ -6455,10 +6451,6 @@
           },
           {
             "source": "bison",
-            "target": "php"
-          },
-          {
-            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -9168,10 +9160,6 @@
           {
             "source": "bzip2",
             "target": "pcre2"
-          },
-          {
-            "source": "bzip2",
-            "target": "php"
           },
           {
             "source": "bzip2",
@@ -14831,10 +14819,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14884,6 +14868,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14940,6 +14928,10 @@
           {
             "source": "cmake",
             "target": "multinest"
+          },
+          {
+            "source": "cmake",
+            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -16519,6 +16511,10 @@
           },
           {
             "source": "cmake",
+            "target": "xeus-r"
+          },
+          {
+            "source": "cmake",
             "target": "xeus-robot"
           },
           {
@@ -17504,6 +17500,10 @@
           {
             "source": "coverage",
             "target": "fiatlux"
+          },
+          {
+            "source": "coverage",
+            "target": "filprofiler"
           },
           {
             "source": "coverage",
@@ -20652,10 +20652,6 @@
           {
             "source": "curl",
             "target": "pari"
-          },
-          {
-            "source": "curl",
-            "target": "php"
           },
           {
             "source": "curl",
@@ -28247,10 +28243,6 @@
           },
           {
             "source": "gettext",
-            "target": "php"
-          },
-          {
-            "source": "gettext",
             "target": "poppler"
           },
           {
@@ -30292,10 +30284,6 @@
           {
             "source": "gmp",
             "target": "photospline"
-          },
-          {
-            "source": "gmp",
-            "target": "php"
           },
           {
             "source": "gmp",
@@ -35051,10 +35039,6 @@
           },
           {
             "source": "icu",
-            "target": "php"
-          },
-          {
-            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -38999,10 +38983,6 @@
           },
           {
             "source": "libiconv",
-            "target": "php"
-          },
-          {
-            "source": "libiconv",
             "target": "pkg-config"
           },
           {
@@ -40871,10 +40851,6 @@
           },
           {
             "source": "libsodium",
-            "target": "php"
-          },
-          {
-            "source": "libsodium",
             "target": "pynacl"
           },
           {
@@ -41792,10 +41768,6 @@
           {
             "source": "libtool",
             "target": "pdf2svg"
-          },
-          {
-            "source": "libtool",
-            "target": "php"
           },
           {
             "source": "libtool",
@@ -42935,10 +42907,6 @@
           },
           {
             "source": "libxml2",
-            "target": "php"
-          },
-          {
-            "source": "libxml2",
             "target": "pocl"
           },
           {
@@ -43195,10 +43163,6 @@
           },
           {
             "source": "libxslt",
-            "target": "php"
-          },
-          {
-            "source": "libxslt",
             "target": "postgis"
           },
           {
@@ -43260,10 +43224,6 @@
           {
             "source": "libzip",
             "target": "paraview"
-          },
-          {
-            "source": "libzip",
-            "target": "php"
           },
           {
             "source": "libzip",
@@ -43372,6 +43332,10 @@
           {
             "source": "lld",
             "target": "deno"
+          },
+          {
+            "source": "lld",
+            "target": "filprofiler"
           },
           {
             "source": "lld",
@@ -45427,6 +45391,10 @@
           },
           {
             "source": "make",
+            "target": "filprofiler"
+          },
+          {
+            "source": "make",
             "target": "findent"
           },
           {
@@ -46951,10 +46919,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "metplus"
           },
           {
@@ -47720,10 +47684,6 @@
           {
             "source": "make",
             "target": "photospline"
-          },
-          {
-            "source": "make",
-            "target": "php"
           },
           {
             "source": "make",
@@ -50411,6 +50371,10 @@
           },
           {
             "source": "make",
+            "target": "xeus-r"
+          },
+          {
+            "source": "make",
             "target": "xeus-robot"
           },
           {
@@ -52796,86 +52760,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -58267,6 +58151,10 @@
           },
           {
             "source": "nlohmann_json",
+            "target": "xeus-r"
+          },
+          {
+            "source": "nlohmann_json",
             "target": "xeus-robot"
           },
           {
@@ -59156,6 +59044,10 @@
           {
             "source": "numexpr",
             "target": "dedalus"
+          },
+          {
+            "source": "numexpr",
+            "target": "filprofiler"
           },
           {
             "source": "numexpr",
@@ -62310,10 +62202,6 @@
             "target": "jq"
           },
           {
-            "source": "oniguruma",
-            "target": "php"
-          },
-          {
             "source": "onnxruntime",
             "target": "bipedal-locomotion-framework"
           },
@@ -64743,10 +64631,6 @@
           },
           {
             "source": "openssl",
-            "target": "php"
-          },
-          {
-            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -67035,10 +66919,6 @@
           },
           {
             "source": "pcre2",
-            "target": "php"
-          },
-          {
-            "source": "pcre2",
             "target": "qt-main"
           },
           {
@@ -68851,10 +68731,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "gdal"
-          },
-          {
-            "source": "pkg-config",
             "target": "gdk-pixbuf"
           },
           {
@@ -70223,10 +70099,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "php"
-          },
-          {
-            "source": "pkg-config",
             "target": "pillow"
           },
           {
@@ -71307,6 +71179,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "xeus-r"
+          },
+          {
+            "source": "pkg-config",
             "target": "xkeyboard-config"
           },
           {
@@ -71516,6 +71392,10 @@
           {
             "source": "pkgconf",
             "target": "dssp"
+          },
+          {
+            "source": "pkgconf",
+            "target": "gdal"
           },
           {
             "source": "pkgconf",
@@ -72316,10 +72196,6 @@
           {
             "source": "postgresql",
             "target": "meos"
-          },
-          {
-            "source": "postgresql",
-            "target": "php"
           },
           {
             "source": "postgresql",
@@ -73292,6 +73168,10 @@
           {
             "source": "psutil",
             "target": "fenics-dolfinx"
+          },
+          {
+            "source": "psutil",
+            "target": "filprofiler"
           },
           {
             "source": "psutil",
@@ -78011,6 +77891,10 @@
           },
           {
             "source": "python",
+            "target": "filprofiler"
+          },
+          {
+            "source": "python",
             "target": "findutils"
           },
           {
@@ -80920,6 +80804,10 @@
           {
             "source": "python",
             "target": "pythia8"
+          },
+          {
+            "source": "python",
+            "target": "python-annoy"
           },
           {
             "source": "python",
@@ -86498,6 +86386,10 @@
             "target": "r-systemfonts"
           },
           {
+            "source": "r-base64enc",
+            "target": "xeus-r"
+          },
+          {
             "source": "r-base",
             "target": "quarto"
           },
@@ -88043,6 +87935,10 @@
           },
           {
             "source": "r-base",
+            "target": "xeus-r"
+          },
+          {
+            "source": "r-base",
             "target": "xgboost"
           },
           {
@@ -88492,6 +88388,10 @@
           {
             "source": "r-cli",
             "target": "rpy2"
+          },
+          {
+            "source": "r-cli",
+            "target": "xeus-r"
           },
           {
             "source": "r-clock",
@@ -89614,6 +89514,10 @@
             "target": "rpy2"
           },
           {
+            "source": "r-glue",
+            "target": "xeus-r"
+          },
+          {
             "source": "r-gmm",
             "target": "r-tmvtnorm"
           },
@@ -89760,6 +89664,10 @@
           {
             "source": "r-htmltools",
             "target": "rstudio"
+          },
+          {
+            "source": "r-htmltools",
+            "target": "xeus-r"
           },
           {
             "source": "r-httpuv",
@@ -90096,6 +90004,10 @@
           {
             "source": "r-jsonlite",
             "target": "rstudio"
+          },
+          {
+            "source": "r-jsonlite",
+            "target": "xeus-r"
           },
           {
             "source": "r-jsonlite",
@@ -92358,6 +92270,10 @@
             "target": "rpy2"
           },
           {
+            "source": "r-rlang",
+            "target": "xeus-r"
+          },
+          {
             "source": "r-rmutil",
             "target": "r-gunifrac"
           },
@@ -93994,10 +93910,6 @@
             "target": "clingo"
           },
           {
-            "source": "re2c",
-            "target": "php"
-          },
-          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -94128,10 +94040,6 @@
           {
             "source": "readline",
             "target": "pari"
-          },
-          {
-            "source": "readline",
-            "target": "php"
           },
           {
             "source": "readline",
@@ -100044,10 +99952,6 @@
           {
             "source": "sqlite",
             "target": "peewee"
-          },
-          {
-            "source": "sqlite",
-            "target": "php"
           },
           {
             "source": "sqlite",
@@ -108167,6 +108071,10 @@
           },
           {
             "source": "xeus-zmq",
+            "target": "xeus-r"
+          },
+          {
+            "source": "xeus-zmq",
             "target": "xeus-sql"
           },
           {
@@ -108180,6 +108088,10 @@
           {
             "source": "xeus",
             "target": "xeus-octave"
+          },
+          {
+            "source": "xeus",
+            "target": "xeus-r"
           },
           {
             "source": "xeus",
@@ -111312,10 +111224,6 @@
           {
             "source": "zlib",
             "target": "photospline"
-          },
-          {
-            "source": "zlib",
-            "target": "php"
           },
           {
             "source": "zlib",
@@ -116537,6 +116445,12 @@
             }
           },
           {
+            "id": "filprofiler",
+            "payload": {
+              "__lazy_json__": "node_attrs/filprofiler.json"
+            }
+          },
+          {
             "id": "findent",
             "payload": {
               "__lazy_json__": "node_attrs/findent.json"
@@ -120803,12 +120717,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -122813,12 +122721,6 @@
             }
           },
           {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "physics-tenpy",
             "payload": {
               "__lazy_json__": "node_attrs/physics-tenpy.json"
@@ -124280,6 +124182,12 @@
             "id": "python",
             "payload": {
               "__lazy_json__": "node_attrs/python.json"
+            }
+          },
+          {
+            "id": "python-annoy",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-annoy.json"
             }
           },
           {
@@ -129896,6 +129804,12 @@
             "id": "xeus-python",
             "payload": {
               "__lazy_json__": "node_attrs/xeus-python.json"
+            }
+          },
+          {
+            "id": "xeus-r",
+            "payload": {
+              "__lazy_json__": "node_attrs/xeus-r.json"
             }
           },
           {
