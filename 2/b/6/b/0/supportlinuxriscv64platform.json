@@ -299,7 +299,7 @@
           },
           {
             "source": "brotli",
-            "target": "ffmpeg"
+            "target": "libjxl-split"
           },
           {
             "source": "brotli",
@@ -363,10 +363,6 @@
           },
           {
             "source": "cairo",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "cairo",
             "target": "gobject-introspection"
           },
           {
@@ -380,6 +376,10 @@
           {
             "source": "cairo",
             "target": "libdecor"
+          },
+          {
+            "source": "cairo",
+            "target": "librsvg"
           },
           {
             "source": "cairo",
@@ -723,6 +723,10 @@
           },
           {
             "source": "expat",
+            "target": "librsvg"
+          },
+          {
+            "source": "expat",
             "target": "pango"
           },
           {
@@ -766,8 +770,12 @@
             "target": "ffmpeg"
           },
           {
+            "source": "fftw",
+            "target": "pulseaudio"
+          },
+          {
             "source": "fmt",
-            "target": "conda-forge-ci-setup"
+            "target": "lief"
           },
           {
             "source": "fmt",
@@ -804,6 +812,10 @@
           {
             "source": "fontconfig",
             "target": "libass"
+          },
+          {
+            "source": "fontconfig",
+            "target": "librsvg"
           },
           {
             "source": "fontconfig",
@@ -863,6 +875,10 @@
           },
           {
             "source": "freetype",
+            "target": "librsvg"
+          },
+          {
+            "source": "freetype",
             "target": "pango"
           },
           {
@@ -895,15 +911,15 @@
           },
           {
             "source": "gdk-pixbuf",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "gdk-pixbuf",
             "target": "gtk3"
           },
           {
+            "source": "gdk-pixbuf",
+            "target": "librsvg"
+          },
+          {
             "source": "giflib",
-            "target": "ffmpeg"
+            "target": "libjxl-split"
           },
           {
             "source": "giflib",
@@ -956,6 +972,10 @@
           {
             "source": "glib",
             "target": "libdecor"
+          },
+          {
+            "source": "glib",
+            "target": "librsvg"
           },
           {
             "source": "glib",
@@ -1120,6 +1140,10 @@
           {
             "source": "harfbuzz",
             "target": "libass"
+          },
+          {
+            "source": "harfbuzz",
+            "target": "librsvg"
           },
           {
             "source": "harfbuzz",
@@ -1527,7 +1551,7 @@
           },
           {
             "source": "libhwy",
-            "target": "ffmpeg"
+            "target": "libjxl-split"
           },
           {
             "source": "libiconv",
@@ -1599,15 +1623,15 @@
           },
           {
             "source": "libjpeg-turbo",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libjpeg-turbo",
             "target": "gdk-pixbuf"
           },
           {
             "source": "libjpeg-turbo",
             "target": "lcms2"
+          },
+          {
+            "source": "libjpeg-turbo",
+            "target": "libjxl-split"
           },
           {
             "source": "libjpeg-turbo",
@@ -1624,6 +1648,10 @@
           {
             "source": "libjpeg-turbo",
             "target": "r-base"
+          },
+          {
+            "source": "libjxl-split",
+            "target": "ffmpeg"
           },
           {
             "source": "libnl",
@@ -1687,10 +1715,6 @@
           },
           {
             "source": "libpng",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "libpng",
             "target": "freetype"
           },
           {
@@ -1699,11 +1723,15 @@
           },
           {
             "source": "libpng",
-            "target": "gtk3"
+            "target": "harfbuzz"
           },
           {
             "source": "libpng",
-            "target": "harfbuzz"
+            "target": "libjxl-split"
+          },
+          {
+            "source": "libpng",
+            "target": "librsvg"
           },
           {
             "source": "libpng",
@@ -1740,6 +1768,14 @@
           {
             "source": "libqdldl",
             "target": "libosqp"
+          },
+          {
+            "source": "librsvg",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "librsvg",
+            "target": "gtk3"
           },
           {
             "source": "libsndfile",
@@ -1999,15 +2035,15 @@
           },
           {
             "source": "libxml2",
-            "target": "gtk3"
-          },
-          {
-            "source": "libxml2",
             "target": "libarchive"
           },
           {
             "source": "libxml2",
             "target": "libhwloc"
+          },
+          {
+            "source": "libxml2",
+            "target": "librsvg"
           },
           {
             "source": "libxml2",
@@ -2048,6 +2084,10 @@
           {
             "source": "libxml2",
             "target": "tbb"
+          },
+          {
+            "source": "lief",
+            "target": "conda-forge-ci-setup"
           },
           {
             "source": "llvmdev",
@@ -2127,7 +2167,7 @@
           },
           {
             "source": "mbedtls",
-            "target": "conda-forge-ci-setup"
+            "target": "lief"
           },
           {
             "source": "menuinst",
@@ -2136,14 +2176,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -2207,15 +2239,15 @@
           },
           {
             "source": "mpich",
+            "target": "fftw"
+          },
+          {
+            "source": "mpich",
             "target": "mumps"
           },
           {
             "source": "mpich",
             "target": "parmetis"
-          },
-          {
-            "source": "mpich",
-            "target": "pulseaudio"
           },
           {
             "source": "mpich",
@@ -2327,7 +2359,7 @@
           },
           {
             "source": "nlohmann_json",
-            "target": "conda-forge-ci-setup"
+            "target": "lief"
           },
           {
             "source": "nlohmann_json",
@@ -2431,7 +2463,7 @@
           },
           {
             "source": "openexr",
-            "target": "ffmpeg"
+            "target": "libjxl-split"
           },
           {
             "source": "openh264",
@@ -2447,15 +2479,15 @@
           },
           {
             "source": "openmpi",
+            "target": "fftw"
+          },
+          {
+            "source": "openmpi",
             "target": "mumps"
           },
           {
             "source": "openmpi",
             "target": "parmetis"
-          },
-          {
-            "source": "openmpi",
-            "target": "pulseaudio"
           },
           {
             "source": "openmpi",
@@ -2603,15 +2635,15 @@
           },
           {
             "source": "pango",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "pango",
             "target": "gtk3"
           },
           {
             "source": "pango",
             "target": "libdecor"
+          },
+          {
+            "source": "pango",
+            "target": "librsvg"
           },
           {
             "source": "pango",
@@ -2815,7 +2847,7 @@
           },
           {
             "source": "pydantic-core",
-            "target": "conda-forge-ci-setup"
+            "target": "lief"
           },
           {
             "source": "python-librt",
@@ -2944,6 +2976,10 @@
           {
             "source": "python",
             "target": "libxkbcommon"
+          },
+          {
+            "source": "python",
+            "target": "lief"
           },
           {
             "source": "python",
@@ -3607,11 +3643,11 @@
           },
           {
             "source": "spdlog",
-            "target": "conda-forge-ci-setup"
+            "target": "gz-utils"
           },
           {
             "source": "spdlog",
-            "target": "gz-utils"
+            "target": "lief"
           },
           {
             "source": "spdlog",
@@ -4235,6 +4271,10 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "librsvg"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "libxcb"
           },
           {
@@ -4427,6 +4467,10 @@
           },
           {
             "source": "xz",
+            "target": "librsvg"
+          },
+          {
+            "source": "xz",
             "target": "libtiff"
           },
           {
@@ -4599,11 +4643,19 @@
           },
           {
             "source": "zlib",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "zlib",
             "target": "libpng"
           },
           {
             "source": "zlib",
             "target": "libprotobuf"
+          },
+          {
+            "source": "zlib",
+            "target": "librsvg"
           },
           {
             "source": "zlib",
@@ -5217,6 +5269,12 @@
             }
           },
           {
+            "id": "fftw",
+            "payload": {
+              "__lazy_json__": "node_attrs/fftw.json"
+            }
+          },
+          {
             "id": "fmt",
             "payload": {
               "__lazy_json__": "node_attrs/fmt.json"
@@ -5655,6 +5713,12 @@
             }
           },
           {
+            "id": "libjxl-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/libjxl-split.json"
+            }
+          },
+          {
             "id": "libnl",
             "payload": {
               "__lazy_json__": "node_attrs/libnl.json"
@@ -5712,6 +5776,12 @@
             "id": "libqdldl",
             "payload": {
               "__lazy_json__": "node_attrs/libqdldl.json"
+            }
+          },
+          {
+            "id": "librsvg",
+            "payload": {
+              "__lazy_json__": "node_attrs/librsvg.json"
             }
           },
           {
@@ -5865,6 +5935,12 @@
             }
           },
           {
+            "id": "lief",
+            "payload": {
+              "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
             "id": "llvmdev",
             "payload": {
               "__lazy_json__": "node_attrs/llvmdev.json"
@@ -5922,12 +5998,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -7303,7 +7373,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
