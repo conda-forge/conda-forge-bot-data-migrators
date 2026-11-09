@@ -447,10 +447,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "freeze-core"
-          },
-          {
-            "source": "aiohttp",
             "target": "geoarray"
           },
           {
@@ -540,6 +536,10 @@
           {
             "source": "aiohttp",
             "target": "netcdf4"
+          },
+          {
+            "source": "aiohttp",
+            "target": "nh3"
           },
           {
             "source": "aiohttp",
@@ -1079,10 +1079,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "freeze-core"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "geoarray"
           },
           {
@@ -1168,6 +1164,10 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "netcdf4"
+          },
+          {
+            "source": "argon2-cffi-bindings",
+            "target": "nh3"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1775,10 +1775,6 @@
           },
           {
             "source": "ast-serialize",
-            "target": "freeze-core"
-          },
-          {
-            "source": "ast-serialize",
             "target": "geoarray"
           },
           {
@@ -1884,6 +1880,10 @@
           {
             "source": "ast-serialize",
             "target": "netcdf4"
+          },
+          {
+            "source": "ast-serialize",
+            "target": "nh3"
           },
           {
             "source": "ast-serialize",
@@ -5651,6 +5651,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "nh3"
+          },
+          {
+            "source": "backports.zstd",
             "target": "nifty"
           },
           {
@@ -6475,10 +6479,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "freeze-core"
-          },
-          {
-            "source": "bcrypt",
             "target": "geoarray"
           },
           {
@@ -6568,6 +6568,10 @@
           {
             "source": "bcrypt",
             "target": "netcdf4"
+          },
+          {
+            "source": "bcrypt",
+            "target": "nh3"
           },
           {
             "source": "bcrypt",
@@ -7403,10 +7407,6 @@
           },
           {
             "source": "bison",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "bison",
             "target": "findent"
           },
           {
@@ -7464,6 +7464,10 @@
           {
             "source": "bison",
             "target": "libuuid"
+          },
+          {
+            "source": "bison",
+            "target": "libxkbcommon"
           },
           {
             "source": "bison",
@@ -7528,10 +7532,6 @@
           {
             "source": "bison",
             "target": "qt-webengine"
-          },
-          {
-            "source": "bison",
-            "target": "rstudio"
           },
           {
             "source": "bison",
@@ -9467,6 +9467,10 @@
           },
           {
             "source": "brotli",
+            "target": "nh3"
+          },
+          {
+            "source": "brotli",
             "target": "nifty"
           },
           {
@@ -10787,6 +10791,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "nh3"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "nifty"
           },
           {
@@ -11652,6 +11660,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "netcdf4"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "nh3"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -13020,6 +13032,10 @@
           {
             "source": "cffi",
             "target": "netcdf4"
+          },
+          {
+            "source": "cffi",
+            "target": "nh3"
           },
           {
             "source": "cffi",
@@ -14575,6 +14591,10 @@
           },
           {
             "source": "cmake",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "cmake",
             "target": "draco"
           },
           {
@@ -15892,6 +15912,10 @@
           {
             "source": "cmake",
             "target": "libxc"
+          },
+          {
+            "source": "cmake",
+            "target": "libxkbcommon"
           },
           {
             "source": "cmake",
@@ -18631,6 +18655,10 @@
           },
           {
             "source": "coverage",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "coverage",
             "target": "dscribe"
           },
           {
@@ -19384,6 +19412,10 @@
           {
             "source": "coverage",
             "target": "newrelic"
+          },
+          {
+            "source": "coverage",
+            "target": "nh3"
           },
           {
             "source": "coverage",
@@ -21019,10 +21051,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "freeze-core"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "gdb"
           },
           {
@@ -21212,6 +21240,10 @@
           {
             "source": "ctng-compilers",
             "target": "netcdf4"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "nh3"
           },
           {
             "source": "ctng-compilers",
@@ -22440,6 +22472,10 @@
           {
             "source": "cython",
             "target": "dockq"
+          },
+          {
+            "source": "cython",
+            "target": "dpct-meta"
           },
           {
             "source": "cython",
@@ -24191,10 +24227,6 @@
           },
           {
             "source": "debugpy",
-            "target": "freeze-core"
-          },
-          {
-            "source": "debugpy",
             "target": "geoarray"
           },
           {
@@ -24280,6 +24312,10 @@
           {
             "source": "debugpy",
             "target": "netcdf4"
+          },
+          {
+            "source": "debugpy",
+            "target": "nh3"
           },
           {
             "source": "debugpy",
@@ -24939,10 +24975,6 @@
           },
           {
             "source": "dulwich",
-            "target": "freeze-core"
-          },
-          {
-            "source": "dulwich",
             "target": "funcparserlib"
           },
           {
@@ -25036,6 +25068,10 @@
           {
             "source": "dulwich",
             "target": "netcdf4"
+          },
+          {
+            "source": "dulwich",
+            "target": "nh3"
           },
           {
             "source": "dulwich",
@@ -26555,10 +26591,6 @@
           },
           {
             "source": "falcon",
-            "target": "freeze-core"
-          },
-          {
-            "source": "falcon",
             "target": "geoarray"
           },
           {
@@ -26644,6 +26676,10 @@
           {
             "source": "falcon",
             "target": "netcdf4"
+          },
+          {
+            "source": "falcon",
+            "target": "nh3"
           },
           {
             "source": "falcon",
@@ -27079,10 +27115,6 @@
           },
           {
             "source": "fastar",
-            "target": "freeze-core"
-          },
-          {
-            "source": "fastar",
             "target": "geoarray"
           },
           {
@@ -27168,6 +27200,10 @@
           {
             "source": "fastar",
             "target": "netcdf4"
+          },
+          {
+            "source": "fastar",
+            "target": "nh3"
           },
           {
             "source": "fastar",
@@ -30363,10 +30399,6 @@
           },
           {
             "source": "git",
-            "target": "freeze-core"
-          },
-          {
-            "source": "git",
             "target": "geoarray"
           },
           {
@@ -30516,6 +30548,10 @@
           {
             "source": "git",
             "target": "netcdf4"
+          },
+          {
+            "source": "git",
+            "target": "nh3"
           },
           {
             "source": "git",
@@ -32675,10 +32711,6 @@
           },
           {
             "source": "greenlet",
-            "target": "freeze-core"
-          },
-          {
-            "source": "greenlet",
             "target": "geoarray"
           },
           {
@@ -32768,6 +32800,10 @@
           {
             "source": "greenlet",
             "target": "netcdf4"
+          },
+          {
+            "source": "greenlet",
+            "target": "nh3"
           },
           {
             "source": "greenlet",
@@ -35267,10 +35303,6 @@
           },
           {
             "source": "httptools",
-            "target": "freeze-core"
-          },
-          {
-            "source": "httptools",
             "target": "geoarray"
           },
           {
@@ -35356,6 +35388,10 @@
           {
             "source": "httptools",
             "target": "netcdf4"
+          },
+          {
+            "source": "httptools",
+            "target": "nh3"
           },
           {
             "source": "httptools",
@@ -35863,10 +35899,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "freeze-core"
-          },
-          {
-            "source": "hypothesis",
             "target": "geoarray"
           },
           {
@@ -35964,6 +35996,10 @@
           {
             "source": "hypothesis",
             "target": "netcdf4"
+          },
+          {
+            "source": "hypothesis",
+            "target": "nh3"
           },
           {
             "source": "hypothesis",
@@ -36964,6 +37000,10 @@
           {
             "source": "json-c",
             "target": "ttyd"
+          },
+          {
+            "source": "jsoncpp",
+            "target": "dpct-meta"
           },
           {
             "source": "jsoncpp",
@@ -38427,10 +38467,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "freeze-core"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "geoarray"
           },
           {
@@ -38516,6 +38552,10 @@
           {
             "source": "lazy-object-proxy",
             "target": "netcdf4"
+          },
+          {
+            "source": "lazy-object-proxy",
+            "target": "nh3"
           },
           {
             "source": "lazy-object-proxy",
@@ -38904,6 +38944,10 @@
           {
             "source": "ldc",
             "target": "tsv-utils"
+          },
+          {
+            "source": "lemon",
+            "target": "dpct-meta"
           },
           {
             "source": "lemon",
@@ -43991,10 +44035,6 @@
           },
           {
             "source": "libxcb",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "libxcb",
             "target": "fltk"
           },
           {
@@ -44007,11 +44047,11 @@
           },
           {
             "source": "libxcb",
-            "target": "pillow"
+            "target": "libxkbcommon"
           },
           {
             "source": "libxcb",
-            "target": "rstudio"
+            "target": "pillow"
           },
           {
             "source": "libxcb",
@@ -44064,6 +44104,14 @@
           {
             "source": "libxc",
             "target": "veloxchem"
+          },
+          {
+            "source": "libxkbcommon",
+            "target": "fcitx-qt5"
+          },
+          {
+            "source": "libxkbcommon",
+            "target": "rstudio"
           },
           {
             "source": "libxml2",
@@ -44184,10 +44232,6 @@
           {
             "source": "libxml2",
             "target": "emacs"
-          },
-          {
-            "source": "libxml2",
-            "target": "fcitx-qt5"
           },
           {
             "source": "libxml2",
@@ -44388,6 +44432,10 @@
           {
             "source": "libxml2",
             "target": "libvips"
+          },
+          {
+            "source": "libxml2",
+            "target": "libxkbcommon"
           },
           {
             "source": "libxml2",
@@ -44624,10 +44672,6 @@
           {
             "source": "libxml2",
             "target": "rrdtool"
-          },
-          {
-            "source": "libxml2",
-            "target": "rstudio"
           },
           {
             "source": "libxml2",
@@ -45703,10 +45747,6 @@
           },
           {
             "source": "lxml",
-            "target": "freeze-core"
-          },
-          {
-            "source": "lxml",
             "target": "geoarray"
           },
           {
@@ -45812,6 +45852,10 @@
           {
             "source": "lxml",
             "target": "netcdf4"
+          },
+          {
+            "source": "lxml",
+            "target": "nh3"
           },
           {
             "source": "lxml",
@@ -46527,10 +46571,6 @@
           },
           {
             "source": "m4",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "m4",
             "target": "flex"
           },
           {
@@ -46703,6 +46743,10 @@
           },
           {
             "source": "m4",
+            "target": "libxkbcommon"
+          },
+          {
+            "source": "m4",
             "target": "lrcalc"
           },
           {
@@ -46864,10 +46908,6 @@
           {
             "source": "m4",
             "target": "root"
-          },
-          {
-            "source": "m4",
-            "target": "rstudio"
           },
           {
             "source": "m4",
@@ -47604,6 +47644,10 @@
           {
             "source": "make",
             "target": "doxygen"
+          },
+          {
+            "source": "make",
+            "target": "dpct-meta"
           },
           {
             "source": "make",
@@ -53287,6 +53331,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "markupsafe",
             "target": "easyocr"
           },
           {
@@ -53356,10 +53404,6 @@
           {
             "source": "markupsafe",
             "target": "fps-terminals"
-          },
-          {
-            "source": "markupsafe",
-            "target": "freeze-core"
           },
           {
             "source": "markupsafe",
@@ -53580,6 +53624,10 @@
           {
             "source": "markupsafe",
             "target": "netcdf4"
+          },
+          {
+            "source": "markupsafe",
+            "target": "nh3"
           },
           {
             "source": "markupsafe",
@@ -54319,10 +54367,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "freeze-core"
-          },
-          {
-            "source": "matplotlib",
             "target": "galpy"
           },
           {
@@ -54540,6 +54584,10 @@
           {
             "source": "matplotlib",
             "target": "netcdf4"
+          },
+          {
+            "source": "matplotlib",
+            "target": "nh3"
           },
           {
             "source": "matplotlib",
@@ -57262,6 +57310,18 @@
             "target": "pyspice"
           },
           {
+            "source": "nh3",
+            "target": "arosics"
+          },
+          {
+            "source": "nh3",
+            "target": "caiman"
+          },
+          {
+            "source": "nh3",
+            "target": "freeze-core"
+          },
+          {
             "source": "ninja",
             "target": "abseil-cpp"
           },
@@ -57808,6 +57868,10 @@
           {
             "source": "ninja",
             "target": "dmlc"
+          },
+          {
+            "source": "ninja",
+            "target": "dpct-meta"
           },
           {
             "source": "ninja",
@@ -58735,6 +58799,10 @@
           },
           {
             "source": "ninja",
+            "target": "libxkbcommon"
+          },
+          {
+            "source": "ninja",
             "target": "libxmlpp"
           },
           {
@@ -59584,10 +59652,6 @@
           {
             "source": "ninja",
             "target": "rosettasciio"
-          },
-          {
-            "source": "ninja",
-            "target": "rstudio"
           },
           {
             "source": "ninja",
@@ -60555,10 +60619,6 @@
           },
           {
             "source": "nodejs",
-            "target": "freeze-core"
-          },
-          {
-            "source": "nodejs",
             "target": "geoarray"
           },
           {
@@ -60644,6 +60704,10 @@
           {
             "source": "nodejs",
             "target": "netcdf4"
+          },
+          {
+            "source": "nodejs",
+            "target": "nh3"
           },
           {
             "source": "nodejs",
@@ -62023,10 +62087,6 @@
           },
           {
             "source": "numpy",
-            "target": "freeze-core"
-          },
-          {
-            "source": "numpy",
             "target": "fresnel"
           },
           {
@@ -62704,6 +62764,10 @@
           {
             "source": "numpy",
             "target": "ngmix"
+          },
+          {
+            "source": "numpy",
+            "target": "nh3"
           },
           {
             "source": "numpy",
@@ -66783,10 +66847,6 @@
           },
           {
             "source": "openssl",
-            "target": "freeze-core"
-          },
-          {
-            "source": "openssl",
             "target": "gct"
           },
           {
@@ -67076,6 +67136,10 @@
           {
             "source": "openssl",
             "target": "nghttp2"
+          },
+          {
+            "source": "openssl",
+            "target": "nh3"
           },
           {
             "source": "openssl",
@@ -67947,10 +68011,6 @@
           },
           {
             "source": "pandas",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pandas",
             "target": "geoarray"
           },
           {
@@ -68068,6 +68128,10 @@
           {
             "source": "pandas",
             "target": "netcdf4"
+          },
+          {
+            "source": "pandas",
+            "target": "nh3"
           },
           {
             "source": "pandas",
@@ -68663,10 +68727,6 @@
           },
           {
             "source": "pandoc",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pandoc",
             "target": "geoarray"
           },
           {
@@ -68764,6 +68824,10 @@
           {
             "source": "pandoc",
             "target": "netcdf4"
+          },
+          {
+            "source": "pandoc",
+            "target": "nh3"
           },
           {
             "source": "pandoc",
@@ -71375,6 +71439,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "pkg-config",
             "target": "easyocr"
           },
           {
@@ -71432,10 +71500,6 @@
           {
             "source": "pkg-config",
             "target": "faunus"
-          },
-          {
-            "source": "pkg-config",
-            "target": "fcitx-qt5"
           },
           {
             "source": "pkg-config",
@@ -71512,10 +71576,6 @@
           {
             "source": "pkg-config",
             "target": "freetype"
-          },
-          {
-            "source": "pkg-config",
-            "target": "freeze-core"
           },
           {
             "source": "pkg-config",
@@ -71968,10 +72028,6 @@
           {
             "source": "pkg-config",
             "target": "jonquil"
-          },
-          {
-            "source": "pkg-config",
-            "target": "json-c"
           },
           {
             "source": "pkg-config",
@@ -72431,6 +72487,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libxkbcommon"
+          },
+          {
+            "source": "pkg-config",
             "target": "libxml2"
           },
           {
@@ -72644,6 +72704,10 @@
           {
             "source": "pkg-config",
             "target": "nghttp2"
+          },
+          {
+            "source": "pkg-config",
+            "target": "nh3"
           },
           {
             "source": "pkg-config",
@@ -73503,10 +73567,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "rstudio"
-          },
-          {
-            "source": "pkg-config",
             "target": "rte_rrtmgp"
           },
           {
@@ -74207,6 +74267,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "json-c"
+          },
+          {
+            "source": "pkgconf",
             "target": "libmediainfo"
           },
           {
@@ -74459,10 +74523,6 @@
           },
           {
             "source": "playwright",
-            "target": "freeze-core"
-          },
-          {
-            "source": "playwright",
             "target": "geoarray"
           },
           {
@@ -74548,6 +74608,10 @@
           {
             "source": "playwright",
             "target": "netcdf4"
+          },
+          {
+            "source": "playwright",
+            "target": "nh3"
           },
           {
             "source": "playwright",
@@ -75307,10 +75371,6 @@
           },
           {
             "source": "protobuf",
-            "target": "freeze-core"
-          },
-          {
-            "source": "protobuf",
             "target": "geoarray"
           },
           {
@@ -75408,6 +75468,10 @@
           {
             "source": "protobuf",
             "target": "netcdf4"
+          },
+          {
+            "source": "protobuf",
+            "target": "nh3"
           },
           {
             "source": "protobuf",
@@ -76011,10 +76075,6 @@
           },
           {
             "source": "psutil",
-            "target": "freeze-core"
-          },
-          {
-            "source": "psutil",
             "target": "geoarray"
           },
           {
@@ -76124,6 +76184,10 @@
           {
             "source": "psutil",
             "target": "netcdf4"
+          },
+          {
+            "source": "psutil",
+            "target": "nh3"
           },
           {
             "source": "psutil",
@@ -76563,10 +76627,6 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "pthread-stubs",
             "target": "giza"
           },
           {
@@ -76583,11 +76643,11 @@
           },
           {
             "source": "pthread-stubs",
-            "target": "openmm"
+            "target": "libxkbcommon"
           },
           {
             "source": "pthread-stubs",
-            "target": "rstudio"
+            "target": "openmm"
           },
           {
             "source": "pthread-stubs",
@@ -77099,10 +77159,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pydantic-core",
             "target": "geoarray"
           },
           {
@@ -77192,6 +77248,10 @@
           {
             "source": "pydantic-core",
             "target": "netcdf4"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "nh3"
           },
           {
             "source": "pydantic-core",
@@ -77827,10 +77887,6 @@
           },
           {
             "source": "pynacl",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pynacl",
             "target": "geoarray"
           },
           {
@@ -77920,6 +77976,10 @@
           {
             "source": "pynacl",
             "target": "netcdf4"
+          },
+          {
+            "source": "pynacl",
+            "target": "nh3"
           },
           {
             "source": "pynacl",
@@ -78367,10 +78427,6 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "geoarray"
           },
           {
@@ -78456,6 +78512,10 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "netcdf4"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
+            "target": "nh3"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -79379,10 +79439,6 @@
           },
           {
             "source": "python-librt",
-            "target": "freeze-core"
-          },
-          {
-            "source": "python-librt",
             "target": "geoarray"
           },
           {
@@ -79488,6 +79544,10 @@
           {
             "source": "python-librt",
             "target": "netcdf4"
+          },
+          {
+            "source": "python-librt",
+            "target": "nh3"
           },
           {
             "source": "python-librt",
@@ -81115,6 +81175,10 @@
           },
           {
             "source": "python",
+            "target": "dpct-meta"
+          },
+          {
+            "source": "python",
             "target": "dracopy"
           },
           {
@@ -81388,10 +81452,6 @@
           {
             "source": "python",
             "target": "fbdfile"
-          },
-          {
-            "source": "python",
-            "target": "fcitx-qt5"
           },
           {
             "source": "python",
@@ -82607,6 +82667,10 @@
           },
           {
             "source": "python",
+            "target": "libxkbcommon"
+          },
+          {
+            "source": "python",
             "target": "libxmlpp"
           },
           {
@@ -83080,6 +83144,10 @@
           {
             "source": "python",
             "target": "ngmix"
+          },
+          {
+            "source": "python",
+            "target": "nh3"
           },
           {
             "source": "python",
@@ -84771,10 +84839,6 @@
           },
           {
             "source": "python",
-            "target": "rstudio"
-          },
-          {
-            "source": "python",
             "target": "rsync"
           },
           {
@@ -86131,10 +86195,6 @@
           },
           {
             "source": "pytokens",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pytokens",
             "target": "geoarray"
           },
           {
@@ -86220,6 +86280,10 @@
           {
             "source": "pytokens",
             "target": "netcdf4"
+          },
+          {
+            "source": "pytokens",
+            "target": "nh3"
           },
           {
             "source": "pytokens",
@@ -87083,10 +87147,6 @@
           },
           {
             "source": "pywin32",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pywin32",
             "target": "geoarray"
           },
           {
@@ -87172,6 +87232,10 @@
           {
             "source": "pywin32",
             "target": "netcdf4"
+          },
+          {
+            "source": "pywin32",
+            "target": "nh3"
           },
           {
             "source": "pywin32",
@@ -87603,10 +87667,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pywinpty",
             "target": "geoarray"
           },
           {
@@ -87692,6 +87752,10 @@
           {
             "source": "pywinpty",
             "target": "netcdf4"
+          },
+          {
+            "source": "pywinpty",
+            "target": "nh3"
           },
           {
             "source": "pywinpty",
@@ -88191,10 +88255,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pyyaml",
             "target": "geoarray"
           },
           {
@@ -88352,6 +88412,10 @@
           {
             "source": "pyyaml",
             "target": "netcdf4"
+          },
+          {
+            "source": "pyyaml",
+            "target": "nh3"
           },
           {
             "source": "pyyaml",
@@ -88951,10 +89015,6 @@
           },
           {
             "source": "pyzmq",
-            "target": "freeze-core"
-          },
-          {
-            "source": "pyzmq",
             "target": "geoarray"
           },
           {
@@ -89048,6 +89108,10 @@
           {
             "source": "pyzmq",
             "target": "netcdf4"
+          },
+          {
+            "source": "pyzmq",
+            "target": "nh3"
           },
           {
             "source": "pyzmq",
@@ -97803,10 +97867,6 @@
           },
           {
             "source": "regress",
-            "target": "freeze-core"
-          },
-          {
-            "source": "regress",
             "target": "geoarray"
           },
           {
@@ -97892,6 +97952,10 @@
           {
             "source": "regress",
             "target": "netcdf4"
+          },
+          {
+            "source": "regress",
+            "target": "nh3"
           },
           {
             "source": "regress",
@@ -98447,10 +98511,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "freeze-core"
-          },
-          {
-            "source": "rpds-py",
             "target": "geoarray"
           },
           {
@@ -98540,6 +98600,10 @@
           {
             "source": "rpds-py",
             "target": "netcdf4"
+          },
+          {
+            "source": "rpds-py",
+            "target": "nh3"
           },
           {
             "source": "rpds-py",
@@ -99059,10 +99123,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "freeze-core"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "geoarray"
           },
           {
@@ -99156,6 +99216,10 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "netcdf4"
+          },
+          {
+            "source": "ruamel.yaml.clib",
+            "target": "nh3"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -99607,10 +99671,6 @@
           },
           {
             "source": "ruamel",
-            "target": "freeze-core"
-          },
-          {
-            "source": "ruamel",
             "target": "geoarray"
           },
           {
@@ -99700,6 +99760,10 @@
           {
             "source": "ruamel",
             "target": "netcdf4"
+          },
+          {
+            "source": "ruamel",
+            "target": "nh3"
           },
           {
             "source": "ruamel",
@@ -101899,10 +101963,6 @@
           },
           {
             "source": "sed",
-            "target": "freeze-core"
-          },
-          {
-            "source": "sed",
             "target": "gawk"
           },
           {
@@ -102116,6 +102176,10 @@
           {
             "source": "sed",
             "target": "netpbm"
+          },
+          {
+            "source": "sed",
+            "target": "nh3"
           },
           {
             "source": "sed",
@@ -104803,10 +104867,6 @@
           },
           {
             "source": "tornado",
-            "target": "freeze-core"
-          },
-          {
-            "source": "tornado",
             "target": "geoarray"
           },
           {
@@ -104896,6 +104956,10 @@
           {
             "source": "tornado",
             "target": "netcdf4"
+          },
+          {
+            "source": "tornado",
+            "target": "nh3"
           },
           {
             "source": "tornado",
@@ -105359,10 +105423,6 @@
           },
           {
             "source": "trio",
-            "target": "freeze-core"
-          },
-          {
-            "source": "trio",
             "target": "geckodriver"
           },
           {
@@ -105452,6 +105512,10 @@
           {
             "source": "trio",
             "target": "netcdf4"
+          },
+          {
+            "source": "trio",
+            "target": "nh3"
           },
           {
             "source": "trio",
@@ -106115,10 +106179,6 @@
           },
           {
             "source": "ujson",
-            "target": "freeze-core"
-          },
-          {
-            "source": "ujson",
             "target": "geoarray"
           },
           {
@@ -106204,6 +106264,10 @@
           {
             "source": "ujson",
             "target": "netcdf4"
+          },
+          {
+            "source": "ujson",
+            "target": "nh3"
           },
           {
             "source": "ujson",
@@ -106851,10 +106915,6 @@
           },
           {
             "source": "uv",
-            "target": "freeze-core"
-          },
-          {
-            "source": "uv",
             "target": "funcparserlib"
           },
           {
@@ -107099,10 +107159,6 @@
           },
           {
             "source": "uvloop",
-            "target": "freeze-core"
-          },
-          {
-            "source": "uvloop",
             "target": "geoarray"
           },
           {
@@ -107188,6 +107244,10 @@
           {
             "source": "uvloop",
             "target": "netcdf4"
+          },
+          {
+            "source": "uvloop",
+            "target": "nh3"
           },
           {
             "source": "uvloop",
@@ -107520,6 +107580,10 @@
           {
             "source": "uv",
             "target": "netcdf4"
+          },
+          {
+            "source": "uv",
+            "target": "nh3"
           },
           {
             "source": "uv",
@@ -108355,10 +108419,6 @@
           },
           {
             "source": "watchdog",
-            "target": "freeze-core"
-          },
-          {
-            "source": "watchdog",
             "target": "geoarray"
           },
           {
@@ -108444,6 +108504,10 @@
           {
             "source": "watchdog",
             "target": "netcdf4"
+          },
+          {
+            "source": "watchdog",
+            "target": "nh3"
           },
           {
             "source": "watchdog",
@@ -108859,10 +108923,6 @@
           },
           {
             "source": "watchfiles",
-            "target": "freeze-core"
-          },
-          {
-            "source": "watchfiles",
             "target": "geoarray"
           },
           {
@@ -108948,6 +109008,10 @@
           {
             "source": "watchfiles",
             "target": "netcdf4"
+          },
+          {
+            "source": "watchfiles",
+            "target": "nh3"
           },
           {
             "source": "watchfiles",
@@ -109379,10 +109443,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "freeze-core"
-          },
-          {
-            "source": "wcwidth",
             "target": "geoarray"
           },
           {
@@ -109468,6 +109528,10 @@
           {
             "source": "wcwidth",
             "target": "netcdf4"
+          },
+          {
+            "source": "wcwidth",
+            "target": "nh3"
           },
           {
             "source": "wcwidth",
@@ -109895,10 +109959,6 @@
           },
           {
             "source": "websockets",
-            "target": "freeze-core"
-          },
-          {
-            "source": "websockets",
             "target": "geoarray"
           },
           {
@@ -109992,6 +110052,10 @@
           {
             "source": "websockets",
             "target": "netcdf4"
+          },
+          {
+            "source": "websockets",
+            "target": "nh3"
           },
           {
             "source": "websockets",
@@ -110643,10 +110707,6 @@
           },
           {
             "source": "wrapt",
-            "target": "freeze-core"
-          },
-          {
-            "source": "wrapt",
             "target": "gensim"
           },
           {
@@ -110740,6 +110800,10 @@
           {
             "source": "wrapt",
             "target": "netcdf4"
+          },
+          {
+            "source": "wrapt",
+            "target": "nh3"
           },
           {
             "source": "wrapt",
@@ -111223,10 +111287,6 @@
           },
           {
             "source": "xattr",
-            "target": "freeze-core"
-          },
-          {
-            "source": "xattr",
             "target": "funcparserlib"
           },
           {
@@ -111320,6 +111380,10 @@
           {
             "source": "xattr",
             "target": "netcdf4"
+          },
+          {
+            "source": "xattr",
+            "target": "nh3"
           },
           {
             "source": "xattr",
@@ -111747,11 +111811,7 @@
           },
           {
             "source": "xkeyboard-config",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "xkeyboard-config",
-            "target": "rstudio"
+            "target": "libxkbcommon"
           },
           {
             "source": "xorg-imake",
@@ -112039,10 +112099,6 @@
           },
           {
             "source": "xorg-libxau",
-            "target": "fcitx-qt5"
-          },
-          {
-            "source": "xorg-libxau",
             "target": "fltk"
           },
           {
@@ -112055,7 +112111,7 @@
           },
           {
             "source": "xorg-libxau",
-            "target": "rstudio"
+            "target": "libxkbcommon"
           },
           {
             "source": "xorg-libxau",
@@ -112751,15 +112807,11 @@
           },
           {
             "source": "xorg-xproto",
-            "target": "fcitx-qt5"
+            "target": "libxkbcommon"
           },
           {
             "source": "xorg-xproto",
             "target": "netpbm"
-          },
-          {
-            "source": "xorg-xproto",
-            "target": "rstudio"
           },
           {
             "source": "xproperty",
@@ -115667,10 +115719,6 @@
           },
           {
             "source": "zstandard",
-            "target": "freeze-core"
-          },
-          {
-            "source": "zstandard",
             "target": "funcparserlib"
           },
           {
@@ -115768,6 +115816,10 @@
           {
             "source": "zstandard",
             "target": "netcdf4"
+          },
+          {
+            "source": "zstandard",
+            "target": "nh3"
           },
           {
             "source": "zstandard",
@@ -119430,6 +119482,12 @@
             "id": "doxygen",
             "payload": {
               "__lazy_json__": "node_attrs/doxygen.json"
+            }
+          },
+          {
+            "id": "dpct-meta",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpct-meta.json"
             }
           },
           {
@@ -123711,6 +123769,12 @@
             }
           },
           {
+            "id": "libxkbcommon",
+            "payload": {
+              "__lazy_json__": "node_attrs/libxkbcommon.json"
+            }
+          },
+          {
             "id": "libxml2",
             "payload": {
               "__lazy_json__": "node_attrs/libxml2.json"
@@ -124908,6 +124972,12 @@
             "id": "ngspice",
             "payload": {
               "__lazy_json__": "node_attrs/ngspice.json"
+            }
+          },
+          {
+            "id": "nh3",
+            "payload": {
+              "__lazy_json__": "node_attrs/nh3.json"
             }
           },
           {
