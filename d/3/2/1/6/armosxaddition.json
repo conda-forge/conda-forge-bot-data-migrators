@@ -899,23 +899,11 @@
           },
           {
             "source": "aom",
-            "target": "gdal"
-          },
-          {
-            "source": "aom",
-            "target": "imagemagick"
-          },
-          {
-            "source": "aom",
             "target": "libavif"
           },
           {
             "source": "aom",
-            "target": "libvips"
-          },
-          {
-            "source": "aom",
-            "target": "openimageio"
+            "target": "libheif"
           },
           {
             "source": "apache-ant",
@@ -2543,10 +2531,6 @@
           },
           {
             "source": "autoconf",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "autoconf",
             "target": "chealpix"
           },
           {
@@ -2639,10 +2623,6 @@
           },
           {
             "source": "autoconf",
-            "target": "gfal2"
-          },
-          {
-            "source": "autoconf",
             "target": "ghc"
           },
           {
@@ -2700,6 +2680,10 @@
           {
             "source": "autoconf",
             "target": "gsl"
+          },
+          {
+            "source": "autoconf",
+            "target": "gsoap"
           },
           {
             "source": "autoconf",
@@ -3056,6 +3040,10 @@
           {
             "source": "autoconf",
             "target": "petsc"
+          },
+          {
+            "source": "autoconf",
+            "target": "php"
           },
           {
             "source": "autoconf",
@@ -3483,10 +3471,6 @@
           },
           {
             "source": "autoconf",
-            "target": "srm-ifce"
-          },
-          {
-            "source": "autoconf",
             "target": "stockwell"
           },
           {
@@ -3568,10 +3552,6 @@
           {
             "source": "autoconf",
             "target": "vigra"
-          },
-          {
-            "source": "autoconf",
-            "target": "voms"
           },
           {
             "source": "autoconf",
@@ -3735,10 +3715,6 @@
           },
           {
             "source": "automake",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "automake",
             "target": "chealpix"
           },
           {
@@ -3855,10 +3831,6 @@
           },
           {
             "source": "automake",
-            "target": "gfal2"
-          },
-          {
-            "source": "automake",
             "target": "ghc"
           },
           {
@@ -3916,6 +3888,10 @@
           {
             "source": "automake",
             "target": "gsl"
+          },
+          {
+            "source": "automake",
+            "target": "gsoap"
           },
           {
             "source": "automake",
@@ -4708,10 +4684,6 @@
           {
             "source": "automake",
             "target": "spinsfast"
-          },
-          {
-            "source": "automake",
-            "target": "srm-ifce"
           },
           {
             "source": "automake",
@@ -7411,10 +7383,6 @@
           },
           {
             "source": "bison",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "bison",
             "target": "clingo"
           },
           {
@@ -7439,10 +7407,6 @@
           },
           {
             "source": "bison",
-            "target": "gfal2"
-          },
-          {
-            "source": "bison",
             "target": "gfortran_impl_osx-64"
           },
           {
@@ -7460,6 +7424,10 @@
           {
             "source": "bison",
             "target": "groff"
+          },
+          {
+            "source": "bison",
+            "target": "gsoap"
           },
           {
             "source": "bison",
@@ -7543,6 +7511,10 @@
           },
           {
             "source": "bison",
+            "target": "php"
+          },
+          {
+            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -7555,10 +7527,6 @@
           },
           {
             "source": "bison",
-            "target": "root"
-          },
-          {
-            "source": "bison",
             "target": "rstudio"
           },
           {
@@ -7568,10 +7536,6 @@
           {
             "source": "bison",
             "target": "scotch"
-          },
-          {
-            "source": "bison",
-            "target": "srm-ifce"
           },
           {
             "source": "bison",
@@ -7588,10 +7552,6 @@
           {
             "source": "bison",
             "target": "verilator"
-          },
-          {
-            "source": "bison",
-            "target": "voms"
           },
           {
             "source": "bison",
@@ -10256,6 +10216,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -15623,6 +15587,10 @@
           },
           {
             "source": "cmake",
+            "target": "libheif"
+          },
+          {
+            "source": "cmake",
             "target": "libhiredis"
           },
           {
@@ -19159,10 +19127,6 @@
           },
           {
             "source": "coverage",
-            "target": "lalapps"
-          },
-          {
-            "source": "coverage",
             "target": "lalburst"
           },
           {
@@ -19172,6 +19136,10 @@
           {
             "source": "coverage",
             "target": "lalinference"
+          },
+          {
+            "source": "coverage",
+            "target": "lalinspiral"
           },
           {
             "source": "coverage",
@@ -21963,6 +21931,10 @@
           },
           {
             "source": "curl",
+            "target": "php"
+          },
+          {
+            "source": "curl",
             "target": "pocl"
           },
           {
@@ -23735,23 +23707,11 @@
           },
           {
             "source": "dav1d",
-            "target": "gdal"
-          },
-          {
-            "source": "dav1d",
-            "target": "imagemagick"
-          },
-          {
-            "source": "dav1d",
             "target": "libavif"
           },
           {
             "source": "dav1d",
-            "target": "libvips"
-          },
-          {
-            "source": "dav1d",
-            "target": "openimageio"
+            "target": "libheif"
           },
           {
             "source": "dbus-python",
@@ -27723,10 +27683,6 @@
           },
           {
             "source": "flex",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "flex",
             "target": "coda"
           },
           {
@@ -27743,10 +27699,6 @@
           },
           {
             "source": "flex",
-            "target": "gfal2"
-          },
-          {
-            "source": "flex",
             "target": "gfortran_impl_osx-64"
           },
           {
@@ -27760,6 +27712,10 @@
           {
             "source": "flex",
             "target": "groff"
+          },
+          {
+            "source": "flex",
+            "target": "gsoap"
           },
           {
             "source": "flex",
@@ -27835,19 +27791,11 @@
           },
           {
             "source": "flex",
-            "target": "root"
-          },
-          {
-            "source": "flex",
             "target": "scipoptsuite"
           },
           {
             "source": "flex",
             "target": "scotch"
-          },
-          {
-            "source": "flex",
-            "target": "srm-ifce"
           },
           {
             "source": "flex",
@@ -27860,10 +27808,6 @@
           {
             "source": "flex",
             "target": "verilator"
-          },
-          {
-            "source": "flex",
-            "target": "voms"
           },
           {
             "source": "flex",
@@ -28711,15 +28655,11 @@
           },
           {
             "source": "gawk",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "gawk",
-            "target": "gfal2"
-          },
-          {
-            "source": "gawk",
             "target": "groff"
+          },
+          {
+            "source": "gawk",
+            "target": "gsoap"
           },
           {
             "source": "gawk",
@@ -28735,19 +28675,7 @@
           },
           {
             "source": "gawk",
-            "target": "root"
-          },
-          {
-            "source": "gawk",
-            "target": "srm-ifce"
-          },
-          {
-            "source": "gawk",
             "target": "texinfo"
-          },
-          {
-            "source": "gawk",
-            "target": "voms"
           },
           {
             "source": "gawk",
@@ -29028,6 +28956,138 @@
           {
             "source": "gemmi",
             "target": "mdanalysis"
+          },
+          {
+            "source": "gendef",
+            "target": "binutils"
+          },
+          {
+            "source": "gendef",
+            "target": "cadet"
+          },
+          {
+            "source": "gendef",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "gendef",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "gendef",
+            "target": "ctng-compilers"
+          },
+          {
+            "source": "gendef",
+            "target": "cvxopt"
+          },
+          {
+            "source": "gendef",
+            "target": "easychem"
+          },
+          {
+            "source": "gendef",
+            "target": "finesse"
+          },
+          {
+            "source": "gendef",
+            "target": "gdma"
+          },
+          {
+            "source": "gendef",
+            "target": "gfortran_impl_osx-64"
+          },
+          {
+            "source": "gendef",
+            "target": "gfortran_osx-64"
+          },
+          {
+            "source": "gendef",
+            "target": "ghc"
+          },
+          {
+            "source": "gendef",
+            "target": "hdf5"
+          },
+          {
+            "source": "gendef",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gendef",
+            "target": "julia"
+          },
+          {
+            "source": "gendef",
+            "target": "libtdlpack"
+          },
+          {
+            "source": "gendef",
+            "target": "nceplibs-bufr"
+          },
+          {
+            "source": "gendef",
+            "target": "ncl"
+          },
+          {
+            "source": "gendef",
+            "target": "nim"
+          },
+          {
+            "source": "gendef",
+            "target": "octave"
+          },
+          {
+            "source": "gendef",
+            "target": "opentrustregion"
+          },
+          {
+            "source": "gendef",
+            "target": "petsc"
+          },
+          {
+            "source": "gendef",
+            "target": "photospline"
+          },
+          {
+            "source": "gendef",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "gendef",
+            "target": "pylabdd"
+          },
+          {
+            "source": "gendef",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "gendef",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "gendef",
+            "target": "scilab"
+          },
+          {
+            "source": "gendef",
+            "target": "sundials"
+          },
+          {
+            "source": "gendef",
+            "target": "test-drive"
+          },
+          {
+            "source": "gendef",
+            "target": "tl2cgen"
+          },
+          {
+            "source": "gendef",
+            "target": "uproc"
+          },
+          {
+            "source": "gendef",
+            "target": "winpthreads"
           },
           {
             "source": "gengetopt",
@@ -29464,6 +29524,10 @@
           {
             "source": "gettext",
             "target": "petsc"
+          },
+          {
+            "source": "gettext",
+            "target": "php"
           },
           {
             "source": "gettext",
@@ -31579,6 +31643,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "postgis"
           },
           {
@@ -33203,6 +33271,10 @@
           },
           {
             "source": "gsl",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "gsl",
             "target": "lalpulsar"
           },
           {
@@ -33308,6 +33380,26 @@
           {
             "source": "gsl",
             "target": "tempo2"
+          },
+          {
+            "source": "gsoap",
+            "target": "cgsi-gsoap"
+          },
+          {
+            "source": "gsoap",
+            "target": "gfal2"
+          },
+          {
+            "source": "gsoap",
+            "target": "root"
+          },
+          {
+            "source": "gsoap",
+            "target": "srm-ifce"
+          },
+          {
+            "source": "gsoap",
+            "target": "voms"
           },
           {
             "source": "gst-plugins-bad",
@@ -34855,19 +34947,7 @@
           },
           {
             "source": "help2man",
-            "target": "bayeswave"
-          },
-          {
-            "source": "help2man",
             "target": "flex"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal"
-          },
-          {
-            "source": "help2man",
-            "target": "gstlal-inspiral"
           },
           {
             "source": "help2man",
@@ -34879,10 +34959,6 @@
           },
           {
             "source": "help2man",
-            "target": "lalapps"
-          },
-          {
-            "source": "help2man",
             "target": "lalburst"
           },
           {
@@ -34891,7 +34967,7 @@
           },
           {
             "source": "help2man",
-            "target": "lalinference"
+            "target": "lalinspiral"
           },
           {
             "source": "help2man",
@@ -36371,6 +36447,10 @@
           },
           {
             "source": "icu",
+            "target": "php"
+          },
+          {
+            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -36475,10 +36555,6 @@
           },
           {
             "source": "igwn-ligolw",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-ligolw",
             "target": "lalapps"
           },
           {
@@ -36488,6 +36564,10 @@
           {
             "source": "igwn-ligolw",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-ligolw",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-ligolw",
@@ -36511,10 +36591,6 @@
           },
           {
             "source": "igwn-segments",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "igwn-segments",
             "target": "igwn-ligolw"
           },
           {
@@ -36532,6 +36608,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -37111,10 +37191,6 @@
           },
           {
             "source": "lalburst",
-            "target": "bayeswave"
-          },
-          {
-            "source": "lalburst",
             "target": "gstlal"
           },
           {
@@ -37123,15 +37199,15 @@
           },
           {
             "source": "lalburst",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalburst",
             "target": "lalapps"
           },
           {
             "source": "lalburst",
             "target": "lalinference"
+          },
+          {
+            "source": "lalburst",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37147,19 +37223,15 @@
           },
           {
             "source": "lalframe",
-            "target": "gstlal"
-          },
-          {
-            "source": "lalframe",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalframe",
             "target": "lalapps"
           },
           {
             "source": "lalframe",
             "target": "lalinference"
+          },
+          {
+            "source": "lalframe",
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -37214,6 +37286,26 @@
             "target": "lalpulsar"
           },
           {
+            "source": "lalinspiral",
+            "target": "bayeswave"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "gstlal-inspiral"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -37228,6 +37320,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -37274,6 +37370,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lalpulsar",
             "target": "cwinpy"
           },
@@ -37303,10 +37403,6 @@
           },
           {
             "source": "lalsimulation",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "lalsimulation",
             "target": "gstlal-ugly"
           },
           {
@@ -37324,6 +37420,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -38951,19 +39051,11 @@
           },
           {
             "source": "libavif",
-            "target": "imagemagick"
-          },
-          {
-            "source": "libavif",
-            "target": "libvips"
+            "target": "libheif"
           },
           {
             "source": "libavif",
             "target": "opencv"
-          },
-          {
-            "source": "libavif",
-            "target": "openimageio"
           },
           {
             "source": "libavif",
@@ -39563,19 +39655,7 @@
           },
           {
             "source": "libde265",
-            "target": "gdal"
-          },
-          {
-            "source": "libde265",
-            "target": "imagemagick"
-          },
-          {
-            "source": "libde265",
-            "target": "libvips"
-          },
-          {
-            "source": "libde265",
-            "target": "openimageio"
+            "target": "libheif"
           },
           {
             "source": "libdeflate",
@@ -40042,6 +40122,22 @@
             "target": "vtk"
           },
           {
+            "source": "libheif",
+            "target": "gdal"
+          },
+          {
+            "source": "libheif",
+            "target": "imagemagick"
+          },
+          {
+            "source": "libheif",
+            "target": "libvips"
+          },
+          {
+            "source": "libheif",
+            "target": "openimageio"
+          },
+          {
             "source": "libhiredis",
             "target": "ccache"
           },
@@ -40300,6 +40396,10 @@
           {
             "source": "libiconv",
             "target": "openmotif"
+          },
+          {
+            "source": "libiconv",
+            "target": "php"
           },
           {
             "source": "libiconv",
@@ -42091,6 +42191,10 @@
           },
           {
             "source": "libsodium",
+            "target": "php"
+          },
+          {
+            "source": "libsodium",
             "target": "pynacl"
           },
           {
@@ -42511,10 +42615,6 @@
           },
           {
             "source": "libtool",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "libtool",
             "target": "chealpix"
           },
           {
@@ -42659,10 +42759,6 @@
           },
           {
             "source": "libtool",
-            "target": "gfal2"
-          },
-          {
-            "source": "libtool",
             "target": "ghc"
           },
           {
@@ -42716,6 +42812,10 @@
           {
             "source": "libtool",
             "target": "gsl"
+          },
+          {
+            "source": "libtool",
+            "target": "gsoap"
           },
           {
             "source": "libtool",
@@ -43191,6 +43291,10 @@
           },
           {
             "source": "libtool",
+            "target": "php"
+          },
+          {
+            "source": "libtool",
             "target": "pixell"
           },
           {
@@ -43308,10 +43412,6 @@
           {
             "source": "libtool",
             "target": "spinsfast"
-          },
-          {
-            "source": "libtool",
-            "target": "srm-ifce"
           },
           {
             "source": "libtool",
@@ -43787,7 +43887,7 @@
           },
           {
             "source": "libwebp-base",
-            "target": "imagemagick"
+            "target": "libheif"
           },
           {
             "source": "libwebp-base",
@@ -43795,15 +43895,7 @@
           },
           {
             "source": "libwebp-base",
-            "target": "libvips"
-          },
-          {
-            "source": "libwebp-base",
             "target": "libwebp"
-          },
-          {
-            "source": "libwebp-base",
-            "target": "openimageio"
           },
           {
             "source": "libwebp-base",
@@ -44399,6 +44491,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pocl"
           },
           {
@@ -44696,6 +44792,10 @@
           {
             "source": "libzip",
             "target": "paraview"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -47827,6 +47927,10 @@
           },
           {
             "source": "make",
+            "target": "gendef"
+          },
+          {
+            "source": "make",
             "target": "genesis4"
           },
           {
@@ -48108,6 +48212,10 @@
           {
             "source": "make",
             "target": "gsl"
+          },
+          {
+            "source": "make",
+            "target": "gsoap"
           },
           {
             "source": "make",
@@ -48500,6 +48608,10 @@
           {
             "source": "make",
             "target": "lalinference"
+          },
+          {
+            "source": "make",
+            "target": "lalinspiral"
           },
           {
             "source": "make",
@@ -49992,6 +50104,10 @@
           {
             "source": "make",
             "target": "photospline"
+          },
+          {
+            "source": "make",
+            "target": "php"
           },
           {
             "source": "make",
@@ -58291,6 +58407,10 @@
           },
           {
             "source": "ninja",
+            "target": "libheif"
+          },
+          {
+            "source": "ninja",
             "target": "libhwy"
           },
           {
@@ -62187,6 +62307,10 @@
           },
           {
             "source": "numpy",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "numpy",
             "target": "lalmetaio"
           },
           {
@@ -64124,6 +64248,10 @@
           {
             "source": "oniguruma",
             "target": "jq"
+          },
+          {
+            "source": "oniguruma",
+            "target": "php"
           },
           {
             "source": "onnxruntime",
@@ -66611,6 +66739,10 @@
           },
           {
             "source": "openssl",
+            "target": "gsoap"
+          },
+          {
+            "source": "openssl",
             "target": "gst-plugins-bad"
           },
           {
@@ -66924,6 +67056,10 @@
           {
             "source": "openssl",
             "target": "photutils"
+          },
+          {
+            "source": "openssl",
+            "target": "php"
           },
           {
             "source": "openssl",
@@ -69216,6 +69352,10 @@
           {
             "source": "pcre2",
             "target": "libgit2"
+          },
+          {
+            "source": "pcre2",
+            "target": "php"
           },
           {
             "source": "pcre2",
@@ -71763,6 +71903,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "pkg-config",
             "target": "lalmetaio"
           },
           {
@@ -71916,6 +72060,10 @@
           {
             "source": "pkg-config",
             "target": "libgsf"
+          },
+          {
+            "source": "pkg-config",
+            "target": "libheif"
           },
           {
             "source": "pkg-config",
@@ -72604,6 +72752,10 @@
           {
             "source": "pkg-config",
             "target": "photutils"
+          },
+          {
+            "source": "pkg-config",
+            "target": "php"
           },
           {
             "source": "pkg-config",
@@ -74688,6 +74840,10 @@
           {
             "source": "postgresql",
             "target": "meos"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -82012,6 +82168,10 @@
           {
             "source": "python",
             "target": "lalinference"
+          },
+          {
+            "source": "python",
+            "target": "lalinspiral"
           },
           {
             "source": "python",
@@ -97118,6 +97278,10 @@
             "target": "clingo"
           },
           {
+            "source": "re2c",
+            "target": "php"
+          },
+          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -97248,6 +97412,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -101419,10 +101587,6 @@
           },
           {
             "source": "sed",
-            "target": "bayeswave"
-          },
-          {
-            "source": "sed",
             "target": "bazel"
           },
           {
@@ -101635,14 +101799,6 @@
           },
           {
             "source": "sed",
-            "target": "gstlal"
-          },
-          {
-            "source": "sed",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "sed",
             "target": "gymnasium"
           },
           {
@@ -101691,10 +101847,6 @@
           },
           {
             "source": "sed",
-            "target": "lalapps"
-          },
-          {
-            "source": "sed",
             "target": "lalburst"
           },
           {
@@ -101704,6 +101856,10 @@
           {
             "source": "sed",
             "target": "lalinference"
+          },
+          {
+            "source": "sed",
+            "target": "lalinspiral"
           },
           {
             "source": "sed",
@@ -103171,6 +103327,10 @@
           },
           {
             "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -103447,10 +103607,6 @@
           },
           {
             "source": "swig",
-            "target": "bayeswave"
-          },
-          {
-            "source": "swig",
             "target": "box2d-py"
           },
           {
@@ -103487,14 +103643,6 @@
           },
           {
             "source": "swig",
-            "target": "gstlal"
-          },
-          {
-            "source": "swig",
-            "target": "gstlal-inspiral"
-          },
-          {
-            "source": "swig",
             "target": "gymnasium"
           },
           {
@@ -103515,10 +103663,6 @@
           },
           {
             "source": "swig",
-            "target": "lalapps"
-          },
-          {
-            "source": "swig",
             "target": "lalburst"
           },
           {
@@ -103528,6 +103672,10 @@
           {
             "source": "swig",
             "target": "lalinference"
+          },
+          {
+            "source": "swig",
+            "target": "lalinspiral"
           },
           {
             "source": "swig",
@@ -110791,19 +110939,7 @@
           },
           {
             "source": "x265",
-            "target": "gdal"
-          },
-          {
-            "source": "x265",
-            "target": "imagemagick"
-          },
-          {
-            "source": "x265",
-            "target": "libvips"
-          },
-          {
-            "source": "x265",
-            "target": "openimageio"
+            "target": "libheif"
           },
           {
             "source": "xapian-core",
@@ -113467,10 +113603,6 @@
           },
           {
             "source": "zlib",
-            "target": "cgsi-gsoap"
-          },
-          {
-            "source": "zlib",
             "target": "chemicalite"
           },
           {
@@ -113876,6 +114008,10 @@
           {
             "source": "zlib",
             "target": "grpc-cpp"
+          },
+          {
+            "source": "zlib",
+            "target": "gsoap"
           },
           {
             "source": "zlib",
@@ -114623,6 +114759,10 @@
           },
           {
             "source": "zlib",
+            "target": "php"
+          },
+          {
+            "source": "zlib",
             "target": "pigz"
           },
           {
@@ -114968,10 +115108,6 @@
           {
             "source": "zlib",
             "target": "squashfs-tools"
-          },
-          {
-            "source": "zlib",
-            "target": "srm-ifce"
           },
           {
             "source": "zlib",
@@ -120217,6 +120353,12 @@
             }
           },
           {
+            "id": "gendef",
+            "payload": {
+              "__lazy_json__": "node_attrs/gendef.json"
+            }
+          },
+          {
             "id": "genesis4",
             "payload": {
               "__lazy_json__": "node_attrs/genesis4.json"
@@ -120916,6 +121058,12 @@
             "id": "gsl",
             "payload": {
               "__lazy_json__": "node_attrs/gsl.json"
+            }
+          },
+          {
+            "id": "gsoap",
+            "payload": {
+              "__lazy_json__": "node_attrs/gsoap.json"
             }
           },
           {
@@ -122083,6 +122231,12 @@
             }
           },
           {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
+            }
+          },
+          {
             "id": "lalmetaio",
             "payload": {
               "__lazy_json__": "node_attrs/lalmetaio.json"
@@ -122638,6 +122792,12 @@
             "id": "libharu",
             "payload": {
               "__lazy_json__": "node_attrs/libharu.json"
+            }
+          },
+          {
+            "id": "libheif",
+            "payload": {
+              "__lazy_json__": "node_attrs/libheif.json"
             }
           },
           {
@@ -125950,6 +126110,12 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
