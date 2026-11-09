@@ -263,11 +263,11 @@
           },
           {
             "source": "aom",
-            "target": "gdal"
+            "target": "libavif"
           },
           {
             "source": "aom",
-            "target": "libavif"
+            "target": "libheif"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -3315,6 +3315,10 @@
           },
           {
             "source": "cmake",
+            "target": "libheif"
+          },
+          {
+            "source": "cmake",
             "target": "libhiredis"
           },
           {
@@ -4783,6 +4787,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cuda-libraries-dev"
           },
           {
@@ -4883,6 +4891,10 @@
           },
           {
             "source": "cuda-nvrtc",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "cuda-nvrtc",
             "target": "cuda-libraries-dev"
           },
           {
@@ -4900,6 +4912,10 @@
           {
             "source": "cuda-nvtx",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-opencl",
+            "target": "cuda-libraries"
           },
           {
             "source": "cuda-opencl",
@@ -5163,11 +5179,11 @@
           },
           {
             "source": "dav1d",
-            "target": "gdal"
+            "target": "libavif"
           },
           {
             "source": "dav1d",
-            "target": "libavif"
+            "target": "libheif"
           },
           {
             "source": "dbus",
@@ -6052,6 +6068,86 @@
           {
             "source": "gdk-pixbuf",
             "target": "gtk3"
+          },
+          {
+            "source": "gendef",
+            "target": "binutils"
+          },
+          {
+            "source": "gendef",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "gendef",
+            "target": "clang-compiler-activation"
+          },
+          {
+            "source": "gendef",
+            "target": "ctng-compilers"
+          },
+          {
+            "source": "gendef",
+            "target": "gmp"
+          },
+          {
+            "source": "gendef",
+            "target": "hdf5"
+          },
+          {
+            "source": "gendef",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "gendef",
+            "target": "libhwloc"
+          },
+          {
+            "source": "gendef",
+            "target": "mvapich"
+          },
+          {
+            "source": "gendef",
+            "target": "ncurses"
+          },
+          {
+            "source": "gendef",
+            "target": "numba"
+          },
+          {
+            "source": "gendef",
+            "target": "pocl"
+          },
+          {
+            "source": "gendef",
+            "target": "pthread-stubs"
+          },
+          {
+            "source": "gendef",
+            "target": "r-base"
+          },
+          {
+            "source": "gendef",
+            "target": "sleef"
+          },
+          {
+            "source": "gendef",
+            "target": "soxr"
+          },
+          {
+            "source": "gendef",
+            "target": "tbb"
+          },
+          {
+            "source": "gendef",
+            "target": "ucx-split"
+          },
+          {
+            "source": "gendef",
+            "target": "winpthreads"
+          },
+          {
+            "source": "gendef",
+            "target": "xorg-xf86vidmodeproto"
           },
           {
             "source": "geos",
@@ -7766,6 +7862,10 @@
             "target": "gdal"
           },
           {
+            "source": "libavif",
+            "target": "libheif"
+          },
+          {
             "source": "libcap",
             "target": "pulseaudio"
           },
@@ -7803,6 +7903,10 @@
           },
           {
             "source": "libcublas",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libcublas",
             "target": "cuda-libraries-dev"
           },
           {
@@ -7827,7 +7931,15 @@
           },
           {
             "source": "libcudla",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libcudla",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libcufft",
+            "target": "cuda-libraries"
           },
           {
             "source": "libcufft",
@@ -7855,6 +7967,10 @@
           },
           {
             "source": "libcurand",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libcurand",
             "target": "cuda-libraries-dev"
           },
           {
@@ -7864,6 +7980,10 @@
           {
             "source": "libcusolver",
             "target": "ceres-solver"
+          },
+          {
+            "source": "libcusolver",
+            "target": "cuda-libraries"
           },
           {
             "source": "libcusolver",
@@ -7971,7 +8091,7 @@
           },
           {
             "source": "libde265",
-            "target": "gdal"
+            "target": "libheif"
           },
           {
             "source": "libdeflate",
@@ -8184,6 +8304,10 @@
           {
             "source": "libgpg-error",
             "target": "libgcrypt"
+          },
+          {
+            "source": "libheif",
+            "target": "gdal"
           },
           {
             "source": "libhiredis",
@@ -8519,6 +8643,10 @@
           },
           {
             "source": "libnpp",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libnpp",
             "target": "cuda-libraries-dev"
           },
           {
@@ -8527,11 +8655,19 @@
           },
           {
             "source": "libnvfatbin",
+            "target": "cuda-libraries"
+          },
+          {
+            "source": "libnvfatbin",
             "target": "cuda-libraries-dev"
           },
           {
             "source": "libnvjitlink",
             "target": "ceres-solver"
+          },
+          {
+            "source": "libnvjitlink",
+            "target": "cuda-libraries"
           },
           {
             "source": "libnvjitlink",
@@ -8544,6 +8680,10 @@
           {
             "source": "libnvjitlink",
             "target": "libcusolver"
+          },
+          {
+            "source": "libnvjpeg",
+            "target": "cuda-libraries"
           },
           {
             "source": "libnvjpeg",
@@ -9152,6 +9292,10 @@
           {
             "source": "libwebp-base",
             "target": "graphviz"
+          },
+          {
+            "source": "libwebp-base",
+            "target": "libheif"
           },
           {
             "source": "libwebp-base",
@@ -10180,6 +10324,10 @@
           {
             "source": "make",
             "target": "gdal"
+          },
+          {
+            "source": "make",
+            "target": "gendef"
           },
           {
             "source": "make",
@@ -12120,6 +12268,10 @@
           {
             "source": "ninja",
             "target": "libglvnd"
+          },
+          {
+            "source": "ninja",
+            "target": "libheif"
           },
           {
             "source": "ninja",
@@ -14236,6 +14388,10 @@
           {
             "source": "pkg-config",
             "target": "libgpg-error"
+          },
+          {
+            "source": "pkg-config",
+            "target": "libheif"
           },
           {
             "source": "pkg-config",
@@ -19927,7 +20083,7 @@
           },
           {
             "source": "x265",
-            "target": "gdal"
+            "target": "libheif"
           },
           {
             "source": "xattr",
@@ -22703,6 +22859,12 @@
             }
           },
           {
+            "id": "cuda-libraries",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-libraries.json"
+            }
+          },
+          {
             "id": "cuda-libraries-dev",
             "payload": {
               "__lazy_json__": "node_attrs/cuda-libraries-dev.json"
@@ -23048,6 +23210,12 @@
             "id": "gdk-pixbuf",
             "payload": {
               "__lazy_json__": "node_attrs/gdk-pixbuf.json"
+            }
+          },
+          {
+            "id": "gendef",
+            "payload": {
+              "__lazy_json__": "node_attrs/gendef.json"
             }
           },
           {
@@ -23690,6 +23858,12 @@
             "id": "libgpg-error",
             "payload": {
               "__lazy_json__": "node_attrs/libgpg-error.json"
+            }
+          },
+          {
+            "id": "libheif",
+            "payload": {
+              "__lazy_json__": "node_attrs/libheif.json"
             }
           },
           {
