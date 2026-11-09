@@ -53,14 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "gz-sim",
-            "payload": {
-              "__lazy_json__": "node_attrs/gz-sim.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -5860,6 +5853,10 @@
           },
           {
             "source": "boost",
+            "target": "intervalxt"
+          },
+          {
+            "source": "boost",
             "target": "ipbus"
           },
           {
@@ -11645,6 +11642,10 @@
           {
             "source": "cppyy",
             "target": "flatsurf"
+          },
+          {
+            "source": "cppyy",
+            "target": "intervalxt"
           },
           {
             "source": "cppyy",
@@ -22331,6 +22332,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "icub-models",
+            "target": "bipedal-locomotion-framework"
+          },
+          {
+            "source": "icub-models",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "idyntree",
             "target": "biomechanical-analysis-framework"
           },
@@ -22697,6 +22706,14 @@
           {
             "source": "intervalues",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intervalxt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "intervalxt",
+            "target": "flatsurf"
           },
           {
             "source": "invert4geom",
@@ -72236,6 +72253,10 @@
           },
           {
             "source": "tbb",
+            "target": "icub-models"
+          },
+          {
+            "source": "tbb",
             "target": "idyntree"
           },
           {
@@ -72381,6 +72402,10 @@
           {
             "source": "tbb",
             "target": "intervalues"
+          },
+          {
+            "source": "tbb",
+            "target": "intervalxt"
           },
           {
             "source": "tbb",
@@ -93502,6 +93527,12 @@
             }
           },
           {
+            "id": "icub-models",
+            "payload": {
+              "__lazy_json__": "node_attrs/icub-models.json"
+            }
+          },
+          {
             "id": "idyntree",
             "payload": {
               "__lazy_json__": "node_attrs/idyntree.json"
@@ -93715,6 +93746,12 @@
             "id": "intervalues",
             "payload": {
               "__lazy_json__": "node_attrs/intervalues.json"
+            }
+          },
+          {
+            "id": "intervalxt",
+            "payload": {
+              "__lazy_json__": "node_attrs/intervalxt.json"
             }
           },
           {
