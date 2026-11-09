@@ -4286,6 +4286,10 @@
           },
           {
             "source": "igwn-ligolw",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "igwn-ligolw",
             "target": "lalmetaio"
           },
           {
@@ -4311,6 +4315,10 @@
           {
             "source": "igwn-segments",
             "target": "lalinference"
+          },
+          {
+            "source": "igwn-segments",
+            "target": "lalinspiral"
           },
           {
             "source": "igwn-segments",
@@ -4693,6 +4701,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalburst",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lal",
             "target": "conda-forge-pinning"
           },
@@ -4707,6 +4719,10 @@
           {
             "source": "lalframe",
             "target": "lalinference"
+          },
+          {
+            "source": "lalframe",
+            "target": "lalinspiral"
           },
           {
             "source": "lalframe",
@@ -4729,6 +4745,18 @@
             "target": "lalpulsar"
           },
           {
+            "source": "lalinspiral",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalapps"
+          },
+          {
+            "source": "lalinspiral",
+            "target": "lalinference"
+          },
+          {
             "source": "lal",
             "target": "lalapps"
           },
@@ -4743,6 +4771,10 @@
           {
             "source": "lal",
             "target": "lalinference"
+          },
+          {
+            "source": "lal",
+            "target": "lalinspiral"
           },
           {
             "source": "lal",
@@ -4773,6 +4805,10 @@
             "target": "lalinference"
           },
           {
+            "source": "lalmetaio",
+            "target": "lalinspiral"
+          },
+          {
             "source": "lalpulsar",
             "target": "conda-forge-pinning"
           },
@@ -4795,6 +4831,10 @@
           {
             "source": "lalsimulation",
             "target": "lalinference"
+          },
+          {
+            "source": "lalsimulation",
+            "target": "lalinspiral"
           },
           {
             "source": "lalsimulation",
@@ -6407,6 +6447,10 @@
           {
             "source": "numpy",
             "target": "lalinference"
+          },
+          {
+            "source": "numpy",
+            "target": "lalinspiral"
           },
           {
             "source": "numpy",
@@ -11886,6 +11930,10 @@
           },
           {
             "source": "tbb",
+            "target": "lalinspiral"
+          },
+          {
+            "source": "tbb",
             "target": "lalmetaio"
           },
           {
@@ -16191,6 +16239,12 @@
             "id": "lalinference",
             "payload": {
               "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          },
+          {
+            "id": "lalinspiral",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinspiral.json"
             }
           },
           {
