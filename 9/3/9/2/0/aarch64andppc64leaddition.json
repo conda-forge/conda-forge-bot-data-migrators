@@ -2735,6 +2735,10 @@
           },
           {
             "source": "automake",
+            "target": "cppunit"
+          },
+          {
+            "source": "automake",
             "target": "cuda-compat"
           },
           {
@@ -5304,6 +5308,10 @@
           {
             "source": "bash",
             "target": "cppe"
+          },
+          {
+            "source": "bash",
+            "target": "cppunit"
           },
           {
             "source": "bash",
@@ -15011,6 +15019,10 @@
           },
           {
             "source": "cargo-auditable",
+            "target": "comrak"
+          },
+          {
+            "source": "cargo-auditable",
             "target": "conda"
           },
           {
@@ -15464,6 +15476,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "clarabel"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "comrak"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -22832,6 +22848,10 @@
           {
             "source": "cpptango",
             "target": "tango-test"
+          },
+          {
+            "source": "cppunit",
+            "target": "nordugrid-arc"
           },
           {
             "source": "cppyy-backend",
@@ -43827,6 +43847,10 @@
           },
           {
             "source": "libtool",
+            "target": "cppunit"
+          },
+          {
+            "source": "libtool",
             "target": "cppyy-cling"
           },
           {
@@ -61448,6 +61472,10 @@
           {
             "source": "numsa",
             "target": "cpcm-x"
+          },
+          {
+            "source": "nushell",
+            "target": "comrak"
           },
           {
             "source": "nushell",
@@ -107945,6 +107973,12 @@
             }
           },
           {
+            "id": "comrak",
+            "payload": {
+              "__lazy_json__": "node_attrs/comrak.json"
+            }
+          },
+          {
             "id": "conda",
             "payload": {
               "__lazy_json__": "node_attrs/conda.json"
@@ -108092,6 +108126,12 @@
             "id": "cpptango",
             "payload": {
               "__lazy_json__": "node_attrs/cpptango.json"
+            }
+          },
+          {
+            "id": "cppunit",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppunit.json"
             }
           },
           {
