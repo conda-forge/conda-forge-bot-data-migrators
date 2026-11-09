@@ -302,59 +302,11 @@
           },
           {
             "source": "ast-serialize",
-            "target": "catboost"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "chardet"
-          },
-          {
-            "source": "ast-serialize",
             "target": "conda-forge-pinning"
           },
           {
             "source": "ast-serialize",
-            "target": "coredis"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "fastar"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "mne-lsl"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "orjson"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pyshtools"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "pytokens"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "ast-serialize",
-            "target": "wisdem"
+            "target": "mypy"
           },
           {
             "source": "astra-toolbox",
@@ -5010,6 +4962,10 @@
           },
           {
             "source": "lxml",
+            "target": "mypy"
+          },
+          {
+            "source": "lxml",
             "target": "pikepdf"
           },
           {
@@ -5847,6 +5803,62 @@
           {
             "source": "murmurhash",
             "target": "preshed"
+          },
+          {
+            "source": "mypy",
+            "target": "catboost"
+          },
+          {
+            "source": "mypy",
+            "target": "chardet"
+          },
+          {
+            "source": "mypy",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mypy",
+            "target": "coredis"
+          },
+          {
+            "source": "mypy",
+            "target": "fastar"
+          },
+          {
+            "source": "mypy",
+            "target": "mne-lsl"
+          },
+          {
+            "source": "mypy",
+            "target": "orjson"
+          },
+          {
+            "source": "mypy",
+            "target": "pyshtools"
+          },
+          {
+            "source": "mypy",
+            "target": "pytokens"
+          },
+          {
+            "source": "mypy",
+            "target": "unicorn-binance-rest-api"
+          },
+          {
+            "source": "mypy",
+            "target": "unicorn-binance-trailing-stop-loss"
+          },
+          {
+            "source": "mypy",
+            "target": "unicorn-binance-websocket-api"
+          },
+          {
+            "source": "mypy",
+            "target": "unicorn-fy"
+          },
+          {
+            "source": "mypy",
+            "target": "wisdem"
           },
           {
             "source": "mysqlclient",
@@ -8118,10 +8130,6 @@
           },
           {
             "source": "psutil",
-            "target": "chardet"
-          },
-          {
-            "source": "psutil",
             "target": "cocoindex"
           },
           {
@@ -8131,10 +8139,6 @@
           {
             "source": "psutil",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "psutil",
-            "target": "coredis"
           },
           {
             "source": "psutil",
@@ -8222,6 +8226,10 @@
           },
           {
             "source": "psutil",
+            "target": "mypy"
+          },
+          {
+            "source": "psutil",
             "target": "netcdf4"
           },
           {
@@ -8251,10 +8259,6 @@
           {
             "source": "psutil",
             "target": "orange3"
-          },
-          {
-            "source": "psutil",
-            "target": "orjson"
           },
           {
             "source": "psutil",
@@ -8318,10 +8322,6 @@
           },
           {
             "source": "psutil",
-            "target": "pytokens"
-          },
-          {
-            "source": "psutil",
             "target": "pyzmq"
           },
           {
@@ -8382,19 +8382,7 @@
           },
           {
             "source": "psutil",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "psutil",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "psutil",
             "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "psutil",
-            "target": "unicorn-fy"
           },
           {
             "source": "psutil",
@@ -9338,59 +9326,11 @@
           },
           {
             "source": "python-librt",
-            "target": "catboost"
-          },
-          {
-            "source": "python-librt",
-            "target": "chardet"
-          },
-          {
-            "source": "python-librt",
             "target": "conda-forge-pinning"
           },
           {
             "source": "python-librt",
-            "target": "coredis"
-          },
-          {
-            "source": "python-librt",
-            "target": "fastar"
-          },
-          {
-            "source": "python-librt",
-            "target": "mne-lsl"
-          },
-          {
-            "source": "python-librt",
-            "target": "orjson"
-          },
-          {
-            "source": "python-librt",
-            "target": "pyshtools"
-          },
-          {
-            "source": "python-librt",
-            "target": "pytokens"
-          },
-          {
-            "source": "python-librt",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "python-librt",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "python-librt",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "python-librt",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "python-librt",
-            "target": "wisdem"
+            "target": "mypy"
           },
           {
             "source": "python-lmdb",
@@ -12239,6 +12179,10 @@
           {
             "source": "tbb",
             "target": "murmurhash"
+          },
+          {
+            "source": "tbb",
+            "target": "mypy"
           },
           {
             "source": "tbb",
@@ -16689,6 +16633,12 @@
             "id": "murmurhash",
             "payload": {
               "__lazy_json__": "node_attrs/murmurhash.json"
+            }
+          },
+          {
+            "id": "mypy",
+            "payload": {
+              "__lazy_json__": "node_attrs/mypy.json"
             }
           },
           {
