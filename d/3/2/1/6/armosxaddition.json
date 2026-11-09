@@ -5715,6 +5715,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pandana"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pennylane"
           },
           {
@@ -9527,6 +9531,10 @@
           },
           {
             "source": "brotli",
+            "target": "pandana"
+          },
+          {
+            "source": "brotli",
             "target": "pennylane"
           },
           {
@@ -10408,6 +10416,10 @@
           {
             "source": "cairomm",
             "target": "gtkmm"
+          },
+          {
+            "source": "cairomm",
+            "target": "pangomm"
           },
           {
             "source": "cairo",
@@ -16019,6 +16031,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -16068,10 +16084,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -16132,10 +16144,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -19511,6 +19519,10 @@
           },
           {
             "source": "coverage",
+            "target": "pandana"
+          },
+          {
+            "source": "coverage",
             "target": "partsegcore-compiled-backend"
           },
           {
@@ -22880,6 +22892,10 @@
           {
             "source": "cython",
             "target": "paicos"
+          },
+          {
+            "source": "cython",
+            "target": "pandana"
           },
           {
             "source": "cython",
@@ -31154,6 +31170,10 @@
             "target": "gtkmm"
           },
           {
+            "source": "glibmm",
+            "target": "pangomm"
+          },
+          {
             "source": "glib",
             "target": "msitools"
           },
@@ -31176,6 +31196,10 @@
           {
             "source": "glib",
             "target": "pango"
+          },
+          {
+            "source": "glib",
+            "target": "pangomm"
           },
           {
             "source": "glib",
@@ -42151,7 +42175,7 @@
           },
           {
             "source": "libsigcpp",
-            "target": "gtkmm"
+            "target": "pangomm"
           },
           {
             "source": "libsimpleitk",
@@ -49331,6 +49355,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "metplus"
           },
           {
@@ -55250,6 +55278,86 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -58067,10 +58175,6 @@
           },
           {
             "source": "ninja",
-            "target": "gtkmm"
-          },
-          {
-            "source": "ninja",
             "target": "gtksourceview"
           },
           {
@@ -59028,6 +59132,10 @@
           {
             "source": "ninja",
             "target": "pango"
+          },
+          {
+            "source": "ninja",
+            "target": "pangomm"
           },
           {
             "source": "ninja",
@@ -62735,6 +62843,10 @@
           },
           {
             "source": "numpy",
+            "target": "pandana"
+          },
+          {
+            "source": "numpy",
             "target": "pandas"
           },
           {
@@ -65883,6 +65995,10 @@
           },
           {
             "source": "openmp",
+            "target": "pandana"
+          },
+          {
+            "source": "openmp",
             "target": "pennylane"
           },
           {
@@ -68003,6 +68119,10 @@
           },
           {
             "source": "pandas",
+            "target": "pandana"
+          },
+          {
+            "source": "pandas",
             "target": "parmed"
           },
           {
@@ -69052,6 +69172,14 @@
           {
             "source": "pango",
             "target": "manimpango"
+          },
+          {
+            "source": "pangomm",
+            "target": "gtkmm"
+          },
+          {
+            "source": "pango",
+            "target": "pangomm"
           },
           {
             "source": "pango",
@@ -72712,6 +72840,10 @@
           {
             "source": "pkg-config",
             "target": "pango"
+          },
+          {
+            "source": "pkg-config",
+            "target": "pangomm"
           },
           {
             "source": "pkg-config",
@@ -78975,6 +79107,10 @@
           },
           {
             "source": "pytables",
+            "target": "pandana"
+          },
+          {
+            "source": "pytables",
             "target": "remage"
           },
           {
@@ -83227,11 +83363,19 @@
           },
           {
             "source": "python",
+            "target": "pandana"
+          },
+          {
+            "source": "python",
             "target": "pandas"
           },
           {
             "source": "python",
             "target": "pango"
+          },
+          {
+            "source": "python",
+            "target": "pangomm"
           },
           {
             "source": "python",
@@ -100140,6 +100284,10 @@
           {
             "source": "scikit-learn",
             "target": "orange3-network"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "pandana"
           },
           {
             "source": "scikit-learn",
@@ -124145,6 +124293,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -125543,6 +125697,12 @@
             }
           },
           {
+            "id": "pandana",
+            "payload": {
+              "__lazy_json__": "node_attrs/pandana.json"
+            }
+          },
+          {
             "id": "pandas",
             "payload": {
               "__lazy_json__": "node_attrs/pandas.json"
@@ -125564,6 +125724,12 @@
             "id": "pango",
             "payload": {
               "__lazy_json__": "node_attrs/pango.json"
+            }
+          },
+          {
+            "id": "pangomm",
+            "payload": {
+              "__lazy_json__": "node_attrs/pangomm.json"
             }
           },
           {
