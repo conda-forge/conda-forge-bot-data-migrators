@@ -80,12 +80,6 @@
             }
           },
           {
-            "id": "postgis",
-            "payload": {
-              "__lazy_json__": "node_attrs/postgis.json"
-            }
-          },
-          {
             "id": "qgis",
             "payload": {
               "__lazy_json__": "node_attrs/qgis.json"
@@ -95,12 +89,6 @@
             "id": "r-sf",
             "payload": {
               "__lazy_json__": "node_attrs/r-sf.json"
-            }
-          },
-          {
-            "id": "r-terra",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-terra.json"
             }
           },
           {
@@ -501,7 +489,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
