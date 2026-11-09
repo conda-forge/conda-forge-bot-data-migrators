@@ -1111,7 +1111,11 @@
           },
           {
             "source": "gz-cmake",
-            "target": "pinocchio"
+            "target": "libsdformat"
+          },
+          {
+            "source": "gz-math",
+            "target": "libsdformat"
           },
           {
             "source": "gz-math",
@@ -1119,7 +1123,7 @@
           },
           {
             "source": "gz-tools2",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "gz-utils",
@@ -1127,7 +1131,7 @@
           },
           {
             "source": "gz-utils",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "harfbuzz",
@@ -1776,6 +1780,10 @@
           {
             "source": "librsvg",
             "target": "gtk3"
+          },
+          {
+            "source": "libsdformat",
+            "target": "pinocchio"
           },
           {
             "source": "libsndfile",
@@ -2987,6 +2995,10 @@
           },
           {
             "source": "python",
+            "target": "libsdformat"
+          },
+          {
+            "source": "python",
             "target": "libxcb"
           },
           {
@@ -3747,7 +3759,7 @@
           },
           {
             "source": "tinyxml2",
-            "target": "pinocchio"
+            "target": "libsdformat"
           },
           {
             "source": "tinyxml2",
@@ -3788,6 +3800,10 @@
           {
             "source": "urdfdom_headers",
             "target": "urdfdom"
+          },
+          {
+            "source": "urdfdom",
+            "target": "libsdformat"
           },
           {
             "source": "urdfdom",
@@ -5798,6 +5814,12 @@
             "id": "librsvg",
             "payload": {
               "__lazy_json__": "node_attrs/librsvg.json"
+            }
+          },
+          {
+            "id": "libsdformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsdformat.json"
             }
           },
           {
