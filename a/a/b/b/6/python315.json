@@ -59,12 +59,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/gz-sim.json"
             }
-          },
-          {
-            "id": "spiceql",
-            "payload": {
-              "__lazy_json__": "node_attrs/spiceql.json"
-            }
           }
         ]
       }
@@ -3422,6 +3416,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "kalpy"
+          },
+          {
+            "source": "backports.zstd",
             "target": "kivy"
           },
           {
@@ -4854,6 +4852,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "kalpy"
+          },
+          {
+            "source": "bcrypt",
             "target": "lalinference"
           },
           {
@@ -5519,6 +5521,10 @@
           {
             "source": "boost",
             "target": "casacore"
+          },
+          {
+            "source": "boost",
+            "target": "cascade"
           },
           {
             "source": "boost",
@@ -7218,6 +7224,10 @@
           },
           {
             "source": "brotli",
+            "target": "kalpy"
+          },
+          {
+            "source": "brotli",
             "target": "kivy"
           },
           {
@@ -8753,6 +8763,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cascade",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "cassandra-driver",
             "target": "apache-airflow-backport-providers-cncf-kubernetes"
           },
@@ -9455,6 +9469,10 @@
           {
             "source": "cffi",
             "target": "jupyterhub-yarnspawner"
+          },
+          {
+            "source": "cffi",
+            "target": "kalpy"
           },
           {
             "source": "cffi",
@@ -21862,6 +21880,10 @@
           },
           {
             "source": "heyoka.py",
+            "target": "cascade"
+          },
+          {
+            "source": "heyoka.py",
             "target": "conda-forge-pinning"
           },
           {
@@ -23066,6 +23088,10 @@
           },
           {
             "source": "kalign",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "kalpy",
             "target": "conda-forge-pinning"
           },
           {
@@ -27798,6 +27824,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "kalpy"
+          },
+          {
+            "source": "matplotlib",
             "target": "kdepy"
           },
           {
@@ -30378,6 +30408,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "kalpy"
+          },
+          {
+            "source": "msgpack-python",
             "target": "ldcpy"
           },
           {
@@ -32294,6 +32328,10 @@
           },
           {
             "source": "numba",
+            "target": "kalpy"
+          },
+          {
+            "source": "numba",
             "target": "libertem"
           },
           {
@@ -33555,6 +33593,10 @@
           {
             "source": "numpy",
             "target": "casatools"
+          },
+          {
+            "source": "numpy",
+            "target": "cascade"
           },
           {
             "source": "numpy",
@@ -35587,6 +35629,10 @@
           {
             "source": "numpy",
             "target": "kalign"
+          },
+          {
+            "source": "numpy",
+            "target": "kalpy"
           },
           {
             "source": "numpy",
@@ -44845,6 +44891,10 @@
             "target": "dejaq"
           },
           {
+            "source": "postal",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "postgresql",
             "target": "aiida-crystal17"
           },
@@ -50529,6 +50579,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pynini",
+            "target": "kalpy"
+          },
+          {
             "source": "pynng",
             "target": "conda-forge-pinning"
           },
@@ -53834,6 +53888,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "kalpy"
+          },
+          {
+            "source": "python-xxhash",
             "target": "ldcpy"
           },
           {
@@ -56915,6 +56973,10 @@
           {
             "source": "pyyaml",
             "target": "jupyterhub-yarnspawner"
+          },
+          {
+            "source": "pyyaml",
+            "target": "kalpy"
           },
           {
             "source": "pyyaml",
@@ -61578,6 +61640,10 @@
           },
           {
             "source": "scikit-learn",
+            "target": "kalpy"
+          },
+          {
+            "source": "scikit-learn",
             "target": "kraken-ocr"
           },
           {
@@ -63359,6 +63425,10 @@
           {
             "source": "scipy",
             "target": "jscatter"
+          },
+          {
+            "source": "scipy",
+            "target": "kalpy"
           },
           {
             "source": "scipy",
@@ -68930,6 +69000,10 @@
           },
           {
             "source": "tbb",
+            "target": "cascade"
+          },
+          {
+            "source": "tbb",
             "target": "cassandra"
           },
           {
@@ -72510,6 +72584,10 @@
           },
           {
             "source": "tbb",
+            "target": "kalpy"
+          },
+          {
+            "source": "tbb",
             "target": "kaolin"
           },
           {
@@ -75079,6 +75157,10 @@
           {
             "source": "tbb",
             "target": "posix_ipc"
+          },
+          {
+            "source": "tbb",
+            "target": "postal"
           },
           {
             "source": "tbb",
@@ -88612,6 +88694,12 @@
             }
           },
           {
+            "id": "cascade",
+            "payload": {
+              "__lazy_json__": "node_attrs/cascade.json"
+            }
+          },
+          {
             "id": "cassandra",
             "payload": {
               "__lazy_json__": "node_attrs/cassandra.json"
@@ -93934,6 +94022,12 @@
             }
           },
           {
+            "id": "kalpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/kalpy.json"
+            }
+          },
+          {
             "id": "kaolin",
             "payload": {
               "__lazy_json__": "node_attrs/kaolin.json"
@@ -97711,6 +97805,12 @@
             "id": "posix_ipc",
             "payload": {
               "__lazy_json__": "node_attrs/posix_ipc.json"
+            }
+          },
+          {
+            "id": "postal",
+            "payload": {
+              "__lazy_json__": "node_attrs/postal.json"
             }
           },
           {
