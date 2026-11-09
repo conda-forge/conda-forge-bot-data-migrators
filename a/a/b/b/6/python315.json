@@ -65,6 +65,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
             }
+          },
+          {
+            "id": "zope.i18nmessageid",
+            "payload": {
+              "__lazy_json__": "node_attrs/zope.i18nmessageid.json"
+            }
           }
         ]
       }
@@ -3467,6 +3473,10 @@
           {
             "source": "backports.zstd",
             "target": "lfpy"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "light-curve-python"
           },
           {
             "source": "backports.zstd",
@@ -7279,6 +7289,10 @@
           {
             "source": "brotli",
             "target": "lfpy"
+          },
+          {
+            "source": "brotli",
+            "target": "light-curve-python"
           },
           {
             "source": "brotli",
@@ -22682,6 +22696,10 @@
           },
           {
             "source": "iminuit",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "iminuit",
             "target": "piff"
           },
           {
@@ -24695,6 +24713,10 @@
           {
             "source": "lief",
             "target": "networkit"
+          },
+          {
+            "source": "light-curve-python",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "lightfm",
@@ -36410,6 +36432,10 @@
           },
           {
             "source": "numpy",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "numpy",
             "target": "lightfm"
           },
           {
@@ -46858,6 +46884,10 @@
           },
           {
             "source": "psutil",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "psutil",
             "target": "limix-inference"
           },
           {
@@ -57186,6 +57216,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "pyyaml",
             "target": "limix-inference"
           },
           {
@@ -63711,6 +63745,10 @@
           {
             "source": "scipy",
             "target": "libstempo"
+          },
+          {
+            "source": "scipy",
+            "target": "light-curve-python"
           },
           {
             "source": "scipy",
@@ -73278,6 +73316,10 @@
           },
           {
             "source": "tbb",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "tbb",
             "target": "lightfm"
           },
           {
@@ -80778,6 +80820,10 @@
           },
           {
             "source": "tbb",
+            "target": "zope.i18nmessageid"
+          },
+          {
+            "source": "tbb",
             "target": "zope.index"
           },
           {
@@ -82994,6 +83040,10 @@
           },
           {
             "source": "ujson",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "ujson",
             "target": "metadata-crawler"
           },
           {
@@ -84827,6 +84877,10 @@
           {
             "source": "wcwidth",
             "target": "libertem-live"
+          },
+          {
+            "source": "wcwidth",
+            "target": "light-curve-python"
           },
           {
             "source": "wcwidth",
@@ -87129,6 +87183,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "zope.i18nmessageid",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "zope.index",
             "target": "conda-forge-pinning"
           },
@@ -87171,6 +87229,10 @@
           {
             "source": "zope.interface",
             "target": "sasview"
+          },
+          {
+            "source": "zope.interface",
+            "target": "zope.i18nmessageid"
           },
           {
             "source": "zope.interface",
@@ -95015,6 +95077,12 @@
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
+            }
+          },
+          {
+            "id": "light-curve-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/light-curve-python.json"
             }
           },
           {
@@ -106385,6 +106453,12 @@
             "id": "pyscard",
             "payload": {
               "__lazy_json__": "node_attrs/pyscard.json"
+            }
+          },
+          {
+            "id": "zope.i18nmessageid",
+            "payload": {
+              "__lazy_json__": "node_attrs/zope.i18nmessageid.json"
             }
           }
         ]
