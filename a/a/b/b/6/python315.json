@@ -13032,6 +13032,10 @@
           },
           {
             "source": "cython",
+            "target": "ezdxf"
+          },
+          {
+            "source": "cython",
             "target": "fa2"
           },
           {
@@ -17551,6 +17555,14 @@
             "target": "opensim"
           },
           {
+            "source": "ezdxf",
+            "target": "cad-to-openmc"
+          },
+          {
+            "source": "ezdxf",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "f90wrap",
             "target": "conda-forge-pinning"
           },
@@ -18352,10 +18364,6 @@
           },
           {
             "source": "fonttools",
-            "target": "cad-to-openmc"
-          },
-          {
-            "source": "fonttools",
             "target": "cffsubr"
           },
           {
@@ -18369,6 +18377,10 @@
           {
             "source": "fonttools",
             "target": "docling-parse"
+          },
+          {
+            "source": "fonttools",
+            "target": "ezdxf"
           },
           {
             "source": "fonttools",
@@ -35097,6 +35109,10 @@
           {
             "source": "numpy",
             "target": "ezc3d"
+          },
+          {
+            "source": "numpy",
+            "target": "ezdxf"
           },
           {
             "source": "numpy",
@@ -71028,6 +71044,10 @@
           },
           {
             "source": "tbb",
+            "target": "ezdxf"
+          },
+          {
+            "source": "tbb",
             "target": "f90wrap"
           },
           {
@@ -91689,6 +91709,12 @@
             "id": "ezc3d",
             "payload": {
               "__lazy_json__": "node_attrs/ezc3d.json"
+            }
+          },
+          {
+            "id": "ezdxf",
+            "payload": {
+              "__lazy_json__": "node_attrs/ezdxf.json"
             }
           },
           {
