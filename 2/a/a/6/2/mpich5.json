@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "lalinference",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinference.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -513,6 +520,10 @@
           },
           {
             "source": "h5py",
+            "target": "lalinference"
+          },
+          {
+            "source": "h5py",
             "target": "lfpy"
           },
           {
@@ -778,6 +789,10 @@
           {
             "source": "kahip",
             "target": "openfoam"
+          },
+          {
+            "source": "lalinference",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "lammps",
@@ -2066,6 +2081,12 @@
             "id": "kahip",
             "payload": {
               "__lazy_json__": "node_attrs/kahip.json"
+            }
+          },
+          {
+            "id": "lalinference",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalinference.json"
             }
           },
           {
