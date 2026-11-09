@@ -5952,6 +5952,10 @@
           },
           {
             "source": "boost",
+            "target": "nuflux"
+          },
+          {
+            "source": "boost",
             "target": "nurikit"
           },
           {
@@ -32143,6 +32147,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nuflux",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nuitka",
             "target": "conda-forge-pinning"
           },
@@ -36537,6 +36545,10 @@
           {
             "source": "numpy",
             "target": "nrel.routee.compass"
+          },
+          {
+            "source": "numpy",
+            "target": "nuflux"
           },
           {
             "source": "numpy",
@@ -43393,6 +43405,10 @@
           {
             "source": "photospline",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "photospline",
+            "target": "nuflux"
           },
           {
             "source": "photutils",
@@ -74132,6 +74148,10 @@
           },
           {
             "source": "tbb",
+            "target": "nuflux"
+          },
+          {
+            "source": "tbb",
             "target": "nuitka"
           },
           {
@@ -96305,6 +96325,12 @@
             "id": "nrel.routee.compass",
             "payload": {
               "__lazy_json__": "node_attrs/nrel.routee.compass.json"
+            }
+          },
+          {
+            "id": "nuflux",
+            "payload": {
+              "__lazy_json__": "node_attrs/nuflux.json"
             }
           },
           {
