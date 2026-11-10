@@ -80,12 +80,6 @@
             }
           },
           {
-            "id": "fitsverify",
-            "payload": {
-              "__lazy_json__": "node_attrs/fitsverify.json"
-            }
-          },
-          {
             "id": "healpix_cxx",
             "payload": {
               "__lazy_json__": "node_attrs/healpix_cxx.json"
@@ -104,39 +98,15 @@
             }
           },
           {
-            "id": "libvips",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvips.json"
-            }
-          },
-          {
             "id": "numcosmo",
             "payload": {
               "__lazy_json__": "node_attrs/numcosmo.json"
             }
           },
           {
-            "id": "nvidia-dali-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
-            }
-          },
-          {
             "id": "photospline",
             "payload": {
               "__lazy_json__": "node_attrs/photospline.json"
-            }
-          },
-          {
-            "id": "tempo2",
-            "payload": {
-              "__lazy_json__": "node_attrs/tempo2.json"
-            }
-          },
-          {
-            "id": "wcslib",
-            "payload": {
-              "__lazy_json__": "node_attrs/wcslib.json"
             }
           },
           {
@@ -685,7 +655,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
