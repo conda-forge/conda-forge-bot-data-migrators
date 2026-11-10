@@ -74,12 +74,6 @@
             }
           },
           {
-            "id": "chealpix",
-            "payload": {
-              "__lazy_json__": "node_attrs/chealpix.json"
-            }
-          },
-          {
             "id": "disperse",
             "payload": {
               "__lazy_json__": "node_attrs/disperse.json"
@@ -95,12 +89,6 @@
             "id": "healpix_cxx",
             "payload": {
               "__lazy_json__": "node_attrs/healpix_cxx.json"
-            }
-          },
-          {
-            "id": "healpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/healpy.json"
             }
           },
           {
@@ -131,12 +119,6 @@
             "id": "photospline",
             "payload": {
               "__lazy_json__": "node_attrs/photospline.json"
-            }
-          },
-          {
-            "id": "root",
-            "payload": {
-              "__lazy_json__": "node_attrs/root.json"
             }
           },
           {
@@ -697,7 +679,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
