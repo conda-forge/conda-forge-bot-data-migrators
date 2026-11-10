@@ -92,18 +92,6 @@
             }
           },
           {
-            "id": "gettext",
-            "payload": {
-              "__lazy_json__": "node_attrs/gettext.json"
-            }
-          },
-          {
-            "id": "mvapich",
-            "payload": {
-              "__lazy_json__": "node_attrs/mvapich.json"
-            }
-          },
-          {
             "id": "psmpi",
             "payload": {
               "__lazy_json__": "node_attrs/psmpi.json"
@@ -425,7 +413,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
