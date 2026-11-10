@@ -4147,6 +4147,10 @@
           },
           {
             "source": "azure-storage-common-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
             "target": "azure-storage-blobs-cpp"
           },
           {
@@ -71420,6 +71424,10 @@
           {
             "source": "pkg-config",
             "target": "zziplib"
+          },
+          {
+            "source": "pkgconf",
+            "target": "casadi"
           },
           {
             "source": "pkgconf",
