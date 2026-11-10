@@ -59,6 +59,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/pycalphad.json"
             }
+          },
+          {
+            "id": "asyncmy",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncmy.json"
+            }
           }
         ]
       }
@@ -2348,6 +2354,10 @@
           },
           {
             "source": "asyncinotify",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "asyncmy",
             "target": "conda-forge-pinning"
           },
           {
@@ -12417,6 +12427,10 @@
           {
             "source": "cython",
             "target": "astroscrappy"
+          },
+          {
+            "source": "cython",
+            "target": "asyncmy"
           },
           {
             "source": "cython",
@@ -68680,6 +68694,10 @@
           },
           {
             "source": "tbb",
+            "target": "asyncmy"
+          },
+          {
+            "source": "tbb",
             "target": "asyncpg"
           },
           {
@@ -106519,6 +106537,12 @@
             "id": "zope.i18nmessageid",
             "payload": {
               "__lazy_json__": "node_attrs/zope.i18nmessageid.json"
+            }
+          },
+          {
+            "id": "asyncmy",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncmy.json"
             }
           }
         ]
