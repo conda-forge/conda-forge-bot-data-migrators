@@ -54,20 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "kafkacat",
-            "payload": {
-              "__lazy_json__": "node_attrs/kafkacat.json"
-            }
-          },
-          {
-            "id": "mq-bridge",
-            "payload": {
-              "__lazy_json__": "node_attrs/mq-bridge.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -295,7 +282,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
