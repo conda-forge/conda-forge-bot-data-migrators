@@ -62,18 +62,6 @@
             }
           },
           {
-            "id": "pykafka",
-            "payload": {
-              "__lazy_json__": "node_attrs/pykafka.json"
-            }
-          },
-          {
-            "id": "rill",
-            "payload": {
-              "__lazy_json__": "node_attrs/rill.json"
-            }
-          },
-          {
             "id": "mq-bridge",
             "payload": {
               "__lazy_json__": "node_attrs/mq-bridge.json"
@@ -307,7 +295,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
