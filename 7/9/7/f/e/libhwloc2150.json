@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libhwloc 2.15\n  kind: version\n  migration_number: 1\nlibhwloc:\n- 2.15.0\nmigrator_ts: 1790367786.589459\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libhwloc 2.15.0\n  kind: version\n  migration_number: 1\nlibhwloc:\n- 2.15.0\nmigrator_ts: 1794007402.0872786\n",
     "libhwloc2150"
   ],
   "class": "MigrationYaml",
@@ -9,8 +9,8 @@
     "automerge": false,
     "build_number": 1,
     "bump_number": 1,
-    "check_solvable": false,
-    "commit_message": "Rebuild for libhwloc 2.15",
+    "check_solvable": true,
+    "commit_message": "Rebuild for libhwloc 2.15.0",
     "conda_forge_yml_patches": null,
     "effective_graph": {
       "__nx_digraph__": true,
