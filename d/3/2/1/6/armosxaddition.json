@@ -5267,10 +5267,6 @@
           },
           {
             "source": "bc",
-            "target": "lalpulsar"
-          },
-          {
-            "source": "bc",
             "target": "ncl"
           },
           {
@@ -32784,10 +32780,6 @@
           {
             "source": "h5py",
             "target": "lalinference"
-          },
-          {
-            "source": "h5py",
-            "target": "lalpulsar"
           },
           {
             "source": "h5py",
@@ -95499,6 +95491,10 @@
           },
           {
             "source": "rsync",
+            "target": "lalpulsar"
+          },
+          {
+            "source": "rsync",
             "target": "libprotobuf"
           },
           {
@@ -97528,10 +97524,6 @@
           {
             "source": "scipy",
             "target": "lalinference"
-          },
-          {
-            "source": "scipy",
-            "target": "lalpulsar"
           },
           {
             "source": "scipy",
