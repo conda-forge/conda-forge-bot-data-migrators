@@ -54,32 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "babeltrace",
-            "payload": {
-              "__lazy_json__": "node_attrs/babeltrace.json"
-            }
-          },
-          {
-            "id": "heaptrack",
-            "payload": {
-              "__lazy_json__": "node_attrs/heaptrack.json"
-            }
-          },
-          {
-            "id": "libabigail",
-            "payload": {
-              "__lazy_json__": "node_attrs/libabigail.json"
-            }
-          },
-          {
-            "id": "pystack",
-            "payload": {
-              "__lazy_json__": "node_attrs/pystack.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -347,7 +322,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
