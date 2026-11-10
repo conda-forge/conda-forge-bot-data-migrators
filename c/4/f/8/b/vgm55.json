@@ -56,9 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "geant4-vmc",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/geant4-vmc.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -225,7 +225,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
