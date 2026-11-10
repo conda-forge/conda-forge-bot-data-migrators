@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "cmor",
-            "payload": {
-              "__lazy_json__": "node_attrs/cmor.json"
-            }
-          },
-          {
             "id": "crun",
             "payload": {
               "__lazy_json__": "node_attrs/crun.json"
-            }
-          },
-          {
-            "id": "freerdp",
-            "payload": {
-              "__lazy_json__": "node_attrs/freerdp.json"
             }
           },
           {
@@ -80,33 +68,9 @@
             }
           },
           {
-            "id": "gdcm",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdcm.json"
-            }
-          },
-          {
-            "id": "gfal2",
-            "payload": {
-              "__lazy_json__": "node_attrs/gfal2.json"
-            }
-          },
-          {
             "id": "gnucobol",
             "payload": {
               "__lazy_json__": "node_attrs/gnucobol.json"
-            }
-          },
-          {
-            "id": "psmpi",
-            "payload": {
-              "__lazy_json__": "node_attrs/psmpi.json"
-            }
-          },
-          {
-            "id": "ttyd",
-            "payload": {
-              "__lazy_json__": "node_attrs/ttyd.json"
             }
           }
         ]
@@ -419,7 +383,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
