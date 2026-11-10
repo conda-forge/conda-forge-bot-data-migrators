@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "astromatic-source-extractor",
-            "payload": {
-              "__lazy_json__": "node_attrs/astromatic-source-extractor.json"
-            }
-          },
-          {
-            "id": "astromatic-swarp",
-            "payload": {
-              "__lazy_json__": "node_attrs/astromatic-swarp.json"
-            }
-          },
-          {
             "id": "astrometry",
             "payload": {
               "__lazy_json__": "node_attrs/astrometry.json"
@@ -92,21 +80,9 @@
             }
           },
           {
-            "id": "disperse",
-            "payload": {
-              "__lazy_json__": "node_attrs/disperse.json"
-            }
-          },
-          {
             "id": "gnuastro",
             "payload": {
               "__lazy_json__": "node_attrs/gnuastro.json"
-            }
-          },
-          {
-            "id": "healpix_cxx",
-            "payload": {
-              "__lazy_json__": "node_attrs/healpix_cxx.json"
             }
           },
           {
@@ -116,39 +92,15 @@
             }
           },
           {
-            "id": "huira",
-            "payload": {
-              "__lazy_json__": "node_attrs/huira.json"
-            }
-          },
-          {
             "id": "lenstool",
             "payload": {
               "__lazy_json__": "node_attrs/lenstool.json"
             }
           },
           {
-            "id": "numcosmo",
-            "payload": {
-              "__lazy_json__": "node_attrs/numcosmo.json"
-            }
-          },
-          {
-            "id": "photospline",
-            "payload": {
-              "__lazy_json__": "node_attrs/photospline.json"
-            }
-          },
-          {
             "id": "xstar-tools",
             "payload": {
               "__lazy_json__": "node_attrs/xstar-tools.json"
-            }
-          },
-          {
-            "id": "nep",
-            "payload": {
-              "__lazy_json__": "node_attrs/nep.json"
             }
           }
         ]
@@ -685,7 +637,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
