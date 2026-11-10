@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "casadi",
-            "payload": {
-              "__lazy_json__": "node_attrs/casadi.json"
-            }
-          },
-          {
             "id": "coinbonmin",
             "payload": {
               "__lazy_json__": "node_attrs/coinbonmin.json"
@@ -101,12 +95,6 @@
             "id": "ipyopt",
             "payload": {
               "__lazy_json__": "node_attrs/ipyopt.json"
-            }
-          },
-          {
-            "id": "pagmo",
-            "payload": {
-              "__lazy_json__": "node_attrs/pagmo.json"
             }
           },
           {
@@ -397,7 +385,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
