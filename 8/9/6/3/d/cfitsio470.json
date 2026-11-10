@@ -56,51 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "astrometry",
-            "payload": {
-              "__lazy_json__": "node_attrs/astrometry.json"
-            }
-          },
-          {
-            "id": "ccfits",
-            "payload": {
-              "__lazy_json__": "node_attrs/ccfits.json"
-            }
-          },
-          {
-            "id": "cpl",
-            "payload": {
-              "__lazy_json__": "node_attrs/cpl.json"
-            }
-          },
-          {
-            "id": "gnuastro",
-            "payload": {
-              "__lazy_json__": "node_attrs/gnuastro.json"
-            }
-          },
-          {
-            "id": "hstcal",
-            "payload": {
-              "__lazy_json__": "node_attrs/hstcal.json"
-            }
-          },
-          {
             "id": "lalpulsar",
             "payload": {
               "__lazy_json__": "node_attrs/lalpulsar.json"
-            }
-          },
-          {
-            "id": "lenstool",
-            "payload": {
-              "__lazy_json__": "node_attrs/lenstool.json"
-            }
-          },
-          {
-            "id": "xstar-tools",
-            "payload": {
-              "__lazy_json__": "node_attrs/xstar-tools.json"
             }
           }
         ]
@@ -637,7 +595,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
