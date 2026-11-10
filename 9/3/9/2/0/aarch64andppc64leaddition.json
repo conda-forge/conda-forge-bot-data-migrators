@@ -3875,6 +3875,10 @@
           },
           {
             "source": "azure-storage-common-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
             "target": "azure-storage-blobs-cpp"
           },
           {
@@ -68396,6 +68400,10 @@
           {
             "source": "pkgconf",
             "target": "cargo-patch"
+          },
+          {
+            "source": "pkgconf",
+            "target": "casadi"
           },
           {
             "source": "pkgconf",
