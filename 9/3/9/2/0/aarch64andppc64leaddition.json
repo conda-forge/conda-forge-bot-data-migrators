@@ -1731,6 +1731,10 @@
           },
           {
             "source": "autoconf",
+            "target": "php"
+          },
+          {
+            "source": "autoconf",
             "target": "planarity"
           },
           {
@@ -6847,6 +6851,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -7628,6 +7636,10 @@
           {
             "source": "bash",
             "target": "photutils"
+          },
+          {
+            "source": "bash",
+            "target": "php"
           },
           {
             "source": "bash",
@@ -10559,10 +10571,6 @@
           },
           {
             "source": "bash",
-            "target": "vc"
-          },
-          {
-            "source": "bash",
             "target": "vdt"
           },
           {
@@ -12175,10 +12183,6 @@
           },
           {
             "source": "binutils",
-            "target": "vc"
-          },
-          {
-            "source": "binutils",
             "target": "veloxchem"
           },
           {
@@ -12364,6 +12368,10 @@
           {
             "source": "bison",
             "target": "petsc"
+          },
+          {
+            "source": "bison",
+            "target": "php"
           },
           {
             "source": "bison",
@@ -14372,6 +14380,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -19051,6 +19063,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -20352,10 +20368,6 @@
           {
             "source": "cmake",
             "target": "vampyr"
-          },
-          {
-            "source": "cmake",
-            "target": "vc"
           },
           {
             "source": "cmake",
@@ -23619,10 +23631,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "vc"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "veloxchem"
           },
           {
@@ -24584,6 +24592,10 @@
           {
             "source": "curl",
             "target": "pari"
+          },
+          {
+            "source": "curl",
+            "target": "php"
           },
           {
             "source": "curl",
@@ -33103,6 +33115,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "ppl"
           },
           {
@@ -36488,6 +36504,10 @@
           {
             "source": "icu",
             "target": "octave"
+          },
+          {
+            "source": "icu",
+            "target": "php"
           },
           {
             "source": "icu",
@@ -41139,6 +41159,10 @@
           },
           {
             "source": "libiconv",
+            "target": "php"
+          },
+          {
+            "source": "libiconv",
             "target": "poppler"
           },
           {
@@ -42808,6 +42832,10 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
+          },
+          {
+            "source": "libsodium",
+            "target": "php"
           },
           {
             "source": "libsodium",
@@ -45459,6 +45487,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -46236,6 +46268,10 @@
           {
             "source": "libtool",
             "target": "photutils"
+          },
+          {
+            "source": "libtool",
+            "target": "php"
           },
           {
             "source": "libtool",
@@ -49167,10 +49203,6 @@
           },
           {
             "source": "libtool",
-            "target": "vc"
-          },
-          {
-            "source": "libtool",
             "target": "vdt"
           },
           {
@@ -51327,6 +51359,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pinocchio"
           },
           {
@@ -51623,10 +51659,6 @@
           },
           {
             "source": "libxml2",
-            "target": "vc"
-          },
-          {
-            "source": "libxml2",
             "target": "veloxchem"
           },
           {
@@ -51695,6 +51727,10 @@
           },
           {
             "source": "libxslt",
+            "target": "php"
+          },
+          {
+            "source": "libxslt",
             "target": "postgresql"
           },
           {
@@ -51736,6 +51772,10 @@
           {
             "source": "libzip",
             "target": "libnetcdf"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -52568,10 +52608,6 @@
           {
             "source": "llvmdev",
             "target": "vampyr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "vc"
           },
           {
             "source": "llvmdev",
@@ -54528,6 +54564,62 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -58647,10 +58739,6 @@
           },
           {
             "source": "ninja",
-            "target": "vc"
-          },
-          {
-            "source": "ninja",
             "target": "vectorscan"
           },
           {
@@ -61403,6 +61491,10 @@
           },
           {
             "source": "oniguruma",
+            "target": "php"
+          },
+          {
+            "source": "oniguruma",
             "target": "slang"
           },
           {
@@ -62695,10 +62787,6 @@
           },
           {
             "source": "openmp",
-            "target": "vc"
-          },
-          {
-            "source": "openmp",
             "target": "veloxchem"
           },
           {
@@ -63300,6 +63388,10 @@
           {
             "source": "openssl",
             "target": "photutils"
+          },
+          {
+            "source": "openssl",
+            "target": "php"
           },
           {
             "source": "openssl",
@@ -64820,6 +64912,10 @@
           {
             "source": "pcre2",
             "target": "libgit2"
+          },
+          {
+            "source": "pcre2",
+            "target": "php"
           },
           {
             "source": "pcre2",
@@ -67191,6 +67287,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "php"
+          },
+          {
+            "source": "pkg-config",
             "target": "pillow"
           },
           {
@@ -68944,6 +69044,10 @@
           {
             "source": "postgresql",
             "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -75872,10 +75976,6 @@
           {
             "source": "python",
             "target": "vampyr"
-          },
-          {
-            "source": "python",
-            "target": "vc"
           },
           {
             "source": "python",
@@ -88254,6 +88354,10 @@
             "target": "clingo"
           },
           {
+            "source": "re2c",
+            "target": "php"
+          },
+          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -88364,6 +88468,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -92763,6 +92871,10 @@
           },
           {
             "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -94927,10 +95039,6 @@
           },
           {
             "source": "ucrt",
-            "target": "vc"
-          },
-          {
-            "source": "ucrt",
             "target": "veloxchem"
           },
           {
@@ -95464,6 +95572,10 @@
           {
             "source": "util-linux",
             "target": "lbzip2"
+          },
+          {
+            "source": "util-linux",
+            "target": "php"
           },
           {
             "source": "util-linux",
@@ -96220,14 +96332,6 @@
           {
             "source": "valgrind",
             "target": "pytest-codspeed"
-          },
-          {
-            "source": "vc",
-            "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "vc",
-            "target": "intel-compiler-repack"
           },
           {
             "source": "vdt",
@@ -102471,6 +102575,10 @@
           },
           {
             "source": "zlib-ng",
+            "target": "php"
+          },
+          {
+            "source": "zlib-ng",
             "target": "pillow"
           },
           {
@@ -103823,6 +103931,10 @@
           },
           {
             "source": "zlib",
+            "target": "php"
+          },
+          {
+            "source": "zlib",
             "target": "pigz"
           },
           {
@@ -104444,10 +104556,6 @@
           {
             "source": "zlib",
             "target": "vampyr"
-          },
-          {
-            "source": "zlib",
-            "target": "vc"
           },
           {
             "source": "zlib",
@@ -105896,10 +106004,6 @@
           {
             "source": "zstd",
             "target": "vampyr"
-          },
-          {
-            "source": "zstd",
-            "target": "vc"
           },
           {
             "source": "zstd",
@@ -112367,6 +112471,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -114110,6 +114220,12 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
@@ -120176,12 +120292,6 @@
             "id": "vampyr",
             "payload": {
               "__lazy_json__": "node_attrs/vampyr.json"
-            }
-          },
-          {
-            "id": "vc",
-            "payload": {
-              "__lazy_json__": "node_attrs/vc.json"
             }
           },
           {
