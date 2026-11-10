@@ -54,26 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "crun",
-            "payload": {
-              "__lazy_json__": "node_attrs/crun.json"
-            }
-          },
-          {
-            "id": "freesasa-c",
-            "payload": {
-              "__lazy_json__": "node_attrs/freesasa-c.json"
-            }
-          },
-          {
-            "id": "gnucobol",
-            "payload": {
-              "__lazy_json__": "node_attrs/gnucobol.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -383,7 +364,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
