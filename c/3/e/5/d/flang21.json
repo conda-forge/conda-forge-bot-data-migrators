@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "fformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/fformat.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -737,6 +744,10 @@
           },
           {
             "source": "fastscapelib-f2py",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fformat",
             "target": "conda-forge-pinning"
           },
           {
@@ -2716,6 +2727,12 @@
             "id": "libwignernj",
             "payload": {
               "__lazy_json__": "node_attrs/libwignernj.json"
+            }
+          },
+          {
+            "id": "fformat",
+            "payload": {
+              "__lazy_json__": "node_attrs/fformat.json"
             }
           }
         ]
