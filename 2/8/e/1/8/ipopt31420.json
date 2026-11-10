@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "coinbonmin",
+            "id": "biorbd",
             "payload": {
-              "__lazy_json__": "node_attrs/coinbonmin.json"
-            }
-          },
-          {
-            "id": "cppad-mixed",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppad-mixed.json"
-            }
-          },
-          {
-            "id": "cyipopt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cyipopt.json"
+              "__lazy_json__": "node_attrs/biorbd.json"
             }
           },
           {
@@ -80,33 +68,9 @@
             }
           },
           {
-            "id": "icub-main",
-            "payload": {
-              "__lazy_json__": "node_attrs/icub-main.json"
-            }
-          },
-          {
-            "id": "idyntree",
-            "payload": {
-              "__lazy_json__": "node_attrs/idyntree.json"
-            }
-          },
-          {
-            "id": "ipyopt",
-            "payload": {
-              "__lazy_json__": "node_attrs/ipyopt.json"
-            }
-          },
-          {
             "id": "pygmo_plugins_nonfree",
             "payload": {
               "__lazy_json__": "node_attrs/pygmo_plugins_nonfree.json"
-            }
-          },
-          {
-            "id": "scipoptsuite",
-            "payload": {
-              "__lazy_json__": "node_attrs/scipoptsuite.json"
             }
           }
         ]
@@ -391,7 +355,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
