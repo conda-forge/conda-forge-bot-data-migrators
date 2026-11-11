@@ -118,6 +118,10 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-auth",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-event-stream",
             "target": "aws-crt-cpp"
           },
@@ -128,6 +132,10 @@
           {
             "source": "aws-c-event-stream",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-http",
@@ -158,6 +166,10 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-http",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-mqtt",
             "target": "aws-crt-cpp"
           },
@@ -168,6 +180,10 @@
           {
             "source": "aws-c-mqtt",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-c-mqtt",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-s3",
@@ -186,8 +202,16 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-s3",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-crt-cpp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-crt-cpp",
+            "target": "tiledb"
           },
           {
             "source": "awscrt",
@@ -195,6 +219,10 @@
           },
           {
             "source": "hdf5",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tiledb",
             "target": "conda-forge-pinning"
           }
         ],
@@ -252,6 +280,12 @@
             "id": "hdf5",
             "payload": {
               "__lazy_json__": "node_attrs/hdf5.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
             }
           }
         ]
