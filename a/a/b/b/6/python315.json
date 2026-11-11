@@ -55,21 +55,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "bioimage-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/bioimage-cpp.json"
-            }
-          },
-          {
             "id": "scinumtools3",
             "payload": {
               "__lazy_json__": "node_attrs/scinumtools3.json"
-            }
-          },
-          {
-            "id": "temporalio",
-            "payload": {
-              "__lazy_json__": "node_attrs/temporalio.json"
             }
           }
         ]
@@ -23785,10 +23773,6 @@
           {
             "source": "lalpulsar",
             "target": "gwtc_analysis"
-          },
-          {
-            "source": "lalpulsar",
-            "target": "lalapps"
           },
           {
             "source": "lalpulsar",
