@@ -60,6 +60,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-audio.json"
             }
+          },
+          {
+            "id": "soapysdr-module-bladerf",
+            "payload": {
+              "__lazy_json__": "node_attrs/soapysdr-module-bladerf.json"
+            }
           }
         ]
       }
@@ -132,6 +138,10 @@
           },
           {
             "source": "soapysdr-module-audio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "soapysdr-module-bladerf",
             "target": "conda-forge-pinning"
           },
           {
@@ -213,6 +223,12 @@
             "id": "soapysdr-module-audio",
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-audio.json"
+            }
+          },
+          {
+            "id": "soapysdr-module-bladerf",
+            "payload": {
+              "__lazy_json__": "node_attrs/soapysdr-module-bladerf.json"
             }
           },
           {
