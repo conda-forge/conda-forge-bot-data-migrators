@@ -1,0 +1,412 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for sundials 7.9\n  kind: version\n  migration_number: 1\nmigrator_ts: 1794008384.848053\nsundials:\n- '7.9'\n",
+    "sundials79"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for sundials 7.9",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "assimulo",
+            "payload": {
+              "__lazy_json__": "node_attrs/assimulo.json"
+            }
+          },
+          {
+            "id": "cantera",
+            "payload": {
+              "__lazy_json__": "node_attrs/cantera.json"
+            }
+          },
+          {
+            "id": "dfba",
+            "payload": {
+              "__lazy_json__": "node_attrs/dfba.json"
+            }
+          },
+          {
+            "id": "fmipp",
+            "payload": {
+              "__lazy_json__": "node_attrs/fmipp.json"
+            }
+          },
+          {
+            "id": "muq",
+            "payload": {
+              "__lazy_json__": "node_attrs/muq.json"
+            }
+          },
+          {
+            "id": "octave",
+            "payload": {
+              "__lazy_json__": "node_attrs/octave.json"
+            }
+          },
+          {
+            "id": "pybammsolvers",
+            "payload": {
+              "__lazy_json__": "node_attrs/pybammsolvers.json"
+            }
+          },
+          {
+            "id": "pycvodes",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycvodes.json"
+            }
+          },
+          {
+            "id": "scikit_sundae",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit_sundae.json"
+            }
+          },
+          {
+            "id": "scikits.odes",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikits.odes.json"
+            }
+          },
+          {
+            "id": "scikits_odes_sundials",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikits_odes_sundials.json"
+            }
+          },
+          {
+            "id": "sunode",
+            "payload": {
+              "__lazy_json__": "node_attrs/sunode.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "assimulo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cantera",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dfba",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fmipp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "muq",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "octave",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pybammsolvers",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pycvodes",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scikit_sundae",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scikits.odes",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scikits_odes_sundials",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sunode",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "assimulo",
+            "payload": {
+              "__lazy_json__": "node_attrs/assimulo.json"
+            }
+          },
+          {
+            "id": "cantera",
+            "payload": {
+              "__lazy_json__": "node_attrs/cantera.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "dfba",
+            "payload": {
+              "__lazy_json__": "node_attrs/dfba.json"
+            }
+          },
+          {
+            "id": "fmipp",
+            "payload": {
+              "__lazy_json__": "node_attrs/fmipp.json"
+            }
+          },
+          {
+            "id": "muq",
+            "payload": {
+              "__lazy_json__": "node_attrs/muq.json"
+            }
+          },
+          {
+            "id": "octave",
+            "payload": {
+              "__lazy_json__": "node_attrs/octave.json"
+            }
+          },
+          {
+            "id": "pybammsolvers",
+            "payload": {
+              "__lazy_json__": "node_attrs/pybammsolvers.json"
+            }
+          },
+          {
+            "id": "pycvodes",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycvodes.json"
+            }
+          },
+          {
+            "id": "scikit_sundae",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit_sundae.json"
+            }
+          },
+          {
+            "id": "scikits.odes",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikits.odes.json"
+            }
+          },
+          {
+            "id": "scikits_odes_sundials",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikits_odes_sundials.json"
+            }
+          },
+          {
+            "id": "sunode",
+            "payload": {
+              "__lazy_json__": "node_attrs/sunode.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "sundials"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "sundials79"
+}
