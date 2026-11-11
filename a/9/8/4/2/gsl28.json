@@ -216,10 +216,6 @@
             "target": "sage"
           },
           {
-            "source": "giac",
-            "target": "sagelib"
-          },
-          {
             "source": "gnuastro",
             "target": "conda-forge-pinning"
           },
@@ -660,10 +656,6 @@
             "target": "sage"
           },
           {
-            "source": "r-base",
-            "target": "sagelib"
-          },
-          {
             "source": "r-gsl",
             "target": "conda-forge-pinning"
           },
@@ -754,18 +746,6 @@
           {
             "source": "sage",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "sage"
-          },
-          {
-            "source": "sage",
-            "target": "sagelib"
           },
           {
             "source": "sed-plume",
@@ -1382,12 +1362,6 @@
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
-            }
-          },
-          {
-            "id": "sagelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sagelib.json"
             }
           },
           {
