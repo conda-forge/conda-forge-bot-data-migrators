@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "lue",
+            "payload": {
+              "__lazy_json__": "node_attrs/lue.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -358,6 +365,10 @@
           {
             "source": "gdal",
             "target": "isce3"
+          },
+          {
+            "source": "gdal",
+            "target": "lue"
           },
           {
             "source": "gdal",
@@ -834,6 +845,10 @@
           {
             "source": "libpninexus",
             "target": "pninexus"
+          },
+          {
+            "source": "lue",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "mbsolve",
@@ -1838,6 +1853,12 @@
             "id": "libpninexus",
             "payload": {
               "__lazy_json__": "node_attrs/libpninexus.json"
+            }
+          },
+          {
+            "id": "lue",
+            "payload": {
+              "__lazy_json__": "node_attrs/lue.json"
             }
           },
           {
