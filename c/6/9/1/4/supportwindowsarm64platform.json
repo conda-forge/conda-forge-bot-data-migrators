@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "gunicorn",
+            "payload": {
+              "__lazy_json__": "node_attrs/gunicorn.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
