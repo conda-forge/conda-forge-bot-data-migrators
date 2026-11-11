@@ -61,6 +61,12 @@
             }
           },
           {
+            "id": "headroom-ai",
+            "payload": {
+              "__lazy_json__": "node_attrs/headroom-ai.json"
+            }
+          },
+          {
             "id": "lalmetaio",
             "payload": {
               "__lazy_json__": "node_attrs/lalmetaio.json"
@@ -486,10 +492,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "aiohttp",
             "target": "hide_code"
           },
           {
@@ -559,6 +561,10 @@
           {
             "source": "aiohttp",
             "target": "libertem-live"
+          },
+          {
+            "source": "aiohttp",
+            "target": "litellm"
           },
           {
             "source": "aiohttp",
@@ -3322,10 +3328,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "backports.zstd",
             "target": "helpme"
           },
           {
@@ -3487,6 +3489,10 @@
           {
             "source": "backports.zstd",
             "target": "ligo_hires_gps_time"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "litellm"
           },
           {
             "source": "backports.zstd",
@@ -7130,10 +7136,6 @@
           },
           {
             "source": "brotli",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "brotli",
             "target": "helpme"
           },
           {
@@ -7295,6 +7297,10 @@
           {
             "source": "brotli",
             "target": "ligo_hires_gps_time"
+          },
+          {
+            "source": "brotli",
+            "target": "litellm"
           },
           {
             "source": "brotli",
@@ -18062,15 +18068,11 @@
           },
           {
             "source": "fastuuid",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "fastuuid",
             "target": "conda-forge-pinning"
           },
           {
             "source": "fastuuid",
-            "target": "headroom-ai"
+            "target": "litellm"
           },
           {
             "source": "fastwsgi",
@@ -23094,7 +23096,7 @@
           },
           {
             "source": "jiter",
-            "target": "headroom-ai"
+            "target": "litellm"
           },
           {
             "source": "jiter",
@@ -24809,6 +24811,18 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "litellm",
+            "target": "apache-airflow-backport-providers-cncf-kubernetes"
+          },
+          {
+            "source": "litellm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "litellm",
+            "target": "headroom-ai"
+          },
+          {
             "source": "liteparse",
             "target": "conda-forge-pinning"
           },
@@ -26258,10 +26272,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "markupsafe",
             "target": "hide_code"
           },
           {
@@ -26403,6 +26413,10 @@
           {
             "source": "markupsafe",
             "target": "limix-inference"
+          },
+          {
+            "source": "markupsafe",
+            "target": "litellm"
           },
           {
             "source": "markupsafe",
@@ -49622,6 +49636,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "litellm"
+          },
+          {
+            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -57318,6 +57336,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "litellm"
+          },
+          {
+            "source": "pyyaml",
             "target": "llama-cpp-python"
           },
           {
@@ -60326,10 +60348,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "headroom-ai"
-          },
-          {
-            "source": "rpds-py",
             "target": "hide_code"
           },
           {
@@ -60395,6 +60413,10 @@
           {
             "source": "rpds-py",
             "target": "libertem"
+          },
+          {
+            "source": "rpds-py",
+            "target": "litellm"
           },
           {
             "source": "rpds-py",
@@ -73422,6 +73444,10 @@
           },
           {
             "source": "tbb",
+            "target": "litellm"
+          },
+          {
+            "source": "tbb",
             "target": "liteparse"
           },
           {
@@ -81190,10 +81216,6 @@
           },
           {
             "source": "tiktoken",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "tiktoken",
             "target": "atom-ml"
           },
           {
@@ -81203,6 +81225,10 @@
           {
             "source": "tiktoken",
             "target": "headroom-ai"
+          },
+          {
+            "source": "tiktoken",
+            "target": "litellm"
           },
           {
             "source": "tiktoken",
@@ -81338,10 +81364,6 @@
           },
           {
             "source": "tokenizers",
-            "target": "apache-airflow-backport-providers-cncf-kubernetes"
-          },
-          {
-            "source": "tokenizers",
             "target": "auto_gptq"
           },
           {
@@ -81358,7 +81380,7 @@
           },
           {
             "source": "tokenizers",
-            "target": "headroom-ai"
+            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -95201,6 +95223,12 @@
             "id": "lipyphilic",
             "payload": {
               "__lazy_json__": "node_attrs/lipyphilic.json"
+            }
+          },
+          {
+            "id": "litellm",
+            "payload": {
+              "__lazy_json__": "node_attrs/litellm.json"
             }
           },
           {
