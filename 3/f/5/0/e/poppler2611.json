@@ -104,18 +104,6 @@
             }
           },
           {
-            "id": "r-pdftools",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-pdftools.json"
-            }
-          },
-          {
-            "id": "texlive-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/texlive-core.json"
-            }
-          },
-          {
             "id": "timg-hzeller",
             "payload": {
               "__lazy_json__": "node_attrs/timg-hzeller.json"
@@ -395,7 +383,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
