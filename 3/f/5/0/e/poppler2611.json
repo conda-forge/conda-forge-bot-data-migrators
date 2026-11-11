@@ -68,27 +68,9 @@
             }
           },
           {
-            "id": "libvips",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvips.json"
-            }
-          },
-          {
             "id": "pdf2svg",
             "payload": {
               "__lazy_json__": "node_attrs/pdf2svg.json"
-            }
-          },
-          {
-            "id": "pdfgrep",
-            "payload": {
-              "__lazy_json__": "node_attrs/pdfgrep.json"
-            }
-          },
-          {
-            "id": "pdftopng",
-            "payload": {
-              "__lazy_json__": "node_attrs/pdftopng.json"
             }
           },
           {
@@ -383,7 +365,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
