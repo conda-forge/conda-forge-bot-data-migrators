@@ -55,9 +55,27 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "biogeme",
+            "payload": {
+              "__lazy_json__": "node_attrs/biogeme.json"
+            }
+          },
+          {
+            "id": "nutpie",
+            "payload": {
+              "__lazy_json__": "node_attrs/nutpie.json"
+            }
+          },
+          {
             "id": "nvidia-cutlass-dsl",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
+            }
+          },
+          {
+            "id": "sunode",
+            "payload": {
+              "__lazy_json__": "node_attrs/sunode.json"
             }
           }
         ]
@@ -717,10 +735,6 @@
           {
             "source": "aiohttp",
             "target": "sage"
-          },
-          {
-            "source": "aiohttp",
-            "target": "sagelib"
           },
           {
             "source": "aiohttp",
@@ -1396,10 +1410,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "sagelib"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "seismon"
           },
           {
@@ -1833,10 +1843,6 @@
           {
             "source": "astroid",
             "target": "sage"
-          },
-          {
-            "source": "astroid",
-            "target": "sagelib"
           },
           {
             "source": "astroid",
@@ -4172,10 +4178,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "sagelib"
-          },
-          {
-            "source": "backports.zstd",
             "target": "sagemaker_containers"
           },
           {
@@ -6220,10 +6222,6 @@
           },
           {
             "source": "boost",
-            "target": "sagelib"
-          },
-          {
-            "source": "boost",
             "target": "scikit-geometry"
           },
           {
@@ -7993,10 +7991,6 @@
           {
             "source": "brotli",
             "target": "sage"
-          },
-          {
-            "source": "brotli",
-            "target": "sagelib"
           },
           {
             "source": "brotli",
@@ -12244,11 +12238,19 @@
           },
           {
             "source": "cypari2",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "cypari2",
             "target": "sage"
           },
           {
             "source": "cypari2",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "cypari2",
+            "target": "veerer"
           },
           {
             "source": "cyrk",
@@ -12276,6 +12278,10 @@
           },
           {
             "source": "cysignals",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "cysignals",
             "target": "fpylll"
           },
           {
@@ -12292,7 +12298,11 @@
           },
           {
             "source": "cysignals",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "cysignals",
+            "target": "veerer"
           },
           {
             "source": "cython-blis",
@@ -14908,10 +14918,6 @@
           },
           {
             "source": "cython",
-            "target": "sagelib"
-          },
-          {
-            "source": "cython",
             "target": "sasl"
           },
           {
@@ -16261,10 +16267,6 @@
           {
             "source": "debugpy",
             "target": "sage"
-          },
-          {
-            "source": "debugpy",
-            "target": "sagelib"
           },
           {
             "source": "debugpy",
@@ -19232,6 +19234,10 @@
           },
           {
             "source": "gmpy2",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "gmpy2",
             "target": "deepmd-kit"
           },
           {
@@ -19408,10 +19414,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "sagelib"
-          },
-          {
-            "source": "gmpy2",
             "target": "sevenn"
           },
           {
@@ -19452,6 +19454,10 @@
           },
           {
             "source": "gmpy2",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "gmpy2",
             "target": "swift-sim"
           },
           {
@@ -19469,6 +19475,10 @@
           {
             "source": "gmpy2",
             "target": "transformer-engine"
+          },
+          {
+            "source": "gmpy2",
+            "target": "veerer"
           },
           {
             "source": "gmpy2",
@@ -20189,10 +20199,6 @@
           {
             "source": "greenlet",
             "target": "sage"
-          },
-          {
-            "source": "greenlet",
-            "target": "sagelib"
           },
           {
             "source": "greenlet",
@@ -24176,10 +24182,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "sagelib"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "sherlockml-dataclean"
           },
           {
@@ -24952,11 +24954,19 @@
           },
           {
             "source": "lrcalc",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "lrcalc",
             "target": "sage"
           },
           {
             "source": "lrcalc",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "lrcalc",
+            "target": "veerer"
           },
           {
             "source": "lru-dict",
@@ -26028,6 +26038,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "markupsafe",
             "target": "dask-sql"
           },
           {
@@ -26860,10 +26874,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "sagelib"
-          },
-          {
-            "source": "markupsafe",
             "target": "sagemaker_containers"
           },
           {
@@ -26996,6 +27006,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "markupsafe",
             "target": "tabmat"
           },
           {
@@ -27105,6 +27119,10 @@
           {
             "source": "markupsafe",
             "target": "vaex-core"
+          },
+          {
+            "source": "markupsafe",
+            "target": "veerer"
           },
           {
             "source": "markupsafe",
@@ -29496,11 +29514,19 @@
           },
           {
             "source": "memory-allocator",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "memory-allocator",
             "target": "sage"
           },
           {
             "source": "memory-allocator",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "memory-allocator",
+            "target": "veerer"
           },
           {
             "source": "memprof",
@@ -31685,10 +31711,6 @@
           {
             "source": "mypy",
             "target": "sage"
-          },
-          {
-            "source": "mypy",
-            "target": "sagelib"
           },
           {
             "source": "mypy",
@@ -37148,10 +37170,6 @@
           },
           {
             "source": "numpy",
-            "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "numpy",
             "target": "nvidia-dali-python"
           },
           {
@@ -39225,10 +39243,6 @@
           {
             "source": "numpy",
             "target": "sage"
-          },
-          {
-            "source": "numpy",
-            "target": "sagelib"
           },
           {
             "source": "numpy",
@@ -45560,11 +45574,19 @@
           },
           {
             "source": "pplpy",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "pplpy",
             "target": "sage"
           },
           {
             "source": "pplpy",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "pplpy",
+            "target": "veerer"
           },
           {
             "source": "pprofile",
@@ -45616,11 +45638,19 @@
           },
           {
             "source": "primecountpy",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "primecountpy",
             "target": "sage"
           },
           {
             "source": "primecountpy",
-            "target": "sagelib"
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "primecountpy",
+            "target": "veerer"
           },
           {
             "source": "primp",
@@ -46469,6 +46499,10 @@
           {
             "source": "psutil",
             "target": "cylc"
+          },
+          {
+            "source": "psutil",
+            "target": "darmonpoints"
           },
           {
             "source": "psutil",
@@ -47536,10 +47570,6 @@
           },
           {
             "source": "psutil",
-            "target": "sagelib"
-          },
-          {
-            "source": "psutil",
             "target": "sagemaker_containers"
           },
           {
@@ -47676,6 +47706,10 @@
           },
           {
             "source": "psutil",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "psutil",
             "target": "svmbir"
           },
           {
@@ -47801,6 +47835,10 @@
           {
             "source": "psutil",
             "target": "vaex-core"
+          },
+          {
+            "source": "psutil",
+            "target": "veerer"
           },
           {
             "source": "psutil",
@@ -49836,10 +49874,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "sagelib"
-          },
-          {
-            "source": "pydantic-core",
             "target": "scalene"
           },
           {
@@ -51637,10 +51671,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "sage"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "sagelib"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -54644,10 +54674,6 @@
           },
           {
             "source": "pytokens",
-            "target": "sagelib"
-          },
-          {
-            "source": "pytokens",
             "target": "schema-salad"
           },
           {
@@ -55692,6 +55718,10 @@
           },
           {
             "source": "pywin32",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "pywin32",
             "target": "datatable"
           },
           {
@@ -56056,10 +56086,6 @@
           },
           {
             "source": "pywin32",
-            "target": "sagelib"
-          },
-          {
-            "source": "pywin32",
             "target": "salt"
           },
           {
@@ -56116,6 +56142,10 @@
           },
           {
             "source": "pywin32",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "pywin32",
             "target": "tangelo"
           },
           {
@@ -56145,6 +56175,10 @@
           {
             "source": "pywin32",
             "target": "tyssue"
+          },
+          {
+            "source": "pywin32",
+            "target": "veerer"
           },
           {
             "source": "pywin32",
@@ -56425,10 +56459,6 @@
           {
             "source": "pywinpty",
             "target": "sage"
-          },
-          {
-            "source": "pywinpty",
-            "target": "sagelib"
           },
           {
             "source": "pywinpty",
@@ -57960,10 +57990,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "sagelib"
-          },
-          {
-            "source": "pyyaml",
             "target": "salt"
           },
           {
@@ -58709,10 +58735,6 @@
           {
             "source": "pyzmq",
             "target": "sage"
-          },
-          {
-            "source": "pyzmq",
-            "target": "sagelib"
           },
           {
             "source": "pyzmq",
@@ -60564,10 +60586,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "sagelib"
-          },
-          {
-            "source": "rpds-py",
             "target": "sampledb"
           },
           {
@@ -61084,10 +61102,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "sagelib"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "schema-salad"
           },
           {
@@ -61371,26 +61385,6 @@
             "target": "darmonpoints"
           },
           {
-            "source": "sagelib",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "darmonpoints"
-          },
-          {
-            "source": "sagelib",
-            "target": "sage"
-          },
-          {
-            "source": "sagelib",
-            "target": "surface-dynamics"
-          },
-          {
-            "source": "sagelib",
-            "target": "veerer"
-          },
-          {
             "source": "sagemaker-tensorflow-serving-container",
             "target": "conda-forge-pinning"
           },
@@ -61409,10 +61403,6 @@
           {
             "source": "sagemath-db-elliptic-curves",
             "target": "sage"
-          },
-          {
-            "source": "sage",
-            "target": "sagelib"
           },
           {
             "source": "sage",
@@ -78468,10 +78458,6 @@
           },
           {
             "source": "tbb",
-            "target": "sagelib"
-          },
-          {
-            "source": "tbb",
             "target": "sagemaker-tensorflow-serving-container"
           },
           {
@@ -82244,10 +82230,6 @@
           },
           {
             "source": "tornado",
-            "target": "sagelib"
-          },
-          {
-            "source": "tornado",
             "target": "salt"
           },
           {
@@ -83257,10 +83239,6 @@
           {
             "source": "ujson",
             "target": "sage"
-          },
-          {
-            "source": "ujson",
-            "target": "sagelib"
           },
           {
             "source": "ujson",
@@ -84624,6 +84602,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "darmonpoints"
+          },
+          {
+            "source": "wcwidth",
             "target": "dask-sql"
           },
           {
@@ -85456,10 +85438,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "sagelib"
-          },
-          {
-            "source": "wcwidth",
             "target": "sasview"
           },
           {
@@ -85568,6 +85546,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "surface-dynamics"
+          },
+          {
+            "source": "wcwidth",
             "target": "tach"
           },
           {
@@ -85641,6 +85623,10 @@
           {
             "source": "wcwidth",
             "target": "vaex-core"
+          },
+          {
+            "source": "wcwidth",
+            "target": "veerer"
           },
           {
             "source": "wcwidth",
@@ -102667,12 +102653,6 @@
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
-            }
-          },
-          {
-            "id": "sagelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sagelib.json"
             }
           },
           {
