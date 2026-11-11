@@ -56,6 +56,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "lalapps",
+            "payload": {
+              "__lazy_json__": "node_attrs/lalapps.json"
+            }
+          },
+          {
             "id": "lalpulsar",
             "payload": {
               "__lazy_json__": "node_attrs/lalpulsar.json"
@@ -197,10 +203,6 @@
           {
             "source": "lalpulsar",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "lalpulsar",
-            "target": "lalapps"
           },
           {
             "source": "lenstool",
