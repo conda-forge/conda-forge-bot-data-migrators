@@ -56,57 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "cantera",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/cantera.json"
-            }
-          },
-          {
-            "id": "dfba",
-            "payload": {
-              "__lazy_json__": "node_attrs/dfba.json"
-            }
-          },
-          {
-            "id": "fmipp",
-            "payload": {
-              "__lazy_json__": "node_attrs/fmipp.json"
-            }
-          },
-          {
-            "id": "muq",
-            "payload": {
-              "__lazy_json__": "node_attrs/muq.json"
-            }
-          },
-          {
-            "id": "pybammsolvers",
-            "payload": {
-              "__lazy_json__": "node_attrs/pybammsolvers.json"
-            }
-          },
-          {
-            "id": "scikit_sundae",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikit_sundae.json"
-            }
-          },
-          {
-            "id": "scikits.odes",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikits.odes.json"
-            }
-          },
-          {
-            "id": "scikits_odes_sundials",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikits_odes_sundials.json"
-            }
-          },
-          {
-            "id": "sunode",
-            "payload": {
-              "__lazy_json__": "node_attrs/sunode.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -383,7 +335,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
