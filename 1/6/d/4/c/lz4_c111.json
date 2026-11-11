@@ -74,27 +74,9 @@
             }
           },
           {
-            "id": "flux-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/flux-core.json"
-            }
-          },
-          {
-            "id": "hdf5-external-filter-plugins",
-            "payload": {
-              "__lazy_json__": "node_attrs/hdf5-external-filter-plugins.json"
-            }
-          },
-          {
             "id": "libasdf",
             "payload": {
               "__lazy_json__": "node_attrs/libasdf.json"
-            }
-          },
-          {
-            "id": "libosmium",
-            "payload": {
-              "__lazy_json__": "node_attrs/libosmium.json"
             }
           },
           {
@@ -107,12 +89,6 @@
             "id": "openconnect",
             "payload": {
               "__lazy_json__": "node_attrs/openconnect.json"
-            }
-          },
-          {
-            "id": "r-fstcore",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-fstcore.json"
             }
           },
           {
@@ -143,12 +119,6 @@
             "id": "sparrow-ipc",
             "payload": {
               "__lazy_json__": "node_attrs/sparrow-ipc.json"
-            }
-          },
-          {
-            "id": "squashfuse",
-            "payload": {
-              "__lazy_json__": "node_attrs/squashfuse.json"
             }
           },
           {
@@ -1121,7 +1091,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
