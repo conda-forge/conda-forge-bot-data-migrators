@@ -56,15 +56,33 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "aestream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aestream.json"
+            }
+          },
+          {
             "id": "c-blosc2",
             "payload": {
               "__lazy_json__": "node_attrs/c-blosc2.json"
             }
           },
           {
+            "id": "dectris-compression",
+            "payload": {
+              "__lazy_json__": "node_attrs/dectris-compression.json"
+            }
+          },
+          {
             "id": "flann",
             "payload": {
               "__lazy_json__": "node_attrs/flann.json"
+            }
+          },
+          {
+            "id": "flux-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/flux-core.json"
             }
           },
           {
@@ -92,9 +110,27 @@
             }
           },
           {
+            "id": "lz4",
+            "payload": {
+              "__lazy_json__": "node_attrs/lz4.json"
+            }
+          },
+          {
+            "id": "memray",
+            "payload": {
+              "__lazy_json__": "node_attrs/memray.json"
+            }
+          },
+          {
             "id": "mysql",
             "payload": {
               "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
             }
           },
           {
@@ -104,9 +140,33 @@
             }
           },
           {
-            "id": "postgresql",
+            "id": "openconnect",
             "payload": {
-              "__lazy_json__": "node_attrs/postgresql.json"
+              "__lazy_json__": "node_attrs/openconnect.json"
+            }
+          },
+          {
+            "id": "r-fstcore",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-fstcore.json"
+            }
+          },
+          {
+            "id": "r-qs",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-qs.json"
+            }
+          },
+          {
+            "id": "root",
+            "payload": {
+              "__lazy_json__": "node_attrs/root.json"
+            }
+          },
+          {
+            "id": "scylla-driver",
+            "payload": {
+              "__lazy_json__": "node_attrs/scylla-driver.json"
             }
           },
           {
@@ -149,6 +209,18 @@
             "id": "vrs",
             "payload": {
               "__lazy_json__": "node_attrs/vrs.json"
+            }
+          },
+          {
+            "id": "vte",
+            "payload": {
+              "__lazy_json__": "node_attrs/vte.json"
+            }
+          },
+          {
+            "id": "vtk",
+            "payload": {
+              "__lazy_json__": "node_attrs/vtk.json"
             }
           },
           {
