@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "sage",
+            "payload": {
+              "__lazy_json__": "node_attrs/sage.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -102,18 +109,6 @@
           {
             "source": "sage",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "sage"
-          },
-          {
-            "source": "sage",
-            "target": "sagelib"
           }
         ],
         "multigraph": false,
@@ -128,12 +123,6 @@
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
-            }
-          },
-          {
-            "id": "sagelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sagelib.json"
             }
           }
         ]
