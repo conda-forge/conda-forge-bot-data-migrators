@@ -861,6 +861,10 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-auth",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-cal",
             "target": "aws-c-auth"
           },
@@ -879,6 +883,10 @@
           {
             "source": "aws-c-cal",
             "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-cal",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-common",
@@ -933,8 +941,16 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-common",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-compression",
             "target": "aws-c-http"
+          },
+          {
+            "source": "aws-c-compression",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-event-stream",
@@ -945,6 +961,10 @@
             "target": "aws-sdk-cpp"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
@@ -963,6 +983,10 @@
           {
             "source": "aws-c-http",
             "target": "hdf5"
+          },
+          {
+            "source": "aws-c-http",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-io",
@@ -993,8 +1017,16 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-io",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-c-mqtt",
             "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-mqtt",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-s3",
@@ -1003,6 +1035,10 @@
           {
             "source": "aws-c-s3",
             "target": "hdf5"
+          },
+          {
+            "source": "aws-c-s3",
+            "target": "tiledb"
           },
           {
             "source": "aws-c-sdkutils",
@@ -1017,12 +1053,20 @@
             "target": "hdf5"
           },
           {
+            "source": "aws-c-sdkutils",
+            "target": "tiledb"
+          },
+          {
             "source": "aws-checksums",
             "target": "aws-c-event-stream"
           },
           {
             "source": "aws-checksums",
             "target": "aws-c-s3"
+          },
+          {
+            "source": "aws-checksums",
+            "target": "tiledb"
           },
           {
             "source": "aws-crt-cpp",
