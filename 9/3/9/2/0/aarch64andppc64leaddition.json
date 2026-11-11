@@ -415,6 +415,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "litellm"
+          },
+          {
+            "source": "aiohttp",
             "target": "mcstas-suite"
           },
           {
@@ -4100,6 +4104,10 @@
           {
             "source": "backports.zstd",
             "target": "light-curve-python"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "litellm"
           },
           {
             "source": "backports.zstd",
@@ -13751,6 +13759,10 @@
           },
           {
             "source": "brotli",
+            "target": "litellm"
+          },
+          {
+            "source": "brotli",
             "target": "mcstas-suite"
           },
           {
@@ -15264,6 +15276,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "light-curve-python"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "litellm"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -17080,6 +17096,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "litellm"
           },
           {
             "source": "clang-compiler-activation",
@@ -21471,6 +21491,10 @@
           },
           {
             "source": "coverage",
+            "target": "litellm"
+          },
+          {
+            "source": "coverage",
             "target": "louvain"
           },
           {
@@ -22952,6 +22976,10 @@
           {
             "source": "ctng-compilers",
             "target": "linux-perf"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "litellm"
           },
           {
             "source": "ctng-compilers",
@@ -28168,6 +28196,10 @@
           {
             "source": "fastjet-cxx",
             "target": "rivet"
+          },
+          {
+            "source": "fastuuid",
+            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -35971,6 +36003,10 @@
           },
           {
             "source": "hypothesis",
+            "target": "litellm"
+          },
+          {
+            "source": "hypothesis",
             "target": "mcstas-suite"
           },
           {
@@ -36736,6 +36772,10 @@
           {
             "source": "jemalloc",
             "target": "tabmat"
+          },
+          {
+            "source": "jiter",
+            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -53223,6 +53263,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "litellm"
+          },
+          {
+            "source": "markupsafe",
             "target": "mcstas-suite"
           },
           {
@@ -55200,6 +55244,10 @@
           {
             "source": "mypy",
             "target": "light-curve-python"
+          },
+          {
+            "source": "mypy",
+            "target": "litellm"
           },
           {
             "source": "mypy",
@@ -70075,6 +70123,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "litellm"
+          },
+          {
+            "source": "pydantic-core",
             "target": "mamba-ssm"
           },
           {
@@ -73460,6 +73512,10 @@
           {
             "source": "python",
             "target": "linux-perf"
+          },
+          {
+            "source": "python",
+            "target": "litellm"
           },
           {
             "source": "python",
@@ -77324,6 +77380,10 @@
           {
             "source": "pyyaml",
             "target": "light-curve-python"
+          },
+          {
+            "source": "pyyaml",
+            "target": "litellm"
           },
           {
             "source": "pyyaml",
@@ -88647,6 +88707,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "litellm"
+          },
+          {
+            "source": "rpds-py",
             "target": "mcstas-suite"
           },
           {
@@ -88892,6 +88956,10 @@
           {
             "source": "rsync",
             "target": "libprotobuf"
+          },
+          {
+            "source": "rsync",
+            "target": "litellm"
           },
           {
             "source": "rsync",
@@ -90868,6 +90936,10 @@
           {
             "source": "sed",
             "target": "lima-vm"
+          },
+          {
+            "source": "sed",
+            "target": "litellm"
           },
           {
             "source": "sed",
@@ -93166,6 +93238,10 @@
             "target": "gnuradio"
           },
           {
+            "source": "tiktoken",
+            "target": "litellm"
+          },
+          {
             "source": "tiledb",
             "target": "gdal"
           },
@@ -93280,6 +93356,10 @@
           {
             "source": "tokenizers",
             "target": "allennlp"
+          },
+          {
+            "source": "tokenizers",
+            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -95264,6 +95344,10 @@
           {
             "source": "uv",
             "target": "light-curve-python"
+          },
+          {
+            "source": "uv",
+            "target": "litellm"
           },
           {
             "source": "uvloop",
@@ -111580,6 +111664,12 @@
             "id": "linux-perf",
             "payload": {
               "__lazy_json__": "node_attrs/linux-perf.json"
+            }
+          },
+          {
+            "id": "litellm",
+            "payload": {
+              "__lazy_json__": "node_attrs/litellm.json"
             }
           },
           {
