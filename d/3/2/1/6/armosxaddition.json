@@ -511,6 +511,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "litellm"
+          },
+          {
+            "source": "aiohttp",
             "target": "llama-cpp-python"
           },
           {
@@ -4527,6 +4531,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "litellm"
+          },
+          {
+            "source": "backports.zstd",
             "target": "llama-cpp-python"
           },
           {
@@ -8307,6 +8315,10 @@
           },
           {
             "source": "brotli",
+            "target": "litellm"
+          },
+          {
+            "source": "brotli",
             "target": "llama-cpp-python"
           },
           {
@@ -10428,6 +10440,10 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "librsvg"
+          },
+          {
+            "source": "cargo-bundle-licenses",
+            "target": "litellm"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -17896,6 +17912,10 @@
           {
             "source": "coverage",
             "target": "lintegrate"
+          },
+          {
+            "source": "coverage",
+            "target": "litellm"
           },
           {
             "source": "coverage",
@@ -26064,6 +26084,10 @@
           {
             "source": "fastjet-cxx",
             "target": "pythia8"
+          },
+          {
+            "source": "fastuuid",
+            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -34347,6 +34371,10 @@
           },
           {
             "source": "hypothesis",
+            "target": "litellm"
+          },
+          {
+            "source": "hypothesis",
             "target": "llama-cpp-python"
           },
           {
@@ -35296,6 +35324,10 @@
           {
             "source": "jemalloc",
             "target": "tmux"
+          },
+          {
+            "source": "jiter",
+            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -50827,6 +50859,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "litellm"
+          },
+          {
+            "source": "markupsafe",
             "target": "llama-cpp-python"
           },
           {
@@ -53916,6 +53952,10 @@
           {
             "source": "mypy",
             "target": "libcst"
+          },
+          {
+            "source": "mypy",
+            "target": "litellm"
           },
           {
             "source": "mypy",
@@ -73995,6 +74035,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "litellm"
+          },
+          {
+            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -78808,6 +78852,10 @@
           {
             "source": "python",
             "target": "lintegrate"
+          },
+          {
+            "source": "python",
+            "target": "litellm"
           },
           {
             "source": "python",
@@ -84436,6 +84484,10 @@
           {
             "source": "pyyaml",
             "target": "libcst"
+          },
+          {
+            "source": "pyyaml",
+            "target": "litellm"
           },
           {
             "source": "pyyaml",
@@ -94671,6 +94723,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "litellm"
+          },
+          {
+            "source": "rpds-py",
             "target": "llama-cpp-python"
           },
           {
@@ -100543,6 +100599,10 @@
           },
           {
             "source": "tiktoken",
+            "target": "litellm"
+          },
+          {
+            "source": "tiktoken",
             "target": "xgrammar"
           },
           {
@@ -100688,6 +100748,10 @@
           {
             "source": "tokenizers",
             "target": "allennlp-server"
+          },
+          {
+            "source": "tokenizers",
+            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -102984,6 +103048,10 @@
           {
             "source": "uv",
             "target": "librsvg"
+          },
+          {
+            "source": "uv",
+            "target": "litellm"
           },
           {
             "source": "uv",
@@ -119790,6 +119858,12 @@
             "id": "lintegrate",
             "payload": {
               "__lazy_json__": "node_attrs/lintegrate.json"
+            }
+          },
+          {
+            "id": "litellm",
+            "payload": {
+              "__lazy_json__": "node_attrs/litellm.json"
             }
           },
           {
