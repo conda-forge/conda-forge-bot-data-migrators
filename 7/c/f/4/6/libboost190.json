@@ -216,10 +216,6 @@
             "target": "sage"
           },
           {
-            "source": "brial",
-            "target": "sagelib"
-          },
-          {
             "source": "candlewick",
             "target": "conda-forge-pinning"
           },
@@ -2376,18 +2372,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "sagelib",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "sagelib",
-            "target": "sage"
-          },
-          {
-            "source": "sage",
-            "target": "sagelib"
-          },
-          {
             "source": "scine-core",
             "target": "conda-forge-pinning"
           },
@@ -4348,12 +4332,6 @@
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
-            }
-          },
-          {
-            "id": "sagelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sagelib.json"
             }
           },
           {
