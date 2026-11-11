@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aestream",
-            "payload": {
-              "__lazy_json__": "node_attrs/aestream.json"
-            }
-          },
-          {
             "id": "colmap",
             "payload": {
               "__lazy_json__": "node_attrs/colmap.json"
-            }
-          },
-          {
-            "id": "dectris-compression",
-            "payload": {
-              "__lazy_json__": "node_attrs/dectris-compression.json"
             }
           },
           {
@@ -98,33 +86,9 @@
             }
           },
           {
-            "id": "scylla-driver",
-            "payload": {
-              "__lazy_json__": "node_attrs/scylla-driver.json"
-            }
-          },
-          {
-            "id": "sparrow-ipc",
-            "payload": {
-              "__lazy_json__": "node_attrs/sparrow-ipc.json"
-            }
-          },
-          {
-            "id": "subversion",
-            "payload": {
-              "__lazy_json__": "node_attrs/subversion.json"
-            }
-          },
-          {
             "id": "tiledb",
             "payload": {
               "__lazy_json__": "node_attrs/tiledb.json"
-            }
-          },
-          {
-            "id": "vrs",
-            "payload": {
-              "__lazy_json__": "node_attrs/vrs.json"
             }
           },
           {
@@ -137,12 +101,6 @@
             "id": "xmake",
             "payload": {
               "__lazy_json__": "node_attrs/xmake.json"
-            }
-          },
-          {
-            "id": "gp-connect",
-            "payload": {
-              "__lazy_json__": "node_attrs/gp-connect.json"
             }
           }
         ]
@@ -1061,7 +1019,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
