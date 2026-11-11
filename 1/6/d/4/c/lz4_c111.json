@@ -62,6 +62,12 @@
             }
           },
           {
+            "id": "colmap",
+            "payload": {
+              "__lazy_json__": "node_attrs/colmap.json"
+            }
+          },
+          {
             "id": "dectris-compression",
             "payload": {
               "__lazy_json__": "node_attrs/dectris-compression.json"
@@ -89,24 +95,6 @@
             "id": "libosmium",
             "payload": {
               "__lazy_json__": "node_attrs/libosmium.json"
-            }
-          },
-          {
-            "id": "lz4",
-            "payload": {
-              "__lazy_json__": "node_attrs/lz4.json"
-            }
-          },
-          {
-            "id": "memray",
-            "payload": {
-              "__lazy_json__": "node_attrs/memray.json"
-            }
-          },
-          {
-            "id": "nanoarrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/nanoarrow.json"
             }
           },
           {
@@ -1133,7 +1121,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
