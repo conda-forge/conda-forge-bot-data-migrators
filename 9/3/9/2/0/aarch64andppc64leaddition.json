@@ -543,10 +543,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "sagelib"
-          },
-          {
-            "source": "aiohttp",
             "target": "scikit-allel"
           },
           {
@@ -708,10 +704,6 @@
           {
             "source": "ann",
             "target": "gmsh"
-          },
-          {
-            "source": "antic",
-            "target": "e-antic"
           },
           {
             "source": "antlr",
@@ -988,10 +980,6 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "sage"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "sagelib"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1728,10 +1716,6 @@
           {
             "source": "autoconf",
             "target": "openssh"
-          },
-          {
-            "source": "autoconf",
-            "target": "php"
           },
           {
             "source": "autoconf",
@@ -3355,10 +3339,6 @@
           },
           {
             "source": "automake",
-            "target": "sagelib"
-          },
-          {
-            "source": "automake",
             "target": "seccomp-split"
           },
           {
@@ -4339,10 +4319,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "sagelib"
-          },
-          {
-            "source": "backports.zstd",
             "target": "schema-salad"
           },
           {
@@ -4564,10 +4540,6 @@
           {
             "source": "bash",
             "target": "ann"
-          },
-          {
-            "source": "bash",
-            "target": "antic"
           },
           {
             "source": "bash",
@@ -7639,10 +7611,6 @@
           },
           {
             "source": "bash",
-            "target": "php"
-          },
-          {
-            "source": "bash",
             "target": "picojson"
           },
           {
@@ -10079,10 +10047,6 @@
           },
           {
             "source": "bash",
-            "target": "sagelib"
-          },
-          {
-            "source": "bash",
             "target": "scalapack"
           },
           {
@@ -11343,10 +11307,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "sagelib"
-          },
-          {
-            "source": "bcrypt",
             "target": "scikit-allel"
           },
           {
@@ -12367,10 +12327,6 @@
           },
           {
             "source": "bison",
-            "target": "php"
-          },
-          {
-            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -13027,10 +12983,6 @@
           },
           {
             "source": "blas",
-            "target": "sagelib"
-          },
-          {
-            "source": "blas",
             "target": "scalapack"
           },
           {
@@ -13096,10 +13048,6 @@
           {
             "source": "bliss",
             "target": "sage"
-          },
-          {
-            "source": "bliss",
-            "target": "sagelib"
           },
           {
             "source": "blosc",
@@ -13459,10 +13407,6 @@
           },
           {
             "source": "boost",
-            "target": "sagelib"
-          },
-          {
-            "source": "boost",
             "target": "smesh"
           },
           {
@@ -13548,10 +13492,6 @@
           {
             "source": "brial",
             "target": "sage"
-          },
-          {
-            "source": "brial",
-            "target": "sagelib"
           },
           {
             "source": "brotli",
@@ -14031,10 +13971,6 @@
           },
           {
             "source": "brotli",
-            "target": "sagelib"
-          },
-          {
-            "source": "brotli",
             "target": "schema-salad"
           },
           {
@@ -14376,10 +14312,6 @@
           {
             "source": "bzip2",
             "target": "pcre2"
-          },
-          {
-            "source": "bzip2",
-            "target": "php"
           },
           {
             "source": "bzip2",
@@ -14924,10 +14856,6 @@
           {
             "source": "cargo-auditable",
             "target": "sage"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "sagelib"
           },
           {
             "source": "cargo-auditable",
@@ -15568,10 +15496,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "sage"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "sagelib"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -16871,10 +16795,6 @@
           },
           {
             "source": "cffi",
-            "target": "sagelib"
-          },
-          {
-            "source": "cffi",
             "target": "scikit-allel"
           },
           {
@@ -17224,10 +17144,6 @@
           {
             "source": "cliquer",
             "target": "sage"
-          },
-          {
-            "source": "cliquer",
-            "target": "sagelib"
           },
           {
             "source": "cmake-no-system",
@@ -22107,10 +22023,6 @@
           },
           {
             "source": "coverage",
-            "target": "sagelib"
-          },
-          {
-            "source": "coverage",
             "target": "scalene"
           },
           {
@@ -23491,10 +23403,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "sagelib"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "scikit-allel"
           },
           {
@@ -24020,6 +23928,10 @@
           {
             "source": "cuda-libraries-dev",
             "target": "cuda-visual-tools"
+          },
+          {
+            "source": "cuda-nvcc-impl",
+            "target": "cuda-core"
           },
           {
             "source": "cuda-nvcc-impl",
@@ -24591,10 +24503,6 @@
           },
           {
             "source": "curl",
-            "target": "php"
-          },
-          {
-            "source": "curl",
             "target": "pocl"
           },
           {
@@ -24730,10 +24638,6 @@
             "target": "sage"
           },
           {
-            "source": "cypari2",
-            "target": "sagelib"
-          },
-          {
             "source": "cyrus-sasl",
             "target": "cds-crtools"
           },
@@ -24780,10 +24684,6 @@
           {
             "source": "cysignals",
             "target": "sage"
-          },
-          {
-            "source": "cysignals",
-            "target": "sagelib"
           },
           {
             "source": "cython-blis",
@@ -25535,10 +25435,6 @@
           },
           {
             "source": "cython",
-            "target": "sagelib"
-          },
-          {
-            "source": "cython",
             "target": "scalene"
           },
           {
@@ -26219,10 +26115,6 @@
           },
           {
             "source": "debugpy",
-            "target": "sagelib"
-          },
-          {
-            "source": "debugpy",
             "target": "scikit-allel"
           },
           {
@@ -26727,10 +26619,6 @@
           },
           {
             "source": "dulwich",
-            "target": "sagelib"
-          },
-          {
-            "source": "dulwich",
             "target": "scikit-allel"
           },
           {
@@ -26846,10 +26734,6 @@
             "target": "sage"
           },
           {
-            "source": "eclib",
-            "target": "sagelib"
-          },
-          {
             "source": "ecl",
             "target": "maxima"
           },
@@ -26858,20 +26742,12 @@
             "target": "sage"
           },
           {
-            "source": "ecl",
-            "target": "sagelib"
-          },
-          {
             "source": "ecm",
             "target": "giac"
           },
           {
             "source": "ecm",
             "target": "sage"
-          },
-          {
-            "source": "ecm",
-            "target": "sagelib"
           },
           {
             "source": "ecos",
@@ -27555,10 +27431,6 @@
           },
           {
             "source": "expat",
-            "target": "sagelib"
-          },
-          {
-            "source": "expat",
             "target": "tectonic"
           },
           {
@@ -27868,10 +27740,6 @@
           {
             "source": "falcon",
             "target": "sage"
-          },
-          {
-            "source": "falcon",
-            "target": "sagelib"
           },
           {
             "source": "falcon",
@@ -28191,10 +28059,6 @@
           },
           {
             "source": "fastar",
-            "target": "sagelib"
-          },
-          {
-            "source": "fastar",
             "target": "scikit-allel"
           },
           {
@@ -28308,10 +28172,6 @@
           {
             "source": "fflas-ffpack",
             "target": "sage"
-          },
-          {
-            "source": "fflas-ffpack",
-            "target": "sagelib"
           },
           {
             "source": "ffmpeg",
@@ -29530,10 +29390,6 @@
             "target": "sage"
           },
           {
-            "source": "gap",
-            "target": "sagelib"
-          },
-          {
             "source": "gau2grid",
             "target": "gauxc"
           },
@@ -30588,10 +30444,6 @@
           {
             "source": "gettext",
             "target": "sage"
-          },
-          {
-            "source": "gettext",
-            "target": "sagelib"
           },
           {
             "source": "gettext",
@@ -31918,10 +31770,6 @@
             "target": "sage"
           },
           {
-            "source": "giac",
-            "target": "sagelib"
-          },
-          {
             "source": "giflib",
             "target": "emacs"
           },
@@ -32323,10 +32171,6 @@
           },
           {
             "source": "git",
-            "target": "sagelib"
-          },
-          {
-            "source": "git",
             "target": "scikit-allel"
           },
           {
@@ -32408,10 +32252,6 @@
           {
             "source": "givaro",
             "target": "sage"
-          },
-          {
-            "source": "givaro",
-            "target": "sagelib"
           },
           {
             "source": "gklib",
@@ -32870,10 +32710,6 @@
             "target": "sage"
           },
           {
-            "source": "glpk",
-            "target": "sagelib"
-          },
-          {
             "source": "glslang",
             "target": "mesalib"
           },
@@ -32884,10 +32720,6 @@
           {
             "source": "gmime",
             "target": "mu"
-          },
-          {
-            "source": "gmp",
-            "target": "antic"
           },
           {
             "source": "gmp",
@@ -33115,10 +32947,6 @@
           },
           {
             "source": "gmp",
-            "target": "php"
-          },
-          {
-            "source": "gmp",
             "target": "ppl"
           },
           {
@@ -33164,10 +32992,6 @@
           {
             "source": "gmp",
             "target": "sage"
-          },
-          {
-            "source": "gmp",
-            "target": "sagelib"
           },
           {
             "source": "gmp",
@@ -33236,10 +33060,6 @@
           {
             "source": "gmpy2",
             "target": "sage"
-          },
-          {
-            "source": "gmpy2",
-            "target": "sagelib"
           },
           {
             "source": "gmpy2",
@@ -33987,10 +33807,6 @@
           },
           {
             "source": "greenlet",
-            "target": "sagelib"
-          },
-          {
-            "source": "greenlet",
             "target": "scikit-allel"
           },
           {
@@ -34316,10 +34132,6 @@
           {
             "source": "gsl",
             "target": "sage"
-          },
-          {
-            "source": "gsl",
-            "target": "sagelib"
           },
           {
             "source": "gsl",
@@ -35895,10 +35707,6 @@
           },
           {
             "source": "httptools",
-            "target": "sagelib"
-          },
-          {
-            "source": "httptools",
             "target": "scikit-allel"
           },
           {
@@ -36315,10 +36123,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "sagelib"
-          },
-          {
-            "source": "hypothesis",
             "target": "scikit-allel"
           },
           {
@@ -36500,10 +36304,6 @@
           {
             "source": "icu",
             "target": "octave"
-          },
-          {
-            "source": "icu",
-            "target": "php"
           },
           {
             "source": "icu",
@@ -36762,10 +36562,6 @@
             "target": "sage"
           },
           {
-            "source": "iml",
-            "target": "sagelib"
-          },
-          {
             "source": "indicators",
             "target": "libplanc"
           },
@@ -36916,10 +36712,6 @@
           {
             "source": "jmol",
             "target": "sage"
-          },
-          {
-            "source": "jmol",
-            "target": "sagelib"
           },
           {
             "source": "jonquil",
@@ -38043,10 +37835,6 @@
           },
           {
             "source": "lapack",
-            "target": "sagelib"
-          },
-          {
-            "source": "lapack",
             "target": "scalapack"
           },
           {
@@ -38351,10 +38139,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "sagelib"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "scikit-allel"
           },
           {
@@ -38428,10 +38212,6 @@
           {
             "source": "lcalc",
             "target": "sage"
-          },
-          {
-            "source": "lcalc",
-            "target": "sagelib"
           },
           {
             "source": "lcms2",
@@ -38812,10 +38592,6 @@
           {
             "source": "libbraiding",
             "target": "sage"
-          },
-          {
-            "source": "libbraiding",
-            "target": "sagelib"
           },
           {
             "source": "libbson",
@@ -40315,10 +40091,6 @@
           },
           {
             "source": "libflint",
-            "target": "antic"
-          },
-          {
-            "source": "libflint",
             "target": "e-antic"
           },
           {
@@ -40348,10 +40120,6 @@
           {
             "source": "libflint",
             "target": "sage"
-          },
-          {
-            "source": "libflint",
-            "target": "sagelib"
           },
           {
             "source": "libflint",
@@ -40424,10 +40192,6 @@
           {
             "source": "libgd",
             "target": "sage"
-          },
-          {
-            "source": "libgd",
-            "target": "sagelib"
           },
           {
             "source": "libgit2",
@@ -40954,10 +40718,6 @@
             "target": "sage"
           },
           {
-            "source": "libhomfly",
-            "target": "sagelib"
-          },
-          {
             "source": "libhwloc",
             "target": "gromacs"
           },
@@ -41152,10 +40912,6 @@
           {
             "source": "libiconv",
             "target": "openmotif"
-          },
-          {
-            "source": "libiconv",
-            "target": "php"
           },
           {
             "source": "libiconv",
@@ -42407,10 +42163,6 @@
           },
           {
             "source": "libpng",
-            "target": "sagelib"
-          },
-          {
-            "source": "libpng",
             "target": "sdl2_image"
           },
           {
@@ -42831,10 +42583,6 @@
           },
           {
             "source": "libsodium",
-            "target": "php"
-          },
-          {
-            "source": "libsodium",
             "target": "pynacl"
           },
           {
@@ -43192,10 +42940,6 @@
           {
             "source": "libtool",
             "target": "ann"
-          },
-          {
-            "source": "libtool",
-            "target": "antic"
           },
           {
             "source": "libtool",
@@ -46263,10 +46007,6 @@
           },
           {
             "source": "libtool",
-            "target": "php"
-          },
-          {
-            "source": "libtool",
             "target": "picojson"
           },
           {
@@ -48700,10 +48440,6 @@
           {
             "source": "libtool",
             "target": "sage"
-          },
-          {
-            "source": "libtool",
-            "target": "sagelib"
           },
           {
             "source": "libtool",
@@ -51351,10 +51087,6 @@
           },
           {
             "source": "libxml2",
-            "target": "php"
-          },
-          {
-            "source": "libxml2",
             "target": "pinocchio"
           },
           {
@@ -51719,10 +51451,6 @@
           },
           {
             "source": "libxslt",
-            "target": "php"
-          },
-          {
-            "source": "libxslt",
             "target": "postgresql"
           },
           {
@@ -51764,10 +51492,6 @@
           {
             "source": "libzip",
             "target": "libnetcdf"
-          },
-          {
-            "source": "libzip",
-            "target": "php"
           },
           {
             "source": "libzip",
@@ -51828,10 +51552,6 @@
           {
             "source": "linbox",
             "target": "sage"
-          },
-          {
-            "source": "linbox",
-            "target": "sagelib"
           },
           {
             "source": "lintegrate",
@@ -52666,10 +52386,6 @@
             "target": "sage"
           },
           {
-            "source": "lrcalc",
-            "target": "sagelib"
-          },
-          {
             "source": "lsstdesc.coord",
             "target": "galsim"
           },
@@ -53114,10 +52830,6 @@
             "target": "sage"
           },
           {
-            "source": "m4rie",
-            "target": "sagelib"
-          },
-          {
             "source": "m4ri",
             "target": "m4rie"
           },
@@ -53126,20 +52838,12 @@
             "target": "sage"
           },
           {
-            "source": "m4ri",
-            "target": "sagelib"
-          },
-          {
             "source": "m4",
             "target": "rw"
           },
           {
             "source": "m4",
             "target": "sage"
-          },
-          {
-            "source": "m4",
-            "target": "sagelib"
           },
           {
             "source": "m4",
@@ -53700,10 +53404,6 @@
           {
             "source": "markupsafe",
             "target": "sage"
-          },
-          {
-            "source": "markupsafe",
-            "target": "sagelib"
           },
           {
             "source": "markupsafe",
@@ -54319,10 +54019,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "sagelib"
-          },
-          {
-            "source": "matplotlib",
             "target": "scikit-allel"
           },
           {
@@ -54446,10 +54142,6 @@
             "target": "sage"
           },
           {
-            "source": "maxima",
-            "target": "sagelib"
-          },
-          {
             "source": "mbedtls",
             "target": "lief"
           },
@@ -54508,10 +54200,6 @@
           {
             "source": "memory-allocator",
             "target": "sage"
-          },
-          {
-            "source": "memory-allocator",
-            "target": "sagelib"
           },
           {
             "source": "memray",
@@ -54679,10 +54367,6 @@
           },
           {
             "source": "mpc",
-            "target": "sagelib"
-          },
-          {
-            "source": "mpc",
             "target": "symengine"
           },
           {
@@ -54700,14 +54384,6 @@
           {
             "source": "mpfi",
             "target": "sage"
-          },
-          {
-            "source": "mpfi",
-            "target": "sagelib"
-          },
-          {
-            "source": "mpfr",
-            "target": "antic"
           },
           {
             "source": "mpfr",
@@ -54836,10 +54512,6 @@
           {
             "source": "mpfr",
             "target": "sage"
-          },
-          {
-            "source": "mpfr",
-            "target": "sagelib"
           },
           {
             "source": "mpfr",
@@ -55636,10 +55308,6 @@
           {
             "source": "mypy",
             "target": "sage"
-          },
-          {
-            "source": "mypy",
-            "target": "sagelib"
           },
           {
             "source": "mypy",
@@ -58359,10 +58027,6 @@
           },
           {
             "source": "ninja",
-            "target": "sagelib"
-          },
-          {
-            "source": "ninja",
             "target": "scenepic"
           },
           {
@@ -59271,10 +58935,6 @@
           },
           {
             "source": "nodejs",
-            "target": "sagelib"
-          },
-          {
-            "source": "nodejs",
             "target": "scikit-allel"
           },
           {
@@ -59416,10 +59076,6 @@
           {
             "source": "ntl",
             "target": "sage"
-          },
-          {
-            "source": "ntl",
-            "target": "sagelib"
           },
           {
             "source": "ntl",
@@ -60471,10 +60127,6 @@
           },
           {
             "source": "numpy",
-            "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "numpy",
             "target": "nvmath"
           },
           {
@@ -60920,10 +60572,6 @@
           {
             "source": "numpy",
             "target": "sage"
-          },
-          {
-            "source": "numpy",
-            "target": "sagelib"
           },
           {
             "source": "numpy",
@@ -61428,10 +61076,6 @@
           {
             "source": "oniguruma",
             "target": "jq"
-          },
-          {
-            "source": "oniguruma",
-            "target": "php"
           },
           {
             "source": "oniguruma",
@@ -63331,10 +62975,6 @@
           },
           {
             "source": "openssl",
-            "target": "php"
-          },
-          {
-            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -63488,10 +63128,6 @@
           {
             "source": "openssl",
             "target": "sage"
-          },
-          {
-            "source": "openssl",
-            "target": "sagelib"
           },
           {
             "source": "openssl",
@@ -64119,10 +63755,6 @@
           },
           {
             "source": "pandas",
-            "target": "sagelib"
-          },
-          {
-            "source": "pandas",
             "target": "scikit-allel"
           },
           {
@@ -64523,10 +64155,6 @@
           },
           {
             "source": "pandoc",
-            "target": "sagelib"
-          },
-          {
-            "source": "pandoc",
             "target": "scikit-allel"
           },
           {
@@ -64691,10 +64319,6 @@
           },
           {
             "source": "pari",
-            "target": "sagelib"
-          },
-          {
-            "source": "pari",
             "target": "sympow"
           },
           {
@@ -64852,10 +64476,6 @@
           {
             "source": "pcre2",
             "target": "libgit2"
-          },
-          {
-            "source": "pcre2",
-            "target": "php"
           },
           {
             "source": "pcre2",
@@ -67215,10 +66835,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "php"
-          },
-          {
-            "source": "pkg-config",
             "target": "pillow"
           },
           {
@@ -67784,10 +67400,6 @@
           {
             "source": "pkg-config",
             "target": "sage"
-          },
-          {
-            "source": "pkg-config",
-            "target": "sagelib"
           },
           {
             "source": "pkg-config",
@@ -68582,10 +68194,6 @@
             "target": "sage"
           },
           {
-            "source": "planarity",
-            "target": "sagelib"
-          },
-          {
             "source": "playwright",
             "target": "allennlp"
           },
@@ -68827,10 +68435,6 @@
           },
           {
             "source": "playwright",
-            "target": "sagelib"
-          },
-          {
-            "source": "playwright",
             "target": "scikit-allel"
           },
           {
@@ -68999,10 +68603,6 @@
           },
           {
             "source": "postgresql",
-            "target": "php"
-          },
-          {
-            "source": "postgresql",
             "target": "psycopg2"
           },
           {
@@ -69030,16 +68630,8 @@
             "target": "sage"
           },
           {
-            "source": "pplpy",
-            "target": "sagelib"
-          },
-          {
             "source": "ppl",
             "target": "sage"
-          },
-          {
-            "source": "ppl",
-            "target": "sagelib"
           },
           {
             "source": "preshed",
@@ -69056,10 +68648,6 @@
           {
             "source": "primecountpy",
             "target": "sage"
-          },
-          {
-            "source": "primecountpy",
-            "target": "sagelib"
           },
           {
             "source": "primesieve",
@@ -69432,10 +69020,6 @@
           {
             "source": "protobuf",
             "target": "sage"
-          },
-          {
-            "source": "protobuf",
-            "target": "sagelib"
           },
           {
             "source": "protobuf",
@@ -69816,10 +69400,6 @@
           {
             "source": "psutil",
             "target": "sage"
-          },
-          {
-            "source": "psutil",
-            "target": "sagelib"
           },
           {
             "source": "psutil",
@@ -70563,10 +70143,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "sagelib"
-          },
-          {
-            "source": "pydantic-core",
             "target": "scalene"
           },
           {
@@ -70995,10 +70571,6 @@
           },
           {
             "source": "pynacl",
-            "target": "sagelib"
-          },
-          {
-            "source": "pynacl",
             "target": "scikit-allel"
           },
           {
@@ -71320,10 +70892,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "sage"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "sagelib"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -75443,10 +75011,6 @@
           },
           {
             "source": "python",
-            "target": "sagelib"
-          },
-          {
-            "source": "python",
             "target": "scalene"
           },
           {
@@ -76559,10 +76123,6 @@
           },
           {
             "source": "pytokens",
-            "target": "sagelib"
-          },
-          {
-            "source": "pytokens",
             "target": "schema-salad"
           },
           {
@@ -77111,10 +76671,6 @@
           },
           {
             "source": "pywin32",
-            "target": "sagelib"
-          },
-          {
-            "source": "pywin32",
             "target": "scikit-allel"
           },
           {
@@ -77428,10 +76984,6 @@
           {
             "source": "pywinpty",
             "target": "sage"
-          },
-          {
-            "source": "pywinpty",
-            "target": "sagelib"
           },
           {
             "source": "pywinpty",
@@ -77907,10 +77459,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "sagelib"
-          },
-          {
-            "source": "pyyaml",
             "target": "scikit-allel"
           },
           {
@@ -78240,10 +77788,6 @@
           {
             "source": "pyzmq",
             "target": "sage"
-          },
-          {
-            "source": "pyzmq",
-            "target": "sagelib"
           },
           {
             "source": "pyzmq",
@@ -88306,10 +87850,6 @@
             "target": "clingo"
           },
           {
-            "source": "re2c",
-            "target": "php"
-          },
-          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -88423,10 +87963,6 @@
           },
           {
             "source": "readline",
-            "target": "php"
-          },
-          {
-            "source": "readline",
             "target": "postgresql"
           },
           {
@@ -88440,10 +87976,6 @@
           {
             "source": "readline",
             "target": "sage"
-          },
-          {
-            "source": "readline",
-            "target": "sagelib"
           },
           {
             "source": "readline",
@@ -88752,10 +88284,6 @@
           {
             "source": "regress",
             "target": "sage"
-          },
-          {
-            "source": "regress",
-            "target": "sagelib"
           },
           {
             "source": "regress",
@@ -89156,10 +88684,6 @@
           {
             "source": "rpds-py",
             "target": "sage"
-          },
-          {
-            "source": "rpds-py",
-            "target": "sagelib"
           },
           {
             "source": "rpds-py",
@@ -89627,10 +89151,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "sagelib"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "schema-salad"
           },
           {
@@ -89959,10 +89479,6 @@
           },
           {
             "source": "ruamel",
-            "target": "sagelib"
-          },
-          {
-            "source": "ruamel",
             "target": "scikit-allel"
           },
           {
@@ -90090,10 +89606,6 @@
             "target": "sage"
           },
           {
-            "source": "rw",
-            "target": "sagelib"
-          },
-          {
             "source": "s2n",
             "target": "aws-c-io"
           },
@@ -90112,14 +89624,6 @@
           {
             "source": "safetensors",
             "target": "mamba-ssm"
-          },
-          {
-            "source": "sagelib",
-            "target": "sage"
-          },
-          {
-            "source": "sage",
-            "target": "sagelib"
           },
           {
             "source": "scalapack",
@@ -91539,10 +91043,6 @@
           },
           {
             "source": "sed",
-            "target": "sagelib"
-          },
-          {
-            "source": "sed",
             "target": "scdoc"
           },
           {
@@ -92434,10 +91934,6 @@
             "target": "sage"
           },
           {
-            "source": "singular",
-            "target": "sagelib"
-          },
-          {
             "source": "siphash24",
             "target": "pycuda"
           },
@@ -92464,10 +91960,6 @@
           {
             "source": "sirocco",
             "target": "sage"
-          },
-          {
-            "source": "sirocco",
-            "target": "sagelib"
           },
           {
             "source": "siscone",
@@ -92823,10 +92315,6 @@
           },
           {
             "source": "sqlite",
-            "target": "php"
-          },
-          {
-            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -93156,10 +92644,6 @@
           {
             "source": "symmetrica",
             "target": "sage"
-          },
-          {
-            "source": "symmetrica",
-            "target": "sagelib"
           },
           {
             "source": "sympow",
@@ -94003,10 +93487,6 @@
           },
           {
             "source": "tornado",
-            "target": "sagelib"
-          },
-          {
-            "source": "tornado",
             "target": "scikit-allel"
           },
           {
@@ -94344,10 +93824,6 @@
           {
             "source": "trio",
             "target": "sage"
-          },
-          {
-            "source": "trio",
-            "target": "sagelib"
           },
           {
             "source": "trio",
@@ -95327,10 +94803,6 @@
           },
           {
             "source": "ujson",
-            "target": "sagelib"
-          },
-          {
-            "source": "ujson",
             "target": "scikit-allel"
           },
           {
@@ -95524,10 +94996,6 @@
           {
             "source": "util-linux",
             "target": "lbzip2"
-          },
-          {
-            "source": "util-linux",
-            "target": "php"
           },
           {
             "source": "util-linux",
@@ -95947,10 +95415,6 @@
           },
           {
             "source": "uvloop",
-            "target": "sagelib"
-          },
-          {
-            "source": "uvloop",
             "target": "scikit-allel"
           },
           {
@@ -96184,10 +95648,6 @@
           {
             "source": "uv",
             "target": "sage"
-          },
-          {
-            "source": "uv",
-            "target": "sagelib"
           },
           {
             "source": "uv",
@@ -96747,10 +96207,6 @@
           },
           {
             "source": "watchdog",
-            "target": "sagelib"
-          },
-          {
-            "source": "watchdog",
             "target": "scikit-allel"
           },
           {
@@ -97056,10 +96512,6 @@
           {
             "source": "watchfiles",
             "target": "sage"
-          },
-          {
-            "source": "watchfiles",
-            "target": "sagelib"
           },
           {
             "source": "watchfiles",
@@ -97407,10 +96859,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "sagelib"
-          },
-          {
-            "source": "wcwidth",
             "target": "scikit-allel"
           },
           {
@@ -97716,10 +97164,6 @@
           {
             "source": "websockets",
             "target": "sage"
-          },
-          {
-            "source": "websockets",
-            "target": "sagelib"
           },
           {
             "source": "websockets",
@@ -98671,10 +98115,6 @@
           },
           {
             "source": "wrapt",
-            "target": "sagelib"
-          },
-          {
-            "source": "wrapt",
             "target": "scikit-allel"
           },
           {
@@ -99040,10 +98480,6 @@
           {
             "source": "xattr",
             "target": "sage"
-          },
-          {
-            "source": "xattr",
-            "target": "sagelib"
           },
           {
             "source": "xattr",
@@ -102523,10 +101959,6 @@
           },
           {
             "source": "zlib-ng",
-            "target": "php"
-          },
-          {
-            "source": "zlib-ng",
             "target": "pillow"
           },
           {
@@ -103879,10 +103311,6 @@
           },
           {
             "source": "zlib",
-            "target": "php"
-          },
-          {
-            "source": "zlib",
             "target": "pigz"
           },
           {
@@ -104276,10 +103704,6 @@
           {
             "source": "zlib",
             "target": "sage"
-          },
-          {
-            "source": "zlib",
-            "target": "sagelib"
           },
           {
             "source": "zlib",
@@ -104908,10 +104332,6 @@
           {
             "source": "zstandard",
             "target": "sage"
-          },
-          {
-            "source": "zstandard",
-            "target": "sagelib"
           },
           {
             "source": "zstandard",
@@ -106122,12 +105542,6 @@
             "id": "ann",
             "payload": {
               "__lazy_json__": "node_attrs/ann.json"
-            }
-          },
-          {
-            "id": "antic",
-            "payload": {
-              "__lazy_json__": "node_attrs/antic.json"
             }
           },
           {
@@ -114165,12 +113579,6 @@
             }
           },
           {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "picojson",
             "payload": {
               "__lazy_json__": "node_attrs/picojson.json"
@@ -118842,12 +118250,6 @@
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
-            }
-          },
-          {
-            "id": "sagelib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sagelib.json"
             }
           },
           {
