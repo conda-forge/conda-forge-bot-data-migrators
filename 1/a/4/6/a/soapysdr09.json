@@ -56,75 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "limesuite",
-            "payload": {
-              "__lazy_json__": "node_attrs/limesuite.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-airspy",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-airspy.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-airspyhf",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-airspyhf.json"
-            }
-          },
-          {
             "id": "soapysdr-module-audio",
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-audio.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-bladerf",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-bladerf.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-fcdpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-fcdpp.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-hackrf",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-hackrf.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-netsdr",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-netsdr.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-plutosdr",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-plutosdr.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-remote",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-remote.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-rtlsdr",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-rtlsdr.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-volk-converters",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-volk-converters.json"
             }
           }
         ]
@@ -198,10 +132,6 @@
           },
           {
             "source": "soapysdr-module-audio",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "soapysdr-module-bladerf",
             "target": "conda-forge-pinning"
           },
           {
@@ -283,12 +213,6 @@
             "id": "soapysdr-module-audio",
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-audio.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-bladerf",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-bladerf.json"
             }
           },
           {
@@ -445,7 +369,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
