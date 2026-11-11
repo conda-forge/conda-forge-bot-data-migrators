@@ -110,12 +110,6 @@
             }
           },
           {
-            "id": "soapysdr-module-redpitaya",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-redpitaya.json"
-            }
-          },
-          {
             "id": "soapysdr-module-remote",
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-remote.json"
@@ -125,12 +119,6 @@
             "id": "soapysdr-module-rtlsdr",
             "payload": {
               "__lazy_json__": "node_attrs/soapysdr-module-rtlsdr.json"
-            }
-          },
-          {
-            "id": "soapysdr-module-uhd",
-            "payload": {
-              "__lazy_json__": "node_attrs/soapysdr-module-uhd.json"
             }
           },
           {
@@ -457,7 +445,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
