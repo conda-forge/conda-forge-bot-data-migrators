@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "hyperion",
+            "payload": {
+              "__lazy_json__": "node_attrs/hyperion.json"
+            }
+          },
+          {
             "id": "locan",
             "payload": {
               "__lazy_json__": "node_attrs/locan.json"
@@ -64,6 +70,12 @@
             "id": "pypeit",
             "payload": {
               "__lazy_json__": "node_attrs/pypeit.json"
+            }
+          },
+          {
+            "id": "yt_astro_analysis",
+            "payload": {
+              "__lazy_json__": "node_attrs/yt_astro_analysis.json"
             }
           }
         ]
