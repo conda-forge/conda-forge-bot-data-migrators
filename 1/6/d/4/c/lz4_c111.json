@@ -62,12 +62,6 @@
             }
           },
           {
-            "id": "c-blosc2",
-            "payload": {
-              "__lazy_json__": "node_attrs/c-blosc2.json"
-            }
-          },
-          {
             "id": "dectris-compression",
             "payload": {
               "__lazy_json__": "node_attrs/dectris-compression.json"
@@ -104,12 +98,6 @@
             }
           },
           {
-            "id": "librdkafka",
-            "payload": {
-              "__lazy_json__": "node_attrs/librdkafka.json"
-            }
-          },
-          {
             "id": "lz4",
             "payload": {
               "__lazy_json__": "node_attrs/lz4.json"
@@ -119,12 +107,6 @@
             "id": "memray",
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
-            }
-          },
-          {
-            "id": "mysql",
-            "payload": {
-              "__lazy_json__": "node_attrs/mysql.json"
             }
           },
           {
@@ -1157,7 +1139,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
