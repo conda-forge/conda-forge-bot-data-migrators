@@ -56,27 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "gimagereader-qt",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/gimagereader-qt.json"
-            }
-          },
-          {
-            "id": "ipe",
-            "payload": {
-              "__lazy_json__": "node_attrs/ipe.json"
-            }
-          },
-          {
-            "id": "pdf2svg",
-            "payload": {
-              "__lazy_json__": "node_attrs/pdf2svg.json"
-            }
-          },
-          {
-            "id": "pdftotext",
-            "payload": {
-              "__lazy_json__": "node_attrs/pdftotext.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -353,7 +335,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
