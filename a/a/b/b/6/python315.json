@@ -89,6 +89,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/yt.json"
             }
+          },
+          {
+            "id": "py4dgeo",
+            "payload": {
+              "__lazy_json__": "node_attrs/py4dgeo.json"
+            }
           }
         ]
       }
@@ -3866,6 +3872,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "backports.zstd",
             "target": "py_entitymatching"
           },
           {
@@ -4943,6 +4953,10 @@
           {
             "source": "bcrypt",
             "target": "puma"
+          },
+          {
+            "source": "bcrypt",
+            "target": "py4dgeo"
           },
           {
             "source": "bcrypt",
@@ -7670,6 +7684,10 @@
           },
           {
             "source": "brotli",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "brotli",
             "target": "py_entitymatching"
           },
           {
@@ -9719,6 +9737,10 @@
           {
             "source": "cffi",
             "target": "px-proxy"
+          },
+          {
+            "source": "cffi",
+            "target": "py4dgeo"
           },
           {
             "source": "cffi",
@@ -23969,12 +23991,20 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "laspy",
+            "target": "py4dgeo"
+          },
+          {
             "source": "lazrs-python",
             "target": "conda-forge-pinning"
           },
           {
             "source": "lazrs-python",
             "target": "laspy"
+          },
+          {
+            "source": "lazrs-python",
+            "target": "py4dgeo"
           },
           {
             "source": "lazy-object-proxy",
@@ -28483,6 +28513,10 @@
           {
             "source": "matplotlib",
             "target": "pwtools"
+          },
+          {
+            "source": "matplotlib",
+            "target": "py4dgeo"
           },
           {
             "source": "matplotlib",
@@ -37838,6 +37872,10 @@
           },
           {
             "source": "numpy",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "numpy",
             "target": "py_entitymatching"
           },
           {
@@ -42918,6 +42956,10 @@
           },
           {
             "source": "pandas",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "pandas",
             "target": "py_entitymatching"
           },
           {
@@ -47282,6 +47324,10 @@
           },
           {
             "source": "psutil",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "psutil",
             "target": "py_entitymatching"
           },
           {
@@ -48206,6 +48252,10 @@
           },
           {
             "source": "py2exe",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "py4dgeo",
             "target": "conda-forge-pinning"
           },
           {
@@ -54278,6 +54328,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "python-xxhash",
             "target": "pyacvd"
           },
           {
@@ -59722,6 +59776,10 @@
           },
           {
             "source": "regex",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "regex",
             "target": "pygnome"
           },
           {
@@ -62083,6 +62141,10 @@
           {
             "source": "scikit-learn",
             "target": "professor"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "py4dgeo"
           },
           {
             "source": "scikit-learn",
@@ -64455,6 +64517,10 @@
           {
             "source": "scipy",
             "target": "pwtools"
+          },
+          {
+            "source": "scipy",
+            "target": "py4dgeo"
           },
           {
             "source": "scipy",
@@ -67835,6 +67901,10 @@
           {
             "source": "statsmodels",
             "target": "psy-reg"
+          },
+          {
+            "source": "statsmodels",
+            "target": "py4dgeo"
           },
           {
             "source": "statsmodels",
@@ -75811,6 +75881,10 @@
           {
             "source": "tbb",
             "target": "py2exe"
+          },
+          {
+            "source": "tbb",
+            "target": "py4dgeo"
           },
           {
             "source": "tbb",
@@ -106527,6 +106601,12 @@
             "id": "asyncmy",
             "payload": {
               "__lazy_json__": "node_attrs/asyncmy.json"
+            }
+          },
+          {
+            "id": "py4dgeo",
+            "payload": {
+              "__lazy_json__": "node_attrs/py4dgeo.json"
             }
           }
         ]
