@@ -57,7 +57,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "deptry",
+            "payload": {
+              "__lazy_json__": "node_attrs/deptry.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -3197,6 +3204,10 @@
             "target": "wisdem"
           },
           {
+            "source": "deptry",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "dftd3-python",
             "target": "conda-forge-pinning"
           },
@@ -5235,6 +5246,10 @@
           {
             "source": "maturin",
             "target": "datafusion"
+          },
+          {
+            "source": "maturin",
+            "target": "deptry"
           },
           {
             "source": "maturin",
@@ -11454,6 +11469,10 @@
           },
           {
             "source": "tbb",
+            "target": "deptry"
+          },
+          {
+            "source": "tbb",
             "target": "dftd3-python"
           },
           {
@@ -15541,6 +15560,12 @@
             "id": "debugpy",
             "payload": {
               "__lazy_json__": "node_attrs/debugpy.json"
+            }
+          },
+          {
+            "id": "deptry",
+            "payload": {
+              "__lazy_json__": "node_attrs/deptry.json"
             }
           },
           {
