@@ -73,27 +73,9 @@
             }
           },
           {
-            "id": "openmm-plumed",
-            "payload": {
-              "__lazy_json__": "node_attrs/openmm-plumed.json"
-            }
-          },
-          {
-            "id": "openmmtorchplugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/openmmtorchplugin.json"
-            }
-          },
-          {
             "id": "pyobjc-framework-metal",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-metal.json"
-            }
-          },
-          {
-            "id": "seekr2_openmm_plugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/seekr2_openmm_plugin.json"
             }
           },
           {
@@ -15130,10 +15112,6 @@
           },
           {
             "source": "cython",
-            "target": "seekr2_openmm_plugin"
-          },
-          {
-            "source": "cython",
             "target": "selectolax"
           },
           {
@@ -25443,10 +25421,6 @@
           {
             "source": "lxml",
             "target": "schema-salad"
-          },
-          {
-            "source": "lxml",
-            "target": "seekr2_openmm_plugin"
           },
           {
             "source": "lxml",
@@ -41391,10 +41365,6 @@
           {
             "source": "openmm",
             "target": "openmmtorchplugin"
-          },
-          {
-            "source": "openmm",
-            "target": "seekr2_openmm_plugin"
           },
           {
             "source": "openmmtorchplugin",
@@ -66061,10 +66031,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "seekr2_openmm_plugin",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "segyio",
             "target": "conda-forge-pinning"
           },
@@ -79027,10 +78993,6 @@
           {
             "source": "tbb",
             "target": "sedonadb"
-          },
-          {
-            "source": "tbb",
-            "target": "seekr2_openmm_plugin"
           },
           {
             "source": "tbb",
@@ -103373,12 +103335,6 @@
             "id": "sedonadb",
             "payload": {
               "__lazy_json__": "node_attrs/sedonadb.json"
-            }
-          },
-          {
-            "id": "seekr2_openmm_plugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/seekr2_openmm_plugin.json"
             }
           },
           {
