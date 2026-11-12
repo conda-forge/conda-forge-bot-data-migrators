@@ -4124,6 +4124,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "resvg-py"
+          },
+          {
+            "source": "backports.zstd",
             "target": "rfi-file-monitor"
           },
           {
@@ -7945,6 +7949,10 @@
           {
             "source": "brotli",
             "target": "requests-negotiate-sspi"
+          },
+          {
+            "source": "brotli",
+            "target": "resvg-py"
           },
           {
             "source": "brotli",
@@ -47564,6 +47572,10 @@
           },
           {
             "source": "psutil",
+            "target": "resvg-py"
+          },
+          {
+            "source": "psutil",
             "target": "rignore"
           },
           {
@@ -57996,6 +58008,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "resvg-py"
+          },
+          {
+            "source": "pyyaml",
             "target": "rfi-file-monitor"
           },
           {
@@ -59952,6 +59968,10 @@
           },
           {
             "source": "resonance",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "resvg-py",
             "target": "conda-forge-pinning"
           },
           {
@@ -78264,6 +78284,10 @@
           },
           {
             "source": "tbb",
+            "target": "resvg-py"
+          },
+          {
+            "source": "tbb",
             "target": "rfc3161-client"
           },
           {
@@ -83288,6 +83312,10 @@
           },
           {
             "source": "ujson",
+            "target": "resvg-py"
+          },
+          {
+            "source": "ujson",
             "target": "rignore"
           },
           {
@@ -85461,6 +85489,10 @@
           {
             "source": "wcwidth",
             "target": "remage"
+          },
+          {
+            "source": "wcwidth",
+            "target": "resvg-py"
           },
           {
             "source": "wcwidth",
@@ -102331,6 +102363,12 @@
             "id": "resonance",
             "payload": {
               "__lazy_json__": "node_attrs/resonance.json"
+            }
+          },
+          {
+            "id": "resvg-py",
+            "payload": {
+              "__lazy_json__": "node_attrs/resvg-py.json"
             }
           },
           {
