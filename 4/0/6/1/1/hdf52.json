@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cycamore",
+            "payload": {
+              "__lazy_json__": "node_attrs/cycamore.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -200,8 +207,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cycamore",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "cyclus",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cyclus",
+            "target": "cycamore"
           },
           {
             "source": "cyrsoxs",
@@ -1169,6 +1184,10 @@
           },
           {
             "source": "pytables",
+            "target": "cycamore"
+          },
+          {
+            "source": "pytables",
             "target": "cyclus"
           },
           {
@@ -1520,6 +1539,12 @@
             "id": "cp2k",
             "payload": {
               "__lazy_json__": "node_attrs/cp2k.json"
+            }
+          },
+          {
+            "id": "cycamore",
+            "payload": {
+              "__lazy_json__": "node_attrs/cycamore.json"
             }
           },
           {
