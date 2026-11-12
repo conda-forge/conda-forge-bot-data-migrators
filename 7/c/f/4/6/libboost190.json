@@ -2420,6 +2420,10 @@
             "target": "pyslang"
           },
           {
+            "source": "slang-verilog",
+            "target": "yosys"
+          },
+          {
             "source": "smesh",
             "target": "conda-forge-pinning"
           },
@@ -2721,6 +2725,10 @@
           },
           {
             "source": "xios",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "yosys",
             "target": "conda-forge-pinning"
           }
         ],
@@ -4632,6 +4640,12 @@
             "id": "xios",
             "payload": {
               "__lazy_json__": "node_attrs/xios.json"
+            }
+          },
+          {
+            "id": "yosys",
+            "payload": {
+              "__lazy_json__": "node_attrs/yosys.json"
             }
           },
           {
