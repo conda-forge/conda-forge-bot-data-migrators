@@ -79,6 +79,12 @@
             }
           },
           {
+            "id": "seekr2_openmm_plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/seekr2_openmm_plugin.json"
+            }
+          },
+          {
             "id": "vtk",
             "payload": {
               "__lazy_json__": "node_attrs/vtk.json"
@@ -94,6 +100,12 @@
             "id": "dau-driver",
             "payload": {
               "__lazy_json__": "node_attrs/dau-driver.json"
+            }
+          },
+          {
+            "id": "mule",
+            "payload": {
+              "__lazy_json__": "node_attrs/mule.json"
             }
           }
         ]
@@ -15112,6 +15124,10 @@
           },
           {
             "source": "cython",
+            "target": "seekr2_openmm_plugin"
+          },
+          {
+            "source": "cython",
             "target": "selectolax"
           },
           {
@@ -25424,6 +25440,10 @@
           },
           {
             "source": "lxml",
+            "target": "seekr2_openmm_plugin"
+          },
+          {
+            "source": "lxml",
             "target": "seismon"
           },
           {
@@ -31275,6 +31295,10 @@
             "target": "roboticstoolbox-python"
           },
           {
+            "source": "mule",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "multicore-tsne",
             "target": "conda-forge-pinning"
           },
@@ -37032,6 +37056,10 @@
           },
           {
             "source": "numpy",
+            "target": "mule"
+          },
+          {
+            "source": "numpy",
             "target": "multicore-tsne"
           },
           {
@@ -41367,6 +41395,10 @@
             "target": "openmmtorchplugin"
           },
           {
+            "source": "openmm",
+            "target": "seekr2_openmm_plugin"
+          },
+          {
             "source": "openmmtorchplugin",
             "target": "conda-forge-pinning"
           },
@@ -44717,6 +44749,10 @@
           {
             "source": "pillow",
             "target": "mujoco"
+          },
+          {
+            "source": "pillow",
+            "target": "mule"
           },
           {
             "source": "pillow",
@@ -66031,6 +66067,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "seekr2_openmm_plugin",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "segyio",
             "target": "conda-forge-pinning"
           },
@@ -74392,6 +74432,10 @@
           },
           {
             "source": "tbb",
+            "target": "mule"
+          },
+          {
+            "source": "tbb",
             "target": "multicore-tsne"
           },
           {
@@ -78993,6 +79037,10 @@
           {
             "source": "tbb",
             "target": "sedonadb"
+          },
+          {
+            "source": "tbb",
+            "target": "seekr2_openmm_plugin"
           },
           {
             "source": "tbb",
@@ -103338,6 +103386,12 @@
             }
           },
           {
+            "id": "seekr2_openmm_plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/seekr2_openmm_plugin.json"
+            }
+          },
+          {
             "id": "segyio",
             "payload": {
               "__lazy_json__": "node_attrs/segyio.json"
@@ -106827,6 +106881,12 @@
             "id": "dpnp",
             "payload": {
               "__lazy_json__": "node_attrs/dpnp.json"
+            }
+          },
+          {
+            "id": "mule",
+            "payload": {
+              "__lazy_json__": "node_attrs/mule.json"
             }
           }
         ]
