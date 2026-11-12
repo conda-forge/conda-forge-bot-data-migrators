@@ -56,9 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "php",
+            "id": "julia",
             "payload": {
-              "__lazy_json__": "node_attrs/php.json"
+              "__lazy_json__": "node_attrs/julia.json"
             }
           }
         ]
@@ -220,10 +220,6 @@
           },
           {
             "source": "nginx",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "php",
             "target": "conda-forge-pinning"
           },
           {
@@ -413,12 +409,6 @@
             "id": "nginx",
             "payload": {
               "__lazy_json__": "node_attrs/nginx.json"
-            }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
