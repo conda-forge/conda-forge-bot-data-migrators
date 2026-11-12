@@ -56,9 +56,33 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
             "id": "colmap",
             "payload": {
               "__lazy_json__": "node_attrs/colmap.json"
+            }
+          },
+          {
+            "id": "folly",
+            "payload": {
+              "__lazy_json__": "node_attrs/folly.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocksdb.json"
             }
           }
         ]
