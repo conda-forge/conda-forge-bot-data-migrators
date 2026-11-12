@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "multispline",
+            "payload": {
+              "__lazy_json__": "node_attrs/multispline.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -13806,6 +13813,10 @@
           {
             "source": "cython",
             "target": "multidict"
+          },
+          {
+            "source": "cython",
+            "target": "multispline"
           },
           {
             "source": "cython",
@@ -31412,6 +31423,14 @@
             "target": "unidock"
           },
           {
+            "source": "multispline",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "multispline",
+            "target": "fastemriwaveforms"
+          },
+          {
             "source": "mumps4py",
             "target": "conda-forge-pinning"
           },
@@ -36942,6 +36961,10 @@
           {
             "source": "numpy",
             "target": "multipers"
+          },
+          {
+            "source": "numpy",
+            "target": "multispline"
           },
           {
             "source": "numpy",
@@ -74217,6 +74240,10 @@
           },
           {
             "source": "tbb",
+            "target": "multispline"
+          },
+          {
+            "source": "tbb",
             "target": "mumps4py"
           },
           {
@@ -96374,6 +96401,12 @@
             "id": "multiprocess",
             "payload": {
               "__lazy_json__": "node_attrs/multiprocess.json"
+            }
+          },
+          {
+            "id": "multispline",
+            "payload": {
+              "__lazy_json__": "node_attrs/multispline.json"
             }
           },
           {
