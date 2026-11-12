@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "datalad",
+            "payload": {
+              "__lazy_json__": "node_attrs/datalad.json"
+            }
+          },
+          {
             "id": "openmm-dlext",
             "payload": {
               "__lazy_json__": "node_attrs/openmm-dlext.json"
@@ -88,6 +94,24 @@
             "id": "seekr2_openmm_plugin",
             "payload": {
               "__lazy_json__": "node_attrs/seekr2_openmm_plugin.json"
+            }
+          },
+          {
+            "id": "vtk",
+            "payload": {
+              "__lazy_json__": "node_attrs/vtk.json"
+            }
+          },
+          {
+            "id": "wavespectra",
+            "payload": {
+              "__lazy_json__": "node_attrs/wavespectra.json"
+            }
+          },
+          {
+            "id": "dau-driver",
+            "payload": {
+              "__lazy_json__": "node_attrs/dau-driver.json"
             }
           }
         ]
