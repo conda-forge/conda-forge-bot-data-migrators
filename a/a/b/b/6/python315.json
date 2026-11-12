@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "aiohttp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aiohttp.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -3877,6 +3884,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pygnome"
           },
           {
@@ -4314,6 +4325,10 @@
           {
             "source": "backports.zstd",
             "target": "stim-split"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "subsurfix"
           },
           {
             "source": "backports.zstd",
@@ -5030,6 +5045,10 @@
           {
             "source": "bcrypt",
             "target": "stackvana-core"
+          },
+          {
+            "source": "bcrypt",
+            "target": "subsurfix"
           },
           {
             "source": "bcrypt",
@@ -7697,6 +7716,10 @@
           },
           {
             "source": "brotli",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "brotli",
             "target": "pygnome"
           },
           {
@@ -8142,6 +8165,10 @@
           {
             "source": "brotli",
             "target": "stim-split"
+          },
+          {
+            "source": "brotli",
+            "target": "subsurfix"
           },
           {
             "source": "brotli",
@@ -10022,6 +10049,10 @@
           {
             "source": "cffi",
             "target": "stim-split"
+          },
+          {
+            "source": "cffi",
+            "target": "subsurfix"
           },
           {
             "source": "cffi",
@@ -26693,6 +26724,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "markupsafe",
             "target": "pygnome"
           },
           {
@@ -28585,6 +28620,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "matplotlib",
             "target": "pygetm"
           },
           {
@@ -29102,6 +29141,10 @@
           {
             "source": "matplotlib",
             "target": "structuralgt"
+          },
+          {
+            "source": "matplotlib",
+            "target": "subsurfix"
           },
           {
             "source": "matplotlib",
@@ -38165,6 +38208,10 @@
           },
           {
             "source": "numpy",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "numpy",
             "target": "pygeoprocessing"
           },
           {
@@ -39873,6 +39920,10 @@
           },
           {
             "source": "numpy",
+            "target": "subsurfix"
+          },
+          {
+            "source": "numpy",
             "target": "sunode"
           },
           {
@@ -41437,6 +41488,10 @@
           },
           {
             "source": "openpyxl",
+            "target": "subsurfix"
+          },
+          {
+            "source": "openpyxl",
             "target": "wisdem"
           },
           {
@@ -41746,6 +41801,10 @@
           {
             "source": "orjson",
             "target": "pyb2d3"
+          },
+          {
+            "source": "orjson",
+            "target": "pygeomapper"
           },
           {
             "source": "orjson",
@@ -43005,6 +43064,10 @@
           },
           {
             "source": "pandas",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "pandas",
             "target": "pygetm"
           },
           {
@@ -43418,6 +43481,10 @@
           {
             "source": "pandas",
             "target": "structuralgt"
+          },
+          {
+            "source": "pandas",
+            "target": "subsurfix"
           },
           {
             "source": "pandas",
@@ -44793,6 +44860,10 @@
           },
           {
             "source": "pillow",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "pillow",
             "target": "pygwb"
           },
           {
@@ -45046,6 +45117,10 @@
           {
             "source": "pillow",
             "target": "stylegan2-pytorch"
+          },
+          {
+            "source": "pillow",
+            "target": "subsurfix"
           },
           {
             "source": "pillow",
@@ -47745,6 +47820,10 @@
           },
           {
             "source": "psutil",
+            "target": "subsurfix"
+          },
+          {
+            "source": "psutil",
             "target": "superset"
           },
           {
@@ -48714,6 +48793,10 @@
           {
             "source": "pyarrow",
             "target": "statsforecast"
+          },
+          {
+            "source": "pyarrow",
+            "target": "subsurfix"
           },
           {
             "source": "pyarrow",
@@ -50396,6 +50479,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pygeomapper",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pygeoprocessing",
             "target": "conda-forge-pinning"
           },
@@ -51749,6 +51836,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "subsurfix"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "tardis-sn"
           },
           {
@@ -52034,6 +52125,10 @@
           {
             "source": "pyogrio",
             "target": "pycontrails"
+          },
+          {
+            "source": "pyogrio",
+            "target": "pygeomapper"
           },
           {
             "source": "pyogrio",
@@ -52357,6 +52452,10 @@
           },
           {
             "source": "pyproj",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "pyproj",
             "target": "pygnome"
           },
           {
@@ -52422,6 +52521,10 @@
           {
             "source": "pyproj",
             "target": "stackvana-core"
+          },
+          {
+            "source": "pyproj",
+            "target": "subsurfix"
           },
           {
             "source": "pyproj",
@@ -53489,11 +53592,19 @@
           },
           {
             "source": "python-box",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "python-box",
             "target": "rosettasciio"
           },
           {
             "source": "python-calamine",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-calamine",
+            "target": "subsurfix"
           },
           {
             "source": "python-casacore",
@@ -54390,6 +54501,10 @@
           {
             "source": "python-xxhash",
             "target": "stackvana-core"
+          },
+          {
+            "source": "python-xxhash",
+            "target": "subsurfix"
           },
           {
             "source": "python-xxhash",
@@ -59325,6 +59440,10 @@
           },
           {
             "source": "rasterio",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "rasterio",
             "target": "pylandstats"
           },
           {
@@ -60570,6 +60689,10 @@
           {
             "source": "rpds-py",
             "target": "pycontrails"
+          },
+          {
+            "source": "rpds-py",
+            "target": "pygeomapper"
           },
           {
             "source": "rpds-py",
@@ -62142,6 +62265,10 @@
           {
             "source": "scikit-learn",
             "target": "pycontrails"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "pygeomapper"
           },
           {
             "source": "scikit-learn",
@@ -64641,6 +64768,10 @@
           },
           {
             "source": "scipy",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "scipy",
             "target": "pygeoprocessing"
           },
           {
@@ -66297,6 +66428,10 @@
           },
           {
             "source": "shapely",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "shapely",
             "target": "pygeoprocessing"
           },
           {
@@ -66370,6 +66505,10 @@
           {
             "source": "shapely",
             "target": "stackvana-core"
+          },
+          {
+            "source": "shapely",
+            "target": "subsurfix"
           },
           {
             "source": "shapely",
@@ -68109,6 +68248,10 @@
           },
           {
             "source": "su2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "subsurfix",
             "target": "conda-forge-pinning"
           },
           {
@@ -76393,6 +76536,10 @@
           },
           {
             "source": "tbb",
+            "target": "pygeomapper"
+          },
+          {
+            "source": "tbb",
             "target": "pygeoprocessing"
           },
           {
@@ -79542,6 +79689,10 @@
           {
             "source": "tbb",
             "target": "su2"
+          },
+          {
+            "source": "tbb",
+            "target": "subsurfix"
           },
           {
             "source": "tbb",
@@ -84205,6 +84356,10 @@
           },
           {
             "source": "vtk",
+            "target": "subsurfix"
+          },
+          {
+            "source": "vtk",
             "target": "tomviz"
           },
           {
@@ -85634,6 +85789,10 @@
           {
             "source": "wcwidth",
             "target": "structuralgt"
+          },
+          {
+            "source": "wcwidth",
+            "target": "subsurfix"
           },
           {
             "source": "wcwidth",
@@ -106624,6 +106783,18 @@
             "id": "py4dgeo",
             "payload": {
               "__lazy_json__": "node_attrs/py4dgeo.json"
+            }
+          },
+          {
+            "id": "subsurfix",
+            "payload": {
+              "__lazy_json__": "node_attrs/subsurfix.json"
+            }
+          },
+          {
+            "id": "pygeomapper",
+            "payload": {
+              "__lazy_json__": "node_attrs/pygeomapper.json"
             }
           }
         ]
