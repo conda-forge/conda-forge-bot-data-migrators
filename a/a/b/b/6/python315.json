@@ -59,6 +59,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/aiohttp.json"
             }
+          },
+          {
+            "id": "dpnp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpnp.json"
+            }
           }
         ]
       }
@@ -12988,6 +12994,10 @@
           },
           {
             "source": "cython",
+            "target": "dpnp"
+          },
+          {
+            "source": "cython",
             "target": "dracopy"
           },
           {
@@ -16768,6 +16778,14 @@
           },
           {
             "source": "dpctl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dpctl",
+            "target": "dpnp"
+          },
+          {
+            "source": "dpnp",
             "target": "conda-forge-pinning"
           },
           {
@@ -34969,6 +34987,10 @@
           {
             "source": "numpy",
             "target": "dpctl"
+          },
+          {
+            "source": "numpy",
+            "target": "dpnp"
           },
           {
             "source": "numpy",
@@ -70908,6 +70930,10 @@
           },
           {
             "source": "tbb",
+            "target": "dpnp"
+          },
+          {
+            "source": "tbb",
             "target": "dqsegdb"
           },
           {
@@ -106795,6 +106821,12 @@
             "id": "pygeomapper",
             "payload": {
               "__lazy_json__": "node_attrs/pygeomapper.json"
+            }
+          },
+          {
+            "id": "dpnp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpnp.json"
             }
           }
         ]
