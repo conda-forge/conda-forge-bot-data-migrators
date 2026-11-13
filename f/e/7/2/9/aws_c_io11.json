@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 2026-10-26T16:56:35+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\naws_c_io:\n  - 1.1\n",
+    "migrator_ts: 2026-10-26T16:56:35+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\naws_c_io:\n  - 1.1\naws_c_s3:\n  - 1.3\n",
     "aws_c_io11"
   ],
   "class": "MigrationYaml",
@@ -99,10 +99,6 @@
         "links": [
           {
             "source": "aws-c-auth",
-            "target": "aws-c-s3"
-          },
-          {
-            "source": "aws-c-auth",
             "target": "aws-crt-cpp"
           },
           {
@@ -147,10 +143,6 @@
           },
           {
             "source": "aws-c-http",
-            "target": "aws-c-s3"
-          },
-          {
-            "source": "aws-c-http",
             "target": "aws-crt-cpp"
           },
           {
@@ -183,26 +175,6 @@
           },
           {
             "source": "aws-c-mqtt",
-            "target": "tiledb"
-          },
-          {
-            "source": "aws-c-s3",
-            "target": "aws-crt-cpp"
-          },
-          {
-            "source": "aws-c-s3",
-            "target": "awscrt"
-          },
-          {
-            "source": "aws-c-s3",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "aws-c-s3",
-            "target": "hdf5"
-          },
-          {
-            "source": "aws-c-s3",
             "target": "tiledb"
           },
           {
@@ -253,12 +225,6 @@
             }
           },
           {
-            "id": "aws-c-s3",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-s3.json"
-            }
-          },
-          {
             "id": "aws-crt-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/aws-crt-cpp.json"
@@ -298,7 +264,8 @@
     "package_names": {
       "__set__": true,
       "elements": [
-        "aws-c-io"
+        "aws-c-io",
+        "aws-c-s3"
       ]
     },
     "paused": false,
