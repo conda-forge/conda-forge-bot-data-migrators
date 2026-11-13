@@ -62,6 +62,12 @@
             }
           },
           {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
             "id": "r-rjava",
             "payload": {
               "__lazy_json__": "node_attrs/r-rjava.json"
@@ -232,6 +238,10 @@
           },
           {
             "source": "nginx",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "php",
             "target": "conda-forge-pinning"
           },
           {
@@ -421,6 +431,12 @@
             "id": "nginx",
             "payload": {
               "__lazy_json__": "node_attrs/nginx.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
