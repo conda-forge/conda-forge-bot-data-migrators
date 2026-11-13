@@ -676,6 +676,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/openmvs-split.json"
             }
+          },
+          {
+            "id": "pynvvideocodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynvvideocodec.json"
+            }
           }
         ]
       }
@@ -1864,6 +1870,10 @@
           },
           {
             "source": "pyg-lib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pynvvideocodec",
             "target": "conda-forge-pinning"
           },
           {
@@ -3253,6 +3263,12 @@
             "id": "openmvs-split",
             "payload": {
               "__lazy_json__": "node_attrs/openmvs-split.json"
+            }
+          },
+          {
+            "id": "pynvvideocodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynvvideocodec.json"
             }
           }
         ]
