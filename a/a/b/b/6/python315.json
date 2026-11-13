@@ -380,10 +380,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "dau-driver"
-          },
-          {
-            "source": "aiohttp",
             "target": "dgpsi"
           },
           {
@@ -2996,10 +2992,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "dau-driver"
-          },
-          {
-            "source": "backports.zstd",
             "target": "dclab"
           },
           {
@@ -4817,10 +4809,6 @@
           {
             "source": "bcrypt",
             "target": "cwinpy"
-          },
-          {
-            "source": "bcrypt",
-            "target": "dau-driver"
           },
           {
             "source": "bcrypt",
@@ -6856,10 +6844,6 @@
           },
           {
             "source": "brotli",
-            "target": "dau-driver"
-          },
-          {
-            "source": "brotli",
             "target": "dclab"
           },
           {
@@ -8527,6 +8511,10 @@
             "target": "zope.index"
           },
           {
+            "source": "btrees",
+            "target": "zope.security"
+          },
+          {
             "source": "bucketcache",
             "target": "conda-forge-pinning"
           },
@@ -9353,10 +9341,6 @@
           {
             "source": "cffi",
             "target": "datalad"
-          },
-          {
-            "source": "cffi",
-            "target": "dau-driver"
           },
           {
             "source": "cffi",
@@ -11005,10 +10989,6 @@
           {
             "source": "contourpy",
             "target": "dask-sql"
-          },
-          {
-            "source": "contourpy",
-            "target": "dau-driver"
           },
           {
             "source": "contourpy",
@@ -15640,10 +15620,6 @@
           },
           {
             "source": "cytoolz",
-            "target": "dau-driver"
-          },
-          {
-            "source": "cytoolz",
             "target": "ecco_v4_py"
           },
           {
@@ -15948,10 +15924,6 @@
           },
           {
             "source": "datrie",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "dau-driver",
             "target": "conda-forge-pinning"
           },
           {
@@ -19760,10 +19732,6 @@
           },
           {
             "source": "google-crc32c",
-            "target": "dau-driver"
-          },
-          {
-            "source": "google-crc32c",
             "target": "ecco_v4_py"
           },
           {
@@ -20449,10 +20417,6 @@
           {
             "source": "grpc-cpp",
             "target": "dask-yarn"
-          },
-          {
-            "source": "grpc-cpp",
-            "target": "dau-driver"
           },
           {
             "source": "grpc-cpp",
@@ -25560,10 +25524,6 @@
           },
           {
             "source": "lz4",
-            "target": "dau-driver"
-          },
-          {
-            "source": "lz4",
             "target": "dbdreader"
           },
           {
@@ -26157,10 +26117,6 @@
           {
             "source": "markupsafe",
             "target": "datatable"
-          },
-          {
-            "source": "markupsafe",
-            "target": "dau-driver"
           },
           {
             "source": "markupsafe",
@@ -30608,10 +30564,6 @@
           },
           {
             "source": "msgpack-python",
-            "target": "dau-driver"
-          },
-          {
-            "source": "msgpack-python",
             "target": "ddsp"
           },
           {
@@ -34865,10 +34817,6 @@
           {
             "source": "numpy",
             "target": "datatable"
-          },
-          {
-            "source": "numpy",
-            "target": "dau-driver"
           },
           {
             "source": "numpy",
@@ -41868,10 +41816,6 @@
           },
           {
             "source": "orjson",
-            "target": "dau-driver"
-          },
-          {
-            "source": "orjson",
             "target": "doebase"
           },
           {
@@ -42489,10 +42433,6 @@
           {
             "source": "pandas",
             "target": "datatable"
-          },
-          {
-            "source": "pandas",
-            "target": "dau-driver"
           },
           {
             "source": "pandas",
@@ -44452,10 +44392,6 @@
           },
           {
             "source": "pillow",
-            "target": "dau-driver"
-          },
-          {
-            "source": "pillow",
             "target": "dclab"
           },
           {
@@ -46052,10 +45988,6 @@
           },
           {
             "source": "protobuf",
-            "target": "dau-driver"
-          },
-          {
-            "source": "protobuf",
             "target": "ddsp"
           },
           {
@@ -46749,10 +46681,6 @@
           {
             "source": "psutil",
             "target": "datalad"
-          },
-          {
-            "source": "psutil",
-            "target": "dau-driver"
           },
           {
             "source": "psutil",
@@ -48652,10 +48580,6 @@
           },
           {
             "source": "pyarrow",
-            "target": "dau-driver"
-          },
-          {
-            "source": "pyarrow",
             "target": "dora-rs-suite"
           },
           {
@@ -49669,10 +49593,6 @@
           {
             "source": "pydantic-core",
             "target": "dask-sql"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "dau-driver"
           },
           {
             "source": "pydantic-core",
@@ -57157,10 +57077,6 @@
           {
             "source": "pyyaml",
             "target": "datavzrd"
-          },
-          {
-            "source": "pyyaml",
-            "target": "dau-driver"
           },
           {
             "source": "pyyaml",
@@ -70708,10 +70624,6 @@
           },
           {
             "source": "tbb",
-            "target": "dau-driver"
-          },
-          {
-            "source": "tbb",
             "target": "dawg"
           },
           {
@@ -81304,6 +81216,10 @@
           },
           {
             "source": "tbb",
+            "target": "zope.security"
+          },
+          {
+            "source": "tbb",
             "target": "zopfli"
           },
           {
@@ -82225,10 +82141,6 @@
           {
             "source": "tornado",
             "target": "datatable"
-          },
-          {
-            "source": "tornado",
-            "target": "dau-driver"
           },
           {
             "source": "tornado",
@@ -85028,10 +84940,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "dau-driver"
-          },
-          {
-            "source": "wcwidth",
             "target": "deepface"
           },
           {
@@ -86552,10 +86460,6 @@
           },
           {
             "source": "wrapt",
-            "target": "dau-driver"
-          },
-          {
-            "source": "wrapt",
             "target": "ddsp"
           },
           {
@@ -87651,8 +87555,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "zope.hookable",
+            "target": "zope.security"
+          },
+          {
             "source": "zope.i18nmessageid",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zope.i18nmessageid",
+            "target": "zope.security"
           },
           {
             "source": "zope.index",
@@ -87711,12 +87623,24 @@
             "target": "zope.proxy"
           },
           {
+            "source": "zope.interface",
+            "target": "zope.security"
+          },
+          {
             "source": "zope.proxy",
             "target": "conda-forge-pinning"
           },
           {
             "source": "zope.proxy",
             "target": "persistent"
+          },
+          {
+            "source": "zope.proxy",
+            "target": "zope.security"
+          },
+          {
+            "source": "zope.security",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "zopfli",
@@ -106882,12 +106806,6 @@
             }
           },
           {
-            "id": "dau-driver",
-            "payload": {
-              "__lazy_json__": "node_attrs/dau-driver.json"
-            }
-          },
-          {
             "id": "ormar-utils",
             "payload": {
               "__lazy_json__": "node_attrs/ormar-utils.json"
@@ -106969,6 +106887,12 @@
             "id": "mule",
             "payload": {
               "__lazy_json__": "node_attrs/mule.json"
+            }
+          },
+          {
+            "id": "zope.security",
+            "payload": {
+              "__lazy_json__": "node_attrs/zope.security.json"
             }
           }
         ]
