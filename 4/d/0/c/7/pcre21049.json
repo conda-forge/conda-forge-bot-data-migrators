@@ -56,6 +56,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "deepsearch-glm",
+            "payload": {
+              "__lazy_json__": "node_attrs/deepsearch-glm.json"
+            }
+          },
+          {
             "id": "php",
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
@@ -71,18 +77,6 @@
             "id": "r-stringfish",
             "payload": {
               "__lazy_json__": "node_attrs/r-stringfish.json"
-            }
-          },
-          {
-            "id": "vte",
-            "payload": {
-              "__lazy_json__": "node_attrs/vte.json"
-            }
-          },
-          {
-            "id": "wxwidgets",
-            "payload": {
-              "__lazy_json__": "node_attrs/wxwidgets.json"
             }
           }
         ]
