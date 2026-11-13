@@ -56,27 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "libradolan",
-            "payload": {
-              "__lazy_json__": "node_attrs/libradolan.json"
-            }
-          },
-          {
-            "id": "metplus",
-            "payload": {
-              "__lazy_json__": "node_attrs/metplus.json"
-            }
-          },
-          {
             "id": "pymem3dg",
             "payload": {
               "__lazy_json__": "node_attrs/pymem3dg.json"
-            }
-          },
-          {
-            "id": "trilinos",
-            "payload": {
-              "__lazy_json__": "node_attrs/trilinos.json"
             }
           }
         ]
@@ -283,7 +265,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
