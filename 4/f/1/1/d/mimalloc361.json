@@ -68,21 +68,9 @@
             }
           },
           {
-            "id": "mold",
-            "payload": {
-              "__lazy_json__": "node_attrs/mold.json"
-            }
-          },
-          {
             "id": "panda3d",
             "payload": {
               "__lazy_json__": "node_attrs/panda3d.json"
-            }
-          },
-          {
-            "id": "slang-verilog",
-            "payload": {
-              "__lazy_json__": "node_attrs/slang-verilog.json"
             }
           }
         ]
@@ -317,7 +305,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
