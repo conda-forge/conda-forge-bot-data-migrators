@@ -14966,10 +14966,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "uv"
-          },
-          {
-            "source": "pkg-config",
             "target": "valgrind"
           },
           {
@@ -15171,6 +15167,10 @@
           {
             "source": "pkgconf",
             "target": "tiledb"
+          },
+          {
+            "source": "pkgconf",
+            "target": "uv"
           },
           {
             "source": "playwright",
