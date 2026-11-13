@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "python-lzf",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzf.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -4227,14 +4234,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "awscli"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "awscli2"
-          },
-          {
-            "source": "backports.zstd",
             "target": "azure-storage"
           },
           {
@@ -4280,10 +4279,6 @@
           {
             "source": "backports.zstd",
             "target": "cctbx-base"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "clickhouse-connect"
           },
           {
             "source": "backports.zstd",
@@ -4344,10 +4339,6 @@
           {
             "source": "backports.zstd",
             "target": "dmri-dicelib"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "dulwich"
           },
           {
             "source": "backports.zstd",
@@ -4684,10 +4675,6 @@
           {
             "source": "backports.zstd",
             "target": "pixy"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "pmdarima"
           },
           {
             "source": "backports.zstd",
@@ -7983,14 +7970,6 @@
           },
           {
             "source": "brotli",
-            "target": "awscli"
-          },
-          {
-            "source": "brotli",
-            "target": "awscli2"
-          },
-          {
-            "source": "brotli",
             "target": "azure-storage"
           },
           {
@@ -8044,10 +8023,6 @@
           {
             "source": "brotlicffi",
             "target": "aiohttp"
-          },
-          {
-            "source": "brotli",
-            "target": "clickhouse-connect"
           },
           {
             "source": "brotli",
@@ -8112,10 +8087,6 @@
           {
             "source": "brotli",
             "target": "dmri-dicelib"
-          },
-          {
-            "source": "brotli",
-            "target": "dulwich"
           },
           {
             "source": "brotli",
@@ -8472,10 +8443,6 @@
           {
             "source": "brotli",
             "target": "pixy"
-          },
-          {
-            "source": "brotli",
-            "target": "pmdarima"
           },
           {
             "source": "brotli",
@@ -12499,6 +12466,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "python-lzf"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "r-base"
           },
           {
@@ -14783,6 +14754,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14832,10 +14807,6 @@
           {
             "source": "cmake",
             "target": "mlx"
-          },
-          {
-            "source": "cmake",
-            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14892,10 +14863,6 @@
           {
             "source": "cmake",
             "target": "multinest"
-          },
-          {
-            "source": "cmake",
-            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -16780,6 +16747,10 @@
           {
             "source": "contourpy",
             "target": "caiman"
+          },
+          {
+            "source": "contourpy",
+            "target": "fluidfft"
           },
           {
             "source": "contourpy",
@@ -20063,6 +20034,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "python-lzf"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "python-stratify"
           },
           {
@@ -22276,6 +22251,10 @@
           {
             "source": "cytoolz",
             "target": "eth-utils"
+          },
+          {
+            "source": "cytoolz",
+            "target": "fluidfft"
           },
           {
             "source": "cytoolz",
@@ -44043,6 +44022,10 @@
           },
           {
             "source": "lz4",
+            "target": "fluidfft"
+          },
+          {
+            "source": "lz4",
             "target": "fluidimage"
           },
           {
@@ -46744,6 +46727,10 @@
           {
             "source": "make",
             "target": "metaio"
+          },
+          {
+            "source": "make",
+            "target": "metis"
           },
           {
             "source": "make",
@@ -52574,6 +52561,86 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "cadet"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cppad-mixed"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "finesse"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "moab"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "photospline"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-sparse"
+          },
+          {
+            "source": "metis",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "metis",
+            "target": "scilab"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -53415,6 +53482,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "fluidfft"
+          },
+          {
+            "source": "msgpack-python",
             "target": "fluidimage"
           },
           {
@@ -53616,6 +53687,10 @@
           {
             "source": "multidict",
             "target": "aiohttp"
+          },
+          {
+            "source": "multidict",
+            "target": "fluidfft"
           },
           {
             "source": "multidict",
@@ -54760,6 +54835,10 @@
           {
             "source": "netcdf4",
             "target": "fabmos"
+          },
+          {
+            "source": "netcdf4",
+            "target": "fluidfft"
           },
           {
             "source": "netcdf4",
@@ -58784,6 +58863,10 @@
           {
             "source": "numcodecs",
             "target": "caiman"
+          },
+          {
+            "source": "numcodecs",
+            "target": "fluidfft"
           },
           {
             "source": "numcodecs",
@@ -73639,6 +73722,10 @@
           },
           {
             "source": "pyarrow",
+            "target": "fluidfft"
+          },
+          {
+            "source": "pyarrow",
             "target": "fluidimage"
           },
           {
@@ -76112,6 +76199,10 @@
           {
             "source": "python-lmdb",
             "target": "allennlp"
+          },
+          {
+            "source": "python-lzf",
+            "target": "fluidfft"
           },
           {
             "source": "python-mumps",
@@ -80648,6 +80739,10 @@
           {
             "source": "python",
             "target": "python-lmdb"
+          },
+          {
+            "source": "python",
+            "target": "python-lzf"
           },
           {
             "source": "python",
@@ -95107,6 +95202,10 @@
           },
           {
             "source": "rsync",
+            "target": "python-lzf"
+          },
+          {
+            "source": "rsync",
             "target": "pytorch-cpu"
           },
           {
@@ -98476,6 +98575,10 @@
           {
             "source": "sed",
             "target": "python-infomap"
+          },
+          {
+            "source": "sed",
+            "target": "python-lzf"
           },
           {
             "source": "sed",
@@ -120351,6 +120454,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -123954,6 +124063,12 @@
             "id": "python-lmdb",
             "payload": {
               "__lazy_json__": "node_attrs/python-lmdb.json"
+            }
+          },
+          {
+            "id": "python-lzf",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzf.json"
             }
           },
           {
