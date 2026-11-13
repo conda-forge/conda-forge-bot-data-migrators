@@ -55,15 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "nyxus",
-            "payload": {
-              "__lazy_json__": "node_attrs/nyxus.json"
-            }
-          },
-          {
             "id": "openmm-nonbonded-slicing",
             "payload": {
               "__lazy_json__": "node_attrs/openmm-nonbonded-slicing.json"
+            }
+          },
+          {
+            "id": "z5py",
+            "payload": {
+              "__lazy_json__": "node_attrs/z5py.json"
             }
           }
         ]
@@ -2814,6 +2814,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "biogeme"
+          },
+          {
+            "source": "backports.zstd",
             "target": "bioimage-cpp"
           },
           {
@@ -2883,6 +2887,10 @@
           {
             "source": "backports.zstd",
             "target": "cellpy"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "cfdm"
           },
           {
             "source": "backports.zstd",
@@ -3186,6 +3194,18 @@
           },
           {
             "source": "backports.zstd",
+            "target": "fluidfft"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fluidimage"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fluidsim"
+          },
+          {
+            "source": "backports.zstd",
             "target": "flux-core"
           },
           {
@@ -3323,6 +3343,10 @@
           {
             "source": "backports.zstd",
             "target": "hklpy"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "holopy"
           },
           {
             "source": "backports.zstd",
@@ -4063,6 +4087,10 @@
           {
             "source": "backports.zstd",
             "target": "pyzmq"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "qcodes"
           },
           {
             "source": "backports.zstd",
@@ -6634,6 +6662,10 @@
           },
           {
             "source": "brotli",
+            "target": "biogeme"
+          },
+          {
+            "source": "brotli",
             "target": "bioimage-cpp"
           },
           {
@@ -6703,6 +6735,10 @@
           {
             "source": "brotli",
             "target": "cellpy"
+          },
+          {
+            "source": "brotli",
+            "target": "cfdm"
           },
           {
             "source": "brotlicffi",
@@ -7014,6 +7050,18 @@
           },
           {
             "source": "brotli",
+            "target": "fluidfft"
+          },
+          {
+            "source": "brotli",
+            "target": "fluidimage"
+          },
+          {
+            "source": "brotli",
+            "target": "fluidsim"
+          },
+          {
+            "source": "brotli",
             "target": "flux-core"
           },
           {
@@ -7155,6 +7203,10 @@
           {
             "source": "brotli",
             "target": "hklpy"
+          },
+          {
+            "source": "brotli",
+            "target": "holopy"
           },
           {
             "source": "brotli",
@@ -7903,6 +7955,10 @@
           {
             "source": "brotli",
             "target": "pyzmq"
+          },
+          {
+            "source": "brotli",
+            "target": "qcodes"
           },
           {
             "source": "brotli",
@@ -21166,6 +21222,10 @@
           },
           {
             "source": "h5py",
+            "target": "invert4geom"
+          },
+          {
+            "source": "h5py",
             "target": "isce2"
           },
           {
@@ -33266,6 +33326,14 @@
           },
           {
             "source": "numcodecs",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "numcodecs",
+            "target": "biogeme"
+          },
+          {
+            "source": "numcodecs",
             "target": "brisc"
           },
           {
@@ -33283,6 +33351,10 @@
           {
             "source": "numcodecs",
             "target": "cfdm"
+          },
+          {
+            "source": "numcodecs",
+            "target": "cmac"
           },
           {
             "source": "numcodecs",
@@ -33306,7 +33378,23 @@
           },
           {
             "source": "numcodecs",
+            "target": "fluidfft"
+          },
+          {
+            "source": "numcodecs",
+            "target": "fluidimage"
+          },
+          {
+            "source": "numcodecs",
+            "target": "fluidsim"
+          },
+          {
+            "source": "numcodecs",
             "target": "geowombat"
+          },
+          {
+            "source": "numcodecs",
+            "target": "gridmarthe"
           },
           {
             "source": "numcodecs",
@@ -33315,6 +33403,10 @@
           {
             "source": "numcodecs",
             "target": "hklpy"
+          },
+          {
+            "source": "numcodecs",
+            "target": "holopy"
           },
           {
             "source": "numcodecs",
@@ -33362,11 +33454,31 @@
           },
           {
             "source": "numcodecs",
+            "target": "polymer"
+          },
+          {
+            "source": "numcodecs",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "numcodecs",
             "target": "pycontrails"
           },
           {
             "source": "numcodecs",
             "target": "python-infomap"
+          },
+          {
+            "source": "numcodecs",
+            "target": "qcodes"
+          },
+          {
+            "source": "numcodecs",
+            "target": "radarx"
+          },
+          {
+            "source": "numcodecs",
+            "target": "raider"
           },
           {
             "source": "numcodecs",
@@ -33419,6 +33531,10 @@
           {
             "source": "numcodecs",
             "target": "uwsift"
+          },
+          {
+            "source": "numcodecs",
+            "target": "veros"
           },
           {
             "source": "numcodecs",
@@ -60330,6 +60446,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "rpds-py",
             "target": "asapdiscovery"
           },
           {
@@ -60347,6 +60467,10 @@
           {
             "source": "rpds-py",
             "target": "beakerx"
+          },
+          {
+            "source": "rpds-py",
+            "target": "biogeme"
           },
           {
             "source": "rpds-py",
@@ -60370,6 +60494,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "cfdm"
+          },
+          {
+            "source": "rpds-py",
             "target": "checkov"
           },
           {
@@ -60379,6 +60507,10 @@
           {
             "source": "rpds-py",
             "target": "cis_interface"
+          },
+          {
+            "source": "rpds-py",
+            "target": "cmac"
           },
           {
             "source": "rpds-py",
@@ -60526,6 +60658,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "gridmarthe"
+          },
+          {
+            "source": "rpds-py",
             "target": "grouper"
           },
           {
@@ -60542,7 +60678,15 @@
           },
           {
             "source": "rpds-py",
+            "target": "holopy"
+          },
+          {
+            "source": "rpds-py",
             "target": "ijava"
+          },
+          {
+            "source": "rpds-py",
+            "target": "invert4geom"
           },
           {
             "source": "rpds-py",
@@ -60599,6 +60743,10 @@
           {
             "source": "rpds-py",
             "target": "litellm"
+          },
+          {
+            "source": "rpds-py",
+            "target": "metadata-crawler"
           },
           {
             "source": "rpds-py",
@@ -60690,11 +60838,19 @@
           },
           {
             "source": "rpds-py",
+            "target": "polymer"
+          },
+          {
+            "source": "rpds-py",
             "target": "proliantutils"
           },
           {
             "source": "rpds-py",
             "target": "pyaedt"
+          },
+          {
+            "source": "rpds-py",
+            "target": "pyart_mch"
           },
           {
             "source": "rpds-py",
@@ -60751,6 +60907,10 @@
           {
             "source": "rpds-py",
             "target": "quantlab"
+          },
+          {
+            "source": "rpds-py",
+            "target": "radarx"
           },
           {
             "source": "rpds-py",
@@ -60863,6 +61023,10 @@
           {
             "source": "rpds-py",
             "target": "vega"
+          },
+          {
+            "source": "rpds-py",
+            "target": "veros"
           },
           {
             "source": "rpds-py",
