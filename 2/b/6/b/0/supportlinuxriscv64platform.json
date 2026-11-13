@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "gts",
+            "payload": {
+              "__lazy_json__": "node_attrs/gts.json"
+            }
+          },
+          {
+            "id": "libgd",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgd.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -356,6 +369,10 @@
           {
             "source": "cairo",
             "target": "gobject-introspection"
+          },
+          {
+            "source": "cairo",
+            "target": "graphviz"
           },
           {
             "source": "cairo",
@@ -699,6 +716,10 @@
           },
           {
             "source": "expat",
+            "target": "graphviz"
+          },
+          {
+            "source": "expat",
             "target": "gtk3"
           },
           {
@@ -712,6 +733,10 @@
           {
             "source": "expat",
             "target": "libdecor"
+          },
+          {
+            "source": "expat",
+            "target": "libgd"
           },
           {
             "source": "expat",
@@ -807,6 +832,10 @@
           },
           {
             "source": "fontconfig",
+            "target": "libgd"
+          },
+          {
+            "source": "fontconfig",
             "target": "librsvg"
           },
           {
@@ -867,6 +896,10 @@
           },
           {
             "source": "freetype",
+            "target": "libgd"
+          },
+          {
+            "source": "freetype",
             "target": "librsvg"
           },
           {
@@ -900,6 +933,10 @@
           {
             "source": "frozenlist",
             "target": "aiohttp"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "graphviz"
           },
           {
             "source": "gdk-pixbuf",
@@ -955,7 +992,15 @@
           },
           {
             "source": "glib",
+            "target": "graphviz"
+          },
+          {
+            "source": "glib",
             "target": "gtk3"
+          },
+          {
+            "source": "glib",
+            "target": "gts"
           },
           {
             "source": "glib",
@@ -1087,7 +1132,15 @@
           },
           {
             "source": "gtk3",
+            "target": "graphviz"
+          },
+          {
+            "source": "gtk3",
             "target": "libdecor"
+          },
+          {
+            "source": "gts",
+            "target": "graphviz"
           },
           {
             "source": "gz-cmake",
@@ -1164,6 +1217,10 @@
           {
             "source": "icu",
             "target": "harfbuzz"
+          },
+          {
+            "source": "icu",
+            "target": "libgd"
           },
           {
             "source": "icu",
@@ -1502,6 +1559,10 @@
             "target": "systemd"
           },
           {
+            "source": "libgd",
+            "target": "graphviz"
+          },
+          {
             "source": "libglvnd",
             "target": "epoxy"
           },
@@ -1627,6 +1688,10 @@
           },
           {
             "source": "libjpeg-turbo",
+            "target": "libgd"
+          },
+          {
+            "source": "libjpeg-turbo",
             "target": "libjxl-split"
           },
           {
@@ -1723,6 +1788,10 @@
           },
           {
             "source": "libpng",
+            "target": "libgd"
+          },
+          {
+            "source": "libpng",
             "target": "libjxl-split"
           },
           {
@@ -1771,6 +1840,10 @@
           },
           {
             "source": "librsvg",
+            "target": "graphviz"
+          },
+          {
+            "source": "librsvg",
             "target": "gtk3"
           },
           {
@@ -1816,6 +1889,10 @@
           {
             "source": "libtiff",
             "target": "lcms2"
+          },
+          {
+            "source": "libtiff",
+            "target": "libgd"
           },
           {
             "source": "libtiff",
@@ -1955,6 +2032,10 @@
           },
           {
             "source": "libwebp-base",
+            "target": "graphviz"
+          },
+          {
+            "source": "libwebp-base",
             "target": "libtiff"
           },
           {
@@ -1964,6 +2045,10 @@
           {
             "source": "libwebp",
             "target": "ffmpeg"
+          },
+          {
+            "source": "libwebp",
+            "target": "libgd"
           },
           {
             "source": "libwebp",
@@ -2660,6 +2745,10 @@
           {
             "source": "p11-kit",
             "target": "systemd"
+          },
+          {
+            "source": "pango",
+            "target": "graphviz"
           },
           {
             "source": "pango",
@@ -4279,6 +4368,10 @@
           },
           {
             "source": "xorg-util-macros",
+            "target": "graphviz"
+          },
+          {
+            "source": "xorg-util-macros",
             "target": "gtk3"
           },
           {
@@ -4479,6 +4572,10 @@
           },
           {
             "source": "xz",
+            "target": "graphviz"
+          },
+          {
+            "source": "xz",
             "target": "gtk3"
           },
           {
@@ -4635,6 +4732,10 @@
           },
           {
             "source": "zlib",
+            "target": "graphviz"
+          },
+          {
+            "source": "zlib",
             "target": "grpc-cpp"
           },
           {
@@ -4664,6 +4765,10 @@
           {
             "source": "zlib",
             "target": "libdecor"
+          },
+          {
+            "source": "zlib",
+            "target": "libgd"
           },
           {
             "source": "zlib",
@@ -5383,6 +5488,12 @@
             }
           },
           {
+            "id": "graphviz",
+            "payload": {
+              "__lazy_json__": "node_attrs/graphviz.json"
+            }
+          },
+          {
             "id": "greenlet",
             "payload": {
               "__lazy_json__": "node_attrs/greenlet.json"
@@ -5416,6 +5527,12 @@
             "id": "gtk3",
             "payload": {
               "__lazy_json__": "node_attrs/gtk3.json"
+            }
+          },
+          {
+            "id": "gts",
+            "payload": {
+              "__lazy_json__": "node_attrs/gts.json"
             }
           },
           {
@@ -5692,6 +5809,12 @@
             "id": "libgcrypt",
             "payload": {
               "__lazy_json__": "node_attrs/libgcrypt.json"
+            }
+          },
+          {
+            "id": "libgd",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgd.json"
             }
           },
           {
@@ -7325,6 +7448,7 @@
         "coreutils",
         "ffmpeg",
         "git",
+        "graphviz",
         "jinja2",
         "libjpeg-turbo",
         "libpng",
