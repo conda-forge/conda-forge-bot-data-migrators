@@ -59,6 +59,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/z5py.json"
             }
+          },
+          {
+            "id": "pynvvideocodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynvvideocodec.json"
+            }
           }
         ]
       }
@@ -38612,6 +38618,10 @@
           },
           {
             "source": "numpy",
+            "target": "pynvvideocodec"
+          },
+          {
+            "source": "numpy",
             "target": "pyobjcryst"
           },
           {
@@ -51420,6 +51430,10 @@
           },
           {
             "source": "pynumpress",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pynvvideocodec",
             "target": "conda-forge-pinning"
           },
           {
@@ -77137,6 +77151,10 @@
           {
             "source": "tbb",
             "target": "pynumpress"
+          },
+          {
+            "source": "tbb",
+            "target": "pynvvideocodec"
           },
           {
             "source": "tbb",
@@ -106893,6 +106911,12 @@
             "id": "zope.security",
             "payload": {
               "__lazy_json__": "node_attrs/zope.security.json"
+            }
+          },
+          {
+            "id": "pynvvideocodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynvvideocodec.json"
             }
           }
         ]
