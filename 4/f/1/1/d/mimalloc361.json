@@ -54,26 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "aligator",
-            "payload": {
-              "__lazy_json__": "node_attrs/aligator.json"
-            }
-          },
-          {
-            "id": "hpx",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpx.json"
-            }
-          },
-          {
-            "id": "panda3d",
-            "payload": {
-              "__lazy_json__": "node_attrs/panda3d.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -305,7 +286,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
