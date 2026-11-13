@@ -163,19 +163,11 @@
           },
           {
             "source": "backports.zstd",
-            "target": "awscli"
-          },
-          {
-            "source": "backports.zstd",
             "target": "conda"
           },
           {
             "source": "backports.zstd",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "dulwich"
           },
           {
             "source": "backports.zstd",
@@ -275,19 +267,11 @@
           },
           {
             "source": "brotli",
-            "target": "awscli"
-          },
-          {
-            "source": "brotli",
             "target": "conda"
           },
           {
             "source": "brotli",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "brotli",
-            "target": "dulwich"
           },
           {
             "source": "brotli",
@@ -2256,6 +2240,14 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -6139,6 +6131,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -7518,6 +7516,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
