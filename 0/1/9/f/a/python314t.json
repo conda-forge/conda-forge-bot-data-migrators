@@ -57,7 +57,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "python-lzf",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzf.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -511,6 +518,18 @@
           {
             "source": "backports.zstd",
             "target": "fastar"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fluidfft"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fluidimage"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fluidsim"
           },
           {
             "source": "backports.zstd",
@@ -1063,6 +1082,18 @@
           {
             "source": "brotli",
             "target": "ewah-bool-utils"
+          },
+          {
+            "source": "brotli",
+            "target": "fluidfft"
+          },
+          {
+            "source": "brotli",
+            "target": "fluidimage"
+          },
+          {
+            "source": "brotli",
+            "target": "fluidsim"
           },
           {
             "source": "brotli",
@@ -6010,6 +6041,26 @@
           },
           {
             "source": "numcodecs",
+            "target": "fluidfft"
+          },
+          {
+            "source": "numcodecs",
+            "target": "fluidimage"
+          },
+          {
+            "source": "numcodecs",
+            "target": "fluidsim"
+          },
+          {
+            "source": "numcodecs",
+            "target": "gridmarthe"
+          },
+          {
+            "source": "numcodecs",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "numcodecs",
             "target": "rosettasciio"
           },
           {
@@ -9349,6 +9400,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "python-lzf",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "python-marisa-trie",
             "target": "conda-forge-pinning"
           },
@@ -10174,7 +10229,15 @@
           },
           {
             "source": "rpds-py",
+            "target": "gridmarthe"
+          },
+          {
+            "source": "rpds-py",
             "target": "mne-lsl"
+          },
+          {
+            "source": "rpds-py",
+            "target": "pyart_mch"
           },
           {
             "source": "rpds-py",
@@ -12943,6 +13006,10 @@
           {
             "source": "tbb",
             "target": "python-lmdb"
+          },
+          {
+            "source": "tbb",
+            "target": "python-lzf"
           },
           {
             "source": "tbb",
@@ -17773,6 +17840,12 @@
             "id": "python-lmdb",
             "payload": {
               "__lazy_json__": "node_attrs/python-lmdb.json"
+            }
+          },
+          {
+            "id": "python-lzf",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzf.json"
             }
           },
           {
