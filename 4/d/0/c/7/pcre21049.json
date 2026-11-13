@@ -54,20 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "enumlib.jl",
-            "payload": {
-              "__lazy_json__": "node_attrs/enumlib.jl.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -226,10 +213,6 @@
           },
           {
             "source": "nginx",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "php",
             "target": "conda-forge-pinning"
           },
           {
@@ -419,12 +402,6 @@
             "id": "nginx",
             "payload": {
               "__lazy_json__": "node_attrs/nginx.json"
-            }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
