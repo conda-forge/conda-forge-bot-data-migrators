@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "google-cloud-cpp-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-core.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
@@ -14426,10 +14432,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "atk"
-          },
-          {
-            "source": "pkg-config",
             "target": "aws-c-cal"
           },
           {
@@ -14515,10 +14517,6 @@
           {
             "source": "pkg-config",
             "target": "gdk-pixbuf"
-          },
-          {
-            "source": "pkg-config",
-            "target": "glib"
           },
           {
             "source": "pkg-config",
@@ -15094,6 +15092,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "atk"
+          },
+          {
+            "source": "pkgconf",
             "target": "conda-deny"
           },
           {
@@ -15103,6 +15105,10 @@
           {
             "source": "pkgconf",
             "target": "gdal"
+          },
+          {
+            "source": "pkgconf",
+            "target": "glib"
           },
           {
             "source": "pkgconf",
@@ -21511,6 +21517,10 @@
           {
             "source": "zlib",
             "target": "at-spi2-core"
+          },
+          {
+            "source": "zlib",
+            "target": "atk"
           },
           {
             "source": "zlib",
