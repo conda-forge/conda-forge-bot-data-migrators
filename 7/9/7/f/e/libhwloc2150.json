@@ -52,52 +52,13 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "intel-compiler-repack",
-            "target": "hpx"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "kokkos"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "libnvshmem"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "mvapich"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "pastix"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "spral"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "tblis"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "tt-metalium"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
             "id": "hpx",
             "payload": {
               "__lazy_json__": "node_attrs/hpx.json"
-            }
-          },
-          {
-            "id": "intel-compiler-repack",
-            "payload": {
-              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
             }
           },
           {
@@ -113,21 +74,9 @@
             }
           },
           {
-            "id": "mvapich",
-            "payload": {
-              "__lazy_json__": "node_attrs/mvapich.json"
-            }
-          },
-          {
             "id": "pastix",
             "payload": {
               "__lazy_json__": "node_attrs/pastix.json"
-            }
-          },
-          {
-            "id": "spral",
-            "payload": {
-              "__lazy_json__": "node_attrs/spral.json"
             }
           },
           {
@@ -718,7 +667,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
