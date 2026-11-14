@@ -60,24 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/kokkos.json"
             }
-          },
-          {
-            "id": "pastix",
-            "payload": {
-              "__lazy_json__": "node_attrs/pastix.json"
-            }
-          },
-          {
-            "id": "tblis",
-            "payload": {
-              "__lazy_json__": "node_attrs/tblis.json"
-            }
-          },
-          {
-            "id": "tt-metalium",
-            "payload": {
-              "__lazy_json__": "node_attrs/tt-metalium.json"
-            }
           }
         ]
       }
@@ -655,7 +637,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
