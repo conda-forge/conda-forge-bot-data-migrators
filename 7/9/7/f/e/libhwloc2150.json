@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libhwloc 2.15.0\n  kind: version\n  migration_number: 1\nlibhwloc:\n- 2.15.0\nmigrator_ts: 1794007402.0872786\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libhwloc 2.15.0\n  kind: version\n  migration_number: 2\nlibhwloc:\n- 2.15.0\nmigrator_ts: 1794007402.0872786\n",
     "libhwloc2150"
   ],
   "class": "MigrationYaml",
@@ -536,7 +536,7 @@
     "ignored_deps_per_node": null,
     "kind": "version",
     "longterm": false,
-    "migration_number": 1,
+    "migration_number": 2,
     "package_names": {
       "__set__": true,
       "elements": [
@@ -630,7 +630,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 2,
     "top_level": {
       "__set__": true,
       "elements": []
