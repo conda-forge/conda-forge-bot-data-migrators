@@ -56,30 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "chafa",
-            "payload": {
-              "__lazy_json__": "node_attrs/chafa.json"
-            }
-          },
-          {
-            "id": "glycin_and_loaders",
-            "payload": {
-              "__lazy_json__": "node_attrs/glycin_and_loaders.json"
-            }
-          },
-          {
-            "id": "imagemagick",
-            "payload": {
-              "__lazy_json__": "node_attrs/imagemagick.json"
-            }
-          },
-          {
-            "id": "jxlpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/jxlpy.json"
-            }
-          },
-          {
             "id": "opencv",
             "payload": {
               "__lazy_json__": "node_attrs/opencv.json"
@@ -89,12 +65,6 @@
             "id": "openimageio",
             "payload": {
               "__lazy_json__": "node_attrs/openimageio.json"
-            }
-          },
-          {
-            "id": "webkit2gtk4.1",
-            "payload": {
-              "__lazy_json__": "node_attrs/webkit2gtk4.1.json"
             }
           }
         ]
@@ -387,7 +357,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
