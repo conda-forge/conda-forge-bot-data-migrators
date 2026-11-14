@@ -62,12 +62,6 @@
             }
           },
           {
-            "id": "gdal",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdal.json"
-            }
-          },
-          {
             "id": "glycin_and_loaders",
             "payload": {
               "__lazy_json__": "node_attrs/glycin_and_loaders.json"
@@ -89,6 +83,18 @@
             "id": "jxlpy",
             "payload": {
               "__lazy_json__": "node_attrs/jxlpy.json"
+            }
+          },
+          {
+            "id": "opencv",
+            "payload": {
+              "__lazy_json__": "node_attrs/opencv.json"
+            }
+          },
+          {
+            "id": "openimageio",
+            "payload": {
+              "__lazy_json__": "node_attrs/openimageio.json"
             }
           },
           {
@@ -387,7 +393,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
