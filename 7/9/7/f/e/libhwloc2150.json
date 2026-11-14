@@ -52,9 +52,127 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "intel-compiler-repack",
+            "target": "hpx"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "kokkos"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "libnvshmem"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "mpich"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "mvapich"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "openpmix"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "pastix"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "pocl"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "spral"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "tblis"
+          },
+          {
+            "source": "intel-compiler-repack",
+            "target": "tt-metalium"
+          }
+        ],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "hpx",
+            "payload": {
+              "__lazy_json__": "node_attrs/hpx.json"
+            }
+          },
+          {
+            "id": "intel-compiler-repack",
+            "payload": {
+              "__lazy_json__": "node_attrs/intel-compiler-repack.json"
+            }
+          },
+          {
+            "id": "kokkos",
+            "payload": {
+              "__lazy_json__": "node_attrs/kokkos.json"
+            }
+          },
+          {
+            "id": "libnvshmem",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvshmem.json"
+            }
+          },
+          {
+            "id": "mpich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mpich.json"
+            }
+          },
+          {
+            "id": "mvapich",
+            "payload": {
+              "__lazy_json__": "node_attrs/mvapich.json"
+            }
+          },
+          {
+            "id": "openpmix",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpmix.json"
+            }
+          },
+          {
+            "id": "pastix",
+            "payload": {
+              "__lazy_json__": "node_attrs/pastix.json"
+            }
+          },
+          {
+            "id": "pocl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pocl.json"
+            }
+          },
+          {
+            "id": "spral",
+            "payload": {
+              "__lazy_json__": "node_attrs/spral.json"
+            }
+          },
+          {
+            "id": "tblis",
+            "payload": {
+              "__lazy_json__": "node_attrs/tblis.json"
+            }
+          },
+          {
+            "id": "tt-metalium",
+            "payload": {
+              "__lazy_json__": "node_attrs/tt-metalium.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
