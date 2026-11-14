@@ -67,23 +67,11 @@
           },
           {
             "source": "intel-compiler-repack",
-            "target": "mpich"
-          },
-          {
-            "source": "intel-compiler-repack",
             "target": "mvapich"
           },
           {
             "source": "intel-compiler-repack",
-            "target": "openpmix"
-          },
-          {
-            "source": "intel-compiler-repack",
             "target": "pastix"
-          },
-          {
-            "source": "intel-compiler-repack",
-            "target": "pocl"
           },
           {
             "source": "intel-compiler-repack",
@@ -125,33 +113,15 @@
             }
           },
           {
-            "id": "mpich",
-            "payload": {
-              "__lazy_json__": "node_attrs/mpich.json"
-            }
-          },
-          {
             "id": "mvapich",
             "payload": {
               "__lazy_json__": "node_attrs/mvapich.json"
             }
           },
           {
-            "id": "openpmix",
-            "payload": {
-              "__lazy_json__": "node_attrs/openpmix.json"
-            }
-          },
-          {
             "id": "pastix",
             "payload": {
               "__lazy_json__": "node_attrs/pastix.json"
-            }
-          },
-          {
-            "id": "pocl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pocl.json"
             }
           },
           {
@@ -748,7 +718,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
