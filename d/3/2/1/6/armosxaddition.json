@@ -12427,6 +12427,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "cppyy-cling"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "gdb"
           },
           {
@@ -16644,10 +16648,6 @@
           {
             "source": "compilers",
             "target": "camb"
-          },
-          {
-            "source": "compilers",
-            "target": "cppyy-cling"
           },
           {
             "source": "compilers",
