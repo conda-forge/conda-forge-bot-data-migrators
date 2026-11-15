@@ -409,6 +409,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "asyncpg",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "audioop-lts",
             "target": "conda-forge-pinning"
           },
@@ -2838,6 +2842,10 @@
           },
           {
             "source": "cython",
+            "target": "pymssql"
+          },
+          {
+            "source": "cython",
             "target": "pynini"
           },
           {
@@ -3946,6 +3954,10 @@
           },
           {
             "source": "greenlet",
+            "target": "sqlalchemy"
+          },
+          {
+            "source": "greenlet",
             "target": "wisdem"
           },
           {
@@ -5045,6 +5057,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "mariadb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mariadb",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "markupsafe",
             "target": "apache-beam"
           },
@@ -5889,8 +5909,20 @@
             "target": "wisdem"
           },
           {
+            "source": "mysql-connector-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysql-connector-python",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "mysqlclient",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysqlclient",
+            "target": "sqlalchemy"
           },
           {
             "source": "nanoarrow",
@@ -7389,6 +7421,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "oracledb",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "orange3-associate",
             "target": "conda-forge-pinning"
           },
@@ -8457,6 +8493,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "psycopg2",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "ptufile",
             "target": "conda-forge-pinning"
           },
@@ -8873,6 +8913,14 @@
             "target": "pymongoarrow"
           },
           {
+            "source": "pymssql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pymssql",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "pymunk",
             "target": "conda-forge-pinning"
           },
@@ -9159,6 +9207,10 @@
           {
             "source": "pyodbc",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyodbc",
+            "target": "sqlalchemy"
           },
           {
             "source": "pyodps",
@@ -12130,6 +12182,10 @@
           },
           {
             "source": "tbb",
+            "target": "mariadb"
+          },
+          {
+            "source": "tbb",
             "target": "markupsafe"
           },
           {
@@ -12251,6 +12307,10 @@
           {
             "source": "tbb",
             "target": "mypy"
+          },
+          {
+            "source": "tbb",
+            "target": "mysql-connector-python"
           },
           {
             "source": "tbb",
@@ -12759,6 +12819,10 @@
           {
             "source": "tbb",
             "target": "pymongoarrow"
+          },
+          {
+            "source": "tbb",
+            "target": "pymssql"
           },
           {
             "source": "tbb",
@@ -16534,6 +16598,12 @@
             }
           },
           {
+            "id": "mariadb",
+            "payload": {
+              "__lazy_json__": "node_attrs/mariadb.json"
+            }
+          },
+          {
             "id": "markupsafe",
             "payload": {
               "__lazy_json__": "node_attrs/markupsafe.json"
@@ -16717,6 +16787,12 @@
             "id": "mypy",
             "payload": {
               "__lazy_json__": "node_attrs/mypy.json"
+            }
+          },
+          {
+            "id": "mysql-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql-connector-python.json"
             }
           },
           {
@@ -17473,6 +17549,12 @@
             "id": "pymongoarrow",
             "payload": {
               "__lazy_json__": "node_attrs/pymongoarrow.json"
+            }
+          },
+          {
+            "id": "pymssql",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymssql.json"
             }
           },
           {
