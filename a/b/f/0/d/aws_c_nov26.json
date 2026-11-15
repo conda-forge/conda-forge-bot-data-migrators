@@ -55,21 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aws-c-auth",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-auth.json"
-            }
-          },
-          {
             "id": "aws-c-event-stream",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-event-stream.json"
             }
           },
           {
-            "id": "aws-c-mqtt",
+            "id": "aws-c-s3",
             "payload": {
-              "__lazy_json__": "node_attrs/aws-c-mqtt.json"
+              "__lazy_json__": "node_attrs/aws-c-s3.json"
             }
           }
         ]
@@ -371,7 +365,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
