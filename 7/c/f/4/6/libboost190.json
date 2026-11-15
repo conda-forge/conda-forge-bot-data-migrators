@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "freefem",
+            "payload": {
+              "__lazy_json__": "node_attrs/freefem.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -741,6 +748,10 @@
           },
           {
             "source": "freecad",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "freefem",
             "target": "conda-forge-pinning"
           },
           {
@@ -2657,6 +2668,10 @@
           },
           {
             "source": "vtk",
+            "target": "freefem"
+          },
+          {
+            "source": "vtk",
             "target": "gbs"
           },
           {
@@ -3194,6 +3209,12 @@
             "id": "freecad",
             "payload": {
               "__lazy_json__": "node_attrs/freecad.json"
+            }
+          },
+          {
+            "id": "freefem",
+            "payload": {
+              "__lazy_json__": "node_attrs/freefem.json"
             }
           },
           {
