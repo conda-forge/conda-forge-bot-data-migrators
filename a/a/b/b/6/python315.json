@@ -2389,6 +2389,10 @@
             "target": "nomad-camels"
           },
           {
+            "source": "asyncpg",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "atari_py",
             "target": "conda-forge-pinning"
           },
@@ -20302,6 +20306,10 @@
           },
           {
             "source": "greenlet",
+            "target": "sqlalchemy"
+          },
+          {
+            "source": "greenlet",
             "target": "ssh-ipykernel"
           },
           {
@@ -25883,6 +25891,10 @@
           {
             "source": "mariadb",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mariadb",
+            "target": "sqlalchemy"
           },
           {
             "source": "marimo",
@@ -31937,6 +31949,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "mysql-connector-python",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "mysqlclient",
             "target": "allennlp"
           },
@@ -31955,6 +31971,10 @@
           {
             "source": "mysqlclient",
             "target": "pandas-plink"
+          },
+          {
+            "source": "mysqlclient",
+            "target": "sqlalchemy"
           },
           {
             "source": "mysqlclient",
@@ -41789,6 +41809,10 @@
             "target": "pandas-plink"
           },
           {
+            "source": "oracledb",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "orange3-associate",
             "target": "conda-forge-pinning"
           },
@@ -48222,6 +48246,10 @@
           },
           {
             "source": "psycopg2",
+            "target": "sqlalchemy"
+          },
+          {
+            "source": "psycopg2",
             "target": "stackvana-core"
           },
           {
@@ -51353,6 +51381,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pymssql",
+            "target": "sqlalchemy"
+          },
+          {
             "source": "pymt_cem",
             "target": "conda-forge-pinning"
           },
@@ -52107,6 +52139,10 @@
           {
             "source": "pyodbc",
             "target": "pytsql"
+          },
+          {
+            "source": "pyodbc",
+            "target": "sqlalchemy"
           },
           {
             "source": "pyodeint",
