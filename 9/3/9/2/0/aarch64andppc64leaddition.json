@@ -1723,6 +1723,10 @@
           },
           {
             "source": "autoconf",
+            "target": "php"
+          },
+          {
+            "source": "autoconf",
             "target": "planarity"
           },
           {
@@ -6823,6 +6827,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -7604,6 +7612,10 @@
           {
             "source": "bash",
             "target": "photutils"
+          },
+          {
+            "source": "bash",
+            "target": "php"
           },
           {
             "source": "bash",
@@ -12323,6 +12335,10 @@
           },
           {
             "source": "bison",
+            "target": "php"
+          },
+          {
+            "source": "bison",
             "target": "postgresql"
           },
           {
@@ -14122,6 +14138,10 @@
             "target": "py-rattler"
           },
           {
+            "source": "brush",
+            "target": "quantizr"
+          },
+          {
             "source": "btrfs-progs",
             "target": "buildah"
           },
@@ -14296,6 +14316,10 @@
           {
             "source": "bzip2",
             "target": "pcre2"
+          },
+          {
+            "source": "bzip2",
+            "target": "php"
           },
           {
             "source": "bzip2",
@@ -15423,6 +15447,10 @@
           },
           {
             "source": "cargo-bundle-licenses",
+            "target": "quantizr"
+          },
+          {
+            "source": "cargo-bundle-licenses",
             "target": "quarto"
           },
           {
@@ -15672,6 +15700,10 @@
           {
             "source": "cargo-c",
             "target": "librsvg"
+          },
+          {
+            "source": "cargo-c",
+            "target": "quantizr"
           },
           {
             "source": "cargo-c",
@@ -18976,6 +19008,10 @@
           {
             "source": "cmake",
             "target": "mesalib"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -24512,6 +24548,10 @@
           {
             "source": "curl",
             "target": "pari"
+          },
+          {
+            "source": "curl",
+            "target": "php"
           },
           {
             "source": "curl",
@@ -32975,6 +33015,10 @@
           },
           {
             "source": "gmp",
+            "target": "php"
+          },
+          {
+            "source": "gmp",
             "target": "ppl"
           },
           {
@@ -36339,6 +36383,10 @@
           },
           {
             "source": "icu",
+            "target": "php"
+          },
+          {
+            "source": "icu",
             "target": "postgresql"
           },
           {
@@ -38658,6 +38706,10 @@
             "target": "libfido2"
           },
           {
+            "source": "libcgif",
+            "target": "libvips"
+          },
+          {
             "source": "libconfig",
             "target": "ldc"
           },
@@ -40951,6 +41003,10 @@
           },
           {
             "source": "libiconv",
+            "target": "php"
+          },
+          {
+            "source": "libiconv",
             "target": "poppler"
           },
           {
@@ -42612,6 +42668,10 @@
           {
             "source": "libsodium",
             "target": "oidc-agent"
+          },
+          {
+            "source": "libsodium",
+            "target": "php"
           },
           {
             "source": "libsodium",
@@ -45259,6 +45319,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -46036,6 +46100,10 @@
           {
             "source": "libtool",
             "target": "photutils"
+          },
+          {
+            "source": "libtool",
+            "target": "php"
           },
           {
             "source": "libtool",
@@ -49419,6 +49487,10 @@
           },
           {
             "source": "libultrahdr",
+            "target": "libvips"
+          },
+          {
+            "source": "libultrahdr",
             "target": "openimageio"
           },
           {
@@ -51119,6 +51191,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "pinocchio"
           },
           {
@@ -51483,6 +51559,10 @@
           },
           {
             "source": "libxslt",
+            "target": "php"
+          },
+          {
+            "source": "libxslt",
             "target": "postgresql"
           },
           {
@@ -51524,6 +51604,10 @@
           {
             "source": "libzip",
             "target": "libnetcdf"
+          },
+          {
+            "source": "libzip",
+            "target": "php"
           },
           {
             "source": "libzip",
@@ -54282,6 +54366,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56872,6 +57012,10 @@
           {
             "source": "ninja",
             "target": "libbson"
+          },
+          {
+            "source": "ninja",
+            "target": "libcgif"
           },
           {
             "source": "ninja",
@@ -61119,6 +61263,10 @@
           },
           {
             "source": "oniguruma",
+            "target": "php"
+          },
+          {
+            "source": "oniguruma",
             "target": "slang"
           },
           {
@@ -63015,6 +63163,10 @@
           },
           {
             "source": "openssl",
+            "target": "php"
+          },
+          {
+            "source": "openssl",
             "target": "pillow"
           },
           {
@@ -64516,6 +64668,10 @@
           {
             "source": "pcre2",
             "target": "libgit2"
+          },
+          {
+            "source": "pcre2",
+            "target": "php"
           },
           {
             "source": "pcre2",
@@ -66123,6 +66279,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libcgif"
+          },
+          {
+            "source": "pkg-config",
             "target": "libcst"
           },
           {
@@ -66848,6 +67008,10 @@
           {
             "source": "pkg-config",
             "target": "photutils"
+          },
+          {
+            "source": "pkg-config",
+            "target": "php"
           },
           {
             "source": "pkg-config",
@@ -68183,6 +68347,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "quantizr"
+          },
+          {
+            "source": "pkgconf",
             "target": "rw"
           },
           {
@@ -68668,6 +68836,10 @@
           {
             "source": "postgresql",
             "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -73068,6 +73240,10 @@
           {
             "source": "python",
             "target": "libblst"
+          },
+          {
+            "source": "python",
+            "target": "libcgif"
           },
           {
             "source": "python",
@@ -78296,6 +78472,10 @@
           {
             "source": "qtkeychain",
             "target": "qgis"
+          },
+          {
+            "source": "quantizr",
+            "target": "libvips"
           },
           {
             "source": "qutip",
@@ -87938,6 +88118,10 @@
             "target": "clingo"
           },
           {
+            "source": "re2c",
+            "target": "php"
+          },
+          {
             "source": "re2",
             "target": "google-re2"
           },
@@ -88048,6 +88232,10 @@
           {
             "source": "readline",
             "target": "pari"
+          },
+          {
+            "source": "readline",
+            "target": "php"
           },
           {
             "source": "readline",
@@ -92427,6 +92615,10 @@
           },
           {
             "source": "sqlite",
+            "target": "php"
+          },
+          {
+            "source": "sqlite",
             "target": "proj.4"
           },
           {
@@ -95120,6 +95312,10 @@
           {
             "source": "util-linux",
             "target": "lbzip2"
+          },
+          {
+            "source": "util-linux",
+            "target": "php"
           },
           {
             "source": "util-linux",
@@ -102091,6 +102287,10 @@
           },
           {
             "source": "zlib-ng",
+            "target": "php"
+          },
+          {
+            "source": "zlib-ng",
             "target": "pillow"
           },
           {
@@ -103444,6 +103644,10 @@
           {
             "source": "zlib",
             "target": "photutils"
+          },
+          {
+            "source": "zlib",
+            "target": "php"
           },
           {
             "source": "zlib",
@@ -110355,6 +110559,12 @@
             }
           },
           {
+            "id": "libcgif",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcgif.json"
+            }
+          },
+          {
             "id": "libcint",
             "payload": {
               "__lazy_json__": "node_attrs/libcint.json"
@@ -111972,6 +112182,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -113718,6 +113934,12 @@
             "id": "photutils",
             "payload": {
               "__lazy_json__": "node_attrs/photutils.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
@@ -120804,6 +121026,12 @@
             "id": "typst-gather",
             "payload": {
               "__lazy_json__": "node_attrs/typst-gather.json"
+            }
+          },
+          {
+            "id": "quantizr",
+            "payload": {
+              "__lazy_json__": "node_attrs/quantizr.json"
             }
           }
         ]
