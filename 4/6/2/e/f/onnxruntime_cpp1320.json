@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "fastframes",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/fastframes.json"
-            }
-          },
-          {
-            "id": "magika-cli",
-            "payload": {
-              "__lazy_json__": "node_attrs/magika-cli.json"
-            }
-          },
-          {
-            "id": "onnxruntime-ep-openvino",
-            "payload": {
-              "__lazy_json__": "node_attrs/onnxruntime-ep-openvino.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -287,7 +275,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
