@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "bipedal-locomotion-framework",
-            "payload": {
-              "__lazy_json__": "node_attrs/bipedal-locomotion-framework.json"
-            }
-          },
-          {
             "id": "fastframes",
             "payload": {
               "__lazy_json__": "node_attrs/fastframes.json"
-            }
-          },
-          {
-            "id": "libholoscan",
-            "payload": {
-              "__lazy_json__": "node_attrs/libholoscan.json"
             }
           },
           {
@@ -299,7 +287,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
