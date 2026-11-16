@@ -55,9 +55,45 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "icub-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/icub-main.json"
+            }
+          },
+          {
             "id": "json-stream-rs-tokenizer",
             "payload": {
               "__lazy_json__": "node_attrs/json-stream-rs-tokenizer.json"
+            }
+          },
+          {
+            "id": "ligo-raven",
+            "payload": {
+              "__lazy_json__": "node_attrs/ligo-raven.json"
+            }
+          },
+          {
+            "id": "pyvkfft",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyvkfft.json"
+            }
+          },
+          {
+            "id": "redlionfish",
+            "payload": {
+              "__lazy_json__": "node_attrs/redlionfish.json"
+            }
+          },
+          {
+            "id": "toasty",
+            "payload": {
+              "__lazy_json__": "node_attrs/toasty.json"
+            }
+          },
+          {
+            "id": "trintrin",
+            "payload": {
+              "__lazy_json__": "node_attrs/trintrin.json"
             }
           }
         ]
