@@ -134,6 +134,10 @@
           },
           {
             "source": "brotli",
+            "target": "eventio"
+          },
+          {
+            "source": "brotli",
             "target": "exoplanet-core"
           },
           {
@@ -382,10 +386,6 @@
           },
           {
             "source": "cython",
-            "target": "cytoolz"
-          },
-          {
-            "source": "cython",
             "target": "daqp"
           },
           {
@@ -418,11 +418,11 @@
           },
           {
             "source": "cython",
-            "target": "exoplanet-core"
+            "target": "eventio"
           },
           {
             "source": "cython",
-            "target": "falcon"
+            "target": "exoplanet-core"
           },
           {
             "source": "cython",
@@ -558,10 +558,6 @@
           },
           {
             "source": "cython",
-            "target": "nanoarrow"
-          },
-          {
-            "source": "cython",
             "target": "ndindex"
           },
           {
@@ -670,10 +666,6 @@
           },
           {
             "source": "cython",
-            "target": "pyyaml"
-          },
-          {
-            "source": "cython",
             "target": "quaternion"
           },
           {
@@ -763,258 +755,6 @@
           {
             "source": "cython",
             "target": "zmesh"
-          },
-          {
-            "source": "pyyaml",
-            "target": "arraykit"
-          },
-          {
-            "source": "pyyaml",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "pyyaml",
-            "target": "bermuda"
-          },
-          {
-            "source": "pyyaml",
-            "target": "biopython"
-          },
-          {
-            "source": "pyyaml",
-            "target": "boost-histogram"
-          },
-          {
-            "source": "pyyaml",
-            "target": "bottleneck"
-          },
-          {
-            "source": "pyyaml",
-            "target": "celerite2"
-          },
-          {
-            "source": "pyyaml",
-            "target": "celiagg"
-          },
-          {
-            "source": "pyyaml",
-            "target": "condeltri"
-          },
-          {
-            "source": "pyyaml",
-            "target": "connected-components-3d"
-          },
-          {
-            "source": "pyyaml",
-            "target": "contourpy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "cupy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "daqp"
-          },
-          {
-            "source": "pyyaml",
-            "target": "dimod"
-          },
-          {
-            "source": "pyyaml",
-            "target": "dpctl"
-          },
-          {
-            "source": "pyyaml",
-            "target": "ducc0"
-          },
-          {
-            "source": "pyyaml",
-            "target": "edt"
-          },
-          {
-            "source": "pyyaml",
-            "target": "endf"
-          },
-          {
-            "source": "pyyaml",
-            "target": "eudist"
-          },
-          {
-            "source": "pyyaml",
-            "target": "exoplanet-core"
-          },
-          {
-            "source": "pyyaml",
-            "target": "fastremap"
-          },
-          {
-            "source": "pyyaml",
-            "target": "fitsio"
-          },
-          {
-            "source": "pyyaml",
-            "target": "flt"
-          },
-          {
-            "source": "pyyaml",
-            "target": "geomad"
-          },
-          {
-            "source": "pyyaml",
-            "target": "highspy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "hybgensea"
-          },
-          {
-            "source": "pyyaml",
-            "target": "iminuit"
-          },
-          {
-            "source": "pyyaml",
-            "target": "jenkspy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "jsbsim"
-          },
-          {
-            "source": "pyyaml",
-            "target": "lsstdesc.coord"
-          },
-          {
-            "source": "pyyaml",
-            "target": "mapbox_earcut"
-          },
-          {
-            "source": "pyyaml",
-            "target": "meshpy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "mkl_random"
-          },
-          {
-            "source": "pyyaml",
-            "target": "mkl_umath"
-          },
-          {
-            "source": "pyyaml",
-            "target": "ml_dtypes"
-          },
-          {
-            "source": "pyyaml",
-            "target": "mlx"
-          },
-          {
-            "source": "pyyaml",
-            "target": "ms_entropy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "mt2"
-          },
-          {
-            "source": "pyyaml",
-            "target": "nlopt"
-          },
-          {
-            "source": "pyyaml",
-            "target": "nmslib"
-          },
-          {
-            "source": "pyyaml",
-            "target": "numexpr"
-          },
-          {
-            "source": "pyyaml",
-            "target": "numpy_quaddtype"
-          },
-          {
-            "source": "pyyaml",
-            "target": "ojph"
-          },
-          {
-            "source": "pyyaml",
-            "target": "partsegcore-compiled-backend"
-          },
-          {
-            "source": "pyyaml",
-            "target": "poselib"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pyhams"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pyhdf"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pykdtree"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pymef"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pyopengl-accelerate"
-          },
-          {
-            "source": "pyyaml",
-            "target": "python-duckdb"
-          },
-          {
-            "source": "pyyaml",
-            "target": "python-suitesparse-graphblas"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pywavelets"
-          },
-          {
-            "source": "pyyaml",
-            "target": "quaternion"
-          },
-          {
-            "source": "pyyaml",
-            "target": "rapidfuzz"
-          },
-          {
-            "source": "pyyaml",
-            "target": "shapely"
-          },
-          {
-            "source": "pyyaml",
-            "target": "spinsfast"
-          },
-          {
-            "source": "pyyaml",
-            "target": "transformations"
-          },
-          {
-            "source": "pyyaml",
-            "target": "vispy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "warp-lang"
-          },
-          {
-            "source": "pyyaml",
-            "target": "yggdrasil-rapidjson"
-          },
-          {
-            "source": "pyyaml",
-            "target": "zfpy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "zmesh"
           }
         ],
         "multigraph": false,
@@ -1035,12 +775,6 @@
             "id": "apsw",
             "payload": {
               "__lazy_json__": "node_attrs/apsw.json"
-            }
-          },
-          {
-            "id": "argon2-cffi-bindings",
-            "payload": {
-              "__lazy_json__": "node_attrs/argon2-cffi-bindings.json"
             }
           },
           {
@@ -1230,12 +964,6 @@
             }
           },
           {
-            "id": "cytoolz",
-            "payload": {
-              "__lazy_json__": "node_attrs/cytoolz.json"
-            }
-          },
-          {
             "id": "daqp",
             "payload": {
               "__lazy_json__": "node_attrs/daqp.json"
@@ -1290,15 +1018,15 @@
             }
           },
           {
-            "id": "exoplanet-core",
+            "id": "eventio",
             "payload": {
-              "__lazy_json__": "node_attrs/exoplanet-core.json"
+              "__lazy_json__": "node_attrs/eventio.json"
             }
           },
           {
-            "id": "falcon",
+            "id": "exoplanet-core",
             "payload": {
-              "__lazy_json__": "node_attrs/falcon.json"
+              "__lazy_json__": "node_attrs/exoplanet-core.json"
             }
           },
           {
@@ -1620,12 +1348,6 @@
             }
           },
           {
-            "id": "nanoarrow",
-            "payload": {
-              "__lazy_json__": "node_attrs/nanoarrow.json"
-            }
-          },
-          {
             "id": "ndindex",
             "payload": {
               "__lazy_json__": "node_attrs/ndindex.json"
@@ -1938,12 +1660,6 @@
             }
           },
           {
-            "id": "pyyaml",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyyaml.json"
-            }
-          },
-          {
             "id": "quaternion",
             "payload": {
               "__lazy_json__": "node_attrs/quaternion.json"
@@ -2199,12 +1915,6 @@
             "id": "zope.interface",
             "payload": {
               "__lazy_json__": "node_attrs/zope.interface.json"
-            }
-          },
-          {
-            "id": "zstandard",
-            "payload": {
-              "__lazy_json__": "node_attrs/zstandard.json"
             }
           },
           {
