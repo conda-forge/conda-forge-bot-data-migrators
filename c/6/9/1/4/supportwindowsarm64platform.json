@@ -14726,10 +14726,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "numpy"
-          },
-          {
-            "source": "pkg-config",
             "target": "ocl-icd"
           },
           {
@@ -15107,6 +15103,10 @@
           {
             "source": "pkgconf",
             "target": "lxml"
+          },
+          {
+            "source": "pkgconf",
+            "target": "numpy"
           },
           {
             "source": "pkgconf",
