@@ -16626,6 +16626,10 @@
             "target": "coin-or-cgl"
           },
           {
+            "source": "coin-or-clp",
+            "target": "cyclus"
+          },
+          {
             "source": "coin-or-osi",
             "target": "coin-or-cbc"
           },
@@ -16636,6 +16640,10 @@
           {
             "source": "coin-or-osi",
             "target": "coin-or-clp"
+          },
+          {
+            "source": "coin-or-osi",
+            "target": "cyclus"
           },
           {
             "source": "coin-or-utils",
@@ -16652,6 +16660,10 @@
           {
             "source": "coin-or-utils",
             "target": "coin-or-osi"
+          },
+          {
+            "source": "coin-or-utils",
+            "target": "cyclus"
           },
           {
             "source": "coin3d",
@@ -68187,10 +68199,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "cyclus"
-          },
-          {
-            "source": "pkg-config",
             "target": "cyipopt"
           },
           {
@@ -71032,6 +71040,10 @@
           {
             "source": "pkgconf",
             "target": "cycamore"
+          },
+          {
+            "source": "pkgconf",
+            "target": "cyclus"
           },
           {
             "source": "pkgconf",
