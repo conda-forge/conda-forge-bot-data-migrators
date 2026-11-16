@@ -226,6 +226,10 @@
           },
           {
             "source": "brotli",
+            "target": "pulp"
+          },
+          {
+            "source": "brotli",
             "target": "pyhams"
           },
           {
@@ -247,10 +251,6 @@
           {
             "source": "brotli",
             "target": "python-suitesparse-graphblas"
-          },
-          {
-            "source": "brotli",
-            "target": "pywavelets"
           },
           {
             "source": "brotli",
@@ -320,12 +320,6 @@
             }
           },
           {
-            "id": "audioop-lts",
-            "payload": {
-              "__lazy_json__": "node_attrs/audioop-lts.json"
-            }
-          },
-          {
             "id": "awkward-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/awkward-cpp.json"
@@ -359,12 +353,6 @@
             "id": "brotli",
             "payload": {
               "__lazy_json__": "node_attrs/brotli.json"
-            }
-          },
-          {
-            "id": "cachebox",
-            "payload": {
-              "__lazy_json__": "node_attrs/cachebox.json"
             }
           },
           {
@@ -419,12 +407,6 @@
             "id": "connected-components-3d",
             "payload": {
               "__lazy_json__": "node_attrs/connected-components-3d.json"
-            }
-          },
-          {
-            "id": "cramjam",
-            "payload": {
-              "__lazy_json__": "node_attrs/cramjam.json"
             }
           },
           {
@@ -656,12 +638,6 @@
             }
           },
           {
-            "id": "jiter",
-            "payload": {
-              "__lazy_json__": "node_attrs/jiter.json"
-            }
-          },
-          {
             "id": "jq.py",
             "payload": {
               "__lazy_json__": "node_attrs/jq.py.json"
@@ -701,6 +677,12 @@
             "id": "libvalkey-py",
             "payload": {
               "__lazy_json__": "node_attrs/libvalkey-py.json"
+            }
+          },
+          {
+            "id": "lief",
+            "payload": {
+              "__lazy_json__": "node_attrs/lief.json"
             }
           },
           {
@@ -812,12 +794,6 @@
             }
           },
           {
-            "id": "ndindex",
-            "payload": {
-              "__lazy_json__": "node_attrs/ndindex.json"
-            }
-          },
-          {
             "id": "neuromorphic-drivers",
             "payload": {
               "__lazy_json__": "node_attrs/neuromorphic-drivers.json"
@@ -848,12 +824,6 @@
             }
           },
           {
-            "id": "obstore",
-            "payload": {
-              "__lazy_json__": "node_attrs/obstore.json"
-            }
-          },
-          {
             "id": "ojph",
             "payload": {
               "__lazy_json__": "node_attrs/ojph.json"
@@ -863,12 +833,6 @@
             "id": "openstep-plist",
             "payload": {
               "__lazy_json__": "node_attrs/openstep-plist.json"
-            }
-          },
-          {
-            "id": "ormsgpack",
-            "payload": {
-              "__lazy_json__": "node_attrs/ormsgpack.json"
             }
           },
           {
@@ -893,6 +857,12 @@
             "id": "poselib",
             "payload": {
               "__lazy_json__": "node_attrs/poselib.json"
+            }
+          },
+          {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
             }
           },
           {
@@ -1052,12 +1022,6 @@
             }
           },
           {
-            "id": "pywavelets",
-            "payload": {
-              "__lazy_json__": "node_attrs/pywavelets.json"
-            }
-          },
-          {
             "id": "qh3",
             "payload": {
               "__lazy_json__": "node_attrs/qh3.json"
@@ -1121,12 +1085,6 @@
             "id": "safe-pysha3",
             "payload": {
               "__lazy_json__": "node_attrs/safe-pysha3.json"
-            }
-          },
-          {
-            "id": "safetensors",
-            "payload": {
-              "__lazy_json__": "node_attrs/safetensors.json"
             }
           },
           {
