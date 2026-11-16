@@ -2925,10 +2925,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "codechecker"
-          },
-          {
-            "source": "backports.zstd",
             "target": "coincurve"
           },
           {
@@ -6777,10 +6773,6 @@
           },
           {
             "source": "brotli",
-            "target": "codechecker"
-          },
-          {
-            "source": "brotli",
             "target": "coincurve"
           },
           {
@@ -9301,10 +9293,6 @@
           },
           {
             "source": "cffi",
-            "target": "codechecker"
-          },
-          {
-            "source": "cffi",
             "target": "coincurve"
           },
           {
@@ -10745,10 +10733,6 @@
           },
           {
             "source": "code-aster",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "codechecker",
             "target": "conda-forge-pinning"
           },
           {
@@ -25173,10 +25157,6 @@
           },
           {
             "source": "lxml",
-            "target": "codechecker"
-          },
-          {
-            "source": "lxml",
             "target": "conda-forge-pinning"
           },
           {
@@ -26038,10 +26018,6 @@
           {
             "source": "markupsafe",
             "target": "coal"
-          },
-          {
-            "source": "markupsafe",
-            "target": "codechecker"
           },
           {
             "source": "markupsafe",
@@ -27590,10 +27566,6 @@
           {
             "source": "matplotlib",
             "target": "cmac"
-          },
-          {
-            "source": "matplotlib",
-            "target": "codechecker"
           },
           {
             "source": "matplotlib",
@@ -31398,10 +31370,6 @@
           {
             "source": "multiprocess",
             "target": "causalml"
-          },
-          {
-            "source": "multiprocess",
-            "target": "codechecker"
           },
           {
             "source": "multiprocess",
@@ -45617,10 +45585,6 @@
           },
           {
             "source": "portalocker",
-            "target": "codechecker"
-          },
-          {
-            "source": "portalocker",
             "target": "conda-forge-pinning"
           },
           {
@@ -46634,10 +46598,6 @@
           {
             "source": "psutil",
             "target": "coconut"
-          },
-          {
-            "source": "psutil",
-            "target": "codechecker"
           },
           {
             "source": "psutil",
@@ -57038,10 +56998,6 @@
           {
             "source": "pyyaml",
             "target": "cmsis-pack-manager"
-          },
-          {
-            "source": "pyyaml",
-            "target": "codechecker"
           },
           {
             "source": "pyyaml",
@@ -67713,10 +67669,6 @@
           },
           {
             "source": "sqlalchemy",
-            "target": "codechecker"
-          },
-          {
-            "source": "sqlalchemy",
             "target": "conda-forge-pinning"
           },
           {
@@ -70014,10 +69966,6 @@
           {
             "source": "tbb",
             "target": "code-aster"
-          },
-          {
-            "source": "tbb",
-            "target": "codechecker"
           },
           {
             "source": "tbb",
@@ -81537,10 +81485,6 @@
           },
           {
             "source": "thrift",
-            "target": "codechecker"
-          },
-          {
-            "source": "thrift",
             "target": "conda-forge-pinning"
           },
           {
@@ -84930,10 +84874,6 @@
           {
             "source": "wcwidth",
             "target": "coconut"
-          },
-          {
-            "source": "wcwidth",
-            "target": "codechecker"
           },
           {
             "source": "wcwidth",
@@ -90032,12 +89972,6 @@
             "id": "code-aster",
             "payload": {
               "__lazy_json__": "node_attrs/code-aster.json"
-            }
-          },
-          {
-            "id": "codechecker",
-            "payload": {
-              "__lazy_json__": "node_attrs/codechecker.json"
             }
           },
           {
