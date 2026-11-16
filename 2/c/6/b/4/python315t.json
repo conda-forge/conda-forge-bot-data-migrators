@@ -55,13 +55,242 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "cython",
+            "target": "aiofastnet"
+          },
+          {
+            "source": "cython",
+            "target": "apache-tvm-ffi"
+          },
+          {
+            "source": "cython",
+            "target": "asyncpg"
+          },
+          {
+            "source": "cython",
+            "target": "capstone"
+          },
+          {
+            "source": "cython",
+            "target": "cwcwidth"
+          },
+          {
+            "source": "cython",
+            "target": "cysignals"
+          },
+          {
+            "source": "cython",
+            "target": "cytoolz"
+          },
+          {
+            "source": "cython",
+            "target": "dbus-fast"
+          },
+          {
+            "source": "cython",
+            "target": "falcon"
+          },
+          {
+            "source": "cython",
+            "target": "fastavro"
+          },
+          {
+            "source": "cython",
+            "target": "fastbencode"
+          },
+          {
+            "source": "cython",
+            "target": "frozenlist"
+          },
+          {
+            "source": "cython",
+            "target": "geoarrow-c"
+          },
+          {
+            "source": "cython",
+            "target": "hidapi"
+          },
+          {
+            "source": "cython",
+            "target": "httptools"
+          },
+          {
+            "source": "cython",
+            "target": "indexed_zstd"
+          },
+          {
+            "source": "cython",
+            "target": "jq.py"
+          },
+          {
+            "source": "cython",
+            "target": "lupa"
+          },
+          {
+            "source": "cython",
+            "target": "lxml"
+          },
+          {
+            "source": "cython",
+            "target": "memory-allocator"
+          },
+          {
+            "source": "cython",
+            "target": "mkl-service"
+          },
+          {
+            "source": "cython",
+            "target": "mpi4py"
+          },
+          {
+            "source": "cython",
+            "target": "msgpack-python"
+          },
+          {
+            "source": "cython",
+            "target": "murmurhash"
+          },
+          {
+            "source": "cython",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "cython",
+            "target": "ndindex"
+          },
+          {
+            "source": "cython",
+            "target": "nvtx"
+          },
+          {
+            "source": "cython",
+            "target": "openpyxl"
+          },
+          {
+            "source": "cython",
+            "target": "openstep-plist"
+          },
+          {
+            "source": "cython",
+            "target": "oracledb"
+          },
+          {
+            "source": "cython",
+            "target": "propcache"
+          },
+          {
+            "source": "cython",
+            "target": "pyclipper"
+          },
+          {
+            "source": "cython",
+            "target": "pyjnius"
+          },
+          {
+            "source": "cython",
+            "target": "pykrb5"
+          },
+          {
+            "source": "cython",
+            "target": "pymssql"
+          },
+          {
+            "source": "cython",
+            "target": "pystemmer"
+          },
+          {
+            "source": "cython",
+            "target": "python-gssapi"
+          },
+          {
+            "source": "cython",
+            "target": "pyyaml"
+          },
+          {
+            "source": "cython",
+            "target": "rapidgzip"
+          },
+          {
+            "source": "cython",
+            "target": "rectangle-packer"
+          },
+          {
+            "source": "cython",
+            "target": "ruamel.yaml.clib"
+          },
+          {
+            "source": "cython",
+            "target": "seccomp-split"
+          },
+          {
+            "source": "cython",
+            "target": "selectolax"
+          },
+          {
+            "source": "cython",
+            "target": "siphash24"
+          },
+          {
+            "source": "cython",
+            "target": "ssh-python"
+          },
+          {
+            "source": "cython",
+            "target": "sspilib"
+          },
+          {
+            "source": "cython",
+            "target": "thriftpy2"
+          },
+          {
+            "source": "cython",
+            "target": "uharfbuzz"
+          },
+          {
+            "source": "cython",
+            "target": "uvloop"
+          },
+          {
+            "source": "cython",
+            "target": "winloop"
+          },
+          {
+            "source": "cython",
+            "target": "zeroconf"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "aiofastnet",
+            "payload": {
+              "__lazy_json__": "node_attrs/aiofastnet.json"
+            }
+          },
+          {
+            "id": "apache-tvm-ffi",
+            "payload": {
+              "__lazy_json__": "node_attrs/apache-tvm-ffi.json"
+            }
+          },
           {
             "id": "apsw",
             "payload": {
               "__lazy_json__": "node_attrs/apsw.json"
+            }
+          },
+          {
+            "id": "argon2-cffi-bindings",
+            "payload": {
+              "__lazy_json__": "node_attrs/argon2-cffi-bindings.json"
+            }
+          },
+          {
+            "id": "asyncpg",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncpg.json"
             }
           },
           {
@@ -74,12 +303,6 @@
             "id": "awscrt",
             "payload": {
               "__lazy_json__": "node_attrs/awscrt.json"
-            }
-          },
-          {
-            "id": "backports.zoneinfo",
-            "payload": {
-              "__lazy_json__": "node_attrs/backports.zoneinfo.json"
             }
           },
           {
@@ -101,15 +324,21 @@
             }
           },
           {
-            "id": "cbor2",
+            "id": "brotlicffi",
             "payload": {
-              "__lazy_json__": "node_attrs/cbor2.json"
+              "__lazy_json__": "node_attrs/brotlicffi.json"
             }
           },
           {
-            "id": "cffi",
+            "id": "capstone",
             "payload": {
-              "__lazy_json__": "node_attrs/cffi.json"
+              "__lazy_json__": "node_attrs/capstone.json"
+            }
+          },
+          {
+            "id": "cbor2",
+            "payload": {
+              "__lazy_json__": "node_attrs/cbor2.json"
             }
           },
           {
@@ -119,9 +348,9 @@
             }
           },
           {
-            "id": "coverage",
+            "id": "cmarkgfm",
             "payload": {
-              "__lazy_json__": "node_attrs/coverage.json"
+              "__lazy_json__": "node_attrs/cmarkgfm.json"
             }
           },
           {
@@ -137,9 +366,21 @@
             }
           },
           {
+            "id": "curl-cffi",
+            "payload": {
+              "__lazy_json__": "node_attrs/curl-cffi.json"
+            }
+          },
+          {
             "id": "cvxopt",
             "payload": {
               "__lazy_json__": "node_attrs/cvxopt.json"
+            }
+          },
+          {
+            "id": "cwcwidth",
+            "payload": {
+              "__lazy_json__": "node_attrs/cwcwidth.json"
             }
           },
           {
@@ -149,9 +390,27 @@
             }
           },
           {
+            "id": "cysignals",
+            "payload": {
+              "__lazy_json__": "node_attrs/cysignals.json"
+            }
+          },
+          {
             "id": "cython",
             "payload": {
               "__lazy_json__": "node_attrs/cython.json"
+            }
+          },
+          {
+            "id": "cytoolz",
+            "payload": {
+              "__lazy_json__": "node_attrs/cytoolz.json"
+            }
+          },
+          {
+            "id": "dbus-fast",
+            "payload": {
+              "__lazy_json__": "node_attrs/dbus-fast.json"
             }
           },
           {
@@ -161,9 +420,39 @@
             }
           },
           {
+            "id": "falcon",
+            "payload": {
+              "__lazy_json__": "node_attrs/falcon.json"
+            }
+          },
+          {
+            "id": "fastavro",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastavro.json"
+            }
+          },
+          {
+            "id": "fastbencode",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastbencode.json"
+            }
+          },
+          {
             "id": "fastnumbers",
             "payload": {
               "__lazy_json__": "node_attrs/fastnumbers.json"
+            }
+          },
+          {
+            "id": "frozenlist",
+            "payload": {
+              "__lazy_json__": "node_attrs/frozenlist.json"
+            }
+          },
+          {
+            "id": "geoarrow-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/geoarrow-c.json"
             }
           },
           {
@@ -173,9 +462,21 @@
             }
           },
           {
+            "id": "hidapi",
+            "payload": {
+              "__lazy_json__": "node_attrs/hidapi.json"
+            }
+          },
+          {
             "id": "hiredis",
             "payload": {
               "__lazy_json__": "node_attrs/hiredis.json"
+            }
+          },
+          {
+            "id": "httptools",
+            "payload": {
+              "__lazy_json__": "node_attrs/httptools.json"
             }
           },
           {
@@ -191,6 +492,12 @@
             }
           },
           {
+            "id": "indexed_zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/indexed_zstd.json"
+            }
+          },
+          {
             "id": "inflate64",
             "payload": {
               "__lazy_json__": "node_attrs/inflate64.json"
@@ -203,6 +510,12 @@
             }
           },
           {
+            "id": "jq.py",
+            "payload": {
+              "__lazy_json__": "node_attrs/jq.py.json"
+            }
+          },
+          {
             "id": "jsonnet",
             "payload": {
               "__lazy_json__": "node_attrs/jsonnet.json"
@@ -212,12 +525,6 @@
             "id": "kmeans1d",
             "payload": {
               "__lazy_json__": "node_attrs/kmeans1d.json"
-            }
-          },
-          {
-            "id": "lazy-object-proxy",
-            "payload": {
-              "__lazy_json__": "node_attrs/lazy-object-proxy.json"
             }
           },
           {
@@ -245,6 +552,18 @@
             }
           },
           {
+            "id": "lupa",
+            "payload": {
+              "__lazy_json__": "node_attrs/lupa.json"
+            }
+          },
+          {
+            "id": "lxml",
+            "payload": {
+              "__lazy_json__": "node_attrs/lxml.json"
+            }
+          },
+          {
             "id": "madoka",
             "payload": {
               "__lazy_json__": "node_attrs/madoka.json"
@@ -257,9 +576,21 @@
             }
           },
           {
+            "id": "memory-allocator",
+            "payload": {
+              "__lazy_json__": "node_attrs/memory-allocator.json"
+            }
+          },
+          {
             "id": "mgrs",
             "payload": {
               "__lazy_json__": "node_attrs/mgrs.json"
+            }
+          },
+          {
+            "id": "mkl-service",
+            "payload": {
+              "__lazy_json__": "node_attrs/mkl-service.json"
             }
           },
           {
@@ -269,9 +600,27 @@
             }
           },
           {
+            "id": "mpi4py",
+            "payload": {
+              "__lazy_json__": "node_attrs/mpi4py.json"
+            }
+          },
+          {
+            "id": "msgpack-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/msgpack-python.json"
+            }
+          },
+          {
             "id": "multiprocess",
             "payload": {
               "__lazy_json__": "node_attrs/multiprocess.json"
+            }
+          },
+          {
+            "id": "murmurhash",
+            "payload": {
+              "__lazy_json__": "node_attrs/murmurhash.json"
             }
           },
           {
@@ -287,15 +636,51 @@
             }
           },
           {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
+            }
+          },
+          {
+            "id": "ndindex",
+            "payload": {
+              "__lazy_json__": "node_attrs/ndindex.json"
+            }
+          },
+          {
             "id": "newrelic",
             "payload": {
               "__lazy_json__": "node_attrs/newrelic.json"
             }
           },
           {
+            "id": "nvtx",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvtx.json"
+            }
+          },
+          {
             "id": "opencensus-context",
             "payload": {
               "__lazy_json__": "node_attrs/opencensus-context.json"
+            }
+          },
+          {
+            "id": "openpyxl",
+            "payload": {
+              "__lazy_json__": "node_attrs/openpyxl.json"
+            }
+          },
+          {
+            "id": "openstep-plist",
+            "payload": {
+              "__lazy_json__": "node_attrs/openstep-plist.json"
+            }
+          },
+          {
+            "id": "oracledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/oracledb.json"
             }
           },
           {
@@ -317,9 +702,27 @@
             }
           },
           {
+            "id": "propcache",
+            "payload": {
+              "__lazy_json__": "node_attrs/propcache.json"
+            }
+          },
+          {
             "id": "pybcj",
             "payload": {
               "__lazy_json__": "node_attrs/pybcj.json"
+            }
+          },
+          {
+            "id": "pycares",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycares.json"
+            }
+          },
+          {
+            "id": "pyclipper",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyclipper.json"
             }
           },
           {
@@ -335,6 +738,12 @@
             }
           },
           {
+            "id": "pygit2",
+            "payload": {
+              "__lazy_json__": "node_attrs/pygit2.json"
+            }
+          },
+          {
             "id": "pyglm",
             "payload": {
               "__lazy_json__": "node_attrs/pyglm.json"
@@ -347,15 +756,45 @@
             }
           },
           {
+            "id": "pyjnius",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyjnius.json"
+            }
+          },
+          {
             "id": "pykerberos",
             "payload": {
               "__lazy_json__": "node_attrs/pykerberos.json"
             }
           },
           {
+            "id": "pykrb5",
+            "payload": {
+              "__lazy_json__": "node_attrs/pykrb5.json"
+            }
+          },
+          {
             "id": "pymongo",
             "payload": {
               "__lazy_json__": "node_attrs/pymongo.json"
+            }
+          },
+          {
+            "id": "pymssql",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymssql.json"
+            }
+          },
+          {
+            "id": "pymunk",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymunk.json"
+            }
+          },
+          {
+            "id": "pynng",
+            "payload": {
+              "__lazy_json__": "node_attrs/pynng.json"
             }
           },
           {
@@ -383,6 +822,12 @@
             }
           },
           {
+            "id": "pystemmer",
+            "payload": {
+              "__lazy_json__": "node_attrs/pystemmer.json"
+            }
+          },
+          {
             "id": "python-confluent-kafka",
             "payload": {
               "__lazy_json__": "node_attrs/python-confluent-kafka.json"
@@ -395,15 +840,15 @@
             }
           },
           {
-            "id": "python-hyperscan",
+            "id": "python-gssapi",
             "payload": {
-              "__lazy_json__": "node_attrs/python-hyperscan.json"
+              "__lazy_json__": "node_attrs/python-gssapi.json"
             }
           },
           {
-            "id": "python-librt",
+            "id": "python-hyperscan",
             "payload": {
-              "__lazy_json__": "node_attrs/python-librt.json"
+              "__lazy_json__": "node_attrs/python-hyperscan.json"
             }
           },
           {
@@ -431,9 +876,33 @@
             }
           },
           {
+            "id": "pyyaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyyaml.json"
+            }
+          },
+          {
+            "id": "rapidgzip",
+            "payload": {
+              "__lazy_json__": "node_attrs/rapidgzip.json"
+            }
+          },
+          {
+            "id": "rchitect",
+            "payload": {
+              "__lazy_json__": "node_attrs/rchitect.json"
+            }
+          },
+          {
             "id": "rcssmin",
             "payload": {
               "__lazy_json__": "node_attrs/rcssmin.json"
+            }
+          },
+          {
+            "id": "rectangle-packer",
+            "payload": {
+              "__lazy_json__": "node_attrs/rectangle-packer.json"
             }
           },
           {
@@ -446,6 +915,12 @@
             "id": "rjsmin",
             "payload": {
               "__lazy_json__": "node_attrs/rjsmin.json"
+            }
+          },
+          {
+            "id": "ruamel.yaml.clib",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruamel.yaml.clib.json"
             }
           },
           {
@@ -464,6 +939,18 @@
             "id": "scons",
             "payload": {
               "__lazy_json__": "node_attrs/scons.json"
+            }
+          },
+          {
+            "id": "seccomp-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/seccomp-split.json"
+            }
+          },
+          {
+            "id": "selectolax",
+            "payload": {
+              "__lazy_json__": "node_attrs/selectolax.json"
             }
           },
           {
@@ -491,9 +978,27 @@
             }
           },
           {
+            "id": "siphash24",
+            "payload": {
+              "__lazy_json__": "node_attrs/siphash24.json"
+            }
+          },
+          {
+            "id": "ssh-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/ssh-python.json"
+            }
+          },
+          {
             "id": "ssh2-python",
             "payload": {
               "__lazy_json__": "node_attrs/ssh2-python.json"
+            }
+          },
+          {
+            "id": "sspilib",
+            "payload": {
+              "__lazy_json__": "node_attrs/sspilib.json"
             }
           },
           {
@@ -509,9 +1014,21 @@
             }
           },
           {
+            "id": "thriftpy2",
+            "payload": {
+              "__lazy_json__": "node_attrs/thriftpy2.json"
+            }
+          },
+          {
             "id": "traits",
             "payload": {
               "__lazy_json__": "node_attrs/traits.json"
+            }
+          },
+          {
+            "id": "trio",
+            "payload": {
+              "__lazy_json__": "node_attrs/trio.json"
             }
           },
           {
@@ -521,15 +1038,15 @@
             }
           },
           {
-            "id": "ujson",
+            "id": "uharfbuzz",
             "payload": {
-              "__lazy_json__": "node_attrs/ujson.json"
+              "__lazy_json__": "node_attrs/uharfbuzz.json"
             }
           },
           {
-            "id": "util-linux",
+            "id": "uvloop",
             "payload": {
-              "__lazy_json__": "node_attrs/util-linux.json"
+              "__lazy_json__": "node_attrs/uvloop.json"
             }
           },
           {
@@ -545,9 +1062,33 @@
             }
           },
           {
+            "id": "winloop",
+            "payload": {
+              "__lazy_json__": "node_attrs/winloop.json"
+            }
+          },
+          {
+            "id": "xattr",
+            "payload": {
+              "__lazy_json__": "node_attrs/xattr.json"
+            }
+          },
+          {
+            "id": "zeroconf",
+            "payload": {
+              "__lazy_json__": "node_attrs/zeroconf.json"
+            }
+          },
+          {
             "id": "zope.interface",
             "payload": {
               "__lazy_json__": "node_attrs/zope.interface.json"
+            }
+          },
+          {
+            "id": "zstandard",
+            "payload": {
+              "__lazy_json__": "node_attrs/zstandard.json"
             }
           },
           {
