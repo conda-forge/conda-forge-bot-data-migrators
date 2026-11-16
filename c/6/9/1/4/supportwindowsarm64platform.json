@@ -14894,10 +14894,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "tbb"
-          },
-          {
-            "source": "pkg-config",
             "target": "thrift-cpp"
           },
           {
@@ -15139,6 +15135,10 @@
           {
             "source": "pkgconf",
             "target": "systemd"
+          },
+          {
+            "source": "pkgconf",
+            "target": "tbb"
           },
           {
             "source": "pkgconf",
