@@ -466,10 +466,6 @@
           },
           {
             "source": "cython",
-            "target": "httptools"
-          },
-          {
-            "source": "cython",
             "target": "hybgensea"
           },
           {
@@ -494,15 +490,15 @@
           },
           {
             "source": "cython",
+            "target": "libode"
+          },
+          {
+            "source": "cython",
             "target": "lsstdesc.coord"
           },
           {
             "source": "cython",
             "target": "lupa"
-          },
-          {
-            "source": "cython",
-            "target": "lxml"
           },
           {
             "source": "cython",
@@ -846,12 +842,6 @@
             }
           },
           {
-            "id": "brotlicffi",
-            "payload": {
-              "__lazy_json__": "node_attrs/brotlicffi.json"
-            }
-          },
-          {
             "id": "capstone",
             "payload": {
               "__lazy_json__": "node_attrs/capstone.json"
@@ -1104,12 +1094,6 @@
             }
           },
           {
-            "id": "httptools",
-            "payload": {
-              "__lazy_json__": "node_attrs/httptools.json"
-            }
-          },
-          {
             "id": "hybgensea",
             "payload": {
               "__lazy_json__": "node_attrs/hybgensea.json"
@@ -1188,6 +1172,12 @@
             }
           },
           {
+            "id": "libode",
+            "payload": {
+              "__lazy_json__": "node_attrs/libode.json"
+            }
+          },
+          {
             "id": "libvalkey-py",
             "payload": {
               "__lazy_json__": "node_attrs/libvalkey-py.json"
@@ -1215,12 +1205,6 @@
             "id": "lupa",
             "payload": {
               "__lazy_json__": "node_attrs/lupa.json"
-            }
-          },
-          {
-            "id": "lxml",
-            "payload": {
-              "__lazy_json__": "node_attrs/lxml.json"
             }
           },
           {
@@ -1809,12 +1793,6 @@
             "id": "transformations",
             "payload": {
               "__lazy_json__": "node_attrs/transformations.json"
-            }
-          },
-          {
-            "id": "trio",
-            "payload": {
-              "__lazy_json__": "node_attrs/trio.json"
             }
           },
           {
