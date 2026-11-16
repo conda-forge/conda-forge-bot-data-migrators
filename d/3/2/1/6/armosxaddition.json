@@ -11446,6 +11446,18 @@
             "target": "mocpy"
           },
           {
+            "source": "cereal",
+            "target": "proxsuite"
+          },
+          {
+            "source": "cereal",
+            "target": "pyrfr"
+          },
+          {
+            "source": "cereal",
+            "target": "spiceql"
+          },
+          {
             "source": "ceres-solver",
             "target": "cartographer"
           },
@@ -12932,6 +12944,10 @@
           {
             "source": "cmake",
             "target": "ccache"
+          },
+          {
+            "source": "cmake",
+            "target": "cereal"
           },
           {
             "source": "cmake",
@@ -55128,6 +55144,10 @@
           {
             "source": "ninja",
             "target": "ccache"
+          },
+          {
+            "source": "ninja",
+            "target": "cereal"
           },
           {
             "source": "ninja",
@@ -114024,6 +114044,12 @@
             "id": "cell_tree2d",
             "payload": {
               "__lazy_json__": "node_attrs/cell_tree2d.json"
+            }
+          },
+          {
+            "id": "cereal",
+            "payload": {
+              "__lazy_json__": "node_attrs/cereal.json"
             }
           },
           {
