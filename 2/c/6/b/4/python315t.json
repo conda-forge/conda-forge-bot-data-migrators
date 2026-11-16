@@ -150,6 +150,10 @@
           },
           {
             "source": "brotli",
+            "target": "h5py"
+          },
+          {
+            "source": "brotli",
             "target": "highspy"
           },
           {
@@ -207,10 +211,6 @@
           {
             "source": "brotli",
             "target": "nmslib"
-          },
-          {
-            "source": "brotli",
-            "target": "numexpr"
           },
           {
             "source": "brotli",
@@ -588,6 +588,12 @@
             }
           },
           {
+            "id": "h5py",
+            "payload": {
+              "__lazy_json__": "node_attrs/h5py.json"
+            }
+          },
+          {
             "id": "hidapi",
             "payload": {
               "__lazy_json__": "node_attrs/hidapi.json"
@@ -792,12 +798,6 @@
             }
           },
           {
-            "id": "multiprocess",
-            "payload": {
-              "__lazy_json__": "node_attrs/multiprocess.json"
-            }
-          },
-          {
             "id": "murmurhash",
             "payload": {
               "__lazy_json__": "node_attrs/murmurhash.json"
@@ -828,12 +828,6 @@
             }
           },
           {
-            "id": "numexpr",
-            "payload": {
-              "__lazy_json__": "node_attrs/numexpr.json"
-            }
-          },
-          {
             "id": "numpy_quaddtype",
             "payload": {
               "__lazy_json__": "node_attrs/numpy_quaddtype.json"
@@ -855,12 +849,6 @@
             "id": "opencensus-context",
             "payload": {
               "__lazy_json__": "node_attrs/opencensus-context.json"
-            }
-          },
-          {
-            "id": "openpyxl",
-            "payload": {
-              "__lazy_json__": "node_attrs/openpyxl.json"
             }
           },
           {
@@ -1155,12 +1143,6 @@
             "id": "simsimd",
             "payload": {
               "__lazy_json__": "node_attrs/simsimd.json"
-            }
-          },
-          {
-            "id": "sip",
-            "payload": {
-              "__lazy_json__": "node_attrs/sip.json"
             }
           },
           {
