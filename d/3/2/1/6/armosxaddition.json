@@ -70727,10 +70727,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "tbb"
-          },
-          {
-            "source": "pkg-config",
             "target": "tblite"
           },
           {
@@ -71372,6 +71368,10 @@
           {
             "source": "pkgconf",
             "target": "systemd"
+          },
+          {
+            "source": "pkgconf",
+            "target": "tbb"
           },
           {
             "source": "pkgconf",
