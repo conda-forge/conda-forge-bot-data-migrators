@@ -56,69 +56,27 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aruco",
+            "id": "bipedal-locomotion-framework",
             "payload": {
-              "__lazy_json__": "node_attrs/aruco.json"
+              "__lazy_json__": "node_attrs/bipedal-locomotion-framework.json"
             }
           },
           {
-            "id": "bgslibrary",
+            "id": "ergocub-software",
             "payload": {
-              "__lazy_json__": "node_attrs/bgslibrary.json"
+              "__lazy_json__": "node_attrs/ergocub-software.json"
             }
           },
           {
-            "id": "glim",
+            "id": "icub-main",
             "payload": {
-              "__lazy_json__": "node_attrs/glim.json"
-            }
-          },
-          {
-            "id": "imp",
-            "payload": {
-              "__lazy_json__": "node_attrs/imp.json"
-            }
-          },
-          {
-            "id": "libcaer",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcaer.json"
-            }
-          },
-          {
-            "id": "libnvimgcodec",
-            "payload": {
-              "__lazy_json__": "node_attrs/libnvimgcodec.json"
-            }
-          },
-          {
-            "id": "pycontour",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycontour.json"
+              "__lazy_json__": "node_attrs/icub-main.json"
             }
           },
           {
             "id": "robotraconteur_companion",
             "payload": {
               "__lazy_json__": "node_attrs/robotraconteur_companion.json"
-            }
-          },
-          {
-            "id": "visionworkbench",
-            "payload": {
-              "__lazy_json__": "node_attrs/visionworkbench.json"
-            }
-          },
-          {
-            "id": "visp",
-            "payload": {
-              "__lazy_json__": "node_attrs/visp.json"
-            }
-          },
-          {
-            "id": "openmvs-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/openmvs-split.json"
             }
           }
         ]
@@ -475,7 +433,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
