@@ -62,15 +62,7 @@
           },
           {
             "source": "brotli",
-            "target": "biopython"
-          },
-          {
-            "source": "brotli",
             "target": "boost-histogram"
-          },
-          {
-            "source": "brotli",
-            "target": "bottleneck"
           },
           {
             "source": "brotli",
@@ -286,10 +278,6 @@
           },
           {
             "source": "brotli",
-            "target": "zfpy"
-          },
-          {
-            "source": "brotli",
             "target": "zmesh"
           }
         ],
@@ -344,12 +332,6 @@
             }
           },
           {
-            "id": "biopython",
-            "payload": {
-              "__lazy_json__": "node_attrs/biopython.json"
-            }
-          },
-          {
             "id": "bitstruct",
             "payload": {
               "__lazy_json__": "node_attrs/bitstruct.json"
@@ -368,12 +350,6 @@
             }
           },
           {
-            "id": "bottleneck",
-            "payload": {
-              "__lazy_json__": "node_attrs/bottleneck.json"
-            }
-          },
-          {
             "id": "brotli",
             "payload": {
               "__lazy_json__": "node_attrs/brotli.json"
@@ -389,12 +365,6 @@
             "id": "capstone",
             "payload": {
               "__lazy_json__": "node_attrs/capstone.json"
-            }
-          },
-          {
-            "id": "cbor2",
-            "payload": {
-              "__lazy_json__": "node_attrs/cbor2.json"
             }
           },
           {
@@ -455,12 +425,6 @@
             "id": "crc32c",
             "payload": {
               "__lazy_json__": "node_attrs/crc32c.json"
-            }
-          },
-          {
-            "id": "crcmod-plus",
-            "payload": {
-              "__lazy_json__": "node_attrs/crcmod-plus.json"
             }
           },
           {
@@ -644,12 +608,6 @@
             }
           },
           {
-            "id": "hiredis",
-            "payload": {
-              "__lazy_json__": "node_attrs/hiredis.json"
-            }
-          },
-          {
             "id": "hybgensea",
             "payload": {
               "__lazy_json__": "node_attrs/hybgensea.json"
@@ -659,12 +617,6 @@
             "id": "ibm_db",
             "payload": {
               "__lazy_json__": "node_attrs/ibm_db.json"
-            }
-          },
-          {
-            "id": "igwn-segments",
-            "payload": {
-              "__lazy_json__": "node_attrs/igwn-segments.json"
             }
           },
           {
@@ -710,12 +662,6 @@
             }
           },
           {
-            "id": "jpype1",
-            "payload": {
-              "__lazy_json__": "node_attrs/jpype1.json"
-            }
-          },
-          {
             "id": "jq.py",
             "payload": {
               "__lazy_json__": "node_attrs/jq.py.json"
@@ -743,12 +689,6 @@
             "id": "keygen-py",
             "payload": {
               "__lazy_json__": "node_attrs/keygen-py.json"
-            }
-          },
-          {
-            "id": "kmeans1d",
-            "payload": {
-              "__lazy_json__": "node_attrs/kmeans1d.json"
             }
           },
           {
@@ -944,12 +884,6 @@
             }
           },
           {
-            "id": "pemja",
-            "payload": {
-              "__lazy_json__": "node_attrs/pemja.json"
-            }
-          },
-          {
             "id": "phonors",
             "payload": {
               "__lazy_json__": "node_attrs/phonors.json"
@@ -977,12 +911,6 @@
             "id": "pybcj",
             "payload": {
               "__lazy_json__": "node_attrs/pybcj.json"
-            }
-          },
-          {
-            "id": "pycares",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycares.json"
             }
           },
           {
@@ -1061,6 +989,12 @@
             "id": "pynng",
             "payload": {
               "__lazy_json__": "node_attrs/pynng.json"
+            }
+          },
+          {
+            "id": "pyobjc-framework-cocoa",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyobjc-framework-cocoa.json"
             }
           },
           {
@@ -1262,12 +1196,6 @@
             }
           },
           {
-            "id": "sspilib",
-            "payload": {
-              "__lazy_json__": "node_attrs/sspilib.json"
-            }
-          },
-          {
             "id": "sysv_ipc",
             "payload": {
               "__lazy_json__": "node_attrs/sysv_ipc.json"
@@ -1349,12 +1277,6 @@
             "id": "zeroconf",
             "payload": {
               "__lazy_json__": "node_attrs/zeroconf.json"
-            }
-          },
-          {
-            "id": "zfpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/zfpy.json"
             }
           },
           {
