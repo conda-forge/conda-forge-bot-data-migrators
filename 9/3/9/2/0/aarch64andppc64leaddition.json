@@ -16406,6 +16406,18 @@
             "target": "mocpy"
           },
           {
+            "source": "cereal",
+            "target": "abacus"
+          },
+          {
+            "source": "cereal",
+            "target": "proxsuite"
+          },
+          {
+            "source": "cereal",
+            "target": "pyrfr"
+          },
+          {
             "source": "ceres-solver",
             "target": "cartographer"
           },
@@ -17476,6 +17488,10 @@
           {
             "source": "cmake",
             "target": "cds-crtools"
+          },
+          {
+            "source": "cmake",
+            "target": "cereal"
           },
           {
             "source": "cmake",
@@ -56172,6 +56188,10 @@
           {
             "source": "ninja",
             "target": "cds-crtools"
+          },
+          {
+            "source": "ninja",
+            "target": "cereal"
           },
           {
             "source": "ninja",
@@ -106656,6 +106676,12 @@
             "id": "cdshealpix",
             "payload": {
               "__lazy_json__": "node_attrs/cdshealpix.json"
+            }
+          },
+          {
+            "id": "cereal",
+            "payload": {
+              "__lazy_json__": "node_attrs/cereal.json"
             }
           },
           {
