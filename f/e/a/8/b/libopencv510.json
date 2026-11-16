@@ -60,24 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/bipedal-locomotion-framework.json"
             }
-          },
-          {
-            "id": "ergocub-software",
-            "payload": {
-              "__lazy_json__": "node_attrs/ergocub-software.json"
-            }
-          },
-          {
-            "id": "icub-main",
-            "payload": {
-              "__lazy_json__": "node_attrs/icub-main.json"
-            }
-          },
-          {
-            "id": "robotraconteur_companion",
-            "payload": {
-              "__lazy_json__": "node_attrs/robotraconteur_companion.json"
-            }
           }
         ]
       }
@@ -433,7 +415,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
