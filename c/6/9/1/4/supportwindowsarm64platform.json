@@ -14878,10 +14878,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "scipy"
-          },
-          {
-            "source": "pkg-config",
             "target": "shs-libcxi"
           },
           {
@@ -15131,6 +15127,10 @@
           {
             "source": "pkgconf",
             "target": "qt-main"
+          },
+          {
+            "source": "pkgconf",
+            "target": "scipy"
           },
           {
             "source": "pkgconf",
