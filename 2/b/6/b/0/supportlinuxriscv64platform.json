@@ -2802,7 +2802,7 @@
             "target": "gobject-introspection"
           },
           {
-            "source": "pkg-config",
+            "source": "pkgconf",
             "target": "scipy"
           },
           {
@@ -6451,6 +6451,12 @@
             }
           },
           {
+            "id": "pkgconf",
+            "payload": {
+              "__lazy_json__": "node_attrs/pkgconf.json"
+            }
+          },
+          {
             "id": "playwright",
             "payload": {
               "__lazy_json__": "node_attrs/playwright.json"
@@ -7550,6 +7556,7 @@
         "patchelf",
         "pixman",
         "pkg-config",
+        "pkgconf",
         "pugixml",
         "qhull",
         "reproc",
