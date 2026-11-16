@@ -62,10 +62,6 @@
           },
           {
             "source": "brotli",
-            "target": "awkward-cpp"
-          },
-          {
-            "source": "brotli",
             "target": "boost-histogram"
           },
           {
@@ -134,6 +130,10 @@
           },
           {
             "source": "brotli",
+            "target": "fonttools"
+          },
+          {
+            "source": "brotli",
             "target": "geomad"
           },
           {
@@ -194,6 +194,10 @@
           },
           {
             "source": "brotli",
+            "target": "mupdf"
+          },
+          {
+            "source": "brotli",
             "target": "neuromorphic-drivers"
           },
           {
@@ -215,6 +219,10 @@
           {
             "source": "brotli",
             "target": "phonors"
+          },
+          {
+            "source": "brotli",
+            "target": "pillow"
           },
           {
             "source": "brotli",
@@ -246,6 +254,10 @@
           },
           {
             "source": "brotli",
+            "target": "pyosmium"
+          },
+          {
+            "source": "brotli",
             "target": "python-suitesparse-graphblas"
           },
           {
@@ -259,6 +271,10 @@
           {
             "source": "brotli",
             "target": "shapely"
+          },
+          {
+            "source": "brotli",
+            "target": "snowflake-connector-python"
           },
           {
             "source": "brotli",
@@ -313,12 +329,6 @@
             "id": "arro3-core",
             "payload": {
               "__lazy_json__": "node_attrs/arro3-core.json"
-            }
-          },
-          {
-            "id": "awkward-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/awkward-cpp.json"
             }
           },
           {
@@ -535,6 +545,12 @@
             "id": "flt",
             "payload": {
               "__lazy_json__": "node_attrs/flt.json"
+            }
+          },
+          {
+            "id": "fonttools",
+            "payload": {
+              "__lazy_json__": "node_attrs/fonttools.json"
             }
           },
           {
@@ -772,6 +788,12 @@
             }
           },
           {
+            "id": "mupdf",
+            "payload": {
+              "__lazy_json__": "node_attrs/mupdf.json"
+            }
+          },
+          {
             "id": "neuromorphic-drivers",
             "payload": {
               "__lazy_json__": "node_attrs/neuromorphic-drivers.json"
@@ -823,6 +845,12 @@
             "id": "phonors",
             "payload": {
               "__lazy_json__": "node_attrs/phonors.json"
+            }
+          },
+          {
+            "id": "pillow",
+            "payload": {
+              "__lazy_json__": "node_attrs/pillow.json"
             }
           },
           {
@@ -922,12 +950,6 @@
             }
           },
           {
-            "id": "pyobjc-framework-cocoa",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyobjc-framework-cocoa.json"
-            }
-          },
-          {
             "id": "pyopengl-accelerate",
             "payload": {
               "__lazy_json__": "node_attrs/pyopengl-accelerate.json"
@@ -937,6 +959,12 @@
             "id": "pyorc",
             "payload": {
               "__lazy_json__": "node_attrs/pyorc.json"
+            }
+          },
+          {
+            "id": "pyosmium",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyosmium.json"
             }
           },
           {
@@ -1087,6 +1115,12 @@
             "id": "simsimd",
             "payload": {
               "__lazy_json__": "node_attrs/simsimd.json"
+            }
+          },
+          {
+            "id": "snowflake-connector-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/snowflake-connector-python.json"
             }
           },
           {
