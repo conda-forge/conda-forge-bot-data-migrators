@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "cereal",
+            "payload": {
+              "__lazy_json__": "node_attrs/cereal.json"
+            }
+          },
+          {
             "id": "rdma-core",
             "payload": {
               "__lazy_json__": "node_attrs/rdma-core.json"
@@ -399,6 +405,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "soxr"
+          },
+          {
+            "source": "cereal",
+            "target": "proxsuite"
           },
           {
             "source": "cffi",
@@ -5192,6 +5202,12 @@
             }
           },
           {
+            "id": "cereal",
+            "payload": {
+              "__lazy_json__": "node_attrs/cereal.json"
+            }
+          },
+          {
             "id": "cffi",
             "payload": {
               "__lazy_json__": "node_attrs/cffi.json"
@@ -7453,6 +7469,7 @@
         "blasfeo",
         "bzip2",
         "c-ares",
+        "cereal",
         "cli11",
         "console_bridge",
         "cpp-expected",
