@@ -290,10 +290,6 @@
           },
           {
             "source": "brotli",
-            "target": "vispy"
-          },
-          {
-            "source": "brotli",
             "target": "yggdrasil-rapidjson"
           },
           {
@@ -311,6 +307,12 @@
             "id": "aiofastnet",
             "payload": {
               "__lazy_json__": "node_attrs/aiofastnet.json"
+            }
+          },
+          {
+            "id": "anycrc",
+            "payload": {
+              "__lazy_json__": "node_attrs/anycrc.json"
             }
           },
           {
@@ -1349,12 +1351,6 @@
             "id": "uharfbuzz",
             "payload": {
               "__lazy_json__": "node_attrs/uharfbuzz.json"
-            }
-          },
-          {
-            "id": "vispy",
-            "payload": {
-              "__lazy_json__": "node_attrs/vispy.json"
             }
           },
           {
