@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ale-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/ale-py.json"
-            }
-          },
-          {
             "id": "aruco",
             "payload": {
               "__lazy_json__": "node_attrs/aruco.json"
@@ -119,12 +113,6 @@
             "id": "visp",
             "payload": {
               "__lazy_json__": "node_attrs/visp.json"
-            }
-          },
-          {
-            "id": "yarp",
-            "payload": {
-              "__lazy_json__": "node_attrs/yarp.json"
             }
           },
           {
@@ -487,7 +475,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
