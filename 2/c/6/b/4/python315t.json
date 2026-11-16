@@ -446,10 +446,6 @@
           },
           {
             "source": "cython",
-            "target": "frozenlist"
-          },
-          {
-            "source": "cython",
             "target": "geoarrow-c"
           },
           {
@@ -539,10 +535,6 @@
           {
             "source": "cython",
             "target": "ms_entropy"
-          },
-          {
-            "source": "cython",
-            "target": "msgpack-python"
           },
           {
             "source": "cython",
@@ -1048,12 +1040,6 @@
             }
           },
           {
-            "id": "frozenlist",
-            "payload": {
-              "__lazy_json__": "node_attrs/frozenlist.json"
-            }
-          },
-          {
             "id": "geoarrow-c",
             "payload": {
               "__lazy_json__": "node_attrs/geoarrow-c.json"
@@ -1285,12 +1271,6 @@
             "id": "ms_entropy",
             "payload": {
               "__lazy_json__": "node_attrs/ms_entropy.json"
-            }
-          },
-          {
-            "id": "msgpack-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/msgpack-python.json"
             }
           },
           {
