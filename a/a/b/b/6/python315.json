@@ -61,39 +61,21 @@
             }
           },
           {
-            "id": "ipyopt",
-            "payload": {
-              "__lazy_json__": "node_attrs/ipyopt.json"
-            }
-          },
-          {
-            "id": "ligo-raven",
-            "payload": {
-              "__lazy_json__": "node_attrs/ligo-raven.json"
-            }
-          },
-          {
             "id": "pyvkfft",
             "payload": {
               "__lazy_json__": "node_attrs/pyvkfft.json"
             }
           },
           {
-            "id": "redlionfish",
-            "payload": {
-              "__lazy_json__": "node_attrs/redlionfish.json"
-            }
-          },
-          {
-            "id": "toasty",
-            "payload": {
-              "__lazy_json__": "node_attrs/toasty.json"
-            }
-          },
-          {
             "id": "yarp",
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
+            }
+          },
+          {
+            "id": "knot-floer-homology",
+            "payload": {
+              "__lazy_json__": "node_attrs/knot-floer-homology.json"
             }
           }
         ]
@@ -13636,6 +13618,10 @@
           },
           {
             "source": "cython",
+            "target": "knot-floer-homology"
+          },
+          {
+            "source": "cython",
             "target": "kwant"
           },
           {
@@ -23456,6 +23442,10 @@
           },
           {
             "source": "knit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "knot-floer-homology",
             "target": "conda-forge-pinning"
           },
           {
@@ -73400,6 +73390,10 @@
           },
           {
             "source": "tbb",
+            "target": "knot-floer-homology"
+          },
+          {
+            "source": "tbb",
             "target": "kompute"
           },
           {
@@ -106969,6 +106963,12 @@
             "id": "asyncmy",
             "payload": {
               "__lazy_json__": "node_attrs/asyncmy.json"
+            }
+          },
+          {
+            "id": "knot-floer-homology",
+            "payload": {
+              "__lazy_json__": "node_attrs/knot-floer-homology.json"
             }
           },
           {
