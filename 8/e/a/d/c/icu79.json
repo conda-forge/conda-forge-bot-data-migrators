@@ -117,10 +117,6 @@
           },
           {
             "source": "boost",
-            "target": "e-antic"
-          },
-          {
-            "source": "boost",
             "target": "exact-real"
           },
           {
@@ -182,14 +178,6 @@
           {
             "source": "dssp",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "e-antic",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "e-antic",
-            "target": "exact-real"
           },
           {
             "source": "exact-real",
@@ -604,12 +592,6 @@
             "id": "dssp",
             "payload": {
               "__lazy_json__": "node_attrs/dssp.json"
-            }
-          },
-          {
-            "id": "e-antic",
-            "payload": {
-              "__lazy_json__": "node_attrs/e-antic.json"
             }
           },
           {
