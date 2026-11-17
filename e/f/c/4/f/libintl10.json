@@ -116,12 +116,6 @@
             }
           },
           {
-            "id": "fontconfig",
-            "payload": {
-              "__lazy_json__": "node_attrs/fontconfig.json"
-            }
-          },
-          {
             "id": "gcal",
             "payload": {
               "__lazy_json__": "node_attrs/gcal.json"
@@ -149,12 +143,6 @@
             "id": "gnutls",
             "payload": {
               "__lazy_json__": "node_attrs/gnutls.json"
-            }
-          },
-          {
-            "id": "grep",
-            "payload": {
-              "__lazy_json__": "node_attrs/grep.json"
             }
           },
           {
@@ -206,12 +194,6 @@
             }
           },
           {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "pv",
             "payload": {
               "__lazy_json__": "node_attrs/pv.json"
@@ -227,12 +209,6 @@
             "id": "scilab",
             "payload": {
               "__lazy_json__": "node_attrs/scilab.json"
-            }
-          },
-          {
-            "id": "sed",
-            "payload": {
-              "__lazy_json__": "node_attrs/sed.json"
             }
           },
           {
@@ -805,10 +781,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "php",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "poppler",
             "target": "conda-forge-pinning"
           },
@@ -1268,12 +1240,6 @@
             }
           },
           {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "poppler",
             "payload": {
               "__lazy_json__": "node_attrs/poppler.json"
@@ -1477,7 +1443,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
