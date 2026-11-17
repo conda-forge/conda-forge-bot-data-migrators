@@ -62,10 +62,6 @@
           },
           {
             "source": "brotli",
-            "target": "boost-histogram"
-          },
-          {
-            "source": "brotli",
             "target": "celerite2"
           },
           {
@@ -143,10 +139,6 @@
           {
             "source": "brotli",
             "target": "healpix-geo"
-          },
-          {
-            "source": "brotli",
-            "target": "highspy"
           },
           {
             "source": "brotli",
@@ -242,14 +234,6 @@
           },
           {
             "source": "brotli",
-            "target": "pykdtree"
-          },
-          {
-            "source": "brotli",
-            "target": "pymef"
-          },
-          {
-            "source": "brotli",
             "target": "pyopengl-accelerate"
           },
           {
@@ -314,12 +298,6 @@
             }
           },
           {
-            "id": "apsw",
-            "payload": {
-              "__lazy_json__": "node_attrs/apsw.json"
-            }
-          },
-          {
             "id": "arraykit",
             "payload": {
               "__lazy_json__": "node_attrs/arraykit.json"
@@ -341,18 +319,6 @@
             "id": "bitstruct",
             "payload": {
               "__lazy_json__": "node_attrs/bitstruct.json"
-            }
-          },
-          {
-            "id": "blake3",
-            "payload": {
-              "__lazy_json__": "node_attrs/blake3.json"
-            }
-          },
-          {
-            "id": "boost-histogram",
-            "payload": {
-              "__lazy_json__": "node_attrs/boost-histogram.json"
             }
           },
           {
@@ -587,12 +553,6 @@
             "id": "hidapi",
             "payload": {
               "__lazy_json__": "node_attrs/hidapi.json"
-            }
-          },
-          {
-            "id": "highspy",
-            "payload": {
-              "__lazy_json__": "node_attrs/highspy.json"
             }
           },
           {
@@ -920,21 +880,9 @@
             }
           },
           {
-            "id": "pykdtree",
-            "payload": {
-              "__lazy_json__": "node_attrs/pykdtree.json"
-            }
-          },
-          {
             "id": "pykrb5",
             "payload": {
               "__lazy_json__": "node_attrs/pykrb5.json"
-            }
-          },
-          {
-            "id": "pymef",
-            "payload": {
-              "__lazy_json__": "node_attrs/pymef.json"
             }
           },
           {
@@ -989,12 +937,6 @@
             "id": "pystemmer",
             "payload": {
               "__lazy_json__": "node_attrs/pystemmer.json"
-            }
-          },
-          {
-            "id": "python-bidi",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-bidi.json"
             }
           },
           {
@@ -1157,12 +1099,6 @@
             "id": "tibs",
             "payload": {
               "__lazy_json__": "node_attrs/tibs.json"
-            }
-          },
-          {
-            "id": "traits",
-            "payload": {
-              "__lazy_json__": "node_attrs/traits.json"
             }
           },
           {
