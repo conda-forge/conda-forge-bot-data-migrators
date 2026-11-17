@@ -54,20 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cppad-mixed",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppad-mixed.json"
-            }
-          },
-          {
-            "id": "nanoeigenpy",
-            "payload": {
-              "__lazy_json__": "node_attrs/nanoeigenpy.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -257,7 +244,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
