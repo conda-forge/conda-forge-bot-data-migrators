@@ -1,0 +1,1512 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libintl 1.0\n  kind: version\n  migration_number: 1\ngettext:\n- '1'       # [unix]\n- '0.22'    # [win]\nlibintl:\n- '1'       # [unix]\n- '0.22'    # [win]\nlibintl_devel:\n- '1'       # [unix]\n- '0.22'    # [win]\nmigrator_ts: 1794642944.3773298\n",
+    "libintl10"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for libintl 1.0",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "aspell",
+            "payload": {
+              "__lazy_json__": "node_attrs/aspell.json"
+            }
+          },
+          {
+            "id": "axel",
+            "payload": {
+              "__lazy_json__": "node_attrs/axel.json"
+            }
+          },
+          {
+            "id": "cflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/cflow.json"
+            }
+          },
+          {
+            "id": "combine",
+            "payload": {
+              "__lazy_json__": "node_attrs/combine.json"
+            }
+          },
+          {
+            "id": "cppi",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppi.json"
+            }
+          },
+          {
+            "id": "direvent",
+            "payload": {
+              "__lazy_json__": "node_attrs/direvent.json"
+            }
+          },
+          {
+            "id": "dos2unix",
+            "payload": {
+              "__lazy_json__": "node_attrs/dos2unix.json"
+            }
+          },
+          {
+            "id": "e2fsprogs",
+            "payload": {
+              "__lazy_json__": "node_attrs/e2fsprogs.json"
+            }
+          },
+          {
+            "id": "enscript",
+            "payload": {
+              "__lazy_json__": "node_attrs/enscript.json"
+            }
+          },
+          {
+            "id": "exiv2",
+            "payload": {
+              "__lazy_json__": "node_attrs/exiv2.json"
+            }
+          },
+          {
+            "id": "findutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/findutils.json"
+            }
+          },
+          {
+            "id": "fontconfig",
+            "payload": {
+              "__lazy_json__": "node_attrs/fontconfig.json"
+            }
+          },
+          {
+            "id": "gawk",
+            "payload": {
+              "__lazy_json__": "node_attrs/gawk.json"
+            }
+          },
+          {
+            "id": "gcal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gcal.json"
+            }
+          },
+          {
+            "id": "giac",
+            "payload": {
+              "__lazy_json__": "node_attrs/giac.json"
+            }
+          },
+          {
+            "id": "git",
+            "payload": {
+              "__lazy_json__": "node_attrs/git.json"
+            }
+          },
+          {
+            "id": "gnucobol",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnucobol.json"
+            }
+          },
+          {
+            "id": "grep",
+            "payload": {
+              "__lazy_json__": "node_attrs/grep.json"
+            }
+          },
+          {
+            "id": "guile",
+            "payload": {
+              "__lazy_json__": "node_attrs/guile.json"
+            }
+          },
+          {
+            "id": "ledger",
+            "payload": {
+              "__lazy_json__": "node_attrs/ledger.json"
+            }
+          },
+          {
+            "id": "libgpg-error",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgpg-error.json"
+            }
+          },
+          {
+            "id": "libgphoto2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgphoto2.json"
+            }
+          },
+          {
+            "id": "libgsasl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgsasl.json"
+            }
+          },
+          {
+            "id": "libidn2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libidn2.json"
+            }
+          },
+          {
+            "id": "netpbm",
+            "payload": {
+              "__lazy_json__": "node_attrs/netpbm.json"
+            }
+          },
+          {
+            "id": "newt",
+            "payload": {
+              "__lazy_json__": "node_attrs/newt.json"
+            }
+          },
+          {
+            "id": "numdiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/numdiff.json"
+            }
+          },
+          {
+            "id": "nvim",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvim.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "pv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pv.json"
+            }
+          },
+          {
+            "id": "ruby",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruby.json"
+            }
+          },
+          {
+            "id": "scilab",
+            "payload": {
+              "__lazy_json__": "node_attrs/scilab.json"
+            }
+          },
+          {
+            "id": "sed",
+            "payload": {
+              "__lazy_json__": "node_attrs/sed.json"
+            }
+          },
+          {
+            "id": "subversion",
+            "payload": {
+              "__lazy_json__": "node_attrs/subversion.json"
+            }
+          },
+          {
+            "id": "tar",
+            "payload": {
+              "__lazy_json__": "node_attrs/tar.json"
+            }
+          },
+          {
+            "id": "w3m",
+            "payload": {
+              "__lazy_json__": "node_attrs/w3m.json"
+            }
+          },
+          {
+            "id": "wdiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/wdiff.json"
+            }
+          },
+          {
+            "id": "xorg-libxpm",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxpm.json"
+            }
+          },
+          {
+            "id": "yash",
+            "payload": {
+              "__lazy_json__": "node_attrs/yash.json"
+            }
+          },
+          {
+            "id": "rpcsvc-proto",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpcsvc-proto.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "apbs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aspell",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "atk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "atk",
+            "target": "gnome-themes-standard"
+          },
+          {
+            "source": "atk",
+            "target": "gtk2"
+          },
+          {
+            "source": "atk",
+            "target": "gtk3"
+          },
+          {
+            "source": "avahi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "avahi",
+            "target": "sane"
+          },
+          {
+            "source": "axel",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cflow",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "chafa",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "combine",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cppi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "direvent",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dos2unix",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "e2fsprogs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "enscript",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "exiv2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "findutils",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fontconfig",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fontconfig",
+            "target": "glycin_and_loaders"
+          },
+          {
+            "source": "fontconfig",
+            "target": "gnome-themes-standard"
+          },
+          {
+            "source": "fontconfig",
+            "target": "grass"
+          },
+          {
+            "source": "fontconfig",
+            "target": "gtk2"
+          },
+          {
+            "source": "fontconfig",
+            "target": "gtk3"
+          },
+          {
+            "source": "fontconfig",
+            "target": "gtk4"
+          },
+          {
+            "source": "fontconfig",
+            "target": "libvips"
+          },
+          {
+            "source": "fontconfig",
+            "target": "openmodelica"
+          },
+          {
+            "source": "fontconfig",
+            "target": "poppler"
+          },
+          {
+            "source": "fontconfig",
+            "target": "r-base"
+          },
+          {
+            "source": "gawk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gcab",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gcab",
+            "target": "msitools"
+          },
+          {
+            "source": "gcal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "chafa"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "gnome-themes-standard"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "gtk2"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "gtk3"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "gtk4"
+          },
+          {
+            "source": "gdk-pixbuf",
+            "target": "libdazzle"
+          },
+          {
+            "source": "giac",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "git",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "glib-networking",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "glib-networking",
+            "target": "gst-rtsp-server"
+          },
+          {
+            "source": "glib-networking",
+            "target": "gstreamer"
+          },
+          {
+            "source": "glib-networking",
+            "target": "libsoup"
+          },
+          {
+            "source": "glib",
+            "target": "atk"
+          },
+          {
+            "source": "glib",
+            "target": "avahi"
+          },
+          {
+            "source": "glib",
+            "target": "chafa"
+          },
+          {
+            "source": "glib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "glib",
+            "target": "gcab"
+          },
+          {
+            "source": "glib",
+            "target": "gdk-pixbuf"
+          },
+          {
+            "source": "glib",
+            "target": "glib-networking"
+          },
+          {
+            "source": "glib",
+            "target": "glycin_and_loaders"
+          },
+          {
+            "source": "glib",
+            "target": "gnome-themes-standard"
+          },
+          {
+            "source": "glib",
+            "target": "gst-plugins-bad"
+          },
+          {
+            "source": "glib",
+            "target": "gst-plugins-ugly"
+          },
+          {
+            "source": "glib",
+            "target": "gst-rtsp-server"
+          },
+          {
+            "source": "glib",
+            "target": "gstreamer"
+          },
+          {
+            "source": "glib",
+            "target": "gtk2"
+          },
+          {
+            "source": "glib",
+            "target": "gtk3"
+          },
+          {
+            "source": "glib",
+            "target": "gtk4"
+          },
+          {
+            "source": "glib",
+            "target": "libadwaita"
+          },
+          {
+            "source": "glib",
+            "target": "libdazzle"
+          },
+          {
+            "source": "glib",
+            "target": "libsecret"
+          },
+          {
+            "source": "glib",
+            "target": "libsoup"
+          },
+          {
+            "source": "glib",
+            "target": "libvips"
+          },
+          {
+            "source": "glib",
+            "target": "msitools"
+          },
+          {
+            "source": "glib",
+            "target": "openconnect"
+          },
+          {
+            "source": "glib",
+            "target": "poppler"
+          },
+          {
+            "source": "glib",
+            "target": "qtspell"
+          },
+          {
+            "source": "glib",
+            "target": "r-base"
+          },
+          {
+            "source": "glib",
+            "target": "rrdtool"
+          },
+          {
+            "source": "glycin_and_loaders",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gnome-themes-standard",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gnucobol",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gnutls",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gnutls",
+            "target": "msmtp"
+          },
+          {
+            "source": "gnutls",
+            "target": "openconnect"
+          },
+          {
+            "source": "grass",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "grep",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gst-plugins-bad",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gst-plugins-ugly",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gst-rtsp-server",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gstreamer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gstreamer",
+            "target": "gst-plugins-bad"
+          },
+          {
+            "source": "gstreamer",
+            "target": "gst-plugins-ugly"
+          },
+          {
+            "source": "gstreamer",
+            "target": "gst-rtsp-server"
+          },
+          {
+            "source": "gtk2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtk2",
+            "target": "gnome-themes-standard"
+          },
+          {
+            "source": "gtk3",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtk3",
+            "target": "grass"
+          },
+          {
+            "source": "gtk3",
+            "target": "libdazzle"
+          },
+          {
+            "source": "gtk3",
+            "target": "openconnect"
+          },
+          {
+            "source": "gtk4",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtk4",
+            "target": "glycin_and_loaders"
+          },
+          {
+            "source": "gtk4",
+            "target": "libadwaita"
+          },
+          {
+            "source": "guile",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "itstool",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ledger",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libadwaita",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libdazzle",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgpg-error",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgphoto2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgsasl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libgsasl",
+            "target": "msmtp"
+          },
+          {
+            "source": "libidn2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libidn2",
+            "target": "gnutls"
+          },
+          {
+            "source": "libsecret",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libsoup",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libsoup",
+            "target": "gst-rtsp-server"
+          },
+          {
+            "source": "libsoup",
+            "target": "gstreamer"
+          },
+          {
+            "source": "libvips",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "msitools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "msmtp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "netpbm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "newt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "numdiff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvim",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openconnect",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openmodelica",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "poppler",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "poppler",
+            "target": "libvips"
+          },
+          {
+            "source": "pv",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qtspell",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-base",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rpcsvc-proto",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rrdtool",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ruby",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sane",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scilab",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sed",
+            "target": "apbs"
+          },
+          {
+            "source": "sed",
+            "target": "avahi"
+          },
+          {
+            "source": "sed",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sed",
+            "target": "glib"
+          },
+          {
+            "source": "sed",
+            "target": "grass"
+          },
+          {
+            "source": "sed",
+            "target": "gst-rtsp-server"
+          },
+          {
+            "source": "sed",
+            "target": "gstreamer"
+          },
+          {
+            "source": "sed",
+            "target": "itstool"
+          },
+          {
+            "source": "sed",
+            "target": "r-base"
+          },
+          {
+            "source": "sed",
+            "target": "vim"
+          },
+          {
+            "source": "subversion",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tar",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "vim",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "w3m",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wdiff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "xorg-libxpm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "yash",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "apbs",
+            "payload": {
+              "__lazy_json__": "node_attrs/apbs.json"
+            }
+          },
+          {
+            "id": "aspell",
+            "payload": {
+              "__lazy_json__": "node_attrs/aspell.json"
+            }
+          },
+          {
+            "id": "atk",
+            "payload": {
+              "__lazy_json__": "node_attrs/atk.json"
+            }
+          },
+          {
+            "id": "avahi",
+            "payload": {
+              "__lazy_json__": "node_attrs/avahi.json"
+            }
+          },
+          {
+            "id": "axel",
+            "payload": {
+              "__lazy_json__": "node_attrs/axel.json"
+            }
+          },
+          {
+            "id": "cflow",
+            "payload": {
+              "__lazy_json__": "node_attrs/cflow.json"
+            }
+          },
+          {
+            "id": "chafa",
+            "payload": {
+              "__lazy_json__": "node_attrs/chafa.json"
+            }
+          },
+          {
+            "id": "combine",
+            "payload": {
+              "__lazy_json__": "node_attrs/combine.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "cppi",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppi.json"
+            }
+          },
+          {
+            "id": "direvent",
+            "payload": {
+              "__lazy_json__": "node_attrs/direvent.json"
+            }
+          },
+          {
+            "id": "dos2unix",
+            "payload": {
+              "__lazy_json__": "node_attrs/dos2unix.json"
+            }
+          },
+          {
+            "id": "e2fsprogs",
+            "payload": {
+              "__lazy_json__": "node_attrs/e2fsprogs.json"
+            }
+          },
+          {
+            "id": "enscript",
+            "payload": {
+              "__lazy_json__": "node_attrs/enscript.json"
+            }
+          },
+          {
+            "id": "exiv2",
+            "payload": {
+              "__lazy_json__": "node_attrs/exiv2.json"
+            }
+          },
+          {
+            "id": "findutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/findutils.json"
+            }
+          },
+          {
+            "id": "fontconfig",
+            "payload": {
+              "__lazy_json__": "node_attrs/fontconfig.json"
+            }
+          },
+          {
+            "id": "gawk",
+            "payload": {
+              "__lazy_json__": "node_attrs/gawk.json"
+            }
+          },
+          {
+            "id": "gcab",
+            "payload": {
+              "__lazy_json__": "node_attrs/gcab.json"
+            }
+          },
+          {
+            "id": "gcal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gcal.json"
+            }
+          },
+          {
+            "id": "gdk-pixbuf",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdk-pixbuf.json"
+            }
+          },
+          {
+            "id": "giac",
+            "payload": {
+              "__lazy_json__": "node_attrs/giac.json"
+            }
+          },
+          {
+            "id": "git",
+            "payload": {
+              "__lazy_json__": "node_attrs/git.json"
+            }
+          },
+          {
+            "id": "glib",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib.json"
+            }
+          },
+          {
+            "id": "glib-networking",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib-networking.json"
+            }
+          },
+          {
+            "id": "glycin_and_loaders",
+            "payload": {
+              "__lazy_json__": "node_attrs/glycin_and_loaders.json"
+            }
+          },
+          {
+            "id": "gnome-themes-standard",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnome-themes-standard.json"
+            }
+          },
+          {
+            "id": "gnucobol",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnucobol.json"
+            }
+          },
+          {
+            "id": "gnutls",
+            "payload": {
+              "__lazy_json__": "node_attrs/gnutls.json"
+            }
+          },
+          {
+            "id": "grass",
+            "payload": {
+              "__lazy_json__": "node_attrs/grass.json"
+            }
+          },
+          {
+            "id": "grep",
+            "payload": {
+              "__lazy_json__": "node_attrs/grep.json"
+            }
+          },
+          {
+            "id": "gst-plugins-bad",
+            "payload": {
+              "__lazy_json__": "node_attrs/gst-plugins-bad.json"
+            }
+          },
+          {
+            "id": "gst-plugins-ugly",
+            "payload": {
+              "__lazy_json__": "node_attrs/gst-plugins-ugly.json"
+            }
+          },
+          {
+            "id": "gst-rtsp-server",
+            "payload": {
+              "__lazy_json__": "node_attrs/gst-rtsp-server.json"
+            }
+          },
+          {
+            "id": "gstreamer",
+            "payload": {
+              "__lazy_json__": "node_attrs/gstreamer.json"
+            }
+          },
+          {
+            "id": "gtk2",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtk2.json"
+            }
+          },
+          {
+            "id": "gtk3",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtk3.json"
+            }
+          },
+          {
+            "id": "gtk4",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtk4.json"
+            }
+          },
+          {
+            "id": "guile",
+            "payload": {
+              "__lazy_json__": "node_attrs/guile.json"
+            }
+          },
+          {
+            "id": "itstool",
+            "payload": {
+              "__lazy_json__": "node_attrs/itstool.json"
+            }
+          },
+          {
+            "id": "ledger",
+            "payload": {
+              "__lazy_json__": "node_attrs/ledger.json"
+            }
+          },
+          {
+            "id": "libadwaita",
+            "payload": {
+              "__lazy_json__": "node_attrs/libadwaita.json"
+            }
+          },
+          {
+            "id": "libdazzle",
+            "payload": {
+              "__lazy_json__": "node_attrs/libdazzle.json"
+            }
+          },
+          {
+            "id": "libgpg-error",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgpg-error.json"
+            }
+          },
+          {
+            "id": "libgphoto2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgphoto2.json"
+            }
+          },
+          {
+            "id": "libgsasl",
+            "payload": {
+              "__lazy_json__": "node_attrs/libgsasl.json"
+            }
+          },
+          {
+            "id": "libidn2",
+            "payload": {
+              "__lazy_json__": "node_attrs/libidn2.json"
+            }
+          },
+          {
+            "id": "libsecret",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsecret.json"
+            }
+          },
+          {
+            "id": "libsoup",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsoup.json"
+            }
+          },
+          {
+            "id": "libvips",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvips.json"
+            }
+          },
+          {
+            "id": "msitools",
+            "payload": {
+              "__lazy_json__": "node_attrs/msitools.json"
+            }
+          },
+          {
+            "id": "msmtp",
+            "payload": {
+              "__lazy_json__": "node_attrs/msmtp.json"
+            }
+          },
+          {
+            "id": "netpbm",
+            "payload": {
+              "__lazy_json__": "node_attrs/netpbm.json"
+            }
+          },
+          {
+            "id": "newt",
+            "payload": {
+              "__lazy_json__": "node_attrs/newt.json"
+            }
+          },
+          {
+            "id": "numdiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/numdiff.json"
+            }
+          },
+          {
+            "id": "nvim",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvim.json"
+            }
+          },
+          {
+            "id": "openconnect",
+            "payload": {
+              "__lazy_json__": "node_attrs/openconnect.json"
+            }
+          },
+          {
+            "id": "openmodelica",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmodelica.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "poppler",
+            "payload": {
+              "__lazy_json__": "node_attrs/poppler.json"
+            }
+          },
+          {
+            "id": "pv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pv.json"
+            }
+          },
+          {
+            "id": "qtspell",
+            "payload": {
+              "__lazy_json__": "node_attrs/qtspell.json"
+            }
+          },
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "rrdtool",
+            "payload": {
+              "__lazy_json__": "node_attrs/rrdtool.json"
+            }
+          },
+          {
+            "id": "ruby",
+            "payload": {
+              "__lazy_json__": "node_attrs/ruby.json"
+            }
+          },
+          {
+            "id": "sane",
+            "payload": {
+              "__lazy_json__": "node_attrs/sane.json"
+            }
+          },
+          {
+            "id": "scilab",
+            "payload": {
+              "__lazy_json__": "node_attrs/scilab.json"
+            }
+          },
+          {
+            "id": "sed",
+            "payload": {
+              "__lazy_json__": "node_attrs/sed.json"
+            }
+          },
+          {
+            "id": "subversion",
+            "payload": {
+              "__lazy_json__": "node_attrs/subversion.json"
+            }
+          },
+          {
+            "id": "tar",
+            "payload": {
+              "__lazy_json__": "node_attrs/tar.json"
+            }
+          },
+          {
+            "id": "vim",
+            "payload": {
+              "__lazy_json__": "node_attrs/vim.json"
+            }
+          },
+          {
+            "id": "w3m",
+            "payload": {
+              "__lazy_json__": "node_attrs/w3m.json"
+            }
+          },
+          {
+            "id": "wdiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/wdiff.json"
+            }
+          },
+          {
+            "id": "xorg-libxpm",
+            "payload": {
+              "__lazy_json__": "node_attrs/xorg-libxpm.json"
+            }
+          },
+          {
+            "id": "yash",
+            "payload": {
+              "__lazy_json__": "node_attrs/yash.json"
+            }
+          },
+          {
+            "id": "rpcsvc-proto",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpcsvc-proto.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "gettext",
+        "libintl",
+        "libintl-devel"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "libintl10"
+}
