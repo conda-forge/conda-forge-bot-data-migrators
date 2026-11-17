@@ -60,6 +60,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
             }
+          },
+          {
+            "id": "rpm-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpm-tools.json"
+            }
           }
         ]
       }
@@ -147,6 +153,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "rpm-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "systemd",
             "target": "conda-forge-pinning"
           },
@@ -215,6 +225,12 @@
             "id": "rocr-runtime",
             "payload": {
               "__lazy_json__": "node_attrs/rocr-runtime.json"
+            }
+          },
+          {
+            "id": "rpm-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpm-tools.json"
             }
           },
           {
