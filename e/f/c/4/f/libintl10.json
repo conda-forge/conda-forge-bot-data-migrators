@@ -56,6 +56,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "apbs",
+            "payload": {
+              "__lazy_json__": "node_attrs/apbs.json"
+            }
+          },
+          {
             "id": "aspell",
             "payload": {
               "__lazy_json__": "node_attrs/aspell.json"
@@ -134,6 +140,12 @@
             }
           },
           {
+            "id": "glib",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib.json"
+            }
+          },
+          {
             "id": "gnucobol",
             "payload": {
               "__lazy_json__": "node_attrs/gnucobol.json"
@@ -149,6 +161,12 @@
             "id": "guile",
             "payload": {
               "__lazy_json__": "node_attrs/guile.json"
+            }
+          },
+          {
+            "id": "itstool",
+            "payload": {
+              "__lazy_json__": "node_attrs/itstool.json"
             }
           },
           {
@@ -194,6 +212,12 @@
             }
           },
           {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
             "id": "pv",
             "payload": {
               "__lazy_json__": "node_attrs/pv.json"
@@ -221,6 +245,12 @@
             "id": "tar",
             "payload": {
               "__lazy_json__": "node_attrs/tar.json"
+            }
+          },
+          {
+            "id": "vim",
+            "payload": {
+              "__lazy_json__": "node_attrs/vim.json"
             }
           },
           {
@@ -781,6 +811,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "poppler",
             "target": "conda-forge-pinning"
           },
@@ -1237,6 +1271,12 @@
             "id": "openmodelica",
             "payload": {
               "__lazy_json__": "node_attrs/openmodelica.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
