@@ -34879,10 +34879,6 @@
           },
           {
             "source": "icu",
-            "target": "e-antic"
-          },
-          {
-            "source": "icu",
             "target": "harfbuzz"
           },
           {
@@ -52883,6 +52879,10 @@
           },
           {
             "source": "mpfr",
+            "target": "e-antic"
+          },
+          {
+            "source": "mpfr",
             "target": "eclib"
           },
           {
@@ -64311,6 +64311,10 @@
           },
           {
             "source": "openssl",
+            "target": "libcups"
+          },
+          {
+            "source": "openssl",
             "target": "libevent"
           },
           {
@@ -71248,6 +71252,10 @@
           {
             "source": "pkgconf",
             "target": "leptonica"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libcups"
           },
           {
             "source": "pkgconf",
