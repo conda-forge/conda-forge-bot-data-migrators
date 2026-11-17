@@ -61,6 +61,12 @@
             }
           },
           {
+            "id": "threeml",
+            "payload": {
+              "__lazy_json__": "node_attrs/threeml.json"
+            }
+          },
+          {
             "id": "yarp",
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
@@ -1915,6 +1921,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "astromodels",
+            "target": "threeml"
+          },
+          {
             "source": "astropy-healpix",
             "target": "bayeswave"
           },
@@ -2313,6 +2323,10 @@
           {
             "source": "astropy",
             "target": "tardis-sn"
+          },
+          {
+            "source": "astropy",
+            "target": "threeml"
           },
           {
             "source": "astropy",
@@ -4433,6 +4447,10 @@
           {
             "source": "backports.zstd",
             "target": "thinc"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "threeml"
           },
           {
             "source": "backports.zstd",
@@ -8308,6 +8326,10 @@
           },
           {
             "source": "brotli",
+            "target": "threeml"
+          },
+          {
+            "source": "brotli",
             "target": "tiatoolbox"
           },
           {
@@ -10164,6 +10186,10 @@
           },
           {
             "source": "cffi",
+            "target": "threeml"
+          },
+          {
+            "source": "cffi",
             "target": "tiledbsoma"
           },
           {
@@ -11209,6 +11235,10 @@
           {
             "source": "contourpy",
             "target": "stackvana-core"
+          },
+          {
+            "source": "contourpy",
+            "target": "threeml"
           },
           {
             "source": "contourpy",
@@ -16405,6 +16435,10 @@
           {
             "source": "debugpy",
             "target": "tardis-sn"
+          },
+          {
+            "source": "debugpy",
+            "target": "threeml"
           },
           {
             "source": "debugpy",
@@ -22807,6 +22841,10 @@
             "target": "stackvana-core"
           },
           {
+            "source": "iminuit",
+            "target": "threeml"
+          },
+          {
             "source": "immutables",
             "target": "conda-forge-pinning"
           },
@@ -25000,6 +25038,10 @@
           },
           {
             "source": "llvmlite",
+            "target": "threeml"
+          },
+          {
+            "source": "llvmlite",
             "target": "tiledbsoma"
           },
           {
@@ -27156,6 +27198,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "threeml"
+          },
+          {
+            "source": "markupsafe",
             "target": "tiatoolbox"
           },
           {
@@ -29241,6 +29287,10 @@
           {
             "source": "matplotlib",
             "target": "thinkx"
+          },
+          {
+            "source": "matplotlib",
+            "target": "threeml"
           },
           {
             "source": "matplotlib",
@@ -33268,6 +33318,10 @@
           },
           {
             "source": "numba",
+            "target": "threeml"
+          },
+          {
+            "source": "numba",
             "target": "tiatoolbox"
           },
           {
@@ -33665,6 +33719,10 @@
           {
             "source": "numexpr",
             "target": "tardis-sn"
+          },
+          {
+            "source": "numexpr",
+            "target": "threeml"
           },
           {
             "source": "numexpr",
@@ -40180,6 +40238,10 @@
           },
           {
             "source": "numpy",
+            "target": "threeml"
+          },
+          {
+            "source": "numpy",
             "target": "tiatoolbox"
           },
           {
@@ -43664,6 +43726,10 @@
           },
           {
             "source": "pandas",
+            "target": "threeml"
+          },
+          {
+            "source": "pandas",
             "target": "tiatoolbox"
           },
           {
@@ -45261,6 +45327,10 @@
           {
             "source": "pillow",
             "target": "tesserocr"
+          },
+          {
+            "source": "pillow",
+            "target": "threeml"
           },
           {
             "source": "pillow",
@@ -47981,6 +48051,10 @@
           {
             "source": "psutil",
             "target": "thinc"
+          },
+          {
+            "source": "psutil",
+            "target": "threeml"
           },
           {
             "source": "psutil",
@@ -55896,6 +55970,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "threeml"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "uhd"
           },
           {
@@ -56453,6 +56531,10 @@
           {
             "source": "pywin32",
             "target": "tardis-sn"
+          },
+          {
+            "source": "pywin32",
+            "target": "threeml"
           },
           {
             "source": "pywin32",
@@ -58464,6 +58546,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "threeml"
+          },
+          {
+            "source": "pyyaml",
             "target": "tiatoolbox"
           },
           {
@@ -59089,6 +59175,10 @@
           {
             "source": "pyzmq",
             "target": "tardis-sn"
+          },
+          {
+            "source": "pyzmq",
+            "target": "threeml"
           },
           {
             "source": "pyzmq",
@@ -65821,6 +65911,10 @@
           {
             "source": "scipy",
             "target": "thinkx"
+          },
+          {
+            "source": "scipy",
+            "target": "threeml"
           },
           {
             "source": "scipy",
@@ -80100,6 +80194,10 @@
           },
           {
             "source": "tbb",
+            "target": "threeml"
+          },
+          {
+            "source": "tbb",
             "target": "thrift"
           },
           {
@@ -81567,6 +81665,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "threeml",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "thrift",
             "target": "apache-airflow-backport-providers-cncf-kubernetes"
           },
@@ -82701,6 +82803,10 @@
           {
             "source": "tornado",
             "target": "tardis-sn"
+          },
+          {
+            "source": "tornado",
+            "target": "threeml"
           },
           {
             "source": "tornado",
@@ -85997,6 +86103,10 @@
           {
             "source": "wcwidth",
             "target": "thinc"
+          },
+          {
+            "source": "wcwidth",
+            "target": "threeml"
           },
           {
             "source": "wcwidth",
@@ -104921,6 +105031,12 @@
             "id": "thinkx",
             "payload": {
               "__lazy_json__": "node_attrs/thinkx.json"
+            }
+          },
+          {
+            "id": "threeml",
+            "payload": {
+              "__lazy_json__": "node_attrs/threeml.json"
             }
           },
           {
