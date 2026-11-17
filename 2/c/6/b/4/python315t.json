@@ -206,10 +206,6 @@
           },
           {
             "source": "brotli",
-            "target": "numcodecs"
-          },
-          {
-            "source": "brotli",
             "target": "numpy_quaddtype"
           },
           {
@@ -775,12 +771,6 @@
             "id": "nmslib",
             "payload": {
               "__lazy_json__": "node_attrs/nmslib.json"
-            }
-          },
-          {
-            "id": "numcodecs",
-            "payload": {
-              "__lazy_json__": "node_attrs/numcodecs.json"
             }
           },
           {
