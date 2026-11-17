@@ -51,12 +51,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
             }
-          },
-          {
-            "id": "unicodedata2",
-            "payload": {
-              "__lazy_json__": "node_attrs/unicodedata2.json"
-            }
           }
         ]
       }
@@ -2733,6 +2727,10 @@
           {
             "source": "clang-compiler-activation",
             "target": "watchdog"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "watchfiles"
           },
           {
             "source": "clang-compiler-activation",
@@ -18101,6 +18099,10 @@
           {
             "source": "rsync",
             "target": "watchdog"
+          },
+          {
+            "source": "rsync",
+            "target": "watchfiles"
           },
           {
             "source": "ruamel.yaml.clib",
