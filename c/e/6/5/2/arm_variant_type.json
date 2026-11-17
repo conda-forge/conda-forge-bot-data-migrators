@@ -666,6 +666,12 @@
             }
           },
           {
+            "id": "xformers",
+            "payload": {
+              "__lazy_json__": "node_attrs/xformers.json"
+            }
+          },
+          {
             "id": "cupdlpx",
             "payload": {
               "__lazy_json__": "node_attrs/cupdlpx.json"
@@ -991,6 +997,10 @@
           {
             "source": "cutlass",
             "target": "pyg-lib"
+          },
+          {
+            "source": "cutlass",
+            "target": "tilelang"
           },
           {
             "source": "cyrsoxs",
@@ -1985,6 +1995,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "tilelang",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "timemory",
             "target": "conda-forge-pinning"
           },
@@ -2190,6 +2204,10 @@
           },
           {
             "source": "whisper.cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "xformers",
             "target": "conda-forge-pinning"
           },
           {
@@ -3236,6 +3254,12 @@
             }
           },
           {
+            "id": "xformers",
+            "payload": {
+              "__lazy_json__": "node_attrs/xformers.json"
+            }
+          },
+          {
             "id": "xgboost",
             "payload": {
               "__lazy_json__": "node_attrs/xgboost.json"
@@ -3245,6 +3269,12 @@
             "id": "natten",
             "payload": {
               "__lazy_json__": "node_attrs/natten.json"
+            }
+          },
+          {
+            "id": "tilelang",
+            "payload": {
+              "__lazy_json__": "node_attrs/tilelang.json"
             }
           },
           {
