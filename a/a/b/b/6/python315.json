@@ -67,6 +67,12 @@
             }
           },
           {
+            "id": "pyxel-sim",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyxel-sim.json"
+            }
+          },
+          {
             "id": "yarp",
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
@@ -2260,6 +2266,10 @@
           },
           {
             "source": "astropy",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "astropy",
             "target": "pyxsim"
           },
           {
@@ -4128,6 +4138,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "backports.zstd",
             "target": "pyzmq"
           },
           {
@@ -5053,6 +5067,10 @@
           {
             "source": "bcrypt",
             "target": "pyuvdata"
+          },
+          {
+            "source": "bcrypt",
+            "target": "pyxel-sim"
           },
           {
             "source": "bcrypt",
@@ -8008,6 +8026,10 @@
           },
           {
             "source": "brotli",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "brotli",
             "target": "pyzmq"
           },
           {
@@ -10008,6 +10030,10 @@
           },
           {
             "source": "cffi",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "cffi",
             "target": "pyxenon"
           },
           {
@@ -11225,6 +11251,10 @@
           {
             "source": "contourpy",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "contourpy",
+            "target": "pyxel-sim"
           },
           {
             "source": "contourpy",
@@ -15845,6 +15875,10 @@
           {
             "source": "cytoolz",
             "target": "pyrte_rrtmgp"
+          },
+          {
+            "source": "cytoolz",
+            "target": "pyxel-sim"
           },
           {
             "source": "cytoolz",
@@ -21608,6 +21642,10 @@
           },
           {
             "source": "h5py",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "h5py",
             "target": "pyxsim"
           },
           {
@@ -25772,6 +25810,10 @@
           },
           {
             "source": "lz4",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "lz4",
             "target": "qcodes"
           },
           {
@@ -27013,6 +27055,10 @@
           {
             "source": "markupsafe",
             "target": "pywr"
+          },
+          {
+            "source": "markupsafe",
+            "target": "pyxel-sim"
           },
           {
             "source": "markupsafe",
@@ -28989,6 +29035,10 @@
           {
             "source": "matplotlib",
             "target": "pywr"
+          },
+          {
+            "source": "matplotlib",
+            "target": "pyxel-sim"
           },
           {
             "source": "matplotlib",
@@ -30981,6 +31031,10 @@
           {
             "source": "msgpack-python",
             "target": "python-box"
+          },
+          {
+            "source": "msgpack-python",
+            "target": "pyxel-sim"
           },
           {
             "source": "msgpack-python",
@@ -33281,6 +33335,10 @@
           {
             "source": "numba",
             "target": "pywim"
+          },
+          {
+            "source": "numba",
+            "target": "pyxel-sim"
           },
           {
             "source": "numba",
@@ -39264,6 +39322,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "numpy",
             "target": "pyxsim"
           },
           {
@@ -43476,6 +43538,10 @@
           },
           {
             "source": "pandas",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "pandas",
             "target": "qcodes"
           },
           {
@@ -45189,6 +45255,10 @@
           {
             "source": "pillow",
             "target": "pyweed"
+          },
+          {
+            "source": "pillow",
+            "target": "pyxel-sim"
           },
           {
             "source": "pillow",
@@ -47844,6 +47914,10 @@
           },
           {
             "source": "psutil",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "psutil",
             "target": "pyzmq"
           },
           {
@@ -49005,6 +49079,10 @@
           {
             "source": "pyarrow",
             "target": "python-infomap"
+          },
+          {
+            "source": "pyarrow",
+            "target": "pyxel-sim"
           },
           {
             "source": "pyarrow",
@@ -50837,6 +50915,10 @@
           {
             "source": "pygmo",
             "target": "pykep"
+          },
+          {
+            "source": "pygmo",
+            "target": "pyxel-sim"
           },
           {
             "source": "pygmsh",
@@ -54772,6 +54854,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "python-xxhash",
             "target": "radarx"
           },
           {
@@ -56044,6 +56130,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "radis"
           },
           {
@@ -56529,6 +56619,10 @@
           {
             "source": "pywin32",
             "target": "pywr"
+          },
+          {
+            "source": "pywin32",
+            "target": "pyxel-sim"
           },
           {
             "source": "pywin32",
@@ -57036,6 +57130,10 @@
           },
           {
             "source": "pyxdameraulevenshtein",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyxel-sim",
             "target": "conda-forge-pinning"
           },
           {
@@ -58369,6 +58467,10 @@
           {
             "source": "pyyaml",
             "target": "pywr"
+          },
+          {
+            "source": "pyyaml",
+            "target": "pyxel-sim"
           },
           {
             "source": "pyyaml",
@@ -65476,6 +65578,10 @@
           },
           {
             "source": "scipy",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "scipy",
             "target": "pyxsim"
           },
           {
@@ -68468,6 +68574,10 @@
           },
           {
             "source": "statsmodels",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "statsmodels",
             "target": "qiskit-aer"
           },
           {
@@ -68757,6 +68867,10 @@
           {
             "source": "synphot",
             "target": "photochem"
+          },
+          {
+            "source": "synphot",
+            "target": "pyxel-sim"
           },
           {
             "source": "synphot",
@@ -78492,6 +78606,10 @@
           },
           {
             "source": "tbb",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "tbb",
             "target": "pyxenon"
           },
           {
@@ -82844,6 +82962,10 @@
           },
           {
             "source": "tornado",
+            "target": "pyxel-sim"
+          },
+          {
+            "source": "tornado",
             "target": "qcodes"
           },
           {
@@ -86041,6 +86163,10 @@
           {
             "source": "wcwidth",
             "target": "pywr"
+          },
+          {
+            "source": "wcwidth",
+            "target": "pyxel-sim"
           },
           {
             "source": "wcwidth",
@@ -102459,6 +102585,12 @@
             "id": "pyxdameraulevenshtein",
             "payload": {
               "__lazy_json__": "node_attrs/pyxdameraulevenshtein.json"
+            }
+          },
+          {
+            "id": "pyxel-sim",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyxel-sim.json"
             }
           },
           {
