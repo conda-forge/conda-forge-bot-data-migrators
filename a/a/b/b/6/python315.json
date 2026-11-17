@@ -14474,6 +14474,10 @@
           },
           {
             "source": "cython",
+            "target": "pyjnius"
+          },
+          {
+            "source": "cython",
             "target": "pyjpegls"
           },
           {
@@ -50949,6 +50953,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyjnius",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyjnius",
+            "target": "pyserini"
+          },
+          {
             "source": "pyjpegls",
             "target": "conda-forge-pinning"
           },
@@ -76878,6 +76890,10 @@
           },
           {
             "source": "tbb",
+            "target": "pyjnius"
+          },
+          {
+            "source": "tbb",
             "target": "pyjpegls"
           },
           {
@@ -100139,6 +100155,12 @@
             "id": "pyjion",
             "payload": {
               "__lazy_json__": "node_attrs/pyjion.json"
+            }
+          },
+          {
+            "id": "pyjnius",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyjnius.json"
             }
           },
           {
