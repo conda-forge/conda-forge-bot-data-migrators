@@ -293,6 +293,10 @@
           },
           {
             "source": "libxml2",
+            "target": "php"
+          },
+          {
+            "source": "libxml2",
             "target": "postgresql"
           },
           {
@@ -356,12 +360,20 @@
             "target": "topologytoolkit"
           },
           {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "postgresql",
             "target": "conda-forge-pinning"
           },
           {
             "source": "postgresql",
             "target": "libpdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "php"
           },
           {
             "source": "postgresql",
@@ -450,6 +462,10 @@
           {
             "source": "sqlite",
             "target": "nodejs"
+          },
+          {
+            "source": "sqlite",
+            "target": "php"
           },
           {
             "source": "sqlite",
@@ -693,6 +709,12 @@
             }
           },
           {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
             "id": "postgresql",
             "payload": {
               "__lazy_json__": "node_attrs/postgresql.json"
@@ -924,7 +946,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
