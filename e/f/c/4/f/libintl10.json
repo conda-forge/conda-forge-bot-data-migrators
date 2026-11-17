@@ -116,12 +116,6 @@
             }
           },
           {
-            "id": "findutils",
-            "payload": {
-              "__lazy_json__": "node_attrs/findutils.json"
-            }
-          },
-          {
             "id": "fontconfig",
             "payload": {
               "__lazy_json__": "node_attrs/fontconfig.json"
@@ -197,12 +191,6 @@
             "id": "libidn2",
             "payload": {
               "__lazy_json__": "node_attrs/libidn2.json"
-            }
-          },
-          {
-            "id": "netpbm",
-            "payload": {
-              "__lazy_json__": "node_attrs/netpbm.json"
             }
           },
           {
@@ -1501,7 +1489,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
