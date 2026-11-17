@@ -13720,6 +13720,10 @@
           },
           {
             "source": "openssl",
+            "target": "libcups"
+          },
+          {
+            "source": "openssl",
             "target": "libevent"
           },
           {
@@ -14985,6 +14989,10 @@
           {
             "source": "pkgconf",
             "target": "json-c"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libcups"
           },
           {
             "source": "pkgconf",
