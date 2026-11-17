@@ -102,10 +102,6 @@
           },
           {
             "source": "brotli",
-            "target": "ducc0"
-          },
-          {
-            "source": "brotli",
             "target": "edt"
           },
           {
@@ -210,6 +206,10 @@
           },
           {
             "source": "brotli",
+            "target": "numba-cuda-mlir"
+          },
+          {
+            "source": "brotli",
             "target": "numpy_quaddtype"
           },
           {
@@ -235,10 +235,6 @@
           {
             "source": "brotli",
             "target": "poselib"
-          },
-          {
-            "source": "brotli",
-            "target": "pulp"
           },
           {
             "source": "brotli",
@@ -289,8 +285,16 @@
             "target": "zmesh"
           },
           {
+            "source": "cuda-core",
+            "target": "numba-cuda-mlir"
+          },
+          {
             "source": "cuda-python",
             "target": "cuda-core"
+          },
+          {
+            "source": "cuda-python",
+            "target": "numba-cuda-mlir"
           }
         ],
         "multigraph": false,
@@ -311,12 +315,6 @@
             "id": "anycrc",
             "payload": {
               "__lazy_json__": "node_attrs/anycrc.json"
-            }
-          },
-          {
-            "id": "apache-tvm-ffi",
-            "payload": {
-              "__lazy_json__": "node_attrs/apache-tvm-ffi.json"
             }
           },
           {
@@ -422,12 +420,6 @@
             }
           },
           {
-            "id": "curl-cffi",
-            "payload": {
-              "__lazy_json__": "node_attrs/curl-cffi.json"
-            }
-          },
-          {
             "id": "cwcwidth",
             "payload": {
               "__lazy_json__": "node_attrs/cwcwidth.json"
@@ -461,12 +453,6 @@
             "id": "dpctl",
             "payload": {
               "__lazy_json__": "node_attrs/dpctl.json"
-            }
-          },
-          {
-            "id": "ducc0",
-            "payload": {
-              "__lazy_json__": "node_attrs/ducc0.json"
             }
           },
           {
@@ -626,12 +612,6 @@
             }
           },
           {
-            "id": "jsonnet",
-            "payload": {
-              "__lazy_json__": "node_attrs/jsonnet.json"
-            }
-          },
-          {
             "id": "kealib",
             "payload": {
               "__lazy_json__": "node_attrs/kealib.json"
@@ -788,6 +768,12 @@
             }
           },
           {
+            "id": "numba-cuda-mlir",
+            "payload": {
+              "__lazy_json__": "node_attrs/numba-cuda-mlir.json"
+            }
+          },
+          {
             "id": "numpy_quaddtype",
             "payload": {
               "__lazy_json__": "node_attrs/numpy_quaddtype.json"
@@ -848,12 +834,6 @@
             }
           },
           {
-            "id": "pulp",
-            "payload": {
-              "__lazy_json__": "node_attrs/pulp.json"
-            }
-          },
-          {
             "id": "py-bip39-bindings",
             "payload": {
               "__lazy_json__": "node_attrs/py-bip39-bindings.json"
@@ -863,12 +843,6 @@
             "id": "pybcj",
             "payload": {
               "__lazy_json__": "node_attrs/pybcj.json"
-            }
-          },
-          {
-            "id": "pyclipper",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyclipper.json"
             }
           },
           {
