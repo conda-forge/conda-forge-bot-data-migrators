@@ -14474,10 +14474,6 @@
           },
           {
             "source": "cython",
-            "target": "pyjnius"
-          },
-          {
-            "source": "cython",
             "target": "pyjpegls"
           },
           {
@@ -29090,10 +29086,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "shadow3"
-          },
-          {
-            "source": "matplotlib",
             "target": "shap"
           },
           {
@@ -39683,10 +39675,6 @@
           {
             "source": "numpy",
             "target": "sgpp"
-          },
-          {
-            "source": "numpy",
-            "target": "shadow3"
           },
           {
             "source": "numpy",
@@ -50961,14 +50949,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "pyjnius",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pyjnius",
-            "target": "pyserini"
-          },
-          {
             "source": "pyjpegls",
             "target": "conda-forge-pinning"
           },
@@ -52847,10 +52827,6 @@
           {
             "source": "pyqt",
             "target": "sasview"
-          },
-          {
-            "source": "pyqt",
-            "target": "shadow3"
           },
           {
             "source": "pyqt",
@@ -65574,10 +65550,6 @@
           },
           {
             "source": "scipy",
-            "target": "shadow3"
-          },
-          {
-            "source": "scipy",
             "target": "shap"
           },
           {
@@ -66378,10 +66350,6 @@
           },
           {
             "source": "sha256",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shadow3",
             "target": "conda-forge-pinning"
           },
           {
@@ -76910,10 +76878,6 @@
           },
           {
             "source": "tbb",
-            "target": "pyjnius"
-          },
-          {
-            "source": "tbb",
             "target": "pyjpegls"
           },
           {
@@ -79207,10 +79171,6 @@
           {
             "source": "tbb",
             "target": "sha256"
-          },
-          {
-            "source": "tbb",
-            "target": "shadow3"
           },
           {
             "source": "tbb",
@@ -87247,10 +87207,6 @@
           {
             "source": "xraylib",
             "target": "scikit-beam"
-          },
-          {
-            "source": "xraylib",
-            "target": "shadow3"
           },
           {
             "source": "xrayutilities",
@@ -100186,12 +100142,6 @@
             }
           },
           {
-            "id": "pyjnius",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyjnius.json"
-            }
-          },
-          {
             "id": "pyjpegls",
             "payload": {
               "__lazy_json__": "node_attrs/pyjpegls.json"
@@ -103597,12 +103547,6 @@
             "id": "sha256",
             "payload": {
               "__lazy_json__": "node_attrs/sha256.json"
-            }
-          },
-          {
-            "id": "shadow3",
-            "payload": {
-              "__lazy_json__": "node_attrs/shadow3.json"
             }
           },
           {
