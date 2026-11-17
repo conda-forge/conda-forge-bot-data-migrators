@@ -154,6 +154,10 @@
           },
           {
             "source": "brotli",
+            "target": "kealib"
+          },
+          {
+            "source": "brotli",
             "target": "lsstdesc.coord"
           },
           {
@@ -613,6 +617,12 @@
             "id": "jsonnet",
             "payload": {
               "__lazy_json__": "node_attrs/jsonnet.json"
+            }
+          },
+          {
+            "id": "kealib",
+            "payload": {
+              "__lazy_json__": "node_attrs/kealib.json"
             }
           },
           {
