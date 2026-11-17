@@ -884,6 +884,12 @@
             }
           },
           {
+            "id": "pyjnius",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyjnius.json"
+            }
+          },
+          {
             "id": "pykrb5",
             "payload": {
               "__lazy_json__": "node_attrs/pykrb5.json"
@@ -3760,6 +3766,10 @@
           {
             "source": "cython",
             "target": "pyhams"
+          },
+          {
+            "source": "cython",
+            "target": "pyjnius"
           },
           {
             "source": "cython",
@@ -9138,6 +9148,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyjnius",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "pykdtree",
             "target": "conda-forge-pinning"
           },
@@ -13084,6 +13098,10 @@
           {
             "source": "tbb",
             "target": "pyinterp"
+          },
+          {
+            "source": "tbb",
+            "target": "pyjnius"
           },
           {
             "source": "tbb",
@@ -17628,6 +17646,12 @@
             "id": "pyinterp",
             "payload": {
               "__lazy_json__": "node_attrs/pyinterp.json"
+            }
+          },
+          {
+            "id": "pyjnius",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyjnius.json"
             }
           },
           {
