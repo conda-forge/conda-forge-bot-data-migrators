@@ -166,10 +166,6 @@
           },
           {
             "source": "brotli",
-            "target": "lsstdesc.coord"
-          },
-          {
-            "source": "brotli",
             "target": "mapbox_earcut"
           },
           {
@@ -688,12 +684,6 @@
             }
           },
           {
-            "id": "lsstdesc.coord",
-            "payload": {
-              "__lazy_json__": "node_attrs/lsstdesc.coord.json"
-            }
-          },
-          {
             "id": "lupa",
             "payload": {
               "__lazy_json__": "node_attrs/lupa.json"
@@ -871,12 +861,6 @@
             "id": "pyclipper",
             "payload": {
               "__lazy_json__": "node_attrs/pyclipper.json"
-            }
-          },
-          {
-            "id": "pygit2",
-            "payload": {
-              "__lazy_json__": "node_attrs/pygit2.json"
             }
           },
           {
@@ -1063,12 +1047,6 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
-            }
-          },
-          {
-            "id": "simsimd",
-            "payload": {
-              "__lazy_json__": "node_attrs/simsimd.json"
             }
           },
           {
