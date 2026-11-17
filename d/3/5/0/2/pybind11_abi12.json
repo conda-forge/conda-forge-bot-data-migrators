@@ -116,12 +116,6 @@
             }
           },
           {
-            "id": "gdma",
-            "payload": {
-              "__lazy_json__": "node_attrs/gdma.json"
-            }
-          },
-          {
             "id": "gmattensor",
             "payload": {
               "__lazy_json__": "node_attrs/gmattensor.json"
@@ -167,12 +161,6 @@
             "id": "labmaze",
             "payload": {
               "__lazy_json__": "node_attrs/labmaze.json"
-            }
-          },
-          {
-            "id": "libefp",
-            "payload": {
-              "__lazy_json__": "node_attrs/libefp.json"
             }
           },
           {
@@ -1493,7 +1481,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
