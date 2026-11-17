@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 2026-11-15T06:48:55+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\n  commit_message: Update aws-* (November'26)\n  automerge: true\naws_c_http:\n  - \"1.2\"\naws_checksums:\n  - 1.0.1\n",
+    "migrator_ts: 2026-11-15T06:48:55+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\n  commit_message: Update aws-* (November'26)\n  automerge: true\n  exclude_pinned_pkgs: false\naws_c_http:\n  - \"1.2\"\naws_c_s3:\n  - \"1.5\"\naws_checksums:\n  - 1.0.1\naws_crt_cpp:\n  - 0.43.9\ns2n:\n  - 1.7.14\n",
     "aws_c_nov26"
   ],
   "class": "MigrationYaml",
@@ -53,9 +53,17 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "s2n",
+            "payload": {
+              "__lazy_json__": "node_attrs/s2n.json"
+            }
+          }
+        ]
       }
     },
+    "exclude_pinned_pkgs": false,
     "force_pr_after_solver_attempts": 10,
     "graph": {
       "__nx_digraph__": true,
@@ -99,6 +107,10 @@
         },
         "links": [
           {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "aws-c-auth",
             "target": "aws-c-s3"
           },
@@ -128,6 +140,10 @@
           },
           {
             "source": "aws-c-event-stream",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
             "target": "awscrt"
           },
           {
@@ -136,6 +152,42 @@
           },
           {
             "source": "aws-c-event-stream",
+            "target": "tiledb"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-auth"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-mqtt"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-s3"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "awscrt"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "hdf5"
+          },
+          {
+            "source": "aws-c-io",
             "target": "tiledb"
           },
           {
@@ -176,10 +228,30 @@
           },
           {
             "source": "aws-crt-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "aws-crt-cpp",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-crt-cpp",
             "target": "conda-forge-pinning"
           },
           {
             "source": "aws-crt-cpp",
+            "target": "tiledb"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-sdk-cpp",
             "target": "tiledb"
           },
           {
@@ -191,12 +263,30 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "s2n",
+            "target": "aws-c-io"
+          },
+          {
+            "source": "s2n",
+            "target": "awscrt"
+          },
+          {
+            "source": "s2n",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "tiledb",
             "target": "conda-forge-pinning"
           }
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
           {
             "id": "aws-c-auth",
             "payload": {
@@ -207,6 +297,12 @@
             "id": "aws-c-event-stream",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-event-stream.json"
+            }
+          },
+          {
+            "id": "aws-c-io",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-io.json"
             }
           },
           {
@@ -228,6 +324,12 @@
             }
           },
           {
+            "id": "aws-sdk-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-sdk-cpp.json"
+            }
+          },
+          {
             "id": "awscrt",
             "payload": {
               "__lazy_json__": "node_attrs/awscrt.json"
@@ -243,6 +345,12 @@
             "id": "hdf5",
             "payload": {
               "__lazy_json__": "node_attrs/hdf5.json"
+            }
+          },
+          {
+            "id": "s2n",
+            "payload": {
+              "__lazy_json__": "node_attrs/s2n.json"
             }
           },
           {
@@ -262,7 +370,10 @@
       "__set__": true,
       "elements": [
         "aws-c-http",
-        "aws-checksums"
+        "aws-c-s3",
+        "aws-checksums",
+        "aws-crt-cpp",
+        "s2n"
       ]
     },
     "paused": false,
@@ -352,7 +463,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
