@@ -58,7 +58,15 @@
         "links": [
           {
             "source": "brotli",
+            "target": "aggdraw"
+          },
+          {
+            "source": "brotli",
             "target": "arraykit"
+          },
+          {
+            "source": "brotli",
+            "target": "av"
           },
           {
             "source": "brotli",
@@ -222,6 +230,18 @@
           },
           {
             "source": "brotli",
+            "target": "pikepdf"
+          },
+          {
+            "source": "brotli",
+            "target": "pillow-avif-plugin"
+          },
+          {
+            "source": "brotli",
+            "target": "pillow-heif"
+          },
+          {
+            "source": "brotli",
             "target": "poselib"
           },
           {
@@ -254,15 +274,15 @@
           },
           {
             "source": "brotli",
-            "target": "rustworkx"
-          },
-          {
-            "source": "brotli",
             "target": "shapely"
           },
           {
             "source": "brotli",
             "target": "spinsfast"
+          },
+          {
+            "source": "brotli",
+            "target": "tesserocr"
           },
           {
             "source": "brotli",
@@ -279,6 +299,12 @@
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "aggdraw",
+            "payload": {
+              "__lazy_json__": "node_attrs/aggdraw.json"
+            }
+          },
           {
             "id": "aiofastnet",
             "payload": {
@@ -307,6 +333,12 @@
             "id": "arro3-core",
             "payload": {
               "__lazy_json__": "node_attrs/arro3-core.json"
+            }
+          },
+          {
+            "id": "av",
+            "payload": {
+              "__lazy_json__": "node_attrs/av.json"
             }
           },
           {
@@ -451,12 +483,6 @@
             "id": "endf",
             "payload": {
               "__lazy_json__": "node_attrs/endf.json"
-            }
-          },
-          {
-            "id": "ephem",
-            "payload": {
-              "__lazy_json__": "node_attrs/ephem.json"
             }
           },
           {
@@ -718,12 +744,6 @@
             }
           },
           {
-            "id": "mkl-service",
-            "payload": {
-              "__lazy_json__": "node_attrs/mkl-service.json"
-            }
-          },
-          {
             "id": "mkl_random",
             "payload": {
               "__lazy_json__": "node_attrs/mkl_random.json"
@@ -817,6 +837,24 @@
             "id": "phonors",
             "payload": {
               "__lazy_json__": "node_attrs/phonors.json"
+            }
+          },
+          {
+            "id": "pikepdf",
+            "payload": {
+              "__lazy_json__": "node_attrs/pikepdf.json"
+            }
+          },
+          {
+            "id": "pillow-avif-plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/pillow-avif-plugin.json"
+            }
+          },
+          {
+            "id": "pillow-heif",
+            "payload": {
+              "__lazy_json__": "node_attrs/pillow-heif.json"
             }
           },
           {
@@ -1024,12 +1062,6 @@
             }
           },
           {
-            "id": "rustworkx",
-            "payload": {
-              "__lazy_json__": "node_attrs/rustworkx.json"
-            }
-          },
-          {
             "id": "s2geometry",
             "payload": {
               "__lazy_json__": "node_attrs/s2geometry.json"
@@ -1087,6 +1119,12 @@
             "id": "sysv_ipc",
             "payload": {
               "__lazy_json__": "node_attrs/sysv_ipc.json"
+            }
+          },
+          {
+            "id": "tesserocr",
+            "payload": {
+              "__lazy_json__": "node_attrs/tesserocr.json"
             }
           },
           {
