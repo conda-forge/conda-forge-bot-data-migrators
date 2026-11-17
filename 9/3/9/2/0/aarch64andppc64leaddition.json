@@ -730,6 +730,10 @@
             "target": "jpype1"
           },
           {
+            "source": "apache-ant",
+            "target": "pyjnius"
+          },
+          {
             "source": "apache-beam",
             "target": "apache-flink"
           },
@@ -1816,6 +1820,10 @@
           {
             "source": "autoconf",
             "target": "r-httpuv"
+          },
+          {
+            "source": "autoconf",
+            "target": "r-huge"
           },
           {
             "source": "autoconf",
@@ -3072,6 +3080,10 @@
           {
             "source": "automake",
             "target": "r-httpuv"
+          },
+          {
+            "source": "automake",
+            "target": "r-huge"
           },
           {
             "source": "automake",
@@ -7799,6 +7811,10 @@
           },
           {
             "source": "bash",
+            "target": "pyjnius"
+          },
+          {
+            "source": "bash",
             "target": "pykdtree"
           },
           {
@@ -8624,6 +8640,10 @@
           {
             "source": "bash",
             "target": "r-httpuv"
+          },
+          {
+            "source": "bash",
+            "target": "r-huge"
           },
           {
             "source": "bash",
@@ -21819,6 +21839,10 @@
           },
           {
             "source": "coverage",
+            "target": "pyjnius"
+          },
+          {
+            "source": "coverage",
             "target": "pykrige"
           },
           {
@@ -25272,6 +25296,10 @@
           {
             "source": "cython",
             "target": "pyiceberg"
+          },
+          {
+            "source": "cython",
+            "target": "pyjnius"
           },
           {
             "source": "cython",
@@ -46195,6 +46223,10 @@
           },
           {
             "source": "libtool",
+            "target": "pyjnius"
+          },
+          {
+            "source": "libtool",
             "target": "pykdtree"
           },
           {
@@ -47020,6 +47052,10 @@
           {
             "source": "libtool",
             "target": "r-httpuv"
+          },
+          {
+            "source": "libtool",
+            "target": "r-huge"
           },
           {
             "source": "libtool",
@@ -61359,6 +61395,10 @@
           },
           {
             "source": "openjdk",
+            "target": "pyjnius"
+          },
+          {
+            "source": "openjdk",
             "target": "r-base"
           },
           {
@@ -67124,6 +67164,10 @@
           {
             "source": "pkg-config",
             "target": "r-httpuv"
+          },
+          {
+            "source": "pkg-config",
+            "target": "r-huge"
           },
           {
             "source": "pkg-config",
@@ -74519,6 +74563,10 @@
           },
           {
             "source": "python",
+            "target": "pyjnius"
+          },
+          {
+            "source": "python",
             "target": "pykdtree"
           },
           {
@@ -79227,6 +79275,10 @@
           },
           {
             "source": "r-base",
+            "target": "r-huge"
+          },
+          {
+            "source": "r-base",
             "target": "r-idpmisc"
           },
           {
@@ -82779,6 +82831,10 @@
           },
           {
             "source": "r-igraph",
+            "target": "r-huge"
+          },
+          {
+            "source": "r-igraph",
             "target": "r-influencer"
           },
           {
@@ -83747,6 +83803,10 @@
           },
           {
             "source": "r-mass",
+            "target": "r-huge"
+          },
+          {
+            "source": "r-mass",
             "target": "r-ipred"
           },
           {
@@ -83912,6 +83972,10 @@
           {
             "source": "r-matrix",
             "target": "r-harmony"
+          },
+          {
+            "source": "r-matrix",
+            "target": "r-huge"
           },
           {
             "source": "r-matrix",
@@ -85212,6 +85276,10 @@
           {
             "source": "r-rcpp",
             "target": "r-httpuv"
+          },
+          {
+            "source": "r-rcpp",
+            "target": "r-huge"
           },
           {
             "source": "r-rcpp",
@@ -91032,6 +91100,10 @@
           {
             "source": "sed",
             "target": "pyinterp"
+          },
+          {
+            "source": "sed",
+            "target": "pyjnius"
           },
           {
             "source": "sed",
@@ -114321,6 +114393,12 @@
             }
           },
           {
+            "id": "pyjnius",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyjnius.json"
+            }
+          },
+          {
             "id": "pykdtree",
             "payload": {
               "__lazy_json__": "node_attrs/pykdtree.json"
@@ -116082,6 +116160,12 @@
             "id": "r-httpuv",
             "payload": {
               "__lazy_json__": "node_attrs/r-httpuv.json"
+            }
+          },
+          {
+            "id": "r-huge",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-huge.json"
             }
           },
           {
