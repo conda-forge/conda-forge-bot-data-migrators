@@ -158,6 +158,10 @@
           },
           {
             "source": "brotli",
+            "target": "levenshtein"
+          },
+          {
+            "source": "brotli",
             "target": "lsstdesc.coord"
           },
           {
@@ -218,10 +222,6 @@
           },
           {
             "source": "brotli",
-            "target": "pillow"
-          },
-          {
-            "source": "brotli",
             "target": "poselib"
           },
           {
@@ -259,10 +259,6 @@
           {
             "source": "brotli",
             "target": "shapely"
-          },
-          {
-            "source": "brotli",
-            "target": "snowflake-connector-python"
           },
           {
             "source": "brotli",
@@ -638,6 +634,12 @@
             }
           },
           {
+            "id": "levenshtein",
+            "payload": {
+              "__lazy_json__": "node_attrs/levenshtein.json"
+            }
+          },
+          {
             "id": "libode",
             "payload": {
               "__lazy_json__": "node_attrs/libode.json"
@@ -815,12 +817,6 @@
             "id": "phonors",
             "payload": {
               "__lazy_json__": "node_attrs/phonors.json"
-            }
-          },
-          {
-            "id": "pillow",
-            "payload": {
-              "__lazy_json__": "node_attrs/pillow.json"
             }
           },
           {
@@ -1067,12 +1063,6 @@
             "id": "simsimd",
             "payload": {
               "__lazy_json__": "node_attrs/simsimd.json"
-            }
-          },
-          {
-            "id": "snowflake-connector-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/snowflake-connector-python.json"
             }
           },
           {
