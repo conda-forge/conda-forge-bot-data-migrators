@@ -53,12 +53,6 @@
             }
           },
           {
-            "id": "aws-c-common",
-            "payload": {
-              "__lazy_json__": "node_attrs/aws-c-common.json"
-            }
-          },
-          {
             "id": "blake3",
             "payload": {
               "__lazy_json__": "node_attrs/blake3.json"
@@ -251,12 +245,6 @@
             }
           },
           {
-            "id": "sleef",
-            "payload": {
-              "__lazy_json__": "node_attrs/sleef.json"
-            }
-          },
-          {
             "id": "tokenizers",
             "payload": {
               "__lazy_json__": "node_attrs/tokenizers.json"
@@ -284,18 +272,6 @@
             "id": "websockets",
             "payload": {
               "__lazy_json__": "node_attrs/websockets.json"
-            }
-          },
-          {
-            "id": "xcb-util",
-            "payload": {
-              "__lazy_json__": "node_attrs/xcb-util.json"
-            }
-          },
-          {
-            "id": "xcb-util-keysyms",
-            "payload": {
-              "__lazy_json__": "node_attrs/xcb-util-keysyms.json"
             }
           },
           {
@@ -3701,14 +3677,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8866,12 +8834,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10549,7 +10511,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
