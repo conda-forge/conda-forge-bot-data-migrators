@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "rpm-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpm-tools.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -140,6 +147,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "rpm-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "systemd",
             "target": "conda-forge-pinning"
           },
@@ -208,6 +219,12 @@
             "id": "rocr-runtime",
             "payload": {
               "__lazy_json__": "node_attrs/rocr-runtime.json"
+            }
+          },
+          {
+            "id": "rpm-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpm-tools.json"
             }
           },
           {
