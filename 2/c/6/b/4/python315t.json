@@ -86,6 +86,14 @@
           },
           {
             "source": "brotli",
+            "target": "cuda-core"
+          },
+          {
+            "source": "brotli",
+            "target": "cuda-python"
+          },
+          {
+            "source": "brotli",
             "target": "daqp"
           },
           {
@@ -279,6 +287,10 @@
           {
             "source": "brotli",
             "target": "zmesh"
+          },
+          {
+            "source": "cuda-python",
+            "target": "cuda-core"
           }
         ],
         "multigraph": false,
@@ -395,6 +407,18 @@
             "id": "crc32c",
             "payload": {
               "__lazy_json__": "node_attrs/crc32c.json"
+            }
+          },
+          {
+            "id": "cuda-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-core.json"
+            }
+          },
+          {
+            "id": "cuda-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -3054,10 +3078,6 @@
           {
             "source": "cuda-core",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cuda-core",
-            "target": "cuda-python"
           },
           {
             "source": "cuda-core",
