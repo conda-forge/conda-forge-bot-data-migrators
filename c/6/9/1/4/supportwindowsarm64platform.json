@@ -51,6 +51,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/fonttools.json"
             }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
           }
         ]
       }
@@ -2582,6 +2588,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "fastar"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "gdal"
           },
           {
@@ -3391,6 +3401,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -4419,6 +4433,10 @@
           {
             "source": "ctng-compilers",
             "target": "falcon"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "fastar"
           },
           {
             "source": "ctng-compilers",
@@ -10638,6 +10656,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11439,6 +11461,10 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
           },
           {
             "source": "micromamba",
@@ -14382,10 +14408,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "fastar"
-          },
-          {
-            "source": "pkg-config",
             "target": "ffmpeg"
           },
           {
@@ -14959,6 +14981,10 @@
           {
             "source": "pkgconf",
             "target": "conda-mirror"
+          },
+          {
+            "source": "pkgconf",
+            "target": "fastar"
           },
           {
             "source": "pkgconf",
@@ -17986,6 +18012,10 @@
           },
           {
             "source": "rsync",
+            "target": "fastar"
+          },
+          {
+            "source": "rsync",
             "target": "gdal"
           },
           {
@@ -18335,6 +18365,10 @@
           {
             "source": "sed",
             "target": "falcon"
+          },
+          {
+            "source": "sed",
+            "target": "fastar"
           },
           {
             "source": "sed",
@@ -24381,6 +24415,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
