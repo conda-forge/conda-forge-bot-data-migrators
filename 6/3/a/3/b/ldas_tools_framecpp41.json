@@ -54,32 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "gds-frameio",
-            "payload": {
-              "__lazy_json__": "node_attrs/gds-frameio.json"
-            }
-          },
-          {
-            "id": "gwframe",
-            "payload": {
-              "__lazy_json__": "node_attrs/gwframe.json"
-            }
-          },
-          {
-            "id": "lalframe",
-            "payload": {
-              "__lazy_json__": "node_attrs/lalframe.json"
-            }
-          },
-          {
-            "id": "ldas-tools-frameapi",
-            "payload": {
-              "__lazy_json__": "node_attrs/ldas-tools-frameapi.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -325,7 +300,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
