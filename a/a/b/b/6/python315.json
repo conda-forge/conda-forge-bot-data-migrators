@@ -77,6 +77,24 @@
             "payload": {
               "__lazy_json__": "node_attrs/knot-floer-homology.json"
             }
+          },
+          {
+            "id": "pylzss",
+            "payload": {
+              "__lazy_json__": "node_attrs/pylzss.json"
+            }
+          },
+          {
+            "id": "sslpsk-pmd3",
+            "payload": {
+              "__lazy_json__": "node_attrs/sslpsk-pmd3.json"
+            }
+          },
+          {
+            "id": "python-lzfse",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzfse.json"
+            }
           }
         ]
       }
@@ -2558,6 +2576,10 @@
           },
           {
             "source": "av",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "av",
             "target": "torchvision"
           },
           {
@@ -3975,6 +3997,10 @@
           {
             "source": "backports.zstd",
             "target": "pymeshfix"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "pymobiledevice3"
           },
           {
             "source": "backports.zstd",
@@ -7854,6 +7880,10 @@
           },
           {
             "source": "brotli",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "brotli",
             "target": "pymol-open-source"
           },
           {
@@ -9890,6 +9920,10 @@
           },
           {
             "source": "cffi",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "cffi",
             "target": "pymoo"
           },
           {
@@ -10419,6 +10453,10 @@
           {
             "source": "chardet",
             "target": "pyjelly"
+          },
+          {
+            "source": "chardet",
+            "target": "pymobiledevice3"
           },
           {
             "source": "chardet",
@@ -17962,6 +18000,10 @@
           },
           {
             "source": "fastar",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "fastar",
             "target": "pyserini"
           },
           {
@@ -20586,6 +20628,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "pyserini"
           },
           {
@@ -22463,6 +22509,10 @@
           {
             "source": "httptools",
             "target": "pandas-plink"
+          },
+          {
+            "source": "httptools",
+            "target": "pymobiledevice3"
           },
           {
             "source": "httptools",
@@ -26846,6 +26896,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "pyimg4"
+          },
+          {
+            "source": "markupsafe",
             "target": "pyinterp"
           },
           {
@@ -26859,6 +26913,10 @@
           {
             "source": "markupsafe",
             "target": "pymks"
+          },
+          {
+            "source": "markupsafe",
+            "target": "pymobiledevice3"
           },
           {
             "source": "markupsafe",
@@ -45070,6 +45128,10 @@
           },
           {
             "source": "pillow",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "pillow",
             "target": "pypdfium2"
           },
           {
@@ -46291,6 +46353,10 @@
           {
             "source": "protobuf",
             "target": "pyjelly"
+          },
+          {
+            "source": "protobuf",
+            "target": "pymobiledevice3"
           },
           {
             "source": "protobuf",
@@ -47687,6 +47753,10 @@
           {
             "source": "psutil",
             "target": "pymks"
+          },
+          {
+            "source": "psutil",
+            "target": "pymobiledevice3"
           },
           {
             "source": "psutil",
@@ -49514,6 +49584,10 @@
           },
           {
             "source": "pycryptodome",
+            "target": "pyimg4"
+          },
+          {
+            "source": "pycryptodome",
             "target": "stream-unzip"
           },
           {
@@ -50126,11 +50200,19 @@
           },
           {
             "source": "pydantic-core",
+            "target": "pyimg4"
+          },
+          {
+            "source": "pydantic-core",
             "target": "pyjs_code_runner"
           },
           {
             "source": "pydantic-core",
             "target": "pylance"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "pymobiledevice3"
           },
           {
             "source": "pydantic-core",
@@ -50985,6 +51067,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pyimg4",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyimg4",
+            "target": "pymobiledevice3"
+          },
+          {
             "source": "pyinotify",
             "target": "conda-forge-pinning"
           },
@@ -51201,6 +51291,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pylzss",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pylzss",
+            "target": "pyimg4"
+          },
+          {
             "source": "pymaeparser",
             "target": "conda-forge-pinning"
           },
@@ -51350,6 +51448,10 @@
           },
           {
             "source": "pymmcore",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pymobiledevice3",
             "target": "conda-forge-pinning"
           },
           {
@@ -54237,6 +54339,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "python-lzfse",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-lzfse",
+            "target": "pyimg4"
+          },
+          {
             "source": "python-lzo",
             "target": "conda-forge-pinning"
           },
@@ -56390,6 +56500,10 @@
           },
           {
             "source": "pywin32",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "pywin32",
             "target": "pyodesys"
           },
           {
@@ -58110,6 +58224,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "pyyaml",
             "target": "pymt"
           },
           {
@@ -59271,6 +59389,10 @@
           {
             "source": "qh3",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qh3",
+            "target": "pymobiledevice3"
           },
           {
             "source": "qiskit-aer",
@@ -68063,6 +68185,14 @@
           {
             "source": "ssh_ipykernel_interrupt",
             "target": "ssh-ipykernel"
+          },
+          {
+            "source": "sslpsk-pmd3",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sslpsk-pmd3",
+            "target": "pymobiledevice3"
           },
           {
             "source": "ssm-simulators",
@@ -76966,6 +77096,10 @@
           },
           {
             "source": "tbb",
+            "target": "pyimg4"
+          },
+          {
+            "source": "tbb",
             "target": "pyinotify"
           },
           {
@@ -77106,6 +77240,10 @@
           },
           {
             "source": "tbb",
+            "target": "pylzss"
+          },
+          {
+            "source": "tbb",
             "target": "pymaeparser"
           },
           {
@@ -77191,6 +77329,10 @@
           {
             "source": "tbb",
             "target": "pymmcore"
+          },
+          {
+            "source": "tbb",
+            "target": "pymobiledevice3"
           },
           {
             "source": "tbb",
@@ -78023,6 +78165,10 @@
           {
             "source": "tbb",
             "target": "python-lzf"
+          },
+          {
+            "source": "tbb",
+            "target": "python-lzfse"
           },
           {
             "source": "tbb",
@@ -79827,6 +79973,10 @@
           {
             "source": "tbb",
             "target": "ssh_ipykernel_interrupt"
+          },
+          {
+            "source": "tbb",
+            "target": "sslpsk-pmd3"
           },
           {
             "source": "tbb",
@@ -84198,6 +84348,10 @@
           },
           {
             "source": "uvloop",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "uvloop",
             "target": "pyserini"
           },
           {
@@ -84867,6 +85021,10 @@
           {
             "source": "watchfiles",
             "target": "pandas-plink"
+          },
+          {
+            "source": "watchfiles",
+            "target": "pymobiledevice3"
           },
           {
             "source": "watchfiles",
@@ -85818,6 +85976,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "wcwidth",
             "target": "pyodesys"
           },
           {
@@ -86390,6 +86552,10 @@
           },
           {
             "source": "websockets",
+            "target": "pymobiledevice3"
+          },
+          {
+            "source": "websockets",
             "target": "pyserini"
           },
           {
@@ -86859,6 +87025,10 @@
           {
             "source": "wrapt",
             "target": "pymks"
+          },
+          {
+            "source": "wrapt",
+            "target": "pymobiledevice3"
           },
           {
             "source": "wrapt",
@@ -107107,6 +107277,36 @@
             "id": "pynvvideocodec",
             "payload": {
               "__lazy_json__": "node_attrs/pynvvideocodec.json"
+            }
+          },
+          {
+            "id": "pylzss",
+            "payload": {
+              "__lazy_json__": "node_attrs/pylzss.json"
+            }
+          },
+          {
+            "id": "sslpsk-pmd3",
+            "payload": {
+              "__lazy_json__": "node_attrs/sslpsk-pmd3.json"
+            }
+          },
+          {
+            "id": "pyimg4",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyimg4.json"
+            }
+          },
+          {
+            "id": "pymobiledevice3",
+            "payload": {
+              "__lazy_json__": "node_attrs/pymobiledevice3.json"
+            }
+          },
+          {
+            "id": "python-lzfse",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-lzfse.json"
             }
           }
         ]
