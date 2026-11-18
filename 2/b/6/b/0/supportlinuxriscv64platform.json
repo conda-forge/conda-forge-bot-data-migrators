@@ -77,18 +77,6 @@
             }
           },
           {
-            "id": "double-conversion",
-            "payload": {
-              "__lazy_json__": "node_attrs/double-conversion.json"
-            }
-          },
-          {
-            "id": "httptools",
-            "payload": {
-              "__lazy_json__": "node_attrs/httptools.json"
-            }
-          },
-          {
             "id": "jiter",
             "payload": {
               "__lazy_json__": "node_attrs/jiter.json"
@@ -3611,14 +3599,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8776,12 +8756,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10459,7 +10433,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
