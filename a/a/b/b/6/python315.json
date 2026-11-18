@@ -71,6 +71,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/pykmclib.json"
             }
+          },
+          {
+            "id": "djvulibre-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/djvulibre-python.json"
+            }
           }
         ]
       }
@@ -13100,6 +13106,10 @@
           },
           {
             "source": "cython",
+            "target": "djvulibre-python"
+          },
+          {
+            "source": "cython",
             "target": "dlltracer"
           },
           {
@@ -16812,6 +16822,10 @@
           },
           {
             "source": "djc-core",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "djvulibre-python",
             "target": "conda-forge-pinning"
           },
           {
@@ -71340,6 +71354,10 @@
           },
           {
             "source": "tbb",
+            "target": "djvulibre-python"
+          },
+          {
+            "source": "tbb",
             "target": "dlib"
           },
           {
@@ -107473,6 +107491,12 @@
             "id": "pykmclib",
             "payload": {
               "__lazy_json__": "node_attrs/pykmclib.json"
+            }
+          },
+          {
+            "id": "djvulibre-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/djvulibre-python.json"
             }
           }
         ]
