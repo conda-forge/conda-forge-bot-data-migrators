@@ -101,12 +101,6 @@
             }
           },
           {
-            "id": "msgspec",
-            "payload": {
-              "__lazy_json__": "node_attrs/msgspec.json"
-            }
-          },
-          {
             "id": "nvtx-c",
             "payload": {
               "__lazy_json__": "node_attrs/nvtx-c.json"
@@ -4398,11 +4392,11 @@
           },
           {
             "source": "pkg-config",
-            "target": "gobject-introspection"
+            "target": "pytorch-cpu"
           },
           {
-            "source": "pkg-config",
-            "target": "pytorch-cpu"
+            "source": "pkgconf",
+            "target": "gobject-introspection"
           },
           {
             "source": "pkgconf",
