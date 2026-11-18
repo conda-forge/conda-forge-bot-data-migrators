@@ -47,12 +47,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "libslirp",
-            "payload": {
-              "__lazy_json__": "node_attrs/libslirp.json"
-            }
-          },
-          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
@@ -15053,6 +15047,10 @@
           {
             "source": "pkgconf",
             "target": "glib"
+          },
+          {
+            "source": "pkgconf",
+            "target": "gobject-introspection"
           },
           {
             "source": "pkgconf",
