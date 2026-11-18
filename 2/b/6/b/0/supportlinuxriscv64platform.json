@@ -71,12 +71,6 @@
             }
           },
           {
-            "id": "cuda-nvtx",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-nvtx.json"
-            }
-          },
-          {
             "id": "cyrus-sasl",
             "payload": {
               "__lazy_json__": "node_attrs/cyrus-sasl.json"
@@ -89,21 +83,9 @@
             }
           },
           {
-            "id": "libcufft",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcufft.json"
-            }
-          },
-          {
             "id": "libdate",
             "payload": {
               "__lazy_json__": "node_attrs/libdate.json"
-            }
-          },
-          {
-            "id": "ml_dtypes",
-            "payload": {
-              "__lazy_json__": "node_attrs/ml_dtypes.json"
             }
           },
           {
@@ -3551,14 +3533,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8716,12 +8690,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10399,7 +10367,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
