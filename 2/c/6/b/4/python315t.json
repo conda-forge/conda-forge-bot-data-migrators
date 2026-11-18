@@ -86,14 +86,6 @@
           },
           {
             "source": "brotli",
-            "target": "cuda-core"
-          },
-          {
-            "source": "brotli",
-            "target": "cuda-python"
-          },
-          {
-            "source": "brotli",
             "target": "daqp"
           },
           {
@@ -279,22 +271,6 @@
           {
             "source": "brotli",
             "target": "zmesh"
-          },
-          {
-            "source": "cuda-core",
-            "target": "cuda-python"
-          },
-          {
-            "source": "cuda-core",
-            "target": "numba-cuda-mlir"
-          },
-          {
-            "source": "cuda-python",
-            "target": "cuda-core"
-          },
-          {
-            "source": "cuda-python",
-            "target": "numba-cuda-mlir"
           }
         ],
         "multigraph": false,
@@ -405,18 +381,6 @@
             "id": "crc32c",
             "payload": {
               "__lazy_json__": "node_attrs/crc32c.json"
-            }
-          },
-          {
-            "id": "cuda-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-core.json"
-            }
-          },
-          {
-            "id": "cuda-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/cuda-python.json"
             }
           },
           {
@@ -633,12 +597,6 @@
             "id": "levenshtein",
             "payload": {
               "__lazy_json__": "node_attrs/levenshtein.json"
-            }
-          },
-          {
-            "id": "libode",
-            "payload": {
-              "__lazy_json__": "node_attrs/libode.json"
             }
           },
           {
@@ -972,12 +930,6 @@
             }
           },
           {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
-            }
-          },
-          {
             "id": "python-suitesparse-graphblas",
             "payload": {
               "__lazy_json__": "node_attrs/python-suitesparse-graphblas.json"
@@ -1005,12 +957,6 @@
             "id": "rchitect",
             "payload": {
               "__lazy_json__": "node_attrs/rchitect.json"
-            }
-          },
-          {
-            "id": "rcssmin",
-            "payload": {
-              "__lazy_json__": "node_attrs/rcssmin.json"
             }
           },
           {
