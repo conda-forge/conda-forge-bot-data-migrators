@@ -834,12 +834,6 @@
             }
           },
           {
-            "id": "python-cudnn-frontend",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-cudnn-frontend.json"
-            }
-          },
-          {
             "id": "python-flint",
             "payload": {
               "__lazy_json__": "node_attrs/python-flint.json"
@@ -1210,6 +1204,10 @@
           {
             "source": "apache-tvm-ffi",
             "target": "nvidia-cutlass-dsl"
+          },
+          {
+            "source": "apache-tvm-ffi",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "apache-tvm-ffi",
@@ -7542,6 +7540,10 @@
           {
             "source": "nvidia-cutlass-dsl",
             "target": "nccl4py"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "nvidia-dali-python",
