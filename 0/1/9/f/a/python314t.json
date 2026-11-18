@@ -55,13 +55,24 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "nccl4py"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
             "id": "e-antic",
             "payload": {
               "__lazy_json__": "node_attrs/e-antic.json"
+            }
+          },
+          {
+            "id": "nccl4py",
+            "payload": {
+              "__lazy_json__": "node_attrs/nccl4py.json"
             }
           },
           {
