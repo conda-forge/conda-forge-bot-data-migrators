@@ -47,6 +47,10 @@
           {
             "source": "m4",
             "target": "metis"
+          },
+          {
+            "source": "m4",
+            "target": "miktex"
           }
         ],
         "multigraph": false,
@@ -61,6 +65,12 @@
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
+            "id": "miktex",
+            "payload": {
+              "__lazy_json__": "node_attrs/miktex.json"
             }
           }
         ]
