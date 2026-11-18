@@ -242,6 +242,10 @@
           },
           {
             "source": "brotli",
+            "target": "segyio"
+          },
+          {
+            "source": "brotli",
             "target": "shapely"
           },
           {
@@ -943,6 +947,12 @@
             "id": "safe-pysha3",
             "payload": {
               "__lazy_json__": "node_attrs/safe-pysha3.json"
+            }
+          },
+          {
+            "id": "segyio",
+            "payload": {
+              "__lazy_json__": "node_attrs/segyio.json"
             }
           },
           {
