@@ -7743,6 +7743,10 @@
           },
           {
             "source": "bash",
+            "target": "pv"
+          },
+          {
+            "source": "bash",
             "target": "py-plumed"
           },
           {
@@ -30467,6 +30471,10 @@
           },
           {
             "source": "gettext",
+            "target": "pv"
+          },
+          {
+            "source": "gettext",
             "target": "rabbitmq-server"
           },
           {
@@ -46180,6 +46188,10 @@
           {
             "source": "libtool",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libtool",
+            "target": "pv"
           },
           {
             "source": "libtool",
@@ -114178,6 +114190,12 @@
             "id": "pulseaudio",
             "payload": {
               "__lazy_json__": "node_attrs/pulseaudio.json"
+            }
+          },
+          {
+            "id": "pv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pv.json"
             }
           },
           {
