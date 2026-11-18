@@ -13348,6 +13348,10 @@
           },
           {
             "source": "cython",
+            "target": "flacarray"
+          },
+          {
+            "source": "cython",
             "target": "flt"
           },
           {
@@ -18455,6 +18459,14 @@
             "target": "treecorr"
           },
           {
+            "source": "flacarray",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flacarray",
+            "target": "toast"
+          },
+          {
             "source": "flake8-to-ruff",
             "target": "conda-forge-pinning"
           },
@@ -19872,6 +19884,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "flacarray"
+          },
+          {
+            "source": "google-crc32c",
             "target": "genomekit"
           },
           {
@@ -20009,10 +20025,6 @@
           {
             "source": "google-crc32c",
             "target": "tiledbsoma"
-          },
-          {
-            "source": "google-crc32c",
-            "target": "toast"
           },
           {
             "source": "google-crc32c",
@@ -21205,6 +21217,10 @@
           {
             "source": "h5py",
             "target": "finesse"
+          },
+          {
+            "source": "h5py",
+            "target": "flacarray"
           },
           {
             "source": "h5py",
@@ -30372,6 +30388,10 @@
           },
           {
             "source": "mpi4py",
+            "target": "flacarray"
+          },
+          {
+            "source": "mpi4py",
             "target": "fluidfft-fftwmpi"
           },
           {
@@ -31256,6 +31276,10 @@
           },
           {
             "source": "msgspec",
+            "target": "flacarray"
+          },
+          {
+            "source": "msgspec",
             "target": "geowombat"
           },
           {
@@ -31353,10 +31377,6 @@
           {
             "source": "msgspec",
             "target": "tiledbsoma"
-          },
-          {
-            "source": "msgspec",
-            "target": "toast"
           },
           {
             "source": "msgspec",
@@ -33540,6 +33560,10 @@
           },
           {
             "source": "numcodecs",
+            "target": "flacarray"
+          },
+          {
+            "source": "numcodecs",
             "target": "fluidfft"
           },
           {
@@ -33673,10 +33697,6 @@
           {
             "source": "numcodecs",
             "target": "tiledbsoma"
-          },
-          {
-            "source": "numcodecs",
-            "target": "toast"
           },
           {
             "source": "numcodecs",
@@ -35713,6 +35733,10 @@
           {
             "source": "numpy",
             "target": "fitsio"
+          },
+          {
+            "source": "numpy",
+            "target": "flacarray"
           },
           {
             "source": "numpy",
@@ -57600,6 +57624,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "flacarray"
+          },
+          {
+            "source": "pyyaml",
             "target": "fludashboard"
           },
           {
@@ -58777,10 +58805,6 @@
           {
             "source": "pyyaml",
             "target": "tmtk"
-          },
-          {
-            "source": "pyyaml",
-            "target": "toast"
           },
           {
             "source": "pyyaml",
@@ -72197,6 +72221,10 @@
           {
             "source": "tbb",
             "target": "fitsio"
+          },
+          {
+            "source": "tbb",
+            "target": "flacarray"
           },
           {
             "source": "tbb",
@@ -93159,6 +93187,12 @@
             "id": "fitsio",
             "payload": {
               "__lazy_json__": "node_attrs/fitsio.json"
+            }
+          },
+          {
+            "id": "flacarray",
+            "payload": {
+              "__lazy_json__": "node_attrs/flacarray.json"
             }
           },
           {
