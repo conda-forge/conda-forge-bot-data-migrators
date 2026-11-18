@@ -282,6 +282,10 @@
           },
           {
             "source": "cuda-core",
+            "target": "cuda-python"
+          },
+          {
+            "source": "cuda-core",
             "target": "numba-cuda-mlir"
           },
           {
@@ -3042,6 +3046,10 @@
           {
             "source": "cuda-core",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cuda-core",
+            "target": "cuda-python"
           },
           {
             "source": "cuda-core",
