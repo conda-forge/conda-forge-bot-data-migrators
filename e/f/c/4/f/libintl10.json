@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "gcal",
-            "payload": {
-              "__lazy_json__": "node_attrs/gcal.json"
-            }
-          },
-          {
             "id": "glib",
             "payload": {
               "__lazy_json__": "node_attrs/glib.json"
@@ -77,12 +71,6 @@
             "id": "php",
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "pv",
-            "payload": {
-              "__lazy_json__": "node_attrs/pv.json"
             }
           }
         ]
@@ -631,10 +619,6 @@
             "target": "libvips"
           },
           {
-            "source": "pv",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "qtspell",
             "target": "conda-forge-pinning"
           },
@@ -1091,12 +1075,6 @@
             "id": "poppler",
             "payload": {
               "__lazy_json__": "node_attrs/poppler.json"
-            }
-          },
-          {
-            "id": "pv",
-            "payload": {
-              "__lazy_json__": "node_attrs/pv.json"
             }
           },
           {
