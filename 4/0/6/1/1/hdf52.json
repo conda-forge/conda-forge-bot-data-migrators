@@ -385,6 +385,10 @@
           },
           {
             "source": "gdal",
+            "target": "libpdal"
+          },
+          {
+            "source": "gdal",
             "target": "lue"
           },
           {
@@ -850,6 +854,10 @@
           {
             "source": "libnetcdf",
             "target": "yambo"
+          },
+          {
+            "source": "libpdal",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "libplanc",
@@ -1882,6 +1890,12 @@
             "id": "libnetcdf",
             "payload": {
               "__lazy_json__": "node_attrs/libnetcdf.json"
+            }
+          },
+          {
+            "id": "libpdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpdal.json"
             }
           },
           {
