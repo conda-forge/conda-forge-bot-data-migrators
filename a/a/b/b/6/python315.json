@@ -1104,6 +1104,10 @@
           },
           {
             "source": "apache-tvm-ffi",
+            "target": "python-cudnn-frontend"
+          },
+          {
+            "source": "apache-tvm-ffi",
             "target": "xgrammar"
           },
           {
@@ -40993,6 +40997,10 @@
           {
             "source": "nvidia-cutlass-dsl",
             "target": "nccl4py"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "nvidia-dali-python",
