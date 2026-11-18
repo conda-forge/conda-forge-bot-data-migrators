@@ -16613,10 +16613,6 @@
             "target": "pyemma"
           },
           {
-            "source": "dejaq",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "delta-kernel-rust-sharing-wrapper",
             "target": "conda-forge-pinning"
           },
@@ -16829,6 +16825,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "djvulibre-python",
+            "target": "dpsprep"
+          },
+          {
             "source": "dlib",
             "target": "conda-forge-pinning"
           },
@@ -16942,6 +16942,10 @@
           },
           {
             "source": "dpnp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dpsprep",
             "target": "conda-forge-pinning"
           },
           {
@@ -18599,6 +18603,10 @@
           {
             "source": "fonttools",
             "target": "docling-parse"
+          },
+          {
+            "source": "fonttools",
+            "target": "dpsprep"
           },
           {
             "source": "fonttools",
@@ -35130,10 +35138,6 @@
           },
           {
             "source": "numpy",
-            "target": "dejaq"
-          },
-          {
-            "source": "numpy",
             "target": "delta2"
           },
           {
@@ -44710,6 +44714,10 @@
           },
           {
             "source": "pillow",
+            "target": "dpsprep"
+          },
+          {
+            "source": "pillow",
             "target": "easyocr"
           },
           {
@@ -45941,10 +45949,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "posix_ipc",
-            "target": "dejaq"
-          },
-          {
             "source": "postal",
             "target": "conda-forge-pinning"
           },
@@ -46995,10 +46999,6 @@
           {
             "source": "psutil",
             "target": "deepspeed"
-          },
-          {
-            "source": "psutil",
-            "target": "dejaq"
           },
           {
             "source": "psutil",
@@ -71190,10 +71190,6 @@
           },
           {
             "source": "tbb",
-            "target": "dejaq"
-          },
-          {
-            "source": "tbb",
             "target": "delta-kernel-rust-sharing-wrapper"
           },
           {
@@ -71439,6 +71435,10 @@
           {
             "source": "tbb",
             "target": "dpnp"
+          },
+          {
+            "source": "tbb",
+            "target": "dpsprep"
           },
           {
             "source": "tbb",
@@ -91660,12 +91660,6 @@
             }
           },
           {
-            "id": "dejaq",
-            "payload": {
-              "__lazy_json__": "node_attrs/dejaq.json"
-            }
-          },
-          {
             "id": "delta-kernel-rust-sharing-wrapper",
             "payload": {
               "__lazy_json__": "node_attrs/delta-kernel-rust-sharing-wrapper.json"
@@ -107497,6 +107491,12 @@
             "id": "djvulibre-python",
             "payload": {
               "__lazy_json__": "node_attrs/djvulibre-python.json"
+            }
+          },
+          {
+            "id": "dpsprep",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpsprep.json"
             }
           }
         ]
