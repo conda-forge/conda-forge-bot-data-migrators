@@ -134,12 +134,6 @@
             }
           },
           {
-            "id": "git",
-            "payload": {
-              "__lazy_json__": "node_attrs/git.json"
-            }
-          },
-          {
             "id": "glib",
             "payload": {
               "__lazy_json__": "node_attrs/glib.json"
@@ -173,12 +167,6 @@
             "id": "ledger",
             "payload": {
               "__lazy_json__": "node_attrs/ledger.json"
-            }
-          },
-          {
-            "id": "libgpg-error",
-            "payload": {
-              "__lazy_json__": "node_attrs/libgpg-error.json"
             }
           },
           {
@@ -224,12 +212,6 @@
             }
           },
           {
-            "id": "ruby",
-            "payload": {
-              "__lazy_json__": "node_attrs/ruby.json"
-            }
-          },
-          {
             "id": "scilab",
             "payload": {
               "__lazy_json__": "node_attrs/scilab.json"
@@ -239,12 +221,6 @@
             "id": "subversion",
             "payload": {
               "__lazy_json__": "node_attrs/subversion.json"
-            }
-          },
-          {
-            "id": "tar",
-            "payload": {
-              "__lazy_json__": "node_attrs/tar.json"
             }
           },
           {
@@ -1483,7 +1459,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
