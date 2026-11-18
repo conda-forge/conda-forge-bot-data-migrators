@@ -122,12 +122,6 @@
             }
           },
           {
-            "id": "gnuradio",
-            "payload": {
-              "__lazy_json__": "node_attrs/gnuradio.json"
-            }
-          },
-          {
             "id": "goosefem",
             "payload": {
               "__lazy_json__": "node_attrs/goosefem.json"
@@ -188,21 +182,9 @@
             }
           },
           {
-            "id": "ocp",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocp.json"
-            }
-          },
-          {
             "id": "open3d",
             "payload": {
               "__lazy_json__": "node_attrs/open3d.json"
-            }
-          },
-          {
-            "id": "openimageio",
-            "payload": {
-              "__lazy_json__": "node_attrs/openimageio.json"
             }
           },
           {
@@ -1475,7 +1457,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
