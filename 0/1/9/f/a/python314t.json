@@ -98,6 +98,18 @@
             "payload": {
               "__lazy_json__": "node_attrs/python-flint.json"
             }
+          },
+          {
+            "id": "qpoint",
+            "payload": {
+              "__lazy_json__": "node_attrs/qpoint.json"
+            }
+          },
+          {
+            "id": "spherical-geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherical-geometry.json"
+            }
           }
         ]
       }
@@ -177,6 +189,10 @@
           {
             "source": "aiofastnet",
             "target": "picows"
+          },
+          {
+            "source": "aiohttp",
+            "target": "apache-beam"
           },
           {
             "source": "aiohttp",
@@ -625,6 +641,10 @@
           {
             "source": "backports.zstd",
             "target": "mne-lsl"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "msal_extensions"
           },
           {
             "source": "backports.zstd",
@@ -1200,6 +1220,10 @@
           },
           {
             "source": "brotli",
+            "target": "msal_extensions"
+          },
+          {
+            "source": "brotli",
             "target": "mupdf"
           },
           {
@@ -1580,6 +1604,10 @@
           },
           {
             "source": "cffi",
+            "target": "msal_extensions"
+          },
+          {
+            "source": "cffi",
             "target": "numba"
           },
           {
@@ -1765,6 +1793,10 @@
           {
             "source": "contourpy",
             "target": "anuga"
+          },
+          {
+            "source": "contourpy",
+            "target": "apache-beam"
           },
           {
             "source": "contourpy",
@@ -3204,6 +3236,10 @@
           },
           {
             "source": "cytoolz",
+            "target": "apache-beam"
+          },
+          {
+            "source": "cytoolz",
             "target": "conda-forge-pinning"
           },
           {
@@ -3253,6 +3289,10 @@
           {
             "source": "dclab",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "debugpy",
+            "target": "apache-beam"
           },
           {
             "source": "debugpy",
@@ -3628,6 +3668,10 @@
           },
           {
             "source": "fonttools",
+            "target": "apache-beam"
+          },
+          {
+            "source": "fonttools",
             "target": "batoid"
           },
           {
@@ -3980,6 +4024,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "apache-beam"
+          },
+          {
+            "source": "google-crc32c",
             "target": "conda-forge-pinning"
           },
           {
@@ -4213,6 +4261,10 @@
           {
             "source": "healpy",
             "target": "lalinference"
+          },
+          {
+            "source": "hf-xet",
+            "target": "apache-beam"
           },
           {
             "source": "hf-xet",
@@ -4545,6 +4597,10 @@
           {
             "source": "kiwisolver",
             "target": "anuga"
+          },
+          {
+            "source": "kiwisolver",
+            "target": "apache-beam"
           },
           {
             "source": "kiwisolver",
@@ -4957,6 +5013,10 @@
           {
             "source": "levenshtein",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libcst",
+            "target": "apache-beam"
           },
           {
             "source": "libcst",
@@ -5736,6 +5796,10 @@
           },
           {
             "source": "mmh3",
+            "target": "apache-beam"
+          },
+          {
+            "source": "mmh3",
             "target": "conda-forge-pinning"
           },
           {
@@ -5769,6 +5833,18 @@
           {
             "source": "ms_entropy",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "msal_extensions",
+            "target": "apache-beam"
+          },
+          {
+            "source": "msal_extensions",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "msgpack-python",
+            "target": "apache-beam"
           },
           {
             "source": "msgpack-python",
@@ -7508,6 +7584,10 @@
           },
           {
             "source": "orjson",
+            "target": "apache-beam"
+          },
+          {
+            "source": "orjson",
             "target": "conda-forge-pinning"
           },
           {
@@ -7553,6 +7633,10 @@
           {
             "source": "pandas",
             "target": "anuga"
+          },
+          {
+            "source": "pandas",
+            "target": "apache-beam"
           },
           {
             "source": "pandas",
@@ -8143,6 +8227,14 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "portalocker",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "portalocker",
+            "target": "msal_extensions"
+          },
+          {
             "source": "poselib",
             "target": "conda-forge-pinning"
           },
@@ -8265,6 +8357,10 @@
           {
             "source": "psutil",
             "target": "antio"
+          },
+          {
+            "source": "psutil",
+            "target": "apache-beam"
           },
           {
             "source": "psutil",
@@ -8752,6 +8848,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pydantic-core",
             "target": "catboost"
           },
           {
@@ -8905,6 +9005,10 @@
           {
             "source": "pygobject",
             "target": "libmodulemd"
+          },
+          {
+            "source": "pygobject",
+            "target": "msal_extensions"
           },
           {
             "source": "pygram11",
@@ -9288,6 +9392,10 @@
           },
           {
             "source": "pyogrio",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pyogrio",
             "target": "conda-forge-pinning"
           },
           {
@@ -9325,6 +9433,10 @@
           {
             "source": "pyproj",
             "target": "anuga"
+          },
+          {
+            "source": "pyproj",
+            "target": "apache-beam"
           },
           {
             "source": "pyproj",
@@ -9640,6 +9752,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "cached_interpolate"
           },
           {
@@ -9696,6 +9812,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "conda-forge-pinning"
           },
           {
@@ -9713,6 +9833,10 @@
           {
             "source": "pywin32-ctypes",
             "target": "python-box"
+          },
+          {
+            "source": "pywin32",
+            "target": "apache-beam"
           },
           {
             "source": "pywin32",
@@ -9753,6 +9877,10 @@
           {
             "source": "pywin32",
             "target": "orange3"
+          },
+          {
+            "source": "pywin32",
+            "target": "portalocker"
           },
           {
             "source": "pywin32",
@@ -10100,6 +10228,10 @@
           },
           {
             "source": "pyzmq",
+            "target": "apache-beam"
+          },
+          {
+            "source": "pyzmq",
             "target": "catboost"
           },
           {
@@ -10236,6 +10368,10 @@
           },
           {
             "source": "regex",
+            "target": "apache-beam"
+          },
+          {
+            "source": "regex",
             "target": "beancount"
           },
           {
@@ -10321,6 +10457,10 @@
           {
             "source": "rosettasciio",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rpds-py",
+            "target": "apache-beam"
           },
           {
             "source": "rpds-py",
@@ -10460,6 +10600,10 @@
           },
           {
             "source": "safetensors",
+            "target": "apache-beam"
+          },
+          {
+            "source": "safetensors",
             "target": "conda-forge-pinning"
           },
           {
@@ -10481,6 +10625,10 @@
           {
             "source": "scikit-learn",
             "target": "abess"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "apache-beam"
           },
           {
             "source": "scikit-learn",
@@ -10553,6 +10701,10 @@
           {
             "source": "scipy",
             "target": "anuga"
+          },
+          {
+            "source": "scipy",
+            "target": "apache-beam"
           },
           {
             "source": "scipy",
@@ -10985,6 +11137,10 @@
           {
             "source": "shap",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shapely",
+            "target": "apache-beam"
           },
           {
             "source": "shapely",
@@ -12348,6 +12504,10 @@
           },
           {
             "source": "tbb",
+            "target": "msal_extensions"
+          },
+          {
+            "source": "tbb",
             "target": "msgpack-python"
           },
           {
@@ -12649,6 +12809,10 @@
           {
             "source": "tbb",
             "target": "polyscope"
+          },
+          {
+            "source": "tbb",
+            "target": "portalocker"
           },
           {
             "source": "tbb",
@@ -13864,6 +14028,10 @@
           },
           {
             "source": "tensorflow",
+            "target": "apache-beam"
+          },
+          {
+            "source": "tensorflow",
             "target": "conda-forge-pinning"
           },
           {
@@ -13924,6 +14092,10 @@
           },
           {
             "source": "tokenizers",
+            "target": "apache-beam"
+          },
+          {
+            "source": "tokenizers",
             "target": "conda-forge-pinning"
           },
           {
@@ -13965,6 +14137,10 @@
           {
             "source": "tornado",
             "target": "anuga"
+          },
+          {
+            "source": "tornado",
+            "target": "apache-beam"
           },
           {
             "source": "tornado",
@@ -14564,6 +14740,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "apache-beam"
+          },
+          {
+            "source": "wcwidth",
             "target": "ast-serialize"
           },
           {
@@ -14816,6 +14996,10 @@
           },
           {
             "source": "websockets",
+            "target": "apache-beam"
+          },
+          {
+            "source": "websockets",
             "target": "conda-forge-pinning"
           },
           {
@@ -14857,6 +15041,10 @@
           {
             "source": "wordcloud",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wrapt",
+            "target": "apache-beam"
           },
           {
             "source": "wrapt",
@@ -16810,6 +16998,12 @@
             }
           },
           {
+            "id": "msal_extensions",
+            "payload": {
+              "__lazy_json__": "node_attrs/msal_extensions.json"
+            }
+          },
+          {
             "id": "msgpack-python",
             "payload": {
               "__lazy_json__": "node_attrs/msgpack-python.json"
@@ -17257,6 +17451,12 @@
             "id": "polyscope",
             "payload": {
               "__lazy_json__": "node_attrs/polyscope.json"
+            }
+          },
+          {
+            "id": "portalocker",
+            "payload": {
+              "__lazy_json__": "node_attrs/portalocker.json"
             }
           },
           {
