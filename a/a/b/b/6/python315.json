@@ -12046,6 +12046,10 @@
           },
           {
             "source": "cuda-core",
+            "target": "nccl-extensions"
+          },
+          {
+            "source": "cuda-core",
             "target": "nccl4py"
           },
           {
@@ -14047,6 +14051,10 @@
           {
             "source": "cython",
             "target": "natcap.invest"
+          },
+          {
+            "source": "cython",
+            "target": "nccl-extensions"
           },
           {
             "source": "cython",
@@ -32249,8 +32257,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nccl-extensions",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nccl4py",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nccl4py",
+            "target": "nccl-extensions"
           },
           {
             "source": "nccl4py",
@@ -37371,6 +37387,10 @@
           {
             "source": "numpy",
             "target": "navec"
+          },
+          {
+            "source": "numpy",
+            "target": "nccl-extensions"
           },
           {
             "source": "numpy",
@@ -75018,6 +75038,10 @@
           },
           {
             "source": "tbb",
+            "target": "nccl-extensions"
+          },
+          {
+            "source": "tbb",
             "target": "nccl4py"
           },
           {
@@ -107447,6 +107471,12 @@
             "id": "python-lzfse",
             "payload": {
               "__lazy_json__": "node_attrs/python-lzfse.json"
+            }
+          },
+          {
+            "id": "nccl-extensions",
+            "payload": {
+              "__lazy_json__": "node_attrs/nccl-extensions.json"
             }
           }
         ]
