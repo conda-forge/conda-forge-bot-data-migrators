@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "libslirp",
+            "payload": {
+              "__lazy_json__": "node_attrs/libslirp.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
@@ -1249,6 +1255,10 @@
             "target": "websockets"
           },
           {
+            "source": "bash",
+            "target": "numba"
+          },
+          {
             "source": "bcrypt",
             "target": "ast-serialize"
           },
@@ -1539,6 +1549,10 @@
           {
             "source": "binutils",
             "target": "xorg-xproto"
+          },
+          {
+            "source": "bison",
+            "target": "bash"
           },
           {
             "source": "bison",
@@ -1971,6 +1985,10 @@
           {
             "source": "capnproto",
             "target": "tiledb"
+          },
+          {
+            "source": "capstone",
+            "target": "numba"
           },
           {
             "source": "cargo-auditable",
@@ -2911,6 +2929,10 @@
           {
             "source": "cmake",
             "target": "capnproto"
+          },
+          {
+            "source": "cmake",
+            "target": "capstone"
           },
           {
             "source": "cmake",
@@ -4142,6 +4164,10 @@
           },
           {
             "source": "coverage",
+            "target": "capstone"
+          },
+          {
+            "source": "coverage",
             "target": "chardet"
           },
           {
@@ -5047,6 +5073,10 @@
           {
             "source": "cython",
             "target": "arrow-adbc-split"
+          },
+          {
+            "source": "cython",
+            "target": "capstone"
           },
           {
             "source": "cython",
@@ -6502,7 +6532,15 @@
           },
           {
             "source": "glib",
+            "target": "libslirp"
+          },
+          {
+            "source": "glib",
             "target": "nsight-compute"
+          },
+          {
+            "source": "glib",
+            "target": "numba"
           },
           {
             "source": "glib",
@@ -8877,6 +8915,10 @@
             "target": "libspatialite"
           },
           {
+            "source": "libslirp",
+            "target": "numba"
+          },
+          {
             "source": "libsndfile",
             "target": "pulseaudio"
           },
@@ -10242,6 +10284,10 @@
           },
           {
             "source": "make",
+            "target": "bash"
+          },
+          {
+            "source": "make",
             "target": "binutils"
           },
           {
@@ -10263,6 +10309,10 @@
           {
             "source": "make",
             "target": "cairo"
+          },
+          {
+            "source": "make",
+            "target": "capstone"
           },
           {
             "source": "make",
@@ -12458,6 +12508,10 @@
           },
           {
             "source": "ninja",
+            "target": "libslirp"
+          },
+          {
+            "source": "ninja",
             "target": "libsndfile"
           },
           {
@@ -14566,6 +14620,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "libslirp"
+          },
+          {
+            "source": "pkg-config",
             "target": "libsndfile"
           },
           {
@@ -14627,6 +14685,10 @@
           {
             "source": "pkg-config",
             "target": "nss"
+          },
+          {
+            "source": "pkg-config",
+            "target": "numba"
           },
           {
             "source": "pkg-config",
@@ -15398,6 +15460,10 @@
           },
           {
             "source": "pthread-stubs",
+            "target": "capstone"
+          },
+          {
+            "source": "pthread-stubs",
             "target": "harfbuzz"
           },
           {
@@ -15854,6 +15920,10 @@
           },
           {
             "source": "python",
+            "target": "capstone"
+          },
+          {
+            "source": "python",
             "target": "ceres-solver"
           },
           {
@@ -16195,6 +16265,10 @@
           {
             "source": "python",
             "target": "librttopo"
+          },
+          {
+            "source": "python",
+            "target": "libslirp"
           },
           {
             "source": "python",
@@ -17779,6 +17853,10 @@
           {
             "source": "re2",
             "target": "qt-webengine"
+          },
+          {
+            "source": "readline",
+            "target": "bash"
           },
           {
             "source": "readline",
@@ -19415,6 +19493,10 @@
           {
             "source": "uv",
             "target": "ast-serialize"
+          },
+          {
+            "source": "uv",
+            "target": "capstone"
           },
           {
             "source": "uv",
@@ -22618,6 +22700,12 @@
             }
           },
           {
+            "id": "bash",
+            "payload": {
+              "__lazy_json__": "node_attrs/bash.json"
+            }
+          },
+          {
             "id": "bcrypt",
             "payload": {
               "__lazy_json__": "node_attrs/bcrypt.json"
@@ -22735,6 +22823,12 @@
             "id": "capnproto",
             "payload": {
               "__lazy_json__": "node_attrs/capnproto.json"
+            }
+          },
+          {
+            "id": "capstone",
+            "payload": {
+              "__lazy_json__": "node_attrs/capstone.json"
             }
           },
           {
@@ -24145,6 +24239,12 @@
             "id": "librttopo",
             "payload": {
               "__lazy_json__": "node_attrs/librttopo.json"
+            }
+          },
+          {
+            "id": "libslirp",
+            "payload": {
+              "__lazy_json__": "node_attrs/libslirp.json"
             }
           },
           {
