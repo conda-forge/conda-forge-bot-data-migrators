@@ -1619,6 +1619,10 @@
             "target": "nccl4py"
           },
           {
+            "source": "nvidia-cutlass-dsl",
+            "target": "python-cudnn-frontend"
+          },
+          {
             "source": "nvidia-dali-python",
             "target": "conda-forge-pinning"
           },
