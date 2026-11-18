@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "openmodelica",
+            "payload": {
+              "__lazy_json__": "node_attrs/openmodelica.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
             "id": "pv",
             "payload": {
               "__lazy_json__": "node_attrs/pv.json"
@@ -607,6 +619,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "poppler",
             "target": "conda-forge-pinning"
           },
@@ -1063,6 +1079,12 @@
             "id": "openmodelica",
             "payload": {
               "__lazy_json__": "node_attrs/openmodelica.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
