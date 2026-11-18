@@ -43,7 +43,16 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "m4",
+            "target": "gts"
+          },
+          {
+            "source": "m4",
+            "target": "metis"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -53,9 +62,15 @@
             }
           },
           {
-            "id": "xcb-util-wm",
+            "id": "m4",
             "payload": {
-              "__lazy_json__": "node_attrs/xcb-util-wm.json"
+              "__lazy_json__": "node_attrs/m4.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           }
         ]
@@ -3417,6 +3432,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -7219,6 +7238,10 @@
             "target": "libnetcdf"
           },
           {
+            "source": "hdf5",
+            "target": "libpdal"
+          },
+          {
             "source": "hdrhistogram-c",
             "target": "bun"
           },
@@ -10696,6 +10719,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11497,6 +11524,10 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
           },
           {
             "source": "micromamba",
@@ -14584,10 +14615,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "libpdal"
-          },
-          {
-            "source": "pkg-config",
             "target": "libplacebo"
           },
           {
@@ -15065,6 +15092,10 @@
           {
             "source": "pkgconf",
             "target": "libjxl-split"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libpdal"
           },
           {
             "source": "pkgconf",
@@ -24505,6 +24536,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
