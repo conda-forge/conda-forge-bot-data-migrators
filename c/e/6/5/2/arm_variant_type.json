@@ -1612,6 +1612,10 @@
           },
           {
             "source": "nvidia-cutlass-dsl",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
             "target": "nccl4py"
           },
           {
@@ -2009,6 +2013,10 @@
           {
             "source": "tilelang",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tilelang",
+            "target": "mamba-ssm"
           },
           {
             "source": "timemory",
