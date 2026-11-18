@@ -72,6 +72,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
             }
+          },
+          {
+            "id": "pv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pv.json"
+            }
           }
         ]
       }
@@ -619,6 +625,10 @@
             "target": "libvips"
           },
           {
+            "source": "pv",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "qtspell",
             "target": "conda-forge-pinning"
           },
@@ -1075,6 +1085,12 @@
             "id": "poppler",
             "payload": {
               "__lazy_json__": "node_attrs/poppler.json"
+            }
+          },
+          {
+            "id": "pv",
+            "payload": {
+              "__lazy_json__": "node_attrs/pv.json"
             }
           },
           {
