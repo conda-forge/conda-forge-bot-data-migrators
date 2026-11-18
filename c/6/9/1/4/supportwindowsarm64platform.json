@@ -46,21 +46,11 @@
         "links": [
           {
             "source": "m4",
-            "target": "gts"
-          },
-          {
-            "source": "m4",
             "target": "metis"
           }
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "gts",
-            "payload": {
-              "__lazy_json__": "node_attrs/gts.json"
-            }
-          },
           {
             "id": "m4",
             "payload": {
@@ -15116,6 +15106,10 @@
           {
             "source": "pkgconf",
             "target": "openexr"
+          },
+          {
+            "source": "pkgconf",
+            "target": "openjdk"
           },
           {
             "source": "pkgconf",
