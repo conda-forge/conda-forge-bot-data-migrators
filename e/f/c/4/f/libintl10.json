@@ -56,24 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "axel",
-            "payload": {
-              "__lazy_json__": "node_attrs/axel.json"
-            }
-          },
-          {
-            "id": "cflow",
-            "payload": {
-              "__lazy_json__": "node_attrs/cflow.json"
-            }
-          },
-          {
-            "id": "enscript",
-            "payload": {
-              "__lazy_json__": "node_attrs/enscript.json"
-            }
-          },
-          {
             "id": "gcal",
             "payload": {
               "__lazy_json__": "node_attrs/gcal.json"
@@ -86,27 +68,9 @@
             }
           },
           {
-            "id": "ledger",
-            "payload": {
-              "__lazy_json__": "node_attrs/ledger.json"
-            }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "pv",
             "payload": {
               "__lazy_json__": "node_attrs/pv.json"
-            }
-          },
-          {
-            "id": "subversion",
-            "payload": {
-              "__lazy_json__": "node_attrs/subversion.json"
             }
           }
         ]
@@ -643,10 +607,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "php",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "poppler",
             "target": "conda-forge-pinning"
           },
@@ -1106,12 +1066,6 @@
             }
           },
           {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
             "id": "poppler",
             "payload": {
               "__lazy_json__": "node_attrs/poppler.json"
@@ -1315,7 +1269,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
