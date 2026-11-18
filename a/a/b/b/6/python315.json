@@ -95,6 +95,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/pyimg4.json"
             }
+          },
+          {
+            "id": "pykmclib",
+            "payload": {
+              "__lazy_json__": "node_attrs/pykmclib.json"
+            }
           }
         ]
       }
@@ -38672,6 +38678,10 @@
           },
           {
             "source": "numpy",
+            "target": "pykmclib"
+          },
+          {
+            "source": "numpy",
             "target": "pykrige"
           },
           {
@@ -51285,6 +51295,10 @@
           {
             "source": "pykerberos",
             "target": "xpra"
+          },
+          {
+            "source": "pykmclib",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pykrb5",
@@ -77305,6 +77319,10 @@
           {
             "source": "tbb",
             "target": "pykerberos"
+          },
+          {
+            "source": "tbb",
+            "target": "pykmclib"
           },
           {
             "source": "tbb",
@@ -107479,6 +107497,12 @@
             "id": "nccl-extensions",
             "payload": {
               "__lazy_json__": "node_attrs/nccl-extensions.json"
+            }
+          },
+          {
+            "id": "pykmclib",
+            "payload": {
+              "__lazy_json__": "node_attrs/pykmclib.json"
             }
           }
         ]
