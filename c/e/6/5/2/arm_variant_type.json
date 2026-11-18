@@ -1475,8 +1475,16 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "nccl-extensions",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "nccl4py",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nccl4py",
+            "target": "nccl-extensions"
           },
           {
             "source": "nccl4py",
@@ -1545,6 +1553,10 @@
           {
             "source": "nccl",
             "target": "lightgbm"
+          },
+          {
+            "source": "nccl",
+            "target": "nccl-extensions"
           },
           {
             "source": "nccl",
@@ -3299,6 +3311,12 @@
             "id": "pynvvideocodec",
             "payload": {
               "__lazy_json__": "node_attrs/pynvvideocodec.json"
+            }
+          },
+          {
+            "id": "nccl-extensions",
+            "payload": {
+              "__lazy_json__": "node_attrs/nccl-extensions.json"
             }
           }
         ]
