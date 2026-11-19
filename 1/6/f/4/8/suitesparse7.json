@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for suitesparse 7\n  kind: version\n  migration_number: 1\nlibamd:\n- '7'\nlibbtf:\n- '7'\nlibcamd:\n- '7'\nlibccolamd:\n- '7'\nlibcholmod:\n- '7'\nlibcolamd:\n- '7'\nsuitesparse_mongoose:\n- '7'\nmigrator_ts: 1794893263.341256\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for suitesparse 7\n  kind: version\n  migration_number: 1\nlibamd:\n- '3'\nlibbtf:\n- '2'\nlibcamd:\n- '3'\nlibccolamd:\n- '3'\nlibcholmod:\n- '5'\nlibcolamd:\n- '3'\nsuitesparse:\n- '7'\nsuitesparse_mongoose:\n- '3'\nmigrator_ts: 1794893263.341256\n",
     "suitesparse7"
   ],
   "class": "MigrationYaml",
@@ -54,7 +54,56 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "fenics",
+            "payload": {
+              "__lazy_json__": "node_attrs/fenics.json"
+            }
+          },
+          {
+            "id": "finesse",
+            "payload": {
+              "__lazy_json__": "node_attrs/finesse.json"
+            }
+          },
+          {
+            "id": "glomap",
+            "payload": {
+              "__lazy_json__": "node_attrs/glomap.json"
+            }
+          },
+          {
+            "id": "octave",
+            "payload": {
+              "__lazy_json__": "node_attrs/octave.json"
+            }
+          },
+          {
+            "id": "pybammsolvers",
+            "payload": {
+              "__lazy_json__": "node_attrs/pybammsolvers.json"
+            }
+          },
+          {
+            "id": "scikit-umfpack",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-umfpack.json"
+            }
+          },
+          {
+            "id": "trilinos",
+            "payload": {
+              "__lazy_json__": "node_attrs/trilinos.json"
+            }
+          },
+          {
+            "id": "enumlib.jl",
+            "payload": {
+              "__lazy_json__": "node_attrs/enumlib.jl.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -100,7 +149,87 @@
         },
         "links": [
           {
+            "source": "apbs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cadet",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ceres-solver",
+            "target": "colmap"
+          },
+          {
+            "source": "ceres-solver",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ceres-solver",
+            "target": "glomap"
+          },
+          {
+            "source": "colmap",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "colmap",
+            "target": "glomap"
+          },
+          {
             "source": "cppad-mixed",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cvxopt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "enumlib.jl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "esys-escript",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fenics",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "finesse",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "freefem",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "g2o",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "glomap",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gtsam",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "julia",
+            "target": "enumlib.jl"
+          },
+          {
+            "source": "kvxopt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "match-series",
             "target": "conda-forge-pinning"
           },
           {
@@ -108,12 +237,96 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "octave",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "petsc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "petsc",
+            "target": "fenics"
+          },
+          {
+            "source": "petsc",
+            "target": "freefem"
+          },
+          {
+            "source": "photospline",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "polyfempy",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pybammsolvers",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scikit-sparse",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scikit-umfpack",
+            "target": "apbs"
+          },
+          {
+            "source": "scikit-umfpack",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "scilab",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sundials",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sundials",
+            "target": "octave"
+          },
+          {
+            "source": "sundials",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "toast",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "trilinos",
             "target": "conda-forge-pinning"
           }
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "apbs",
+            "payload": {
+              "__lazy_json__": "node_attrs/apbs.json"
+            }
+          },
+          {
+            "id": "cadet",
+            "payload": {
+              "__lazy_json__": "node_attrs/cadet.json"
+            }
+          },
+          {
+            "id": "ceres-solver",
+            "payload": {
+              "__lazy_json__": "node_attrs/ceres-solver.json"
+            }
+          },
+          {
+            "id": "colmap",
+            "payload": {
+              "__lazy_json__": "node_attrs/colmap.json"
+            }
+          },
           {
             "id": "conda-forge-pinning",
             "payload": {
@@ -127,15 +340,147 @@
             }
           },
           {
+            "id": "cvxopt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cvxopt.json"
+            }
+          },
+          {
+            "id": "esys-escript",
+            "payload": {
+              "__lazy_json__": "node_attrs/esys-escript.json"
+            }
+          },
+          {
+            "id": "fenics",
+            "payload": {
+              "__lazy_json__": "node_attrs/fenics.json"
+            }
+          },
+          {
+            "id": "finesse",
+            "payload": {
+              "__lazy_json__": "node_attrs/finesse.json"
+            }
+          },
+          {
+            "id": "freefem",
+            "payload": {
+              "__lazy_json__": "node_attrs/freefem.json"
+            }
+          },
+          {
+            "id": "g2o",
+            "payload": {
+              "__lazy_json__": "node_attrs/g2o.json"
+            }
+          },
+          {
+            "id": "glomap",
+            "payload": {
+              "__lazy_json__": "node_attrs/glomap.json"
+            }
+          },
+          {
+            "id": "gtsam",
+            "payload": {
+              "__lazy_json__": "node_attrs/gtsam.json"
+            }
+          },
+          {
+            "id": "julia",
+            "payload": {
+              "__lazy_json__": "node_attrs/julia.json"
+            }
+          },
+          {
+            "id": "kvxopt",
+            "payload": {
+              "__lazy_json__": "node_attrs/kvxopt.json"
+            }
+          },
+          {
+            "id": "match-series",
+            "payload": {
+              "__lazy_json__": "node_attrs/match-series.json"
+            }
+          },
+          {
             "id": "nanoeigenpy",
             "payload": {
               "__lazy_json__": "node_attrs/nanoeigenpy.json"
             }
           },
           {
+            "id": "octave",
+            "payload": {
+              "__lazy_json__": "node_attrs/octave.json"
+            }
+          },
+          {
             "id": "petsc",
             "payload": {
               "__lazy_json__": "node_attrs/petsc.json"
+            }
+          },
+          {
+            "id": "photospline",
+            "payload": {
+              "__lazy_json__": "node_attrs/photospline.json"
+            }
+          },
+          {
+            "id": "polyfempy",
+            "payload": {
+              "__lazy_json__": "node_attrs/polyfempy.json"
+            }
+          },
+          {
+            "id": "pybammsolvers",
+            "payload": {
+              "__lazy_json__": "node_attrs/pybammsolvers.json"
+            }
+          },
+          {
+            "id": "scikit-sparse",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-sparse.json"
+            }
+          },
+          {
+            "id": "scikit-umfpack",
+            "payload": {
+              "__lazy_json__": "node_attrs/scikit-umfpack.json"
+            }
+          },
+          {
+            "id": "scilab",
+            "payload": {
+              "__lazy_json__": "node_attrs/scilab.json"
+            }
+          },
+          {
+            "id": "sundials",
+            "payload": {
+              "__lazy_json__": "node_attrs/sundials.json"
+            }
+          },
+          {
+            "id": "toast",
+            "payload": {
+              "__lazy_json__": "node_attrs/toast.json"
+            }
+          },
+          {
+            "id": "trilinos",
+            "payload": {
+              "__lazy_json__": "node_attrs/trilinos.json"
+            }
+          },
+          {
+            "id": "enumlib.jl",
+            "payload": {
+              "__lazy_json__": "node_attrs/enumlib.jl.json"
             }
           }
         ]
@@ -154,6 +499,7 @@
         "libccolamd",
         "libcholmod",
         "libcolamd",
+        "suitesparse",
         "suitesparse-mongoose"
       ]
     },
