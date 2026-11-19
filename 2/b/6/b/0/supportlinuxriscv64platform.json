@@ -53,12 +53,6 @@
             }
           },
           {
-            "id": "pybase64",
-            "payload": {
-              "__lazy_json__": "node_attrs/pybase64.json"
-            }
-          },
-          {
             "id": "xcb-util-cursor",
             "payload": {
               "__lazy_json__": "node_attrs/xcb-util-cursor.json"
@@ -3407,14 +3401,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8540,12 +8526,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10217,7 +10197,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
