@@ -246,12 +246,6 @@
             }
           },
           {
-            "id": "arrow-adbc-split",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow-adbc-split.json"
-            }
-          },
-          {
             "id": "av",
             "payload": {
               "__lazy_json__": "node_attrs/av.json"
@@ -573,12 +567,6 @@
             "id": "polyglot-sql",
             "payload": {
               "__lazy_json__": "node_attrs/polyglot-sql.json"
-            }
-          },
-          {
-            "id": "psycopg2",
-            "payload": {
-              "__lazy_json__": "node_attrs/psycopg2.json"
             }
           },
           {
@@ -9438,10 +9426,6 @@
             "target": "mypy"
           },
           {
-            "source": "python-lmdb",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "python-lzf",
             "target": "conda-forge-pinning"
           },
@@ -13112,10 +13096,6 @@
           {
             "source": "tbb",
             "target": "python-librt"
-          },
-          {
-            "source": "tbb",
-            "target": "python-lmdb"
           },
           {
             "source": "tbb",
@@ -17830,12 +17810,6 @@
             "id": "python-librt",
             "payload": {
               "__lazy_json__": "node_attrs/python-librt.json"
-            }
-          },
-          {
-            "id": "python-lmdb",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-lmdb.json"
             }
           },
           {
