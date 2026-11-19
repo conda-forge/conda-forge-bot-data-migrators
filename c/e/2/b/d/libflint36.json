@@ -102,12 +102,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/singular.json"
             }
-          },
-          {
-            "id": "symengine",
-            "payload": {
-              "__lazy_json__": "node_attrs/symengine.json"
-            }
           }
         ]
       }
@@ -467,7 +461,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
