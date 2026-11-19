@@ -86,10 +86,6 @@
           },
           {
             "source": "brotli",
-            "target": "daqp"
-          },
-          {
-            "source": "brotli",
             "target": "dpctl"
           },
           {
@@ -362,12 +358,6 @@
             }
           },
           {
-            "id": "daqp",
-            "payload": {
-              "__lazy_json__": "node_attrs/daqp.json"
-            }
-          },
-          {
             "id": "dbus-fast",
             "payload": {
               "__lazy_json__": "node_attrs/dbus-fast.json"
@@ -515,12 +505,6 @@
             "id": "keygen-py",
             "payload": {
               "__lazy_json__": "node_attrs/keygen-py.json"
-            }
-          },
-          {
-            "id": "kornia-rs",
-            "payload": {
-              "__lazy_json__": "node_attrs/kornia-rs.json"
             }
           },
           {
