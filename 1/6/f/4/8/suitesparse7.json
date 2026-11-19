@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "fenics",
-            "payload": {
-              "__lazy_json__": "node_attrs/fenics.json"
-            }
-          },
-          {
-            "id": "finesse",
-            "payload": {
-              "__lazy_json__": "node_attrs/finesse.json"
-            }
-          },
-          {
             "id": "glomap",
             "payload": {
               "__lazy_json__": "node_attrs/glomap.json"
@@ -83,12 +71,6 @@
             "id": "pybammsolvers",
             "payload": {
               "__lazy_json__": "node_attrs/pybammsolvers.json"
-            }
-          },
-          {
-            "id": "scikit-umfpack",
-            "payload": {
-              "__lazy_json__": "node_attrs/scikit-umfpack.json"
             }
           },
           {
@@ -590,7 +572,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
