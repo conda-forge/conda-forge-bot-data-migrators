@@ -83,6 +83,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
             }
+          },
+          {
+            "id": "pythoncdt",
+            "payload": {
+              "__lazy_json__": "node_attrs/pythoncdt.json"
+            }
           }
         ]
       }
@@ -39280,6 +39286,10 @@
           },
           {
             "source": "numpy",
+            "target": "pythoncdt"
+          },
+          {
+            "source": "numpy",
             "target": "pythonfmu3"
           },
           {
@@ -55049,6 +55059,10 @@
           {
             "source": "python.app",
             "target": "spyder"
+          },
+          {
+            "source": "pythoncdt",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pythonfmu3",
@@ -78549,6 +78563,10 @@
           {
             "source": "tbb",
             "target": "python.app"
+          },
+          {
+            "source": "tbb",
+            "target": "pythoncdt"
           },
           {
             "source": "tbb",
@@ -107597,6 +107615,12 @@
             "id": "pygfnff",
             "payload": {
               "__lazy_json__": "node_attrs/pygfnff.json"
+            }
+          },
+          {
+            "id": "pythoncdt",
+            "payload": {
+              "__lazy_json__": "node_attrs/pythoncdt.json"
             }
           }
         ]
