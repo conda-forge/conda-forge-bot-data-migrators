@@ -60,18 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/glib.json"
             }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "ruby",
-            "payload": {
-              "__lazy_json__": "node_attrs/ruby.json"
-            }
           }
         ]
       }
@@ -607,10 +595,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "php",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "poppler",
             "target": "conda-forge-pinning"
           },
@@ -1067,12 +1051,6 @@
             "id": "openmodelica",
             "payload": {
               "__lazy_json__": "node_attrs/openmodelica.json"
-            }
-          },
-          {
-            "id": "php",
-            "payload": {
-              "__lazy_json__": "node_attrs/php.json"
             }
           },
           {
