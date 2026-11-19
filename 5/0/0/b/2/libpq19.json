@@ -1,0 +1,610 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for libpq 19\n  kind: version\n  migration_number: 1\nlibpq:\n- '19'\nmigrator_ts: 1795122462.7827587\npostgresql:\n- '19'\npostgresql_plpython:\n- '19'\n",
+    "libpq19"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for libpq 19",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arrow-adbc-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-adbc-split.json"
+            }
+          },
+          {
+            "id": "libpqxx",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpqxx.json"
+            }
+          },
+          {
+            "id": "pgvector",
+            "payload": {
+              "__lazy_json__": "node_attrs/pgvector.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "pspg",
+            "payload": {
+              "__lazy_json__": "node_attrs/pspg.json"
+            }
+          },
+          {
+            "id": "psqlodbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/psqlodbc.json"
+            }
+          },
+          {
+            "id": "psycopg2",
+            "payload": {
+              "__lazy_json__": "node_attrs/psycopg2.json"
+            }
+          },
+          {
+            "id": "psycopg2-yugabytedb",
+            "payload": {
+              "__lazy_json__": "node_attrs/psycopg2-yugabytedb.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          },
+          {
+            "id": "r-rpostgres",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-rpostgres.json"
+            }
+          },
+          {
+            "id": "r-rpostgresql",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-rpostgresql.json"
+            }
+          },
+          {
+            "id": "soci",
+            "payload": {
+              "__lazy_json__": "node_attrs/soci.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "arrow-adbc-split",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-adbc-split",
+            "target": "gdal"
+          },
+          {
+            "source": "gdal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdal",
+            "target": "grass"
+          },
+          {
+            "source": "gdal",
+            "target": "libpdal"
+          },
+          {
+            "source": "gdal",
+            "target": "mapserver"
+          },
+          {
+            "source": "gdal",
+            "target": "postgis"
+          },
+          {
+            "source": "gdal",
+            "target": "qgis"
+          },
+          {
+            "source": "grass",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "grouper",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpdal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpdal",
+            "target": "grass"
+          },
+          {
+            "source": "libpdal",
+            "target": "qgis"
+          },
+          {
+            "source": "libpqxx",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpqxx",
+            "target": "osm2pgrouting"
+          },
+          {
+            "source": "mapserver",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "meos",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "osm2pgrouting",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pgrouting",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pgvector",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "php",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgis",
+            "target": "meos"
+          },
+          {
+            "source": "postgis",
+            "target": "pgrouting"
+          },
+          {
+            "source": "pspg",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "psqlodbc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "psycopg2-yugabytedb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "psycopg2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "psycopg2",
+            "target": "qgis"
+          },
+          {
+            "source": "psycopg2",
+            "target": "rdkit"
+          },
+          {
+            "source": "qgis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "grouper"
+          },
+          {
+            "source": "qt-main",
+            "target": "qgis"
+          },
+          {
+            "source": "qt-main",
+            "target": "rdkit"
+          },
+          {
+            "source": "qt-main",
+            "target": "rstudio"
+          },
+          {
+            "source": "r-rpostgres",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-rpostgresql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rdkit",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rdkit",
+            "target": "grouper"
+          },
+          {
+            "source": "rstudio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "soci",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "soci",
+            "target": "rstudio"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "arrow-adbc-split",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-adbc-split.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "gdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdal.json"
+            }
+          },
+          {
+            "id": "grass",
+            "payload": {
+              "__lazy_json__": "node_attrs/grass.json"
+            }
+          },
+          {
+            "id": "grouper",
+            "payload": {
+              "__lazy_json__": "node_attrs/grouper.json"
+            }
+          },
+          {
+            "id": "libpdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpdal.json"
+            }
+          },
+          {
+            "id": "libpqxx",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpqxx.json"
+            }
+          },
+          {
+            "id": "mapserver",
+            "payload": {
+              "__lazy_json__": "node_attrs/mapserver.json"
+            }
+          },
+          {
+            "id": "meos",
+            "payload": {
+              "__lazy_json__": "node_attrs/meos.json"
+            }
+          },
+          {
+            "id": "osm2pgrouting",
+            "payload": {
+              "__lazy_json__": "node_attrs/osm2pgrouting.json"
+            }
+          },
+          {
+            "id": "pgrouting",
+            "payload": {
+              "__lazy_json__": "node_attrs/pgrouting.json"
+            }
+          },
+          {
+            "id": "pgvector",
+            "payload": {
+              "__lazy_json__": "node_attrs/pgvector.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "postgis",
+            "payload": {
+              "__lazy_json__": "node_attrs/postgis.json"
+            }
+          },
+          {
+            "id": "pspg",
+            "payload": {
+              "__lazy_json__": "node_attrs/pspg.json"
+            }
+          },
+          {
+            "id": "psqlodbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/psqlodbc.json"
+            }
+          },
+          {
+            "id": "psycopg2",
+            "payload": {
+              "__lazy_json__": "node_attrs/psycopg2.json"
+            }
+          },
+          {
+            "id": "psycopg2-yugabytedb",
+            "payload": {
+              "__lazy_json__": "node_attrs/psycopg2-yugabytedb.json"
+            }
+          },
+          {
+            "id": "qgis",
+            "payload": {
+              "__lazy_json__": "node_attrs/qgis.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          },
+          {
+            "id": "r-rpostgres",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-rpostgres.json"
+            }
+          },
+          {
+            "id": "r-rpostgresql",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-rpostgresql.json"
+            }
+          },
+          {
+            "id": "rdkit",
+            "payload": {
+              "__lazy_json__": "node_attrs/rdkit.json"
+            }
+          },
+          {
+            "id": "rstudio",
+            "payload": {
+              "__lazy_json__": "node_attrs/rstudio.json"
+            }
+          },
+          {
+            "id": "soci",
+            "payload": {
+              "__lazy_json__": "node_attrs/soci.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "libpq",
+        "postgresql",
+        "postgresql-plpython"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "libpq19"
+}
