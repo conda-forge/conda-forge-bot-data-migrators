@@ -6583,10 +6583,6 @@
           },
           {
             "source": "blas",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "blas",
             "target": "cppad-mixed"
           },
           {
@@ -19296,10 +19292,6 @@
           {
             "source": "coverage",
             "target": "zopfli"
-          },
-          {
-            "source": "cpcm-x",
-            "target": "xtb"
           },
           {
             "source": "cpd",
@@ -36059,10 +36051,6 @@
           },
           {
             "source": "lapack",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "lapack",
             "target": "cppad-mixed"
           },
           {
@@ -52527,10 +52515,6 @@
           },
           {
             "source": "mctc-lib",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "mctc-lib",
             "target": "dftbplus"
           },
           {
@@ -52544,10 +52528,6 @@
           {
             "source": "mctc-lib",
             "target": "multicharge"
-          },
-          {
-            "source": "mctc-lib",
-            "target": "numsa"
           },
           {
             "source": "mctc-lib",
@@ -55439,10 +55419,6 @@
           },
           {
             "source": "ninja",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "ninja",
             "target": "cpd"
           },
           {
@@ -56796,10 +56772,6 @@
           {
             "source": "ninja",
             "target": "numpy"
-          },
-          {
-            "source": "ninja",
-            "target": "numsa"
           },
           {
             "source": "ninja",
@@ -61912,10 +61884,6 @@
           {
             "source": "numpy",
             "target": "zfpy"
-          },
-          {
-            "source": "numsa",
-            "target": "cpcm-x"
           },
           {
             "source": "nushell",
@@ -68355,10 +68323,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "pkg-config",
             "target": "cppad"
           },
           {
@@ -69763,10 +69727,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "numsa"
-          },
-          {
-            "source": "pkg-config",
             "target": "nutpie"
           },
           {
@@ -71123,10 +71083,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "xtb"
-          },
-          {
-            "source": "pkg-config",
             "target": "xtb-python"
           },
           {
@@ -71451,6 +71407,10 @@
           },
           {
             "source": "pkgconf",
+            "target": "scikit-umfpack"
+          },
+          {
+            "source": "pkgconf",
             "target": "scipy"
           },
           {
@@ -71540,6 +71500,10 @@
           {
             "source": "pkgconf",
             "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "pkgconf",
+            "target": "xtb"
           },
           {
             "source": "pkgconf",
@@ -77251,10 +77215,6 @@
           },
           {
             "source": "python",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "python",
             "target": "cpnest"
           },
           {
@@ -79612,10 +79572,6 @@
           {
             "source": "python",
             "target": "numpy-allocator"
-          },
-          {
-            "source": "python",
-            "target": "numsa"
           },
           {
             "source": "python",
@@ -101019,10 +100975,6 @@
           },
           {
             "source": "toml-f",
-            "target": "cpcm-x"
-          },
-          {
-            "source": "toml-f",
             "target": "jonquil"
           },
           {
@@ -114895,12 +114847,6 @@
             }
           },
           {
-            "id": "cpcm-x",
-            "payload": {
-              "__lazy_json__": "node_attrs/cpcm-x.json"
-            }
-          },
-          {
             "id": "cpd",
             "payload": {
               "__lazy_json__": "node_attrs/cpd.json"
@@ -121450,12 +121396,6 @@
             "id": "numpy-allocator",
             "payload": {
               "__lazy_json__": "node_attrs/numpy-allocator.json"
-            }
-          },
-          {
-            "id": "numsa",
-            "payload": {
-              "__lazy_json__": "node_attrs/numsa.json"
             }
           },
           {
