@@ -60,12 +60,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/khiops-driver-gcs.json"
             }
-          },
-          {
-            "id": "tiledb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tiledb.json"
-            }
           }
         ]
       }
@@ -267,7 +261,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
