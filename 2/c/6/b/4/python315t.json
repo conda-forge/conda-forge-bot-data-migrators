@@ -118,10 +118,6 @@
           },
           {
             "source": "brotli",
-            "target": "jenkspy"
-          },
-          {
-            "source": "brotli",
             "target": "jsbsim"
           },
           {
@@ -418,12 +414,6 @@
             }
           },
           {
-            "id": "jenkspy",
-            "payload": {
-              "__lazy_json__": "node_attrs/jenkspy.json"
-            }
-          },
-          {
             "id": "jsbsim",
             "payload": {
               "__lazy_json__": "node_attrs/jsbsim.json"
@@ -709,12 +699,6 @@
             "id": "rsloop",
             "payload": {
               "__lazy_json__": "node_attrs/rsloop.json"
-            }
-          },
-          {
-            "id": "safe-pysha3",
-            "payload": {
-              "__lazy_json__": "node_attrs/safe-pysha3.json"
             }
           },
           {
