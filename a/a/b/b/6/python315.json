@@ -67,6 +67,12 @@
             }
           },
           {
+            "id": "mdanse",
+            "payload": {
+              "__lazy_json__": "node_attrs/mdanse.json"
+            }
+          },
+          {
             "id": "python-flint",
             "payload": {
               "__lazy_json__": "node_attrs/python-flint.json"
@@ -647,10 +653,6 @@
           {
             "source": "aiohttp",
             "target": "openllm-playground"
-          },
-          {
-            "source": "aiohttp",
-            "target": "outlines-core"
           },
           {
             "source": "aiohttp",
@@ -13898,10 +13900,6 @@
           },
           {
             "source": "cython",
-            "target": "menpo3d"
-          },
-          {
-            "source": "cython",
             "target": "microed-tools"
           },
           {
@@ -15979,10 +15977,6 @@
           {
             "source": "cyvlfeat",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cyvlfeat",
-            "target": "menpo3d"
           },
           {
             "source": "dace",
@@ -28398,19 +28392,11 @@
           },
           {
             "source": "matplotlib",
-            "target": "mdanse"
-          },
-          {
-            "source": "matplotlib",
             "target": "mdbenchmark"
           },
           {
             "source": "matplotlib",
             "target": "memprof"
-          },
-          {
-            "source": "matplotlib",
-            "target": "menpo3d"
           },
           {
             "source": "matplotlib",
@@ -29662,10 +29648,6 @@
           },
           {
             "source": "mdanalysis",
-            "target": "mdanse"
-          },
-          {
-            "source": "mdanalysis",
             "target": "mdsynthesis"
           },
           {
@@ -29727,10 +29709,6 @@
           {
             "source": "mdtraj",
             "target": "fretraj"
-          },
-          {
-            "source": "mdtraj",
-            "target": "mdanse"
           },
           {
             "source": "mdtraj",
@@ -29847,10 +29825,6 @@
           {
             "source": "memray",
             "target": "ray-packages"
-          },
-          {
-            "source": "menpo3d",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "menuinst",
@@ -30267,10 +30241,6 @@
           {
             "source": "moderngl",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "moderngl",
-            "target": "menpo3d"
           },
           {
             "source": "moderngl",
@@ -31667,10 +31637,6 @@
           {
             "source": "multiprocess",
             "target": "ostaphep"
-          },
-          {
-            "source": "multiprocess",
-            "target": "outlines-core"
           },
           {
             "source": "multiprocess",
@@ -37090,10 +37056,6 @@
           },
           {
             "source": "numpy",
-            "target": "menpo3d"
-          },
-          {
-            "source": "numpy",
             "target": "mergechannels"
           },
           {
@@ -41414,10 +41376,6 @@
           },
           {
             "source": "opencv",
-            "target": "menpo3d"
-          },
-          {
-            "source": "opencv",
             "target": "mmcv-recipe"
           },
           {
@@ -43214,10 +43172,6 @@
           },
           {
             "source": "pandas",
-            "target": "outlines-core"
-          },
-          {
-            "source": "pandas",
             "target": "pandana"
           },
           {
@@ -44991,10 +44945,6 @@
           {
             "source": "pillow",
             "target": "matplotlib"
-          },
-          {
-            "source": "pillow",
-            "target": "menpo3d"
           },
           {
             "source": "pillow",
@@ -47650,10 +47600,6 @@
           },
           {
             "source": "psutil",
-            "target": "outlines-core"
-          },
-          {
-            "source": "psutil",
             "target": "oxigraph"
           },
           {
@@ -49047,10 +48993,6 @@
           {
             "source": "pyarrow",
             "target": "nutpie"
-          },
-          {
-            "source": "pyarrow",
-            "target": "outlines-core"
           },
           {
             "source": "pyarrow",
@@ -53094,10 +53036,6 @@
           },
           {
             "source": "pyqt",
-            "target": "menpo3d"
-          },
-          {
-            "source": "pyqt",
             "target": "morphometrics"
           },
           {
@@ -53555,10 +53493,6 @@
           {
             "source": "pyside2",
             "target": "matplotlib"
-          },
-          {
-            "source": "pyside2",
-            "target": "menpo3d"
           },
           {
             "source": "pyside2",
@@ -54839,10 +54773,6 @@
           {
             "source": "python-xxhash",
             "target": "new-fave"
-          },
-          {
-            "source": "python-xxhash",
-            "target": "outlines-core"
           },
           {
             "source": "python-xxhash",
@@ -58202,10 +58132,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "outlines-core"
-          },
-          {
-            "source": "pyyaml",
             "target": "oxigraph"
           },
           {
@@ -60390,10 +60316,6 @@
           },
           {
             "source": "regex",
-            "target": "outlines-core"
-          },
-          {
-            "source": "regex",
             "target": "pandas-plink"
           },
           {
@@ -62095,10 +62017,6 @@
           {
             "source": "safetensors",
             "target": "mamba-ssm"
-          },
-          {
-            "source": "safetensors",
-            "target": "outlines-core"
           },
           {
             "source": "safetensors",
@@ -64706,10 +64624,6 @@
           },
           {
             "source": "scipy",
-            "target": "menpo3d"
-          },
-          {
-            "source": "scipy",
             "target": "mesher"
           },
           {
@@ -66659,10 +66573,6 @@
           {
             "source": "sentencepiece",
             "target": "openvino-tokenizers"
-          },
-          {
-            "source": "sentencepiece",
-            "target": "outlines-core"
           },
           {
             "source": "sentencepiece",
@@ -74618,10 +74528,6 @@
           },
           {
             "source": "tbb",
-            "target": "menpo3d"
-          },
-          {
-            "source": "tbb",
             "target": "menuinst"
           },
           {
@@ -82294,10 +82200,6 @@
           },
           {
             "source": "tokenizers",
-            "target": "outlines-core"
-          },
-          {
-            "source": "tokenizers",
             "target": "pyserini"
           },
           {
@@ -83323,10 +83225,6 @@
           {
             "source": "traits",
             "target": "fatiando"
-          },
-          {
-            "source": "traits",
-            "target": "menpo3d"
           },
           {
             "source": "traits",
@@ -84926,10 +84824,6 @@
           },
           {
             "source": "vtk",
-            "target": "menpo3d"
-          },
-          {
-            "source": "vtk",
             "target": "mesher"
           },
           {
@@ -86063,10 +85957,6 @@
           {
             "source": "wcwidth",
             "target": "ostaphep"
-          },
-          {
-            "source": "wcwidth",
-            "target": "outlines-core"
           },
           {
             "source": "wcwidth",
@@ -96707,12 +96597,6 @@
             "id": "memray",
             "payload": {
               "__lazy_json__": "node_attrs/memray.json"
-            }
-          },
-          {
-            "id": "menpo3d",
-            "payload": {
-              "__lazy_json__": "node_attrs/menpo3d.json"
             }
           },
           {
