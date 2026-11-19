@@ -82,15 +82,7 @@
           },
           {
             "source": "brotli",
-            "target": "connected-components-3d"
-          },
-          {
-            "source": "brotli",
             "target": "dpctl"
-          },
-          {
-            "source": "brotli",
-            "target": "edt"
           },
           {
             "source": "brotli",
@@ -171,10 +163,6 @@
           {
             "source": "brotli",
             "target": "nmslib"
-          },
-          {
-            "source": "brotli",
-            "target": "numba-cuda-mlir"
           },
           {
             "source": "brotli",
@@ -334,12 +322,6 @@
             }
           },
           {
-            "id": "connected-components-3d",
-            "payload": {
-              "__lazy_json__": "node_attrs/connected-components-3d.json"
-            }
-          },
-          {
             "id": "cx_logging",
             "payload": {
               "__lazy_json__": "node_attrs/cx_logging.json"
@@ -355,12 +337,6 @@
             "id": "dpctl",
             "payload": {
               "__lazy_json__": "node_attrs/dpctl.json"
-            }
-          },
-          {
-            "id": "edt",
-            "payload": {
-              "__lazy_json__": "node_attrs/edt.json"
             }
           },
           {
@@ -598,12 +574,6 @@
             }
           },
           {
-            "id": "numba-cuda-mlir",
-            "payload": {
-              "__lazy_json__": "node_attrs/numba-cuda-mlir.json"
-            }
-          },
-          {
             "id": "numpy_quaddtype",
             "payload": {
               "__lazy_json__": "node_attrs/numpy_quaddtype.json"
@@ -802,12 +772,6 @@
             }
           },
           {
-            "id": "rectangle-packer",
-            "payload": {
-              "__lazy_json__": "node_attrs/rectangle-packer.json"
-            }
-          },
-          {
             "id": "rjsmin",
             "payload": {
               "__lazy_json__": "node_attrs/rjsmin.json"
@@ -907,12 +871,6 @@
             "id": "zen-engine",
             "payload": {
               "__lazy_json__": "node_attrs/zen-engine.json"
-            }
-          },
-          {
-            "id": "zeroconf",
-            "payload": {
-              "__lazy_json__": "node_attrs/zeroconf.json"
             }
           },
           {
