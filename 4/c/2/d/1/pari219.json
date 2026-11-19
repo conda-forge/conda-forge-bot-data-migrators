@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "cypari2",
-            "payload": {
-              "__lazy_json__": "node_attrs/cypari2.json"
-            }
-          },
-          {
             "id": "eclib",
             "payload": {
               "__lazy_json__": "node_attrs/eclib.json"
-            }
-          },
-          {
-            "id": "gap",
-            "payload": {
-              "__lazy_json__": "node_attrs/gap.json"
             }
           },
           {
@@ -355,7 +343,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
