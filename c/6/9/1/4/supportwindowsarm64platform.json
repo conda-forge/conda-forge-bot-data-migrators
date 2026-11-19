@@ -14822,10 +14822,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "xcb-util-image"
-          },
-          {
-            "source": "pkg-config",
             "target": "xcb-util-keysyms"
           },
           {
@@ -15079,6 +15075,10 @@
           {
             "source": "pkgconf",
             "target": "valgrind"
+          },
+          {
+            "source": "pkgconf",
+            "target": "xcb-util-image"
           },
           {
             "source": "pkgconf",
