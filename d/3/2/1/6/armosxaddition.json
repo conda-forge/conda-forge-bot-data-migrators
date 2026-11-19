@@ -62358,6 +62358,90 @@
             "target": "xtensor-io"
           },
           {
+            "source": "openjdk",
+            "target": "antlr"
+          },
+          {
+            "source": "openjdk",
+            "target": "apache-ant"
+          },
+          {
+            "source": "openjdk",
+            "target": "bazel"
+          },
+          {
+            "source": "openjdk",
+            "target": "bfg"
+          },
+          {
+            "source": "openjdk",
+            "target": "copybara"
+          },
+          {
+            "source": "openjdk",
+            "target": "grpc_java_plugin"
+          },
+          {
+            "source": "openjdk",
+            "target": "ijar"
+          },
+          {
+            "source": "openjdk",
+            "target": "jmol"
+          },
+          {
+            "source": "openjdk",
+            "target": "jpype1"
+          },
+          {
+            "source": "openjdk",
+            "target": "libpano13"
+          },
+          {
+            "source": "openjdk",
+            "target": "maven"
+          },
+          {
+            "source": "openjdk",
+            "target": "nds2-client-swig"
+          },
+          {
+            "source": "openjdk",
+            "target": "pemja"
+          },
+          {
+            "source": "openjdk",
+            "target": "plantuml"
+          },
+          {
+            "source": "openjdk",
+            "target": "protobuf"
+          },
+          {
+            "source": "openjdk",
+            "target": "r-base"
+          },
+          {
+            "source": "openjdk",
+            "target": "ray-packages"
+          },
+          {
+            "source": "openjdk",
+            "target": "rstudio"
+          },
+          {
+            "source": "openjdk",
+            "target": "singlejar"
+          },
+          {
+            "source": "openjdk",
+            "target": "tabula-py"
+          },
+          {
+            "source": "openjdk",
+            "target": "tensorflow"
+          },
+          {
             "source": "openjpeg",
             "target": "fabio"
           },
@@ -109763,14 +109847,6 @@
           },
           {
             "source": "zlib",
-            "target": "antlr"
-          },
-          {
-            "source": "zlib",
-            "target": "apache-ant"
-          },
-          {
-            "source": "zlib",
             "target": "arosics"
           },
           {
@@ -109800,14 +109876,6 @@
           {
             "source": "zlib",
             "target": "aws-sdk-cpp"
-          },
-          {
-            "source": "zlib",
-            "target": "bazel"
-          },
-          {
-            "source": "zlib",
-            "target": "bfg"
           },
           {
             "source": "zlib",
@@ -109948,10 +110016,6 @@
           {
             "source": "zlib",
             "target": "connectorx"
-          },
-          {
-            "source": "zlib",
-            "target": "copybara"
           },
           {
             "source": "zlib",
@@ -110307,10 +110371,6 @@
           },
           {
             "source": "zlib",
-            "target": "grpc_java_plugin"
-          },
-          {
-            "source": "zlib",
             "target": "gsoap"
           },
           {
@@ -110419,10 +110479,6 @@
           },
           {
             "source": "zlib",
-            "target": "ijar"
-          },
-          {
-            "source": "zlib",
             "target": "imagecodecs"
           },
           {
@@ -110464,14 +110520,6 @@
           {
             "source": "zlib",
             "target": "jbig2dec"
-          },
-          {
-            "source": "zlib",
-            "target": "jmol"
-          },
-          {
-            "source": "zlib",
-            "target": "jpype1"
           },
           {
             "source": "zlib",
@@ -110759,10 +110807,6 @@
           },
           {
             "source": "zlib",
-            "target": "maven"
-          },
-          {
-            "source": "zlib",
             "target": "mcpl"
           },
           {
@@ -110856,10 +110900,6 @@
           {
             "source": "zlib",
             "target": "nco"
-          },
-          {
-            "source": "zlib",
-            "target": "nds2-client-swig"
           },
           {
             "source": "zlib",
@@ -110979,6 +111019,10 @@
           },
           {
             "source": "zlib",
+            "target": "openjdk"
+          },
+          {
+            "source": "zlib",
             "target": "openjpeg"
           },
           {
@@ -111059,10 +111103,6 @@
           },
           {
             "source": "zlib",
-            "target": "pemja"
-          },
-          {
-            "source": "zlib",
             "target": "perl-net-ssleay"
           },
           {
@@ -111092,10 +111132,6 @@
           {
             "source": "zlib",
             "target": "pillow"
-          },
-          {
-            "source": "zlib",
-            "target": "plantuml"
           },
           {
             "source": "zlib",
@@ -111347,10 +111383,6 @@
           },
           {
             "source": "zlib",
-            "target": "ray-packages"
-          },
-          {
-            "source": "zlib",
             "target": "rocksdb"
           },
           {
@@ -111419,10 +111451,6 @@
           },
           {
             "source": "zlib",
-            "target": "singlejar"
-          },
-          {
-            "source": "zlib",
             "target": "smesh"
           },
           {
@@ -111456,10 +111484,6 @@
           {
             "source": "zlib",
             "target": "symengine"
-          },
-          {
-            "source": "zlib",
-            "target": "tabula-py"
           },
           {
             "source": "zlib",
@@ -121666,6 +121690,12 @@
             "id": "openimageio",
             "payload": {
               "__lazy_json__": "node_attrs/openimageio.json"
+            }
+          },
+          {
+            "id": "openjdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/openjdk.json"
             }
           },
           {
