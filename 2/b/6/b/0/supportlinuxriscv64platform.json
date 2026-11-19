@@ -59,24 +59,6 @@
             }
           },
           {
-            "id": "cbor2",
-            "payload": {
-              "__lazy_json__": "node_attrs/cbor2.json"
-            }
-          },
-          {
-            "id": "jiter",
-            "payload": {
-              "__lazy_json__": "node_attrs/jiter.json"
-            }
-          },
-          {
-            "id": "libdate",
-            "payload": {
-              "__lazy_json__": "node_attrs/libdate.json"
-            }
-          },
-          {
             "id": "nvtx-c",
             "payload": {
               "__lazy_json__": "node_attrs/nvtx-c.json"
@@ -104,18 +86,6 @@
             "id": "pybase64",
             "payload": {
               "__lazy_json__": "node_attrs/pybase64.json"
-            }
-          },
-          {
-            "id": "safeint",
-            "payload": {
-              "__lazy_json__": "node_attrs/safeint.json"
-            }
-          },
-          {
-            "id": "safetensors",
-            "payload": {
-              "__lazy_json__": "node_attrs/safetensors.json"
             }
           }
         ]
@@ -3509,14 +3479,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8674,12 +8636,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10357,7 +10313,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "mpdecimal",
         "mpg123",
