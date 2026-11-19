@@ -888,10 +888,6 @@
           },
           {
             "source": "cudnn",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "cudnn",
             "target": "python-cudnn-frontend"
           },
           {
@@ -1651,22 +1647,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "onnxruntime",
-            "target": "colmap"
-          },
-          {
-            "source": "onnxruntime",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "onnxruntime",
-            "target": "libholoscan"
-          },
-          {
-            "source": "onnxruntime",
-            "target": "tinygrad"
-          },
-          {
             "source": "openmm-dlext",
             "target": "conda-forge-pinning"
           },
@@ -2005,10 +1985,6 @@
           {
             "source": "tensorrt",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "tensorrt",
-            "target": "onnxruntime"
           },
           {
             "source": "theseus-ai",
@@ -2891,12 +2867,6 @@
             "id": "nyxus",
             "payload": {
               "__lazy_json__": "node_attrs/nyxus.json"
-            }
-          },
-          {
-            "id": "onnxruntime",
-            "payload": {
-              "__lazy_json__": "node_attrs/onnxruntime.json"
             }
           },
           {
