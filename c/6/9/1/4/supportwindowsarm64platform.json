@@ -43,30 +43,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "m4",
-            "target": "metis"
-          },
-          {
-            "source": "m4",
-            "target": "miktex"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "m4",
-            "payload": {
-              "__lazy_json__": "node_attrs/m4.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
           {
             "id": "miktex",
             "payload": {
@@ -3432,10 +3411,6 @@
           {
             "source": "cmake",
             "target": "mbedtls"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -10683,10 +10658,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "mpc"
           },
           {
@@ -11484,10 +11455,6 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
           },
           {
             "source": "micromamba",
@@ -13380,10 +13347,6 @@
           {
             "source": "openh264",
             "target": "ffmpeg"
-          },
-          {
-            "source": "openjdk",
-            "target": "r-base"
           },
           {
             "source": "openjpeg",
@@ -18971,7 +18934,7 @@
           },
           {
             "source": "symlink-exe-substitute",
-            "target": "openjdk"
+            "target": "r-base"
           },
           {
             "source": "systemd",
@@ -24447,12 +24410,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -24756,12 +24713,6 @@
             "id": "openh264",
             "payload": {
               "__lazy_json__": "node_attrs/openh264.json"
-            }
-          },
-          {
-            "id": "openjdk",
-            "payload": {
-              "__lazy_json__": "node_attrs/openjdk.json"
             }
           },
           {
