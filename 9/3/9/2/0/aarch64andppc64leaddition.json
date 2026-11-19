@@ -2163,6 +2163,10 @@
           },
           {
             "source": "autoconf",
+            "target": "valgrind"
+          },
+          {
+            "source": "autoconf",
             "target": "xclip"
           },
           {
@@ -3444,6 +3448,10 @@
           {
             "source": "automake",
             "target": "util-linux"
+          },
+          {
+            "source": "automake",
+            "target": "valgrind"
           },
           {
             "source": "automake",
@@ -67763,10 +67771,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "valgrind"
-          },
-          {
-            "source": "pkg-config",
             "target": "vectorscan"
           },
           {
@@ -68388,6 +68392,10 @@
           {
             "source": "pkgconf",
             "target": "uv"
+          },
+          {
+            "source": "pkgconf",
+            "target": "valgrind"
           },
           {
             "source": "pkgconf",
