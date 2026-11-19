@@ -55,12 +55,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "nccl4py"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -79,12 +74,6 @@
             "id": "nccl4py",
             "payload": {
               "__lazy_json__": "node_attrs/nccl4py.json"
-            }
-          },
-          {
-            "id": "nvidia-cutlass-dsl",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
             }
           },
           {
@@ -2029,10 +2018,6 @@
           {
             "source": "coremltools",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "coremltools",
-            "target": "onnxruntime"
           },
           {
             "source": "correctionlib",
@@ -5252,10 +5237,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "markupsafe",
             "target": "orange3"
           },
           {
@@ -6892,10 +6873,6 @@
           },
           {
             "source": "numpy",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "numpy",
             "target": "opencv"
           },
           {
@@ -7456,10 +7433,6 @@
           },
           {
             "source": "onnx",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "onnxruntime",
             "target": "conda-forge-pinning"
           },
           {
@@ -8325,10 +8298,6 @@
           {
             "source": "protobuf",
             "target": "onnx"
-          },
-          {
-            "source": "protobuf",
-            "target": "onnxruntime"
           },
           {
             "source": "protobuf",
@@ -12645,10 +12614,6 @@
           {
             "source": "tbb",
             "target": "onnx"
-          },
-          {
-            "source": "tbb",
-            "target": "onnxruntime"
           },
           {
             "source": "tbb",
@@ -17211,12 +17176,6 @@
             "id": "onnx",
             "payload": {
               "__lazy_json__": "node_attrs/onnx.json"
-            }
-          },
-          {
-            "id": "onnxruntime",
-            "payload": {
-              "__lazy_json__": "node_attrs/onnxruntime.json"
             }
           },
           {
