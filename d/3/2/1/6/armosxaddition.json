@@ -69655,10 +69655,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "mysqlclient"
-          },
-          {
-            "source": "pkg-config",
             "target": "nanoarrow"
           },
           {
@@ -71352,6 +71348,10 @@
           {
             "source": "pkgconf",
             "target": "mysql"
+          },
+          {
+            "source": "pkgconf",
+            "target": "mysqlclient"
           },
           {
             "source": "pkgconf",
