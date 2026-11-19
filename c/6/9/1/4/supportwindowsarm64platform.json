@@ -267,10 +267,6 @@
           },
           {
             "source": "alsa-lib",
-            "target": "openjdk"
-          },
-          {
-            "source": "alsa-lib",
             "target": "pulseaudio"
           },
           {
@@ -512,10 +508,6 @@
           {
             "source": "autoconf",
             "target": "ocl-icd"
-          },
-          {
-            "source": "autoconf",
-            "target": "openjdk"
           },
           {
             "source": "autoconf",
@@ -5927,10 +5919,6 @@
           },
           {
             "source": "fontconfig",
-            "target": "openjdk"
-          },
-          {
-            "source": "fontconfig",
             "target": "pango"
           },
           {
@@ -6004,10 +5992,6 @@
           {
             "source": "freetype",
             "target": "nsight-compute"
-          },
-          {
-            "source": "freetype",
-            "target": "openjdk"
           },
           {
             "source": "freetype",
@@ -6392,10 +6376,6 @@
           {
             "source": "giflib",
             "target": "libjxl-split"
-          },
-          {
-            "source": "giflib",
-            "target": "openjdk"
           },
           {
             "source": "git-delta",
@@ -7195,10 +7175,6 @@
           },
           {
             "source": "harfbuzz",
-            "target": "openjdk"
-          },
-          {
-            "source": "harfbuzz",
             "target": "pango"
           },
           {
@@ -7831,10 +7807,6 @@
           },
           {
             "source": "lcms2",
-            "target": "openjdk"
-          },
-          {
-            "source": "lcms2",
             "target": "pillow"
           },
           {
@@ -8004,10 +7976,6 @@
           {
             "source": "libcups",
             "target": "gtk3"
-          },
-          {
-            "source": "libcups",
-            "target": "openjdk"
           },
           {
             "source": "libcups",
@@ -8667,10 +8635,6 @@
           },
           {
             "source": "libjpeg-turbo",
-            "target": "openjdk"
-          },
-          {
-            "source": "libjpeg-turbo",
             "target": "pillow"
           },
           {
@@ -8852,10 +8816,6 @@
           {
             "source": "libpng",
             "target": "netpbm"
-          },
-          {
-            "source": "libpng",
-            "target": "openjdk"
           },
           {
             "source": "libpng",
@@ -10784,10 +10744,6 @@
           {
             "source": "make",
             "target": "openh264"
-          },
-          {
-            "source": "make",
-            "target": "openjdk"
           },
           {
             "source": "make",
@@ -14707,10 +14663,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "openjdk"
-          },
-          {
-            "source": "pkg-config",
             "target": "openmpi"
           },
           {
@@ -15108,10 +15060,6 @@
           {
             "source": "pkgconf",
             "target": "openexr"
-          },
-          {
-            "source": "pkgconf",
-            "target": "openjdk"
           },
           {
             "source": "pkgconf",
@@ -16428,10 +16376,6 @@
           {
             "source": "python",
             "target": "openh264"
-          },
-          {
-            "source": "python",
-            "target": "openjdk"
           },
           {
             "source": "python",
@@ -19483,10 +19427,6 @@
           },
           {
             "source": "unzip",
-            "target": "openjdk"
-          },
-          {
-            "source": "unzip",
             "target": "tiledb"
           },
           {
@@ -20475,10 +20415,6 @@
           },
           {
             "source": "xorg-libx11",
-            "target": "openjdk"
-          },
-          {
-            "source": "xorg-libx11",
             "target": "pillow"
           },
           {
@@ -20651,10 +20587,6 @@
           },
           {
             "source": "xorg-libxext",
-            "target": "openjdk"
-          },
-          {
-            "source": "xorg-libxext",
             "target": "qt-main"
           },
           {
@@ -20743,10 +20675,6 @@
           },
           {
             "source": "xorg-libxi",
-            "target": "openjdk"
-          },
-          {
-            "source": "xorg-libxi",
             "target": "xorg-libxtst"
           },
           {
@@ -20756,10 +20684,6 @@
           {
             "source": "xorg-libxrandr",
             "target": "gtk3"
-          },
-          {
-            "source": "xorg-libxrandr",
-            "target": "openjdk"
           },
           {
             "source": "xorg-libxrandr",
@@ -20783,10 +20707,6 @@
           },
           {
             "source": "xorg-libxrender",
-            "target": "openjdk"
-          },
-          {
-            "source": "xorg-libxrender",
             "target": "xorg-libxcursor"
           },
           {
@@ -20803,19 +20723,11 @@
           },
           {
             "source": "xorg-libxt",
-            "target": "openjdk"
-          },
-          {
-            "source": "xorg-libxt",
             "target": "r-base"
           },
           {
             "source": "xorg-libxtst",
             "target": "at-spi2-core"
-          },
-          {
-            "source": "xorg-libxtst",
-            "target": "openjdk"
           },
           {
             "source": "xorg-libxtst",
@@ -20904,10 +20816,6 @@
           {
             "source": "xorg-util-macros",
             "target": "matplotlib"
-          },
-          {
-            "source": "xorg-util-macros",
-            "target": "openjdk"
           },
           {
             "source": "xorg-util-macros",
@@ -21256,10 +21164,6 @@
           {
             "source": "zip",
             "target": "matplotlib"
-          },
-          {
-            "source": "zip",
-            "target": "openjdk"
           },
           {
             "source": "zip",
@@ -21804,10 +21708,6 @@
           {
             "source": "zlib",
             "target": "openh264"
-          },
-          {
-            "source": "zlib",
-            "target": "openjdk"
           },
           {
             "source": "zlib",
