@@ -55,13 +55,30 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "cppyy-cling",
+            "target": "e-antic"
+          }
+        ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "astropy",
+            "payload": {
+              "__lazy_json__": "node_attrs/astropy.json"
+            }
+          },
           {
             "id": "celerite2",
             "payload": {
               "__lazy_json__": "node_attrs/celerite2.json"
+            }
+          },
+          {
+            "id": "cppyy-cling",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppyy-cling.json"
             }
           },
           {
@@ -86,18 +103,6 @@
             "id": "python-flint",
             "payload": {
               "__lazy_json__": "node_attrs/python-flint.json"
-            }
-          },
-          {
-            "id": "qpoint",
-            "payload": {
-              "__lazy_json__": "node_attrs/qpoint.json"
-            }
-          },
-          {
-            "id": "spherical-geometry",
-            "payload": {
-              "__lazy_json__": "node_attrs/spherical-geometry.json"
             }
           }
         ]
