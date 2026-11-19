@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "eclib",
-            "payload": {
-              "__lazy_json__": "node_attrs/eclib.json"
-            }
-          },
-          {
-            "id": "giac",
-            "payload": {
-              "__lazy_json__": "node_attrs/giac.json"
-            }
-          },
-          {
             "id": "lcalc",
             "payload": {
               "__lazy_json__": "node_attrs/lcalc.json"
@@ -77,12 +65,6 @@
             "id": "pari_jupyter",
             "payload": {
               "__lazy_json__": "node_attrs/pari_jupyter.json"
-            }
-          },
-          {
-            "id": "sympow",
-            "payload": {
-              "__lazy_json__": "node_attrs/sympow.json"
             }
           }
         ]
@@ -343,7 +325,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
