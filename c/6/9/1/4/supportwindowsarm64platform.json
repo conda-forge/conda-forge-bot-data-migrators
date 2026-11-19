@@ -13361,6 +13361,10 @@
             "target": "ffmpeg"
           },
           {
+            "source": "openjdk",
+            "target": "r-base"
+          },
+          {
             "source": "openjpeg",
             "target": "gdal"
           },
@@ -14838,10 +14842,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "xcb-util-renderutil"
-          },
-          {
-            "source": "pkg-config",
             "target": "xcb-util-wm"
           },
           {
@@ -15091,6 +15091,10 @@
           {
             "source": "pkgconf",
             "target": "xcb-util-image"
+          },
+          {
+            "source": "pkgconf",
+            "target": "xcb-util-renderutil"
           },
           {
             "source": "pkgconf",
@@ -18946,7 +18950,7 @@
           },
           {
             "source": "symlink-exe-substitute",
-            "target": "r-base"
+            "target": "openjdk"
           },
           {
             "source": "systemd",
@@ -24731,6 +24735,12 @@
             "id": "openh264",
             "payload": {
               "__lazy_json__": "node_attrs/openh264.json"
+            }
+          },
+          {
+            "id": "openjdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/openjdk.json"
             }
           },
           {
