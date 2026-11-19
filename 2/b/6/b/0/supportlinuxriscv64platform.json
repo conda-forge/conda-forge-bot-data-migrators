@@ -146,10 +146,6 @@
           },
           {
             "source": "abseil-cpp",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "abseil-cpp",
             "target": "opencv"
           },
           {
@@ -818,10 +814,6 @@
           },
           {
             "source": "cuda-cudart",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "cuda-cudart",
             "target": "tensorrt"
           },
           {
@@ -914,10 +906,6 @@
           },
           {
             "source": "cuda-nvrtc",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "cuda-nvrtc",
             "target": "tensorrt"
           },
           {
@@ -935,10 +923,6 @@
           {
             "source": "cuda-nvtx",
             "target": "kaldi"
-          },
-          {
-            "source": "cuda-nvtx",
-            "target": "onnxruntime"
           },
           {
             "source": "cuda-nvtx",
@@ -963,10 +947,6 @@
           {
             "source": "cuda-profiler-api",
             "target": "torchcodec"
-          },
-          {
-            "source": "cudnn",
-            "target": "onnxruntime"
           },
           {
             "source": "cudnn",
@@ -1726,10 +1706,6 @@
           },
           {
             "source": "gtest",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "gtest",
             "target": "re2"
           },
           {
@@ -2190,10 +2166,6 @@
           },
           {
             "source": "libcublas",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "libcublas",
             "target": "torchaudio"
           },
           {
@@ -2214,10 +2186,6 @@
           },
           {
             "source": "libcufft",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "libcufft",
             "target": "torchaudio"
           },
           {
@@ -2235,10 +2203,6 @@
           {
             "source": "libcurand",
             "target": "kaldi"
-          },
-          {
-            "source": "libcurand",
-            "target": "onnxruntime"
           },
           {
             "source": "libcurand",
@@ -2283,10 +2247,6 @@
           {
             "source": "libcusparse",
             "target": "libmagma"
-          },
-          {
-            "source": "libcusparse",
-            "target": "onnxruntime"
           },
           {
             "source": "libcusparse",
@@ -2347,10 +2307,6 @@
           {
             "source": "libcxx",
             "target": "vllm"
-          },
-          {
-            "source": "libdate",
-            "target": "onnxruntime"
           },
           {
             "source": "libde265",
@@ -2843,10 +2799,6 @@
           {
             "source": "libprotobuf",
             "target": "onnx"
-          },
-          {
-            "source": "libprotobuf",
-            "target": "onnxruntime"
           },
           {
             "source": "libprotobuf",
@@ -3830,10 +3782,6 @@
           },
           {
             "source": "numpy",
-            "target": "onnxruntime"
-          },
-          {
-            "source": "numpy",
             "target": "opencv"
           },
           {
@@ -4205,10 +4153,6 @@
             "target": "opencv"
           },
           {
-            "source": "optional-lite",
-            "target": "onnxruntime"
-          },
-          {
             "source": "optree",
             "target": "pytorch-cpu"
           },
@@ -4375,10 +4319,6 @@
           {
             "source": "protobuf",
             "target": "onnx"
-          },
-          {
-            "source": "protobuf",
-            "target": "onnxruntime"
           },
           {
             "source": "protobuf",
@@ -4727,10 +4667,6 @@
           {
             "source": "python",
             "target": "onnx"
-          },
-          {
-            "source": "python",
-            "target": "onnxruntime"
           },
           {
             "source": "python",
@@ -5381,10 +5317,6 @@
             "target": "grpc-cpp"
           },
           {
-            "source": "re2",
-            "target": "onnxruntime"
-          },
-          {
             "source": "readline",
             "target": "postgresql"
           },
@@ -5475,10 +5407,6 @@
           {
             "source": "s2n",
             "target": "aws-c-io"
-          },
-          {
-            "source": "safeint",
-            "target": "onnxruntime"
           },
           {
             "source": "safetensors",
@@ -5659,10 +5587,6 @@
           {
             "source": "tbb",
             "target": "openvino"
-          },
-          {
-            "source": "tensorrt",
-            "target": "onnxruntime"
           },
           {
             "source": "termcolor-cpp",
@@ -6935,10 +6859,6 @@
           {
             "source": "zlib",
             "target": "nodejs"
-          },
-          {
-            "source": "zlib",
-            "target": "onnxruntime"
           },
           {
             "source": "zlib",
@@ -8831,12 +8751,6 @@
             "id": "onnx",
             "payload": {
               "__lazy_json__": "node_attrs/onnx.json"
-            }
-          },
-          {
-            "id": "onnxruntime",
-            "payload": {
-              "__lazy_json__": "node_attrs/onnxruntime.json"
             }
           },
           {
