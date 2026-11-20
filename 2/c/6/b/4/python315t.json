@@ -110,10 +110,6 @@
           },
           {
             "source": "brotli",
-            "target": "healpix-geo"
-          },
-          {
-            "source": "brotli",
             "target": "hybgensea"
           },
           {
@@ -127,10 +123,6 @@
           {
             "source": "brotli",
             "target": "levenshtein"
-          },
-          {
-            "source": "brotli",
-            "target": "mapbox_earcut"
           },
           {
             "source": "brotli",
@@ -342,12 +334,6 @@
             }
           },
           {
-            "id": "fastexcel",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastexcel.json"
-            }
-          },
-          {
             "id": "flt",
             "payload": {
               "__lazy_json__": "node_attrs/flt.json"
@@ -375,12 +361,6 @@
             "id": "h5py",
             "payload": {
               "__lazy_json__": "node_attrs/h5py.json"
-            }
-          },
-          {
-            "id": "healpix-geo",
-            "payload": {
-              "__lazy_json__": "node_attrs/healpix-geo.json"
             }
           },
           {
@@ -459,12 +439,6 @@
             "id": "madoka",
             "payload": {
               "__lazy_json__": "node_attrs/madoka.json"
-            }
-          },
-          {
-            "id": "mapbox_earcut",
-            "payload": {
-              "__lazy_json__": "node_attrs/mapbox_earcut.json"
             }
           },
           {
@@ -624,6 +598,12 @@
             }
           },
           {
+            "id": "pyomo",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyomo.json"
+            }
+          },
+          {
             "id": "pyopengl-accelerate",
             "payload": {
               "__lazy_json__": "node_attrs/pyopengl-accelerate.json"
@@ -681,12 +661,6 @@
             "id": "rchitect",
             "payload": {
               "__lazy_json__": "node_attrs/rchitect.json"
-            }
-          },
-          {
-            "id": "rjsmin",
-            "payload": {
-              "__lazy_json__": "node_attrs/rjsmin.json"
             }
           },
           {
