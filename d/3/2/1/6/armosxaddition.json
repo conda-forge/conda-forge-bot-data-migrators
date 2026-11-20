@@ -19490,10 +19490,6 @@
             "target": "gfal2"
           },
           {
-            "source": "csbdeep",
-            "target": "stardist"
-          },
-          {
             "source": "cspice",
             "target": "spiceql"
           },
@@ -35320,6 +35316,10 @@
           {
             "source": "jasper",
             "target": "pygrib"
+          },
+          {
+            "source": "jaxlib",
+            "target": "ale-py"
           },
           {
             "source": "jaxlib",
@@ -51587,10 +51587,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "csbdeep"
-          },
-          {
-            "source": "matplotlib",
             "target": "cwinpy"
           },
           {
@@ -52748,6 +52744,10 @@
           {
             "source": "minuit2",
             "target": "cosmosis"
+          },
+          {
+            "source": "ml_dtypes",
+            "target": "ale-py"
           },
           {
             "source": "ml_dtypes",
@@ -59432,10 +59432,6 @@
           {
             "source": "numpy",
             "target": "crocoddyl"
-          },
-          {
-            "source": "numpy",
-            "target": "csbdeep"
           },
           {
             "source": "numpy",
@@ -77272,10 +77268,6 @@
           {
             "source": "python",
             "target": "crocoddyl"
-          },
-          {
-            "source": "python",
-            "target": "csbdeep"
           },
           {
             "source": "python",
@@ -96835,6 +96827,10 @@
           },
           {
             "source": "scipy",
+            "target": "ale-py"
+          },
+          {
+            "source": "scipy",
             "target": "allennlp"
           },
           {
@@ -96980,10 +96976,6 @@
           {
             "source": "scipy",
             "target": "cppe"
-          },
-          {
-            "source": "scipy",
-            "target": "csbdeep"
           },
           {
             "source": "scipy",
@@ -100640,10 +100632,6 @@
           {
             "source": "tensorboard-data-server",
             "target": "tensorflow"
-          },
-          {
-            "source": "tensorflow",
-            "target": "csbdeep"
           },
           {
             "source": "tensorflow",
@@ -115030,12 +115018,6 @@
             "id": "cryptopp",
             "payload": {
               "__lazy_json__": "node_attrs/cryptopp.json"
-            }
-          },
-          {
-            "id": "csbdeep",
-            "payload": {
-              "__lazy_json__": "node_attrs/csbdeep.json"
             }
           },
           {
