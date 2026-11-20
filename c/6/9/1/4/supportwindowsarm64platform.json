@@ -14631,10 +14631,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "openmpi"
-          },
-          {
-            "source": "pkg-config",
             "target": "openpmix"
           },
           {
@@ -15012,6 +15008,10 @@
           {
             "source": "pkgconf",
             "target": "openexr"
+          },
+          {
+            "source": "pkgconf",
+            "target": "openmpi"
           },
           {
             "source": "pkgconf",
