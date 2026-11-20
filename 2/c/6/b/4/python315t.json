@@ -94,23 +94,11 @@
           },
           {
             "source": "brotli",
-            "target": "flt"
-          },
-          {
-            "source": "brotli",
             "target": "fonttools"
           },
           {
             "source": "brotli",
-            "target": "geomad"
-          },
-          {
-            "source": "brotli",
             "target": "h5py"
-          },
-          {
-            "source": "brotli",
-            "target": "hybgensea"
           },
           {
             "source": "brotli",
@@ -150,10 +138,6 @@
           },
           {
             "source": "brotli",
-            "target": "nmslib"
-          },
-          {
-            "source": "brotli",
             "target": "numpy_quaddtype"
           },
           {
@@ -167,10 +151,6 @@
           {
             "source": "brotli",
             "target": "pillow-avif-plugin"
-          },
-          {
-            "source": "brotli",
-            "target": "pillow-heif"
           },
           {
             "source": "brotli",
@@ -195,10 +175,6 @@
           {
             "source": "brotli",
             "target": "transformations"
-          },
-          {
-            "source": "brotli",
-            "target": "yggdrasil-rapidjson"
           }
         ],
         "multigraph": false,
@@ -246,12 +222,6 @@
             }
           },
           {
-            "id": "bitstruct",
-            "payload": {
-              "__lazy_json__": "node_attrs/bitstruct.json"
-            }
-          },
-          {
             "id": "brotli",
             "payload": {
               "__lazy_json__": "node_attrs/brotli.json"
@@ -294,12 +264,6 @@
             }
           },
           {
-            "id": "cx_logging",
-            "payload": {
-              "__lazy_json__": "node_attrs/cx_logging.json"
-            }
-          },
-          {
             "id": "dbus-fast",
             "payload": {
               "__lazy_json__": "node_attrs/dbus-fast.json"
@@ -330,21 +294,9 @@
             }
           },
           {
-            "id": "flt",
-            "payload": {
-              "__lazy_json__": "node_attrs/flt.json"
-            }
-          },
-          {
             "id": "fonttools",
             "payload": {
               "__lazy_json__": "node_attrs/fonttools.json"
-            }
-          },
-          {
-            "id": "geomad",
-            "payload": {
-              "__lazy_json__": "node_attrs/geomad.json"
             }
           },
           {
@@ -357,12 +309,6 @@
             "id": "h5py",
             "payload": {
               "__lazy_json__": "node_attrs/h5py.json"
-            }
-          },
-          {
-            "id": "hybgensea",
-            "payload": {
-              "__lazy_json__": "node_attrs/hybgensea.json"
             }
           },
           {
@@ -492,12 +438,6 @@
             }
           },
           {
-            "id": "nmslib",
-            "payload": {
-              "__lazy_json__": "node_attrs/nmslib.json"
-            }
-          },
-          {
             "id": "numpy_quaddtype",
             "payload": {
               "__lazy_json__": "node_attrs/numpy_quaddtype.json"
@@ -525,12 +465,6 @@
             "id": "pillow-avif-plugin",
             "payload": {
               "__lazy_json__": "node_attrs/pillow-avif-plugin.json"
-            }
-          },
-          {
-            "id": "pillow-heif",
-            "payload": {
-              "__lazy_json__": "node_attrs/pillow-heif.json"
             }
           },
           {
@@ -591,12 +525,6 @@
             "id": "pyobjc-framework-systemconfiguration",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-systemconfiguration.json"
-            }
-          },
-          {
-            "id": "pyomo",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyomo.json"
             }
           },
           {
@@ -717,12 +645,6 @@
             "id": "winloop",
             "payload": {
               "__lazy_json__": "node_attrs/winloop.json"
-            }
-          },
-          {
-            "id": "yggdrasil-rapidjson",
-            "payload": {
-              "__lazy_json__": "node_attrs/yggdrasil-rapidjson.json"
             }
           },
           {
