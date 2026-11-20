@@ -2219,10 +2219,6 @@
           },
           {
             "source": "autoconf",
-            "target": "normaliz"
-          },
-          {
-            "source": "autoconf",
             "target": "nspr"
           },
           {
@@ -2891,10 +2887,6 @@
           },
           {
             "source": "automake",
-            "target": "e-antic"
-          },
-          {
-            "source": "automake",
             "target": "eclib"
           },
           {
@@ -3240,10 +3232,6 @@
           {
             "source": "automake",
             "target": "nfft"
-          },
-          {
-            "source": "automake",
-            "target": "normaliz"
           },
           {
             "source": "automake",
@@ -5879,10 +5867,6 @@
           },
           {
             "source": "binutils",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "binutils",
             "target": "ctng-compilers"
           },
           {
@@ -7443,10 +7427,6 @@
           },
           {
             "source": "boost",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "boost",
             "target": "crocoddyl"
           },
           {
@@ -7476,10 +7456,6 @@
           {
             "source": "boost",
             "target": "dxtbx"
-          },
-          {
-            "source": "boost",
-            "target": "e-antic"
           },
           {
             "source": "boost",
@@ -7672,10 +7648,6 @@
           {
             "source": "boost",
             "target": "nifty"
-          },
-          {
-            "source": "boost",
-            "target": "normaliz"
           },
           {
             "source": "boost",
@@ -12463,10 +12435,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "gdb"
           },
           {
@@ -13188,10 +13156,6 @@
           {
             "source": "cmake",
             "target": "cpptrace"
-          },
-          {
-            "source": "cmake",
-            "target": "cppyy-cling"
           },
           {
             "source": "cmake",
@@ -14787,10 +14751,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14840,6 +14800,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14896,6 +14860,10 @@
           {
             "source": "cmake",
             "target": "multinest"
+          },
+          {
+            "source": "cmake",
+            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -19394,30 +19362,6 @@
             "target": "psi4"
           },
           {
-            "source": "cppyy-backend",
-            "target": "cppyy"
-          },
-          {
-            "source": "cppyy-backend",
-            "target": "cpycppyy"
-          },
-          {
-            "source": "cppyy-cling",
-            "target": "cppyy"
-          },
-          {
-            "source": "cppyy-cling",
-            "target": "cppyy-backend"
-          },
-          {
-            "source": "cppyy-cling",
-            "target": "cpycppyy"
-          },
-          {
-            "source": "cppyy",
-            "target": "e-antic"
-          },
-          {
             "source": "cppzmq",
             "target": "cpptango"
           },
@@ -19468,10 +19412,6 @@
           {
             "source": "cppzmq",
             "target": "xwidgets"
-          },
-          {
-            "source": "cpycppyy",
-            "target": "cppyy"
           },
           {
             "source": "cramjam",
@@ -19612,10 +19552,6 @@
           {
             "source": "ctng-compilers",
             "target": "cppad-mixed"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "cppyy-cling"
           },
           {
             "source": "ctng-compilers",
@@ -24046,10 +23982,6 @@
             "target": "dials"
           },
           {
-            "source": "e-antic",
-            "target": "normaliz"
-          },
-          {
             "source": "eccodes",
             "target": "cdo"
           },
@@ -24724,10 +24656,6 @@
           {
             "source": "expat",
             "target": "dbus"
-          },
-          {
-            "source": "expat",
-            "target": "e-antic"
           },
           {
             "source": "expat",
@@ -26508,10 +26436,6 @@
           {
             "source": "findutils",
             "target": "ccache"
-          },
-          {
-            "source": "findutils",
-            "target": "cppyy-cling"
           },
           {
             "source": "findutils",
@@ -29991,10 +29915,6 @@
           },
           {
             "source": "gmp",
-            "target": "cppyy"
-          },
-          {
-            "source": "gmp",
             "target": "cvxopt"
           },
           {
@@ -30004,10 +29924,6 @@
           {
             "source": "gmp",
             "target": "disperse"
-          },
-          {
-            "source": "gmp",
-            "target": "e-antic"
           },
           {
             "source": "gmp",
@@ -30172,10 +30088,6 @@
           {
             "source": "gmp",
             "target": "nettle"
-          },
-          {
-            "source": "gmp",
-            "target": "normaliz"
           },
           {
             "source": "gmp",
@@ -37707,10 +37619,6 @@
           },
           {
             "source": "libcxx",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "libcxx",
             "target": "ctng-compilers"
           },
           {
@@ -38371,15 +38279,7 @@
           },
           {
             "source": "libflint",
-            "target": "e-antic"
-          },
-          {
-            "source": "libflint",
             "target": "eclib"
-          },
-          {
-            "source": "libflint",
-            "target": "gap"
           },
           {
             "source": "libflint",
@@ -38388,10 +38288,6 @@
           {
             "source": "libflint",
             "target": "mppp"
-          },
-          {
-            "source": "libflint",
-            "target": "normaliz"
           },
           {
             "source": "libflint",
@@ -41167,10 +41063,6 @@
           },
           {
             "source": "libtool",
-            "target": "e-antic"
-          },
-          {
-            "source": "libtool",
             "target": "ecl"
           },
           {
@@ -41620,10 +41512,6 @@
           {
             "source": "libtool",
             "target": "nghttp2"
-          },
-          {
-            "source": "libtool",
-            "target": "normaliz"
           },
           {
             "source": "libtool",
@@ -42420,10 +42308,6 @@
           {
             "source": "libxml2",
             "target": "cppad-mixed"
-          },
-          {
-            "source": "libxml2",
-            "target": "cppyy-cling"
           },
           {
             "source": "libxml2",
@@ -43324,10 +43208,6 @@
           {
             "source": "llvmdev",
             "target": "cppad-mixed"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cppyy-cling"
           },
           {
             "source": "llvmdev",
@@ -44923,10 +44803,6 @@
           },
           {
             "source": "make",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "make",
             "target": "cppzmq"
           },
           {
@@ -45084,10 +44960,6 @@
           {
             "source": "make",
             "target": "ducc0"
-          },
-          {
-            "source": "make",
-            "target": "e-antic"
           },
           {
             "source": "make",
@@ -46791,10 +46663,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "metplus"
           },
           {
@@ -47024,10 +46892,6 @@
           {
             "source": "make",
             "target": "nng"
-          },
-          {
-            "source": "make",
-            "target": "normaliz"
           },
           {
             "source": "make",
@@ -52614,86 +52478,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -52896,10 +52680,6 @@
           {
             "source": "mpfr",
             "target": "cvxopt"
-          },
-          {
-            "source": "mpfr",
-            "target": "e-antic"
           },
           {
             "source": "mpfr",
@@ -54583,10 +54363,6 @@
           },
           {
             "source": "nauty",
-            "target": "normaliz"
-          },
-          {
-            "source": "nauty",
             "target": "pynauty"
           },
           {
@@ -55456,10 +55232,6 @@
           {
             "source": "ninja",
             "target": "cpptrace"
-          },
-          {
-            "source": "ninja",
-            "target": "cppyy-cling"
           },
           {
             "source": "ninja",
@@ -58716,10 +58488,6 @@
           {
             "source": "nodejs",
             "target": "z5py"
-          },
-          {
-            "source": "normaliz",
-            "target": "gap"
           },
           {
             "source": "npth",
@@ -62635,10 +62403,6 @@
           },
           {
             "source": "openmp",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "openmp",
             "target": "crest"
           },
           {
@@ -63332,10 +63096,6 @@
           {
             "source": "openmp",
             "target": "nim"
-          },
-          {
-            "source": "openmp",
-            "target": "normaliz"
           },
           {
             "source": "openmp",
@@ -77231,22 +76991,6 @@
           },
           {
             "source": "python",
-            "target": "cppyy"
-          },
-          {
-            "source": "python",
-            "target": "cppyy-backend"
-          },
-          {
-            "source": "python",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "python",
-            "target": "cpycppyy"
-          },
-          {
-            "source": "python",
             "target": "cramjam"
           },
           {
@@ -77596,10 +77340,6 @@
           {
             "source": "python",
             "target": "dynaphopy"
-          },
-          {
-            "source": "python",
-            "target": "e-antic"
           },
           {
             "source": "python",
@@ -98191,10 +97931,6 @@
           },
           {
             "source": "sed",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "sed",
             "target": "cryptlib"
           },
           {
@@ -109983,10 +109719,6 @@
           },
           {
             "source": "zlib",
-            "target": "cppyy-cling"
-          },
-          {
-            "source": "zlib",
             "target": "cryptlib"
           },
           {
@@ -112332,10 +112064,6 @@
           {
             "source": "zstd",
             "target": "cppad-mixed"
-          },
-          {
-            "source": "zstd",
-            "target": "cppyy-cling"
           },
           {
             "source": "zstd",
@@ -114937,33 +114665,9 @@
             }
           },
           {
-            "id": "cppyy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppyy.json"
-            }
-          },
-          {
-            "id": "cppyy-backend",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppyy-backend.json"
-            }
-          },
-          {
-            "id": "cppyy-cling",
-            "payload": {
-              "__lazy_json__": "node_attrs/cppyy-cling.json"
-            }
-          },
-          {
             "id": "cppzmq",
             "payload": {
               "__lazy_json__": "node_attrs/cppzmq.json"
-            }
-          },
-          {
-            "id": "cpycppyy",
-            "payload": {
-              "__lazy_json__": "node_attrs/cpycppyy.json"
             }
           },
           {
@@ -115714,12 +115418,6 @@
             "id": "dynaphopy",
             "payload": {
               "__lazy_json__": "node_attrs/dynaphopy.json"
-            }
-          },
-          {
-            "id": "e-antic",
-            "payload": {
-              "__lazy_json__": "node_attrs/e-antic.json"
             }
           },
           {
@@ -120547,12 +120245,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -121270,12 +120962,6 @@
             "id": "nono",
             "payload": {
               "__lazy_json__": "node_attrs/nono.json"
-            }
-          },
-          {
-            "id": "normaliz",
-            "payload": {
-              "__lazy_json__": "node_attrs/normaliz.json"
             }
           },
           {
