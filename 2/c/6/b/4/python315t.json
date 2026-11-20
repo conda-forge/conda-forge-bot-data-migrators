@@ -103,6 +103,86 @@
           {
             "source": "brotli",
             "target": "tesserocr"
+          },
+          {
+            "source": "tbb",
+            "target": "aggdraw"
+          },
+          {
+            "source": "tbb",
+            "target": "arro3-core"
+          },
+          {
+            "source": "tbb",
+            "target": "av"
+          },
+          {
+            "source": "tbb",
+            "target": "awscrt"
+          },
+          {
+            "source": "tbb",
+            "target": "brotli"
+          },
+          {
+            "source": "tbb",
+            "target": "fonttools"
+          },
+          {
+            "source": "tbb",
+            "target": "h5py"
+          },
+          {
+            "source": "tbb",
+            "target": "kealib"
+          },
+          {
+            "source": "tbb",
+            "target": "keygen-py"
+          },
+          {
+            "source": "tbb",
+            "target": "levenshtein"
+          },
+          {
+            "source": "tbb",
+            "target": "libvalkey-py"
+          },
+          {
+            "source": "tbb",
+            "target": "lief"
+          },
+          {
+            "source": "tbb",
+            "target": "mlx"
+          },
+          {
+            "source": "tbb",
+            "target": "ms_entropy"
+          },
+          {
+            "source": "tbb",
+            "target": "neuromorphic-drivers"
+          },
+          {
+            "source": "tbb",
+            "target": "pyjnius"
+          },
+          {
+            "source": "tbb",
+            "target": "pymupdf"
+          },
+          {
+            "source": "tbb",
+            "target": "rsloop"
+          },
+          {
+            "source": "tbb",
+            "target": "shapely"
+          },
+          {
+            "source": "tbb",
+            "target": "tesserocr"
           }
         ],
         "multigraph": false,
@@ -168,6 +248,12 @@
             }
           },
           {
+            "id": "libvalkey-py",
+            "payload": {
+              "__lazy_json__": "node_attrs/libvalkey-py.json"
+            }
+          },
+          {
             "id": "lief",
             "payload": {
               "__lazy_json__": "node_attrs/lief.json"
@@ -204,12 +290,6 @@
             }
           },
           {
-            "id": "python-zstd",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-zstd.json"
-            }
-          },
-          {
             "id": "rsloop",
             "payload": {
               "__lazy_json__": "node_attrs/rsloop.json"
@@ -219,6 +299,12 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
+            }
+          },
+          {
+            "id": "tbb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tbb.json"
             }
           },
           {
