@@ -78,10 +78,6 @@
           },
           {
             "source": "brotli",
-            "target": "eudist"
-          },
-          {
-            "source": "brotli",
             "target": "fonttools"
           },
           {
@@ -99,10 +95,6 @@
           {
             "source": "brotli",
             "target": "levenshtein"
-          },
-          {
-            "source": "brotli",
-            "target": "mkl_umath"
           },
           {
             "source": "brotli",
@@ -214,12 +206,6 @@
             }
           },
           {
-            "id": "eudist",
-            "payload": {
-              "__lazy_json__": "node_attrs/eudist.json"
-            }
-          },
-          {
             "id": "fonttools",
             "payload": {
               "__lazy_json__": "node_attrs/fonttools.json"
@@ -277,12 +263,6 @@
             "id": "mgrs",
             "payload": {
               "__lazy_json__": "node_attrs/mgrs.json"
-            }
-          },
-          {
-            "id": "mkl_umath",
-            "payload": {
-              "__lazy_json__": "node_attrs/mkl_umath.json"
             }
           },
           {
