@@ -66,6 +66,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/normaliz.json"
             }
+          },
+          {
+            "id": "sage",
+            "payload": {
+              "__lazy_json__": "node_attrs/sage.json"
+            }
           }
         ]
       }
@@ -153,14 +159,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "gap",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "gap",
-            "target": "sage"
-          },
-          {
             "source": "gravelamps",
             "target": "conda-forge-pinning"
           },
@@ -179,10 +177,6 @@
           {
             "source": "normaliz",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "normaliz",
-            "target": "gap"
           },
           {
             "source": "python-flint",
@@ -257,12 +251,6 @@
             "id": "flatsurf",
             "payload": {
               "__lazy_json__": "node_attrs/flatsurf.json"
-            }
-          },
-          {
-            "id": "gap",
-            "payload": {
-              "__lazy_json__": "node_attrs/gap.json"
             }
           },
           {
