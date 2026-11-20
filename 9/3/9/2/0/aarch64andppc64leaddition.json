@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "stardist",
+            "payload": {
+              "__lazy_json__": "node_attrs/stardist.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -22502,10 +22509,6 @@
             "target": "gfal2"
           },
           {
-            "source": "csbdeep",
-            "target": "stardist"
-          },
-          {
             "source": "cspice",
             "target": "spiceypy"
           },
@@ -36656,6 +36659,10 @@
           {
             "source": "jasper",
             "target": "wgrib2"
+          },
+          {
+            "source": "jaxlib",
+            "target": "ale-py"
           },
           {
             "source": "jaxlib",
@@ -53615,10 +53622,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "csbdeep"
-          },
-          {
-            "source": "matplotlib",
             "target": "cwinpy"
           },
           {
@@ -54316,6 +54319,10 @@
           {
             "source": "miniz",
             "target": "mujoco"
+          },
+          {
+            "source": "ml_dtypes",
+            "target": "ale-py"
           },
           {
             "source": "ml_dtypes",
@@ -59484,10 +59491,6 @@
           {
             "source": "numpy",
             "target": "cppe"
-          },
-          {
-            "source": "numpy",
-            "target": "csbdeep"
           },
           {
             "source": "numpy",
@@ -71840,10 +71843,6 @@
           {
             "source": "python",
             "target": "crcmod-plus"
-          },
-          {
-            "source": "python",
-            "target": "csbdeep"
           },
           {
             "source": "python",
@@ -89883,6 +89882,10 @@
           },
           {
             "source": "scipy",
+            "target": "ale-py"
+          },
+          {
+            "source": "scipy",
             "target": "allennlp"
           },
           {
@@ -89960,10 +89963,6 @@
           {
             "source": "scipy",
             "target": "cppe"
-          },
-          {
-            "source": "scipy",
-            "target": "csbdeep"
           },
           {
             "source": "scipy",
@@ -93012,10 +93011,6 @@
           {
             "source": "tensorboard-data-server",
             "target": "tensorflow"
-          },
-          {
-            "source": "tensorflow",
-            "target": "csbdeep"
           },
           {
             "source": "tensorflow",
@@ -107052,12 +107047,6 @@
             "id": "cryptopp",
             "payload": {
               "__lazy_json__": "node_attrs/cryptopp.json"
-            }
-          },
-          {
-            "id": "csbdeep",
-            "payload": {
-              "__lazy_json__": "node_attrs/csbdeep.json"
             }
           },
           {
