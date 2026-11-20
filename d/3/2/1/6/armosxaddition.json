@@ -68727,10 +68727,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "gz-sim"
-          },
-          {
-            "source": "pkg-config",
             "target": "gz-tools2"
           },
           {
@@ -71044,6 +71040,10 @@
           {
             "source": "pkgconf",
             "target": "gts"
+          },
+          {
+            "source": "pkgconf",
+            "target": "gz-sim"
           },
           {
             "source": "pkgconf",
@@ -102704,6 +102704,10 @@
           {
             "source": "unibilium",
             "target": "nvim"
+          },
+          {
+            "source": "unicodedata2",
+            "target": "fonttools"
           },
           {
             "source": "unixodbc",
