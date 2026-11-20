@@ -6823,10 +6823,6 @@
           },
           {
             "source": "bash",
-            "target": "metis"
-          },
-          {
-            "source": "bash",
             "target": "metplus"
           },
           {
@@ -18963,10 +18959,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -21400,6 +21392,10 @@
           {
             "source": "coverage",
             "target": "libplanc"
+          },
+          {
+            "source": "coverage",
+            "target": "librealsense"
           },
           {
             "source": "coverage",
@@ -32223,6 +32219,10 @@
           },
           {
             "source": "glfw",
+            "target": "librealsense"
+          },
+          {
+            "source": "glfw",
             "target": "mujoco"
           },
           {
@@ -40155,6 +40155,10 @@
           },
           {
             "source": "libglu",
+            "target": "librealsense"
+          },
+          {
+            "source": "libglu",
             "target": "mupdf"
           },
           {
@@ -40328,6 +40332,10 @@
           {
             "source": "libglvnd",
             "target": "libglu"
+          },
+          {
+            "source": "libglvnd",
+            "target": "librealsense"
           },
           {
             "source": "libglvnd",
@@ -45112,10 +45120,6 @@
           {
             "source": "libtool",
             "target": "metaio"
-          },
-          {
-            "source": "libtool",
-            "target": "metis"
           },
           {
             "source": "libtool",
@@ -53035,6 +53039,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "librealsense"
+          },
+          {
+            "source": "markupsafe",
             "target": "librerun-sdk"
           },
           {
@@ -54112,62 +54120,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -66180,6 +66132,10 @@
           {
             "source": "pkg-config",
             "target": "libraw"
+          },
+          {
+            "source": "pkg-config",
+            "target": "librealsense"
           },
           {
             "source": "pkg-config",
@@ -111726,12 +111682,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
