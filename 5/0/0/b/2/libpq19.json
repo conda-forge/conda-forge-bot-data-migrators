@@ -56,15 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "php",
+            "id": "osm2pgrouting",
             "payload": {
-              "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "psycopg2-yugabytedb",
-            "payload": {
-              "__lazy_json__": "node_attrs/psycopg2-yugabytedb.json"
+              "__lazy_json__": "node_attrs/osm2pgrouting.json"
             }
           },
           {
@@ -551,7 +545,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
