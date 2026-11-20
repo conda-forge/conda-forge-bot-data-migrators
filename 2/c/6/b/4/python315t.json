@@ -82,7 +82,7 @@
           },
           {
             "source": "brotli",
-            "target": "dpctl"
+            "target": "dpnp"
           },
           {
             "source": "brotli",
@@ -270,12 +270,6 @@
             }
           },
           {
-            "id": "dpctl",
-            "payload": {
-              "__lazy_json__": "node_attrs/dpctl.json"
-            }
-          },
-          {
             "id": "eudist",
             "payload": {
               "__lazy_json__": "node_attrs/eudist.json"
@@ -285,12 +279,6 @@
             "id": "exoplanet-core",
             "payload": {
               "__lazy_json__": "node_attrs/exoplanet-core.json"
-            }
-          },
-          {
-            "id": "fastbencode",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastbencode.json"
             }
           },
           {
@@ -309,18 +297,6 @@
             "id": "ibm_db",
             "payload": {
               "__lazy_json__": "node_attrs/ibm_db.json"
-            }
-          },
-          {
-            "id": "impit",
-            "payload": {
-              "__lazy_json__": "node_attrs/impit.json"
-            }
-          },
-          {
-            "id": "indexed_zstd",
-            "payload": {
-              "__lazy_json__": "node_attrs/indexed_zstd.json"
             }
           },
           {
@@ -480,12 +456,6 @@
             }
           },
           {
-            "id": "pynng",
-            "payload": {
-              "__lazy_json__": "node_attrs/pynng.json"
-            }
-          },
-          {
             "id": "pyobjc-framework-corebluetooth",
             "payload": {
               "__lazy_json__": "node_attrs/pyobjc-framework-corebluetooth.json"
@@ -510,12 +480,6 @@
             }
           },
           {
-            "id": "pyromark",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyromark.json"
-            }
-          },
-          {
             "id": "pystack",
             "payload": {
               "__lazy_json__": "node_attrs/pystack.json"
@@ -528,12 +492,6 @@
             }
           },
           {
-            "id": "python-flint",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-flint.json"
-            }
-          },
-          {
             "id": "python-hyperscan",
             "payload": {
               "__lazy_json__": "node_attrs/python-hyperscan.json"
@@ -543,12 +501,6 @@
             "id": "python-zstd",
             "payload": {
               "__lazy_json__": "node_attrs/python-zstd.json"
-            }
-          },
-          {
-            "id": "rchitect",
-            "payload": {
-              "__lazy_json__": "node_attrs/rchitect.json"
             }
           },
           {
@@ -588,12 +540,6 @@
             }
           },
           {
-            "id": "ufal.udpipe",
-            "payload": {
-              "__lazy_json__": "node_attrs/ufal.udpipe.json"
-            }
-          },
-          {
             "id": "winkerberos",
             "payload": {
               "__lazy_json__": "node_attrs/winkerberos.json"
@@ -621,6 +567,12 @@
             "id": "pcodec",
             "payload": {
               "__lazy_json__": "node_attrs/pcodec.json"
+            }
+          },
+          {
+            "id": "dpnp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dpnp.json"
             }
           }
         ]
