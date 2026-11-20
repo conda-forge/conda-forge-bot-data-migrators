@@ -86,14 +86,6 @@
           },
           {
             "source": "brotli",
-            "target": "ms_entropy"
-          },
-          {
-            "source": "brotli",
-            "target": "neuromorphic-drivers"
-          },
-          {
-            "source": "brotli",
             "target": "pymupdf"
           },
           {
@@ -138,10 +130,6 @@
           },
           {
             "source": "tbb",
-            "target": "keygen-py"
-          },
-          {
-            "source": "tbb",
             "target": "levenshtein"
           },
           {
@@ -158,23 +146,11 @@
           },
           {
             "source": "tbb",
-            "target": "ms_entropy"
-          },
-          {
-            "source": "tbb",
-            "target": "neuromorphic-drivers"
-          },
-          {
-            "source": "tbb",
             "target": "pyjnius"
           },
           {
             "source": "tbb",
             "target": "pymupdf"
-          },
-          {
-            "source": "tbb",
-            "target": "rsloop"
           },
           {
             "source": "tbb",
@@ -236,12 +212,6 @@
             }
           },
           {
-            "id": "keygen-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/keygen-py.json"
-            }
-          },
-          {
             "id": "levenshtein",
             "payload": {
               "__lazy_json__": "node_attrs/levenshtein.json"
@@ -266,18 +236,6 @@
             }
           },
           {
-            "id": "ms_entropy",
-            "payload": {
-              "__lazy_json__": "node_attrs/ms_entropy.json"
-            }
-          },
-          {
-            "id": "neuromorphic-drivers",
-            "payload": {
-              "__lazy_json__": "node_attrs/neuromorphic-drivers.json"
-            }
-          },
-          {
             "id": "pyjnius",
             "payload": {
               "__lazy_json__": "node_attrs/pyjnius.json"
@@ -287,12 +245,6 @@
             "id": "pymupdf",
             "payload": {
               "__lazy_json__": "node_attrs/pymupdf.json"
-            }
-          },
-          {
-            "id": "rsloop",
-            "payload": {
-              "__lazy_json__": "node_attrs/rsloop.json"
             }
           },
           {
