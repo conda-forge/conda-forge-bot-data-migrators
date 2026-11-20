@@ -135,10 +135,6 @@
           {
             "source": "brotli",
             "target": "tesserocr"
-          },
-          {
-            "source": "brotli",
-            "target": "transformations"
           }
         ],
         "multigraph": false,
@@ -318,12 +314,6 @@
             }
           },
           {
-            "id": "pyorc",
-            "payload": {
-              "__lazy_json__": "node_attrs/pyorc.json"
-            }
-          },
-          {
             "id": "pystack",
             "payload": {
               "__lazy_json__": "node_attrs/pystack.json"
@@ -357,12 +347,6 @@
             "id": "tesserocr",
             "payload": {
               "__lazy_json__": "node_attrs/tesserocr.json"
-            }
-          },
-          {
-            "id": "transformations",
-            "payload": {
-              "__lazy_json__": "node_attrs/transformations.json"
             }
           },
           {
