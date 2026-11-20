@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "exact-real",
-            "payload": {
-              "__lazy_json__": "node_attrs/exact-real.json"
-            }
-          },
-          {
-            "id": "normaliz",
-            "payload": {
-              "__lazy_json__": "node_attrs/normaliz.json"
-            }
-          },
-          {
             "id": "sage",
             "payload": {
               "__lazy_json__": "node_attrs/sage.json"
@@ -413,7 +401,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
