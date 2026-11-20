@@ -2701,19 +2701,11 @@
           },
           {
             "source": "cython",
-            "target": "hpfrec"
-          },
-          {
-            "source": "cython",
             "target": "httptools"
           },
           {
             "source": "cython",
             "target": "imagecodecs"
-          },
-          {
-            "source": "cython",
-            "target": "implicit"
           },
           {
             "source": "cython",
@@ -4148,10 +4140,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "hpfrec",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "httptools",
             "target": "conda-forge-pinning"
           },
@@ -4337,10 +4325,6 @@
           },
           {
             "source": "impit",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "implicit",
             "target": "conda-forge-pinning"
           },
           {
@@ -6193,10 +6177,6 @@
           },
           {
             "source": "numpy",
-            "target": "hpfrec"
-          },
-          {
-            "source": "numpy",
             "target": "hybgensea"
           },
           {
@@ -6214,10 +6194,6 @@
           {
             "source": "numpy",
             "target": "iminuit"
-          },
-          {
-            "source": "numpy",
-            "target": "implicit"
           },
           {
             "source": "numpy",
@@ -7202,10 +7178,6 @@
           {
             "source": "pandas",
             "target": "gymnasium"
-          },
-          {
-            "source": "pandas",
-            "target": "hpfrec"
           },
           {
             "source": "pandas",
@@ -10225,14 +10197,6 @@
           },
           {
             "source": "scipy",
-            "target": "hpfrec"
-          },
-          {
-            "source": "scipy",
-            "target": "implicit"
-          },
-          {
-            "source": "scipy",
             "target": "jax-finufft"
           },
           {
@@ -11549,10 +11513,6 @@
           },
           {
             "source": "tbb",
-            "target": "hpfrec"
-          },
-          {
-            "source": "tbb",
             "target": "httptools"
           },
           {
@@ -11590,10 +11550,6 @@
           {
             "source": "tbb",
             "target": "impit"
-          },
-          {
-            "source": "tbb",
-            "target": "implicit"
           },
           {
             "source": "tbb",
@@ -15705,12 +15661,6 @@
             }
           },
           {
-            "id": "hpfrec",
-            "payload": {
-              "__lazy_json__": "node_attrs/hpfrec.json"
-            }
-          },
-          {
             "id": "httptools",
             "payload": {
               "__lazy_json__": "node_attrs/httptools.json"
@@ -15768,12 +15718,6 @@
             "id": "impit",
             "payload": {
               "__lazy_json__": "node_attrs/impit.json"
-            }
-          },
-          {
-            "id": "implicit",
-            "payload": {
-              "__lazy_json__": "node_attrs/implicit.json"
             }
           },
           {
