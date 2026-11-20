@@ -56,33 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "libpqxx",
-            "payload": {
-              "__lazy_json__": "node_attrs/libpqxx.json"
-            }
-          },
-          {
-            "id": "pgvector",
-            "payload": {
-              "__lazy_json__": "node_attrs/pgvector.json"
-            }
-          },
-          {
             "id": "php",
             "payload": {
               "__lazy_json__": "node_attrs/php.json"
-            }
-          },
-          {
-            "id": "pspg",
-            "payload": {
-              "__lazy_json__": "node_attrs/pspg.json"
-            }
-          },
-          {
-            "id": "psqlodbc",
-            "payload": {
-              "__lazy_json__": "node_attrs/psqlodbc.json"
             }
           },
           {
@@ -92,9 +68,15 @@
             }
           },
           {
-            "id": "r-rpostgres",
+            "id": "rdkit",
             "payload": {
-              "__lazy_json__": "node_attrs/r-rpostgres.json"
+              "__lazy_json__": "node_attrs/rdkit.json"
+            }
+          },
+          {
+            "id": "rstudio",
+            "payload": {
+              "__lazy_json__": "node_attrs/rstudio.json"
             }
           }
         ]
@@ -569,7 +551,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
