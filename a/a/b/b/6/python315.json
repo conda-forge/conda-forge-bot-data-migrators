@@ -73,12 +73,6 @@
             }
           },
           {
-            "id": "mdanse",
-            "payload": {
-              "__lazy_json__": "node_attrs/mdanse.json"
-            }
-          },
-          {
             "id": "polyhedral-gravity-model",
             "payload": {
               "__lazy_json__": "node_attrs/polyhedral-gravity-model.json"
@@ -106,6 +100,12 @@
             "id": "yarp",
             "payload": {
               "__lazy_json__": "node_attrs/yarp.json"
+            }
+          },
+          {
+            "id": "py-svg-hush",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-svg-hush.json"
             }
           }
         ]
@@ -48627,6 +48627,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "py-svg-hush",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "py-tools-ds",
             "target": "arosics"
           },
@@ -76549,6 +76553,10 @@
           {
             "source": "tbb",
             "target": "py-sr25519-bindings"
+          },
+          {
+            "source": "tbb",
+            "target": "py-svg-hush"
           },
           {
             "source": "tbb",
@@ -107521,6 +107529,12 @@
             "id": "pythoncdt",
             "payload": {
               "__lazy_json__": "node_attrs/pythoncdt.json"
+            }
+          },
+          {
+            "id": "py-svg-hush",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-svg-hush.json"
             }
           }
         ]
