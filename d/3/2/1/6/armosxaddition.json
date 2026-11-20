@@ -70691,10 +70691,6 @@
           },
           {
             "source": "pkg-config",
-            "target": "tango-database"
-          },
-          {
-            "source": "pkg-config",
             "target": "tango-test"
           },
           {
@@ -71432,6 +71428,10 @@
           {
             "source": "pkgconf",
             "target": "systemd"
+          },
+          {
+            "source": "pkgconf",
+            "target": "tango-database"
           },
           {
             "source": "pkgconf",
