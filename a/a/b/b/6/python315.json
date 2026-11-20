@@ -55,6 +55,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "cppyy",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppyy.json"
+            }
+          },
+          {
             "id": "itk-meshtopolydata",
             "payload": {
               "__lazy_json__": "node_attrs/itk-meshtopolydata.json"
@@ -67,6 +73,12 @@
             }
           },
           {
+            "id": "multispline",
+            "payload": {
+              "__lazy_json__": "node_attrs/multispline.json"
+            }
+          },
+          {
             "id": "python-flint",
             "payload": {
               "__lazy_json__": "node_attrs/python-flint.json"
@@ -76,6 +88,12 @@
             "id": "pyxel-sim",
             "payload": {
               "__lazy_json__": "node_attrs/pyxel-sim.json"
+            }
+          },
+          {
+            "id": "stardist",
+            "payload": {
+              "__lazy_json__": "node_attrs/stardist.json"
             }
           },
           {
@@ -11957,18 +11975,6 @@
           {
             "source": "crysfml",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "csbdeep",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "csbdeep",
-            "target": "spotiflow"
-          },
-          {
-            "source": "csbdeep",
-            "target": "stardist"
           },
           {
             "source": "csmapi",
@@ -27832,10 +27838,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "csbdeep"
-          },
-          {
-            "source": "matplotlib",
             "target": "csxtools"
           },
           {
@@ -29340,6 +29342,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "spotiflow"
+          },
+          {
+            "source": "matplotlib",
             "target": "srwpy"
           },
           {
@@ -29349,6 +29355,10 @@
           {
             "source": "matplotlib",
             "target": "stackvana-core"
+          },
+          {
+            "source": "matplotlib",
+            "target": "stardist"
           },
           {
             "source": "matplotlib",
@@ -34885,10 +34895,6 @@
           {
             "source": "numpy",
             "target": "crysfml"
-          },
-          {
-            "source": "numpy",
-            "target": "csbdeep"
           },
           {
             "source": "numpy",
@@ -63700,10 +63706,6 @@
           },
           {
             "source": "scipy",
-            "target": "csbdeep"
-          },
-          {
-            "source": "scipy",
             "target": "csxtools"
           },
           {
@@ -70733,10 +70735,6 @@
           {
             "source": "tbb",
             "target": "crysfml"
-          },
-          {
-            "source": "tbb",
-            "target": "csbdeep"
           },
           {
             "source": "tbb",
@@ -81804,10 +81802,6 @@
           },
           {
             "source": "tensorflow",
-            "target": "csbdeep"
-          },
-          {
-            "source": "tensorflow",
             "target": "dclab"
           },
           {
@@ -90987,12 +90981,6 @@
             "id": "crysfml",
             "payload": {
               "__lazy_json__": "node_attrs/crysfml.json"
-            }
-          },
-          {
-            "id": "csbdeep",
-            "payload": {
-              "__lazy_json__": "node_attrs/csbdeep.json"
             }
           },
           {
