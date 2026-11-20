@@ -86,12 +86,6 @@
             }
           },
           {
-            "id": "psycopg2",
-            "payload": {
-              "__lazy_json__": "node_attrs/psycopg2.json"
-            }
-          },
-          {
             "id": "psycopg2-yugabytedb",
             "payload": {
               "__lazy_json__": "node_attrs/psycopg2-yugabytedb.json"
@@ -587,7 +581,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
