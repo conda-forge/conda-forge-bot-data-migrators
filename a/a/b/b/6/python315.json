@@ -8630,6 +8630,10 @@
           },
           {
             "source": "btrees",
+            "target": "zope.container"
+          },
+          {
+            "source": "btrees",
             "target": "zope.index"
           },
           {
@@ -44287,6 +44291,10 @@
           {
             "source": "persistent",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "persistent",
+            "target": "zope.container"
           },
           {
             "source": "persistent",
@@ -81674,6 +81682,10 @@
           },
           {
             "source": "tbb",
+            "target": "zope.container"
+          },
+          {
+            "source": "tbb",
             "target": "zope.hookable"
           },
           {
@@ -88077,8 +88089,20 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "zodbpickle",
+            "target": "zope.container"
+          },
+          {
+            "source": "zope.container",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "zope.hookable",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zope.hookable",
+            "target": "zope.container"
           },
           {
             "source": "zope.hookable",
@@ -88087,6 +88111,10 @@
           {
             "source": "zope.i18nmessageid",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zope.i18nmessageid",
+            "target": "zope.container"
           },
           {
             "source": "zope.i18nmessageid",
@@ -88138,6 +88166,10 @@
           },
           {
             "source": "zope.interface",
+            "target": "zope.container"
+          },
+          {
+            "source": "zope.interface",
             "target": "zope.i18nmessageid"
           },
           {
@@ -88162,11 +88194,19 @@
           },
           {
             "source": "zope.proxy",
+            "target": "zope.container"
+          },
+          {
+            "source": "zope.proxy",
             "target": "zope.security"
           },
           {
             "source": "zope.security",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zope.security",
+            "target": "zope.container"
           },
           {
             "source": "zopfli",
@@ -107473,6 +107513,12 @@
             "id": "py-svg-hush",
             "payload": {
               "__lazy_json__": "node_attrs/py-svg-hush.json"
+            }
+          },
+          {
+            "id": "zope.container",
+            "payload": {
+              "__lazy_json__": "node_attrs/zope.container.json"
             }
           }
         ]
