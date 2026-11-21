@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "jpeg2000-hdf5-plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/jpeg2000-hdf5-plugin.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -509,6 +516,10 @@
           },
           {
             "source": "h5py",
+            "target": "jpeg2000-hdf5-plugin"
+          },
+          {
+            "source": "h5py",
             "target": "mpas_tools"
           },
           {
@@ -677,6 +688,10 @@
           },
           {
             "source": "itk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "jpeg2000-hdf5-plugin",
             "target": "conda-forge-pinning"
           },
           {
@@ -2406,6 +2421,12 @@
             "id": "nep",
             "payload": {
               "__lazy_json__": "node_attrs/nep.json"
+            }
+          },
+          {
+            "id": "jpeg2000-hdf5-plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/jpeg2000-hdf5-plugin.json"
             }
           }
         ]
