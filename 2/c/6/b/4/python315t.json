@@ -55,40 +55,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "wcwidth",
-            "target": "av"
-          },
-          {
-            "source": "wcwidth",
-            "target": "h5py"
-          },
-          {
-            "source": "wcwidth",
-            "target": "kealib"
-          },
-          {
-            "source": "wcwidth",
-            "target": "levenshtein"
-          },
-          {
-            "source": "wcwidth",
-            "target": "mlx"
-          },
-          {
-            "source": "wcwidth",
-            "target": "python-stratify"
-          },
-          {
-            "source": "wcwidth",
-            "target": "shapely"
-          },
-          {
-            "source": "wcwidth",
-            "target": "spglib"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -191,18 +158,6 @@
             "id": "spglib",
             "payload": {
               "__lazy_json__": "node_attrs/spglib.json"
-            }
-          },
-          {
-            "id": "watchdog",
-            "payload": {
-              "__lazy_json__": "node_attrs/watchdog.json"
-            }
-          },
-          {
-            "id": "wcwidth",
-            "payload": {
-              "__lazy_json__": "node_attrs/wcwidth.json"
             }
           }
         ]
