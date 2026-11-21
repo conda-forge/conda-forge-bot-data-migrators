@@ -56,33 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "buildah",
+            "id": "conda-forge-pinning",
             "payload": {
-              "__lazy_json__": "node_attrs/buildah.json"
-            }
-          },
-          {
-            "id": "gpg-tui",
-            "payload": {
-              "__lazy_json__": "node_attrs/gpg-tui.json"
-            }
-          },
-          {
-            "id": "librepo",
-            "payload": {
-              "__lazy_json__": "node_attrs/librepo.json"
-            }
-          },
-          {
-            "id": "lux-cli",
-            "payload": {
-              "__lazy_json__": "node_attrs/lux-cli.json"
-            }
-          },
-          {
-            "id": "podman",
-            "payload": {
-              "__lazy_json__": "node_attrs/podman.json"
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
             }
           }
         ]
@@ -309,7 +285,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
