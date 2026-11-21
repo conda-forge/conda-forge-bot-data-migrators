@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "glomap",
-            "payload": {
-              "__lazy_json__": "node_attrs/glomap.json"
-            }
-          },
-          {
             "id": "octave",
             "payload": {
               "__lazy_json__": "node_attrs/octave.json"
@@ -135,16 +129,8 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "ceres-solver",
-            "target": "glomap"
-          },
-          {
             "source": "colmap",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "colmap",
-            "target": "glomap"
           },
           {
             "source": "cppad-mixed",
@@ -176,10 +162,6 @@
           },
           {
             "source": "g2o",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "glomap",
             "target": "conda-forge-pinning"
           },
           {
@@ -343,12 +325,6 @@
             "id": "g2o",
             "payload": {
               "__lazy_json__": "node_attrs/g2o.json"
-            }
-          },
-          {
-            "id": "glomap",
-            "payload": {
-              "__lazy_json__": "node_attrs/glomap.json"
             }
           },
           {
