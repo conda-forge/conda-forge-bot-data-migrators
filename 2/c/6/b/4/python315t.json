@@ -58,15 +58,7 @@
         "links": [
           {
             "source": "brotli",
-            "target": "aggdraw"
-          },
-          {
-            "source": "brotli",
             "target": "av"
-          },
-          {
-            "source": "brotli",
-            "target": "fonttools"
           },
           {
             "source": "brotli",
@@ -94,81 +86,11 @@
           },
           {
             "source": "brotli",
-            "target": "tesserocr"
-          },
-          {
-            "source": "tbb",
-            "target": "aggdraw"
-          },
-          {
-            "source": "tbb",
-            "target": "arro3-core"
-          },
-          {
-            "source": "tbb",
-            "target": "av"
-          },
-          {
-            "source": "tbb",
-            "target": "awscrt"
-          },
-          {
-            "source": "tbb",
-            "target": "brotli"
-          },
-          {
-            "source": "tbb",
-            "target": "fonttools"
-          },
-          {
-            "source": "tbb",
-            "target": "h5py"
-          },
-          {
-            "source": "tbb",
-            "target": "kealib"
-          },
-          {
-            "source": "tbb",
-            "target": "levenshtein"
-          },
-          {
-            "source": "tbb",
-            "target": "libvalkey-py"
-          },
-          {
-            "source": "tbb",
-            "target": "lief"
-          },
-          {
-            "source": "tbb",
-            "target": "mlx"
-          },
-          {
-            "source": "tbb",
-            "target": "pyjnius"
-          },
-          {
-            "source": "tbb",
-            "target": "pymupdf"
-          },
-          {
-            "source": "tbb",
-            "target": "shapely"
-          },
-          {
-            "source": "tbb",
             "target": "tesserocr"
           }
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "aggdraw",
-            "payload": {
-              "__lazy_json__": "node_attrs/aggdraw.json"
-            }
-          },
           {
             "id": "arro3-core",
             "payload": {
@@ -194,12 +116,6 @@
             }
           },
           {
-            "id": "fonttools",
-            "payload": {
-              "__lazy_json__": "node_attrs/fonttools.json"
-            }
-          },
-          {
             "id": "h5py",
             "payload": {
               "__lazy_json__": "node_attrs/h5py.json"
@@ -215,12 +131,6 @@
             "id": "levenshtein",
             "payload": {
               "__lazy_json__": "node_attrs/levenshtein.json"
-            }
-          },
-          {
-            "id": "libvalkey-py",
-            "payload": {
-              "__lazy_json__": "node_attrs/libvalkey-py.json"
             }
           },
           {
@@ -251,12 +161,6 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
-            }
-          },
-          {
-            "id": "tbb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tbb.json"
             }
           },
           {
