@@ -83,10 +83,6 @@
           {
             "source": "brotli",
             "target": "shapely"
-          },
-          {
-            "source": "brotli",
-            "target": "tesserocr"
           }
         ],
         "multigraph": false,
@@ -161,12 +157,6 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
-            }
-          },
-          {
-            "id": "tesserocr",
-            "payload": {
-              "__lazy_json__": "node_attrs/tesserocr.json"
             }
           }
         ]
