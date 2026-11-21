@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - maturin\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
+    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - maturin\n        # https://github.com/conda-forge/conda-forge-bot/issues/7237\n        - brotli\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
     "python315t"
   ],
   "class": "MigrationYaml",
@@ -55,36 +55,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "brotli",
-            "target": "av"
-          },
-          {
-            "source": "brotli",
-            "target": "h5py"
-          },
-          {
-            "source": "brotli",
-            "target": "kealib"
-          },
-          {
-            "source": "brotli",
-            "target": "levenshtein"
-          },
-          {
-            "source": "brotli",
-            "target": "mlx"
-          },
-          {
-            "source": "brotli",
-            "target": "pymupdf"
-          },
-          {
-            "source": "brotli",
-            "target": "shapely"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -103,12 +74,6 @@
             "id": "awscrt",
             "payload": {
               "__lazy_json__": "node_attrs/awscrt.json"
-            }
-          },
-          {
-            "id": "brotli",
-            "payload": {
-              "__lazy_json__": "node_attrs/brotli.json"
             }
           },
           {
@@ -168,7 +133,8 @@
       "pypy-meta",
       "cross-python",
       "python_abi",
-      "maturin"
+      "maturin",
+      "brotli"
     ],
     "exclude_pinned_pkgs": false,
     "force_pr_after_solver_attempts": 10,
@@ -1126,368 +1092,12 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "brotli",
-            "target": "aiohttp"
-          },
-          {
-            "source": "brotli",
-            "target": "antio"
-          },
-          {
-            "source": "brotli",
-            "target": "apache-beam"
-          },
-          {
-            "source": "brotli",
-            "target": "apache-flink"
-          },
-          {
-            "source": "brotli",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "brotli",
-            "target": "breezy"
-          },
-          {
-            "source": "brotli",
-            "target": "catboost"
-          },
-          {
             "source": "brotlicffi",
             "target": "aiohttp"
           },
           {
             "source": "brotlicffi",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "brotli",
-            "target": "clickhouse-connect"
-          },
-          {
-            "source": "brotli",
-            "target": "cocoindex"
-          },
-          {
-            "source": "brotli",
-            "target": "cog3pio"
-          },
-          {
-            "source": "brotli",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "brotli",
-            "target": "dclab"
-          },
-          {
-            "source": "brotli",
-            "target": "discretize"
-          },
-          {
-            "source": "brotli",
-            "target": "dulwich"
-          },
-          {
-            "source": "brotli",
-            "target": "ewah-bool-utils"
-          },
-          {
-            "source": "brotli",
-            "target": "fluidfft"
-          },
-          {
-            "source": "brotli",
-            "target": "fluidimage"
-          },
-          {
-            "source": "brotli",
-            "target": "fluidsim"
-          },
-          {
-            "source": "brotli",
-            "target": "fonttools"
-          },
-          {
-            "source": "brotli",
-            "target": "freeze-core"
-          },
-          {
-            "source": "brotli",
-            "target": "geoana"
-          },
-          {
-            "source": "brotli",
-            "target": "geventhttpclient"
-          },
-          {
-            "source": "brotli",
-            "target": "gridmarthe"
-          },
-          {
-            "source": "brotli",
-            "target": "gymnasium"
-          },
-          {
-            "source": "brotli",
-            "target": "hf-xet"
-          },
-          {
-            "source": "brotli",
-            "target": "hypothesis"
-          },
-          {
-            "source": "brotli",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "brotli",
-            "target": "jsonschema-rs"
-          },
-          {
-            "source": "brotli",
-            "target": "lalinference"
-          },
-          {
-            "source": "brotli",
-            "target": "lalsimulation"
-          },
-          {
-            "source": "brotli",
-            "target": "light-curve-python"
-          },
-          {
-            "source": "brotli",
-            "target": "llguidance"
-          },
-          {
-            "source": "brotli",
-            "target": "mne-lsl"
-          },
-          {
-            "source": "brotli",
-            "target": "msal_extensions"
-          },
-          {
-            "source": "brotli",
-            "target": "mupdf"
-          },
-          {
-            "source": "brotli",
-            "target": "netcdf4"
-          },
-          {
-            "source": "brotli",
-            "target": "nh3"
-          },
-          {
-            "source": "brotli",
-            "target": "opencv"
-          },
-          {
-            "source": "brotli",
-            "target": "opening-hours-py"
-          },
-          {
-            "source": "brotli",
-            "target": "openmeeg"
-          },
-          {
-            "source": "brotli",
-            "target": "orange3"
-          },
-          {
-            "source": "brotli",
-            "target": "pandas"
-          },
-          {
-            "source": "brotli",
-            "target": "phasorpy"
-          },
-          {
-            "source": "brotli",
-            "target": "pillow"
-          },
-          {
-            "source": "brotli",
-            "target": "polars"
-          },
-          {
-            "source": "brotli",
-            "target": "primp"
-          },
-          {
-            "source": "brotli",
-            "target": "py-rattler"
-          },
-          {
-            "source": "brotli",
-            "target": "pyarrow"
-          },
-          {
-            "source": "brotli",
-            "target": "pyart_mch"
-          },
-          {
-            "source": "brotli",
-            "target": "pyepr"
-          },
-          {
-            "source": "brotli",
-            "target": "pyerfa"
-          },
-          {
-            "source": "brotli",
-            "target": "pygame-ce"
-          },
-          {
-            "source": "brotli",
-            "target": "pynacl"
-          },
-          {
-            "source": "brotli",
-            "target": "pyodps"
-          },
-          {
-            "source": "brotli",
-            "target": "pyosmium"
-          },
-          {
-            "source": "brotli",
-            "target": "pyproject-fmt"
-          },
-          {
-            "source": "brotli",
-            "target": "pyrage"
-          },
-          {
-            "source": "brotli",
-            "target": "pyshtools"
-          },
-          {
-            "source": "brotli",
-            "target": "python-box"
-          },
-          {
-            "source": "brotli",
-            "target": "python-symengine"
-          },
-          {
-            "source": "brotli",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "brotli",
-            "target": "pyzmq"
-          },
-          {
-            "source": "brotli",
-            "target": "rasterio"
-          },
-          {
-            "source": "brotli",
-            "target": "ray-packages"
-          },
-          {
-            "source": "brotli",
-            "target": "reprozip"
-          },
-          {
-            "source": "brotli",
-            "target": "resvg-py"
-          },
-          {
-            "source": "brotli",
-            "target": "rignore"
-          },
-          {
-            "source": "brotli",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "brotli",
-            "target": "rpm-tools"
-          },
-          {
-            "source": "brotli",
-            "target": "rustfits"
-          },
-          {
-            "source": "brotli",
-            "target": "scipy"
-          },
-          {
-            "source": "brotli",
-            "target": "silx"
-          },
-          {
-            "source": "brotli",
-            "target": "snowflake-connector-python"
-          },
-          {
-            "source": "brotli",
-            "target": "tensorflow"
-          },
-          {
-            "source": "brotli",
-            "target": "tiktoken"
-          },
-          {
-            "source": "brotli",
-            "target": "tokenizers"
-          },
-          {
-            "source": "brotli",
-            "target": "torchaudio"
-          },
-          {
-            "source": "brotli",
-            "target": "torchvision"
-          },
-          {
-            "source": "brotli",
-            "target": "typst-py"
-          },
-          {
-            "source": "brotli",
-            "target": "unicorn-binance-rest-api"
-          },
-          {
-            "source": "brotli",
-            "target": "unicorn-binance-trailing-stop-loss"
-          },
-          {
-            "source": "brotli",
-            "target": "unicorn-binance-websocket-api"
-          },
-          {
-            "source": "brotli",
-            "target": "unicorn-fy"
-          },
-          {
-            "source": "brotli",
-            "target": "uuid-utils"
-          },
-          {
-            "source": "brotli",
-            "target": "watchfiles"
-          },
-          {
-            "source": "brotli",
-            "target": "wcwidth"
-          },
-          {
-            "source": "brotli",
-            "target": "web3"
-          },
-          {
-            "source": "brotli",
-            "target": "wisdem"
-          },
-          {
-            "source": "brotli",
-            "target": "wxpython"
           },
           {
             "source": "bullet",
@@ -10683,10 +10293,6 @@
           },
           {
             "source": "tbb",
-            "target": "brotli"
-          },
-          {
-            "source": "tbb",
             "target": "brotlicffi"
           },
           {
@@ -14516,12 +14122,6 @@
             "id": "brian2",
             "payload": {
               "__lazy_json__": "node_attrs/brian2.json"
-            }
-          },
-          {
-            "id": "brotli",
-            "payload": {
-              "__lazy_json__": "node_attrs/brotli.json"
             }
           },
           {
