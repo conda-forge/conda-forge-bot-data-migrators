@@ -30579,6 +30579,10 @@
           },
           {
             "source": "go-licenses",
+            "target": "rclone"
+          },
+          {
+            "source": "go-licenses",
             "target": "s5cmd"
           },
           {
@@ -126826,6 +126830,12 @@
             "id": "rchitect",
             "payload": {
               "__lazy_json__": "node_attrs/rchitect.json"
+            }
+          },
+          {
+            "id": "rclone",
+            "payload": {
+              "__lazy_json__": "node_attrs/rclone.json"
             }
           },
           {
