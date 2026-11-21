@@ -54,7 +54,68 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "atk",
+            "payload": {
+              "__lazy_json__": "node_attrs/atk.json"
+            }
+          },
+          {
+            "id": "avahi",
+            "payload": {
+              "__lazy_json__": "node_attrs/avahi.json"
+            }
+          },
+          {
+            "id": "gcab",
+            "payload": {
+              "__lazy_json__": "node_attrs/gcab.json"
+            }
+          },
+          {
+            "id": "gdk-pixbuf",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdk-pixbuf.json"
+            }
+          },
+          {
+            "id": "glib-networking",
+            "payload": {
+              "__lazy_json__": "node_attrs/glib-networking.json"
+            }
+          },
+          {
+            "id": "libsecret",
+            "payload": {
+              "__lazy_json__": "node_attrs/libsecret.json"
+            }
+          },
+          {
+            "id": "poppler",
+            "payload": {
+              "__lazy_json__": "node_attrs/poppler.json"
+            }
+          },
+          {
+            "id": "qtspell",
+            "payload": {
+              "__lazy_json__": "node_attrs/qtspell.json"
+            }
+          },
+          {
+            "id": "r-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-base.json"
+            }
+          },
+          {
+            "id": "rrdtool",
+            "payload": {
+              "__lazy_json__": "node_attrs/rrdtool.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
