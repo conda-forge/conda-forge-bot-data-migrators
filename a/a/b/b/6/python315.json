@@ -73,6 +73,12 @@
             }
           },
           {
+            "id": "python-ace",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-ace.json"
+            }
+          },
+          {
             "id": "stardist",
             "payload": {
               "__lazy_json__": "node_attrs/stardist.json"
@@ -82,6 +88,12 @@
             "id": "vtk",
             "payload": {
               "__lazy_json__": "node_attrs/vtk.json"
+            }
+          },
+          {
+            "id": "spherogram",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherogram.json"
             }
           }
         ]
@@ -15336,6 +15348,10 @@
           },
           {
             "source": "cython",
+            "target": "spherogram"
+          },
+          {
+            "source": "cython",
             "target": "spiceypy"
           },
           {
@@ -19576,10 +19592,6 @@
           },
           {
             "source": "gmpy2",
-            "target": "python-ace"
-          },
-          {
-            "source": "gmpy2",
             "target": "python-symengine"
           },
           {
@@ -23561,6 +23573,10 @@
           {
             "source": "knot-floer-homology",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "knot-floer-homology",
+            "target": "spherogram"
           },
           {
             "source": "kompute",
@@ -29561,10 +29577,6 @@
           {
             "source": "matscipy",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "matscipy",
-            "target": "python-ace"
           },
           {
             "source": "matscipy",
@@ -58436,10 +58448,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "python-ace"
-          },
-          {
-            "source": "pyyaml",
             "target": "python-infomap"
           },
           {
@@ -67968,6 +67976,10 @@
           },
           {
             "source": "sphericart",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spherogram",
             "target": "conda-forge-pinning"
           },
           {
@@ -80004,6 +80016,10 @@
           },
           {
             "source": "tbb",
+            "target": "spherogram"
+          },
+          {
+            "source": "tbb",
             "target": "sphinx-nbexamples"
           },
           {
@@ -81841,10 +81857,6 @@
           {
             "source": "tensorflow",
             "target": "planktonclas-base"
-          },
-          {
-            "source": "tensorflow",
-            "target": "python-ace"
           },
           {
             "source": "tensorflow",
@@ -86181,10 +86193,6 @@
           {
             "source": "wcwidth",
             "target": "pytetwild"
-          },
-          {
-            "source": "wcwidth",
-            "target": "python-ace"
           },
           {
             "source": "wcwidth",
@@ -107531,6 +107539,12 @@
             "id": "pyhmeasure",
             "payload": {
               "__lazy_json__": "node_attrs/pyhmeasure.json"
+            }
+          },
+          {
+            "id": "spherogram",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherogram.json"
             }
           }
         ]
