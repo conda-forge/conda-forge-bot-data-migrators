@@ -67,12 +67,6 @@
             }
           },
           {
-            "id": "kahip",
-            "payload": {
-              "__lazy_json__": "node_attrs/kahip.json"
-            }
-          },
-          {
             "id": "libsdformat",
             "payload": {
               "__lazy_json__": "node_attrs/libsdformat.json"
@@ -100,6 +94,12 @@
             "id": "vtk",
             "payload": {
               "__lazy_json__": "node_attrs/vtk.json"
+            }
+          },
+          {
+            "id": "pyhmeasure",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyhmeasure.json"
             }
           }
         ]
@@ -38618,6 +38618,10 @@
           },
           {
             "source": "numpy",
+            "target": "pyhmeasure"
+          },
+          {
+            "source": "numpy",
             "target": "pyhrf"
           },
           {
@@ -43387,6 +43391,10 @@
           {
             "source": "pandas",
             "target": "pygypsy"
+          },
+          {
+            "source": "pandas",
+            "target": "pyhmeasure"
           },
           {
             "source": "pandas",
@@ -51127,6 +51135,10 @@
           {
             "source": "pyhmc",
             "target": "testmsm"
+          },
+          {
+            "source": "pyhmeasure",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "pyhrf",
@@ -65318,6 +65330,10 @@
           },
           {
             "source": "scipy",
+            "target": "pyhmeasure"
+          },
+          {
+            "source": "scipy",
             "target": "pyhrf"
           },
           {
@@ -77211,6 +77227,10 @@
           {
             "source": "tbb",
             "target": "pyhmc"
+          },
+          {
+            "source": "tbb",
+            "target": "pyhmeasure"
           },
           {
             "source": "tbb",
@@ -107523,6 +107543,12 @@
             "id": "zope.container",
             "payload": {
               "__lazy_json__": "node_attrs/zope.container.json"
+            }
+          },
+          {
+            "id": "pyhmeasure",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyhmeasure.json"
             }
           }
         ]
