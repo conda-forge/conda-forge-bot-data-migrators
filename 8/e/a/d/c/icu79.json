@@ -54,7 +54,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "r-cairo",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-cairo.json"
+            }
+          },
+          {
+            "id": "r-stringi",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-stringi.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
