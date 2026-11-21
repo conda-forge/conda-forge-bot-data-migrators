@@ -62,12 +62,6 @@
             }
           },
           {
-            "id": "gmime",
-            "payload": {
-              "__lazy_json__": "node_attrs/gmime.json"
-            }
-          },
-          {
             "id": "gpg-tui",
             "payload": {
               "__lazy_json__": "node_attrs/gpg-tui.json"
@@ -89,12 +83,6 @@
             "id": "podman",
             "payload": {
               "__lazy_json__": "node_attrs/podman.json"
-            }
-          },
-          {
-            "id": "r-gpg",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-gpg.json"
             }
           }
         ]
@@ -321,7 +309,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
