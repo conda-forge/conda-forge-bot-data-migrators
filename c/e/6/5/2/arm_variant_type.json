@@ -824,10 +824,6 @@
           },
           {
             "source": "ceres-solver",
-            "target": "glomap"
-          },
-          {
-            "source": "ceres-solver",
             "target": "momentum"
           },
           {
@@ -841,10 +837,6 @@
           {
             "source": "colmap",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "colmap",
-            "target": "glomap"
           },
           {
             "source": "colmap",
@@ -1088,10 +1080,6 @@
           },
           {
             "source": "glim",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "glomap",
             "target": "conda-forge-pinning"
           },
           {
@@ -2489,12 +2477,6 @@
             "id": "glim",
             "payload": {
               "__lazy_json__": "node_attrs/glim.json"
-            }
-          },
-          {
-            "id": "glomap",
-            "payload": {
-              "__lazy_json__": "node_attrs/glomap.json"
             }
           },
           {
