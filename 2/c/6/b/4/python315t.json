@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - maturin\n        # https://github.com/conda-forge/conda-forge-bot/issues/7237\n        - brotli\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
+    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - maturin\n        - hypothesis\n        # https://github.com/conda-forge/conda-forge-bot/issues/7237\n        - brotli\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
     "python315t"
   ],
   "class": "MigrationYaml",
@@ -55,19 +55,54 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "numpy",
+            "target": "bullet"
+          },
+          {
+            "source": "numpy",
+            "target": "gmpy2"
+          },
+          {
+            "source": "numpy",
+            "target": "kealib"
+          },
+          {
+            "source": "numpy",
+            "target": "levenshtein"
+          },
+          {
+            "source": "numpy",
+            "target": "mlx"
+          },
+          {
+            "source": "numpy",
+            "target": "netcdf4"
+          },
+          {
+            "source": "numpy",
+            "target": "shapely"
+          }
+        ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "arro3-core",
-            "payload": {
-              "__lazy_json__": "node_attrs/arro3-core.json"
-            }
-          },
           {
             "id": "bullet",
             "payload": {
               "__lazy_json__": "node_attrs/bullet.json"
+            }
+          },
+          {
+            "id": "gmpy2",
+            "payload": {
+              "__lazy_json__": "node_attrs/gmpy2.json"
+            }
+          },
+          {
+            "id": "jsonschema-rs",
+            "payload": {
+              "__lazy_json__": "node_attrs/jsonschema-rs.json"
             }
           },
           {
@@ -95,6 +130,12 @@
             }
           },
           {
+            "id": "numpy",
+            "payload": {
+              "__lazy_json__": "node_attrs/numpy.json"
+            }
+          },
+          {
             "id": "pymupdf",
             "payload": {
               "__lazy_json__": "node_attrs/pymupdf.json"
@@ -104,6 +145,12 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
+            }
+          },
+          {
+            "id": "tornado",
+            "payload": {
+              "__lazy_json__": "node_attrs/tornado.json"
             }
           }
         ]
@@ -116,6 +163,7 @@
       "cross-python",
       "python_abi",
       "maturin",
+      "hypothesis",
       "brotli"
     ],
     "exclude_pinned_pkgs": false,
@@ -608,10 +656,6 @@
           {
             "source": "backports.zstd",
             "target": "hf-xet"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "hypothesis"
           },
           {
             "source": "backports.zstd",
@@ -3532,90 +3576,6 @@
           {
             "source": "hybgensea",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "hypothesis",
-            "target": "astropy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "astropy-healpix"
-          },
-          {
-            "source": "hypothesis",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "hypothesis",
-            "target": "cvxpy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "dulwich"
-          },
-          {
-            "source": "hypothesis",
-            "target": "gmpy2"
-          },
-          {
-            "source": "hypothesis",
-            "target": "jsonschema-rs"
-          },
-          {
-            "source": "hypothesis",
-            "target": "libcst"
-          },
-          {
-            "source": "hypothesis",
-            "target": "numpy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pyarrow"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pynacl"
-          },
-          {
-            "source": "hypothesis",
-            "target": "python-marisa-trie"
-          },
-          {
-            "source": "hypothesis",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "hypothesis",
-            "target": "rasterio"
-          },
-          {
-            "source": "hypothesis",
-            "target": "regions"
-          },
-          {
-            "source": "hypothesis",
-            "target": "scipp"
-          },
-          {
-            "source": "hypothesis",
-            "target": "scipy"
-          },
-          {
-            "source": "hypothesis",
-            "target": "time-machine"
-          },
-          {
-            "source": "hypothesis",
-            "target": "torchaudio"
-          },
-          {
-            "source": "hypothesis",
-            "target": "tornado"
-          },
-          {
-            "source": "hypothesis",
-            "target": "yarl"
           },
           {
             "source": "ibm_db",
@@ -7163,10 +7123,6 @@
           },
           {
             "source": "psutil",
-            "target": "hypothesis"
-          },
-          {
-            "source": "psutil",
             "target": "jsonschema-rs"
           },
           {
@@ -8748,10 +8704,6 @@
           {
             "source": "pyyaml",
             "target": "hf-xet"
-          },
-          {
-            "source": "pyyaml",
-            "target": "hypothesis"
           },
           {
             "source": "pyyaml",
@@ -10899,10 +10851,6 @@
           },
           {
             "source": "tbb",
-            "target": "hypothesis"
-          },
-          {
-            "source": "tbb",
             "target": "ibm_db"
           },
           {
@@ -13031,10 +12979,6 @@
           },
           {
             "source": "ujson",
-            "target": "hypothesis"
-          },
-          {
-            "source": "ujson",
             "target": "jsonschema-rs"
           },
           {
@@ -13364,10 +13308,6 @@
           {
             "source": "wcwidth",
             "target": "hf-xet"
-          },
-          {
-            "source": "wcwidth",
-            "target": "hypothesis"
           },
           {
             "source": "wcwidth",
@@ -15036,12 +14976,6 @@
             "id": "hybgensea",
             "payload": {
               "__lazy_json__": "node_attrs/hybgensea.json"
-            }
-          },
-          {
-            "id": "hypothesis",
-            "payload": {
-              "__lazy_json__": "node_attrs/hypothesis.json"
             }
           },
           {
