@@ -68,18 +68,6 @@
             }
           },
           {
-            "id": "ocaml-ppx-derivers",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-ppx-derivers.json"
-            }
-          },
-          {
-            "id": "ocaml-stdlib-shims",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-stdlib-shims.json"
-            }
-          },
-          {
             "id": "ocaml-re",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-re.json"
@@ -98,21 +86,15 @@
             }
           },
           {
-            "id": "ocaml-compiler-libs",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-compiler-libs.json"
-            }
-          },
-          {
-            "id": "ocaml-sexplib0",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-sexplib0.json"
-            }
-          },
-          {
             "id": "ocaml-ocplib-endian",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-ocplib-endian.json"
+            }
+          },
+          {
+            "id": "ocaml-ppxlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ppxlib.json"
             }
           }
         ]
@@ -615,7 +597,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
