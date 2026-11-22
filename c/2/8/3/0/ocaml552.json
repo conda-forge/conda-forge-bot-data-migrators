@@ -56,15 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ocaml-cppo",
+            "id": "opam",
             "payload": {
-              "__lazy_json__": "node_attrs/ocaml-cppo.json"
-            }
-          },
-          {
-            "id": "ocaml-menhir",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-menhir.json"
+              "__lazy_json__": "node_attrs/opam.json"
             }
           },
           {
@@ -92,15 +86,15 @@
             }
           },
           {
-            "id": "ocaml-csexp",
+            "id": "ocaml-gen",
             "payload": {
-              "__lazy_json__": "node_attrs/ocaml-csexp.json"
+              "__lazy_json__": "node_attrs/ocaml-gen.json"
             }
           },
           {
-            "id": "ocaml-seq",
+            "id": "ocaml-csexp",
             "payload": {
-              "__lazy_json__": "node_attrs/ocaml-seq.json"
+              "__lazy_json__": "node_attrs/ocaml-csexp.json"
             }
           },
           {
@@ -113,6 +107,12 @@
             "id": "ocaml-sexplib0",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-sexplib0.json"
+            }
+          },
+          {
+            "id": "ocaml-ocplib-endian",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ocplib-endian.json"
             }
           }
         ]
@@ -615,7 +615,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
