@@ -6823,10 +6823,6 @@
           },
           {
             "source": "bash",
-            "target": "metis"
-          },
-          {
-            "source": "bash",
             "target": "metplus"
           },
           {
@@ -18959,10 +18955,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -24590,6 +24582,10 @@
             "target": "thinc"
           },
           {
+            "source": "cypari2",
+            "target": "sage"
+          },
+          {
             "source": "cyrus-sasl",
             "target": "cds-crtools"
           },
@@ -24616,6 +24612,10 @@
           {
             "source": "cyrus-sasl",
             "target": "openldap"
+          },
+          {
+            "source": "cysignals",
+            "target": "cypari2"
           },
           {
             "source": "cysignals",
@@ -24800,6 +24800,10 @@
           {
             "source": "cython",
             "target": "cymem"
+          },
+          {
+            "source": "cython",
+            "target": "cypari2"
           },
           {
             "source": "cython",
@@ -32652,6 +32656,10 @@
           {
             "source": "gmp",
             "target": "cvxopt"
+          },
+          {
+            "source": "gmp",
+            "target": "cypari2"
           },
           {
             "source": "gmp",
@@ -45123,10 +45131,6 @@
           },
           {
             "source": "libtool",
-            "target": "metis"
-          },
-          {
-            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -54126,62 +54130,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56176,6 +56124,10 @@
           {
             "source": "ninja",
             "target": "cvxopt"
+          },
+          {
+            "source": "ninja",
+            "target": "cypari2"
           },
           {
             "source": "ninja",
@@ -64203,6 +64155,10 @@
           },
           {
             "source": "pari",
+            "target": "cypari2"
+          },
+          {
+            "source": "pari",
             "target": "eclib"
           },
           {
@@ -71892,6 +71848,10 @@
           {
             "source": "python",
             "target": "cymem"
+          },
+          {
+            "source": "python",
+            "target": "cypari2"
           },
           {
             "source": "python",
@@ -107237,6 +107197,12 @@
             }
           },
           {
+            "id": "cypari2",
+            "payload": {
+              "__lazy_json__": "node_attrs/cypari2.json"
+            }
+          },
+          {
             "id": "cyrus-sasl",
             "payload": {
               "__lazy_json__": "node_attrs/cyrus-sasl.json"
@@ -111752,12 +111718,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
