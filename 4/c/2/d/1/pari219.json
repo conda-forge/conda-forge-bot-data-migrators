@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "gap",
+            "payload": {
+              "__lazy_json__": "node_attrs/gap.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -99,14 +106,6 @@
           }
         },
         "links": [
-          {
-            "source": "cypari2",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cypari2",
-            "target": "sage"
-          },
           {
             "source": "eclib",
             "target": "conda-forge-pinning"
@@ -162,12 +161,6 @@
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
-            }
-          },
-          {
-            "id": "cypari2",
-            "payload": {
-              "__lazy_json__": "node_attrs/cypari2.json"
             }
           },
           {
@@ -312,7 +305,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
