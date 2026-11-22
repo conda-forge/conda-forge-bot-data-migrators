@@ -54,20 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "ocamlbuild",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocamlbuild.json"
-            }
-          },
-          {
-            "id": "ocaml-cmdliner",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-cmdliner.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -567,7 +554,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
