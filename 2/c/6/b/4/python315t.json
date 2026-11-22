@@ -55,32 +55,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "numpy",
-            "target": "bullet"
-          },
-          {
-            "source": "numpy",
-            "target": "gmpy2"
-          },
-          {
-            "source": "numpy",
-            "target": "levenshtein"
-          },
-          {
-            "source": "numpy",
-            "target": "mlx"
-          },
-          {
-            "source": "numpy",
-            "target": "netcdf4"
-          },
-          {
-            "source": "numpy",
-            "target": "shapely"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -90,39 +65,15 @@
             }
           },
           {
-            "id": "gmpy2",
-            "payload": {
-              "__lazy_json__": "node_attrs/gmpy2.json"
-            }
-          },
-          {
-            "id": "jsonschema-rs",
-            "payload": {
-              "__lazy_json__": "node_attrs/jsonschema-rs.json"
-            }
-          },
-          {
-            "id": "levenshtein",
-            "payload": {
-              "__lazy_json__": "node_attrs/levenshtein.json"
-            }
-          },
-          {
-            "id": "mlx",
-            "payload": {
-              "__lazy_json__": "node_attrs/mlx.json"
-            }
-          },
-          {
             "id": "netcdf4",
             "payload": {
               "__lazy_json__": "node_attrs/netcdf4.json"
             }
           },
           {
-            "id": "numpy",
+            "id": "pplpy",
             "payload": {
-              "__lazy_json__": "node_attrs/numpy.json"
+              "__lazy_json__": "node_attrs/pplpy.json"
             }
           },
           {
@@ -132,15 +83,15 @@
             }
           },
           {
-            "id": "shapely",
+            "id": "python-symengine",
             "payload": {
-              "__lazy_json__": "node_attrs/shapely.json"
+              "__lazy_json__": "node_attrs/python-symengine.json"
             }
           },
           {
-            "id": "tornado",
+            "id": "shapely",
             "payload": {
-              "__lazy_json__": "node_attrs/tornado.json"
+              "__lazy_json__": "node_attrs/shapely.json"
             }
           }
         ]
