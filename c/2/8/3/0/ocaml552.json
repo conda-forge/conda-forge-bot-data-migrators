@@ -68,33 +68,21 @@
             }
           },
           {
-            "id": "ocaml-re",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-re.json"
-            }
-          },
-          {
             "id": "ocaml-gen",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-gen.json"
             }
           },
           {
-            "id": "ocaml-csexp",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-csexp.json"
-            }
-          },
-          {
-            "id": "ocaml-ocplib-endian",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-ocplib-endian.json"
-            }
-          },
-          {
             "id": "ocaml-ppxlib",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-ppxlib.json"
+            }
+          },
+          {
+            "id": "ocaml-dune-configurator",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-dune-configurator.json"
             }
           }
         ]
@@ -597,7 +585,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
