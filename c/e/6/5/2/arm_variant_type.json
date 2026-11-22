@@ -264,6 +264,12 @@
             }
           },
           {
+            "id": "diffpy.srreal",
+            "payload": {
+              "__lazy_json__": "node_attrs/diffpy.srreal.json"
+            }
+          },
+          {
             "id": "drjit-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/drjit-cpp.json"
@@ -1008,6 +1014,10 @@
           },
           {
             "source": "dgl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "diffpy.srreal",
             "target": "conda-forge-pinning"
           },
           {
@@ -2399,6 +2409,12 @@
             "id": "dgl",
             "payload": {
               "__lazy_json__": "node_attrs/dgl.json"
+            }
+          },
+          {
+            "id": "diffpy.srreal",
+            "payload": {
+              "__lazy_json__": "node_attrs/diffpy.srreal.json"
             }
           },
           {
