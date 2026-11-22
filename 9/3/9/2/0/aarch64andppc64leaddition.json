@@ -24590,10 +24590,6 @@
             "target": "thinc"
           },
           {
-            "source": "cypari2",
-            "target": "sage"
-          },
-          {
             "source": "cyrus-sasl",
             "target": "cds-crtools"
           },
@@ -24620,10 +24616,6 @@
           {
             "source": "cyrus-sasl",
             "target": "openldap"
-          },
-          {
-            "source": "cysignals",
-            "target": "cypari2"
           },
           {
             "source": "cysignals",
@@ -24808,10 +24800,6 @@
           {
             "source": "cython",
             "target": "cymem"
-          },
-          {
-            "source": "cython",
-            "target": "cypari2"
           },
           {
             "source": "cython",
@@ -32664,10 +32652,6 @@
           {
             "source": "gmp",
             "target": "cvxopt"
-          },
-          {
-            "source": "gmp",
-            "target": "cypari2"
           },
           {
             "source": "gmp",
@@ -56195,10 +56179,6 @@
           },
           {
             "source": "ninja",
-            "target": "cypari2"
-          },
-          {
-            "source": "ninja",
             "target": "cysignals"
           },
           {
@@ -64223,10 +64203,6 @@
           },
           {
             "source": "pari",
-            "target": "cypari2"
-          },
-          {
-            "source": "pari",
             "target": "eclib"
           },
           {
@@ -67912,6 +67888,10 @@
           {
             "source": "pkgconf",
             "target": "libgpiod-split"
+          },
+          {
+            "source": "pkgconf",
+            "target": "libhomfly"
           },
           {
             "source": "pkgconf",
@@ -71912,10 +71892,6 @@
           {
             "source": "python",
             "target": "cymem"
-          },
-          {
-            "source": "python",
-            "target": "cypari2"
           },
           {
             "source": "python",
@@ -107258,12 +107234,6 @@
             "id": "cymem",
             "payload": {
               "__lazy_json__": "node_attrs/cymem.json"
-            }
-          },
-          {
-            "id": "cypari2",
-            "payload": {
-              "__lazy_json__": "node_attrs/cypari2.json"
             }
           },
           {
