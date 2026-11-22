@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "diffpy.srreal",
+            "payload": {
+              "__lazy_json__": "node_attrs/diffpy.srreal.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -169,6 +176,10 @@
           },
           {
             "source": "diffpy.pdffit2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "diffpy.srreal",
             "target": "conda-forge-pinning"
           },
           {
@@ -910,6 +921,12 @@
             "id": "diffpy.pdffit2",
             "payload": {
               "__lazy_json__": "node_attrs/diffpy.pdffit2.json"
+            }
+          },
+          {
+            "id": "diffpy.srreal",
+            "payload": {
+              "__lazy_json__": "node_attrs/diffpy.srreal.json"
             }
           },
           {
