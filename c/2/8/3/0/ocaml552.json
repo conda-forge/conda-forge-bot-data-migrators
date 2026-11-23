@@ -52,24 +52,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "ocaml-dune",
-            "target": "ocaml-lwt-split"
-          },
-          {
-            "source": "ocaml-dune",
-            "target": "ocaml-sedlex"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "ocaml-dune",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-dune.json"
-            }
-          },
           {
             "id": "ocaml-sedlex",
             "payload": {
