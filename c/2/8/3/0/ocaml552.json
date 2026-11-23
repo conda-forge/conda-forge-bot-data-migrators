@@ -56,33 +56,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "opam",
+            "id": "ocaml-sedlex",
             "payload": {
-              "__lazy_json__": "node_attrs/opam.json"
+              "__lazy_json__": "node_attrs/ocaml-sedlex.json"
             }
           },
           {
-            "id": "ocaml-yojson",
+            "id": "ocaml-lwt-split",
             "payload": {
-              "__lazy_json__": "node_attrs/ocaml-yojson.json"
-            }
-          },
-          {
-            "id": "ocaml-gen",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-gen.json"
-            }
-          },
-          {
-            "id": "ocaml-ppxlib",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-ppxlib.json"
-            }
-          },
-          {
-            "id": "ocaml-dune-configurator",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-dune-configurator.json"
+              "__lazy_json__": "node_attrs/ocaml-lwt-split.json"
             }
           }
         ]
@@ -585,7 +567,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
