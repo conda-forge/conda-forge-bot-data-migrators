@@ -59,6 +59,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "pulp",
+            "payload": {
+              "__lazy_json__": "node_attrs/pulp.json"
+            }
+          },
+          {
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
