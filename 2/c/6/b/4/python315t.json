@@ -55,28 +55,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "tbb",
-            "target": "cftime"
-          },
-          {
-            "source": "tbb",
-            "target": "python-duckdb"
-          },
-          {
-            "source": "tbb",
-            "target": "shapely"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "cftime",
-            "payload": {
-              "__lazy_json__": "node_attrs/cftime.json"
-            }
-          },
           {
             "id": "python-duckdb",
             "payload": {
@@ -87,12 +68,6 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
-            }
-          },
-          {
-            "id": "tbb",
-            "payload": {
-              "__lazy_json__": "node_attrs/tbb.json"
             }
           }
         ]
