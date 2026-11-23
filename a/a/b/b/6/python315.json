@@ -91,6 +91,12 @@
             }
           },
           {
+            "id": "pycbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycbc.json"
+            }
+          },
+          {
             "id": "pycgns",
             "payload": {
               "__lazy_json__": "node_attrs/pycgns.json"
@@ -19649,10 +19655,6 @@
           {
             "source": "gmpy2",
             "target": "professor"
-          },
-          {
-            "source": "gmpy2",
-            "target": "pycbc"
           },
           {
             "source": "gmpy2",
@@ -54461,10 +54463,6 @@
           {
             "source": "python-ligo-lw",
             "target": "gwtc_analysis"
-          },
-          {
-            "source": "python-ligo-lw",
-            "target": "pycbc"
           },
           {
             "source": "python-ligo-lw",
