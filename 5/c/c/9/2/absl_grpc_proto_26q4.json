@@ -56,9 +56,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "gz-transport",
+            "id": "gz-gui",
             "payload": {
-              "__lazy_json__": "node_attrs/gz-transport.json"
+              "__lazy_json__": "node_attrs/gz-gui.json"
+            }
+          },
+          {
+            "id": "gz-sensors",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-sensors.json"
             }
           }
         ]
