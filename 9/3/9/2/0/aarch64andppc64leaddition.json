@@ -5851,10 +5851,6 @@
           },
           {
             "source": "bash",
-            "target": "indicators"
-          },
-          {
-            "source": "bash",
             "target": "inetutils"
           },
           {
@@ -44179,10 +44175,6 @@
           },
           {
             "source": "libtool",
-            "target": "indicators"
-          },
-          {
-            "source": "libtool",
             "target": "inetutils"
           },
           {
@@ -56700,6 +56692,10 @@
           {
             "source": "ninja",
             "target": "implicit"
+          },
+          {
+            "source": "ninja",
+            "target": "indicators"
           },
           {
             "source": "ninja",
