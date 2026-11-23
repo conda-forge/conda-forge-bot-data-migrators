@@ -126,10 +126,6 @@
           },
           {
             "source": "nccl",
-            "target": "nccl4py"
-          },
-          {
-            "source": "nccl",
             "target": "torchcodec"
           }
         ],
@@ -484,12 +480,6 @@
             }
           },
           {
-            "id": "nccl4py",
-            "payload": {
-              "__lazy_json__": "node_attrs/nccl4py.json"
-            }
-          },
-          {
             "id": "nerfacc",
             "payload": {
               "__lazy_json__": "node_attrs/nerfacc.json"
@@ -505,6 +495,12 @@
             "id": "nvidia-apex",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-apex.json"
+            }
+          },
+          {
+            "id": "nvidia-cutlass-dsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
             }
           },
           {
@@ -1603,6 +1599,22 @@
           {
             "source": "nvidia-apex",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "nccl4py"
+          },
+          {
+            "source": "nvidia-cutlass-dsl",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "nvidia-dali-python",
@@ -2811,6 +2823,12 @@
             "id": "nvidia-apex",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-apex.json"
+            }
+          },
+          {
+            "id": "nvidia-cutlass-dsl",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
             }
           },
           {
