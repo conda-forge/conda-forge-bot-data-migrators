@@ -1735,6 +1735,10 @@
           },
           {
             "source": "autoconf",
+            "target": "openmpi"
+          },
+          {
+            "source": "autoconf",
             "target": "openssh"
           },
           {
@@ -2148,10 +2152,6 @@
           {
             "source": "autoconf",
             "target": "tmux"
-          },
-          {
-            "source": "autoconf",
-            "target": "ucc"
           },
           {
             "source": "autoconf",
@@ -3424,10 +3424,6 @@
           {
             "source": "automake",
             "target": "tmux"
-          },
-          {
-            "source": "automake",
-            "target": "ucc"
           },
           {
             "source": "automake",
@@ -10476,10 +10472,6 @@
           {
             "source": "bash",
             "target": "tzcode"
-          },
-          {
-            "source": "bash",
-            "target": "ucc"
           },
           {
             "source": "bash",
@@ -23823,6 +23815,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "openmpi"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "pennylane-lightning-gpu"
           },
           {
@@ -23860,10 +23856,6 @@
           {
             "source": "cuda-cudart",
             "target": "triton"
-          },
-          {
-            "source": "cuda-cudart",
-            "target": "ucc"
           },
           {
             "source": "cuda-cudart",
@@ -23995,6 +23987,10 @@
           },
           {
             "source": "cuda-nvml-dev",
+            "target": "openmpi"
+          },
+          {
+            "source": "cuda-nvml-dev",
             "target": "petsc"
           },
           {
@@ -24004,10 +24000,6 @@
           {
             "source": "cuda-nvml-dev",
             "target": "tensorflow"
-          },
-          {
-            "source": "cuda-nvml-dev",
-            "target": "ucc"
           },
           {
             "source": "cuda-nvml-dev",
@@ -48871,10 +48863,6 @@
           },
           {
             "source": "libtool",
-            "target": "ucc"
-          },
-          {
-            "source": "libtool",
             "target": "ucx-split"
           },
           {
@@ -55623,11 +55611,11 @@
           },
           {
             "source": "nccl",
-            "target": "tensorflow"
+            "target": "openmpi"
           },
           {
             "source": "nccl",
-            "target": "ucc"
+            "target": "tensorflow"
           },
           {
             "source": "nccl",
@@ -88015,7 +88003,7 @@
           },
           {
             "source": "rdma-core",
-            "target": "ucc"
+            "target": "openmpi"
           },
           {
             "source": "rdma-core",
@@ -94154,10 +94142,6 @@
             "target": "postgresql"
           },
           {
-            "source": "ucc",
-            "target": "openmpi"
-          },
-          {
             "source": "ucrt",
             "target": "abacus"
           },
@@ -94732,10 +94716,6 @@
           {
             "source": "ucx-split",
             "target": "openmpi"
-          },
-          {
-            "source": "ucx-split",
-            "target": "ucc"
           },
           {
             "source": "udunits2",
@@ -119708,12 +119688,6 @@
             "id": "tzcode",
             "payload": {
               "__lazy_json__": "node_attrs/tzcode.json"
-            }
-          },
-          {
-            "id": "ucc",
-            "payload": {
-              "__lazy_json__": "node_attrs/ucc.json"
             }
           },
           {
