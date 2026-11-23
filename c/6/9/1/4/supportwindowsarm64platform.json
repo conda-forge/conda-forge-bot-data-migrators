@@ -47,6 +47,12 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "azure-storage-blobs-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-blobs-cpp.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
@@ -9478,10 +9484,6 @@
           },
           {
             "source": "libxml2",
-            "target": "azure-storage-common-cpp"
-          },
-          {
-            "source": "libxml2",
             "target": "binutils"
           },
           {
@@ -13659,10 +13661,6 @@
           {
             "source": "openssl",
             "target": "aws-c-s3"
-          },
-          {
-            "source": "openssl",
-            "target": "azure-storage-common-cpp"
           },
           {
             "source": "openssl",
