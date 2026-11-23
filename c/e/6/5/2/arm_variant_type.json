@@ -1578,10 +1578,6 @@
           },
           {
             "source": "nccl",
-            "target": "ucc"
-          },
-          {
-            "source": "nccl",
             "target": "xgboost"
           },
           {
@@ -2149,14 +2145,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "ucc",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "ucc",
-            "target": "openmpi"
-          },
-          {
             "source": "ucx-split",
             "target": "conda-forge-pinning"
           },
@@ -2171,10 +2159,6 @@
           {
             "source": "ucx-split",
             "target": "openmpi"
-          },
-          {
-            "source": "ucx-split",
-            "target": "ucc"
           },
           {
             "source": "unidock",
@@ -3201,12 +3185,6 @@
             "id": "tvm-py",
             "payload": {
               "__lazy_json__": "node_attrs/tvm-py.json"
-            }
-          },
-          {
-            "id": "ucc",
-            "payload": {
-              "__lazy_json__": "node_attrs/ucc.json"
             }
           },
           {
