@@ -73,45 +73,21 @@
             }
           },
           {
-            "id": "cvxpygen",
-            "payload": {
-              "__lazy_json__": "node_attrs/cvxpygen.json"
-            }
-          },
-          {
-            "id": "evomsa",
-            "payload": {
-              "__lazy_json__": "node_attrs/evomsa.json"
-            }
-          },
-          {
             "id": "mesher",
             "payload": {
               "__lazy_json__": "node_attrs/mesher.json"
             }
           },
           {
-            "id": "nvidia-cutlass-dsl",
+            "id": "nccl4py",
             "payload": {
-              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
-            }
-          },
-          {
-            "id": "obspy",
-            "payload": {
-              "__lazy_json__": "node_attrs/obspy.json"
+              "__lazy_json__": "node_attrs/nccl4py.json"
             }
           },
           {
             "id": "ocp",
             "payload": {
               "__lazy_json__": "node_attrs/ocp.json"
-            }
-          },
-          {
-            "id": "ogs",
-            "payload": {
-              "__lazy_json__": "node_attrs/ogs.json"
             }
           },
           {
@@ -160,12 +136,6 @@
             "id": "pythonocc-core",
             "payload": {
               "__lazy_json__": "node_attrs/pythonocc-core.json"
-            }
-          },
-          {
-            "id": "riskfolio-lib",
-            "payload": {
-              "__lazy_json__": "node_attrs/riskfolio-lib.json"
             }
           },
           {
@@ -1226,7 +1196,7 @@
           },
           {
             "source": "apache-tvm-ffi",
-            "target": "nvidia-cutlass-dsl"
+            "target": "nccl4py"
           },
           {
             "source": "apache-tvm-ffi",
@@ -12146,6 +12116,10 @@
           },
           {
             "source": "cuda-python",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "cuda-python",
             "target": "nccl4py"
           },
           {
@@ -12158,11 +12132,11 @@
           },
           {
             "source": "cuda-python",
-            "target": "nvidia-cutlass-dsl"
+            "target": "nvmath"
           },
           {
             "source": "cuda-python",
-            "target": "nvmath"
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "cuda_histogram",
@@ -41029,22 +41003,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "nvidia-cutlass-dsl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "mamba-ssm"
-          },
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "nccl4py"
-          },
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "python-cudnn-frontend"
-          },
-          {
             "source": "nvidia-dali-python",
             "target": "conda-forge-pinning"
           },
@@ -46402,6 +46360,10 @@
           },
           {
             "source": "protobuf",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "protobuf",
             "target": "marvin"
           },
           {
@@ -46426,15 +46388,15 @@
           },
           {
             "source": "protobuf",
+            "target": "nccl4py"
+          },
+          {
+            "source": "protobuf",
             "target": "neuralcoref"
           },
           {
             "source": "protobuf",
             "target": "nomad-camels"
-          },
-          {
-            "source": "protobuf",
-            "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "protobuf",
@@ -46487,6 +46449,10 @@
           {
             "source": "protobuf",
             "target": "pytango"
+          },
+          {
+            "source": "protobuf",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "protobuf",
@@ -75318,10 +75284,6 @@
           },
           {
             "source": "tbb",
-            "target": "nvidia-cutlass-dsl"
-          },
-          {
-            "source": "tbb",
             "target": "nvidia-dali-python"
           },
           {
@@ -97751,12 +97713,6 @@
             "id": "nvidia-apex",
             "payload": {
               "__lazy_json__": "node_attrs/nvidia-apex.json"
-            }
-          },
-          {
-            "id": "nvidia-cutlass-dsl",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
             }
           },
           {
