@@ -47,9 +47,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "azure-storage-blobs-cpp",
+            "id": "azure-storage-common-cpp",
             "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-blobs-cpp.json"
+              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           }
         ]
@@ -3411,6 +3417,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -10654,6 +10664,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11451,6 +11465,10 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
+          },
+          {
+            "source": "metis",
+            "target": "ceres-solver"
           },
           {
             "source": "micromamba",
@@ -24407,6 +24425,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
