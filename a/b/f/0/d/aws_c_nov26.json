@@ -55,9 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "aws-c-io",
+            "id": "aws-crt-cpp",
             "payload": {
-              "__lazy_json__": "node_attrs/aws-c-io.json"
+              "__lazy_json__": "node_attrs/aws-crt-cpp.json"
+            }
+          },
+          {
+            "id": "awscrt",
+            "payload": {
+              "__lazy_json__": "node_attrs/awscrt.json"
             }
           }
         ]
@@ -463,7 +469,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
