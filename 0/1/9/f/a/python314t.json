@@ -258,7 +258,7 @@
           },
           {
             "source": "apache-tvm-ffi",
-            "target": "nvidia-cutlass-dsl"
+            "target": "nccl4py"
           },
           {
             "source": "apache-tvm-ffi",
@@ -2178,7 +2178,7 @@
           },
           {
             "source": "cuda-python",
-            "target": "nvidia-cutlass-dsl"
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "cupy",
@@ -7333,18 +7333,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "nvidia-cutlass-dsl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "nccl4py"
-          },
-          {
-            "source": "nvidia-cutlass-dsl",
-            "target": "python-cudnn-frontend"
-          },
-          {
             "source": "nvidia-dali-python",
             "target": "conda-forge-pinning"
           },
@@ -8226,11 +8214,15 @@
           },
           {
             "source": "protobuf",
-            "target": "nvidia-cutlass-dsl"
+            "target": "nccl4py"
           },
           {
             "source": "protobuf",
             "target": "onnx"
+          },
+          {
+            "source": "protobuf",
+            "target": "python-cudnn-frontend"
           },
           {
             "source": "protobuf",
@@ -12507,10 +12499,6 @@
           {
             "source": "tbb",
             "target": "nvcomp"
-          },
-          {
-            "source": "tbb",
-            "target": "nvidia-cutlass-dsl"
           },
           {
             "source": "tbb",
@@ -17043,12 +17031,6 @@
             "id": "nvcomp",
             "payload": {
               "__lazy_json__": "node_attrs/nvcomp.json"
-            }
-          },
-          {
-            "id": "nvidia-cutlass-dsl",
-            "payload": {
-              "__lazy_json__": "node_attrs/nvidia-cutlass-dsl.json"
             }
           },
           {
