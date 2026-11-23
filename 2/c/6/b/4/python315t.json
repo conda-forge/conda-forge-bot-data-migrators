@@ -55,7 +55,16 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "tbb",
+            "target": "python-duckdb"
+          },
+          {
+            "source": "tbb",
+            "target": "shapely"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -68,6 +77,12 @@
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
+            }
+          },
+          {
+            "id": "tbb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tbb.json"
             }
           }
         ]
