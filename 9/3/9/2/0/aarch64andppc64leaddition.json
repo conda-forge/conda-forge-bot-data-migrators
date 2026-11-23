@@ -19587,10 +19587,6 @@
           },
           {
             "source": "cmake",
-            "target": "pyqt"
-          },
-          {
-            "source": "cmake",
             "target": "pyre"
           },
           {
@@ -19700,6 +19696,10 @@
           {
             "source": "cmake",
             "target": "qt-networkauth"
+          },
+          {
+            "source": "cmake",
+            "target": "qt-positioning"
           },
           {
             "source": "cmake",
@@ -57823,10 +57823,6 @@
           },
           {
             "source": "ninja",
-            "target": "pyqt"
-          },
-          {
-            "source": "ninja",
             "target": "pyshtools"
           },
           {
@@ -57924,6 +57920,10 @@
           {
             "source": "ninja",
             "target": "qt-networkauth"
+          },
+          {
+            "source": "ninja",
+            "target": "qt-positioning"
           },
           {
             "source": "ninja",
@@ -66948,6 +66948,10 @@
           {
             "source": "pkg-config",
             "target": "qt-main"
+          },
+          {
+            "source": "pkg-config",
+            "target": "qt-positioning"
           },
           {
             "source": "pkg-config",
@@ -78255,6 +78259,10 @@
           },
           {
             "source": "qt-main",
+            "target": "qt-positioning"
+          },
+          {
+            "source": "qt-main",
             "target": "qt-quick3d"
           },
           {
@@ -78316,6 +78324,14 @@
           {
             "source": "qt-networkauth",
             "target": "pyside2"
+          },
+          {
+            "source": "qt-positioning",
+            "target": "pyqt"
+          },
+          {
+            "source": "qt-positioning",
+            "target": "qgis"
           },
           {
             "source": "qt-quick3d",
@@ -115042,6 +115058,12 @@
             "id": "qt-networkauth",
             "payload": {
               "__lazy_json__": "node_attrs/qt-networkauth.json"
+            }
+          },
+          {
+            "id": "qt-positioning",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-positioning.json"
             }
           },
           {
