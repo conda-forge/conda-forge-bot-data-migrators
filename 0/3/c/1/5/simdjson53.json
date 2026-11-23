@@ -52,24 +52,13 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "mamba",
-            "target": "conda-forge-pinning"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
-            }
-          },
-          {
-            "id": "mamba",
-            "payload": {
-              "__lazy_json__": "node_attrs/mamba.json"
             }
           }
         ]
