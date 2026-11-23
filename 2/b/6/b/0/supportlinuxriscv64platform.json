@@ -101,12 +101,6 @@
             }
           },
           {
-            "id": "pandas",
-            "payload": {
-              "__lazy_json__": "node_attrs/pandas.json"
-            }
-          },
-          {
             "id": "prometheus-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/prometheus-cpp.json"
@@ -3831,6 +3825,14 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -9274,6 +9276,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -11015,6 +11023,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
