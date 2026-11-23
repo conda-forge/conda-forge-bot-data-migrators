@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "gmsh",
-            "payload": {
-              "__lazy_json__": "node_attrs/gmsh.json"
-            }
-          },
-          {
             "id": "ifcopenshell",
             "payload": {
               "__lazy_json__": "node_attrs/ifcopenshell.json"
@@ -77,12 +71,6 @@
             "id": "netgen",
             "payload": {
               "__lazy_json__": "node_attrs/netgen.json"
-            }
-          },
-          {
-            "id": "ocp",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocp.json"
             }
           },
           {
@@ -403,7 +391,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
