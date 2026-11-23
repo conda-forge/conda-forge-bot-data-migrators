@@ -54,7 +54,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "gz-gui",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-gui.json"
+            }
+          },
+          {
+            "id": "gz-sensors",
+            "payload": {
+              "__lazy_json__": "node_attrs/gz-sensors.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
