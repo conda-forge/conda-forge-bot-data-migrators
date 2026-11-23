@@ -47,21 +47,21 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "azure-identity-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-common-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
+            }
+          },
+          {
             "id": "gflags",
             "payload": {
               "__lazy_json__": "node_attrs/gflags.json"
-            }
-          },
-          {
-            "id": "libcrc32c",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcrc32c.json"
-            }
-          },
-          {
-            "id": "libcst",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcst.json"
             }
           },
           {
@@ -77,12 +77,6 @@
             }
           },
           {
-            "id": "orc",
-            "payload": {
-              "__lazy_json__": "node_attrs/orc.json"
-            }
-          },
-          {
             "id": "prometheus-cpp",
             "payload": {
               "__lazy_json__": "node_attrs/prometheus-cpp.json"
@@ -92,18 +86,6 @@
             "id": "rapidjson",
             "payload": {
               "__lazy_json__": "node_attrs/rapidjson.json"
-            }
-          },
-          {
-            "id": "thrift-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/thrift-cpp.json"
-            }
-          },
-          {
-            "id": "xsimd",
-            "payload": {
-              "__lazy_json__": "node_attrs/xsimd.json"
             }
           }
         ]
@@ -3801,14 +3783,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -9252,12 +9226,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10999,7 +10967,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
