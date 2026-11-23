@@ -56,12 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "arrow-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/arrow-cpp.json"
-            }
-          },
-          {
             "id": "mamba",
             "payload": {
               "__lazy_json__": "node_attrs/mamba.json"
@@ -241,7 +235,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
