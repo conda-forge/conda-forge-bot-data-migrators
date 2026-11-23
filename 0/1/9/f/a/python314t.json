@@ -59,9 +59,27 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "pycalphad",
+            "payload": {
+              "__lazy_json__": "node_attrs/pycalphad.json"
+            }
+          },
+          {
             "id": "seccomp-split",
             "payload": {
               "__lazy_json__": "node_attrs/seccomp-split.json"
+            }
+          },
+          {
+            "id": "sisl",
+            "payload": {
+              "__lazy_json__": "node_attrs/sisl.json"
+            }
+          },
+          {
+            "id": "yt",
+            "payload": {
+              "__lazy_json__": "node_attrs/yt.json"
             }
           }
         ]
