@@ -496,10 +496,6 @@
           },
           {
             "source": "autoconf",
-            "target": "openmpi"
-          },
-          {
-            "source": "autoconf",
             "target": "openssh"
           },
           {
@@ -545,6 +541,10 @@
           {
             "source": "autoconf",
             "target": "texinfo"
+          },
+          {
+            "source": "autoconf",
+            "target": "ucc"
           },
           {
             "source": "autoconf",
@@ -720,10 +720,6 @@
           },
           {
             "source": "automake",
-            "target": "openmpi"
-          },
-          {
-            "source": "automake",
             "target": "openssh"
           },
           {
@@ -773,6 +769,10 @@
           {
             "source": "automake",
             "target": "texinfo"
+          },
+          {
+            "source": "automake",
+            "target": "ucc"
           },
           {
             "source": "automake",
@@ -4816,15 +4816,15 @@
           },
           {
             "source": "cuda-cudart",
-            "target": "openmpi"
-          },
-          {
-            "source": "cuda-cudart",
             "target": "pocl"
           },
           {
             "source": "cuda-cudart",
             "target": "pyarrow"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "ucc"
           },
           {
             "source": "cuda-cudart",
@@ -4880,7 +4880,7 @@
           },
           {
             "source": "cuda-nvml-dev",
-            "target": "openmpi"
+            "target": "ucc"
           },
           {
             "source": "cuda-nvml-dev",
@@ -9136,10 +9136,6 @@
           },
           {
             "source": "libtool",
-            "target": "openmpi"
-          },
-          {
-            "source": "libtool",
             "target": "p11-kit"
           },
           {
@@ -9165,6 +9161,10 @@
           {
             "source": "libtool",
             "target": "texinfo"
+          },
+          {
+            "source": "libtool",
+            "target": "ucc"
           },
           {
             "source": "libtool",
@@ -11080,6 +11080,10 @@
           },
           {
             "source": "make",
+            "target": "ucc"
+          },
+          {
+            "source": "make",
             "target": "ucx-split"
           },
           {
@@ -11908,7 +11912,7 @@
           },
           {
             "source": "nccl",
-            "target": "openmpi"
+            "target": "ucc"
           },
           {
             "source": "ncurses",
@@ -17780,7 +17784,7 @@
           },
           {
             "source": "rdma-core",
-            "target": "openmpi"
+            "target": "ucc"
           },
           {
             "source": "rdma-core",
@@ -19215,6 +19219,10 @@
             "target": "postgresql"
           },
           {
+            "source": "ucc",
+            "target": "openmpi"
+          },
+          {
             "source": "ucrt",
             "target": "_openmp_mutex"
           },
@@ -19321,6 +19329,10 @@
           {
             "source": "ucx-split",
             "target": "openmpi"
+          },
+          {
+            "source": "ucx-split",
+            "target": "ucc"
           },
           {
             "source": "ujson",
@@ -25821,6 +25833,12 @@
             "id": "tzcode",
             "payload": {
               "__lazy_json__": "node_attrs/tzcode.json"
+            }
+          },
+          {
+            "id": "ucc",
+            "payload": {
+              "__lazy_json__": "node_attrs/ucc.json"
             }
           },
           {
