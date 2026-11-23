@@ -45,7 +45,98 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "azure-core-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-core-cpp.json"
+            }
+          },
+          {
+            "id": "gflags",
+            "payload": {
+              "__lazy_json__": "node_attrs/gflags.json"
+            }
+          },
+          {
+            "id": "libcrc32c",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcrc32c.json"
+            }
+          },
+          {
+            "id": "libcst",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcst.json"
+            }
+          },
+          {
+            "id": "libutf8proc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libutf8proc.json"
+            }
+          },
+          {
+            "id": "minio-server",
+            "payload": {
+              "__lazy_json__": "node_attrs/minio-server.json"
+            }
+          },
+          {
+            "id": "multiprocess",
+            "payload": {
+              "__lazy_json__": "node_attrs/multiprocess.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "pandas",
+            "payload": {
+              "__lazy_json__": "node_attrs/pandas.json"
+            }
+          },
+          {
+            "id": "prometheus-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/prometheus-cpp.json"
+            }
+          },
+          {
+            "id": "rapidjson",
+            "payload": {
+              "__lazy_json__": "node_attrs/rapidjson.json"
+            }
+          },
+          {
+            "id": "thrift-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/thrift-cpp.json"
+            }
+          },
+          {
+            "id": "uriparser",
+            "payload": {
+              "__lazy_json__": "node_attrs/uriparser.json"
+            }
+          },
+          {
+            "id": "xsimd",
+            "payload": {
+              "__lazy_json__": "node_attrs/xsimd.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -91,6 +182,18 @@
         "links": [
           {
             "source": "abseil-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "abseil-cpp",
+            "target": "cpp-opentelemetry-sdk"
+          },
+          {
+            "source": "abseil-cpp",
+            "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "abseil-cpp",
             "target": "grpc-cpp"
           },
           {
@@ -108,6 +211,10 @@
           {
             "source": "abseil-cpp",
             "target": "openvino"
+          },
+          {
+            "source": "abseil-cpp",
+            "target": "orc"
           },
           {
             "source": "abseil-cpp",
@@ -166,6 +273,10 @@
             "target": "xgrammar"
           },
           {
+            "source": "arrow-cpp",
+            "target": "pyarrow"
+          },
+          {
             "source": "assimp",
             "target": "coal"
           },
@@ -199,6 +310,10 @@
           },
           {
             "source": "aws-c-auth",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-auth",
             "target": "hdf5"
           },
           {
@@ -216,6 +331,10 @@
           {
             "source": "aws-c-cal",
             "target": "aws-c-s3"
+          },
+          {
+            "source": "aws-c-cal",
+            "target": "aws-crt-cpp"
           },
           {
             "source": "aws-c-common",
@@ -231,11 +350,19 @@
           },
           {
             "source": "aws-c-common",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-c-common",
             "target": "aws-c-http"
           },
           {
             "source": "aws-c-common",
             "target": "aws-c-io"
+          },
+          {
+            "source": "aws-c-common",
+            "target": "aws-c-mqtt"
           },
           {
             "source": "aws-c-common",
@@ -251,6 +378,14 @@
           },
           {
             "source": "aws-c-common",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-common",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-c-common",
             "target": "hdf5"
           },
           {
@@ -258,12 +393,28 @@
             "target": "aws-c-http"
           },
           {
+            "source": "aws-c-event-stream",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-event-stream",
+            "target": "aws-sdk-cpp"
+          },
+          {
             "source": "aws-c-http",
             "target": "aws-c-auth"
           },
           {
             "source": "aws-c-http",
+            "target": "aws-c-mqtt"
+          },
+          {
+            "source": "aws-c-http",
             "target": "aws-c-s3"
+          },
+          {
+            "source": "aws-c-http",
+            "target": "aws-crt-cpp"
           },
           {
             "source": "aws-c-http",
@@ -272,6 +423,10 @@
           {
             "source": "aws-c-io",
             "target": "aws-c-auth"
+          },
+          {
+            "source": "aws-c-io",
+            "target": "aws-c-event-stream"
           },
           {
             "source": "aws-c-io",
@@ -279,11 +434,27 @@
           },
           {
             "source": "aws-c-io",
+            "target": "aws-c-mqtt"
+          },
+          {
+            "source": "aws-c-io",
             "target": "aws-c-s3"
           },
           {
             "source": "aws-c-io",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-io",
             "target": "hdf5"
+          },
+          {
+            "source": "aws-c-mqtt",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-s3",
+            "target": "aws-crt-cpp"
           },
           {
             "source": "aws-c-s3",
@@ -295,11 +466,79 @@
           },
           {
             "source": "aws-c-sdkutils",
+            "target": "aws-crt-cpp"
+          },
+          {
+            "source": "aws-c-sdkutils",
             "target": "hdf5"
           },
           {
             "source": "aws-checksums",
+            "target": "aws-c-event-stream"
+          },
+          {
+            "source": "aws-checksums",
             "target": "aws-c-s3"
+          },
+          {
+            "source": "aws-crt-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "aws-crt-cpp",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
+            "target": "azure-identity-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
+            "target": "azure-storage-blobs-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
+            "target": "azure-storage-common-cpp"
+          },
+          {
+            "source": "azure-core-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-identity-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-blobs-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-blobs-cpp"
+          },
+          {
+            "source": "azure-storage-common-cpp",
+            "target": "azure-storage-files-datalake-cpp"
+          },
+          {
+            "source": "azure-storage-files-datalake-cpp",
+            "target": "arrow-cpp"
           },
           {
             "source": "backports.zstd",
@@ -347,6 +586,10 @@
           },
           {
             "source": "binutils",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "binutils",
             "target": "clang-compiler-activation"
           },
           {
@@ -368,6 +611,10 @@
           {
             "source": "binutils",
             "target": "ncurses"
+          },
+          {
+            "source": "binutils",
+            "target": "pyarrow"
           },
           {
             "source": "binutils",
@@ -463,6 +710,10 @@
           },
           {
             "source": "boost",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "boost",
             "target": "coal"
           },
           {
@@ -472,6 +723,14 @@
           {
             "source": "boost",
             "target": "pinocchio"
+          },
+          {
+            "source": "boost",
+            "target": "thrift-cpp"
+          },
+          {
+            "source": "brotli",
+            "target": "arrow-cpp"
           },
           {
             "source": "brotli",
@@ -520,6 +779,10 @@
           {
             "source": "bwidget",
             "target": "r-base"
+          },
+          {
+            "source": "bzip2",
+            "target": "arrow-cpp"
           },
           {
             "source": "bzip2",
@@ -615,6 +878,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "clang-compiler-activation"
           },
           {
@@ -636,6 +903,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "ncurses"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "pyarrow"
           },
           {
             "source": "cctools-and-ld64",
@@ -732,6 +1003,14 @@
           {
             "source": "cpp-expected",
             "target": "roboplan"
+          },
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "cpp-opentelemetry-sdk",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "cuda-cccl",
@@ -911,6 +1190,14 @@
           },
           {
             "source": "curl",
+            "target": "aws-sdk-cpp"
+          },
+          {
+            "source": "curl",
+            "target": "azure-core-cpp"
+          },
+          {
+            "source": "curl",
             "target": "cmake"
           },
           {
@@ -919,7 +1206,15 @@
           },
           {
             "source": "curl",
+            "target": "cpp-opentelemetry-sdk"
+          },
+          {
+            "source": "curl",
             "target": "git"
+          },
+          {
+            "source": "curl",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "curl",
@@ -940,6 +1235,10 @@
           {
             "source": "curl",
             "target": "mvapich"
+          },
+          {
+            "source": "curl",
+            "target": "prometheus-cpp"
           },
           {
             "source": "curl",
@@ -975,6 +1274,10 @@
           },
           {
             "source": "cython",
+            "target": "libcst"
+          },
+          {
+            "source": "cython",
             "target": "lxml"
           },
           {
@@ -987,11 +1290,23 @@
           },
           {
             "source": "cython",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "cython",
             "target": "numpy"
           },
           {
             "source": "cython",
+            "target": "pandas"
+          },
+          {
+            "source": "cython",
             "target": "propcache"
+          },
+          {
+            "source": "cython",
+            "target": "pyarrow"
           },
           {
             "source": "cython",
@@ -1442,6 +1757,14 @@
             "target": "llama.cpp"
           },
           {
+            "source": "gflags",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "gflags",
+            "target": "glog"
+          },
+          {
             "source": "giflib",
             "target": "libjxl-split"
           },
@@ -1534,8 +1857,16 @@
             "target": "r-base"
           },
           {
+            "source": "glog",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "glslang",
             "target": "shaderc"
+          },
+          {
+            "source": "gmp",
+            "target": "arrow-cpp"
           },
           {
             "source": "gmp",
@@ -1583,6 +1914,10 @@
           },
           {
             "source": "gmp",
+            "target": "pyarrow"
+          },
+          {
+            "source": "gmp",
             "target": "r-base"
           },
           {
@@ -1622,6 +1957,10 @@
             "target": "harfbuzz"
           },
           {
+            "source": "google-cloud-cpp-core",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "gperf",
             "target": "seccomp-split"
           },
@@ -1635,7 +1974,19 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "cpp-opentelemetry-sdk"
+          },
+          {
+            "source": "grpc-cpp",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "grpc-cpp",
@@ -1652,6 +2003,10 @@
           {
             "source": "gtest",
             "target": "abseil-cpp"
+          },
+          {
+            "source": "gtest",
+            "target": "arrow-cpp"
           },
           {
             "source": "gtest",
@@ -1843,6 +2198,10 @@
           },
           {
             "source": "isl",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "isl",
             "target": "clang-compiler-activation"
           },
           {
@@ -1864,6 +2223,10 @@
           {
             "source": "isl",
             "target": "ncurses"
+          },
+          {
+            "source": "isl",
+            "target": "pyarrow"
           },
           {
             "source": "isl",
@@ -2102,6 +2465,14 @@
             "target": "shs-libcxi"
           },
           {
+            "source": "libcrc32c",
+            "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "libcst",
+            "target": "pyarrow"
+          },
+          {
             "source": "libcublas",
             "target": "cudnn"
           },
@@ -2223,6 +2594,10 @@
           },
           {
             "source": "libcxx",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "libcxx",
             "target": "clang-compiler-activation"
           },
           {
@@ -2244,6 +2619,10 @@
           {
             "source": "libcxx",
             "target": "ncurses"
+          },
+          {
+            "source": "libcxx",
+            "target": "pyarrow"
           },
           {
             "source": "libcxx",
@@ -2324,6 +2703,10 @@
           {
             "source": "libevent",
             "target": "openpmix"
+          },
+          {
+            "source": "libevent",
+            "target": "thrift-cpp"
           },
           {
             "source": "libev",
@@ -2455,6 +2838,10 @@
           },
           {
             "source": "libiconv",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "libiconv",
             "target": "clang-compiler-activation"
           },
           {
@@ -2520,6 +2907,10 @@
           {
             "source": "libiconv",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libiconv",
+            "target": "pyarrow"
           },
           {
             "source": "libiconv",
@@ -2751,6 +3142,18 @@
           },
           {
             "source": "libprotobuf",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "libprotobuf",
+            "target": "cpp-opentelemetry-sdk"
+          },
+          {
+            "source": "libprotobuf",
+            "target": "google-cloud-cpp-core"
+          },
+          {
+            "source": "libprotobuf",
             "target": "grpc-cpp"
           },
           {
@@ -2764,6 +3167,10 @@
           {
             "source": "libprotobuf",
             "target": "openvino"
+          },
+          {
+            "source": "libprotobuf",
+            "target": "orc"
           },
           {
             "source": "libprotobuf",
@@ -2916,6 +3323,10 @@
           {
             "source": "libusb",
             "target": "sdl"
+          },
+          {
+            "source": "libutf8proc",
+            "target": "arrow-cpp"
           },
           {
             "source": "libuuid",
@@ -3143,7 +3554,15 @@
           },
           {
             "source": "libxml2",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "libxml2",
             "target": "at-spi2-core"
+          },
+          {
+            "source": "libxml2",
+            "target": "azure-storage-common-cpp"
           },
           {
             "source": "libxml2",
@@ -3207,6 +3626,10 @@
           },
           {
             "source": "libxml2",
+            "target": "pyarrow"
+          },
+          {
+            "source": "libxml2",
             "target": "qt-main"
           },
           {
@@ -3255,6 +3678,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "llvmdev",
             "target": "cctools-and-ld64"
           },
           {
@@ -3291,6 +3718,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "pyarrow"
+          },
+          {
+            "source": "llvmdev",
             "target": "r-base"
           },
           {
@@ -3319,11 +3750,23 @@
           },
           {
             "source": "lz4-c",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "lz4-c",
             "target": "libarchive"
           },
           {
             "source": "lz4-c",
             "target": "micromamba"
+          },
+          {
+            "source": "lz4-c",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "lz4-c",
+            "target": "orc"
           },
           {
             "source": "lz4-c",
@@ -3402,8 +3845,16 @@
             "target": "mold"
           },
           {
+            "source": "minio-server",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "ml_dtypes",
             "target": "onnx"
+          },
+          {
+            "source": "mpc",
+            "target": "arrow-cpp"
           },
           {
             "source": "mpc",
@@ -3435,6 +3886,10 @@
           },
           {
             "source": "mpc",
+            "target": "pyarrow"
+          },
+          {
+            "source": "mpc",
             "target": "r-base"
           },
           {
@@ -3456,6 +3911,10 @@
           {
             "source": "mpdecimal",
             "target": "python"
+          },
+          {
+            "source": "mpfr",
+            "target": "arrow-cpp"
           },
           {
             "source": "mpfr",
@@ -3488,6 +3947,10 @@
           {
             "source": "mpfr",
             "target": "ncurses"
+          },
+          {
+            "source": "mpfr",
+            "target": "pyarrow"
           },
           {
             "source": "mpfr",
@@ -3594,6 +4057,10 @@
             "target": "pytokens"
           },
           {
+            "source": "nanoarrow",
+            "target": "azure-storage-blobs-cpp"
+          },
+          {
             "source": "nanoflann",
             "target": "roboplan"
           },
@@ -3655,7 +4122,15 @@
           },
           {
             "source": "ninja",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "ninja",
             "target": "numpy"
+          },
+          {
+            "source": "ninja",
+            "target": "pandas"
           },
           {
             "source": "ninja",
@@ -3668,6 +4143,18 @@
           {
             "source": "ninja",
             "target": "xgrammar"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "cpp-opentelemetry-sdk"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "nlohmann_json",
@@ -3688,6 +4175,10 @@
           {
             "source": "nlohmann_json",
             "target": "triton"
+          },
+          {
+            "source": "nodejs",
+            "target": "arrow-cpp"
           },
           {
             "source": "nodejs",
@@ -3755,11 +4246,19 @@
           },
           {
             "source": "numpy",
+            "target": "pandas"
+          },
+          {
+            "source": "numpy",
             "target": "pinocchio"
           },
           {
             "source": "numpy",
             "target": "proxsuite"
+          },
+          {
+            "source": "numpy",
+            "target": "pyarrow"
           },
           {
             "source": "numpy",
@@ -3883,6 +4382,10 @@
           },
           {
             "source": "openmp",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "openmp",
             "target": "clang-compiler-activation"
           },
           {
@@ -3931,6 +4434,10 @@
           },
           {
             "source": "openmp",
+            "target": "pyarrow"
+          },
+          {
+            "source": "openmp",
             "target": "pytorch-cpu"
           },
           {
@@ -3959,11 +4466,27 @@
           },
           {
             "source": "openssl",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "openssl",
             "target": "aws-c-cal"
           },
           {
             "source": "openssl",
             "target": "aws-c-s3"
+          },
+          {
+            "source": "openssl",
+            "target": "azure-core-cpp"
+          },
+          {
+            "source": "openssl",
+            "target": "azure-identity-cpp"
+          },
+          {
+            "source": "openssl",
+            "target": "azure-storage-common-cpp"
           },
           {
             "source": "openssl",
@@ -3984,6 +4507,10 @@
           {
             "source": "openssl",
             "target": "git"
+          },
+          {
+            "source": "openssl",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "openssl",
@@ -4103,6 +4630,10 @@
           },
           {
             "source": "openssl",
+            "target": "thrift-cpp"
+          },
+          {
+            "source": "openssl",
             "target": "tokenizers"
           },
           {
@@ -4120,6 +4651,10 @@
           {
             "source": "optree",
             "target": "pytorch-cpu"
+          },
+          {
+            "source": "orc",
+            "target": "arrow-cpp"
           },
           {
             "source": "outlines-core",
@@ -4260,6 +4795,10 @@
           {
             "source": "postgresql",
             "target": "qt-main"
+          },
+          {
+            "source": "prometheus-cpp",
+            "target": "cpp-opentelemetry-sdk"
           },
           {
             "source": "propcache",
@@ -4555,6 +5094,10 @@
           },
           {
             "source": "python",
+            "target": "libcst"
+          },
+          {
+            "source": "python",
             "target": "libsdformat"
           },
           {
@@ -4615,7 +5158,15 @@
           },
           {
             "source": "python",
+            "target": "multiprocess"
+          },
+          {
+            "source": "python",
             "target": "mypy"
+          },
+          {
+            "source": "python",
+            "target": "nanoarrow"
           },
           {
             "source": "python",
@@ -4651,6 +5202,10 @@
           },
           {
             "source": "python",
+            "target": "pandas"
+          },
+          {
+            "source": "python",
             "target": "pillow"
           },
           {
@@ -4680,6 +5235,10 @@
           {
             "source": "python",
             "target": "py-rattler"
+          },
+          {
+            "source": "python",
+            "target": "pyarrow"
           },
           {
             "source": "python",
@@ -4872,6 +5431,10 @@
           {
             "source": "pyyaml",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "pyyaml",
+            "target": "libcst"
           },
           {
             "source": "pyyaml",
@@ -5254,6 +5817,10 @@
             "target": "r-roxygen2"
           },
           {
+            "source": "rapidjson",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "rattler-build",
             "target": "conda-forge-ci-setup"
           },
@@ -5276,6 +5843,10 @@
           {
             "source": "rdma-core",
             "target": "ucx-split"
+          },
+          {
+            "source": "re2",
+            "target": "arrow-cpp"
           },
           {
             "source": "re2",
@@ -5439,6 +6010,10 @@
           },
           {
             "source": "simdjson",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "simdjson",
             "target": "mamba"
           },
           {
@@ -5451,7 +6026,15 @@
           },
           {
             "source": "snappy",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "snappy",
             "target": "openvino"
+          },
+          {
+            "source": "snappy",
+            "target": "orc"
           },
           {
             "source": "soxr",
@@ -5484,6 +6067,10 @@
           {
             "source": "spral",
             "target": "ipopt"
+          },
+          {
+            "source": "sqlite",
+            "target": "arrow-cpp"
           },
           {
             "source": "sqlite",
@@ -5560,6 +6147,10 @@
           {
             "source": "texinfo",
             "target": "check"
+          },
+          {
+            "source": "thrift-cpp",
+            "target": "arrow-cpp"
           },
           {
             "source": "tiktoken",
@@ -5658,6 +6249,10 @@
             "target": "pinocchio"
           },
           {
+            "source": "uriparser",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "util-linux",
             "target": "systemd"
           },
@@ -5743,6 +6338,10 @@
           },
           {
             "source": "winpthreads",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "winpthreads",
             "target": "clang-compiler-activation"
           },
           {
@@ -5764,6 +6363,10 @@
           {
             "source": "winpthreads",
             "target": "ncurses"
+          },
+          {
+            "source": "winpthreads",
+            "target": "pyarrow"
           },
           {
             "source": "winpthreads",
@@ -6490,6 +7093,10 @@
             "target": "mvapich"
           },
           {
+            "source": "xsimd",
+            "target": "arrow-cpp"
+          },
+          {
             "source": "xxhash",
             "target": "libplacebo"
           },
@@ -6591,6 +7198,10 @@
           },
           {
             "source": "yaml",
+            "target": "libcst"
+          },
+          {
+            "source": "yaml",
             "target": "pyyaml"
           },
           {
@@ -6615,6 +7226,10 @@
           },
           {
             "source": "zlib",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "zlib",
             "target": "assimp"
           },
           {
@@ -6624,6 +7239,10 @@
           {
             "source": "zlib",
             "target": "atk"
+          },
+          {
+            "source": "zlib",
+            "target": "aws-sdk-cpp"
           },
           {
             "source": "zlib",
@@ -6652,6 +7271,10 @@
           {
             "source": "zlib",
             "target": "cmake"
+          },
+          {
+            "source": "zlib",
+            "target": "cpp-opentelemetry-sdk"
           },
           {
             "source": "zlib",
@@ -6704,6 +7327,10 @@
           {
             "source": "zlib",
             "target": "gobject-introspection"
+          },
+          {
+            "source": "zlib",
+            "target": "google-cloud-cpp-core"
           },
           {
             "source": "zlib",
@@ -6851,6 +7478,10 @@
           },
           {
             "source": "zlib",
+            "target": "orc"
+          },
+          {
+            "source": "zlib",
             "target": "pango"
           },
           {
@@ -6867,11 +7498,19 @@
           },
           {
             "source": "zlib",
+            "target": "prometheus-cpp"
+          },
+          {
+            "source": "zlib",
             "target": "protobuf"
           },
           {
             "source": "zlib",
             "target": "pulseaudio"
+          },
+          {
+            "source": "zlib",
+            "target": "pyarrow"
           },
           {
             "source": "zlib",
@@ -6919,6 +7558,10 @@
           },
           {
             "source": "zlib",
+            "target": "thrift-cpp"
+          },
+          {
+            "source": "zlib",
             "target": "tktable"
           },
           {
@@ -6960,6 +7603,10 @@
           {
             "source": "zstandard",
             "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "zstd",
+            "target": "arrow-cpp"
           },
           {
             "source": "zstd",
@@ -7039,6 +7686,10 @@
           },
           {
             "source": "zstd",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "zstd",
             "target": "ncurses"
           },
           {
@@ -7051,7 +7702,15 @@
           },
           {
             "source": "zstd",
+            "target": "orc"
+          },
+          {
+            "source": "zstd",
             "target": "postgresql"
+          },
+          {
+            "source": "zstd",
+            "target": "pyarrow"
           },
           {
             "source": "zstd",
@@ -7147,6 +7806,12 @@
             }
           },
           {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
             "id": "assimp",
             "payload": {
               "__lazy_json__": "node_attrs/assimp.json"
@@ -7213,6 +7878,12 @@
             }
           },
           {
+            "id": "aws-c-event-stream",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-event-stream.json"
+            }
+          },
+          {
             "id": "aws-c-http",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-http.json"
@@ -7222,6 +7893,12 @@
             "id": "aws-c-io",
             "payload": {
               "__lazy_json__": "node_attrs/aws-c-io.json"
+            }
+          },
+          {
+            "id": "aws-c-mqtt",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-c-mqtt.json"
             }
           },
           {
@@ -7243,9 +7920,51 @@
             }
           },
           {
+            "id": "aws-crt-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-crt-cpp.json"
+            }
+          },
+          {
+            "id": "aws-sdk-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/aws-sdk-cpp.json"
+            }
+          },
+          {
             "id": "awscli",
             "payload": {
               "__lazy_json__": "node_attrs/awscli.json"
+            }
+          },
+          {
+            "id": "azure-core-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-core-cpp.json"
+            }
+          },
+          {
+            "id": "azure-identity-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-identity-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-blobs-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-blobs-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-common-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-common-cpp.json"
+            }
+          },
+          {
+            "id": "azure-storage-files-datalake-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/azure-storage-files-datalake-cpp.json"
             }
           },
           {
@@ -7432,6 +8151,12 @@
             "id": "cpp-expected",
             "payload": {
               "__lazy_json__": "node_attrs/cpp-expected.json"
+            }
+          },
+          {
+            "id": "cpp-opentelemetry-sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/cpp-opentelemetry-sdk.json"
             }
           },
           {
@@ -7669,6 +8394,12 @@
             }
           },
           {
+            "id": "gflags",
+            "payload": {
+              "__lazy_json__": "node_attrs/gflags.json"
+            }
+          },
+          {
             "id": "giflib",
             "payload": {
               "__lazy_json__": "node_attrs/giflib.json"
@@ -7684,6 +8415,12 @@
             "id": "glib",
             "payload": {
               "__lazy_json__": "node_attrs/glib.json"
+            }
+          },
+          {
+            "id": "glog",
+            "payload": {
+              "__lazy_json__": "node_attrs/glog.json"
             }
           },
           {
@@ -7708,6 +8445,12 @@
             "id": "gobject-introspection",
             "payload": {
               "__lazy_json__": "node_attrs/gobject-introspection.json"
+            }
+          },
+          {
+            "id": "google-cloud-cpp-core",
+            "payload": {
+              "__lazy_json__": "node_attrs/google-cloud-cpp-core.json"
             }
           },
           {
@@ -7996,6 +8739,18 @@
             "id": "libconfig",
             "payload": {
               "__lazy_json__": "node_attrs/libconfig.json"
+            }
+          },
+          {
+            "id": "libcrc32c",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcrc32c.json"
+            }
+          },
+          {
+            "id": "libcst",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcst.json"
             }
           },
           {
@@ -8353,6 +9108,12 @@
             }
           },
           {
+            "id": "libutf8proc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libutf8proc.json"
+            }
+          },
+          {
             "id": "libuuid",
             "payload": {
               "__lazy_json__": "node_attrs/libuuid.json"
@@ -8539,6 +9300,12 @@
             }
           },
           {
+            "id": "minio-server",
+            "payload": {
+              "__lazy_json__": "node_attrs/minio-server.json"
+            }
+          },
+          {
             "id": "ml_dtypes",
             "payload": {
               "__lazy_json__": "node_attrs/ml_dtypes.json"
@@ -8605,6 +9372,12 @@
             }
           },
           {
+            "id": "multiprocess",
+            "payload": {
+              "__lazy_json__": "node_attrs/multiprocess.json"
+            }
+          },
+          {
             "id": "mumps",
             "payload": {
               "__lazy_json__": "node_attrs/mumps.json"
@@ -8620,6 +9393,12 @@
             "id": "mypy",
             "payload": {
               "__lazy_json__": "node_attrs/mypy.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
             }
           },
           {
@@ -8821,6 +9600,12 @@
             }
           },
           {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
             "id": "outlines-core",
             "payload": {
               "__lazy_json__": "node_attrs/outlines-core.json"
@@ -8830,6 +9615,12 @@
             "id": "p11-kit",
             "payload": {
               "__lazy_json__": "node_attrs/p11-kit.json"
+            }
+          },
+          {
+            "id": "pandas",
+            "payload": {
+              "__lazy_json__": "node_attrs/pandas.json"
             }
           },
           {
@@ -8941,6 +9732,12 @@
             }
           },
           {
+            "id": "prometheus-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/prometheus-cpp.json"
+            }
+          },
+          {
             "id": "propcache",
             "payload": {
               "__lazy_json__": "node_attrs/propcache.json"
@@ -8986,6 +9783,12 @@
             "id": "py-rattler",
             "payload": {
               "__lazy_json__": "node_attrs/py-rattler.json"
+            }
+          },
+          {
+            "id": "pyarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyarrow.json"
             }
           },
           {
@@ -9250,6 +10053,12 @@
             "id": "rapidfuzz",
             "payload": {
               "__lazy_json__": "node_attrs/rapidfuzz.json"
+            }
+          },
+          {
+            "id": "rapidjson",
+            "payload": {
+              "__lazy_json__": "node_attrs/rapidjson.json"
             }
           },
           {
@@ -9541,6 +10350,12 @@
             }
           },
           {
+            "id": "thrift-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/thrift-cpp.json"
+            }
+          },
+          {
             "id": "tiktoken",
             "payload": {
               "__lazy_json__": "node_attrs/tiktoken.json"
@@ -9640,6 +10455,12 @@
             "id": "urdfdom_headers",
             "payload": {
               "__lazy_json__": "node_attrs/urdfdom_headers.json"
+            }
+          },
+          {
+            "id": "uriparser",
+            "payload": {
+              "__lazy_json__": "node_attrs/uriparser.json"
             }
           },
           {
@@ -9937,6 +10758,12 @@
             }
           },
           {
+            "id": "xsimd",
+            "payload": {
+              "__lazy_json__": "node_attrs/xsimd.json"
+            }
+          },
+          {
             "id": "xxhash",
             "payload": {
               "__lazy_json__": "node_attrs/xxhash.json"
@@ -10077,6 +10904,7 @@
         "conda-libmamba-solver",
         "constructor",
         "coreutils",
+        "datasets",
         "ffmpeg",
         "git",
         "graphviz",
@@ -10143,6 +10971,7 @@
         "fmt",
         "fribidi",
         "gendef",
+        "gflags",
         "giflib",
         "gmp",
         "gperf",
@@ -10163,6 +10992,7 @@
         "libaec",
         "libcap",
         "libconfig",
+        "libcrc32c",
         "libcufft",
         "libcurand",
         "libcxx",
@@ -10189,6 +11019,7 @@
         "libunistring",
         "libunwind",
         "liburing",
+        "libutf8proc",
         "libuuid",
         "libuv",
         "libvpx",
@@ -10200,6 +11031,7 @@
         "mbedtls",
         "metis",
         "mimalloc",
+        "minio-server",
         "mpdecimal",
         "mpg123",
         "nanoflann",
@@ -10224,6 +11056,7 @@
         "pkgconf",
         "pugixml",
         "qhull",
+        "rapidjson",
         "rav1e",
         "reproc",
         "rhash",
@@ -10240,6 +11073,7 @@
         "tinyxml2",
         "tzcode",
         "urdfdom_headers",
+        "uriparser",
         "vulkan-headers",
         "winpthreads",
         "x264",
@@ -10247,6 +11081,7 @@
         "xbyak",
         "xorg-util-macros",
         "xpmem",
+        "xsimd",
         "xxhash",
         "xz",
         "yaml",
