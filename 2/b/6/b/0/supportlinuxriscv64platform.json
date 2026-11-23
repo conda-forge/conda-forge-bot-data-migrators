@@ -959,10 +959,6 @@
           },
           {
             "source": "cuda-cudart",
-            "target": "openmpi"
-          },
-          {
-            "source": "cuda-cudart",
             "target": "tensorrt"
           },
           {
@@ -976,6 +972,10 @@
           {
             "source": "cuda-cudart",
             "target": "triton"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "ucc"
           },
           {
             "source": "cuda-cudart",
@@ -1023,15 +1023,15 @@
           },
           {
             "source": "cuda-nvml-dev",
-            "target": "openmpi"
-          },
-          {
-            "source": "cuda-nvml-dev",
             "target": "torchaudio"
           },
           {
             "source": "cuda-nvml-dev",
             "target": "torchcodec"
+          },
+          {
+            "source": "cuda-nvml-dev",
+            "target": "ucc"
           },
           {
             "source": "cuda-nvml-dev",
@@ -3975,11 +3975,11 @@
           },
           {
             "source": "nccl",
-            "target": "openmpi"
+            "target": "torchcodec"
           },
           {
             "source": "nccl",
-            "target": "torchcodec"
+            "target": "ucc"
           },
           {
             "source": "ncurses",
@@ -5747,7 +5747,7 @@
           },
           {
             "source": "rdma-core",
-            "target": "openmpi"
+            "target": "ucc"
           },
           {
             "source": "rdma-core",
@@ -6130,12 +6130,20 @@
             "target": "postgresql"
           },
           {
+            "source": "ucc",
+            "target": "openmpi"
+          },
+          {
             "source": "ucx-split",
             "target": "mpich"
           },
           {
             "source": "ucx-split",
             "target": "openmpi"
+          },
+          {
+            "source": "ucx-split",
+            "target": "ucc"
           },
           {
             "source": "urdfdom_headers",
@@ -10326,6 +10334,12 @@
             "id": "tzcode",
             "payload": {
               "__lazy_json__": "node_attrs/tzcode.json"
+            }
+          },
+          {
+            "id": "ucc",
+            "payload": {
+              "__lazy_json__": "node_attrs/ucc.json"
             }
           },
           {
