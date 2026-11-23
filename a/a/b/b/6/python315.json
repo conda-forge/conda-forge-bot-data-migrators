@@ -155,6 +155,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/windows-curses.json"
             }
+          },
+          {
+            "id": "matrix-sdk-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/matrix-sdk-python.json"
+            }
           }
         ]
       }
@@ -3001,6 +3007,10 @@
           {
             "source": "backports.zstd",
             "target": "cfdm"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "cftime"
           },
           {
             "source": "backports.zstd",
@@ -6868,6 +6878,10 @@
           },
           {
             "source": "brotli",
+            "target": "cftime"
+          },
+          {
+            "source": "brotli",
             "target": "chalice"
           },
           {
@@ -10411,6 +10425,62 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cftime",
+            "target": "agg-regrid"
+          },
+          {
+            "source": "cftime",
+            "target": "arm_pyart"
+          },
+          {
+            "source": "cftime",
+            "target": "cf-python"
+          },
+          {
+            "source": "cftime",
+            "target": "cfdm"
+          },
+          {
+            "source": "cftime",
+            "target": "cis"
+          },
+          {
+            "source": "cftime",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cftime",
+            "target": "ilamb"
+          },
+          {
+            "source": "cftime",
+            "target": "input4mips-validation"
+          },
+          {
+            "source": "cftime",
+            "target": "metoffice-afterburner"
+          },
+          {
+            "source": "cftime",
+            "target": "netcdf4"
+          },
+          {
+            "source": "cftime",
+            "target": "pyart_mch"
+          },
+          {
+            "source": "cftime",
+            "target": "pygnome"
+          },
+          {
+            "source": "cftime",
+            "target": "python-mint"
+          },
+          {
+            "source": "cftime",
+            "target": "umfive"
+          },
+          {
             "source": "cgal",
             "target": "conda-forge-pinning"
           },
@@ -12825,6 +12895,10 @@
           {
             "source": "cython",
             "target": "cexprtk"
+          },
+          {
+            "source": "cython",
+            "target": "cftime"
           },
           {
             "source": "cython",
@@ -29591,6 +29665,10 @@
             "target": "zipline-reloaded"
           },
           {
+            "source": "matrix-sdk-python",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "matrixprofile",
             "target": "conda-forge-pinning"
           },
@@ -34625,6 +34703,10 @@
           {
             "source": "numpy",
             "target": "cfdm"
+          },
+          {
+            "source": "numpy",
+            "target": "cftime"
           },
           {
             "source": "numpy",
@@ -46864,6 +46946,10 @@
           },
           {
             "source": "psutil",
+            "target": "cftime"
+          },
+          {
+            "source": "psutil",
             "target": "cherab-imas"
           },
           {
@@ -57341,6 +57427,10 @@
           {
             "source": "pyyaml",
             "target": "cfdm"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cftime"
           },
           {
             "source": "pyyaml",
@@ -70152,6 +70242,10 @@
           },
           {
             "source": "tbb",
+            "target": "cftime"
+          },
+          {
+            "source": "tbb",
             "target": "cgal"
           },
           {
@@ -74381,6 +74475,10 @@
           {
             "source": "tbb",
             "target": "matplotlib"
+          },
+          {
+            "source": "tbb",
+            "target": "matrix-sdk-python"
           },
           {
             "source": "tbb",
@@ -83768,6 +83866,10 @@
           },
           {
             "source": "ujson",
+            "target": "cftime"
+          },
+          {
+            "source": "ujson",
             "target": "conda-forge-pinning"
           },
           {
@@ -85333,6 +85435,10 @@
           {
             "source": "wcwidth",
             "target": "cellpy"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cftime"
           },
           {
             "source": "wcwidth",
@@ -90141,6 +90247,12 @@
             "id": "cfncluster",
             "payload": {
               "__lazy_json__": "node_attrs/cfncluster.json"
+            }
+          },
+          {
+            "id": "cftime",
+            "payload": {
+              "__lazy_json__": "node_attrs/cftime.json"
             }
           },
           {
@@ -107493,6 +107605,12 @@
             "id": "windows-curses",
             "payload": {
               "__lazy_json__": "node_attrs/windows-curses.json"
+            }
+          },
+          {
+            "id": "matrix-sdk-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/matrix-sdk-python.json"
             }
           }
         ]
