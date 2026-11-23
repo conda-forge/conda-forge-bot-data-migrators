@@ -58,6 +58,10 @@
         "links": [
           {
             "source": "tbb",
+            "target": "cftime"
+          },
+          {
+            "source": "tbb",
             "target": "python-duckdb"
           },
           {
@@ -67,6 +71,12 @@
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "cftime",
+            "payload": {
+              "__lazy_json__": "node_attrs/cftime.json"
+            }
+          },
           {
             "id": "python-duckdb",
             "payload": {
@@ -516,6 +526,10 @@
           {
             "source": "backports.zstd",
             "target": "catboost"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "cftime"
           },
           {
             "source": "backports.zstd",
@@ -1346,6 +1360,18 @@
             "target": "zstandard"
           },
           {
+            "source": "cftime",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cftime",
+            "target": "netcdf4"
+          },
+          {
+            "source": "cftime",
+            "target": "pyart_mch"
+          },
+          {
             "source": "changeforest",
             "target": "conda-forge-pinning"
           },
@@ -1820,6 +1846,10 @@
           {
             "source": "cython",
             "target": "celiagg"
+          },
+          {
+            "source": "cython",
+            "target": "cftime"
           },
           {
             "source": "cython",
@@ -5167,6 +5197,10 @@
           },
           {
             "source": "numpy",
+            "target": "cftime"
+          },
+          {
+            "source": "numpy",
             "target": "changeforest"
           },
           {
@@ -6999,6 +7033,10 @@
           },
           {
             "source": "psutil",
+            "target": "cftime"
+          },
+          {
+            "source": "psutil",
             "target": "cocoindex"
           },
           {
@@ -8592,6 +8630,10 @@
           {
             "source": "pyyaml",
             "target": "catboost"
+          },
+          {
+            "source": "pyyaml",
+            "target": "cftime"
           },
           {
             "source": "pyyaml",
@@ -10224,6 +10266,10 @@
           {
             "source": "tbb",
             "target": "cffi"
+          },
+          {
+            "source": "tbb",
+            "target": "cftime"
           },
           {
             "source": "tbb",
@@ -12899,6 +12945,10 @@
           },
           {
             "source": "ujson",
+            "target": "cftime"
+          },
+          {
+            "source": "ujson",
             "target": "cocoindex"
           },
           {
@@ -13196,6 +13246,10 @@
           {
             "source": "wcwidth",
             "target": "catboost"
+          },
+          {
+            "source": "wcwidth",
+            "target": "cftime"
           },
           {
             "source": "wcwidth",
@@ -14078,6 +14132,12 @@
             "id": "cffi",
             "payload": {
               "__lazy_json__": "node_attrs/cffi.json"
+            }
+          },
+          {
+            "id": "cftime",
+            "payload": {
+              "__lazy_json__": "node_attrs/cftime.json"
             }
           },
           {
