@@ -5020,10 +5020,6 @@
           },
           {
             "source": "curl",
-            "target": "minio-server"
-          },
-          {
-            "source": "curl",
             "target": "mvapich"
           },
           {
@@ -6421,6 +6417,10 @@
           {
             "source": "git",
             "target": "llama.cpp"
+          },
+          {
+            "source": "git",
+            "target": "minio-server"
           },
           {
             "source": "git",
