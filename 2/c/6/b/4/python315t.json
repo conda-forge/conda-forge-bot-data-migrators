@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - maturin\n        - hypothesis\n        # https://github.com/conda-forge/conda-forge-bot/issues/7237\n        - brotli\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
+    "migrator_ts: 1755739500\n__migrator:\n    commit_message: Rebuild for python 3.15 freethreading\n    migration_number: 1\n    operation: key_add\n    primary_key: python\n    ordering:\n        python:\n            - 3.9.* *_cpython\n            - 3.10.* *_cpython\n            - 3.11.* *_cpython\n            - 3.12.* *_cpython\n            - 3.13.* *_cp313\n            - 3.13.* *_cp313t\n            - 3.14.* *_cp314\n            - 3.14.* *_cp314t\n            - 3.15.* *_cp315\n            - 3.15.* *_cp315t   # new entry\n    longterm: true\n    pr_limit: 20\n    max_solver_attempts: 3  # this will make the bot retry \"not solvable\" stuff 12 times\n    exclude:\n        # this shouldn't attempt to modify the python feedstocks\n        - python\n        - pypy3.6\n        - pypy-meta\n        - cross-python\n        - python_abi\n        # abi3 build that can already be installed with 3.15t\n        - hypothesis\n        - maturin\n        # abi3 build that got built manually\n        - pynacl\n        # https://github.com/conda-forge/conda-forge-bot/issues/7237\n        - brotli\n    exclude_pinned_pkgs: false\n    # if feedstock already has 3.14t migrator this is redundant, but harmless\n    additional_zip_keys:\n        - is_freethreading\n        - is_abi3\n    wait_for_migrators:\n        - python315\n    # intentionally using the same set of packages as 3.14t, at least to start\n    allowlist_file: free-threaded-314.txt\n\npython:\n- 3.15.* *_cp315t\n# additional entries to add for zip_keys\nis_freethreading:\n- true\nis_python_min:\n- false\nis_abi3:\n- false\n",
     "python315t"
   ],
   "class": "MigrationYaml",
@@ -79,8 +79,9 @@
       "pypy-meta",
       "cross-python",
       "python_abi",
-      "maturin",
       "hypothesis",
+      "maturin",
+      "pynacl",
       "brotli"
     ],
     "exclude_pinned_pkgs": false,
@@ -680,10 +681,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "pynacl"
-          },
-          {
-            "source": "backports.zstd",
             "target": "pyodps"
           },
           {
@@ -1257,10 +1254,6 @@
           {
             "source": "cffi",
             "target": "pymunk"
-          },
-          {
-            "source": "cffi",
-            "target": "pynacl"
           },
           {
             "source": "cffi",
@@ -7168,10 +7161,6 @@
           },
           {
             "source": "psutil",
-            "target": "pynacl"
-          },
-          {
-            "source": "psutil",
             "target": "pyproject-fmt"
           },
           {
@@ -7733,62 +7722,6 @@
           {
             "source": "pymupdf",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pynacl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "pynacl",
-            "target": "dulwich"
-          },
-          {
-            "source": "pynacl",
-            "target": "lalinference"
-          },
-          {
-            "source": "pynacl",
-            "target": "lalsimulation"
-          },
-          {
-            "source": "pynacl",
-            "target": "mne-lsl"
-          },
-          {
-            "source": "pynacl",
-            "target": "phasorpy"
-          },
-          {
-            "source": "pynacl",
-            "target": "pyart_mch"
-          },
-          {
-            "source": "pynacl",
-            "target": "pyepr"
-          },
-          {
-            "source": "pynacl",
-            "target": "pyshtools"
-          },
-          {
-            "source": "pynacl",
-            "target": "ray-packages"
-          },
-          {
-            "source": "pynacl",
-            "target": "rosettasciio"
-          },
-          {
-            "source": "pynacl",
-            "target": "scipy"
-          },
-          {
-            "source": "pynacl",
-            "target": "silx"
-          },
-          {
-            "source": "pynacl",
-            "target": "torchaudio"
           },
           {
             "source": "pynini",
@@ -8757,10 +8690,6 @@
           {
             "source": "pyyaml",
             "target": "pyinterp"
-          },
-          {
-            "source": "pyyaml",
-            "target": "pynacl"
           },
           {
             "source": "pyyaml",
@@ -11704,10 +11633,6 @@
           },
           {
             "source": "tbb",
-            "target": "pynacl"
-          },
-          {
-            "source": "tbb",
             "target": "pynini"
           },
           {
@@ -13004,10 +12929,6 @@
           },
           {
             "source": "ujson",
-            "target": "pynacl"
-          },
-          {
-            "source": "ujson",
             "target": "pyproject-fmt"
           },
           {
@@ -13353,10 +13274,6 @@
           {
             "source": "wcwidth",
             "target": "pyflyby"
-          },
-          {
-            "source": "wcwidth",
-            "target": "pynacl"
           },
           {
             "source": "wcwidth",
@@ -16285,12 +16202,6 @@
             "id": "pymupdf",
             "payload": {
               "__lazy_json__": "node_attrs/pymupdf.json"
-            }
-          },
-          {
-            "id": "pynacl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pynacl.json"
             }
           },
           {
