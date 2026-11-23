@@ -55,12 +55,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ansys-mapdl-reader",
-            "payload": {
-              "__lazy_json__": "node_attrs/ansys-mapdl-reader.json"
-            }
-          },
-          {
             "id": "bempp-cl",
             "payload": {
               "__lazy_json__": "node_attrs/bempp-cl.json"
@@ -86868,10 +86862,6 @@
           },
           {
             "source": "wrapt",
-            "target": "ase2sprkkr"
-          },
-          {
-            "source": "wrapt",
             "target": "atom-ml"
           },
           {
@@ -86957,10 +86947,6 @@
           {
             "source": "wrapt",
             "target": "ddtrace"
-          },
-          {
-            "source": "wrapt",
-            "target": "deepmd-kit"
           },
           {
             "source": "wrapt",
