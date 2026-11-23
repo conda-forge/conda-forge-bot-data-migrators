@@ -52,13 +52,24 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "bipedal-locomotion-framework",
+            "target": "biomechanical-analysis-framework"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
             "id": "biomechanical-analysis-framework",
             "payload": {
               "__lazy_json__": "node_attrs/biomechanical-analysis-framework.json"
+            }
+          },
+          {
+            "id": "bipedal-locomotion-framework",
+            "payload": {
+              "__lazy_json__": "node_attrs/bipedal-locomotion-framework.json"
             }
           }
         ]
