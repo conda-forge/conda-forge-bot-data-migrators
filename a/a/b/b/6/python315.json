@@ -149,6 +149,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/vtkbool.json"
             }
+          },
+          {
+            "id": "windows-curses",
+            "payload": {
+              "__lazy_json__": "node_attrs/windows-curses.json"
+            }
           }
         ]
       }
@@ -81318,6 +81324,10 @@
           },
           {
             "source": "tbb",
+            "target": "windows-curses"
+          },
+          {
+            "source": "tbb",
             "target": "winkerberos"
           },
           {
@@ -86778,6 +86788,10 @@
           },
           {
             "source": "windmapper",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "windows-curses",
             "target": "conda-forge-pinning"
           },
           {
@@ -107473,6 +107487,12 @@
             "id": "spherogram",
             "payload": {
               "__lazy_json__": "node_attrs/spherogram.json"
+            }
+          },
+          {
+            "id": "windows-curses",
+            "payload": {
+              "__lazy_json__": "node_attrs/windows-curses.json"
             }
           }
         ]
