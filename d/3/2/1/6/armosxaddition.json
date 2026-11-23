@@ -20563,10 +20563,6 @@
           },
           {
             "source": "curl",
-            "target": "minio-server"
-          },
-          {
-            "source": "curl",
             "target": "mongodb"
           },
           {
@@ -29047,6 +29043,10 @@
           },
           {
             "source": "git",
+            "target": "minio-server"
+          },
+          {
+            "source": "git",
             "target": "mpas_tools"
           },
           {
@@ -35416,10 +35416,6 @@
           {
             "source": "jq",
             "target": "lxml"
-          },
-          {
-            "source": "jq",
-            "target": "minio-server"
           },
           {
             "source": "jq",
