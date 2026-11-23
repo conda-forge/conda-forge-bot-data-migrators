@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "azure-storage-blobs-cpp",
-            "payload": {
-              "__lazy_json__": "node_attrs/azure-storage-blobs-cpp.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -3747,14 +3740,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -9190,12 +9175,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -10931,7 +10910,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
