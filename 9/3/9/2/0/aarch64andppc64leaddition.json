@@ -6779,6 +6779,10 @@
           },
           {
             "source": "bash",
+            "target": "materialx"
+          },
+          {
+            "source": "bash",
             "target": "matplotlib"
           },
           {
@@ -6828,10 +6832,6 @@
           {
             "source": "bash",
             "target": "metaio"
-          },
-          {
-            "source": "bash",
-            "target": "metis"
           },
           {
             "source": "bash",
@@ -18951,6 +18951,10 @@
           },
           {
             "source": "cmake",
+            "target": "materialx"
+          },
+          {
+            "source": "cmake",
             "target": "matrixswitch"
           },
           {
@@ -18980,10 +18984,6 @@
           {
             "source": "cmake",
             "target": "mesalib"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -21492,6 +21492,10 @@
           {
             "source": "coverage",
             "target": "mapbox_earcut"
+          },
+          {
+            "source": "coverage",
+            "target": "materialx"
           },
           {
             "source": "coverage",
@@ -40427,6 +40431,10 @@
           },
           {
             "source": "libglvnd",
+            "target": "materialx"
+          },
+          {
+            "source": "libglvnd",
             "target": "mesalib"
           },
           {
@@ -45151,6 +45159,10 @@
           },
           {
             "source": "libtool",
+            "target": "materialx"
+          },
+          {
+            "source": "libtool",
             "target": "matplotlib"
           },
           {
@@ -45200,10 +45212,6 @@
           {
             "source": "libtool",
             "target": "metaio"
-          },
-          {
-            "source": "libtool",
-            "target": "metis"
           },
           {
             "source": "libtool",
@@ -53151,6 +53159,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "materialx"
+          },
+          {
+            "source": "markupsafe",
             "target": "mcstas-suite"
           },
           {
@@ -53532,6 +53544,10 @@
           {
             "source": "markupsafe",
             "target": "zenoh-cpp"
+          },
+          {
+            "source": "materialx",
+            "target": "openusd"
           },
           {
             "source": "matplotlib",
@@ -54208,62 +54224,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -57276,6 +57236,10 @@
           {
             "source": "ninja",
             "target": "manif"
+          },
+          {
+            "source": "ninja",
+            "target": "materialx"
           },
           {
             "source": "ninja",
@@ -66435,6 +66399,10 @@
           },
           {
             "source": "pkg-config",
+            "target": "materialx"
+          },
+          {
+            "source": "pkg-config",
             "target": "matplotlib"
           },
           {
@@ -73584,6 +73552,10 @@
           {
             "source": "python",
             "target": "markupsafe"
+          },
+          {
+            "source": "python",
+            "target": "materialx"
           },
           {
             "source": "python",
@@ -99291,6 +99263,10 @@
           },
           {
             "source": "xorg-libx11",
+            "target": "materialx"
+          },
+          {
+            "source": "xorg-libx11",
             "target": "matplotlib"
           },
           {
@@ -100667,6 +100643,10 @@
           },
           {
             "source": "xorg-libxt",
+            "target": "materialx"
+          },
+          {
+            "source": "xorg-libxt",
             "target": "ncl"
           },
           {
@@ -101000,6 +100980,10 @@
           {
             "source": "xorg-util-macros",
             "target": "magics-metview"
+          },
+          {
+            "source": "xorg-util-macros",
+            "target": "materialx"
           },
           {
             "source": "xorg-util-macros",
@@ -111993,12 +111977,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "metplus",
             "payload": {
               "__lazy_json__": "node_attrs/metplus.json"
@@ -120822,6 +120800,12 @@
             "id": "typst-gather",
             "payload": {
               "__lazy_json__": "node_attrs/typst-gather.json"
+            }
+          },
+          {
+            "id": "materialx",
+            "payload": {
+              "__lazy_json__": "node_attrs/materialx.json"
             }
           },
           {
