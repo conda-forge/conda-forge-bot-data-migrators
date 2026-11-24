@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "migrator_ts: 2026-11-15T06:48:55+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\n  commit_message: Update aws-* (November'26)\n  automerge: true\n  exclude_pinned_pkgs: false\naws_c_http:\n  - \"1.2\"\naws_c_s3:\n  - \"1.5\"\naws_checksums:\n  - 1.0.1\naws_crt_cpp:\n  - 0.43.9\ns2n:\n  - 1.7.14\n",
+    "migrator_ts: 2026-11-15T06:48:55+01:00\n__migrator:\n  kind: version\n  migration_number: 1\n  bump_number: 1\n  commit_message: Update aws-* (November'26)\n  automerge: true\n  exclude_pinned_pkgs: false\naws_c_http:\n  - \"1.2\"\naws_c_s3:\n  - \"1.5\"\naws_checksums:\n  - 1.0.1\naws_crt_cpp:\n  - 0.43.9\naws_sdk_cpp:\n  - 1.11.931\ns2n:\n  - 1.7.14\n",
     "aws_c_nov26"
   ],
   "class": "MigrationYaml",
@@ -53,7 +53,32 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "khiops-driver-s3",
+            "payload": {
+              "__lazy_json__": "node_attrs/khiops-driver-s3.json"
+            }
+          },
+          {
+            "id": "nvidia-dali-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
+            }
+          }
+        ]
       }
     },
     "exclude_pinned_pkgs": false,
@@ -99,6 +124,18 @@
           }
         },
         "links": [
+          {
+            "source": "arcticdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "bodo"
+          },
           {
             "source": "arrow-cpp",
             "target": "conda-forge-pinning"
@@ -221,6 +258,10 @@
           },
           {
             "source": "aws-crt-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "aws-crt-cpp",
             "target": "arrow-cpp"
           },
           {
@@ -233,7 +274,15 @@
           },
           {
             "source": "aws-crt-cpp",
+            "target": "khiops-driver-s3"
+          },
+          {
+            "source": "aws-crt-cpp",
             "target": "tiledb"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "arcticdb"
           },
           {
             "source": "aws-sdk-cpp",
@@ -241,7 +290,19 @@
           },
           {
             "source": "aws-sdk-cpp",
+            "target": "bodo"
+          },
+          {
+            "source": "aws-sdk-cpp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "khiops-driver-s3"
+          },
+          {
+            "source": "aws-sdk-cpp",
+            "target": "nvidia-dali-python"
           },
           {
             "source": "aws-sdk-cpp",
@@ -252,7 +313,23 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "bodo",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "hdf5",
+            "target": "bodo"
+          },
+          {
+            "source": "hdf5",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "khiops-driver-s3",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nvidia-dali-python",
             "target": "conda-forge-pinning"
           },
           {
@@ -274,6 +351,12 @@
         ],
         "multigraph": false,
         "nodes": [
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
           {
             "id": "arrow-cpp",
             "payload": {
@@ -329,6 +412,12 @@
             }
           },
           {
+            "id": "bodo",
+            "payload": {
+              "__lazy_json__": "node_attrs/bodo.json"
+            }
+          },
+          {
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
@@ -338,6 +427,18 @@
             "id": "hdf5",
             "payload": {
               "__lazy_json__": "node_attrs/hdf5.json"
+            }
+          },
+          {
+            "id": "khiops-driver-s3",
+            "payload": {
+              "__lazy_json__": "node_attrs/khiops-driver-s3.json"
+            }
+          },
+          {
+            "id": "nvidia-dali-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
             }
           },
           {
@@ -366,6 +467,7 @@
         "aws-c-s3",
         "aws-checksums",
         "aws-crt-cpp",
+        "aws-sdk-cpp",
         "s2n"
       ]
     },
@@ -456,7 +558,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
