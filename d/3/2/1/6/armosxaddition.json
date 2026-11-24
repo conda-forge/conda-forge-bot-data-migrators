@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "asyncmy",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncmy.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -520,10 +527,6 @@
           {
             "source": "aiohttp",
             "target": "libcst"
-          },
-          {
-            "source": "aiohttp",
-            "target": "litellm"
           },
           {
             "source": "aiohttp",
@@ -4535,10 +4538,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "litellm"
-          },
-          {
-            "source": "backports.zstd",
             "target": "llama-cpp-python"
           },
           {
@@ -8287,10 +8286,6 @@
           },
           {
             "source": "brotli",
-            "target": "litellm"
-          },
-          {
-            "source": "brotli",
             "target": "llama-cpp-python"
           },
           {
@@ -10263,10 +10258,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "fastuuid"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "fenics-basix"
           },
           {
@@ -10424,10 +10415,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "librsvg"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "litellm"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -12480,6 +12467,10 @@
           {
             "source": "ckzg",
             "target": "web3"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "asyncmy"
           },
           {
             "source": "clang-compiler-activation",
@@ -14799,10 +14790,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -14852,6 +14839,10 @@
           {
             "source": "cmake",
             "target": "mlx"
+          },
+          {
+            "source": "cmake",
+            "target": "moab"
           },
           {
             "source": "cmake",
@@ -14908,6 +14899,10 @@
           {
             "source": "cmake",
             "target": "multinest"
+          },
+          {
+            "source": "cmake",
+            "target": "mumps"
           },
           {
             "source": "cmake",
@@ -17963,10 +17958,6 @@
           },
           {
             "source": "coverage",
-            "target": "litellm"
-          },
-          {
-            "source": "coverage",
             "target": "llama-cpp-python"
           },
           {
@@ -19539,6 +19530,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "asyncmy"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "atheris"
           },
           {
@@ -20856,6 +20851,10 @@
           {
             "source": "cython",
             "target": "astroscrappy"
+          },
+          {
+            "source": "cython",
+            "target": "asyncmy"
           },
           {
             "source": "cython",
@@ -26104,10 +26103,6 @@
           {
             "source": "fastjet-cxx",
             "target": "pythia8"
-          },
-          {
-            "source": "fastuuid",
-            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -34427,10 +34422,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "litellm"
-          },
-          {
-            "source": "hypothesis",
             "target": "llama-cpp-python"
           },
           {
@@ -35380,10 +35371,6 @@
           {
             "source": "jemalloc",
             "target": "tmux"
-          },
-          {
-            "source": "jiter",
-            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -46783,10 +46770,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "metplus"
           },
           {
@@ -50911,10 +50894,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "litellm"
-          },
-          {
-            "source": "markupsafe",
             "target": "llama-cpp-python"
           },
           {
@@ -52614,86 +52593,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "cadet"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cppad-mixed"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "finesse"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "moab"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "photospline"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-sparse"
-          },
-          {
-            "source": "metis",
-            "target": "scikit-umfpack"
-          },
-          {
-            "source": "metis",
-            "target": "scilab"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -54084,10 +53983,6 @@
           {
             "source": "mypy",
             "target": "libcst"
-          },
-          {
-            "source": "mypy",
-            "target": "litellm"
           },
           {
             "source": "mypy",
@@ -61476,6 +61371,10 @@
           {
             "source": "numpy",
             "target": "sensormapgeo"
+          },
+          {
+            "source": "numpy",
+            "target": "sentencepiece"
           },
           {
             "source": "numpy",
@@ -74283,10 +74182,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "litellm"
-          },
-          {
-            "source": "pydantic-core",
             "target": "llama-cpp-python"
           },
           {
@@ -76707,6 +76602,10 @@
           },
           {
             "source": "python",
+            "target": "asyncmy"
+          },
+          {
+            "source": "python",
             "target": "asyncpg"
           },
           {
@@ -77844,10 +77743,6 @@
           {
             "source": "python",
             "target": "fasttext"
-          },
-          {
-            "source": "python",
-            "target": "fastuuid"
           },
           {
             "source": "python",
@@ -79080,10 +78975,6 @@
           {
             "source": "python",
             "target": "lintegrate"
-          },
-          {
-            "source": "python",
-            "target": "litellm"
           },
           {
             "source": "python",
@@ -84728,10 +84619,6 @@
           {
             "source": "pyyaml",
             "target": "libcst"
-          },
-          {
-            "source": "pyyaml",
-            "target": "litellm"
           },
           {
             "source": "pyyaml",
@@ -94991,10 +94878,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "litellm"
-          },
-          {
-            "source": "rpds-py",
             "target": "llama-cpp-python"
           },
           {
@@ -95320,6 +95203,10 @@
           {
             "source": "rpy2",
             "target": "sage"
+          },
+          {
+            "source": "rsync",
+            "target": "asyncmy"
           },
           {
             "source": "rsync",
@@ -98227,6 +98114,10 @@
           },
           {
             "source": "sed",
+            "target": "asyncmy"
+          },
+          {
+            "source": "sed",
             "target": "bazel"
           },
           {
@@ -100883,10 +100774,6 @@
           },
           {
             "source": "tiktoken",
-            "target": "litellm"
-          },
-          {
-            "source": "tiktoken",
             "target": "xgrammar"
           },
           {
@@ -101032,10 +100919,6 @@
           {
             "source": "tokenizers",
             "target": "allennlp-server"
-          },
-          {
-            "source": "tokenizers",
-            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -103348,10 +103231,6 @@
           {
             "source": "uv",
             "target": "librsvg"
-          },
-          {
-            "source": "uv",
-            "target": "litellm"
           },
           {
             "source": "uv",
@@ -116289,12 +116168,6 @@
             }
           },
           {
-            "id": "fastuuid",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastuuid.json"
-            }
-          },
-          {
             "id": "fatrop",
             "payload": {
               "__lazy_json__": "node_attrs/fatrop.json"
@@ -120165,12 +120038,6 @@
             }
           },
           {
-            "id": "litellm",
-            "payload": {
-              "__lazy_json__": "node_attrs/litellm.json"
-            }
-          },
-          {
             "id": "livox-sdk2",
             "payload": {
               "__lazy_json__": "node_attrs/livox-sdk2.json"
@@ -120666,12 +120533,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -130428,6 +130289,12 @@
             "id": "typst-gather",
             "payload": {
               "__lazy_json__": "node_attrs/typst-gather.json"
+            }
+          },
+          {
+            "id": "asyncmy",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncmy.json"
             }
           },
           {
