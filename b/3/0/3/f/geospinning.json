@@ -47,7 +47,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          }
+        ]
       }
     },
     "feedstock_name": "geos",
@@ -103,7 +110,7 @@
         ]
       }
     },
-    "new_pin_version": "3.15.0",
+    "new_pin_version": "3.15.1",
     "package_name": "geos",
     "pin_impact": 20,
     "pin_spec": "x.x.x",
