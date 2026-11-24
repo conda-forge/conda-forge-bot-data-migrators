@@ -55,15 +55,15 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "khiops-driver-s3",
+            "id": "arcticdb",
             "payload": {
-              "__lazy_json__": "node_attrs/khiops-driver-s3.json"
+              "__lazy_json__": "node_attrs/arcticdb.json"
             }
           },
           {
-            "id": "nvidia-dali-python",
+            "id": "bodo",
             "payload": {
-              "__lazy_json__": "node_attrs/nvidia-dali-python.json"
+              "__lazy_json__": "node_attrs/bodo.json"
             }
           }
         ]
@@ -546,7 +546,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
