@@ -423,10 +423,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "litellm"
-          },
-          {
-            "source": "aiohttp",
             "target": "mcstas-suite"
           },
           {
@@ -4119,10 +4115,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "litellm"
-          },
-          {
-            "source": "backports.zstd",
             "target": "mcstas-suite"
           },
           {
@@ -6836,10 +6828,6 @@
           {
             "source": "bash",
             "target": "metaio"
-          },
-          {
-            "source": "bash",
-            "target": "metis"
           },
           {
             "source": "bash",
@@ -13711,10 +13699,6 @@
           },
           {
             "source": "brotli",
-            "target": "litellm"
-          },
-          {
-            "source": "brotli",
             "target": "mcstas-suite"
           },
           {
@@ -15135,10 +15119,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "fastuuid"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "fenics-basix"
           },
           {
@@ -15248,10 +15228,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "light-curve-python"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "litellm"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -17071,6 +17047,10 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "asyncmy"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "autobahn"
           },
           {
@@ -17084,10 +17064,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "ilastik-carving-tools"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "litellm"
           },
           {
             "source": "clang-compiler-activation",
@@ -19000,10 +18976,6 @@
           {
             "source": "cmake",
             "target": "mesalib"
-          },
-          {
-            "source": "cmake",
-            "target": "metis"
           },
           {
             "source": "cmake",
@@ -21487,10 +21459,6 @@
           },
           {
             "source": "coverage",
-            "target": "litellm"
-          },
-          {
-            "source": "coverage",
             "target": "louvain"
           },
           {
@@ -22547,6 +22515,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "asyncmy"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "autobahn"
           },
           {
@@ -22924,10 +22896,6 @@
           {
             "source": "ctng-compilers",
             "target": "linux-perf"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "litellm"
           },
           {
             "source": "ctng-compilers",
@@ -24732,6 +24700,10 @@
           {
             "source": "cython",
             "target": "astroscrappy"
+          },
+          {
+            "source": "cython",
+            "target": "asyncmy"
           },
           {
             "source": "cython",
@@ -28164,10 +28136,6 @@
           {
             "source": "fastjet-cxx",
             "target": "rivet"
-          },
-          {
-            "source": "fastuuid",
-            "target": "litellm"
           },
           {
             "source": "fatrop",
@@ -35959,10 +35927,6 @@
           },
           {
             "source": "hypothesis",
-            "target": "litellm"
-          },
-          {
-            "source": "hypothesis",
             "target": "mcstas-suite"
           },
           {
@@ -36728,10 +36692,6 @@
           {
             "source": "jemalloc",
             "target": "tabmat"
-          },
-          {
-            "source": "jiter",
-            "target": "litellm"
           },
           {
             "source": "jmol",
@@ -45235,10 +45195,6 @@
           },
           {
             "source": "libtool",
-            "target": "metis"
-          },
-          {
-            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -53183,10 +53139,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "litellm"
-          },
-          {
-            "source": "markupsafe",
             "target": "mcstas-suite"
           },
           {
@@ -54246,62 +54198,6 @@
             "target": "lalmetaio"
           },
           {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
-          },
-          {
             "source": "metview",
             "target": "metplus"
           },
@@ -55216,10 +55112,6 @@
           {
             "source": "mypy",
             "target": "light-curve-python"
-          },
-          {
-            "source": "mypy",
-            "target": "litellm"
           },
           {
             "source": "mypy",
@@ -60668,6 +60560,10 @@
           {
             "source": "numpy",
             "target": "scs"
+          },
+          {
+            "source": "numpy",
+            "target": "sentencepiece"
           },
           {
             "source": "numpy",
@@ -70163,10 +70059,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "litellm"
-          },
-          {
-            "source": "pydantic-core",
             "target": "mamba-ssm"
           },
           {
@@ -71551,6 +71443,10 @@
           },
           {
             "source": "python",
+            "target": "asyncmy"
+          },
+          {
+            "source": "python",
             "target": "asyncpg"
           },
           {
@@ -72356,10 +72252,6 @@
           {
             "source": "python",
             "target": "fasttext"
-          },
-          {
-            "source": "python",
-            "target": "fastuuid"
           },
           {
             "source": "python",
@@ -73536,10 +73428,6 @@
           {
             "source": "python",
             "target": "linux-perf"
-          },
-          {
-            "source": "python",
-            "target": "litellm"
           },
           {
             "source": "python",
@@ -77416,10 +77304,6 @@
           {
             "source": "pyyaml",
             "target": "light-curve-python"
-          },
-          {
-            "source": "pyyaml",
-            "target": "litellm"
           },
           {
             "source": "pyyaml",
@@ -88763,10 +88647,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "litellm"
-          },
-          {
-            "source": "rpds-py",
             "target": "mcstas-suite"
           },
           {
@@ -88979,6 +88859,10 @@
           },
           {
             "source": "rsync",
+            "target": "asyncmy"
+          },
+          {
+            "source": "rsync",
             "target": "autobahn"
           },
           {
@@ -89012,10 +88896,6 @@
           {
             "source": "rsync",
             "target": "libprotobuf"
-          },
-          {
-            "source": "rsync",
-            "target": "litellm"
           },
           {
             "source": "rsync",
@@ -90747,6 +90627,10 @@
           },
           {
             "source": "sed",
+            "target": "asyncmy"
+          },
+          {
+            "source": "sed",
             "target": "autobahn"
           },
           {
@@ -91000,10 +90884,6 @@
           {
             "source": "sed",
             "target": "lima-vm"
-          },
-          {
-            "source": "sed",
-            "target": "litellm"
           },
           {
             "source": "sed",
@@ -93294,10 +93174,6 @@
             "target": "gnuradio"
           },
           {
-            "source": "tiktoken",
-            "target": "litellm"
-          },
-          {
             "source": "tiledb",
             "target": "gdal"
           },
@@ -93412,10 +93288,6 @@
           {
             "source": "tokenizers",
             "target": "allennlp"
-          },
-          {
-            "source": "tokenizers",
-            "target": "litellm"
           },
           {
             "source": "tokenizers",
@@ -95404,10 +95276,6 @@
           {
             "source": "uv",
             "target": "light-curve-python"
-          },
-          {
-            "source": "uv",
-            "target": "litellm"
           },
           {
             "source": "uvloop",
@@ -108205,12 +108073,6 @@
             }
           },
           {
-            "id": "fastuuid",
-            "payload": {
-              "__lazy_json__": "node_attrs/fastuuid.json"
-            }
-          },
-          {
             "id": "fatrop",
             "payload": {
               "__lazy_json__": "node_attrs/fatrop.json"
@@ -111709,12 +111571,6 @@
             }
           },
           {
-            "id": "litellm",
-            "payload": {
-              "__lazy_json__": "node_attrs/litellm.json"
-            }
-          },
-          {
             "id": "livox-sdk2",
             "payload": {
               "__lazy_json__": "node_attrs/livox-sdk2.json"
@@ -112066,12 +111922,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -120898,6 +120748,12 @@
             "id": "typst-gather",
             "payload": {
               "__lazy_json__": "node_attrs/typst-gather.json"
+            }
+          },
+          {
+            "id": "asyncmy",
+            "payload": {
+              "__lazy_json__": "node_attrs/asyncmy.json"
             }
           },
           {
