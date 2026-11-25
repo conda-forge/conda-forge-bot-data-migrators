@@ -45,7 +45,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "flatbuffers",
+            "payload": {
+              "__lazy_json__": "node_attrs/flatbuffers.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1484,6 +1491,10 @@
           {
             "source": "fftw",
             "target": "pulseaudio"
+          },
+          {
+            "source": "flatbuffers",
+            "target": "sentencepiece"
           },
           {
             "source": "fmt",
@@ -8261,6 +8272,12 @@
             }
           },
           {
+            "id": "flatbuffers",
+            "payload": {
+              "__lazy_json__": "node_attrs/flatbuffers.json"
+            }
+          },
+          {
             "id": "fmt",
             "payload": {
               "__lazy_json__": "node_attrs/fmt.json"
@@ -10877,6 +10894,7 @@
         "expat",
         "fast_float",
         "ffnvcodec-headers",
+        "flatbuffers",
         "fmt",
         "fribidi",
         "gendef",
