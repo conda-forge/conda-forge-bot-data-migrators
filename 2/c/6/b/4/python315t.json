@@ -277,10 +277,6 @@
           },
           {
             "source": "apache-tvm-ffi",
-            "target": "python-cudnn-frontend"
-          },
-          {
-            "source": "apache-tvm-ffi",
             "target": "xgrammar"
           },
           {
@@ -6208,10 +6204,6 @@
             "target": "nccl4py"
           },
           {
-            "source": "nvidia-cutlass-dsl",
-            "target": "python-cudnn-frontend"
-          },
-          {
             "source": "nvidia-dali-python",
             "target": "conda-forge-pinning"
           },
@@ -8161,10 +8153,6 @@
           },
           {
             "source": "python-crfsuite",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "python-cudnn-frontend",
             "target": "conda-forge-pinning"
           },
           {
@@ -11830,10 +11818,6 @@
           {
             "source": "tbb",
             "target": "python-crfsuite"
-          },
-          {
-            "source": "tbb",
-            "target": "python-cudnn-frontend"
           },
           {
             "source": "tbb",
@@ -16500,12 +16484,6 @@
             "id": "python-crfsuite",
             "payload": {
               "__lazy_json__": "node_attrs/python-crfsuite.json"
-            }
-          },
-          {
-            "id": "python-cudnn-frontend",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-cudnn-frontend.json"
             }
           },
           {
