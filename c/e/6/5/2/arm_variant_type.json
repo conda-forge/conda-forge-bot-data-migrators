@@ -522,6 +522,12 @@
             }
           },
           {
+            "id": "ollama",
+            "payload": {
+              "__lazy_json__": "node_attrs/ollama.json"
+            }
+          },
+          {
             "id": "pbcuda",
             "payload": {
               "__lazy_json__": "node_attrs/pbcuda.json"
@@ -1642,6 +1648,10 @@
           },
           {
             "source": "nyxus",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ollama",
             "target": "conda-forge-pinning"
           },
           {
@@ -2865,6 +2875,12 @@
             "id": "nyxus",
             "payload": {
               "__lazy_json__": "node_attrs/nyxus.json"
+            }
+          },
+          {
+            "id": "ollama",
+            "payload": {
+              "__lazy_json__": "node_attrs/ollama.json"
             }
           },
           {
