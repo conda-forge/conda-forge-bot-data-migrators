@@ -10530,10 +10530,6 @@
           },
           {
             "source": "make",
-            "target": "libhiredis"
-          },
-          {
-            "source": "make",
             "target": "libhwloc"
           },
           {
@@ -12395,6 +12391,10 @@
           {
             "source": "ninja",
             "target": "libheif"
+          },
+          {
+            "source": "ninja",
+            "target": "libhiredis"
           },
           {
             "source": "ninja",
