@@ -56,21 +56,9 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "ccache",
-            "payload": {
-              "__lazy_json__": "node_attrs/ccache.json"
-            }
-          },
-          {
             "id": "r-redux",
             "payload": {
               "__lazy_json__": "node_attrs/r-redux.json"
-            }
-          },
-          {
-            "id": "redis-plus-plus",
-            "payload": {
-              "__lazy_json__": "node_attrs/redis-plus-plus.json"
             }
           }
         ]
@@ -257,7 +245,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
