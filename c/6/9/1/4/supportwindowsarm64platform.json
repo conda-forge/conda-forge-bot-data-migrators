@@ -47,9 +47,21 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
             "id": "metis",
             "payload": {
               "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
             }
           }
         ]
@@ -11731,10 +11743,6 @@
           {
             "source": "msinttypes",
             "target": "libconfig"
-          },
-          {
-            "source": "msinttypes",
-            "target": "snappy"
           },
           {
             "source": "multidict",
