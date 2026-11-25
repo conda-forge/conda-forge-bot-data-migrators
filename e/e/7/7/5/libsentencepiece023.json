@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "curated-tokenizers",
-            "payload": {
-              "__lazy_json__": "node_attrs/curated-tokenizers.json"
-            }
-          },
-          {
-            "id": "deepsearch-glm",
-            "payload": {
-              "__lazy_json__": "node_attrs/deepsearch-glm.json"
-            }
-          },
-          {
             "id": "openvino-tokenizers",
             "payload": {
               "__lazy_json__": "node_attrs/openvino-tokenizers.json"
@@ -271,7 +259,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
