@@ -1,0 +1,3994 @@
+{
+  "__migrator__": true,
+  "args": [
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for zstd 1.6\n  kind: version\n  migration_number: 1\nmigrator_ts: 1795498666.105089\nzstd:\n- '1.6'\n",
+    "zstd16"
+  ],
+  "class": "MigrationYaml",
+  "kwargs": {
+    "automerge": false,
+    "build_number": 1,
+    "bump_number": 1,
+    "check_solvable": true,
+    "commit_message": "Rebuild for zstd 1.6",
+    "conda_forge_yml_patches": null,
+    "effective_graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "_libarchive_static_for_cph",
+            "payload": {
+              "__lazy_json__": "node_attrs/_libarchive_static_for_cph.json"
+            }
+          },
+          {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
+            "id": "c-blosc2",
+            "payload": {
+              "__lazy_json__": "node_attrs/c-blosc2.json"
+            }
+          },
+          {
+            "id": "ccache",
+            "payload": {
+              "__lazy_json__": "node_attrs/ccache.json"
+            }
+          },
+          {
+            "id": "coreos-installer",
+            "payload": {
+              "__lazy_json__": "node_attrs/coreos-installer.json"
+            }
+          },
+          {
+            "id": "libtiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/libtiff.json"
+            }
+          },
+          {
+            "id": "libzio",
+            "payload": {
+              "__lazy_json__": "node_attrs/libzio.json"
+            }
+          },
+          {
+            "id": "openexr",
+            "payload": {
+              "__lazy_json__": "node_attrs/openexr.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "py-crude-resource-monitor",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-crude-resource-monitor.json"
+            }
+          },
+          {
+            "id": "rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocksdb.json"
+            }
+          },
+          {
+            "id": "rsync",
+            "payload": {
+              "__lazy_json__": "node_attrs/rsync.json"
+            }
+          },
+          {
+            "id": "rustfs",
+            "payload": {
+              "__lazy_json__": "node_attrs/rustfs.json"
+            }
+          },
+          {
+            "id": "sbcl",
+            "payload": {
+              "__lazy_json__": "node_attrs/sbcl.json"
+            }
+          },
+          {
+            "id": "selenium-manager",
+            "payload": {
+              "__lazy_json__": "node_attrs/selenium-manager.json"
+            }
+          },
+          {
+            "id": "shrinkwrap",
+            "payload": {
+              "__lazy_json__": "node_attrs/shrinkwrap.json"
+            }
+          },
+          {
+            "id": "sparrow-ipc",
+            "payload": {
+              "__lazy_json__": "node_attrs/sparrow-ipc.json"
+            }
+          },
+          {
+            "id": "spz",
+            "payload": {
+              "__lazy_json__": "node_attrs/spz.json"
+            }
+          },
+          {
+            "id": "squashfs-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/squashfs-tools.json"
+            }
+          },
+          {
+            "id": "squashfuse",
+            "payload": {
+              "__lazy_json__": "node_attrs/squashfuse.json"
+            }
+          },
+          {
+            "id": "tor",
+            "payload": {
+              "__lazy_json__": "node_attrs/tor.json"
+            }
+          },
+          {
+            "id": "uv",
+            "payload": {
+              "__lazy_json__": "node_attrs/uv.json"
+            }
+          },
+          {
+            "id": "vale-ls",
+            "payload": {
+              "__lazy_json__": "node_attrs/vale-ls.json"
+            }
+          },
+          {
+            "id": "cloudini",
+            "payload": {
+              "__lazy_json__": "node_attrs/cloudini.json"
+            }
+          }
+        ]
+      }
+    },
+    "force_pr_after_solver_attempts": 10,
+    "graph": {
+      "__nx_digraph__": true,
+      "node_link_data": {
+        "directed": true,
+        "graph": {
+          "outputs_lut": {
+            "__lazy_json__": "outputs_to_feedstocks.json"
+          },
+          "strong_exports": {
+            "__set__": true,
+            "elements": [
+              "arm-variant",
+              "c_compiler_stub",
+              "c_stdlib_stub",
+              "clang-compiler-activation",
+              "clang-win-activation",
+              "cross-python",
+              "ctng-compiler-activation",
+              "ctng-compilers",
+              "cuda_compiler_stub",
+              "cxx_compiler_stub",
+              "fenics-basix",
+              "flang-rt",
+              "fortran_compiler_stub",
+              "gfortran_osx-64",
+              "go",
+              "go-activation",
+              "intel-compiler-repack",
+              "kalpy",
+              "linux-sysroot",
+              "m2w64-sysroot",
+              "microarch-level",
+              "ocaml",
+              "openmp",
+              "osx-sysroot",
+              "symlink-exe-substitute",
+              "vc"
+            ]
+          }
+        },
+        "links": [
+          {
+            "source": "_libarchive_static_for_cph",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "aimrocks",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "apiary",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arcticdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "arcticdb"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "bodo"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "arrow-cpp",
+            "target": "gdal"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "arcticdb"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "bgen"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "bodo"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "fastar"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "lldb"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "mamba"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "open3d"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "oxigraph"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "pygnome"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "pyqir"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "root"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "triton"
+          },
+          {
+            "source": "bfiocpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "bgen",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "bgenix",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "binutils",
+            "target": "apiary"
+          },
+          {
+            "source": "binutils",
+            "target": "arcticdb"
+          },
+          {
+            "source": "binutils",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "binutils",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "binutils",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "binutils",
+            "target": "bgen"
+          },
+          {
+            "source": "binutils",
+            "target": "bodo"
+          },
+          {
+            "source": "binutils",
+            "target": "boost"
+          },
+          {
+            "source": "binutils",
+            "target": "bun"
+          },
+          {
+            "source": "binutils",
+            "target": "ccr"
+          },
+          {
+            "source": "binutils",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "binutils",
+            "target": "clad"
+          },
+          {
+            "source": "binutils",
+            "target": "cling"
+          },
+          {
+            "source": "binutils",
+            "target": "cmake"
+          },
+          {
+            "source": "binutils",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "binutils",
+            "target": "cppinterop"
+          },
+          {
+            "source": "binutils",
+            "target": "curl"
+          },
+          {
+            "source": "binutils",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "binutils",
+            "target": "dttlib"
+          },
+          {
+            "source": "binutils",
+            "target": "elegant"
+          },
+          {
+            "source": "binutils",
+            "target": "emacs"
+          },
+          {
+            "source": "binutils",
+            "target": "fastar"
+          },
+          {
+            "source": "binutils",
+            "target": "filament"
+          },
+          {
+            "source": "binutils",
+            "target": "flang"
+          },
+          {
+            "source": "binutils",
+            "target": "flang-rt"
+          },
+          {
+            "source": "binutils",
+            "target": "freefem"
+          },
+          {
+            "source": "binutils",
+            "target": "gaudi"
+          },
+          {
+            "source": "binutils",
+            "target": "gdal"
+          },
+          {
+            "source": "binutils",
+            "target": "gdb"
+          },
+          {
+            "source": "binutils",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "binutils",
+            "target": "grass"
+          },
+          {
+            "source": "binutils",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "binutils",
+            "target": "hepmc3"
+          },
+          {
+            "source": "binutils",
+            "target": "herdr-app"
+          },
+          {
+            "source": "binutils",
+            "target": "heyoka"
+          },
+          {
+            "source": "binutils",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "binutils",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "binutils",
+            "target": "ispc"
+          },
+          {
+            "source": "binutils",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "binutils",
+            "target": "libclc"
+          },
+          {
+            "source": "binutils",
+            "target": "libiio"
+          },
+          {
+            "source": "binutils",
+            "target": "libmongoc"
+          },
+          {
+            "source": "binutils",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "binutils",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "binutils",
+            "target": "librdkafka"
+          },
+          {
+            "source": "binutils",
+            "target": "librepo"
+          },
+          {
+            "source": "binutils",
+            "target": "lighttpd"
+          },
+          {
+            "source": "binutils",
+            "target": "linux-perf"
+          },
+          {
+            "source": "binutils",
+            "target": "lldb"
+          },
+          {
+            "source": "binutils",
+            "target": "llvmlite"
+          },
+          {
+            "source": "binutils",
+            "target": "mamba"
+          },
+          {
+            "source": "binutils",
+            "target": "mapserver"
+          },
+          {
+            "source": "binutils",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "binutils",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "binutils",
+            "target": "mesalib"
+          },
+          {
+            "source": "binutils",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "binutils",
+            "target": "mold"
+          },
+          {
+            "source": "binutils",
+            "target": "mysql"
+          },
+          {
+            "source": "binutils",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "binutils",
+            "target": "ncdu"
+          },
+          {
+            "source": "binutils",
+            "target": "ocaml"
+          },
+          {
+            "source": "binutils",
+            "target": "ocaml-compiler-libs"
+          },
+          {
+            "source": "binutils",
+            "target": "omniorb"
+          },
+          {
+            "source": "binutils",
+            "target": "opam"
+          },
+          {
+            "source": "binutils",
+            "target": "open3d"
+          },
+          {
+            "source": "binutils",
+            "target": "openexr-python"
+          },
+          {
+            "source": "binutils",
+            "target": "openslide"
+          },
+          {
+            "source": "binutils",
+            "target": "openvdb"
+          },
+          {
+            "source": "binutils",
+            "target": "ovito"
+          },
+          {
+            "source": "binutils",
+            "target": "oxigraph"
+          },
+          {
+            "source": "binutils",
+            "target": "postgresql"
+          },
+          {
+            "source": "binutils",
+            "target": "protozfits"
+          },
+          {
+            "source": "binutils",
+            "target": "pygnome"
+          },
+          {
+            "source": "binutils",
+            "target": "pyqir"
+          },
+          {
+            "source": "binutils",
+            "target": "python"
+          },
+          {
+            "source": "binutils",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "binutils",
+            "target": "qt-main"
+          },
+          {
+            "source": "binutils",
+            "target": "quadrants"
+          },
+          {
+            "source": "binutils",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "binutils",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "binutils",
+            "target": "r-qs"
+          },
+          {
+            "source": "binutils",
+            "target": "r-qs2"
+          },
+          {
+            "source": "binutils",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "binutils",
+            "target": "rocm-comgr"
+          },
+          {
+            "source": "binutils",
+            "target": "root"
+          },
+          {
+            "source": "binutils",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "binutils",
+            "target": "slurm"
+          },
+          {
+            "source": "binutils",
+            "target": "smspp-project"
+          },
+          {
+            "source": "binutils",
+            "target": "symengine"
+          },
+          {
+            "source": "binutils",
+            "target": "tiledb"
+          },
+          {
+            "source": "binutils",
+            "target": "triton"
+          },
+          {
+            "source": "binutils",
+            "target": "wasmer"
+          },
+          {
+            "source": "binutils",
+            "target": "z5py"
+          },
+          {
+            "source": "binutils",
+            "target": "zed"
+          },
+          {
+            "source": "binutils",
+            "target": "zstandard"
+          },
+          {
+            "source": "blosc",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "blosc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "blosc",
+            "target": "gdal"
+          },
+          {
+            "source": "blosc",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "blosc",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "blosc",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "blosc",
+            "target": "pygnome"
+          },
+          {
+            "source": "blosc",
+            "target": "z5py"
+          },
+          {
+            "source": "bodo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "boost",
+            "target": "arcticdb"
+          },
+          {
+            "source": "boost",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "boost",
+            "target": "bgenix"
+          },
+          {
+            "source": "boost",
+            "target": "bodo"
+          },
+          {
+            "source": "boost",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "boost",
+            "target": "folly"
+          },
+          {
+            "source": "boost",
+            "target": "freefem"
+          },
+          {
+            "source": "boost",
+            "target": "gaudi"
+          },
+          {
+            "source": "boost",
+            "target": "gdal"
+          },
+          {
+            "source": "boost",
+            "target": "heyoka"
+          },
+          {
+            "source": "boost",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "boost",
+            "target": "ldas-tools-framecpp"
+          },
+          {
+            "source": "boost",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "boost",
+            "target": "libpulsar"
+          },
+          {
+            "source": "boost",
+            "target": "mysql-connector-cpp"
+          },
+          {
+            "source": "boost",
+            "target": "nix"
+          },
+          {
+            "source": "boost",
+            "target": "open3d"
+          },
+          {
+            "source": "boost",
+            "target": "ovito"
+          },
+          {
+            "source": "boost",
+            "target": "smspp-project"
+          },
+          {
+            "source": "boost",
+            "target": "vrs"
+          },
+          {
+            "source": "btrfs-progs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "bun",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "c-blosc2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "c-blosc2",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "c-blosc2",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "c-blosc2",
+            "target": "tiledb"
+          },
+          {
+            "source": "ccache",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ccr",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cds-crtools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "clad",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cling",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cloudini",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cmake",
+            "target": "apiary"
+          },
+          {
+            "source": "cmake",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cmake",
+            "target": "cppinterop"
+          },
+          {
+            "source": "cmake",
+            "target": "filament"
+          },
+          {
+            "source": "cmake",
+            "target": "libarchive"
+          },
+          {
+            "source": "cmake",
+            "target": "libdwarf"
+          },
+          {
+            "source": "cmake",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "cmake",
+            "target": "minizip"
+          },
+          {
+            "source": "cmake",
+            "target": "pangolin-opengl"
+          },
+          {
+            "source": "cmake",
+            "target": "python"
+          },
+          {
+            "source": "cmake",
+            "target": "qt-main"
+          },
+          {
+            "source": "cmake",
+            "target": "tiledb"
+          },
+          {
+            "source": "cmake",
+            "target": "vrs"
+          },
+          {
+            "source": "cmake",
+            "target": "zed"
+          },
+          {
+            "source": "coreos-installer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "cppinterop",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "curl",
+            "target": "arcticdb"
+          },
+          {
+            "source": "curl",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "curl",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "curl",
+            "target": "clad"
+          },
+          {
+            "source": "curl",
+            "target": "cmake"
+          },
+          {
+            "source": "curl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "curl",
+            "target": "dttlib"
+          },
+          {
+            "source": "curl",
+            "target": "freefem"
+          },
+          {
+            "source": "curl",
+            "target": "gdal"
+          },
+          {
+            "source": "curl",
+            "target": "grass"
+          },
+          {
+            "source": "curl",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "curl",
+            "target": "libpulsar"
+          },
+          {
+            "source": "curl",
+            "target": "librdkafka"
+          },
+          {
+            "source": "curl",
+            "target": "librepo"
+          },
+          {
+            "source": "curl",
+            "target": "mamba"
+          },
+          {
+            "source": "curl",
+            "target": "mapserver"
+          },
+          {
+            "source": "curl",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "curl",
+            "target": "mysql"
+          },
+          {
+            "source": "curl",
+            "target": "nix"
+          },
+          {
+            "source": "curl",
+            "target": "opam"
+          },
+          {
+            "source": "curl",
+            "target": "open3d"
+          },
+          {
+            "source": "curl",
+            "target": "pygnome"
+          },
+          {
+            "source": "curl",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "curl",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "curl",
+            "target": "r-qs"
+          },
+          {
+            "source": "curl",
+            "target": "r-qs2"
+          },
+          {
+            "source": "curl",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "curl",
+            "target": "root"
+          },
+          {
+            "source": "curl",
+            "target": "slurm"
+          },
+          {
+            "source": "curl",
+            "target": "smspp-project"
+          },
+          {
+            "source": "curl",
+            "target": "sqlite_zstd_vfs"
+          },
+          {
+            "source": "curl",
+            "target": "tiledb"
+          },
+          {
+            "source": "curl",
+            "target": "zchunk"
+          },
+          {
+            "source": "curl",
+            "target": "zed"
+          },
+          {
+            "source": "dectris-compression",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "drpm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "dttlib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "elegant",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "elfutils",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "elfutils",
+            "target": "linux-perf"
+          },
+          {
+            "source": "elfutils",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "elfutils",
+            "target": "systemd"
+          },
+          {
+            "source": "emacs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fastar",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "filament",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "filament",
+            "target": "open3d"
+          },
+          {
+            "source": "flang-rt",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flang-rt",
+            "target": "elegant"
+          },
+          {
+            "source": "flang-rt",
+            "target": "freefem"
+          },
+          {
+            "source": "flang-rt",
+            "target": "grass"
+          },
+          {
+            "source": "flang-rt",
+            "target": "heyoka"
+          },
+          {
+            "source": "flang-rt",
+            "target": "open3d"
+          },
+          {
+            "source": "flang-rt",
+            "target": "root"
+          },
+          {
+            "source": "flang",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "flang",
+            "target": "flang-rt"
+          },
+          {
+            "source": "folly",
+            "target": "arcticdb"
+          },
+          {
+            "source": "folly",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "freefem",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "fricas",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gaudi",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdal",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "gdal",
+            "target": "grass"
+          },
+          {
+            "source": "gdal",
+            "target": "mapserver"
+          },
+          {
+            "source": "gdal",
+            "target": "pygnome"
+          },
+          {
+            "source": "gdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "graphicsmagick",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "grass",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hdf5plugin",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hepmc3",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "herdr-app",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "heyoka",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ifcopenshell",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "imagecodecs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "indexed_zstd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "inko",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ispc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ldas-tools-framecpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lean-ctx",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libarchive",
+            "target": "bgen"
+          },
+          {
+            "source": "libarchive",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libarchive",
+            "target": "elfutils"
+          },
+          {
+            "source": "libarchive",
+            "target": "gdal"
+          },
+          {
+            "source": "libarchive",
+            "target": "mamba"
+          },
+          {
+            "source": "libarchive",
+            "target": "nix"
+          },
+          {
+            "source": "libarchive",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "libclc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libclc",
+            "target": "mesalib"
+          },
+          {
+            "source": "libdwarf",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libiio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libmongoc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "ccr"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "gdal"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "ovito"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "pygnome"
+          },
+          {
+            "source": "libnetcdf",
+            "target": "smspp-project"
+          },
+          {
+            "source": "libnvimgcodec",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libpulsar",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "librdkafka",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "librepo",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libtiff",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "libtiff",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "libtiff",
+            "target": "elegant"
+          },
+          {
+            "source": "libtiff",
+            "target": "emacs"
+          },
+          {
+            "source": "libtiff",
+            "target": "gdal"
+          },
+          {
+            "source": "libtiff",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "libtiff",
+            "target": "grass"
+          },
+          {
+            "source": "libtiff",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "libtiff",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "libtiff",
+            "target": "mapserver"
+          },
+          {
+            "source": "libtiff",
+            "target": "openslide"
+          },
+          {
+            "source": "libtiff",
+            "target": "pygnome"
+          },
+          {
+            "source": "libtiff",
+            "target": "qt-main"
+          },
+          {
+            "source": "libtiff",
+            "target": "root"
+          },
+          {
+            "source": "libzio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lighttpd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "linux-perf",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lldb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lld",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "lld",
+            "target": "ocaml"
+          },
+          {
+            "source": "lld",
+            "target": "quadrants"
+          },
+          {
+            "source": "lld",
+            "target": "rocm-comgr"
+          },
+          {
+            "source": "lld",
+            "target": "zed"
+          },
+          {
+            "source": "llvmdev",
+            "target": "apiary"
+          },
+          {
+            "source": "llvmdev",
+            "target": "arcticdb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "llvmdev",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "bgen"
+          },
+          {
+            "source": "llvmdev",
+            "target": "binutils"
+          },
+          {
+            "source": "llvmdev",
+            "target": "bodo"
+          },
+          {
+            "source": "llvmdev",
+            "target": "boost"
+          },
+          {
+            "source": "llvmdev",
+            "target": "bun"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ccr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "llvmdev",
+            "target": "clad"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cling"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cmake"
+          },
+          {
+            "source": "llvmdev",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "llvmdev",
+            "target": "cppinterop"
+          },
+          {
+            "source": "llvmdev",
+            "target": "curl"
+          },
+          {
+            "source": "llvmdev",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "llvmdev",
+            "target": "dttlib"
+          },
+          {
+            "source": "llvmdev",
+            "target": "elegant"
+          },
+          {
+            "source": "llvmdev",
+            "target": "emacs"
+          },
+          {
+            "source": "llvmdev",
+            "target": "fastar"
+          },
+          {
+            "source": "llvmdev",
+            "target": "filament"
+          },
+          {
+            "source": "llvmdev",
+            "target": "flang"
+          },
+          {
+            "source": "llvmdev",
+            "target": "flang-rt"
+          },
+          {
+            "source": "llvmdev",
+            "target": "freefem"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gaudi"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gdal"
+          },
+          {
+            "source": "llvmdev",
+            "target": "gdb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "llvmdev",
+            "target": "grass"
+          },
+          {
+            "source": "llvmdev",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "llvmdev",
+            "target": "hepmc3"
+          },
+          {
+            "source": "llvmdev",
+            "target": "herdr-app"
+          },
+          {
+            "source": "llvmdev",
+            "target": "heyoka"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "llvmdev",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "llvmdev",
+            "target": "inko"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ispc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libclc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libiio"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libmongoc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "llvmdev",
+            "target": "librdkafka"
+          },
+          {
+            "source": "llvmdev",
+            "target": "librepo"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lighttpd"
+          },
+          {
+            "source": "llvmdev",
+            "target": "linux-perf"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lld"
+          },
+          {
+            "source": "llvmdev",
+            "target": "lldb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "llvmlite"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mamba"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mapserver"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "llvmdev",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mesalib"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mlir"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mold"
+          },
+          {
+            "source": "llvmdev",
+            "target": "mysql"
+          },
+          {
+            "source": "llvmdev",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ncdu"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ocaml"
+          },
+          {
+            "source": "llvmdev",
+            "target": "omniorb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "opam"
+          },
+          {
+            "source": "llvmdev",
+            "target": "open3d"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openexr-python"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openslide"
+          },
+          {
+            "source": "llvmdev",
+            "target": "openvdb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "ovito"
+          },
+          {
+            "source": "llvmdev",
+            "target": "oxigraph"
+          },
+          {
+            "source": "llvmdev",
+            "target": "postgresql"
+          },
+          {
+            "source": "llvmdev",
+            "target": "protozfits"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pygnome"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pyqir"
+          },
+          {
+            "source": "llvmdev",
+            "target": "python"
+          },
+          {
+            "source": "llvmdev",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "qt-main"
+          },
+          {
+            "source": "llvmdev",
+            "target": "quadrants"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-qs"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-qs2"
+          },
+          {
+            "source": "llvmdev",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "llvmdev",
+            "target": "rocm-comgr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "root"
+          },
+          {
+            "source": "llvmdev",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "llvmdev",
+            "target": "slurm"
+          },
+          {
+            "source": "llvmdev",
+            "target": "smspp-project"
+          },
+          {
+            "source": "llvmdev",
+            "target": "symengine"
+          },
+          {
+            "source": "llvmdev",
+            "target": "tiledb"
+          },
+          {
+            "source": "llvmdev",
+            "target": "triton"
+          },
+          {
+            "source": "llvmdev",
+            "target": "wasmer"
+          },
+          {
+            "source": "llvmdev",
+            "target": "z5py"
+          },
+          {
+            "source": "llvmdev",
+            "target": "zed"
+          },
+          {
+            "source": "llvmdev",
+            "target": "zstandard"
+          },
+          {
+            "source": "llvmlite",
+            "target": "bodo"
+          },
+          {
+            "source": "llvmlite",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "llvmlite",
+            "target": "root"
+          },
+          {
+            "source": "mamba",
+            "target": "bgen"
+          },
+          {
+            "source": "mamba",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mapserver",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mariadb-connector-c",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "matrix-sdk-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mesalib",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mesalib",
+            "target": "filament"
+          },
+          {
+            "source": "mesalib",
+            "target": "vrs"
+          },
+          {
+            "source": "minizip",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "minizip",
+            "target": "open3d"
+          },
+          {
+            "source": "mlir-python-bindings",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mlir",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mlir",
+            "target": "flang"
+          },
+          {
+            "source": "mlir",
+            "target": "flang-rt"
+          },
+          {
+            "source": "mlir",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "mold",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mold",
+            "target": "gdb"
+          },
+          {
+            "source": "mold",
+            "target": "zed"
+          },
+          {
+            "source": "mysql-connector-cpp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "mysql",
+            "target": "lighttpd"
+          },
+          {
+            "source": "mysql",
+            "target": "mapserver"
+          },
+          {
+            "source": "mysql",
+            "target": "mysql-connector-cpp"
+          },
+          {
+            "source": "mysql",
+            "target": "slurm"
+          },
+          {
+            "source": "nanoarrow",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ncdu",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nix",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nodejs",
+            "target": "arcticdb"
+          },
+          {
+            "source": "nodejs",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "nodejs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "nodejs",
+            "target": "root"
+          },
+          {
+            "source": "ocaml-compiler-libs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "opam"
+          },
+          {
+            "source": "ocaml",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-compiler-libs"
+          },
+          {
+            "source": "ocaml",
+            "target": "ocaml-dune"
+          },
+          {
+            "source": "ocaml",
+            "target": "opam"
+          },
+          {
+            "source": "omniorb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "opam",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "open3d",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openexr-python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openexr",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openslide",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "openvdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "orc",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "orc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ovito",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "oxigraph",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pangolin-opengl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgresql",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "postgresql",
+            "target": "gdal"
+          },
+          {
+            "source": "postgresql",
+            "target": "grass"
+          },
+          {
+            "source": "postgresql",
+            "target": "mapserver"
+          },
+          {
+            "source": "postgresql",
+            "target": "qt-main"
+          },
+          {
+            "source": "protozfits",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "py-crude-resource-monitor",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pygnome",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyqir",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-rocksdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python-zstd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python",
+            "target": "aimrocks"
+          },
+          {
+            "source": "python",
+            "target": "apiary"
+          },
+          {
+            "source": "python",
+            "target": "arcticdb"
+          },
+          {
+            "source": "python",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "python",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "python",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "python",
+            "target": "bgen"
+          },
+          {
+            "source": "python",
+            "target": "binutils"
+          },
+          {
+            "source": "python",
+            "target": "bodo"
+          },
+          {
+            "source": "python",
+            "target": "boost"
+          },
+          {
+            "source": "python",
+            "target": "btrfs-progs"
+          },
+          {
+            "source": "python",
+            "target": "bun"
+          },
+          {
+            "source": "python",
+            "target": "ccr"
+          },
+          {
+            "source": "python",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "python",
+            "target": "clad"
+          },
+          {
+            "source": "python",
+            "target": "cling"
+          },
+          {
+            "source": "python",
+            "target": "cmake"
+          },
+          {
+            "source": "python",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "python",
+            "target": "cppinterop"
+          },
+          {
+            "source": "python",
+            "target": "curl"
+          },
+          {
+            "source": "python",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "python",
+            "target": "dttlib"
+          },
+          {
+            "source": "python",
+            "target": "elegant"
+          },
+          {
+            "source": "python",
+            "target": "emacs"
+          },
+          {
+            "source": "python",
+            "target": "fastar"
+          },
+          {
+            "source": "python",
+            "target": "filament"
+          },
+          {
+            "source": "python",
+            "target": "flang"
+          },
+          {
+            "source": "python",
+            "target": "flang-rt"
+          },
+          {
+            "source": "python",
+            "target": "freefem"
+          },
+          {
+            "source": "python",
+            "target": "gaudi"
+          },
+          {
+            "source": "python",
+            "target": "gdal"
+          },
+          {
+            "source": "python",
+            "target": "gdb"
+          },
+          {
+            "source": "python",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "python",
+            "target": "grass"
+          },
+          {
+            "source": "python",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "python",
+            "target": "hepmc3"
+          },
+          {
+            "source": "python",
+            "target": "herdr-app"
+          },
+          {
+            "source": "python",
+            "target": "heyoka"
+          },
+          {
+            "source": "python",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "python",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "python",
+            "target": "indexed_zstd"
+          },
+          {
+            "source": "python",
+            "target": "ispc"
+          },
+          {
+            "source": "python",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "python",
+            "target": "libclc"
+          },
+          {
+            "source": "python",
+            "target": "libiio"
+          },
+          {
+            "source": "python",
+            "target": "libmongoc"
+          },
+          {
+            "source": "python",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "python",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "python",
+            "target": "librdkafka"
+          },
+          {
+            "source": "python",
+            "target": "librepo"
+          },
+          {
+            "source": "python",
+            "target": "lighttpd"
+          },
+          {
+            "source": "python",
+            "target": "linux-perf"
+          },
+          {
+            "source": "python",
+            "target": "lldb"
+          },
+          {
+            "source": "python",
+            "target": "llvmdev"
+          },
+          {
+            "source": "python",
+            "target": "llvmlite"
+          },
+          {
+            "source": "python",
+            "target": "mamba"
+          },
+          {
+            "source": "python",
+            "target": "mapserver"
+          },
+          {
+            "source": "python",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "python",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "python",
+            "target": "mesalib"
+          },
+          {
+            "source": "python",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "python",
+            "target": "mold"
+          },
+          {
+            "source": "python",
+            "target": "mysql"
+          },
+          {
+            "source": "python",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "python",
+            "target": "ncdu"
+          },
+          {
+            "source": "python",
+            "target": "nix"
+          },
+          {
+            "source": "python",
+            "target": "nodejs"
+          },
+          {
+            "source": "python",
+            "target": "ocaml"
+          },
+          {
+            "source": "python",
+            "target": "ocaml-dune"
+          },
+          {
+            "source": "python",
+            "target": "omniorb"
+          },
+          {
+            "source": "python",
+            "target": "opam"
+          },
+          {
+            "source": "python",
+            "target": "open3d"
+          },
+          {
+            "source": "python",
+            "target": "openexr-python"
+          },
+          {
+            "source": "python",
+            "target": "openslide"
+          },
+          {
+            "source": "python",
+            "target": "openvdb"
+          },
+          {
+            "source": "python",
+            "target": "ovito"
+          },
+          {
+            "source": "python",
+            "target": "oxigraph"
+          },
+          {
+            "source": "python",
+            "target": "postgresql"
+          },
+          {
+            "source": "python",
+            "target": "protozfits"
+          },
+          {
+            "source": "python",
+            "target": "pygnome"
+          },
+          {
+            "source": "python",
+            "target": "pyqir"
+          },
+          {
+            "source": "python",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "python",
+            "target": "python-zstd"
+          },
+          {
+            "source": "python",
+            "target": "qt-main"
+          },
+          {
+            "source": "python",
+            "target": "quadrants"
+          },
+          {
+            "source": "python",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "python",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "python",
+            "target": "r-qs"
+          },
+          {
+            "source": "python",
+            "target": "r-qs2"
+          },
+          {
+            "source": "python",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "python",
+            "target": "rocm-comgr"
+          },
+          {
+            "source": "python",
+            "target": "root"
+          },
+          {
+            "source": "python",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "python",
+            "target": "slurm"
+          },
+          {
+            "source": "python",
+            "target": "smspp-project"
+          },
+          {
+            "source": "python",
+            "target": "symengine"
+          },
+          {
+            "source": "python",
+            "target": "systemd"
+          },
+          {
+            "source": "python",
+            "target": "tiledb"
+          },
+          {
+            "source": "python",
+            "target": "triton"
+          },
+          {
+            "source": "python",
+            "target": "ugrep"
+          },
+          {
+            "source": "python",
+            "target": "wasmer"
+          },
+          {
+            "source": "python",
+            "target": "z5py"
+          },
+          {
+            "source": "python",
+            "target": "zed"
+          },
+          {
+            "source": "python",
+            "target": "zstandard"
+          },
+          {
+            "source": "qt-main",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "qt-main",
+            "target": "freefem"
+          },
+          {
+            "source": "qt-main",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "qt-main",
+            "target": "open3d"
+          },
+          {
+            "source": "qt-main",
+            "target": "ovito"
+          },
+          {
+            "source": "qt-main",
+            "target": "pygnome"
+          },
+          {
+            "source": "qt-main",
+            "target": "vrs"
+          },
+          {
+            "source": "quadrants",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-fstcore",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-pgenlibr",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-qs2",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-qs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "r-seqminer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rocksdb",
+            "target": "aimrocks"
+          },
+          {
+            "source": "rocksdb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rocksdb",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "rocksdb",
+            "target": "oxigraph"
+          },
+          {
+            "source": "rocksdb",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "rocm-comgr",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rocm-comgr",
+            "target": "quadrants"
+          },
+          {
+            "source": "root",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "root",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "root",
+            "target": "gaudi"
+          },
+          {
+            "source": "rpm-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rpm-tools",
+            "target": "drpm"
+          },
+          {
+            "source": "rsync",
+            "target": "arcticdb"
+          },
+          {
+            "source": "rsync",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "rsync",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "rsync",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "rsync",
+            "target": "bgen"
+          },
+          {
+            "source": "rsync",
+            "target": "bodo"
+          },
+          {
+            "source": "rsync",
+            "target": "boost"
+          },
+          {
+            "source": "rsync",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "rsync",
+            "target": "clad"
+          },
+          {
+            "source": "rsync",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rsync",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "rsync",
+            "target": "dttlib"
+          },
+          {
+            "source": "rsync",
+            "target": "emacs"
+          },
+          {
+            "source": "rsync",
+            "target": "fastar"
+          },
+          {
+            "source": "rsync",
+            "target": "freefem"
+          },
+          {
+            "source": "rsync",
+            "target": "gaudi"
+          },
+          {
+            "source": "rsync",
+            "target": "gdal"
+          },
+          {
+            "source": "rsync",
+            "target": "gdb"
+          },
+          {
+            "source": "rsync",
+            "target": "grass"
+          },
+          {
+            "source": "rsync",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "rsync",
+            "target": "herdr-app"
+          },
+          {
+            "source": "rsync",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "rsync",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "rsync",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "rsync",
+            "target": "libiio"
+          },
+          {
+            "source": "rsync",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "rsync",
+            "target": "librepo"
+          },
+          {
+            "source": "rsync",
+            "target": "lldb"
+          },
+          {
+            "source": "rsync",
+            "target": "llvmlite"
+          },
+          {
+            "source": "rsync",
+            "target": "mamba"
+          },
+          {
+            "source": "rsync",
+            "target": "mapserver"
+          },
+          {
+            "source": "rsync",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "rsync",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "rsync",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "rsync",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "rsync",
+            "target": "ocaml"
+          },
+          {
+            "source": "rsync",
+            "target": "omniorb"
+          },
+          {
+            "source": "rsync",
+            "target": "opam"
+          },
+          {
+            "source": "rsync",
+            "target": "open3d"
+          },
+          {
+            "source": "rsync",
+            "target": "openexr-python"
+          },
+          {
+            "source": "rsync",
+            "target": "openslide"
+          },
+          {
+            "source": "rsync",
+            "target": "openvdb"
+          },
+          {
+            "source": "rsync",
+            "target": "oxigraph"
+          },
+          {
+            "source": "rsync",
+            "target": "protozfits"
+          },
+          {
+            "source": "rsync",
+            "target": "pygnome"
+          },
+          {
+            "source": "rsync",
+            "target": "pyqir"
+          },
+          {
+            "source": "rsync",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "rsync",
+            "target": "qt-main"
+          },
+          {
+            "source": "rsync",
+            "target": "quadrants"
+          },
+          {
+            "source": "rsync",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "rsync",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "rsync",
+            "target": "r-qs"
+          },
+          {
+            "source": "rsync",
+            "target": "r-qs2"
+          },
+          {
+            "source": "rsync",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "rsync",
+            "target": "root"
+          },
+          {
+            "source": "rsync",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "rsync",
+            "target": "tiledb"
+          },
+          {
+            "source": "rsync",
+            "target": "triton"
+          },
+          {
+            "source": "rsync",
+            "target": "z5py"
+          },
+          {
+            "source": "rsync",
+            "target": "zed"
+          },
+          {
+            "source": "rsync",
+            "target": "zstandard"
+          },
+          {
+            "source": "rustfs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sbcl",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sbcl",
+            "target": "fricas"
+          },
+          {
+            "source": "selenium-manager",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "shrinkwrap",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "slurm",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "smspp-project",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "sparrow-ipc",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spz",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "spz",
+            "target": "open3d"
+          },
+          {
+            "source": "sqlite_zstd_vfs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "squashfs-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "squashfuse",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "symengine",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "systemd",
+            "target": "arcticdb"
+          },
+          {
+            "source": "systemd",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "systemd",
+            "target": "btrfs-progs"
+          },
+          {
+            "source": "systemd",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "systemd",
+            "target": "tiledb"
+          },
+          {
+            "source": "tiledb",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "tiledb",
+            "target": "gdal"
+          },
+          {
+            "source": "tor",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "triton",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ugrep",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "uv",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "vale-ls",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "vrs",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "wasmer",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "z5py",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zchunk",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zchunk",
+            "target": "librepo"
+          },
+          {
+            "source": "zed",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "zstandard",
+            "target": "conda-forge-pinning"
+          }
+        ],
+        "multigraph": false,
+        "nodes": [
+          {
+            "id": "_libarchive_static_for_cph",
+            "payload": {
+              "__lazy_json__": "node_attrs/_libarchive_static_for_cph.json"
+            }
+          },
+          {
+            "id": "aimrocks",
+            "payload": {
+              "__lazy_json__": "node_attrs/aimrocks.json"
+            }
+          },
+          {
+            "id": "apiary",
+            "payload": {
+              "__lazy_json__": "node_attrs/apiary.json"
+            }
+          },
+          {
+            "id": "arcticdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/arcticdb.json"
+            }
+          },
+          {
+            "id": "arrow-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/arrow-cpp.json"
+            }
+          },
+          {
+            "id": "backports.zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/backports.zstd.json"
+            }
+          },
+          {
+            "id": "bfiocpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/bfiocpp.json"
+            }
+          },
+          {
+            "id": "bgen",
+            "payload": {
+              "__lazy_json__": "node_attrs/bgen.json"
+            }
+          },
+          {
+            "id": "bgenix",
+            "payload": {
+              "__lazy_json__": "node_attrs/bgenix.json"
+            }
+          },
+          {
+            "id": "binutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/binutils.json"
+            }
+          },
+          {
+            "id": "blosc",
+            "payload": {
+              "__lazy_json__": "node_attrs/blosc.json"
+            }
+          },
+          {
+            "id": "bodo",
+            "payload": {
+              "__lazy_json__": "node_attrs/bodo.json"
+            }
+          },
+          {
+            "id": "boost",
+            "payload": {
+              "__lazy_json__": "node_attrs/boost.json"
+            }
+          },
+          {
+            "id": "btrfs-progs",
+            "payload": {
+              "__lazy_json__": "node_attrs/btrfs-progs.json"
+            }
+          },
+          {
+            "id": "bun",
+            "payload": {
+              "__lazy_json__": "node_attrs/bun.json"
+            }
+          },
+          {
+            "id": "c-blosc2",
+            "payload": {
+              "__lazy_json__": "node_attrs/c-blosc2.json"
+            }
+          },
+          {
+            "id": "ccache",
+            "payload": {
+              "__lazy_json__": "node_attrs/ccache.json"
+            }
+          },
+          {
+            "id": "ccr",
+            "payload": {
+              "__lazy_json__": "node_attrs/ccr.json"
+            }
+          },
+          {
+            "id": "cds-crtools",
+            "payload": {
+              "__lazy_json__": "node_attrs/cds-crtools.json"
+            }
+          },
+          {
+            "id": "clad",
+            "payload": {
+              "__lazy_json__": "node_attrs/clad.json"
+            }
+          },
+          {
+            "id": "cling",
+            "payload": {
+              "__lazy_json__": "node_attrs/cling.json"
+            }
+          },
+          {
+            "id": "cmake",
+            "payload": {
+              "__lazy_json__": "node_attrs/cmake.json"
+            }
+          },
+          {
+            "id": "conda-forge-pinning",
+            "payload": {
+              "__lazy_json__": "node_attrs/conda-forge-pinning.json"
+            }
+          },
+          {
+            "id": "coreos-installer",
+            "payload": {
+              "__lazy_json__": "node_attrs/coreos-installer.json"
+            }
+          },
+          {
+            "id": "cppinterop",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppinterop.json"
+            }
+          },
+          {
+            "id": "curl",
+            "payload": {
+              "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "dectris-compression",
+            "payload": {
+              "__lazy_json__": "node_attrs/dectris-compression.json"
+            }
+          },
+          {
+            "id": "drpm",
+            "payload": {
+              "__lazy_json__": "node_attrs/drpm.json"
+            }
+          },
+          {
+            "id": "dttlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/dttlib.json"
+            }
+          },
+          {
+            "id": "elegant",
+            "payload": {
+              "__lazy_json__": "node_attrs/elegant.json"
+            }
+          },
+          {
+            "id": "elfutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/elfutils.json"
+            }
+          },
+          {
+            "id": "emacs",
+            "payload": {
+              "__lazy_json__": "node_attrs/emacs.json"
+            }
+          },
+          {
+            "id": "fastar",
+            "payload": {
+              "__lazy_json__": "node_attrs/fastar.json"
+            }
+          },
+          {
+            "id": "filament",
+            "payload": {
+              "__lazy_json__": "node_attrs/filament.json"
+            }
+          },
+          {
+            "id": "flang",
+            "payload": {
+              "__lazy_json__": "node_attrs/flang.json"
+            }
+          },
+          {
+            "id": "flang-rt",
+            "payload": {
+              "__lazy_json__": "node_attrs/flang-rt.json"
+            }
+          },
+          {
+            "id": "folly",
+            "payload": {
+              "__lazy_json__": "node_attrs/folly.json"
+            }
+          },
+          {
+            "id": "freefem",
+            "payload": {
+              "__lazy_json__": "node_attrs/freefem.json"
+            }
+          },
+          {
+            "id": "fricas",
+            "payload": {
+              "__lazy_json__": "node_attrs/fricas.json"
+            }
+          },
+          {
+            "id": "gaudi",
+            "payload": {
+              "__lazy_json__": "node_attrs/gaudi.json"
+            }
+          },
+          {
+            "id": "gdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdal.json"
+            }
+          },
+          {
+            "id": "gdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/gdb.json"
+            }
+          },
+          {
+            "id": "graphicsmagick",
+            "payload": {
+              "__lazy_json__": "node_attrs/graphicsmagick.json"
+            }
+          },
+          {
+            "id": "grass",
+            "payload": {
+              "__lazy_json__": "node_attrs/grass.json"
+            }
+          },
+          {
+            "id": "hdf5plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/hdf5plugin.json"
+            }
+          },
+          {
+            "id": "hepmc3",
+            "payload": {
+              "__lazy_json__": "node_attrs/hepmc3.json"
+            }
+          },
+          {
+            "id": "heyoka",
+            "payload": {
+              "__lazy_json__": "node_attrs/heyoka.json"
+            }
+          },
+          {
+            "id": "ifcopenshell",
+            "payload": {
+              "__lazy_json__": "node_attrs/ifcopenshell.json"
+            }
+          },
+          {
+            "id": "imagecodecs",
+            "payload": {
+              "__lazy_json__": "node_attrs/imagecodecs.json"
+            }
+          },
+          {
+            "id": "indexed_zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/indexed_zstd.json"
+            }
+          },
+          {
+            "id": "inko",
+            "payload": {
+              "__lazy_json__": "node_attrs/inko.json"
+            }
+          },
+          {
+            "id": "ispc",
+            "payload": {
+              "__lazy_json__": "node_attrs/ispc.json"
+            }
+          },
+          {
+            "id": "ldas-tools-framecpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/ldas-tools-framecpp.json"
+            }
+          },
+          {
+            "id": "lean-ctx",
+            "payload": {
+              "__lazy_json__": "node_attrs/lean-ctx.json"
+            }
+          },
+          {
+            "id": "libarchive",
+            "payload": {
+              "__lazy_json__": "node_attrs/libarchive.json"
+            }
+          },
+          {
+            "id": "libclc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libclc.json"
+            }
+          },
+          {
+            "id": "libdwarf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libdwarf.json"
+            }
+          },
+          {
+            "id": "libiio",
+            "payload": {
+              "__lazy_json__": "node_attrs/libiio.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libnetcdf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnetcdf.json"
+            }
+          },
+          {
+            "id": "libnvimgcodec",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnvimgcodec.json"
+            }
+          },
+          {
+            "id": "libpulsar",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpulsar.json"
+            }
+          },
+          {
+            "id": "librdkafka",
+            "payload": {
+              "__lazy_json__": "node_attrs/librdkafka.json"
+            }
+          },
+          {
+            "id": "librepo",
+            "payload": {
+              "__lazy_json__": "node_attrs/librepo.json"
+            }
+          },
+          {
+            "id": "libtiff",
+            "payload": {
+              "__lazy_json__": "node_attrs/libtiff.json"
+            }
+          },
+          {
+            "id": "libzio",
+            "payload": {
+              "__lazy_json__": "node_attrs/libzio.json"
+            }
+          },
+          {
+            "id": "lighttpd",
+            "payload": {
+              "__lazy_json__": "node_attrs/lighttpd.json"
+            }
+          },
+          {
+            "id": "linux-perf",
+            "payload": {
+              "__lazy_json__": "node_attrs/linux-perf.json"
+            }
+          },
+          {
+            "id": "lld",
+            "payload": {
+              "__lazy_json__": "node_attrs/lld.json"
+            }
+          },
+          {
+            "id": "lldb",
+            "payload": {
+              "__lazy_json__": "node_attrs/lldb.json"
+            }
+          },
+          {
+            "id": "llvmdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmdev.json"
+            }
+          },
+          {
+            "id": "llvmlite",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmlite.json"
+            }
+          },
+          {
+            "id": "mamba",
+            "payload": {
+              "__lazy_json__": "node_attrs/mamba.json"
+            }
+          },
+          {
+            "id": "mapserver",
+            "payload": {
+              "__lazy_json__": "node_attrs/mapserver.json"
+            }
+          },
+          {
+            "id": "mariadb-connector-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/mariadb-connector-c.json"
+            }
+          },
+          {
+            "id": "mesalib",
+            "payload": {
+              "__lazy_json__": "node_attrs/mesalib.json"
+            }
+          },
+          {
+            "id": "minizip",
+            "payload": {
+              "__lazy_json__": "node_attrs/minizip.json"
+            }
+          },
+          {
+            "id": "mlir",
+            "payload": {
+              "__lazy_json__": "node_attrs/mlir.json"
+            }
+          },
+          {
+            "id": "mlir-python-bindings",
+            "payload": {
+              "__lazy_json__": "node_attrs/mlir-python-bindings.json"
+            }
+          },
+          {
+            "id": "mold",
+            "payload": {
+              "__lazy_json__": "node_attrs/mold.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "mysql-connector-cpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql-connector-cpp.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
+            }
+          },
+          {
+            "id": "ncdu",
+            "payload": {
+              "__lazy_json__": "node_attrs/ncdu.json"
+            }
+          },
+          {
+            "id": "nix",
+            "payload": {
+              "__lazy_json__": "node_attrs/nix.json"
+            }
+          },
+          {
+            "id": "nodejs",
+            "payload": {
+              "__lazy_json__": "node_attrs/nodejs.json"
+            }
+          },
+          {
+            "id": "ocaml",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml.json"
+            }
+          },
+          {
+            "id": "ocaml-dune",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-dune.json"
+            }
+          },
+          {
+            "id": "omniorb",
+            "payload": {
+              "__lazy_json__": "node_attrs/omniorb.json"
+            }
+          },
+          {
+            "id": "opam",
+            "payload": {
+              "__lazy_json__": "node_attrs/opam.json"
+            }
+          },
+          {
+            "id": "open3d",
+            "payload": {
+              "__lazy_json__": "node_attrs/open3d.json"
+            }
+          },
+          {
+            "id": "openexr",
+            "payload": {
+              "__lazy_json__": "node_attrs/openexr.json"
+            }
+          },
+          {
+            "id": "openexr-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/openexr-python.json"
+            }
+          },
+          {
+            "id": "openslide",
+            "payload": {
+              "__lazy_json__": "node_attrs/openslide.json"
+            }
+          },
+          {
+            "id": "openvdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvdb.json"
+            }
+          },
+          {
+            "id": "orc",
+            "payload": {
+              "__lazy_json__": "node_attrs/orc.json"
+            }
+          },
+          {
+            "id": "ovito",
+            "payload": {
+              "__lazy_json__": "node_attrs/ovito.json"
+            }
+          },
+          {
+            "id": "oxigraph",
+            "payload": {
+              "__lazy_json__": "node_attrs/oxigraph.json"
+            }
+          },
+          {
+            "id": "pangolin-opengl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pangolin-opengl.json"
+            }
+          },
+          {
+            "id": "postgresql",
+            "payload": {
+              "__lazy_json__": "node_attrs/postgresql.json"
+            }
+          },
+          {
+            "id": "protozfits",
+            "payload": {
+              "__lazy_json__": "node_attrs/protozfits.json"
+            }
+          },
+          {
+            "id": "py-crude-resource-monitor",
+            "payload": {
+              "__lazy_json__": "node_attrs/py-crude-resource-monitor.json"
+            }
+          },
+          {
+            "id": "pygnome",
+            "payload": {
+              "__lazy_json__": "node_attrs/pygnome.json"
+            }
+          },
+          {
+            "id": "pyqir",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyqir.json"
+            }
+          },
+          {
+            "id": "python",
+            "payload": {
+              "__lazy_json__": "node_attrs/python.json"
+            }
+          },
+          {
+            "id": "python-rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-rocksdb.json"
+            }
+          },
+          {
+            "id": "python-zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-zstd.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          },
+          {
+            "id": "quadrants",
+            "payload": {
+              "__lazy_json__": "node_attrs/quadrants.json"
+            }
+          },
+          {
+            "id": "r-fstcore",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-fstcore.json"
+            }
+          },
+          {
+            "id": "r-pgenlibr",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-pgenlibr.json"
+            }
+          },
+          {
+            "id": "r-qs",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-qs.json"
+            }
+          },
+          {
+            "id": "r-qs2",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-qs2.json"
+            }
+          },
+          {
+            "id": "r-seqminer",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-seqminer.json"
+            }
+          },
+          {
+            "id": "rocksdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocksdb.json"
+            }
+          },
+          {
+            "id": "rocm-comgr",
+            "payload": {
+              "__lazy_json__": "node_attrs/rocm-comgr.json"
+            }
+          },
+          {
+            "id": "root",
+            "payload": {
+              "__lazy_json__": "node_attrs/root.json"
+            }
+          },
+          {
+            "id": "rpm-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/rpm-tools.json"
+            }
+          },
+          {
+            "id": "rsync",
+            "payload": {
+              "__lazy_json__": "node_attrs/rsync.json"
+            }
+          },
+          {
+            "id": "rustfs",
+            "payload": {
+              "__lazy_json__": "node_attrs/rustfs.json"
+            }
+          },
+          {
+            "id": "sbcl",
+            "payload": {
+              "__lazy_json__": "node_attrs/sbcl.json"
+            }
+          },
+          {
+            "id": "selenium-manager",
+            "payload": {
+              "__lazy_json__": "node_attrs/selenium-manager.json"
+            }
+          },
+          {
+            "id": "shrinkwrap",
+            "payload": {
+              "__lazy_json__": "node_attrs/shrinkwrap.json"
+            }
+          },
+          {
+            "id": "slurm",
+            "payload": {
+              "__lazy_json__": "node_attrs/slurm.json"
+            }
+          },
+          {
+            "id": "smspp-project",
+            "payload": {
+              "__lazy_json__": "node_attrs/smspp-project.json"
+            }
+          },
+          {
+            "id": "sparrow-ipc",
+            "payload": {
+              "__lazy_json__": "node_attrs/sparrow-ipc.json"
+            }
+          },
+          {
+            "id": "spz",
+            "payload": {
+              "__lazy_json__": "node_attrs/spz.json"
+            }
+          },
+          {
+            "id": "sqlite_zstd_vfs",
+            "payload": {
+              "__lazy_json__": "node_attrs/sqlite_zstd_vfs.json"
+            }
+          },
+          {
+            "id": "squashfs-tools",
+            "payload": {
+              "__lazy_json__": "node_attrs/squashfs-tools.json"
+            }
+          },
+          {
+            "id": "squashfuse",
+            "payload": {
+              "__lazy_json__": "node_attrs/squashfuse.json"
+            }
+          },
+          {
+            "id": "symengine",
+            "payload": {
+              "__lazy_json__": "node_attrs/symengine.json"
+            }
+          },
+          {
+            "id": "systemd",
+            "payload": {
+              "__lazy_json__": "node_attrs/systemd.json"
+            }
+          },
+          {
+            "id": "tiledb",
+            "payload": {
+              "__lazy_json__": "node_attrs/tiledb.json"
+            }
+          },
+          {
+            "id": "tor",
+            "payload": {
+              "__lazy_json__": "node_attrs/tor.json"
+            }
+          },
+          {
+            "id": "triton",
+            "payload": {
+              "__lazy_json__": "node_attrs/triton.json"
+            }
+          },
+          {
+            "id": "ugrep",
+            "payload": {
+              "__lazy_json__": "node_attrs/ugrep.json"
+            }
+          },
+          {
+            "id": "uv",
+            "payload": {
+              "__lazy_json__": "node_attrs/uv.json"
+            }
+          },
+          {
+            "id": "vale-ls",
+            "payload": {
+              "__lazy_json__": "node_attrs/vale-ls.json"
+            }
+          },
+          {
+            "id": "vrs",
+            "payload": {
+              "__lazy_json__": "node_attrs/vrs.json"
+            }
+          },
+          {
+            "id": "wasmer",
+            "payload": {
+              "__lazy_json__": "node_attrs/wasmer.json"
+            }
+          },
+          {
+            "id": "z5py",
+            "payload": {
+              "__lazy_json__": "node_attrs/z5py.json"
+            }
+          },
+          {
+            "id": "zchunk",
+            "payload": {
+              "__lazy_json__": "node_attrs/zchunk.json"
+            }
+          },
+          {
+            "id": "zed",
+            "payload": {
+              "__lazy_json__": "node_attrs/zed.json"
+            }
+          },
+          {
+            "id": "zstandard",
+            "payload": {
+              "__lazy_json__": "node_attrs/zstandard.json"
+            }
+          },
+          {
+            "id": "ocaml-compiler-libs",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-compiler-libs.json"
+            }
+          },
+          {
+            "id": "herdr-app",
+            "payload": {
+              "__lazy_json__": "node_attrs/herdr-app.json"
+            }
+          },
+          {
+            "id": "cloudini",
+            "payload": {
+              "__lazy_json__": "node_attrs/cloudini.json"
+            }
+          },
+          {
+            "id": "matrix-sdk-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/matrix-sdk-python.json"
+            }
+          }
+        ]
+      }
+    },
+    "ignored_deps_per_node": null,
+    "kind": "version",
+    "longterm": false,
+    "migration_number": 1,
+    "package_names": {
+      "__set__": true,
+      "elements": [
+        "zstd"
+      ]
+    },
+    "paused": false,
+    "piggy_back_migrations": [
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossCompilationForARMAndPower",
+        "kwargs": {},
+        "name": "crosscompilationforarmandpower"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "StdlibMigrator",
+        "kwargs": {},
+        "name": "stdlibmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CondaForgeYAMLCleanup",
+        "kwargs": {},
+        "name": "condaforgeyamlcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "Jinja2VarsCleanup",
+        "kwargs": {},
+        "name": "jinja2varscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "DuplicateLinesCleanup",
+        "kwargs": {},
+        "name": "duplicatelinescleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PipMigrator",
+        "kwargs": {},
+        "name": "pipmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "LicenseMigrator",
+        "kwargs": {},
+        "name": "licensemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "CrossToNativeMigrator",
+        "kwargs": {},
+        "name": "crosstonativemigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "ExtraJinja2KeysCleanup",
+        "kwargs": {},
+        "name": "extrajinja2keyscleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "NoCondaInspectMigrator",
+        "kwargs": {},
+        "name": "nocondainspectmigrator"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "MPIPinRunAsBuildCleanup",
+        "kwargs": {},
+        "name": "mpipinrunasbuildcleanup"
+      },
+      {
+        "__mini_migrator__": true,
+        "args": [],
+        "class": "PyPIOrgMigrator",
+        "kwargs": {},
+        "name": "pypiorgmigrator"
+      }
+    ],
+    "pr_limit": 2,
+    "top_level": {
+      "__set__": true,
+      "elements": []
+    },
+    "total_graph": null
+  },
+  "name": "zstd16"
+}
