@@ -19571,6 +19571,10 @@
           },
           {
             "source": "cmake",
+            "target": "pyobjcryst"
+          },
+          {
+            "source": "cmake",
             "target": "pyopencl"
           },
           {
@@ -41750,10 +41754,6 @@
             "target": "libnvimgcodec"
           },
           {
-            "source": "libobjcryst",
-            "target": "pyobjcryst"
-          },
-          {
             "source": "libode",
             "target": "dartsim"
           },
@@ -57816,6 +57816,10 @@
           {
             "source": "ninja",
             "target": "pymdi"
+          },
+          {
+            "source": "ninja",
+            "target": "pyobjcryst"
           },
           {
             "source": "ninja",
