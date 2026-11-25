@@ -15075,6 +15075,10 @@
           },
           {
             "source": "cmake",
+            "target": "ollama"
+          },
+          {
+            "source": "cmake",
             "target": "omicron"
           },
           {
@@ -30624,6 +30628,10 @@
           {
             "source": "go-licenses",
             "target": "minio-server"
+          },
+          {
+            "source": "go-licenses",
+            "target": "ollama"
           },
           {
             "source": "go-licenses",
@@ -47087,6 +47095,10 @@
           },
           {
             "source": "make",
+            "target": "ollama"
+          },
+          {
+            "source": "make",
             "target": "omicron"
           },
           {
@@ -56264,6 +56276,10 @@
           {
             "source": "ninja",
             "target": "libheif"
+          },
+          {
+            "source": "ninja",
+            "target": "libhiredis"
           },
           {
             "source": "ninja",
@@ -121578,6 +121594,12 @@
             "id": "oidc-agent",
             "payload": {
               "__lazy_json__": "node_attrs/oidc-agent.json"
+            }
+          },
+          {
+            "id": "ollama",
+            "payload": {
+              "__lazy_json__": "node_attrs/ollama.json"
             }
           },
           {
