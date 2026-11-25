@@ -15507,6 +15507,10 @@
           },
           {
             "source": "cmake",
+            "target": "pyobjcryst"
+          },
+          {
+            "source": "cmake",
             "target": "pyopencl"
           },
           {
@@ -39770,10 +39774,6 @@
             "target": "libdiffpy"
           },
           {
-            "source": "libobjcryst",
-            "target": "pyobjcryst"
-          },
-          {
             "source": "libode",
             "target": "dartsim"
           },
@@ -57116,6 +57116,10 @@
           {
             "source": "ninja",
             "target": "pynng"
+          },
+          {
+            "source": "ninja",
+            "target": "pyobjcryst"
           },
           {
             "source": "ninja",
