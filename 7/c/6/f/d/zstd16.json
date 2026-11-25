@@ -86,12 +86,6 @@
             }
           },
           {
-            "id": "sbcl",
-            "payload": {
-              "__lazy_json__": "node_attrs/sbcl.json"
-            }
-          },
-          {
             "id": "shrinkwrap",
             "payload": {
               "__lazy_json__": "node_attrs/shrinkwrap.json"
@@ -101,30 +95,6 @@
             "id": "sparrow-ipc",
             "payload": {
               "__lazy_json__": "node_attrs/sparrow-ipc.json"
-            }
-          },
-          {
-            "id": "spz",
-            "payload": {
-              "__lazy_json__": "node_attrs/spz.json"
-            }
-          },
-          {
-            "id": "squashfuse",
-            "payload": {
-              "__lazy_json__": "node_attrs/squashfuse.json"
-            }
-          },
-          {
-            "id": "tor",
-            "payload": {
-              "__lazy_json__": "node_attrs/tor.json"
-            }
-          },
-          {
-            "id": "vale-ls",
-            "payload": {
-              "__lazy_json__": "node_attrs/vale-ls.json"
             }
           },
           {
@@ -3917,7 +3887,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
