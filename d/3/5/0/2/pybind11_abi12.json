@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "mujoco",
+            "payload": {
+              "__lazy_json__": "node_attrs/mujoco.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -1222,7 +1229,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
