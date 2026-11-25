@@ -56,18 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "basemap",
-            "payload": {
-              "__lazy_json__": "node_attrs/basemap.json"
-            }
-          },
-          {
-            "id": "librttopo",
-            "payload": {
-              "__lazy_json__": "node_attrs/librttopo.json"
-            }
-          },
-          {
             "id": "shapely",
             "payload": {
               "__lazy_json__": "node_attrs/shapely.json"
@@ -465,7 +453,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 2,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
