@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "usd-exchange",
+            "payload": {
+              "__lazy_json__": "node_attrs/usd-exchange.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -612,6 +619,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "usd-exchange",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "vampyr",
             "target": "conda-forge-pinning"
           },
@@ -1099,6 +1110,12 @@
             }
           },
           {
+            "id": "usd-exchange",
+            "payload": {
+              "__lazy_json__": "node_attrs/usd-exchange.json"
+            }
+          },
+          {
             "id": "vampyr",
             "payload": {
               "__lazy_json__": "node_attrs/vampyr.json"
@@ -1222,7 +1239,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
