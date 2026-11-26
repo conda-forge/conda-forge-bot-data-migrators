@@ -74,45 +74,9 @@
             }
           },
           {
-            "id": "ogs",
-            "payload": {
-              "__lazy_json__": "node_attrs/ogs.json"
-            }
-          },
-          {
-            "id": "open3d",
-            "payload": {
-              "__lazy_json__": "node_attrs/open3d.json"
-            }
-          },
-          {
-            "id": "paraview",
-            "payload": {
-              "__lazy_json__": "node_attrs/paraview.json"
-            }
-          },
-          {
-            "id": "pcl",
-            "payload": {
-              "__lazy_json__": "node_attrs/pcl.json"
-            }
-          },
-          {
             "id": "python-mint",
             "payload": {
               "__lazy_json__": "node_attrs/python-mint.json"
-            }
-          },
-          {
-            "id": "visan",
-            "payload": {
-              "__lazy_json__": "node_attrs/visan.json"
-            }
-          },
-          {
-            "id": "vmtk",
-            "payload": {
-              "__lazy_json__": "node_attrs/vmtk.json"
             }
           },
           {
@@ -546,7 +510,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 10,
+    "pr_limit": 8,
     "top_level": {
       "__set__": true,
       "elements": []
