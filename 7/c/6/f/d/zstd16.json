@@ -1,7 +1,7 @@
 {
   "__migrator__": true,
   "args": [
-    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for zstd 1.6\n  kind: version\n  migration_number: 1\nmigrator_ts: 1795498666.105089\nzstd:\n- '1.6'\n",
+    "__migrator:\n  build_number: 1\n  commit_message: Rebuild for zstd 1.6\n  kind: version\n  migration_number: 1\n  exclude:\n    # bot misdetects a cycle\n    - binutils  # build-only dep for python\n    - cmake\n    - curl\n    - llvmdev\nmigrator_ts: 1795498666.105089\nzstd:\n- '1.6'\n",
     "zstd16"
   ],
   "class": "MigrationYaml",
@@ -56,6 +56,36 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "libarchive",
+            "payload": {
+              "__lazy_json__": "node_attrs/libarchive.json"
+            }
+          },
+          {
+            "id": "libdwarf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libdwarf.json"
+            }
+          },
+          {
+            "id": "minizip",
+            "payload": {
+              "__lazy_json__": "node_attrs/minizip.json"
+            }
+          },
+          {
+            "id": "pangolin-opengl",
+            "payload": {
+              "__lazy_json__": "node_attrs/pangolin-opengl.json"
+            }
+          },
+          {
+            "id": "python",
+            "payload": {
+              "__lazy_json__": "node_attrs/python.json"
+            }
+          },
+          {
             "id": "sqlite_zstd_vfs",
             "payload": {
               "__lazy_json__": "node_attrs/sqlite_zstd_vfs.json"
@@ -70,6 +100,12 @@
         ]
       }
     },
+    "exclude": [
+      "binutils",
+      "cmake",
+      "curl",
+      "llvmdev"
+    ],
     "force_pr_after_solver_attempts": 10,
     "graph": {
       "__nx_digraph__": true,
@@ -219,386 +255,6 @@
           {
             "source": "bgenix",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "binutils",
-            "target": "apiary"
-          },
-          {
-            "source": "binutils",
-            "target": "arcticdb"
-          },
-          {
-            "source": "binutils",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "binutils",
-            "target": "backports.zstd"
-          },
-          {
-            "source": "binutils",
-            "target": "bfiocpp"
-          },
-          {
-            "source": "binutils",
-            "target": "bgen"
-          },
-          {
-            "source": "binutils",
-            "target": "bodo"
-          },
-          {
-            "source": "binutils",
-            "target": "boost"
-          },
-          {
-            "source": "binutils",
-            "target": "bun"
-          },
-          {
-            "source": "binutils",
-            "target": "ccr"
-          },
-          {
-            "source": "binutils",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "binutils",
-            "target": "clad"
-          },
-          {
-            "source": "binutils",
-            "target": "cling"
-          },
-          {
-            "source": "binutils",
-            "target": "cmake"
-          },
-          {
-            "source": "binutils",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "binutils",
-            "target": "cppinterop"
-          },
-          {
-            "source": "binutils",
-            "target": "curl"
-          },
-          {
-            "source": "binutils",
-            "target": "dectris-compression"
-          },
-          {
-            "source": "binutils",
-            "target": "dttlib"
-          },
-          {
-            "source": "binutils",
-            "target": "elegant"
-          },
-          {
-            "source": "binutils",
-            "target": "emacs"
-          },
-          {
-            "source": "binutils",
-            "target": "fastar"
-          },
-          {
-            "source": "binutils",
-            "target": "filament"
-          },
-          {
-            "source": "binutils",
-            "target": "flang"
-          },
-          {
-            "source": "binutils",
-            "target": "flang-rt"
-          },
-          {
-            "source": "binutils",
-            "target": "freefem"
-          },
-          {
-            "source": "binutils",
-            "target": "gaudi"
-          },
-          {
-            "source": "binutils",
-            "target": "gdal"
-          },
-          {
-            "source": "binutils",
-            "target": "gdb"
-          },
-          {
-            "source": "binutils",
-            "target": "graphicsmagick"
-          },
-          {
-            "source": "binutils",
-            "target": "grass"
-          },
-          {
-            "source": "binutils",
-            "target": "hdf5plugin"
-          },
-          {
-            "source": "binutils",
-            "target": "hepmc3"
-          },
-          {
-            "source": "binutils",
-            "target": "herdr-app"
-          },
-          {
-            "source": "binutils",
-            "target": "heyoka"
-          },
-          {
-            "source": "binutils",
-            "target": "ifcopenshell"
-          },
-          {
-            "source": "binutils",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "binutils",
-            "target": "ispc"
-          },
-          {
-            "source": "binutils",
-            "target": "lean-ctx"
-          },
-          {
-            "source": "binutils",
-            "target": "libclc"
-          },
-          {
-            "source": "binutils",
-            "target": "libiio"
-          },
-          {
-            "source": "binutils",
-            "target": "libmongoc"
-          },
-          {
-            "source": "binutils",
-            "target": "libnetcdf"
-          },
-          {
-            "source": "binutils",
-            "target": "libnvimgcodec"
-          },
-          {
-            "source": "binutils",
-            "target": "librdkafka"
-          },
-          {
-            "source": "binutils",
-            "target": "librepo"
-          },
-          {
-            "source": "binutils",
-            "target": "lighttpd"
-          },
-          {
-            "source": "binutils",
-            "target": "linux-perf"
-          },
-          {
-            "source": "binutils",
-            "target": "lldb"
-          },
-          {
-            "source": "binutils",
-            "target": "llvmlite"
-          },
-          {
-            "source": "binutils",
-            "target": "mamba"
-          },
-          {
-            "source": "binutils",
-            "target": "mapserver"
-          },
-          {
-            "source": "binutils",
-            "target": "mariadb-connector-c"
-          },
-          {
-            "source": "binutils",
-            "target": "matrix-sdk-python"
-          },
-          {
-            "source": "binutils",
-            "target": "mesalib"
-          },
-          {
-            "source": "binutils",
-            "target": "mlir-python-bindings"
-          },
-          {
-            "source": "binutils",
-            "target": "mold"
-          },
-          {
-            "source": "binutils",
-            "target": "mysql"
-          },
-          {
-            "source": "binutils",
-            "target": "nanoarrow"
-          },
-          {
-            "source": "binutils",
-            "target": "ncdu"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml"
-          },
-          {
-            "source": "binutils",
-            "target": "ocaml-compiler-libs"
-          },
-          {
-            "source": "binutils",
-            "target": "omniorb"
-          },
-          {
-            "source": "binutils",
-            "target": "opam"
-          },
-          {
-            "source": "binutils",
-            "target": "open3d"
-          },
-          {
-            "source": "binutils",
-            "target": "openexr-python"
-          },
-          {
-            "source": "binutils",
-            "target": "openslide"
-          },
-          {
-            "source": "binutils",
-            "target": "openvdb"
-          },
-          {
-            "source": "binutils",
-            "target": "ovito"
-          },
-          {
-            "source": "binutils",
-            "target": "oxigraph"
-          },
-          {
-            "source": "binutils",
-            "target": "postgresql"
-          },
-          {
-            "source": "binutils",
-            "target": "protozfits"
-          },
-          {
-            "source": "binutils",
-            "target": "pygnome"
-          },
-          {
-            "source": "binutils",
-            "target": "pyqir"
-          },
-          {
-            "source": "binutils",
-            "target": "python"
-          },
-          {
-            "source": "binutils",
-            "target": "python-rocksdb"
-          },
-          {
-            "source": "binutils",
-            "target": "qt-main"
-          },
-          {
-            "source": "binutils",
-            "target": "quadrants"
-          },
-          {
-            "source": "binutils",
-            "target": "r-fstcore"
-          },
-          {
-            "source": "binutils",
-            "target": "r-pgenlibr"
-          },
-          {
-            "source": "binutils",
-            "target": "r-qs"
-          },
-          {
-            "source": "binutils",
-            "target": "r-qs2"
-          },
-          {
-            "source": "binutils",
-            "target": "r-seqminer"
-          },
-          {
-            "source": "binutils",
-            "target": "rocm-comgr"
-          },
-          {
-            "source": "binutils",
-            "target": "root"
-          },
-          {
-            "source": "binutils",
-            "target": "rpm-tools"
-          },
-          {
-            "source": "binutils",
-            "target": "slurm"
-          },
-          {
-            "source": "binutils",
-            "target": "smspp-project"
-          },
-          {
-            "source": "binutils",
-            "target": "symengine"
-          },
-          {
-            "source": "binutils",
-            "target": "tiledb"
-          },
-          {
-            "source": "binutils",
-            "target": "triton"
-          },
-          {
-            "source": "binutils",
-            "target": "wasmer"
-          },
-          {
-            "source": "binutils",
-            "target": "z5py"
-          },
-          {
-            "source": "binutils",
-            "target": "zed"
-          },
-          {
-            "source": "binutils",
-            "target": "zstandard"
           },
           {
             "source": "blosc",
@@ -765,204 +421,12 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "cmake",
-            "target": "apiary"
-          },
-          {
-            "source": "cmake",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "cmake",
-            "target": "cppinterop"
-          },
-          {
-            "source": "cmake",
-            "target": "filament"
-          },
-          {
-            "source": "cmake",
-            "target": "libarchive"
-          },
-          {
-            "source": "cmake",
-            "target": "libdwarf"
-          },
-          {
-            "source": "cmake",
-            "target": "libnvimgcodec"
-          },
-          {
-            "source": "cmake",
-            "target": "minizip"
-          },
-          {
-            "source": "cmake",
-            "target": "pangolin-opengl"
-          },
-          {
-            "source": "cmake",
-            "target": "python"
-          },
-          {
-            "source": "cmake",
-            "target": "qt-main"
-          },
-          {
-            "source": "cmake",
-            "target": "tiledb"
-          },
-          {
-            "source": "cmake",
-            "target": "vrs"
-          },
-          {
-            "source": "cmake",
-            "target": "zed"
-          },
-          {
             "source": "coreos-installer",
             "target": "conda-forge-pinning"
           },
           {
             "source": "cppinterop",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "curl",
-            "target": "arcticdb"
-          },
-          {
-            "source": "curl",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "curl",
-            "target": "bfiocpp"
-          },
-          {
-            "source": "curl",
-            "target": "clad"
-          },
-          {
-            "source": "curl",
-            "target": "cmake"
-          },
-          {
-            "source": "curl",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "curl",
-            "target": "dttlib"
-          },
-          {
-            "source": "curl",
-            "target": "freefem"
-          },
-          {
-            "source": "curl",
-            "target": "gdal"
-          },
-          {
-            "source": "curl",
-            "target": "grass"
-          },
-          {
-            "source": "curl",
-            "target": "libnetcdf"
-          },
-          {
-            "source": "curl",
-            "target": "libpulsar"
-          },
-          {
-            "source": "curl",
-            "target": "librdkafka"
-          },
-          {
-            "source": "curl",
-            "target": "librepo"
-          },
-          {
-            "source": "curl",
-            "target": "mamba"
-          },
-          {
-            "source": "curl",
-            "target": "mapserver"
-          },
-          {
-            "source": "curl",
-            "target": "mariadb-connector-c"
-          },
-          {
-            "source": "curl",
-            "target": "mysql"
-          },
-          {
-            "source": "curl",
-            "target": "nix"
-          },
-          {
-            "source": "curl",
-            "target": "opam"
-          },
-          {
-            "source": "curl",
-            "target": "open3d"
-          },
-          {
-            "source": "curl",
-            "target": "pygnome"
-          },
-          {
-            "source": "curl",
-            "target": "r-fstcore"
-          },
-          {
-            "source": "curl",
-            "target": "r-pgenlibr"
-          },
-          {
-            "source": "curl",
-            "target": "r-qs"
-          },
-          {
-            "source": "curl",
-            "target": "r-qs2"
-          },
-          {
-            "source": "curl",
-            "target": "r-seqminer"
-          },
-          {
-            "source": "curl",
-            "target": "root"
-          },
-          {
-            "source": "curl",
-            "target": "slurm"
-          },
-          {
-            "source": "curl",
-            "target": "smspp-project"
-          },
-          {
-            "source": "curl",
-            "target": "sqlite_zstd_vfs"
-          },
-          {
-            "source": "curl",
-            "target": "tiledb"
-          },
-          {
-            "source": "curl",
-            "target": "zchunk"
-          },
-          {
-            "source": "curl",
-            "target": "zed"
           },
           {
             "source": "dectris-compression",
@@ -1321,398 +785,6 @@
             "target": "zed"
           },
           {
-            "source": "llvmdev",
-            "target": "apiary"
-          },
-          {
-            "source": "llvmdev",
-            "target": "arcticdb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "backports.zstd"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bfiocpp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bgen"
-          },
-          {
-            "source": "llvmdev",
-            "target": "binutils"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bodo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "boost"
-          },
-          {
-            "source": "llvmdev",
-            "target": "bun"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ccr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cds-crtools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "clad"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cling"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cmake"
-          },
-          {
-            "source": "llvmdev",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cppinterop"
-          },
-          {
-            "source": "llvmdev",
-            "target": "curl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dectris-compression"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dttlib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "elegant"
-          },
-          {
-            "source": "llvmdev",
-            "target": "emacs"
-          },
-          {
-            "source": "llvmdev",
-            "target": "fastar"
-          },
-          {
-            "source": "llvmdev",
-            "target": "filament"
-          },
-          {
-            "source": "llvmdev",
-            "target": "flang"
-          },
-          {
-            "source": "llvmdev",
-            "target": "flang-rt"
-          },
-          {
-            "source": "llvmdev",
-            "target": "freefem"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gaudi"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gdal"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gdb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "graphicsmagick"
-          },
-          {
-            "source": "llvmdev",
-            "target": "grass"
-          },
-          {
-            "source": "llvmdev",
-            "target": "hdf5plugin"
-          },
-          {
-            "source": "llvmdev",
-            "target": "hepmc3"
-          },
-          {
-            "source": "llvmdev",
-            "target": "herdr-app"
-          },
-          {
-            "source": "llvmdev",
-            "target": "heyoka"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ifcopenshell"
-          },
-          {
-            "source": "llvmdev",
-            "target": "imagecodecs"
-          },
-          {
-            "source": "llvmdev",
-            "target": "inko"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ispc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lean-ctx"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libclc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libiio"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libmongoc"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libnetcdf"
-          },
-          {
-            "source": "llvmdev",
-            "target": "libnvimgcodec"
-          },
-          {
-            "source": "llvmdev",
-            "target": "librdkafka"
-          },
-          {
-            "source": "llvmdev",
-            "target": "librepo"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lighttpd"
-          },
-          {
-            "source": "llvmdev",
-            "target": "linux-perf"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lld"
-          },
-          {
-            "source": "llvmdev",
-            "target": "lldb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "llvmlite"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mamba"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mapserver"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mariadb-connector-c"
-          },
-          {
-            "source": "llvmdev",
-            "target": "matrix-sdk-python"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mesalib"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mlir"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mlir-python-bindings"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mold"
-          },
-          {
-            "source": "llvmdev",
-            "target": "mysql"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nanoarrow"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ncdu"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ocaml"
-          },
-          {
-            "source": "llvmdev",
-            "target": "omniorb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "opam"
-          },
-          {
-            "source": "llvmdev",
-            "target": "open3d"
-          },
-          {
-            "source": "llvmdev",
-            "target": "openexr-python"
-          },
-          {
-            "source": "llvmdev",
-            "target": "openslide"
-          },
-          {
-            "source": "llvmdev",
-            "target": "openvdb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ovito"
-          },
-          {
-            "source": "llvmdev",
-            "target": "oxigraph"
-          },
-          {
-            "source": "llvmdev",
-            "target": "postgresql"
-          },
-          {
-            "source": "llvmdev",
-            "target": "protozfits"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pygnome"
-          },
-          {
-            "source": "llvmdev",
-            "target": "pyqir"
-          },
-          {
-            "source": "llvmdev",
-            "target": "python"
-          },
-          {
-            "source": "llvmdev",
-            "target": "python-rocksdb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "qt-main"
-          },
-          {
-            "source": "llvmdev",
-            "target": "quadrants"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-fstcore"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-pgenlibr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-qs"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-qs2"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-seqminer"
-          },
-          {
-            "source": "llvmdev",
-            "target": "rocm-comgr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "root"
-          },
-          {
-            "source": "llvmdev",
-            "target": "rpm-tools"
-          },
-          {
-            "source": "llvmdev",
-            "target": "slurm"
-          },
-          {
-            "source": "llvmdev",
-            "target": "smspp-project"
-          },
-          {
-            "source": "llvmdev",
-            "target": "symengine"
-          },
-          {
-            "source": "llvmdev",
-            "target": "tiledb"
-          },
-          {
-            "source": "llvmdev",
-            "target": "triton"
-          },
-          {
-            "source": "llvmdev",
-            "target": "wasmer"
-          },
-          {
-            "source": "llvmdev",
-            "target": "z5py"
-          },
-          {
-            "source": "llvmdev",
-            "target": "zed"
-          },
-          {
-            "source": "llvmdev",
-            "target": "zstandard"
-          },
-          {
             "source": "llvmlite",
             "target": "bodo"
           },
@@ -1998,10 +1070,6 @@
           },
           {
             "source": "python",
-            "target": "binutils"
-          },
-          {
-            "source": "python",
             "target": "bodo"
           },
           {
@@ -2034,19 +1102,11 @@
           },
           {
             "source": "python",
-            "target": "cmake"
-          },
-          {
-            "source": "python",
             "target": "conda-forge-pinning"
           },
           {
             "source": "python",
             "target": "cppinterop"
-          },
-          {
-            "source": "python",
-            "target": "curl"
           },
           {
             "source": "python",
@@ -2134,6 +1194,10 @@
           },
           {
             "source": "python",
+            "target": "inko"
+          },
+          {
+            "source": "python",
             "target": "ispc"
           },
           {
@@ -2178,11 +1242,11 @@
           },
           {
             "source": "python",
-            "target": "lldb"
+            "target": "lld"
           },
           {
             "source": "python",
-            "target": "llvmdev"
+            "target": "lldb"
           },
           {
             "source": "python",
@@ -2207,6 +1271,10 @@
           {
             "source": "python",
             "target": "mesalib"
+          },
+          {
+            "source": "python",
+            "target": "mlir"
           },
           {
             "source": "python",
@@ -2239,6 +1307,10 @@
           {
             "source": "python",
             "target": "ocaml"
+          },
+          {
+            "source": "python",
+            "target": "ocaml-compiler-libs"
           },
           {
             "source": "python",
@@ -2918,12 +1990,6 @@
             }
           },
           {
-            "id": "binutils",
-            "payload": {
-              "__lazy_json__": "node_attrs/binutils.json"
-            }
-          },
-          {
             "id": "blosc",
             "payload": {
               "__lazy_json__": "node_attrs/blosc.json"
@@ -2990,12 +2056,6 @@
             }
           },
           {
-            "id": "cmake",
-            "payload": {
-              "__lazy_json__": "node_attrs/cmake.json"
-            }
-          },
-          {
             "id": "conda-forge-pinning",
             "payload": {
               "__lazy_json__": "node_attrs/conda-forge-pinning.json"
@@ -3011,12 +2071,6 @@
             "id": "cppinterop",
             "payload": {
               "__lazy_json__": "node_attrs/cppinterop.json"
-            }
-          },
-          {
-            "id": "curl",
-            "payload": {
-              "__lazy_json__": "node_attrs/curl.json"
             }
           },
           {
@@ -3281,12 +2335,6 @@
             "id": "lldb",
             "payload": {
               "__lazy_json__": "node_attrs/lldb.json"
-            }
-          },
-          {
-            "id": "llvmdev",
-            "payload": {
-              "__lazy_json__": "node_attrs/llvmdev.json"
             }
           },
           {
