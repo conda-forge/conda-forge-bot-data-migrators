@@ -56,30 +56,6 @@
         "multigraph": false,
         "nodes": [
           {
-            "id": "bonsu",
-            "payload": {
-              "__lazy_json__": "node_attrs/bonsu.json"
-            }
-          },
-          {
-            "id": "gbs",
-            "payload": {
-              "__lazy_json__": "node_attrs/gbs.json"
-            }
-          },
-          {
-            "id": "greedyreg",
-            "payload": {
-              "__lazy_json__": "node_attrs/greedyreg.json"
-            }
-          },
-          {
-            "id": "python-mint",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-mint.json"
-            }
-          },
-          {
             "id": "vtkbool",
             "payload": {
               "__lazy_json__": "node_attrs/vtkbool.json"
@@ -510,7 +486,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
