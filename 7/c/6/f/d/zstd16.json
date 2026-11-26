@@ -54,7 +54,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "sqlite_zstd_vfs",
+            "payload": {
+              "__lazy_json__": "node_attrs/sqlite_zstd_vfs.json"
+            }
+          },
+          {
+            "id": "zchunk",
+            "payload": {
+              "__lazy_json__": "node_attrs/zchunk.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
