@@ -74,12 +74,6 @@
             }
           },
           {
-            "id": "mayavi",
-            "payload": {
-              "__lazy_json__": "node_attrs/mayavi.json"
-            }
-          },
-          {
             "id": "ogs",
             "payload": {
               "__lazy_json__": "node_attrs/ogs.json"
@@ -101,12 +95,6 @@
             "id": "pcl",
             "payload": {
               "__lazy_json__": "node_attrs/pcl.json"
-            }
-          },
-          {
-            "id": "pycgns",
-            "payload": {
-              "__lazy_json__": "node_attrs/pycgns.json"
             }
           },
           {
@@ -558,7 +546,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 5,
+    "pr_limit": 10,
     "top_level": {
       "__set__": true,
       "elements": []
