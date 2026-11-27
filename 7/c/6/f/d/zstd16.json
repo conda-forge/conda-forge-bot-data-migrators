@@ -71,10 +71,6 @@
           },
           {
             "source": "clangdev",
-            "target": "herdr-app"
-          },
-          {
-            "source": "clangdev",
             "target": "libiio"
           },
           {
@@ -84,14 +80,6 @@
           {
             "source": "clangdev",
             "target": "llvmlite"
-          },
-          {
-            "source": "clangdev",
-            "target": "matrix-sdk-python"
-          },
-          {
-            "source": "clangdev",
-            "target": "mlir-python-bindings"
           },
           {
             "source": "clangdev",
@@ -173,12 +161,6 @@
             }
           },
           {
-            "id": "mlir-python-bindings",
-            "payload": {
-              "__lazy_json__": "node_attrs/mlir-python-bindings.json"
-            }
-          },
-          {
             "id": "mysql",
             "payload": {
               "__lazy_json__": "node_attrs/mysql.json"
@@ -218,18 +200,6 @@
             "id": "smspp-project",
             "payload": {
               "__lazy_json__": "node_attrs/smspp-project.json"
-            }
-          },
-          {
-            "id": "herdr-app",
-            "payload": {
-              "__lazy_json__": "node_attrs/herdr-app.json"
-            }
-          },
-          {
-            "id": "matrix-sdk-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/matrix-sdk-python.json"
             }
           }
         ]
