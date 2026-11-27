@@ -169,6 +169,10 @@
           },
           {
             "source": "arrow-cpp",
+            "target": "rubinenv"
+          },
+          {
+            "source": "arrow-cpp",
             "target": "turbodbc"
           },
           {
@@ -1617,6 +1621,10 @@
           },
           {
             "source": "libkml",
+            "target": "rubinenv"
+          },
+          {
+            "source": "libkml",
             "target": "visionworkbench"
           },
           {
@@ -1810,6 +1818,10 @@
           {
             "source": "ndarray",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ndarray",
+            "target": "rubinenv"
           },
           {
             "source": "ndcurves",
@@ -2216,6 +2228,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "python-gfal2",
+            "target": "rubinenv"
+          },
+          {
             "source": "python-pcl",
             "target": "conda-forge-pinning"
           },
@@ -2349,6 +2365,10 @@
           },
           {
             "source": "rstudio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rubinenv",
             "target": "conda-forge-pinning"
           },
           {
@@ -4322,6 +4342,12 @@
             "id": "rstudio",
             "payload": {
               "__lazy_json__": "node_attrs/rstudio.json"
+            }
+          },
+          {
+            "id": "rubinenv",
+            "payload": {
+              "__lazy_json__": "node_attrs/rubinenv.json"
             }
           },
           {
