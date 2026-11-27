@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
+            "id": "libcufile",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcufile.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -507,6 +520,10 @@
           },
           {
             "source": "binutils",
+            "target": "libcudss"
+          },
+          {
+            "source": "binutils",
             "target": "llama.cpp"
           },
           {
@@ -520,6 +537,10 @@
           {
             "source": "binutils",
             "target": "python"
+          },
+          {
+            "source": "binutils",
+            "target": "pytorch-cpu"
           },
           {
             "source": "binutils",
@@ -795,6 +816,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "libcudss"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "llama.cpp"
           },
           {
@@ -804,6 +829,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "ncurses"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cctools-and-ld64",
@@ -858,6 +887,10 @@
             "target": "llama.cpp"
           },
           {
+            "source": "clang-compiler-activation",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "clangdev",
             "target": "arrow-cpp"
           },
@@ -875,6 +908,10 @@
           },
           {
             "source": "clangdev",
+            "target": "libcudss"
+          },
+          {
+            "source": "clangdev",
             "target": "llama.cpp"
           },
           {
@@ -888,6 +925,10 @@
           {
             "source": "clangdev",
             "target": "pyarrow"
+          },
+          {
+            "source": "clangdev",
+            "target": "pytorch-cpu"
           },
           {
             "source": "clangdev",
@@ -1003,6 +1044,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "tensorrt"
           },
           {
@@ -1032,6 +1077,10 @@
           {
             "source": "cuda-cuobjdump",
             "target": "triton"
+          },
+          {
+            "source": "cuda-cupti",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cuda-cupti",
@@ -1067,6 +1116,10 @@
           },
           {
             "source": "cuda-nvml-dev",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvml-dev",
             "target": "torchaudio"
           },
           {
@@ -1095,6 +1148,14 @@
           },
           {
             "source": "cuda-nvrtc",
+            "target": "libcudss"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvrtc",
             "target": "tensorrt"
           },
           {
@@ -1115,6 +1176,10 @@
           },
           {
             "source": "cuda-nvtx",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-nvtx",
             "target": "torchaudio"
           },
           {
@@ -1131,11 +1196,19 @@
           },
           {
             "source": "cuda-profiler-api",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-profiler-api",
             "target": "torchaudio"
           },
           {
             "source": "cuda-profiler-api",
             "target": "torchcodec"
+          },
+          {
+            "source": "cudnn",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cudnn",
@@ -1196,6 +1269,10 @@
           {
             "source": "curl",
             "target": "r-base"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cyrus-sasl",
@@ -1714,6 +1791,10 @@
             "target": "llama.cpp"
           },
           {
+            "source": "gendef",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "gflags",
             "target": "arrow-cpp"
           },
@@ -1847,6 +1928,10 @@
           },
           {
             "source": "gmp",
+            "target": "libcudss"
+          },
+          {
+            "source": "gmp",
             "target": "llama.cpp"
           },
           {
@@ -1864,6 +1949,10 @@
           {
             "source": "gmp",
             "target": "ncurses"
+          },
+          {
+            "source": "gmp",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gmp",
@@ -2159,6 +2248,10 @@
           },
           {
             "source": "isl",
+            "target": "libcudss"
+          },
+          {
+            "source": "isl",
             "target": "llama.cpp"
           },
           {
@@ -2168,6 +2261,10 @@
           {
             "source": "isl",
             "target": "ncurses"
+          },
+          {
+            "source": "isl",
+            "target": "pytorch-cpu"
           },
           {
             "source": "isl",
@@ -2350,6 +2447,10 @@
             "target": "openvino"
           },
           {
+            "source": "level-zero",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libacl",
             "target": "hdf5"
           },
@@ -2423,6 +2524,10 @@
           },
           {
             "source": "libcublas",
+            "target": "libcudss"
+          },
+          {
+            "source": "libcublas",
             "target": "libcusolver"
           },
           {
@@ -2432,6 +2537,10 @@
           {
             "source": "libcublas",
             "target": "llama.cpp"
+          },
+          {
+            "source": "libcublas",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcublas",
@@ -2450,8 +2559,16 @@
             "target": "vllm"
           },
           {
+            "source": "libcudss",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libcufft",
             "target": "kaldi"
+          },
+          {
+            "source": "libcufft",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcufft",
@@ -2460,6 +2577,10 @@
           {
             "source": "libcufft",
             "target": "torchcodec"
+          },
+          {
+            "source": "libcufile",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcups",
@@ -2475,6 +2596,10 @@
           },
           {
             "source": "libcurand",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcurand",
             "target": "torchaudio"
           },
           {
@@ -2488,6 +2613,10 @@
           {
             "source": "libcusolver",
             "target": "kaldi"
+          },
+          {
+            "source": "libcusolver",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcusolver",
@@ -2516,6 +2645,10 @@
           {
             "source": "libcusparse",
             "target": "libmagma"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcusparse",
@@ -2551,6 +2684,10 @@
           },
           {
             "source": "libcxx",
+            "target": "libcudss"
+          },
+          {
+            "source": "libcxx",
             "target": "llama.cpp"
           },
           {
@@ -2560,6 +2697,10 @@
           {
             "source": "libcxx",
             "target": "ncurses"
+          },
+          {
+            "source": "libcxx",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcxx",
@@ -2660,6 +2801,10 @@
           {
             "source": "libfabric",
             "target": "openmpi"
+          },
+          {
+            "source": "libfabric",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libffi",
@@ -2763,6 +2908,10 @@
           },
           {
             "source": "libhwloc",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libhwloc",
             "target": "spral"
           },
           {
@@ -2803,6 +2952,10 @@
           },
           {
             "source": "libiconv",
+            "target": "libcudss"
+          },
+          {
+            "source": "libiconv",
             "target": "libflac"
           },
           {
@@ -2840,6 +2993,10 @@
           {
             "source": "libiconv",
             "target": "pulseaudio"
+          },
+          {
+            "source": "libiconv",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libiconv",
@@ -2928,6 +3085,10 @@
           {
             "source": "libmagma",
             "target": "kaldi"
+          },
+          {
+            "source": "libmagma",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libmagma",
@@ -3543,6 +3704,10 @@
           },
           {
             "source": "libxml2",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libxml2",
             "target": "qt-main"
           },
           {
@@ -3604,6 +3769,10 @@
           {
             "source": "llvmdev",
             "target": "pyarrow"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pytorch-cpu"
           },
           {
             "source": "llvmlite",
@@ -3698,6 +3867,14 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
             "source": "mimalloc",
             "target": "mold"
           },
@@ -3727,6 +3904,10 @@
           },
           {
             "source": "mpc",
+            "target": "libcudss"
+          },
+          {
+            "source": "mpc",
             "target": "llama.cpp"
           },
           {
@@ -3736,6 +3917,10 @@
           {
             "source": "mpc",
             "target": "ncurses"
+          },
+          {
+            "source": "mpc",
+            "target": "pytorch-cpu"
           },
           {
             "source": "mpc",
@@ -3779,6 +3964,10 @@
           },
           {
             "source": "mpfr",
+            "target": "libcudss"
+          },
+          {
+            "source": "mpfr",
             "target": "llama.cpp"
           },
           {
@@ -3792,6 +3981,10 @@
           {
             "source": "mpfr",
             "target": "ncurses"
+          },
+          {
+            "source": "mpfr",
+            "target": "pytorch-cpu"
           },
           {
             "source": "mpfr",
@@ -3904,6 +4097,14 @@
           {
             "source": "nanoflann",
             "target": "roboplan"
+          },
+          {
+            "source": "nccl",
+            "target": "libcudss"
+          },
+          {
+            "source": "nccl",
+            "target": "pytorch-cpu"
           },
           {
             "source": "nccl",
@@ -4039,6 +4240,10 @@
           },
           {
             "source": "numactl",
+            "target": "libcufile"
+          },
+          {
+            "source": "numactl",
             "target": "shs-libcxi"
           },
           {
@@ -4139,6 +4344,10 @@
           },
           {
             "source": "nvtx-c",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "nvtx-c",
             "target": "torchcodec"
           },
           {
@@ -4152,6 +4361,10 @@
           {
             "source": "ocl-icd",
             "target": "openvino"
+          },
+          {
+            "source": "ocl-icd",
+            "target": "pytorch-cpu"
           },
           {
             "source": "octomap",
@@ -4184,6 +4397,10 @@
           {
             "source": "opencl-headers",
             "target": "ocl-icd"
+          },
+          {
+            "source": "opencl-headers",
+            "target": "pytorch-cpu"
           },
           {
             "source": "opencv",
@@ -4243,6 +4460,10 @@
           },
           {
             "source": "openmpi",
+            "target": "libcudss"
+          },
+          {
+            "source": "openmpi",
             "target": "mumps"
           },
           {
@@ -4256,6 +4477,10 @@
           {
             "source": "openmpi",
             "target": "scotch"
+          },
+          {
+            "source": "openmp",
+            "target": "libcudss"
           },
           {
             "source": "openmp",
@@ -5667,6 +5892,10 @@
           },
           {
             "source": "rdma-core",
+            "target": "libcufile"
+          },
+          {
+            "source": "rdma-core",
             "target": "libfabric"
           },
           {
@@ -5978,6 +6207,10 @@
             "target": "openvino"
           },
           {
+            "source": "tbb",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "termcolor-cpp",
             "target": "mamba"
           },
@@ -6044,6 +6277,10 @@
           {
             "source": "tornado",
             "target": "vllm"
+          },
+          {
+            "source": "triton",
+            "target": "pytorch-cpu"
           },
           {
             "source": "triton",
@@ -6187,6 +6424,10 @@
           },
           {
             "source": "winpthreads",
+            "target": "libcudss"
+          },
+          {
+            "source": "winpthreads",
             "target": "llama.cpp"
           },
           {
@@ -6196,6 +6437,10 @@
           {
             "source": "winpthreads",
             "target": "ncurses"
+          },
+          {
+            "source": "winpthreads",
+            "target": "pytorch-cpu"
           },
           {
             "source": "winpthreads",
@@ -7203,6 +7448,10 @@
           },
           {
             "source": "zlib",
+            "target": "libcudss"
+          },
+          {
+            "source": "zlib",
             "target": "libcups"
           },
           {
@@ -8029,6 +8278,12 @@
             }
           },
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
             "id": "cyrus-sasl",
             "payload": {
               "__lazy_json__": "node_attrs/cyrus-sasl.json"
@@ -8557,9 +8812,21 @@
             }
           },
           {
+            "id": "libcudss",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcudss.json"
+            }
+          },
+          {
             "id": "libcufft",
             "payload": {
               "__lazy_json__": "node_attrs/libcufft.json"
+            }
+          },
+          {
+            "id": "libcufile",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcufile.json"
             }
           },
           {
@@ -9076,6 +9343,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -10753,6 +11026,7 @@
         "cuda-nvml-dev",
         "cuda-nvrtc",
         "cuda-nvtx",
+        "cusparselt",
         "dav1d",
         "double-conversion",
         "eigen",
@@ -10821,6 +11095,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
