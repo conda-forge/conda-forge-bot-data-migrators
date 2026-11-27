@@ -194,12 +194,6 @@
             }
           },
           {
-            "id": "lld",
-            "payload": {
-              "__lazy_json__": "node_attrs/lld.json"
-            }
-          },
-          {
             "id": "llvmlite",
             "payload": {
               "__lazy_json__": "node_attrs/llvmlite.json"
@@ -341,12 +335,6 @@
             "id": "z5py",
             "payload": {
               "__lazy_json__": "node_attrs/z5py.json"
-            }
-          },
-          {
-            "id": "zstandard",
-            "payload": {
-              "__lazy_json__": "node_attrs/zstandard.json"
             }
           },
           {
@@ -3163,7 +3151,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 8,
+    "pr_limit": 7,
     "top_level": {
       "__set__": true,
       "elements": []
