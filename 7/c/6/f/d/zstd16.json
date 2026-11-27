@@ -1032,6 +1032,10 @@
             "target": "root"
           },
           {
+            "source": "flang-rt",
+            "target": "triton"
+          },
+          {
             "source": "flang",
             "target": "conda-forge-pinning"
           },
