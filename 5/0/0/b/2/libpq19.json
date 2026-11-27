@@ -132,6 +132,10 @@
             "target": "qgis"
           },
           {
+            "source": "gdal",
+            "target": "rubinenv"
+          },
+          {
             "source": "grass",
             "target": "conda-forge-pinning"
           },
@@ -220,6 +224,10 @@
             "target": "rdkit"
           },
           {
+            "source": "psycopg2",
+            "target": "rubinenv"
+          },
+          {
             "source": "qgis",
             "target": "conda-forge-pinning"
           },
@@ -244,6 +252,10 @@
             "target": "rstudio"
           },
           {
+            "source": "qt-main",
+            "target": "rubinenv"
+          },
+          {
             "source": "r-rpostgres",
             "target": "conda-forge-pinning"
           },
@@ -261,6 +273,10 @@
           },
           {
             "source": "rstudio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rubinenv",
             "target": "conda-forge-pinning"
           },
           {
@@ -416,6 +432,12 @@
             "id": "rstudio",
             "payload": {
               "__lazy_json__": "node_attrs/rstudio.json"
+            }
+          },
+          {
+            "id": "rubinenv",
+            "payload": {
+              "__lazy_json__": "node_attrs/rubinenv.json"
             }
           },
           {
