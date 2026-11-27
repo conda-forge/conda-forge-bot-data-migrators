@@ -52,9 +52,349 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "mlir",
+            "target": "flang"
+          },
+          {
+            "source": "mlir",
+            "target": "mlir-python-bindings"
+          }
+        ],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "apiary",
+            "payload": {
+              "__lazy_json__": "node_attrs/apiary.json"
+            }
+          },
+          {
+            "id": "backports.zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/backports.zstd.json"
+            }
+          },
+          {
+            "id": "bfiocpp",
+            "payload": {
+              "__lazy_json__": "node_attrs/bfiocpp.json"
+            }
+          },
+          {
+            "id": "boost",
+            "payload": {
+              "__lazy_json__": "node_attrs/boost.json"
+            }
+          },
+          {
+            "id": "bun",
+            "payload": {
+              "__lazy_json__": "node_attrs/bun.json"
+            }
+          },
+          {
+            "id": "clad",
+            "payload": {
+              "__lazy_json__": "node_attrs/clad.json"
+            }
+          },
+          {
+            "id": "cling",
+            "payload": {
+              "__lazy_json__": "node_attrs/cling.json"
+            }
+          },
+          {
+            "id": "cppinterop",
+            "payload": {
+              "__lazy_json__": "node_attrs/cppinterop.json"
+            }
+          },
+          {
+            "id": "dectris-compression",
+            "payload": {
+              "__lazy_json__": "node_attrs/dectris-compression.json"
+            }
+          },
+          {
+            "id": "dttlib",
+            "payload": {
+              "__lazy_json__": "node_attrs/dttlib.json"
+            }
+          },
+          {
+            "id": "emacs",
+            "payload": {
+              "__lazy_json__": "node_attrs/emacs.json"
+            }
+          },
+          {
+            "id": "flang",
+            "payload": {
+              "__lazy_json__": "node_attrs/flang.json"
+            }
+          },
+          {
+            "id": "graphicsmagick",
+            "payload": {
+              "__lazy_json__": "node_attrs/graphicsmagick.json"
+            }
+          },
+          {
+            "id": "hdf5plugin",
+            "payload": {
+              "__lazy_json__": "node_attrs/hdf5plugin.json"
+            }
+          },
+          {
+            "id": "hepmc3",
+            "payload": {
+              "__lazy_json__": "node_attrs/hepmc3.json"
+            }
+          },
+          {
+            "id": "imagecodecs",
+            "payload": {
+              "__lazy_json__": "node_attrs/imagecodecs.json"
+            }
+          },
+          {
+            "id": "indexed_zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/indexed_zstd.json"
+            }
+          },
+          {
+            "id": "inko",
+            "payload": {
+              "__lazy_json__": "node_attrs/inko.json"
+            }
+          },
+          {
+            "id": "ispc",
+            "payload": {
+              "__lazy_json__": "node_attrs/ispc.json"
+            }
+          },
+          {
+            "id": "lean-ctx",
+            "payload": {
+              "__lazy_json__": "node_attrs/lean-ctx.json"
+            }
+          },
+          {
+            "id": "libclc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libclc.json"
+            }
+          },
+          {
+            "id": "libiio",
+            "payload": {
+              "__lazy_json__": "node_attrs/libiio.json"
+            }
+          },
+          {
+            "id": "libmongoc",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmongoc.json"
+            }
+          },
+          {
+            "id": "libnetcdf",
+            "payload": {
+              "__lazy_json__": "node_attrs/libnetcdf.json"
+            }
+          },
+          {
+            "id": "librdkafka",
+            "payload": {
+              "__lazy_json__": "node_attrs/librdkafka.json"
+            }
+          },
+          {
+            "id": "librepo",
+            "payload": {
+              "__lazy_json__": "node_attrs/librepo.json"
+            }
+          },
+          {
+            "id": "lld",
+            "payload": {
+              "__lazy_json__": "node_attrs/lld.json"
+            }
+          },
+          {
+            "id": "llvmlite",
+            "payload": {
+              "__lazy_json__": "node_attrs/llvmlite.json"
+            }
+          },
+          {
+            "id": "mariadb-connector-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/mariadb-connector-c.json"
+            }
+          },
+          {
+            "id": "mlir",
+            "payload": {
+              "__lazy_json__": "node_attrs/mlir.json"
+            }
+          },
+          {
+            "id": "mlir-python-bindings",
+            "payload": {
+              "__lazy_json__": "node_attrs/mlir-python-bindings.json"
+            }
+          },
+          {
+            "id": "mold",
+            "payload": {
+              "__lazy_json__": "node_attrs/mold.json"
+            }
+          },
+          {
+            "id": "mysql",
+            "payload": {
+              "__lazy_json__": "node_attrs/mysql.json"
+            }
+          },
+          {
+            "id": "nanoarrow",
+            "payload": {
+              "__lazy_json__": "node_attrs/nanoarrow.json"
+            }
+          },
+          {
+            "id": "ncdu",
+            "payload": {
+              "__lazy_json__": "node_attrs/ncdu.json"
+            }
+          },
+          {
+            "id": "nodejs",
+            "payload": {
+              "__lazy_json__": "node_attrs/nodejs.json"
+            }
+          },
+          {
+            "id": "omniorb",
+            "payload": {
+              "__lazy_json__": "node_attrs/omniorb.json"
+            }
+          },
+          {
+            "id": "openexr-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/openexr-python.json"
+            }
+          },
+          {
+            "id": "openslide",
+            "payload": {
+              "__lazy_json__": "node_attrs/openslide.json"
+            }
+          },
+          {
+            "id": "openvdb",
+            "payload": {
+              "__lazy_json__": "node_attrs/openvdb.json"
+            }
+          },
+          {
+            "id": "postgresql",
+            "payload": {
+              "__lazy_json__": "node_attrs/postgresql.json"
+            }
+          },
+          {
+            "id": "protozfits",
+            "payload": {
+              "__lazy_json__": "node_attrs/protozfits.json"
+            }
+          },
+          {
+            "id": "python-zstd",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-zstd.json"
+            }
+          },
+          {
+            "id": "r-fstcore",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-fstcore.json"
+            }
+          },
+          {
+            "id": "r-pgenlibr",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-pgenlibr.json"
+            }
+          },
+          {
+            "id": "r-qs",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-qs.json"
+            }
+          },
+          {
+            "id": "r-qs2",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-qs2.json"
+            }
+          },
+          {
+            "id": "r-seqminer",
+            "payload": {
+              "__lazy_json__": "node_attrs/r-seqminer.json"
+            }
+          },
+          {
+            "id": "symengine",
+            "payload": {
+              "__lazy_json__": "node_attrs/symengine.json"
+            }
+          },
+          {
+            "id": "ugrep",
+            "payload": {
+              "__lazy_json__": "node_attrs/ugrep.json"
+            }
+          },
+          {
+            "id": "wasmer",
+            "payload": {
+              "__lazy_json__": "node_attrs/wasmer.json"
+            }
+          },
+          {
+            "id": "z5py",
+            "payload": {
+              "__lazy_json__": "node_attrs/z5py.json"
+            }
+          },
+          {
+            "id": "zstandard",
+            "payload": {
+              "__lazy_json__": "node_attrs/zstandard.json"
+            }
+          },
+          {
+            "id": "herdr-app",
+            "payload": {
+              "__lazy_json__": "node_attrs/herdr-app.json"
+            }
+          },
+          {
+            "id": "matrix-sdk-python",
+            "payload": {
+              "__lazy_json__": "node_attrs/matrix-sdk-python.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
