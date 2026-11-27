@@ -54,20 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "bipedal-locomotion-framework",
-            "payload": {
-              "__lazy_json__": "node_attrs/bipedal-locomotion-framework.json"
-            }
-          },
-          {
-            "id": "tomviz",
-            "payload": {
-              "__lazy_json__": "node_attrs/tomviz.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -492,7 +479,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 6,
+    "pr_limit": 5,
     "top_level": {
       "__set__": true,
       "elements": []
