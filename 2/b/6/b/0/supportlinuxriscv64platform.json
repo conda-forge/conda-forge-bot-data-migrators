@@ -495,11 +495,7 @@
           },
           {
             "source": "binutils",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "binutils",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "binutils",
@@ -523,10 +519,6 @@
           },
           {
             "source": "binutils",
-            "target": "pyarrow"
-          },
-          {
-            "source": "binutils",
             "target": "python"
           },
           {
@@ -535,11 +527,11 @@
           },
           {
             "source": "binutils",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "binutils",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "binutils",
@@ -787,11 +779,11 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "arrow-cpp"
+            "target": "clang-compiler-activation"
           },
           {
             "source": "cctools-and-ld64",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "cctools-and-ld64",
@@ -815,19 +807,15 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "pyarrow"
-          },
-          {
-            "source": "cctools-and-ld64",
             "target": "r-base"
           },
           {
             "source": "cctools-and-ld64",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "cctools-and-ld64",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "cctools-and-ld64",
@@ -868,6 +856,62 @@
           {
             "source": "clang-compiler-activation",
             "target": "llama.cpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "clang-compiler-activation"
+          },
+          {
+            "source": "clangdev",
+            "target": "cuda-nvcc"
+          },
+          {
+            "source": "clangdev",
+            "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "clangdev",
+            "target": "llama.cpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "mvapich"
+          },
+          {
+            "source": "clangdev",
+            "target": "ncurses"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyarrow"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-base"
+          },
+          {
+            "source": "clangdev",
+            "target": "scipy"
+          },
+          {
+            "source": "clangdev",
+            "target": "soxr"
+          },
+          {
+            "source": "clangdev",
+            "target": "spral"
+          },
+          {
+            "source": "clangdev",
+            "target": "torchaudio"
+          },
+          {
+            "source": "clangdev",
+            "target": "vllm"
           },
           {
             "source": "cli11",
@@ -1779,11 +1823,7 @@
           },
           {
             "source": "gmp",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "gmp",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "gmp",
@@ -1827,10 +1867,6 @@
           },
           {
             "source": "gmp",
-            "target": "pyarrow"
-          },
-          {
-            "source": "gmp",
             "target": "r-base"
           },
           {
@@ -1839,11 +1875,11 @@
           },
           {
             "source": "gmp",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "gmp",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "gmp",
@@ -2111,11 +2147,7 @@
           },
           {
             "source": "isl",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "isl",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "isl",
@@ -2139,19 +2171,15 @@
           },
           {
             "source": "isl",
-            "target": "pyarrow"
-          },
-          {
-            "source": "isl",
             "target": "r-base"
           },
           {
             "source": "isl",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "isl",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "isl",
@@ -2507,11 +2535,11 @@
           },
           {
             "source": "libcxx",
-            "target": "arrow-cpp"
+            "target": "clang-compiler-activation"
           },
           {
             "source": "libcxx",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "libcxx",
@@ -2535,19 +2563,15 @@
           },
           {
             "source": "libcxx",
-            "target": "pyarrow"
-          },
-          {
-            "source": "libcxx",
             "target": "r-base"
           },
           {
             "source": "libcxx",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "libcxx",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "libcxx",
@@ -2751,11 +2775,7 @@
           },
           {
             "source": "libiconv",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "libiconv",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "libiconv",
@@ -2823,10 +2843,6 @@
           },
           {
             "source": "libiconv",
-            "target": "pyarrow"
-          },
-          {
-            "source": "libiconv",
             "target": "r-base"
           },
           {
@@ -2835,11 +2851,11 @@
           },
           {
             "source": "libiconv",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "libiconv",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "libiconv",
@@ -3467,10 +3483,6 @@
           },
           {
             "source": "libxml2",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "libxml2",
             "target": "at-spi2-core"
           },
           {
@@ -3483,11 +3495,11 @@
           },
           {
             "source": "libxml2",
-            "target": "cuda-nvcc"
+            "target": "clangdev"
           },
           {
             "source": "libxml2",
-            "target": "cuda-nvcc-impl"
+            "target": "cuda-nvcc"
           },
           {
             "source": "libxml2",
@@ -3527,19 +3539,7 @@
           },
           {
             "source": "libxml2",
-            "target": "mvapich"
-          },
-          {
-            "source": "libxml2",
-            "target": "ncurses"
-          },
-          {
-            "source": "libxml2",
             "target": "postgresql"
-          },
-          {
-            "source": "libxml2",
-            "target": "pyarrow"
           },
           {
             "source": "libxml2",
@@ -3547,31 +3547,11 @@
           },
           {
             "source": "libxml2",
-            "target": "r-base"
-          },
-          {
-            "source": "libxml2",
             "target": "r-xml2"
           },
           {
             "source": "libxml2",
-            "target": "scipy"
-          },
-          {
-            "source": "libxml2",
-            "target": "soxr"
-          },
-          {
-            "source": "libxml2",
             "target": "tbb"
-          },
-          {
-            "source": "libxml2",
-            "target": "torchaudio"
-          },
-          {
-            "source": "libxml2",
-            "target": "vllm"
           },
           {
             "source": "libxslt",
@@ -3603,11 +3583,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "cuda-nvcc"
+            "target": "clangdev"
           },
           {
             "source": "llvmdev",
-            "target": "cuda-nvcc-impl"
+            "target": "cuda-nvcc"
           },
           {
             "source": "llvmdev",
@@ -3619,39 +3599,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "mvapich"
-          },
-          {
-            "source": "llvmdev",
-            "target": "ncurses"
-          },
-          {
-            "source": "llvmdev",
             "target": "openmp"
           },
           {
             "source": "llvmdev",
             "target": "pyarrow"
-          },
-          {
-            "source": "llvmdev",
-            "target": "r-base"
-          },
-          {
-            "source": "llvmdev",
-            "target": "scipy"
-          },
-          {
-            "source": "llvmdev",
-            "target": "soxr"
-          },
-          {
-            "source": "llvmdev",
-            "target": "torchaudio"
-          },
-          {
-            "source": "llvmdev",
-            "target": "vllm"
           },
           {
             "source": "llvmlite",
@@ -3759,11 +3711,7 @@
           },
           {
             "source": "mpc",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "mpc",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "mpc",
@@ -3791,19 +3739,15 @@
           },
           {
             "source": "mpc",
-            "target": "pyarrow"
-          },
-          {
-            "source": "mpc",
             "target": "r-base"
           },
           {
             "source": "mpc",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "mpc",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "mpc",
@@ -3819,11 +3763,7 @@
           },
           {
             "source": "mpfr",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "mpfr",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "mpfr",
@@ -3855,19 +3795,15 @@
           },
           {
             "source": "mpfr",
-            "target": "pyarrow"
-          },
-          {
-            "source": "mpfr",
             "target": "r-base"
           },
           {
             "source": "mpfr",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "mpfr",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "mpfr",
@@ -4287,11 +4223,7 @@
           },
           {
             "source": "openmp",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "openmp",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "openmp",
@@ -4339,10 +4271,6 @@
           },
           {
             "source": "openmp",
-            "target": "pyarrow"
-          },
-          {
-            "source": "openmp",
             "target": "pytorch-cpu"
           },
           {
@@ -4351,11 +4279,11 @@
           },
           {
             "source": "openmp",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "openmp",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "openmp",
@@ -4920,6 +4848,10 @@
           {
             "source": "python",
             "target": "chardet"
+          },
+          {
+            "source": "python",
+            "target": "clangdev"
           },
           {
             "source": "python",
@@ -6243,11 +6175,7 @@
           },
           {
             "source": "winpthreads",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "winpthreads",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "winpthreads",
@@ -6271,19 +6199,15 @@
           },
           {
             "source": "winpthreads",
-            "target": "pyarrow"
-          },
-          {
-            "source": "winpthreads",
             "target": "r-base"
           },
           {
             "source": "winpthreads",
-            "target": "scipy"
+            "target": "soxr"
           },
           {
             "source": "winpthreads",
-            "target": "soxr"
+            "target": "spral"
           },
           {
             "source": "winpthreads",
@@ -7175,6 +7099,10 @@
           },
           {
             "source": "zlib",
+            "target": "clangdev"
+          },
+          {
+            "source": "zlib",
             "target": "cmake"
           },
           {
@@ -7443,10 +7371,6 @@
           },
           {
             "source": "zlib",
-            "target": "scipy"
-          },
-          {
-            "source": "zlib",
             "target": "scotch"
           },
           {
@@ -7527,19 +7451,11 @@
           },
           {
             "source": "zstd",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "zstd",
             "target": "cmake"
-          },
-          {
-            "source": "zstd",
-            "target": "cuda-nvcc"
-          },
-          {
-            "source": "zstd",
-            "target": "cuda-nvcc-impl"
           },
           {
             "source": "zstd",
@@ -7563,10 +7479,6 @@
           },
           {
             "source": "zstd",
-            "target": "llama.cpp"
-          },
-          {
-            "source": "zstd",
             "target": "llvmdev"
           },
           {
@@ -7587,15 +7499,7 @@
           },
           {
             "source": "zstd",
-            "target": "mvapich"
-          },
-          {
-            "source": "zstd",
             "target": "nanoarrow"
-          },
-          {
-            "source": "zstd",
-            "target": "ncurses"
           },
           {
             "source": "zstd",
@@ -7615,10 +7519,6 @@
           },
           {
             "source": "zstd",
-            "target": "pyarrow"
-          },
-          {
-            "source": "zstd",
             "target": "python"
           },
           {
@@ -7627,27 +7527,11 @@
           },
           {
             "source": "zstd",
-            "target": "r-base"
-          },
-          {
-            "source": "zstd",
             "target": "rsync"
           },
           {
             "source": "zstd",
-            "target": "scipy"
-          },
-          {
-            "source": "zstd",
-            "target": "soxr"
-          },
-          {
-            "source": "zstd",
             "target": "systemd"
-          },
-          {
-            "source": "zstd",
-            "target": "torchaudio"
           },
           {
             "source": "zstd",
@@ -7656,10 +7540,6 @@
           {
             "source": "zstd",
             "target": "uv"
-          },
-          {
-            "source": "zstd",
-            "target": "vllm"
           },
           {
             "source": "zstd",
@@ -8014,6 +7894,12 @@
             "id": "clang-compiler-activation",
             "payload": {
               "__lazy_json__": "node_attrs/clang-compiler-activation.json"
+            }
+          },
+          {
+            "id": "clangdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/clangdev.json"
             }
           },
           {
