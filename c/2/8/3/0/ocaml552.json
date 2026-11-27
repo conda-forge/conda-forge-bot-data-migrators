@@ -54,14 +54,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "ocaml-ppx-optcomp",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-ppx-optcomp.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -309,6 +302,10 @@
           {
             "source": "ocaml-ppx-devtools-optcomp",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-ppx-devtools-optcomp",
+            "target": "ocaml-lwt-split"
           },
           {
             "source": "ocaml-ppx-optcomp",
