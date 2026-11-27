@@ -837,6 +837,50 @@
             "target": "zeromq"
           },
           {
+            "source": "autotools_clang_conda",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "gperf"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "gsl"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "isl"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "libffi"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "libhwloc"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "popt"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "xorg-libxdmcp"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "xorg-libxshmfence"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "autotools_clang_conda",
+            "target": "xorg-xproto"
+          },
+          {
             "source": "awkward-cpp",
             "target": "kealib"
           },
@@ -2638,6 +2682,10 @@
           },
           {
             "source": "clangdev",
+            "target": "autotools_clang_conda"
+          },
+          {
+            "source": "clangdev",
             "target": "backports.zstd"
           },
           {
@@ -2710,15 +2758,7 @@
           },
           {
             "source": "clangdev",
-            "target": "gperf"
-          },
-          {
-            "source": "clangdev",
             "target": "greenlet"
-          },
-          {
-            "source": "clangdev",
-            "target": "gsl"
           },
           {
             "source": "clangdev",
@@ -2734,19 +2774,11 @@
           },
           {
             "source": "clangdev",
-            "target": "isl"
-          },
-          {
-            "source": "clangdev",
             "target": "libcst"
           },
           {
             "source": "clangdev",
             "target": "libcxx"
-          },
-          {
-            "source": "clangdev",
-            "target": "libffi"
           },
           {
             "source": "clangdev",
@@ -2819,10 +2851,6 @@
           {
             "source": "clangdev",
             "target": "poppler"
-          },
-          {
-            "source": "clangdev",
-            "target": "popt"
           },
           {
             "source": "clangdev",
@@ -2942,23 +2970,7 @@
           },
           {
             "source": "clangdev",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "clangdev",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "clangdev",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "clangdev",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "clangdev",
-            "target": "xorg-xproto"
           },
           {
             "source": "cli11",
@@ -3011,6 +3023,10 @@
           {
             "source": "cmake",
             "target": "assimp"
+          },
+          {
+            "source": "cmake",
+            "target": "autotools_clang_conda"
           },
           {
             "source": "cmake",
@@ -3286,10 +3302,6 @@
           },
           {
             "source": "cmake",
-            "target": "gperf"
-          },
-          {
-            "source": "cmake",
             "target": "graphite2"
           },
           {
@@ -3299,10 +3311,6 @@
           {
             "source": "cmake",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "cmake",
-            "target": "gsl"
           },
           {
             "source": "cmake",
@@ -3347,10 +3355,6 @@
           {
             "source": "cmake",
             "target": "intel_repack"
-          },
-          {
-            "source": "cmake",
-            "target": "isl"
           },
           {
             "source": "cmake",
@@ -3427,10 +3431,6 @@
           {
             "source": "cmake",
             "target": "libevent"
-          },
-          {
-            "source": "cmake",
-            "target": "libffi"
           },
           {
             "source": "cmake",
@@ -3758,10 +3758,6 @@
           },
           {
             "source": "cmake",
-            "target": "popt"
-          },
-          {
-            "source": "cmake",
             "target": "proj.4"
           },
           {
@@ -4014,23 +4010,7 @@
           },
           {
             "source": "cmake",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "cmake",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "cmake",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "cmake",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "cmake",
-            "target": "xorg-xproto"
           },
           {
             "source": "cmake",
@@ -9730,6 +9710,10 @@
           },
           {
             "source": "lld",
+            "target": "autotools_clang_conda"
+          },
+          {
+            "source": "lld",
             "target": "bun"
           },
           {
@@ -9738,55 +9722,15 @@
           },
           {
             "source": "lld",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "lld",
-            "target": "gperf"
-          },
-          {
-            "source": "lld",
-            "target": "gsl"
-          },
-          {
-            "source": "lld",
-            "target": "isl"
-          },
-          {
-            "source": "lld",
             "target": "libdispatch"
-          },
-          {
-            "source": "lld",
-            "target": "libffi"
-          },
-          {
-            "source": "lld",
-            "target": "libhwloc"
-          },
-          {
-            "source": "lld",
-            "target": "popt"
-          },
-          {
-            "source": "lld",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "lld",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "lld",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "lld",
-            "target": "xorg-xproto"
           },
           {
             "source": "llvmdev",
             "target": "arrow-cpp"
+          },
+          {
+            "source": "llvmdev",
+            "target": "autotools_clang_conda"
           },
           {
             "source": "llvmdev",
@@ -9818,10 +9762,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "llvmdev",
             "target": "flang"
           },
           {
@@ -9830,23 +9770,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "gperf"
-          },
-          {
-            "source": "llvmdev",
-            "target": "gsl"
-          },
-          {
-            "source": "llvmdev",
             "target": "hdf5"
           },
           {
             "source": "llvmdev",
             "target": "intel-compiler-repack"
-          },
-          {
-            "source": "llvmdev",
-            "target": "isl"
           },
           {
             "source": "llvmdev",
@@ -9906,10 +9834,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "popt"
-          },
-          {
-            "source": "llvmdev",
             "target": "postgresql"
           },
           {
@@ -9962,23 +9886,7 @@
           },
           {
             "source": "llvmdev",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "llvmdev",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "llvmdev",
-            "target": "xorg-xproto"
           },
           {
             "source": "llvmlite",
@@ -21793,6 +21701,12 @@
             "id": "automake",
             "payload": {
               "__lazy_json__": "node_attrs/automake.json"
+            }
+          },
+          {
+            "id": "autotools_clang_conda",
+            "payload": {
+              "__lazy_json__": "node_attrs/autotools_clang_conda.json"
             }
           },
           {
