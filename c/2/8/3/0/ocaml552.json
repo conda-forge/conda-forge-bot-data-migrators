@@ -60,6 +60,12 @@
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-intrinsics-kernel.json"
             }
+          },
+          {
+            "id": "ocaml-ppx-devtools-optcomp",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ppx-devtools-optcomp.json"
+            }
           }
         ]
       }
@@ -107,6 +113,18 @@
         },
         "links": [
           {
+            "source": "ocaml-base",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-base",
+            "target": "ocaml-ppx-optcomp"
+          },
+          {
+            "source": "ocaml-base",
+            "target": "ocaml-stdio"
+          },
+          {
             "source": "ocaml-cmdliner",
             "target": "conda-forge-pinning"
           },
@@ -148,11 +166,19 @@
           },
           {
             "source": "ocaml-dune-configurator",
+            "target": "ocaml-base"
+          },
+          {
+            "source": "ocaml-dune-configurator",
             "target": "ocaml-lwt-split"
           },
           {
             "source": "ocaml-dune",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-base"
           },
           {
             "source": "ocaml-dune",
@@ -196,6 +222,14 @@
           },
           {
             "source": "ocaml-dune",
+            "target": "ocaml-ppx-devtools-optcomp"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-ppx-optcomp"
+          },
+          {
+            "source": "ocaml-dune",
             "target": "ocaml-ppxlib"
           },
           {
@@ -213,6 +247,10 @@
           {
             "source": "ocaml-dune",
             "target": "ocaml-sexplib0"
+          },
+          {
+            "source": "ocaml-dune",
+            "target": "ocaml-stdio"
           },
           {
             "source": "ocaml-dune",
@@ -243,6 +281,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "ocaml-intrinsics-kernel",
+            "target": "ocaml-base"
+          },
+          {
             "source": "ocaml-lwt-split",
             "target": "conda-forge-pinning"
           },
@@ -271,12 +313,28 @@
             "target": "ocaml-ppxlib"
           },
           {
+            "source": "ocaml-ppx-devtools-optcomp",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-ppx-optcomp",
+            "target": "conda-forge-pinning"
+          },
+          {
             "source": "ocaml-ppxlib",
             "target": "conda-forge-pinning"
           },
           {
             "source": "ocaml-ppxlib",
             "target": "ocaml-lwt-split"
+          },
+          {
+            "source": "ocaml-ppxlib",
+            "target": "ocaml-ppx-devtools-optcomp"
+          },
+          {
+            "source": "ocaml-ppxlib",
+            "target": "ocaml-ppx-optcomp"
           },
           {
             "source": "ocaml-ppxlib",
@@ -304,7 +362,19 @@
           },
           {
             "source": "ocaml-sexplib0",
+            "target": "ocaml-base"
+          },
+          {
+            "source": "ocaml-sexplib0",
             "target": "ocaml-ppxlib"
+          },
+          {
+            "source": "ocaml-stdio",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "ocaml-stdio",
+            "target": "ocaml-ppx-optcomp"
           },
           {
             "source": "ocaml-stdlib-shims",
@@ -469,6 +539,30 @@
             "id": "ocaml-intrinsics-kernel",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-intrinsics-kernel.json"
+            }
+          },
+          {
+            "id": "ocaml-stdio",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-stdio.json"
+            }
+          },
+          {
+            "id": "ocaml-base",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-base.json"
+            }
+          },
+          {
+            "id": "ocaml-ppx-devtools-optcomp",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ppx-devtools-optcomp.json"
+            }
+          },
+          {
+            "id": "ocaml-ppx-optcomp",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-ppx-optcomp.json"
             }
           }
         ]
