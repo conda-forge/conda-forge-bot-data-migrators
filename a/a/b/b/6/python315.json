@@ -53,7 +53,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "microarch-level",
+            "payload": {
+              "__lazy_json__": "node_attrs/microarch-level.json"
+            }
+          }
+        ]
       }
     },
     "exclude": [
@@ -30078,6 +30085,850 @@
           {
             "source": "mi-fieldcalc",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ada-cpp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "alamode"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ale"
+          },
+          {
+            "source": "microarch-level",
+            "target": "aligator"
+          },
+          {
+            "source": "microarch-level",
+            "target": "alm"
+          },
+          {
+            "source": "microarch-level",
+            "target": "alpenglow"
+          },
+          {
+            "source": "microarch-level",
+            "target": "am3"
+          },
+          {
+            "source": "microarch-level",
+            "target": "analisi"
+          },
+          {
+            "source": "microarch-level",
+            "target": "antspyx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "autodiff"
+          },
+          {
+            "source": "microarch-level",
+            "target": "autorift"
+          },
+          {
+            "source": "microarch-level",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "batman"
+          },
+          {
+            "source": "microarch-level",
+            "target": "biomechanical-analysis-framework"
+          },
+          {
+            "source": "microarch-level",
+            "target": "biorbd"
+          },
+          {
+            "source": "microarch-level",
+            "target": "bipedal-locomotion-framework"
+          },
+          {
+            "source": "microarch-level",
+            "target": "boltztrap2"
+          },
+          {
+            "source": "microarch-level",
+            "target": "booz_xform"
+          },
+          {
+            "source": "microarch-level",
+            "target": "btrack"
+          },
+          {
+            "source": "microarch-level",
+            "target": "candlewick"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cantera"
+          },
+          {
+            "source": "microarch-level",
+            "target": "casadi"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cctbx-base"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cgal"
+          },
+          {
+            "source": "microarch-level",
+            "target": "chemicalfun"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cms-combine"
+          },
+          {
+            "source": "microarch-level",
+            "target": "coal"
+          },
+          {
+            "source": "microarch-level",
+            "target": "colmap"
+          },
+          {
+            "source": "microarch-level",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "microarch-level",
+            "target": "coolprop"
+          },
+          {
+            "source": "microarch-level",
+            "target": "crocoddyl"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cuik-molmaker"
+          },
+          {
+            "source": "microarch-level",
+            "target": "dartsim"
+          },
+          {
+            "source": "microarch-level",
+            "target": "dcgp-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "deepspeed"
+          },
+          {
+            "source": "microarch-level",
+            "target": "dials"
+          },
+          {
+            "source": "microarch-level",
+            "target": "diffusioncma"
+          },
+          {
+            "source": "microarch-level",
+            "target": "diode"
+          },
+          {
+            "source": "microarch-level",
+            "target": "diplib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "dssp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ducc0"
+          },
+          {
+            "source": "microarch-level",
+            "target": "eigency"
+          },
+          {
+            "source": "microarch-level",
+            "target": "eigenpy"
+          },
+          {
+            "source": "microarch-level",
+            "target": "eon"
+          },
+          {
+            "source": "microarch-level",
+            "target": "euklid"
+          },
+          {
+            "source": "microarch-level",
+            "target": "faiss-split"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fastemriwaveforms"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fastjet"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fastjet-cxx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fenics"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ffbidx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "finufft-split"
+          },
+          {
+            "source": "microarch-level",
+            "target": "forte"
+          },
+          {
+            "source": "microarch-level",
+            "target": "forte2"
+          },
+          {
+            "source": "microarch-level",
+            "target": "freecad"
+          },
+          {
+            "source": "microarch-level",
+            "target": "galsim"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gbs"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gemseo"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gofit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "goosefem"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gpi_core"
+          },
+          {
+            "source": "microarch-level",
+            "target": "graph-tool"
+          },
+          {
+            "source": "microarch-level",
+            "target": "grass"
+          },
+          {
+            "source": "microarch-level",
+            "target": "grouper"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gtsam"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gudhi"
+          },
+          {
+            "source": "microarch-level",
+            "target": "gz-math"
+          },
+          {
+            "source": "microarch-level",
+            "target": "higgstools"
+          },
+          {
+            "source": "microarch-level",
+            "target": "hole-filling-liepa"
+          },
+          {
+            "source": "microarch-level",
+            "target": "holoscan"
+          },
+          {
+            "source": "microarch-level",
+            "target": "hoomd"
+          },
+          {
+            "source": "microarch-level",
+            "target": "hoomd-dlext"
+          },
+          {
+            "source": "microarch-level",
+            "target": "horovod"
+          },
+          {
+            "source": "microarch-level",
+            "target": "horton"
+          },
+          {
+            "source": "microarch-level",
+            "target": "hpp-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "humap"
+          },
+          {
+            "source": "microarch-level",
+            "target": "idyntree"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "microarch-level",
+            "target": "imp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "impactx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "isce3"
+          },
+          {
+            "source": "microarch-level",
+            "target": "iterative_solver"
+          },
+          {
+            "source": "microarch-level",
+            "target": "itk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "kenlm"
+          },
+          {
+            "source": "microarch-level",
+            "target": "libcmaes"
+          },
+          {
+            "source": "microarch-level",
+            "target": "libignition-math4"
+          },
+          {
+            "source": "microarch-level",
+            "target": "libsemigroups_pybind11"
+          },
+          {
+            "source": "microarch-level",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "loos"
+          },
+          {
+            "source": "microarch-level",
+            "target": "manif"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mbsolve"
+          },
+          {
+            "source": "microarch-level",
+            "target": "medpython"
+          },
+          {
+            "source": "microarch-level",
+            "target": "meld"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mesher"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mim-solvers"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mir-flare"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mod3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "momentum"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mpart"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mrchem"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mujoco"
+          },
+          {
+            "source": "microarch-level",
+            "target": "multipers"
+          },
+          {
+            "source": "microarch-level",
+            "target": "multispline"
+          },
+          {
+            "source": "microarch-level",
+            "target": "muq"
+          },
+          {
+            "source": "microarch-level",
+            "target": "muscat-split"
+          },
+          {
+            "source": "microarch-level",
+            "target": "n2p2"
+          },
+          {
+            "source": "microarch-level",
+            "target": "nanoeigenpy"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ndcurves"
+          },
+          {
+            "source": "microarch-level",
+            "target": "neuron"
+          },
+          {
+            "source": "microarch-level",
+            "target": "nurikit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ogs"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ompl"
+          },
+          {
+            "source": "microarch-level",
+            "target": "open3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "openbabel"
+          },
+          {
+            "source": "microarch-level",
+            "target": "opencv"
+          },
+          {
+            "source": "microarch-level",
+            "target": "openmc"
+          },
+          {
+            "source": "microarch-level",
+            "target": "openmvs-split"
+          },
+          {
+            "source": "microarch-level",
+            "target": "opensees"
+          },
+          {
+            "source": "microarch-level",
+            "target": "optima"
+          },
+          {
+            "source": "microarch-level",
+            "target": "or-tools"
+          },
+          {
+            "source": "microarch-level",
+            "target": "orocos-kdl"
+          },
+          {
+            "source": "microarch-level",
+            "target": "otpmml"
+          },
+          {
+            "source": "microarch-level",
+            "target": "otsubsetinverse"
+          },
+          {
+            "source": "microarch-level",
+            "target": "panda3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "parabem"
+          },
+          {
+            "source": "microarch-level",
+            "target": "paraprobe"
+          },
+          {
+            "source": "microarch-level",
+            "target": "parsplice"
+          },
+          {
+            "source": "microarch-level",
+            "target": "patchworkpp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pcmsolver-split"
+          },
+          {
+            "source": "microarch-level",
+            "target": "piff"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pinocchio"
+          },
+          {
+            "source": "microarch-level",
+            "target": "piqp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pixsfm"
+          },
+          {
+            "source": "microarch-level",
+            "target": "placo"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pnab"
+          },
+          {
+            "source": "microarch-level",
+            "target": "poselib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "potpourri3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pp-sketchlib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "precice"
+          },
+          {
+            "source": "microarch-level",
+            "target": "professor"
+          },
+          {
+            "source": "microarch-level",
+            "target": "proteus"
+          },
+          {
+            "source": "microarch-level",
+            "target": "proxsuite"
+          },
+          {
+            "source": "microarch-level",
+            "target": "psi4"
+          },
+          {
+            "source": "microarch-level",
+            "target": "puma"
+          },
+          {
+            "source": "microarch-level",
+            "target": "py4dgeo"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyamrex"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyaudi"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyb2d3"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyceres"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pychrono"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pycppad"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyfes"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyg4ometry"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pygalmesh"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pygmo"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pygmo_plugins_nonfree"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pygplates"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pykep"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pymeshlab"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyroomacoustics"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyscamp-cpu"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyscamp-gpu"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pysdf"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pytetwild"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pythia8"
+          },
+          {
+            "source": "microarch-level",
+            "target": "python-pcl"
+          },
+          {
+            "source": "microarch-level",
+            "target": "python-pdal"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyvinecopulib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "qgis"
+          },
+          {
+            "source": "microarch-level",
+            "target": "qtmolecularnetwork"
+          },
+          {
+            "source": "microarch-level",
+            "target": "quadrants"
+          },
+          {
+            "source": "microarch-level",
+            "target": "rdkit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "reaktoro"
+          },
+          {
+            "source": "microarch-level",
+            "target": "riskfolio-lib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "riskparityportfolio"
+          },
+          {
+            "source": "microarch-level",
+            "target": "roboplan"
+          },
+          {
+            "source": "microarch-level",
+            "target": "rubinenv"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scikit-geometry"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scine-database-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scine-molassembler"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scine-readuct"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scine-utilities-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scipp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "simpleitk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "simsopt"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-cosserat"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-glfw"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-modelorderreduction"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-python3"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-softrobots"
+          },
+          {
+            "source": "microarch-level",
+            "target": "sofa-softrobotsinverse"
+          },
+          {
+            "source": "microarch-level",
+            "target": "spam"
+          },
+          {
+            "source": "microarch-level",
+            "target": "stir"
+          },
+          {
+            "source": "microarch-level",
+            "target": "structuralgt"
+          },
+          {
+            "source": "microarch-level",
+            "target": "svmtk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "tardigrade_constitutive_tools"
+          },
+          {
+            "source": "microarch-level",
+            "target": "tensorflow"
+          },
+          {
+            "source": "microarch-level",
+            "target": "topologytoolkit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "toppra"
+          },
+          {
+            "source": "microarch-level",
+            "target": "tsid"
+          },
+          {
+            "source": "microarch-level",
+            "target": "veloxchem"
+          },
+          {
+            "source": "microarch-level",
+            "target": "visp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "vmtk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "votca"
+          },
+          {
+            "source": "microarch-level",
+            "target": "vowpalwabbit"
+          },
+          {
+            "source": "microarch-level",
+            "target": "vtk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "warpx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "xgems"
+          },
+          {
+            "source": "microarch-level",
+            "target": "yarp"
           },
           {
             "source": "microed-tools",
@@ -74797,6 +75648,10 @@
           },
           {
             "source": "tbb",
+            "target": "microarch-level"
+          },
+          {
+            "source": "tbb",
             "target": "microed-tools"
           },
           {
@@ -96962,6 +97817,12 @@
             "id": "mi-fieldcalc",
             "payload": {
               "__lazy_json__": "node_attrs/mi-fieldcalc.json"
+            }
+          },
+          {
+            "id": "microarch-level",
+            "payload": {
+              "__lazy_json__": "node_attrs/microarch-level.json"
             }
           },
           {
