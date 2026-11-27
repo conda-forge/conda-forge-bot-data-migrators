@@ -1323,14 +1323,6 @@
           },
           {
             "source": "binutils",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "binutils",
-            "target": "bun"
-          },
-          {
-            "source": "binutils",
             "target": "ceres-solver"
           },
           {
@@ -1339,35 +1331,7 @@
           },
           {
             "source": "binutils",
-            "target": "conda-mirror"
-          },
-          {
-            "source": "binutils",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "binutils",
-            "target": "dav1d"
-          },
-          {
-            "source": "binutils",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "binutils",
-            "target": "flang"
-          },
-          {
-            "source": "binutils",
-            "target": "flang-rt"
-          },
-          {
-            "source": "binutils",
-            "target": "gperf"
-          },
-          {
-            "source": "binutils",
-            "target": "gsl"
           },
           {
             "source": "binutils",
@@ -1379,23 +1343,7 @@
           },
           {
             "source": "binutils",
-            "target": "isl"
-          },
-          {
-            "source": "binutils",
-            "target": "libcxx"
-          },
-          {
-            "source": "binutils",
-            "target": "libffi"
-          },
-          {
-            "source": "binutils",
             "target": "libhwloc"
-          },
-          {
-            "source": "binutils",
-            "target": "libjxl-split"
           },
           {
             "source": "binutils",
@@ -1411,10 +1359,6 @@
           },
           {
             "source": "binutils",
-            "target": "nccl"
-          },
-          {
-            "source": "binutils",
             "target": "ncurses"
           },
           {
@@ -1423,27 +1367,7 @@
           },
           {
             "source": "binutils",
-            "target": "oclgrind"
-          },
-          {
-            "source": "binutils",
-            "target": "openh264"
-          },
-          {
-            "source": "binutils",
-            "target": "openmp"
-          },
-          {
-            "source": "binutils",
             "target": "pocl"
-          },
-          {
-            "source": "binutils",
-            "target": "poppler"
-          },
-          {
-            "source": "binutils",
-            "target": "popt"
           },
           {
             "source": "binutils",
@@ -1455,31 +1379,7 @@
           },
           {
             "source": "binutils",
-            "target": "pyarrow"
-          },
-          {
-            "source": "binutils",
-            "target": "pyside2"
-          },
-          {
-            "source": "binutils",
-            "target": "python"
-          },
-          {
-            "source": "binutils",
-            "target": "pywinpty"
-          },
-          {
-            "source": "binutils",
             "target": "r-base"
-          },
-          {
-            "source": "binutils",
-            "target": "rav1e"
-          },
-          {
-            "source": "binutils",
-            "target": "scipy"
           },
           {
             "source": "binutils",
@@ -1503,35 +1403,11 @@
           },
           {
             "source": "binutils",
-            "target": "vc"
-          },
-          {
-            "source": "binutils",
             "target": "winpthreads"
           },
           {
             "source": "binutils",
-            "target": "x264"
-          },
-          {
-            "source": "binutils",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "binutils",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "binutils",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "binutils",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "binutils",
-            "target": "xorg-xproto"
           },
           {
             "source": "bison",
@@ -2746,6 +2622,338 @@
             "target": "xorg-xf86vidmodeproto"
           },
           {
+            "source": "clangdev",
+            "target": "aiohttp"
+          },
+          {
+            "source": "clangdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "clangdev",
+            "target": "binutils"
+          },
+          {
+            "source": "clangdev",
+            "target": "bun"
+          },
+          {
+            "source": "clangdev",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "clangdev",
+            "target": "chardet"
+          },
+          {
+            "source": "clangdev",
+            "target": "clang-compiler-activation"
+          },
+          {
+            "source": "clangdev",
+            "target": "conda-mirror"
+          },
+          {
+            "source": "clangdev",
+            "target": "contourpy"
+          },
+          {
+            "source": "clangdev",
+            "target": "coverage"
+          },
+          {
+            "source": "clangdev",
+            "target": "ctng-compilers"
+          },
+          {
+            "source": "clangdev",
+            "target": "dav1d"
+          },
+          {
+            "source": "clangdev",
+            "target": "falcon"
+          },
+          {
+            "source": "clangdev",
+            "target": "fastar"
+          },
+          {
+            "source": "clangdev",
+            "target": "ffmpeg"
+          },
+          {
+            "source": "clangdev",
+            "target": "flang"
+          },
+          {
+            "source": "clangdev",
+            "target": "flang-rt"
+          },
+          {
+            "source": "clangdev",
+            "target": "gdal"
+          },
+          {
+            "source": "clangdev",
+            "target": "gmpy2"
+          },
+          {
+            "source": "clangdev",
+            "target": "gperf"
+          },
+          {
+            "source": "clangdev",
+            "target": "greenlet"
+          },
+          {
+            "source": "clangdev",
+            "target": "gsl"
+          },
+          {
+            "source": "clangdev",
+            "target": "hdf5"
+          },
+          {
+            "source": "clangdev",
+            "target": "hypothesis"
+          },
+          {
+            "source": "clangdev",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "clangdev",
+            "target": "isl"
+          },
+          {
+            "source": "clangdev",
+            "target": "libcst"
+          },
+          {
+            "source": "clangdev",
+            "target": "libcxx"
+          },
+          {
+            "source": "clangdev",
+            "target": "libffi"
+          },
+          {
+            "source": "clangdev",
+            "target": "libhwloc"
+          },
+          {
+            "source": "clangdev",
+            "target": "libjxl-split"
+          },
+          {
+            "source": "clangdev",
+            "target": "libxcb"
+          },
+          {
+            "source": "clangdev",
+            "target": "llvmlite"
+          },
+          {
+            "source": "clangdev",
+            "target": "lz4"
+          },
+          {
+            "source": "clangdev",
+            "target": "markupsafe"
+          },
+          {
+            "source": "clangdev",
+            "target": "mvapich"
+          },
+          {
+            "source": "clangdev",
+            "target": "mypy"
+          },
+          {
+            "source": "clangdev",
+            "target": "nccl"
+          },
+          {
+            "source": "clangdev",
+            "target": "ncurses"
+          },
+          {
+            "source": "clangdev",
+            "target": "nh3"
+          },
+          {
+            "source": "clangdev",
+            "target": "numba"
+          },
+          {
+            "source": "clangdev",
+            "target": "oclgrind"
+          },
+          {
+            "source": "clangdev",
+            "target": "openh264"
+          },
+          {
+            "source": "clangdev",
+            "target": "openmp"
+          },
+          {
+            "source": "clangdev",
+            "target": "pandas"
+          },
+          {
+            "source": "clangdev",
+            "target": "pocl"
+          },
+          {
+            "source": "clangdev",
+            "target": "poppler"
+          },
+          {
+            "source": "clangdev",
+            "target": "popt"
+          },
+          {
+            "source": "clangdev",
+            "target": "postgresql"
+          },
+          {
+            "source": "clangdev",
+            "target": "pthread-stubs"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyarrow"
+          },
+          {
+            "source": "clangdev",
+            "target": "pycurl"
+          },
+          {
+            "source": "clangdev",
+            "target": "pynacl"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyobjc-core"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyobjc-framework-cocoa"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyside2"
+          },
+          {
+            "source": "clangdev",
+            "target": "pytest-codspeed"
+          },
+          {
+            "source": "clangdev",
+            "target": "python"
+          },
+          {
+            "source": "clangdev",
+            "target": "pytokens"
+          },
+          {
+            "source": "clangdev",
+            "target": "pywinpty"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyzmq"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-base"
+          },
+          {
+            "source": "clangdev",
+            "target": "rav1e"
+          },
+          {
+            "source": "clangdev",
+            "target": "regress"
+          },
+          {
+            "source": "clangdev",
+            "target": "scipy"
+          },
+          {
+            "source": "clangdev",
+            "target": "simplejson"
+          },
+          {
+            "source": "clangdev",
+            "target": "sleef"
+          },
+          {
+            "source": "clangdev",
+            "target": "soxr"
+          },
+          {
+            "source": "clangdev",
+            "target": "tbb"
+          },
+          {
+            "source": "clangdev",
+            "target": "tornado"
+          },
+          {
+            "source": "clangdev",
+            "target": "trio"
+          },
+          {
+            "source": "clangdev",
+            "target": "ucx-split"
+          },
+          {
+            "source": "clangdev",
+            "target": "vc"
+          },
+          {
+            "source": "clangdev",
+            "target": "watchdog"
+          },
+          {
+            "source": "clangdev",
+            "target": "watchfiles"
+          },
+          {
+            "source": "clangdev",
+            "target": "winpthreads"
+          },
+          {
+            "source": "clangdev",
+            "target": "x264"
+          },
+          {
+            "source": "clangdev",
+            "target": "xorg-libxdmcp"
+          },
+          {
+            "source": "clangdev",
+            "target": "xorg-libxshmfence"
+          },
+          {
+            "source": "clangdev",
+            "target": "xorg-xf86vidmodeproto"
+          },
+          {
+            "source": "clangdev",
+            "target": "xorg-xineramaproto"
+          },
+          {
+            "source": "clangdev",
+            "target": "xorg-xproto"
+          },
+          {
             "source": "cli11",
             "target": "mamba"
           },
@@ -2931,15 +3139,15 @@
           },
           {
             "source": "cmake",
+            "target": "clangdev"
+          },
+          {
+            "source": "cmake",
             "target": "cli11"
           },
           {
             "source": "cmake",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "cmake",
-            "target": "conda-mirror"
           },
           {
             "source": "cmake",
@@ -2980,10 +3188,6 @@
           {
             "source": "cmake",
             "target": "cutlass"
-          },
-          {
-            "source": "cmake",
-            "target": "dav1d"
           },
           {
             "source": "cmake",
@@ -3435,10 +3639,6 @@
           },
           {
             "source": "cmake",
-            "target": "nccl"
-          },
-          {
-            "source": "cmake",
             "target": "ncurses"
           },
           {
@@ -3492,10 +3692,6 @@
           {
             "source": "cmake",
             "target": "openexr"
-          },
-          {
-            "source": "cmake",
-            "target": "openh264"
           },
           {
             "source": "cmake",
@@ -3555,10 +3751,6 @@
           },
           {
             "source": "cmake",
-            "target": "postgresql"
-          },
-          {
-            "source": "cmake",
             "target": "proj.4"
           },
           {
@@ -3596,10 +3788,6 @@
           {
             "source": "cmake",
             "target": "pytorch-cpu"
-          },
-          {
-            "source": "cmake",
-            "target": "pywinpty"
           },
           {
             "source": "cmake",
@@ -3787,10 +3975,6 @@
           },
           {
             "source": "cmake",
-            "target": "vc"
-          },
-          {
-            "source": "cmake",
             "target": "vulkan-headers"
           },
           {
@@ -3804,10 +3988,6 @@
           {
             "source": "cmake",
             "target": "winpthreads"
-          },
-          {
-            "source": "cmake",
-            "target": "x264"
           },
           {
             "source": "cmake",
@@ -4363,10 +4543,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "ast-serialize"
           },
           {
@@ -4403,10 +4579,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "conda-mirror"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "conda-standalone"
           },
           {
@@ -4419,27 +4591,11 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "dav1d"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "falcon"
           },
           {
             "source": "ctng-compilers",
             "target": "fastar"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "flang"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "flang-rt"
           },
           {
             "source": "ctng-compilers",
@@ -4451,15 +4607,7 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "gperf"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "greenlet"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "gsl"
           },
           {
             "source": "ctng-compilers",
@@ -4479,10 +4627,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "isl"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "kealib"
           },
           {
@@ -4491,19 +4635,7 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "libcxx"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "libffi"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "libhwloc"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "libjxl-split"
           },
           {
             "source": "ctng-compilers",
@@ -4535,10 +4667,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "nccl"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "ncurses"
           },
           {
@@ -4551,18 +4679,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "oclgrind"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "openh264"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "openmp"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "pandas"
           },
           {
@@ -4572,18 +4688,6 @@
           {
             "source": "ctng-compilers",
             "target": "pocl"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "poppler"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "popt"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "postgresql"
           },
           {
             "source": "ctng-compilers",
@@ -4615,23 +4719,11 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "pyside2"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "pytest-codspeed"
           },
           {
             "source": "ctng-compilers",
-            "target": "python"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "pytokens"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "pywinpty"
           },
           {
             "source": "ctng-compilers",
@@ -4640,10 +4732,6 @@
           {
             "source": "ctng-compilers",
             "target": "r-base"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "rav1e"
           },
           {
             "source": "ctng-compilers",
@@ -4683,10 +4771,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "vc"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "watchdog"
           },
           {
@@ -4707,27 +4791,7 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "x264"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "xorg-xproto"
           },
           {
             "source": "cuda-cccl",
@@ -9451,19 +9515,11 @@
           },
           {
             "source": "libxml2",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "libxml2",
             "target": "at-spi2-core"
           },
           {
             "source": "libxml2",
             "target": "binutils"
-          },
-          {
-            "source": "libxml2",
-            "target": "bun"
           },
           {
             "source": "libxml2",
@@ -9475,15 +9531,11 @@
           },
           {
             "source": "libxml2",
-            "target": "conda-mirror"
+            "target": "clangdev"
           },
           {
             "source": "libxml2",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "libxml2",
-            "target": "dav1d"
           },
           {
             "source": "libxml2",
@@ -9503,14 +9555,6 @@
           },
           {
             "source": "libxml2",
-            "target": "gperf"
-          },
-          {
-            "source": "libxml2",
-            "target": "gsl"
-          },
-          {
-            "source": "libxml2",
             "target": "hdf5"
           },
           {
@@ -9519,27 +9563,11 @@
           },
           {
             "source": "libxml2",
-            "target": "isl"
-          },
-          {
-            "source": "libxml2",
             "target": "libarchive"
           },
           {
             "source": "libxml2",
-            "target": "libcxx"
-          },
-          {
-            "source": "libxml2",
-            "target": "libffi"
-          },
-          {
-            "source": "libxml2",
             "target": "libhwloc"
-          },
-          {
-            "source": "libxml2",
-            "target": "libjxl-split"
           },
           {
             "source": "libxml2",
@@ -9587,10 +9615,6 @@
           },
           {
             "source": "libxml2",
-            "target": "nccl"
-          },
-          {
-            "source": "libxml2",
             "target": "ncurses"
           },
           {
@@ -9603,27 +9627,7 @@
           },
           {
             "source": "libxml2",
-            "target": "oclgrind"
-          },
-          {
-            "source": "libxml2",
-            "target": "openh264"
-          },
-          {
-            "source": "libxml2",
-            "target": "openmp"
-          },
-          {
-            "source": "libxml2",
             "target": "pocl"
-          },
-          {
-            "source": "libxml2",
-            "target": "poppler"
-          },
-          {
-            "source": "libxml2",
-            "target": "popt"
           },
           {
             "source": "libxml2",
@@ -9635,19 +9639,7 @@
           },
           {
             "source": "libxml2",
-            "target": "pyarrow"
-          },
-          {
-            "source": "libxml2",
             "target": "pyside2"
-          },
-          {
-            "source": "libxml2",
-            "target": "python"
-          },
-          {
-            "source": "libxml2",
-            "target": "pywinpty"
           },
           {
             "source": "libxml2",
@@ -9667,14 +9659,6 @@
           },
           {
             "source": "libxml2",
-            "target": "rav1e"
-          },
-          {
-            "source": "libxml2",
-            "target": "scipy"
-          },
-          {
-            "source": "libxml2",
             "target": "sleef"
           },
           {
@@ -9691,35 +9675,11 @@
           },
           {
             "source": "libxml2",
-            "target": "vc"
-          },
-          {
-            "source": "libxml2",
             "target": "winpthreads"
           },
           {
             "source": "libxml2",
-            "target": "x264"
-          },
-          {
-            "source": "libxml2",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "libxml2",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "libxml2",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "libxml2",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "libxml2",
-            "target": "xorg-xproto"
           },
           {
             "source": "libxslt",
@@ -9839,15 +9799,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "conda-mirror"
+            "target": "clangdev"
           },
           {
             "source": "llvmdev",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "llvmdev",
-            "target": "dav1d"
           },
           {
             "source": "llvmdev",
@@ -9895,10 +9851,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "libjxl-split"
-          },
-          {
-            "source": "llvmdev",
             "target": "libxcb"
           },
           {
@@ -9935,19 +9887,11 @@
           },
           {
             "source": "llvmdev",
-            "target": "openh264"
-          },
-          {
-            "source": "llvmdev",
             "target": "openmp"
           },
           {
             "source": "llvmdev",
             "target": "pocl"
-          },
-          {
-            "source": "llvmdev",
-            "target": "poppler"
           },
           {
             "source": "llvmdev",
@@ -9983,14 +9927,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "rav1e"
-          },
-          {
-            "source": "llvmdev",
-            "target": "scipy"
-          },
-          {
-            "source": "llvmdev",
             "target": "shellcheck"
           },
           {
@@ -10011,15 +9947,7 @@
           },
           {
             "source": "llvmdev",
-            "target": "vc"
-          },
-          {
-            "source": "llvmdev",
             "target": "winpthreads"
-          },
-          {
-            "source": "llvmdev",
-            "target": "x264"
           },
           {
             "source": "llvmdev",
@@ -10231,10 +10159,6 @@
           },
           {
             "source": "make",
-            "target": "bun"
-          },
-          {
-            "source": "make",
             "target": "bwidget"
           },
           {
@@ -10267,10 +10191,6 @@
           },
           {
             "source": "make",
-            "target": "conda-mirror"
-          },
-          {
-            "source": "make",
             "target": "coreutils"
           },
           {
@@ -10280,10 +10200,6 @@
           {
             "source": "make",
             "target": "cyrus-sasl"
-          },
-          {
-            "source": "make",
-            "target": "dav1d"
           },
           {
             "source": "make",
@@ -10312,14 +10228,6 @@
           {
             "source": "make",
             "target": "findutils"
-          },
-          {
-            "source": "make",
-            "target": "flang"
-          },
-          {
-            "source": "make",
-            "target": "flang-rt"
           },
           {
             "source": "make",
@@ -10352,10 +10260,6 @@
           {
             "source": "make",
             "target": "gobject-introspection"
-          },
-          {
-            "source": "make",
-            "target": "gperf"
           },
           {
             "source": "make",
@@ -10455,10 +10359,6 @@
           },
           {
             "source": "make",
-            "target": "libcxx"
-          },
-          {
-            "source": "make",
             "target": "libdb"
           },
           {
@@ -10468,10 +10368,6 @@
           {
             "source": "make",
             "target": "libfabric"
-          },
-          {
-            "source": "make",
-            "target": "libffi"
           },
           {
             "source": "make",
@@ -10512,10 +10408,6 @@
           {
             "source": "make",
             "target": "libjpeg-turbo"
-          },
-          {
-            "source": "make",
-            "target": "libjxl-split"
           },
           {
             "source": "make",
@@ -10683,15 +10575,7 @@
           },
           {
             "source": "make",
-            "target": "openh264"
-          },
-          {
-            "source": "make",
             "target": "openldap"
-          },
-          {
-            "source": "make",
-            "target": "openmp"
           },
           {
             "source": "make",
@@ -10767,10 +10651,6 @@
           },
           {
             "source": "make",
-            "target": "popt"
-          },
-          {
-            "source": "make",
             "target": "postgresql"
           },
           {
@@ -10787,10 +10667,6 @@
           },
           {
             "source": "make",
-            "target": "pyarrow"
-          },
-          {
-            "source": "make",
             "target": "pycairo"
           },
           {
@@ -10803,15 +10679,7 @@
           },
           {
             "source": "make",
-            "target": "pyside2"
-          },
-          {
-            "source": "make",
             "target": "python"
-          },
-          {
-            "source": "make",
-            "target": "pywinpty"
           },
           {
             "source": "make",
@@ -10959,10 +10827,6 @@
           },
           {
             "source": "make",
-            "target": "rav1e"
-          },
-          {
-            "source": "make",
             "target": "readline"
           },
           {
@@ -10976,10 +10840,6 @@
           {
             "source": "make",
             "target": "ruby"
-          },
-          {
-            "source": "make",
-            "target": "scipy"
           },
           {
             "source": "make",
@@ -11063,19 +10923,11 @@
           },
           {
             "source": "make",
-            "target": "vc"
-          },
-          {
-            "source": "make",
             "target": "wget"
           },
           {
             "source": "make",
             "target": "winpthreads"
-          },
-          {
-            "source": "make",
-            "target": "x264"
           },
           {
             "source": "make",
@@ -11196,14 +11048,6 @@
           {
             "source": "make",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "make",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "make",
-            "target": "xorg-xproto"
           },
           {
             "source": "make",
@@ -12055,6 +11899,10 @@
           },
           {
             "source": "ninja",
+            "target": "clangdev"
+          },
+          {
+            "source": "ninja",
             "target": "cli11"
           },
           {
@@ -12068,10 +11916,6 @@
           {
             "source": "ninja",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "ninja",
-            "target": "conda-mirror"
           },
           {
             "source": "ninja",
@@ -12207,10 +12051,6 @@
           },
           {
             "source": "ninja",
-            "target": "gperf"
-          },
-          {
-            "source": "ninja",
             "target": "graphite2"
           },
           {
@@ -12220,10 +12060,6 @@
           {
             "source": "ninja",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "ninja",
-            "target": "gsl"
           },
           {
             "source": "ninja",
@@ -12260,10 +12096,6 @@
           {
             "source": "ninja",
             "target": "intel_repack"
-          },
-          {
-            "source": "ninja",
-            "target": "isl"
           },
           {
             "source": "ninja",
@@ -12335,10 +12167,6 @@
           },
           {
             "source": "ninja",
-            "target": "libffi"
-          },
-          {
-            "source": "ninja",
             "target": "libfuse"
           },
           {
@@ -12372,10 +12200,6 @@
           {
             "source": "ninja",
             "target": "libiconv"
-          },
-          {
-            "source": "ninja",
-            "target": "libjxl-split"
           },
           {
             "source": "ninja",
@@ -12551,10 +12375,6 @@
           },
           {
             "source": "ninja",
-            "target": "nccl"
-          },
-          {
-            "source": "ninja",
             "target": "ncurses"
           },
           {
@@ -12647,10 +12467,6 @@
           },
           {
             "source": "ninja",
-            "target": "popt"
-          },
-          {
-            "source": "ninja",
             "target": "postgresql"
           },
           {
@@ -12692,10 +12508,6 @@
           {
             "source": "ninja",
             "target": "pytorch-cpu"
-          },
-          {
-            "source": "ninja",
-            "target": "pywinpty"
           },
           {
             "source": "ninja",
@@ -12851,10 +12663,6 @@
           },
           {
             "source": "ninja",
-            "target": "vc"
-          },
-          {
-            "source": "ninja",
             "target": "vulkan-headers"
           },
           {
@@ -12875,10 +12683,6 @@
           },
           {
             "source": "ninja",
-            "target": "x264"
-          },
-          {
-            "source": "ninja",
             "target": "xkeyboard-config"
           },
           {
@@ -12887,23 +12691,7 @@
           },
           {
             "source": "ninja",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "ninja",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "ninja",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "ninja",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "ninja",
-            "target": "xorg-xproto"
           },
           {
             "source": "ninja",
@@ -13355,15 +13143,7 @@
           },
           {
             "source": "openmp",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "openmp",
             "target": "binutils"
-          },
-          {
-            "source": "openmp",
-            "target": "bun"
           },
           {
             "source": "openmp",
@@ -13375,7 +13155,7 @@
           },
           {
             "source": "openmp",
-            "target": "conda-mirror"
+            "target": "clangdev"
           },
           {
             "source": "openmp",
@@ -13383,31 +13163,11 @@
           },
           {
             "source": "openmp",
-            "target": "dav1d"
-          },
-          {
-            "source": "openmp",
-            "target": "ffmpeg"
-          },
-          {
-            "source": "openmp",
             "target": "fftw"
           },
           {
             "source": "openmp",
-            "target": "flang"
-          },
-          {
-            "source": "openmp",
             "target": "flang-rt"
-          },
-          {
-            "source": "openmp",
-            "target": "gperf"
-          },
-          {
-            "source": "openmp",
-            "target": "gsl"
           },
           {
             "source": "openmp",
@@ -13447,23 +13207,7 @@
           },
           {
             "source": "openmp",
-            "target": "isl"
-          },
-          {
-            "source": "openmp",
-            "target": "libcxx"
-          },
-          {
-            "source": "openmp",
-            "target": "libffi"
-          },
-          {
-            "source": "openmp",
             "target": "libhwloc"
-          },
-          {
-            "source": "openmp",
-            "target": "libjxl-split"
           },
           {
             "source": "openmp",
@@ -13479,19 +13223,11 @@
           },
           {
             "source": "openmp",
-            "target": "nccl"
-          },
-          {
-            "source": "openmp",
             "target": "ncurses"
           },
           {
             "source": "openmp",
             "target": "numba"
-          },
-          {
-            "source": "openmp",
-            "target": "oclgrind"
           },
           {
             "source": "openmp",
@@ -13503,23 +13239,7 @@
           },
           {
             "source": "openmp",
-            "target": "openh264"
-          },
-          {
-            "source": "openmp",
             "target": "pocl"
-          },
-          {
-            "source": "openmp",
-            "target": "poppler"
-          },
-          {
-            "source": "openmp",
-            "target": "popt"
-          },
-          {
-            "source": "openmp",
-            "target": "postgresql"
           },
           {
             "source": "openmp",
@@ -13527,35 +13247,11 @@
           },
           {
             "source": "openmp",
-            "target": "pyarrow"
-          },
-          {
-            "source": "openmp",
-            "target": "pyside2"
-          },
-          {
-            "source": "openmp",
-            "target": "python"
-          },
-          {
-            "source": "openmp",
             "target": "pytorch-cpu"
           },
           {
             "source": "openmp",
-            "target": "pywinpty"
-          },
-          {
-            "source": "openmp",
             "target": "r-base"
-          },
-          {
-            "source": "openmp",
-            "target": "rav1e"
-          },
-          {
-            "source": "openmp",
-            "target": "scipy"
           },
           {
             "source": "openmp",
@@ -13575,35 +13271,11 @@
           },
           {
             "source": "openmp",
-            "target": "vc"
-          },
-          {
-            "source": "openmp",
             "target": "winpthreads"
           },
           {
             "source": "openmp",
-            "target": "x264"
-          },
-          {
-            "source": "openmp",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "openmp",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "openmp",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "openmp",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "openmp",
-            "target": "xorg-xproto"
           },
           {
             "source": "openpmix",
@@ -15763,10 +15435,6 @@
           },
           {
             "source": "python",
-            "target": "arrow-cpp"
-          },
-          {
-            "source": "python",
             "target": "ast-serialize"
           },
           {
@@ -15827,10 +15495,6 @@
           },
           {
             "source": "python",
-            "target": "bun"
-          },
-          {
-            "source": "python",
             "target": "bwidget"
           },
           {
@@ -15859,15 +15523,15 @@
           },
           {
             "source": "python",
+            "target": "clangdev"
+          },
+          {
+            "source": "python",
             "target": "conda"
           },
           {
             "source": "python",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "python",
-            "target": "conda-mirror"
           },
           {
             "source": "python",
@@ -16019,10 +15683,6 @@
           },
           {
             "source": "python",
-            "target": "gperf"
-          },
-          {
-            "source": "python",
             "target": "graphite2"
           },
           {
@@ -16036,10 +15696,6 @@
           {
             "source": "python",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "python",
-            "target": "gsl"
           },
           {
             "source": "python",
@@ -16080,10 +15736,6 @@
           {
             "source": "python",
             "target": "intel_repack"
-          },
-          {
-            "source": "python",
-            "target": "isl"
           },
           {
             "source": "python",
@@ -16131,10 +15783,6 @@
           },
           {
             "source": "python",
-            "target": "libffi"
-          },
-          {
-            "source": "python",
             "target": "libfuse"
           },
           {
@@ -16152,10 +15800,6 @@
           {
             "source": "python",
             "target": "libhwloc"
-          },
-          {
-            "source": "python",
-            "target": "libjxl-split"
           },
           {
             "source": "python",
@@ -16291,10 +15935,6 @@
           },
           {
             "source": "python",
-            "target": "nccl"
-          },
-          {
-            "source": "python",
             "target": "ncurses"
           },
           {
@@ -16308,10 +15948,6 @@
           {
             "source": "python",
             "target": "numpy"
-          },
-          {
-            "source": "python",
-            "target": "oclgrind"
           },
           {
             "source": "python",
@@ -16368,10 +16004,6 @@
           {
             "source": "python",
             "target": "poppler"
-          },
-          {
-            "source": "python",
-            "target": "popt"
           },
           {
             "source": "python",
@@ -16516,10 +16148,6 @@
           {
             "source": "python",
             "target": "rapidfuzz"
-          },
-          {
-            "source": "python",
-            "target": "rav1e"
           },
           {
             "source": "python",
@@ -16679,10 +16307,6 @@
           },
           {
             "source": "python",
-            "target": "x264"
-          },
-          {
-            "source": "python",
             "target": "xattr"
           },
           {
@@ -16772,14 +16396,6 @@
           {
             "source": "python",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "python",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "python",
-            "target": "xorg-xproto"
           },
           {
             "source": "python",
@@ -21343,11 +20959,11 @@
           },
           {
             "source": "zlib",
-            "target": "cmake"
+            "target": "clangdev"
           },
           {
             "source": "zlib",
-            "target": "conda-mirror"
+            "target": "cmake"
           },
           {
             "source": "zlib",
@@ -21360,10 +20976,6 @@
           {
             "source": "zlib",
             "target": "curl"
-          },
-          {
-            "source": "zlib",
-            "target": "dav1d"
           },
           {
             "source": "zlib",
@@ -21423,19 +21035,11 @@
           },
           {
             "source": "zlib",
-            "target": "gperf"
-          },
-          {
-            "source": "zlib",
             "target": "graphviz"
           },
           {
             "source": "zlib",
             "target": "grpc-cpp"
-          },
-          {
-            "source": "zlib",
-            "target": "gsl"
           },
           {
             "source": "zlib",
@@ -21471,10 +21075,6 @@
           },
           {
             "source": "zlib",
-            "target": "isl"
-          },
-          {
-            "source": "zlib",
             "target": "kealib"
           },
           {
@@ -21488,14 +21088,6 @@
           {
             "source": "zlib",
             "target": "libcups"
-          },
-          {
-            "source": "zlib",
-            "target": "libcxx"
-          },
-          {
-            "source": "zlib",
-            "target": "libffi"
           },
           {
             "source": "zlib",
@@ -21607,10 +21199,6 @@
           },
           {
             "source": "zlib",
-            "target": "nccl"
-          },
-          {
-            "source": "zlib",
             "target": "ncurses"
           },
           {
@@ -21651,15 +21239,7 @@
           },
           {
             "source": "zlib",
-            "target": "openh264"
-          },
-          {
-            "source": "zlib",
             "target": "openjpeg"
-          },
-          {
-            "source": "zlib",
-            "target": "openmp"
           },
           {
             "source": "zlib",
@@ -21703,10 +21283,6 @@
           },
           {
             "source": "zlib",
-            "target": "popt"
-          },
-          {
-            "source": "zlib",
             "target": "postgresql"
           },
           {
@@ -21743,19 +21319,11 @@
           },
           {
             "source": "zlib",
-            "target": "pyside2"
-          },
-          {
-            "source": "zlib",
             "target": "python"
           },
           {
             "source": "zlib",
             "target": "pytorch-cpu"
-          },
-          {
-            "source": "zlib",
-            "target": "pywinpty"
           },
           {
             "source": "zlib",
@@ -21791,15 +21359,7 @@
           },
           {
             "source": "zlib",
-            "target": "rav1e"
-          },
-          {
-            "source": "zlib",
             "target": "ruby"
-          },
-          {
-            "source": "zlib",
-            "target": "scipy"
           },
           {
             "source": "zlib",
@@ -21843,10 +21403,6 @@
           },
           {
             "source": "zlib",
-            "target": "vc"
-          },
-          {
-            "source": "zlib",
             "target": "wget"
           },
           {
@@ -21855,27 +21411,7 @@
           },
           {
             "source": "zlib",
-            "target": "x264"
-          },
-          {
-            "source": "zlib",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "zlib",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "zlib",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "zlib",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "zlib",
-            "target": "xorg-xproto"
           },
           {
             "source": "zlib",
@@ -21995,31 +21531,15 @@
           },
           {
             "source": "zstd",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "zstd",
             "target": "cffi"
           },
           {
             "source": "zstd",
-            "target": "clang-compiler-activation"
+            "target": "clangdev"
           },
           {
             "source": "zstd",
             "target": "cmake"
-          },
-          {
-            "source": "zstd",
-            "target": "conda-mirror"
-          },
-          {
-            "source": "zstd",
-            "target": "ctng-compilers"
-          },
-          {
-            "source": "zstd",
-            "target": "dav1d"
           },
           {
             "source": "zstd",
@@ -22028,10 +21548,6 @@
           {
             "source": "zstd",
             "target": "fastar"
-          },
-          {
-            "source": "zstd",
-            "target": "ffmpeg"
           },
           {
             "source": "zstd",
@@ -22047,43 +21563,7 @@
           },
           {
             "source": "zstd",
-            "target": "gperf"
-          },
-          {
-            "source": "zstd",
-            "target": "gsl"
-          },
-          {
-            "source": "zstd",
-            "target": "hdf5"
-          },
-          {
-            "source": "zstd",
-            "target": "intel-compiler-repack"
-          },
-          {
-            "source": "zstd",
-            "target": "isl"
-          },
-          {
-            "source": "zstd",
             "target": "libarchive"
-          },
-          {
-            "source": "zstd",
-            "target": "libcxx"
-          },
-          {
-            "source": "zstd",
-            "target": "libffi"
-          },
-          {
-            "source": "zstd",
-            "target": "libhwloc"
-          },
-          {
-            "source": "zstd",
-            "target": "libjxl-split"
           },
           {
             "source": "zstd",
@@ -22092,10 +21572,6 @@
           {
             "source": "zstd",
             "target": "libtiff"
-          },
-          {
-            "source": "zstd",
-            "target": "libxcb"
           },
           {
             "source": "zstd",
@@ -22127,19 +21603,7 @@
           },
           {
             "source": "zstd",
-            "target": "mvapich"
-          },
-          {
-            "source": "zstd",
             "target": "nanoarrow"
-          },
-          {
-            "source": "zstd",
-            "target": "nccl"
-          },
-          {
-            "source": "zstd",
-            "target": "ncurses"
           },
           {
             "source": "zstd",
@@ -22147,23 +21611,7 @@
           },
           {
             "source": "zstd",
-            "target": "numba"
-          },
-          {
-            "source": "zstd",
-            "target": "oclgrind"
-          },
-          {
-            "source": "zstd",
             "target": "openexr"
-          },
-          {
-            "source": "zstd",
-            "target": "openh264"
-          },
-          {
-            "source": "zstd",
-            "target": "openmp"
           },
           {
             "source": "zstd",
@@ -22171,31 +21619,7 @@
           },
           {
             "source": "zstd",
-            "target": "pocl"
-          },
-          {
-            "source": "zstd",
-            "target": "poppler"
-          },
-          {
-            "source": "zstd",
-            "target": "popt"
-          },
-          {
-            "source": "zstd",
             "target": "postgresql"
-          },
-          {
-            "source": "zstd",
-            "target": "pthread-stubs"
-          },
-          {
-            "source": "zstd",
-            "target": "pyarrow"
-          },
-          {
-            "source": "zstd",
-            "target": "pyside2"
           },
           {
             "source": "zstd",
@@ -22203,35 +21627,11 @@
           },
           {
             "source": "zstd",
-            "target": "pywinpty"
-          },
-          {
-            "source": "zstd",
             "target": "qt-main"
           },
           {
             "source": "zstd",
-            "target": "r-base"
-          },
-          {
-            "source": "zstd",
-            "target": "rav1e"
-          },
-          {
-            "source": "zstd",
             "target": "rsync"
-          },
-          {
-            "source": "zstd",
-            "target": "scipy"
-          },
-          {
-            "source": "zstd",
-            "target": "sleef"
-          },
-          {
-            "source": "zstd",
-            "target": "soxr"
           },
           {
             "source": "zstd",
@@ -22243,51 +21643,11 @@
           },
           {
             "source": "zstd",
-            "target": "tbb"
-          },
-          {
-            "source": "zstd",
             "target": "tiledb"
           },
           {
             "source": "zstd",
-            "target": "ucx-split"
-          },
-          {
-            "source": "zstd",
             "target": "uv"
-          },
-          {
-            "source": "zstd",
-            "target": "vc"
-          },
-          {
-            "source": "zstd",
-            "target": "winpthreads"
-          },
-          {
-            "source": "zstd",
-            "target": "x264"
-          },
-          {
-            "source": "zstd",
-            "target": "xorg-libxdmcp"
-          },
-          {
-            "source": "zstd",
-            "target": "xorg-libxshmfence"
-          },
-          {
-            "source": "zstd",
-            "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "zstd",
-            "target": "xorg-xineramaproto"
-          },
-          {
-            "source": "zstd",
-            "target": "xorg-xproto"
           },
           {
             "source": "zstd",
@@ -22756,6 +22116,12 @@
             "id": "clang-compiler-activation",
             "payload": {
               "__lazy_json__": "node_attrs/clang-compiler-activation.json"
+            }
+          },
+          {
+            "id": "clangdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/clangdev.json"
             }
           },
           {
