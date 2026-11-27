@@ -2077,10 +2077,6 @@
             "target": "vllm"
           },
           {
-            "source": "hypothesis",
-            "target": "scipy"
-          },
-          {
             "source": "icu",
             "target": "boost"
           },
@@ -3705,6 +3701,14 @@
             "target": "conda-forge-ci-setup"
           },
           {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
             "source": "mimalloc",
             "target": "mold"
           },
@@ -4923,10 +4927,6 @@
           {
             "source": "python",
             "target": "httptools"
-          },
-          {
-            "source": "python",
-            "target": "hypothesis"
           },
           {
             "source": "python",
@@ -8366,12 +8366,6 @@
             }
           },
           {
-            "id": "hypothesis",
-            "payload": {
-              "__lazy_json__": "node_attrs/hypothesis.json"
-            }
-          },
-          {
             "id": "icu",
             "payload": {
               "__lazy_json__": "node_attrs/icu.json"
@@ -9083,6 +9077,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -10828,6 +10828,7 @@
         "lzo",
         "make",
         "mbedtls",
+        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
