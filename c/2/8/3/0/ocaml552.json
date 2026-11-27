@@ -52,20 +52,9 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "ocaml-stdio",
-            "target": "ocaml-ppx-optcomp"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "ocaml-stdio",
-            "payload": {
-              "__lazy_json__": "node_attrs/ocaml-stdio.json"
-            }
-          },
           {
             "id": "ocaml-ppx-optcomp",
             "payload": {
