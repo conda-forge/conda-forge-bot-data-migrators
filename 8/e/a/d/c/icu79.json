@@ -54,7 +54,50 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "clickhouse-odbc",
+            "payload": {
+              "__lazy_json__": "node_attrs/clickhouse-odbc.json"
+            }
+          },
+          {
+            "id": "dssp",
+            "payload": {
+              "__lazy_json__": "node_attrs/dssp.json"
+            }
+          },
+          {
+            "id": "exact-real",
+            "payload": {
+              "__lazy_json__": "node_attrs/exact-real.json"
+            }
+          },
+          {
+            "id": "libpdal",
+            "payload": {
+              "__lazy_json__": "node_attrs/libpdal.json"
+            }
+          },
+          {
+            "id": "odil",
+            "payload": {
+              "__lazy_json__": "node_attrs/odil.json"
+            }
+          },
+          {
+            "id": "php",
+            "payload": {
+              "__lazy_json__": "node_attrs/php.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
