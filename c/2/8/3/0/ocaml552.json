@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "ocaml-intrinsics-kernel",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-intrinsics-kernel.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -169,6 +176,10 @@
           },
           {
             "source": "ocaml-dune",
+            "target": "ocaml-intrinsics-kernel"
+          },
+          {
+            "source": "ocaml-dune",
             "target": "ocaml-lwt-split"
           },
           {
@@ -226,6 +237,10 @@
           {
             "source": "ocaml-gen",
             "target": "ocaml-sedlex"
+          },
+          {
+            "source": "ocaml-intrinsics-kernel",
+            "target": "conda-forge-pinning"
           },
           {
             "source": "ocaml-lwt-split",
@@ -448,6 +463,12 @@
             "id": "ocaml-dune-configurator",
             "payload": {
               "__lazy_json__": "node_attrs/ocaml-dune-configurator.json"
+            }
+          },
+          {
+            "id": "ocaml-intrinsics-kernel",
+            "payload": {
+              "__lazy_json__": "node_attrs/ocaml-intrinsics-kernel.json"
             }
           }
         ]
