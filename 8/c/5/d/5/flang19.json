@@ -925,6 +925,10 @@
             "target": "yaehmop"
           },
           {
+            "source": "blas",
+            "target": "yggdrasil"
+          },
+          {
             "source": "bmi-fortran",
             "target": "conda-forge-pinning"
           },
@@ -1479,6 +1483,10 @@
           {
             "source": "lapack",
             "target": "yaehmop"
+          },
+          {
+            "source": "lapack",
+            "target": "yggdrasil"
           },
           {
             "source": "leparagliding",
