@@ -52,16 +52,7 @@
             ]
           }
         },
-        "links": [
-          {
-            "source": "mlir",
-            "target": "flang"
-          },
-          {
-            "source": "mlir",
-            "target": "mlir-python-bindings"
-          }
-        ],
+        "links": [],
         "multigraph": false,
         "nodes": [
           {
@@ -74,12 +65,6 @@
             "id": "bfiocpp",
             "payload": {
               "__lazy_json__": "node_attrs/bfiocpp.json"
-            }
-          },
-          {
-            "id": "boost",
-            "payload": {
-              "__lazy_json__": "node_attrs/boost.json"
             }
           },
           {
@@ -230,12 +215,6 @@
             "id": "mariadb-connector-c",
             "payload": {
               "__lazy_json__": "node_attrs/mariadb-connector-c.json"
-            }
-          },
-          {
-            "id": "mlir",
-            "payload": {
-              "__lazy_json__": "node_attrs/mlir.json"
             }
           },
           {
