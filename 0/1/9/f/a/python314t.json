@@ -562,6 +562,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "hypothesis"
+          },
+          {
+            "source": "backports.zstd",
             "target": "jsonschema-rs"
           },
           {
@@ -1131,6 +1135,10 @@
           {
             "source": "brotli",
             "target": "hf-xet"
+          },
+          {
+            "source": "brotli",
+            "target": "hypothesis"
           },
           {
             "source": "brotli",
@@ -4269,6 +4277,90 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "hypothesis",
+            "target": "astropy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "astropy-healpix"
+          },
+          {
+            "source": "hypothesis",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "hypothesis",
+            "target": "cvxpy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "dulwich"
+          },
+          {
+            "source": "hypothesis",
+            "target": "gmpy2"
+          },
+          {
+            "source": "hypothesis",
+            "target": "jsonschema-rs"
+          },
+          {
+            "source": "hypothesis",
+            "target": "libcst"
+          },
+          {
+            "source": "hypothesis",
+            "target": "numpy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pyarrow"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pynacl"
+          },
+          {
+            "source": "hypothesis",
+            "target": "python-marisa-trie"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "hypothesis",
+            "target": "rasterio"
+          },
+          {
+            "source": "hypothesis",
+            "target": "regions"
+          },
+          {
+            "source": "hypothesis",
+            "target": "scipp"
+          },
+          {
+            "source": "hypothesis",
+            "target": "scipy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "time-machine"
+          },
+          {
+            "source": "hypothesis",
+            "target": "torchaudio"
+          },
+          {
+            "source": "hypothesis",
+            "target": "tornado"
+          },
+          {
+            "source": "hypothesis",
+            "target": "yarl"
+          },
+          {
             "source": "ibm_db",
             "target": "conda-forge-pinning"
           },
@@ -5299,6 +5391,10 @@
           {
             "source": "maturin",
             "target": "hf-xet"
+          },
+          {
+            "source": "maturin",
+            "target": "hypothesis"
           },
           {
             "source": "maturin",
@@ -8362,6 +8458,10 @@
           },
           {
             "source": "psutil",
+            "target": "hypothesis"
+          },
+          {
+            "source": "psutil",
             "target": "jsonschema-rs"
           },
           {
@@ -9923,6 +10023,10 @@
           {
             "source": "pyyaml",
             "target": "hf-xet"
+          },
+          {
+            "source": "pyyaml",
+            "target": "hypothesis"
           },
           {
             "source": "pyyaml",
@@ -12079,6 +12183,10 @@
           {
             "source": "tbb",
             "target": "hybgensea"
+          },
+          {
+            "source": "tbb",
+            "target": "hypothesis"
           },
           {
             "source": "tbb",
@@ -14378,6 +14486,10 @@
           },
           {
             "source": "ujson",
+            "target": "hypothesis"
+          },
+          {
+            "source": "ujson",
             "target": "jsonschema-rs"
           },
           {
@@ -14711,6 +14823,10 @@
           {
             "source": "wcwidth",
             "target": "hf-xet"
+          },
+          {
+            "source": "wcwidth",
+            "target": "hypothesis"
           },
           {
             "source": "wcwidth",
@@ -16397,6 +16513,12 @@
             "id": "hybgensea",
             "payload": {
               "__lazy_json__": "node_attrs/hybgensea.json"
+            }
+          },
+          {
+            "id": "hypothesis",
+            "payload": {
+              "__lazy_json__": "node_attrs/hypothesis.json"
             }
           },
           {
