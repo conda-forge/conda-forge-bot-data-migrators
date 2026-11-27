@@ -45,20 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "cusparselt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cusparselt.json"
-            }
-          },
-          {
-            "id": "libcufile",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcufile.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -1269,10 +1256,6 @@
           {
             "source": "curl",
             "target": "r-base"
-          },
-          {
-            "source": "cusparselt",
-            "target": "pytorch-cpu"
           },
           {
             "source": "cyrus-sasl",
@@ -3865,14 +3848,6 @@
           {
             "source": "menuinst",
             "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
           },
           {
             "source": "mimalloc",
@@ -8278,12 +8253,6 @@
             }
           },
           {
-            "id": "cusparselt",
-            "payload": {
-              "__lazy_json__": "node_attrs/cusparselt.json"
-            }
-          },
-          {
             "id": "cyrus-sasl",
             "payload": {
               "__lazy_json__": "node_attrs/cyrus-sasl.json"
@@ -9343,12 +9312,6 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -11026,7 +10989,6 @@
         "cuda-nvml-dev",
         "cuda-nvrtc",
         "cuda-nvtx",
-        "cusparselt",
         "dav1d",
         "double-conversion",
         "eigen",
@@ -11095,7 +11057,6 @@
         "lzo",
         "make",
         "mbedtls",
-        "metis",
         "mimalloc",
         "minio-server",
         "mpdecimal",
