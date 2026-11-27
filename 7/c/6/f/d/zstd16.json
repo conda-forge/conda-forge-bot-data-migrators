@@ -55,10 +55,6 @@
         "links": [
           {
             "source": "clangdev",
-            "target": "apiary"
-          },
-          {
-            "source": "clangdev",
             "target": "bun"
           },
           {
@@ -72,10 +68,6 @@
           {
             "source": "clangdev",
             "target": "flang-rt"
-          },
-          {
-            "source": "clangdev",
-            "target": "hdf5plugin"
           },
           {
             "source": "clangdev",
@@ -123,6 +115,10 @@
           },
           {
             "source": "clangdev",
+            "target": "ovito"
+          },
+          {
+            "source": "clangdev",
             "target": "pyqir"
           },
           {
@@ -136,12 +132,6 @@
         ],
         "multigraph": false,
         "nodes": [
-          {
-            "id": "apiary",
-            "payload": {
-              "__lazy_json__": "node_attrs/apiary.json"
-            }
-          },
           {
             "id": "bun",
             "payload": {
@@ -170,12 +160,6 @@
             "id": "flang-rt",
             "payload": {
               "__lazy_json__": "node_attrs/flang-rt.json"
-            }
-          },
-          {
-            "id": "hdf5plugin",
-            "payload": {
-              "__lazy_json__": "node_attrs/hdf5plugin.json"
             }
           },
           {
@@ -230,6 +214,12 @@
             "id": "openvdb",
             "payload": {
               "__lazy_json__": "node_attrs/openvdb.json"
+            }
+          },
+          {
+            "id": "ovito",
+            "payload": {
+              "__lazy_json__": "node_attrs/ovito.json"
             }
           },
           {
