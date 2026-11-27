@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -1330,10 +1323,6 @@
           },
           {
             "source": "binutils",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "binutils",
             "target": "arrow-cpp"
           },
           {
@@ -1355,10 +1344,6 @@
           {
             "source": "binutils",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "binutils",
-            "target": "cuda-nvcc"
           },
           {
             "source": "binutils",
@@ -1515,6 +1500,10 @@
           {
             "source": "binutils",
             "target": "ucx-split"
+          },
+          {
+            "source": "binutils",
+            "target": "vc"
           },
           {
             "source": "binutils",
@@ -2786,10 +2775,6 @@
           },
           {
             "source": "cmake",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "cmake",
             "target": "abseil-cpp"
           },
           {
@@ -3414,10 +3399,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "micromamba"
           },
           {
@@ -3803,6 +3784,10 @@
           {
             "source": "cmake",
             "target": "uv"
+          },
+          {
+            "source": "cmake",
+            "target": "vc"
           },
           {
             "source": "cmake",
@@ -4374,10 +4359,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "aiohttp"
           },
           {
@@ -4435,10 +4416,6 @@
           {
             "source": "ctng-compilers",
             "target": "coverage"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "cuda-nvcc"
           },
           {
             "source": "ctng-compilers",
@@ -4703,6 +4680,10 @@
           {
             "source": "ctng-compilers",
             "target": "ucx-split"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "vc"
           },
           {
             "source": "ctng-compilers",
@@ -9470,10 +9451,6 @@
           },
           {
             "source": "libxml2",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "libxml2",
             "target": "arrow-cpp"
           },
           {
@@ -9503,10 +9480,6 @@
           {
             "source": "libxml2",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "libxml2",
-            "target": "cuda-nvcc"
           },
           {
             "source": "libxml2",
@@ -9718,6 +9691,10 @@
           },
           {
             "source": "libxml2",
+            "target": "vc"
+          },
+          {
+            "source": "libxml2",
             "target": "winpthreads"
           },
           {
@@ -9838,10 +9815,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "llvmdev",
             "target": "arrow-cpp"
           },
           {
@@ -9871,10 +9844,6 @@
           {
             "source": "llvmdev",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "llvmdev",
-            "target": "cuda-nvcc"
           },
           {
             "source": "llvmdev",
@@ -10039,6 +10008,10 @@
           {
             "source": "llvmdev",
             "target": "ucx-split"
+          },
+          {
+            "source": "llvmdev",
+            "target": "vc"
           },
           {
             "source": "llvmdev",
@@ -10214,10 +10187,6 @@
           },
           {
             "source": "make",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "make",
             "target": "alsa-lib"
           },
           {
@@ -10307,10 +10276,6 @@
           {
             "source": "make",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "make",
-            "target": "cuda-nvcc"
           },
           {
             "source": "make",
@@ -10654,10 +10619,6 @@
           },
           {
             "source": "make",
-            "target": "metis"
-          },
-          {
-            "source": "make",
             "target": "mpc"
           },
           {
@@ -10755,6 +10716,10 @@
           {
             "source": "make",
             "target": "p11-kit"
+          },
+          {
+            "source": "make",
+            "target": "p7zip"
           },
           {
             "source": "make",
@@ -11095,6 +11060,10 @@
           {
             "source": "make",
             "target": "valgrind"
+          },
+          {
+            "source": "make",
+            "target": "vc"
           },
           {
             "source": "make",
@@ -11455,10 +11424,6 @@
           {
             "source": "menuinst",
             "target": "conda-standalone"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
           },
           {
             "source": "micromamba",
@@ -11947,10 +11912,6 @@
           {
             "source": "nghttp2",
             "target": "nodejs"
-          },
-          {
-            "source": "ninja",
-            "target": "_openmp_mutex"
           },
           {
             "source": "ninja",
@@ -12890,6 +12851,10 @@
           },
           {
             "source": "ninja",
+            "target": "vc"
+          },
+          {
+            "source": "ninja",
             "target": "vulkan-headers"
           },
           {
@@ -13418,10 +13383,6 @@
           },
           {
             "source": "openmp",
-            "target": "cuda-nvcc"
-          },
-          {
-            "source": "openmp",
             "target": "dav1d"
           },
           {
@@ -13611,6 +13572,10 @@
           {
             "source": "openmp",
             "target": "ucx-split"
+          },
+          {
+            "source": "openmp",
+            "target": "vc"
           },
           {
             "source": "openmp",
@@ -13911,6 +13876,10 @@
           {
             "source": "p11-kit",
             "target": "systemd"
+          },
+          {
+            "source": "p7zip",
+            "target": "vc"
           },
           {
             "source": "pandas",
@@ -15782,10 +15751,6 @@
           },
           {
             "source": "python",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "python",
             "target": "aiohttp"
           },
           {
@@ -15919,10 +15884,6 @@
           {
             "source": "python",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "python",
-            "target": "cuda-nvcc"
           },
           {
             "source": "python",
@@ -16671,6 +16632,10 @@
           {
             "source": "python",
             "target": "uvloop"
+          },
+          {
+            "source": "python",
+            "target": "vc"
           },
           {
             "source": "python",
@@ -19222,10 +19187,6 @@
           },
           {
             "source": "ucrt",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "ucrt",
             "target": "binutils"
           },
           {
@@ -19243,10 +19204,6 @@
           {
             "source": "ucrt",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "ucrt",
-            "target": "cuda-nvcc"
           },
           {
             "source": "ucrt",
@@ -19279,10 +19236,6 @@
           {
             "source": "ucrt",
             "target": "pocl"
-          },
-          {
-            "source": "ucrt",
-            "target": "postgresql"
           },
           {
             "source": "ucrt",
@@ -19599,6 +19552,22 @@
           {
             "source": "valgrind",
             "target": "pytest-codspeed"
+          },
+          {
+            "source": "vc",
+            "target": "_openmp_mutex"
+          },
+          {
+            "source": "vc",
+            "target": "cuda-nvcc"
+          },
+          {
+            "source": "vc",
+            "target": "intel-compiler-repack"
+          },
+          {
+            "source": "vc",
+            "target": "postgresql"
           },
           {
             "source": "vulkan-headers",
@@ -21310,10 +21279,6 @@
           },
           {
             "source": "zlib",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "zlib",
             "target": "arrow-cpp"
           },
           {
@@ -21391,10 +21356,6 @@
           {
             "source": "zlib",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "zlib",
-            "target": "cuda-nvcc"
           },
           {
             "source": "zlib",
@@ -21882,6 +21843,10 @@
           },
           {
             "source": "zlib",
+            "target": "vc"
+          },
+          {
+            "source": "zlib",
             "target": "wget"
           },
           {
@@ -21998,10 +21963,6 @@
           },
           {
             "source": "zstd",
-            "target": "_openmp_mutex"
-          },
-          {
-            "source": "zstd",
             "target": "arrow-cpp"
           },
           {
@@ -22055,10 +22016,6 @@
           {
             "source": "zstd",
             "target": "ctng-compilers"
-          },
-          {
-            "source": "zstd",
-            "target": "cuda-nvcc"
           },
           {
             "source": "zstd",
@@ -22299,6 +22256,10 @@
           {
             "source": "zstd",
             "target": "uv"
+          },
+          {
+            "source": "zstd",
+            "target": "vc"
           },
           {
             "source": "zstd",
@@ -24418,12 +24379,6 @@
             }
           },
           {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
-            }
-          },
-          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -24805,6 +24760,12 @@
             "id": "p11-kit",
             "payload": {
               "__lazy_json__": "node_attrs/p11-kit.json"
+            }
+          },
+          {
+            "id": "p7zip",
+            "payload": {
+              "__lazy_json__": "node_attrs/p7zip.json"
             }
           },
           {
@@ -25891,6 +25852,12 @@
             "id": "valgrind",
             "payload": {
               "__lazy_json__": "node_attrs/valgrind.json"
+            }
+          },
+          {
+            "id": "vc",
+            "payload": {
+              "__lazy_json__": "node_attrs/vc.json"
             }
           },
           {
