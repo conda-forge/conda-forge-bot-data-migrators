@@ -171,10 +171,6 @@
           },
           {
             "source": "clangdev",
-            "target": "postgresql"
-          },
-          {
-            "source": "clangdev",
             "target": "pyqir"
           },
           {
@@ -374,12 +370,6 @@
             "id": "openvdb",
             "payload": {
               "__lazy_json__": "node_attrs/openvdb.json"
-            }
-          },
-          {
-            "id": "postgresql",
-            "payload": {
-              "__lazy_json__": "node_attrs/postgresql.json"
             }
           },
           {
