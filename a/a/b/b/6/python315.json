@@ -721,6 +721,10 @@
           },
           {
             "source": "aiohttp",
+            "target": "rubinenv"
+          },
+          {
+            "source": "aiohttp",
             "target": "sage"
           },
           {
@@ -770,10 +774,6 @@
           {
             "source": "aiohttp",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "aiohttp",
-            "target": "stackvana-core"
           },
           {
             "source": "aiohttp",
@@ -1401,6 +1401,10 @@
           },
           {
             "source": "argon2-cffi-bindings",
+            "target": "rubinenv"
+          },
+          {
+            "source": "argon2-cffi-bindings",
             "target": "sage"
           },
           {
@@ -1422,10 +1426,6 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "stackvana-core"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -1617,7 +1617,7 @@
           },
           {
             "source": "assist",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "ast-grep-py",
@@ -1837,6 +1837,10 @@
           },
           {
             "source": "astroid",
+            "target": "rubinenv"
+          },
+          {
+            "source": "astroid",
             "target": "sage"
           },
           {
@@ -1862,10 +1866,6 @@
           {
             "source": "astroid",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "astroid",
-            "target": "stackvana-core"
           },
           {
             "source": "astroid",
@@ -2273,6 +2273,10 @@
           },
           {
             "source": "astropy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "astropy",
             "target": "seismon"
           },
           {
@@ -2294,10 +2298,6 @@
           {
             "source": "astropy",
             "target": "spt3g"
-          },
-          {
-            "source": "astropy",
-            "target": "stackvana-core"
           },
           {
             "source": "astropy",
@@ -2609,7 +2609,7 @@
           },
           {
             "source": "awkward-cpp",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "aws-shell",
@@ -4229,6 +4229,10 @@
           },
           {
             "source": "backports.zstd",
+            "target": "rubinenv"
+          },
+          {
+            "source": "backports.zstd",
             "target": "rudof"
           },
           {
@@ -4374,10 +4378,6 @@
           {
             "source": "backports.zstd",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "stackvana-core"
           },
           {
             "source": "backports.zstd",
@@ -4713,7 +4713,7 @@
           },
           {
             "source": "batoid",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "bayesbay",
@@ -5073,6 +5073,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "rubinenv"
+          },
+          {
+            "source": "bcrypt",
             "target": "sagemaker_containers"
           },
           {
@@ -5110,10 +5114,6 @@
           {
             "source": "bcrypt",
             "target": "spyder"
-          },
-          {
-            "source": "bcrypt",
-            "target": "stackvana-core"
           },
           {
             "source": "bcrypt",
@@ -6297,6 +6297,10 @@
           },
           {
             "source": "boost",
+            "target": "rubinenv"
+          },
+          {
+            "source": "boost",
             "target": "sage"
           },
           {
@@ -6350,10 +6354,6 @@
           {
             "source": "boost",
             "target": "spam"
-          },
-          {
-            "source": "boost",
-            "target": "stackvana-core"
           },
           {
             "source": "boost",
@@ -6517,7 +6517,7 @@
           },
           {
             "source": "bottleneck",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "bottleneck",
@@ -8117,6 +8117,10 @@
           },
           {
             "source": "brotli",
+            "target": "rubinenv"
+          },
+          {
+            "source": "brotli",
             "target": "rudof"
           },
           {
@@ -8262,10 +8266,6 @@
           {
             "source": "brotli",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "brotli",
-            "target": "stackvana-core"
           },
           {
             "source": "brotli",
@@ -8677,7 +8677,7 @@
           },
           {
             "source": "cachebox",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "cached_interpolate",
@@ -8877,11 +8877,11 @@
           },
           {
             "source": "cartopy",
-            "target": "seapy"
+            "target": "rubinenv"
           },
           {
             "source": "cartopy",
-            "target": "stackvana-core"
+            "target": "seapy"
           },
           {
             "source": "casa_formats_io",
@@ -8949,7 +8949,7 @@
           },
           {
             "source": "cassandra-driver",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "cassandra",
@@ -10093,6 +10093,10 @@
           },
           {
             "source": "cffi",
+            "target": "rubinenv"
+          },
+          {
+            "source": "cffi",
             "target": "rvlib"
           },
           {
@@ -10174,10 +10178,6 @@
           {
             "source": "cffi",
             "target": "sregistry"
-          },
-          {
-            "source": "cffi",
-            "target": "stackvana-core"
           },
           {
             "source": "cffi",
@@ -10657,7 +10657,7 @@
           },
           {
             "source": "ciso8601",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "ciso",
@@ -11329,15 +11329,15 @@
           },
           {
             "source": "contourpy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "contourpy",
             "target": "scikit-allel"
           },
           {
             "source": "contourpy",
             "target": "sktime"
-          },
-          {
-            "source": "contourpy",
-            "target": "stackvana-core"
           },
           {
             "source": "contourpy",
@@ -11757,6 +11757,10 @@
           },
           {
             "source": "coverage",
+            "target": "rubinenv"
+          },
+          {
+            "source": "coverage",
             "target": "scikit-network"
           },
           {
@@ -11770,10 +11774,6 @@
           {
             "source": "coverage",
             "target": "snaphu"
-          },
-          {
-            "source": "coverage",
-            "target": "stackvana-core"
           },
           {
             "source": "coverage",
@@ -11929,7 +11929,7 @@
           },
           {
             "source": "cramjam",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "crc32c",
@@ -15945,15 +15945,15 @@
           },
           {
             "source": "cytoolz",
+            "target": "rubinenv"
+          },
+          {
+            "source": "cytoolz",
             "target": "scikit-allel"
           },
           {
             "source": "cytoolz",
             "target": "sktime"
-          },
-          {
-            "source": "cytoolz",
-            "target": "stackvana-core"
           },
           {
             "source": "cytoolz",
@@ -16045,7 +16045,7 @@
           },
           {
             "source": "danish",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "daqp",
@@ -16501,6 +16501,10 @@
           },
           {
             "source": "debugpy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "debugpy",
             "target": "sage"
           },
           {
@@ -16538,10 +16542,6 @@
           {
             "source": "debugpy",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "debugpy",
-            "target": "stackvana-core"
           },
           {
             "source": "debugpy",
@@ -17205,7 +17205,7 @@
           },
           {
             "source": "dustmaps",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "dwave-greedy",
@@ -17661,7 +17661,7 @@
           },
           {
             "source": "esutil",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "esys-escript",
@@ -17721,7 +17721,7 @@
           },
           {
             "source": "eups",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "evalhyd-python",
@@ -18161,7 +18161,7 @@
           },
           {
             "source": "fastavro",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "fastavro",
@@ -18281,11 +18281,11 @@
           },
           {
             "source": "fastparquet",
-            "target": "sharplib"
+            "target": "rubinenv"
           },
           {
             "source": "fastparquet",
-            "target": "stackvana-core"
+            "target": "sharplib"
           },
           {
             "source": "fastparquet",
@@ -18525,7 +18525,7 @@
           },
           {
             "source": "fitsio",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "fitsio",
@@ -18869,7 +18869,7 @@
           },
           {
             "source": "galsim",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "gammapy",
@@ -20089,10 +20089,6 @@
           },
           {
             "source": "google-crc32c",
-            "target": "stackvana-core"
-          },
-          {
-            "source": "google-crc32c",
             "target": "tango"
           },
           {
@@ -20481,6 +20477,10 @@
           },
           {
             "source": "greenlet",
+            "target": "rubinenv"
+          },
+          {
+            "source": "greenlet",
             "target": "sage"
           },
           {
@@ -20510,10 +20510,6 @@
           {
             "source": "greenlet",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "greenlet",
-            "target": "stackvana-core"
           },
           {
             "source": "greenlet",
@@ -20777,6 +20773,10 @@
           },
           {
             "source": "grpc-cpp",
+            "target": "rubinenv"
+          },
+          {
+            "source": "grpc-cpp",
             "target": "sealsmodel"
           },
           {
@@ -20798,10 +20798,6 @@
           {
             "source": "grpc-cpp",
             "target": "sregistry"
-          },
-          {
-            "source": "grpc-cpp",
-            "target": "stackvana-core"
           },
           {
             "source": "grpc-cpp",
@@ -21785,6 +21781,10 @@
           },
           {
             "source": "h5py",
+            "target": "rubinenv"
+          },
+          {
+            "source": "h5py",
             "target": "sasview"
           },
           {
@@ -21866,10 +21866,6 @@
           {
             "source": "h5py",
             "target": "srwpy"
-          },
-          {
-            "source": "h5py",
-            "target": "stackvana-core"
           },
           {
             "source": "h5py",
@@ -22101,11 +22097,11 @@
           },
           {
             "source": "hdf5plugin",
-            "target": "silx"
+            "target": "rubinenv"
           },
           {
             "source": "hdf5plugin",
-            "target": "stackvana-core"
+            "target": "silx"
           },
           {
             "source": "hdf5plugin",
@@ -22209,11 +22205,11 @@
           },
           {
             "source": "healpy",
-            "target": "spt3g"
+            "target": "rubinenv"
           },
           {
             "source": "healpy",
-            "target": "stackvana-core"
+            "target": "spt3g"
           },
           {
             "source": "healpy",
@@ -22425,11 +22421,11 @@
           },
           {
             "source": "hpgeom",
-            "target": "skyproj"
+            "target": "rubinenv"
           },
           {
             "source": "hpgeom",
-            "target": "stackvana-core"
+            "target": "skyproj"
           },
           {
             "source": "hpp-corbaserver",
@@ -22533,7 +22529,7 @@
           },
           {
             "source": "htcondor",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "html5-parser",
@@ -23021,7 +23017,7 @@
           },
           {
             "source": "iminuit",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "iminuit",
@@ -23329,15 +23325,15 @@
           },
           {
             "source": "jaxlib",
+            "target": "rubinenv"
+          },
+          {
+            "source": "jaxlib",
             "target": "simsopt"
           },
           {
             "source": "jaxlib",
             "target": "skscope"
-          },
-          {
-            "source": "jaxlib",
-            "target": "stackvana-core"
           },
           {
             "source": "jaxlib",
@@ -24509,6 +24505,10 @@
           },
           {
             "source": "lazy-object-proxy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "lazy-object-proxy",
             "target": "sage"
           },
           {
@@ -24526,10 +24526,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "stackvana-core"
           },
           {
             "source": "lazy-object-proxy",
@@ -25113,7 +25109,7 @@
           },
           {
             "source": "line_profiler",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "linearmodels",
@@ -25221,11 +25217,11 @@
           },
           {
             "source": "llvmlite",
-            "target": "shap"
+            "target": "rubinenv"
           },
           {
             "source": "llvmlite",
-            "target": "stackvana-core"
+            "target": "shap"
           },
           {
             "source": "llvmlite",
@@ -25345,7 +25341,7 @@
           },
           {
             "source": "lsstdesc.coord",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "lsstdesc.coord",
@@ -25673,6 +25669,10 @@
           },
           {
             "source": "lxml",
+            "target": "rubinenv"
+          },
+          {
+            "source": "lxml",
             "target": "sasview"
           },
           {
@@ -25694,10 +25694,6 @@
           {
             "source": "lxml",
             "target": "social-analyzer"
-          },
-          {
-            "source": "lxml",
-            "target": "stackvana-core"
           },
           {
             "source": "lxml",
@@ -25941,6 +25937,10 @@
           },
           {
             "source": "lz4",
+            "target": "rubinenv"
+          },
+          {
+            "source": "lz4",
             "target": "scikit-allel"
           },
           {
@@ -25950,10 +25950,6 @@
           {
             "source": "lz4",
             "target": "spacy"
-          },
-          {
-            "source": "lz4",
-            "target": "stackvana-core"
           },
           {
             "source": "lz4",
@@ -27233,6 +27229,10 @@
           },
           {
             "source": "markupsafe",
+            "target": "rubinenv"
+          },
+          {
+            "source": "markupsafe",
             "target": "sage"
           },
           {
@@ -27354,10 +27354,6 @@
           {
             "source": "markupsafe",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "markupsafe",
-            "target": "stackvana-core"
           },
           {
             "source": "markupsafe",
@@ -29261,6 +29257,10 @@
           },
           {
             "source": "matplotlib",
+            "target": "rubinenv"
+          },
+          {
+            "source": "matplotlib",
             "target": "ruptura"
           },
           {
@@ -29434,10 +29434,6 @@
           {
             "source": "matplotlib",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "matplotlib",
-            "target": "stackvana-core"
           },
           {
             "source": "matplotlib",
@@ -30205,15 +30201,15 @@
           },
           {
             "source": "ml_dtypes",
+            "target": "rubinenv"
+          },
+          {
+            "source": "ml_dtypes",
             "target": "simsopt"
           },
           {
             "source": "ml_dtypes",
             "target": "skscope"
-          },
-          {
-            "source": "ml_dtypes",
-            "target": "stackvana-core"
           },
           {
             "source": "ml_dtypes",
@@ -30613,6 +30609,10 @@
           },
           {
             "source": "mpi4py",
+            "target": "rubinenv"
+          },
+          {
+            "source": "mpi4py",
             "target": "schwimmbad"
           },
           {
@@ -30622,10 +30622,6 @@
           {
             "source": "mpi4py",
             "target": "shenfun"
-          },
-          {
-            "source": "mpi4py",
-            "target": "stackvana-core"
           },
           {
             "source": "mpi4py",
@@ -31177,6 +31173,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "rubinenv"
+          },
+          {
+            "source": "msgpack-python",
             "target": "saga-python"
           },
           {
@@ -31234,10 +31234,6 @@
           {
             "source": "msgpack-python",
             "target": "sregistry"
-          },
-          {
-            "source": "msgpack-python",
-            "target": "stackvana-core"
           },
           {
             "source": "msgpack-python",
@@ -31645,11 +31641,11 @@
           },
           {
             "source": "multidict",
-            "target": "sanic"
+            "target": "rubinenv"
           },
           {
             "source": "multidict",
-            "target": "stackvana-core"
+            "target": "sanic"
           },
           {
             "source": "multidict",
@@ -32105,6 +32101,10 @@
           },
           {
             "source": "mypy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "mypy",
             "target": "sage"
           },
           {
@@ -32126,10 +32126,6 @@
           {
             "source": "mypy",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "mypy",
-            "target": "stackvana-core"
           },
           {
             "source": "mypy",
@@ -32233,11 +32229,11 @@
           },
           {
             "source": "mysqlclient",
-            "target": "sqlalchemy"
+            "target": "rubinenv"
           },
           {
             "source": "mysqlclient",
-            "target": "stackvana-core"
+            "target": "sqlalchemy"
           },
           {
             "source": "mysqlx-connector-python",
@@ -32385,7 +32381,7 @@
           },
           {
             "source": "ndcctools",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "ndcurves",
@@ -32785,6 +32781,10 @@
           },
           {
             "source": "netcdf4",
+            "target": "rubinenv"
+          },
+          {
+            "source": "netcdf4",
             "target": "sealsmodel"
           },
           {
@@ -32806,10 +32806,6 @@
           {
             "source": "netcdf4",
             "target": "spam"
-          },
-          {
-            "source": "netcdf4",
-            "target": "stackvana-core"
           },
           {
             "source": "netcdf4",
@@ -32865,11 +32861,11 @@
           },
           {
             "source": "netifaces",
-            "target": "saga-python"
+            "target": "rubinenv"
           },
           {
             "source": "netifaces",
-            "target": "stackvana-core"
+            "target": "saga-python"
           },
           {
             "source": "netifaces",
@@ -32925,7 +32921,7 @@
           },
           {
             "source": "ngmix",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "nifty",
@@ -33473,6 +33469,10 @@
           },
           {
             "source": "numba",
+            "target": "rubinenv"
+          },
+          {
+            "source": "numba",
             "target": "rvlib"
           },
           {
@@ -33510,10 +33510,6 @@
           {
             "source": "numba",
             "target": "spleeter"
-          },
-          {
-            "source": "numba",
-            "target": "stackvana-core"
           },
           {
             "source": "numba",
@@ -33921,6 +33917,10 @@
           },
           {
             "source": "numexpr",
+            "target": "rubinenv"
+          },
+          {
+            "source": "numexpr",
             "target": "scikit-allel"
           },
           {
@@ -33930,10 +33930,6 @@
           {
             "source": "numexpr",
             "target": "sleepecg"
-          },
-          {
-            "source": "numexpr",
-            "target": "stackvana-core"
           },
           {
             "source": "numexpr",
@@ -39717,6 +39713,10 @@
           },
           {
             "source": "numpy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "numpy",
             "target": "runai-model-streamer"
           },
           {
@@ -40262,10 +40262,6 @@
           {
             "source": "numpy",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "numpy",
-            "target": "stackvana-core"
           },
           {
             "source": "numpy",
@@ -41517,7 +41513,7 @@
           },
           {
             "source": "opencv",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "opencv",
@@ -43733,6 +43729,10 @@
           },
           {
             "source": "pandas",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pandas",
             "target": "sampledb"
           },
           {
@@ -43854,10 +43854,6 @@
           {
             "source": "pandas",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "pandas",
-            "target": "stackvana-core"
           },
           {
             "source": "pandas",
@@ -44513,7 +44509,7 @@
           },
           {
             "source": "photutils",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "photutils",
@@ -44569,7 +44565,7 @@
           },
           {
             "source": "piff",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pikepdf",
@@ -45433,6 +45429,10 @@
           },
           {
             "source": "pillow",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pillow",
             "target": "sage"
           },
           {
@@ -45514,10 +45514,6 @@
           {
             "source": "pillow",
             "target": "srwpy"
-          },
-          {
-            "source": "pillow",
-            "target": "stackvana-core"
           },
           {
             "source": "pillow",
@@ -46069,7 +46065,7 @@
           },
           {
             "source": "postgresql",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pot",
@@ -46569,6 +46565,10 @@
           },
           {
             "source": "protobuf",
+            "target": "rubinenv"
+          },
+          {
+            "source": "protobuf",
             "target": "sealsmodel"
           },
           {
@@ -46606,10 +46606,6 @@
           {
             "source": "protobuf",
             "target": "sregistry"
-          },
-          {
-            "source": "protobuf",
-            "target": "stackvana-core"
           },
           {
             "source": "protobuf",
@@ -48125,6 +48121,10 @@
           },
           {
             "source": "psutil",
+            "target": "rubinenv"
+          },
+          {
+            "source": "psutil",
             "target": "rudof"
           },
           {
@@ -48242,10 +48242,6 @@
           {
             "source": "psutil",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "psutil",
-            "target": "stackvana-core"
           },
           {
             "source": "psutil",
@@ -48573,15 +48569,15 @@
           },
           {
             "source": "psycopg2",
+            "target": "rubinenv"
+          },
+          {
+            "source": "psycopg2",
             "target": "seismon"
           },
           {
             "source": "psycopg2",
             "target": "sqlalchemy"
-          },
-          {
-            "source": "psycopg2",
-            "target": "stackvana-core"
           },
           {
             "source": "psycopg2",
@@ -49221,6 +49217,10 @@
           },
           {
             "source": "pyarrow",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pyarrow",
             "target": "scikit-allel"
           },
           {
@@ -49230,10 +49230,6 @@
           {
             "source": "pyarrow",
             "target": "sleepecg"
-          },
-          {
-            "source": "pyarrow",
-            "target": "stackvana-core"
           },
           {
             "source": "pyarrow",
@@ -49510,10 +49506,6 @@
           {
             "source": "pycares",
             "target": "slixmpp"
-          },
-          {
-            "source": "pycares",
-            "target": "stackvana-core"
           },
           {
             "source": "pycatch22",
@@ -50465,6 +50457,10 @@
           },
           {
             "source": "pydantic-core",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pydantic-core",
             "target": "sage"
           },
           {
@@ -50514,10 +50510,6 @@
           {
             "source": "pydantic-core",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "stackvana-core"
           },
           {
             "source": "pydantic-core",
@@ -51385,7 +51377,7 @@
           },
           {
             "source": "pykrb5",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pykrige",
@@ -52309,6 +52301,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "sage"
           },
           {
@@ -52330,10 +52326,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "stackvana-core"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -52657,11 +52649,11 @@
           },
           {
             "source": "pyogrio",
-            "target": "sealsmodel"
+            "target": "rubinenv"
           },
           {
             "source": "pyogrio",
-            "target": "stackvana-core"
+            "target": "sealsmodel"
           },
           {
             "source": "pyogrio",
@@ -53037,15 +53029,15 @@
           },
           {
             "source": "pyproj",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pyproj",
             "target": "sealsmodel"
           },
           {
             "source": "pyproj",
             "target": "sensormapgeo"
-          },
-          {
-            "source": "pyproj",
-            "target": "stackvana-core"
           },
           {
             "source": "pyproj",
@@ -53333,7 +53325,7 @@
           },
           {
             "source": "pyreadline3",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pyreadline3",
@@ -53773,7 +53765,7 @@
           },
           {
             "source": "pyspnego",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pystack",
@@ -53933,11 +53925,11 @@
           },
           {
             "source": "pytables",
-            "target": "sfepy"
+            "target": "rubinenv"
           },
           {
             "source": "pytables",
-            "target": "stackvana-core"
+            "target": "sfepy"
           },
           {
             "source": "pytables",
@@ -53973,7 +53965,7 @@
           },
           {
             "source": "pytdigest",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "pytensor-suite",
@@ -54149,7 +54141,7 @@
           },
           {
             "source": "python-confluent-kafka",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "python-constraint2",
@@ -54253,7 +54245,7 @@
           },
           {
             "source": "python-gfal2",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "python-gssapi",
@@ -54341,15 +54333,15 @@
           },
           {
             "source": "python-gssapi",
+            "target": "rubinenv"
+          },
+          {
+            "source": "python-gssapi",
             "target": "seismon"
           },
           {
             "source": "python-gssapi",
             "target": "spyder"
-          },
-          {
-            "source": "python-gssapi",
-            "target": "stackvana-core"
           },
           {
             "source": "python-gssapi",
@@ -54981,6 +54973,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "rubinenv"
+          },
+          {
+            "source": "python-xxhash",
             "target": "scipy"
           },
           {
@@ -55002,10 +54998,6 @@
           {
             "source": "python-xxhash",
             "target": "spleeter"
-          },
-          {
-            "source": "python-xxhash",
-            "target": "stackvana-core"
           },
           {
             "source": "python-xxhash",
@@ -55361,6 +55353,10 @@
           },
           {
             "source": "pytokens",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pytokens",
             "target": "sage"
           },
           {
@@ -55386,10 +55382,6 @@
           {
             "source": "pytokens",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "pytokens",
-            "target": "stackvana-core"
           },
           {
             "source": "pytokens",
@@ -55805,6 +55797,10 @@
           },
           {
             "source": "pytorch-cpu",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pytorch-cpu",
             "target": "runai-model-streamer"
           },
           {
@@ -55838,10 +55834,6 @@
           {
             "source": "pytorch-cpu",
             "target": "spotiflow"
-          },
-          {
-            "source": "pytorch-cpu",
-            "target": "stackvana-core"
           },
           {
             "source": "pytorch-cpu",
@@ -56269,6 +56261,10 @@
           },
           {
             "source": "pywin32-ctypes",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pywin32-ctypes",
             "target": "screeninfo"
           },
           {
@@ -56278,10 +56274,6 @@
           {
             "source": "pywin32-ctypes",
             "target": "spyder"
-          },
-          {
-            "source": "pywin32-ctypes",
-            "target": "stackvana-core"
           },
           {
             "source": "pywin32-ctypes",
@@ -56793,6 +56785,10 @@
           },
           {
             "source": "pywin32",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pywin32",
             "target": "sage"
           },
           {
@@ -56834,10 +56830,6 @@
           {
             "source": "pywin32",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "pywin32",
-            "target": "stackvana-core"
           },
           {
             "source": "pywin32",
@@ -57173,6 +57165,10 @@
           },
           {
             "source": "pywinpty",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pywinpty",
             "target": "sage"
           },
           {
@@ -57190,10 +57186,6 @@
           {
             "source": "pywinpty",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "pywinpty",
-            "target": "stackvana-core"
           },
           {
             "source": "pywinpty",
@@ -58697,6 +58689,10 @@
           },
           {
             "source": "pyyaml",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pyyaml",
             "target": "rudof"
           },
           {
@@ -58834,10 +58830,6 @@
           {
             "source": "pyyaml",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "pyyaml",
-            "target": "stackvana-core"
           },
           {
             "source": "pyyaml",
@@ -59457,6 +59449,10 @@
           },
           {
             "source": "pyzmq",
+            "target": "rubinenv"
+          },
+          {
+            "source": "pyzmq",
             "target": "saga-python"
           },
           {
@@ -59502,10 +59498,6 @@
           {
             "source": "pyzmq",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "pyzmq",
-            "target": "stackvana-core"
           },
           {
             "source": "pyzmq",
@@ -59765,7 +59757,7 @@
           },
           {
             "source": "radical.gtod",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "radical.orbit",
@@ -60253,7 +60245,7 @@
           },
           {
             "source": "rebound",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "recordclass",
@@ -60477,6 +60469,10 @@
           },
           {
             "source": "regex",
+            "target": "rubinenv"
+          },
+          {
+            "source": "regex",
             "target": "saga-python"
           },
           {
@@ -60490,10 +60486,6 @@
           {
             "source": "regex",
             "target": "spacy-transformers"
-          },
-          {
-            "source": "regex",
-            "target": "stackvana-core"
           },
           {
             "source": "regex",
@@ -60565,11 +60557,11 @@
           },
           {
             "source": "regions",
-            "target": "soxs"
+            "target": "rubinenv"
           },
           {
             "source": "regions",
-            "target": "stackvana-core"
+            "target": "soxs"
           },
           {
             "source": "regreg",
@@ -61381,6 +61373,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "rubinenv"
+          },
+          {
+            "source": "rpds-py",
             "target": "sage"
           },
           {
@@ -61422,10 +61418,6 @@
           {
             "source": "rpds-py",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "rpds-py",
-            "target": "stackvana-core"
           },
           {
             "source": "rpds-py",
@@ -61901,6 +61893,10 @@
           },
           {
             "source": "ruamel.yaml.clib",
+            "target": "rubinenv"
+          },
+          {
+            "source": "ruamel.yaml.clib",
             "target": "sage"
           },
           {
@@ -61942,10 +61938,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "stackvana-core"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -62014,6 +62006,14 @@
           {
             "source": "rubin-libradtran",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rubinenv",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rubinenv",
+            "target": "stackvana-core"
           },
           {
             "source": "rudof",
@@ -62305,7 +62305,7 @@
           },
           {
             "source": "schwimmbad",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "scif",
@@ -62993,6 +62993,10 @@
           },
           {
             "source": "scikit-learn",
+            "target": "rubinenv"
+          },
+          {
+            "source": "scikit-learn",
             "target": "scikit-allel"
           },
           {
@@ -63110,10 +63114,6 @@
           {
             "source": "scikit-learn",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "scikit-learn",
-            "target": "stackvana-core"
           },
           {
             "source": "scikit-learn",
@@ -65861,6 +65861,10 @@
           },
           {
             "source": "scipy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "scipy",
             "target": "ruptures"
           },
           {
@@ -66170,10 +66174,6 @@
           {
             "source": "scipy",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "scipy",
-            "target": "stackvana-core"
           },
           {
             "source": "scipy",
@@ -66537,11 +66537,11 @@
           },
           {
             "source": "scons",
-            "target": "sgpp"
+            "target": "rubinenv"
           },
           {
             "source": "scons",
-            "target": "stackvana-core"
+            "target": "sgpp"
           },
           {
             "source": "screeninfo",
@@ -66761,11 +66761,11 @@
           },
           {
             "source": "setproctitle",
-            "target": "saga-python"
+            "target": "rubinenv"
           },
           {
             "source": "setproctitle",
-            "target": "stackvana-core"
+            "target": "saga-python"
           },
           {
             "source": "setproctitle",
@@ -66805,7 +66805,7 @@
           },
           {
             "source": "sgp4",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "sgpp",
@@ -67117,6 +67117,10 @@
           },
           {
             "source": "shapely",
+            "target": "rubinenv"
+          },
+          {
+            "source": "shapely",
             "target": "sealsmodel"
           },
           {
@@ -67126,10 +67130,6 @@
           {
             "source": "shapelysmooth",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "shapely",
-            "target": "stackvana-core"
           },
           {
             "source": "shapely",
@@ -67517,7 +67517,7 @@
           },
           {
             "source": "skyproj",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "slac-rogue",
@@ -68069,7 +68069,7 @@
           },
           {
             "source": "spherematch",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "spherical-geometry",
@@ -68117,7 +68117,7 @@
           },
           {
             "source": "spiceypy",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "spikeinterface",
@@ -68345,6 +68345,10 @@
           },
           {
             "source": "sqlalchemy",
+            "target": "rubinenv"
+          },
+          {
+            "source": "sqlalchemy",
             "target": "seismon"
           },
           {
@@ -68354,10 +68358,6 @@
           {
             "source": "sqlalchemy",
             "target": "sregistry"
-          },
-          {
-            "source": "sqlalchemy",
-            "target": "stackvana-core"
           },
           {
             "source": "sqlalchemy",
@@ -68737,6 +68737,10 @@
           },
           {
             "source": "statsmodels",
+            "target": "rubinenv"
+          },
+          {
+            "source": "statsmodels",
             "target": "scikit-allel"
           },
           {
@@ -68758,10 +68762,6 @@
           {
             "source": "statsmodels",
             "target": "sleepecg"
-          },
-          {
-            "source": "statsmodels",
-            "target": "stackvana-core"
           },
           {
             "source": "statsmodels",
@@ -69013,7 +69013,7 @@
           },
           {
             "source": "synphot",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "synphot",
@@ -79321,6 +79321,10 @@
           },
           {
             "source": "tbb",
+            "target": "rubinenv"
+          },
+          {
+            "source": "tbb",
             "target": "rudof"
           },
           {
@@ -82585,15 +82589,15 @@
           },
           {
             "source": "torchvision",
+            "target": "rubinenv"
+          },
+          {
+            "source": "torchvision",
             "target": "sam-2"
           },
           {
             "source": "torchvision",
             "target": "spotiflow"
-          },
-          {
-            "source": "torchvision",
-            "target": "stackvana-core"
           },
           {
             "source": "torchvision",
@@ -83185,6 +83189,10 @@
           },
           {
             "source": "tornado",
+            "target": "rubinenv"
+          },
+          {
+            "source": "tornado",
             "target": "sage"
           },
           {
@@ -83230,10 +83238,6 @@
           {
             "source": "tornado",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "tornado",
-            "target": "stackvana-core"
           },
           {
             "source": "tornado",
@@ -83473,7 +83477,7 @@
           },
           {
             "source": "treecorr",
-            "target": "stackvana-core"
+            "target": "rubinenv"
           },
           {
             "source": "treelite",
@@ -83541,11 +83545,11 @@
           },
           {
             "source": "trio",
-            "target": "social-analyzer"
+            "target": "rubinenv"
           },
           {
             "source": "trio",
-            "target": "stackvana-core"
+            "target": "social-analyzer"
           },
           {
             "source": "trio",
@@ -84193,6 +84197,10 @@
           },
           {
             "source": "ujson",
+            "target": "rubinenv"
+          },
+          {
+            "source": "ujson",
             "target": "rudof"
           },
           {
@@ -84238,10 +84246,6 @@
           {
             "source": "ujson",
             "target": "ssh_ipykernel_interrupt"
-          },
-          {
-            "source": "ujson",
-            "target": "stackvana-core"
           },
           {
             "source": "ujson",
@@ -84345,11 +84349,11 @@
           },
           {
             "source": "ukkonen",
-            "target": "spatialgeometry"
+            "target": "rubinenv"
           },
           {
             "source": "ukkonen",
-            "target": "stackvana-core"
+            "target": "spatialgeometry"
           },
           {
             "source": "ukkonen",
@@ -86405,6 +86409,10 @@
           },
           {
             "source": "wcwidth",
+            "target": "rubinenv"
+          },
+          {
+            "source": "wcwidth",
             "target": "rudof"
           },
           {
@@ -86494,10 +86502,6 @@
           {
             "source": "wcwidth",
             "target": "ssm-simulators"
-          },
-          {
-            "source": "wcwidth",
-            "target": "stackvana-core"
           },
           {
             "source": "wcwidth",
@@ -87369,6 +87373,10 @@
           },
           {
             "source": "wrapt",
+            "target": "rubinenv"
+          },
+          {
+            "source": "wrapt",
             "target": "seml"
           },
           {
@@ -87402,10 +87410,6 @@
           {
             "source": "wrapt",
             "target": "sregistry"
-          },
-          {
-            "source": "wrapt",
-            "target": "stackvana-core"
           },
           {
             "source": "wrapt",
@@ -88517,15 +88521,15 @@
           },
           {
             "source": "zstandard",
+            "target": "rubinenv"
+          },
+          {
+            "source": "zstandard",
             "target": "screeninfo"
           },
           {
             "source": "zstandard",
             "target": "solders"
-          },
-          {
-            "source": "zstandard",
-            "target": "stackvana-core"
           },
           {
             "source": "zstandard",
@@ -103570,6 +103574,12 @@
             "id": "rubin-libradtran",
             "payload": {
               "__lazy_json__": "node_attrs/rubin-libradtran.json"
+            }
+          },
+          {
+            "id": "rubinenv",
+            "payload": {
+              "__lazy_json__": "node_attrs/rubinenv.json"
             }
           },
           {
