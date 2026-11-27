@@ -6835,10 +6835,6 @@
           },
           {
             "source": "bash",
-            "target": "metis"
-          },
-          {
-            "source": "bash",
             "target": "metplus"
           },
           {
@@ -10539,6 +10535,10 @@
           },
           {
             "source": "bash",
+            "target": "vc"
+          },
+          {
+            "source": "bash",
             "target": "vdt"
           },
           {
@@ -10994,16 +10994,52 @@
             "target": "klfitter"
           },
           {
-            "source": "bazel",
-            "target": "copybara"
+            "source": "bazel-toolchain",
+            "target": "bazel"
           },
           {
-            "source": "bazel",
+            "source": "bazel-toolchain",
             "target": "grpc_java_plugin"
           },
           {
-            "source": "bazel",
+            "source": "bazel-toolchain",
             "target": "ijar"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "jaxlib"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "mongodb"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "protobuf"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "ray-packages"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "singlejar"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "tensorflow"
+          },
+          {
+            "source": "bazel-toolchain",
+            "target": "tensorstore"
+          },
+          {
+            "source": "bazel",
+            "target": "bazel-toolchain"
+          },
+          {
+            "source": "bazel",
+            "target": "copybara"
           },
           {
             "source": "bazel",
@@ -11015,15 +11051,7 @@
           },
           {
             "source": "bazel",
-            "target": "protobuf"
-          },
-          {
-            "source": "bazel",
             "target": "ray-packages"
-          },
-          {
-            "source": "bazel",
-            "target": "singlejar"
           },
           {
             "source": "bazel",
@@ -12128,6 +12156,10 @@
           {
             "source": "binutils",
             "target": "vampyr"
+          },
+          {
+            "source": "binutils",
+            "target": "vc"
           },
           {
             "source": "binutils",
@@ -18991,10 +19023,6 @@
           },
           {
             "source": "cmake",
-            "target": "metis"
-          },
-          {
-            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -20288,6 +20316,10 @@
           {
             "source": "cmake",
             "target": "vampyr"
+          },
+          {
+            "source": "cmake",
+            "target": "vc"
           },
           {
             "source": "cmake",
@@ -23512,6 +23544,10 @@
           {
             "source": "ctng-compilers",
             "target": "vampyr"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "vc"
           },
           {
             "source": "ctng-compilers",
@@ -45227,10 +45263,6 @@
           },
           {
             "source": "libtool",
-            "target": "metis"
-          },
-          {
-            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -48927,6 +48959,10 @@
           },
           {
             "source": "libtool",
+            "target": "vc"
+          },
+          {
+            "source": "libtool",
             "target": "vdt"
           },
           {
@@ -51375,6 +51411,10 @@
           },
           {
             "source": "libxml2",
+            "target": "vc"
+          },
+          {
+            "source": "libxml2",
             "target": "veloxchem"
           },
           {
@@ -52304,6 +52344,10 @@
           {
             "source": "llvmdev",
             "target": "vampyr"
+          },
+          {
+            "source": "llvmdev",
+            "target": "vc"
           },
           {
             "source": "llvmdev",
@@ -54240,62 +54284,6 @@
           {
             "source": "metaio",
             "target": "lalmetaio"
-          },
-          {
-            "source": "metis",
-            "target": "ceres-solver"
-          },
-          {
-            "source": "metis",
-            "target": "cvxopt"
-          },
-          {
-            "source": "metis",
-            "target": "dgl"
-          },
-          {
-            "source": "metis",
-            "target": "gmsh"
-          },
-          {
-            "source": "metis",
-            "target": "julia"
-          },
-          {
-            "source": "metis",
-            "target": "kahip"
-          },
-          {
-            "source": "metis",
-            "target": "mumps"
-          },
-          {
-            "source": "metis",
-            "target": "octave"
-          },
-          {
-            "source": "metis",
-            "target": "opensees"
-          },
-          {
-            "source": "metis",
-            "target": "petsc"
-          },
-          {
-            "source": "metis",
-            "target": "pybammsolvers"
-          },
-          {
-            "source": "metis",
-            "target": "spral"
-          },
-          {
-            "source": "metis",
-            "target": "sundials"
-          },
-          {
-            "source": "metis",
-            "target": "superlu_dist"
           },
           {
             "source": "metview",
@@ -58407,6 +58395,10 @@
           },
           {
             "source": "ninja",
+            "target": "vc"
+          },
+          {
+            "source": "ninja",
             "target": "vectorscan"
           },
           {
@@ -62423,6 +62415,10 @@
           },
           {
             "source": "openmp",
+            "target": "vc"
+          },
+          {
+            "source": "openmp",
             "target": "veloxchem"
           },
           {
@@ -63460,6 +63456,10 @@
           {
             "source": "p7zip",
             "target": "julia"
+          },
+          {
+            "source": "p7zip",
+            "target": "vc"
           },
           {
             "source": "pagmo",
@@ -75656,6 +75656,10 @@
           {
             "source": "python",
             "target": "vampyr"
+          },
+          {
+            "source": "python",
+            "target": "vc"
           },
           {
             "source": "python",
@@ -90763,6 +90767,10 @@
           },
           {
             "source": "sed",
+            "target": "bazel-toolchain"
+          },
+          {
+            "source": "sed",
             "target": "bioimage-cpp"
           },
           {
@@ -91020,10 +91028,6 @@
           {
             "source": "sed",
             "target": "minijinja"
-          },
-          {
-            "source": "sed",
-            "target": "mongodb"
           },
           {
             "source": "sed",
@@ -91312,10 +91316,6 @@
           {
             "source": "sed",
             "target": "tensorflow"
-          },
-          {
-            "source": "sed",
-            "target": "tensorstore"
           },
           {
             "source": "sed",
@@ -94679,6 +94679,10 @@
           },
           {
             "source": "ucrt",
+            "target": "vc"
+          },
+          {
+            "source": "ucrt",
             "target": "veloxchem"
           },
           {
@@ -95980,6 +95984,14 @@
           {
             "source": "valgrind",
             "target": "pytest-codspeed"
+          },
+          {
+            "source": "vc",
+            "target": "ilastik-carving-tools"
+          },
+          {
+            "source": "vc",
+            "target": "intel-compiler-repack"
           },
           {
             "source": "vdt",
@@ -104195,6 +104207,10 @@
           },
           {
             "source": "zlib",
+            "target": "vc"
+          },
+          {
+            "source": "zlib",
             "target": "vectorscan"
           },
           {
@@ -105627,6 +105643,10 @@
           },
           {
             "source": "zstd",
+            "target": "vc"
+          },
+          {
+            "source": "zstd",
             "target": "veloxchem"
           },
           {
@@ -106256,6 +106276,12 @@
             "id": "bazel",
             "payload": {
               "__lazy_json__": "node_attrs/bazel.json"
+            }
+          },
+          {
+            "id": "bazel-toolchain",
+            "payload": {
+              "__lazy_json__": "node_attrs/bazel-toolchain.json"
             }
           },
           {
@@ -112058,12 +112084,6 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
-            }
-          },
-          {
-            "id": "metis",
-            "payload": {
-              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
@@ -119876,6 +119896,12 @@
             "id": "vampyr",
             "payload": {
               "__lazy_json__": "node_attrs/vampyr.json"
+            }
+          },
+          {
+            "id": "vc",
+            "payload": {
+              "__lazy_json__": "node_attrs/vc.json"
             }
           },
           {
