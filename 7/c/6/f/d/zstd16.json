@@ -124,10 +124,6 @@
           {
             "source": "clangdev",
             "target": "smspp-project"
-          },
-          {
-            "source": "clangdev",
-            "target": "ugrep"
           }
         ],
         "multigraph": false,
@@ -232,12 +228,6 @@
             "id": "smspp-project",
             "payload": {
               "__lazy_json__": "node_attrs/smspp-project.json"
-            }
-          },
-          {
-            "id": "ugrep",
-            "payload": {
-              "__lazy_json__": "node_attrs/ugrep.json"
             }
           },
           {
@@ -556,10 +546,6 @@
             "target": "conda-forge-pinning"
           },
           {
-            "source": "ccr",
-            "target": "conda-forge-pinning"
-          },
-          {
             "source": "cds-crtools",
             "target": "conda-forge-pinning"
           },
@@ -602,10 +588,6 @@
           {
             "source": "clangdev",
             "target": "bun"
-          },
-          {
-            "source": "clangdev",
-            "target": "ccr"
           },
           {
             "source": "clangdev",
@@ -1185,10 +1167,6 @@
           },
           {
             "source": "libnetcdf",
-            "target": "ccr"
-          },
-          {
-            "source": "libnetcdf",
             "target": "conda-forge-pinning"
           },
           {
@@ -1614,10 +1592,6 @@
           {
             "source": "python",
             "target": "bun"
-          },
-          {
-            "source": "python",
-            "target": "ccr"
           },
           {
             "source": "python",
@@ -2564,12 +2538,6 @@
             "id": "ccache",
             "payload": {
               "__lazy_json__": "node_attrs/ccache.json"
-            }
-          },
-          {
-            "id": "ccr",
-            "payload": {
-              "__lazy_json__": "node_attrs/ccr.json"
             }
           },
           {
