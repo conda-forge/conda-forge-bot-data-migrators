@@ -4494,6 +4494,86 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "microarch-level",
+            "target": "awkward-cpp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "cantera"
+          },
+          {
+            "source": "microarch-level",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "microarch-level",
+            "target": "ducc0"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fastjet"
+          },
+          {
+            "source": "microarch-level",
+            "target": "fastjet-cxx"
+          },
+          {
+            "source": "microarch-level",
+            "target": "galsim"
+          },
+          {
+            "source": "microarch-level",
+            "target": "light-curve-python"
+          },
+          {
+            "source": "microarch-level",
+            "target": "mujoco"
+          },
+          {
+            "source": "microarch-level",
+            "target": "opencv"
+          },
+          {
+            "source": "microarch-level",
+            "target": "panda3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "poselib"
+          },
+          {
+            "source": "microarch-level",
+            "target": "potpourri3d"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyfes"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pyg4ometry"
+          },
+          {
+            "source": "microarch-level",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "microarch-level",
+            "target": "scipp"
+          },
+          {
+            "source": "microarch-level",
+            "target": "simpleitk"
+          },
+          {
+            "source": "microarch-level",
+            "target": "tensorflow"
+          },
+          {
+            "source": "microarch-level",
+            "target": "vtk"
+          },
+          {
             "source": "minorminer",
             "target": "conda-forge-pinning"
           },
@@ -11011,6 +11091,10 @@
           },
           {
             "source": "tbb",
+            "target": "microarch-level"
+          },
+          {
+            "source": "tbb",
             "target": "minorminer"
           },
           {
@@ -15276,6 +15360,12 @@
             "id": "mgrs",
             "payload": {
               "__lazy_json__": "node_attrs/mgrs.json"
+            }
+          },
+          {
+            "id": "microarch-level",
+            "payload": {
+              "__lazy_json__": "node_attrs/microarch-level.json"
             }
           },
           {
