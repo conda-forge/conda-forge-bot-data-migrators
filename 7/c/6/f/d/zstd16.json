@@ -87,10 +87,6 @@
           },
           {
             "source": "clangdev",
-            "target": "folly"
-          },
-          {
-            "source": "clangdev",
             "target": "hdf5plugin"
           },
           {
@@ -163,15 +159,7 @@
           },
           {
             "source": "clangdev",
-            "target": "quadrants"
-          },
-          {
-            "source": "clangdev",
             "target": "r-pgenlibr"
-          },
-          {
-            "source": "clangdev",
-            "target": "r-qs"
           },
           {
             "source": "clangdev",
@@ -240,12 +228,6 @@
             "id": "flang-rt",
             "payload": {
               "__lazy_json__": "node_attrs/flang-rt.json"
-            }
-          },
-          {
-            "id": "folly",
-            "payload": {
-              "__lazy_json__": "node_attrs/folly.json"
             }
           },
           {
@@ -345,21 +327,9 @@
             }
           },
           {
-            "id": "quadrants",
-            "payload": {
-              "__lazy_json__": "node_attrs/quadrants.json"
-            }
-          },
-          {
             "id": "r-pgenlibr",
             "payload": {
               "__lazy_json__": "node_attrs/r-pgenlibr.json"
-            }
-          },
-          {
-            "id": "r-qs",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-qs.json"
             }
           },
           {
@@ -3576,7 +3546,7 @@
         "name": "pypiorgmigrator"
       }
     ],
-    "pr_limit": 7,
+    "pr_limit": 6,
     "top_level": {
       "__set__": true,
       "elements": []
