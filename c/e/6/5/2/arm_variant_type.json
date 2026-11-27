@@ -127,6 +127,146 @@
           {
             "source": "nccl",
             "target": "torchcodec"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepspeed"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "detectron2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairscale"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fcos"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "flash-attn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gsplat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "kaolin"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nerfacc"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nnpops"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sam-2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sevenn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sphericart"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchao"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchcodec"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsort"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "triton"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "xformers"
           }
         ],
         "multigraph": false,
@@ -543,6 +683,12 @@
             "id": "pyscamp-gpu",
             "payload": {
               "__lazy_json__": "node_attrs/pyscamp-gpu.json"
+            }
+          },
+          {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
             }
           },
           {
@@ -1903,6 +2049,250 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "pytorch-cpu",
+            "target": "aihwkit-gpu"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "auto_gptq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "bitsandbytes"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "carterbox-torch-radon"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "causal-conv1d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepmd-kit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "deepspeed"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "detectron2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "dgl"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fairscale"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fcos"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "flash-attn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "fvdb-core"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "graphvite"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "gsplat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "heat"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "horovod"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "inplace-abn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "kaolin"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "libholoscan"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mamba-ssm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "mmcv-recipe"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "momentum"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "natten"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nerfacc"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nnpops"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-apex"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvidia-tao-pytorch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmath"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "nvmolkit"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "openmm-torch"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pixsfm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pyg-lib"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch3d"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_cluster"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_scatter"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_sparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "pytorch_spline_conv"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sam-2"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sevenn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "shap"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sinabs-exodus"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "sphericart"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "theseus-ai"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tilelang"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tiny-cuda-nn"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "tinygrad"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch-harmonics"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torch_memory_saver"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchani"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchao"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchaudio"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchcodec"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsort"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchsparse"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "torchvision"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "transformer-engine"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "triton"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "vllm"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "xformers"
+          },
+          {
             "source": "pytorch3d",
             "target": "conda-forge-pinning"
           },
@@ -2989,6 +3379,12 @@
             "id": "python-cudnn-frontend",
             "payload": {
               "__lazy_json__": "node_attrs/python-cudnn-frontend.json"
+            }
+          },
+          {
+            "id": "pytorch-cpu",
+            "payload": {
+              "__lazy_json__": "node_attrs/pytorch-cpu.json"
             }
           },
           {
