@@ -59,10 +59,6 @@
           },
           {
             "source": "clangdev",
-            "target": "bgenix"
-          },
-          {
-            "source": "clangdev",
             "target": "bun"
           },
           {
@@ -75,10 +71,6 @@
           },
           {
             "source": "clangdev",
-            "target": "dectris-compression"
-          },
-          {
-            "source": "clangdev",
             "target": "flang-rt"
           },
           {
@@ -88,14 +80,6 @@
           {
             "source": "clangdev",
             "target": "herdr-app"
-          },
-          {
-            "source": "clangdev",
-            "target": "inko"
-          },
-          {
-            "source": "clangdev",
-            "target": "lean-ctx"
           },
           {
             "source": "clangdev",
@@ -143,19 +127,11 @@
           },
           {
             "source": "clangdev",
-            "target": "qt-main"
-          },
-          {
-            "source": "clangdev",
             "target": "smspp-project"
           },
           {
             "source": "clangdev",
             "target": "ugrep"
-          },
-          {
-            "source": "clangdev",
-            "target": "wasmer"
           }
         ],
         "multigraph": false,
@@ -164,12 +140,6 @@
             "id": "apiary",
             "payload": {
               "__lazy_json__": "node_attrs/apiary.json"
-            }
-          },
-          {
-            "id": "bgenix",
-            "payload": {
-              "__lazy_json__": "node_attrs/bgenix.json"
             }
           },
           {
@@ -197,12 +167,6 @@
             }
           },
           {
-            "id": "dectris-compression",
-            "payload": {
-              "__lazy_json__": "node_attrs/dectris-compression.json"
-            }
-          },
-          {
             "id": "flang-rt",
             "payload": {
               "__lazy_json__": "node_attrs/flang-rt.json"
@@ -212,18 +176,6 @@
             "id": "hdf5plugin",
             "payload": {
               "__lazy_json__": "node_attrs/hdf5plugin.json"
-            }
-          },
-          {
-            "id": "inko",
-            "payload": {
-              "__lazy_json__": "node_attrs/inko.json"
-            }
-          },
-          {
-            "id": "lean-ctx",
-            "payload": {
-              "__lazy_json__": "node_attrs/lean-ctx.json"
             }
           },
           {
@@ -287,12 +239,6 @@
             }
           },
           {
-            "id": "qt-main",
-            "payload": {
-              "__lazy_json__": "node_attrs/qt-main.json"
-            }
-          },
-          {
             "id": "smspp-project",
             "payload": {
               "__lazy_json__": "node_attrs/smspp-project.json"
@@ -302,12 +248,6 @@
             "id": "ugrep",
             "payload": {
               "__lazy_json__": "node_attrs/ugrep.json"
-            }
-          },
-          {
-            "id": "wasmer",
-            "payload": {
-              "__lazy_json__": "node_attrs/wasmer.json"
             }
           },
           {
