@@ -54,7 +54,14 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "rubinenv",
+            "payload": {
+              "__lazy_json__": "node_attrs/rubinenv.json"
+            }
+          }
+        ]
       }
     },
     "force_pr_after_solver_attempts": 10,
@@ -673,6 +680,10 @@
           },
           {
             "source": "r-base",
+            "target": "rubinenv"
+          },
+          {
+            "source": "r-base",
             "target": "sage"
           },
           {
@@ -761,6 +772,10 @@
           },
           {
             "source": "rubin-libradtran",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rubinenv",
             "target": "conda-forge-pinning"
           },
           {
@@ -1388,6 +1403,12 @@
             "id": "rubin-libradtran",
             "payload": {
               "__lazy_json__": "node_attrs/rubin-libradtran.json"
+            }
+          },
+          {
+            "id": "rubinenv",
+            "payload": {
+              "__lazy_json__": "node_attrs/rubinenv.json"
             }
           },
           {
