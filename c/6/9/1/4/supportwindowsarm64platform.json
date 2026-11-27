@@ -45,7 +45,20 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": []
+        "nodes": [
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          }
+        ]
       }
     },
     "graph": {
@@ -1387,7 +1400,15 @@
           },
           {
             "source": "binutils",
+            "target": "libcudss"
+          },
+          {
+            "source": "binutils",
             "target": "libhwloc"
+          },
+          {
+            "source": "binutils",
+            "target": "libmagma"
           },
           {
             "source": "binutils",
@@ -1499,7 +1520,15 @@
           },
           {
             "source": "bison",
+            "target": "libcudss"
+          },
+          {
+            "source": "bison",
             "target": "libhwloc"
+          },
+          {
+            "source": "bison",
+            "target": "libmagma"
           },
           {
             "source": "bison",
@@ -1596,6 +1625,10 @@
           {
             "source": "blas",
             "target": "intel_repack"
+          },
+          {
+            "source": "blas",
+            "target": "libmagma"
           },
           {
             "source": "blas",
@@ -2242,6 +2275,10 @@
             "target": "openvino"
           },
           {
+            "source": "ccache",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "cctools-and-ld64",
             "target": "binutils"
           },
@@ -2275,11 +2312,19 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "libcudss"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "libcxx"
           },
           {
             "source": "cctools-and-ld64",
             "target": "libhwloc"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "libmagma"
           },
           {
             "source": "cctools-and-ld64",
@@ -2535,7 +2580,15 @@
           },
           {
             "source": "clang-compiler-activation",
+            "target": "libcudss"
+          },
+          {
+            "source": "clang-compiler-activation",
             "target": "libhwloc"
+          },
+          {
+            "source": "clang-compiler-activation",
+            "target": "libmagma"
           },
           {
             "source": "clang-compiler-activation",
@@ -2771,6 +2824,10 @@
           },
           {
             "source": "clangdev",
+            "target": "libcudss"
+          },
+          {
+            "source": "clangdev",
             "target": "libcxx"
           },
           {
@@ -2780,6 +2837,10 @@
           {
             "source": "clangdev",
             "target": "libjxl-split"
+          },
+          {
+            "source": "clangdev",
+            "target": "libmagma"
           },
           {
             "source": "clangdev",
@@ -3203,6 +3264,10 @@
           },
           {
             "source": "cmake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cmake",
             "target": "cutlass"
           },
           {
@@ -3403,6 +3468,10 @@
           },
           {
             "source": "cmake",
+            "target": "libcudss"
+          },
+          {
+            "source": "cmake",
             "target": "libcxx"
           },
           {
@@ -3472,6 +3541,10 @@
           {
             "source": "cmake",
             "target": "libkml"
+          },
+          {
+            "source": "cmake",
+            "target": "libmagma"
           },
           {
             "source": "cmake",
@@ -3603,6 +3676,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "micromamba"
           },
           {
@@ -3668,6 +3745,10 @@
           {
             "source": "cmake",
             "target": "nushell"
+          },
+          {
+            "source": "cmake",
+            "target": "nvtx-c"
           },
           {
             "source": "cmake",
@@ -3955,6 +4036,10 @@
           },
           {
             "source": "cmake",
+            "target": "triton"
+          },
+          {
+            "source": "cmake",
             "target": "ttyd"
           },
           {
@@ -4083,7 +4168,15 @@
           },
           {
             "source": "coreutils",
+            "target": "libcudss"
+          },
+          {
+            "source": "coreutils",
             "target": "libhwloc"
+          },
+          {
+            "source": "coreutils",
+            "target": "libmagma"
           },
           {
             "source": "coreutils",
@@ -4479,6 +4572,10 @@
           },
           {
             "source": "coverage",
+            "target": "triton"
+          },
+          {
+            "source": "coverage",
             "target": "watchfiles"
           },
           {
@@ -4615,7 +4712,15 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "libcudss"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "libhwloc"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "libmagma"
           },
           {
             "source": "ctng-compilers",
@@ -4819,11 +4924,23 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
             "source": "cuda-cudart",
             "target": "libcublas"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libcudss"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "libmagma"
           },
           {
             "source": "cuda-cudart",
@@ -4843,6 +4960,14 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-cudart",
+            "target": "triton"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "ucc"
           },
           {
@@ -4854,8 +4979,20 @@
             "target": "cudnn"
           },
           {
+            "source": "cuda-cuobjdump",
+            "target": "triton"
+          },
+          {
             "source": "cuda-cupti",
             "target": "cuda-command-line-tools"
+          },
+          {
+            "source": "cuda-cupti",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "cuda-cupti",
+            "target": "triton"
           },
           {
             "source": "cuda-libraries-dev",
@@ -4882,6 +5019,10 @@
             "target": "llama.cpp"
           },
           {
+            "source": "cuda-nvcc-impl",
+            "target": "triton"
+          },
+          {
             "source": "cuda-nvcc",
             "target": "cuda-python"
           },
@@ -4896,6 +5037,10 @@
           {
             "source": "cuda-nvml-dev",
             "target": "cuda-visual-tools"
+          },
+          {
+            "source": "cuda-nvml-dev",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cuda-nvml-dev",
@@ -4927,11 +5072,27 @@
           },
           {
             "source": "cuda-nvrtc",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-nvrtc",
             "target": "libcublas"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "libcudss"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cuda-nvtx",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvtx",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cuda-opencl",
@@ -4958,12 +5119,24 @@
             "target": "cutensor"
           },
           {
+            "source": "cuda-profiler-api",
+            "target": "libmagma"
+          },
+          {
+            "source": "cuda-profiler-api",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "cuda-sanitizer-api",
             "target": "cuda-command-line-tools"
           },
           {
             "source": "cuda-visual-tools",
             "target": "cuda-tools"
+          },
+          {
+            "source": "cudnn",
+            "target": "pytorch-cpu"
           },
           {
             "source": "curl",
@@ -5072,6 +5245,10 @@
           {
             "source": "curl",
             "target": "tiledb"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -5795,7 +5972,15 @@
           },
           {
             "source": "flex",
+            "target": "libcudss"
+          },
+          {
+            "source": "flex",
             "target": "libhwloc"
+          },
+          {
+            "source": "flex",
+            "target": "libmagma"
           },
           {
             "source": "flex",
@@ -6123,7 +6308,15 @@
           },
           {
             "source": "gendef",
+            "target": "libcudss"
+          },
+          {
+            "source": "gendef",
             "target": "libhwloc"
+          },
+          {
+            "source": "gendef",
+            "target": "libmagma"
           },
           {
             "source": "gendef",
@@ -6411,6 +6604,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -6647,7 +6844,15 @@
           },
           {
             "source": "gmp",
+            "target": "libcudss"
+          },
+          {
+            "source": "gmp",
             "target": "libhwloc"
+          },
+          {
+            "source": "gmp",
+            "target": "libmagma"
           },
           {
             "source": "gmp",
@@ -7506,6 +7711,10 @@
             "target": "llama.cpp"
           },
           {
+            "source": "intel_repack",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "isa-l",
             "target": "python-isal"
           },
@@ -7535,7 +7744,15 @@
           },
           {
             "source": "isl",
+            "target": "libcudss"
+          },
+          {
+            "source": "isl",
             "target": "libhwloc"
+          },
+          {
+            "source": "isl",
+            "target": "libmagma"
           },
           {
             "source": "isl",
@@ -7716,6 +7933,10 @@
           {
             "source": "lapack",
             "target": "intel_repack"
+          },
+          {
+            "source": "lapack",
+            "target": "libmagma"
           },
           {
             "source": "lapack",
@@ -7959,11 +8180,23 @@
           },
           {
             "source": "libcublas",
+            "target": "libcudss"
+          },
+          {
+            "source": "libcublas",
             "target": "libcusolver"
           },
           {
             "source": "libcublas",
+            "target": "libmagma"
+          },
+          {
+            "source": "libcublas",
             "target": "llama.cpp"
+          },
+          {
+            "source": "libcublas",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcudla",
@@ -7972,6 +8205,10 @@
           {
             "source": "libcudla",
             "target": "cuda-libraries-dev"
+          },
+          {
+            "source": "libcudss",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcufft",
@@ -7984,6 +8221,14 @@
           {
             "source": "libcufft",
             "target": "cupy"
+          },
+          {
+            "source": "libcufft",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "libcufile",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcups",
@@ -8010,6 +8255,10 @@
             "target": "cupy"
           },
           {
+            "source": "libcurand",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libcusolver",
             "target": "ceres-solver"
           },
@@ -8026,6 +8275,10 @@
             "target": "cupy"
           },
           {
+            "source": "libcusolver",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "libcusparse",
             "target": "ceres-solver"
           },
@@ -8040,10 +8293,22 @@
           {
             "source": "libcusparse",
             "target": "cupy"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cusparselt"
           },
           {
             "source": "libcusparse",
             "target": "libcusolver"
+          },
+          {
+            "source": "libcusparse",
+            "target": "libmagma"
+          },
+          {
+            "source": "libcusparse",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcxx",
@@ -8075,7 +8340,15 @@
           },
           {
             "source": "libcxx",
+            "target": "libcudss"
+          },
+          {
+            "source": "libcxx",
             "target": "libhwloc"
+          },
+          {
+            "source": "libcxx",
+            "target": "libmagma"
           },
           {
             "source": "libcxx",
@@ -8475,6 +8748,10 @@
           },
           {
             "source": "libiconv",
+            "target": "libcudss"
+          },
+          {
+            "source": "libiconv",
             "target": "libflac"
           },
           {
@@ -8488,6 +8765,10 @@
           {
             "source": "libiconv",
             "target": "libhwloc"
+          },
+          {
+            "source": "libiconv",
+            "target": "libmagma"
           },
           {
             "source": "libiconv",
@@ -8672,6 +8953,10 @@
           {
             "source": "libkml",
             "target": "gdal"
+          },
+          {
+            "source": "libmagma",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libnetcdf",
@@ -9547,7 +9832,15 @@
           },
           {
             "source": "libxml2",
+            "target": "libcudss"
+          },
+          {
+            "source": "libxml2",
             "target": "libhwloc"
+          },
+          {
+            "source": "libxml2",
+            "target": "libmagma"
           },
           {
             "source": "libxml2",
@@ -9767,6 +10060,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "libcudss"
+          },
+          {
+            "source": "llvmdev",
             "target": "libcxx"
           },
           {
@@ -9776,6 +10073,10 @@
           {
             "source": "llvmdev",
             "target": "libhwloc"
+          },
+          {
+            "source": "llvmdev",
+            "target": "libmagma"
           },
           {
             "source": "llvmdev",
@@ -10263,6 +10564,10 @@
           },
           {
             "source": "make",
+            "target": "libcudss"
+          },
+          {
+            "source": "make",
             "target": "libcups"
           },
           {
@@ -10320,6 +10625,10 @@
           {
             "source": "make",
             "target": "libkml"
+          },
+          {
+            "source": "make",
+            "target": "libmagma"
           },
           {
             "source": "make",
@@ -10416,6 +10725,10 @@
           {
             "source": "make",
             "target": "matplotlib"
+          },
+          {
+            "source": "make",
+            "target": "metis"
           },
           {
             "source": "make",
@@ -10588,6 +10901,10 @@
           {
             "source": "make",
             "target": "python"
+          },
+          {
+            "source": "make",
+            "target": "pytorch-cpu"
           },
           {
             "source": "make",
@@ -11178,6 +11495,10 @@
             "target": "conda-standalone"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
             "source": "micromamba",
             "target": "glib"
           },
@@ -11243,7 +11564,15 @@
           },
           {
             "source": "mpc",
+            "target": "libcudss"
+          },
+          {
+            "source": "mpc",
             "target": "libhwloc"
+          },
+          {
+            "source": "mpc",
+            "target": "libmagma"
           },
           {
             "source": "mpc",
@@ -11335,7 +11664,15 @@
           },
           {
             "source": "mpfr",
+            "target": "libcudss"
+          },
+          {
+            "source": "mpfr",
             "target": "libhwloc"
+          },
+          {
+            "source": "mpfr",
+            "target": "libmagma"
           },
           {
             "source": "mpfr",
@@ -11619,6 +11956,14 @@
           },
           {
             "source": "nccl",
+            "target": "libcudss"
+          },
+          {
+            "source": "nccl",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "nccl",
             "target": "ucc"
           },
           {
@@ -11867,6 +12212,10 @@
           },
           {
             "source": "ninja",
+            "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
             "target": "cutlass"
           },
           {
@@ -12051,6 +12400,10 @@
           },
           {
             "source": "ninja",
+            "target": "libcudss"
+          },
+          {
+            "source": "ninja",
             "target": "libcxx"
           },
           {
@@ -12108,6 +12461,10 @@
           {
             "source": "ninja",
             "target": "libiconv"
+          },
+          {
+            "source": "ninja",
+            "target": "libmagma"
           },
           {
             "source": "ninja",
@@ -12300,6 +12657,10 @@
           {
             "source": "ninja",
             "target": "numpy"
+          },
+          {
+            "source": "ninja",
+            "target": "nvtx-c"
           },
           {
             "source": "ninja",
@@ -12559,6 +12920,10 @@
           },
           {
             "source": "ninja",
+            "target": "triton"
+          },
+          {
+            "source": "ninja",
             "target": "ttyd"
           },
           {
@@ -12660,6 +13025,10 @@
           {
             "source": "nlohmann_json",
             "target": "tiledb"
+          },
+          {
+            "source": "nlohmann_json",
+            "target": "triton"
           },
           {
             "source": "nodejs",
@@ -12784,6 +13153,10 @@
           {
             "source": "nss",
             "target": "qt-webengine"
+          },
+          {
+            "source": "numactl",
+            "target": "libcufile"
           },
           {
             "source": "numactl",
@@ -12962,6 +13335,10 @@
             "target": "pixi"
           },
           {
+            "source": "nvtx-c",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "ocl-icd",
             "target": "intel-compiler-repack"
           },
@@ -13099,6 +13476,10 @@
           },
           {
             "source": "openmpi",
+            "target": "libcudss"
+          },
+          {
+            "source": "openmpi",
             "target": "libnetcdf"
           },
           {
@@ -13115,7 +13496,15 @@
           },
           {
             "source": "openmp",
+            "target": "libcudss"
+          },
+          {
+            "source": "openmp",
             "target": "libhwloc"
+          },
+          {
+            "source": "openmp",
+            "target": "libmagma"
           },
           {
             "source": "openmp",
@@ -13655,11 +14044,23 @@
           },
           {
             "source": "patchelf",
+            "target": "cusparselt"
+          },
+          {
+            "source": "patchelf",
             "target": "cutensor"
           },
           {
             "source": "patchelf",
             "target": "intel-compiler-repack"
+          },
+          {
+            "source": "patchelf",
+            "target": "libcudss"
+          },
+          {
+            "source": "patchelf",
+            "target": "libcufile"
           },
           {
             "source": "patchelf",
@@ -15471,6 +15872,10 @@
           },
           {
             "source": "python",
+            "target": "cusparselt"
+          },
+          {
+            "source": "python",
             "target": "cutensor"
           },
           {
@@ -15679,6 +16084,14 @@
           },
           {
             "source": "python",
+            "target": "libcudss"
+          },
+          {
+            "source": "python",
+            "target": "libcufile"
+          },
+          {
+            "source": "python",
             "target": "libcxx"
           },
           {
@@ -15708,6 +16121,10 @@
           {
             "source": "python",
             "target": "libhwloc"
+          },
+          {
+            "source": "python",
+            "target": "libmagma"
           },
           {
             "source": "python",
@@ -16155,6 +16572,10 @@
           },
           {
             "source": "python",
+            "target": "triton"
+          },
+          {
+            "source": "python",
             "target": "ucx-split"
           },
           {
@@ -16388,6 +16809,10 @@
           {
             "source": "pytorch-cpu",
             "target": "openvino"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "triton"
           },
           {
             "source": "pywin32-ctypes",
@@ -17263,6 +17688,10 @@
           },
           {
             "source": "rdma-core",
+            "target": "libcufile"
+          },
+          {
+            "source": "rdma-core",
             "target": "libfabric"
           },
           {
@@ -17818,6 +18247,10 @@
             "target": "pyarrow"
           },
           {
+            "source": "scipy",
+            "target": "triton"
+          },
+          {
             "source": "scons",
             "target": "nsis"
           },
@@ -18159,6 +18592,10 @@
           },
           {
             "source": "sed",
+            "target": "triton"
+          },
+          {
+            "source": "sed",
             "target": "watchdog"
           },
           {
@@ -18219,11 +18656,19 @@
           },
           {
             "source": "shellcheck",
+            "target": "libcudss"
+          },
+          {
+            "source": "shellcheck",
             "target": "libfabric"
           },
           {
             "source": "shellcheck",
             "target": "libhwloc"
+          },
+          {
+            "source": "shellcheck",
+            "target": "libmagma"
           },
           {
             "source": "shellcheck",
@@ -18698,6 +19143,10 @@
             "target": "websockets"
           },
           {
+            "source": "triton",
+            "target": "pytorch-cpu"
+          },
+          {
             "source": "ttyd",
             "target": "vhs"
           },
@@ -18739,7 +19188,15 @@
           },
           {
             "source": "ucrt",
+            "target": "libcudss"
+          },
+          {
+            "source": "ucrt",
             "target": "libhwloc"
+          },
+          {
+            "source": "ucrt",
+            "target": "libmagma"
           },
           {
             "source": "ucrt",
@@ -19088,6 +19545,14 @@
           {
             "source": "vc",
             "target": "intel-compiler-repack"
+          },
+          {
+            "source": "vc",
+            "target": "libcudss"
+          },
+          {
+            "source": "vc",
+            "target": "libmagma"
           },
           {
             "source": "vc",
@@ -19523,7 +19988,15 @@
           },
           {
             "source": "winpthreads",
+            "target": "libcudss"
+          },
+          {
+            "source": "winpthreads",
             "target": "libhwloc"
+          },
+          {
+            "source": "winpthreads",
+            "target": "libmagma"
           },
           {
             "source": "winpthreads",
@@ -20995,6 +21468,10 @@
           },
           {
             "source": "zlib",
+            "target": "libcudss"
+          },
+          {
+            "source": "zlib",
             "target": "libcups"
           },
           {
@@ -21020,6 +21497,10 @@
           {
             "source": "zlib",
             "target": "libkml"
+          },
+          {
+            "source": "zlib",
+            "target": "libmagma"
           },
           {
             "source": "zlib",
@@ -21295,6 +21776,10 @@
           },
           {
             "source": "zlib",
+            "target": "triton"
+          },
+          {
+            "source": "zlib",
             "target": "ttyd"
           },
           {
@@ -21552,6 +22037,10 @@
           {
             "source": "zstd",
             "target": "tiledb"
+          },
+          {
+            "source": "zstd",
+            "target": "triton"
           },
           {
             "source": "zstd",
@@ -22282,6 +22771,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -23065,9 +23560,21 @@
             }
           },
           {
+            "id": "libcudss",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcudss.json"
+            }
+          },
+          {
             "id": "libcufft",
             "payload": {
               "__lazy_json__": "node_attrs/libcufft.json"
+            }
+          },
+          {
+            "id": "libcufile",
+            "payload": {
+              "__lazy_json__": "node_attrs/libcufile.json"
             }
           },
           {
@@ -23260,6 +23767,12 @@
             "id": "libkml",
             "payload": {
               "__lazy_json__": "node_attrs/libkml.json"
+            }
+          },
+          {
+            "id": "libmagma",
+            "payload": {
+              "__lazy_json__": "node_attrs/libmagma.json"
             }
           },
           {
@@ -23659,6 +24172,12 @@
             }
           },
           {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "micromamba",
             "payload": {
               "__lazy_json__": "node_attrs/micromamba.json"
@@ -23908,6 +24427,12 @@
             "id": "nushell",
             "payload": {
               "__lazy_json__": "node_attrs/nushell.json"
+            }
+          },
+          {
+            "id": "nvtx-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/nvtx-c.json"
             }
           },
           {
@@ -25060,6 +25585,12 @@
             "id": "trio",
             "payload": {
               "__lazy_json__": "node_attrs/trio.json"
+            }
+          },
+          {
+            "id": "triton",
+            "payload": {
+              "__lazy_json__": "node_attrs/triton.json"
             }
           },
           {
