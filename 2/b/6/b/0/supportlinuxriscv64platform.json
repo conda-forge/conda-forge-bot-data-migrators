@@ -45,14 +45,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "websockets",
-            "payload": {
-              "__lazy_json__": "node_attrs/websockets.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "graph": {
@@ -2075,6 +2068,10 @@
           {
             "source": "httptools",
             "target": "vllm"
+          },
+          {
+            "source": "hypothesis",
+            "target": "scipy"
           },
           {
             "source": "icu",
@@ -4927,6 +4924,10 @@
           {
             "source": "python",
             "target": "httptools"
+          },
+          {
+            "source": "python",
+            "target": "hypothesis"
           },
           {
             "source": "python",
@@ -8363,6 +8364,12 @@
             "id": "httptools",
             "payload": {
               "__lazy_json__": "node_attrs/httptools.json"
+            }
+          },
+          {
+            "id": "hypothesis",
+            "payload": {
+              "__lazy_json__": "node_attrs/hypothesis.json"
             }
           },
           {
