@@ -182,7 +182,7 @@
           },
           {
             "source": "aiohttp",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "aiohttp",
@@ -206,10 +206,6 @@
           },
           {
             "source": "aiohttp",
-            "target": "numpy"
-          },
-          {
-            "source": "aiohttp",
             "target": "pillow"
           },
           {
@@ -226,23 +222,7 @@
           },
           {
             "source": "aiohttp",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "aiohttp",
             "target": "pyzmq"
-          },
-          {
-            "source": "aiohttp",
-            "target": "scipy"
-          },
-          {
-            "source": "aiohttp",
-            "target": "time-machine"
-          },
-          {
-            "source": "aiohttp",
-            "target": "tornado"
           },
           {
             "source": "aiohttp",
@@ -255,10 +235,6 @@
           {
             "source": "aiohttp",
             "target": "websockets"
-          },
-          {
-            "source": "aiohttp",
-            "target": "yarl"
           },
           {
             "source": "alsa-lib",
@@ -298,10 +274,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "aiohttp"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "ast-serialize"
           },
           {
@@ -318,7 +290,7 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -342,10 +314,6 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "numpy"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "pillow"
           },
           {
@@ -362,23 +330,7 @@
           },
           {
             "source": "argon2-cffi-bindings",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "argon2-cffi-bindings",
             "target": "pyzmq"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "scipy"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "time-machine"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "tornado"
           },
           {
             "source": "argon2-cffi-bindings",
@@ -391,10 +343,6 @@
           {
             "source": "argon2-cffi-bindings",
             "target": "websockets"
-          },
-          {
-            "source": "argon2-cffi-bindings",
-            "target": "yarl"
           },
           {
             "source": "arrow-adbc-split",
@@ -1274,7 +1222,7 @@
           },
           {
             "source": "backports.zstd",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "backports.zstd",
@@ -1299,10 +1247,6 @@
           {
             "source": "backports.zstd",
             "target": "numba"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "numpy"
           },
           {
             "source": "backports.zstd",
@@ -1338,14 +1282,6 @@
           },
           {
             "source": "backports.zstd",
-            "target": "time-machine"
-          },
-          {
-            "source": "backports.zstd",
-            "target": "tornado"
-          },
-          {
-            "source": "backports.zstd",
             "target": "watchfiles"
           },
           {
@@ -1357,16 +1293,8 @@
             "target": "websockets"
           },
           {
-            "source": "backports.zstd",
-            "target": "yarl"
-          },
-          {
             "source": "bash",
             "target": "numba"
-          },
-          {
-            "source": "bcrypt",
-            "target": "aiohttp"
           },
           {
             "source": "bcrypt",
@@ -1386,7 +1314,7 @@
           },
           {
             "source": "bcrypt",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "bcrypt",
@@ -1410,10 +1338,6 @@
           },
           {
             "source": "bcrypt",
-            "target": "numpy"
-          },
-          {
-            "source": "bcrypt",
             "target": "pillow"
           },
           {
@@ -1430,23 +1354,7 @@
           },
           {
             "source": "bcrypt",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "bcrypt",
             "target": "pyzmq"
-          },
-          {
-            "source": "bcrypt",
-            "target": "scipy"
-          },
-          {
-            "source": "bcrypt",
-            "target": "time-machine"
-          },
-          {
-            "source": "bcrypt",
-            "target": "tornado"
           },
           {
             "source": "bcrypt",
@@ -1459,10 +1367,6 @@
           {
             "source": "bcrypt",
             "target": "websockets"
-          },
-          {
-            "source": "bcrypt",
-            "target": "yarl"
           },
           {
             "source": "benchmark",
@@ -1786,7 +1690,7 @@
           },
           {
             "source": "brotli",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "brotli",
@@ -1819,10 +1723,6 @@
           {
             "source": "brotli",
             "target": "numba"
-          },
-          {
-            "source": "brotli",
-            "target": "numpy"
           },
           {
             "source": "brotli",
@@ -1866,14 +1766,6 @@
           },
           {
             "source": "brotli",
-            "target": "time-machine"
-          },
-          {
-            "source": "brotli",
-            "target": "tornado"
-          },
-          {
-            "source": "brotli",
             "target": "watchfiles"
           },
           {
@@ -1883,10 +1775,6 @@
           {
             "source": "brotli",
             "target": "websockets"
-          },
-          {
-            "source": "brotli",
-            "target": "yarl"
           },
           {
             "source": "brush",
@@ -2014,10 +1902,6 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "aiohttp"
-          },
-          {
-            "source": "cargo-auditable",
             "target": "ast-serialize"
           },
           {
@@ -2062,7 +1946,7 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "cargo-auditable",
@@ -2083,10 +1967,6 @@
           {
             "source": "cargo-auditable",
             "target": "numba"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "numpy"
           },
           {
             "source": "cargo-auditable",
@@ -2126,10 +2006,6 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "cargo-auditable",
             "target": "pyzmq"
           },
           {
@@ -2146,15 +2022,7 @@
           },
           {
             "source": "cargo-auditable",
-            "target": "scipy"
-          },
-          {
-            "source": "cargo-auditable",
             "target": "time-machine"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "tornado"
           },
           {
             "source": "cargo-auditable",
@@ -2171,14 +2039,6 @@
           {
             "source": "cargo-auditable",
             "target": "websockets"
-          },
-          {
-            "source": "cargo-auditable",
-            "target": "yarl"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "aiohttp"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2250,7 +2110,7 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2275,10 +2135,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "numba"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "numpy"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2322,10 +2178,6 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "pyzmq"
           },
           {
@@ -2354,19 +2206,11 @@
           },
           {
             "source": "cargo-bundle-licenses",
-            "target": "scipy"
-          },
-          {
-            "source": "cargo-bundle-licenses",
             "target": "texlab"
           },
           {
             "source": "cargo-bundle-licenses",
             "target": "time-machine"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "tornado"
           },
           {
             "source": "cargo-bundle-licenses",
@@ -2383,10 +2227,6 @@
           {
             "source": "cargo-bundle-licenses",
             "target": "websockets"
-          },
-          {
-            "source": "cargo-bundle-licenses",
-            "target": "yarl"
           },
           {
             "source": "cargo-c",
@@ -2542,7 +2382,7 @@
           },
           {
             "source": "cffi",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "cffi",
@@ -2563,10 +2403,6 @@
           {
             "source": "cffi",
             "target": "numba"
-          },
-          {
-            "source": "cffi",
-            "target": "numpy"
           },
           {
             "source": "cffi",
@@ -2594,18 +2430,6 @@
           },
           {
             "source": "cffi",
-            "target": "scipy"
-          },
-          {
-            "source": "cffi",
-            "target": "time-machine"
-          },
-          {
-            "source": "cffi",
-            "target": "tornado"
-          },
-          {
-            "source": "cffi",
             "target": "trio"
           },
           {
@@ -2623,10 +2447,6 @@
           {
             "source": "cffi",
             "target": "xattr"
-          },
-          {
-            "source": "cffi",
-            "target": "yarl"
           },
           {
             "source": "cffi",
@@ -2658,10 +2478,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "ast-serialize"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "backports.zstd"
           },
           {
@@ -2675,18 +2491,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "chardet"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "conda"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "conda-standalone"
           },
           {
             "source": "clang-compiler-activation",
@@ -2726,11 +2530,11 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "intel-compiler-repack"
+            "target": "hypothesis"
           },
           {
             "source": "clang-compiler-activation",
-            "target": "kealib"
+            "target": "intel-compiler-repack"
           },
           {
             "source": "clang-compiler-activation",
@@ -2758,10 +2562,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "multidict"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "mvapich"
           },
           {
@@ -2782,15 +2582,7 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "numpy"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "pandas"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "pillow"
           },
           {
             "source": "clang-compiler-activation",
@@ -2799,14 +2591,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "pthread-stubs"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "py-rattler"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "pyarrow"
           },
           {
             "source": "clang-compiler-activation",
@@ -2834,10 +2618,6 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "pyzmq"
           },
           {
@@ -2847,10 +2627,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "regress"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "scipy"
           },
           {
             "source": "clang-compiler-activation",
@@ -2867,10 +2643,6 @@
           {
             "source": "clang-compiler-activation",
             "target": "tbb"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "time-machine"
           },
           {
             "source": "clang-compiler-activation",
@@ -2894,23 +2666,11 @@
           },
           {
             "source": "clang-compiler-activation",
-            "target": "wcwidth"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "websockets"
-          },
-          {
-            "source": "clang-compiler-activation",
             "target": "winpthreads"
           },
           {
             "source": "clang-compiler-activation",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "clang-compiler-activation",
-            "target": "yarl"
           },
           {
             "source": "clangdev",
@@ -2919,10 +2679,6 @@
           {
             "source": "clangdev",
             "target": "arrow-cpp"
-          },
-          {
-            "source": "clangdev",
-            "target": "ast-serialize"
           },
           {
             "source": "clangdev",
@@ -2954,19 +2710,7 @@
           },
           {
             "source": "clangdev",
-            "target": "conda"
-          },
-          {
-            "source": "clangdev",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "clangdev",
             "target": "conda-mirror"
-          },
-          {
-            "source": "clangdev",
-            "target": "conda-standalone"
           },
           {
             "source": "clangdev",
@@ -3022,11 +2766,11 @@
           },
           {
             "source": "clangdev",
-            "target": "intel-compiler-repack"
+            "target": "hypothesis"
           },
           {
             "source": "clangdev",
-            "target": "kealib"
+            "target": "intel-compiler-repack"
           },
           {
             "source": "clangdev",
@@ -3062,10 +2806,6 @@
           },
           {
             "source": "clangdev",
-            "target": "multidict"
-          },
-          {
-            "source": "clangdev",
             "target": "mvapich"
           },
           {
@@ -3090,10 +2830,6 @@
           },
           {
             "source": "clangdev",
-            "target": "numpy"
-          },
-          {
-            "source": "clangdev",
             "target": "oclgrind"
           },
           {
@@ -3110,10 +2846,6 @@
           },
           {
             "source": "clangdev",
-            "target": "pillow"
-          },
-          {
-            "source": "clangdev",
             "target": "pocl"
           },
           {
@@ -3127,10 +2859,6 @@
           {
             "source": "clangdev",
             "target": "pthread-stubs"
-          },
-          {
-            "source": "clangdev",
-            "target": "py-rattler"
           },
           {
             "source": "clangdev",
@@ -3167,10 +2895,6 @@
           {
             "source": "clangdev",
             "target": "pytokens"
-          },
-          {
-            "source": "clangdev",
-            "target": "pytorch-cpu"
           },
           {
             "source": "clangdev",
@@ -3214,10 +2938,6 @@
           },
           {
             "source": "clangdev",
-            "target": "time-machine"
-          },
-          {
-            "source": "clangdev",
             "target": "tornado"
           },
           {
@@ -3242,14 +2962,6 @@
           },
           {
             "source": "clangdev",
-            "target": "wcwidth"
-          },
-          {
-            "source": "clangdev",
-            "target": "websockets"
-          },
-          {
-            "source": "clangdev",
             "target": "winpthreads"
           },
           {
@@ -3259,10 +2971,6 @@
           {
             "source": "clangdev",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "clangdev",
-            "target": "yarl"
           },
           {
             "source": "cli11",
@@ -4650,6 +4358,10 @@
           },
           {
             "source": "coverage",
+            "target": "hypothesis"
+          },
+          {
+            "source": "coverage",
             "target": "intel_repack"
           },
           {
@@ -4894,6 +4606,10 @@
           },
           {
             "source": "ctng-compilers",
+            "target": "hypothesis"
+          },
+          {
+            "source": "ctng-compilers",
             "target": "intel-compiler-repack"
           },
           {
@@ -4954,10 +4670,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "numpy"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "pandas"
           },
           {
@@ -5006,10 +4718,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "pyzmq"
           },
           {
@@ -5039,10 +4747,6 @@
           {
             "source": "ctng-compilers",
             "target": "tbb"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "time-machine"
           },
           {
             "source": "ctng-compilers",
@@ -5079,10 +4783,6 @@
           {
             "source": "ctng-compilers",
             "target": "xorg-xf86vidmodeproto"
-          },
-          {
-            "source": "ctng-compilers",
-            "target": "yarl"
           },
           {
             "source": "cuda-cccl",
@@ -5578,10 +5278,6 @@
           },
           {
             "source": "debugpy",
-            "target": "aiohttp"
-          },
-          {
-            "source": "debugpy",
             "target": "ast-serialize"
           },
           {
@@ -5598,7 +5294,7 @@
           },
           {
             "source": "debugpy",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "debugpy",
@@ -5622,10 +5318,6 @@
           },
           {
             "source": "debugpy",
-            "target": "numpy"
-          },
-          {
-            "source": "debugpy",
             "target": "pillow"
           },
           {
@@ -5642,23 +5334,7 @@
           },
           {
             "source": "debugpy",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "debugpy",
             "target": "pyzmq"
-          },
-          {
-            "source": "debugpy",
-            "target": "scipy"
-          },
-          {
-            "source": "debugpy",
-            "target": "time-machine"
-          },
-          {
-            "source": "debugpy",
-            "target": "tornado"
           },
           {
             "source": "debugpy",
@@ -5671,10 +5347,6 @@
           {
             "source": "debugpy",
             "target": "websockets"
-          },
-          {
-            "source": "debugpy",
-            "target": "yarl"
           },
           {
             "source": "double-conversion",
@@ -5694,10 +5366,6 @@
           },
           {
             "source": "dulwich",
-            "target": "aiohttp"
-          },
-          {
-            "source": "dulwich",
             "target": "ast-serialize"
           },
           {
@@ -5714,7 +5382,7 @@
           },
           {
             "source": "dulwich",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "dulwich",
@@ -5735,10 +5403,6 @@
           {
             "source": "dulwich",
             "target": "numba"
-          },
-          {
-            "source": "dulwich",
-            "target": "numpy"
           },
           {
             "source": "dulwich",
@@ -5766,18 +5430,6 @@
           },
           {
             "source": "dulwich",
-            "target": "scipy"
-          },
-          {
-            "source": "dulwich",
-            "target": "time-machine"
-          },
-          {
-            "source": "dulwich",
-            "target": "tornado"
-          },
-          {
-            "source": "dulwich",
             "target": "watchfiles"
           },
           {
@@ -5787,10 +5439,6 @@
           {
             "source": "dulwich",
             "target": "websockets"
-          },
-          {
-            "source": "dulwich",
-            "target": "yarl"
           },
           {
             "source": "eigen",
@@ -5930,10 +5578,6 @@
           },
           {
             "source": "falcon",
-            "target": "aiohttp"
-          },
-          {
-            "source": "falcon",
             "target": "ast-serialize"
           },
           {
@@ -5950,7 +5594,7 @@
           },
           {
             "source": "falcon",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "falcon",
@@ -5974,10 +5618,6 @@
           },
           {
             "source": "falcon",
-            "target": "numpy"
-          },
-          {
-            "source": "falcon",
             "target": "pillow"
           },
           {
@@ -5994,23 +5634,7 @@
           },
           {
             "source": "falcon",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "falcon",
             "target": "pyzmq"
-          },
-          {
-            "source": "falcon",
-            "target": "scipy"
-          },
-          {
-            "source": "falcon",
-            "target": "time-machine"
-          },
-          {
-            "source": "falcon",
-            "target": "tornado"
           },
           {
             "source": "falcon",
@@ -6023,10 +5647,6 @@
           {
             "source": "falcon",
             "target": "websockets"
-          },
-          {
-            "source": "falcon",
-            "target": "yarl"
           },
           {
             "source": "fast_float",
@@ -6034,10 +5654,6 @@
           },
           {
             "source": "fastar",
-            "target": "aiohttp"
-          },
-          {
-            "source": "fastar",
             "target": "ast-serialize"
           },
           {
@@ -6054,7 +5670,7 @@
           },
           {
             "source": "fastar",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "fastar",
@@ -6078,10 +5694,6 @@
           },
           {
             "source": "fastar",
-            "target": "numpy"
-          },
-          {
-            "source": "fastar",
             "target": "pillow"
           },
           {
@@ -6098,23 +5710,7 @@
           },
           {
             "source": "fastar",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "fastar",
             "target": "pyzmq"
-          },
-          {
-            "source": "fastar",
-            "target": "scipy"
-          },
-          {
-            "source": "fastar",
-            "target": "time-machine"
-          },
-          {
-            "source": "fastar",
-            "target": "tornado"
           },
           {
             "source": "fastar",
@@ -6127,10 +5723,6 @@
           {
             "source": "fastar",
             "target": "websockets"
-          },
-          {
-            "source": "fastar",
-            "target": "yarl"
           },
           {
             "source": "ffmpeg",
@@ -6810,10 +6402,6 @@
           },
           {
             "source": "git",
-            "target": "aiohttp"
-          },
-          {
-            "source": "git",
             "target": "ast-serialize"
           },
           {
@@ -6842,11 +6430,11 @@
           },
           {
             "source": "git",
-            "target": "gmpy2"
+            "target": "go-licenses"
           },
           {
             "source": "git",
-            "target": "go-licenses"
+            "target": "hypothesis"
           },
           {
             "source": "git",
@@ -6878,10 +6466,6 @@
           },
           {
             "source": "git",
-            "target": "numpy"
-          },
-          {
-            "source": "git",
             "target": "pillow"
           },
           {
@@ -6898,23 +6482,7 @@
           },
           {
             "source": "git",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "git",
             "target": "pyzmq"
-          },
-          {
-            "source": "git",
-            "target": "scipy"
-          },
-          {
-            "source": "git",
-            "target": "time-machine"
-          },
-          {
-            "source": "git",
-            "target": "tornado"
           },
           {
             "source": "git",
@@ -6927,10 +6495,6 @@
           {
             "source": "git",
             "target": "websockets"
-          },
-          {
-            "source": "git",
-            "target": "yarl"
           },
           {
             "source": "glib",
@@ -7434,10 +6998,6 @@
           },
           {
             "source": "greenlet",
-            "target": "aiohttp"
-          },
-          {
-            "source": "greenlet",
             "target": "ast-serialize"
           },
           {
@@ -7454,7 +7014,7 @@
           },
           {
             "source": "greenlet",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "greenlet",
@@ -7478,10 +7038,6 @@
           },
           {
             "source": "greenlet",
-            "target": "numpy"
-          },
-          {
-            "source": "greenlet",
             "target": "pillow"
           },
           {
@@ -7498,23 +7054,7 @@
           },
           {
             "source": "greenlet",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "greenlet",
             "target": "pyzmq"
-          },
-          {
-            "source": "greenlet",
-            "target": "scipy"
-          },
-          {
-            "source": "greenlet",
-            "target": "time-machine"
-          },
-          {
-            "source": "greenlet",
-            "target": "tornado"
           },
           {
             "source": "greenlet",
@@ -7527,10 +7067,6 @@
           {
             "source": "greenlet",
             "target": "websockets"
-          },
-          {
-            "source": "greenlet",
-            "target": "yarl"
           },
           {
             "source": "grep",
@@ -7738,10 +7274,6 @@
           },
           {
             "source": "httptools",
-            "target": "aiohttp"
-          },
-          {
-            "source": "httptools",
             "target": "ast-serialize"
           },
           {
@@ -7758,7 +7290,7 @@
           },
           {
             "source": "httptools",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "httptools",
@@ -7782,10 +7314,6 @@
           },
           {
             "source": "httptools",
-            "target": "numpy"
-          },
-          {
-            "source": "httptools",
             "target": "pillow"
           },
           {
@@ -7802,23 +7330,7 @@
           },
           {
             "source": "httptools",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "httptools",
             "target": "pyzmq"
-          },
-          {
-            "source": "httptools",
-            "target": "scipy"
-          },
-          {
-            "source": "httptools",
-            "target": "time-machine"
-          },
-          {
-            "source": "httptools",
-            "target": "tornado"
           },
           {
             "source": "httptools",
@@ -7833,7 +7345,103 @@
             "target": "websockets"
           },
           {
-            "source": "httptools",
+            "source": "hypothesis",
+            "target": "aiohttp"
+          },
+          {
+            "source": "hypothesis",
+            "target": "ast-serialize"
+          },
+          {
+            "source": "hypothesis",
+            "target": "conda"
+          },
+          {
+            "source": "hypothesis",
+            "target": "conda-forge-ci-setup"
+          },
+          {
+            "source": "hypothesis",
+            "target": "conda-standalone"
+          },
+          {
+            "source": "hypothesis",
+            "target": "gmpy2"
+          },
+          {
+            "source": "hypothesis",
+            "target": "kealib"
+          },
+          {
+            "source": "hypothesis",
+            "target": "libcst"
+          },
+          {
+            "source": "hypothesis",
+            "target": "multidict"
+          },
+          {
+            "source": "hypothesis",
+            "target": "nh3"
+          },
+          {
+            "source": "hypothesis",
+            "target": "numba"
+          },
+          {
+            "source": "hypothesis",
+            "target": "numpy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pillow"
+          },
+          {
+            "source": "hypothesis",
+            "target": "py-rattler"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pyarrow"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pynacl"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pytorch-cpu"
+          },
+          {
+            "source": "hypothesis",
+            "target": "pyzmq"
+          },
+          {
+            "source": "hypothesis",
+            "target": "scipy"
+          },
+          {
+            "source": "hypothesis",
+            "target": "time-machine"
+          },
+          {
+            "source": "hypothesis",
+            "target": "tornado"
+          },
+          {
+            "source": "hypothesis",
+            "target": "watchfiles"
+          },
+          {
+            "source": "hypothesis",
+            "target": "wcwidth"
+          },
+          {
+            "source": "hypothesis",
+            "target": "websockets"
+          },
+          {
+            "source": "hypothesis",
             "target": "yarl"
           },
           {
@@ -8146,10 +7754,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "aiohttp"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "ast-serialize"
           },
           {
@@ -8166,7 +7770,7 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "lazy-object-proxy",
@@ -8190,10 +7794,6 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "numpy"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "pillow"
           },
           {
@@ -8210,23 +7810,7 @@
           },
           {
             "source": "lazy-object-proxy",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "lazy-object-proxy",
             "target": "pyzmq"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "scipy"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "time-machine"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "tornado"
           },
           {
             "source": "lazy-object-proxy",
@@ -8239,10 +7823,6 @@
           {
             "source": "lazy-object-proxy",
             "target": "websockets"
-          },
-          {
-            "source": "lazy-object-proxy",
-            "target": "yarl"
           },
           {
             "source": "lcms2",
@@ -11422,10 +11002,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "aiohttp"
-          },
-          {
-            "source": "markupsafe",
             "target": "ast-serialize"
           },
           {
@@ -11446,7 +11022,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "markupsafe",
@@ -11482,10 +11058,6 @@
           },
           {
             "source": "markupsafe",
-            "target": "numpy"
-          },
-          {
-            "source": "markupsafe",
             "target": "pillow"
           },
           {
@@ -11518,19 +11090,7 @@
           },
           {
             "source": "markupsafe",
-            "target": "scipy"
-          },
-          {
-            "source": "markupsafe",
             "target": "systemd"
-          },
-          {
-            "source": "markupsafe",
-            "target": "time-machine"
-          },
-          {
-            "source": "markupsafe",
-            "target": "tornado"
           },
           {
             "source": "markupsafe",
@@ -11543,14 +11103,6 @@
           {
             "source": "markupsafe",
             "target": "websockets"
-          },
-          {
-            "source": "markupsafe",
-            "target": "yarl"
-          },
-          {
-            "source": "matplotlib",
-            "target": "aiohttp"
           },
           {
             "source": "matplotlib",
@@ -11570,7 +11122,7 @@
           },
           {
             "source": "matplotlib",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "matplotlib",
@@ -11594,10 +11146,6 @@
           },
           {
             "source": "matplotlib",
-            "target": "numpy"
-          },
-          {
-            "source": "matplotlib",
             "target": "pillow"
           },
           {
@@ -11614,23 +11162,7 @@
           },
           {
             "source": "matplotlib",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "matplotlib",
             "target": "pyzmq"
-          },
-          {
-            "source": "matplotlib",
-            "target": "scipy"
-          },
-          {
-            "source": "matplotlib",
-            "target": "time-machine"
-          },
-          {
-            "source": "matplotlib",
-            "target": "tornado"
           },
           {
             "source": "matplotlib",
@@ -11643,10 +11175,6 @@
           {
             "source": "matplotlib",
             "target": "websockets"
-          },
-          {
-            "source": "matplotlib",
-            "target": "yarl"
           },
           {
             "source": "mbedtls",
@@ -11962,10 +11490,6 @@
           },
           {
             "source": "mypy",
-            "target": "aiohttp"
-          },
-          {
-            "source": "mypy",
             "target": "ast-serialize"
           },
           {
@@ -11994,7 +11518,7 @@
           },
           {
             "source": "mypy",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "mypy",
@@ -12022,10 +11546,6 @@
           },
           {
             "source": "mypy",
-            "target": "numpy"
-          },
-          {
-            "source": "mypy",
             "target": "pillow"
           },
           {
@@ -12046,23 +11566,7 @@
           },
           {
             "source": "mypy",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "mypy",
             "target": "pyzmq"
-          },
-          {
-            "source": "mypy",
-            "target": "scipy"
-          },
-          {
-            "source": "mypy",
-            "target": "time-machine"
-          },
-          {
-            "source": "mypy",
-            "target": "tornado"
           },
           {
             "source": "mypy",
@@ -12075,10 +11579,6 @@
           {
             "source": "mypy",
             "target": "websockets"
-          },
-          {
-            "source": "mypy",
-            "target": "yarl"
           },
           {
             "source": "nanoarrow",
@@ -13182,10 +12682,6 @@
           },
           {
             "source": "nodejs",
-            "target": "aiohttp"
-          },
-          {
-            "source": "nodejs",
             "target": "arrow-cpp"
           },
           {
@@ -13206,7 +12702,7 @@
           },
           {
             "source": "nodejs",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "nodejs",
@@ -13238,10 +12734,6 @@
           },
           {
             "source": "nodejs",
-            "target": "numpy"
-          },
-          {
-            "source": "nodejs",
             "target": "pillow"
           },
           {
@@ -13270,27 +12762,11 @@
           },
           {
             "source": "nodejs",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "nodejs",
             "target": "pyzmq"
           },
           {
             "source": "nodejs",
             "target": "qt-webengine"
-          },
-          {
-            "source": "nodejs",
-            "target": "scipy"
-          },
-          {
-            "source": "nodejs",
-            "target": "time-machine"
-          },
-          {
-            "source": "nodejs",
-            "target": "tornado"
           },
           {
             "source": "nodejs",
@@ -13303,10 +12779,6 @@
           {
             "source": "nodejs",
             "target": "websockets"
-          },
-          {
-            "source": "nodejs",
-            "target": "yarl"
           },
           {
             "source": "nsight-compute",
@@ -13339,10 +12811,6 @@
           {
             "source": "numba",
             "target": "pyarrow"
-          },
-          {
-            "source": "numpy",
-            "target": "aiohttp"
           },
           {
             "source": "numpy",
@@ -13387,6 +12855,10 @@
           {
             "source": "numpy",
             "target": "gmpy2"
+          },
+          {
+            "source": "numpy",
+            "target": "hypothesis"
           },
           {
             "source": "numpy",
@@ -13466,14 +12938,6 @@
           },
           {
             "source": "numpy",
-            "target": "time-machine"
-          },
-          {
-            "source": "numpy",
-            "target": "tornado"
-          },
-          {
-            "source": "numpy",
             "target": "watchfiles"
           },
           {
@@ -13483,10 +12947,6 @@
           {
             "source": "numpy",
             "target": "websockets"
-          },
-          {
-            "source": "numpy",
-            "target": "yarl"
           },
           {
             "source": "nushell",
@@ -13754,10 +13214,6 @@
           },
           {
             "source": "openssl",
-            "target": "aiohttp"
-          },
-          {
-            "source": "openssl",
             "target": "arrow-cpp"
           },
           {
@@ -13810,10 +13266,6 @@
           },
           {
             "source": "openssl",
-            "target": "gmpy2"
-          },
-          {
-            "source": "openssl",
             "target": "google-cloud-cpp-core"
           },
           {
@@ -13823,6 +13275,10 @@
           {
             "source": "openssl",
             "target": "hdf5"
+          },
+          {
+            "source": "openssl",
+            "target": "hypothesis"
           },
           {
             "source": "openssl",
@@ -13898,10 +13354,6 @@
           },
           {
             "source": "openssl",
-            "target": "numpy"
-          },
-          {
-            "source": "openssl",
             "target": "nushell"
           },
           {
@@ -13946,10 +13398,6 @@
           },
           {
             "source": "openssl",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "openssl",
             "target": "pyzmq"
           },
           {
@@ -13974,10 +13422,6 @@
           },
           {
             "source": "openssl",
-            "target": "scipy"
-          },
-          {
-            "source": "openssl",
             "target": "sigtool"
           },
           {
@@ -13998,14 +13442,6 @@
           },
           {
             "source": "openssl",
-            "target": "time-machine"
-          },
-          {
-            "source": "openssl",
-            "target": "tornado"
-          },
-          {
-            "source": "openssl",
             "target": "ttyd"
           },
           {
@@ -14023,10 +13459,6 @@
           {
             "source": "openssl",
             "target": "wget"
-          },
-          {
-            "source": "openssl",
-            "target": "yarl"
           },
           {
             "source": "openvino",
@@ -14050,10 +13482,6 @@
           },
           {
             "source": "pandas",
-            "target": "aiohttp"
-          },
-          {
-            "source": "pandas",
             "target": "ast-serialize"
           },
           {
@@ -14070,7 +13498,7 @@
           },
           {
             "source": "pandas",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pandas",
@@ -14094,10 +13522,6 @@
           },
           {
             "source": "pandas",
-            "target": "numpy"
-          },
-          {
-            "source": "pandas",
             "target": "pillow"
           },
           {
@@ -14114,23 +13538,7 @@
           },
           {
             "source": "pandas",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pandas",
             "target": "pyzmq"
-          },
-          {
-            "source": "pandas",
-            "target": "scipy"
-          },
-          {
-            "source": "pandas",
-            "target": "time-machine"
-          },
-          {
-            "source": "pandas",
-            "target": "tornado"
           },
           {
             "source": "pandas",
@@ -14143,14 +13551,6 @@
           {
             "source": "pandas",
             "target": "websockets"
-          },
-          {
-            "source": "pandas",
-            "target": "yarl"
-          },
-          {
-            "source": "pandoc",
-            "target": "aiohttp"
           },
           {
             "source": "pandoc",
@@ -14170,7 +13570,7 @@
           },
           {
             "source": "pandoc",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pandoc",
@@ -14198,10 +13598,6 @@
           },
           {
             "source": "pandoc",
-            "target": "numpy"
-          },
-          {
-            "source": "pandoc",
             "target": "pillow"
           },
           {
@@ -14218,27 +13614,11 @@
           },
           {
             "source": "pandoc",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pandoc",
             "target": "pyzmq"
           },
           {
             "source": "pandoc",
             "target": "rdma-core"
-          },
-          {
-            "source": "pandoc",
-            "target": "scipy"
-          },
-          {
-            "source": "pandoc",
-            "target": "time-machine"
-          },
-          {
-            "source": "pandoc",
-            "target": "tornado"
           },
           {
             "source": "pandoc",
@@ -14251,10 +13631,6 @@
           {
             "source": "pandoc",
             "target": "websockets"
-          },
-          {
-            "source": "pandoc",
-            "target": "yarl"
           },
           {
             "source": "pango",
@@ -15290,10 +14666,6 @@
           },
           {
             "source": "playwright",
-            "target": "aiohttp"
-          },
-          {
-            "source": "playwright",
             "target": "ast-serialize"
           },
           {
@@ -15310,7 +14682,7 @@
           },
           {
             "source": "playwright",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "playwright",
@@ -15334,10 +14706,6 @@
           },
           {
             "source": "playwright",
-            "target": "numpy"
-          },
-          {
-            "source": "playwright",
             "target": "pillow"
           },
           {
@@ -15354,23 +14722,7 @@
           },
           {
             "source": "playwright",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "playwright",
             "target": "pyzmq"
-          },
-          {
-            "source": "playwright",
-            "target": "scipy"
-          },
-          {
-            "source": "playwright",
-            "target": "time-machine"
-          },
-          {
-            "source": "playwright",
-            "target": "tornado"
           },
           {
             "source": "playwright",
@@ -15383,10 +14735,6 @@
           {
             "source": "playwright",
             "target": "websockets"
-          },
-          {
-            "source": "playwright",
-            "target": "yarl"
           },
           {
             "source": "pnpm-licenses",
@@ -15466,10 +14814,6 @@
           },
           {
             "source": "protobuf",
-            "target": "aiohttp"
-          },
-          {
-            "source": "protobuf",
             "target": "ast-serialize"
           },
           {
@@ -15486,11 +14830,11 @@
           },
           {
             "source": "protobuf",
-            "target": "gmpy2"
+            "target": "grpc-cpp"
           },
           {
             "source": "protobuf",
-            "target": "grpc-cpp"
+            "target": "hypothesis"
           },
           {
             "source": "protobuf",
@@ -15511,10 +14855,6 @@
           {
             "source": "protobuf",
             "target": "numba"
-          },
-          {
-            "source": "protobuf",
-            "target": "numpy"
           },
           {
             "source": "protobuf",
@@ -15542,18 +14882,6 @@
           },
           {
             "source": "protobuf",
-            "target": "scipy"
-          },
-          {
-            "source": "protobuf",
-            "target": "time-machine"
-          },
-          {
-            "source": "protobuf",
-            "target": "tornado"
-          },
-          {
-            "source": "protobuf",
             "target": "watchfiles"
           },
           {
@@ -15563,14 +14891,6 @@
           {
             "source": "protobuf",
             "target": "websockets"
-          },
-          {
-            "source": "protobuf",
-            "target": "yarl"
-          },
-          {
-            "source": "psutil",
-            "target": "aiohttp"
           },
           {
             "source": "psutil",
@@ -15594,7 +14914,7 @@
           },
           {
             "source": "psutil",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "psutil",
@@ -15622,10 +14942,6 @@
           },
           {
             "source": "psutil",
-            "target": "numpy"
-          },
-          {
-            "source": "psutil",
             "target": "pillow"
           },
           {
@@ -15642,23 +14958,7 @@
           },
           {
             "source": "psutil",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "psutil",
             "target": "pyzmq"
-          },
-          {
-            "source": "psutil",
-            "target": "scipy"
-          },
-          {
-            "source": "psutil",
-            "target": "time-machine"
-          },
-          {
-            "source": "psutil",
-            "target": "tornado"
           },
           {
             "source": "psutil",
@@ -15671,10 +14971,6 @@
           {
             "source": "psutil",
             "target": "websockets"
-          },
-          {
-            "source": "psutil",
-            "target": "yarl"
           },
           {
             "source": "pthread-stubs",
@@ -15782,10 +15078,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "aiohttp"
-          },
-          {
-            "source": "pydantic-core",
             "target": "ast-serialize"
           },
           {
@@ -15802,7 +15094,7 @@
           },
           {
             "source": "pydantic-core",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pydantic-core",
@@ -15830,10 +15122,6 @@
           },
           {
             "source": "pydantic-core",
-            "target": "numpy"
-          },
-          {
-            "source": "pydantic-core",
             "target": "pillow"
           },
           {
@@ -15850,23 +15138,7 @@
           },
           {
             "source": "pydantic-core",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pydantic-core",
             "target": "pyzmq"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "scipy"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "time-machine"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "tornado"
           },
           {
             "source": "pydantic-core",
@@ -15879,10 +15151,6 @@
           {
             "source": "pydantic-core",
             "target": "websockets"
-          },
-          {
-            "source": "pydantic-core",
-            "target": "yarl"
           },
           {
             "source": "pygobject",
@@ -15902,10 +15170,6 @@
           },
           {
             "source": "pynacl",
-            "target": "aiohttp"
-          },
-          {
-            "source": "pynacl",
             "target": "ast-serialize"
           },
           {
@@ -15922,7 +15186,7 @@
           },
           {
             "source": "pynacl",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pynacl",
@@ -15943,10 +15207,6 @@
           {
             "source": "pynacl",
             "target": "numba"
-          },
-          {
-            "source": "pynacl",
-            "target": "numpy"
           },
           {
             "source": "pynacl",
@@ -15962,23 +15222,7 @@
           },
           {
             "source": "pynacl",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pynacl",
             "target": "pyzmq"
-          },
-          {
-            "source": "pynacl",
-            "target": "scipy"
-          },
-          {
-            "source": "pynacl",
-            "target": "time-machine"
-          },
-          {
-            "source": "pynacl",
-            "target": "tornado"
           },
           {
             "source": "pynacl",
@@ -15993,16 +15237,8 @@
             "target": "websockets"
           },
           {
-            "source": "pynacl",
-            "target": "yarl"
-          },
-          {
             "source": "pyobjc-core",
             "target": "pyobjc-framework-cocoa"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "aiohttp"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -16022,7 +15258,7 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -16043,10 +15279,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "numba"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "numpy"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -16066,23 +15298,7 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
             "target": "pyzmq"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "scipy"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "time-machine"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "tornado"
           },
           {
             "source": "pyobjc-framework-cocoa",
@@ -16095,10 +15311,6 @@
           {
             "source": "pyobjc-framework-cocoa",
             "target": "websockets"
-          },
-          {
-            "source": "pyobjc-framework-cocoa",
-            "target": "yarl"
           },
           {
             "source": "pyopencl",
@@ -16435,6 +15647,10 @@
           {
             "source": "python",
             "target": "httptools"
+          },
+          {
+            "source": "python",
+            "target": "hypothesis"
           },
           {
             "source": "python",
@@ -17118,10 +16334,6 @@
           },
           {
             "source": "pytokens",
-            "target": "aiohttp"
-          },
-          {
-            "source": "pytokens",
             "target": "ast-serialize"
           },
           {
@@ -17138,7 +16350,7 @@
           },
           {
             "source": "pytokens",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pytokens",
@@ -17162,10 +16374,6 @@
           },
           {
             "source": "pytokens",
-            "target": "numpy"
-          },
-          {
-            "source": "pytokens",
             "target": "pillow"
           },
           {
@@ -17182,23 +16390,7 @@
           },
           {
             "source": "pytokens",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pytokens",
             "target": "pyzmq"
-          },
-          {
-            "source": "pytokens",
-            "target": "scipy"
-          },
-          {
-            "source": "pytokens",
-            "target": "time-machine"
-          },
-          {
-            "source": "pytokens",
-            "target": "tornado"
           },
           {
             "source": "pytokens",
@@ -17211,10 +16403,6 @@
           {
             "source": "pytokens",
             "target": "websockets"
-          },
-          {
-            "source": "pytokens",
-            "target": "yarl"
           },
           {
             "source": "pytorch-cpu",
@@ -17258,10 +16446,6 @@
           },
           {
             "source": "pywin32",
-            "target": "aiohttp"
-          },
-          {
-            "source": "pywin32",
             "target": "ast-serialize"
           },
           {
@@ -17278,7 +16462,7 @@
           },
           {
             "source": "pywin32",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pywin32",
@@ -17299,10 +16483,6 @@
           {
             "source": "pywin32",
             "target": "numba"
-          },
-          {
-            "source": "pywin32",
-            "target": "numpy"
           },
           {
             "source": "pywin32",
@@ -17326,23 +16506,7 @@
           },
           {
             "source": "pywin32",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pywin32",
             "target": "pyzmq"
-          },
-          {
-            "source": "pywin32",
-            "target": "scipy"
-          },
-          {
-            "source": "pywin32",
-            "target": "time-machine"
-          },
-          {
-            "source": "pywin32",
-            "target": "tornado"
           },
           {
             "source": "pywin32",
@@ -17355,14 +16519,6 @@
           {
             "source": "pywin32",
             "target": "websockets"
-          },
-          {
-            "source": "pywin32",
-            "target": "yarl"
-          },
-          {
-            "source": "pywinpty",
-            "target": "aiohttp"
           },
           {
             "source": "pywinpty",
@@ -17382,7 +16538,7 @@
           },
           {
             "source": "pywinpty",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pywinpty",
@@ -17406,10 +16562,6 @@
           },
           {
             "source": "pywinpty",
-            "target": "numpy"
-          },
-          {
-            "source": "pywinpty",
             "target": "pillow"
           },
           {
@@ -17426,23 +16578,7 @@
           },
           {
             "source": "pywinpty",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pywinpty",
             "target": "pyzmq"
-          },
-          {
-            "source": "pywinpty",
-            "target": "scipy"
-          },
-          {
-            "source": "pywinpty",
-            "target": "time-machine"
-          },
-          {
-            "source": "pywinpty",
-            "target": "tornado"
           },
           {
             "source": "pywinpty",
@@ -17455,14 +16591,6 @@
           {
             "source": "pywinpty",
             "target": "websockets"
-          },
-          {
-            "source": "pywinpty",
-            "target": "yarl"
-          },
-          {
-            "source": "pyyaml",
-            "target": "aiohttp"
           },
           {
             "source": "pyyaml",
@@ -17486,7 +16614,7 @@
           },
           {
             "source": "pyyaml",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pyyaml",
@@ -17507,10 +16635,6 @@
           {
             "source": "pyyaml",
             "target": "numba"
-          },
-          {
-            "source": "pyyaml",
-            "target": "numpy"
           },
           {
             "source": "pyyaml",
@@ -17542,18 +16666,6 @@
           },
           {
             "source": "pyyaml",
-            "target": "scipy"
-          },
-          {
-            "source": "pyyaml",
-            "target": "time-machine"
-          },
-          {
-            "source": "pyyaml",
-            "target": "tornado"
-          },
-          {
-            "source": "pyyaml",
             "target": "watchdog"
           },
           {
@@ -17567,14 +16679,6 @@
           {
             "source": "pyyaml",
             "target": "websockets"
-          },
-          {
-            "source": "pyyaml",
-            "target": "yarl"
-          },
-          {
-            "source": "pyzmq",
-            "target": "aiohttp"
           },
           {
             "source": "pyzmq",
@@ -17594,7 +16698,7 @@
           },
           {
             "source": "pyzmq",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "pyzmq",
@@ -17618,10 +16722,6 @@
           },
           {
             "source": "pyzmq",
-            "target": "numpy"
-          },
-          {
-            "source": "pyzmq",
             "target": "pillow"
           },
           {
@@ -17638,22 +16738,6 @@
           },
           {
             "source": "pyzmq",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "pyzmq",
-            "target": "scipy"
-          },
-          {
-            "source": "pyzmq",
-            "target": "time-machine"
-          },
-          {
-            "source": "pyzmq",
-            "target": "tornado"
-          },
-          {
-            "source": "pyzmq",
             "target": "watchfiles"
           },
           {
@@ -17663,10 +16747,6 @@
           {
             "source": "pyzmq",
             "target": "websockets"
-          },
-          {
-            "source": "pyzmq",
-            "target": "yarl"
           },
           {
             "source": "qhull",
@@ -18262,10 +17342,6 @@
           },
           {
             "source": "regress",
-            "target": "aiohttp"
-          },
-          {
-            "source": "regress",
             "target": "ast-serialize"
           },
           {
@@ -18282,7 +17358,7 @@
           },
           {
             "source": "regress",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "regress",
@@ -18306,10 +17382,6 @@
           },
           {
             "source": "regress",
-            "target": "numpy"
-          },
-          {
-            "source": "regress",
             "target": "pillow"
           },
           {
@@ -18326,23 +17398,7 @@
           },
           {
             "source": "regress",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "regress",
             "target": "pyzmq"
-          },
-          {
-            "source": "regress",
-            "target": "scipy"
-          },
-          {
-            "source": "regress",
-            "target": "time-machine"
-          },
-          {
-            "source": "regress",
-            "target": "tornado"
           },
           {
             "source": "regress",
@@ -18355,10 +17411,6 @@
           {
             "source": "regress",
             "target": "websockets"
-          },
-          {
-            "source": "regress",
-            "target": "yarl"
           },
           {
             "source": "reproc",
@@ -18402,10 +17454,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "aiohttp"
-          },
-          {
-            "source": "rpds-py",
             "target": "ast-serialize"
           },
           {
@@ -18422,7 +17470,7 @@
           },
           {
             "source": "rpds-py",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "rpds-py",
@@ -18446,10 +17494,6 @@
           },
           {
             "source": "rpds-py",
-            "target": "numpy"
-          },
-          {
-            "source": "rpds-py",
             "target": "pillow"
           },
           {
@@ -18466,23 +17510,7 @@
           },
           {
             "source": "rpds-py",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "rpds-py",
             "target": "pyzmq"
-          },
-          {
-            "source": "rpds-py",
-            "target": "scipy"
-          },
-          {
-            "source": "rpds-py",
-            "target": "time-machine"
-          },
-          {
-            "source": "rpds-py",
-            "target": "tornado"
           },
           {
             "source": "rpds-py",
@@ -18497,16 +17525,8 @@
             "target": "websockets"
           },
           {
-            "source": "rpds-py",
-            "target": "yarl"
-          },
-          {
             "source": "rsync",
             "target": "aiohttp"
-          },
-          {
-            "source": "rsync",
-            "target": "ast-serialize"
           },
           {
             "source": "rsync",
@@ -18515,18 +17535,6 @@
           {
             "source": "rsync",
             "target": "chardet"
-          },
-          {
-            "source": "rsync",
-            "target": "conda"
-          },
-          {
-            "source": "rsync",
-            "target": "conda-forge-ci-setup"
-          },
-          {
-            "source": "rsync",
-            "target": "conda-standalone"
           },
           {
             "source": "rsync",
@@ -18558,7 +17566,7 @@
           },
           {
             "source": "rsync",
-            "target": "kealib"
+            "target": "hypothesis"
           },
           {
             "source": "rsync",
@@ -18578,10 +17586,6 @@
           },
           {
             "source": "rsync",
-            "target": "multidict"
-          },
-          {
-            "source": "rsync",
             "target": "mypy"
           },
           {
@@ -18594,23 +17598,7 @@
           },
           {
             "source": "rsync",
-            "target": "numpy"
-          },
-          {
-            "source": "rsync",
             "target": "pandas"
-          },
-          {
-            "source": "rsync",
-            "target": "pillow"
-          },
-          {
-            "source": "rsync",
-            "target": "py-rattler"
-          },
-          {
-            "source": "rsync",
-            "target": "pyarrow"
           },
           {
             "source": "rsync",
@@ -18654,15 +17642,7 @@
           },
           {
             "source": "rsync",
-            "target": "scipy"
-          },
-          {
-            "source": "rsync",
             "target": "simplejson"
-          },
-          {
-            "source": "rsync",
-            "target": "time-machine"
           },
           {
             "source": "rsync",
@@ -18681,22 +17661,6 @@
             "target": "watchfiles"
           },
           {
-            "source": "rsync",
-            "target": "wcwidth"
-          },
-          {
-            "source": "rsync",
-            "target": "websockets"
-          },
-          {
-            "source": "rsync",
-            "target": "yarl"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "aiohttp"
-          },
-          {
             "source": "ruamel.yaml.clib",
             "target": "ast-serialize"
           },
@@ -18714,7 +17678,7 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -18738,10 +17702,6 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "numpy"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "pillow"
           },
           {
@@ -18758,23 +17718,7 @@
           },
           {
             "source": "ruamel.yaml.clib",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "ruamel.yaml.clib",
             "target": "pyzmq"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "scipy"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "time-machine"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "tornado"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -18787,14 +17731,6 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "websockets"
-          },
-          {
-            "source": "ruamel.yaml.clib",
-            "target": "yarl"
-          },
-          {
-            "source": "ruamel",
-            "target": "aiohttp"
           },
           {
             "source": "ruamel",
@@ -18814,7 +17750,7 @@
           },
           {
             "source": "ruamel",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "ruamel",
@@ -18838,10 +17774,6 @@
           },
           {
             "source": "ruamel",
-            "target": "numpy"
-          },
-          {
-            "source": "ruamel",
             "target": "pillow"
           },
           {
@@ -18858,23 +17790,7 @@
           },
           {
             "source": "ruamel",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "ruamel",
             "target": "pyzmq"
-          },
-          {
-            "source": "ruamel",
-            "target": "scipy"
-          },
-          {
-            "source": "ruamel",
-            "target": "time-machine"
-          },
-          {
-            "source": "ruamel",
-            "target": "tornado"
           },
           {
             "source": "ruamel",
@@ -18887,10 +17803,6 @@
           {
             "source": "ruamel",
             "target": "websockets"
-          },
-          {
-            "source": "ruamel",
-            "target": "yarl"
           },
           {
             "source": "ruby",
@@ -19018,6 +17930,10 @@
           },
           {
             "source": "sed",
+            "target": "hypothesis"
+          },
+          {
+            "source": "sed",
             "target": "kealib"
           },
           {
@@ -19070,10 +17986,6 @@
           },
           {
             "source": "sed",
-            "target": "numpy"
-          },
-          {
-            "source": "sed",
             "target": "pandas"
           },
           {
@@ -19111,10 +18023,6 @@
           {
             "source": "sed",
             "target": "pytokens"
-          },
-          {
-            "source": "sed",
-            "target": "pytorch-cpu"
           },
           {
             "source": "sed",
@@ -19258,15 +18166,7 @@
           },
           {
             "source": "sed",
-            "target": "scipy"
-          },
-          {
-            "source": "sed",
             "target": "simplejson"
-          },
-          {
-            "source": "sed",
-            "target": "time-machine"
           },
           {
             "source": "sed",
@@ -19295,10 +18195,6 @@
           {
             "source": "sed",
             "target": "xorg-libx11"
-          },
-          {
-            "source": "sed",
-            "target": "yarl"
           },
           {
             "source": "sed",
@@ -19674,10 +18570,6 @@
           },
           {
             "source": "tornado",
-            "target": "aiohttp"
-          },
-          {
-            "source": "tornado",
             "target": "ast-serialize"
           },
           {
@@ -19694,7 +18586,7 @@
           },
           {
             "source": "tornado",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "tornado",
@@ -19722,10 +18614,6 @@
           },
           {
             "source": "tornado",
-            "target": "numpy"
-          },
-          {
-            "source": "tornado",
             "target": "pillow"
           },
           {
@@ -19742,19 +18630,7 @@
           },
           {
             "source": "tornado",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "tornado",
             "target": "pyzmq"
-          },
-          {
-            "source": "tornado",
-            "target": "scipy"
-          },
-          {
-            "source": "tornado",
-            "target": "time-machine"
           },
           {
             "source": "tornado",
@@ -19767,14 +18643,6 @@
           {
             "source": "tornado",
             "target": "websockets"
-          },
-          {
-            "source": "tornado",
-            "target": "yarl"
-          },
-          {
-            "source": "trio",
-            "target": "aiohttp"
           },
           {
             "source": "trio",
@@ -19794,7 +18662,7 @@
           },
           {
             "source": "trio",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "trio",
@@ -19818,10 +18686,6 @@
           },
           {
             "source": "trio",
-            "target": "numpy"
-          },
-          {
-            "source": "trio",
             "target": "pillow"
           },
           {
@@ -19838,23 +18702,7 @@
           },
           {
             "source": "trio",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "trio",
             "target": "pyzmq"
-          },
-          {
-            "source": "trio",
-            "target": "scipy"
-          },
-          {
-            "source": "trio",
-            "target": "time-machine"
-          },
-          {
-            "source": "trio",
-            "target": "tornado"
           },
           {
             "source": "trio",
@@ -19867,10 +18715,6 @@
           {
             "source": "trio",
             "target": "websockets"
-          },
-          {
-            "source": "trio",
-            "target": "yarl"
           },
           {
             "source": "ttyd",
@@ -19986,10 +18830,6 @@
           },
           {
             "source": "ujson",
-            "target": "aiohttp"
-          },
-          {
-            "source": "ujson",
             "target": "ast-serialize"
           },
           {
@@ -20006,7 +18846,7 @@
           },
           {
             "source": "ujson",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "ujson",
@@ -20030,10 +18870,6 @@
           },
           {
             "source": "ujson",
-            "target": "numpy"
-          },
-          {
-            "source": "ujson",
             "target": "pillow"
           },
           {
@@ -20050,23 +18886,7 @@
           },
           {
             "source": "ujson",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "ujson",
             "target": "pyzmq"
-          },
-          {
-            "source": "ujson",
-            "target": "scipy"
-          },
-          {
-            "source": "ujson",
-            "target": "time-machine"
-          },
-          {
-            "source": "ujson",
-            "target": "tornado"
           },
           {
             "source": "ujson",
@@ -20079,10 +18899,6 @@
           {
             "source": "ujson",
             "target": "websockets"
-          },
-          {
-            "source": "ujson",
-            "target": "yarl"
           },
           {
             "source": "unzip",
@@ -20103,10 +18919,6 @@
           {
             "source": "util-linux",
             "target": "systemd"
-          },
-          {
-            "source": "uv",
-            "target": "aiohttp"
           },
           {
             "source": "uv",
@@ -20134,7 +18946,7 @@
           },
           {
             "source": "uv",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "uv",
@@ -20170,7 +18982,7 @@
           },
           {
             "source": "uvloop",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "uvloop",
@@ -20194,10 +19006,6 @@
           },
           {
             "source": "uvloop",
-            "target": "numpy"
-          },
-          {
-            "source": "uvloop",
             "target": "pillow"
           },
           {
@@ -20214,23 +19022,7 @@
           },
           {
             "source": "uvloop",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "uvloop",
             "target": "pyzmq"
-          },
-          {
-            "source": "uvloop",
-            "target": "scipy"
-          },
-          {
-            "source": "uvloop",
-            "target": "time-machine"
-          },
-          {
-            "source": "uvloop",
-            "target": "tornado"
           },
           {
             "source": "uvloop",
@@ -20243,10 +19035,6 @@
           {
             "source": "uvloop",
             "target": "websockets"
-          },
-          {
-            "source": "uvloop",
-            "target": "yarl"
           },
           {
             "source": "uv",
@@ -20263,10 +19051,6 @@
           {
             "source": "uv",
             "target": "numba"
-          },
-          {
-            "source": "uv",
-            "target": "numpy"
           },
           {
             "source": "uv",
@@ -20298,18 +19082,6 @@
           },
           {
             "source": "uv",
-            "target": "scipy"
-          },
-          {
-            "source": "uv",
-            "target": "time-machine"
-          },
-          {
-            "source": "uv",
-            "target": "tornado"
-          },
-          {
-            "source": "uv",
             "target": "watchfiles"
           },
           {
@@ -20319,10 +19091,6 @@
           {
             "source": "uv",
             "target": "websockets"
-          },
-          {
-            "source": "uv",
-            "target": "yarl"
           },
           {
             "source": "valgrind",
@@ -20442,10 +19210,6 @@
           },
           {
             "source": "watchdog",
-            "target": "aiohttp"
-          },
-          {
-            "source": "watchdog",
             "target": "ast-serialize"
           },
           {
@@ -20462,7 +19226,7 @@
           },
           {
             "source": "watchdog",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "watchdog",
@@ -20486,10 +19250,6 @@
           },
           {
             "source": "watchdog",
-            "target": "numpy"
-          },
-          {
-            "source": "watchdog",
             "target": "pillow"
           },
           {
@@ -20506,23 +19266,7 @@
           },
           {
             "source": "watchdog",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "watchdog",
             "target": "pyzmq"
-          },
-          {
-            "source": "watchdog",
-            "target": "scipy"
-          },
-          {
-            "source": "watchdog",
-            "target": "time-machine"
-          },
-          {
-            "source": "watchdog",
-            "target": "tornado"
           },
           {
             "source": "watchdog",
@@ -20537,14 +19281,6 @@
             "target": "websockets"
           },
           {
-            "source": "watchdog",
-            "target": "yarl"
-          },
-          {
-            "source": "watchfiles",
-            "target": "aiohttp"
-          },
-          {
             "source": "watchfiles",
             "target": "ast-serialize"
           },
@@ -20562,7 +19298,7 @@
           },
           {
             "source": "watchfiles",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "watchfiles",
@@ -20586,10 +19322,6 @@
           },
           {
             "source": "watchfiles",
-            "target": "numpy"
-          },
-          {
-            "source": "watchfiles",
             "target": "pillow"
           },
           {
@@ -20606,23 +19338,7 @@
           },
           {
             "source": "watchfiles",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "watchfiles",
             "target": "pyzmq"
-          },
-          {
-            "source": "watchfiles",
-            "target": "scipy"
-          },
-          {
-            "source": "watchfiles",
-            "target": "time-machine"
-          },
-          {
-            "source": "watchfiles",
-            "target": "tornado"
           },
           {
             "source": "watchfiles",
@@ -20631,10 +19347,6 @@
           {
             "source": "watchfiles",
             "target": "websockets"
-          },
-          {
-            "source": "watchfiles",
-            "target": "yarl"
           },
           {
             "source": "wayland",
@@ -20654,10 +19366,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "aiohttp"
-          },
-          {
-            "source": "wcwidth",
             "target": "ast-serialize"
           },
           {
@@ -20674,7 +19382,7 @@
           },
           {
             "source": "wcwidth",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "wcwidth",
@@ -20698,10 +19406,6 @@
           },
           {
             "source": "wcwidth",
-            "target": "numpy"
-          },
-          {
-            "source": "wcwidth",
             "target": "pillow"
           },
           {
@@ -20718,23 +19422,7 @@
           },
           {
             "source": "wcwidth",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "wcwidth",
             "target": "pyzmq"
-          },
-          {
-            "source": "wcwidth",
-            "target": "scipy"
-          },
-          {
-            "source": "wcwidth",
-            "target": "time-machine"
-          },
-          {
-            "source": "wcwidth",
-            "target": "tornado"
           },
           {
             "source": "wcwidth",
@@ -20745,14 +19433,6 @@
             "target": "websockets"
           },
           {
-            "source": "wcwidth",
-            "target": "yarl"
-          },
-          {
-            "source": "websockets",
-            "target": "aiohttp"
-          },
-          {
             "source": "websockets",
             "target": "ast-serialize"
           },
@@ -20770,7 +19450,7 @@
           },
           {
             "source": "websockets",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "websockets",
@@ -20794,10 +19474,6 @@
           },
           {
             "source": "websockets",
-            "target": "numpy"
-          },
-          {
-            "source": "websockets",
             "target": "pillow"
           },
           {
@@ -20814,23 +19490,7 @@
           },
           {
             "source": "websockets",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "websockets",
             "target": "pyzmq"
-          },
-          {
-            "source": "websockets",
-            "target": "scipy"
-          },
-          {
-            "source": "websockets",
-            "target": "time-machine"
-          },
-          {
-            "source": "websockets",
-            "target": "tornado"
           },
           {
             "source": "websockets",
@@ -20839,10 +19499,6 @@
           {
             "source": "websockets",
             "target": "wcwidth"
-          },
-          {
-            "source": "websockets",
-            "target": "yarl"
           },
           {
             "source": "wget",
@@ -20950,10 +19606,6 @@
           },
           {
             "source": "wrapt",
-            "target": "aiohttp"
-          },
-          {
-            "source": "wrapt",
             "target": "ast-serialize"
           },
           {
@@ -20970,7 +19622,7 @@
           },
           {
             "source": "wrapt",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "wrapt",
@@ -20994,10 +19646,6 @@
           },
           {
             "source": "wrapt",
-            "target": "numpy"
-          },
-          {
-            "source": "wrapt",
             "target": "pillow"
           },
           {
@@ -21014,23 +19662,7 @@
           },
           {
             "source": "wrapt",
-            "target": "pytorch-cpu"
-          },
-          {
-            "source": "wrapt",
             "target": "pyzmq"
-          },
-          {
-            "source": "wrapt",
-            "target": "scipy"
-          },
-          {
-            "source": "wrapt",
-            "target": "time-machine"
-          },
-          {
-            "source": "wrapt",
-            "target": "tornado"
           },
           {
             "source": "wrapt",
@@ -21043,10 +19675,6 @@
           {
             "source": "wrapt",
             "target": "websockets"
-          },
-          {
-            "source": "wrapt",
-            "target": "yarl"
           },
           {
             "source": "x264",
@@ -21062,10 +19690,6 @@
           },
           {
             "source": "xattr",
-            "target": "aiohttp"
-          },
-          {
-            "source": "xattr",
             "target": "ast-serialize"
           },
           {
@@ -21082,7 +19706,7 @@
           },
           {
             "source": "xattr",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "xattr",
@@ -21103,10 +19727,6 @@
           {
             "source": "xattr",
             "target": "numba"
-          },
-          {
-            "source": "xattr",
-            "target": "numpy"
           },
           {
             "source": "xattr",
@@ -21134,18 +19754,6 @@
           },
           {
             "source": "xattr",
-            "target": "scipy"
-          },
-          {
-            "source": "xattr",
-            "target": "time-machine"
-          },
-          {
-            "source": "xattr",
-            "target": "tornado"
-          },
-          {
-            "source": "xattr",
             "target": "watchfiles"
           },
           {
@@ -21155,10 +19763,6 @@
           {
             "source": "xattr",
             "target": "websockets"
-          },
-          {
-            "source": "xattr",
-            "target": "yarl"
           },
           {
             "source": "xbyak",
@@ -22746,10 +21350,6 @@
           },
           {
             "source": "zstandard",
-            "target": "aiohttp"
-          },
-          {
-            "source": "zstandard",
             "target": "ast-serialize"
           },
           {
@@ -22766,7 +21366,7 @@
           },
           {
             "source": "zstandard",
-            "target": "gmpy2"
+            "target": "hypothesis"
           },
           {
             "source": "zstandard",
@@ -22787,10 +21387,6 @@
           {
             "source": "zstandard",
             "target": "numba"
-          },
-          {
-            "source": "zstandard",
-            "target": "numpy"
           },
           {
             "source": "zstandard",
@@ -22818,18 +21414,6 @@
           },
           {
             "source": "zstandard",
-            "target": "scipy"
-          },
-          {
-            "source": "zstandard",
-            "target": "time-machine"
-          },
-          {
-            "source": "zstandard",
-            "target": "tornado"
-          },
-          {
-            "source": "zstandard",
             "target": "watchfiles"
           },
           {
@@ -22839,10 +21423,6 @@
           {
             "source": "zstandard",
             "target": "websockets"
-          },
-          {
-            "source": "zstandard",
-            "target": "yarl"
           },
           {
             "source": "zstd",
@@ -24255,6 +22835,12 @@
             "id": "httptools",
             "payload": {
               "__lazy_json__": "node_attrs/httptools.json"
+            }
+          },
+          {
+            "id": "hypothesis",
+            "payload": {
+              "__lazy_json__": "node_attrs/hypothesis.json"
             }
           },
           {
