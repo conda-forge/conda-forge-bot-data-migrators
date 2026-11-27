@@ -52,7 +52,180 @@
             ]
           }
         },
-        "links": [],
+        "links": [
+          {
+            "source": "clangdev",
+            "target": "apiary"
+          },
+          {
+            "source": "clangdev",
+            "target": "bgenix"
+          },
+          {
+            "source": "clangdev",
+            "target": "bun"
+          },
+          {
+            "source": "clangdev",
+            "target": "ccr"
+          },
+          {
+            "source": "clangdev",
+            "target": "clad"
+          },
+          {
+            "source": "clangdev",
+            "target": "cling"
+          },
+          {
+            "source": "clangdev",
+            "target": "cppinterop"
+          },
+          {
+            "source": "clangdev",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "clangdev",
+            "target": "dttlib"
+          },
+          {
+            "source": "clangdev",
+            "target": "emacs"
+          },
+          {
+            "source": "clangdev",
+            "target": "flang-rt"
+          },
+          {
+            "source": "clangdev",
+            "target": "folly"
+          },
+          {
+            "source": "clangdev",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "clangdev",
+            "target": "hepmc3"
+          },
+          {
+            "source": "clangdev",
+            "target": "herdr-app"
+          },
+          {
+            "source": "clangdev",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "clangdev",
+            "target": "indexed_zstd"
+          },
+          {
+            "source": "clangdev",
+            "target": "inko"
+          },
+          {
+            "source": "clangdev",
+            "target": "ldas-tools-framecpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "clangdev",
+            "target": "libiio"
+          },
+          {
+            "source": "clangdev",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "clangdev",
+            "target": "libpulsar"
+          },
+          {
+            "source": "clangdev",
+            "target": "librepo"
+          },
+          {
+            "source": "clangdev",
+            "target": "lldb"
+          },
+          {
+            "source": "clangdev",
+            "target": "llvmlite"
+          },
+          {
+            "source": "clangdev",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "clangdev",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "clangdev",
+            "target": "mysql"
+          },
+          {
+            "source": "clangdev",
+            "target": "ncdu"
+          },
+          {
+            "source": "clangdev",
+            "target": "omniorb"
+          },
+          {
+            "source": "clangdev",
+            "target": "openslide"
+          },
+          {
+            "source": "clangdev",
+            "target": "openvdb"
+          },
+          {
+            "source": "clangdev",
+            "target": "postgresql"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyqir"
+          },
+          {
+            "source": "clangdev",
+            "target": "python-zstd"
+          },
+          {
+            "source": "clangdev",
+            "target": "quadrants"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-qs"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "clangdev",
+            "target": "smspp-project"
+          },
+          {
+            "source": "clangdev",
+            "target": "ugrep"
+          },
+          {
+            "source": "clangdev",
+            "target": "wasmer"
+          }
+        ],
         "multigraph": false,
         "nodes": [
           {
@@ -83,6 +256,12 @@
             "id": "clad",
             "payload": {
               "__lazy_json__": "node_attrs/clad.json"
+            }
+          },
+          {
+            "id": "clangdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/clangdev.json"
             }
           },
           {
@@ -176,12 +355,6 @@
             }
           },
           {
-            "id": "libmongoc",
-            "payload": {
-              "__lazy_json__": "node_attrs/libmongoc.json"
-            }
-          },
-          {
             "id": "libnvimgcodec",
             "payload": {
               "__lazy_json__": "node_attrs/libnvimgcodec.json"
@@ -236,12 +409,6 @@
             }
           },
           {
-            "id": "openexr-python",
-            "payload": {
-              "__lazy_json__": "node_attrs/openexr-python.json"
-            }
-          },
-          {
             "id": "openslide",
             "payload": {
               "__lazy_json__": "node_attrs/openslide.json"
@@ -269,6 +436,12 @@
             "id": "python-zstd",
             "payload": {
               "__lazy_json__": "node_attrs/python-zstd.json"
+            }
+          },
+          {
+            "id": "quadrants",
+            "payload": {
+              "__lazy_json__": "node_attrs/quadrants.json"
             }
           },
           {
@@ -633,6 +806,378 @@
           {
             "source": "clad",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "clangdev",
+            "target": "apiary"
+          },
+          {
+            "source": "clangdev",
+            "target": "arcticdb"
+          },
+          {
+            "source": "clangdev",
+            "target": "arrow-cpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "backports.zstd"
+          },
+          {
+            "source": "clangdev",
+            "target": "bfiocpp"
+          },
+          {
+            "source": "clangdev",
+            "target": "bgen"
+          },
+          {
+            "source": "clangdev",
+            "target": "bodo"
+          },
+          {
+            "source": "clangdev",
+            "target": "boost"
+          },
+          {
+            "source": "clangdev",
+            "target": "bun"
+          },
+          {
+            "source": "clangdev",
+            "target": "ccr"
+          },
+          {
+            "source": "clangdev",
+            "target": "cds-crtools"
+          },
+          {
+            "source": "clangdev",
+            "target": "clad"
+          },
+          {
+            "source": "clangdev",
+            "target": "cling"
+          },
+          {
+            "source": "clangdev",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "clangdev",
+            "target": "cppinterop"
+          },
+          {
+            "source": "clangdev",
+            "target": "dectris-compression"
+          },
+          {
+            "source": "clangdev",
+            "target": "dttlib"
+          },
+          {
+            "source": "clangdev",
+            "target": "elegant"
+          },
+          {
+            "source": "clangdev",
+            "target": "emacs"
+          },
+          {
+            "source": "clangdev",
+            "target": "fastar"
+          },
+          {
+            "source": "clangdev",
+            "target": "filament"
+          },
+          {
+            "source": "clangdev",
+            "target": "flang"
+          },
+          {
+            "source": "clangdev",
+            "target": "flang-rt"
+          },
+          {
+            "source": "clangdev",
+            "target": "freefem"
+          },
+          {
+            "source": "clangdev",
+            "target": "gaudi"
+          },
+          {
+            "source": "clangdev",
+            "target": "gdal"
+          },
+          {
+            "source": "clangdev",
+            "target": "gdb"
+          },
+          {
+            "source": "clangdev",
+            "target": "graphicsmagick"
+          },
+          {
+            "source": "clangdev",
+            "target": "grass"
+          },
+          {
+            "source": "clangdev",
+            "target": "hdf5plugin"
+          },
+          {
+            "source": "clangdev",
+            "target": "hepmc3"
+          },
+          {
+            "source": "clangdev",
+            "target": "herdr-app"
+          },
+          {
+            "source": "clangdev",
+            "target": "heyoka"
+          },
+          {
+            "source": "clangdev",
+            "target": "ifcopenshell"
+          },
+          {
+            "source": "clangdev",
+            "target": "imagecodecs"
+          },
+          {
+            "source": "clangdev",
+            "target": "ispc"
+          },
+          {
+            "source": "clangdev",
+            "target": "lean-ctx"
+          },
+          {
+            "source": "clangdev",
+            "target": "libclc"
+          },
+          {
+            "source": "clangdev",
+            "target": "libiio"
+          },
+          {
+            "source": "clangdev",
+            "target": "libmongoc"
+          },
+          {
+            "source": "clangdev",
+            "target": "libnetcdf"
+          },
+          {
+            "source": "clangdev",
+            "target": "libnvimgcodec"
+          },
+          {
+            "source": "clangdev",
+            "target": "librdkafka"
+          },
+          {
+            "source": "clangdev",
+            "target": "librepo"
+          },
+          {
+            "source": "clangdev",
+            "target": "lighttpd"
+          },
+          {
+            "source": "clangdev",
+            "target": "linux-perf"
+          },
+          {
+            "source": "clangdev",
+            "target": "lldb"
+          },
+          {
+            "source": "clangdev",
+            "target": "llvmlite"
+          },
+          {
+            "source": "clangdev",
+            "target": "mamba"
+          },
+          {
+            "source": "clangdev",
+            "target": "mapserver"
+          },
+          {
+            "source": "clangdev",
+            "target": "mariadb-connector-c"
+          },
+          {
+            "source": "clangdev",
+            "target": "matrix-sdk-python"
+          },
+          {
+            "source": "clangdev",
+            "target": "mesalib"
+          },
+          {
+            "source": "clangdev",
+            "target": "mlir-python-bindings"
+          },
+          {
+            "source": "clangdev",
+            "target": "mold"
+          },
+          {
+            "source": "clangdev",
+            "target": "mysql"
+          },
+          {
+            "source": "clangdev",
+            "target": "nanoarrow"
+          },
+          {
+            "source": "clangdev",
+            "target": "ncdu"
+          },
+          {
+            "source": "clangdev",
+            "target": "ocaml"
+          },
+          {
+            "source": "clangdev",
+            "target": "ocaml-compiler-libs"
+          },
+          {
+            "source": "clangdev",
+            "target": "omniorb"
+          },
+          {
+            "source": "clangdev",
+            "target": "opam"
+          },
+          {
+            "source": "clangdev",
+            "target": "open3d"
+          },
+          {
+            "source": "clangdev",
+            "target": "openexr-python"
+          },
+          {
+            "source": "clangdev",
+            "target": "openslide"
+          },
+          {
+            "source": "clangdev",
+            "target": "openvdb"
+          },
+          {
+            "source": "clangdev",
+            "target": "ovito"
+          },
+          {
+            "source": "clangdev",
+            "target": "oxigraph"
+          },
+          {
+            "source": "clangdev",
+            "target": "postgresql"
+          },
+          {
+            "source": "clangdev",
+            "target": "protozfits"
+          },
+          {
+            "source": "clangdev",
+            "target": "pygnome"
+          },
+          {
+            "source": "clangdev",
+            "target": "pyqir"
+          },
+          {
+            "source": "clangdev",
+            "target": "python"
+          },
+          {
+            "source": "clangdev",
+            "target": "python-rocksdb"
+          },
+          {
+            "source": "clangdev",
+            "target": "qt-main"
+          },
+          {
+            "source": "clangdev",
+            "target": "quadrants"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-fstcore"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-pgenlibr"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-qs"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-qs2"
+          },
+          {
+            "source": "clangdev",
+            "target": "r-seqminer"
+          },
+          {
+            "source": "clangdev",
+            "target": "rocm-comgr"
+          },
+          {
+            "source": "clangdev",
+            "target": "root"
+          },
+          {
+            "source": "clangdev",
+            "target": "rpm-tools"
+          },
+          {
+            "source": "clangdev",
+            "target": "slurm"
+          },
+          {
+            "source": "clangdev",
+            "target": "smspp-project"
+          },
+          {
+            "source": "clangdev",
+            "target": "symengine"
+          },
+          {
+            "source": "clangdev",
+            "target": "tiledb"
+          },
+          {
+            "source": "clangdev",
+            "target": "triton"
+          },
+          {
+            "source": "clangdev",
+            "target": "wasmer"
+          },
+          {
+            "source": "clangdev",
+            "target": "z5py"
+          },
+          {
+            "source": "clangdev",
+            "target": "zed"
+          },
+          {
+            "source": "clangdev",
+            "target": "zstandard"
           },
           {
             "source": "cling",
@@ -1317,6 +1862,10 @@
           {
             "source": "python",
             "target": "clad"
+          },
+          {
+            "source": "python",
+            "target": "clangdev"
           },
           {
             "source": "python",
@@ -2269,6 +2818,12 @@
             "id": "clad",
             "payload": {
               "__lazy_json__": "node_attrs/clad.json"
+            }
+          },
+          {
+            "id": "clangdev",
+            "payload": {
+              "__lazy_json__": "node_attrs/clangdev.json"
             }
           },
           {
