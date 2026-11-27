@@ -53,14 +53,7 @@
         },
         "links": [],
         "multigraph": false,
-        "nodes": [
-          {
-            "id": "python-pcl",
-            "payload": {
-              "__lazy_json__": "node_attrs/python-pcl.json"
-            }
-          }
-        ]
+        "nodes": []
       }
     },
     "exclude": [
@@ -405,6 +398,10 @@
           {
             "source": "aiohttp",
             "target": "dsub"
+          },
+          {
+            "source": "aiohttp",
+            "target": "e3sm-unified"
           },
           {
             "source": "aiohttp",
@@ -1240,6 +1237,10 @@
           },
           {
             "source": "argon2-cffi-bindings",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "argon2-cffi-bindings",
             "target": "eelbrain"
           },
           {
@@ -1677,6 +1678,10 @@
           {
             "source": "astroid",
             "target": "doconce"
+          },
+          {
+            "source": "astroid",
+            "target": "e3sm-unified"
           },
           {
             "source": "astroid",
@@ -3113,6 +3118,10 @@
           {
             "source": "backports.zstd",
             "target": "dxtbx"
+          },
+          {
+            "source": "backports.zstd",
+            "target": "e3sm-unified"
           },
           {
             "source": "backports.zstd",
@@ -4868,6 +4877,10 @@
           },
           {
             "source": "bcrypt",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "bcrypt",
             "target": "eelbrain"
           },
           {
@@ -6464,6 +6477,10 @@
           },
           {
             "source": "bottleneck",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "bottleneck",
             "target": "ecco_v4_py"
           },
           {
@@ -6981,6 +6998,10 @@
           {
             "source": "brotli",
             "target": "dxtbx"
+          },
+          {
+            "source": "brotli",
+            "target": "e3sm-unified"
           },
           {
             "source": "brotli",
@@ -8776,6 +8797,10 @@
           },
           {
             "source": "cartopy",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "cartopy",
             "target": "ecco_v4_py"
           },
           {
@@ -9445,6 +9470,10 @@
           {
             "source": "cffi",
             "target": "dulwich"
+          },
+          {
+            "source": "cffi",
+            "target": "e3sm-unified"
           },
           {
             "source": "cffi",
@@ -10348,6 +10377,10 @@
           },
           {
             "source": "cftime",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "cftime",
             "target": "ilamb"
           },
           {
@@ -10771,6 +10804,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "cmor",
+            "target": "e3sm-unified"
+          },
+          {
             "source": "cmplxfoil",
             "target": "conda-forge-pinning"
           },
@@ -11117,6 +11154,10 @@
           {
             "source": "contourpy",
             "target": "dask-sql"
+          },
+          {
+            "source": "contourpy",
+            "target": "e3sm-unified"
           },
           {
             "source": "contourpy",
@@ -13157,6 +13198,10 @@
           {
             "source": "cython",
             "target": "dwave-samplers"
+          },
+          {
+            "source": "cython",
+            "target": "e3sm-unified"
           },
           {
             "source": "cython",
@@ -15756,6 +15801,10 @@
           },
           {
             "source": "cytoolz",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "cytoolz",
             "target": "ecco_v4_py"
           },
           {
@@ -16221,6 +16270,10 @@
           {
             "source": "debugpy",
             "target": "doconce"
+          },
+          {
+            "source": "debugpy",
+            "target": "e3sm-unified"
           },
           {
             "source": "debugpy",
@@ -17220,6 +17273,14 @@
           },
           {
             "source": "e3sm-tools",
+            "target": "conda-forge-pinning"
+          },
+          {
+            "source": "e3sm-tools",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "e3sm-unified",
             "target": "conda-forge-pinning"
           },
           {
@@ -19464,6 +19525,10 @@
           },
           {
             "source": "gmpy2",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "gmpy2",
             "target": "edrixs"
           },
           {
@@ -19892,6 +19957,10 @@
           },
           {
             "source": "google-crc32c",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "google-crc32c",
             "target": "ecco_v4_py"
           },
           {
@@ -20237,6 +20306,10 @@
           {
             "source": "greenlet",
             "target": "doconce"
+          },
+          {
+            "source": "greenlet",
+            "target": "e3sm-unified"
           },
           {
             "source": "greenlet",
@@ -21200,6 +21273,10 @@
           },
           {
             "source": "h5py",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "h5py",
             "target": "eelbrain"
           },
           {
@@ -22049,6 +22126,10 @@
           {
             "source": "healpix",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "healpix",
+            "target": "e3sm-unified"
           },
           {
             "source": "healpy",
@@ -24280,6 +24361,10 @@
           },
           {
             "source": "lazy-object-proxy",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "lazy-object-proxy",
             "target": "eelbrain"
           },
           {
@@ -25388,6 +25473,10 @@
           },
           {
             "source": "lxml",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "lxml",
             "target": "eelbrain"
           },
           {
@@ -25713,6 +25802,10 @@
           {
             "source": "lz4",
             "target": "dbdreader"
+          },
+          {
+            "source": "lz4",
+            "target": "e3sm-unified"
           },
           {
             "source": "lz4",
@@ -26345,6 +26438,10 @@
           {
             "source": "markupsafe",
             "target": "dragonfly2"
+          },
+          {
+            "source": "markupsafe",
+            "target": "e3sm-unified"
           },
           {
             "source": "markupsafe",
@@ -27913,6 +28010,10 @@
           {
             "source": "matplotlib",
             "target": "dynaphopy"
+          },
+          {
+            "source": "matplotlib",
+            "target": "e3sm-unified"
           },
           {
             "source": "matplotlib",
@@ -30299,6 +30400,10 @@
             "target": "conda-forge-pinning"
           },
           {
+            "source": "mpas_tools",
+            "target": "e3sm-unified"
+          },
+          {
             "source": "mpi4jax",
             "target": "conda-forge-pinning"
           },
@@ -30780,6 +30885,10 @@
           },
           {
             "source": "msgpack-python",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "msgpack-python",
             "target": "ecco_v4_py"
           },
           {
@@ -31249,6 +31358,10 @@
           {
             "source": "msgspec",
             "target": "dandi"
+          },
+          {
+            "source": "msgspec",
+            "target": "e3sm-unified"
           },
           {
             "source": "msgspec",
@@ -31801,6 +31914,10 @@
           {
             "source": "mypy",
             "target": "doconce"
+          },
+          {
+            "source": "mypy",
+            "target": "e3sm-unified"
           },
           {
             "source": "mypy",
@@ -32409,6 +32526,10 @@
           {
             "source": "netcdf4",
             "target": "dummydata"
+          },
+          {
+            "source": "netcdf4",
+            "target": "e3sm-unified"
           },
           {
             "source": "netcdf4",
@@ -33096,6 +33217,10 @@
           },
           {
             "source": "numba",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "numba",
             "target": "econml"
           },
           {
@@ -33513,6 +33638,10 @@
           {
             "source": "numcodecs",
             "target": "dandi"
+          },
+          {
+            "source": "numcodecs",
+            "target": "e3sm-unified"
           },
           {
             "source": "numcodecs",
@@ -35301,6 +35430,10 @@
           {
             "source": "numpy",
             "target": "e3sm-tools"
+          },
+          {
+            "source": "numpy",
+            "target": "e3sm-unified"
           },
           {
             "source": "numpy",
@@ -42688,6 +42821,10 @@
           },
           {
             "source": "pandas",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pandas",
             "target": "ecco_v4_py"
           },
           {
@@ -43984,6 +44121,10 @@
           },
           {
             "source": "paraview",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "paraview",
             "target": "lfric_reader"
           },
           {
@@ -44653,6 +44794,10 @@
           {
             "source": "pillow",
             "target": "dpsprep"
+          },
+          {
+            "source": "pillow",
+            "target": "e3sm-unified"
           },
           {
             "source": "pillow",
@@ -46996,6 +47141,10 @@
           },
           {
             "source": "psutil",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "psutil",
             "target": "ecco_v4_py"
           },
           {
@@ -48832,6 +48981,10 @@
           },
           {
             "source": "pyarrow",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pyarrow",
             "target": "ecco_v4_py"
           },
           {
@@ -49885,6 +50038,10 @@
           {
             "source": "pydantic-core",
             "target": "doconce"
+          },
+          {
+            "source": "pydantic-core",
+            "target": "e3sm-unified"
           },
           {
             "source": "pydantic-core",
@@ -51880,6 +52037,10 @@
           },
           {
             "source": "pyobjc-framework-cocoa",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pyobjc-framework-cocoa",
             "target": "eelbrain"
           },
           {
@@ -52412,6 +52573,10 @@
           },
           {
             "source": "pyogrio",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pyogrio",
             "target": "eo-learn-geometry"
           },
           {
@@ -52689,6 +52854,10 @@
           {
             "source": "pyproj",
             "target": "cw-eval"
+          },
+          {
+            "source": "pyproj",
+            "target": "e3sm-unified"
           },
           {
             "source": "pyproject-fmt",
@@ -53561,6 +53730,10 @@
           {
             "source": "pyspharm",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "pyspharm",
+            "target": "e3sm-unified"
           },
           {
             "source": "pyspharm",
@@ -54636,6 +54809,10 @@
           },
           {
             "source": "python-xxhash",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "python-xxhash",
             "target": "eelbrain"
           },
           {
@@ -55016,6 +55193,10 @@
           },
           {
             "source": "pytokens",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pytokens",
             "target": "eelbrain"
           },
           {
@@ -55357,6 +55538,10 @@
           {
             "source": "pytorch-cpu",
             "target": "diffq"
+          },
+          {
+            "source": "pytorch-cpu",
+            "target": "e3sm-unified"
           },
           {
             "source": "pytorch-cpu",
@@ -55888,6 +56073,10 @@
           },
           {
             "source": "pywavelets",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pywavelets",
             "target": "imagededup"
           },
           {
@@ -56265,6 +56454,10 @@
           {
             "source": "pywin32",
             "target": "dragonfly2"
+          },
+          {
+            "source": "pywin32",
+            "target": "e3sm-unified"
           },
           {
             "source": "pywin32",
@@ -56825,6 +57018,10 @@
           {
             "source": "pywinpty",
             "target": "doconce"
+          },
+          {
+            "source": "pywinpty",
+            "target": "e3sm-unified"
           },
           {
             "source": "pywinpty",
@@ -57441,6 +57638,10 @@
           {
             "source": "pyyaml",
             "target": "dxtbx"
+          },
+          {
+            "source": "pyyaml",
+            "target": "e3sm-unified"
           },
           {
             "source": "pyyaml",
@@ -58976,6 +59177,10 @@
           },
           {
             "source": "pyzmq",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "pyzmq",
             "target": "eelbrain"
           },
           {
@@ -59729,6 +59934,10 @@
           {
             "source": "rasterio",
             "target": "conda-forge-pinning"
+          },
+          {
+            "source": "rasterio",
+            "target": "e3sm-unified"
           },
           {
             "source": "rasterio",
@@ -60792,6 +61001,10 @@
           },
           {
             "source": "rpds-py",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "rpds-py",
             "target": "eelbrain"
           },
           {
@@ -61457,6 +61670,10 @@
           {
             "source": "ruamel.yaml.clib",
             "target": "doconce"
+          },
+          {
+            "source": "ruamel.yaml.clib",
+            "target": "e3sm-unified"
           },
           {
             "source": "ruamel.yaml.clib",
@@ -62353,6 +62570,10 @@
           {
             "source": "scikit-learn",
             "target": "dscribe"
+          },
+          {
+            "source": "scikit-learn",
+            "target": "e3sm-unified"
           },
           {
             "source": "scikit-learn",
@@ -63765,6 +63986,10 @@
           {
             "source": "scipy",
             "target": "dynaphopy"
+          },
+          {
+            "source": "scipy",
+            "target": "e3sm-unified"
           },
           {
             "source": "scipy",
@@ -66676,6 +66901,10 @@
           },
           {
             "source": "shapely",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "shapely",
             "target": "easyocr"
           },
           {
@@ -67061,6 +67290,10 @@
           {
             "source": "simplejson",
             "target": "cylc"
+          },
+          {
+            "source": "simplejson",
+            "target": "e3sm-unified"
           },
           {
             "source": "simplejson",
@@ -68337,6 +68570,10 @@
           {
             "source": "statsmodels",
             "target": "depi"
+          },
+          {
+            "source": "statsmodels",
+            "target": "e3sm-unified"
           },
           {
             "source": "statsmodels",
@@ -71441,6 +71678,10 @@
           {
             "source": "tbb",
             "target": "e3sm-tools"
+          },
+          {
+            "source": "tbb",
+            "target": "e3sm-unified"
           },
           {
             "source": "tbb",
@@ -82540,6 +82781,10 @@
           },
           {
             "source": "tornado",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "tornado",
             "target": "ecco_v4_py"
           },
           {
@@ -83700,6 +83945,10 @@
           },
           {
             "source": "ujson",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "ujson",
             "target": "eelbrain"
           },
           {
@@ -84664,6 +84913,10 @@
           },
           {
             "source": "vtk",
+            "target": "e3sm-unified"
+          },
+          {
+            "source": "vtk",
             "target": "eelbrain"
           },
           {
@@ -84937,6 +85190,10 @@
           {
             "source": "watchdog",
             "target": "digital_rf"
+          },
+          {
+            "source": "watchdog",
+            "target": "e3sm-unified"
           },
           {
             "source": "watchdog",
@@ -85369,6 +85626,10 @@
           {
             "source": "wcwidth",
             "target": "duckcli"
+          },
+          {
+            "source": "wcwidth",
+            "target": "e3sm-unified"
           },
           {
             "source": "wcwidth",
@@ -92107,6 +92368,12 @@
             "id": "e3sm-tools",
             "payload": {
               "__lazy_json__": "node_attrs/e3sm-tools.json"
+            }
+          },
+          {
+            "id": "e3sm-unified",
+            "payload": {
+              "__lazy_json__": "node_attrs/e3sm-unified.json"
             }
           },
           {
