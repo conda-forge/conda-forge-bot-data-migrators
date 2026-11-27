@@ -163,6 +163,10 @@
           },
           {
             "source": "clangdev",
+            "target": "qt-main"
+          },
+          {
+            "source": "clangdev",
             "target": "quadrants"
           },
           {
@@ -342,6 +346,12 @@
             "id": "python-zstd",
             "payload": {
               "__lazy_json__": "node_attrs/python-zstd.json"
+            }
+          },
+          {
+            "id": "qt-main",
+            "payload": {
+              "__lazy_json__": "node_attrs/qt-main.json"
             }
           },
           {
