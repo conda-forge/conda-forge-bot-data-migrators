@@ -2463,6 +2463,10 @@
           },
           {
             "source": "automake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "automake",
             "target": "cutensor"
           },
           {
@@ -3008,10 +3012,6 @@
           {
             "source": "automake",
             "target": "pyqt"
-          },
-          {
-            "source": "automake",
-            "target": "pytorch-cpu"
           },
           {
             "source": "automake",
@@ -5055,6 +5055,10 @@
           },
           {
             "source": "bash",
+            "target": "cusparselt"
+          },
+          {
+            "source": "bash",
             "target": "cutde"
           },
           {
@@ -6823,6 +6827,10 @@
           },
           {
             "source": "bash",
+            "target": "metis"
+          },
+          {
+            "source": "bash",
             "target": "metplus"
           },
           {
@@ -7024,10 +7032,6 @@
           {
             "source": "bash",
             "target": "nghttp2"
-          },
-          {
-            "source": "bash",
-            "target": "nim"
           },
           {
             "source": "bash",
@@ -11695,10 +11699,6 @@
           },
           {
             "source": "binutils",
-            "target": "nim"
-          },
-          {
-            "source": "binutils",
             "target": "ntpoly"
           },
           {
@@ -15911,10 +15911,6 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "nim"
-          },
-          {
-            "source": "cctools-and-ld64",
             "target": "ntpoly"
           },
           {
@@ -17291,10 +17287,6 @@
           },
           {
             "source": "clangdev",
-            "target": "nim"
-          },
-          {
-            "source": "clangdev",
             "target": "ntpoly"
           },
           {
@@ -18240,6 +18232,10 @@
           {
             "source": "cmake",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "cmake",
+            "target": "cusparselt"
           },
           {
             "source": "cmake",
@@ -19559,6 +19555,10 @@
           },
           {
             "source": "cmake",
+            "target": "metis"
+          },
+          {
+            "source": "cmake",
             "target": "metplus"
           },
           {
@@ -19704,10 +19704,6 @@
           {
             "source": "cmake",
             "target": "netcdf-fortran"
-          },
-          {
-            "source": "cmake",
-            "target": "nim"
           },
           {
             "source": "cmake",
@@ -23511,10 +23507,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "nim"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "nitime"
           },
           {
@@ -24111,6 +24103,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -24464,6 +24460,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -25016,6 +25016,10 @@
           {
             "source": "curl",
             "target": "zchunk"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -30395,10 +30399,6 @@
           },
           {
             "source": "gendef",
-            "target": "nim"
-          },
-          {
-            "source": "gendef",
             "target": "ntpoly"
           },
           {
@@ -31327,10 +31327,6 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "nim"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
             "target": "ntpoly"
           },
           {
@@ -31887,10 +31883,6 @@
           },
           {
             "source": "gfortran_osx-64",
-            "target": "nim"
-          },
-          {
-            "source": "gfortran_osx-64",
             "target": "ntpoly"
           },
           {
@@ -32303,6 +32295,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -32471,6 +32467,10 @@
           },
           {
             "source": "git",
+            "target": "nim"
+          },
+          {
+            "source": "git",
             "target": "nitime"
           },
           {
@@ -32552,10 +32552,6 @@
           {
             "source": "git",
             "target": "python-symengine"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -39627,6 +39623,10 @@
           },
           {
             "source": "libcusparse",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libcusparse",
             "target": "dgl"
           },
           {
@@ -39996,10 +39996,6 @@
           {
             "source": "libcxx",
             "target": "ncurses"
-          },
-          {
-            "source": "libcxx",
-            "target": "nim"
           },
           {
             "source": "libcxx",
@@ -43923,6 +43919,10 @@
           },
           {
             "source": "libtool",
+            "target": "cusparselt"
+          },
+          {
+            "source": "libtool",
             "target": "cutde"
           },
           {
@@ -45687,6 +45687,10 @@
           },
           {
             "source": "libtool",
+            "target": "metis"
+          },
+          {
+            "source": "libtool",
             "target": "metplus"
           },
           {
@@ -45888,10 +45892,6 @@
           {
             "source": "libtool",
             "target": "nghttp2"
-          },
-          {
-            "source": "libtool",
-            "target": "nim"
           },
           {
             "source": "libtool",
@@ -51343,10 +51343,6 @@
           },
           {
             "source": "libxml2",
-            "target": "nim"
-          },
-          {
-            "source": "libxml2",
             "target": "nordugrid-arc"
           },
           {
@@ -52208,10 +52204,6 @@
           {
             "source": "llvmdev",
             "target": "ncurses"
-          },
-          {
-            "source": "llvmdev",
-            "target": "nim"
           },
           {
             "source": "llvmdev",
@@ -54414,6 +54406,62 @@
             "target": "lalmetaio"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
+            "source": "metis",
+            "target": "cvxopt"
+          },
+          {
+            "source": "metis",
+            "target": "dgl"
+          },
+          {
+            "source": "metis",
+            "target": "gmsh"
+          },
+          {
+            "source": "metis",
+            "target": "julia"
+          },
+          {
+            "source": "metis",
+            "target": "kahip"
+          },
+          {
+            "source": "metis",
+            "target": "mumps"
+          },
+          {
+            "source": "metis",
+            "target": "octave"
+          },
+          {
+            "source": "metis",
+            "target": "opensees"
+          },
+          {
+            "source": "metis",
+            "target": "petsc"
+          },
+          {
+            "source": "metis",
+            "target": "pybammsolvers"
+          },
+          {
+            "source": "metis",
+            "target": "spral"
+          },
+          {
+            "source": "metis",
+            "target": "sundials"
+          },
+          {
+            "source": "metis",
+            "target": "superlu_dist"
+          },
+          {
             "source": "metview",
             "target": "metplus"
           },
@@ -56391,6 +56439,10 @@
           },
           {
             "source": "ninja",
+            "target": "cusparselt"
+          },
+          {
+            "source": "ninja",
             "target": "cutde"
           },
           {
@@ -57544,10 +57596,6 @@
           {
             "source": "ninja",
             "target": "ncurses"
-          },
-          {
-            "source": "ninja",
-            "target": "nim"
           },
           {
             "source": "ninja",
@@ -71435,6 +71483,10 @@
           },
           {
             "source": "python",
+            "target": "cusparselt"
+          },
+          {
+            "source": "python",
             "target": "cutde"
           },
           {
@@ -73252,10 +73304,6 @@
           {
             "source": "python",
             "target": "nh3"
-          },
-          {
-            "source": "python",
-            "target": "nim"
           },
           {
             "source": "python",
@@ -91147,10 +91195,6 @@
           },
           {
             "source": "shellcheck",
-            "target": "nim"
-          },
-          {
-            "source": "shellcheck",
             "target": "ntpoly"
           },
           {
@@ -93792,10 +93836,6 @@
           {
             "source": "ucrt",
             "target": "ncurses"
-          },
-          {
-            "source": "ucrt",
-            "target": "nim"
           },
           {
             "source": "ucrt",
@@ -97184,10 +97224,6 @@
           {
             "source": "winpthreads",
             "target": "ncurses"
-          },
-          {
-            "source": "winpthreads",
-            "target": "nim"
           },
           {
             "source": "winpthreads",
@@ -102695,10 +102731,6 @@
           },
           {
             "source": "zlib",
-            "target": "nim"
-          },
-          {
-            "source": "zlib",
             "target": "nodejs"
           },
           {
@@ -106070,6 +106102,12 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
+            }
+          },
+          {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
             }
           },
           {
@@ -110648,6 +110686,12 @@
             "id": "metaio",
             "payload": {
               "__lazy_json__": "node_attrs/metaio.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
