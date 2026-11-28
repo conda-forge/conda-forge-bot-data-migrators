@@ -91,10 +91,6 @@
           },
           {
             "source": "clangdev",
-            "target": "nix"
-          },
-          {
-            "source": "clangdev",
             "target": "openslide"
           },
           {
@@ -170,12 +166,6 @@
             "id": "mysql",
             "payload": {
               "__lazy_json__": "node_attrs/mysql.json"
-            }
-          },
-          {
-            "id": "nix",
-            "payload": {
-              "__lazy_json__": "node_attrs/nix.json"
             }
           },
           {
