@@ -47,6 +47,18 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
+            }
+          },
+          {
             "id": "pandoc",
             "payload": {
               "__lazy_json__": "node_attrs/pandoc.json"
@@ -3258,6 +3270,10 @@
           },
           {
             "source": "cmake",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cmake",
             "target": "cutlass"
           },
           {
@@ -3663,6 +3679,10 @@
           {
             "source": "cmake",
             "target": "mbedtls"
+          },
+          {
+            "source": "cmake",
+            "target": "metis"
           },
           {
             "source": "cmake",
@@ -4910,6 +4930,10 @@
           },
           {
             "source": "cuda-cudart",
+            "target": "cusparselt"
+          },
+          {
+            "source": "cuda-cudart",
             "target": "cutensor"
           },
           {
@@ -5051,6 +5075,10 @@
           {
             "source": "cuda-nvrtc",
             "target": "cupy"
+          },
+          {
+            "source": "cuda-nvrtc",
+            "target": "cusparselt"
           },
           {
             "source": "cuda-nvrtc",
@@ -5223,6 +5251,10 @@
           {
             "source": "curl",
             "target": "tiledb"
+          },
+          {
+            "source": "cusparselt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cutensor",
@@ -6578,6 +6610,10 @@
           },
           {
             "source": "git",
+            "target": "cusparselt"
+          },
+          {
+            "source": "git",
             "target": "cutensor"
           },
           {
@@ -6635,10 +6671,6 @@
           {
             "source": "git",
             "target": "pynacl"
-          },
-          {
-            "source": "git",
-            "target": "pytorch-cpu"
           },
           {
             "source": "git",
@@ -8267,6 +8299,10 @@
           {
             "source": "libcusparse",
             "target": "cupy"
+          },
+          {
+            "source": "libcusparse",
+            "target": "cusparselt"
           },
           {
             "source": "libcusparse",
@@ -10698,6 +10734,10 @@
           },
           {
             "source": "make",
+            "target": "metis"
+          },
+          {
+            "source": "make",
             "target": "mpc"
           },
           {
@@ -11461,6 +11501,10 @@
             "target": "conda-standalone"
           },
           {
+            "source": "metis",
+            "target": "ceres-solver"
+          },
+          {
             "source": "micromamba",
             "target": "glib"
           },
@@ -12171,6 +12215,10 @@
           {
             "source": "ninja",
             "target": "cuda-nvcc-impl"
+          },
+          {
+            "source": "ninja",
+            "target": "cusparselt"
           },
           {
             "source": "ninja",
@@ -14002,6 +14050,10 @@
           },
           {
             "source": "patchelf",
+            "target": "cusparselt"
+          },
+          {
+            "source": "patchelf",
             "target": "cutensor"
           },
           {
@@ -14023,10 +14075,6 @@
           {
             "source": "patchelf",
             "target": "openmpi"
-          },
-          {
-            "source": "patchelf",
-            "target": "pytorch-cpu"
           },
           {
             "source": "patch",
@@ -15827,6 +15875,10 @@
           {
             "source": "python",
             "target": "cupy"
+          },
+          {
+            "source": "python",
+            "target": "cusparselt"
           },
           {
             "source": "python",
@@ -22728,6 +22780,12 @@
             }
           },
           {
+            "id": "cusparselt",
+            "payload": {
+              "__lazy_json__": "node_attrs/cusparselt.json"
+            }
+          },
+          {
             "id": "cutensor",
             "payload": {
               "__lazy_json__": "node_attrs/cutensor.json"
@@ -24117,6 +24175,12 @@
             "id": "menuinst",
             "payload": {
               "__lazy_json__": "node_attrs/menuinst.json"
+            }
+          },
+          {
+            "id": "metis",
+            "payload": {
+              "__lazy_json__": "node_attrs/metis.json"
             }
           },
           {
