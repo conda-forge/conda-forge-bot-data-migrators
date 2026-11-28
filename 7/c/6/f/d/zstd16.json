@@ -83,11 +83,15 @@
           },
           {
             "source": "clangdev",
+            "target": "mamba"
+          },
+          {
+            "source": "clangdev",
             "target": "mysql"
           },
           {
             "source": "clangdev",
-            "target": "omniorb"
+            "target": "nix"
           },
           {
             "source": "clangdev",
@@ -133,6 +137,12 @@
             }
           },
           {
+            "id": "elfutils",
+            "payload": {
+              "__lazy_json__": "node_attrs/elfutils.json"
+            }
+          },
+          {
             "id": "flang-rt",
             "payload": {
               "__lazy_json__": "node_attrs/flang-rt.json"
@@ -157,15 +167,21 @@
             }
           },
           {
+            "id": "mamba",
+            "payload": {
+              "__lazy_json__": "node_attrs/mamba.json"
+            }
+          },
+          {
             "id": "mysql",
             "payload": {
               "__lazy_json__": "node_attrs/mysql.json"
             }
           },
           {
-            "id": "omniorb",
+            "id": "nix",
             "payload": {
-              "__lazy_json__": "node_attrs/omniorb.json"
+              "__lazy_json__": "node_attrs/nix.json"
             }
           },
           {
